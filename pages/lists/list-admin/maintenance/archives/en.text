@@ -1,0 +1,46 @@
+@title = 'List Archives'
+@tags = ['lists', 'archives', 'list maintenance', 'admin']
+
+h2.  Access Rights to Archives
+
+You can control who has access to view your list's web archives. This option is under:
+
+p((.  *Admin* > *Edit List Config* > *Archives* > *Web archives*
+
+The options for this setting are:
+
+* *public* anyone can access the archives.
+* *subscribers only* only list subscribers will be able to access the archives. In order to login to view the archives, they will need a list account (a login password to go with their email address).
+* *owners* only the list owners may view the archives.
+
+h2. Downloading Archives
+
+To download a zip file containing the list archives, go to:
+
+p((. *Admin* > *Manage Archives*
+
+Then select the months you want to download, and hit *Download Zip file*.
+
+h2. Deleting Archives
+
+To delete the list archives, you have two options:
+
+* open the individual message in the archives and hit the button to delete that single email.
+* follow the directions above for downloading the archives, except hit the delete button instead of the download button.
+
+If you do not wish your list to have any archives, please contact us directly.
+
+h2. Email Address Protection
+
+By default, sympa tries to make protect email addresses in the list archives so that they cannot be recognized by "email harvesting web spiders":http://en.wikipedia.org/wiki/Web_crawler.
+
+This option is under:
+
+p((. *Admin* > *Edit List Config* > *Miscellaneous* > *email address protection method*
+
+The choices are:
+
+* *at* addresses are written like so: helpdesk@riseup.net -> @helpdesk AT riseup.net@
+* *javascript* addresses are composed using javascript, so that they look readable to humans but probably not to an email harvesting spider.
+* *cookie* before you enter the archives, you must accept a cookie. This option will prevent a search engine from indexing your archives, even if they are public. However, it will also prevent you from using direct URL links into a public archive: the user will first have to accept the cookie and this process redirects them to the general index of the archives.
+* *none* no attempt is made to change the email addresses.

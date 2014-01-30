@@ -1,0 +1,20 @@
+en:
+  tags: "Tags"
+  tag: "Tag"
+  related: "Related"
+  system_updates: "System Updates"
+  missing_translation: "This page has not yet been translated from the English."
+  support_riseup: "Support Riseup!"
+  motto: "Get off the internet, I will see you in the streets."
+  footer_tagline: "This site is run by riseup.net, your friendly autonomous tech collective since 1999."
+  system_updates: "System Updates"
+  # quick links:
+  link_privacy: "Privacy Policy"
+  link_about_us: "About Us"
+  link_status: "System Status"
+  link_support: "Support Riseup"
+  # services:
+  link_lists: "Mailing Lists"
+  link_email: "Email"
+  link_chat: "Chat"
+  link_groups: "Groups"

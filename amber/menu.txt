@@ -1,0 +1,54 @@
+email
+  settings
+    mail-passwords
+    mail-accounts
+    smtp
+    aliases
+    quota
+    email-filters
+    email-folders
+  clients
+    smtp
+    thunderbird
+    k9
+    apple-mail
+    iphone-mail
+    microsoft-outlook
+    evolution
+  webmail
+    enabled-cookies
+    cookie-test
+    address-book
+  scams
+    spam
+    viruses
+lists
+  list-user
+    access
+    accounts
+    sending-mail
+    subscribing
+    web-space
+  list-admin
+    configuration
+    maintenance
+    faq
+chat
+  clients
+  rooms
+  security
+security
+  surveillance
+  privacy
+  human-security
+  device-security
+  message-security
+  network-security
+  resources
+about-us
+  contact
+  newsletter
+  donate
+  policy
+  politics
+  projects

@@ -1,0 +1,36 @@
+@title = 'Quota'
+
+h2. Why doesn't Riseup provide more quota?
+
+We would like to, but it is expensive. Hard drives are super cheap, but the computers that house these drives and the rent on the space to house the computers is expensive.
+
+h2.  Why isn't my quota updated?
+
+It would be very time consuming for the server to calculate an exact quota usage. Instead, the quota number is a guess. Often, it is a very accurate guess. However, sometimes the guess can be wildly off. You will never go over quota (and start bouncing message) unless you actually have used up all your storage space.
+
+Another thing the mail server does to save time is to only update the quota "guess" when you receive a new message. This means that if you delete a message, your quota will not appear to change until the next time you receive an email.
+
+h2.  How do I increase my quota?
+
+# Login to https://user.riseup.net
+# click *Email*
+# enter new quota amount
+
+h2.  Where is my quota going?
+
+You can use squirrelmail to see the size of each of your folders. This is useful if you are unsure of where your quota is being used up.
+
+# go to https://mail.riseup.net and login to squirrelmail.
+# click on the button *Folder Sizes* on the left (under the list of folders).
+
+This method only counts mail in folders that you are subscribed to in Squirrelmail; you can confirm that you are subscribed to all folders in Squirrelmail by clicking 'Folders' at the top, and looking at the 'Unsubscribe/Subscribe' field. If there any folders that you are not subscribed to, they will show up in the right column, and you can select them and hit 'Subscribe' to subscribe to them.
+
+Space in folders is often taken up by a few messages with large attachments. Within a folder, you can sort by size, to see which are the largest messages.
+
+# in squirrelmail, open the folder you want to check
+# click on the box to the right of "Size"
+# this will display the largest messages first. You can then delete any large messages you no longer want.
+# you can click on the arrow to the right of "Size" to change whether it displays the largest first or last
+# when you are done, you likely want to click on the box to the right of "Date" to order by date
+
+All messages in your folders count towards your quota, including messages in the <%= link 'special folders' => 'email-folders' %> Trash, Sent and Spam.

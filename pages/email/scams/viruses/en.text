@@ -1,0 +1,32 @@
+@title = 'Viruses'
+
+h1. Everything you wanted to know about viruses but where afraid to ask
+
+Email based viruses affecting Micro$oft Windows are running rampant on the internet. Here are the basic things you need to know about email viruses:
+
+h2. what you absolutely must know
+
+* Viruses always fake the return address. Viruses will appear to come from people you know, yourself, system administrators, or other people you might trust.
+* There are several very common viruses which pretend to come from riseup.net "staff" (or the staff of whatever the mail domain happens to be). These viruses threaten to close your account unless you take immediate action by opening the attachment (and thereby infecting your computer). Don't be fooled!
+* Viruses always fake the return address. OK, we just said that, but it bears repeating.
+* If you receive a notice that a message you sent has a virus, you can almost always ignore this. Again, since viruses fake the return address, all this means is that someone else is infected and is sending out viruses which appear to be from you.
+* So how did the virus get your address? The virus infected a computer which has sent you mail or which you have sent mail to, or it has pulled your address from a web page somewhere.
+* Do not open attachments from anyone, including people you know, unless you know specifically that they were going to send you an attachment.
+* We here at riseup.net will NEVER send you any mail with an attachment.
+
+h2. viruses and email lists
+
+* If a virus is sent to your private list, it does not mean there is a breach of security. It just means that someone who is infected has both the list address and the address of a list subscriber on their computer.
+* We filter our mail and lists for viruses, but things will get through.
+* Often, a virus will attempt to subscribe you to a mailing list. How does this happen? Lets say you and a friend are on the same mailing list and then your friend's computer is infected. The virus on your friends computer now has your address and the subscription address of the list (listname-subscribe@lists.riseup.net). Eventually, the virus will probably send a message to listname-subscribe@lists.riseup.net which appears to come from you. Then, the list software will send you a message asking you to confirm that you want to be subscribed.
+
+h2. blocking virus email
+
+* If you are receiving a lot of viruses and have a riseup.net email account, you can block most of them by enabling a spam filter. Go to your [user control panel->http://user.riseup.net], then click 'Spam filter'.
+* Some mail clients, like Thunderbird (free software) have really good spam filtering built in and will do a good job blocking viruses.
+* riseup.net mail accounts and mailing lists should block all attachments which are executable. This does not always work, and some viruses come as executables within a zip file.
+
+h2. removing viruses from infected computers
+
+* If you opened a suspicious attachment on a Micro$oft Windows computer, your computer is probably infected. We suggest you use the Free Software anti-virus program ClamWin. As an alternative, Grisoft also provides a no-cost version of their commercial anti-virus program.
+* Mail accounts cannot get infected with a virus. It is your home computer which can get infected. If you are infected, you need to clean you home computer of the virus, but your riseup.net email account is OK.

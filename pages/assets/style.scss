@@ -1,0 +1,259 @@
+// note: css paths are always relative to the css file
+$masthead-img: 'images/riseup-masthead-blue.png';
+$masthead-background-color: #5e9ee3;
+$masthead-height: 80px;
+$gutter: 15px;
+$background-color: #e6e3dc;
+$menu-shadow-size: 1px;
+$menu-shadow-blur: 2px;
+$menu-shadow-color: #fff;
+$content-border-color: #ccc;
+$content-background-color: #fff;
+$title-background-color: #efefef;
+$footer-height: 80px;
+$footer-gutter: 20px;
+$footer-background-color: #666;
+$footer-color: #ddd;
+$footer-border-width: 1px;
+$footer-border-color: darken($footer-background-color, 10%);
+$navigation-item-active-background-color: #CCC9C4;
+$navigation-item-active-color: #000;
+$navigation-item-background-color: #eee;
+$navigation-item-color: #666;
+$navigation-border-color: #bbb;
+$link-color: darken($masthead-background-color, 15%);
+$link-visited-color: darken($masthead-background-color, 25%);
+
+//
+// TYPOGRAPHY
+//
+
+a {
+  color: $link-color;
+}
+a:visited {
+  color: $link-visited-color;
+}
+
+//
+// MASTHEAD
+//
+
+#masthead {
+  background-color: $masthead-background-color;
+  width: 100%;
+  margin: 0;
+ .masthead-inner {
+   height: $masthead-height;
+   background: $masthead-background-color url(#{$masthead-img}) 0px 0px no-repeat;
+  }
+}
+
+#top-menu {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 5px 14px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(0,0,0,0.15);
+  }
+  a.active {
+    background-color: $background-color;
+    color: black;
+    box-shadow: inset $menu-shadow-size $menu-shadow-size $menu-shadow-blur $menu-shadow-color;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #top-menu a {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
+}
+
+//
+// MIDDLE
+//
+
+#main {
+  margin-top: $gutter;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.shadow-box {
+  background-color: $content-background-color;
+  border: 1px solid $content-border-color;
+  box-shadow: 1px 1px 4px #CCC9C3;
+}
+
+.title-box {
+  color: black;
+  background-color: $title-background-color;
+  padding: $gutter;
+  border-bottom: 1px dotted $content-border-color;
+  h1 {
+    margin: 0;
+  }
+  .summary {
+    color: #666;
+    line-height: 1.5em;
+    margin-top: 10px;
+  }
+}
+
+.content-box {
+  padding: $gutter;
+}
+
+//
+// SIDEBAR
+//
+
+#sidebar {
+  padding-right: 0;
+  margin-bottom: 15px;
+  #navigation {
+    background-color: $navigation-item-background-color;
+    border: 1px solid $navigation-border-color;
+    box-shadow: 1px 1px 4px #CCC9C3;
+  }
+  ul.nav.nav-pills.nav-stacked {
+    li a {
+      color: $navigation-item-color;
+      border-radius: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    li.active a {
+      background-color: $navigation-item-active-background-color;
+      color: $navigation-item-active-color;
+    }
+  }
+  li.level2 a {padding-left: $gutter*2;}
+  li.level3 a {padding-left: $gutter*3;}
+  .sidebar-addendum {
+    margin-top: $gutter;
+  }
+  a.label {
+    color: $link-color !important;
+  }
+  a.label-primary {
+    color: white !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    padding-right: 15px; // hard coded bootstrap gutter for now.
+  }
+}
+
+//
+// FOOTER
+// see http://getbootstrap.com/examples/sticky-footer/
+//
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -1 * ($footer-height + $footer-gutter);
+  padding: 0 0 ($footer-height + $footer-gutter);
+}
+
+#footer {
+  padding-top: $footer-gutter;
+  //height: $footer-height - $footer-border-width;
+  #footer-inner {
+    height: $footer-height;
+    border-top: $footer-border-width solid $footer-border-color;
+    background-color: $footer-background-color;
+  }
+}
+
+ @media (max-width: 767px) {
+  #footer a {
+    font-size: 80%;
+    margin: 0 2px;
+  }
+}
+
+// footer styling
+
+#footer .footer-text {
+  text-align: right;
+  padding-top: 10px;
+  a, p {
+    color: $footer-color;
+    margin: 4px 5px;
+  }
+}
+
+//
+// UTILITY
+//
+
+.image-right {
+  margin-left: $gutter;
+  margin-bottom: $gutter;
+}
+
+//
+// FRONT PAGE
+//
+
+.logo {
+  min-height: 87px;
+  padding-left: 280px;
+  padding-top: 10px;
+  background: url(images/riseup-rainbow.png) no-repeat;
+}
+@media only screen and (max-width: 590px) {
+  .logo {
+     padding-left: 94px;
+     padding-top: 65px;
+  }
+}
+
+.feed {
+  border: 1px dotted #ccc;
+
+  .item {
+    border-top: 1px dotted #ccc;
+    padding: $gutter;
+    .label {
+      font-size: 1em;
+    }
+    .date {
+      font-style: italic;
+      line-height: 2em;
+    }
+    .text {
+
+    }
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: $gutter;
+    margin: 0;
+    background: #f9f9f9;
+  }
+}

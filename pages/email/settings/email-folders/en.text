@@ -1,0 +1,48 @@
+@title = 'Email Folders'
+
+If you use web-mail or IMAP, your mail account has a few folders with special behavior. These special folders do not apply to you if you use POP, because POP does not use folders stored on the server.
+
+h2. Trash Folder
+
+All mail that has been in the Trash folder more than 21 days is deleted automatically. Most mail clients are configured such that any message which is deleted from any other folder is automatically put into the Trash folder.
+
+h2. Sent Folder
+
+All mail older than 120 days in the *Sent* folder is deleted automatically. If you want to keep your sent mail for a longer period of time, we suggest that you copy the sent mail to another folder at the end of every month. For example:
+
+In squirrelmail:
+
+* select the "Sent" folder.
+* click "Show All"
+* click "Toggle All"
+* select a destination folder and click "Move".
+
+In thunderbird:
+* select the "Sent" folder.
+* choose Edit > Select > All
+* choose Message > Move, and select a destination folder.
+* If you choose a folder that is on your local computer (under "Local Folders"), then the mail will be stored on your computer and will not eat up your quota. However, then you will not be able to access the messages from other computers.
+
+Typically, you will not need to create a new *Sent* folder: webmail and most mail clients will create this for you automatically.
+
+h2.  Spam Folder
+
+If you have spam filtering enabled, then messages identified as Spam are delivered directly to this folder. In order to keep spam from eating up your quota, messages in the *Spam* folder are deleted automatically after seven days.
+
+h2. Why can't you see some of your email folders?
+
+h3. Are you using POP?
+
+When using POP, you will not be able to see the server-based folders which you see if you use IMAP or web mail.
+
+POP only has local folders which are stored on you local machine.
+
+h3. Are you using IMAP?
+
+If you are using IMAP and you cannot see your server-based folders, then you may need to "subscribe" to these folders in your mail client in order to see them.
+
+In <%= link 'thunderbird' %> you do this by right-clicking on the *Inbox*, and selecting *Subscribe*.
+
+In Squirrelmail, click *Folders* at the top, and look at the *Unsubscribe/Subscribe* field. If there any folders that you are not subscribed to, they will show up in the right column, and you can select them and hit *Subscribe* to subscribe to them.
+
+Otherwise, consult your mail client's documentation for how to do this.

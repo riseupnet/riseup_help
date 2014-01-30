@@ -1,0 +1,46 @@
+@title = "Mail Accounts"
+
+h2. How do I create an email account?
+
+There are two ways:
+
+# "Request an account":https://user.riseup.net/, or...
+# Get invite codes from two friends
+
+It is sometimes difficult for us to keep up with the volume of requests, so it may take us up to a few weeks to get back to you. If you know two different riseup.net users, you can use the invite method, and your account will be created and be ready to use immediately. You should only request invites from people you know personally.
+
+
+h2. How do I change my username?
+
+# Login to https://user.riseup.net
+# Click *My Settings*
+# Change your username
+# Click *Save*
+
+There are some important things to consider before you change your username:
+
+* Your squirrelmail and IMP addressbooks will be lost. If you want to keep your addressbooks for these web based email interfaces, then you must do this:
+
+# export the addressebook to a file from within Squirrelmail or IMP.
+# change your username
+# import the file of addresses back into Squirrelmail or IMP.
+
+* After you have changed your username, you should probably add the old username as an alias for your account. This way, you won't miss any email. If you are changing your username to avoid spam, however, then skip this step.
+* Once your username is changed, use that new username to login at mail.riseup.net.
+
+h2. How can I delete my account?
+
+Simply follow these steps:
+
+# Login to https://user.riseup.net
+# Click on the *Close my email account* link.
+
+h2. How do I change or delete my alternate email address?
+
+We would prefer not to store an alternate email address for you. However, the alternate email is currently the only way to reset a forgotten password.
+
+To change this:
+
+# Login to https://user.riseup.net
+# Click *My Settings*
+# You can remove or change what is in the 'Alternate Email' field

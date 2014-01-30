@@ -1,0 +1,39 @@
+@title = 'Address Book'
+
+h2.  How do I create an address group in Squirrelmail?
+
+This is how you create an email list of your existing addresses. To do this, you must already have the addresses that you want to add entered into your address book.
+
+# login to https://mail.riseup.net
+# Click on options
+# Click on Address Groups
+# Click on "Add New Member"
+# Click on the button labeled "list all"
+# Click the check boxes for the addresses that you wish to add to the group
+# Type the name of the group in the "Add to New Group" field at the bottom
+# Click on Add
+
+h2.  How do I remove someone from an address group in Squirrelmail?
+
+# login to https://mail.riseup.net
+# Click on options
+# Click on Address Groups
+# Click on modify
+# Click on list
+# Click on the check box next to the person you want to remove
+
+h2.  How do I create an address group in IMP?
+
+If you are using IMP, follow these instructions to create an email list from existing email addresses. As with squirrelmail, the email addresses must already be in your address book to be added to an address group.
+
+# Login in https://mail.riseup.net
+# Click on Address Book
+# Click on Browse
+# Click on the email addresses that you wish to add
+# Select from the pull-down menu "Create a new contact list in my address book"
+# Click on Add
+# Name the addresslist
+
+Viola!
+
+To edit this group, follow 1-3 above, then click on the first letter of the group's name to find it in your address book. Click on the address list. Now you can remove members from the list.

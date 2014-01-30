@@ -1,0 +1,22 @@
+#footer-inner
+  .container
+    .row
+      .col-sm-12
+        .pull-left
+          = # language_select_tag
+        %div.footer-text
+          %p
+            = t(:footer_tagline)
+          %ul.list-inline
+            %li
+              %a(href="https://help.riseup.net/donate")= t :link_support
+            %li
+              %a(href="https://status.riseup.net/")= t :link_status
+            %li
+              %a(href="https://lists.riseup.net/")= t :link_lists
+            %li
+              %a(href="https://mail.riseup.net/")= t :link_email
+            %li
+              %a(href="https://help.riseup.net/about-us")= t :link_about_us
+            %li
+              %a(href="https://help.riseup.net/privacy-policy")= t :link_privacy

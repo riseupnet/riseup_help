@@ -1,0 +1,57 @@
+@title = 'Spam, spam, spam!'
+
+h1. A Word on Spam
+
+Many people ask, "why me god! why do I get so much spam?"
+
+Well, you are not alone. Most of all email traffic these days is spam. Spammers have all kinds of tricky and evil methods of getting your email address, including scanning web pages, creating viruses to harvest addresses from your friend's computer, and sending spam to random email addresses in the hopes that some will match. Most spam now comes from "zombie networks," where the spammers use viruses to hijack a normal home or office computer for the purpose of sending massive amounts of spam.
+
+There are a couple things you can do to cut down on spam:
+
+*Customize your spam settings:*
+By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
+# Visit https://user.riseup.net and login.
+# Click on *Email* and then *Spam* settings.
+# Click Enable custom spam settings.
+
+*Create a Spam folder:*
+If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
+
+*Create a temporary disposable alias:*
+A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at https://user.riseup.net.
+
+*Use a mail client:*
+Most mail clients these days have some form of spam filtering built in.
+
+*Change your email address:*
+If you really want to cut down on spam, you can simply <%= link 'rename your account' => 'mail-accounts' %>. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
+
+h1. How riseup.net fights spam
+
+Our crack team of spam fighters has erected three layers of spam defense:
+
+* *Realtime Block Lists*: Realtime Block Lists (RBLs) are frequently updated lists of computers which are known to send spam. We use these lists to block email from those spammers. If you try to send an email to riseup.net and it gets rejected because of an RBL, you will see a link in the rejection notice which will lead you to a website with details about the reason for the listing in an RBL. There are good RBLs and bad RBLs: we only use the most reputable ones.
+* *Spamassassin*: Riseup uses "spamassassin":http://spamassassin.apache.org to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
+* *Customizable Spam* Filtering: As our final line of defense, we allow you to customize the spam settings for your account. If the statistical filter is also turned on, it will learn and adapt over time based. For more information, see below.
+
+h1. Why is email to me being blocked as spam?
+
+A recent study has shown that over 95% of the email traffic on the internet is spam! Yes, 95%! For you and me, it is just a nuisance, but for riseup's poor servers, it's a huge hassle. Riseup has deployed a number of tools to combat spam and sometimes a legitimate user's email will be incorrectly identified as spam. Before contacting us, please review the steps listed here to see if you can resolve the problem.
+
+First, let's identify the problem. If your mail is being bounced by riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup uses "Spamssassin":http://spamassassin.apache.org to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check "this page":http://wiki.apache.org/spamassassin/AvoidingFpsForSenders to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
+
+h3. My mail server has "bad MX records"
+
+<pre>
+Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address (EXAMPLE@EXAMPLE.NET) blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
+</pre>
+
+MX records define servers that are authorized to send mail. Some ISPs do not configure their DNS records correctly, and this leads to lots of problems. In fact, this is a common practice for spammers - so riseup does not accept mail with bogus mx records. If the person who is sending you mail is receiving this error, please have them contact their ISP (or their IT department if it's a business) and tell them to look at "this page":http://rfc-ignorant.org/policy-bogusmx.php.

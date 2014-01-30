@@ -1,0 +1,29 @@
+@title = 'Riseup Lists'
+@nav_title = 'Lists'
+
+!>/lists/pile-of-mail.jpg!
+
+Welcome to riseup.net *mailing list help*! Here you will find information regarding mailing lists hosted at http://lists.riseup.net.
+
+For help with riseup.net email accounts, check the <%= link 'email' %> help pages instead. If your question is not answered here, "create a help ticket":https://user.riseup.net/forms.
+
+h2. Top questions for list admins:
+
+* <%= link 'How do I create a list?' => 'how-to-create-a-list' %>
+* <%= link 'How do I change the list owner?' => 'list-definition#changing-owners' %>
+* <%= link 'How do I manage bounces?' => 'bounces' %>
+* <%= link 'How do I change the list name?' => 'list-admin/faq#how-do-I-change-the-list-name' %>
+* <%= link 'What does "FYI: automatic_del" mean' => 'list-admin/faq#what-does-fyi-automatic_del-mean' %>
+* <%= link 'All frequently asked admin questions' => 'list-admin/faq' %>
+
+h2. Top questions for list subscribers:
+
+* <%= link 'How to I change my subscription address?' => 'list-user/accounts#how-do-i-change-my-subscription-address' %>
+* <%= link 'Why is my email to a riseup list being blocked as "spam?"' => 'list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam' %>
+* <%= link 'All frequently asked subscriber questions' => 'list-user' %>
+
+h2. About lists.riseup.net
+
+http://lists.riseup.net is only made possible through your donations. So if you want to keep us running, please <%= link 'donate' %>!
+
+http://lists.riseup.net uses all "free":http://www.gnu.org/philosophy/free-sw.html software, including the "sympa mailing list manager":http://www.sympa.org/, the "apache webserver":http://httpd.apache.org/, "debian GNU/Linux":http://www.debian.org operating system, and the "Perl":http://www.perl.org programming language.

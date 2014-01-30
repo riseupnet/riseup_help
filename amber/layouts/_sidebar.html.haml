@@ -1,0 +1,11 @@
+#navigation
+  %ul.nav.nav-pills.nav-stacked
+    - navigation_items do |item|
+      %li{:class => "#{item[:active]} level#{item[:level]}"}
+        %a{:href => item[:href], :class => ''}= item[:label]
+
+.sidebar-addendum
+  %ul.list-unstyled
+    - available_languages.each do |name, code, url|
+      -# %li
+      %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name

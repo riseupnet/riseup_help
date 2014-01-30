@@ -1,0 +1,19 @@
+@title = 'Usage Agreement for Mail Accounts'
+
+Your mail account is subject to the following agreements and policies:
+
+* <%= link 'tos' %>
+* <%= link 'privacy-policy' %>
+* <%= link 'social-contract' %>
+* <%= link 'dmca' %>
+
+Additionally, we have these policies which relate specifically to your mail account.
+
+* Your email quota will be 20 megabytes. This can be increased upon request.
+* Individuals are allowed exactly one riseup.net account. Activist organizations may have more than one account.
+* Your mail account may be terminated for the following reasons:
+** Using any riseup.net hardware or return address to send spam. Activist spam,
+otherwise known as *tofu*, is still spam and will be treated no differently
+from the corporate variety. This is to ensure that riseup.net does not get
+blocked from delivering mail to other mail providers.
+** Account inactivity for more than six months.

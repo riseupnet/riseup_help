@@ -1,0 +1,32 @@
+!!!
+%html{:lang => @locals[:locale].to_s}
+  %head
+    %title
+      = @page.nav_title + ' - ' + @site.title
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")/
+    %meta(charset="UTF-8")
+    %link(rel="stylesheet" href="/assets/bootstrap.min.css")/
+    %link(rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css")/
+    %link(rel="stylesheet" href="/assets/style.css")/
+    %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")/
+  %body
+    #wrap
+      #masthead
+        = render 'layouts/masthead'
+      #main.container
+        .row
+          .col-sm-12
+            .shadow-box
+              .title-box
+                .logo
+                  .summary= @page.prop(@locals[:locale], :summary)
+              .content-box
+                .row
+                  .col-sm-9
+                    = yield :content
+                  .col-sm-3
+                    .feed
+                      %h2= t(:system_updates)
+                      = render 'common/news_feed'
+    #footer
+      = render 'layouts/footer'

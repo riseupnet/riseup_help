@@ -1,0 +1,42 @@
+@title = 'Email Filters'
+
+h2. How do I edit my email filters?
+
+# You will first want to make sure that whatever folders you want to filter to already exist. You can create a new folder in your mail client or in webmail.
+# Login to https://user.riseup.net with your riseup username and password.
+# Click on *Email* (on the left side of the screen).
+# Click on the *Mail Filters* tab
+# From this screen, you can change the order of your email filters, edit or remove existing filters, or add new filters. To edit an existing filter, click on it, and you will be brought to a screen where you can add new conditions, remove conditions, or edit existing ones.
+
+h2. How do I block an email address?
+
+If you are receiving harassing email or spam and want to ensure that a particular email address is automatically deleted, you can follow these steps:
+
+# Login to https://user.riseup.net with your riseup username and password.
+# Click on *Email* (on the left side of the screen).
+# Click on the *Mail Filters* tab
+# Click on *Add filter*
+# Name the filter whatever you'd like, e.g. "Move to trash"
+# Under the *messages matching* section, select *From* and *Contains* and then type the email address, e.g. "george_bush@whitehouse.gov"
+# In the *Will be placed in folder* field type "Trash" (*case sensitive*- do not use "trash" or "TRASH" or it will not work).
+# Now click *Save*
+
+You're done! Any email from that address will automatically be moved to your trash folder.
+
+Note: If you want to add more email addresses that you want moved to the trash, you can just click on *add condition* follow steps 6-8 above - you don't need to create a new filter.
+
+h2. How do I automatically allow email to pass through my spam filter?
+
+If there is a particular email that always gets sorted into your spam box and you want to ensure that it does not happen in the future, follow these steps:
+
+# Login to https://user.riseup.net with your riseup username and password.
+# Click on the <b>Email</b> (on the left side of the screen).
+# Click on <b>Spam Settings</b> tab.
+# If you have not already done so, click the button that says <b>Enable Custom Spam Settings</b>.
+# Now scroll down all the way to <b>Allow List</b>. Add the email address that you want to allow through your spam filter and click <b>Save Changes</b>.
+
+h2. Can I set up an automatic out-of-office reply?
+
+No, Riseup does not support out-of-office replies. The most important reason why is because if you have auto-response enabled, you respond to spam email. Spammers thus have your email address as somebody who responds to spam, which makes your email more valuable to spammers, and thus you get spammed more.
+
+Also, they can be annoying. For example, if you are on any mailing list they can go out to the whole list. Riseup already has problems where we get blocked as spam by major providers, and having auto-replies coming from riseup accounts could only increase that problem.
