@@ -1,0 +1,44 @@
+#sidebar h1 {
+  margin: 1.5em 0 0.5em 0;
+  border-bottom: 1px dotted #999;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+#sidebar .navigation {
+  /* background-color: #E0DDD7; */
+  background-color: #eee;
+  border: 1px solid #bbb;
+  -webkit-box-shadow: <%= "#{@shadow_size}px #{@shadow_size}px #{@shadow_blur}px #{@shadow_color}" %>;
+  -moz-box-shadow: <%= "#{@shadow_size}px #{@shadow_size}px #{@shadow_blur}px #{@shadow_color}" %>;
+  box-shadow: <%= "#{@shadow_size}px #{@shadow_size}px #{@shadow_blur}px #{@shadow_color}" %>;
+}
+
+#sidebar .navigation a {
+  display: block;
+  padding: 8px;
+  color: #555;
+}
+#sidebar .navigation a:hover {
+  color: black;
+}
+#sidebar .navigation a.active {
+  xfont-weight: bold;
+  background-color: #CCC9C4;
+  color: black;
+}
+
+a.tag {
+  display: inline-block;
+  padding: 3px;
+  margin: 3px 0;
+  background: #eee;
+}
+a.tag:hover {
+  background: #fff;
+}
+
+#sidebar .related a, .page_list a {
+  display: block;
+  margin: 12px 0;
+}

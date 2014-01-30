@@ -1,0 +1,109 @@
+<%
+  @columns = 16
+  @column_width = 42
+  @gutter_width = 15
+
+  @background_color = "#E6E3DC"
+  @footer_color = "#666"
+
+  @masthead_color = "#729FCF"
+  @masthead_color = "#5e9ee3"
+  @masthead_height = 80
+  @masthead_image = "/images/riseup-masthead-blue.png"
+  #@masthead_image_bg = "/images/riseup-masthead-blue-bg.png"
+
+  @theme_color = @masthead_color
+
+  @shadow_color = "#B8B5B0"
+  @shadow_color = "#CCC9C3"
+  @shadow_size = 1
+  @shadow_blur = 4
+
+  @menu_shadow_color = "white"
+  @menu_shadow_size = 1
+  @menu_shadow_blur = 2
+
+  @font_size = 13
+  @line_height = 18
+
+%>
+
+<%= render :partial => 'stylesheets/reset' %>
+<%= render :partial => 'stylesheets/typography' %>
+<%= render :partial => 'stylesheets/masthead' %>
+<%= render :partial => 'stylesheets/navigation' %>
+<%= render :partial => 'stylesheets/footer' %>
+<%= render :partial => 'stylesheets/columns' %>
+<%= render :partial => 'stylesheets/wiki' %>
+<%= render :partial => 'stylesheets/frontpage' %>
+<%= render :partial => 'stylesheets/riseup' %>
+
+.column_container {
+  *zoom: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: <%= full_width %>px;
+  max-width: 100%;
+}
+
+.column_content {
+  padding-left: <%=gutter%>%;
+  padding-right: <%=gutter%>%;
+}
+
+body {
+  background-color: <%= @footer_color %>;
+}
+
+#middle {
+  background-color: <%= @background_color %>;
+}
+
+#container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#content {
+  padding-top: <%= gutter %>%;
+  padding-bottom: <%= gutter %>%;
+}
+
+.body {
+  padding: <%= gutter %>%;
+}
+
+.title {
+  color: black;
+  background-color: #efefef;
+  padding: <%= gutter %>%;
+  border-bottom: 1px dotted #ccc;
+}
+.title h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.2em;
+}
+.title .summary {
+  color: #666;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.notice {
+  padding: 1em;
+  margin: 1em 2em;
+  background: #cdf;
+  border: 1px dotted blue;
+}
+
+@media only screen and (max-width: 590px) {
+  .big_screen {
+    display:none;
+  }
+}

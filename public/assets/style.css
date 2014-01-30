@@ -1,0 +1,151 @@
+a {
+  color: #2477d0; }
+
+a:visited {
+  color: #1d5ea5; }
+
+#masthead {
+  background-color: #5e9ee3;
+  width: 100%;
+  margin: 0; }
+  #masthead .masthead-inner {
+    height: 80px;
+    background: #5e9ee3 url(images/riseup-masthead-blue.png) 0px 0px no-repeat; }
+
+#top-menu {
+  position: absolute;
+  bottom: 0px;
+  margin: 0; }
+  #top-menu li {
+    float: left; }
+  #top-menu a {
+    display: block;
+    padding: 5px 14px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, 0.15); }
+  #top-menu a.active {
+    background-color: #e6e3dc;
+    color: black;
+    box-shadow: inset 1px 1px 2px white; }
+
+@media only screen and (max-width: 500px) {
+  #top-menu a {
+    padding: 5px 6px;
+    font-size: 12px; } }
+#main {
+  margin-top: 15px; }
+
+body {
+  background-color: #e6e3dc; }
+
+.shadow-box {
+  background-color: white;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 4px #CCC9C3; }
+
+.title-box {
+  color: black;
+  background-color: #efefef;
+  padding: 15px;
+  border-bottom: 1px dotted #cccccc; }
+  .title-box h1 {
+    margin: 0; }
+  .title-box .summary {
+    color: #666;
+    line-height: 1.5em;
+    margin-top: 10px; }
+
+.content-box {
+  padding: 15px; }
+
+#sidebar {
+  padding-right: 0;
+  margin-bottom: 15px; }
+  #sidebar #navigation {
+    background-color: #eeeeee;
+    border: 1px solid #bbbbbb;
+    box-shadow: 1px 1px 4px #CCC9C3; }
+  #sidebar ul.nav.nav-pills.nav-stacked li a {
+    color: #666666;
+    border-radius: 0;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  #sidebar ul.nav.nav-pills.nav-stacked li.active a {
+    background-color: #ccc9c4;
+    color: black; }
+  #sidebar li.level2 a {
+    padding-left: 30px; }
+  #sidebar li.level3 a {
+    padding-left: 45px; }
+  #sidebar .sidebar-addendum {
+    margin-top: 15px; }
+  #sidebar a.label {
+    color: #2477d0 !important; }
+  #sidebar a.label-primary {
+    color: white !important; }
+
+@media (max-width: 768px) {
+  #sidebar {
+    padding-right: 15px; } }
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -100px;
+  padding: 0 0 100px; }
+
+#footer {
+  padding-top: 20px; }
+  #footer #footer-inner {
+    height: 80px;
+    border-top: 1px solid #4d4d4d;
+    background-color: #666666; }
+
+@media (max-width: 767px) {
+  #footer a {
+    font-size: 80%;
+    margin: 0 2px; } }
+#footer .footer-text {
+  text-align: right;
+  padding-top: 10px; }
+  #footer .footer-text a, #footer .footer-text p {
+    color: #dddddd;
+    margin: 4px 5px; }
+
+.image-right {
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
+.logo {
+  min-height: 87px;
+  padding-left: 280px;
+  padding-top: 10px;
+  background: url(images/riseup-rainbow.png) no-repeat; }
+
+@media only screen and (max-width: 590px) {
+  .logo {
+    padding-left: 94px;
+    padding-top: 65px; } }
+.feed {
+  border: 1px dotted #ccc; }
+  .feed .item {
+    border-top: 1px dotted #ccc;
+    padding: 15px; }
+    .feed .item .label {
+      font-size: 1em; }
+    .feed .item .date {
+      font-style: italic;
+      line-height: 2em; }
+  .feed h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 15px;
+    margin: 0;
+    background: #f9f9f9; }
