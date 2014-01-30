@@ -37,12 +37,13 @@ File structure
 
 There are two ways to create pages:
 
-1. A page might be represented by files with different language suffixes:
+A page might be represented by files with different language suffixes:
 
     email.en.text
     email.pt.text
 
-2. A page might be represented by a folder. This method allows you to have sub-pages
+Alternately, a page might be represented by a folder. This method allows you
+to have sub-pages
 
     email/
       en.text
@@ -80,7 +81,7 @@ Here is a brief overview of textile markup:
 
 For a complete reference, see http://redcloth.org/textile/
 
-For external links, use "this":http://format.org. However, in order to link to
+For external links, use `"this":http://format.org`. However, in order to link to
 other help pages, it is best to use some special markup:
 
     <%= link 'label' => 'page-name' %>
