@@ -1,7 +1,7 @@
 @title = "Home"
-@this.toc = false
 @this.layout = 'home'
-@summary = "Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications."
+@this.toc = false
+@this.summary = "Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications."
 
 h2. Email <small>https://mail.riseup.net</small>
 

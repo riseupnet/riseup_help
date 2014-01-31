@@ -4,6 +4,24 @@ a {
 a:visited {
   color: #1d5ea5; }
 
+.content-box h1:first-child, .content-box h2:first-child {
+  margin-top: 0px !important; }
+
+.donation {
+  border: 1px solid #FFE8A9;
+  padding: 0.5em;
+  background-color: #FFF6DD;
+  overflow: auto;
+  display: inline-block; }
+
+.locale-links a {
+  color: #2477d0; }
+  .locale-links a:hover {
+    color: #2477d0 !important;
+    text-decoration: underline; }
+  .locale-links a.label-primary {
+    color: white !important; }
+
 #masthead {
   background-color: #5e9ee3;
   width: 100%;
@@ -81,10 +99,6 @@ body {
     padding-left: 45px; }
   #sidebar .sidebar-addendum {
     margin-top: 15px; }
-  #sidebar a.label {
-    color: #2477d0 !important; }
-  #sidebar a.label-primary {
-    color: white !important; }
 
 @media (max-width: 768px) {
   #sidebar {
