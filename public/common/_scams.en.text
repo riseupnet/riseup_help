@@ -1,0 +1,11 @@
+Beware the "robot zombie army":http://en.wikipedia.org/wiki/Zombie_computer
+
+!/common/img/robot-zombies.jpg!:http://www.flickr.com/photos/kurai/291396807/in/photostream/
+
+All the bad stuff that can happen with email:
+
+<%= link 'viruses' %>
+
+<%= link 'spam' %>
+
+<%= link 'phishers' %>
