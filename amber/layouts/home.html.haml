@@ -9,7 +9,7 @@
     %link(rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css")/
     %link(rel="stylesheet" href="/assets/style.css")/
     %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")/
-  %body
+  %body.home
     #wrap
       #masthead
         = render 'layouts/masthead'
@@ -23,6 +23,9 @@
               .content-box
                 .row
                   .col-sm-9
+                    .locale-links
+                      - available_languages.each do |name, code, url|
+                        %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
                     = yield :content
                   .col-sm-3
                     .feed

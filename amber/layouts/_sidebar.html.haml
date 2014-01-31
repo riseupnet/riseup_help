@@ -5,7 +5,6 @@
         %a{:href => item[:href], :class => ''}= item[:label]
 
 .sidebar-addendum
-  %ul.list-unstyled
+  .locale-links
     - available_languages.each do |name, code, url|
-      -# %li
       %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name

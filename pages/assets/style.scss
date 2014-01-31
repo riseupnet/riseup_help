@@ -35,6 +35,27 @@ a:visited {
   color: $link-visited-color;
 }
 
+.content-box h1:first-child, .content-box h2:first-child {
+  margin-top: 0px !important;
+}
+
+//
+// DESIGN ELEMENTS
+//
+
+.donation {border: 1px solid #FFE8A9; padding:0.5em; background-color: #FFF6DD; overflow: auto; display: inline-block;}
+
+.locale-links a {
+  color: $link-color;
+  &:hover {
+    color: $link-color !important;
+    text-decoration: underline;
+  }
+  &.label-primary {
+    color: white !important;
+  }
+}
+
 //
 // MASTHEAD
 //
@@ -143,12 +164,6 @@ body {
   li.level3 a {padding-left: $gutter*3;}
   .sidebar-addendum {
     margin-top: $gutter;
-  }
-  a.label {
-    color: $link-color !important;
-  }
-  a.label-primary {
-    color: white !important;
   }
 }
 
