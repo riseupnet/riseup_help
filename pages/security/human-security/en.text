@@ -1,12 +1,29 @@
-This page has yet to be copied from old help.
+These security help pages include a lot of fancy talk about encryption. Ultimately, however, all this wizbang cryto-alchemy will be totally useless if you have insecure behavior. A few simple practices will go a long way toward increasing your security.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2. Save the world with better passwords
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+<%= render 'common/good-passwords' %>
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+h2. How to laugh in the face of con men
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+<%= render 'common/scams' %>
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+h2. Keep your software up to date
 
+insert here tips on how to do this.
+
+h2. Be cautious on shared computers
+
+Logout: make sure that you always logout when using web-mail. This is very important, and very easy to do. This is particularly important when using a public computer. Don't leave your computer unlocked and unattended.
+
+Avoid public computers: this can be difficult. If you do use a public computer, consider changing your password often or using the *virtual keyboard* link (if you use riseup.net for your web-mail).
+
+if you share a computer with friends, create multiple logins which keep user settings separate. You should enable this feature, and logout or "lock" the computer when not in use. 
+
+h2. Feel the love of free and open source software
+
+Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
+
+OS X suffers from similar issues that windows does. While it is based on Unix (of which Linux is a “clone”), a large portion of the operating system is not open source and thus not available for third party review. Its increasing popularity has been resulting in increasing viruses and exploits (though still far fewer than windows) and its corporate culture of authoritarianism is reflected in the structure of the operating system. OS X also includes the built-in “feature” to remotely activate the webcam which, as a feature regardless of the OS its on, has been shown to be used for other purposes.
+
+GNU/Linux, however, is composed primarily (and can be made exclusively) of software whose source can be obtained and audited by essentially anyone, it has been built by a community of people for years. Its history is filled with few viruses and user-level exploits. Linux is also an easy to use operating system that supports a wealth of older hardware that makes this level of security accessible to the average individual.
