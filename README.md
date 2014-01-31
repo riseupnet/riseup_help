@@ -8,8 +8,9 @@ language negotiation.
 
 To submit changes, please fork this repo and issue pull requests on github.
 
-The static content files in ./public/ are rendered from the content in
-./pages/ using the command `amber rebuild`.
+The static content files in `riseup_help/public` are rendered from the content in
+`riseup_help/pages`. You edit pages in the `pages` directory, but never edit
+anything in the `public` directory.
 
 To install amber:
 
@@ -31,6 +32,17 @@ Then browse to http://localhost:8000. Any page you view this way gets re-
 rendered when it is loaded. Because the links and css paths are absolute,
 loading the rendered pages directly in the browser will create ugly results.
 For this reason, it is best to use the `amber server`.
+
+Putting it all together:
+
+1. Fork repo on github
+2. `git clone ssh://git@github.com/<your-id>/riseup_help`
+3. `cd riseup_help`
+4. `amber server`
+5. edit files in `riseup_help/public`
+6. preview changes on http://localhost:8000
+7. when satisfied, `git commit`, `git push`
+8. go to your github fork and issue a pull request
 
 File structure
 ------------------------------
