@@ -1,0 +1,33 @@
+@title = 'August'
+
+h2. Feel the love of free and open source software
+
+Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
+
+OS X suffers from similar issues that windows does. While it is based on Unix (of which Linux is a “clone”), a large portion of the operating system is not open source and thus not available for third party review. Its increasing popularity has been resulting in increasing viruses and exploits (though still far fewer than windows) and its corporate culture of authoritarianism is reflected in the structure of the operating system. OS X also includes the built-in “feature” to remotely activate the webcam which, as a feature regardless of the OS its on, has been shown to be used for other purposes.
+
+GNU/Linux, however, is composed primarily (and can be made exclusively) of software whose source can be obtained and audited by essentially anyone, it has been built by a community of people for years. Its history is filled with few viruses and user-level exploits. Linux is also an easy to use operating system that supports a wealth of older hardware that makes this level of security accessible to the average individual.
+
+
+h2. Tech Tip
+
+There comes a time in every activists life where they need to unsubscribe from a list because maybe you’d like to leave the house sometime and not spend your life reading emails from groups you’re no longer involved in. Here is the handy guide to how to do that for a Riseup list.
+
+First, the easiest way is to unsubscribe is to send email to: listname-unsubscribe@lists.riseup.net
+Where “listname” is the name of the list you want off.
+
+If this doesn’t work, the problem is that you sent the ‘unsubscribe’ email from a different address then the address which is subscribed to the list.
+
+This can happen if you have multiple email addresses (or aliases) for a single mail box. If possible, make sure the from address on your unsubscribe email matches the address you are subscribed with. If this is not possible, follow these steps:
+
+# Login at lists.riseup.net using the address which is subscribed to the list. If you don’t have a password, follow the links on that page to have one mailed to you.
+# Once you are logged in, click “Your subscriptions” near the top of the page.
+# Click the name of the list you want off.
+# Click Unsubscribe
+
+Done! Enjoy the sunshine.
+
+h2. Some of what we do
+
+It's summer time on our half of the planet and there's weird weather all over the place and did you know that Riseup supports over eight hundred grassroots environmental groups. Yay earth warriors! And if you want to give us some money to help continue supporting them and everyone, please do.
+https://riseup.net/donate

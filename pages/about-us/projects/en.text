@@ -1,12 +1,55 @@
-This page has yet to be copied from old help.
+@title = 'Riseup Project Areas'
+@nav_title = 'Projects'
+@this.summary = 'A list of some of the projects that Riseup works on.'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+If you are a programmer and want to help Riseup, please see our <%= link 'programmers-wanted' %> page.
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+h2. Alternative infrastructure for secure email
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+There is a problem with email. The U.S. government practices "full pipe monitoring" and association mapping, which gives them the ability to build a detailed map of how our social movements are organized. For more information on email privacy, see our "security primer for activists":http://zine.riseup.net.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+We believe it is vital that essential communication infrastructure be controlled by movement organizations and not corporations or the government. For this reason, we provide email service with an unique level of security and privacy. Unlike almost all other email providers, our logs and email headers contain no personally identifiable information. Additionally, all mail is stored on encrypted partitions and transmitted over encrypted connections whenever possible.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+Currently, riseup has tens of thousands mail users.
 
+h2. Movement mailing lists
+
+As far as we can tell, riseup.net is the largest non-profit list hosting service, outside of public universities. We host over 14,000 mailing lists, supporting over four million subscribers.
+
+h2. Tech Collective Incubation Project
+
+In order to help other technology collectives get established, we provide free servers, bandwidth, and technical support to over a dozen groups around the world.
+
+h2. Seattle Community Colocation Project
+
+Riseup provides very affordable, secure, and reliable server co-location on a sliding scale basis, based on need. We host about 30 servers, including servers from social justice movement organizations in the US, UK, Germany, France, Italy, Mexico, Brazil, and Canada. See http://seaccp.org for more information.
+
+h2. Supporting TOR
+
+Tor is a system designed to enable online anonymity through a network of servers that can hide information about users that may identify them. When you use tor, it is much harder to trace internet traffic to a particular user. It is well known that Tor provides a vitally important service to many, be they activists under surveillance, whistle blowers, journalists, dissidents facing state repression, those wishing to evade censorship, abuse victims, or just regular people who just don't want their privacy breached by unscrupulous corporate entities betraying the trust of the commons through advertising profiling.
+
+While the "list of positive benefits":https://www.torproject.org/torusers.html.en that Tor has is innumerable, it wouldn't be possible without Tor exit nodes and relays. Riseup contributes to the Tor network by providing nodes on quality bandwidth. We run nodes that are in the top 30 in relative bandwidth contribution to the Tor network.
+
+h2. googlesharing
+
+<%= link 'googlesharing' %> is an easy-to-use, free and open source plugin for firefox that anonymizes your google searches. When you do a google search, google collects information about your identity by recording the web address where you are searching from and the content of your searches. Google probably knows more about your web searches than you do!
+
+Googlesharing works by sending all of your google-related traffic that does not require a login (i.e. not gmail) through a separate server, completely transparently (you don’t have to do anything). As a result, your online activity is aggregated with everyone else’s.
+
+h2. VPN services
+
+VPN stands for Virtual Private Network. Typically, VPNs are used to connect people to their office network from home. The <%= link 'Riseup VPN' => 'vpn' %> is different: it sends all your internet traffic through an encrypted connection to riseup.net, where it then goes out onto the public internet. This type of VPN is sometimes called a “personal VPN”.
+
+h2. Software Libre
+
+Our laboratory, "Riseup Labs":http://riseuplabs.org, actively contributes to the Free Software movement, Free Software (or Software Libre) is part of a digital commons for all to use.
+
+Our contributions to Software Libre include:
+
+* *Privacy and security patches*: We develop and distribute custom versions of popular system logging, mail transport, webmail, and web hosting tools which enable system administrators to choose exactly what information they want to retain. This protects user's privacy and guards against downtime, headache, and legal costs associated with overeager government attempts to subpoena log files. See https://labs.riseup.net/code/projects/privacy
+* *"Crabgrass":https://crabgrass.riseuplabs.org*: Crabgrass is a software libre web application designed for social networking, group collaboration and network organizing. Our goal is to create communication tools that are tailored specifically to meet the needs of bottom up grassroots organizing.
+* *"backupninja":https://labs.riseup.net/code/projects/show/backupninja*: Backupninja is a popular set of tools that provides a centralized way to configure and schedule many different backup utilities.
+* *"monkeysphere":http://web.monkeysphere.info*: The Monkeysphere enables you to use the OpenPGP web of trust to verify ssh connections. SSH key-based auth entication is tried-and-true, but it lacks a true public key infrastructure for key certification, revocation, and expiration. Monkeysphere is a framework that uses the OpenPGP web of trust for these PKI functions.
+* *"puppet":https://labs.riseup.net/code/projects/puppetmodules*: is used to maintain nearly all our systems and services. We write a lot of puppet recipes modules that are written in a generic fashion so they can be shared with others. We are also part of a [group->https://labs.riseup.net/code/projects/sharedpuppetmodules] that works to share puppet modules
+* *debian grimoire*: Everything that Riseup has ever done is written up in step by step how-to's and posted publicly to our website, in order to help other organizations grapple with complex free software technologies, especially in the grassroots and direct action movements.  See https://we.riseup.net/debian
+* *Debian GNU/Linux*: Several riseup collective members are active developers of Debian (the only major distribution created by a non-profit). Many people are familiar with Ubuntu, which is a based upon Debian.  See http://www.debian.org/

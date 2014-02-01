@@ -1,0 +1,16 @@
+@title = 'February'
+
+h2. Thanks for the ____!
+
+Thanks for all your support - money, love, stickers, drawings, dreams, and zines! We got together and went through a pile of amazing items, hand written notes and gifts that you have sent us over the past few months. We loved it all! If you want to know how to mail us gifts, notes and other things, <%= link 'have a look' => 'donate'%>.
+
+
+h2. Tech Tip: Auto-delete?
+
+What is auto-delete and how long are emails kept in my sent mail folder? (for IMAP or web-mail users)
+
+Back in 2008, we reminded folks about the auto-delete features of special folders in email (spam, trash, sent-mail). Five years and many more users later, this info is still relevant.
+
+An email in your sent mail folder is automatically deleted after 120 days! Your Spam folder gets cleared out once a week! Your Trash every three weeks!
+
+This is an automatic, system-wide process and we can’t make any special exceptions. If you are hiding away messages in one of those folders thinking they will last through the winter so you can pull them out later to feast on them like a squirrel, you should move them to another folder, or back them up locally. For more info, see <%= link 'email-folders' %>.

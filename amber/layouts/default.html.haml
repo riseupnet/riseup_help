@@ -22,6 +22,9 @@
               .shadow-box
                 .title-box
                   = yield :title
+                  - if @page.props.summary
+                    .summary
+                      = @page.props.summary
                 .content-box
                   - if translation_missing?
                     .alert.alert-info= t(:missing_translation)

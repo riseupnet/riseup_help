@@ -1,4 +1,4 @@
 - @title = "Riseup Newsletter Archive"
 - @nav_title = "Newsletters"
 
-= child_summaries :levels => 2, :include_toc => true
+= child_summaries :levels => 2, :include_toc => true, :order_by => [:name, {:direction => :desc, :numeric => true}]
