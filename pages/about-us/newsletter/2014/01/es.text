@@ -1,0 +1,31 @@
+@title = 'Enero'
+
+h2. Informe de Riseup
+
+Hemos puesto nuestras fuerzas en varios trabajos para deshacernos de viejos servidores que usábamos para nuestra infraestructura interna. Hemos trabajado en actualizarnos para mantenernos al día y ahora tenemos una versión 1.9 ruby de nuestro user.riseup.net, y esto va estupendamente.
+
+Hemos estado trabajando en nuestra seguridad física, instalando cerraduras mucho mejores en nuestras cabinas, y ese tipo de cosas.
+
+Y estábamos muy preocupadas después de lo que paso con Lavabit -- http://en.wikipedia.org/wiki/Lavabit -- y esperábamos ser los siguientes, pero no hemos recibido ningunas ordenes secretas, o no secretas, de hacer esto o aquello. Esto quiere decir que o bien pensamos demasiado en nosotras, o ya estamos vendidas (y no lo sabemos), o son lentos, o saben que no obedeceremos y todo su artefacto entero se tambaleara hasta desparramarse a su alrededor (mira el primer elemento de la lista).
+
+h2. Lo que debes saber sobre los virus
+
+Los virus siempre falsifican la dirección de email que envió el mensaje. Estos virus aparentan venir de gente que tu conoces, de ti mismo, de administradores de sistemas o de personas en quienes tu confiarías.
+
+Hay muchos virus comunes que aparentan venir del equipo riseup.net (o de los empleados de cualquier servicio de correo electrónico en turno). Estos virus amenazan con cerrar tu cuenta a menos que inmediatamente abras un archivo adjunto (y por lo tanto que tu computadora se infecte) ¡No te dejes engañar!
+
+Pero ¿Cómo fue que el virus obtuvo tu dirección? Pues el virus infecto una computadora que te ha enviado correo o a la que tu has mandado correo, o extrajo tu dirección de una pagina WEB de por ahí.
+
+No abras archivos adjuntos de nadie, tampoco de gente que conozcas, a menos que estés al tanto de que te van a mandar un archivo adjunto y lo estés esperando.
+
+Nosotros, desde aquí en riseup.net NUNCA te mandaremos correo alguno con archivos adjuntos.
+
+¿Quieres informarte mas? Por ejemplo de ¿cómo instalar un filtro de Spam y otras cosas útiles? <%= link 'viruses' %>
+
+h2. El ave mas pequeñita
+
+El gran Sunbird, junto a su adorada compañera, tienen una recién nacida nombrada en honor al viento y las estrellas, y les deseamos todos las mejores de las cosas que cambian y crecen cuando llegan estas personitas.
+
+h2. Gracias
+
+Gracias por todas las pequeñas y grandes donaciones que recibimos durante nuestra anual recaudación de fondos. Ustedes son nuestra luna y nuestro sol. Y si alguno anda con ganas de donar, por favor, por favor háganlo ya que eso nos permitirá ofrecer mejores servicios y atender a más usuarios. Gracias help. <%= link 'donate' %>
