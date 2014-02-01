@@ -57,4 +57,4 @@ h2. Instant Message Encryption with OTR
 
 Off The Record (OTR) is a way to send and receive secure instant messages. 
 
-[[insert-toc otr]]
+<%= child_summaries :page => 'message-security/otr', :include_toc => true %>
