@@ -8,13 +8,13 @@ email
     email-filters
     email-folders
   clients
-    smtp
     thunderbird
     k9
-    apple-mail
-    iphone-mail
-    microsoft-outlook
     evolution
+    apple-mail
+    ios-mail
+    microsoft-outlook
+    postbox
   webmail
     enabled-cookies
     cookie-test

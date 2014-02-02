@@ -1,12 +1,79 @@
-This page has yet to be copied from old help.
+@title = 'Thunderbird'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2. What is Thunderbird?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+!>reclaimyourinbox.png!
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+Thunderbird is the mail client recommended by riseup.net. It is Free Software and is available for Linux, Windows, and Mac OS X. You can download Thunderbird "from the thunderbird website":http://www.mozillamessaging.com/en-US/thunderbird/download. As Free Software, Thunderbird is part of the digital commons, a kind of common treasury for all. Outlook, on the other hand, is Microsoft's tool for world domination.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+Thunderbird has many features, including: IMAP and POP support, multiple accounts, quick search, spell as you type, advanced spam controls, RSS, virtual folder views, message filtering, addressbook, and support for OpenPGP encryption.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+h2. Setup Thunderbird
+
+h3.  Start the Account Wizard
+
+The first time you run Thunderbird, the account wizard will walk you through setting up an account. If the wizard does not open, you can do this:
+
+1. Choose the menu item *Edit > Account Settings...*
+
+!thunderbird/img/edit-account-settings.png!
+
+2. Click the *Add Account...* button.
+
+!thunderbird/img/account-actions.png!
+
+h3. Step 1
+
+You will see a prompt. Enter in your name, email address and password.
+
+!thunderbird/img/mail-account-setup1.png!
+
+Click *Continue*.
+
+h3. Step 2
+
+Thunderbird will pull the settings from riseup's servers.
+
+!thunderbird/img/mail-account-setup2.png!
+
+Now you need to decide if you want to use <%= link 'IMAP or POP' => "mail/clients#what-is-the-difference-between-imap-and-pop" %>.
+
+* *IMAP*: It will by default pick IMAP, so if you want IMAP you can simply click *Continue*.
+* *POP*: To switch to POP, click *edit*. Then click the dropdown menu that says IMAP and change it to POP. Now click Re-Test Configuration. It should show you using POP. If so, click *Continue*.
+
+!thunderbird/img/imap-pop.png!
+
+h3. Step 3
+
+If this does not work, you may have entered your username or password wrong. Click Start Over and try again. Otherwise...
+
+h3. You're Done!
+
+It should automatically check your mail now and every few minutes after. Have fun using Thunderbird!
+
+h2. What is next?
+
+h3. Enhance your email security
+
+# Ideally, you should *not* use StartTLS. Instead, it is much better to use regular TLS. For added security, go to your account settings and change your connection type from StartTLS to TLS.
+# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the <%= link 'Riseup VPN' => 'vpn' %>. This will prevent a long list of potential attacks against your communication.
+# For enhanced <%= link 'message security' => 'message-security' %>, consider <%= link 'setting up Enigmail with Thunderbird' => 'enigmail' %> to get <%= link 'OpenPGP' => 'gpg-keys' %> setup.
+
+h3. Add some extensions
+
+We suggest these extensions for Thunderbird:
+
+* "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: This extension will display the current status of your IMAP quota in thunderbird's statusbar and will warn you when you reach a configurable limit.
+* <%= link 'Enigmail' => 'enigmail' %>: get started in no time encrypting and decrypting emails and verifying that emails you receive are from the people who you expect them to be.
+
+h3. Hidden options that radically improve Thunderbird speed
+
+By default, thunderbird talks to the email server every time you open an email or change its state. This can feel really sluggish on a slower network connection or if the Riseup server is busy.
+
+Happily, there is something you can do about it! Thunderbird has some hidden settings to make it sync entirely with the mail server when it connects. This will generally make your experience much more pleasant and snappy.
+
+To set these options, go to *Edit* menu > *Preferences* item > *Advanced* tab > *Config Editor* button.
+
+* use_status_for_biff: set this to *false*
+* mail.server.default.autosync_offline_stores: set this to *true*
 

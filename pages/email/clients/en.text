@@ -1,18 +1,69 @@
 @title = "Email Clients"
 
-h1. Lorem ipsum dolor sit amet
+h2.  What is a mail client?
 
-consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+These days, most people are more familiar with <%= link 'web-based mail' => 'webmail' %>, where you check your mail using a web browser such as Firefox or Chrome.
 
-h1. Vivamus hendrerit dui sed
+A <b>mail client</b>, on the other hand, is a specialized application designed specifically for checking and composing email. There are several free and/or Free Software mail clients available for most platforms.
 
-lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+For help configuring a particular client, click on one of the following links:
 
-h2. Vestibulum non lacinia urna
+table(table table-striped).
+|_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Other Commercial Clients*|
+|Linux   | <%=link 'thunderbird'%>, <%=link 'evolution'%>, Kmail, Balsa, mutt, alpine, etc| |
+|Mac     | <%=link 'thunderbird'%> | <%=link 'apple-mail'%>, <%=link 'postbox'%> |
+|Windows | <%=link 'thunderbird'%>, <%=link 'evolution'%>  | <%=link 'microsoft-outlook'%>, <%=link 'postbox'%> |
+|Android | <%=link 'k9'%> |  |
+|iOS     |  |  <%=link 'ios-mail'%> |
 
-Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+h2. Choose IMAP or POP
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+Mail clients can access your mailbox using either POP or IMAP.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+table(table table-striped).
+|         |_. POP    |_. IMAP   |
+| Storage | *Your computer*. When using POP, you typically download all your mail to your computer and remove it from the riseup.net servers. | *Riseup Server*. IMAP leaves all messages on the server. Another way to think of this is that an IMAP mail client provides a view of the existing data stored on the server. |
+| Mobility | *Low*. POP only works well when you predominately check your mail from the same computer. | *High*. IMAP allows you to use many clients and keep them in sync. |
+| Speed   | *Faster*, since everything is just downloaded once to your computer. | *Slower*, since the mail client will query the server repeatedly. |
+| Quota   | *Unlimited*. You never need to worry about quota if your client is configured to delete messages on the server after downloading. | *Limited*. You will have [limited quota -> quota]. |
+| Security | *High*. Your messages are not stored on the server (typically). | *Lower*. You are entrusting Riseup with your storage. |
 
+h2. Basic client configuration
+
+Although some mail clients are able to automatically configure themselves, most require some basic information in order to connect to your Riseup email account.
+
+Suppose your email address was [@collective@riseup.net@]:
+
+* Incoming mail server: @mail.riseup.net@
+* Outgoing mail server: @mail.riseup.net@
+* Login or user name: @collective@
+* Use secure connection: @yes@ (TLS)
+(This is required. The <%= link 'secure-connection' %> may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
+
+*Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords". Because the connection to riseup.net is encrypted anyway, these are not needed.
+
+h2.  Use Thunderbird
+
+!>clients/reclaimyourinbox.png!:http://getthunderbird.com
+
+Thunderbird is the mail client recommend for use with riseup.net. Sadly, The "Mozilla Foundation":https://mozilla.org has essentially abandoned Thunderbird, but it is still the best option for a free software cross-platform mail client.
+
+Thunderbird will automatically configure itself to use your riseup.net email account. See our <%= link 'Thunderbird tutorials' => 'thunderbird' %> for more details.
+
+h2.  Why would I use a mail client?
+
+There are many advantages to using a mail client rather than using web mail:
+
+* When using a mail client, you do not have to always be connected to the internet. Instead you can connect, download all your email, disconnect, and read the emails when you want. This is very convenient if your connectivity is not reliable, is slow or maybe you have limited access. Also, you can compose email anytime, save it, and send it later when you are connected to the internet.
+* The Riseup <%= link 'webmail' %> is very limited. Mail clients have many more features.
+* Mail clients are generally much faster than web mail.
+* Most mail clients allow you to manage multiple accounts all from one place. This can be very useful if you are different email accounts for different parts of your life.
+
+There are also some disadvantages:
+
+* To use a mail client, you must install software on your computer and configure it specially for your account (or accounts).
+* Because mail clients store messages on your machine, other people can read your mail if they have access to your computer.
+
+h2.  Can I use both web mail and a mail client?
+
+Yes, you can switch back and forth easily. Often, people will use a mail client when at home or at work, and use the web-based email when traveling. If you do use both options, you should be familiar with the different between IMAP and POP.
