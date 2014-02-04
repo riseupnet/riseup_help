@@ -1,18 +1,63 @@
 @title = "Webmail"
 
-h1. Lorem ipsum dolor sit amet
+h2. What is webmail?
 
-consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+Webmail allows you to check your riseup.net email from any computer that has a web browser. We do not recommend this method, for several reasons:
 
-h1. Vivamus hendrerit dui sed
+# Webmail is less secure than using a mail client.
+# The Webmail software that Riseup currently offers has few features and is very slow.
 
-lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+The primary reason to use webmail is if you do not have your own device that you can install a mail client on. Sometimes people use webmail because they don't want to leave a record of what email account they use on the device. Webmail is not a good solution for this, because web browsers leave behind all sorts of temporary files, and session files can be recovered with the right tools.
 
-h2. Vestibulum non lacinia urna
+h2. Webmail options
 
-Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+Currently, Riseup offers two options for webmail:
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+# *SquirrelMail*: squirrelmail is more simple and does not require javascript.
+# *IMP*: if you don't like squirrelmail, maybe try IMP.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+In the future, we plan to migrate to using "RoundCube":http://roundcube.net for webmail.
 
+h2. Cookies must be enabled
+
+For security reasons, we require cookies. Without cookies, it is impossible to make your login session secure.
+
+Unfortunately, cookies also allow advertisers and companies like google to track you nearly all your activity on the web. If you are concerned about tracking, we suggest that you simply disable third party cookies. Alternately, you can block all cookies by default and then enable cookies for the sites you want.
+
+h2.  Troubleshooting webmail login
+
+The most common question we receive is this: "why can't I login?" This page will help you figure out what is wrong and help you fix it.
+
+Almost always, login problems are due to one of the following:
+
+* Your web browser is blocking cookies.
+* You have typed your login or password incorrectly.
+* Your web browser is old and does not correctly support javascript or encrypted connections.
+* Our mail server is down.
+
+h4. Step 1: Ensure cookies are enabled
+
+For specific instructions on cookie management, see:
+
+* "Firefox":https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+* "Chrome":https://support.google.com/chrome/answer/95647
+* "Internet Explorer 9":http://windows.microsoft.com/en-US/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
+* "General Windows cookie FAQ":http://windows.microsoft.com/en-us/windows/cookies-faq
+
+h4. Step 2: Try other web browsers
+
+If you still cannot login, you should next figure out if the problem is with your account or with your computer.
+
+* Try other computers and other web browsers. For this test to be helpful, the other computers and web browsers should be as different as possible. If you can, try to login from a different network, using a different browser, on a different operating system.
+* We suggest you download and install a recent version of Firefox or Chrome. If this works, then the problem is with your browser.
+
+h4.  Step 3: Check the server status
+
+It is possible that the server is down. You can view the status of the mail server, and read any service notices, at this page:
+
+https://status.riseup.net
+
+h4.  Step 4: Call for help!
+
+If none of the above seem to work, then "fill out a help ticket":https://user.riseup.net/forms. But please, try these suggestions first! Also, include in your description of the problem a summary of the things you have already tried.

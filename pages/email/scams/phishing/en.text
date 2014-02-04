@@ -1,0 +1,90 @@
+@title = 'Phishing'
+
+h2. What is it?
+
+*Phishing* is when someone sends an email claiming to be an entity they are not, and uses this deception to get information. They can be after social security numbers, bank information, passwords, or other sensitive information. Emails often take the following form:
+
+<pre>
+From: help@company_or_organization.com
+To: you@riseup.net
+
+Subject: Account Alert
+
+We need to verify your account details. Please reply to this message and enter your information the following spaces. If you do not reply, you may lose access to your account.
+
+username: _______
+password: _______
+</pre>
+
+*If you see an email like this, do NOT reply to it.*
+
+h2. How does it affect Riseup accounts?
+
+Riseup accounts are a frequent target. *Riseup emails will never ask for your password!* If you get an email claiming to be from Riseup, and it asks for your password in the email, *it is not from Riseup.*
+
+If you get an email that asks you to click on a link and give your account information, it is best to manually type the address. Do not rely on the link, because the domain might be https://ríseup.net and not https://riseup.net (not the subtle difference with the accent over the i).
+
+
+h2. Example phishing emails
+
+Here are some example emails frequently sent to riseup users from *phishers* attempting to *hijack* the user's account.
+
+*Example 1*
+
+<pre>
+To: abdecom@riseup.net
+Subject: UPGRADE YOUR RISEUP EMAIL ACCOUNT!
+From: RISEUP UPGRADE <upgrade@riseup.net>
+
+Dear Riseup Subscriber,
+
+Your Riseup e-mail account may be frozen as a result of unusual activity.
+
+We have noticed that your email account needs to be verified, as we are upgrading our webmail database.
+
+Click Here to Verify Your E-mail Account
+
+Please do this so that your email account can be upgraded and protected from being closed.
+
+Your immediate response is highly needed.
+
+We appreciate your time and assistance!
+
+Sincerely
+© 2011 Riseup Email Support.
+</pre>
+
+*Example 2*
+
+<pre>
+From: WebAdmin Security <no_reply@riseup.net>
+Subject: Account Alert®
+To: undisclosed-recipients:;
+
+Dear valued customer(R):
+
+Due to concerns, for the safety and integrity of the Riseup.Net Security we have issued this warning message
+
+We have noticed that your Riseup.Net account needs to be verify, after we have upgraded our SSL database. To verify your Riseup.Net account and access your account in future, please click on the verification link below to log into account update and complete the required informations:
+
+http//mail.riseup.net/SSL [<< this actually linked to another site that is not riseup but is made to look like riseup]
+
+This e-mail was sent to all of our customers. Recently, we have noticed that many customers' were receiving a scam letter asking them to send their username and password via email.
+
+Note that Riseup.Net will never ask for your ID and password via email. Just click on the above link, continue by filling the required informations correctly to verify and your Riseup.Net account informations on our database will be automatically updated.
+
+Note: Failure to Verify email account might lead to account deactivation.
+
+Thanks for your
+co-operations.
+
+Sincerely,
+WEBMAIL Riseup.Net Security Team(R)
+
+Email
+ticket: R0929NT4
+</pre>
+
+This is an especially clever phishing attack. It knows that some people know Riseup will never ask them for their password in an email, so it links to a webpage that asks them for their password. The link looks like a link to riseup page, but when you click on it it actually takes you somewhere else. The webpage is cleverly designed to look almost exactly like the riseup page, in hopes that people will not notice the difference and enter their password.
+
+To be safe, you should never click on links in emails that ask you to enter password information. Always type 'user.riseup.net' into your browser's address bar manually.

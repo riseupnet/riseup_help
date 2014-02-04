@@ -16,12 +16,11 @@ email
     microsoft-outlook
     postbox
   webmail
-    enabled-cookies
-    cookie-test
     address-book
   scams
-    spam
+    phishing
     viruses
+    spam
 lists
   list-user
     access

@@ -1,6 +1,6 @@
 @title = 'Spam, spam, spam!'
 
-h1. A Word on Spam
+h2. A Word on Spam
 
 Many people ask, "why me god! why do I get so much spam?"
 
@@ -26,7 +26,7 @@ Most mail clients these days have some form of spam filtering built in.
 *Change your email address:*
 If you really want to cut down on spam, you can simply <%= link 'rename your account' => 'mail-accounts' %>. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
 
-h1. How riseup.net fights spam
+h2. How riseup.net fights spam
 
 Our crack team of spam fighters has erected three layers of spam defense:
 
@@ -34,11 +34,11 @@ Our crack team of spam fighters has erected three layers of spam defense:
 * *Spamassassin*: Riseup uses "spamassassin":http://spamassassin.apache.org to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
 * *Customizable Spam* Filtering: As our final line of defense, we allow you to customize the spam settings for your account. If the statistical filter is also turned on, it will learn and adapt over time based. For more information, see below.
 
-h1. Why is email to me being blocked as spam?
+h2. Why is email to me being blocked as spam?
 
 A recent study has shown that over 95% of the email traffic on the internet is spam! Yes, 95%! For you and me, it is just a nuisance, but for riseup's poor servers, it's a huge hassle. Riseup has deployed a number of tools to combat spam and sometimes a legitimate user's email will be incorrectly identified as spam. Before contacting us, please review the steps listed here to see if you can resolve the problem.
 
-First, let's identify the problem. If your mail is being bounced by riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
+First, let's identify the problem. If your mail is being bounced by Riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
 
 h3. Spamassassin
 
