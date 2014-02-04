@@ -6,7 +6,7 @@ We've been working on various efforts to swap things around to get rid of old se
 
 We’ve been working on our physical security, installing much better locks on our cabinets and that kind of thing.
 
-And we were pretty worried after that whole Lavabit thing -- http://en.wikipedia.org/wiki/Lavabit , and have been expecting to be next. But we haven’t had any secret orders, or non-secret orders, to do anything.
+And we were pretty worried after that whole Lavabit thing -- http://en.wikipedia.org/wiki/Lavabit -- and have been expecting to be next. But we haven’t had any secret orders, or non-secret orders, to do anything.
 
 This either means
 * we think too much of ourselves,
@@ -30,13 +30,12 @@ Do not open attachments from anyone, including people you know, unless you know 
 
 We here at riseup.net will NEVER send you any mail with an attachment.
 
-Wanna know more? Like how to install a spam filter and other useful stuff?
-https://www.riseup.net/en/viruses
+Wanna know more? Like how to install a spam filter and other useful stuff? <%= link 'viruses' %>
 
 h2. The Littlest Bird!
 
 The mighty Sunbird, along with his lovely partner, have a new baby named after the wind and stars, and we wish them all the best in all the things that change and grow when babies come along.
 
-h2. Thanks.
+h2. Thanks
 
-Thanks for all the little and big donations we got during our annual fundraising drive. You all are our sun and moon. And if anyone else feels like donating, please, please do because that means we'll be able to support more users in better ways. Thanks. https://help.riseup.net/donate
+Thanks for all the little and big donations we got during our annual fundraising drive. You all are our sun and moon. And if anyone else feels like donating, please, please do because that means we'll be able to support more users in better ways. Thanks. <%= link 'donate' %>

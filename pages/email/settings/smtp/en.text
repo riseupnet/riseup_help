@@ -21,12 +21,12 @@ h2. How do I configure SMTP?
 
 Riseup.net's outgoing mail service requires authentication and a secure connection (SSL or TLS) for security and anti-spam reasons. To use riseup.net as your outgoing mail server (SMTP), use these settings:
 
-* Outgoing mail server:: @mail.riseup.net@
-* Login or User Name:: your riseup.net login name.
+* *Outgoing mail server*: @mail.riseup.net@
+* *Login or User Name*: your riseup.net login name.
 For example, if your email address was joe_hill@riseup.net, your login is @joe_hill@. This is *required*. If you mail client does not support authenticated SMTP, you cannot use riseup.net as your SMTP.
-* Use secure connection:: Always.
+* *Use secure connection*: Always.
 This is *required*. If you mail client does not support secure SMTP, you cannot use riseup.net as your SMTP. You might have the option of choosing either *TLS* or *SSL* for the secure connection. Both protocols work, but most ISPs will block port 25 (used by TLS), so we recommend that you choose SSL.
-* Port:: For *TLS*, the port should be @25@. For *SSL*, the port should be @465@. Again, port @25@ is probably blocked by your internet provider, so you should probably choose SSL.
+* *Port*: For *TLS*, the port should be @25@. For *SSL*, the port should be @465@. Again, port @25@ is probably blocked by your internet provider, so you should probably choose SSL.
 
 For details on setting up SMTP for different mail clients, see the [email clients] page.
 

@@ -1,12 +1,60 @@
-This page has yet to be copied from old help.
+@title = 'Evolution'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2. What is Evolution?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+"Evolution":http://en.wikipedia.org/wiki/Evolution_software is the official personal information manager and mail client for the "GNOME Desktop Environment":http://en.wikipedia.org/wiki/GNOME. It is Free and Open Source Software, licensed under the GPL.
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+It is usually distributed with the GNOME Desktop Environment with linux, making it likely available either upon installation of a Linux distribution that uses GNOME, such as ["Ubuntu":http://en.wikipedia.org/wiki/Ubuntu_(operating_system)], or available via your distribution's "Package Manager":http://en.wikipedia.org/wiki/Package_manager. Evolution is also "available for Windows":http://www.dipconsultants.com/evolution/download.htm.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+Evolution includes support for email, calendar, address book, contacts, and GPG encryption.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+h2. Install Evolution
 
+* Debian/Ubuntu Linux: Most likely, evolution is already installed. If not, @sudo apt-get install evolution@
+* Windows: "Download":http://www.dipconsultants.com/evolution/download.htm and install the windows version.
+
+h2. Setup a New Account in Evolution
+
+# Start Evolution (e.g. Press **Alt+F2** and enter: <code>evolution</code>)
+# If you're running Evolution for the first time, you will be asked if you want to restore your settings from a backup file, if you have one.
+# Enter the name you wish to have appear in the **From** field to your email recipients along with your email address.  You may also choose to make this your default account in Evolution.
+# Enter the following information to receive email for a riseup.net account:
+Server Type: Choose either **IMAP** or **POP**. <%= link 'What is the difference between IMAP and POP email servers?' => 'email/clients' %> %>
+Server: **mail.riseup.net**
+username: **<your riseup username>**
+Use Secure Connection: **TLS** is recommended
+Authentication Type: **Password**
+# The next screen has 4 sections.  **Connection to Server** and **Folders** can be safely ignored.  Enter how often you want evolution to automatically check for new emails in minutes in the **Checking for New Mail** section, or unchecked to only check for email when you manually instruct Evolution to do so.  The **Options** section allows you to apply spam filtering to your incoming email and to automatically keep local copies of your email to enable disconnected access (applies to IMAP only).
+# Enter the following information to receive email for a riseup.net account:
+Server Type: **SMTP**
+Server: **mail.riseup.net**
+check **Server requires Authentication**
+Use Secure Connection: **TSL** is recommended for security reasons (StartTLS and SSL are easily compromised).
+Authentication Type: **PLAIN**
+username: **foobar**
+# Give the account you're creating a name.  This is only used for your reference when managing multiple accounts in Evolution and is not disclosed to recipients of your emails.
+# Click **Apply**
+
+You're finished!  You now can use Evolution to send and receive email through Riseup's servers.
+
+h2. Setup OpenPGP Encryption in Evolution
+
+All that's necessary to work with encrypted emails in Evolution is to tell Evolution the OpenPGP **KEY ID** for your account and then to select encryption every time you send an email.
+
+# First, <%= link 'Generate a OpenPGP Key pair' => 'gpg-keys' %>, if you haven't done so already.
+# Go to **Edit** -> **Preferences**
+# In the **Mail Accounts** section, select the account you wish to link to your OpenPGP key and press the **Edit** button.
+# Click the **Security** tab.
+# Enter your OpenPGP **KEY ID** (See the <%= link 'Howto on OpenPGP Keys' => 'gpg-keys' %> to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
+# Click **OK**
+
+You are now able to encrypt and decrypt emails in Evolution!
+
+h2. Send Encrypted emails
+
+# Compose a new email
+# Select **Security** -> **PGP Encrypt**
+
+The email you're composing will now be encrypted upon being sent!  You can always verify that your email is going to be encrypted by going into the **Security** menu and seeing if there's a checkmark next to **PGP Encrypt**.
+
+Unfortunately, there currently doesn't appear to be any way to enable encryption by default either globally or per contact, meaning that **every time you want to encrypt an email to someone, you have to go to Security -> PGP Encrypt to enable encryption, otherwise your email will be readable by third parties.**

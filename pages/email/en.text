@@ -1,4 +1,5 @@
-@title = 'Email'
+@title = 'Riseup Email'
+@nav_title = 'Email'
 
 !>email/airmail.jpg!
 

@@ -1,0 +1,69 @@
+@title = 'Mail for iOS'
+@nav_title = 'iOS Mail'
+
+Mail for iOS is the email program included with Apple's iOS operating system.
+
+This page will help you to setup email on your iPhone or iPod for use with Riseup. The images below will take you step by step through the process of setting up an IMAP mail account on your iPhone.
+
+h2. Add a mail account
+
+To get started you will need to first tap on the settings icon on your iPhone home screen:
+
+!ios-mail/img/step-1.png!
+
+At this screen tap on "Mail, Contacts, Calendars" which should bring you to the screen below:
+
+!ios-mail/img/step-2.png!
+
+Scroll down to the bottom and tap where it says "Other":
+
+!ios-mail/img/step-3.png!
+
+Tap "Add Mail Account"
+
+h2. Fill out your account information
+
+Add your information for your mail account. The "Name" area is the name that people recieving mail from you will be given as your name. The description area is to help identify this account on your phone if you have other mail accounts that you use on the same phone. You can put whatever you like there. When you're done filling this area out tap next.
+
+!ios-mail/img/step-5.png!
+
+h2. Set the outgoing server
+
+Now fill out the outgoing mail server like follows:
+
+!ios-mail/img/step-6.png!
+
+h2. Set the incoming server
+
+Make sure the incoming mail server looks like this, once it does, tap next:
+
+!ios-mail/img/step-7.png!
+
+h2. Syncing other data
+
+The next step might ask you if you want to sync notes, we do not support that, so leave that off, tap next to move on:
+
+!ios-mail/img/step-8.png!
+
+h2. You aren't finished yet!
+
+You want to go back into that new account to check a few things. You should still be in the "Mail, Contacts, Calendars" section of settings, if not, from the home screen tap "Settings" then "Mail, Contacts, Calendars" then tap on your new account. It will be named exactly what you typed in the "Description" area above. ("Riseup" in our example), you should get yourself back here:
+
+!ios-mail/img/step-4.png!
+
+Scroll down to the bottom and tap "Advanced", then you will see this:
+
+!ios-mail/img/step-9.png!
+
+Here you can set your iPhone mailboxes they sync up with your imap mailboxes, tapping on "Drafts Mailbox" will allow you to store messages you're drafting on your iPhone on the server so you can work on them later from another computer. Similarly, the "Sent Mailbox" and "Deleted Mailbox" will allow you to access items sent or deleted from another computer as well. We call the "Deleted Mailbox" Trash.
+
+If you don't use drafts, sent, or deleted folders you don't need to set these up.
+
+Finally, make sure that SSL toggle is switched to on, and the other items match accordingly.
+
+h2. Finished!
+
+That's it, your mail should be all setup now:
+
+!ios-mail/img/finished.png!
+
