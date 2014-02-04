@@ -1,31 +1,31 @@
-The internet is a wild place. Practically ever click you make is now recorded, archived, and analyzed by a computer somewhere in order to predict your consumer behavior or enforce the laws of the nation state. The moment you put a computer on the internet, it is likely to be probed for vulnerabilities by viruses and crackers hoping to conscript it into a [zombie bot army -> http://en.wikipedia.org/wiki/Zombie_computer].
+The internet is a wild place. Practically ever click you make is now recorded, archived, and analyzed by a computer somewhere in order to predict your consumer behavior or enforce the laws of the nation state. The moment you put a computer on the internet, it is likely to be probed for vulnerabilities by viruses and crackers hoping to conscript it into a "zombie bot army":http://en.wikipedia.org/wiki/Zombie_computer.
 
 Yikes! What is an internet user to do? These pages will help you configure your computer to prevent these attacks [_at the network level_].
 
+table(table).
 |_. Technology  |_. Difficulty |_. When to use it |
 | Better Web Browsing | Easy | There are a few easy things you can do to make your web browsing more secure and more private. |
 | Riseup DNS | Easy | Use the Riseup DNS servers to *block advertisements* and prevent corporations from tracking your every movement. |
-| [Riseup VPN -> vpn] | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic* (includes Riseup DNS). |
-| [Tor] | Hard | Tor is like VPN, but your traffic is bounced around the internet to many nodes to make it *more anonymous.* |
+| <%= link 'Riseup VPN' => 'vpn' %> | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic* (includes Riseup DNS). |
+| <%= link 'Tor' %> | Hard | Tor is like VPN, but your traffic is bounced around the internet to many nodes to make it *more anonymous.* |
 
 h2. Better Web Browsing
 
-[[insert-toc better-web-browsing]]
+<%= child_summaries :page => 'common/better-web-browsing', :include_toc => true %>
 
-h2.Riseup VPN
+h2. Riseup VPN
 
 h3. About the RiseupVPN
 
-[[insert-toc riseup-vpn]]
+<%= child_summaries :page => 'riseup-vpn', :include_toc => true %>
 
 h3. Running the RiseupVPN
 
-[[insert-toc vpn-howto]]
+<%= child_summaries :page => 'vpn-howto', :include_toc => true %>
 
 h3. How it works
 
-[[insert-toc how-vpn-works]]
-
+<%= child_summaries :page => 'how-vpn-works', :include_toc => true %>
 
 
 Advanced Topics
