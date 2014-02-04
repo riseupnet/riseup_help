@@ -38,8 +38,6 @@ chat
   rooms
   security
 security
-  surveillance
-  privacy
   human-security
   device-security
   message-security
