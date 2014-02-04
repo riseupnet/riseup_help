@@ -51,7 +51,7 @@ For more information about encrypted email, check out our <%= link 'encrypted em
 ** <%= link 'For Windows' => 'howto-gpg-keys#windows' %>
 ** <%= link 'For Mac' => 'howto-gpg-keys#mac-os-x' %>
 * <%= link 'Encrypting your email' => 'encrypted-email' %>
-** <%= link 'With Thunderbird and Enigmail' => 'encrypting-email-with-thunderbird' %>
+** <%= link 'With Thunderbird and Enigmail' => 'message-security/encrypted-email/thunderbird' %>
 
 h2. Instant Message Encryption with OTR
 
