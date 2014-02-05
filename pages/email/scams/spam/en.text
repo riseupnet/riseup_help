@@ -24,7 +24,7 @@ A temporary alias is an email alias which you only use for a limited amount of t
 Most mail clients these days have some form of spam filtering built in.
 
 *Change your email address:*
-If you really want to cut down on spam, you can simply <%= link 'rename your account' => 'mail-accounts' %>. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
+If you really want to cut down on spam, you can simply [[rename your account => mail-accounts]]. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
 
 h2. How riseup.net fights spam
 

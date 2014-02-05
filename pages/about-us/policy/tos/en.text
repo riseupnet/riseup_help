@@ -2,7 +2,7 @@
 
 Riseup Networks services currently include email, email list hosting, website hosting, domain registration, colocation, and other services common to ISP/OSPs.  These services may change from time to time and are provided AS IS.  You understand and agree that Riseup Networks assumes no responsibility for, among other things, any service outages or interruptions, the unavailability of particular features or services, and your inability to access or make use of all or part of our services.  Furthermore, you understand and agree that Riseup Networks assumes no responsibility for deletion, loss or mis-delivery of information stored or delivered through our services. Riseup Networks makes no warranties or guarantees as to the security of any machine or website operated or hosted by Riseup Networks, nor do we make any warranties or guarantees at all.
 
-Riseup Networks complies with the "Digital Millennium Copyright Act's":http://www.chillingeffects.org/dmca512/faq.cgi#QID128 notice and take-down procedures.  Your use of Riseup Networks' services is subject to Riseup's <%= link 'DMCA Policy' => 'dmca' %>.
+Riseup Networks complies with the "Digital Millennium Copyright Act's":http://www.chillingeffects.org/dmca512/faq.cgi#QID128 notice and take-down procedures.  Your use of Riseup Networks' services is subject to Riseup's [[DMCA Policy => dmca]].
 
 In consideration for your use of the Riseup Networks services you agree to the following conditions:
 
@@ -40,7 +40,7 @@ If you do not fulfill your obligations under this Agreement, or you solicit othe
 
 h2.  Your Privacy
 
-By agreeing to this User Agreement, you also consent to the privacy practices detailed in our <%= link 'privacy-policy' %>, which may be modified at any time.
+By agreeing to this User Agreement, you also consent to the privacy practices detailed in our [[privacy-policy]], which may be modified at any time.
 
 h2.  No Warranty
 

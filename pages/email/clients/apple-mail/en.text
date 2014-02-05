@@ -4,10 +4,10 @@
 
 *Apple Mail*, also known as *mail.app* or simply *Mail*, is the full featured mail client which comes with OS X. It is pretty and easy to use, but we don't recommend it because it is not Free and Open Source Software (software libre).
 
-If you do want to use Apple Mail, then you can follow our instructions here. The first thing you need to determine before you configure Apple Mail, you need to <%= link 'decide if you will be using IMAP or POP' => 'email/clients' %>. If you are unsure, you probably want IMAP.
+If you do want to use Apple Mail, then you can follow our instructions here. The first thing you need to determine before you configure Apple Mail, you need to [[decide if you will be using IMAP or POP => email/clients]]. If you are unsure, you probably want IMAP.
 
-* <%= link 'Apple Mail tutorial for IMAP' => 'apple-mail/imap' %>
-* <%= link 'Apple Mail tutorial for POP' => 'apple-mail/pop' %>
+* [[Apple Mail tutorial for IMAP => apple-mail/imap]]
+* [[Apple Mail tutorial for POP => apple-mail/pop]]
 
 If you would like to use OpenPGP with Apple Mail:
 

@@ -24,7 +24,7 @@ Não abra anexos de ninguém, mesmo de pessoas que você conhece, a não ser que
 
 Nós aqui de riseup.net NUNCA lhe enviaremos um email com anexo.
 
-Quer saber mais? Por exemplo, como instalar um filtro de spam e outras coisas úteis? <%= link 'viruses' %>
+Quer saber mais? Por exemplo, como instalar um filtro de spam e outras coisas úteis? [[viruses]]
 
 h2. O mais novo passarinho!
 
@@ -32,5 +32,5 @@ O poderoso pássaro-de-sol e sua amada companheira tiveram um novo rebento nomea
 
 h2. Gratidão
 
-Agradecemos todas as pequenas e grandes doações que recebemos na nossa campanha anual de arrecadação de fundos. Vocês são nosso sol e nossa lua. E se mais alguém quiser doar, por favor, faça-o porque isso significa que conseguiremos melhor apoiar mais usuários. Gratidão. <%= link 'donate' %>
+Agradecemos todas as pequenas e grandes doações que recebemos na nossa campanha anual de arrecadação de fundos. Vocês são nosso sol e nossa lua. E se mais alguém quiser doar, por favor, faça-o porque isso significa que conseguiremos melhor apoiar mais usuários. Gratidão. [[donate]]
 

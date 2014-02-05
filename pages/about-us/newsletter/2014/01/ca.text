@@ -22,7 +22,7 @@ No obris adjunts de ningú, incloent gent que coneguis, a no ser que sàpigues e
 
 Aquí, des de riseup.net MAI t'enviarem un correu amb un adjunt.
 
-Vols saber-ne més? Per exemple com instal·lar un filtre anti-spam o altres coses útils? <%= link 'viruses' %>
+Vols saber-ne més? Per exemple com instal·lar un filtre anti-spam o altres coses útils? [[viruses]]
 
 h2. El més petit dels ocells!
 
@@ -30,4 +30,4 @@ La valenta ocell sol (Sunbird), juntament amb la seva encantadora parella, han t
 
 h2. Gràcies
 
-Gràcies per a tots els petits i grans donatius que hem tingut durant la nostra campanya de recaptació de fons. Sou el nostre sol i la nostra lluna. I si algú sent que ha de donar, si us plau, si us plau que ho faci perquè això significa que podrem recolzar més usuaris i de millors maneres. Gràcies. <%= link 'donate' %>
+Gràcies per a tots els petits i grans donatius que hem tingut durant la nostra campanya de recaptació de fons. Sou el nostre sol i la nostra lluna. I si algú sent que ha de donar, si us plau, si us plau que ho faci perquè això significa que podrem recolzar més usuaris i de millors maneres. Gràcies. [[donate]]

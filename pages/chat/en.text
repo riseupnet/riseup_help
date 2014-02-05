@@ -9,11 +9,11 @@ h2. Using Riseup's Jabber service
 
 Your riseup.net email address also serves as your jabber address. For someone to send you a jabber message or buddy request, they just need to send it to [@username@riseup.net@].
 
-In order to configure a <%= link 'jabber client' => 'chat/clients' %>, you need this information:
+In order to configure a [[jabber client => chat/clients]], you need this information:
 
 * *protocol*: "jabber" or "xmpp"
 * *account*: [@username@riseup.net@]
-* *password*: your <%= link 'riseup-password' %>
+* *password*: your [[riseup-password]]
 
 It is very important than you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
 
@@ -22,7 +22,7 @@ Some jabber clients will ask for your username and domain separately. In this ca
 * *username*: [@username@]
 * *domain*: @riseup.net@
 
-For tutorials on specific clients, see our <%= link 'jabber client' => 'chat/clients' %> page.
+For tutorials on specific clients, see our [[jabber client => chat/clients]] page.
 
 h2. Connecting to multi-user chatrooms
 
@@ -41,5 +41,5 @@ Do NOT use this:
 
 h2. For added security
 
-For added security, access our jabber server via the <%= link 'Riseup VPN' => 'vpn' %> or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @ztmc4p37hvues222.onion@
+For added security, access our jabber server via the [[Riseup VPN => vpn]] or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @ztmc4p37hvues222.onion@
 

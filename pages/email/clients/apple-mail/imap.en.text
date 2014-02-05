@@ -72,7 +72,7 @@ h2.  Setup Encryption For Sending Mail
 
 <i>Note: If you have trouble sending mail, try using port 465 instead of 587.</i>
 
-For more information on configuring the outgoing server, see <%= link 'smtp' %>.
+For more information on configuring the outgoing server, see [[smtp]].
 
 h2.  Complete the Setup!
 
@@ -80,7 +80,7 @@ h2.  Complete the Setup!
 
 Now, simply enter you <b>correct</b> password in the password box.  Your password will be encrypted when sent to the riseup server to send and receive email.
 
-When using secure connections, you will likely receive an error message that the riseup.net certificate is not trusted. Visit our <%=link 'certificates page' => 'riseup-ca' %> for detailed instructions on how to configure your computer to work well with our certificates.
+When using secure connections, you will likely receive an error message that the riseup.net certificate is not trusted. Visit our [[certificates page => riseup-ca]] for detailed instructions on how to configure your computer to work well with our certificates.
 
 h1.  Setting up Folders
 

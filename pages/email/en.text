@@ -23,11 +23,11 @@ The Internet is crawling with people trying to steal your email account. At some
 * Never trust that the "From" address of an email is from who it says, because this can be forged easily.
 * Web links in email messages are often fraudulent. To be safe, you should retype the link rather than clicking on it. Also, be careful about misspellings, like riseupp.net instead of riseup.net
 
-Read more on <%= link 'passwords' => 'mail-passwords' %>.
+Read more on [[passwords => mail-passwords]].
 
 h3. Automatic deletion of messages in some folders
 
-Messages in some <%= link 'special folders' => 'email-folders' %> are automatically deleted after a certain number of days:
+Messages in some [[special folders => email-folders]] are automatically deleted after a certain number of days:
 
 * *Trash* deleted after 21 days.
 * *Spam* deleted after 7 days.
@@ -35,13 +35,13 @@ Messages in some <%= link 'special folders' => 'email-folders' %> are automatica
 
 h3. Quota
 
-For many reasons, we do not provide much storage space for email. If you need more space, consider downloading your email using a mail client or increasing your quota by visiting https://user.riseup.net. Read more about <%= link 'quota' %>.
+For many reasons, we do not provide much storage space for email. If you need more space, consider downloading your email using a mail client or increasing your quota by visiting https://user.riseup.net. Read more about [[quota]].
 
 h3. Use an email client
 
-Although the riseup.net web-based interface does not have many features, you can use your riseup.net email account with an IMAP or POP email client, a feature-rich application designed specifically to handle your email. Check out our <%= link 'tutorials for many popular email clients' => 'email/clients' %>.
+Although the riseup.net web-based interface does not have many features, you can use your riseup.net email account with an IMAP or POP email client, a feature-rich application designed specifically to handle your email. Check out our [[tutorials for many popular email clients => email/clients]].
 
-Riseup recommends <%= link 'thunderbird' %>, a free and open source mail client. Thunderbird will automatically configure itself correctly if you just give it your riseup.net email address and password.
+Riseup recommends [[thunderbird]], a free and open source mail client. Thunderbird will automatically configure itself correctly if you just give it your riseup.net email address and password.
 
 h2. What is special about riseup.net email
 
@@ -62,22 +62,22 @@ There is no such thing as free email. Services like gmail, hotmail, and yahoo ma
 
 Riseup.net is different. This service is a labor of love by activists like you committed to building movement-run and secure alternative infrastructure.
 
-The riseup.net email service takes a lot of time and money to keep running, and is funded entirely by small donations from its users. Please do your part and <%= link 'contribute today' => 'donate' %>.
+The riseup.net email service takes a lot of time and money to keep running, and is funded entirely by small donations from its users. Please do your part and [[contribute today => donate]].
 
 h2. Frequently asked questions (FAQ)
 
-* <%= link 'How do I change my password?' => 'mail-passwords' %>
-* <%= link 'How can I delete my account?' => 'mail-accounts' %>
-* <%= link 'How do I increase my quota?' => 'quota' %>
-* <%= link "Why isn't my quota updated?" => 'quota' %>
-* <%= link 'How do I encrypt my email?' => 'message-security' %>
-* <%= link 'What can I do about the spam?' => 'spam' %>
-* <%= link "Why can't I login using webmail?" => 'webmail' %>
-* <%= link "Why can't I send mail from my mail client?" => 'smtp' %>
-* <%= link 'Is there an address book?' => 'address-book' %>
-* <%= link "Why can't I see my folders?" => 'email-folders' %>
-* <%= link 'How do I download my email?' => 'downloading-email' %>
-* <%= link 'Why is email to me being blocked as spam?' => 'spam' %>
-* <%= link 'What can you tell me about viruses?' => 'viruses' %>
-* <%= link "What is Riseup's Usage Agreement?" => 'email/usage-agreement' %>
-* <%= link "Why can't I set up an automatic out-of-office reply" => 'email-filters' %>
+* [[How do I change my password? => mail-passwords]]
+* [[How can I delete my account? => mail-accounts]]
+* [[How do I increase my quota? => quota]]
+* [[Why isnt my quota updated? => quota]]
+* [[How do I encrypt my email? => message-security]]
+* [[What can I do about the spam? => spam]]
+* [[Why cant I login using webmail? => webmail]]
+* [[Why cant I send mail from my mail client? => smtp]]
+* [[Is there an address book? => address-book]]
+* [[Why cant I see my folders? => email-folders]]
+* [[How do I download my email? => downloading-email]]
+* [[Why is email to me being blocked as spam? => spam]]
+* [[What can you tell me about viruses? => viruses]]
+* [[What is Riseups Usage Agreement? => email/usage-agreement]]
+* [[Why cant I set up an automatic out-of-office reply => email-filters]]
