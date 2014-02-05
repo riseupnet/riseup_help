@@ -34,8 +34,10 @@ lists
     faq
 chat
   clients
-  rooms
+    adium
+    pidgin
   security
+    otr
 security
   surveillance
   privacy
