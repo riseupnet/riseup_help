@@ -30,7 +30,18 @@ lists
     web-space
   list-admin
     configuration
+      creating-lists
+      list-definition
+      privileges
+      sending-and-reception
+      miscellaneous
+      shared-web-space
+      file-customization
+      html-form
     maintenance
+      archives
+      bounces
+      moderation
     faq
 chat
   clients

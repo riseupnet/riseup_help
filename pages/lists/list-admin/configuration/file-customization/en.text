@@ -1,0 +1,17 @@
+@title = 'File Customization'
+@summary = 'Customizing text that is used to describe your list in various situations.'
+
+In the new version of sympa, there are a number of aspects of your list that are no longer user-customizable. However, you can still edit the following files by clicking on "Admin" and then clicking on "Customizing"
+
+* Homepage: HTML text to describe the list. It is printed on the right-hand side of the main list page.
+* Description: This text is included in the welcome message for new subscribers and is the default homepage.
+* Message Header: If this file is not empty, it is added as a MIME attachment at the beginning of each message.
+* Message Footer: If this file is not empty, it is added as a MIME attachment at the end of each message.
+* Deletion Message: This message is sent to users when you remove them from the list (unless
+you hit the quiet button).
+* Subscribing Invitation Message:: This is sent to people you invite for subscription.
+* Welcome Message: This message is sent to new subscribers.
+* Editor Rejection Message: This message is sent to people when you reject their posts.
+* Remind Message: This message is sent to each subscriber when you click "Remind all subscribers."
+* Virus Infection Message: This message is sent to a user if a message they try to send
+to the list is infected with a virus.

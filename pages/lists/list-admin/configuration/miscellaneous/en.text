@@ -1,0 +1,22 @@
+@title = 'Miscellaneous'
+@summary = 'Some miscellaneous configuration possibilities, including expiring users, reminding them of their subscriptions.'
+
+h2.  expire task
+
+If set, the expire task will automatically unsubscribe list members who do not reply to an automated email.
+
+h2.  remind task
+
+If set, the remind task will send a message to all list members reminding them of their subscription to the list.
+
+h2.  email address protection method
+
+These options determine what method is used to protect email addresses in the list archives so that they cannot be recognized by [[email harvesting web spider->http://en.wikipedia.org/wiki/Web_crawler]].
+
+The choices are:
+
+** at:: addresses are written like so: @helpdesk@riseup.net@ --> @helpdesk AT riseup.net@
+** javascript:: addresses are composed using javascript, so that they look readable to humans but probably not to an email harvesting spider.
+** cookie:: before you enter the archives, you must accept a cookie. This option will prevent a search engine from indexing your archives, even if they are public. However, it will also prevent you from using direct URL links into a public archive: the user will first have to accept the cookie and this process redirects them to the general index of the archives.
+** none:: no attempt is made to change the email addresses.
+

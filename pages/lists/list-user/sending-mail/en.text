@@ -1,12 +1,88 @@
-This page has yet to be copied from old help.
+@title = 'Sending Mail'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2.  Why doesn't my email show up in the archive?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+Mail is not archived immediately. Be patient, it will (probably) show up eventually. Sometimes, it never shows up and the archives need to get rebuilt. If this happens, [[fill out a help ticket->https://user.riseup.net/forms]].
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+h2.  Why was my email rejected for being too big?
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+Currently, the maximum list email size is set to 500k, which we feel is more than enough. Big attachments consume lots of computer resources for little benefit. They are rude to people who are forced to download them, and most often the large attachment is not needed by the whole list. Please use [[shared web documents->web-space]] instead.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+h2.  Why was my email sent to the moderator for approval and/or rejected?
+
+There are several possible reasons for this.
+
+* I am not subscribed to the list.
+** Most lists only allow members to post. You should subscribe by [[following these steps->subscribing#how-do-i-subscribe-to-a-list]].
+
+* I am subscribed to the list (that is, you are receiving messages from the list), but my posts are referred to the moderator.
+** The admin of the list may not allow members to post without moderator approval. If you think this should change, send an email to *listname-admin@lists.riseup.net* and ask your admin to change it.
+** You may be receiving your emails at one address and sending them from another. For example, lets say you have *email1@riseup.net*, but you also have *email2@gmail.com*. Email1 is subscribed to the list, but email2 is not. If you send an email FROM email2 to the list, it will be held for moderator approval. <b>To fix this:</b> Subscribe your second email address. Now switch your second email address to [[no mail mode->subscribing#how-do-i-switch-to-no-mail-mode]]. You will only receive email at the first address, but you can post from both.
+
+h2.  How do I contact a list owner?
+
+To contact the list owners, send an email to <i>listname</i>-admin@lists.riseup.net. To contact the list moderators, send an email to <i>listname</i>-editor@lists.riseup.net.
+
+h2.  How do I send HTML mail?
+
+It is possible to send HTML mail to riseup.net lists. But first, we ask you that you reconsider sending formatted (aka HTML) messages to a mailing list.
+
+* HTML email is *insecure*: It is very difficult to make HTML email secure and private. There are many possible vulnerabilities including session hijacking, session fixation, and tracking your activity via unique image URLs. Additionally, many of the most severe security flaws in Microsoft's Outlook relate to HTML email, and there will no doubt be more.
+
+* HTML email is *obnoxious*: In almost all cases, formatting your message in HTML will only make it less readable. Mail clients are already designed to make email easy to read: you are not going to do better than the default. Your formatting will be a distraction from the text of your message. This is doubly true for users who protect their security and privacy by disabling images in HTML email, because your email will appear with totally messed up formatting.
+
+* HTML email is *unnecessary*: Most mail clients will already convert well formed URLs. Here is an example:
+<code>
+   a webpage: http://help.riseup.net
+   an email address: listhelp@riseup.net
+</code>
+If you put this in a text-only email, most mail clients will convert these into clickable links.
+
+* HTML email is *exclusive*: Many people are not able to view HTML email or have chosen to disable HTML email because of concerns for security, privacy, accessibility, or aesthetics. For these people, your HTML formatted email will appear as plain text, but most certainly the plain text will be more difficult to read than if you had composed the message as plain text originally. This occurs because of the way that your mail client converts your outgoing message from HTML to plain text: it doesn't do a very good job. The only thing you achieve with HTML email is annoying the people who cannot view it.
+
+If, for some unexplainable reason, you still insist on sending HTML email to a mailing list, this is how you do it:
+
+* Compose the message in a mail client, such as [[Thunderbird->thunderbird]], which supports sending HTML email.
+
+* In Thunderbird, you may need to enable this option under Edit > Account Settings > Composition and Addressing.
+
+* Send the message from your mail client to the list address.
+
+That is it. It will *not* work to paste HTML fragments into your normal email or to paste HTML into the web based "Post Message" page.
+
+h2.  Why don't I receive a copy of the emails that I post to the list?
+
+There are two possible reasons for this.  You may have your subscription options for the list set to not receive copies of your own posts.  To find out:
+
+# Go to [[https:://lists.riseup.net/]]
+# Login with your email and password
+# Click on "Your subscriptions"
+# Click on the list at issue
+# Select "Options" on the left side of the screen
+# Make sure that your reception mode is set to "Normal" and not set to "Not_me"
+
+If you are still not receiving copies of your own posts, you may have a gmail account.  Gmail thinks it is clever by not showing you posts that you make.  We can't do anything about this, you have to check with Gmail to fix that problem.  If you're still having trouble, fill out a help ticket.
+
+h2.  Why is my email to a riseup list being blocked as "Spam"?
+
+A recent study has shown that over 95% of the email traffic on the internet is spam! Yes, 95%! For you and me, it is just a nuisance, but for riseup's poor servers, it's a huge hassle. Riseup has deployed a number of [[tools to combat spam->spam]] and sometimes a legitimate user's email will be incorrectly identified as spam. Before contacting us, please review the steps listed here to see if you can resolve the problem.
+
+First, let's identify the problem. If your mail is being bounced by riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net[[204.13.164.55]] said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup uses [[Spamassassin->http://spamassassin.apache.org/]] to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam.
+Check [[this page->http://wiki.apache.org/spamassassin/AvoidingFpsForSenders]] to see if you, or your ISP, can resolve the issue on your end before you contact us to report this issue.
+
+h3. My mail server has "bad MX records"
+
+<pre>
+Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address [[EXAMPLE@EXAMPLE.NET]] blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
+</pre>
+
+MX records define servers that are authorized to send mail. Some ISPs do not configure their DNS records correctly, and this leads to lots of problems. If you are receiving this error, please contact your ISP and tell them to look at [[this page->http://rfc-ignorant.org/policy-bogusmx.php]].
 

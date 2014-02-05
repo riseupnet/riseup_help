@@ -1,0 +1,57 @@
+@title = 'Moderation'
+
+h2.  Adding moderators/editors
+
+# Go to the admin page (hint: navigate to lists.riseup.net/www/admin/YOURLISTNAME)
+# Click on Admin
+# Click on Edit list config
+# Click *list definition*
+# Scroll down to the *Moderators* section
+# Fill in an empty record:
+  *gecos*: This is the display name of the editor (optional).
+  *reception*: If set to <i>mail</i>, all moderated messages get mailed to this editor for moderation. If set to <i>nomail</i>, the editor can still moderate messages using the web interface.
+  *info*: Description information on this editor (optional).
+  *email*: The email address of the editor. This field is required.
+# Click the *Update* button at the bottom of the page.
+# Repeat for as many editors you want to add.
+
+h2.  Moderation online
+
+# Log on.
+# Go to the list's info page.
+# Follow the 'Moderate' link on the left.
+# Select the appropriate emails.
+# Click one of:
+  *Distribute:* this will approve the message and distribute it to the list.
+  *Reject:* this will silently reject the message.
+  *Notify reject:* this will reject the message, and inform the person sending the message that the message has been rejected.
+
+h2.  Moderation by email
+
+If you are an editor of a moderated list with reception set to <b>mail</b> you will receive an email every time someone tries to post to the list.
+
+<b>Note:</b> The message to be moderated is included as an attachment. If your mail client does not show the attachment inline, you will have to open the attachment to view the message.
+
+The email will look like this:
+
+<pre>
+To distribute the following message into list *listname*, either click on this link:
+
+mailto:sympa@lists.riseup.net?subject=DISTRIBUTE%20*listname*%20892176d8da696d9af5acd7a2ba4ed1c5
+
+Or send a mail to sympa@lists.riseup.net with this subject:
+
+DISTRIBUTE *listname* 892176d8da696d9af5acd7a2ba4ed1c5
+
+To refuse it (delete it), either click on this link:
+
+mailto:sympa@lists.riseup.net?subject=REJECT%20*listname*%20892176d8da696d9af5acd7a2ba4ed1c5
+
+Or send a mail to sympa@lists.riseup.net with this subject:
+
+REJECT *listname* 892176d8da696d9af5acd7a2ba4ed1c5
+</pre>
+
+Where <code>*listname*</code> is the name of your list. If your mail client support clickable URLs, then you can click on the "mailto:" link. The big long number after the listname is secret code which changes for each message.
+
+This secret code is used to prevent people who are not the editors from approving or rejecting mail.

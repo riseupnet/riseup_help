@@ -1,0 +1,32 @@
+@title = 'Shared Web Space'
+@summary = 'How to use, create, and edit shared web space for your list.'
+
+h2.  Creating shared web space for a list
+
+# login as a list admin
+# On the left, you should have a list of "Your lists".
+# click the "Admin" button of the list you want to add share web space to
+# click "Create Shared" link
+# Privileges can be set under "Edit List Config" -> "Privileges". Near the bottom is a "Shared documents" section
+
+h2.  Adding, viewing or editing shared web space documents
+
+* login to https://lists.riseup.net as a list admin, or as anybody who has access to add/view documents for the particular list.
+* click the list
+* click the "Shared Documents" link
+* The top has two modes: "User mode" and "Expert mode".
+* To upload a document in the shared folder
+** Click the "Expert mode" link
+** click the "Browse..." button to the right of where it says "Upload a file inside folder SHARED"
+** locate the file on your local hard drive and click the Open or Ok button in the dialog
+** click "Publish" button to upload the file
+* to open a shared file
+** Click the "User mode" link
+** click the filename link in the list of files
+* to edit a shared file
+** click the "edit" link next to the file in Expert mode
+* to delete a shared file
+** click the "delete" link next to the file in Expert mode
+* to modify access privileges for a specific file
+** click the "access" link next to the file in Expert mode
+* You can then share the URL of the uploaded file in an email to your list. List members will have to login to download the file.

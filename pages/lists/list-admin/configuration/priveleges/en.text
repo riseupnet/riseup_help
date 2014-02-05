@@ -1,0 +1,40 @@
+@title = 'Privileges'
+@summary = 'Configuring the access and privileges for different aspects of your list, such as who can see the list, who can see subscribers, etc.'
+
+h2.  Information page
+
+You can hide your list's info page (available at lists.riseup.net/www/info/your-list-name):
+
+# Click *Admin*, then click *Edit List Config*
+# Click *Privileges*, then
+# Change the <b>Who can view list information </b> setting to <b>MEMBERS</b>.
+# Click <b>Update.</b>
+
+h2.  List visibility
+
+You can hide your list so that it does not appear in the directory of lists.
+
+To hide your list:
+
+# Click *Admin*, then click *Edit List Config*
+# Click *List Definition*, then
+# Change the <b>Visibility of the list</b> setting to <b>MEMBERS</b>.
+# Click <b>Update.</b>
+
+h2.  List of subscribers
+
+The <b>Who can review subscribers</b> setting controls who has access to view the list of subscribers.
+The available options are:
+
+* CLOSED &#151; No one can review.
+* EDITORS &#151; Only owners and editors may review list of subscribers.
+* LISTMASTER &#151; listmaster only.
+* MEMBERS &#151; Members (list subscribers) may review list of subscribers.
+* OWNERS &#151; Only owner may review list of subscribers.
+
+To change the <b>Who can review subscribers</b> setting:
+
+# Click *Admin*, then click *Edit List Config*
+# Click *Privileges*, then
+# Change the <b>Who can review subscribers</b> option, choosing what you want.
+# Click <b>Update</b>.
