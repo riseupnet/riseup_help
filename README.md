@@ -96,16 +96,17 @@ For a complete reference, see http://redcloth.org/textile/
 For external links, use `"this":http://format.org`. However, in order to link to
 other help pages, it is best to use some special markup:
 
-    <%= link 'label' => 'page-name' %>
+    [[label -> page-name]]
     or
-    <%= link 'page-name' %>
+    [[page-name]]
     or
-    <%= link 'chat/client' %>
+    [[chat/client]]
 
-By using this `link` function it will automatically find the right path for
-the page with the specified name. Also, it will warn you if the page name is
-missing and it will ensure that the link is created with the correct
-language prefix.
+By using this double bracket link notation will automatically find the right
+path for the page with the specified name. Also, it will warn you if the page
+name is missing and it will ensure that the link is created with the correct
+language prefix. In haml, you can get the same effect using
+`link 'label' => 'page'`
 
 Setting page properties
 ---------------------------------
