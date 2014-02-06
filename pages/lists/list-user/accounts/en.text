@@ -1,12 +1,42 @@
-This page has yet to be copied from old help.
+@title = 'Accounts'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2.  How do I create an account?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+To create a list account all you have to do is subscribe to a list. To subscribe, send mail to <b>listname-subscribe@lists.riseup.net</b>, where <i>listname</i> is the name of the list you want to subscribe to.
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+Alternately, you can fill out the [[account creation form->http://lists.riseup.net/www/renewpasswd]].
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+When you create an account, Sympa (the mail list software we use) creates a random password and mails it to your email address. This prevents others from subscribing you without your permission and verifies that your address is real. You should change the random password as soon as possible to a password which you can remember.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+Note that the accounts for lists at lists.riseup.net are <i>completely different</i> from email accounts at riseup.net.
 
+h2.  How do I change my password?
+
+Login using your full email address and password, then click the _Preferences_ link near the top of the page. There you will find a form for changing your password.
+
+h2.  I forgot my password!
+
+Fill out the [[password reminder form->http://lists.riseup.net/www/renewpasswd]]. Your password will be sent to the email address you specify.
+
+h2.  I don't have a password!
+
+If someone else subscribed you to a list, it is possible that you do not have a password. Fill out the [[new password form->http://lists.riseup.net/www/renewpasswd]]. A temporary password will be sent to the email address you specify, along with directions for changing it.
+
+h2.  How do I change my subscription address?
+
+To change the email address which you use to subscribe to all riseup.net list, follow these steps:
+# Login using your current address at https://lists.riseup.net
+# Click the *Preferences* link.
+# Where is says *Email:* fill in your new email address and click *Save*.
+
+*NOTE:* You do not want to use this form if you are a list owner or moderator. It will result in you losing ownership of your lists! Roughly, follow these steps instead:
+
+# add the new address as an *additional* owner
+# follow the steps above to change your subscription email address
+# remove the old address from being a list owner.
+
+See the [[list-definition#changing-owners]] page for information on how to do this.
+
+h2. How do I pick a good password?
+
+<%= render 'common/good-passwords' %>

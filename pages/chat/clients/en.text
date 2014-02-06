@@ -1,14 +1,44 @@
-<%= render_toc 'chat' %>
+@title = "Jabber Clients"
+@summary = "Configuring Jabber clients for use with Riseup's chat service."
 
-This page has yet to be copied from old help.
+p(alert alert-info). Please help us update this page by trying out different clients.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2. Features to look for
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+table(table).
+| *OTR?* | If yes, this client has built in support for OTR (off the record) which provides end-to-end encryption of chat messages and has perfect-forward-secrecy. |
+| *Jingle?* | If yes, this client can used for voice or video chat.|
+| *Proxy?* | If yes, this client may connect through a proxy and that the client obeys the proxy settings.|
+| *SSL/TLS?* | If yes, this client support secure connections with the chat provider.|
+| *Tor?* | If yes, this client can correctly use Tor to circumvent censorship and to access services anonymously. If no, then the client *should not be used with Tor*.|
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+h2. Recommended clients
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+table(table table-striped).
+|_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+| [[Empathy -> http://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | ? | ? | ? | Open source. Stable and easy to use. |
+| [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. Native Tor support. |
+| [[Pidgin]]   | Windows, GNU/Linux | *Yes*   | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Use most current version. |
+| [[Adium]] | Mac | *Yes* | No | *Yes* | *Yes* | Partial | Open source. Good native build of Pidgin for Mac, but rarely updates libpurple. DNS and URL hovering information leaks.|
+| [[Beem -> http://www.beem-project.com/]] | Android | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
+| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Yes* | No | ? | ? | ? | Open source. Stable client with many plugins. |
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+h2. Other clients
+
+table(table table-striped).
+|_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Written in Java. |
+| [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
+| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
+| [[Spark -> http://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Anyone tried it? Written in Java. |
+| iChat | Mac | No | No | ? | ? | ? | Apple's built-in chat application has support for jabber, but to a limited degree. |
+
+h2. Clients to avoid
+
+table(table table-striped).
+|_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
+
+
+
 

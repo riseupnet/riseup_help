@@ -2,13 +2,13 @@
 
 Want to enhance your email security by learning how you can use OpenPGP with Thunderbird? With this short primer gets you started in no time encrypting and decrypting emails and verifying that emails you receive are from the people who you expect them to be.
 
-Read up on <%= link 'email encryption' => 'encrypted-email' %> for background information.
+Read up on [[email encryption => encrypted-email]] for background information.
 
 h2. Install Enigmail and Run the OpenPGP Setup Wizard
 
 Enigmail is a Thunderbird extension that allows you to use OpenPGP encryption with your email.
 
-# (optional) You can let Engimail generate a key pair for you, or you can <%= link 'generate an OpenPGP key pair manually' => 'gpg-keys' %>.
+# (optional) You can let Engimail generate a key pair for you, or you can [[generate an OpenPGP key pair manually => gpg-keys]].
 # Download "Enigmail":https://www.enigmail.net. **Linux users** - It's best to download and install the extension to get the latest one, rather than using one provided by your package manager, which is likely outdated. Thunderbird will automatically install updates to Enigmail in the future.
 # Navigate to **Tools** -> **Add-ons**
 # Press the **Install...** button

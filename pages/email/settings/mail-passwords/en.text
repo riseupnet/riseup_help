@@ -16,7 +16,7 @@ You should change your password regularly. Pick a password that contains letters
 
 h2. I forgot my password, what do I do?
 
-To reset your account, you must have an active <%= link 'alternate email' => 'mail-accounts' %> set and can use the "lost password form":https://user.riseup.net.
+To reset your account, you must have an active [[alternate email => mail-accounts]] set and can use the "lost password form":https://user.riseup.net.
 
 h2. My password works some places, but not others, why?
 

@@ -30,7 +30,7 @@ Do not open attachments from anyone, including people you know, unless you know 
 
 We here at riseup.net will NEVER send you any mail with an attachment.
 
-Wanna know more? Like how to install a spam filter and other useful stuff? <%= link 'viruses' %>
+Wanna know more? Like how to install a spam filter and other useful stuff? [[viruses]]
 
 h2. The Littlest Bird!
 
@@ -38,4 +38,4 @@ The mighty Sunbird, along with his lovely partner, have a new baby named after t
 
 h2. Thanks
 
-Thanks for all the little and big donations we got during our annual fundraising drive. You all are our sun and moon. And if anyone else feels like donating, please, please do because that means we'll be able to support more users in better ways. Thanks. <%= link 'donate' %>
+Thanks for all the little and big donations we got during our annual fundraising drive. You all are our sun and moon. And if anyone else feels like donating, please, please do because that means we'll be able to support more users in better ways. Thanks. [[donate]]

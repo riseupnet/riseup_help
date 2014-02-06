@@ -33,4 +33,4 @@ Space in folders is often taken up by a few messages with large attachments. Wit
 # you can click on the arrow to the right of "Size" to change whether it displays the largest first or last
 # when you are done, you likely want to click on the box to the right of "Date" to order by date
 
-All messages in your folders count towards your quota, including messages in the <%= link 'special folders' => 'email-folders' %> Trash, Sent and Spam.
+All messages in your folders count towards your quota, including messages in the [[special folders => email-folders]] Trash, Sent and Spam.

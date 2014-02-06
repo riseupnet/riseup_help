@@ -4,8 +4,8 @@
 
 You can find information about riseup's policies here. These policies apply to all services provided by riseup.
 
-# <%= link 'social-contract' %>
-# <%= link 'government-faq' %>
-# <%= link 'privacy-policy' %>
-# <%= link 'tos' %>
-# <%= link 'dmca' %>
+# [[social-contract]]
+# [[government-faq]]
+# [[privacy-policy]]
+# [[tos]]
+# [[dmca]]

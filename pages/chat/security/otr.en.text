@@ -1,0 +1,74 @@
+@title = "Off the Record"
+
+h2. Introduction to OTR
+
+[[Off-the-Record Messaging (OTR)->https://en.wikipedia.org/wiki/Off-the-Record_Messaging]] adds end-to-end encryption for chat messages. It has many features:
+
+* *Encryption* All the encryption takes place on your devices. This protects your conversation from being read by others, even over insecure networks and untrusted chat providers.
+* *Authentication* You know if the person is who they say they are.
+* *Perfect forward secrecy* If you lose control of your private keys, no previous conversation is compromised.
+* *Deniability* The messages you send do not have digital signatures that are checkable by a third party. Anyone can forge messages after a conversation to make them look like they came from you. However, during a conversation, your correspondent is assured the messages she sees are authentic and unmodified.
+
+h2. Installing OTR
+
+In this tutorial, we will be using OTR with [[pidgin -> http://pidgin.im]]. Pidgin has the most mature implementation of OTR, and runs on Windows, Linux, and Mac.
+
+h3. Linux
+
+# Press Alt+F2 and run:
+<code>gnome-terminal</code>
+# Copy the following line into the new terminal window and hit Enter:
+<code>sudo apt-get install pidgin-otr</code>
+# To Run Pidgin press Alt+F2 and type:
+<code>pidgin</code>
+
+h3. Windows
+
+Visit http://pidgin.im/download
+
+h3. Mac
+
+Pidgin can be run on the Mac, but it is much easier to run Adium instead. Adium is a native port of pidgin to the Mac OS. Download [[Adium -> http://adium.im]].
+
+h2. Adding an Account to Pidgin
+
+Check out our [[pidgin tutorial -> pidgin]] for instructions on adding your riseup.net account to pidgin.
+
+h2. Setting up OTR
+
+Now with both Pidgin and OTR installed
+
+* Select *Tools > Plugins* from the main window
+
+* Enable *Off-The-Record Messaging* plugin and click the *Configure* button
+
+* Select your riseup.net account from the list and click Generate
+
+* *IMPORTANT NOTE!*: Under “Default OTR Settings” select both Require private messaging and Don't log OTR conversations. This guarantees that you only have encrypted conversations and that you aren't logging your past conversations. Remember that it is always possible for the person you are talking with to log the conversation. It is a good idea to ask whether that person logs OTR conversations.
+
+
+h2. Adding Buddies to your Contacts
+
+* To add a Buddy, from the main Pidgin window select Buddies > Add Buddy.
+
+* Make sure to select your account and to spell your buddy's username correctly when filling it in. You have the option of creating groups to categorize your buddies.
+
+* Click Add.
+
+* Once your buddies have been added and are available to chat they will appear in the main pidgin window. To start chatting double-click on a buddy's username from the list.
+
+h2. Authenticate Buddies
+
+Click **Start private conversation** and follow the instructions to authenticate each other to start a private conversation. The easiest method to authenticate someone is the Question and Answer method in which you ask the other person a question that only they could answer. This is an important security step to verify that you are talking to who you think you are talking to. Examples of acceptable questions:
+
+p((. Q: What did you and I talk about at Jad's last night in the front room? (lower case, one word)
+A: welding
+
+There was just the two people involved in the past conversation, so this is a secure question.
+
+p((. Q: Who created the poster on the wall of my bedroom? (lower case, two words)
+A: beehive collective
+
+This is a secure question assuming you trust the people that have been in your bedroom.
+
+Questions like "What is my hair color" or "What's my dog's name" are insecure because most anyone could easily discover the answers to those questions.

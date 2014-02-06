@@ -1,0 +1,61 @@
+@title = 'Bounces'
+
+h3.  What is bouncing?
+
+A list subscriber is *bouncing* if we tried to send them email but the message got rejected by their mail server. Typically, this happens if the user is over quota, no longer has an account, or the email address is typed wrong.
+
+h3.  How do I tell what addresses are bouncing?
+
+# login
+# click _Your subscriptions_
+# click the list name
+# click _Bounces_
+
+h3.  Subscribers are listed as bouncing but I know they are getting their mail. What gives?
+
+Once a subscriber is listed as bouncing, they will remain listed as bouncing even after they start receiving mail. After ten days, if they continue to receive mail without error they will be no longer be marked as bouncing.
+
+h3.  How do I figure out why a subscriber is bouncing?
+
+# go to the list page.
+# click on *Bounces* to get a list of all the subscribers that are marked as bouncing.
+# click on their email address to pull up a detailed page on this subscriber.
+# click on *View Last Bounce* to view the actual rejection message which their mail server bounced back to us.
+
+The bounce message can be a little confusing, but somewhere buried in that message should be some text describing exactly why the message was rejected.
+
+One thing you cannot rely on is the column which lists if the bounce was 'permanent' or 'temporary'. This value is based on the error code which the user's mail server returned. Unfortunately, different servers return different codes so you cannot tell much from this information.
+
+h3.  When should I remove bouncing subscribers?
+
+A vital part of being a list administrator is regular removal of bouncing subscribers. Email addresses which are totally invalid and continue to bounce will remain subscribed to your list until you unsubscribe them.
+
+So how do you decide when to remove bouncing addresses? The bounce count is pretty good indication if the address is valid or not. Compare the bounce count with the period over which the subscriber is bouncing. If it seems like they are bouncing most messages, then you should remove them.
+
+To remove bouncing addresses from your list:
+
+# go to the bounces section of your list
+# check off the addresses you want to remove. If you want to remove all the addresses visible on the page, click *toggle selection*.
+# click *unsubscribe selected*. If you do not want a removal  notice mailed to those addresses, check the box *quiet* before you hit *unsubscribe selected*.
+
+h3.  When should I reset the errors of a bouncing subscriber?
+
+After ten days of correctly receiving mail, subscribers marked as bouncing will automatically be marked again as having no errors. So really, you don't need to reset the errors manually. However, it is usually safe to go ahead and reset the errors for subscribers who have only bounced a few times over a long span of time or only bounced once over a short span of time.
+
+To reset the errors of subscribers marked as bouncing:
+
+# go to the bounces section of your list
+# check off the addresses you want to reset. If you want to reset all the addresses visible on the page, click *toggle selection*.
+# click *reset errors for selected*.
+
+h3.  Why are all my hotmail subscriber's bouncing?
+
+Hotmail is notoriously buggy. There is a known error with hotmail where list traffic is often rejected incorrectly. It only shows up once in a while, but when it happens every hotmail address on your list will be marked as bouncing. If you see this, you can safely reset their status. You might also repost the message they missed.
+
+h3.  Why are my list messages to giant corporate providers bouncing?
+
+Riseup has an ongoing battle with spam blacklists maintained by large corporations such as AOL, Earthlink, Comcast, and Hotmail.  Here is the problem: over 95% of the email traffic on the internet is spam.  As a result, large email providers struggle to figure out a way to avoid delivering spam to their user's inbox.
+
+About 0.5% of all the email riseup.net sends to large providers gets marked as spam by users on those systems. We get a report of which email is marked as spam, and it is almost always legitimate email from legitimate lists. We think some people must just mark messages as spam that they don't agree with. There are some cases where people were subscribed against their content. We try deal with these cases quickly, but some people just instead mark all the riseup.net email they get as spam.
+
+When we receive a spam report, we have to file a request with the blacklist to be removed, which sometimes takes 24-48 hours.  However, some companies, like AOL, have refused to fix the problem by placing us on a "whitelist" of known, non-spam providers.  Unfortunately, there is no easy solution for us.

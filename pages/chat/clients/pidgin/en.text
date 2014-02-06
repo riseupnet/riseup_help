@@ -1,0 +1,56 @@
+@title = 'Pidgin'
+
+h2. About Pidgin
+
+!pidgin/logo.pidgin.png!
+
+Pidgin is the most popular instant message client for GNU/Linux, Windows, and Mac. You can download Pidgin from http://pidgin.im/download. For Mac, check out [[Adium]], the native build of pidgin for Mac.
+
+h2. Setting up an account
+
+When you first start pidgin, hit the *Add...* button to add an account.
+
+(1) Under *Basic* tab, set these values:
+
+!pidgin/new-account-basic-tab.png!
+
+* *Protocol*: XMPP
+* *Username*: your Riseup username
+* *Domain*: riseup.net
+* *Password*: your [[riseup-password]]
+
+Optionally, set the local alias to be your name, and add an icon for yourself. Other people will see this icon on their jabber client.
+
+h2. Using OTR
+
+See the [[otr]] tutorial for details on using end-to-end encryption with Pidgin.
+
+h2. Securing pidgin on GNU/Linux
+
+For added security on Linux systems, we recommend you secure your pidgin using these steps:
+
+* copy [[this file -> http://bazaar.launchpad.net/~jpds/apparmor/pidgin-profile/view/head:/usr.bin.pidgin]] to /etc/apparmor.d/usr.bin.pidgin
+* restart apparmor
+<code>sudo /etc/init.d/apparmor restart</code>
+* restart pidgin
+
+h2. Tor with Pidgin configuration
+
+To configure Pidgin to use Tor, you need to modify your account settings as follows:
+
+First chose *Modify Account Settings*...
+
+!pidgin/pidgin-modify-account.png!
+
+then click the *Advanced* tab...
+
+!pidgin/pidgin-modify-account-advanced.png!
+
+put the Tor .onion address in for the *Connect Server* field: ztmc4p37hvues222.onion
+
+Then click on the *Proxy* tab...
+
+!pidgin/pidgin-modify-account-proxy.png!
+
+Set the proxy type to be Socks5, set the host and port as shown in the image, and set your username and password.
+

@@ -20,7 +20,7 @@ No abras archivos adjuntos de nadie, tampoco de gente que conozcas, a menos que 
 
 Nosotros, desde aquí en riseup.net NUNCA te mandaremos correo alguno con archivos adjuntos.
 
-¿Quieres informarte mas? Por ejemplo de ¿cómo instalar un filtro de Spam y otras cosas útiles? <%= link 'viruses' %>
+¿Quieres informarte mas? Por ejemplo de ¿cómo instalar un filtro de Spam y otras cosas útiles? [[viruses]]
 
 h2. El ave mas pequeñita
 
@@ -28,4 +28,4 @@ El gran Sunbird, junto a su adorada compañera, tienen una recién nacida nombra
 
 h2. Gracias
 
-Gracias por todas las pequeñas y grandes donaciones que recibimos durante nuestra anual recaudación de fondos. Ustedes son nuestra luna y nuestro sol. Y si alguno anda con ganas de donar, por favor, por favor háganlo ya que eso nos permitirá ofrecer mejores servicios y atender a más usuarios. Gracias help. <%= link 'donate' %>
+Gracias por todas las pequeñas y grandes donaciones que recibimos durante nuestra anual recaudación de fondos. Ustedes son nuestra luna y nuestro sol. Y si alguno anda con ganas de donar, por favor, por favor háganlo ya que eso nos permitirá ofrecer mejores servicios y atender a más usuarios. Gracias help. [[donate]]

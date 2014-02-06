@@ -1,4 +1,5 @@
 @title = 'Privacy Policy'
+@this.alias = '/privacy-policy'
 
 Our goal is to retain as little information on you as possible while still retaining the ability to provide reliable service and prevent abuse of server resources.
 
