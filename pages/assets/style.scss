@@ -202,7 +202,7 @@ html, body {
 }
 
  @media (max-width: 767px) {
-  #footer a {
+  #footer .footer-text {
     font-size: 80%;
     margin: 0 2px;
   }
@@ -213,7 +213,7 @@ html, body {
 #footer .footer-text {
   text-align: right;
   padding-top: 10px;
-  a, p {
+  a, & {
     color: $footer-color;
     margin: 4px 5px;
   }
