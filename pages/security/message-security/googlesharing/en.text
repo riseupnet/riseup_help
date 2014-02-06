@@ -1,0 +1,46 @@
+h2. What is googlesharing and why do I care?
+
+Googlesharing is an easy-to-use, free and open source [[plugin->https://addons.mozilla.org/en-US/firefox/addon/60333/]] for firefox that anonymizes your google searches. When you do a google search, google collects information about your identity by recording the web address where you are searching from and the content of your searches. Google probably knows more about your web searches than you do! 
+
+Googlesharing works by sending all of your google-related traffic that does not require a login (i.e. not gmail) through a separate server, completely transparently (you don't have to do anything). As a result, your online activity is aggregated with everyone else's.
+
+For more detailed information about how it works and why it is important, check out the [[project website->http://www.googlesharing.net/]].
+
+h2. How do I set it up?
+
+It's easy!
+
+# "Click on this link":/security/message-security/googlesharing/googlesharing-0.23-riseup.xpi get to the download page. 
+# You may see a yellow bar appear at the top of your browser that says, "Firefox prevented this site (we.riseup.net) from asking you to install software on your computer", please click the Allow button to install.
+!/security/message-security/googlesharing/Step1.png!
+# Now you'll see this window. Wait until the install button can be clicked, then click on install! 
+!/security/message-security/googlesharing/Step2New.png!
+# Restart firefox. *You're now using googlesharing!*
+!/security/message-security/googlesharing/Step3.png!
+
+h2. Optional paranoia
+
+For increased anonymity, the following is optional.
+
+Because your google activity is being sent through the Googlesharing proxies, Google isn't able to correlate your activity with you as an individual. Your requests go from your computer to the Googlesharing proxies, and then they send them to Google. That means your requests appear to Google as if they are originating from the Googlesharing proxies, not your computer. That is great!
+
+However, this also means that the Googlesharing proxies could now theoretically do what Google could do before, correlate your activities with you and your computer. You should ask: what information does Googlesharing keep on me? They assert that they keep no logs, so the answer is nothing. But how can you trust that is true? You can't. You have to go on their reputation (which we believe is pretty strong in this area!) Riseup is running two of the proxies that are a part of the Googlesharing pool, so we can assure you that there are no logs being kept on the ones that we are running. However, we cannot assure you about the others that are a part of that pool, as we do not know who they are.
+
+If you'd like, you can specifically use Riseup's googlesharing proxies only. That means your google-related traffic will be only routed through our servers. If you want to do this, follow these steps:
+
+
+# right-click on the "Google Sharing Enabled" text in the lower-right corner of your browser and select options.
+!/security/message-security/googlesharing/StepA.png!
+# Click on "Add Proxy"
+# Type "googlesharing.riseup.net" in the box and click ok.
+!/security/message-security/googlesharing/NewStepB.png!
+# Now click on the left column under 'enabled' to enable the riseup proxy. If you ever want to switch back to the default proxy, you can change it here.
+!/security/message-security/googlesharing/NewStepC.png!
+# Click 'Ok'
+
+h2. Further Reading
+
+* [[Google Is Blocked In 25 Of The 100 Countries They Offer Products In -> http://www.washingtonpost.com/wp-dyn/content/article/2010/04/19/AR2010041902799.html]] ([[google blog posting about same -> http://googleblog.blogspot.com/2010/04/controversial-content-and-free.html]])
+* [[the problem with google->/security/resources/google]]
+
+

@@ -1,0 +1,44 @@
+h2. Qu'est-ce que googlesharing et pourquoi ça m'intéresse ?
+
+Googlesharing est un [[greffon->https://addons.mozilla.org/en-US/firefox/addon/60333/]] pour firefox, libre et facile à utiliser qui permet de faire vos recherches Google de manière anonyme. Quand vous faites une recherche Google, Google collecte des informations sur votre identité en enregistrant l'adresse internet d'où vous cherchez et le contenu de vos recherches. Google en sait probablement plus sur vos recherches web que vous !
+
+Googlesharing fonctionne en envoyant tout votre trafic Google qui ne nécessite pas une authentification (comme gmail) à travers un serveur séparé, de manière totalement transparente (vous n'avez pas à faire quoique ce soit). De cette manière, votre activité en ligne est agrégée avec celle de tout le monde.
+
+Pour des informations plus détaillées sur le fonctionnement et pourquoi c'est important, jetez un œil sur le [[site du projet->http://www.googlesharing.net/]].
+
+
+h2. Comment ça s'installe ?
+
+C'est facile !
+
+# "Cliquez sur ce lien":/security/message-security/googlesharing/googlesharing-0.23-riseup.xpi pour installer le greffon.
+# Vous êtes susceptible de voir une barre jaune en haut de votre navigateur annonçant "Firefox a empêché ce site d'installer un logiciel sur votre ordinateur", cliquez alors le bouton Autoriser pour procéder à l'installation.
+!/security/message-security/googlesharing/Step1.png!
+# Vous verrez alors cette fenêtre. Attendez jusqu'à ce que le bouton d'installation puisse être cliqué, cliquez alors pour installer.
+!/security/message-security/googlesharing/Step2New.png!
+# Redémarrez firefox. Vous utilisez maintenant googlesharing!
+!/security/message-security/googlesharing/Step3.png!
+
+
+h2. Paranoïa en option
+
+Pour une amélioration de l'anonymat, ce qui suit est en option.
+
+Parce que votre activité Google est envoyée à travers les serveurs mandataires (proxy) de Googlesharing, Google n'est pas capable de corréler votre activité et vous-même, comme individu. Vos requêtes vont de votre ordinateur aux serveurs mandataires Googlesharing, et là elles sont envoyées à Google. Cela signifie que vos requêtes apparaissent à Google comme provenant des serveurs mandataires Googlesharing, pas de votre ordinateur. C'est fort !
+
+Toutefois, cela signifie également que les serveurs mandataires Googlesharing peuvent maintenant faire ce que Google pouvait auparavant, corréler vos activités avec vous et votre ordinateur. Vous allez demander: Quelles informations Googlesharing garde sur moi ? Ils affirment qu'ils ne conservent pas de journaux de connexion (logs) donc la réponse est rien. Mais comment pouvez-vous en être certain ? Vous ne le pouvez pas. Vous avez à vous fier à leur réputation (dont nous pensons qu'elle est excellente sur ce sujet). Riseup fait tourner deux des serveurs mandataires qui constituent le parc Googlesharing, donc vous pouvons vous assurer qu'il n'y a pas de journal de connexion conservé sur ceux que l'on fait tourner. Toutefois, nous ne pouvons vous garantir ce fait pour les autres parties de ce parc, ne sachant pas qui ils sont.
+
+Si vous voulez, vous pouvez spécifiquement utiliser les serveurs mandataires Googlesharing de Riseup. Cela signifie que votre trafic Google sera uniquement routé via nos serveurs. Pour ce faire, procédez de la manière suivante :
+# Cliquez-droit sur le texte "Google Sharing Enabled" du coin en bas à droite de votre navigateur et choisissez options.
+!/security/message-security/googlesharing/StepA.png!
+# Cliquez sur "Add Proxy"
+# Saisissez "googlesharing.riseup.net" dans le champs de saisie et cliquez OK.
+!/security/message-security/googlesharing/NewStepB.png!
+# Maintenant cliquez sur la colonne de gauche sous 'enabled' pour activer le serveur mandataire riseup. Si vous voulez revenir au serveur mandataire initial, vous pouvez le faire ici.
+!/security/message-security/googlesharing/NewStepC.png!
+# Cliquez 'OK'.
+
+h2. Lecture supplémentaires (en anglais)
+
+* [Google Is Blocked In 25 Of The 100 Countries They Offer Products In (google blog posting about same)->http://www.washingtonpost.com/wp-dyn/content/article/2010/04/19/AR2010041902799.html]
+* [the problem with google->https://we.riseup.net/riseuphelp/the-problem-with-google]
