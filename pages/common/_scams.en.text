@@ -8,4 +8,4 @@ All the bad stuff that can happen with email:
 
 <%= link 'spam' %>
 
-<%= link 'phishers' %>
+<%= link 'phishing' %>
