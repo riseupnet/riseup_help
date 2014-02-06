@@ -72,6 +72,7 @@ security
     googlesharing
   network-security
     secure-connections
+    better-web-browsing
   resources
 about-us
   contact

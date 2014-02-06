@@ -1,8 +1,10 @@
+@title = 'better web browsing'
+
 h2. Choosing a web browser
 
 Currently, there are four major web browsers, Firefox, Chrome, IE, and Safari. All four have experienced major security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose. We strongly advise against using Internet Explorer (IE) prior to version 9. 
 
-All four major browsers receive a failing grade in our <%= link 'Browser Privacy Scorecard' %>. However, these browsers can be made much better by <%= link 'installing extensions' => '#privacy-enhancing-extensions' %>.
+All four major browsers receive a failing grade in our [[Browser Privacy Scorecard->browser-score-card]]. However, these browsers can be made much better by [[installing extensions->#privacy-enhancing-extensions]]
 
 h2. Adjust your settings
 
@@ -17,15 +19,15 @@ setting you should adjust:
 
 h2. Use secure connections
 
-When your browser establishes <%= link 'secure connection' %> to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*. 
+When your browser establishes [[secure connections->secure-connections]] to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*. 
 
-h2. Verify Riseup's certificate fingerprints 
+h2. Verify Riseup's certificate fingerprints
 
 On the internet, a certificate is needed in order to verify the identity of people or computers. These certificates are also called SSL certificates or identity certificates. We will just call them “certificates” here
 
 In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections.
 
-To be certain you are communicating securely with Riseup, see <%= link 'how to verify Riseup’s certificates' => 'certificates' %>.
+To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
 
 h2. Privacy enhancing extensions
 
@@ -34,8 +36,8 @@ Although there is not yet a browser with good privacy capabilities, you can grea
 h3. Firefox
 
 * "adblock plus":http://adblockplus.org/en/:: uses subscription lists to block advertisements and behavioral tracking. Essential!
-* <%= link 'googlesharing' %>:: encrypts your google traffic and routes it through a proxy where it is combined with many other people.
-* "https-everywhere":https://www.eff.org/https-everywhere:: Automatically enables a <%= link 'secure connection' %> for websites that supports it.
+* [[googlesharing]]:: encrypts your google traffic and routes it through a proxy where it is combined with many other people.
+* "https-everywhere":https://www.eff.org/https-everywhere:: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
 * "better privacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/:: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
 * "share me not":http://sharemenot.cs.washington.edu/:: Protecting against tracking from third-party social media buttons while still allowing you to use them.
 * advanced:: maybe also consider "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ or "torbutton":https://addons.mozilla.org/en-US/firefox/addon/torbutton/

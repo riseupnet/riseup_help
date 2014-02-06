@@ -1,0 +1,112 @@
+h3. The Scorecard
+
+<table>
+<tr>
+ <th>Browser</th>
+ <th>Cookie controls</th>
+ <th>Third-party Cookies</th>
+ <th>Flash Cookies</th>
+ <th>Tracking Opt-out</th>
+</tr>
+<tr>
+  <td>Firefox</td>
+  <td>[*C*] some block-list control</td>
+  <td>[*D*] Enabled by default</td>
+  <td>[*F*] Can't be blocked.</td>
+  <td>[*C-*] Only supports "Do Not Track" header, disabled by default.</td>
+</tr>
+<tr>
+  <td>Internet Explorer</td>
+  <td>???</td>
+  <td>[*F*] Enabled by default, and sometimes sent even when disabled.</td>
+  <td>[*F*] Can't be blocked.</td>
+  <td>[*F-*] Microsoft engineers originally built awesome anti-tracking technology into IE, and then their bosses made it totally useless.</td>
+</tr>
+<tr>
+  <td>Internet Explorer 9</td>
+  <td>unknown</td>
+  <td>[*F*] Enabled by default, and sometimes sent even when disabled.</td>
+  <td>unknown</td>
+  <td>[*B*] Supports both the "Do Not Track" header and "Tracking Protection Lists". (what is enabled by default?)</td>
+</tr>
+<tr>
+  <td>Chrome</td>
+  <td>[*A*] good block-list controls</a>
+  <td>[*F*] Enabled by default, and sometimes sent even when disabled.</td>
+  <td>[*F*] Can't be blocked.</td>
+  <td>[*D-*] Horrible anti-tracking support, only available as an optional extension called [[Keep My Opt-Outs -> https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe]].</td>
+</tr>
+<tr>
+  <td>Safari</td>
+  <td>???</td>
+  <td>[*B+*] Disabled by default, but sometimes sent even when disabled.</td>
+  <td>[*F*] Can't be blocked.</td>
+  <td>[*F*] No anti-tracking feature.</td>
+</tr>
+</table>
+
+h3. Explanation of topics
+
+*Cookie control*
+
+Since some sites do require cookies and you may want to allow them for sites you trust, you do not want to just block all cookies, but allow them on a site-by-site basis. The browsers are evaluated here based on how well they allow the user to block untrusted sites (should be the default) and allow trusted sites (should be an easily modifiable list).
+
+*Third-party Cookies*
+
+Cookies are required whenever you login to a website (technically, you can create a login session without cookies, but not very securely). However, most all websites also transmit cookies from third parties that are used to track your clicks and behavior across many websites. There is no legitimate use for third party cookies -- their only use is to keep you under surveillance. Third party cookies should be blocked by default in all browsers.
+
+*Flash Cookies*
+
+As more people block cookies, a huge number of websites have switched to tracking people by setting special cookies via the Adobe Flash plugin. These cookies are even worse than third party cookies and are harder to get rid of. The newer browsers can be made to block flash cookies, but only in "private browsing" or "incognito" mode.
+
+*Tracking Opt-out*
+
+There are three methods of opting out of behavioral tracking:
+
+* Do Not Track HTTP header: The "Do Not Track" header tells websites that you don't want to be tracked. It is a good idea, but is not supported yet by any advertisers, and my never be. Currently, Firefox 4 and Internet Explorer 9 have optional support for the Do Not Track header.
+* Tracking Protection Lists: Browsers with "Tracking Protection Lists" allow you to subscribe to a list of companies that will be blocked. This is a great method, because it works today and allows you to effectively block almost all tracking. Support for Tracking Protection Lists is built into Internet Explorer 9 and can be added to Firefox and Chrome by using the [[Adblock Plus extension -> http://adblockplus.org/en/]], 
+* Opt-out cookies: Opt-out cookies are a system pushed by the advertising industry. This method has many flaws, and has been shown by researchers to be only marginally respected by advertisers. Advertisers allow you to set special cookies to tell them you don't want to be tracked. These cookies can be easily deleted, however. So some browser extensions will allow you to keep these cookies once set (as with Chrome) or to automatically set them (as with Beef TACO for Firefox).
+
+
+
+
+
+h3. Scorecard Notes
+
+Firefox
+
+* Tracking Opt-out:: [[Announced in early 2011 -> http://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/]], Firefox will support an optional ability to tell a web site you want to "opt-out" of tracking. This opt-out is disabled by default and few websites support it. Technologically, Firefox is doing this the "right way" and the [[EFF has applauded Firefox's move -> https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track]]. However, we still give Firefox a failing grade because this blocking does not actually do much of anything currently and will only be effective if trackers are required by law to honor it, which seems extremely unlikely -- especially since it is very difficult to enforce national privacy law on the global internet.
+
+Internet Explorer
+
+* Tracking Opt-out:: Originally, the engineers at Microsoft built the best anti-tracking technology in existence: The browser would automatically detect when your behavior was being tracked across different websites and would block this tracking. This was also enabled by default! Once the advertising executives got wind of this, a [[battle ensued withing Microsoft -> /assets/45575/WSJ%202010.%20Microsoft%20Quashed%20Effort%20to%20Boost%20Online%20Privacy.pdf]]. Eventually, the engineers lost and the advertisers won: Internet Explorer is distributed with this feature, but is only available while [[InPrivate -> http://windows.microsoft.com/en-US/windows-vista/InPrivate-frequently-asked-questions]] browsing is on. This makes it useless, because it must be enabled manually for each browser window and doesn't work with the normal browsing mode (this is important, because only in normal browsing mode do you have many handy features, like bookmarks, your history and form completion). 
+
+Internet Explorer 9
+
+Version 9 of Internet Explorer is much better than all the previous versions.
+
+* Tracking Opt-out:: IE9 was the first browser to support the *Do Not Track* header and *Tracking Protection Lists*. 
+
+Chrome
+
+* Tracking Opt-out:: [[Announced in early 2011 -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], Chrome will allow users to set a special "opt-out" cookie that is recognized by members of [[Network Advertising Initiative -> http://www.networkadvertising.org/managing/opt_out.asp]]. This method is nearly useless. [[One report found -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]] that the NAI cookie did not work consistently, ignored new ways of profiling and tracking, does not include a majority of industry groups, and lacks transparency. The report concludes that "the only success of the NAI has been lulling regulators into thinking that self-regulation fairly and effectively addresses the interests of consumers who are the targets of behavioral advertising."
+
+* Cookie tracking:: the way that Chromium allows users to control cookies is fairly advanced. You can block all cookies and selectively (through a context-menu that pops up in the URL) enable certain domains as you see fit. You can also directly see which cookies are set for the site you are visiting in that dialog. Also, when you set your config to "ask first", you get the confirmation dialogs one at a time instead of all at once as it is in Firefox.
+
+Safari
+
+* Third-party cookies:: Safari wins as the [[only browser to disable third-party cookies by default -> http://www.grc.com/cookies/stats.htm]].
+* Other:: Safari deserves bonus points for being the only browser immune to history harvesting.
+* Tracking Opt-out:: At this time, I don't think there is any planned.
+
+h3. How to get an "A+"
+
+What would a browser need to do in order to score "A+" on the scorecard?
+
+* Third-Party Cookies:: There is no legitimate use for third party cookies. They should always be blocked.
+* Tracking Opt-out:: The ideal would be...
+** enabled by default:: At a minimum, the user should be presented with a choice the first time you use the browser.
+** do-not-track header:: The browser should send the "do-not-track" header like Firefox, in case anyone ever actually honors it.
+** detected tracking:: The browser can, and should, detect when tracking is happening and shut it down. You should not need to rely on the voluntary compliance of the tracker to honor your settings. This is what IE was going to do, until the executives killed it.
+** block lists:: Allow the user to subscribe to lists of trackers that will get blocked.
+** on for normal browsing:: tracking opt-out is useless if it is only enabled while in a special "Secure Browsing" mode.
