@@ -14,8 +14,6 @@ Hardest: Steganographic methods.
 
 h1. Personal Firewall
 
-<%= link 'firewall' %>
-
 Difficulty: Easy
 Why: Make your computer less vulnerable to outside attack from the network.
 
