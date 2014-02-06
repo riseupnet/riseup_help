@@ -1,4 +1,5 @@
 @nav_title = 'VPN'
+@title = 'introduction'
 
 h2. What is the RiseupVPN?
 
