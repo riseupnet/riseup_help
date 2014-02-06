@@ -23,7 +23,7 @@ h1. Security overview
 
 <table class="table table-striped">
 <tr>
-  <th>Type of security</th>
+  <th style="width: 10em">Type of security</th>
   <th>What is it?</th>
   <th>When is it useful?</th>
 </tr>
