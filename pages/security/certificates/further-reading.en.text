@@ -1,5 +1,0 @@
-@nav_title = 'further reading'
-
-h1. I want to learn more!
-
-Great, this is an important topic and we encourage you to read [[this piece->http://lair.fifthhorseman.net/~dkg/tls-centralization/]] which clearly articulates in a non-technical way the problems involved in certificate authorities as well as outlining some interesting suggestions for ways that the existing architecture and protocols can be tweaked just a little bit to change the situation for the better.

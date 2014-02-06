@@ -1,3 +1,5 @@
+@title = "Device Security"
+
 Well... this page is just a placeholder. It needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
 
 h1. Disk Encryption
@@ -19,5 +21,3 @@ Difficulty: Easy
 *How*: Install [[gufw->http://gufw.org]], "One of the easiest firewalls in the world". You can find gufw in Ubuntu and Debian.
 
 [[Follow these easy instructions to get started with gufw -> https://help.ubuntu.com/community/Gufw]]
-
-

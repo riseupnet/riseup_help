@@ -1,3 +1,5 @@
+@title = "Human Security"
+
 These security help pages include a lot of fancy talk about encryption. Ultimately, however, all this wizbang cryto-alchemy will be totally useless if you have insecure behavior. A few simple practices will go a long way toward increasing your security.
 
 h2. Save the world with better passwords
@@ -18,7 +20,7 @@ Logout: make sure that you always logout when using web-mail. This is very impor
 
 Avoid public computers: this can be difficult. If you do use a public computer, consider changing your password often or using the *virtual keyboard* link (if you use riseup.net for your web-mail).
 
-if you share a computer with friends, create multiple logins which keep user settings separate. You should enable this feature, and logout or "lock" the computer when not in use. 
+if you share a computer with friends, create multiple logins which keep user settings separate. You should enable this feature, and logout or "lock" the computer when not in use.
 
 h2. Feel the love of free and open source software
 

@@ -1,0 +1,64 @@
+@title = 'Better Web Browsing'
+
+h2. Choosing a web browser
+
+Currently, there are four major web browsers, Firefox, Chrome, IE, and Safari. All four have experienced major security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose. We strongly advise against using Internet Explorer (IE) prior to version 9.
+
+All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by [[installing extensions->#privacy-enhancing-extensions]].
+
+h2. Adjust your settings
+
+(to be written)
+
+Setting you should adjust:
+
+* Disable third party cookies.
+* Clear cookies on exit.
+* Set a master password (if your drive is not encrypted).
+
+h2. Use secure connections
+
+When your browser establishes [[secure connections->secure-connections]] to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*.
+
+h2. Verify Riseup's certificate fingerprints
+
+On the internet, a certificate is needed in order to verify the identity of people or computers. These certificates are also called SSL certificates or identity certificates. We will just call them “certificates” here.
+
+In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections.
+
+To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
+
+h2. Privacy enhancing extensions
+
+Although there is not yet a browser with good privacy capabilities, you can greatly improve your browser with a few add-ons.
+
+h3. Firefox
+
+Essential:
+
+* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+
+Also recommended:
+
+* "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.
+
+Advanced:
+
+* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/
+* "torbutton":https://addons.mozilla.org/en-US/firefox/addon/torbutton/
+
+h3. Chrome
+
+Essential:
+
+* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+
+You might also want to consider:
+
+* "click & clean":https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod: Deletes your browsing history, typed URLs, Flash cookies, all traces of your online activity to protect your privacy.
+* "NOREF":https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip: Suppress Referrer (referer) for Hyperlinks
+* "Disconnect":https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo: Track who is trying to track you and stop them.
+* "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.

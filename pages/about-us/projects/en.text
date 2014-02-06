@@ -30,12 +30,6 @@ Tor is a system designed to enable online anonymity through a network of servers
 
 While the "list of positive benefits":https://www.torproject.org/torusers.html.en that Tor has is innumerable, it wouldn't be possible without Tor exit nodes and relays. Riseup contributes to the Tor network by providing nodes on quality bandwidth. We run nodes that are in the top 30 in relative bandwidth contribution to the Tor network.
 
-h2. googlesharing
-
-[[googlesharing]] is an easy-to-use, free and open source plugin for firefox that anonymizes your google searches. When you do a google search, google collects information about your identity by recording the web address where you are searching from and the content of your searches. Google probably knows more about your web searches than you do!
-
-Googlesharing works by sending all of your google-related traffic that does not require a login (i.e. not gmail) through a separate server, completely transparently (you don’t have to do anything). As a result, your online activity is aggregated with everyone else’s.
-
 h2. VPN services
 
 VPN stands for Virtual Private Network. Typically, VPNs are used to connect people to their office network from home. The [[Riseup VPN => vpn]] is different: it sends all your internet traffic through an encrypted connection to riseup.net, where it then goes out onto the public internet. This type of VPN is sometimes called a “personal VPN”.

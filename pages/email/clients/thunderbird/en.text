@@ -57,7 +57,7 @@ h3. Enhance your email security
 
 # Ideally, you should *not* use StartTLS. Instead, it is much better to use regular TLS. For added security, go to your account settings and change your connection type from StartTLS to TLS.
 # There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
-# For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/howto-gpg-keys]] setup.
+# For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/gpg-keys]] setup.
 
 h3. Add some extensions
 

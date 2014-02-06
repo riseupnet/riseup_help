@@ -50,30 +50,26 @@ chat
   security
     otr
 vpn
-  introduction
   how-vpn-works
-  vpn-howto
-    linux
-    android
-    mac
-    windows
-    troubleshooting
+  security-issues
 security
-  certificates
-    intro
-    verifying-riseup-certs
-    riseup-ca
-    further-reading
+  privacy
+  surveillance
   human-security
   device-security
   message-security
-    encrypted-email
+    openpgp
+      enigmail
+      gpg-keys
     otr
-    googlesharing
   network-security
     secure-connections
     better-web-browsing
+    tor
+    certificates
+    riseup-ca
   resources
+    radical-servers
 about-us
   contact
   newsletter

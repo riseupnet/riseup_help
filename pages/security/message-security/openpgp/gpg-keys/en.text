@@ -1,0 +1,255 @@
+@title = "Managing OpenPGP Keys"
+
+This how to will guide you step-by-step through creating OpenPGP public/private key pairs, exporting public keys to key servers, and finding OpenPGP public keys to use to communicate securely with others.
+
+h1. Linux
+
+h2. Using GNOME's GUI frontend: Seahorse
+
+h3. What is Seahorse?
+
+"Seahorse":http://en.wikipedia.org/wiki/Seahorse_(software) is a GUI tool for creating and managing OpenPGP keys, securely storing passwords, and creating and managing SSH certificates.  It uses GPG as the back-end OpenPGP implementation.
+
+h3. Create and Export an OpenPGP Public/Private Key pair
+# Launch Seahorse by a menu entry (**Applications** -> **Accessories** -> **Passwords and Encryption Keys**, on Ubuntu 10.04), or by pressing **ALT+F2** and typing @seahorse@ then hitting enter.
+# Navigate to **File** -> **New...**
+!gpg-keys/img/gpg3-seahorse2-crop.gif!
+# Select **PGP Key**
+!gpg-keys/img/gpg4-select-new-key-crop.gif!
+# Enter your personal information, select your key encryption type, key strength, and when you want your key to expire.  Your name and email address can be anything you want, not necessarily your real name or email address.  If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email Addresss" box.  Either RSA or DSA Elgamal will be fine for the encryption type--RSA is newer, though it may take longer to generate keys initially.  For key strength, use the strongest available--**4096 bits**, at the time of writing.
+!gpg-keys/img/gpg5-key-information-crop.gif!
+# Enter a **strong** password that you can remember.  **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
+!gpg-keys/img/gpg6-password-crop.gif!
+# The computer will now generate the key, which may take a long time.  After this, you will have a OpenPGP key pair that is ready to be used--Great!  You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface.
+# **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you.  To do this, do:
+## Select the Key(s) you want to publish.  Hold Ctrl and click to select more than one, or press **Ctrl+A** to select all keys.
+## Navigate to **Remote** -> **Sync and Publish Keys...**
+!gpg-keys/img/gpg8-publish-key-menu.gif!
+## Press the **Key Servers** button.
+## Publish the keys to any key server (select one if the "Sync" button was grayed out in the previous screen); they all synchronize with each other, so your key will be on each one.
+## **Recommended:** check the **Automatically retrieve keys from key servers** and **Automatically synchronize modified keys with key servers** check boxes.
+## Press the **Close** button and then the **Sync** button to synchronize your keys.
+
+Your public key is now published to the key servers and is accessible to others!
+
+h3. Find or Import someone else's OpenPGP Public Key
+
+If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first.  **Note:** The John Q. Alias key is used as an example key for generating a key above and also for importing a key below; in the case of importing, it is used to refer to the person for whom you're searching, not yourself.
+
+h4. Import from a key file
+
+If someone exports their key to a file and sends it to you, you can import it into your keyring via Seahorse by:
+# Navigating to **File** -> **Import...** then
+# Locating where you saved the key file, selecting it, and pressing the **Open** button.
+
+The key that was stored in the key file has now been imported into your keyring!
+
+h4. Find on the key servers
+
+# Navigate to **Remote** -> **Find Remote Keys...** in Seahorse
+!gpg-keys/img/gpg9-seahorse-import.gif!
+# Type some key words (a name or alias) to search the key servers.  The best way to find someone is to search for their email address, as it's uniquely tied to them.
+# Select and review the keys that are returned to determine whether the key(s) returned belong to the person you're looking for.  You can review additional information about the key by pressing the **Properties** button.
+!gpg-keys/img/gpg11-seahorse-search-results.gif!
+# Once you've determined and selected the key(s) you want to import into your local keyring, press **Import**.
+
+Their public key has now been imported into your keyring!  Be sure to **Sign it** to make it ready to use.
+
+h3. Sign their key
+
+Before you can use the other person's public key to encrypt data or send emails to them, you have to sign their key with your key.  To do this,
+# Return to the main window of Seahorse and go to the **Other Keys** tab.
+# Select the key you want to sign and press the **Properties** button.
+!gpg-keys/img/gpg12-seahorse-other-keys.gif!
+# Select the **Trust** tab and press the **Sign this key** button.
+!gpg-keys/img/gpg13-seahorse-trust-tab.gif!
+# Sign the key, indicating how carefully you've checked the key.  Selecting **Not at all** still allows you to use the key for email and data.  You can also opt to be able to revoke your signature later or make it so that only you can see that you've signed the key.
+!gpg-keys/img/gpg14-seahorse-sign-key.gif!
+# Press **Sign**.
+
+You can now begin encrypting data that can only be decrypted by the key owner and establish a secure communication line between you and the key owner!
+
+h2. Using the Linux command line
+
+This is based on the "Ubuntu GPG Howto":https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+
+h3. Generate an OpenPGP Key pair using GPG
+
+Press **Alt+F2** and type: @gnome-terminal@ and then press enter
+
+In the terminal, type: @gpg --cert-digest-algo=SHA256 --default-preference-list="h10 h8 h9 h11 s9 s8 s7 s3 z2 z3 z1 z0" --gen-key@
+which should return a menu similar to this:
+
+bc.
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+
+Select the type of key you want.  **RSA and RSA** is the recommended type.  **(sign only)** keys cannot be used for encryption.
+
+Next, enter the key size you want.
+
+bc.
+What keysize do you want? (2048)
+
+p. **4096** is recommended.
+Then enter the length of time that you would like the key valid for and then press **y** to confirm the expiration date.
+
+bc.
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0)
+
+If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it.
+
+Enter your name, email address, and a comment if you wish.  Your name and email address can be anything you want, not necessarily your real name or email address.  If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" prompt.
+
+bc.
+You need a user ID to identify your key; the software constructs the user ID
+from the Real Name, Comment and Email Address in this form:
+    "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
+Real name: John Q. Alias
+Email address: the-email-youre-going-to-use@whatever.tld
+Comment:
+
+Now enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**  Hit enter when complete to begin generating the key.
+
+Your OpenPGP public/private key pair has been generated!
+
+h3. List your keys
+
+You can use this command to list your keys:
+@gpg --list-keys@
+
+This should output data in a format like this:
+
+bc..
+/home/foobar/.gnupg/pubring.gpg
+-------------------------------
+pub   3072D/1C72CE6B 2010-07-17
+uid                  John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+sub   4096g/D8F18B5F 2010-07-17
+
+pub   3072D/0B6137AD 2010-07-24
+uid                  James <whatever@test.com>
+sub   4096g/91BFCB7F 2010-07-24
+
+p. Any reference to your **KEY-ID** below can be found using the first command and looking at the output.  The line you're looking at to find the **KEY-ID** is the **pub** line of each of the entries).  The line contains pub, the key strength and type abbreviation (**3072D** in the first line), a slash, the **KEY-ID**, and then the date.  The codebox below highlights the **KEY-ID**:
+
+bc..
+pub   3072D/1C72CE6B 2010-07-17
+            ^KEY-ID^
+uid                  John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+sub   4096g/D8F18B5F 2010-07-17
+
+p. So for this example, the **KEY-ID** would be **1C72CE6B**.
+
+Using this information, you can now do all of the following and make use of the key pair you generated.
+
+h3. Export/Publish your public OpenPGP Key
+
+# Press **Alt+F2** and run @gnome-terminal@
+# Create an ASCII armored version of your public key for exporting by typing:
+@gpg --export -a KEY-ID > mykey.asc@
+
+You've just exported your ASCII armored OpenPGP public key to the file **mykey.asc** in the folder you were in (your home directory, if you opened a new terminal).  Now you can send the key to whomever you want to be able to encrypt files to you.
+
+h3. Publish your OpenPGP public key to the Ubuntu Key server
+
+At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you.
+# Press **Alt+F2** and run: @gnome-terminal@
+# type @gpg --send-keys --keyserver keyserver.ubuntu.com KEY-ID@
+where **KEY-ID** is the ID number of the key you wish to publish on the key servers.  This example uses the Ubuntu key server, however any key server will work as they all synchronize their keys.
+
+h1. Windows
+
+It is **not recommended** to use Windows as a secure communication platform.  While Windows can be locked down to provide a more secure environment than is provided by default, the tendencies in Windows lean towards very lax security.  There is also a multitude of pre-built exploits for windows that make it easier for attackers to compromise.  Here are some bullet points against using windows for secure communications:
+* widespread distribution of malware/trojans/viruses that could log key strokes, bypassing encryption schemes and/or logging other information
+* targeted hacking and malware installation is actively used by governmental agencies with Windows being most susceptible
+* Usually uses an unencrypted filesystem, main encryption tool is proprietary and cannot be scrutinized for exploits, back doors, or other weaknesses.
+* User accounts are administrators by default
+* Since Windows is proprietary and closed-source, there is no outside scrutiny for defects, back doors, or anything that "phones home".  You're trusting Microsoft completely with whatever secrets you choose to put on your computer.
+
+To ensure a secure communications platform, it's recommended to install linux.  See [Installing Ubuntu Linux] to create a secure communications platform or for additional information.
+
+h2. Install Gpg4win
+
+"Gpg4win":http://www.gpg4win.org" is the recommended OpenPGP implementation for windows.  It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
+
+# Download "Gpg4win":http://www.gpg4win.org/download.html"
+# Double click the executable and begin the installation.
+# Select the language you'll be using.
+# You'll be greeted by the welcome screen.  Press **Next** to continue.
+!gpg-keys/img/gpg4win1-install-welcome.gif!
+# Next, you'll be asked to agree to the [GNU General Public License->http://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->http://www.gnu.org/licenses/gpl.html].  If you accept, press **Next**.
+# Choose the components you want to install.  The default options are recommended.  [Claws-Mail->http://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others.  GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+!gpg-keys/img/gpg4win2-components.gif!
+# Select the install folder (the default is recommended).
+# Choose what shortcuts to create.
+# Choose a name for any shortcut folders and then begin the installation.  Choose to view the README file, or not, and then click finish.
+
+Gpg4win is now installed and ready to use!
+
+h2. Create and Export an OpenPGP Public/Private Key pair
+
+Kleopatra seems to be the more recent and more polished of the two Gpg4win key manager GUI frontends on Windows, so this guide recommends using that.
+# Launch Kleopatra by the shortcut you installed (default: **Start** -> **All Programs** -> **Gpg4win** -> **Kleopatra**)
+# Click **File** -> **New Certificate...** or **Ctrl+N**.
+# Press the **Create a personal OpenPGP key pair** button.
+# Enter your name, email address, and a comment if you wish.  Your name and email address can be anything you want, not necessarily your real name or email address.  If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box.  When finished, click the **Advanced Settings...** button.
+!gpg-keys/img/kleopatra1-name-email-advanced.gif!
+# In the **Advanced Settings...** dialog box, choose your key type and key strength.  **RSA**, using key strength of **3,072 bits** (appears to be the maximum supported), for **Signing** and **Encryption** are recommended.  When finished with the key settings, press **OK** to close the dialog box, then click **Next**.
+# Review the information for the key, then press the **Create Key** button.
+# Enter a **strong** password that you can remember.  The password strength meter will give you a relative indication of how strong the password is.  Getting 100% **is strongly recommended**.  **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
+
+Your key pair is now finished!  From here, you can do one of the following:
+* Make a backup copy of your certificate (key)
+* Send the Certificate by email
+* Upload the certificate to a Directory Service (key server)
+* finish the wizard
+
+It is recommended to upload the certificate to a directory service.  This will upload your public key to a key server where it can be used by others to encrypt data and emails that only you can decrypt.
+
+h3. Find or Import someone else's OpenPGP Public Key
+
+If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first.
+
+h4. Import from a key file
+
+If someone exports their key to a file and sends it to you, you can import it into your keyring via Kleopatra by:
+# Pressing the **Import Certificates** button, then
+# Locating where you saved the key file, selecting it, and pressing the **Open** button.
+
+The key that was stored in the key file has now been imported into your keyring!
+
+h4. Find on the key servers
+
+# Navigate to **File** -> **Lookup Certificates on Server...** in Kleopatra
+# Type some key words (a name or alias) to search the key servers.  The best way to find someone is to search for their email address, as it's uniquely tied to them.
+# Select and review the keys that are returned to determine whether the key(s) returned belong to the person you're looking for.  You can review additional information about the key by pressing the **Details...** button.
+# Once you've determined and selected the key(s) you want to import into your local keyring, press **Import**.
+
+Their public key has now been imported into your keyring!  Be sure to **Sign it** to make it ready to use.
+
+h3. Sign their key (Certify their Certificate)
+
+Before you can use the other person's public key to encrypt data or send emails to them, you have to sign their key with your key.  To do this,
+# Click the **Imported Certificates** or **Other Certificates** tab.
+# Right click the key you want to sign and click **Certify Certificate...**
+# Select the user ID you want to certify and press **Next**
+# Choose whether you want this certification to be visible to others or only to yourself and then press the **Certify** button.
+
+You have now signed their key (certified their certificate) and are ready to begin encrypting data or emails that only they can decrypt!
+
+h1. Mac OS X
+
+It is **not recommended** to use Mac OS X as a secure communication platform.  While there are fewer exploits and a better security model than windows, OS X has demonstrated a poor security patch speed in the past and has a large quantity of proprietary software and packaging, making it not capable of scrutiny for efects, back doors, or anything that "phones home".  Furthermore, it offers features that can be exploited by hackers or abused by governments or corporations.  Some bullet points about OS X security:
+* Relies on a lot of proprietary software that can't be modified or scrutinized by you
+* The webcam can be remotely turned on, offered as a "feature" if the laptop gets stolen, which could be abused or exploited to violate your privacy
+* Filesystem not encrypted by default and the primary tool available "may have inadequate security":http://en.wikipedia.org/wiki/FileVault#Criticism.

@@ -1,0 +1,37 @@
+%table.table.table-striped.table-condensed
+  %tr
+    %th(style="width:10em") Browser
+    %th Cookie Controls
+    %th Third-party Cookies
+    %th Flash Cookies
+    %th Tracking Opt-out
+  %tr
+    %td Firefox
+    %td <b>C</b><br> Some block-list control
+    %td <b>D</b><br> Enabled by default
+    %td <b>F</b><br> Can't be blocked (without <a href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy add-on</a>).
+    %td <b>C-</b><br> Only supports "Do Not Track" header, disabled by default.
+  %tr
+    %td Internet Explorer<br><small>(versions prior to 9.0)</small>
+    %td <b>?</b>
+    %td <b>F</b><br> Enabled by default, and sometimes sent even when disabled.
+    %td <b>F</b><br> Can't be blocked.
+    %td <b>F-</b><br> Microsoft engineers originally built awesome anti-tracking technology into IE, and then their bosses made it totally useless.
+  %tr
+    %td Internet Explorer 9
+    %td <b>?</b>
+    %td <b>F</b><br>Enabled by default, and sometimes sent even when disabled.
+    %td <b>?</b>
+    %td <b>B</b><br>Supports both the "Do Not Track" header and "Tracking Protection Lists". (what is enabled by default?)
+  %tr
+    %td Chrome
+    %td <b>A</b><br>Good cookie block-list controls.</a>
+    %td <b>F</b><br>Enabled by default, and sometimes sent even when disabled.
+    %td <b>A</b><br>"Delete cookies and other site data" will correctly clean up Flash Cookies.
+    %td <b>D-</b><br>Horrible anti-tracking support, only available as an optional extension called <a href="https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe">Keep My Opt-Outs</a>.
+  %tr
+    %td Safari
+    %td <b>?</b>
+    %td <b>B+</b><br>Disabled by default, but sometimes sent even when disabled.
+    %td <b>F</b><br>Can't be blocked.
+    %td <b>F</b><br>No anti-tracking feature.

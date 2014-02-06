@@ -1,15 +1,18 @@
+@title = "Off the Record"
+@summary = "OTR allows you to encrypt your chat messages."
+
 h2. Introduction to OTR
 
-"Off-the-Record Messaging (OTR)":"http://www.cypherpunks.ca/otr/" adds end-to-end encryption for chat messages. It has many features:
+[[Off-the-Record Messaging (OTR)->https://en.wikipedia.org/wiki/Off-the-Record_Messaging]] adds end-to-end encryption for chat messages. It has many features:
 
-* Encryption:: All the encryption takes place on your devices. This protects your conversation from being read by others, even over insecure networks and untrusted chat providers.
-* Authentication:: You know if the person is who they say they are.
-* Deniability:: The messages you send do not have digital signatures that are checkable by a third party. Anyone can forge messages after a conversation to make them look like they came from you. However, during a conversation, your correspondent is assured the messages she sees are authentic and unmodified.
-* Perfect forward secrecy:: If you lose control of your private keys, no previous conversation is compromised.
+* *Encryption* All the encryption takes place on your devices. This protects your conversation from being read by others, even over insecure networks and untrusted chat providers.
+* *Authentication* You know if the person is who they say they are.
+* *Perfect forward secrecy* If you lose control of your private keys, no previous conversation is compromised.
+* *Deniability* The messages you send do not have digital signatures that are checkable by a third party. Anyone can forge messages after a conversation to make them look like they came from you. However, during a conversation, your correspondent is assured the messages she sees are authentic and unmodified.
 
 h2. Installing OTR
 
-In this tutorial, we will be using OTR with "pidgin":"http://pidgin.im". Pidgin has the most mature implementation of OTR, and runs on Windows, Linux, and Mac. 
+In this tutorial, we will be using OTR with [[pidgin -> http://pidgin.im]]. Pidgin has the most mature implementation of OTR, and runs on Windows, Linux, and Mac.
 
 h3. Linux
 
@@ -22,15 +25,15 @@ h3. Linux
 
 h3. Windows
 
-Visit "the download page":http://pidgin.im/download
+Visit http://pidgin.im/download
 
 h3. Mac
 
-Pidgin can be run on the Mac, but it is much easier to run Adium instead. Adium is a native port of pidgin to the Mac OS. Download "Adium":http://adium.im"
+Pidgin can be run on the Mac, but it is much easier to run Adium instead. Adium is a native port of pidgin to the Mac OS. Download [[Adium -> http://adium.im]].
 
 h2. Adding an Account to Pidgin
 
-Check out our <%= link "pidgin tutorial" => 'pidgin' %> for instructions on adding your riseup.net account to pidgin.
+Check out our [[pidgin tutorial -> pidgin]] for instructions on adding your riseup.net account to pidgin.
 
 h2. Setting up OTR
 
@@ -56,22 +59,17 @@ h2. Adding Buddies to your Contacts
 * Once your buddies have been added and are available to chat they will appear in the main pidgin window. To start chatting double-click on a buddy's username from the list.
 
 h2. Authenticate Buddies
- 
-* Click Start Private conversation and follow the instructions to authenticate each other to start a private conversation. The easiest method to authenticate someone is the Question and Answer method in which you ask the other person a question that only they could answer. This is an important security step to verify that you are talking to who you think you are talking to. Examples of acceptable questions:
 
-<code>
- Q: What did you and I talk about at Jad's last night in the front room?(lower case, one word)
- A: welding
-</code>
+Click **Start private conversation** and follow the instructions to authenticate each other to start a private conversation. The easiest method to authenticate someone is the Question and Answer method in which you ask the other person a question that only they could answer. This is an important security step to verify that you are talking to who you think you are talking to. Examples of acceptable questions:
 
-* There was just the two people involved in the past conversation, so this is a secure question.
+p((. Q: What did you and I talk about at Jad's last night in the front room? (lower case, one word)
+A: welding
 
-<code>
- Q: What poster is on the wall of my bedroom? (lower case, two words)
- A: beehive collective
-</code>
+There was just the two people involved in the past conversation, so this is a secure question.
 
-* This is a secure question assuming you trust the people that have been in your bedroom.
+p((. Q: Who created the poster on the wall of my bedroom? (lower case, two words)
+A: beehive collective
+
+This is a secure question assuming you trust the people that have been in your bedroom.
 
 Questions like "What is my hair color" or "What's my dog's name" are insecure because most anyone could easily discover the answers to those questions.
-
