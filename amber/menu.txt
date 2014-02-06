@@ -59,10 +59,16 @@ vpn
     windows
     troubleshooting
 security
+  certificates
+    intro
+    verifying-riseup-certs
+    riseup-ca
+    further-reading
   human-security
   device-security
   message-security
   network-security
+    secure-connections
   resources
 about-us
   contact
