@@ -1,0 +1,63 @@
+@nav_title = 'How to use the VPN'
+@title = 'VPN Howto'
+
+h2. A word of caution
+
+*Note!* When you connect to the internet through the RiseupVPN you are bypassing any firewalls on your local network. Your computer will get its own IP address on the open internet. This is great, because that way your computer can communicate freely with others without getting blocked. However, bypassing the local firewall also means that your computer is more vulnerable to attack. Therefore, you should enable a [[firewall on your computer -> /security/device-security#personal-firewall]].
+
+h2. Setting up OpenVPN
+
+The Riseup VPN service supports OpenVPN.
+
+!>/vpn/img/openvpn%20logo.png!
+
+h3. Choose a server
+
+<%= render 'vpn-servers' %>
+
+h3. Configuration in a nutshell
+
+Although each client is different, there are five values that must be configured in your OpenVPN client:
+
+* VPN Server:: seattle.vpn.riseup.net or nyc.vpn.riseup.net
+* Authentication method:: password
+* VPN username:: your riseup.net login (ie if your account is joe_hill@riseup.net, just enter "joe_hill")
+* Password:: either your riseup.net password or a [[VPN Secret->vpn-secret]].
+* CA Certificate:: [[RiseupCA.pem -> riseup-ca]]
+
+Optional configuration options:
+
+* Port:: either 1194, 443, or 80. Port 1194 is the normal default for OpenVPN, but sometimes it might be blocked by the network you are on. You should not normally need to change this setting. If you do, ports 443 and 80 will likely not be blocked, since these are the ports for normal web traffic.
+* Protocol:: either UDP or TCP. UDP is faster, but TCP might be required to get around some network restrictions. UDP is the default, so you only need to fiddle with this if something is blocking your VPN access.
+* Compression:: I haven't played with this, but it should work.
+* MTU:: might need to make this a smaller number. not sure..
+
+h3. Detailed tutorials
+
+* [[Linux -> /vpn-howto/linux]]
+* [[Android -> /vpn-howto/android]]
+* [[Mac -> /vpn-howto/mac]]
+* [[Windows -> /vpn-howto/windows]]
+* [[OpenVPN Troubleshooting -> /vpn-howto/troubleshooting]]
+
+
+
+
+h2. Tor and the Riseup VPN
+
+If you are thinking of running a Tor Exit node on the Riseup VPN, please read this. There is nothing wrong with running a Tor Exit node on top of the VPN, however it can cause a problem that we'd like to avoid. 
+
+Tor exit nodes are listed regularly in block lists. This is due to heavy abuse that happens over Tor, so there are lists that are automatically created for every Tor exit node that registers itself on the network. This wouldn't be a big deal, except that the block lists block the entire network, not just the single IP that you are using. This causes problems for other services, such as sending mail.
+
+Fortunately, there is a way around it, its just a matter of changing your Tor exit policy so that certain ports are not allowed. It seems as if these block lists only list Tor exit nodes that enable certain well-known ports that are used for abuse. According to [[one of the block list operators->http://www.sectoor.de/tor.php]] a tor exit node is added to the block list if it uses the default exit policy because there are a few ports in the default policy that are problematic, these ports are: 6660-6670, 6697, 7000-7005
+
+This can easily be changed so you do not allow these ports through your Tor exit node by changing your torrc as follows:
+
+<pre>
+ExitPolicy reject *:6660-6670 
+ExitPolicy reject *:6697 
+ExitPolicy reject *:7000-7005 
+</pre>
+
+and then restarting your tor daemon.
+

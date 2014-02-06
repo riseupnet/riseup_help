@@ -1,0 +1,42 @@
+@title = 'mac'
+
+The OpenVPN client for Mac is called "tunnelblick".
+
+h2. Installation
+
+[[Download tunnelblick->http://code.google.com/p/tunnelblick]]
+
+Just doubleclick the downloaded file and drag Tunnelblick to your Applications folder.
+
+*TODO*: Build a pre-configured deploy version of tunnelblick, with the ca cert already included. This way, you just download and run.
+
+h2. Download Riseup CA
+
+Download the "RiseupCA.pem":/security/certificates/RiseupCA.pem and save it to your @Library@ folder. Note that there are two Library folders, one located at /Library and one located at /username/Library/. You can save it in either place, but be sure to remember which location you used, you'll need it later.
+
+Also, for some reason, Mac likes to add a ".txt" extension to the riseup certificate file. So, you may need to locate the file, select get info, then scroll down and uncheck "hide extension." Then you should be able to change the name of the cert to "RiseupCA.pem" rather than "RiseupCA.pem.txt"
+
+For more information on the RiseupCA.pem file, see [[Riseup Certificate Authority -> /security/certificates/riseup-ca]].
+
+h2. Configuration
+
+Open a window in Finder and, starting in your Home directory, Navigate to Library -> Application Support -> Tunnelblick -> Configurations.
+
+Now, within the "Configurations" folder, create a plain text file, let's call it "riseup.ovpn." Once again, mac OS will try to add a ".txt" extension to this file. You will need to make sure to remove that extension. 
+
+Put the following "riseup.ovpn":/vpn/vpn-howto/mac-riseup.ovpn into the file (replacing _my-mac-username_ with your MacOS username):
+
+After you have set this as your configuration options, you should be able to double click on tunnelblick and it will ask for your riseup username/password and store these in your keyring. You can also connect via the tunnelblick menu in the upper right corner of the screen.
+
+Rather than use your Riseup password, we suggest you use a [[VPN Secret->vpn-secret]] instead.
+
+Once connected, if you click on the tunnelblick icon in the upper right corner of the screen, it should show "1 connection active." You're done!
+
+h2. Troubleshooting
+
+If the connection doesn't work, try these:
+
+# Where is the RiseupCA.pem file saved? Make sure you can find the file in the finder and that the path to the file is the same as specified in your configuration file.
+# Did you remember to remove the .txt extensions from the certificate file and the configuration file? The config file must end in .ovpn
+# If you are not able to use the internet when connected, your ISP may be blocking connections on port 1194. To change what port OpenVPN uses, you can change 1194 to 80 or 443 in the above configuration file.
+# By default, OpenVPN will use an internet protocol call UDP. This is faster, but sometimes you need to change this to TCP in order to get OpenVPN to work. To do so, add this to the configuration: <code>proto tcp</code>.

@@ -50,6 +50,14 @@ chat
   security
     otr
 vpn
+  introduction
+  how-vpn-works
+  vpn-howto
+    linux
+    android
+    mac
+    windows
+    troubleshooting
 security
   human-security
   device-security
