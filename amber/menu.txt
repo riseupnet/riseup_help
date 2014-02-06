@@ -67,6 +67,9 @@ security
   human-security
   device-security
   message-security
+    encrypted-email
+    otr
+    googlesharing
   network-security
     secure-connections
   resources

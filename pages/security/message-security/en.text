@@ -1,4 +1,4 @@
-*Message security* is the practice of encrypting messages on your device so that they can be read only by the intended recipient. Although <%= link 'network-security' %> and <%= link 'device-security' %> are important, this kind of *message encryption* is necessary in many situations:
+*Message security* is the practice of encrypting messages on your device so that they can be read only by the intended recipient. Although [[network-security]] and [[device-security]] are important, this kind of *message encryption* is necessary in many situations:
 
 * Confidentiality:: Message encryption is the only way to ensure that only the indented recipients are reading your messages.
 * Authenticity:: Message encryption is the only way to ensure the identity of the people you are communicating with.
@@ -34,27 +34,33 @@ h2. Limitations of Message Encryption
 
 Although you can hide the contents of email with public-key encryption, it *does not* hide who you are sending mail to and receiving mail from. This means that even with public key encryption there is a lot of personal information which is not secure.
 
-Why? Imagine that someone knew nothing of the content of your mail correspondence, but they knew who you sent mail to and received mail from and they knew how often and what the subject line was. This information can provide a <%= link 'picture of your associations, habits, contacts, interests and activities' => 'social-network-map' %>.
+Why? Imagine that someone knew nothing of the content of your mail correspondence, but they knew who you sent mail to and received mail from and they knew how often and what the subject line was. This information can provide a [[picture of your associations, habits, contacts, interests and activities ->social-network-map]]
 
-The only way to keep your list of associations private is to to use a service provider which will establish a secure connection with other service providers. See our <%= link 'directory of radical servers' => 'radical-servers' %> for a list of such providers. 
+The only way to keep your list of associations private is to to use a service provider which will establish a secure connection with other service providers. See our [[directory of radical servers->radical-servers]] for a list of such providers. 
 
 h2. Email Encryption with PGP
 
 The universal standard for public-key encryption is "Pretty Good Privacy (PGP)":http://www.pgpi.org/ and "GNU Privacy Guard (GPG)":http://www.gnupg.org/. GPG is "Free Software":http://www.gnu.org/philosophy/free-sw.html, while PGP is a proprietary product (although there are many "freeware versions available":http://www.pgpi.org/). Both work interchangeably and are available as convenient add-ons to mail clients for Linux, Mac, and Windows.
 
-For information configuring your mail client to use public key encryption, see our <%= link 'mail client tutorial pages' => 'email-clients' %>. In particular, see the tutorials for <%= link 'Apple-Mail' %> and <%= link 'Thunderbird' %>. Otherwise, you should refer the to documentation which comes with your particular mail client.
+For information configuring your mail client to use public key encryption, see our [[mail client tutorial pages->email/clients]]. In particular, see the tutorials for [[Apple-Mail]] and [[Thunderbird]]. Otherwise, you should refer the to documentation which comes with your particular mail client.
 
-For more information about encrypted email, check out our <%= link 'encrypted email FAQ' => 'encrypted-email' %>.
+For more information about encrypted email, check out our [[encrypted email FAQ->encrypted-email]].
 
-* <%= link 'Primer on using OpenPGP keys' => 'howto-gpg-keys' %>
-** <%= link 'For Linux' => 'howto-gpg-keys#linux' %>
-** <%= link 'For Windows' => 'howto-gpg-keys#windows' %>
-** <%= link 'For Mac' => 'howto-gpg-keys#mac-os-x' %>
-* <%= link 'Encrypting your email' => 'encrypted-email' %>
-** <%= link 'With Thunderbird and Enigmail' => 'message-security/encrypted-email/thunderbird' %>
+* [[Primer on using OpenPGP keys -> howto-gpg-keys ]]
+**  [[For Linux -> howto-gpg-keys#linux ]]
+**  [[For Windows -> howto-gpg-keys#windows ]]
+** [[For Mac -> howto-gpg-keys#mac-os-x ]]
+* [[Encrypting your email -> encrypted-email ]]
+** [[With Thunderbird and Enigmail -> message-security/encrypted-email/thunderbird ]]
 
 h2. Instant Message Encryption with OTR
 
-Off The Record (OTR) is a way to send and receive secure instant messages. 
+[[Off The Record (OTR)->otr]] is a way to send and receive secure instant messages. 
 
-<%= child_summaries :page => 'message-security/otr', :include_toc => true %>
+[[Read more about how to use OTR->otr]]
+
+h2. Googlesharing
+
+Googlesharing is an easy-to-use, free and open source [[plugin->https://addons.mozilla.org/en-US/firefox/addon/60333/]] for firefox that anonymizes your google searches. When you do a google search, google collects information about your identity by recording the web address where you are searching from and the content of your searches. Google probably knows more about your web searches than you do! Googlesharing works by sending all of your google-related traffic that does not require a login (i.e. not gmail) through a separate server, completely transparently (you don't have to do anything). As a result, your online activity is aggregated with everyone else's.
+
+[[Read more about how to use Googlesharing->googlesharing]]
