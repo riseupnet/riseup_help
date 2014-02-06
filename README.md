@@ -35,14 +35,13 @@ For this reason, it is best to use the `amber server`.
 
 Putting it all together:
 
-1. Fork repo on github
-2. `git clone ssh://git@github.com/<your-id>/riseup_help`
-3. `cd riseup_help`
-4. `amber server`
-5. edit files in `riseup_help/public`
-6. preview changes on http://localhost:8000
-7. when satisfied, `git commit`, `git push`
-8. go to your github fork and issue a pull request
+1. Go to https://github.com/riseupnet/riseup_help and click the fork button.
+2. Clone your fork locally: `git clone ssh://git@github.com/your-id/riseup_help`
+3. Start the amber server: `cd riseup_help; amber server`
+4. Edit files in `riseup_help/pages`
+5. Preview changes in your browser using http://localhost:8000
+6. When satisfied, `git commit`, `git push`
+7. Go to https://github.com/your-id/riseup_help and issue a pull request
 
 File structure
 ------------------------------
@@ -73,9 +72,7 @@ You can create pages in three different markup languages:
 * haml (suffix .haml)
 
 Most of the riseup help pages are written using textile. It is best to keep to
-textile for consistency. Some pages are in haml, because there are still some
-bugs when inserting the contents of another page into textile or markdown
-pages.
+textile for consistency.
 
 Here is a brief overview of textile markup:
 
@@ -93,8 +90,7 @@ Here is a brief overview of textile markup:
 
 For a complete reference, see http://redcloth.org/textile/
 
-For external links, use `"this":http://format.org`. However, in order to link to
-other help pages, it is best to use some special markup:
+Amber adds an additional way to make links:
 
     [[label -> page-name]]
     or
@@ -120,20 +116,19 @@ Every file can have a "properties header". It looks like this:
 
 The properties start with '@' and are stripped out of the source file before
 it is rendered. Property header lines are evaluated as ruby. All properties
-are optional and they are inherited, including `@title`.
+are optional and they are inherited, including `@title`. To make a property
+not get inherited, use `@this.propertyname = 'value'` instead.
 
 Available properties:
 
 * `@title` -- The title for the page, appearing as in an H1 on the top of the
    page and as the HTML title. Also used for navigation title if `@nav_title`
    is not set.
-
 * `@nav_title` -- The title for the navigation to this page, as well as the
    HTML title if @title is not set.
-
+* `@summary` -- Displayed under the title.
 * `@toc` -- If set to `false`, don't include a table of contents when rendering
    the file. This only applies to .text and .md files.
-
 * `@layout` -- Manually set the layout template to use for rendering this page.
 
 Tracking pages that need translating
@@ -174,5 +169,6 @@ Installing on Debian/Ubuntu
 
 If you have a recent OS, it should come with Ruby 1.9. Then, all you need to do is:
 
+    sudo apt-get install ruby ruby-dev
     sudo gem install amber
 
