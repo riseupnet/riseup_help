@@ -1,35 +1,17 @@
+@toc = false
+
 The internet is a wild place. Practically ever click you make is now recorded, archived, and analyzed by a computer somewhere in order to predict your consumer behavior or enforce the laws of the nation state. The moment you put a computer on the internet, it is likely to be probed for vulnerabilities by viruses and crackers hoping to conscript it into a "zombie bot army":http://en.wikipedia.org/wiki/Zombie_computer.
 
 Yikes! What is an internet user to do? These pages will help you configure your computer to prevent these attacks [_at the network level_].
 
 table(table).
 |_. Technology  |_. Difficulty |_. When to use it |
-| Better Web Browsing | Easy | There are a few easy things you can do to make your web browsing more secure and more private. |
+| [[Better Web Browsing->better-web-browsing]] | Easy | There are a few easy things you can do to make your web browsing more secure and more private. |
 | Riseup DNS | Easy | Use the Riseup DNS servers to *block advertisements* and prevent corporations from tracking your every movement. |
 | [[ Riseup VPN => 'security/vpn ]] | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic* (includes Riseup DNS). |
 | [[ Tor => 'security/tor' ]] | Hard | Tor is like VPN, but your traffic is bounced around the internet to many nodes to make it *more anonymous.* |
 
-h2. Better Web Browsing
-
-<%= child_summaries :page => 'common/better-web-browsing', :include_toc => true %>
-
-h2. Riseup VPN
-
-h3. About the RiseupVPN
-
-<%= child_summaries :page => 'vpn', :include_toc => true %>
-
-h3. Running the RiseupVPN
-
-<%= child_summaries :page => 'vpn/vpn-howto', :include_toc => true %>
-
-h3. How it works
-
-<%= child_summaries :page => 'vpn/how-vpn-works', :include_toc => true %>
-
-
-Advanced Topics
------------------
+h2. Advanced Topics
 
 * [[ Change your MAC Address => 'security/auto-random-macs' ]]: change the hardware address of your device for added anonymity. 
 * [[ Tor Anonymized Internet => 'security/tor' ]]: Tor is like the VPN, but traffic is routed through several nodes before going out to the normal internet. This creates a higher degree of anonymity, but is slower and can be more difficult to use.
