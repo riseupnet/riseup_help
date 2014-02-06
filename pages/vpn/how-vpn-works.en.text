@@ -1,0 +1,36 @@
+A Virtual Private Network (VPN) is typically used to allow an employee access to a secure corporate network. 
+
+However, with the [[Riseup VPN -> vpn]], we use the same technology to allow everyone greater security when accessing the public internet. This type of VPN is called a *personal VPN*.
+
+h2. A normal internet connection
+
+!/vpn/img/vpn-01_large.png!
+
+In a normal internet connection, all your traffic is routed from your computer through your ISP (Internet Service Provider) and out onto the internet and finally to its destinate. At every step of the way, your data is being recorded and is vulnerable to [[man-in-the-middle attacks -> man-in-the-middle-attacks]] (the danger of this is much less if you are using a [[secure protocol->secure-connections]] like https).
+
+h2. An internet connection with personal VPN
+
+!/vpn/img/vpn-02_large.png!
+
+With a personal VPN, your traffic is encrypted on your computer, passes through your ISP and on to the VPN Server. Because the data is encrypted, your ISP has no knowledge of what is in your data that they relay on to the VPN Server. Once your data reaches the VPN Server, it is decrypted and forwarded on to its final destination.
+
+With the personal VPN, if your data is not using a [[secure connections -> secure-connections]] then it is still vulnerable from the point it leaves the VPN Server. However, by routing your data through the VPN server, you have acheived two important advantages:
+
+* Your data is protected from blocking, tracking, or man-in-the-middle attacks conducted by your ISP or network operators in your local country.
+* Your data now appears to use the IP address of the VPN server, and not your real IP address. Most websites gather and retain extensive data base on this IP address, which has now been anonymized.
+
+h2. Personal VPN anonymizes your connection
+
+
+!/vpn/img/vpn-03_large.png!
+
+Because your traffic appears to originate from the VPN Server, the recipient of your network communication does not know where you actually reside (unless, of course, you tell them). 
+
+In the case illustrated above, the website in California thinks that the laptop in Brazil, the laptop in Europe, and the giant cellphone floating over Canada are all coming from New York, because that is where the VPN server is.
+
+h2. Limitations of using a personal VPN
+
+* If you live in an non-democratic state, it may be illegal to use a personal VPN to access the internet.
+* Using a VPN on your mobile device will secure your data connection, but the telephone company will still know your location by recording which towers your device communicates with. 
+* A VPN helps secure your information while in transit on the internet, but it does not secure your information while in storage on your computer or on a remote server.
+* Once data is securely routed through the RiseupVPN servers, it goes out to the internet as it normally would. Therefore, you should still use [[secure connections -> secure connection]] whenever possible.

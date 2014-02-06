@@ -49,6 +49,7 @@ chat
     pidgin
   security
     otr
+vpn
 security
   human-security
   device-security
