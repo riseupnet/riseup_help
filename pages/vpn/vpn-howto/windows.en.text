@@ -1,0 +1,64 @@
+@title = 'windows'
+
+Although OpenVPN is generally preferred over PPTP, it is more difficult to get working on Windows. 
+
+
+h2. Install OpenVPN
+
+Download the OpenVPN Windows installer from [[this website -> http://openvpn.net/index.php/open-source/downloads.html]] and run it. You should download the *current stable* release from this page and verify the signature. You want the "Windows installer." 
+
+h2. Install "RiseupCA.pem":/security/certificates/RiseupCA.pem
+
+Download the "RiseupCA.pem":/security/certificates/RiseupCA.pem and save it to [*C:\Program Files\OpenVPN\config\*]. (If you pick a different location, make sure to change the @ca RiseupCA.pem@ line of the configuration to point to the full path). For more information on the file RiseupCA.pem, see [[Riseup Certificate Authority -> /security/certificates/riseup-ca]].
+
+h2. Configure OpenVPN
+
+Download the "riseup.ovpn":/vpn-howto/windows-riseup.ovpn configuration file and move it to [*C:\Program Files\OpenVPN\config\RiseupVpn.ovpn*]
+
+h2. Start OpenVPN
+
+You often need to run the OpenVPN client as "Administrator", you can do that on Windows7 by right-clicking on the program and choosing "Run as Administrator". If you do not have that option, and you are running an older version of Windows you may just need to start the OpenVPN client by navigating to the Start button -> All Programs -> OpenVPN -> OpenVPN GUI. It should prompt you for your riseup.net username and password.
+
+Viola!
+
+h2. Troubleshooting
+
+If you are having problems connecting, the first thing you need to do is to find your openvpn logs because that is where problems are typically recorded. To get your logs you simply right click on the openvpn GUI notification icon, and click view logs.
+
+Once you have these, look in there for errors, some errors and solutions are below:
+
+h3. ROUTE: route addition failed using CreateIpForwardEntry: One or more arguments are not correct.
+
+If you get this error, add these lines to your openvpn.conf file:
+<pre>
+route-method exe
+route-delay 2
+</pre>
+
+h3. WARNING: 'dev-type' is used inconsistently, local='dev-type tap', remote='dev-type tun'
+
+If you find this error in your logs, you can try to change your configuration to have 'dev tun' instead of 'dev tap'
+and add this to your configuration:
+<pre>
+tun-mtu 1500
+</pre>
+
+h2. Other Problems
+
+h3. Saving Passwords
+
+Password storage on the windows client is insecure: There is no way in the current version to save your password. although it is possible [[recompile->http://openvpn.net/archive/openvpn-users/2005-04/msg00363.html]] the software with this option enabled (such as [[this version->http://forums.ivacy.com/index.php?topic=269.0]]), this stores your password in cleartext. 
+
+Instead of using your riseup.net password, you should use a [[VPN Secret->vpn-secret]]. It is OK to store the VPN Secret in cleartext.
+
+h3. Using TUN instead of TAP
+
+If you use @dev tun@ instead of @dev tap@ in the configuration file, you *must* run openvpn as administrator. Otherwise, it will appear to work, but none of your traffic will actually be going over the RiseupVPN.
+
+To run OpenVPN as administrator: 
+
+Right click on the *OpenVPN GUI* application and either choose "Run as Administrator" or if that doesn't exist, choose *properties*. From there, check *compatibility mode* and *run as administrator*. The *OpenVPN GUI* can be found under Start button → All Programs → OpenVPN → OpenVPN GUI.
+
+!/vpn/vpn-howto/win7-run-as-admin.jpg!
+
+

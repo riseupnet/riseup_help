@@ -41,11 +41,11 @@ h2. Setup OpenPGP Encryption in Evolution
 
 All that's necessary to work with encrypted emails in Evolution is to tell Evolution the OpenPGP **KEY ID** for your account and then to select encryption every time you send an email.
 
-# First, [[Generate a OpenPGP Key pair => gpg-keys]], if you haven't done so already.
+# First, [[Generate a OpenPGP Key pair => /security/howto-gpg-keys]], if you haven't done so already.
 # Go to **Edit** -> **Preferences**
 # In the **Mail Accounts** section, select the account you wish to link to your OpenPGP key and press the **Edit** button.
 # Click the **Security** tab.
-# Enter your OpenPGP **KEY ID** (See the [[Howto on OpenPGP Keys => gpg-keys]] to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
+# Enter your OpenPGP **KEY ID** (See the [[Howto on OpenPGP Keys => /security/howto-gpg-keys]] to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
 # Click **OK**
 
 You are now able to encrypt and decrypt emails in Evolution!

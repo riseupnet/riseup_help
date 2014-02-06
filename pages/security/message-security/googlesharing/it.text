@@ -1,0 +1,44 @@
+h2. Cos'e' GoogleSharing e perche me ne importa?
+
+GoogleSharing e' un [[plugin->https://addons.mozilla.org/en-US/firefox/addon/60333/]] per Firefox che e' facile da utilizzare, gratuito e libero (Open Source) e che anonimizza le tue ricerche su Google. Quando fai una ricerca su Google, loro collezionano informazioni che ti identificano registrando l'indizzo dal quale la ricerca viene effettuata e i contenuti della ricerca stessa. Probabilmente Google sapra' molto piu' delle tue ricerche di tu stesso!
+
+GoogleSharing devia tutto il traffico relazionato a Google che non richiede un login (quindi per esempio non i servizi di gmail) attraverso un server separato, in modo completamente trasparente (non devi far altro che installare il plugin). Come resultato le tue attivita' online veranno aggregate con quelle di tutti gl'altri utenti che usano questo plugin.
+
+Per informazioni piu dettagliate di come funziona e perche sia importante visita il [[sito del progetto->http://www.googlesharing.net/]].
+
+h2. Come lo configuro?
+
+E' facile!
+
+# "Clicca su questo link al plugin:/security/message-security/googlesharing/googlesharing-0.23-riseup.xpi per installarlo. 
+# Potrai vedere una sbarra gialla in cima alla finestra del browser che dice: "Firefox ha impedito a questo sito (we.riseup.net) di richiedere l'installazione di software su questo computer". Per installarlo clicca sul pulsante "Permetti".
+!/security/message-security/googlesharing/Step1.png!
+# Adesso vedrai questa finestra. Aspetta che il pulsante di installazione venga attivato e cliccalo.
+!/security/message-security/googlesharing/Step2New.png!
+# Riavvia Firefox. *Adesso stai usando GoogleSharing!*
+!/security/message-security/googlesharing/Step3.png!
+
+h2. Paranoia Opzionale
+
+Per aumentare ancora il livello di anonimato puoi opzionalmente fare anche il seguente.
+
+Siccome il traffico con Google adesso verra' deviato tramite i proxy di GoogleSharing, Google non e' piu capace di relazionare le tue attivita' con te come individuo. Le richieste dal tuo computer vengono spedite al proxy di GoogleSharing che poi le rinvia a Google. Questo significa che le tue richieste a Google sembrano essere originate dal proxy di GoogleSharing e non dal tuo computer. E questo e' geniale.
+
+Pero' significa anche che i proxy di GoogleSharing (in teoria) potrebbero fare quello che prima fece Google: correlazionare le tue attivita' a te e il tuo computer. Quindi ti chiederai: quali informazioni su di me vengono registrate da GoogleSharing? Loro dicono che non registrano niente, quindi la risposta sarebbe "nessuna". Ma quanto puoi essere sicuro che sia davvero cosi'? Non puoi assolutamente. Devi fidarti della loro reputazione (che secondo noi in questo campo e' molto forte!). Risup gestisce due dei proxy che fanno parte del network di GoogleSharing, percio' possiamo assicurarti che su questi gestiti da noi stessi nessuna informazione privata viene registrata. Ma non possiamo assolutamente garantirlo per gli altri che fanno parte del network, perche non sappiamo di chi si tratti.
+
+Se ti va' puoi anche scegliere di usare soltanto i proxy di GoogleSharing gestiti da Riseup. Questo fara' in modo che il tuo traffico con Google passera' esclusivamente per i nostri server. Se lo vuoi fare, segui questa istruzione:
+
+# Clicca con il tasto destro sulla scritta "Google Sharing Enabled" nell'angolino in basso a destra del browser e seleziona "Options".
+!/security/message-security/googlesharing/StepA.png!
+# Clicca "Add Proxy".
+# Inserisci "googlesharing.riseup.net" e clicca "OK".
+!/security/message-security/googlesharing/NewStepB.png!
+# Adesso seleziona nella colonna di sinistra sotto "enabled" il proxy di Riseup appena aggiunto. Se casomai tu volessi ritornare al proxy di default lo puoi sempre fare dalla stessa finestra di configurazione.
+!/security/message-security/googlesharing/NewStepC.png!
+# Clicca "OK"
+
+h2. Further reading
+
+* [[Google Is Blocked In 25 Of The 100 Countries They Offer Products In -> http://www.washingtonpost.com/wp-dyn/content/article/2010/04/19/AR2010041902799.html]] ([[google blog posting about same -> http://googleblog.blogspot.com/2010/04/controversial-content-and-free.html]])
+* [[the problem with google->/security/resources/google]]
+

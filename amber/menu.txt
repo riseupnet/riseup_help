@@ -49,13 +49,30 @@ chat
     pidgin
   security
     otr
+vpn
+  introduction
+  how-vpn-works
+  vpn-howto
+    linux
+    android
+    mac
+    windows
+    troubleshooting
 security
-  surveillance
-  privacy
+  certificates
+    intro
+    verifying-riseup-certs
+    riseup-ca
+    further-reading
   human-security
   device-security
   message-security
+    encrypted-email
+    otr
+    googlesharing
   network-security
+    secure-connections
+    better-web-browsing
   resources
 about-us
   contact

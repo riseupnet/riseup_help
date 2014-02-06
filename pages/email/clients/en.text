@@ -38,7 +38,7 @@ Suppose your email address was [@collective@riseup.net@]:
 * Outgoing mail server: @mail.riseup.net@
 * Login or user name: @collective@
 * Use secure connection: @yes@ (TLS)
-(This is required. The [[secure-connection]] may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
+(This is required. The [[secure-connection->/security/network-security/secure-connections]] may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
 
 *Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords". Because the connection to riseup.net is encrypted anyway, these are not needed.
 

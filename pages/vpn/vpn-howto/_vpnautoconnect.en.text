@@ -1,0 +1,28 @@
+There is a longstanding bug in Network Manager that prevents the VPN from connecting when you login or reconnecting if the VPN connect gets dropped. In order to fix this problem, we suggest you install "VPNAutoconnect":http://sourceforge.net/projects/vpnautoconnect/files/. If you are running Debian or Ubuntu, "download":http://sourceforge.net/projects/vpnautoconnect/files/ and open the appropriate .deb file (i386 is for when you have installed a 32-bit system, and amd64 is for when you have installed a 64-bit system). Note that vpnautoconnect depends on libappindicator1 and libc6 (>= 2.15) but wheezy ships libc6:amd64=2.13-38).
+
+Alternately, If you are running Ubuntu, you can add the VPNAutoconnect repository:
+
+<code>
+$ sudo apt-add-repository ppa:barraudmanuel/vpnautoconnect
+</code>
+<code>
+$ sudo apt-get install vpnautoconnect
+</code>
+
+Once installed, the VPNAutoconnect icon should appear in your task bar. It looks like this:
+
+!/vpn/vpn-howto/vpnautoconnect%2072_small.png!
+
+Right click on that icon and select *preferences*. Make sure that *Follow Parent and reconnect* is checked, if you want the VPN to start automatically. Next, click on the little top tab with an arrow on it:
+
+!/vpn/vpn-howto/autoconnect-tabs.png!
+
+You will get a form to add a VPN profile that should autoconnect:
+
+!/vpn/vpn-howto/vpnautoconnect-select.png!
+
+* for *Parent Connection*, most people will choose 'eth0'
+* for *VPN connection* choose the VPN profile you just added in Network Manager.
+
+Click *Save* and you are done. Note that if you are using OpenVPN and your home directory is encrypted, the connection will not automatically start up when you login if the Certificate Authority file is stored in your home directory.
+

@@ -1,10 +1,59 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+@title = 'Communications Security' 
+@nav_title = 'Security'
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+h1. Why security matters
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+The increasing importance of information and communication has brought with it another phenomenon: the rise of a *surveillance society*. You can think of surveillance as an attempt by the powerful to [_maintain their dominance by asserting control over communication_].
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+*Nation states* have responded to new communications technology by pursuing an infrastructure that can easily be re-purposed for total social control. Unlike earlier communication eras, the nature of current technology requires that our information is either secure in a way that frustrates governments, or is totally insecure in a way that makes possible the widespread and detailed monitoring of an entire populous. 
+
+*Corporations* have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
+
+In this context, secure communication has become vitally important. 
+
+* State surveillance has a long history of resulting in the repression of social movements.
+* Even indirectly, rampant surveillance has a chilling effect on social movements.
+* Corporate surveillance is just as serious as state surveillance. Not only can the massive amounts of data kept on internet users be easily re-purposed for direct state repression, but corporations are now on the verge of obtaining unprecedented power over consumers.
+
+When people start to learn about the rise in surveillance they start to feel overwhelmed. Some decide that it is impossible to be secure, so they resign themselves to live under perpetual surveillance or to forsake all forms of digital communication. At Riseup, we believe there is a third way: our goal is to make a high degree of security easy and accessible for everyone.
+
+Much of the fight against surveillance takes place through the legal system and we applaud those who work in this arena. In contrast, Riseup's focus is on technology. When laws are unjust, we believe that a new technical reality is necessary in order to alter the legal and political possibilities. 
+
+h1. Security overview
+
+<table>
+<tr>
+  <th>Type of security</th>
+  <th>What is it?</th>
+  <th>When is it useful?</th>
+</tr>
+<tr>
+  <td><%= link 'Human' => 'human-security' %></td>
+  <td>Simple changes you can make to your *behavior*.</td>
+  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+</tr>
+<tr>
+  <td><%= link 'Device' => 'device-security' %></td>
+  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
+  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+</tr>
+<tr>
+  <td><%= link 'Message' => 'message-security' %></td>
+  <td>Ways to encrypt *individual messages* you send and receive.</td>
+  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+</tr>
+<tr>
+  <td><%= link 'Network' => 'network-security' %></td>
+  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
+  <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
+</tr>
+</table>
+
+Riseup mostly provides services that address <%= link 'network-security' %>:
+
+* Because network surveillance is so pervasive, it is a *social problem* that affects everyone all the time. In contrast, device and message security are important for people who are being individually targeted by repressive authorities. 
+* Improving your network security is fairly *easy*, in comparison to device or message security.
+
+Having said that, it is important for people facing the prospect of targeted repression to employ device and message security, although this can take some time to learn. These help pages will aid in that journey.
 

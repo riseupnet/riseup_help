@@ -1,0 +1,44 @@
+h2. Was ist GoogleSharing und inwiefern betrifft es mich?
+
+GoogleSharing ist eine einfach zu nutzende und freie Open Source-[[Erweiterung->https://addons.mozilla.org/en-US/firefox/addon/60333/]] für Firefox, die deine Google-Suche anonymisiert. Wenn du eine Google-Suche durchführst, sammelt Google Informationen über deine Identität, indem es die Adresse speichert, von der aus Du suchst, sowie die Inhalte deiner Suchanfragen. Google weiss vermutlich mehr über dein Suchverhalten im Web, als du es selber tust!
+
+GoogleSharing leitet deinen gesamten Datenverkehr an Google, insofern kein Login benötigt wird (wie z.B. bei gmail), über einen separeten Server, vollkommen automatisch und ohne dass du es überhaupt bemerkst. Als Ergebnis kann dein Verhalten im Web nun nicht mehr von dem anderer Nutzer unterschieden werden.
+
+Für ausgiebigere Informationen darüber, wie es funktioniert und warum es so wichtig ist, besuche die [[Webseite des Projekts->http://www.googlesharing.net/]].
+
+h2. Wie richte ich es ein?
+
+Das ist einfach!
+
+# "Klicke auf diesen Link zur Firefox-Erweiterung":/security/message-security/googlesharing/googlesharing-0.23-riseup.xpi, um diese zu installieren.
+# Es wird in dem Fenster des Browsers ganz oben eine gelbe Leiste mit folgenden Hinweis erscheinen: "Firefox hat diese Website (we.riseup.net) daran gehindert, Sie zu fragen, ob Software auf Ihrem Computer installiert werden soll". Klicke für die Installation auf die Schaltfläche "Erlauben".
+!/security/message-security/googlesharing/Step1.png!
+# Nun sollte das folgende Fenster zu sehen sein. Warte kurz bis die Schaltfläche "Jetzt installieren" freigegeben wird und klicke diese dann an.
+!/security/message-security/googlesharing/Step2New.png!
+# Starte Firefox neu. *Du benutzt nun GoogleSharing!*
+!/security/message-security/googlesharing/Step3.png!
+
+h2. Optionale Paranoia
+
+Um die Anonymität noch weiter zu verbessern, kann auf Wunsch zusätzlich Folgendes durchgeführt werden.
+
+Da deine Google-Anfragen nun über die GoogleSharing-Proxies geleitet werden, ist Google nicht mehr in der Lage diese Aktivitäten mit dir persönlich in Verbindung zu bringen. Deine Anfragen werden von deinem Computer an den GoogleSharing-Proxy gesendet, der diese dann an Google weiterleitet. Das bedeutet, dass für Google deine Anfragen von dem GoogleSharing-Proxy auszugehen scheinen, und nicht von deinem Computer. Das ist klasse!
+
+Aber dies bedeutet auch, dass der GoogleSharing-Proxy nun (theoretisch) genau das tun könnte, was Google zuvor tat, nämlich deine Anfragen mit dir und deinem Computer in Verbindung zu bringen. Das sollte die Frage aufwerfen, welche Informationen GoogleSharing über dich sammelt. Sie behaupten, dass es keine Logfiles gäbe, somit wäre die Antwort: "überhaupt nichts". Aber kannst Du sicher sein, dass das auch stimmt? Nein, kannst du nicht. Du musst dich auf ihren Ruf verlassen (der unserer Meinung nach auf diesem Gebiet sehr gut ist!). Riseup selbst betreibt zwei Proxies, die Teil des Googlesharing-Netzwerks sind, daher können wir versichern, dass keine Nutzerdaten auf den von uns betriebenen Proxies gespeichert werden. Aber wir können keine verlässliche Aussage über die anderen Proxies machen, die zu dem Netzwerk gehören, da wir nicht wissen wer diese betreibt.
+
+Wenn du willst, kannst du ausschliesslich die von Riseup bereitgestellten Proxies nutzen. Die bedeutet, dass dein gesamter Datenverkehr mit Google über unsere Server stattfindet. Wenn du dies tun möchtest, gehe folgendermassen vor:
+
+# Klicke mit der rechten Maustaste auf den Text "Google Sharing Enabled" in der rechten unteren Ecke deines Browsers und wähle "Options".
+!/security/message-security/googlesharing/StepA.png!
+# Klicke auf "Add Proxy".
+# Gebe "googlesharing.riseup.net" in das Textfeld ein und klicke auf "OK".
+!/security/message-security/googlesharing/NewStepB.png!
+# Wähle nun in der linken Spalte unter "enabled" den neu angelegten Riseup-Proxy, um diesen zu aktivieren. Wenn du irgendwann wieder den ursprünglichen Proxy benutzen möchtest, kannst du diese Einstellung hier auch wieder rückgängig machen.
+!/security/message-security/googlesharing/NewStepC.png!
+# Klicke auf "OK".
+
+h2. Further Reading
+
+* [[Google Is Blocked In 25 Of The 100 Countries They Offer Products In -> http://www.washingtonpost.com/wp-dyn/content/article/2010/04/19/AR2010041902799.html]] ([[google blog posting about same -> http://googleblog.blogspot.com/2010/04/controversial-content-and-free.html]])
+* [[the problem with google->/security/resources/google]]
+

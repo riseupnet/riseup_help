@@ -1,0 +1,12 @@
+@title = 'Intro' 
+@nav_title = 'certificates'
+@toc = false
+
+h1.  What are certificates?
+
+On the internet, a [[public key certificate->http://en.wikipedia.org/wiki/Public_key_certificate]] is needed in order to verify the identity of people or computers. These certificates are also called "SSL Certificates" or "Identity Certificates." We will just call them "certificates" here.
+
+In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections. 
+
+To make sure you are actually creating a secure connection with Riseup, you can follow the below steps to verify our certificates. This verification process is not required in order to use Riseup's services. However, without verification, you cannot be certain you actually are connecting to our servers, and you cannot be certain that your connections are secure.
+
