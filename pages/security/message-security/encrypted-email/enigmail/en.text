@@ -8,7 +8,7 @@ h2. Install Enigmail and Run the OpenPGP Setup Wizard
 
 Enigmail is a Thunderbird extension that allows you to use OpenPGP encryption with your email.
 
-# (optional) You can let Engimail generate a key pair for you, or you can [[generate an OpenPGP key pair manually => gpg-keys]].
+# (optional) You can let Engimail generate a key pair for you, or you can [[generate an OpenPGP key pair manually => /security/howto-gpg-keys]].
 # Download "Enigmail":https://www.enigmail.net. **Linux users** - It's best to download and install the extension to get the latest one, rather than using one provided by your package manager, which is likely outdated. Thunderbird will automatically install updates to Enigmail in the future.
 # Navigate to **Tools** -> **Add-ons**
 # Press the **Install...** button
