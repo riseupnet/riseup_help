@@ -28,16 +28,32 @@ h2. Connecting to multi-user chatrooms
 
 When connecting to or creating chatrooms on Riseup's jabber network, the syntax should be:
 
-* [@your-room-name@chat.riseup.net@]
+* [@your-room-name@conference.riseup.net@]
 
 If you need to specify the room separately, do this:
 
 * chatroom: @your-room-name@
-* domain: @chat.riseup.net@
+* domain: @conference.riseup.net@
 
 Do NOT use this:
 
 * [@your-room-name@riseup.net@]
+
+h3. using rooms in Pidgin
+
+If your are are connected via [[pidgin]], to join or create a chatroom, click @Add room@ in the @Buddy@ menu.
+
+* Room: @your-room-name@
+* Server: @conference.riseup.net@
+* Handle: @your-nick@
+* Password: [optional]
+* Alias: [optional]
+* Group: [optional]
+
+Click @Ok@ and have a look at the buddy list. You should see a group @Chat@ with your room.
+Right click on it and select @join@.
+
+For testing, you can select @riseup.net@ as room name and join it.
 
 h2. For added security
 
