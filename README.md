@@ -12,7 +12,7 @@ The static content files in `riseup_help/public` are rendered from the content i
 `riseup_help/pages`. You edit pages in the `pages` directory, but never edit
 anything in the `public` directory.
 
-To install amber:
+Before installing, be sure that you have the ruby-dev package installed. Then, to install amber:
 
     sudo gem install amber
 
