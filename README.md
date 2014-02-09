@@ -8,18 +8,39 @@ language negotiation.
 
 To submit changes, please fork this repo and issue pull requests on github.
 
+Directories
+----------------------------------
+
+    riseup_help/
+      amber/     -- amber configuration, stylesheets, layouts, etc.
+      disabled/  -- draft pages or pages that are disabled.
+      notes/     -- notes and todos.
+      pages/     -- the source text for the website pages.
+      public/    -- the rendered output (not committed to git).
+
 The static content files in `riseup_help/public` are rendered from the content in
 `riseup_help/pages`. You edit pages in the `pages` directory, but never edit
 anything in the `public` directory.
 
-Before installing, be sure that you have the ruby-dev package installed. Then, to install amber:
+Installation
+----------------------------------
 
+In order to preview your edits to the content in `pages` you will need a
+program called `amber`.
+
+To install on Debian or Ubuntu (Wheezy or later):
+
+    sudo apt-get install ruby ruby-dev
     sudo gem install amber
 
-See https://github.com/elijh/amber for more information.
+To install on Mac, see below. Check https://github.com/elijh/amber for more
+information.
 
-After you have made changes, run this command in this repo directory to
-completely re-render the entire site:
+Previewing pages
+----------------------------------
+
+After you have made changes, run this command in the riseup_help directory to
+completely re-render the entire site (takes a long time):
 
     amber rebuild
 
@@ -43,7 +64,7 @@ Putting it all together:
 6. When satisfied, `git commit`, `git push`
 7. Go to https://github.com/your-id/riseup_help and issue a pull request
 
-File structure
+Amber file structure
 ------------------------------
 
 There are two ways to create pages:
@@ -61,6 +82,8 @@ to have sub-pages
       pt.text
       client/
         en.text
+
+In general, it is preferred to use the folder method.
 
 Notes on markup
 ------------------------------
@@ -84,7 +107,7 @@ Here is a brief overview of textile markup:
     * this is a list
     * another item in the list
 
-    "this is a link":http://tothissite.org
+    "this is a link":http://to-this-url.org
 
     here is some *bold text*
 
@@ -103,6 +126,9 @@ path for the page with the specified name. Also, it will warn you if the page
 name is missing and it will ensure that the link is created with the correct
 language prefix. In haml, you can get the same effect using
 `link 'label' => 'page'`
+
+You should use the standard textile link markup for external links or links to
+files.
 
 Setting page properties
 ---------------------------------
@@ -130,6 +156,8 @@ Available properties:
 * `@toc` -- If set to `false`, don't include a table of contents when rendering
    the file. This only applies to .text and .md files.
 * `@layout` -- Manually set the layout template to use for rendering this page.
+* `@this.alias` -- An alternate url path (or paths if the value is an array)
+   where this page should be available.
 
 Tracking pages that need translating
 --------------------------------------------
@@ -163,12 +191,3 @@ Alternately, if you want different versions of ruby installed, consider:
 
 * https://github.com/sstephenson/rbenv
 * http://rvm.io/
-
-Installing on Debian/Ubuntu
-----------------------------------
-
-If you have a recent OS, it should come with Ruby 1.9. Then, all you need to do is:
-
-    sudo apt-get install ruby ruby-dev
-    sudo gem install amber
-
