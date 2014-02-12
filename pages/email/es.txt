@@ -1,0 +1,83 @@
+@title = 'Riseup Email'
+@nav_title = 'Email'
+
+!>email/airmail.jpg!
+
+Bienvenido a la página de ayuda sobre email de Riseup. Aquí encontrarás la información sobre las *cuentas de correo* que ofrecemos.
+
+Si no encuentras lo que estas buscando "cumplimenta un ticket de ayuda":https://user.riseup.net/forms/. Una vez que tu pregunta sea respondida, por favor, ayúdanos a mantener al día estas páginas enviando cualquier cambio o incorporando la información que desees compartir con otras personas.
+
+h2. Primeros pasos
+
+Visita "user.riseup.net":https://user.riseup.net desde ahí, puedes cambiar tu contraseña, añadir un alias a tu email, configurar filtros, cambiar tu cuota o solicitar ayuda.
+
+Destruimos automáticamente la información que nos proporcionas cuando nos pides que te abramos una cuenta. Deberías considerar eliminar, desde la página de configuración de tu cuenta, cualquier información que pueda identificarte como pueden ser tu nombre, tu cumpleaños, la pregunta secreta o el email secundario. Sin embargo, si pierdes tu contraseña y no has establecido esta información, o has olvidado qué has guardado, o el correo secundario no tienes acceso al correo secundario, perderás el acceso a tu cuenta.
+
+h2. Cosas importantes que debes saber
+
+h3. Proteje tu contraseña
+
+En internet hay gente interesada en robarte tu cuenta de correo electrónico. En algún momento, probablemente recibas un email fraudulento procedente de alguien que suplanta a riseup.net. Estos correos pretenderán que realices determinadas acciones para mantener tu cuenta.
+
+* Nunca le des tu contraseña a nadie, especialmente si dice ser riseup.net.
+* Nunca confíes en que la dirección que aparece en el campo "De"  sea quien realmente dice ser, porque esto puede ser falsificado fácilmente.
+* Los enlaces en los mensajes de email, son a menudo fraudulentos. Para estar a salvo, deberías teclear el enlace en lugar de pulsar sobre él. Tambien se cuidadoso con las letras bailadas, como riseupp.net en lugar de riseup.net.
+
+Leer más en [[passwords => mail-passwords]].
+
+h3. Borrado automático en algunas carpetas
+
+Los mensajes de algunas [[carpetas especiales => email-folders]] se borran automáticamente después de cierto tiempo:
+
+* *Trash* se borra después de 21 días.
+* *Spam* se borra después de 7 días.
+* *Sent* se borra después de 120 días.
+
+h3. Cuota
+
+No proporcionamos un gran espacio de almacenamiento en las cuentas por varias razones. Si necesitas más espacio, plantéate descargar tus correos usando un software cliente o aumenta tu cuota visitando https://user.riseup.net. Leer más sobre la [[cuota]].
+
+h3. Usa un cliente de correo
+
+Aunque la interfaz web de riseup.net no tiene muchas funcionalidades, puedes usar tu cuenta de correo electrónico de riseup.net con un cliente IMAP o POP, estás aplicaciones tienen mucho potencial y están diseñadas específicamente para gestionar tus correos. Échale un ojo a nuestros [[tutoriales para los clientes email más populares => email/clients]].
+
+Riseup recomienda [[thunderbird]], un cliente de correo libre, gratuito y de código abierto. Thunderbird configurará tus cuentas automáticamente con solo proporcionar tu dirección de mail de riseup.net y tu contraseña.
+
+h2. ¿Qué hace especial al correo de riseup.net?
+
+Tu cuenta de correo de riseup.net es una cosa maravillosa. Aunque no ofrecemos tanto espacio de almacenamiento como el que ofrecen las empresas que se financian a través de la vigilancia, el email de riseup.net tiene muchas características poco frecuentes:
+
+[*Encriptamos tráfico siempre que sea posible.*]
+Cuando envías un correo a otro proveedor seguro desde riseup.net, este correo viaja cifrado a lo largo de todo el recorrido. (Ojea [StartTLS] para más información)
+
+[*Nosotros no revelamos tu ubicación a los destinatarios del correo electrónico.*]
+Cuando envías un correo con riseup.net, tu dirección en internet (dirección IP) no va incrustada en el email. Con los proveedores de correo empresariales cualquiera que reciba tus correos se puede hacer una idea de tu ubicación física viendo la dirección IP que va incluída en los mismos.
+
+[*No registramos tu dirección de Internet.*]
+Nuestro compromiso es mantener la menor información sobre ti como podamos. A diferencia de los proveedores empresariales, no registramos las direcciones de Internet de las personas que utilizan los servicios riseup.net, incluido su correo electrónico.
+
+h2. Ayuda mútua
+
+No existen los correos electrónicos gratuitos. Servicios como Gmail, Hotmail o Yahoo obtienen dinero de la vigilancia: construyen un perfil de tu comportamiento y tus intereses y luego te bombardean con publicidad dirigida específicamente a tu perfil.
+
+Riseup.net es diferente. Este servicio es fruto del amor de activistas como tú comprometidos con la construcción de movimientos de autogestión y que aseguren una infraestructura alternativa.
+
+El servicio de correo de riseup.net consume mucho tiempo y dinero para mantenerse en marcha, y está financiado en su totalidad por pequeñas donaciones de sus usuarias y usuarios. Por favor, pon algo de tu parte y [[colabora => donate]].
+
+h2. Preguntas frecuentes (FAQ)
+
+* [[¿Cómo cambio mi contraseña? => mail-passwords]]
+* [[¿Cómo borro mi cuenta? => mail-accounts]]
+* [[¿Cómo aumento mi cuota? => quota]]
+* [[¿Por qué no se actualiza mi cuota? => quota]]
+* [[¿Cómo cifro mis correos? => message-security]]
+* [[¿Que puedo evitar el spam? => spam]]
+* [[¿Por qué no puedo acceder a través de webmail? => webmail]]
+* [[¿Por qué no puedo enviar correos desde mi software cliente? => smtp]]
+* [[¿Existe una agenda? => address-book]]
+* [[¿Por qué no puedo ver mis carpetas? => email-folders]]
+* [[¿Cómo descargo mis correos? => downloading-email]]
+* [[¿Por qué mi correo entrante es bloqueado como spam? => spam]]
+* [[¿Que me podéis decir de los viruses? => viruses]]
+* [[¿Qué son las Condiciones de Uso de Riseup? => email/usage-agreement]]
+* [[¿Por qué no puedo configurar una respuesta automática de "fuera de oficina" => email-filters]]
