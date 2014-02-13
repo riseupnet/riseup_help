@@ -1,0 +1,81 @@
+@title = 'List Definition'
+@summary = 'There are many options you have for configuring different aspects of your list. Please see below for help on the different ones available.'
+
+h2.  List Owners
+
+h3.  What is a list owner?
+
+In order to change any of the list configuration options, you must be a list owner. List owners can also be subscribers or editors of the list, but but this is not automatic: if you are the list owner and you want to also be an editor, you must add your email as an editor as well, if you want to receive the messages from the list, you must subscribe.
+
+h3.  Adding owners
+
+To add a list owner:
+
+# go to the web page for your list.
+# Click *Admin*
+# Click *Edit List Config*
+# Click *List Definition*
+# Under the section <b>owner</b>, find the blank entry. For the field <b>email</b> fill in the email address of the additional owner. For the field <b>reception</b>, choose mail. You can leave all the other fields blank.
+# Click <b>Update</b> at the bottom.
+
+h3.  Changing owners
+
+To change the owner of the list, follow these steps:
+
+# Create a new "list account" for your new email address. New list accounts can be created <a href="http://lists.riseup.net/www/renewpasswd">here</a>.
+# Login as the *existing* owner.
+# Add the new email address as an additional owner of the list (see 'Adding owners' above).
+# Logout and log back in as the new owner.
+# Remove the original owner from the list of owners. To do this, simply clear the email field.
+# Click <b>Update</b> at the bottom.
+
+It is best to not remove the previous owner until you are sure you can login as the new owner.
+
+h2.  List Moderators
+
+h3.  What is a moderator?
+
+A moderator, or list editor, is able approve or reject posts to a list. Only if the list has a *send* option set to moderated will posts be held for review by the moderators.
+
+You can have as many moderators as you want. Moderators can also be subscribers or owners of the list, but this is not automatic: if you are a moderator and you also want to receive messages from the list, you must subscribe.
+
+Some configuration options will give editors other privileges as well, such as the ability to edit the list of subscribers or to edit the shared web space.
+
+h3.  Adding moderators
+
+To add a list moderator/editor:
+
+# Edit list config
+# Click *list definition*
+# Under the section *moderators*, find the blank entry. For the field _email_ fill in the email address of the additional owner. For the field _reception_, choose mail. You can leave all the other fields blank.
+# Click *Update* at the bottom.
+
+h3.  Removing moderators
+
+To remove a list moderator/editor:
+
+# Edit list config
+# Click *list definition*
+# Under the section *moderators*, find the entry you want to remove. Put blank values for all the fields in that entry.
+# Click *Update* at the bottom.
+
+h2.  Short Description
+
+Every list has a short description associated with it. The short description is used in the directory of lists. Confusingly, the variable for this is called <b>subject</b>.
+
+To change the <b>subject:</b>
+
+# Edit the list config
+# Change the value for <b>subject</b> field.
+# Click <b>Update.</b>
+
+h2.  Topics
+
+One the front page of lists.riseup.net is a directory of lists grouped by topic. If you want your list to be in the directory, you must associate one or more topics with your list.
+
+To set a topic:
+
+# Edit the list config
+# Select a value in the <b>topics</b> popup list
+# Click <b>Update</b>
+

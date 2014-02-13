@@ -1,0 +1,76 @@
+@title = 'Encrypted Email with OpenPGP'
+@nav_title = 'Encrypted Email'
+
+h2. What is encrypted email?
+
+Encrypted email is a way of keeping the content of your email safe from eavesdropping as it bounces around the internet. The most common type of encryption is OpenPGP (OpenPGP is the specification, PGP is "Pretty Good Privacy" and is proprietary, GPG is GNU Privacy Guard and is free software). There are many resources on the internet that can offer you a detailed explanation of how encryption works. For our purposes, there are three components that are useful to understand: *public key*, *private key* and *passphrase*.
+
+Your *public key* is, as you can tell from the name, publicly available. Sometimes, people use keyservers to share public keys to make sending emails using encryption easier. Whenever you wish to send encrypted email, you must have the recipient's public key. Similarly, whenever someone else wants to send you encrypted email, they must have your public key.
+
+A *private key* is connected to exactly one public key. Without a private key, the content of an encrypted message is extremely difficult to extract. In the age of supercomputers, nothing is impossible, but decrypting a message without the private key is extraordinarily difficult. Your private key is extremely important and should be kept in a safe place at all times.
+
+Your *passphrase* should be at least 21 characters in length, should contain UPPER and lower case characters, as well as symbols (&$"{@). Your passphrase unlocks your private key and permits it to be used, in conjunction with your public key, to send and receive encrypted email.
+
+h2. How do I use encrypted email?
+
+There are three basic functions you can perform using GPG: *signing*, *encrypting* and *verifying*.
+
+*Signing*: When you sign something, you use your private key and your passphrase to generate a *signature block* that is appended to the item you are signing. This signature block is generated from two things: (1) a numerical value computed from the contents of the message and (2) your private key.
+
+*Verifying*: When someone receives something that has been signed, they can verify it using the public key with which it was encrypted. The public key could be downloaded from a keyserver, or perhaps emailed by the sender. Verifying establishes two things --> (1) the message was signed by someone who has access to the associated private key and (2) the contents of the message were not modified in transit.
+
+*Encrypting*: To encrypt a message, you need the public key of the recipient. You do not need a passphrase or even a gpg key of your own to encrypt something. However, most programs will also encrypt anything to your own public key when sending. Otherwise, once you encrypt a message, you would no longer be able to read it. Once it is encrypted, the contents of the email are no longer viewable in transit. *However, the subject, sender, and recipient are still visible.*
+
+h2. Can I send and receive encrypted email using riseup's webmail?
+
+One of the webmail programs used on riseup servers allows you to send and receive encrypted email. The software is called IMP and it is the second login available on mail.riseup.net. However, one problem with this software is that your private key is stored on riseup's servers. This makes it vulnerable to legal process in the United States (such as a search warrant or subpoena) and is therefore *not recommended.*
+
+It is much better for riseup users who want to use encrypted email to utilize an email client (such as thunderbird) to send and receive email, while keeping your private key stored safely on your local machine.
+
+h2. What are some limitations of encrypted communications?
+
+Encrypted communications do not protect you from *relational surveillance*, which is the monitoring of associations between people. For example, if ihatebush@riseup.net is sending encrypted emails regularly to joehill@riseup.net, someone who was intercepting the communications between the two may not know *what* the two are discussing, but the basic fact that the two people are regularly communicating is useful in and of itself. Additionally, the subject line of the message is *not encrypted.*
+
+Signing and verifying do not ensure that the email was in fact sent by the email address associated with the key. Spoofing return email addresses is very easy. Thus, someone with the email address federalagent@yahoo.com could: (1) create a key for joehill@riseup.net, (2) upload the key to a public keyserver and (3) send an email from federalagent@yahoo.com that appears to come from joehill@riseup.net that is signed. If you merely download the public key and verify the message, it will show a "good signature from joehill@riseup.net" even though the message did not come from joehill at all! This is why the *web of trust* is so important (see below).
+
+h2. How can I verify a key owner's identity?
+
+So you are setup with encrypted email and happily sending and receiving messages. But how do you know that you are actually communicating with the person you think you are? That's where *key fingerprints* come into play.
+
+Each public key has a unique *fingerprint*. The fingerprint is generated through a hash function, which is like a one-way portal. For any specific input, there is *one and only one* corresponding output. Just like your fingerprints are unique, there is only one fingerprint for any specific public key. Why is this useful? Because in order to be certain of the integrity of the process, you need to make sure that when you are receiving a signed email from joehill@riseup.net you are actually receiving email from your friend Joe Hill. There are two (or possibly three) ways you can accomplish this:
+
+   1. You and Joe meet in person and Joe gives you an electronic copy of his public key.
+   2. You and Joe meet in person and Joe gives you a copy of his key fingerprint and you verify that the fingerprint matches that of the public key.
+   3. (less secure) If you know Joe very well and recognize his voice, Joe could read the fingerprint to you over the phone.
+
+The fingerprint is not secret information -- anyone can generate the fingerprint using the public key.
+
+h2. How can I sign a key and why would I want to?
+
+Taking things to the next step, let's say you've exchanged keys with Joe in a secure manner. Now you're done and can safely email Joe, knowing that you are actually exchanging emails with him (because he is signing his emails), and knowing that the contents of your communication are safe from snooping (because you are encrypting your emails using Joe's public key). But let's say Joe meets Rita at an action, and Joe and Rita exchange keys in a secure manner. You know and trust Joe, but you haven't met Rita. How can you establish that Rita's key is genuine without having to meet her in person?
+
+Enter the web-of-trust and key signing.
+
+Once Joe has verified Rita's key in a secure manner, Joe can *sign Rita's public key.* There are two schools of thought on key signing - one group believes that you should only sign someone's key (even someone who you've known for a long time) if you have verified that the real name associated with the email address matches that on a *government-issued* photo identification (such as a passport). Others will sign keys without verifying the key owner's real name, which establishes that the owner of the email address is the owner of the key, but not that the real name associated with the email address owns the key.
+
+If you trust Joe to carefully verify individuals keys, then you can set in your keyring a level of trust for Joe's key. Then, if you haven't met someone in person to verify their keys, but Joe has, you can establish a trust-level for a key based on the fact that Joe has signed it.
+
+You can host a *key signing party* to encourage your friends and colleagues to exchange keys and sign them. This provides an avenue to verify the identity of people who you have not met where others whom you trust have met the individual.
+
+h2. Do you have any other tips about encrypted email?
+
+We're glad you asked!
+
+* *DO* save your private key on an encrypted hard disk partition -- This protects the integrity of your key in case your computer is lost, stolen, or seized.
+* *DO NOT* share your private key with anyone or save the private key on a public computer.
+* *USE A STRONG PASSPHRASE* - Your passphrase is your last defense against the unauthorized use of your key. Don't ruin the whole affair by using a weak passphrase. Passphrases should be longer than 21 characters and should not contain words from a dictionary or other easily guessable combinations. *A random passphrase that you keep written down in a safe location is better than a long passphrase that includes dictionary words.*
+* *USE GENERIC SUBJECT LINES* - Subject lines of emails are not encrypted. Thus, you should always use very generic subject lines in your encrypted communications.
+* *HOST A SIGNING PARTY* - Encourage your friends to get a gpg key and sign each others keys.
+* *SEND ENCRYPTED EMAILS EVEN WHEN THE CONTENTS ARE NOT IMPORTANT* - This is vital!! If the only encrypted email traffic involves secret communications, it creates a much smaller amount of traffic to be analyzed. If everyone used encrypted email for all communications, even for deciding about what kind of pizza to have, this would increase the amount of encrypted email traffic.
+
+h2. How do I setup OpenPGP encrypted email on my computer?
+
+Please read:
+
+* [[gpg-keys]]
+* [[enigmail]]

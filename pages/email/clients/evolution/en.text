@@ -19,7 +19,7 @@ h2. Setup a New Account in Evolution
 # If you're running Evolution for the first time, you will be asked if you want to restore your settings from a backup file, if you have one.
 # Enter the name you wish to have appear in the **From** field to your email recipients along with your email address.  You may also choose to make this your default account in Evolution.
 # Enter the following information to receive email for a riseup.net account:
-Server Type: Choose either **IMAP** or **POP**. <%= link 'What is the difference between IMAP and POP email servers?' => 'email/clients' %> %>
+Server Type: Choose either **IMAP** or **POP**. [[What is the difference between IMAP and POP email servers? => email/clients]] %>
 Server: **mail.riseup.net**
 username: **<your riseup username>**
 Use Secure Connection: **TLS** is recommended
@@ -41,11 +41,11 @@ h2. Setup OpenPGP Encryption in Evolution
 
 All that's necessary to work with encrypted emails in Evolution is to tell Evolution the OpenPGP **KEY ID** for your account and then to select encryption every time you send an email.
 
-# First, <%= link 'Generate a OpenPGP Key pair' => 'gpg-keys' %>, if you haven't done so already.
+# First, [[Generate a OpenPGP Key pair => /security/gpg-keys]], if you haven't done so already.
 # Go to **Edit** -> **Preferences**
 # In the **Mail Accounts** section, select the account you wish to link to your OpenPGP key and press the **Edit** button.
 # Click the **Security** tab.
-# Enter your OpenPGP **KEY ID** (See the <%= link 'Howto on OpenPGP Keys' => 'gpg-keys' %> to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
+# Enter your OpenPGP **KEY ID** (See the [[Howto on OpenPGP Keys => /security/gpg-keys]] to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
 # Click **OK**
 
 You are now able to encrypt and decrypt emails in Evolution!

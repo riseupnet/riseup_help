@@ -24,7 +24,7 @@ Non aprire allegati da parte di nessuno, incluse le persone che conosci, a meno 
 
 Noi di riseup.net non ti manderemo MAI una mail con file allegati.
 
-Vuoi saperne di più? Tipo come installare un filtro per bloccare lo spam o altre cose utili? <%= link 'viruses' %>.
+Vuoi saperne di più? Tipo come installare un filtro per bloccare lo spam o altre cose utili? [[viruses]].
 
 h2. Il più piccolo degli uccellini!
 
@@ -32,4 +32,4 @@ Il poderoso Sunbird, insieme alla sua splendida partner, hanno un nuovo bebè, c
 
 h2. Grazie
 
-Grazie per tutte le donazioni, grandi e piccole, che abbiamo ricevuto durante la nostra raccolta fondi annuale. Siete il nostro sole e la nostra luna. E se qualcun altro avesse voglia di fare una donazione, per favore, per favore, per favore, fatela perché ci permetterebbe di dare supporto a più utenti e in modo migliore. Grazie. <%= link 'donate' %>
+Grazie per tutte le donazioni, grandi e piccole, che abbiamo ricevuto durante la nostra raccolta fondi annuale. Siete il nostro sole e la nostra luna. E se qualcun altro avesse voglia di fare una donazione, per favore, per favore, per favore, fatela perché ci permetterebbe di dare supporto a più utenti e in modo migliore. Grazie. [[donate]]

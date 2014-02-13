@@ -23,7 +23,7 @@ N'ouvre donc aucune pièce jointe, même si elle vient de personnes que tu conna
 
 Tu ne recevras JAMAIS de mail avec pièce jointe de la part de riseup.net.
 
-Tu veux en savoir plus ? Par exemple comment installer un filtre antispam et autres choses utiles? <%= link 'virsus' %>
+Tu veux en savoir plus ? Par exemple comment installer un filtre antispam et autres choses utiles? [[viruses]]
 
 h2. Le Petit Dernier Des Oiseaux
 
@@ -31,4 +31,4 @@ Le grand Sunbird, et sa charmante partenaire, ont eu un nouveau bébé prénomm�
 
 h2. Merci
 
-Merci pour tous les dons, petits et gros, que vous nous avez fait lors de notre collecte de fonds annuelle. Vous êtes notre soleil et notre lune, chacun.e d'entre vous. Si d'autres parmi vous ont encore envie de faire un don, faites-le, faites-le s'il-vous plaît, parce que ça nous permettra de soutenir encore plus de personnes de manière plus efficace. Merci. <%= link 'donate' %>
+Merci pour tous les dons, petits et gros, que vous nous avez fait lors de notre collecte de fonds annuelle. Vous êtes notre soleil et notre lune, chacun.e d'entre vous. Si d'autres parmi vous ont encore envie de faire un don, faites-le, faites-le s'il-vous plaît, parce que ça nous permettra de soutenir encore plus de personnes de manière plus efficace. Merci. [[donate]]

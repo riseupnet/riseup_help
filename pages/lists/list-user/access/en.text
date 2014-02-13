@@ -1,12 +1,17 @@
-This page has yet to be copied from old help.
+@title = 'Access'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2.  Why can't I see a list?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+There are several reasons why a list might not be visible. Some lists are not publicly visible and are only visible to subscribers once they have logged in. To subscribe to a hidden list, send mail to listname-subscribe@lists.riseup.net.
+Most lists which are hidden are also private, so your list subscription will need to be approved by the list owner. If you are a list owner and you want to make your list visible, you must set the <b>visibility</b> option to <b>no conceal</b>.
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+The other reason a list might not be visible is that it has not been created yet. When you fill out a list request, the list becomes visible and editable by you, the admin. The list is not accessible by others until the list is actually approved.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+h2.  Why can't I view the list archives?
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+There are several reasons why you might not be able to view the archives:
 
+* You have disabled cookies: In order to prevent <a href="http://www.neilgunton.com/spambot_trap/">email harvesting spambots</a>, Sympa requires a cookie in order to view the archives. If you see the button 'I am not a spammer' every time you try to view an archive, then you need to enable cookies.
+* You are not logged in: By default, most list archives are available only to list subscribers (members). This means that you must identify yourself as a list subscriber by logging in before you can view the archives. This is probably the case if you go to the list page and the 'archive' link is not clickable.
+* The list archives are closed: The owner of a list might have decided to prevent anyone from viewing the list archives.
+* The archives are broken: once is a while, a list's archives will get totally tweaked. Usually, rebuilding them will make them visible again.

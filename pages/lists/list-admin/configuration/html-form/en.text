@@ -1,0 +1,40 @@
+@title = 'HTML Form'
+@summary = 'How to create a form on your website which allows someone to subscribe to a riseup.net list.'
+
+h2. Basic HTML form
+
+If you want to put a form on your website which allows someone to subscribe to a riseup.net list, here is a simple HTML snippet which will do the job:
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT  NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="subrequest">
+  <INPUT TYPE="submit" NAME="action_subrequest" VALUE="Subscribe">
+</FORM>
+</pre>
+
+NOTE: replace *listname* with the name of your list. For example, if your list was anarchism101@lists.riseup.net, replace *listname* with anarchism101. Also, the action *must* be use SSL (ie https://) for the form to work.
+
+Here is an example unsubscribe form:
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="sigrequest">
+  <INPUT TYPE="submit" NAME="action_sigrequest" VALUE="Unsubscribe">
+</FORM>
+</pre>
+
+h2.  A little more fancy
+
+If you are able to write a script to handle the processing of the form, you can send mail to listname-subscribe@lists.riseup.net with the "From:" mail header set to address of the person who wants to subscribe. This way, the user will not get redirected to the lists.riseup.net website and will stay on your site.
+
+This method is preferable, since currently the web interface to sympa is a bit awkward: when you try to subscribe via the web, it sends you a password in the mail that you then need to copy back to the website. For email based subscription requests, you just need to reply back to the message.
+
+h2.  Really fancy
+
+It is possible to manage most aspects of a list remotely using SOAP. Currently, we do not have SOAP enabled, but we probably will soon. SOAP is not for the faint of heart and requires serious programming. If you want to dive into SOAP for sympa, let us know and read up on it at http://sympa.org.

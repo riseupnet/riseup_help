@@ -1,0 +1,53 @@
+h2. The US maintains a social network map of everyone
+
+The National Security Agency (NSA), a division of the United States government, maintains a giant database, one of the largest ever, composed of the social network connections of everyone with communication that passes through the United States.
+
+This social network map is derived from *transactional* information. For example, the record that person A made a phone call to person B at a particular time. The database does not include the content of the communication. Because of this, the NSA considers the database to be legal (although the even within the NSA there are those who feel that it is not).
+
+h2. Why is this a problem
+
+At first, a giant social network map does not seem to be very bad. After all, much of the data in the map is not information most people would consider sensitive. So what if the government knows that I call my grandmother on the weekends?
+
+The problem is that a social network map of everyone gives the government a *blueprint for how to disrupt our social movements*. Social network analysis can be used to pinpoint exactly the most efficient way to disrupt an organization. In effect, through our complacency, we have put into the hands of the government the ultimate tool for social control.
+
+Because so much of the world's communication passes through the United States, this affects practically everyone who communicates electronically, not just people who live within the boarders of the US.
+
+h2. History of mass transactional surveillance
+
+The kind of surveillance needed to build the giant social network map is called "transactional surveillance." The US government has been engaging in widespread transactional surveillance since the early 1990s.
+
+h3. Prior to 9/11
+
+The NSA has long tracked patterns of calls and email between the US and South American in an effort to identify drug trafficking. [[According to administration officials -> http://www.nytimes.com/2007/12/16/washington/16nsa.html]], “the Bush and Clinton administrations signed off on the operation, which uses broad administrative subpoenas, but does not require court approval to demand the records.” 
+
+Seven months before the attacks of September 11th, the NSA proposed to Qwest communication that they build the capacity for the NSA to analyze patterns of calls, emails, and other transmissions crossing Qwest’s network. The goal was not to target individuals or to capture the content of any of the communication, but rather to discover “groups communication with each other in strange patterns” [[according to former Defense Department and White House officials -> http://www.bloomberg.com/apps/news?pid=newsarchive&sid=abIV0cO64zJE]].
+
+Although Qwest declined the request, [[lawyers suing AT&T claim -> http://www.bloomberg.com/apps/news?pid=newsarchive&sid=abIV0cO64zJE]] to have whistleblower evidence that the telecom giant agreed to a similar NSA program during this same period.
+
+h3. After 9/11
+
+After the attacks of September 11, these programs grew in scope and sophistication. In 2006, [[USA Today first broke the story -> http://www.usatoday.com/news/washington/2006-05-10-nsa_x.htm]] of a massive call database developed after the attacks of September 11 that included the transactional records of every call made through the major telecommunications carriers in the US (except for Qwest). At the time, this data gathering was reported to include telephone calls and was described as the “largest database ever assembled in the world”.
+
+Reporting 19 days later, [[Seymour Hersh first revealed -> http://www.newyorker.com/archive/2006/05/29/060529ta_talk_hersh]] the existence of a secret direct connection from the telecommunication backbone of the internet to the NSA. To the extent that this program limited itself to transactional data and not eavesdropping, no court oversight was needed and no laws were broken, according to officials in the administration.
+
+Hersh writes:
+
+bq. A security consultant working with a major telecommunications carrier told me that his client set up a top-secret high-speed circuit between its main computer complex and Quantico, Virginia, the site of a government-intelligence computer center. This link provided *direct access to the carrier’s network core—the critical area of its system, where all its data are stored*. “What the companies are doing is worse than turning over records,” the consultant said. “They’re providing total access to all the data."
+
+bq. “This is not about getting a cardboard box of monthly phone bills in alphabetical order,” a former senior intelligence official said... “The N.S.A. is getting real-time actionable intelligence,” the former official said. (emphasis added)
+
+In 2008, the Wall Street Journal [[published an in-depth story -> https://we.riseup.net/assets/58748/Gorman.%202008.%20NSAs%20Domestic%20Spying%20Grows%20As%20Agency%20Sweeps%20Up%20Data.pdf]] on the NSA's program of mass transactional surveillance and social network analysis:
+
+bq. According to current and former intelligence officials, the *spy agency now monitors huge volumes of records* of domestic emails and Internet searches as well as bank transfers, credit-card transactions, travel and telephone records.
+
+bq. Current and former intelligence officials say telecom companies' concern comes chiefly because they are giving the government *unlimited access to a copy of the flow of communications*, through a network of switches at U.S. Telecommunications hubs that duplicate all the data running through it.
+
+bq. The NSA uses its own high-powered version of *social-network analysis to search for possible new patterns* and links to terrorism. (emphasis added)
+
+
+h2. Further reading
+
+* Leslie Cauley. [[NSA has massive database of Americans' phone calls -> http://www.usatoday.com/news/washington/2006-05-10-nsa_x.htm]]. USA Today, May 10 2006.
+* Seymour Hersh. [[Listening In -> http://www.newyorker.com/archive/2006/05/29/060529ta_talk_hersh]]. New Yorker, May 29 2006.
+* Eric Lichtblau, James Risen, and Scott Shane. [[Wider Spying Fuels Aid Plan for Telecom Industry -> http://www.nytimes.com/2007/12/16/washington/16nsa.html]]. The New York Times, December 16 2007.
+* Siobhan Gorman. [[NSA’s Domestic Spying Grows As Agency Sweeps Up Data: Terror Fight Blurs Line Over Domain; Tracking Email. -> https://we.riseup.net/assets/58748/Gorman.%202008.%20NSAs%20Domestic%20Spying%20Grows%20As%20Agency%20Sweeps%20Up%20Data.pdf]] Wall Street Journal

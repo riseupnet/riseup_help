@@ -1,0 +1,83 @@
+@title = 'Tor'
+@summary = 'The Onion Router'
+
+Welcome to the exciting world of Tor! This page will get you up and running, in the fewest steps possible. For now, all you need to know is that [[Tor->https://torproject.org]] is a great tool for anonymity and privacy online.
+
+h2. Get Tor Installed
+
+The first step is to download Tor. The Tor project offers quite a few packages for download, start with picking the [[“Tor Browser Bundle”->https://torproject.org/download/download.html.en]] for your operating system.
+
+Once you have downloaded the Tor Browser Bundle, proceed to follow the instructions below, depending on your operating system.
+
+
+h3. Windows Instructions
+
+After you've downloaded the Tor Browser Bundle, then double click on it to run it. Click on the button labeled "..." (1) and select where you want to save the bundle then click OK (2). At least 50 MB free space must be available in the location you select. If you want to leave the bundle on the computer, saving it to the Desktop is a good choice. If you want to move it to a different computer or limit the traces you leave behind, save it to a USB disk. Then Click Extract (3) to begin extraction. This may take a few minutes to complete.
+
+!tor/tbb-screenshot1.jpg!
+
+See the Using Tor section below for how to use Tor.
+
+h3. Mac OS X
+
+After you've downloaded the Tor Browser Bundle, then simply click on it to begin the installation. Mac OS X will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch Vidalia. Once Vidalia connects to Tor, it will launch Firefox.
+
+!tor/screenshot-osx-torbrowser-icon.png!
+
+See the Using Tor section below about how to use Tor.
+
+h3. Linux
+
+Download the architecture-appropriate file above, save it somewhere, then run:
+
+* For 32-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-i686-1.1.13-dev-LANG.tar.gz</code>
+* For 64-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-x86_64-1.1.13-dev-LANG.tar.gz</code>
+
+(where LANG is the language listed in the filename), and either double click on the directory or cd into it, then execute the start-tor-browser script. This will launch Vidalia and once that connects to Tor, it will launch Firefox. Do not unpack or run TBB as root.
+
+h2. Using Tor
+
+Once extraction is complete, open the folder Tor Browser from the location you saved the bundle. Double click on the Start Tor Browser (4) application (it may be called Start Tor Browser.exe on some systems) The Vidalia window will shortly appear.
+
+!tor/tbb-screenshot2.jpg!
+
+Once Tor is ready, Firefox will automatically be opened. Only web pages visited through the included Firefox browser will be sent via Tor. Other web browsers such as Internet Explorer are not affected. *Make sure* that it says "Tor Enabled" (5) in the bottom right corner before using it. To reduce the risk of confusion, don't run your normal Firefox while using the Tor Browser Bundle, its better to close existing Firefox windows before starting.
+
+Once you are finished browsing, close any open Firefox windows by clicking on the 'x' (6). For privacy reasons, the list of web pages you visited and any cookies will be deleted.
+
+!tor/tbb-screenshot3a.jpg!
+
+With the Tor Browser Bundle, Vidalia and Tor will automatically close.
+
+h2. Riseup's Tor Hidden Services
+
+Tor makes it possible for not just users to hide their locations, but servers as well. You can access Riseup's services via our [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]] addresses. Whenever you see a URL like http://xyvp43vrggckj427.onion, that's a Tor hidden Web service. If you are running Tor, you can simply put that address in where you would normally put an address (for example, as a URL in your Tor enabled web browser) and it will use the tor network to get to our servers.
+
+The following is a list of Riseup's Tor hidden services:
+
+<pre>
+imap.riseup.net:  xyvp43vrggckj427.onion (port 993)
+lists.riseup.net: jrel5ubuxzxnlmqf.onion (port 80, 443)
+mail.riseup.net:  xyvp43vrggckj427.onion (ports 443, 465, 587)
+pad.riseup.net:   ttbmov2dezfs2fln.onion (port 443)
+pop.riseup.net:   xyvp43vrggckj427.onion (port 995)
+shell.riseup.net: f2gbcmawrov75gag.onion (port 22)
+smtp.riseup.net:  xyvp43vrggckj427.onion (ports 465, 587)
+user.riseup.net:  yiycjq5des4vnwtp.onion (port 80, 443)
+we.riseup.net:    ad332dtuffx66l2q.onion (port 443)
+xmpp.riseup.net:  ztmc4p37hvues222.onion (ports 3478, 3479, 5190, 5222, 5223, 5269, 7777)
+</pre>
+
+h2. Warnings and Notes
+
+First, be aware: Tor can be very slow, sometimes you wont notice that it is slow, but other times you will think that things aren't working at all. The experience varies as Tor changes how your connection is routed. This is because your connection is being routed through at LEAST three computers. If two of those computers are blazing fast, but the third is a snail, your data will only move as fast as the snail can handle.
+
+Second, while Tor itself may be quite secure, other software on your computer may not be. You need to change some of your habits, and reconfigure your software! Tor by itself is NOT all you need to maintain your anonymity. Further information is available at the Tor Project website, in their [[documentation section -> https://torproject.org/docs/documentation.html.en]]. Please read this information carefully before doing anything potentially unsafe on the Tor system.
+
+Some text in this document is transposed from the [[Tor Project's website -> https://www.torproject.org/download/download.html.en]] via Creative Commons Attribution 3.0.
+
+h2. Additional Resources
+
+* The [[Surveillance Self Defense project -> https://ssd.eff.org/]] over at the Electronic Frontier Foundation is a plethora of helpful and interesting information. Especially relevant is their [[Tor page -> https://ssd.eff.org/tech/tor]].
+
+* The [[Tor Project's website -> https://www.torproject.org/index.html.en]] will be able to answer almost all of your questions concerning the Tor project, and how to use the software effectively.

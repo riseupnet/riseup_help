@@ -1,0 +1,110 @@
+@nav_title = 'Android'
+@title = 'Riseup VPN on Android'
+
+You have two options for running OpenVPN on android:
+
+* *OpenVPN Connect*: official OpenVPN client, works on most devices running Android 4.0 or higher (Ice Cream Sandwich).
+* *OpenVPN for Android*: another good OpenVPN client, works on most devices running Android 4.0 or higher (Ice Cream Sandwich).
+
+h1. OpenVPN Connect
+
+h2. Installation
+
+Install OpenVPN Connect from [[Google Play => https://play.google.com/store/apps/details?id=net.openvpn.openvpn]]
+
+h2. Configuration
+
+Open this page in your phone and download this file:
+
+RiseupVPN.ovpn
+
+h1. OpenVPN Settings
+
+h1. Installation
+
+# Install *OpenVPN Settings*: The app can be installed either from Google Play or [[f-droid -> http://f-droid.org]].
+
+h2. Create configuration files
+
+h3. Mount your sdcard
+
+Plug a USB cable from your android device to your computer. On the android device, there will then be an option in the notice pull-down to copy files to your computer. Select this, and then click "Turn on USB storage". The sdcard of your device should now be accessible from your computer.
+
+h3. Create the folder openvpn
+
+From your desktop, create a folder on the sdcard called *openvpn*.
+
+h3. Create the file riseup.ovpn
+
+Inside the *openvpn* folder, place the file "riseup.ovpn":/vpn/vpn-howto/android-riseup.ovpn
+
+If you are on a network that has filters in place, try adding one of these options to your config:
+
+Look like DNS traffic:
+
+<pre>
+port 53
+proto udp
+</pre>
+
+Look like TLS web traffic:
+
+<pre>
+port 443
+proto tcp
+</pre>
+
+In place of vpn.riseup.net, you may optionally choose one of these servers:
+
+<%= render '/vpn/vpn-servers' %>
+
+h3. Create the file auth.txt
+
+Inside the *openvpn* folder, create the file *auth.txt*, with these contents:
+
+<code>
+<riseup username>
+<riseup password or VPN Secret>
+</code>
+
+For example:
+
+<code>
+joe_hill
+jqn8f6H9f0mopwqj890ajgha
+</code>
+
+Rather than use your password, it is better to use a [VPN secret].
+
+h3. Create the file RiseupCA.pem
+
+Download the "RiseupCA.pem":/security/certificates/RiseupCA.pem into the *openvpn* folder.
+
+h3. Unmount your sdcard
+
+Once you have created these files, you must unmount the sdcard from your computer and then turn off USB storage on your android device.
+
+h2. Use Riseup DNS
+
+* open *OpenVPN Settings* app
+* long click on *riseup.ovpn*
+* check: *Use VPN DNS Server*
+* set *VPN DNS Server* to @172.27.0.1@
+* hit back button on the device.
+
+h2. Connect!
+
+* open *OpenVPN Settings* app
+* Click on *riseup.ovpn* to connect
+
+Currently, there seems to be a bug where you might have to click twice to actually connect.
+
+h2. Troubleshooting
+
+On some versions of Cyanogenmod, you may need to configure the module loading under advanced settings:
+
+* *Load tun kernel module*: checked.
+* *Load module using*: @insmod@
+* *Path to tun module*: @/system/lib/modules/tun.ko@
+
+The current version of OpenVPN Settings doesn't allow you to see the error message when OpenVPN fails. However, you can install the free software "aLogcat" and then set a filter to 'vpn' to see the OpenVPN errors.

@@ -16,17 +16,17 @@ The first time you run Thunderbird, the account wizard will walk you through set
 
 1. Choose the menu item *Edit > Account Settings...*
 
-!thunderbird/img/edit-account-settings.png!
+!/email/clients/thunderbird/img/edit-account-settings.png!
 
 2. Click the *Add Account...* button.
 
-!thunderbird/img/account-actions.png!
+!/email/clients/thunderbird/img/account-actions.png!
 
 h3. Step 1
 
 You will see a prompt. Enter in your name, email address and password.
 
-!thunderbird/img/mail-account-setup1.png!
+!/email/clients/thunderbird/img/mail-account-setup1.png!
 
 Click *Continue*.
 
@@ -34,14 +34,14 @@ h3. Step 2
 
 Thunderbird will pull the settings from riseup's servers.
 
-!thunderbird/img/mail-account-setup2.png!
+!/email/clients/thunderbird/img/mail-account-setup2.png!
 
-Now you need to decide if you want to use <%= link 'IMAP or POP' => "mail/clients#what-is-the-difference-between-imap-and-pop" %>.
+Now you need to decide if you want to use [[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
 * *IMAP*: It will by default pick IMAP, so if you want IMAP you can simply click *Continue*.
 * *POP*: To switch to POP, click *edit*. Then click the dropdown menu that says IMAP and change it to POP. Now click Re-Test Configuration. It should show you using POP. If so, click *Continue*.
 
-!thunderbird/img/imap-pop.png!
+!/email/clients/thunderbird/img/imap-pop.png!
 
 h3. Step 3
 
@@ -56,15 +56,15 @@ h2. What is next?
 h3. Enhance your email security
 
 # Ideally, you should *not* use StartTLS. Instead, it is much better to use regular TLS. For added security, go to your account settings and change your connection type from StartTLS to TLS.
-# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the <%= link 'Riseup VPN' => 'vpn' %>. This will prevent a long list of potential attacks against your communication.
-# For enhanced <%= link 'message security' => 'message-security' %>, consider <%= link 'setting up Enigmail with Thunderbird' => 'enigmail' %> to get <%= link 'OpenPGP' => 'gpg-keys' %> setup.
+# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
+# For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/gpg-keys]] setup.
 
 h3. Add some extensions
 
 We suggest these extensions for Thunderbird:
 
 * "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: This extension will display the current status of your IMAP quota in thunderbird's statusbar and will warn you when you reach a configurable limit.
-* <%= link 'Enigmail' => 'enigmail' %>: get started in no time encrypting and decrypting emails and verifying that emails you receive are from the people who you expect them to be.
+* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: get started in no time encrypting and decrypting emails and verifying that emails you receive are from the people who you expect them to be.
 
 h3. Hidden options that radically improve Thunderbird speed
 

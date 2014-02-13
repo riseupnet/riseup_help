@@ -8,18 +8,39 @@ language negotiation.
 
 To submit changes, please fork this repo and issue pull requests on github.
 
+Directories
+----------------------------------
+
+    riseup_help/
+      amber/     -- amber configuration, stylesheets, layouts, etc.
+      disabled/  -- draft pages or pages that are disabled.
+      notes/     -- notes and todos.
+      pages/     -- the source text for the website pages.
+      public/    -- the rendered output (not committed to git).
+
 The static content files in `riseup_help/public` are rendered from the content in
 `riseup_help/pages`. You edit pages in the `pages` directory, but never edit
 anything in the `public` directory.
 
-To install amber:
+Installation
+----------------------------------
 
+In order to preview your edits to the content in `pages` you will need a
+program called `amber`.
+
+To install on Debian or Ubuntu (Wheezy or later):
+
+    sudo apt-get install ruby ruby-dev
     sudo gem install amber
 
-See https://github.com/elijh/amber for more information.
+To install on Mac, see below. Check https://github.com/elijh/amber for more
+information.
 
-After you have made changes, run this command in this repo directory to
-completely re-render the entire site:
+Previewing pages
+----------------------------------
+
+After you have made changes, run this command in the riseup_help directory to
+completely re-render the entire site (takes a long time):
 
     amber rebuild
 
@@ -35,16 +56,15 @@ For this reason, it is best to use the `amber server`.
 
 Putting it all together:
 
-1. Fork repo on github
-2. `git clone ssh://git@github.com/<your-id>/riseup_help`
-3. `cd riseup_help`
-4. `amber server`
-5. edit files in `riseup_help/public`
-6. preview changes on http://localhost:8000
-7. when satisfied, `git commit`, `git push`
-8. go to your github fork and issue a pull request
+1. Go to https://github.com/riseupnet/riseup_help and click the fork button.
+2. Clone your fork locally: `git clone ssh://git@github.com/your-id/riseup_help`
+3. Start the amber server: `cd riseup_help; amber server`
+4. Edit files in `riseup_help/pages`
+5. Preview changes in your browser using http://localhost:8000
+6. When satisfied, `git commit`, `git push`
+7. Go to https://github.com/your-id/riseup_help and issue a pull request
 
-File structure
+Amber file structure
 ------------------------------
 
 There are two ways to create pages:
@@ -63,6 +83,8 @@ to have sub-pages
       client/
         en.text
 
+In general, it is preferred to use the folder method.
+
 Notes on markup
 ------------------------------
 
@@ -73,9 +95,7 @@ You can create pages in three different markup languages:
 * haml (suffix .haml)
 
 Most of the riseup help pages are written using textile. It is best to keep to
-textile for consistency. Some pages are in haml, because there are still some
-bugs when inserting the contents of another page into textile or markdown
-pages.
+textile for consistency.
 
 Here is a brief overview of textile markup:
 
@@ -87,25 +107,28 @@ Here is a brief overview of textile markup:
     * this is a list
     * another item in the list
 
-    "this is a link":http://tothissite.org
+    "this is a link":http://to-this-url.org
 
     here is some *bold text*
 
 For a complete reference, see http://redcloth.org/textile/
 
-For external links, use `"this":http://format.org`. However, in order to link to
-other help pages, it is best to use some special markup:
+Amber adds an additional way to make links:
 
-    <%= link 'label' => 'page-name' %>
+    [[label -> page-name]]
     or
-    <%= link 'page-name' %>
+    [[page-name]]
     or
-    <%= link 'chat/client' %>
+    [[chat/client]]
 
-By using this `link` function it will automatically find the right path for
-the page with the specified name. Also, it will warn you if the page name is
-missing and it will ensure that the link is created with the correct
-language prefix.
+By using this double bracket link notation will automatically find the right
+path for the page with the specified name. Also, it will warn you if the page
+name is missing and it will ensure that the link is created with the correct
+language prefix. In haml, you can get the same effect using
+`link 'label' => 'page'`
+
+You should use the standard textile link markup for external links or links to
+files.
 
 Setting page properties
 ---------------------------------
@@ -119,21 +142,22 @@ Every file can have a "properties header". It looks like this:
 
 The properties start with '@' and are stripped out of the source file before
 it is rendered. Property header lines are evaluated as ruby. All properties
-are optional and they are inherited, including `@title`.
+are optional and they are inherited, including `@title`. To make a property
+not get inherited, use `@this.propertyname = 'value'` instead.
 
 Available properties:
 
 * `@title` -- The title for the page, appearing as in an H1 on the top of the
    page and as the HTML title. Also used for navigation title if `@nav_title`
    is not set.
-
 * `@nav_title` -- The title for the navigation to this page, as well as the
    HTML title if @title is not set.
-
+* `@summary` -- Displayed under the title.
 * `@toc` -- If set to `false`, don't include a table of contents when rendering
    the file. This only applies to .text and .md files.
-
 * `@layout` -- Manually set the layout template to use for rendering this page.
+* `@this.alias` -- An alternate url path (or paths if the value is an array)
+   where this page should be available.
 
 Tracking pages that need translating
 --------------------------------------------
@@ -167,11 +191,3 @@ Alternately, if you want different versions of ruby installed, consider:
 
 * https://github.com/sstephenson/rbenv
 * http://rvm.io/
-
-Installing on Debian/Ubuntu
-----------------------------------
-
-If you have a recent OS, it should come with Ruby 1.9. Then, all you need to do is:
-
-    sudo gem install amber
-

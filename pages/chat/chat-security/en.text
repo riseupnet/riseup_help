@@ -1,0 +1,11 @@
+@title = "Chat Security"
+
+h2. Securing your messages
+
+In most cases, when you use Riseup's jabber service your messages will be encrypted in transport. There is, however, not a strong guarantee of this (unless both parties are using Riseup).
+
+If you want to ensure end-to-end message encryption, then your the best options is [[Off The Record (OTR) -> https://en.wikipedia.org/wiki/Off-the-Record_Messaging]]. For more information, read our [[OTR tutorial -> otr]].
+
+h2. Securing your voice conversions
+
+Last time we checked, Jitsi is the only jabber client that supports secure voice/video calling.

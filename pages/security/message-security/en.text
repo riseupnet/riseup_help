@@ -1,12 +1,43 @@
-This page has yet to be copied from old help.
+@title = "Message Security"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+*Message security* is the practice of encrypting messages on your device so that they can be read only by the intended recipient. Although [[network-security]] and [[device-security]] are important, this kind of *message encryption* is necessary in many situations:
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+* *Confidentiality*: Message encryption is the only way to ensure that only the indented recipients are reading your messages.
+* *Authenticity*: Message encryption is the only way to ensure the identity of the people you are communicating with.
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+Practicing message encryption, however, can be a challenge:
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+* *You must own a device*: The idea with message encryption is that you don't trust another party to encrypt your communication for you. Therefore, all the encryption takes place on your machine, which means you need to own your own device.
+* *Steep learning curve*: In order to use encryption software correctly, you will need to spend a significant amount of time learning important encryption concepts like public keys, private keys, keyrings, etc.
+* *Limited correspondents*: With message encryption, you can only communicate securely with other people using the same software.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+Obviously, these guarantees of security don't apply if your device has been compromised.
 
+h1. About Message Encryption
+
+What these help pages call "message encryption" is technically called "public-key cryptography". Here is how it works:
+
+* *Private key*: Everyone has their own private key. As the name implies, this key must be kept private. You use this private key in order to read the encrypted messages sent to you.
+* *Public key*: Everyone also has a public key. This key is often distributed far and wide. When someone wants to send you a secure message, they use your public key to encrypt it. Only the person with the corresponding private key will be able to decrypt it.
+
+*Tips for Learning Message Encryption*
+
+Although it provides the highest level of security, public-key encryption is still an adventure to use. To make your journey less scary, we suggest you keep these things in mind:
+
+* *Be in it for the long haul*: using public-key encryption takes a commitment to learning a lot of new skills and jargon. The widespread adoption of public-key encryption is a long way off, so it may seem like a lot of work for not much benefit. However, we need early adopters who can help build a critical mass of public-key encryption users.
+
+* *Develop encryption buddies*: although most your traffic might not be encrypted, if you find someone else who uses public-key encryption try to make a practice of only communicating securely with that person.
+
+* *Look for advocates*: people who use public-key encryption usually love to evangelize about it and help others to use it to. Find someone like this who can answer your questions and help you along.
+
+*Limitations of Message Encryption*
+
+Although you can hide the contents of email with public-key encryption, it *does not* hide who you are sending mail to and receiving mail from. This means that even with public key encryption there is a lot of personal information which is not secure.
+
+Why? Imagine that someone knew nothing of the content of your mail correspondence, but they knew who you sent mail to and received mail from and they knew how often and what the subject line was. This information can provide a picture of your associations, habits, contacts, interests and activities.
+
+The only way to keep your list of associations private is to to use a service provider which will establish a secure connection with other service providers. See our [[directory of radical servers->radical-servers]] for a list of such providers.
+
+h1. Use Message Encryption
+
+<%= child_summaries :include_toc => true, :levels => 2 %>

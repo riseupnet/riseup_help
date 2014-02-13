@@ -1,0 +1,22 @@
+@title = 'VPN Security'
+@summary = 'Some security issues when using a VPN'
+
+h2. VPN Anonymity
+
+How anonymous is the RiseupVPN? The answer primarily depends on what user information you have associated with your Riseup login. If you are concerned about your anonymity, we suggest you create a separate VPN account that you only use for the VPN.
+
+We keep very few logs and do not track any DNS requests or traffic of the VPN, but we do keep a record of which users accounts have used the VPN on which days.
+
+h2. Man-in-the-middle attacks
+
+A "Man-in-the-middle attack":http://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) is where the attacker is able to listen and/or modify your network traffic. Such an attack can be used to de-anonymize you, modify content, steal your passwords, or serve you viruses, trojans or other software designed to gain access to your computer.
+
+Every internet connection is vulnerable to a MiTM attack because of the broken nature of how the internet works. By tricking the routing protocol used by the internet, most any traffic is vulnerable to a MITM attack from anywhere in the world. Although this vulnerability has been know about for years, [[researchers dramatically demonstrated -> /assets/43591/defcon-16-pilosov-kapela.pdf]] such an attack at the hacker conference DEFCON in August of 2008.
+
+h3. Does a VPN help protect against MiTM?
+
+Yes and no. Using a VPN will shut down many of the places where a MiTM attack might happen, but not all of them. Specifically, it will protect your traffic between your device and the VPN gateway, preventing your ISP (or most governments) from performing a MiTM attack targeted toward you.
+
+However, once your traffic passes from the VPN gateway to its eventual destination, it becomes vulnerable to a MiTM attack. With a VPN, your traffic is then semi-anonymized, so it is much much more difficult to target any attack toward any particular person, but an indescriminate attack against all users of a particular website is still very possible.
+
+For example, in January 2011 the Tunisian government, in fear of the popular upraising that would eventually topple the regime, was able to perform a MiTM attack on Facebook users connecting from withing Tunisia, capturing their login and passwords. In this case, a VPN would have pretected against so long as the VPN gateway was located outside the country of Tunisia.

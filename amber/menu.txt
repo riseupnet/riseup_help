@@ -30,20 +30,46 @@ lists
     web-space
   list-admin
     configuration
+      creating-lists
+      list-definition
+      privileges
+      sending-and-reception
+      miscellaneous
+      shared-web-space
+      file-customization
+      html-form
     maintenance
+      archives
+      bounces
+      moderation
     faq
 chat
   clients
-  rooms
+    adium
+    pidgin
   security
+    otr
+vpn
+  how-vpn-works
+  security-issues
 security
-  surveillance
   privacy
+  surveillance
   human-security
   device-security
   message-security
+    openpgp
+      enigmail
+      gpg-keys
+    otr
   network-security
+    secure-connections
+    better-web-browsing
+    tor
+    certificates
+    riseup-ca
   resources
+    radical-servers
 about-us
   contact
   newsletter

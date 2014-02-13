@@ -2,10 +2,10 @@
   .container
     .row
       .col-sm-12
-        .pull-left
-          = # language_select_tag
         %div.footer-text
-          %p
+          .pull-left
+            %a(href="https://github.com/riseupnet/riseup_help")= t :contribute_to_help
+          %div
             = t(:footer_tagline)
           %ul.list-inline
             %li

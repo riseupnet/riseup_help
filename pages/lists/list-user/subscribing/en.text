@@ -1,12 +1,62 @@
-This page has yet to be copied from old help.
+@title = 'Subscribing'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h2.  How do I unsubscribe from a list?
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+The easiest way is to unsubscribe is to send email to:
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+p((. <b><i>listname</i>-unsubscribe@lists.riseup.net</b>
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+Where <i>listname</i> is the name of the list you want off.
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+If this doesn't work, then almost certainly the problem is that you sent the 'unsubscribe' email from an different address then the address which is subscribed to the list.
 
+This can happen if you have multiple email addresses (or aliases) for a single mail box. If possible, make sure the from address on your unsubscribe email matches the address you are subscribed with. If this is not possible, follow these steps:
+
+# login at http://lists.riseup.net using the address which is subscribed to the list. If you don't have a password, follow the links on that page to have one mailed to you.
+# once you are logged in, click "Your subscriptions" near the top of the page.
+# click the name of the list you want off.
+# click *Unsubscribe*
+
+h2.  How do I subscribe to a list?
+
+The easiest way is to subscribe is to send email to:
+
+p((. <b><i>listname</i>-subscribe@lists.riseup.net</b>
+
+Where <i>listname</i> is the name of the list you want to subscribe to.
+
+Make sure the account you send the mail from is the one you want subscribed to the list.
+
+If you are unable to send the confirmation email from the same address as you are subscribing with, you must use a different method. Follow these steps instead:
+
+# [[create a list account->http://lists.riseup.net/www/remindpasswd]]
+# login
+# search for the list and open the list's home page.
+# click *Subscribe*
+
+h2.  How do I receive a digest?
+
+In 'digest' mode, you receive multiple posts to the list in one email instead of separate emails. The list admin determines if you are able to subscribe in digest mode and over what period the digest covers.
+
+To switch to digest mode:
+
+* Login using your list account. If you don't have one, fill out the <a href="http://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+* Click *Your Subscriptions* at the top.
+* Click on the name of the list you want in digest mode.
+* Click on *My Options* on the left.
+* Select *digest* from the *reception mode* pull down menu.
+* Click *update*.
+
+If you do not actually receive digests, it may be that the list administrator still needs to set the digest settings for the list. Have them make sure that the hour option is greater than 1 and no more than 22 (10pm). This option determines when the digest is sent. If it is too close to midnight, the digests won't work (a bug in the mailing list software). You can contact the list admin by sending mail to <i>listname</i>-admin@lists.riseup.net.
+
+h2.  How do I switch to no-mail mode?
+
+Sometimes, you may want to be a member of a list, but not receive postings from the list. This could happen if you have multiple email addresses or perhaps you read the emails on the online archive. You can change your subscription status to "no-mail" by doing the following:
+
+* Login using your list account. If you don't have one, fill out the
+ <a href="http://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+* Click *Your Subscriptions* at the top.
+* Click on the name of the list you want in digest mode.
+* Click on *My Options* on the left.
+* Select *no mail* from the *reception mode* pull down menu.
+* Click *update*.

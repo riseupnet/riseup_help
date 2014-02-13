@@ -1,0 +1,49 @@
+@title = 'Sending and Reception'
+@summary = 'Configuration options for who can send messages, digests, how the list subjects are represented, etc.'
+
+h2.  Who can send messages
+
+First, some definitions:
+
+* A *member* is a list subscriber, meaning they receive email from the list. List members show up under the *members* link from the list page.
+* A list is *moderated* if a list editor must approve some of the email before it is sent out on the list.
+
+A list owner/administrator can set this in the 'Who can send messages' field under 'Admin' -> 'Edit List Config' -> 'Sending/reception'. These are the options for who can send messages to the list:
+
+* anyone_moderated:: Anyone may post, all messages are moderated, even messages from list members.
+* anyone_unmoderated:: Anyone may post, nothing is moderated. Use with caution! This can cause your list to get a lot of spam or tofu (activist spam).
+* members_moderated:: All member posts are moderated, other messages are automatically rejected. If someone is subscribe to the list but posts a message from a different address than the one they are subscribed with, then their message will be rejected.
+* members_or_moderated:: List members may post, other email is held for moderation. This is the most common list configuration. It allows all the list members to post freely and allows for other people to post as long as an editor approves the post.
+* members_or_moderated_quiet::  Same as members-or-moderated except no moderation notice is sent to message authors. Typically, when a message is held for moderation, the person who sent the email gets a little notice to this effect. With this option, however, the do
+not receive this notice.
+* members_unmoderated:: Any list member may post, other messages are automatically rejected. If you want to keep people who are not part of the list from posting, select this option.
+* newsletter:: Only editors can post, all other messages are rejected. This option is useful
+for when you want only a few people to be able to post.
+* newsletter_verify:: Same as *newsletter* except that the post is verified to come from a
+real editor by means of a mail back verification. This way, no one can fake their email address and post to your list against your wishes.
+
+h2.  Digest frequency
+
+The digest frequency determines when members who are subscribed in digest mode receive the digest. The digest contains all the list traffic (since the last digest) in one big email.
+
+Currently, the digests are only sent in MIME format: this means that each message is included as a MIME attachment. If you have a modern mail client, this is really nice. If you have an older mail client which requires you to manually open each attachment, then this can be a big pain. Unfortunately, the software we use doesn't support plain text digests.
+
+h2.  Reply address
+
+By default, when you reply to a list message, the reply gets sent to the individual who posted the message. You can change this option to allow the reply to go to the list instead.
+
+To change the <b>Reply address:</b>
+
+# go to *Edit List Config* > *Sending/Reception*
+# Change the value for <b>Reply address</b> field.
+# Click <b>Update.</b>
+
+h2.  Subject tagging
+
+It is often useful to have every email sent from a list include an identifiable subject line. This allows people to quickly scan their inbox, and determine which emails are from the list. By default, all lists have <b>Subject tagging</b> set to the name of the list. For example, if your list was named anarchism101@riseup.net, then the <b>Subject tagging</b> is set to 'anarchism101', and all mail will include: [anarchism101] in the subject line.
+
+To change the <b>Subject tagging:</b>
+
+# go to *Edit List Config* > *Sending/Reception*
+# Change the value for <b>Subject tagging</b> field.
+# Click <b>Update.</b>

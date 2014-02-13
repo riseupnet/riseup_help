@@ -27,7 +27,7 @@ Falls du eine Nachricht bekommst, dass eine Nachricht von dir einen Virus enthä
 
 Wie kamen die an deine Adresse? Durch Infizierung eines Computers, von dem an dich geschrieben wurde oder an den du geschrieben hattest, oder von einer Webseite.
 
-Öffne keine Anhänge von niemandem, auch nicht von Menschen, die du kennst, sofern du diese nicht explizit erwartet hattest. Wir von riseup.net werden dir NIEMALS eine Nachricht mit Anhang schicken. Mehr Infos zum Thema, z.B. zum Installieren eines Spam-Filters und anderen sinnvollen Tipps: <%= link 'viruses' %>
+Öffne keine Anhänge von niemandem, auch nicht von Menschen, die du kennst, sofern du diese nicht explizit erwartet hattest. Wir von riseup.net werden dir NIEMALS eine Nachricht mit Anhang schicken. Mehr Infos zum Thema, z.B. zum Installieren eines Spam-Filters und anderen sinnvollen Tipps: [[viruses]]
 
 h2. Der kleinste Vogel!
 
@@ -35,5 +35,5 @@ Der mächtige Sonnenvogel und sein lieblicher Partner haben ein neues Baby, das 
 
 h2. Danke
 
-Danke für alle kleinen und großen Spenden während unseres jährlichen Fundraisings. Ihr seid Sonne und Mond für uns. Und alle anderen, denen nach Spenden ist, bitte, bitte, tut es, damit wir noch mehr Leute noch besser unterstützen können. Danke. <%= link 'donate' %>
+Danke für alle kleinen und großen Spenden während unseres jährlichen Fundraisings. Ihr seid Sonne und Mond für uns. Und alle anderen, denen nach Spenden ist, bitte, bitte, tut es, damit wir noch mehr Leute noch besser unterstützen können. Danke. [[donate]]
 

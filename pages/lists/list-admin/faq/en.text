@@ -1,12 +1,191 @@
-This page has yet to be copied from old help.
+@title = 'List Admin FAQ'
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo tellus tortor, ut tempor augue ultricies in. Cras eu ullamcorper quam. In mattis nisi placerat, luctus purus a, varius quam. Vestibulum blandit accumsan tellus, a tristique ipsum elementum ut. Etiam eu vehicula risus. In imperdiet eu lacus sed pulvinar. Sed faucibus libero metus, fermentum iaculis est rutrum sit amet. In mollis, diam adipiscing euismod dictum, quam magna sollicitudin nisl, quis gravida nulla lorem ut lorem. Mauris vitae diam faucibus, dapibus purus ut, interdum lorem. Integer vulputate sem ligula. Phasellus gravida ultricies faucibus. Nam tempor eget odio dignissim laoreet. Proin tincidunt tellus at purus accumsan laoreet.
+h1. Login and List Creation
 
-Vivamus hendrerit dui sed lacus vehicula porta. Praesent ut placerat est. Fusce scelerisque ultricies turpis, quis dictum neque fringilla sit amet. Nunc consectetur urna nec eros ultricies, sed fermentum dui sagittis. Etiam risus erat, dictum id facilisis at, consequat sed arcu. Curabitur aliquet felis lectus. Nunc scelerisque mauris nec eros consequat dictum. Phasellus sem neque, tristique non libero sed, luctus pharetra nunc. Donec et scelerisque diam. Sed vel eleifend tortor, tempor convallis nulla. Ut dignissim risus risus, at fringilla nisl dapibus in.
+h2.  Why can't I login?
 
-Vestibulum non lacinia urna. Duis sem lorem, posuere eu iaculis pulvinar, ultrices id justo. Etiam dignissim ante sem, in interdum lectus tempus ac. Vestibulum eu tortor a elit mattis tristique at eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer iaculis at lacus et auctor. In hac habitasse platea dictumst. Duis pulvinar arcu tortor, non molestie ante dignissim vitae. Cras accumsan, velit id varius tempor, sem sapien lacinia nisi, sed facilisis elit justo vitae libero. Cras sit amet sem ac massa commodo fringilla.
+If you have filled out the password reminder form and you are still unable to login using the correct password and email address, the most likely culprit is your browser. Make sure that cookies are enabled for the domain lists.riseup.net. If unsure, try using a different browser or a different computer.
 
-Ut at consectetur lectus, id pellentesque dui. Suspendisse et dolor ullamcorper, vehicula purus eu, venenatis lectus. Proin eu tortor at tellus tempus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sit amet mollis massa, at luctus eros. Mauris a mauris sed dolor feugiat tristique vel et arcu. Mauris quis odio consectetur, aliquet justo non, porta turpis. Etiam cursus neque vitae feugiat tincidunt. Vivamus dictum consectetur massa. Sed accumsan lacus sit amet purus pellentesque ultrices.
+h2.  Why doesn't my list work?
 
-In rutrum metus nec ante consectetur, a suscipit augue fermentum. Phasellus consectetur justo sit amet mollis dapibus. Praesent elementum mattis semper. Sed ut felis nec diam mattis scelerisque in ut sapien. Ut in neque non diam luctus lobortis. Nulla sodales odio ligula, ac pretium felis eleifend ut. Mauris cursus gravida augue, non fermentum est faucibus in.
+Here are the most likely reasons:
 
+# Your list might not have been approved yet. You will get an email notice when your list has been approved and is ready for use.
+# Lists which end in -admin or -admins will not work, but the software lets you create them anyway. You can rename your list if this is the problem.
+# Wait a half an hour. Sometimes the server will be in the middle of distributing messages to a very large list. While this is going on, it is hard for other messages to get distributed.
+# The software which sends out mail might be down. This happens more than we would like. You can test to see if the software is running by sending yourself a password reminder. If you don't receive it, then probably all mail delivery is delayed.
+
+h1. Basic
+
+h2.  How do I change the list name?
+
+# Login.
+# Your lists should listed on the left .
+# Click on admin button next to the list in question.
+# Under Admin, there is an option "Rename List", which will let you rename the list
+
+h2.  Can I change the default subject line?
+
+Q: <i>By default, every message sent to my list gets the name of the list added to the subject line (enclosed in square brackets). How do I change this?</i>
+
+A: Edit the list config and under <b>"Sending/receiving"</b> you can change the <b>"Subject tagging"</b> setting. If you leave the value blank, there will be no custom text in the subject line of messages. Note that this setting is very different from subject, which is the short summary of what the list is for which is printed in the list directory and on the list information page.
+
+h2.  Why doesn't my footer work?
+
+Q: <i>I have edited the message.footer file. Why don't see the footer in the list messages?</i>
+
+A: By default, the footer is sent out as an attachment. The advantage of this is that it is not included in replies. Unfortunately, this means that some people don’t see it. To change the type, go to the list's admin page and there under "Edit List Config" -> "Sending/reception" you can change the <b>"Attachment type"</b> option from <b>"mime"</b> to <b>"append"</b>.
+
+h2.  How do I close my list?
+
+Very easily:
+
+# Login using the email address which is an owner for the list in question.
+# Click on the "admin" link for the list that you want to delete on the left side of the screen
+# click on "remove list."
+
+The list won't actually be deleted immediately, but it will no longer be viewable and the whole list will be deleted after some time.
+
+h1. Subscribers
+
+h2.  How to do I get a list of subscribers?
+
+You can download a list of all the emails subscribed to your list. To do this:
+
+* Login using the email address which is an owner for the list in question.
+* Go to the list information page.
+* Click on the 'Review Members' link on the left hand side.
+* Click 'Dump'
+* Choose 'File -> Save Page As...' in your web browser.
+
+h2.  Can I block annoying people?
+
+Unfortunately, there is no way to block certain email addresses. If you are running an open discussion, you can unsubscribe the person and ask them to not re-subscribe. If that fails, you can always set the "subscribe" variable to "anyone, authorization is asked to owners (owner)". This way, every time someone tries to subscribe, you (the owner) must approve it. This will only work if the send option is set to <b>private</b>.
+
+h1. Mail
+
+h2.  What is the maximum size for list email?
+
+The maximum email size is restricted to 500k. If you need, we might be able to raise the limit, although probably not. There are many reasons to limit the size of list email:
+
+* First and foremost, large attachments are not needed because you can create a "shared web space." Shared web spaces allow a list subscriber to upload a file using their web browser. When you send out an email, include the URL of the file in the shared web space (an example URL might be http://lists.riseup.net/www/d_read/newsletter/readme.txt). Other subscribers can then download the file using their web browser (some lists restrict uploading to editors, depending on how permissions are set up).
+
+* Typically, a large attachment will not be relevant for every member of the list. Only those people who are interested in the attachment should have to spend the time to download it.
+
+* Your message will be more effective if it is brief. No one wants a book in their inbox.  If you have a lot which needs to be said, say it quickly and provide a way for people to get more information on the topic if they are interested.
+
+* Large attachments can be very costly for us. We have a lot of bandwidth, but we pay for what we use. For example, suppose you sent a 1 meg PDF flyer as an attachment to a list with 100 subscribers. All you have to upload is the 1 meg file, but our humble little server then must send out 100 megs. Also, we have to archive the attachment and keep backups of it forever. As long as message size is small, this is manageable.
+
+* The infrastructure for internet email is not geared to handle large attachments. Basically, big files mess everything up. For this reason, most mail servers restrict the size of email.
+
+* If you attach large files to your email, you can easily push people over their storage quota.
+
+h2.  Why is my email sent to the moderator for approval and/or rejected?
+
+There are several possible reasons for this.
+
+* I am not subscribed to the list.
+** Most lists only allow members to post. Thus, even if you are an editor or owner of the list, you will not be able to post if you are not a member if the list does not allow it. You should subscribe by <a href="https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe">following these steps</a>.
+
+* I am an owner/editor of the list, but my posts are referred to the editor or rejected.
+** You may be sending your emails from a different email address. For example, lets say you have *email1@riseup.net*, but you also have *email2@gmail.com*. Email1 is the owner/editor of the list, but email2 is not. If you send an email FROM email2 to the list, it will be held for moderator approval. <b>To fix this:</b> Add your second email address as an owner/editor.
+
+h2.  Why isn't my reply sent to the list?
+
+The default "reply to" header on all lists is set to the sender, and not the list.
+This is for many reasons:
+
+* Years and years of netiquette have shown that it is very bad policy to ever set "reply to" to be the list.
+* Almost all email clients include the option of 'Reply to All'. If you hit reply to all, the list address is included in the recipient list of your message. This way, you have an easy way to choose whether to reply to the list or just the sender. If the list is set to automatically reply to the list, then their is no convenient way to reply to the sender.
+* If a person doesn't know what they are doing, it is much better that they reply to the sender. This helps prevent accidental personal email from clogging up the list. Many lists play out this sorry scenario: someone inadvertently replies to the entire list and sends out a personal message, then someone else sends out mail explaining how to reply just to the person, then someone else complains that the second person should not have instructed the whole list on this, then a fourth person tells everyone to shut up, and the whole thing snowballs out of control. We have seen lists with over 10 emails a day that is nothing but this kind of
+junk traffic.
+* If the person knows what they are doing, it is very easy for them to reply to the correct list address.
+* If someone leaves a vacation program running (where any mail gets an automated response that the person is on vacation) and the "reply to" is set to be the list, this can create an endless mail loop that can actually crash the machine that hosts the list. It has happened to riseup.net before and caused great pain for us and for all the list subscribers who opened their mailbox to find five thousand messages. Mailman, the most popular open source mailing list manager, is particularly susceptible to this. We have switched to a mailing list manager which is much better about detecting infinite mail loops (sympa). However, the new system is unlikely to be perfect, and we would rather not tempt fate.
+
+Given all that, if you are still convinced you need it changed, do this:
+* login
+* click *your subscriptions*
+* click on the admin link for the list in question
+* click on *Edit List Config*
+* click on *Sending/Reception*
+* change the option for *Reply Address*
+* under that, set the *respect of existing header field* to *forced*
+* click *Update*.
+
+h1. Subscribing and invitation
+
+h2.  How do I invite someone to my list?
+
+There is currently no web interface to inviting people to your list. However, you can do it over email.
+
+Invitation is disabled by default because it opens a major security hole for private lists. <b>If you have a private list do not enable invitation</b>.
+
+To enable the invite command:
+
+* Login
+* Go to your list's information page
+* Follow the links 'List Admin' and then 'Privileges'.
+* Choose an option other than impossible for 'invite'
+* Click update.
+
+To then actually invite people to your list, send email to sympa@lists.riseup.net with the following body:
+
+<pre>
+INVITE list-name email-to-invite
+QUIT
+</pre>
+
+For example, to invite the prez to the list anarchism101@lists.riseup.net:
+
+<pre>
+INVITE anarchism101 president@whitehouse.gov
+QUIT
+</pre>
+
+The person invited will get an email notification of the invite. If they reply to the email, they will get subscribed.
+
+You can include multiple INVITE commands. At the end of the email, put the QUIT command, so that any signature is not interpreted as a command. Do not use the full address of your list in the invite command: this will cause it to fail.
+
+Note: you also probably want to set the list's subscribe option to <b>approved</b> (this is found under "Privileges"). Otherwise, the person you invite will have to reply twice to the invite (once for the invite and another time for the subscription confirmation).
+
+h2.  Can I subscribe many people at once?
+
+Q: </i>I am converting a list from another list provider. Is it possible to simply add all the subscribers at once, or does each person need to subscribe individually?</i>
+
+A: Yes, you can mass subscribe people to your list.
+
+# Go to the info page for your list. If your list was call <i>mylist</i>, your list info page is http://lists.riseup.net/www/info/mylist
+# Click on 'Members'
+# Click on 'Multiple add'
+# Paste in a list of the addresses you want subscribed, one per line.
+# Click 'Add subscribers'
+
+We have disabled the *quiet* button. This button allowed you to mass subscribe people without sending them a notice. To prevent abuse, we have temporarily disabled this until we can come up with a permanent solution.
+
+**Note: please be very careful and respectful when subscribing other people. It is against riseup.net policy to allow a list admin to subscribe people without their consent. This practice will lead to the deletion of your list.**
+
+h2.  What does "FYI: automatic_del" mean?
+
+List owners often receive this cryptic message:
+
+<pre>
+FYI command automatic_del list <listname> from <subscriber address> validated by listmaster (no action needed)
+</pre>
+
+You will receive this notice when attempting to subscribe an address which is not receiving email. When you add a new subscriber, they are sent a 'welcome to the list' message. If this welcome message bounces back as undeliverable, then that address is automatically deleted from the subscription list.
+
+h1. Message archive
+
+h2.  How do I delete a message from the archive?
+
+# Logon as a list moderator or 'owner'.
+# Click *Archives*.
+# Navigate to the message that you want to delete.
+# Click on it to display it.
+# Click the *tag this mail for deletion* button.
+
+that's it! soon, the email will not longer appear in the archives.
+
+h2.  How do I disable archiving completely?
+
+If you want to completely disable web archives, [[contact us directly->https://user.riseup.net/forms]]

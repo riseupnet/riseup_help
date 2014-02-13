@@ -2,7 +2,7 @@
 
 h2.  What is a mail client?
 
-These days, most people are more familiar with <%= link 'web-based mail' => 'webmail' %>, where you check your mail using a web browser such as Firefox or Chrome.
+These days, most people are more familiar with [[web-based mail => webmail]], where you check your mail using a web browser such as Firefox or Chrome.
 
 A <b>mail client</b>, on the other hand, is a specialized application designed specifically for checking and composing email. There are several free and/or Free Software mail clients available for most platforms.
 
@@ -10,11 +10,11 @@ For help configuring a particular client, click on one of the following links:
 
 table(table table-striped).
 |_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Other Commercial Clients*|
-|Linux   | <%=link 'thunderbird'%>, <%=link 'evolution'%>, Kmail, Balsa, mutt, alpine, etc| |
-|Mac     | <%=link 'thunderbird'%> | <%=link 'apple-mail'%>, <%=link 'postbox'%> |
-|Windows | <%=link 'thunderbird'%>, <%=link 'evolution'%>  | <%=link 'microsoft-outlook'%>, <%=link 'postbox'%> |
-|Android | <%=link 'k9'%> |  |
-|iOS     |  |  <%=link 'ios-mail'%> |
+|Linux   | [[thunderbird]], [[evolution]], Kmail, Balsa, mutt, alpine, etc| |
+|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Android | [[k9]] |  |
+|iOS     |  |  [[ios-mail]] |
 
 h2. Choose IMAP or POP
 
@@ -38,7 +38,7 @@ Suppose your email address was [@collective@riseup.net@]:
 * Outgoing mail server: @mail.riseup.net@
 * Login or user name: @collective@
 * Use secure connection: @yes@ (TLS)
-(This is required. The <%= link 'secure-connection' %> may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
+(This is required. The [[secure-connection->/security/network-security/secure-connections]] may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
 
 *Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords". Because the connection to riseup.net is encrypted anyway, these are not needed.
 
@@ -48,14 +48,14 @@ h2.  Use Thunderbird
 
 Thunderbird is the mail client recommend for use with riseup.net. Sadly, The "Mozilla Foundation":https://mozilla.org has essentially abandoned Thunderbird, but it is still the best option for a free software cross-platform mail client.
 
-Thunderbird will automatically configure itself to use your riseup.net email account. See our <%= link 'Thunderbird tutorials' => 'thunderbird' %> for more details.
+Thunderbird will automatically configure itself to use your riseup.net email account. See our [[Thunderbird tutorials => thunderbird]] for more details.
 
 h2.  Why would I use a mail client?
 
 There are many advantages to using a mail client rather than using web mail:
 
 * When using a mail client, you do not have to always be connected to the internet. Instead you can connect, download all your email, disconnect, and read the emails when you want. This is very convenient if your connectivity is not reliable, is slow or maybe you have limited access. Also, you can compose email anytime, save it, and send it later when you are connected to the internet.
-* The Riseup <%= link 'webmail' %> is very limited. Mail clients have many more features.
+* The Riseup [[webmail]] is very limited. Mail clients have many more features.
 * Mail clients are generally much faster than web mail.
 * Most mail clients allow you to manage multiple accounts all from one place. This can be very useful if you are different email accounts for different parts of your life.
 
