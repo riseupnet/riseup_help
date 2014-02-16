@@ -4,26 +4,50 @@ Riseup Help Pages
 This is the repository for the riseup help pages at http://help.riseup.net.
 
 It is entirely static, but relies on a bunch of apache tricks for things like
-language negotiation.
+language negotiation. Riseup help uses a static website generator called `amber`
+to render the source files into html files.
 
-To submit changes, please fork this repo and issue pull requests on github.
+To submit changes, please fork this repo and issue pull requests on github. If
+you don't know how to use git, you can submit changes via the github website
+(see "Editing on github" below for instructions).
 
-Directories
-----------------------------------
+Simple method - editing on github
+--------------------------------------------
 
-    riseup_help/
-      amber/     -- amber configuration, stylesheets, layouts, etc.
-      disabled/  -- draft pages or pages that are disabled.
-      notes/     -- notes and todos.
-      pages/     -- the source text for the website pages.
-      public/    -- the rendered output (not committed to git).
+Learning to use git can be very difficult. As an alternative, it is possible
+to contribute to riseup_help by directly editing pages through the github
+website. This method does not let you preview how the page will render, but it
+does allow you to contribute edits without needing to install any software.
 
-The static content files in `riseup_help/public` are rendered from the content in
-`riseup_help/pages`. You edit pages in the `pages` directory, but never edit
-anything in the `public` directory.
+First, create your own fork:
 
-Installation
-----------------------------------
+1. Go to https://github.com and register for an account
+2. Visit https://github.com/riseupnet/riseup_help
+3. Click "Fork" in the top right hand corner
+
+Next, edit files:
+
+* **Existing Files:** You can edit an existing file by clicking on the file
+  name and then clicking the "Edit" button in the file's toolbar. To save,
+  type a commit message and hit the "Commit" button.
+* **New Files:** You can add a new page by clicking the "+" button at the
+  end of the path breadcrumbs (e.g. "riseup_help / pages / chat / [+]"
+  near the top of the page).
+
+Once you are done with edits:
+
+1. Visit the web page for your fork (e.g. https://github.com/yourname/riseup_help)
+2. Click the "Pull Request" link above the file listing (not the "Pull Requests" link on the side)
+3. Review changes, then click "Create Pull Request"
+4. Add some description, the click "Send pull request"
+
+Boom, you are done. one of the riseup birds will review the pull request
+and either merge it right away or add comments.
+
+Advanced method - using git and amber
+--------------------------------------------
+
+Installing amber
 
 In order to preview your edits to the content in `pages` you will need a
 program called `amber`.
@@ -37,7 +61,6 @@ To install on Mac, see below. Check https://github.com/elijh/amber for more
 information.
 
 Previewing pages
-----------------------------------
 
 After you have made changes, run this command in the riseup_help directory to
 completely re-render the entire site (takes a long time):
@@ -64,8 +87,22 @@ Putting it all together:
 6. When satisfied, `git commit`, `git push`
 7. Go to https://github.com/your-id/riseup_help and issue a pull request
 
+Directories
+--------------------------------------------
+
+    riseup_help/
+      amber/     -- amber configuration, stylesheets, layouts, etc.
+      disabled/  -- draft pages or pages that are disabled.
+      notes/     -- notes and todos.
+      pages/     -- the source text for the website pages.
+      public/    -- the rendered output (not committed to git).
+
+The static content files in `riseup_help/public` are rendered from the content in
+`riseup_help/pages`. You edit pages in the `pages` directory, but never edit
+anything in the `public` directory.
+
 Amber file structure
-------------------------------
+--------------------------------------------
 
 There are two ways to create pages:
 
@@ -86,7 +123,7 @@ to have sub-pages
 In general, it is preferred to use the folder method.
 
 Notes on markup
-------------------------------
+--------------------------------------------
 
 You can create pages in three different markup languages:
 
@@ -131,7 +168,7 @@ You should use the standard textile link markup for external links or links to
 files.
 
 Setting page properties
----------------------------------
+--------------------------------------------
 
 Every file can have a "properties header". It looks like this:
 
@@ -169,7 +206,7 @@ shows the changes made to the source English pages since the translation for
 each page was made.
 
 Installing on Mac
-------------------------------
+--------------------------------------------
 
 (I haven't tried this myself)
 
