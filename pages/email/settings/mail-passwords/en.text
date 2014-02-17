@@ -1,18 +1,18 @@
 @title = 'Mail Passwords'
 
-h2. How do I pick a secure password?
-
-<%= render 'common/good-passwords' %>
-
 h2. How do I change my password?
 
 Here's how to change your password:
 
-# Login to https://user.riseup.net
+# Login to https://user.riseup.net  (Rather than trust this link, you can instead go to the main riseup website, and look for the “Email” section where you can find a link to “Change my settings”)
 # Click *My Settings*
 # Enter a new password and click *Save*
 
 You should change your password regularly. Pick a password that contains letters, numbers and symbols. A password should consist of more than just words from the dictionary. And do not use a password you use for anything else!
+
+h2. How do I pick a secure password?
+
+<%= render 'common/good-passwords' %>
 
 h2. I forgot my password, what do I do?
 
