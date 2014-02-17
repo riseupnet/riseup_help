@@ -1,0 +1,40 @@
+@title= 'Emailverschlüsselung mit Enigmail und Thunderbird'
+
+﻿Willst Du Deine E-Mail-Sicherheit erhöhen, indem Du lernst, wie Du OpenPGP MIT thunderbird verwendest? Mit dieser kurzen Einführung kannst Du im Nu damit loslegen, E-Mails zu ver- und entschlüsseln sowie zu verifizieren, daß Mails, die Du erhältst, auch wirklich von der Person stammen, die im Absender steht.
+
+Weitergehende Informationen zum spannenden Thema [E-Mail-Verschlüsselung->verschluesselte-email] gibt es auch [hier->howto-gpg-keys-de].
+
+h2. Installation von Enigmail und Ausführen des OpenPGP Installation-Assistenten
+
+# Falls Du noch kein GPG-Schlüsselpaar erzeugt hast, [tue dies->howto-gpg-keys-de] oder warte, bis Dich der OpenPGP-Assistent dazu auffordert (siehe unten).
+# Lade das [Enigmail Addon für Thunderbird-> https://enigmail.mozdev.org/download/index.php] herunter. *Linux-NutzerInnen:* Es empfiehlt sich, das Addon hier herunter zu laden, statt die Version Eures Paket-Managers zu benutzen, die wahrscheinlich nicht aktuell ist. Thunderbird wird zukünftige Aktualisierungen von Enigmail selbsttätig durchführen.
+# Navigiere zu *Extras* -> *Add-ons*
+# Wähle aus dem Dropdown-Menü neben der Suchmaske *Add-on aus Datei installieren...*
+# Navigiere zur Enigmail .xpi-Datei und klicke *Öffnen*. Enigmail wird nun installiert.
+# Falls nötig, starte Thunderbird neu.
+# Navigiere über den neuen Menüleisten-Eintrag *OpenPGP* zum *OpenPGP-Assistent*
+# Wähle *Ja,...* und klicke *Weiter*
+# Entscheide, ob Du OpenPGP standardmäßig für alle Deine E-Mail-Konten oder nur für ausgewählte benutzen möchtest. Falls Du mehrere Konten angibst, wird der Assistent für alle *den gleichen Schlüssel* benutzen.
+# Entscheide, ob Du standardmäßig alle zu sendenden E-Mails signieren möchtest. *Ja...* fügt  Deine digitale Signatur in *alle* ausgehenden E-Mails ein. Dies ist nicht zu empfehlen, da es alles, was Du sendest, unmittelbar mit Dir in Verbindung bringt - unverschlüsselte Nachrichten eingeschlossen. Es ist vorzuziehen, OpenPGP nur für EmpfängerInnen einzusetzen, die ebenfalls Verschlüsselung unterstützen.
+# Entscheide, ob Du standardmäßig alle zu sendenden E-Mails verschlüsseln möchtest. *Dies ist nicht empfehlenswert*, da es sehr lästig ist, wenn der/die EmpfängerIn Verschlüsselung nicht unterstützt. Du kannst dafür zu einem späteren Zeitpunkt Verschlüsselungsregeln definieren, die Dir ermöglichen unter von Dir definierten Bedingungen automatisch zu verschlüsseln.
+# In der nächsten Ansicht zum Anpassen der Einstellungen wähle *Ja*, um einige auf OpenPGP zugeschnittene Änderungen vorzunehmen. Dies sind alles technische Details, die die Einbindung von OpenPGP optimieren und Probleme verhindern. Alle diese Änderungen sind unproblematisch, obwohl sie in einigen Fällen das Verhalten von Thunderbird beeinflussen - unter anderem wird das Verfassen von HTML-(formatierten) Nachrichten unterbunden.
+# Wähle nun den zu benutzenden Schlüssel oder generiere einen, falls Du noch keinen hast. Falls Du mehrere E-Mail-Konten benutzt, musst Du unter Umständen später einige manuelle Änderungen vornehmen, um das richtige Konto mit dem richtigen Schlüssel zu assoziieren.
+# Überprüfe die vorgeschlagenen Änderungen und klicke *Weiter*.
+# Falls keine Fehlermeldung erscheint, ist OpenPGP nun fertig eingerichtet und bereit zu Nutzung. Klicke *Fertigstellen*.
+
+h2. Einrichten der OpenPGP-Regeln
+
+Das Enigmail-Addon für Thunderbird ermöglicht es Dir, Regeln zu definieren, die Thunderbird nutzt, um automatisiert zu entscheiden, an wen Mails verschlüsselt werden und an wen nicht.
+
+Dieses System ist ziemlich mächtig und kann ein weites Feld möglicher Optionen definieren. Mit Hilfe dieser Anleitung soll eine Regel erstellt werden, die unter der Voraussetzung, daß deine Mails standardmäßig unverschlüsselt gesendet werden, die Verschlüsselung für eine (oder mehrere) E-Mail-Adresse(n) aktiviert wird. Das System ist jedoch so flexibel, daß Du genauso OpenPGP standardmäßig aktivieren und anschließend über Regeln festlegen könntest, daß Mails an EmpfängerInnen, die Verschlüsselung nicht unterstützen, unverschlüsselt raus gehen.
+
+# Navigiere über *OpenPGP* zu *Einstellungen...* und aktiviere *Experten-Optionen anzeigen*
+# Wähle im Tab *Schlüsselauswahl* die Option *Empfängerregeln bearbeiten...*
+# Klicke oben links *Hinzufügen*
+# Gib nun oben die entsprechende(n) E-Mail-Adresse(n), getrennt durch Leerzeichen, ein und wähle ob sie exakt angegeben sind oder nach einer passenden Filterregel gefunden werden sollen. Die möglichen Filterregeln sind: *ist exakt*, *enthält*, *beginnt mit* oder *endet mit*.
+# Wähle die bei zutreffender Regel auszuführende Aktion. In diesem Falle wähle *Verwende folgende OpenPGP-Schlüssel:*, klicke *Auswählen...* und wähle den EmpfängerInnen-Schlüssel. Falls Du ihn noch nicht besitzt, kannst Du über *Fehlende Schlüssel herunterladen* Schlüsselserver nach zur Filterregel passenden Schlüsseln durchsuchen lassen.
+# Nun stelle in den *Standardeinstellungen* *Verschlüsseln* auf *immer* und belasse *Unterschreiben* auf *Ja, wenn beim Verfassen ausgewählt*.
+# Wenn Du die Definition der Regel abgeschlossen hast, klicke *OK*. !/assets/87803/regeln-bearbeiten.png!
+
+Du bist nun bereit, mit Thunderbird OpenPGP(GPG)-verschlüsselte E-Mails an beliebige EmpfängerInnen zu versenden, mit automatisch aktivierter Verschlüsselung für die in der eben erstellten Regel definierten EmpfängerInnen.
+
