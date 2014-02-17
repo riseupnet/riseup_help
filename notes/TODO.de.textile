@@ -13,63 +13,48 @@ Das wars und nun viel Spaß beim Übersetzen und Schreiben neuer Texte!
 h2. Newsletter übetragen
 
 * "Übersicht":https://we.riseup.net/riseup+translation/newsletter-index
-https://we.riseup.net/groups/archive/riseuphelp+de/created/date/2013-12
+* "zuletzt hinzugefügt":https://we.riseup.net/groups/archive/riseuphelp+de/created/date/2013-12
 
 h2. Korrektur lesen
 
-https://we.riseup.net/riseuphelp+de/verschluesselte-email
-https://we.riseup.net/riseuphelp+de/email-verschluesselung-mit-thunderbird
-https://we.riseup.net/riseuphelp+de/thunderbird-de
-https://we.riseup.net/riseuphelp+de/sichere_verbindungen
-https://we.riseup.net/riseuphelp+de/listenadmin-faq
-https://we.riseup.net/riseuphelp+de/zertifikate
-https://we.riseup.net/riseuphelp+de/start [home]
-https://we.riseup.net/riseuphelp+de/viren [viruses]
-https://we.riseup.net/riseuphelp+de/email-betrug [email/scams]
-https://we.riseup.net/riseuphelp+de/phishing [email/phishing]
-https://we.riseup.net/riseuphelp+de/mail-passwoerter [mail-passwords]
-https://we.riseup.net/riseuphelp+de/gute-passwoerter [good-passwords]
-https://we.riseup.net/riseuphelp+de/phishing-example-2 [email/phishing]
-https://we.riseup.net/riseuphelp+de/spenden
-https://we.riseup.net/riseuphelp+de/welcome-email
-https://we.riseup.net/riseuphelp+de/thunderbird-de
-https://we.riseup.net/riseuphelp+de/email-verschluesselung-mit-thunderbird
-https://we.riseup.net/riseuphelp+de/email-betrug
-https://we.riseup.net/riseuphelp+de/phishing
-https://we.riseup.net/riseuphelp+de/viren
-https://we.riseup.net/riseuphelp+de/tor
-
+* [[Start -> home]]
+* verschluesselte-email
+* email-verschluesselung-mit-thunderbird
+* thunderbird
+* sichere_verbindungen
+* listenadmin-faq
+* [[zertifikate -> certificates]]
+* [[Viren -> viruses]]
+* [[Emailbetrug -> email/scams]]
+* [[Phishing -> email/phishing]]
+* [[Email-Passworter -> mail-passwords]]
+* [[gute-passwoerter -> good-passwords]]
+* [[spenden -> donate]]
+* welcome-email
+* spam
 
 h2. übersetzen
 
-https://help.riseup.net/en/howto-gpg-keys
-https://we.riseup.net/riseuphelp+de/pidgin-de
-https://we.riseup.net/riseuphelp+de/email-programme
-https://we.riseup.net/riseuphelp+de/email-einstellungen
-https://we.riseup.net/riseuphelp+de/tor-de
-https://we.riseup.net/riseuphelp+de/werbung [spam]
-https://we.riseup.net/riseuphelp+de/secure-connections-email
-https://we.riseup.net/riseuphelp+de/zuf%C3%A4llige-mac-adresse
-https://we.riseup.net/riseuphelp+de/e-mail-verschl%C3%BCsselung
-https://we.riseup.net/riseuphelp+de/email-einstellungen
-https://we.riseup.net/riseuphelp+de/email-programme
-https://we.riseup.net/riseuphelp+de/encrypted-email
-https://we.riseup.net/riseuphelp+de/evolution
-https://we.riseup.net/riseuphelp+de/iphone-mail
-https://we.riseup.net/riseuphelp+de/apple-mail-imap
-https://we.riseup.net/riseuphelp+de/werbung
-https://we.riseup.net/riseuphelp+de/starttls
-https://we.riseup.net/riseuphelp+de/zertifikate
-https://we.riseup.net/riseuphelp+de/sichere_verbindungen
-email
-security
+_all in https://help.riseup.net/en_
 
+* howto-gpg-keys
+* email-programme
+* pidgin
+* email/clients
+* tor
+* secure-connections-email
+* random-mac-adresse
+* email/settings
+* evolution
+* iphone-mail
+* apple-mail-imap
+* starttls
+* security
 
 h2. Anleitung schreiben
 
-https://we.riseup.net/riseuphelp+de/apple-mail-pop
-https://we.riseup.net/riseuphelp+de/starttls
-
+* apple-mail-pop
+* starttls
 
 h2. mehr
 
