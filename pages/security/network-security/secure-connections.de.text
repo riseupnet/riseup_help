@@ -1,0 +1,113 @@
+@title = 'Sichere Verbindungen'
+
+h2. Was sind sichere Verbindungen?
+
+Zur Nutzung von Riseups Diensten solltest Du Verschlüsselung verwenden. Ohne sichere Verbindung sind die Daten, die Du über das Internet sendest und empfängst, unverschlüsselt. Das bedeutet, dass sie von allen, die Deine E-Mails abhören wollen, mitgelesen werden können, und schlimmer noch: Jede_r kann ganz einfach an Deinen Anmeldenamen und das Passwort gelangen, oder unsere Server imitieren. Das Einrichten einer sicheren Verbindung zu Riseup sorgt für einen vernünftigen Schutz vor Lauschern und Fälscherinnen.
+
+
+h2. Wie nutze ich sichere Verbindungen?
+
+Um Dein Mail-Programm dazu zu bringen, sichere Verbindungen herzustellen, musst Du ein paar Änderungen an der Konfiguration vornehmen. Aber keine Sorge! Wir gehen das gemeinsam durch, lies einfach weiter:
+
+Zuallererst: Was ist ein Mail-Programm (Client)? Ein Mail-Programm ist ein spezielles Programm, das dazu entworfen ist, E-Mails zu empfangen und zu verfassen. Das kann Thunderbird, Apple Mail, Outlook, Eudora usw. sein. Welches auch immer Du nutzt, es ist Dein Mail-Programm.
+
+Allgemein gesprochen musst Du Dich durch die Konfiguration Deines Mail-Programms klicken und sicherstellen, daß für alle Verbindungen (d.h. für POP oder IMAP, sowie für SMTP) die Benutzung von SSL oder TLS aktiviert ist, und daß Du den korrekten Port benutzt. Falls Du keine Ahnung hast, um was es geht: Macht nichts, wir gehen es hier im Einzelnen durch.
+
+Das konkrete Vorgehen unterscheidet sich zwischen den Mail-Programmen stark, manchmal gibt es sogar größere Unterschiede zwischen einzelnen Versionen der gleichen Software.
+
+Grundsätzlich bieten wir keine Unterstützung für Mail-Programme an. Jedoch haben wir [[einige allgemeinen Informationen zum Einrichten von Mail-Programmen -> email/clients]]. Falls Dein Programm dabei ist, werden Dir diese Infos mit Sicherheit helfen, die nötigen Änderungen vorzunehmen.
+
+Falls Du nicht Mozilla Thunderbird nutzt, möchten wir Dir einen Wechsel nahe legen. Thunderbird ist ein relativ sicheres, leicht benutzbares und freies Software-Projekt. Es tut bestimmt nicht weh, es einfach mal auszuprobieren! Unsere [[Anleitung zum Einrichten von Thunderbird -> thunderbird]] ist auch wirklich gut.
+
+Falls Du weder zu Thunderbird wechseln möchtest, Du nicht weißt, wie Du diese Änderungen selber vornimmst, und auch unsere Hilfeseiten nicht hilfreich waren, müsstest Du Dich an Deinen Software-Händler oder die Gemeinschaft wenden, um die notwendigen Änderungen durchzuführen.
+
+
+h3. Thunderbird
+
+Um die notwendigen Änderungen in Thunderbird vorzunehmen, folge diesen Schritten:
+
+  Zuerst finde heraus, welche Version von Thunderbird Du nutzt:
+      Klicke in der Menüleiste auf "Hilfe" --> "Über Thunderbird"
+
+Sobald Du die Versionsnummer herausgefunden hast, folge jener unten stehenden Anleitung, die sich auf Deine Version bezieht:
+
+h4. Thunderbird 3.x Serie
+
+Um die notwendigen Änderungen zum aktivieren sicherer Verbindungen in Thunderbird Version 3.x durchzuführen, folge diesen Schritten:
+
+* Im "Bearbeiten"-Menü wähle "Konten-Einstellungen",
+* Nachdem sich das Konteneinstellungs-Fenster geöffnet hat, gehe unter Deinem Riseup-Konto auf "Server-Einstellungen" 
+* In der Mitte des Fensters siehst Du nun die Überschrift "Sicherheit und Authentifizierung"
+* Unter dieser Überschrift findest Du das Feld "Verbindungssicherheit", das auf SSL/TLS eingestellt sein muss
+* In der oberen linken Ecke des Fensters ist ein Feld namens "Port", dieses sollte automatisch eingestellt werden, aber um sicherzugehen:
+** Die "Servertyp"-Zeile oben im Fenster sagt Dir, ob Du POP oder IMAP benutzt.
+** Die Portnummer sollte 993 sein, falls Du IMAP nutzt
+** Die Portnummer sollte 995 sein, falls Du POP nutzt
+* Als nächstes klicke in der linken Spalte auf "Postausgangs-Server (SMTP)"
+* Klicke in der Spalte rechts einmal auf Riseups SMTP-Server
+* Klicke ganz rechts im Fenster auf "Bearbeiten"
+* Stelle "Verbindungssicherheit" auf SSL/TLS
+* Überprüfe, ob der "Port" auf 465 eingestellt ist
+* Schließe das Fenster mit "OK"
+      * Klicke im Fenster darunter nochmals "OK"
+      * Auf keinen Fall solltest Du die "Authentifizierungsmethode" auf etwas anderes als "Passwort, normal" ändern.
+      * Das war´s schon, Yeah!
+
+h4. Thunderbird 2.x Serie (überlege Dir, auf 3.x umzusteigen!)
+
+_*Anmerkung des Übersetzers:* da ich keine deutsche Version von Thunderbird_2 auftreiben konnte, weicht die Übersetzung der Schaltflächen-Beschriftungen möglicherweise etwas von der Realität ab. Seid also kreativ - oder wechselt zu einer aktuellen Version._
+
+* Im "Werkzeuge"-Menü wähle "Konten-Einstellungen",
+* Nachdem sich das Konteneinstellungs-Fenster geöffnet hat, gehe unter Deinem Riseup-Konto auf "Server-Einstellungen" 
+* In der Mitte des Fensters siehst Du nun die Überschrift "Sicherheit und Authentifizierung"
+* Wähle "SSL" 
+* NEIN: Markiere NICHT die Box "Benutze sichere Authentifizierung" 
+** In der oberen linken Ecke des Fensters ist eine Einstellung namens "Port", diese sollte automatisch eingestellt werden, aber um sicherzugehen:
+** Die "Servertyp"-Zeile oben im Fenster sagt Dir, ob Du POP oder IMAP benutzt.
+** Die Portnummer sollte 993 sein, falls Du IMAP nutzt
+** Die Portnummer sollte 995 sein, falls Du POP nutzt
+* Als nächstes klicke auf "Postausgangs-Server (SMTP)" in der linken Spalte
+* Klicke in der Spalte rechts einmal auf Riseups SMTP-Server
+* Klicke ganz rechts im Fenster auf "Bearbeiten"
+* Stelle das Feld "Benutze sichere Verbindungen" auf "SSL"
+* Überprüfe, ob der "Port" auf 465 eingestellt ist
+* Schließe das Fenster mit "OK"
+* Klicke im Fenster darunter nochmals "OK"
+      * Das war´s schon, Yeah!
+
+h2. FAQ
+
+Q: Wenn ich kein Mail-Programm, sondern Webmail nutze, ist das sicher?
+
+A: Wenn Du das Internet nutzt, stellst Dein Computer Verbindungen zu dem Webserver, den Du nutzen willst, her. Diese führen über verschiedene andere Server im Internet. Für diese Verbindung nutzt Du ein Protokoll namens "HTTP". Diese Verbindungen werden in Klartext hergestellt und sind somit nicht sicher. Angreifer können so Zugriff erlangen auf Deine Web-Konten und alle Daten, die Du dabei sendest und empfängst. Aber es gibt Hoffnung! Es gibt nämlich eine sichere Version von "HTTP", die sich "HTTPS" nennt (beachte das 's' für sicher/secure). "HTTPS" wurde entwickelt, um sichere Verbindungen zu gewährleisten, die Angriffen standhalten können.
+
+Für weitergehende Sicherheit kannst Du überprüfen, ob Du wirklich auf der Webseite gelandet bist, die Du besuchen willst. Bei der Benutzung von HTTPS erhältst Du vom Server ein Zertifikat, das bestätigen soll, daß es auch der richtige Server ist, mit dem Du verbunden bist. Um sicherzustellen, daß die Seite auch wirklich die ist, die Du besuchen willst, solltest Du [[überprüfen, daß es sich beim übermittelten Zertifikat um das richtige handelt -> certificates]].
+
+Im Zusammenhang mit Zertifikaten gibt es einige Punkte, deren Du Dir bewusst sein solltest (siehe "Grenzen sicherer Verbindungen" weiter unten).
+
+Schaue oben in der URL-Leiste nach der Internetadresse. Falls sie mit "https://" (beachte das 's') beginnt, hast Du eine sichere Verbindung, falls es nur "http://" (ohne 's') ist, hast Du keine sichere Verbindung. Du kannst von "http" zum "https" wechseln, indem Du drauf klickst, das 's' anhängst und anschließend "Enter" drückst, um die Seite sicher neu zu laden.
+
+Ein dritter, deutlich weniger verlässlicher Weg besteht darin, auf das kleine Vorhängeschloss-Symbol zu achten. Es erscheint entweder in der URL/Adressleiste, oder in der unteren Ecke des Fensters, je nach dem welchen Browser Du benutzt. Es sollte "geschlossen" erscheinen. Falls da kein Schloss ist, oder es "geöffnet" aussieht, besteht keine sichere Verbindung. Das Bewegen des Mauszeigers über das Schloss-Symbol zeigt mehr Informationen, in vielen Fällen erhältst Du durch Klicken (oder auch Rechts-Klicken) auf das Schloss weitere Details über das SSL-Zertifikat, mit dem die Verbindung gesichert ist.
+
+Q: Was ist POP/IMAP & SMTP?
+
+A: POP und IMAP sind verbreitete Protokolle, die von Programmen zum abrufen von E-Mail von entfernten Servern genutzt werden. Üblicherweise nutzt Du entweder das eine oder das andere und eher nicht beide gleichzeitig. SMTP ist ein weiteres gängiges Protokoll zur Mail-Übertragung, jedoch wird dieses benutzt, um E-Mails von Deinem Computer an den Mailserver zu senden.
+
+Q: Wenn ich meine Mail-Software selbst einrichte, welche Ports soll ich verwenden?
+
+A: Für POP-Verbindungen über SSL oder TLS nutze Port Nummer 995.
+   Für IMAP-Verbindungen über SSL oder TLS nutze Port Nummer 993.
+   Für SMTP-Verbindungen über SSL oder TLS nutze Port Nummer 465.
+
+Q: Was, wenn ich weitere Fragen zur sicheren Nutzung von E-Mail habe?
+
+A: Falls Du nach sorgfältiger Lektüre der [[Riseup Hilfeseiten ->/]] noch immer offene Fragen haben solltest, scheue Dich nicht, eine "Riseup Hilfe-Anfrage":https://user.riseup.net/forms/email_help/first zu übermitteln. Es macht uns Freude, unseren NutzerInnen zu vermitteln, wie Ihr Eure Kommunikation sicherer gestalten könnt, und die Privatsphäre aller Internet-NutzerInnen zu verbessern.
+
+
+h2. Grenzen sicherer Verbindungen
+
+Jetzt, da Du sichere Verbindungen nutzt, ist alles völlig sicher, oder? Leider nein! Sichere Verbindungen schützen nur den Datentransfer an sich, sie garantieren hingegen nicht die Geheimhaltung der Daten selbst. So sind zum Beispiel die Mails bei Benutzung sicherer Verbindungen zwar zwischen Deinem Computer und unserem Mailserver verschlüsselt, aber auf dem Weg zur/zum endgültigen Mail-EmpfängerIn liegen viele weitere Stationen. Diese "Zwischenstationen" sind nur selten verschlüsselt, so daß es viele Möglichkeiten gibt, auf Deine Mails zuzugreifen, sei es "unterwegs" oder während der (Zwischen-)Lagerung auf irgendeinem Mailserver oder gar auf der Maschine des/der EmpfängerIn. Beim Wechsel zu sicheren Verbindungen geht es ausschließlich darum, daß niemand Deinen NutzerInnennamen und Dein Passwort ausspäht, wenn Du Dich an unseren Servern anmeldest.
+
+Was kannst Du also noch tun, um Deine Mail-Kommunikation besser abzusichern? Wenn Du vollständige Ende-zu-Ende-Verschlüsselung willst, musst Du Dir die [Nutzung von Software zur starken Verschlüsselung->verschluesselte-email] aneignen, und die Menschen, mit denen Du kommunizierst dazu bewegen, diese Software ebenfalls zu nutzen. Für Thunderbird gibt es eine [[Erweiterung namens Enigmail-> /security/message-security/openpgp/enigmail]], die die Integration starker Verschlüsselung in Thunderbird auf einfache Weise ermöglicht.
+
+Die Sicherheit des Internets dreht sich um HTTPS, und das beinhaltet, daß bestimmt werden muss, ob ein konkretes Server-Zertifikat vom Browser als "gültig" anerkannt werden darf. Im Moment läuft das so, daß Dein Browser eine Liste "vertrauenswürdiger" Zertifizierungsstellen enthält. Das ist übel, weil Du Dich als NutzerIn einer Art zentraler Autorität beugen musst, um die Sicherheit Deiner Verbindungen zu überprüfen - und warum solltest Du Dich einer selbsternannten Autorität unterwerfen, nur um an sicherer Kommunikation teilnehmen zu können? Weitere Informationen darüber, wie schlecht dies ist, findest Du in diesem (englischsprachigen) Artikel über "die Formung unserer sozialen Strukturen durch technische Infrastruktur":http://lair.fifthhorseman.net/~dkg/tls-centralization und warum diese zentralisierte Kontrollhierarchie höchst problematisch ist.

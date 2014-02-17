@@ -1,0 +1,44 @@
+@title = 'Viren'
+
+h1. Alles was du über Viren wissen wolltest, aber dich nicht zu fragen getraut hast
+
+Email-Viren, die Windows-Rechner befallen, vermehren sich rasant über das Internet. Hier ein paar grundlegende DInge, die du darüber wissen solltest:
+
+h2. Was du auf jeden Fall wissen solltest
+
+Viren fälschen immer ihre Absendeadresse. Sie geben vor, von Leuten zu kommen, die du kennst, dir selbst, Systemadministratoren oder anderen Menschen, denen du vertrauen könntest.
+
+Es gibt einige sehr verbreitete Viren, die vorgeben, vom Riseup-“staff” zu stammen (oder der entspechenden Domain anderer Mailanbieter). Diese drohen mit der Löschung deines Kontos, sofern nicht sofort bestimmte Schritte unternommen werden, wie den Anhang zu öffnen oder auf einen Link zu klicken. Lass dich nicht reinlegen!
+
+Viren fälschen immer ihre Absendeadresse. Ok, das sagten wir bereits, aber es ist es wert, das zu wiederholen.
+
+Falls du eine Nachricht bekommst, dass eine Nachricht von dir einen Virus enthält, kannst du diese Nachricht so gut wie immer ignorieren. Denn: Viren fälschen immer ihre Absendeadresse. Das heißt, jemand anderes wurde infiziert und verschickt Viren mit deiner Absendeadresse.
+
+Wie kamen die an deine Adresse? Durch Infizierung eines Computers, von dem an dich geschrieben wurde oder an den du geschrieben hattest, oder von einer Webseite.
+
+Öffne keine Anhänge von niemandem, auch nicht von Menschen, die du kennst, sofern du diese nicht explizit erwartet hattest.
+Wir von riseup.net werden dir NIEMALS eine Nachricht mit Anhang schicken.
+
+
+h2. Viren und Mailinglisten
+
+Wenn ein Virus bei deiner privaten Liste ankommen, ist das nicht unbedingt ein Sicherheitsproblem. Es bedeutet, dass ein Mitglied sich einen Virus eingefangen hat und damit die Adresse der Liste und aller, die etwas an die Liste geschickt haben, durch das Virus ausgelesen werden können.
+
+Wir fitlern an eure Nachrichten angehängte Viren, aber manches kommt durch.
+
+Oftmals wird ein Virus versuchen, sich bei einer Liste einzutragen. Wie geschieht das? Wenn du und ein Freund auf einer Liste eingetragen ist und der Computer deines Freundes infiziert wird, kennt das Virus die Adresse zum Abonnieren (listname-subscribe@lists.riseup.net). Möglicherweise wird es eine Nachricht an diese Adresse schicken, mit dir als Absender. In diesem Falle wird die Listensoftware eine Bestätigungsmail an dich schicken, die du einfach ignorieren kannst.
+
+h2. vervirte E-Mails blockieren
+
+Wenn du viele Viren erhälst und ein Konto bei riseup.net hast, können diese durch Aktivieren des Spamfilters blockiert werden. Geh zu
+[[Einstellungen->https://user.riseup.net]] und klicke auf 'Spamfilter'.
+
+Manche [[Email-Programme -> email/clients]] wie "Thunderbird":http://getthunderbird.com (freie Software) haben wirklich gute Spamfilter eingebaut, die das meiste Ungeziefer abhalten.
+
+riseup.net E-Mail-Konten und Listen blockieren alle ausführbaren Anhänge. Das funktioniert nicht immer und manche Viren kommen auch versteckt in einer gepackten Datei wie z.B. .zip.
+
+h2. Viren von infizierten Computern entfernen
+
+Falls Du einen verdächtigen Anhang auf einem Windows-System geöffnet hast, ist diese vermutlich infiziert. Wir empfehlen dann, die freie Software [ClamWin] zu verwenden. Als Alternative bietet Grisoft eine kostenlose Version ihres kommerziellen Antivierenprogrammes an.
+
+Postfächer an sich können nicht mit einem Virus infiziert werden. Es ist lediglich das Betriebssystem deines Rechners, das eventuell anfällig ist und ggf. gesäubert werden muss, aber  dein riseup.net-Konto ist OK. Es gibt übrigens auch "Linux-Malware":https://de.wikipedia.org/wiki/Kategorie:Linux-Malware.

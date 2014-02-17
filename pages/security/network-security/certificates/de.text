@@ -1,0 +1,83 @@
+@title = "Zertifikate"
+
+h1.  Was sind Zertifikate? 
+
+Im Internet ist ein [Public-Key-Zertifikat ->https://de.wikipedia.org/wiki/Public-Key-Zertifikat] notwendig, um die Identität von Personen oder Computern zu überprüfen. Diese Zertifikate werden auch "SSL-Zertifikate" oder "Identitäts-Zertifikate" genannt. Wir werden sie hier einfach "Zertifikate" nennen.
+
+Konkret werden Zertifikate benötigt, um [sichere Verbindungen->https://help.riseup.net/de/sichere_verbindungen] herzustellen. Ohne Zertifikate könntest Du zwar ausschließen, daß niemand mitliest - aber Du könntest mit einem völlig falschen Computer kommunizieren! Alle Riseup-Server und -Dienste ermöglichen oder benötigen sichere Verbindungen. 
+
+Um sicherzustellen, daß Du die sichere Verbindung auch wirklich mit Riseup herstellst, kannst Du die folgenden Schritte unternehmen, um unsere Zertifikate zu überprüfen. Dies ist zwar nicht notwendig, um Riseups Dienste zu nutzen, aber ohne diese Verifizierung hast Du keine Garantie, daß Du wirklich mit unseren Servern verbunden bist bzw. daß die Verbindung sicher ist.
+
+h1. Verifizierung der Gültigkeit von Riseups Zertifikaten
+
+Um diese Prüfsummen ("Fingerprints") zu verifizieren, musst Du schauen, welche Prüfsummen Dein Browser für die Zertifikate angibt und diese dann mit den unten gelisteten vergleichen. Wenn sie sich unterscheiden, besteht ein Problem. Sei gewarnt: die vollständige Verifizierung ist schwierig und erfordert Verständnis von OpenPGP.
+
+h2. Wann sollte ich diese Prüfsummen verifizieren?
+
+Du solltest diese Prüfsummen immer dann verifizieren, wenn sie sich ändern - oder wenn Du einen Computer nutzt, der nicht unter Deiner Kontrolle steht, wie z.B. im Internetcafe oder in der Bücherei.
+
+h2. Einfache Verifizierung
+
+Zuerst finde die Prüfsumme von Riseups Zertifikat in Deinem Browser. Dafür musst Du in den meisten Browsern entweder das kleine Vorhängeschloss-Symbol, das Du am unteren Fensterrand oder in der Adresszeile findest, oder unseren schwarz-roten Stern in der Adresszeile anklicken. Dies sollte ein Fenster mit detaillierten Informationen zum genutzten Zertifikat öffnen, das auch die Prüfsumme beinhaltet. 
+
+Wenn Du nun diese Prüfsumme mit den unten Stehenden vergleichst, hast Du schon mal eine einfache Verifizierung durchgeführt.
+
+Falls Du an einer vollständigen Verifizierung interessiert bist, musst Du einen etwas komplizierteren technischen Vorgang durchführen, der Verständnis von OpenPGP erfordert.
+
+h2. Vollständige Verifizierung
+
+Warnung: Dieser Vorgang ist ziemlich technisch. Er erfordert Kenntnis von OpenPGP und der Befehlszeile.
+
+h3. Importieren von Riseups öffentlichem Schlüssel
+
+Zuerst musst Du ein Terminal / eine Shell öffnen. Wie das geht, hängt von Deinem System ab. Falls Du das nicht weißt, erkundige Dich oder suche im Internet nach Informationen dazu.
+
+Die folgende Anleitung zeigt die Befehle, die Du im Terminal eingeben musst. Den Befehlen ist ein '$'-Zeichen vorangestellt, das für die Eingabeaufforderung steht. Diese Eingabeaufforderung zeigt an, daß das System auf einzutippende Befehle wartet. In deiner Kommandozeile kann das anders aussehen, falls es also kein '$' ist, macht das nichts! Gib einfach den Befehl in Deiner Kommandozeile ein, der diesem Zeichen folgt.
+
+Du musst Riseups öffentlichen Schlüssel von einem Schlüsselserver importieren:
+
+<code>
+$ gpg --keyserver keys.mayfirst.org --recv-key 139A768E
+</code>
+
+Falls Du eine Fehlermeldung bekommst, daß gpg nicht gefunden wurde, musst Du zuerst das Programm GnuPG installieren, bevor Du fortfahren kannst.
+
+Es gibt keinen guten Grund, diesem Schlüssel zu vertrauen. Du kannst aber sehen, wer dem Schlüssel das Vertrauen ausgesprochen hat: 
+
+<code>
+$ gpg --list-sigs 139A768E
+</code>
+
+h3. Verifiziere diese Anleitung
+
+Jetzt, da Du Riseups öffentlichen Schlüssel importiert hast, kannst Du verifizieren, daß die Prüfsummen, die auf dieser Seite aufgeführt sind, wirklich von Riseup stammen: 
+
+# Kopiere die [hier verlinkten PGP-signierten Prüfsummen unserer SSL-Zertifikate->https://help.riseup.net/en/signed-certificate-fingerprints]
+# Dann führe folgenden Befehl aus:
+<code>gpg --verify</code>
+# Füge den kopierten Text ein
+# Drücke Ctrl+d
+# Du solltest nun folgende Ausgabe bekommen:
+<code>gpg: Korrekte Unterschrift von "Riseup Networks <collective@riseup.net>"</code>
+
+Du solltest sicherstellen, daß dort wirklich "Korrekte Unterschrift" (oder "Good signature") steht! Falls der Text abweicht, solltest Du der Information nicht trauen.
+
+Falls Du keine konkreten Schritte unternommen hast, einen Vertrauenspfad zum Schlüssel des Riseup Kollektivs aufzubauen, wirst Du eine Warnung erhalten, die dieser ähnelt:
+
+<code>
+gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!
+gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.
+</code>
+
+Trotzdem solltest Du "Korrekte Unterschrift" sehen.
+
+h3. Vergleichen der Prüfsummen
+
+Jetzt, da Du sichergestellt hast, daß die obige Nachricht wirklich die Prüfsummen unserer Zertifikate enthält, kannst Du sie mit den Werten, die Dein Browser angibt, vergleichen. Dafür musst Du in den meisten Browsern entweder das kleine Vorhängeschloss-Symbol, das Du am unteren Fensterrand oder in der Adresszeile findest, oder unseren schwarz-roten Stern in der Adresszeile anklicken. Dies sollte ein Fenster mit detaillierten Informationen zum genutzten Zertifikat öffnen, das auch die Prüfsumme beinhaltet. 
+
+Falls sie übereinstimmen und Du Riseups öffentlichem PGP-Schlüssel traust, kannst Du davon ausgehen, daß Du wirklich mit Riseups Servern kommunizierst.
+
+h1. Ich will mehr wissen!
+
+Super, dies ist auch ein wichtiges Thema und wir wollen Dir nahelegen, [diesen (englischen) Text->http://lair.fifthhorseman.net/~dkg/tls-centralization/] zu lesen, der auf nicht-technische Weise sehr schön die Probleme mit zentralen Zertifizierungsstellen darstellt und gleichzeitig einige interessante Vorschläge macht, wie mit kleinen Veränderungen der existierenden Infrastruktur und Protokolle die Situation verbessert werden könnte.
+

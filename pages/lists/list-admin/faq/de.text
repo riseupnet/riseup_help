@@ -1,0 +1,163 @@
+@title = 'Mailinglisten Admin FAQ'
+
+h2.  Warum kann ich mich nicht anmelden?
+
+Falls Du das Passworterinnerungs-Formular ausgefüllt hast und Dich mit der korrekten Kombination von E-Mailadresse und Passwort noch immer nicht anmelden kannst, liegt es höchstwahrscheinlich an Deinem Browser: Stelle sicher, dass er für die Domain lists.riseup.net Cookies akzeptiert. Falls Du Dir nicht sicher bist, versuche es mit einem anderen Browser oder von einem anderen Computer aus.
+
+h2.  Warum funktioniert meine Mailingliste nicht?
+
+Die wahrscheinlichsten Gründe hierfür sind:
+# Deine Mailingliste wurde noch nicht freigeschaltet. Du bekommst eine Benachrichtigung per E-Mail, sobald dies der Fall und die Liste einsatzbereit ist.
+# Mailinglisten, deren Name auf -admin oder -admins endet, funktionieren nicht, auch wenn die Software Dich an der Erstellung der Liste nicht hindert. Falls dies der Fall ist, kannst Du die Mailingliste umbenennen.
+# Warte eine halbe Stunde: Manchmal steckt der Server mitten im Versenden von Nachrichten an eine sehr große Liste. Währenddessen kommen andere Nachrichten oft kaum durch.
+# Die Software zum versenden der Mail läuft nicht. Das passiert öfters, als es uns gefällt. Um dies zu überprüfen, könntest Du eine Passworterinnerungs-Mail anfordern. Falls diese nicht ankommt, ist möglicherweise die ganze Mailauslieferung in Verzug.
+
+h2.  Wie komme ich an eine Liste der Abonnent_innen?
+
+Du kannst eine Liste aller Abonnent_innen Deiner Mailingliste herunterladen. Dafür musst Du:
+* Dich mit der Listenverwalter_innen-E-Mailadresse der betreffenden Mailingliste anmelden,
+* zur „List Information“-Seite navigieren,
+* dort auf der linken Seite auf „Review Members“ klicken,
+* „Dump“ klicken und
+* im sich öffnenden Dialogfenster Deines Browsers Ort und Namen der zu speichernden Datei festlegen.
+
+h2.  Wie groß dürfen E-Mails sein, die über die Liste versendet werden?
+
+Die Größe der E-Mails ist auf 500kB limitiert. Falls nötig, könnten wir die Begrenzung anheben, wobei wir das nur ungern tun. Dafür gibt es viele Gründe:
+* Der wichtigste davon ist, dass große Dateianhänge nicht nötig sind, weil Du einen "shared web space" einrichten kannst. Dieser ermöglicht den Listenabonnent_innen, Dateien per Browser hochzuladen. Wenn Du nun eine E-Mail rausschickst, kannst Du einen Link auf diese Datei einfügen (dieser könnte folgendermaßen aussehen: http://lists.riseup.net/www/d_read/newsletter/readme.txt). Die Listenabonnent_innen können die Datei dann per Browser herunterladen. (Einige Mailinglisten stellen diese Funktion nur für „Editoren“ zur Verfügung, das hängt von der Konfiguration Eurer Liste ab.)
+* Meistens sind große Dateianhänge nicht für alle Abonnent_innen von Bedeutung. Nur wer sich wirklich dafür interessiert, sollte die Zeit für den Download aufwenden.
+* Kurze Nachrichten sind wirkungsvoller. Keine_r will Bücher im Posteingang liegen haben. Falls Du viel zu sagen hast, sage es schnell und biete einen Weg an weiterführende Informationen zu gelangen.
+* Große Dateianhänge können uns viel Geld kosten. Wir haben viel Bandbreite zur Verfügung, aber wir bezahlen nach Verbrauch. Wenn Du nun einen 1MB großen Flyer als PDF an eine Liste mit 100 Abonnent_innen versendest, musst Du nur ein Megabyte hochladen - unsere bescheidenen kleinen Server müssen sich dann aber mit zu versendenden 100 Megabyte rumschlagen. Auch müssen wir den Dateianhang archivieren und Sicherungskopien davon in alle Ewigkeit aufbewahren. Solange die Nachrichten klein bleiben, kriegen wir das hin.
+* Die Infrastruktur für E-Mail ist nicht auf große Dateianhänge ausgelegt. Große Dateien bringen grundsätzlich alles durcheinander. Deshalb beschränken die meisten Mailserver die Größe der E-Mails.
+* Wenn Du große Dateien versendest, bringst Du die Empfänger_innen schnell dazu, die maximale Speicherkapazität ihres Postfachs zu überschreiten.
+
+h2.  Warum gehen meine E-Mails zur Überprüfung an die/den Moderator_in und/oder werden ganz abgewiesen?
+
+Dafür gibt es mehrere mögliche Gründe:
+* Ich habe die Liste nicht abonniert.
+** An die meisten Listen kannst Du nur als Abonnent_in der Liste senden. Somit kannst Du, selbst wenn Du Verwalter_in oder Editor_in einer Liste bist, über eine dermaßen konfigurierte Liste nichts versenden. Zum abonnieren der Liste folge <a href="https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe">dieser Anleitung</a>. 
+* Ich bin Listenverwalter_in, aber meine E-Mails gehen zur Überprüfung an den/die Moderator_in und/oder werden ganz abgewiesen
+** Möglicherweise sendest Du die E-Mails von der falschen Adresse aus. Z.B. hast Du vielleicht *email1@riseup.net*, aber auch *email2@gmail.com*. Email1 ist als Verwalter_in/Editor_in der Liste registriert, aber email2 nicht. Wenn Du nun eine E-Mail *von* email2 an die Liste sendest, wird diese zur Überprüfung durch den/die Moderator_in zurückgehalten. <b>Um dies zu beheben:</b> Füge Deine zweite E-Mailadresse zur Liste der  Verwalter_innen/Editor_innen hinzu.
+
+h2.  Warum geht meine Antwort nicht an die Liste?
+
+Die „Reply-to“-Kopfzeile wird in allen Mailinglisten standardmäßig auf die/den Absender_in gesetzt, aus verschiedenen Gründen:
+* Viele Jahre der Netiquette haben gezeigt, das es eine schlechte Politik ist, die „Reply-to“-Kopfzeile an die Liste zu setzen.
+* Fast alle E-Mail-Programme stellen die Option „An alle antworten“ zur Verfügung. Wenn Du darauf klickst, wird zusätzlich an die Adresse der Mailingliste geantwortet. So kannst Du einfach wählen, ob Du an die Liste, oder nur den/die Absender_in antworten willst.
+* Für Leute, die sich weniger auskennen, ist es besser, nur an den/die Absender_in zu antworten. Dies beugt Verstopfungen der Mailingliste durch versehentlich gesendete persönliche E-Mails vor. Auf vielen Listen kam es schon zu folgendem peinlichen Szenario: Jemand antwortet auf eine persönliche Nachricht versehentlich an die gesamte Mailingliste, darauf antwortet jemand anderes mit der Erklärung, was man tun muss, um nur an die/den Absender_in zu antworten, wieder an die ganze Liste, woraufhin sich wer beschwert, dass diese Anweisungen nicht an die ganze Liste hätte geben müssen, was wiederum jemanden veranlasst alle zum „Maul halten“ aufzufordern. So laufen ärgerliche Versehen schnell nach dem Schneeballprinzip aus dem Ruder. Es gab hier Mailinglisten mit täglich mehr als zehn E-Mails, die nichts als solchen Schrott enthielten.
+* Für Leute, die sich auskennen, ist es ein Leichtes, an die richtige Listenadresse zu antworten.
+* Wen jemand eine Abwesenheitsmitteilung eingerichtet hat (die alle Mails automatisch beantwortet) und die  die „Reply-to“-Kopfzeile an die Liste gesetzt ist, entstehen unter Umständen Endlosschleifen, die sogar den Server der Mailingliste zum Absturz bringen können. Das kam bei Riseup schon vor und war nicht schön, weder für uns, noch für all die Abonnent_innen der Liste, die plötzlich 5000 Nachrichten in ihrem Posteingang hatten. Das bekannteste quelloffene Mailinglisten-Verwaltungsprogramm, Mailman, ist besonders anfällig dafür. Daher haben wir zu einem anderen Programm namens Sympa gewechselt, das besser in der Erkennung solcher Endlosschleifen ist. Dennoch ist auch das neue System bei weitem nicht perfekt und wir wollen das Schicksal nicht herausfordern.
+
+Falls Du nach all dem noch immer davon überzeugt bist, die Voreinstellung zu ändern - so geht's:
+* Melde Dich an
+* Klicke auf *your subscriptions*
+* Klicke auf den Admin-Link für die betreffende Mailingliste
+* Klicke auf *Edit List Config*
+* Klicke auf *Sending/Reception*
+* Ändere die Option *Reply Address*
+* Klicke auf *Update*.
+
+h2.  Wie lade ich jemanden Neues zu meiner Liste ein?
+
+Derzeit gibt es kein Webinterface zum Einladen weiterer Leute. Du kannst das jedoch per E-Mail tun.
+
+Diese Einladungsfunktion ist standardmäßig deaktiviert, da sie auf privaten Listen ein größeres Sicherheitsproblem darstellt. <b>Falls Du eine private Liste betreibst: Aktiviere diese Funktion auf keinen Fall!</b>
+
+Zum Aktivieren der Einladungsfunktion:
+
+* Melde Dich an
+* Navigiere auf die Informationsseite Deiner Liste
+* Folge den Links *List Admin* -> *Privileges*
+* Wähle für *invite* die entsprechende Option
+* Klicke auf *Update*.
+
+Um nun neue Leute zu Deiner Mailingliste einzuladen, sende eine E-Mail mit folgendem Text an sympa@lists.riseup.net:
+<code>
+ INVITE list-name email-to-invite
+ QUIT
+</code>
+
+So würde z.B einen Einladung an den US-Präsidenten zur Liste anarchism101@lists.riseup.net folgendermaßen aussehen:
+<code>
+ INVITE anarchism101 president@whitehouse.gov<br>QUIT
+</code>
+
+Die eingeladene Person erhält dann eine Benachrichtigung über die Einladung, falls sie darauf antwortet, wird sie auf die Liste eingetragen.
+
+Du kannst in eine solche E-Mail mehrere INVITE-Befehle setzen. Am Schluss setzt du den Befehl QUIT, so dass allfällige Signaturtexte nicht als Befehl interpretiert werden. Benutze für diesen Einladungsbefehl *nicht* die Adresse Deiner Mailingliste: Das würde nicht funktionieren!
+
+
+Anmerkung: Möglicherweise willst Du die „Subscribe“-Option der Liste auf *approved* setzen (ebenfalls unter „Privileges“). Andernfalls müssen von Dir eingeladene Personen die Einladung zweifach beantworten: Einmal die Einladung und dann die Bestätigung des Abonnements.
+
+h2.  Kann ich störende Leute ausschließen?
+
+Leider gibt es keine Möglichkeit, bestimmte Adressen zu filtern. Falls Ihr eine offene Diskussion führt, kannst Du die Person von der Liste werfen und sie bitten, sich nicht erneut anzumelden. Ansonsten bleibt die Möglichkeit, die „Subscribe“-Option auf "anyone, authorization is asked to owners (owner)" setzen. So muss jedes neue Abonnement von Dir (der/dem Listenverwalter_in) bestätigt werden. Dies funktioniert jedoch nur, wenn die „Send“-Option auf *private* gesetzt ist.
+
+h2.  Warum funktioniert meine Fußzeile nicht?
+
+F: <i>Ich habe die „message.footer“-Datei bearbeitet. Warum taucht die Fußzeile nicht in den E-Mails der Liste auf?</i>
+
+A: Standardmäßig wird die Fußzeile als Dateianhang gesendet. Der Vorteil ist, dass sie so nicht in Antworten übernommen wird. Leider ist sie so für manche nicht sichtbar. Um das zu ändern, gehe auf die „Admin“-Seite der Mailingliste und ändere unter  *Edit List Config* -> *Sending/reception* die *Attachment type"-Option von *mime* auf *append*. 
+
+h2.  Kann ich die Standard-Betreffzeile ändern?
+
+F: <i>Standardmäßig wird jeder über die Mailingliste versendeten Nachricht der Name der Liste (in eckigen Klammern) vorangestellt. Wie kann ich das ändern?</i>
+
+A: Bearbeite die Listenkonfiguration unter <b>"Sending/receiving"</b>. Hier kannst Du die Einstellung <b>"Subject tagging"</b> ändern. Falls Du das Feld leer lässt, wird der Betreffzeile kein zusätzlicher Text hinzugefügt. Beachte, dass diese Option nichts mit dem Feld „Subject“ zu tun hat, welches eine kurze Zusammenfassung des Zwecks der Mailingliste enthält, die auf der  Übersichts- sowie auf der Informationsseite der Mailingliste angezeigt wird.
+
+h2.  Kann ich mehrere Personen gleichzeitig auf die Liste eintragen?
+
+F: <i>Ich übertrage eine Mailingliste von einem anderen Anbieter. Kann ich alle Abonnent_innen gleichzeitig übernehmen, oder müssen sich alle einzeln eintragen?</i>
+
+A: Es ist möglich, viele Abonnent_innen gleichzeitig hinzuzufügen:
+# Navigiere auf die „Info“-Seite Deiner Mailingliste. Wenn Deine Liste <i>mylist</i> heißt, wäre die Info-Seite http://lists.riseup.net/www/info/mylist
+# Klicke auf *Members*
+# Klicke auf *Multiple add*
+# Kopiere die Liste der (neuen) Abonnent_innen in das Feld, jeweils eine Adresse je Zeile
+# Klicke auf *Add subscribers*
+
+Den *quiet*-Knopf haben wir deaktiviert. Hiermit konntest Du massenweise Leute zur Liste hinzufügen, ohne dass diese darüber informiert wurden. Um Missbrauch vorzubeugen, haben wir dies vorübergehend deaktiviert, bis wir eine dauerhafte Lösung erarbeitet haben.
+
+**Beachte: Bitte handle vorsichtig und rücksichtsvoll, wenn Du andere Leute zur Liste hinzufügst. Das Hinzufügen von Leuten durch die/den Listen-Admin ohne deren Einwilligung verstösst gegen die Regeln von riseup.net und wird zur Löschung Deiner Mailingliste führen.
+
+h2.  Wie ändere ich den Namen der Mailingliste?
+
+# Melde Dich an
+# Deine Mailinglisten sollten auf der linken Seite aufgelistet sein
+# Klicke auf den *admin*-Knopf neben der betreffenden Liste
+# Hier findest Du die Option *Rename List*, mit der Du die Liste umbenennen kannst.
+
+h2.  Was bedeutet "FYI: automatic_del"? 
+
+Listenverwalter_innen erhalten häufig kryptische Nachrichten:
+
+<code>
+FYI command automatic_del list <listname> from <subscriber address> validated by listmaster
+ (no action needed)
+</code>
+
+Diese Nachricht erhältst Du, wenn Du versuchst, der Liste eine E-Mailadresse hinzuzufügen, die nicht beliefert werden kann. Wenn Du neue Abonnent_innen hinzufügst, wird diesen ein „Willkommen auf der Liste“ gesendet. Falls diese Nachricht als „unzustellbar“ zurückkommt, wird die Adresse automatisch aus der Liste gelöscht.
+
+h2.  Wie entferne ich Nachrichten aus dem Archiv?
+
+# Melde Dich als Moderator_in oder Verwalter_in an
+# Klicke auf *Archives*
+# Navigiere zur Nachricht, die Du löschen willst
+# Klicke darauf, um sie anzuzeigen
+# Klicke auf den *tag this mail for deletion*-Knopf.
+
+Das war's: Bald wird die Nachricht im Archiv nicht mehr auftauchen.
+
+h2.  Wie deaktiviere ich die Archiv-Funktion ganz?
+
+Zum vollständigen Abschalten der Archiv-Funktion, nimm bitte [direkten Kontakt mit uns->https://user.riseup.net/forms] auf.
+
+h2.  Wie lege ich meine Liste still?
+
+Ganz einfach:
+# Melde Dich mit der E-Mailadresse an, die als Verwalter_in der betreffenden Mailingliste hinterlegt ist.
+# Klicke auf den *Admin*-Link der zu löschenden Liste auf der linken Seite
+# Klicke auf *remove list*.
+
+Die Mailingliste wird nicht sofort gelöscht, wird aber nicht länger sichtbar sein und nach einiger Zeit vollständig gelöscht.
+
