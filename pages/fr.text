@@ -1,0 +1,25 @@
+@title = "Accueil"
+@this.layout = 'home'
+@this.toc = false
+@this.summary = "Riseup fournit des outils de communication informatique pour les personnes et les groupes qui militent en faveur d'un changement social libérateur. Nous souhaitons créer des alternatives démocratiques en autogérant des moyens de communication sécuritaires."
+
+
+h2. Courriel <small>https://mail.riseup.net</small>
+
+Nous fournissons des comptes de courriel privés et sécuritaires, accessible via le web, un terminal, IMAP ou POP. [[Obtenir de l'aide pour les courriels => email]]. "Se connecter à l'interface web":https://mail.riseup.net. "Obtenir un compte":https://user.riseup.net/forms/new_user. "Réinitialiser un mot de passe perdu":https://user.riseup.net/forms/password_reset/first. "Modifier ma configuration":https://user.riseup.net.
+
+h2. Listes courriels <small>https://lists.riseup.net</small>
+
+Nous fournissons des listes de courriels pour les organisations militantes. [[Obtenir de l'aide pour les listes => lists]]. "Se connecter aux listes":https://lists.riseup.net/www/. [[Créer une nouvelle liste => creating-lists]]. [[S'abonner => subscribing]]. [[Se désabonner => subscribing]].
+
+h2. Nouveaux services
+
+Nous mettons à l'essai des services de [*[[vpn]]*], de [*[[chat]]*], et [*"d'etherpad":https://pad.riseup.net*]. Ces services sont encore en construction et peuvent parfois être instables. Si vous voulez nous aider à les tester, n'hésitez pas à les essayer.
+
+h2. Resources
+
+*[[Sécurité => security]]*
+Ressources et tutoriels pour des communications plus sécuritaires.
+
+*"Kiosque d'aide":https://user.riseup.net/forms*
+Pour nous poser des questions, veuillez utiliser le kiosque d'aide pour créer des billets de dépannage. Mais avant tout, n'oubliez pas de bien lire la documentation sur ce site et de faire des recherches préliminaires.

@@ -1,0 +1,83 @@
+@title = 'Courriel Riseup'
+@nav_title = 'Courriel'
+
+!>email/airmail.jpg!
+
+Bienvenu sur la page d'aide pour les courriels riseup.net. Ici, vous trouverez de l'information sur les *comptes courriel* riseup.net
+
+Si vous ne trouvez pas ce que vous cherchez, "remplissez un billet de dépannage":https://user.riseup.net/forms/. Une fois que l'on a répondu à vos questions, faites nous savoir en quoi ces pages d'aide pourraient être améliorées. 
+
+h2. Premiers pas
+
+Visitez "user.riseup.net":https://user.riseup.net. À partir de là, vous pouvez changer votre mot de passe, ajouter des pseudonymes d'adresse courriel, créer des filtres pour vos courriels, changer votre quota ou alors demander de l'aide.
+
+Nous détruisons automatiquement l'information que vous nous avez donnée lors de votre demande de compte courriel. Vous devriez penser à supprimer toute information permettant de vous identifier à partir de la configuration de votre compte, par exemple votre nom, date de naissance, question secrète et adresse courriel alternative. Cependant, si vous oubliez votre mot de passe et que cette information n'est pas remplie (ou vous avez oublié l'adresse alternative, ou alors elle n'est plus accessible), vous perdez accès à votre compte.
+
+h2. Choses importantes à savoir
+
+h3. Protégez votre mot de passe
+
+Internet grouille de personnes qui veulent vous voler votre compte courriel. Vous receverez probablement un jour un courriel frauduleux d'une personne tentant de se faire passer pour riseup.net. Ces courriels vous dirons que vous devez faire une quelconque action pour conserver votre compte.
+
+* Ne donnez jamais votre mot de passe à personne, spécialement à quelqu'un-e se faisant passer pour riseup.net.
+* Ne faites jamais confiance à l'adresse d'entête du courriel ("De"), car elle peut être contrefaire aisément.
+* Les liens web dans un courriel sont souvent frauduleux. Pour rester en sécurité, vous devriez retaper les liens plutôt que cliquer dessus. Vous devriez également faire attention aux erreurs de frappe, comme riseupp.net plutôt que riseup.net.
+
+Apprenez en plus sur [[les mots de passe => mail-passwords]].
+
+h3. Suppression automatique des courriels dans certains dossiers
+
+Les courriels dans certains [[dossiers spéciaux => email-folders]] sont supprimés automatiquement après un certain nombre de jours:
+
+* *Corbeille*: supprimées après 21 jours.
+* *Spam*: supprimés après 7 jours.
+* *Envoyés*: supprimés après 120 jours.
+
+h3. Quota
+
+Pour plusieurs raisons, nous n'offrons pas beaucoup d'espace de stockage pour les courriels. Si vous avez besoin de plus d'espace, nous vous suggérons de les télécharger en utilisant un client de messagerie ou alors d'augmenter votre quota en visitant https://user.riseup.net. [[En savoir plus sur les quotas => quota]].
+
+h3. Utiliser un client de messagerie
+
+Malgré le fait que l'interface web de messagerie de riseup.net n'offre pas beaucoup d'options, il est toujours possible d'utiliser un client de messagerie POP ou IMAP. Un client de messagerie est un programme conçu spécifiquement pour gérer vos courriels. Allez faire un tour sur nos [[tutoriels de clients de messagerie => email/clients]].
+
+Riseup recommande [[thunderbird]], un client libre et gratuit. Thunderbird se configure automatiquement de la bonne manière quand vous lui fournissez votre adresse courriel riseup.net et votre mot de passe.
+
+h2. Ce qu'il y a de spécial avec les courriels riseup.net
+
+Vos comptes courriel riseup.net sont des choses merveilleuses. Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, riseup.net a plusieures caractéristiques qui sortent de l'ordinaire: 
+
+[*Nous encryptons le traffic à chaque fois que cela est possible.*]
+Quand vous envoyez un courriel de riseup.net à un autre fournisseur de courriels sécuritaires, le message est encrypté tout au long de son trajet. (voir [[StartTLS]] pour plus d'infos)
+
+[*Nous ne divulgons pas votre emplacement géographique aux récipiendaires des messages.*]
+Quand vous envoyez un courriel avec riseup.net, votre adresse internet (adresse IP) n'est pas inclue dans le message. Avec les fournisseurs commerciaux, toute personne qui reçoit votre courriel est en mesure de trouver votre position approximative grâce à l'adresse internet dans le message.
+
+[*Nous ne gardons pas de traces de votre adresse internet.*]
+Nous sommes dévoué-e-s à garder aussi peu de données sur vous que possible. Contrairement aux fournisseurs commerciaux, nous ne gardons pas la trace des individus utilisant les services de riseup.net, incluant les courriels.
+
+h2. Solidarité mutuelle
+
+Des courriels gratuits, cela n'existe pas. Les services comme gmail, hotmail et yahoo font leur profit en vous espionnant: illes construisent des profils sur vous, notant vos comportements et vos désirs, pour mieux vous bombarder de publicité personnalisée.
+
+Riseup.net est différent. Ce service est le résultat d'un mélange d'amour et de travail par des militant-e-s comme vous, dévoué-e-s à bâtir des infrastructures alternatives sécuritaires.
+
+Le service de courriel riseup.net nécéssite beaucoup de temps et d'argent pour fonctionner et est entièrement financé par les petits dons de ses utilisatrices et de ses utilisateurs. Nous vous encourageons à faire votre part et à [[contribuer dès maintenant => donate]].
+
+h2. Questions fréquentes (FAQ)
+
+* [[Comment changer mon mot de passe? => mail-passwords]]
+* [[Comment supprimer mon compte? => mail-accounts]]
+* [[Comment augmenter mon quota? => quota]]
+* [[Pourquoi mon quota n'est pas mis à jour? => quota]]
+* [[Comment encrypter mes courriels? => message-security]]
+* [[Que puis-je faire à propos du spam? => spam]]
+* [[Pourquoi je ne peux pas me connecter à l'interface web? => webmail]]
+* [[Pourquoi je n'arrive pas à envoyer de courriel à partir de mon client de messagerie? => smtp]]
+* [[Y a t-il un carnet d'adresses? => address-book]]
+* [[Pourquoi ne puis-je voir mes dossiers? => email-folders]]
+* [[Comment puis-je télécharger mes courriels? => downloading-email]]
+* [[Pourquoi mon courriel est fiché comme du spam? => spam]]
+* [[Que pouvez-vous me dire à propos des virus? => viruses]]
+* [[Qu'est-ce que le contrat social de Riseup? => email/usage-agreement]]
+* [[Pourquoi je ne peux pas configuer un message de réponse automatique? => email-filters]]
