@@ -1,4 +1,4 @@
-@title = "Acceuil"
+@title = "Accueil"
 @this.layout = 'home'
 @this.toc = false
 @this.summary = "Riseup fournit des outils de communication informatique pour les personnes et les groupes qui militent en faveur d'un changement social libérateur. Nous souhaitons créer des alternatives démocratiques en autogérant des moyens de communication sécuritaires."
