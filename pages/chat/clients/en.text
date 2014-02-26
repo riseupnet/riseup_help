@@ -16,28 +16,30 @@ h2. Recommended clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Empathy -> http://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | ? | ? | ? | Open source. Stable and easy to use. |
-| [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. Native Tor support. |
-| [[Pidgin]]   | Windows, GNU/Linux | *Yes*   | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Use most current version. |
-| [[Adium]] | Mac | *Yes* | No | *Yes* | *Yes* | Partial | Open source. Good native build of Pidgin for Mac, but rarely updates libpurple. DNS and URL hovering information leaks.|
-| [[Beem -> http://www.beem-project.com/]] | Android | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
-| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Yes* | No | ? | ? | ? | Open source. Stable client with many plugins. |
+| [[Empathy -> http://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | ? | ? | ? | Open source (GPL). The IM of the Gnome Project. Easy to use. |
+| [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source (Apache2). Native Tor support. |
+| [[Pidgin -> http://www.pidgin.im/]]   | GNU/Linux, Windows, Mac | *Yes*   | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source (GPL). Stable with many features. Use most current version. |
+| [[Adium -> https://adium.im/]] | Mac | *Yes* | No | *Yes* | *Yes* | Partial | Open source (GPLv2). Good native build of Pidgin for Mac, but rarely updates libpurple. DNS and URL hovering information leaks.|
+| [[Xabber -> http://www.xabber.org/]] | Android | *Yes* | No | ? | *Yes* | *Yes* | Open source (GPLv3). Stable native android app. Does not support group chats. |
+| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Yes* | No | ? | ? | ? | Open source (GPL). Stable client with many plugins. |
+| [[Kopete -> http://kopete.kde.org//]]   | GNU/Linux, Mac | *Yes*   | *Yes* | ? | *Yes* | ? | Open source (GPLv2). The Instant Messenger of KDE Desktop.It has many plugins. |
+| [[Beem -> http://www.beem-project.com/]] | Android | No | No | ? | ? | ? | Open source (GPLv3). Stable native android app. Does not support group chats. |
 
 h2. Other clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Written in Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
-| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
-| [[Spark -> http://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Anyone tried it? Written in Java. |
+| [[Jitsi -> http://www.jitsi.org]] | GNU/Linux, Mac, Windows, Android | *Yes* | *Yes* | ? | ? | ? | Open source (LGPL). Written in Java. |
+| [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Open source (GPLv3). Nice stable windows jabber client. |
+| [[Psi -> http://psi-im.org/]] | GNU/Linux, Windows, Mac | No | *Yes* | ? | ? | ? | Open source (GPL). Stable native application. |
+| [[Spark -> http://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, Mac | *Yes* | *Yes* | ? | ? | ? | Open source (Apache2). Anyone tried it? Written in Java. |
 | iChat | Mac | No | No | ? | ? | ? | Apple's built-in chat application has support for jabber, but to a limited degree. |
 
 h2. Clients to avoid
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
+| [[Gajim -> http://www.gajim.org]] | GNU/Linux, Windows | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source (GPL). Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
 
 
 
