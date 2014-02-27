@@ -1,0 +1,63 @@
+@title = "Webmail"
+
+h2. ¿Qué es Webmail?
+
+Webmail te permite manejar tu correo de riseup.net desde cualquier computadora a través de un navegador web. No recomendamos este método por varias razones:
+
+# Webmail es menos seguro que usar un cliente de correo.
+# El software Webmail que ofrece en estos momentos Riseup no tiene demasiadas funcionalidades y es lento.
+
+La primera de las razones para usar webmail, es que no tengas un dispositivo propio en el que poder instalar un cliente de correo. Algunas personas usan webmail porque no quieren dejar rastro alguno de qué cuenta de correo han usado el equipo en cuestión. Webmail no es una buena solución para esto, porque el navegador web deja toda clase de archivos temporales y los ficheros de sesión  pueden ser obtenidos con las herramientas adecuadas.
+
+h2. Opciones de Webmail
+
+Actualmente, Riseup ofrece dos opciones para usar webmail:
+
+# *SquirrelMail*: squirrelmail es más sencillo y no necesita javascript.
+# *IMP*: si no te gusta squirrelmail, puedes probar IMP.
+
+En un futuro, planeamos migrar a "RoundCube":http://roundcube.net para webmail.
+
+h2. Las cookies deben estar activadas
+
+Por razones de seguridad, necesitamos las cookies. Sin cookies, es imposible hacer el ingreso en la sesión de forma segura.
+
+Por desgracia, las cookies también permiten a las empresas de anuncios y otras como Google rastrear tu actividad reciente en la web. Si estás preocupado por este seguimiento, te recomendamos que desactives las cookies de terceros. O también puedes bloquear todas las cookies de manera predeterminada, y permitas el almacenamiento de las cookies de los sitios que tú quieras.
+
+h2.  Problemas de acceso a webmail
+
+La pregunta más común que recibimos es: "¿Por qué no puedo acceder?". Esta página te ayudará a hacerte una idea de qué puede estar mal y encontrar una solución.
+
+Casi siempre, los problemas de inicio de sesión se deben a alguna de estas causas:
+
+* Tu navegador web está bloqueando las cookies.
+* Has tecleado mal tu usuario o contraseña.
+* Tu navegador está anticuado, y no es compatible con javascript o conexiones cifradas.
+* Nuestro servidor está caido.
+
+h4. Paso 1: Comprueba que las cookies están activadas
+
+Para instrucciones concretas sobre la gestión de las cookies, visita:
+
+* "Firefox":https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we
+* "Chrome":https://support.google.com/chrome/answer/95647
+* "Internet Explorer 9":http://windows.microsoft.com/es-ES/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 y 8":http://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies
+* "Cookies en Windows: preguntas más frecuentes":http://windows.microsoft.com/es-es/windows/cookies-faq
+
+h4. Paso 2: Prueba con otros navegadores
+
+Si todavía no puedes acceder, deberías empezar a pensar que el problema está en tu cuenta o en tu equipo.
+
+* Prueba en otro ordenador y otros navegadores web. Para que sea más efectivo las otras computadoras o navegadores deben ser lo más distintos posible. Si puedes, prueba a acceder desde una red diferente, usando un navegador diferente o un sistema operativo diferente.
+* Te sugerimos que descargues e instales una versión reciente de Firefox o Chrome. Si esto funcionase, el problema está en tu navegador.
+
+h4.  Paso 3: Comprueba el estado de nuestro servidor
+
+Puede darse el caso de que nuestro servidor esté caido. Puedes ver su estado y leer los avisos del servicio en esta página:
+
+https://status.riseup.net
+
+h4.  Paso 4: ¡Pide ayuda!
+
+Si nada de lo que has visto arriba funciona, "cumplimenta un ticket de ayuda":https://user.riseup.net/forms. Pero por favor, ¡prueba primero lo que te hemos sugerido antes! También, incluye en la descripción del problema todas las posibles soluciones que hayas probado.
