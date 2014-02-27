@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of Feb. 21, 2014, the following are the fingerprints for Riseup's certificates:
+As of Feb. 26, 2014, the following are the fingerprints for Riseup's certificates:
 
  . primary certificate:
 	SHA-1 fingerprint:
@@ -15,28 +15,27 @@ As of Feb. 21, 2014, the following are the fingerprints for Riseup's certificate
         SHA-256 fingerprint:
                 66489042039c4977ef4bb3a8af82bcecd0e19eea220c4fc6b28e8e61a520bf27
 
- . labs.riseup.net (CACert):
+ . labs.riseup.net:
 	SHA-1 fingerprint:
-                c8824834a1a08ab7b13be993c8787da3e8db1392
+                b5f9df62ad8dc52eaec01474933c47710ca31bed
         SHA-256 fingerprint:
-                5014d1f47a6057854ddf362b3b684c0f29f10342acb2c2abc111f8b8ff54b254
+                fbdc7b2b6d6f329567a4b08162f7516917aaa73dca61309b8096c20d39db79a2
                
-
 -----BEGIN PGP SIGNATURE-----
 
-iQJ8BAEBCgBmBQJTB58WXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+iQJ8BAEBCgBmBQJTDrWzXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
 ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOmCYP/Rdcu0faLV+mq0bzDirRvkZh
-2wtYodyrufiEqwUf7AaP3TRnwTHUZF3KwKl4omcT0w+1TonDcPge+Ggb02qQ62fI
-r8OSm4+UkO3FuiOEvD54/tc6/HP2YKiui/RFUFQhQr1TiI1JdBBjJivf3BN/MR3b
-j3e8vWEEJWlizhpSjgnMhYYMQaMCzZ92DgwaFsv25ESusOpbU5/PqIUBix/zA6tU
-qh08wTZ6AvXxtnC6nNsv10IotemhBa0vQHfnNSNzts7PrwOrBwHrl2Vb+RpwSi+m
-5KkH+t0b+ZLu1PiC4Vk/8JYcr57VDtqI7lzGK2isjd2Mwykf/VzU92UaowITDcCh
-5mSB7P+09WR059YiAuy3LO8nJF2SORwqGcDBAf+XHKUBPP5EnismYeLjc5do5puA
-fDzkgBol6BAMRya+PsAdK0wE87PQJy9OLlcKcbCNwiKKHwEtGo8Cp7Z8LaPzi/Bo
-RXpQL70fhsH1lYpMlanoJiEzk2mqK2oVTih1B1UyJuksTNnAK7S8/yE02JuiyMz7
-JsvZEV98cbtufP/4el1xiWQpTvnWD2FU+TU6TiLLKRUMN/Gl2Q185lFPp2hAYRA0
-KPMhXf1wc+vYGEi8FfYboPQ3vkUOIFvWegK48m1PfJ22xyqJk/v7A+YwfGmav3Sw
-aU83gHsAHbiUQQfU5dvj
-=UjT2
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOAPwP/jzJt1mnTsI6TuxH5EAc4Yt6
+CzH+IxiwLJdtjiATmmRU0vZ0ZSZQp39vfIshQj12av5o25GZ49dvT29LVTRz44w2
+N4KaA7/q70Jwy6p9EFHU1+XHALxv980TOu6hWDyQYWpM96nxxkzPvo31NryDCPkU
+HV0BZWa+2mqsbr6UaW+l33vnznIsIZQ5bWCVoSQKOVYNmfJ++XbIZMY/gfyWvp53
+d7zi1ytPwyZP7mg5eqEaJRTBBtnSgEpXW6nrSVAbL2qqaC/ECKrZD4JhY0SO0h6V
+JxvLM5MwWYx+5tl4Q0m8mE6VtJO9aHIdV0WD2PT+R8gv07c1BYUVqrq3eoBEj58w
+X63FM+SNBpxyvDqHmvaCDC2Ju03zHd3Z0OwtmFMLp8SB9nUSiwIldBkr+wdfmR6w
+4hONKm/Iv3n0qVzdNvq0su7eTyVhONs5oaxYRTdfHLIxLlOvrrURiRnyfuvXgkxO
+qCzuyWMKy/3Hdaz4iM7vlIE24JY9VrkmRPjc6f5PjveA6ZzmPSLS48b5sEdz4dHD
+laowSpF4P+linrJ92IhwtE6IBg7StabENcoqCgasKivhKDZfJfRmTN/ZWO4A2wRu
+hYfE1M2FekfMjUVzVWkdCYVfkESYFWHIRRgbMz0cV1voYdBT4aE4Vtn624sHQ5xy
+zahgMYi/lLN2zstgkEcJ
+=099n
 -----END PGP SIGNATURE-----
