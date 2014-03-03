@@ -1,0 +1,166 @@
+%table.table.table-striped.table-condensed
+  %tr
+    %th= t(:donation_processor)
+    %th= t(:supports_recurring_donations)
+    %th= t(:supports_optional_registration)
+    %th= t(:supports_credit_card)
+    %th= t(:notes)
+  %tr
+    %td <a href="#bitcoin"><img src="donate/img/bitcoin.png"></a>
+    %td= t :no_value
+    %td
+      %b= t :yes_value
+    %td= t :no_value
+    %td= t :bitcoin_note
+  %tr
+    %td <a href="#dwolla"><img src="donate/img/dwolla.png"></a>
+    %td
+      %b= t :yes_value
+    %td= t :no_value
+    %td= t :no_value
+    %td= t :dwolla_note
+  %tr
+    %td <a href="#paypal"><img src="donate/img/paypal.png"></a>
+    %td
+      %b= t :yes_value
+    %td
+      %b= t :yes_value
+    %td
+      %b= t :yes_value
+    %td= t :paypal_note
+  %tr
+    %td <a href="#wepay"><img src="donate/img/wepay.png"></a>
+    %td
+      %b= t :yes_value
+    %td
+      %b= t :yes_value
+    %td
+      %b= t :yes_value
+    %td= t :wepay_note
+  %tr
+    %td <a href="#flattr"><img src="donate/img/flattr.png"></a>
+    %td= t :no_value
+    %td= t :no_value
+    %td
+      %b= t :yes_value
+    %td= t :flattr_note
+  %tr
+    %td <a href="#gittip"><img src="donate/img/gittip.png"></a>
+    %td
+      %b= t :yes_value
+    %td= t :no_value
+    %td
+      %b= t :yes_value
+    %td= t :gittip_note
+
+.panel.panel-default
+  %h2.hidey= t :bitcoin
+  .panel-heading
+    <a name="bitcoin"><img src="donate/img/bitcoin.png"></a>
+  .panel-body
+    %p= t :bitcoin_description
+    .donation
+      %form(action="https://help.riseup.net/en/new-bitcoin-address" method="post")
+        %b= t :bitcoin_grab_address
+        %input(type="submit" value="#{t :generate}")
+
+.panel.panel-default
+  %h2.hidey= t :dwolla
+  .panel-heading
+    <a name="dwolla"><img src="donate/img/dwolla.png"></a>
+  .panel-body
+    %p= t :dwolla_description
+    .donation
+      %form(action="https://www.dwolla.com/u/812-574-3324" method="get")
+        %b= t :dwolla
+        %input(type="submit" value="#{t :donate}")
+
+.panel.panel-default
+  %h2.hidey= t :paypal
+  .panel-heading
+    <a name="paypal"><img src="donate/img/paypal.png"></a>
+  .panel-body
+    %p= t :paypal_description
+
+    %p= t :recurring_donation
+
+    :plain
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="modify" value="1">
+        <input type="hidden" name="business" value="BPFRUBU4TVYYS">
+        <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+        <div class="donation">
+          <b>Paypal:</b>
+          <select name="currency_code">
+            <option value="USD">USD $</option>
+            <option value="CAD">CAD $</option>
+            <option value="GBP">GBP £</option>
+            <option value="EUR">EUR €</option>
+          </select>
+          <input type="input" name="a3" value="10" size="6">
+          <select name="p3">
+            <option value="1">#{t :monthly}</option>
+            <option value="3">#{t :quarterly}</option>
+          </select>
+          <input type="submit" name="submit" value="#{t :subscribe}">
+        </div>
+      </form>
+
+    %p= t :one_time_donation
+
+    :plain
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+        <input type="hidden" name="business" value="BPFRUBU4TVYYS">
+        <div class="donation">
+          <b>Paypal:</b>
+          <select name="currency_code">
+            <option value="USD">USD $</option>
+            <option value="CAD">CAD $</option>
+            <option value="GBP">GBP £</option>
+            <option value="EUR">EUR €</option>
+          </select>
+          <input type="input" name="amount" value="25" size="6">
+          <input type="submit" name="submit" value="#{t :donate}">
+        </div>
+      </form>
+
+.panel.panel-default
+  %h2.hidey= t :wepay
+  .panel-heading
+    <a name="wepay"><img src="donate/img/wepay.png"></a>
+  .panel-body
+    %p= t :wepay_description
+    .donation
+      %form(action="https://www.wepay.com/donate/riseup" method="get")
+        %b= t :wepay
+        %input(type="submit" value="#{t :donate}")
+
+.panel.panel-default
+  %h2.hidey= t :flattr
+  .panel-heading
+    <a name="flattr"><img src="donate/img/flattr.png"></a>
+  .panel-body
+    %p= t :flattr_description
+    .donation
+      %form(action="http://flattr.com/thing/523584/Donate-to-Riseup" method="get")
+        %b= t :flattr
+        %input(type="submit" value="#{t :donate}")
+
+.panel.panel-default
+  %h2.hidey= t :gittip
+  .panel-heading
+    <a name="gittip"><img src="donate/img/gittip.png"></a>
+  .panel-body
+    %p= t :gittip_description
+    .donation
+      %form(action="https://www.gittip.com/riseup.net" method="get")
+        %b= t :gittip
+        %input(type="submit" value="#{t :donate}")
+

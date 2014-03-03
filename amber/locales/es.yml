@@ -4,3 +4,46 @@ es:
   related: "Relacionados"
   missing_translation: "Esta página aún no ha sido traducida del Inglés."
   support_riseup: "¡Apoya a Riseup!"
+
+  # Donation page
+  donation_processor: "Gestor"
+  supports_recurring_donations: "Donaciones periódicas?"
+  supports_optional_registration: "Registro obligatorio?"
+  supports_credit_card: "Tarjeta de crédito?"
+  notes: "Notas"
+  yes_value: "Sí"
+  no_value: "No"
+
+  subscribe: "Subscribe"
+  donate: "Donar"
+  monthly: "Mensual"
+  quarterly: "Trimestral"
+  recurring_donation: "Donaciones periódicas"
+  one_time_donation: "Donaciones únicas"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Cripto-moneda electrónica descentralizada de igual a igual."
+  bitcoin_description: "Bitcoin es una cripto-monedaelectrónica descentralizada de igual a igual. Bitcoin es también una manera gratuita de enviar dinero al extranjero. Si quieres usar Bitcoin para enviar dinero a Riseup generaremos una dirección única y original para que la uses en esta donación. Simplemente pulsa en el botón de abajo para obtener esa dirección bitcoin."
+  bitcoin_grab_address: "Obten una dirección bitcoin"
+  generate: "Generar"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Honorarios muy bajos. Necesita registro y una cuenta bancaria de EE.UU"
+  dwolla_description: "Dwolla es un método realmente barato para enviar dinero virtual, de todas formas, es necesario que crees una cuenta en Dwolla vinculada a una cuenta bancaria en los EE.UU. Dwolla es compatible con donaciones periódicas."
+
+  paypal: "Paypal"
+  paypal_note: "Funciona desde muchos paises."
+  paypal_description: "Paypal acepta tarjetas de crédito y es compatible con donaciones periódicas (para donaciones periódicas, es necesario una cuenta PayPal)."
+
+  wepay: "WePay"
+  wepay_note: "Una alternativa a PayPal."
+  wepay_description: "WePay es una buena alternativa a PayPal. Puedes usar WePay sin necesidad de registrarte y es acepta tarjetas de crédito."
+
+  flattr: "Flattr"
+  flattr_note: "Micropagos."
+  flattr_description: "Flattr es un sistema de micropagos que te permite ayudar a muchos proyectos."
+
+  gittip: "Gittip"
+  gittip_note: "Micropagos periódicos."
+  gittip_description: "Gittip es otro sistema de micropagos que te permite hacer donaciones semanales a los proyectos que te gusten."
+

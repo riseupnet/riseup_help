@@ -4,3 +4,45 @@ de:
   related: "Related"
   missing_translation: "Diese Seite wurde noch nicht von dem Englisch übersetzt worden."
   support_riseup: "Unterstützung Riseup!"
+
+  # Donation page
+  donation_processor: "Dienstleister"
+  supports_recurring_donations: "Daueraufträge?"
+  supports_optional_registration: "Registrierung freigestellt?"
+  supports_credit_card: "Kreditkarten?"
+  notes: "Bemerkungen"
+  yes_value: "Ja"
+  no_value: "Nein"
+
+  subscribe: "Einrichten"
+  donate: "Spenden"
+  monthly: "monatlich"
+  quarterly: "vierteljährlich"
+  recurring_donation: "Daueraufträge"
+  one_time_donation: "Einmalige Spende"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "dezentrale, elektronische Peer2Peer-Kryptowährung"
+  bitcoin_description: "Bitcoin ist eine dezentrale, elektronische Peer-to-Peer Kryptowährung (Übersetzt: momentan nur für Computerfreaks zu empfehlen!). Bitcoin bietet die Möglichkeit Geld kostenfrei nach Übersee zu senden. Falls Du bitcoin nutzen willst, um Geld an Riseup zu senden, erstellen wir Dir eine neue, einzigartige bitcoin-Adresse für Deine Spende. Klicke einfach unten auf den Knopf, um eine neue bitcoin-Adresse zu generieren."
+  bitcoin_grab_address: "Hole Dir eine bitcoin-Adresse"
+  generate: "Erstellen"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Sehr geringe Gebühren. Erfordert Registrierung und ein US-Bankkonto"
+  dwolla_description: "Dwolla ist eine relativ günstige Möglichkeit, virtuelles Geld zu versenden, benötigt allerdings ein mit einem US-Bankkonto verknüpftes Dwolla-Konto. Dwolla unterstützt Daueraufträge."
+
+  paypal: "Paypal"
+  paypal_note: "Klappt von vielen Ländern der Welt"
+  paypal_description: "Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig)."
+
+  wepay: "WePay"
+  wepay_note: "Eine Alternative zu Paypal"
+  wepay_description: "WePay ist eine nette Alternative zu Paypal. Du kannst WePay ohne Anmeldung nutzen, Kreditkarten werden unterstützt."
+
+  flattr: "Flattr"
+  flattr_note: "Minispenden summieren sich!"
+  flattr_description: "Flattr ist ein Überweisungssystem für Kleinstbeträge („Micropayment“), das es Dir ermöglicht, verschiedene Projekte zu unterstützen."
+
+  gittip: "Gittip"
+  gittip_note: "regelmäßige Zahlungen summieren sich"
+  gittip_description: "Gittip ist ein weiteres micropayment-System, das es ermöglicht, wöchentliche Zahlungen einzustellen."

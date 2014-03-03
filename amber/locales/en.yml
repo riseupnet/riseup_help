@@ -19,3 +19,46 @@ en:
   link_email: "Email"
   link_chat: "Chat"
   link_groups: "Groups"
+
+  # Donation page
+  donation_processor: "Donation Processor"
+  supports_recurring_donations: "Recurring Donations?"
+  supports_optional_registration: "Registration Optional?"
+  supports_credit_card: "Credit Card?"
+  notes: "Notes"
+  yes_value: "Yes"
+  no_value: "No"
+
+  subscribe: "Subscribe"
+  donate: "Donate"
+  monthly: "Monthly"
+  quarterly: "Quarterly"
+  recurring_donation: "Recurring Donation"
+  one_time_donation: "One Time Donation"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
+  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
+  bitcoin_grab_address: "Grab a bitcoin address"
+  generate: "Generate"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Very low fees. Requires registration and US bank account"
+  dwolla_description: "Dwolla is a really cheap way to send virtual cash, although it requires that you create a Dwolla account linked to a US bank account. Dwolla supports recurring donations."
+
+  paypal: "Paypal"
+  paypal_note: "Works from many countries."
+  paypal_description: "Paypal accepts credit cards and supports recurring donations (for recurring donations, a PayPal account is required)."
+
+  wepay: "WePay"
+  wepay_note: "An alternative to PayPal."
+  wepay_description: "WePay is a nice alternative to PayPal. You can use WePay without creating an account, and it supports credit cards."
+
+  flattr: "Flattr"
+  flattr_note: "Micropayments add up."
+  flattr_description: "Flattr is a micropayment system that allows you to support multiple projects."
+
+  gittip: "Gittip"
+  gittip_note: "Reoccurring micropayments add up."
+  gittip_description: "Gittip is another micropayment system that allows you to give weekly to the projects you like."
+

@@ -1,22 +1,17 @@
 @title = 'Spenden'
-
-<html>
-<style>
-.donation {border: 1px solid #FFE8A9; padding:0.5em; background-color: #FFF6DD; overflow: auto; display: inline-block;}
-</style>
-</html>
+@this.alias = '/spenden'
 
 h1. Unterstütze radikale Alternativen!
 
-!>/assets/43579/page15-1004-full_medium.jpg!
+!>donate/img/red-leap-medium.jpg!
 
 Riseup arbeitet pausenlos an der Erstellung alternativer Graswurzel-Technologien, um die Kommunikation von Menschen und Organisationen, die einen sozialen Wandel herbeiführen wollen, zu erleichtern. Die herkömmlichen Gratisangebote großer Firmen finanzieren sich üblicherweise durch die intensive Auswertung Deines Kommunikationsverhaltens. Riseup hingegen  arbeitet auf Spendenbasis von Nutzer_innen wie Dir, denen es wichtig ist, demokratische Alternativen zu unterstützen.
 
-Für weitergehende Informationen über Riseup, kannst Du [uns kennenlernen -> about-us] oder unsere [Projekt-Übersicht -> projects] ansehen. Riseup ist eine [eingetragene unkommerzielle Organisation -> https://riseup.net/irs-tax-letter.pdf] nach Abschnitt ==501(c)(4)== des „US Internal Revenue Code“.
+Für weitergehende Informationen über Riseup, kannst Du [[uns kennenlernen -> about-us]] oder unsere [[Projekt-Übersicht -> projects]] ansehen. Riseup ist eine [[eingetragene unkommerzielle Organisation -> https://riseup.net/irs-tax-letter.pdf]] nach Abschnitt ==501(c)(4)== des „US Internal Revenue Code“.
 
-Spenden an riseup.net können *nicht* von der Steuer abgesetzt werden. Für von der US-Steuer absetzbare Spenden kannst Du [unsere Schwesterorganisation Riseup Labs unterstützen -> donate-labs].
+Spenden an riseup.net können *nicht* von der Steuer abgesetzt werden. Für von der US-Steuer absetzbare Spenden kannst Du [[unsere Schwesterorganisation Riseup Labs unterstützen -> donate-labs]].
 
-Falls Du Programmierer_in bist, kannst Du Riseup [durch das Schreiben von Code unterstützen -> programmers-wanted]. 
+Falls Du Programmierer_in bist, kannst Du Riseup [[durch das Schreiben von Code unterstützen -> programmers-wanted]].
 
 h2. Beitragsvorschläge
 
@@ -31,178 +26,19 @@ Alle finanziellen Entscheidungen des *Riseup Kollektivs* werden im Konsensverfah
 
 h1. Spenden per Post
 
-Mache Schecks oder Zahlungsanweisungen auszahlbar an [*“Riseup Networks“*] und sende sie an:
+Mache Schecks oder Zahlungsanweisungen auszahlbar an *“Riseup Networks“* und sende sie an:
 
-div(donation). Riseup Networks
+p(donation). Riseup Networks
 PO Box 4282
-Seattle, WA 98194 USA 
+Seattle, WA 98194 USA
 
 Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe zu verschicken. Seid versichert, dass wir Euch unglaublich Dankbar sind: Eure Unterstützung hält uns am Leben und macht all unsere harte Arbeit erst möglich. Wir schätzen sehr, wenn Du Dein Geld für das ausgibst, was Dir wirklich wichtig ist!
 *Ausnahme:* Wir sind gesetzlich dazu verpflichtet, jährlich die Identität aller Spender_innen von über $5.000 offenzulegen.
 
-
 h1. Online-Spenden
 
-|_. Dienstleister |_. Daueraufträge? |_. Registrierung freigestellt? |_. Kreditkarten? |_. Bemerkungen |
-| !/assets/60142/bitcoin.png!:#bitcoin | Nein | Yes | No | dezentrale, elektronische Peer2Peer-Kryptowährung |
-| !/assets/60143/dwolla.png!:#dwolla | *Ja* | Nein | Nein | Sehr geringe Gebühren. Erfordert Registrierung und ein US-Bankkonto. |
-| !/assets/60146/paypal.png!:#paypal | *Ja* | *Ja* | *Ja* | Klappt von vielen Ländern der Welt |
-| !/assets/60147/wepay.png!:#wepay| *Ja* | *Ja* | *Ja* | Eine Alternative zu Paypal |
-| !/assets/84334/flattr-logo1.png!:#flattr | Nein | Nein | Ja | Minispenden summieren sich! |
-| !/assets/160983/logo.png!:#gittip | *Ja* | Nein | *Ja* | regelmäßige Zahlungen summieren sich |
-
-h2. Bitcoin
-
-!>/assets/60142/bitcoin.png!
-
-[Bitcoin -> http://www.bitcoin.org] ist eine dezentrale, elektronische Peer-to-Peer [Kryptowährung -> https://de.wikipedia.org/wiki/Bitcoin] (Übersetzt: momentan nur für Computerfreaks zu empfehlen!). Bitcoin bietet die Möglichkeit Geld kostenfrei nach Übersee zu senden.
-
-Falls Du bitcoin nutzen willst, um Geld an Riseup zu senden, erstellen wir Dir eine neue, einzigartige bitcoin-Adresse für Deine Spende. Klicke einfach unten auf den Knopf, um eine neue bitcoin-Adresse zu generieren.
-
-<html>
-<div class="donation">
-  <form action="https://help.riseup.net/en/new-bitcoin-address" method="post">
-    <b>Hole Dir eine bitcoin-Adresse:</b> <input type="submit" value="Erstellen">
-  </form>
-</div>
-</html>
-
-h2. Dwolla
-
-!>/assets/60143/dwolla.png!
-
-Dwolla ist eine relativ günstige Möglichkeit, virtuelles Geld zu versenden, benötigt allerdings ein mit einem US-Bankkonto verknüpftes Dwolla-Konto. Dwolla unterstützt Daueraufträge.
-
-<html>
-<div class="donation">
-  <form action="https://www.dwolla.com/u/812-574-3324" method="get">
-    <b>Dwolla:</b> <input type="submit" value="Spenden">
-  </form>
-</div>
-</html>
-
-h2. Paypal
-
-!>/assets/60146/paypal.png!:#paypal
-
-Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig).
-
-Daueraufträge:
-
-<html><div class="donation">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_xclick-subscriptions">
-    <input type="hidden" name="t3" value="M">
-    <input type="hidden" name="src" value="1">
-    <input type="hidden" name="sra" value="1">
-    <input type="hidden" name="no_note" value="1">
-    <input type="hidden" name="modify" value="1">
-    <input type="hidden" name="business" value="BPFRUBU4TVYYS">
-    <input type="hidden" name="item_name" value="riseup donation">
-
-    <b>Paypal:</b>
-    <select name="currency_code">
-      <option value="USD">USD $</option>
-      <option value="CAD">CAD $</option>
-      <option value="GBP">GBP £</option>
-      <option value="EUR">EUR €</option>
-    </select>
-    <input type="input" name="a3" value="10" size="6">
-    <select name="p3">
-      <option value="1">monatlich</option>
-      <option value="3">vierteljährlich</option>
-    </select>
-    <input type="submit" name="submit" value="Einrichten">
-  </form>
-</div></html>
-
-Einmalige Spende:
-
-<html><div class="donation">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_donations">
-    <input type="hidden" name="item_name" value="riseup donation">
-    <input type="hidden" name="business" value="BPFRUBU4TVYYS">
-
-    <b>Paypal:</b>
-    <select name="currency_code">
-      <option value="USD">USD $</option>
-      <option value="CAD">CAD $</option>
-      <option value="GBP">GBP £</option>
-      <option value="EUR">EUR €</option>
-    </select>
-    <input type="input" name="amount" value="25" size="6">
-    <input type="submit" name="submit" value="Spenden">
-  </form>
-</div></html>
-
-h2. WePay
-
-!>/assets/60147/wepay.png!
-
-WePay ist eine nette Alternative zu Paypal. Du kannst WePay ohne Anmeldung nutzen, Kreditkarten werden unterstützt.
-
-<html>
-<div class="donation">
-  <form action="https://www.wepay.com/donate/riseup" method="get">
-    <b>WePay:</b>
-    <input type="submit" value="Spenden">
-  </form>
-</div>
-</html>
-
-
-h2. Flattr
-
-!>/assets/84334/flattr-logo1.png!
-
-Flattr ist ein Überweisungssystem für Kleinstbeträge („Micropayment“), das es Dir ermöglicht, verschiedene Projekte zu unterstützen.
-
-<html>
-<div class="donation">
-<a href="http://flattr.com/thing/523584/Donate-to-Riseup" target="_blank">
-<img src="/assets/84946/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-</div>
-</html>
-
-
-h2. gittip
-
-!>/assets/160983/logo.png!
-
-Gittip ist ein weiteres micropayment-System, das es ermöglicht, wöchentliche Zahlungen einzustellen. Um an riseup.net per gittip zu spenden, [klick einfach auf die gittip-Seiten->https://www.gittip.com/riseup.net/].
+<%= render :partial => 'inc/donate_forms' %>
 
 h1. Häufig gestellte Fragen
 
-h2. Wie mache ich eine Banküberweisung?
-
-Falls Du eine Banküberweisung machen willst, kontaktiere uns bitte für unsere ABA/SWIFT/IBAN-Nummer unter treasurer@riseup.net.
-
-h2. Wie spende ich von außerhalb der USA?
-
-Falls Du außerhalb der USA lebst, überlege Dir bitte, ob Du nicht lieber ein Technik-Kollektiv in Deiner Nähe unterstützen willst. Falls Du uns eine Spende zukommen lassen möchtest, gibt es verschiedene Möglichkeiten:
-
-# Du kannst uns einen Scheck in deiner örtlichen Währung ausstellen und an die oben genannte Adresse schicken. Wir können Schecks in Fremdwährungen problemlos einlösen, es kann allerdings eine Weile dauern, bis diese von Deinem Konto abgebucht werden.
-# Falls Du eine Kreditkarte besitzt, kannst Du die obigen Onlinespenden-Links nutzen. Du kannst auch Paypal nutzen, falls sie Dein Land bedienen.
-# Du kannst per [#bitcoin] spenden.
-
-h2. Wie spende ich anonym?
-
-Da hast Du zwei Möglichkeiten:
-
-# Sende Bargeld an die oben genannte Adresse.
-# Oder nutze [#bitcoin]. Es erfordert allerdings etwas Aufwand, um [echte Anonymität mit bitcoin -> https://en.bitcoin.it/wiki/Anonymity] zu gewährleisten.
-
-h2. Wie modifiziere oder stoppe ich einen Dauerauftrag bei Paypal?
-
-So kannst Du einen Paypal-Dauerauftrag beenden:
-
-# Melde Dich an Deinem Paypal-Konto an.
-# Klicke auf den *History*-Tab.
-# Wähle das Feld *Subscriptions* im Ausklapp-Menü *Show*.
-# Setzte das Datum im *From*-Feld um zwei Jahre zurück.
-# Klicke auf *Search*.
-# Um Dir die Details eines bestimmten Auftrags anzeigen zu lassen, klicke auf *Details* in der entsprechenden Spalte.
-# Klicke auf *Cancel Subscription* ganz unten auf dieser Seite.
-# Auf der Bestätigungsseite klicke nochmals *Cancel Subscription*. 
-
+<%= render :partial => 'inc/faq' %>

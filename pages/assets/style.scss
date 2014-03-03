@@ -39,6 +39,12 @@ a:visited {
   margin-top: 0px !important;
 }
 
+h2.hidey {
+  font-size: 0;
+  position: absolute;
+  z-index: -1000;
+}
+
 //
 // DESIGN ELEMENTS
 //
