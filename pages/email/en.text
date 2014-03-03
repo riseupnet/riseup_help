@@ -48,7 +48,7 @@ h2. What is special about riseup.net email
 Your riseup.net email account is a wonderful thing. Although we don't provide as much storage quota as surveillance-funded corporate email providers, riseup.net email has many unusual features:
 
 [*We encrypt traffic whenever possible.*]
-When you send email from riseup.net to another secure email provider, the email is encrypted for its entire journey. (see [StartTLS] for more info)
+When you send email from riseup.net to another secure email provider, the email is encrypted for its entire journey. (see [[StartTLS]] for more info)
 
 [*We don't disclose your location to email recipients.*]
 When you send email with riseup.net, your internet address (IP address) is not embedded in the email. With corporate email providers, anyone who receives your email can figure out your approximate physical location from the internet address included in the email.

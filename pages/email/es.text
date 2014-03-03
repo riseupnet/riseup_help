@@ -48,7 +48,7 @@ h2. ¿Qué hace especial al correo de riseup.net?
 Tu cuenta de correo de riseup.net es una cosa maravillosa. Aunque no ofrecemos tanto espacio de almacenamiento como el que ofrecen las empresas que se financian a través de la vigilancia, el email de riseup.net tiene muchas características poco frecuentes:
 
 [*Encriptamos tráfico siempre que sea posible.*]
-Cuando envías un correo a otro proveedor seguro desde riseup.net, este correo viaja cifrado a lo largo de todo el recorrido. (Ojea [StartTLS] para más información)
+Cuando envías un correo a otro proveedor seguro desde riseup.net, este correo viaja cifrado a lo largo de todo el recorrido. (Ojea [[StartTLS]] para más información)
 
 [*Nosotros no revelamos tu ubicación a los destinatarios del correo electrónico.*]
 Cuando envías un correo con riseup.net, tu dirección en internet (dirección IP) no va incrustada en el email. Con los proveedores de correo empresariales cualquiera que reciba tus correos se puede hacer una idea de tu ubicación física viendo la dirección IP que va incluída en los mismos.
