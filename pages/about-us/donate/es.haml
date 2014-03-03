@@ -1,6 +1,5 @@
 - @title = 'Dona a Riseup'
 - @nav_title = 'Donar'
-- @this.alias = '/donate'
 
 %h1 ¡Ayuda a las alternativas radicales!
 
@@ -8,11 +7,11 @@
 
 %p Riseup trabaja sin descanso para crear tecnologías de base que se ocupen de las necesidades de comunicación de la gente y las organizaciones que trabajan por el cambio social. Cuando recibes un servicio de una empresa que no te cobra, lo más probable es que saquen dinero por vigilarte de forma intensiva. Riseup, en cambio, depende de las donaciones de sus usuarias y usuarios, que como tú, creen en el mantenimiento de alternativas democráticas.
 
-%p Para más información sobre Riseup, puedes #{link 'conocer a nuestra gente' => 'about-us'} y echar un ojo a nuestros #{link 'proyectos' => 'projects'}. Riseup es una #{link "organización sin ánimo de lucro" => "https://help.riseup.net/about-us/donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf"} registrada en la sección 501(c)(4) del Código de Rentas de los EE.UU.
+%p Para más información sobre Riseup, puedes [[conocer a nuestra gente => about-us]] y echar un ojo a nuestros [[proyectos => projects]]. Riseup es una [[organización sin ánimo de lucro => https://help.riseup.net/about-us/donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] registrada en la sección 501(c)(4) del Código de Rentas de los EE.UU.
 
-%p Las donaciones a favor de riseup.net <b>no</b> pueden deducirse. Si quieres hacer una donación que pueda deducirse (en los EE.UU.),  #{ link 'colaborar con nuestra organización hermana, Riseup Labs' => 'donate-labs'}.
+%p Las donaciones a favor de riseup.net <b>no</b> pueden deducirse. Si quieres hacer una donación que pueda deducirse (en los EE.UU.), [[colaborar con nuestra organización hermana, Riseup Labs => donate-labs]].
 
-Si eres programador, puedes apoyar a Riseup #{link 'escribiendo código' => 'programmers-wanted'}.
+Si eres programador, puedes apoyar a Riseup [[escribiendo código => programmers-wanted]].
 
 %h2 Colaboraciones que proponemos
 
@@ -197,4 +196,4 @@ Si eres programador, puedes apoyar a Riseup #{link 'escribiendo código' => 'pro
         <b>Gittip:</b>
         %input(type="submit" value="Donar")
 
-= render 'faq'
+= render :partial => 'faq'
