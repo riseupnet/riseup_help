@@ -1,0 +1,69 @@
+@title = "Clientes de correo"
+
+h2.  ¿Qué es un cliente de correo?
+
+La mayoría de la gente está más familiarizado al [[correo basado en web => webmail]], donde puedes comprobar tu correo usando un navegador web como Firefox o Chrome.
+
+Un <b>cliente  de correo</b>, en cambio, es un programa específicamente diseñado para comprobar tu correo y redactar mensajes. Hay disponibles varios clientes gratuitos y/o de software libre para la mayoría de plataformas.
+
+Para obtener ayuda sobre la configuración de algún cliente en concreto, pulsa en el enlace correspondiente:
+
+table(table table-striped).
+|_.*Plataforma*|_.*Clientes de software libre recomendados*|_.*Otros clientes comerciales*|
+|Linux   | [[thunderbird]], [[evolution]], Kmail, Balsa, mutt, alpine, etc| |
+|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Android | [[k9]] |  |
+|iOS     |  |  [[ios-mail]] |
+
+h2. Elige IMAP o POP
+
+Los clientes de correo pueden acceder a tu buzón usando POP o IMAP.
+
+table(table table-striped).
+|         |_. POP    |_. IMAP   |
+| Almacenamiento | *En tu ordenador*. Cuando usas POP, normalmente se descarga todo tu correo a tu computadora y se elimina de los servidores de riseup.net. | *En el servidor de Riseup*. IMAP mantiene todos los mensajes en el servidor. Es como si un cliente IMAP proporcionase una imagen de los datos almacenados en el servidor. |
+| Itinerancia | *Baja*. POP solo funciona bien cuando usas la misma computadora para revisar tu correo. | *Alta*. IMAP te permite usar distintos clientes y mantenerlos sincronizados entre sí. |
+| Velocidad   | *Rápida*, porque todo simplemente se descarga a tu ordenador. | *Lenta*, porque el cliente de correo debe hacer constantemente consultas al servidor. |
+| Cuota   | *Ilimitada*. Nunca tendrás que preocuparte por la cuota si tu cliente está configurado para borrar los mensajes del servidor después de descargarlos. | *Limitada*. Tendrás una [cuota limitada -> quota]. |
+| Seguridad | *Mayor*. Tus mensajes no están almacenados en el servidor (normalmente). | *Menor*. Estás encomendando el almacenamiento a Riseup. |
+
+h2. Configuración básica del cliente
+
+Aunque algunos clientes de correo pueden configurar de forma automática, la mayoría necesita alguna información básica para conectarse a la cuenta de correo de Riseup.
+
+Supongamos que tu dirección de correo es [@collective@riseup.net@]:
+
+* Servidor entrante: @mail.riseup.net@
+* Servidor saliente: @mail.riseup.net@
+* Login o nombre de usuario: @collective@
+* Usar conexión segura: @sí@ (TLS)
+(Esto es necesario. La [[conexión-segura->/security/network-security/secure-connections]] puede ser de tipo SSL, TLS o StartTLS. TLS se recomienda encarecidamente, los otros son mucho menos seguros.)
+
+*Nota:* No actives *contraseñas seguras* o *autentificación segura*. Tienen un nombre poco apropiado. Estos métodos de especificar contraseñas exigen que el servidor guarde una copia de tu contraseña en texto plano. Consideramos esto como un riesgo, así que no proporcionamos "contraseñas seguras". De todas formas como la conexión a riseup.net está cifrada, no es necesario.
+
+h2.  ¡Usa Thunderbird
+
+!>clients/reclaimyourinbox.png!:http://getthunderbird.com
+
+Thunderbird es el cliente de correo que recomendamos para usar riseup.net. Tristemente, la "Fundación Mozilla":https://mozilla.org ha abandonado Thunderbird, pero aún es la mejor solución de software libre multiplataforma.
+
+Thunderbird se configurará automáticamente para usar tu cuenta de riseup.net. Visita nuestros [[tutoriales de Thunderbird => thunderbird]] para obtener más información.
+
+h2.  ¿Por qué utilizar un cliente de correo?
+
+Hay muchas ventajas para usar un cliente de correo en lugar de usar el correo web:
+
+* Cuando se usa un cliente, no tienes que estar constantemente conectado a internet. En cambio puedes conectarte, descargar todo tu correo, desconectarte, y leer los emails cuando quieras. Esto es muy conveniente si tu conexión no es segura, es lenta o si tienes un acceso restringido. También puedes redactar correos en cualquier momento, guardarlos, y enviarlos más tarde, cuando te hayas conectado a internet.
+* El [[webmail]] de Riseup es muy limitado. Los clientes tienen muchas más características.
+* Los clientes de correo son generalmente más rápidos que el correo por web.
+* La mayoría de los clientes te permiten manejar varias cuentas desde un mismo lugar. Esto puede ser muy útil si tienes diferentes cuentas para las distintas facetas de tu vida.
+
+Pero también tiene algunas desventajas:
+
+* Para usar un cliente de correo, debes instalar y software en tu ordenador y configurarlo para tu cuenta (o cuentas).
+* Debido a que los clientes almacenan los mensajes en tu máquina otras personas pueden leer tu correo, si tienen acceso a la computadora.
+
+h2.  ¿Puedo usar el correo web y un cliente de correo?
+
+Sí, puedes alternar sin problemas. A menudo, la gente usa un cliente cuando está en casa o en el trabajo, y usa el correo web cuando está de viaje. Si usas ambas opciones, debes estar familiarizado con las diferencias que hay entre POP e IMAP.
