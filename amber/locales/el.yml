@@ -1,0 +1,59 @@
+el:
+  tags: "Tags"
+  tag: "Tag"
+  related: "Σχετικά"
+  system_updates: "Ενημερώσεις συστήματος"
+  missing_translation: "Αυτή η σελίδα δεν έχει μεταφραστεί ακόμα."
+  support_riseup: "Στηρίξτε τη Riseup!"
+  motto: "Αφήστε το internet, τα λέμε στους δρόμους!"
+  footer_tagline: "Αυτή η σελίδα λειτουργεί με ευθύνη της riseup.net, της αγαπημένης σας αυτόνομης συλλογικότητας από το 1999."
+  contribute_to_help: "Είστε ευπρόσδεκτοι να συνεισφέρετε περιεχόμενο και μεταφράσεις για τις σελίδες αυτές."
+  system_updates: "Ενημερώσεις Συστήματος"
+  # quick links:
+  link_privacy: "Πολιτική Απορρήτου"
+  link_about_us: "Σχετικά με εμάς"
+  link_status: "Κατάσταση Συστήματος"
+  link_support: "Στηρίξτε τη Riseup"
+  # services:
+  link_lists: "Λίστες ταχυδρομείου"
+  link_email: "Email"
+  link_chat: "Chat"
+  link_groups: "Ομάδες"
+
+  # Donation page
+  donation_processor: "Τρόπος δωρεάς"
+  supports_recurring_donations: "Επαναλαμβανόμενες συνεισφορές;"
+  supports_optional_registration: "Προαιρετική εγγραφή;"
+  supports_credit_card: "Κάρτα;"
+  notes: "Σημειώσεις"
+  yes_value: "Ναι"
+  no_value: "Όχι"
+
+  subscribe: "Εγγραφή"
+  donate: "Συνεισφέρετε"
+  monthly: "Μηνιαία"
+  quarterly: "Τριμηνιαία"
+  recurring_donation: "Επαναλαμβανόμενη συνεισφορά"
+  one_time_donation: "Συνεισφορά μιας φοράς"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Αποκεντρωμένο ηλεκτρονικό κρυπτο-νόμισμα μεταξύ ομοτίμων."
+  bitcoin_description: "Το Bitcoin είναι ένα αποκεντρωμένο ηλεκτρονικό κρυπτο-νόμισμα μεταξύ ομοτίμων. Το bitcoin είναι ακόμα ένας δωρεάν τρόπος να στείλεις χρήματα σε άλλη ήπειρο. Αν θέλετε να χρησιμοποιήσετε το bitcoin για να στείλετε λεφτά στη Riseup, θα δημιουργήσουμε μια νέα, μοναδική bitcoin διεύθυνση για να κάνετε την δωρεά σας. Απλά κάντε κλικ στο κουμπί παρακάτω για να δημιουργηθεί μια νέα bitcoin διεύθυνση."
+  bitcoin_grab_address: "Πάρτε μια bitcoin διεύθυνση"
+  generate: "Δημιουργία"
+
+  paypal: "Paypal"
+  paypal_note: "Λειτουργεί σε πολλές χώρες."
+  paypal_description: "Το Paypal δέχεται χρεωστικές κάρτες και υποστηρίζει επαναλαμβανόμενες συνεισφορές (για επαναλαμβανόμενες συνεισφορές απαιτείται λογιαριασμός στο Paypal)."
+  
+  wepay: "WePay"
+  wepay_note: "Εναλλακτική του PayPal."
+  wepay_description: "To WePay είναι μια καλή εναλλακτική του PayPal. Μπορείτε να χρησιμοποιήσετε το WePay χωρίς να δημιουργήσετε λογαριασμό ενώ υποστηρίζει χρεωστικές κάρτες."
+
+  flattr: "Flattr"
+  flattr_note: "Μικροπληρωμές"
+  flattr_description: "Το Flattr είναι ένα σύστημα μικροπληρωμών που σας επιτρέπει να στηρίξετε πολλά projects."
+
+  gittip: "Gittip"
+  gittip_note: "Μικροπληρωμές"
+  gittip_description: "Το Gittip είναι άλλο ένα σύστημα μικροπληρωμών που σας επιτρέπει να προσφέρετε σε εβδομαδιαία βάση στα εγχειρήματα που σας αρέσουν."
