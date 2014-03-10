@@ -21,33 +21,3 @@ To reset your account, you must have an active [[alternate email => mail-account
 h2. My password works some places, but not others, why?
 
 If your password works on https://mail.riseup.net but not with your mail client, you should check to see if you are using any special characters in your password. Some mail clients do not recognize special characters and will not work. You can change your password at https://user.riseup.net
-
-h2. Verifying a password change request
-
-If you received a request to change your password, and you came here to verify it, thank you for doing so! For verification purposes, you can find below a copy of that request.
-
-<pre>
-Dearest Riseup user,
-
-We are concerned about the safety of your account because we have been under constant attacks[0] by people attempting to compromise accounts, ugh!
-
-As a result of this, we've been doing some checks and have found that your password is too simple so it is an easy target for compromise. We need your help to keep our place nice and safe for everyone, so we need you to do us birds a little favor and change your password to something a little more challenging before March 15th. More information about how to do this is contained below.
-
-You can change your password by navigating to riseup's main page, look for the "Email" section where you can find a link to "Change my settings"[3]. That will bring you to the correct location to set a new password. If you are concerned you might forget your new password, set a secret question and an alternate email that you can use to gain access to your account if you loose it.
-
-But first, before you do anything... Are you at all concerned that this is a legitimate email from Riseup? You should be! An email like this should raise your suspicions. Before doing anything else, please verify that this email is legitimate:
-
-*** Verifying this email ***
-
-To verify this email, you can visit riseup's help pages. You can do that by following the link provided below. But don't click on that link! You should instead examine this link closely to make sure it really goes where its supposed to go. There are two tricks you need to be aware of:
-
-1. The link could say a valid Riseup address, but when you click on it you could be directed to a different site entirely. The best way to prevent this is to copy and paste the link (remember: don’t click it!) to your address bar, but before you do that:
-
-2. You can still get tricked by URL’s that *look* legitimate but have one or two letters switched. So verify the link is for Riseup's help pages, by making sure that "riseup" is spelled correctly (for example, "risuep.net" looks right, but its not!). You can double check the URL is correct by navigating to Riseup's home page, there look for the Support section, and there you will find a link to our help pages.
-
-If you are sure about the above, you can copy and paste this link into your browser (don't click it!):
-
-https://help.riseup.net/email/settings/mail-passwords
-
-If you need more help, you can follow the links on our home page for more support.
-</pre>
