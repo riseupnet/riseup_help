@@ -1,0 +1,17 @@
+zh:
+  missing_translation: "这个页面还没有被翻译成中文。"
+  support_riseup: "支持Riseup！"
+  motto: "我希望看到你离开电脑，走上街头！"
+  footer_tagline: "这个网站由Riseup.net运作。我们是独立的友善的技术团体，始于1999年。"
+  contribute_to_help: "欢迎您的加入！帮我们翻译这个页面吧，让更多华人rise up！"
+  system_updates: "系统升级"
+  # quick links:
+  link_privacy: "隐私政策"
+  link_about_us: "关于我们"
+  link_status: "系统状态"
+  link_support: "支持Riseup"
+  # services:
+  link_lists: "邮件列表"
+  link_email: "电子邮件"
+  link_chat: "即时聊天"
+  link_groups: "群组"
