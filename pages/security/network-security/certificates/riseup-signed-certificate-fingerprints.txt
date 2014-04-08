@@ -4,23 +4,23 @@ Hash: SHA512
 As of April 07, 2014, the following are the fingerprints for Riseup's certificates:
 
  . primary certificate:
-        SHA-1 fingerprint:
-                8f4de7caff66c526aad1bce95e00b0033f1b5793
+	SHA-1 fingerprint:
+		8f4de7caff66c526aad1bce95e00b0033f1b5793
         SHA-256 fingerprint:
                 ac85c52b13a8758611558a5e6682cfc13b2f234835601d2dc8d178c47d3b165b
 
  . status.riseup.net (CACert):
-        SHA-1 fingerprint:
-                108e95fd26839a154dced2b862d6c2916e7a0355
+	SHA-1 fingerprint:
+		108e95fd26839a154dced2b862d6c2916e7a0355
         SHA-256 fingerprint:
                 66489042039c4977ef4bb3a8af82bcecd0e19eea220c4fc6b28e8e61a520bf27
 
  . labs.riseup.net:
-        SHA-1 fingerprint:
+	SHA-1 fingerprint:
                 40970b78c6ca6f64e41ab9ca8f1d23f43e194a41
         SHA-256 fingerprint:
                 47e94c15a6a36bd2819ab6751830bde8ea8275e4b50244230945d41926de7bb1
-
+               
 -----BEGIN PGP SIGNATURE-----
 
 iQJ8BAEBCgBmBQJTQ2fgXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
