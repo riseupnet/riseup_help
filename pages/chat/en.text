@@ -57,5 +57,5 @@ For testing, you can select @riseup.net@ as room name and join it.
 
 h2. For added security
 
-For added security, access our jabber server via the [[Riseup VPN => vpn]] or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @ztmc4p37hvues222.onion@
+For added security, access our jabber server via the [[Riseup VPN => vpn]] or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. (See also our [[Tor page->tor#riseups-tor-hidden-services]] for a complete list of hidden nodes)
 
