@@ -56,17 +56,17 @@ Tor makes it possible for not just users to hide their locations, but servers as
 The following is a list of Riseup's Tor hidden services:
 
 <pre>
-imap.riseup.net:  xyvp43vrggckj427.onion (port 993)
-labs.riseup.net:  26t3nfmryr7cg2io.onion (port 80, 443)
-lists.riseup.net: jrel5ubuxzxnlmqf.onion (port 80, 443)
-mail.riseup.net:  xyvp43vrggckj427.onion (ports 443, 465, 587)
-pad.riseup.net:   ttbmov2dezfs2fln.onion (port 443)
-pop.riseup.net:   xyvp43vrggckj427.onion (port 995)
-shell.riseup.net: f2gbcmawrov75gag.onion (port 22)
-smtp.riseup.net:  xyvp43vrggckj427.onion (ports 465, 587)
-user.riseup.net:  yiycjq5des4vnwtp.onion (port 80, 443)
-we.riseup.net:    ad332dtuffx66l2q.onion (port 443)
-xmpp.riseup.net:  ztmc4p37hvues222.onion (ports 3478, 3479, 5190, 5222, 5223, 5269, 7777)
+imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
+labs.riseup.net:  yfm6sdhnfbulplsw.onion (port 80, 443)
+lists.riseup.net: xpgylzydxykgdqyg.onion (port 80, 443)
+mail.riseup.net:  zsolxunfmbfuq7wf.onion (ports 443, 465, 587)
+pad.riseup.net:   5jp7xtmox6jyoqd5.onion (port 443)
+pop.riseup.net:   zsolxunfmbfuq7wf.onion (port 995)
+shell.riseup.net: akarp42hn2znnxjk.onion (port 22)
+smtp.riseup.net:  zsolxunfmbfuq7wf.onion (ports 465, 587)
+user.riseup.net:  j6uhdvbhz74oefxf.onion (port 80, 443)
+we.riseup.net:    zsolxunfmbfuq7wf.onion (port 443)
+xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 3478, 3479, 5190, 5222, 5223, 5269, 7777)
 </pre>
 
 h2. Warnings and Notes
