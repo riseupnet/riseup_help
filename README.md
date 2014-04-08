@@ -85,7 +85,16 @@ Putting it all together:
 4. Edit files in `riseup_help/pages`
 5. Preview changes in your browser using http://localhost:8000
 6. When satisfied, `git commit`, `git push`
-7. Go to https://github.com/your-id/riseup_help and issue a pull request
+7. Go to https://github.com/your-id/riseup_help and "issue a pull request":https://help.github.com/articles/using-pull-requests
+
+"more info":https://help.github.com/articles/fork-a-repo on how to fork a repository:
+<code>
+$ git remote add upstream https://github.com/riseupnet/riseup-help
+$ git fetch upstream # retrieve in changes from riseup-help
+$ git merge upstream/master # merge them into your working copy before pushing changes
+</code>
+
+See results in the "network graph":https://github.com/riseupnet/riseup_help/network
 
 Directories
 --------------------------------------------
