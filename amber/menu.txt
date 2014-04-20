@@ -82,4 +82,5 @@ about-us
   donate
   policy
   politics
+  press
   projects
