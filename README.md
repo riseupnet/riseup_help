@@ -122,6 +122,13 @@ to have sub-pages
 
 In general, it is preferred to use the folder method.
 
+Modifying Navigation
+--------------------------------------------
+
+If you need to add or remove a top or side nav menu, you'll need to edit
+
+	amber/menu.txt
+
 Notes on markup
 --------------------------------------------
 
