@@ -1,0 +1,42 @@
+@title = May First/People Link Veröffentlichung über die Heartbleed-Sicherheitslücke
+@nav_title = 'heartbleed bug'
+@toc = false
+@url = https://mayfirst.org/may-firstpeople-link-statement-heart-bleed-security-flaw
+
+_April 14, 2014_
+
+h2. Verschlüsselung funktioniert immer noch; Freie und offene Software ist immer noch die richtige Wahl
+
+Die meisten Leute, die dies lesen, haben von der Heartbleed-Sicherheitslücke gehört, welche Millionen von Internetnutzern betrifft, eingeschlossen Nutzi kommerzieller Dienste wie Yahoo, Google, Twitter, sowie Aktivisti-Provider wie May First/People Link. Dieser Bug in der als 'openssl' bekannt ist, erlaubt es Angreifern, auf Informationen wie Namen, Passwörter und sogar Kreditkartendaten von betroffenen Servern zuzugreifen.
+
+Als Ergebnis konnte jeder mit Zugang zum Internet und grundlegenden Programmierfähigkeiten jeden Server mit einer verwundbaren openssl-Version angreifen, indem eine spezielle Anfrage geschickt wird, welche den Server dazu brachte, mit einem Teil des Speichers zu antworten. Dieser Speicher, bekannt als RAM, wird benutzt, um temporäre Daten zu speichern: Passwort des letzten Logins, oder gerade übermittelte Formulardaten (für eine ganz kurze Erklärung der Datails des Bugs, siehe das XKCD-Comic: https://xkcd.com/1354/).
+
+Wie aus dieser Erklärung zu ersehen ist, war diese Verwundbarkeit enorm und gefährdete die Daten von Millionen Internetnutzi. Selbst wenn diese Software nicht auf Windows oder Mac OS vorinstalliert ist, betrifft es dennoch nahezu alle Internetnutzi, die zumindest mit einem betroffenen  Server interagierten.
+
+Zusammen mit den Veröffentlichungen von Edward Snowden, welcher zeigte, wie die NSA mehrere Verschlüsselungsmethoden besiegt hat, lohnt sich die Frage: Warum sich überhaupt um Verschlüsselung gedanken machen, oder sogar aktivistische Anbieter, wenn es keinen Weg gibt, unsere Daten vor fremden Zugriffen zu schützen.
+
+Diese Denkweise, welche die Top-Geheimdienste gern als allgemein akzeptieren sähen, ist gefährlich und falsch.
+
+Als erstes: Verschlüsselung funktioniert immer noch, wenn sie richtig konfiguriert und benutzt wird, und kann private Kommunikation schützen. Es gibt keinen Beweis in Snowdens Enthüllungen, die etwas anderes vermuten lassen. Und sofern die Admins eurer Internetserver Regierungen politisch und rechtlich zu widerstehen versuchen und Sicherheitspatches innerhalb einer verantwortbaren Zeit installieren, könnt ihr sicher sein, dass eure Kommunikation unter eurer Kontrolle ist.
+
+Vielleicht fragst du auch: Wie können wir freier Software vertrauen, wenn Bugs solchen Ausmaßes in freier Software zu finden sind.
+
+Openssl wird in Millionen von Servern auf der Welt benutzt, mit proprietärer und freier Software. Es hat eine solch große Nutzibasis, weil es frei st, denn der Code kann überprüft (auditiert) werden und weil es gut funktioniert.
+
+Tatsächlich ist diese Sicherheitslücke ein gutes Beispiel, warum freie Software wichtig ist: wir haben eine offene Versionhistorie, in der wir genau sehen können, wer diese falsche Software zugelassen hat und wann diese veröffentlicht wurde. Also können wir beide Menschen fragen wie es passiert ist und ihrer öffentlichen Aussagen überprüfen (es ist wahrscheinlich, dass es tatsächlich ein "ehrlicher" Fehler war und keine bösartige Absicht).
+
+Zum Vergleich hatte die proprietäre Apple-Software einen größeren Bug, bekannt als "GOTO Fail"; wir müssen Apple einfach vertrauen, dass ihrere Aussagen ehrlich sind, wann er eingeführt und wie er behoben wurde und ob es Absicht war. Ähnlich gibt es Beweise, dass die Sicherheitsfirma RSA Millionen dafür bekommen hat, dass die CIA eine Sicherheitslücke in ihrer Sicherheitssoftware platzieren konnte. Es befand sich dort über 10 Jahre.
+
+Falsche Sicherheitssoftware existiert und wird es auch weiter geben. Die Frage an die Bewegung ist: wollen wir unabhängig sein von Unternehmen, die uns erzählen, ihre Software funktioniere? Wollen wir, dass dieser Prozess offen zur allgemeinen Überprüfung ist?
+
+Glücklicherweise *ist* openssl freie Software und es ist die am meisten genutzte freie Software zur Verschlüsselung von Kommunikation. Das ist ein Gewinn für die BEwegung und für die Welt. Jetzt sollten wir dafür kämpfen, dass sie frei und sicher bleibt.
+
+JedeR kann dazu beitragen, indem ersie nach bestem Wissen lernt, vertrauenswürdige Internetdienste und verschlüsselte Kommunikation zu benutzen.
+Frage deinen Provider, nach einer Einschätzung, wie sicher deine Daten sind und was getan wurde, um die Sicherheit zu gewährleisten und bestehe auf einen Antwort.
+
+
+[May First/People Link->https://mayfirst.org] ist eine politisch progressive Internetorganisation, mit Mitgliedern in den USA und Mexico.
+
+Medienkontakt: Alfredo López (alfredo@mayfirst.org) [en/es]
+
+info@mayfirst.org
