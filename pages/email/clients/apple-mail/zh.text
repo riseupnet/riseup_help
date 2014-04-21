@@ -1,0 +1,21 @@
+@title = 'Apple Mail'
+
+!>apple-mail/img/apple.mail.jpg!
+
+*Apple Mail*，也被称为 *mail.app*，或者是简单的 *Mail*，是OS X自带的，全功能的邮件客户端。它界面友好，且易于使用，但由于不是自由的开源软件，因此我们并不推荐。
+
+如果您想使用 Apple Mail，您可以跟随我们的引导。在您配置 Apple Mail前，您需要做出决定[[使用 IMAP还是 POP => email/clients]]。如果您不确定，那就选择 IMAP吧。
+
+* [[Apple Mail tutorial for IMAP => apple-mail/imap]]
+* [[Apple Mail tutorial for POP => apple-mail/pop]]
+
+如果您想在 Apple Mail上使用 OpenPGP：
+
+# 为您的MacOS版本下载最新的 “GNU Privacy Guard”：http://macgpg.sourceforge.net 。
+# 加载 GnuPG光盘镜像，并运行 .mpkg安装器。
+# 下载最新版本的“GPGKeys”：http://macgpg.sourceforge.net。
+# 解压缩 .tar.gz，并把 GPGKeys拖进您的应用目录。
+# 运行 GPGKeys。从 Key选择 Generate，会打开一个终端窗口。如果您对这些选项不熟悉，您可以默认选项。激活后，输入您的真实名字、电子邮件地址和注释。密钥创建后，您可以推出终端。
+# 下载 “Sen:te PGP plug-in for Mail”：http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html。
+# 运行安装 GPGMail脚本。
+# 打开邮件。现在应该可以工作了。当你撰写一封邮件时，你会看到一个让你选择密钥和签名邮件的复选框 。当您收到一封签名邮件时，您就可以校验了。
