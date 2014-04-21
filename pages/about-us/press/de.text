@@ -1,0 +1,36 @@
+@title = 'Presse'
+@toc = false
+
+h2. Statements
+
+[[April 2012, Server Seizure => fbi-seizes-anonymous-remailer]]
+[[August 2013, Riseup and the recent email provider closures => recent-email-provider-closures]]
+
+h2. Artikel über Riseup
+
+h3. 2013
+
+"Ars Technica, Europe Won't Save You, Why Email is Probably Safer in the US":http://arstechnica.com/tech-policy/2013/10/europe-wont-save-you-why-e-mail-is-probably-safer-in-the-us/
+
+h3. 2012
+
+"N+1 Magazine - Leave Your Cellphone at Home":http://nplusonemag.com/leave-your-cellphone-at-home
+
+bq. "For email, using Riseup.net is good news. The solutions they offer are integrated with Tor as much as possible. They’re badass."
+
+"New York Times - How to Muddy Your Tracks on the Internet":http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html
+
+bq. "If you do not want the content of your e-mail messages examined or analyzed at all, you may want to consider lesser-known free services like HushMail, RiseUp and Zoho, which promote no-snooping policies."
+
+Media accounts of the Riseup server seizure:
+
+# "Forbes - FBI Seizes Activists' Anonymizing Server In Probe Of Pittsburgh's Bomb Threats":http://www.forbes.com/sites/andygreenberg/2012/04/19/fbi-seizes-activists-anonymizing-server-in-probe-of-pittsburghs-bomb-threats/
+# "The Register - FBI seizes Mixmaster servers":http://www.theregister.co.uk/2012/04/19/mixmaster_servers_seized/
+# "PC World - FBI Seizes Anonymizing Server in Bomb Threat Probe":http://www.pcworld.com/businesscenter/article/254128/fbi_seizes_anonymizing_server_in_bomb_threat_probe.html
+# "Information Week - FBI Seizes Anonymizing Email Service Server":http://www.informationweek.com/news/security/government/232900643
+# "taz.de":https://taz.de/!91855/ (German)
+# "techdirt - FBI Seized Anonymizer Server":http://www.techdirt.com/articles/20120420/04570818576/fbi-seized-anonymizer-server.shtml
+# "Democracy Now":http://www.democracynow.org/2012/4/20/headlines#4208
+# "Wired - FBI Uses ‘Sledgehammer’ to Seize E-Mail Server in Search for Bomb Threat Evidence":http://www.wired.com/threatlevel/2012/04/fbi-seizes-server/
+# "redOrbit - FBI Seizes Server Allegedly Linked To University Bomb Threat":http://www.redorbit.com/news/technology/1112518546/fbi-seizes-server-allegedly-linked-to-university-bomb-threat/
+# "PC INpact - Le FBI saisit un serveur hébergeant un service de courriels anonymes":http://www.pcinpact.com/news/70383-fbi-serveur-mixmaster-remailer-anonymat.htm (French)
