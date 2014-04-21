@@ -16,7 +16,7 @@ Wie erstelle ich ein sicheres Passwort?
 
 <%= render 'common/good-passwords' %>
 
-Ich habe mein Passwort vergessen, was soll ich tun? 
+Ich habe mein Passwort vergessen, was soll ich tun?
 ----------------------------------------------------
 
 Um deinen Account zurückzusetzen musst du eine aktive [[alternative E-Mail -> mail-accounts#how-do-i-change-or-delete-my-alternate-email-address]] eingerichtet haben und kannst dann das [[Verlorenes-Passwort-Formular -> https://user.riseup.net]] benutzen.
