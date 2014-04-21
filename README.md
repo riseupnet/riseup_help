@@ -129,6 +129,8 @@ If you need to add or remove a top or side nav menu, you'll need to edit
 
 	amber/menu.txt
 
+Note that you will need to restart the amber server for changes to take effect.
+
 Notes on markup
 --------------------------------------------
 
