@@ -71,6 +71,7 @@ security
   resources
     radical-servers
 about-us
+  canary
   contact
   newsletter
     2014

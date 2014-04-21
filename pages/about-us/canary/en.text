@@ -1,0 +1,46 @@
+@title = 'Canary Statement'
+@nav_title = 'Canary'
+@this.alias = '/canary'
+@toc = false
+@-----BEGIN PGP SIGNED MESSAGE-----@
+Hash: SHA512
+
+As of April 21, 2014, Riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court. Riseup has never placed any backdoors in our software and have not received any requests to do so. Riseup has never disclosed any user communications to any third party.
+
+Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of April 21, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
+
+Riseup intends to update this report approximately once per quarter. 
+
+[1] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
+@-----BEGIN PGP SIGNATURE-----@
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQJ8BAEBCgBmBQJTVHqQXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaObNcQAKQdMCKZfHT3NrIyx2D9IUmd
+XQMoqdihUNm9tL3WBNsSCG5dy0lukiZuhuLXZGiMmAeghjU5nIfnf2vRHjSitWNu
+ai0l431a1S4pGH8YgIPx4rarqk9zToF7TwHAcbnMpFrSDHLug6XKsrVMZdnbaqHW
+DvHIDnE9XWD+Jt9YkOUj1OSl4fLkI/+zi1xEBt0GqfS5DgEoXgHxgr1WMv33RYqz
+IKkmJmFHCT9cyagdwIp96bPVtGo43vAzeFw9cZJ/Xz9t9I7JoSHY4pt+Iab4pgKx
+Nqw34lVPuWkHHamZpUeesWpP9NXjIQ+xIAXEr++lg3E1BQs5olcXOLPljCrg/iqp
+hwmlU8r1aggBJ8Dp0TNw3sHHWo8Hqu2l4vESqxdqMp9w2UBxrSr8lAwj4e5qcEQA
+9b5JEo5jyVEZON27GfSkCzyYYmSojMKXgi6ZFg2a7j0r+kN6jd9on3hHiyN8bGzA
+6hLymRsgvQ3KrtdgzZTYC5YNf1dkdpDYEMvyl4swTdboGoc1+HOppr2BJxbjRJSF
+7bgfmFBmunmqDenwPRp/6jpjpoTsMnsQLG5Ph7/nQ/T1VO1++/DJJFoyDUfSPSRz
+TrjWreeP9Qr/Uzk1d25Yc5VqaKBZRALeDbMMcud9ViU+YtdTA1G/cfG6vX4TMQOt
+7phpF8GsBlt96x8SziQ+
+=h//E
+@-----END PGP SIGNATURE-----@
+
+h2. Verification instructions
+
+You should follow "the instructions on downloading and verifying riseup's gpg key here":/security/network-security/certificates. Then you may follow these steps to verify this statement:
+
+# Download the signed "canary statement":canary/canary-statement-signed.txt 
+# Then run this command in a terminal:
+<code>gpg --verify canary-statemen-signed.txt</code>
+# Type control-d
+# You should get output that says:
+<code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
+
+You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
