@@ -37,13 +37,16 @@ TrjWreeP9Qr/Uzk1d25Yc5VqaKBZRALeDbMMcud9ViU+YtdTA1G/cfG6vX4TMQOt
 
 h2. Verification instructions
 
-You should follow the instructions on [[downloading and verifying riseup's gpg => network-security/certificates]]. Then you may follow these steps to verify this statement:
+You should follow [[these instructions to download riseup's gpg key and verify the keyid => network-security/certificates#complete-verification]]. Then you may follow these steps to verify this statement:
 
 # Download the signed "canary statement":canary/canary-statement-signed.txt
 # Then run this command in a terminal:
-<code>gpg --verify canary-statemen-signed.txt</code>
-# Type control-d
+<code>gpg --verify canary-statement-signed.txt</code>
 # You should get output that says:
-<code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 
-You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
+pre.. 
+Signature made Sun 20 Apr 2014 06:55:28 PM PDT
+gpg:           using RSA key 0x3043E2B7139A768E
+gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+
+p. You should make sure that it says "Good signature" in the output and confirm that the keyid matches the one you verified [[here earlier. => network-security/certificates#complete-verification]] If this text has been altered, then this information should not be trusted.
