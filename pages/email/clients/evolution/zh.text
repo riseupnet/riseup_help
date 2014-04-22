@@ -1,0 +1,60 @@
+@title = 'Evolution'
+
+h2. Evolution是什么？
+
+“Evolution”：http://en.wikipedia.org/wiki/Evolution_software 是“GNOME桌面环境”：http://en.wikipedia.org/wiki/GNOME 上的官方个人信息管理器和邮件客户端。它是基于GPL协议的自由开源软件。
+
+通常情况下，在Linux系统上，它随同 GNOME桌面环境一起发布，可以在使用安装了 GNOME的Linux发行版获取，比如["Ubuntu":http://en.wikipedia.org/wiki/Ubuntu_(operating_system)]，或者通过您的经销商的“包管理器”：http://en.wikipedia.org/wiki/Package_manager获取。 Evolution也可以在“Windows上获取”: http://www.dipconsultants.com/evolution/download.htm。
+
+Evolution包含对电子邮件、日历、地址簿、联系人和 GPG加密的支持。
+
+h2. 安装 Evolution
+
+* Debian/Ubuntu Linux：多数情况下，已经安装了evolution。如果没有@sudo apt-get install evolution@
+* Windows: “下载”：http://www.dipconsultants.com/evolution/download.htm 并安装Windows版本。
+
+h2. 在 Evolution中设置新账户
+
+# 启动 Evolution （比如，按 **Alt+F2** ，输入 <code>evolution</code>）
+#如果您首次运行 Evolution，如果您有备份文件，您会被询问是否从您的备份文件中回复设置。
+# 输入您希望在 **From**域中和您的电子邮件地址一起显示的用户名。您也可以选择它作为 Evolution中的默认账户。
+# 输入已下信息，以便 riseup.net账户可以接收邮件：
+Server Type：选择**IMAP**或者 **POP**。 [[What is the difference between IMAP and POP email servers? => email/clients]] %>
+Server： **mail.riseup.net**
+username： **<your riseup username>**
+Use Secure Connection： **TLS** is recommended
+Authentication Type： **Password**
+# 下一个屏幕有4部分。 **Connection to Server**和**Folders**可以完全忽略。在**Checking for New Mail**部分，输入您希望 evolution每隔几分钟自动检查新邮件。或者不自动检查，只有在您手动通知时才检查。**Options**部分允许您对收到的邮件应用垃圾邮件过滤，并自动保留您的邮件的本地拷贝以应对访问断开（只有IMAP可用）。
+# 输入已下信息，以便 riseup.net账户可以发送邮件：
+Server Type： **SMTP**
+Server：**mail.riseup.net**
+检查**Server requires Authentication**
+Use Secure Connection: 出于安全原因，推荐使用**TSL** （StartTLS和SSL很容易受到威胁）。
+Authentication Type：**PLAIN**
+username：**foobar**
+# 给你创建一个名称的帐户。仅用于管理多个Evolution帐户时的参考，不会透露给你的电子邮件的收件人。
+# 点击 **Apply**
+
+大功告成！现在您可以使用 Evolution通过 Riseup's服务器收发邮件了。
+
+h2. 在 Evolution 中设置OpenPGP加密
+
+在 Evolution中加密邮件时告诉 Evolution 您账户的OpenPGP **KEY ID**，是必要的，然后选择每次加密您发送的电子邮件。
+
+# 首先，[[Generate a OpenPGP Key pair => /security/gpg-keys]]如果您还没有这么做。
+# 点击**Edit** -> **Preferences**
+# 在**Mail Accounts**部分，选择您想连接到OpenPGP密钥的账户，并按**Edit** 按钮。
+# 点击**Security**标签。
+# 输入您的OpenPGP **KEY ID** （查看[[Howto on OpenPGP Keys => /security/gpg-keys]] 查找您的**KEY ID**）。选择**Always encrypt to myself when sending encrypted messages**；这把您的电子邮件服务器的**Sent**文件夹加密了，稍后您可以对其解密。小道消息！！！ **Always trust keys in my keyring when encrypting**允许您同签名不在您的指环中的人交流。您可以忽略**Secure MIME**部分。**请记住：** “Always sign”与“Always encrypt” **并非** 相同；对邮件签名与对其加密并不相同，不会令邮件对第三方不可读。
+# 点击**OK**
+
+您现在可以在Evolution中加密、解密邮件了！
+
+h2. 发送加密邮件
+
+# 撰写新邮件
+# 选择**Security** -> **PGP Encrypt**
+
+您正在撰写的邮件在发送时将会被加密！您可以通过进入 **Security** 菜单，查看 **PGP Encrypt**旁边是否有一个复选框，来经常校验您将被加密的邮件。
+
+**遗憾的是，目前并没有出现任何的方式来全局或者每次联系默认启用加密，这意味着**每次想要加密电子邮件给别人，您必须去Security -> PGP Encrypt，使其加密，否则你的邮件会被第三方读取。**
