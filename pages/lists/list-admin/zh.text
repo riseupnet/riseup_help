@@ -1,0 +1,5 @@
+@title = 'List Admin'
+
+关于列表所有者和管理员的帮助页面。
+
+<%= child_summaries %>

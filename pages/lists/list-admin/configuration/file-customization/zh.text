@@ -1,0 +1,15 @@
+@title = 'File Customization'
+@summary = 'Customizing text that is used to describe your list in various situations.'
+
+在新版本的 sympa中，有许多列表方面已不再用户自定义。但是，您仍然可以通过点击“Admin”，然后单击“Customizing”来编辑以下文件。
+
+* Homepage： 描述列表的 HTML文本。打印在主列表窗口右边。
+* Description： 本文本被包含在新用户的欢迎消息中，它是默认的主页。
+* Message Header：如果此文件非空，它作为MIME附件，被添加在每个消息的开头。
+* Message Footer： 如果此文件非空，它作为MIME附件，被添加在每个消息的结尾。
+* Deletion Message：当您从列表中删除时，这段信息将发送给使用者（除非您点击了安静按钮）。
+* Subscribing Invitation Message：您邀请用户的时候，此消息将被发送。
+* Welcome Message：这段消息被发送给新用户。
+* Editor Rejection Message： 当你拒绝他们的邮件时，此消息将被发送。
+* Remind Message：当您点击“Remind all subscribers”，此详细将发送给每一个订阅者。
+* Virus Infection Message：这个消息被发送给一个用户，如果他们试图将消息发送给感染了病毒的列表。

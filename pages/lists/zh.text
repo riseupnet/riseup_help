@@ -1,0 +1,31 @@
+@title = 'Riseup Lists'
+@nav_title = 'Lists'
+
+!>(image-right)lists/pile-of-mail.jpg!
+
+h2. 欢迎辞
+
+欢迎来到 riseup.net *邮件列表帮助*！在这里你能够找到有关托管在http://lists.riseup.net邮件列表的信息。 
+
+关于电子邮件账户的帮助，请查看 [[email]]帮助页面。如果您的问题在这里没有被答复，“创建一个求助标签”：https://user.riseup.net/forms。
+
+h2. 列表管理的热门问题
+
+* [[怎样创建一个列表？ => creating-lists]]
+* [[怎样更改列表所有者？ => list-definition#changing-owners]]
+* [[怎样管理弹性？ => bounces]]
+* [[怎样更改列表名称？ => list-admin/faq#how-do-I-change-the-list-name]]
+* [[“FYI”是什么？： automatic_del" mean => list-admin/faq#what-does-fyi-automatic_del-mean]]
+* [[所有的常见管理问题 => list-admin/faq]]
+
+h2. 列表用户的热门问题
+
+* [[怎样更改订阅地址？ => list-user/accounts#how-do-i-change-my-subscription-address]]
+* [为什么我到 riseup列表的电子邮件被当作垃圾邮件阻止了？ => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[所有的热门用户问题 => list-user]]
+
+h2. 关于 lists.riseup.net
+
+http://lists.riseup.net只通过您的捐赠，来实现运转。如果您希望我们保持运行，请 [[donate]]!
+
+http://lists.riseup.net使用所有的“免费”：http://www.gnu.org/philosophy/free-sw.html 软件，包括“sympa mailing list manager”：http://www.sympa.org/，“apache webserver”：http://httpd.apache.org/，“debian GNU/Linux”：http://www.debian.org operating system和“Perl”：http://www.perl.org programming language。
