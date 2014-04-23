@@ -1,19 +1,21 @@
-@title = 'Communications Security'
-@nav_title = 'Security'
+@title = 'Comunicaciones Seguras'
+@nav_title = 'Seguridad'
 
-h1. Why security matters
+h1. ¿Por qué la seguridad importa?
 
-The increasing importance of information and communication has brought with it another phenomenon: the rise of a *surveillance society*. You can think of surveillance as an attempt by the powerful to [_maintain their dominance by asserting control over communication_].
+La creciente importancia de la información y comunicaciones ha traído con sí otro fenómeno: el ascenso de una sociedad vigilada. Y podrías pensar que la vigilancia es un intento desde los poderosos para hacer valer su dominio mediante el control de las comunicaciones.
 
-*Nation states* have responded to new communications technology by pursuing an infrastructure that can easily be re-purposed for total social control. Unlike earlier communication eras, the nature of current technology requires that our information is either secure in a way that frustrates governments, or is totally insecure in a way that makes possible the widespread and detailed monitoring of an entire populous.
+Los estados-naciones han respondido en pos de las nuevas tecnologías con estructuras que fácilmente pueden ser repropuestas para un total control social. A diferencia formas antiguas de comunicación, la naturaleza actual de la información requiere que sea segura -frustrando a los gobiernos- o bien, sea totalmente insegura, haciendo posiblemente extenso el monitoreo de la población entera.
 
-*Corporations* have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
 
-In this context, secure communication has become vitally important.
+Las corporaciones han descubierto que la recopilación y análisis de una gran cantidad de información personal es necesaria si ellos quieren mantenerse competitivos en un mundo rico en información. En particular, casi todos los del sector publicitario están cambiando de rumbo hacia el rastreo basado en la vigilancia de nuestros hábitos personales.
 
-* State surveillance has a long history of resulting in the repression of social movements.
-* Even indirectly, rampant surveillance has a chilling effect on social movements.
-* Corporate surveillance is just as serious as state surveillance. Not only can the massive amounts of data kept on internet users be easily re-purposed for direct state repression, but corporations are now on the verge of obtaining unprecedented power over consumers.
+En este contexto, las comunicaciones seguras se han convertido en algo vitalmente importante.
+
+* El estado de vigilancia tiene un largo historial de represión en los movimientos sociales.
+* Incluso indirectaente, la excesiva vigilancia tiene un efecto sedante en los movimientos sociales.
+* La vigilancia corporativa es tan grave como la vigilancia estatal. No solo una gran cantidad de datos obtenida de los usuarios de internet puede ser fácilmente repropuesta para el estado de vigilancia, sino que las corporaciones están a punto de obtener un poder sin precedentes sobre los usuarios.
+
 
 When people start to learn about the rise in surveillance they start to feel overwhelmed. Some decide that it is impossible to be secure, so they resign themselves to live under perpetual surveillance or to forsake all forms of digital communication. At Riseup, we believe there is a third way: our goal is to make a high degree of security easy and accessible for everyone.
 
