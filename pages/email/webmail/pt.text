@@ -1,0 +1,65 @@
+@title = 'Webmail'
+@nav-title = 'pt-webmail'
+
+h2. This translation needs help - see below
+
+This page is really out of date.
+
+The content should be:
+
+* webmail comparison: squirrelmail vs imp vs roundcube.
+* don't use IE.
+* cookies must be enabled
+* checking server status
+* exporting your address book
+* exporting your email
+
+h2. introduction
+
+explain what webmail is.
+
+compare the different webmail interfaces.
+
+
+h2. Não use o Internet Explorer
+
+Se tu fores usar um webmail para checar seu email, por favor não use o Internet Explorer (IE). Todas as versões do IE de antes da 9.0 são muito [[defeituosas e inseguras  => http://browsehappy.com/why/]].
+
+O que deverias usar? Felizmente, existem múltiplos navegadores livres e código-aberto de qualidade para escolher:
+
+* [[Firefox  =>  http://getfirefox.com/]]: Firefox é desenvolvido pela Mozilla Foundation, sem fins lucrativos.
+* [[Chrome  =>  http://www.google.com/chrome]]: Chrome é um navegador código aberto desenvolvido primariamente pela Google.
+
+h2. Cookies devem ser habilitados
+
+Por razões de segurança, nós requisitamos cookies. Sem cookies, é impossível se autenticar seguramente. Cookies tem uma má reputação porque eles permitem a anunciantes rastrear tua atividade na web, mas para webmail cookies são ótimos.
+
+h2.  Solução de problemas de autenticação webmail 
+
+A questão mais comum que recebemos é esta: "porque não posso autenticar-me/logar-me?" Essa página irá ajudar-te a descobrir o que está errado e a consertar isto.
+
+Quase sempre, problemas de autenticação são decorrentes de uma das causas a seguir:
+
+* Teu navegador está bloqueando cookies.
+* Tu digitou seu nome de usuário ou senha incorretamente.
+* Teu navegador é antigo e não suporta javascript ou conexões encriptadas corretamente.
+* Nosso servidor de e-mail está fora do ar (embora isso raramente aconteça)
+
+h4.  Passo 2: Tente outros navegadores 
+
+Se ainda não consegues autenticar-te, deverias então descobrir se o problema é com a tua conta ou com teu computador. 
+
+* Tente outros computadores ou navegadores. Para esse teste ser prestativo, os outros computadores e navegadores devem ser tão diferentes quanto for possível. Se puderes, tente autenticar-te de uma rede diferente, usando um navegador diferente, com um outro sistema operacional.
+
+* Sugerimos que tu [[baixe e instale o firefox => http://getfirefox.com]]. Se isso funcionar, então o problema é com o teu navegador.
+
+h4.  Passo 3: Verifique o estado do servidor
+
+É possível que o servidor esteja fora do ar. Tu podes ver o estado do servidor de e-mail, e leres quaisquer avisos do serviço, nesta página:
+
+* https://status.riseup.net
+
+h4. Passo 4: Chames por ajuda! 
+
+Se nada acima parece funcionar, então [[preenche um formulário de ajuda => https://user.riseup.net/forms]]. Mas por favor, tenta aquelas sugestões primeiro! E também, incluas em tua descrição do problema um sumário das coisas que já tentaste.
+
