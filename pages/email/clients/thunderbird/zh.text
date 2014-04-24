@@ -1,0 +1,78 @@
+@title = 'Thunderbird'
+
+h2.thunderbird是什么?
+
+!>reclaimyourinbox.png!
+
+thunderbird是 riseup.net推荐的邮件客户端。它是自由软件，可用于Linux、Windows和 Mac OS X。您可以"从thunderbird 网站":http://www.mozillamessaging.com/en-US/thunderbird/download 下载 thunderbird。作为自由软件，thunderbird是数字公共资源的一部分，是一种常见的宝藏。outlook，另一方面，是微软用于统治世界的工具。
+
+thunderbird具有许多特征，包括：支持IMAP和 POP，多帐号，快速查找，拼写检查、高级垃圾邮件控制， RSS，虚拟文件夹视图，信息过滤，地址簿，支持 OpenPGP加密。
+
+h2. thunderbird设置
+
+h3.  启动账户向导
+
+你首次运行 thunderbird，账户向导将会引导你设置一个账户。如果向导没有打开，你可以这样做：
+
+1. 选择菜单项 *Edit > Account Settings...*
+
+!/email/clients/thunderbird/img/edit-account-settings.png!
+
+2. 点击 *Add Account...* 按钮。
+
+!/email/clients/thunderbird/img/account-actions.png!
+
+h3. 第一步
+
+你会看到一个提示。输入您的名字，电子邮件地址和密码。
+
+!/email/clients/thunderbird/img/mail-account-setup1.png!
+
+点击 *Continue*。
+
+h3. 第二步
+
+thunderbird将从 riseup's服务器取得配置。
+
+!/email/clients/thunderbird/img/mail-account-setup2.png!
+
+现在你需要决定你想使用[[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]]。
+
+* *IMAP*: 默认是 IMAP，如果你想使用 IMAP，请直接点击 *Continue*。
+* *POP*:切换到 POP，点击 *edit*。然后点击写着“IMAP”的下拉菜单并切换到 POP。现在点击“重新检测”，将会显示您正在使用POP。如果是这样，点击 *Continue*。
+
+!/email/clients/thunderbird/img/imap-pop.png!
+
+h3. 第三步
+
+如果没有正常工作，可能是您输错了用户名或者密码。 点击“重新开始”并再次尝试。否则...
+
+h3. 完成！
+
+现在或者每隔一段时间，将会自动检查您的邮件。祝您使用愉快！
+
+h2. 下一步干啥？
+
+h3. 提高你的电子邮件安全
+
+# 理想情况下，你应该*不*使用STARTTLS。相反，使用常规的TLS是更好的。为了增加安全性，转到您的帐户设置，并把连接类型从StartTLS更改为TLS。
+# 伴随着如何安全连接工作，还有许多漏洞。如果你需要高安全性，您应该使用[[Riseup VPN=> VPN]始终连接到Riseup服务。这将防止大大减少对您的沟通潜在的攻击。
+# 为了加强 [[message security => message-security]]，考虑 [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]]来 [[OpenPGP => /security/gpg-keys]]设置。
+
+h3. 增加一些扩展
+
+我们建议的一些 thunderbird扩展：
+
+* "显示配额":https://addons.mozilla.org/thunderbird/addon/881：这个扩展将在thunderbird的状态栏显示您的 IMAP配额的当前状态，并在达到配置的限制市报警。
+* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: 在任何时候加密和解密电邮邮件，并验证收到的邮件是否来自于您期望的人。
+
+h3. 隐藏的选项，这将大大提高thunderbird的速度
+
+默认情况下，thunderbird会在您打开邮件或改变状态的时候跟邮件服务器交流。这在较慢的网络连接，或者如果Riseup服务器忙的时候，让人感觉很反映迟钝。
+
+令人高兴的是，有一些你可以做的！thunderbird有一些隐藏的设置，当它完全连接上邮件服务器，会与之同步。这通常会令你的体验更加愉快爽快。
+
+为了设置这些选项，去 *Edit*菜单 > *Preferences* 条目 > *Advanced* 标签 > *Config Editor* 按钮
+
+* use_status_for_biff: 设置此项为 *false*
+* mail.server.default.autosync_offline_stores: 设置此项为 *true*
