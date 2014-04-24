@@ -1,0 +1,40 @@
+@title = 'HTML Form'
+@summary = 'How to create a form on your website which allows someone to subscribe to a riseup.net list.'
+
+h2. 基本的 HTML表单
+
+如果你想要把允许别人订阅 riseup.net列表的表单放在您的网站上，这里是一个简单的HTML摘要，将完成这项工作：
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT  NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="subrequest">
+  <INPUT TYPE="submit" NAME="action_subrequest" VALUE="Subscribe">
+</FORM>
+</pre>
+
+注意：将 *listname*替换为您的列表名称。譬如，如果您的列表是  anarchism101@lists.riseup.net，用  anarchism101替换掉 *listname* 。同时，为了让表单工作，这个动作 *务必*使用 SSL (也就是 https://)。
+
+这是一个退订表单的例子：
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="sigrequest">
+  <INPUT TYPE="submit" NAME="action_sigrequest" VALUE="Unsubscribe">
+</FORM>
+</pre>
+
+h2.  多一点奇思妙想
+
+如果您有能力编写一个处理表单流程的脚本，您可以发送邮件到 listname-subscribe@lists.riseup.net，“发件人：”邮件标题设置为订阅者的地址。 这样，用户将不必重定向到lists.riseup.net网站，就可以停留在您的网站上。
+
+这种方法是可取的，因为目前SYMPA的Web界面是有点费劲：当您尝试通过网络订阅，它向您发送的一封包含密码的邮件，你需要再复制回网站。对于基于电子邮件的订阅请求，你只需要回复邮件。
+
+h2.  真正的奇思妙想
+
+使用 SOAP对远程列表的大多数方面进行管理是有可能的。目前，虽然我们还没有启用SOAP，但是我们可能很快就会启用。 SOAP不是为胆小鬼，而是需要认真规划的人。如果你想投入 SYMPA的 SOAP，让我们知道，并详细研究 http://sympa.org。

@@ -1,0 +1,21 @@
+@title = 'Miscellaneous'
+@summary = 'Some miscellaneous configuration possibilities, including expiring users, reminding them of their subscriptions.'
+
+h2.  逾期任务
+
+如果设置了，逾期任务将会自动取消订阅不回复自动电子邮件的列表成员。
+
+h2.  提醒任务
+
+如果设置了，提醒任务将会发送一封邮件给所有的列表成员，提醒他们订阅列表。
+
+h2.  保护电子邮件地址的方法
+
+这些选项决定使用什么方法来保护列表档案中的电子邮件地址，使他们无法通过 [[电子邮件收集网络蜘蛛->http://en.wikipedia.org/wiki/Web_crawler]]来确认。
+
+这些选项是：
+
+** at:: 地址写成这样： @helpdesk@riseup.net@ --> @helpdesk AT riseup.net@
+** javascript:: 使用 javascript构成地址，使它们看起来具有可读性，但电子邮件收集蜘蛛不可读。
+** cookie:: 在您进入档案之前，您必须接受 cookie。此选项将阻止搜索引擎把您的档案编入索引，即使他们是公开的。然而，它也将阻止您使用直接URL链接到一个公共档案：用户首先必须接受该cookie，这个过程会将他们重定向到归档的一般索引。
+** none:: 不试图改变电子邮件地址。
