@@ -29,15 +29,6 @@
       %b= t :yes_value
     %td= t :paypal_note
   %tr
-    %td <a href="#wepay"><img src="donate/img/wepay.png"></a>
-    %td
-      %b= t :yes_value
-    %td
-      %b= t :yes_value
-    %td
-      %b= t :yes_value
-    %td= t :wepay_note
-  %tr
     %td <a href="#flattr"><img src="donate/img/flattr.png"></a>
     %td= t :no_value
     %td= t :no_value
@@ -130,17 +121,6 @@
           <input type="submit" name="submit" value="#{t :donate}">
         </div>
       </form>
-
-.panel.panel-default
-  %h2.hidey= t :wepay
-  .panel-heading
-    <a name="wepay"><img src="donate/img/wepay.png"></a>
-  .panel-body
-    %p= t :wepay_description
-    .donation
-      %form(action="https://www.wepay.com/donate/riseup" method="get")
-        %b= t :wepay
-        %input(type="submit" value="#{t :donate}")
 
 .panel.panel-default
   %h2.hidey= t :flattr
