@@ -1,0 +1,46 @@
+@title = 'Sending and Reception'
+@summary = 'Configuration options for who can send messages, digests, how the list subjects are represented, etc.'
+
+h2.  哪些人可以发送消息
+
+首先是，一些定义：
+
+* 一个 *成员* 是一个列表订阅者，意味着他们可以从列表接收电子邮件。列表成员在链接到列表页面的 *members*的下方显示。
+* 列表 *被审核* ，在列表上的邮件发出之前，必须经过列表编辑的同意。
+
+列表所有者/管理员可以在  ‘Admin’ -> ‘Edit List Config’ -> ‘Sending/reception’ 下的  ‘Who can send messages’字段中设置这些。以下是关于哪些人可以发送信息到列表的选项：
+
+* anyone_moderated:: 任何人都可以发送，但所有信息都需要审核，包括成员发送的。
+* anyone_unmoderated:: 任何人都可以发送，没有审核。谨慎使用！这会导致您的列表收到许多垃圾信息或者烂豆腐（激进主义垃圾信息）。
+* members_moderated:: 所有成员需要审核的发送，其它信息自动拒绝。如果某人订阅这个列表，但没有使用订阅地址，而是用其它地址发送信息，这样的信息将被拒绝。
+* members_or_moderated:: 列表成员可以发送，其它邮件需要审核。这是最常用的列表配置。它允许列表成员自由发送，经过编辑同意，其他人也可以发送。
+* members_or_moderated_quiet::  和 members-or-moderated相同，除了审核通知还发送给信息作者以外。通常情况下，当一个消息被审核，电子邮件的发送者会得到通知。使用此选项，将不会收到此通知。
+* members_unmoderated:: 任何列表成员都可以发送，自动拒绝其它的信息。如果您希望某个人不是可以发送给列表信息的一部分， 选择这个选项。
+* newsletter:: 仅限编辑可以发送，其它信息被拒绝。当您希望只有很少几个人可以发送的时候，此选项很有用。
+* newsletter_verify:: 与 *newsletter*相同，但它使用由真实的编辑通过邮件退回检查手段来验证验证邮件。这样一来，没有人可以伪造电子邮件地址，不符合您的预期发送给您的列表。
+
+h2.  摘要频率
+
+摘要频率决定了以摘要模式订阅的用户何时收到摘要。摘要包含一个大的电子邮件中所有列表的流量（从上次摘要以来）。  
+
+目前，摘要仅在MIME格式发送：这意味着每个消息被作为一个MIME附件。如果你有一个现代化的邮件客户端，这是非常好的。如果你有一个旧的邮件客户端，需要您手动打开每个附件，那么这可能很痛苦。遗憾的是，我们使用的软件不支持纯文本摘要。
+
+h2.  回复地址
+
+默认情况下，当您回复一条列表信息，将会发送到这条信息的发布者。您可以更改此选项以允许回复到列表。
+
+为了更改 <b>Reply address</b>：
+
+# 去 *Edit List Config* > *Sending/Reception*
+# 更改 <b>Reply address</b>字段的值。
+# 点击 <b>Update</b>。
+
+h2.  主题标签
+
+从列表中发送的每封电子邮件包含一个可识别的主题行，这往往是非常有用的。这让人们快可以速浏览他们的收件箱，并确定哪些邮件来自列表。默认情况下，所有列表的 <b>Subject tagging</b>都设置为列表名称。例如，如果您的列表名称是 anarchism101@riseup.net，那么<b>Subject tagging</b>被设置为‘anarchism101’，所有的邮件主题行中将包括 [anarchism101]。
+
+为了更改 <b>Subject tagging</b>：
+
+# 去 *Edit List Config* > *Sending/Reception*
+# 更改 <b>Subject tagging</b> 字段的值。
+# 点击 <b>Update</b>。
