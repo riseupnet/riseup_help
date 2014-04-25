@@ -1,0 +1,40 @@
+@title = 'Privileges'
+@summary = 'Configuring the access and privileges for different aspects of your list, such as who can see the list, who can see subscribers, etc.'
+
+h2.  信息页面
+
+您可以隐藏您的列表信息页面（可以在 lists.riseup.net/www/info/your-list-name 上）：
+
+# 点击 *Admin*，然后点击 *Edit List Config*
+# 点击 *Privileges*，然后
+# 将 <b>Who can view list information </b>设置更改为 <b>MEMBERS</b>。
+# 点击 <b>Update</b>。
+
+h2.  列表可见性
+
+您可以隐藏您的列表，就不会在列表目录中显示了。
+
+为了隐藏您的列表：
+
+# 点击 *Admin*，然后点击 *Edit List Config*
+# 点击 *List Definition*，然后
+# 将 <b>Visibility of the list</b>设置更改为 <b>MEMBERS</b>。
+# 点击 <b>Update</b>。
+
+h2.  用户列表
+
+<b>Who can review subscribers</b>设置控制着哪些人可以访问查看用户列表。
+可用的选项有：
+
+* CLOSED &#151； 禁止评论。
+* EDITORS &#151； 仅限所有者和编辑可以评论用户列表。
+* LISTMASTER &#151； 仅限列表创建者。
+* MEMBERS &#151； 成员（列表用户）可以评论用户列表。
+* OWNERS &#151； 仅限所有者可以评论用户列表。
+
+更改 <b>Who can review subscribers</b> 设置：
+
+# 点击 *Admin*，然后点击 *Edit List Config*
+# 点击 *Privileges*，然后
+# 更改 <b>Who can review subscribers</b>选项，选择您期望的。
+# 点击 <b>Update</b>。

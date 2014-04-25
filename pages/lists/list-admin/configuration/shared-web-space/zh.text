@@ -1,0 +1,32 @@
+@title = 'Shared Web Space'
+@summary = 'How to use, create, and edit shared web space for your list.'
+
+h2.  给列表创建共享网络空间
+
+# 以列表管理员登录
+# 你可以看到左侧的 “Your lists”列表。
+# 点击你想增加共享网络空间的列表的 “Admin” 按钮
+# 点击 “Create Shared”链接
+# 可以在 “Edit List Config” -> “Privileges”下设置权限。靠近底部是一个“共享文档”部分。
+
+h2. 添加、浏览或编辑共享网络空间文档
+
+*以特定列表的管理员或有增加/浏览文档权限的人员登录到 https://lists.riseup.net。
+* 点击这个列表
+* 点击 “Shared Documents”链接
+* 在上部有两种模式： “User mode”和 “Expert mode”
+* 上传文档到共享文件夹
+** 点击 “Expert mode”链接
+** 点击 写着 “Upload a file inside folder SHARED”右侧的“Browse...”按钮
+** 定位您本地硬盘上的文件，并点击对话框的 Open或 OK按钮 
+** 点击 “Publish”按钮以上传文件
+* 打开共享文件
+** 点击 “User mode”链接
+** 点击文件列表中的文件名
+* 编辑共享文件
+** 点击 “Expert mode”旁边的 “edit”链接
+* 删除共享文件
+** 点击 “Expert mode”旁边的 “delete”链接
+* 修改特定文件的访问权限
+** 点击 “Expert mode”旁边的 “access”链接
+* 您可以在您的列表的电子邮件中共享上传文件的 URL。列表成员需要登录来下载文件。
