@@ -1,0 +1,5 @@
+@title = 'List Subscribers'
+
+关于订阅托管在  https://lists.riseup.net的列表用户的问答
+
+<%= child_summaries :include_toc => true %>
