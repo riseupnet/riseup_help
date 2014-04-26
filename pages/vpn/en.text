@@ -5,7 +5,7 @@ p(alert alert-warning). We have taken down instructions on how to use the Riseup
 
 h2. What is the RiseupVPN?
 
-Virtual Private Networks (VPN) are used typically used to connect remote workers to the main office network. The RiseupVPN is different: it <%= link 'sends all your internet traffic through an encrypted connection' => 'how-vpn-works' %> to riseup.net, where it then goes out onto the public internet. This type of VPN is sometimes called a "Personal VPN". The goal with a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
+Virtual Private Networks (VPN) are used typically used to connect remote workers to the main office network. The RiseupVPN is different: it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet. This type of VPN is sometimes called a "Personal VPN". The goal with a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
 
 h2. Why would you want to use the Riseup VPN?
 
