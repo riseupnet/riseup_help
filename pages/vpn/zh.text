@@ -1,0 +1,45 @@
+@nav_title = 'VPN'
+@title = 'Riseup VPN'
+
+p（警告警报）。当我们过渡到新系统，我们会撤下关于如何使用 RiseupVPN的说明。当准备就绪，我们将会张贴使用新系统的说明。
+
+h2. 什么是 RiseupVPN？
+
+虚拟专用网（VPN） (VPN) 通常用于远程工作人员连接到主办公室网络。RiseupVPN是不同的：它 <%= 连接 ‘sends all your internet traffic through an encrypted connection’ => ‘how-vpn-works’ %>到 riseup.net，然后发送到公共网络。有时，这种VPN也叫做“个人VPN”。个人VPN的目的不是为了安全地与专用网络连接，而是要你安全地连接到整个互联网。
+
+h2. 为什么您要使用 Riseup VPN？
+
+在 Riseup，我们相信使用像 VPN或 [[security/tor]]这样的一些技术加密您的因特网流量是很重要的。为什么呢？因为因特网已经被政府、因特网服务提供者和公司攻破了。
+
+*被政府攻破*
+
+纵观全世界，政府通过监控和审查把互联网用于社会控制。许多国家，比如中国、伊拉克和美国对每个人的社会关系主动检测，欧盟各国则要求所有的互联网服务提供商和网站运营商记录并保留您行为的个人数据。随着三振出局法，现在许多国家禁止公民进入互联网 ，如果被指控文件共享。一些国家禁止使用新的通信技术，如 skype。
+
+*被因特网服务提供商攻破*
+
+互联网服务供应商也在攻破互联网。他们和政府镇压愉快合作着，他们通过深层包检测实施侵入监控您的流量，跟踪您的DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
+
+*Broken by corporations*
+
+Corporations have discovered how to make money from the internet: surveillance. By tracking your online habits, advertising companies build detailed profiles of your individual behavior in order to better sell you useless crap. Every single major internet ad company now uses behavioral tracking. Also, to comply with national copyright, many companies only make their services available to some internet users, those who reside in the 'right' country.
+
+
+h2. The solution: fix the internet by using RiseupVPN
+
+There are many ways that RiseupVPN can help:
+
+# *protect against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
+# *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
+# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country, like Skype.
+# *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> http://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
+# *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
+
+h2. 使用RiseupVPN的限制
+
+The RiseupVPN shares some limitations common to all personal VPNs:
+
+* *An insecure connection is still insecure*: Although RiseupVPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. This means you should still use TLS when available (ie https over http, imaps over imap, etc).
+
+* *VPNs are not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
+
+* *The internet might get slower*: the RiseupVPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN server close to where you actually live.
