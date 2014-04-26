@@ -13,12 +13,13 @@ h2. 为什么您要使用 Riseup VPN？
 
 *被政府攻破*
 
-纵观全世界，政府通过监控和审查把互联网用于社会控制。许多国家，比如中国、伊拉克和美国3Many countries, such as China, Iran, and the United States practice active surveillance of the social relationships of everyone and the European Union countries require all ISPs and website operators to record and retain personal data on your behavior. With three-strikes laws, many countries now deny citizens access to the internet if accused of file sharing. Some countries forbid the use of new communication technologies, like skype.
-每个人都和欧盟各国的社会关系，美国的做法主动监测要求所有互联网服务供应商和网站运营商记录并保留对你的行为的个人数据。与三振出局法，现在许多国家禁止公民进入互联网，如果被指控的文件共享。一些国家禁止使用新的通信技术，如Skype。
+纵观全世界，政府通过监控和审查把互联网用于社会控制。许多国家，比如中国、伊拉克和美国对每个人的社会关系主动检测，欧盟各国则要求所有的互联网服务提供商和网站运营商记录并保留您行为的个人数据。现在许多国家禁止公民进入互联网 一些国家禁止使用新的通信技术，如 skype。
+Many countries, such as China, Iran, and the United States practice active surveillance of the social relationships of everyone and the European Union countries require all ISPs and website operators to record and retain personal data on your behavior. With three-strikes laws, many countries now deny citizens access to the internet if accused of file sharing. Some countries forbid the use of new communication technologies, like skype.
+每个人都和欧盟各国的社会关系，美国的做法主动监测要求所有互联网服务提供商和网站运营商记录并保留对你的行为的个人数据。与三振出局法，现在许多国家禁止公民进入互联网，如果被指控的文件共享。一些国家禁止使用新的通信技术，如Skype。
 
-*被因特网服务提供者攻破*
+*被因特网服务提供商攻破*
 
-Internet service providers are breaking the internet too. They happily cooperate with government repression, they practice intrusive monitoring of your traffic through deep packet inspection, they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
+互联网服务供应商也在攻破互联网。Internet service providers are breaking the internet too. They happily cooperate with government repression, they practice intrusive monitoring of your traffic through deep packet inspection, they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
 
 *Broken by corporations*
 
