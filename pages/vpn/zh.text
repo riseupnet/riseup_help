@@ -13,13 +13,11 @@ h2. 为什么您要使用 Riseup VPN？
 
 *被政府攻破*
 
-纵观全世界，政府通过监控和审查把互联网用于社会控制。许多国家，比如中国、伊拉克和美国对每个人的社会关系主动检测，欧盟各国则要求所有的互联网服务提供商和网站运营商记录并保留您行为的个人数据。现在许多国家禁止公民进入互联网 一些国家禁止使用新的通信技术，如 skype。
-Many countries, such as China, Iran, and the United States practice active surveillance of the social relationships of everyone and the European Union countries require all ISPs and website operators to record and retain personal data on your behavior. With three-strikes laws, many countries now deny citizens access to the internet if accused of file sharing. Some countries forbid the use of new communication technologies, like skype.
-每个人都和欧盟各国的社会关系，美国的做法主动监测要求所有互联网服务提供商和网站运营商记录并保留对你的行为的个人数据。与三振出局法，现在许多国家禁止公民进入互联网，如果被指控的文件共享。一些国家禁止使用新的通信技术，如Skype。
+纵观全世界，政府通过监控和审查把互联网用于社会控制。许多国家，比如中国、伊拉克和美国对每个人的社会关系主动检测，欧盟各国则要求所有的互联网服务提供商和网站运营商记录并保留您行为的个人数据。随着三振出局法，现在许多国家禁止公民进入互联网 ，如果被指控文件共享。一些国家禁止使用新的通信技术，如 skype。
 
 *被因特网服务提供商攻破*
 
-互联网服务供应商也在攻破互联网。Internet service providers are breaking the internet too. They happily cooperate with government repression, they practice intrusive monitoring of your traffic through deep packet inspection, they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
+互联网服务供应商也在攻破互联网。他们和政府镇压愉快合作着，他们通过深层包检测实施侵入监控您的流量，跟踪您的DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
 
 *Broken by corporations*
 
@@ -36,7 +34,7 @@ There are many ways that RiseupVPN can help:
 # *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> http://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
 # *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
 
-h2. Limitations to using RiseupVPN 使用RiseupVPN的局限性
+h2. 使用RiseupVPN的限制
 
 The RiseupVPN shares some limitations common to all personal VPNs:
 
