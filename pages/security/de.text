@@ -1,0 +1,58 @@
+@title = 'Kommunikationssicherheit'
+@nav_title = 'Sicherheit'
+
+h1. Warum Sicherheit wichtig ist
+
+Die Zunehmende Wichtigkeit von Information und Kommunikation brachte ein anderes Phänomen mit sich: die wachsende *Überwachungsgesellschaft*. Überwachung kann als ein Versuch der Mächtigen gesehen werden, um _ihre Dominanz durch Kontrolle der Kommunikation zu bewahren_.
+
+*Nationalstaaten* reagierten auf neue Kommunikationstechnologie mit dem Aufbau von Infrastruktur, die einfach für totale soziale Kontrolle umgenutzt werden kann. Im Gegensatz zu vorherigen Kommunikationszeitaltern benötigt aktuelle Technologie, dass unsere Information entweder sicher ist, sodass Regierungen davon frustriert sind, oder sie ist komplett unsicher, sodass die weitreichende und detaillierte Überwachung einer gesamten Bevölkerung möglich wird.
+
+*Unternehmen* haben herausgefunden, dass das Sammeln und Analysieren massiver Mengen privater Daten notwendig ist, um in einer informationsreichen Welt wettbewerbsfähig zu bleiben. Insbesondere wandelt sich fast jede Werbung in Richtung überwachungsbasierter Speicherung sozialen Verhaltens.
+
+In diesem Kontest ist sichere Kommunikation lebenswichtig geworden.
+
+* Staatliche Überwachung hat eine lange Geschichte der Repression sozialer Bewegungen.
+* Selbst indirekte, wuchernde Überwachung hat einschüchternde Wirkung auf soziale Bewegungen.
+* Unternehmensüberwachung ist genauso ernst wie staatliche Überwachung. Nicht können die massiven Datenmengen über Internetnutzer*innen für direkte staatliche Repression verwendet werden, sondern auch Unternehmen sind nun in der Lage, vorher ungekannte Macht über ihre Kund*innen auszuüben.
+
+Wenn Menschen von steigender Überwachung erfahren, sind sie zu Beginn meist überfordert. Einige entscheiden, dass es unmöglich ist, sicher zu sein, also ergeben sie sich selbst der ständigen Überwachung oder geben alle Arten digitaler Kommunikation auf. Bei Riseup glauben wir an einen dritten Weg: unser Ziel ist es, einen hohen Grad an Sicherheit für alle einfach verfügbar zu machen.
+
+Ein großer Teil des Kampfes gegen Überwachung findet durch legale Prozesse statt und wir freuen uns über alle, die auf diesem Gebiet arbeiten. Im Gegensatz dazu arbeitet Riseup mit Fokus auf Technologie. Wenn Gesetze ungerecht sind, glauben wir, dass eine eine neue technische Realität notwendig ist, um legale und politische Möglichkeiten zu verändern.
+
+h1. Sicherheitsüberwachung
+
+<table class="table table-striped">
+<tr>
+  <th style="width: 10em">Art der Sicherheit</th>
+  <th>Was ist es?</th>
+  <th>Wann ist es nützlich?</th>
+</tr>
+<tr>
+  <td>[[menschliche Sicherheit => human-security]]</td>
+  <td>Einfache Veränderungen, die alle am eigenen *Verhalten* vornehmen können.</td>
+  <td>Hilft, menschliche Fehler zu vermeiden, um kein *schwaches Glied* in Sicherheitssystemn sein.</td>
+</tr>
+<tr>
+  <td>[[Gerätesicherheit => device-security]]</td>
+  <td>Schritte, um *Computer oder Telephone* weniger angreifbar zu machen.</td>
+  <td>Nützlich, wenn Dein Gerät *physisch* in die Hände von Angreifern fallen sollte.</td>
+</tr>
+<tr>
+  <td>[[Nachrichtensicherheit => message-security]]</td>
+  <td>Wege, eigene gesendete und empfangene *persönliche Nachrichten* zu schützen.</td>
+  <td>Notwendig, um *vertrauensvolle* Nachrichten zu speichern und übertragen.</td>
+</tr>
+<tr>
+  <td>[[Netzwerksicherheit => network-security]]</td>
+  <td>Blockieren von Seiten, die Internetverkehr überwachen, sowie Verschlüsselung von *Internetverkehr*.</td>
+  <td>Hilft beim Schutz gegen die Überwachung sozialen Verhaltens, Übernehmen von Konten, Zensur, Kartierung sozialer Netzwerke, Überwachung und Werbung</td>
+</tr>
+</table>
+
+Riseup bietet insbesondere Dienste für [[Netzwerksicherheit => network-security]]:
+
+* Weil die Überwachung von Netzwerken so durchdringend ist, ist es ein *soziales Problem*, welches alle zu jeder Zeit betrifft. Im Gegensatz sind Geräte- und Nachrichtensicherheit insbesondere wichtig für Menschen, die das persönliche Ziel von Angriffen durch repressive Autoritäten sind.
+* Die Erhöhung von Netzwerksicherheit ist ziemlich *einfach*, im Vergleich zu Geräte- oder Nachrichtensicherheit.
+
+Dennoch ist es wichtig, dass Menschen, die mit steigender gezielter Überwachung konfrontiert sind, sich auch um Geräte- und Nachrichtensicherheit zu kümmern, auch wenn es viel Zeit erfordern kann, das zu lernen. Diese Seiten werden bei diesem Abenteuer helfen.
+
