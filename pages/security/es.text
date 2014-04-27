@@ -7,36 +7,17 @@ La creciente importancia de la información y la comunicación han traído consi
 
 Los *estados naciones* han respondido con nuevas tecnologías, buscando una infraestructura que puede ser fácilmente repropuesta a favor de un total control social. A diferencia de antiguas formas de comunicación, la naturaleza de la tecnología actual requiere que nuestra información también sea segura en dirección a frustrar gobiernos; o bien, ser totalmente insegura en una dirección, haciendo posible la difusión de un detallado monitoreo de la población entera. 
 
-*Nation states* have responded to new communications technology by pursuing an infrastructure that can easily be re-purposed for total social control. Unlike earlier communication eras, the nature of current technology requires that our information is either secure in a way that frustrates governments, or is totally insecure in a way that makes possible the widespread and detailed monitoring of an entire populous.
-
-
 Por otra parte, las *corporaciones* han descubierto que la recopilación y análisis masivo de grandes cantidades de información es necesaria si quieren permanecer competitivos en un mundo rico en información. En particular, cerca de todos los negocios publicitarios se están volcando a un sistema basado en la vigilancia y rastreo de nuestra conducta. 
 
-*Corporations* have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
-
-
 En este contexto, las comunicaciones seguras se convierten en algo vitalmente importante.
-
-In this context, secure communication has become vitally important.
-
 
 * La vigilancia estatal tiene una larga historia en lo que respecta a la represión de movimientos sociales.
 * Incluso indirectamente, la exuberante vigilancia tiene un efecto amedrentador en los movimientos sociales.
 * La vigilancia corporativa es tan grave como la vigilancia estatal. No solo la gran cantidad de datos obtenidos de usuarios de internet puede predisponerlos a la vigilancia estatal, sino que las corporaciones ahora están a punto de obtener un poder sin precedentes sobre sus consumidores.
 
-* State surveillance has a long history of resulting in the repression of social movements.
-* Even indirectly, rampant surveillance has a chilling effect on social movements.
-* Corporate surveillance is just as serious as state surveillance. Not only can the massive amounts of data kept on internet users be easily re-purposed for direct state repression, but corporations are now on the verge of obtaining unprecedented power over consumers.
-
-
 Cuando la gente empieza a aprender sobre el asenso de la vigilancia, comienzan a sentirse abrumados. Algunos deciden, por lo tanto, que es imposible estar seguros, así que se resignan a vivir bajo perpetua vigilancia o a abandonar cualquier forma de comunicación digital. Pero nosotros, en Riseup, creemos que hay una tercera salida: nuestro objetivo es alcanzar un alto grado de seguridad, que sea fácil y accesible para cualquiera.
 
-When people start to learn about the rise in surveillance they start to feel overwhelmed. Some decide that it is impossible to be secure, so they resign themselves to live under perpetual surveillance or to forsake all forms of digital communication. At Riseup, we believe there is a third way: our goal is to make a high degree of security easy and accessible for everyone.
-
-
 Gran parte de la pelea contra la vigilancia toma lugar a través del sistema legal, y aplaudimos a aquellos que trabajan en esa área. Pero en contraste, el foco de Riseup es la tecnología. Cuando todas las leyes son injustas, creemos que una nueva realidad tecnológica es necesaria, en orden de alterar las posibilidades legales y políticas.
-
-Much of the fight against surveillance takes place through the legal system and we applaud those who work in this arena. In contrast, Riseup's focus is on technology. When laws are unjust, we believe that a new technical reality is necessary in order to alter the legal and political possibilities.
 
 h1. Descripción de seguridad.
 
@@ -47,12 +28,12 @@ h1. Descripción de seguridad.
   <th>¿Cuándo es útil?</th>
 </tr>
 <tr>
-  <td>[[human-security]]</td>
-  <td>Simple changes you can make to your *behavior*.</td>
-  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+  <td>[[seguridad para humanos]]</td>
+  <td>Simples cambios que puedes hacer a tu *conducta*.</td>
+  <td>Ayuda a prevenir cualquier error humano al ser el *enlace débil* en cualquier sistema de seguridad.</td>
 </tr>
 <tr>
-  <td>[[device-security]]</td>
+  <td>[[seguridad para dispositivos]]</td>
   <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
   <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
 </tr>
