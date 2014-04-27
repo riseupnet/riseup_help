@@ -34,25 +34,29 @@ h1. Descripción de seguridad.
 </tr>
 <tr>
   <td>[[seguridad para dispositivos]]</td>
-  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
-  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+  <td>Pasos para hacer tu *computador o teléfono* menos vulnerable a ser atacado.</td>
+  <td>Útil cuando tu dispositivo podría caer *físicamente* en manos de un atacante.</td>
 </tr>
 <tr>
-  <td>[[message-security]]</td>
-  <td>Ways to encrypt *individual messages* you send and receive.</td>
-  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+  <td>[[mensajería segura]]</td>
+  <td>Maneras de encriptar *mensajes individuales* cuando envías o recibes.</td>
+  <td>Asegurar la *confidencialidad* de un mensaje en particular cuando este es transmitido y almacenado.</td>
 </tr>
 <tr>
-  <td>[[network-security]]</td>
-  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
-  <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
+  <td>[[seguridad en la red]]</td>
+  <td>Bloqueando sitios que te rastrean y encriptando tu *tráfico en internet.</td>
+  <td>Protección contra el rastreo conductual, hijacking de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
 </tr>
 </table>
 
-Riseup mostly provides services that address [[network-security]]:
 
-* Because network surveillance is so pervasive, it is a *social problem* that affects everyone all the time. In contrast, device and message security are important for people who are being individually targeted by repressive authorities.
-* Improving your network security is fairly *easy*, in comparison to device or message security.
+Riseup provee principalmente servicios, más que direcciones [[seguridad en la red]]:
 
-Having said that, it is important for people facing the prospect of targeted repression to employ device and message security, although this can take some time to learn. These help pages will aid in that journey.
+* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento. 
+* En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
+* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en mensajería o dispositivos.
+
+Habiendo dicho esto, es importante que las personas que son objetivo de la represión empleen la seguridad en dispositivos y mensajería. Aunque les podría tomar un poco de tiempo, estas páginas les ayudarán en el viaje.
+
+
 
