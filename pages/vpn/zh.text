@@ -5,11 +5,11 @@ p（警告警报）。当我们过渡到新系统，我们会撤下关于如何�
 
 h2. 什么是 RiseupVPN？
 
-虚拟专用网（VPN） (VPN) 通常用于远程工作人员连接到主办公室网络。RiseupVPN是不同的：它 <%= 连接 ‘sends all your internet traffic through an encrypted connection’ => ‘how-vpn-works’ %>到 riseup.net，然后发送到公共网络。有时，这种VPN也叫做“个人VPN”。个人VPN的目的不是为了安全地与专用网络连接，而是要你安全地连接到整个互联网。
+虚拟专用网（VPN）通常用于远程工作人员连接到主办公室网络。RiseupVPN是不同的：它 <%= 连接 ‘sends all your internet traffic through an encrypted connection’ => ‘how-vpn-works’ %>到 riseup.net，然后发送到公共网络。有时，这种 VPN也叫做“个人 VPN”。个人 VPN的目的不是为了安全地与专用网络连接，而是要你安全地连接到整个互联网。
 
 h2. 为什么您要使用 Riseup VPN？
 
-在 Riseup，我们相信使用像 VPN或 [[security/tor]]这样的一些技术加密您的因特网流量是很重要的。为什么呢？因为因特网已经被政府、因特网服务提供者和公司攻破了。
+在 Riseup，我们相信使用像 VPN或 [[security/tor]]这样的一些技术加密您的因特网流量是很重要的。为什么呢？因为因特网已经被政府、因特网服务提供商和公司攻破了。
 
 *被政府攻破*
 
@@ -17,29 +17,29 @@ h2. 为什么您要使用 Riseup VPN？
 
 *被因特网服务提供商攻破*
 
-互联网服务提供商也在攻破互联网。他们和政府镇压愉快合作着，他们通过深层包检测实施侵入监控您的流量，跟踪您的DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，仅仅是处于侵犯版权的指控。此外，因特网服务提供商通常会限制你为一个Internet地址。如果你想与多个设备分享您的互联网连接，你必须把所有的设备放在本地网络上。如果您只是想浏览网络，可以正常工作，但如果你想利用许多应用，则会使生活困难。
+互联网服务提供商也在攻破互联网。他们和政府狼狈为奸，他们通过深层包检测实施侵入监控您的流量，跟踪您的 DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，仅仅是处于侵犯版权的指控。此外，因特网服务提供商通常会限制你为一个Internet地址。如果你想与多个设备分享您的互联网连接，你必须把所有的设备放在本地网络上。如果您只是想浏览网络，可以正常工作，但如果你想利用许多应用，则会使生活困难。
 
 *被公司攻破*
 
-公司已经发现怎样从互联网赚钱：通过跟踪您的在线习惯，广告公司建立你个人的行为详细档案，以便更好地卖给你没用的废物。每一个大的互联网广告公司现在都使用行为跟踪。此外，为了遵守国家版权，很多公司只提供服务给一些居住在“正确的”国家的互联网用户，那些谁住在“正确”的国家他们的服务。
+公司已经发现怎样从互联网赚钱：通过跟踪您的在线习惯，广告公司建立你个人的行为详细档案，以便更好地卖给你没用的废物。每一个大的互联网广告公司现在都使用行为跟踪。此外，为了遵守国家版权，很多公司只提供服务给一些居住在“正确的”国家的互联网用户。
 
 
 h2. 解决方案：使用 RiseupVPN修补互联网
 
 RiseupVPN可以在许多方面提供许多帮助：
 
-# *防止ISP监控*：RiseupVPN消除您的ISP对您的沟通的监控能力·。他们可以被用来对付你，无论是营销还是状态没有意义的记录。 RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
-# *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
-# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country, like Skype.
-# *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> http://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
-# *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
+# *防止ISP监控*：RiseupVPN能消除 ISP对您的沟通的监控能力·。他们是一些无意义的记录，可以被市场营销人员或者国家可以用来对付你。
+# *绕过政府审查*： RiseupVPN可以完全绕过所有政府的审查，只要您仍然可以访问互联网。但是，请注意，仔细分析您的流量可以揭示您正在使用 VPN，这在您的辖区可能是/不是合法的。
+# *无论您居住在哪里，都可以访问整个互联网*：RiseupVPN让你假装生活在有VPN服务器的任何国家里。这使您可以访问只有在那些国家才有效的限定内容。RiseupVPN还允许您使用在您的国家可能被阻止的服务，如 Skype。
+# *推翻企业级防火墙*：只要您在一个邪恶的公司工作，你花费许多时间在网上冲浪吗？不幸的是，在企业防火墙可能会阻止您访问许多网站（riseup.net就在[[许多企业防火墙 - > http://www.barracudanetworks.com/]]的被禁网站列表上）。 RiseupVPN会让你完全绕过这些限制，可以访问整个网络。
+# *保护您的 Wi-Fi连接*：您使用公共Wi-Fi连接的任何时间，其他人使用该接入点就可以窥视您的流量。 RiseupVPN将防止这一点。 
 
 h2. 使用RiseupVPN的限制
 
-The RiseupVPN shares some limitations common to all personal VPNs:
+ RiseupVPN具有所有的个人VPN共有的一些限制：
 
-* *An insecure connection is still insecure*: Although RiseupVPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. This means you should still use TLS when available (ie https over http, imaps over imap, etc).
+* *一个不安全的连接仍然是不安全的*：虽然 RiseupVPN将匿名您的位置，并从您的 ISP监控中保护您，一旦您的数据通过 riseup.net安全路由，就会像通常一样走出互联网。这意味着您仍然应该尽可能使用TLS（即 HTTPS胜过http，IMAPS胜过IMAP等）。 
 
-* *VPNs are not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
+* *VPN不是万能的*：虽然VPN可以实现很多，他们不能搞定一切。例如，如果您的电脑已经受到病毒或间谍软件损害，它不能增加您的安全性。如果提交个人信息到一个网站，几乎没有 VPN可以做些什么来向该网站或其合作伙伴维护您的匿名性。欲了解更多信息，参见 [[VPN anonymity -> security-issues]]。
 
-* *The internet might get slower*: the RiseupVPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN server close to where you actually live.
+* *网络可能变得缓慢*：在到达正常因特网前，RiseupVPN路由通过加密所有流量连接到 riseup.net。这个额外的步骤可以使网络降低速度。为了尽量减少放缓，尽量选择一个接近您实际居住地方的 VPN服务器。
