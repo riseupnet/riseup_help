@@ -23,7 +23,7 @@ h3. VPN是否有助于防止 MiTM？
 
 h2. PPTP和 LT2P
 
-由于以下原因，PPTP和 LT2P已被禁用“漏洞攻击”：http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html：
+由于“漏洞攻击”，PPTP和 LT2P已被禁用：http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html：
 
 bq. 虽然PPTP协议具有在Windows平台预装了客户端的优势，但通过密码学专家分析，揭示了安全漏洞。（openvpn.net）
 
