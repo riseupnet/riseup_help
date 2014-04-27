@@ -1,0 +1,22 @@
+@title = "Seguridad en dispositivos"
+
+Well... this page is just a placeholder. It needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
+
+h1. Encriptación de disco
+
+Dificultad: Fácil a difícil
+¿Por qué?: Para prevenir el acceso a la información almacenada en tu disco duro.
+
+Muy fácil: Encriptación de particiones con LUKS en instalación inicial y sobreescribir (http://code.google.com/p/diskscrub/) la antigua ubicación de datos.
+Intermedio: Encriptar con LUKS sobre LVM.
+Intermedio: ecryptfs sobre directorios/archivos específicos.
+Difícil: Encriptar completo el disco duro con una llave ubicada en otro dispositivo (como un pendrive).
+Muy difícil: Métodos esteganográficos.
+
+h1. Firewall personal.
+
+Dificultad: Fácil.
+*¿Por qué?*: Para hacer tu computador menos vulnerable ante ataques externos de la red. Cuando estás ejecutando la [[RiseupVPN->vpn]] esto es *esencial*, porque tu computador está más expuesto que de lo normal.
+*¿Cómo?*: Instala [[gufw->http://gufw.org]], "Uno de los firewalls más simples del mundo". Puedes encontrar gufw en Ubuntu y Debian.
+
+[[Sigue estas fáciles instrucciones para iniciarte con gufw -> https://help.ubuntu.com/community/Gufw]]
