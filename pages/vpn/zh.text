@@ -17,18 +17,18 @@ h2. 为什么您要使用 Riseup VPN？
 
 *被因特网服务提供商攻破*
 
-互联网服务供应商也在攻破互联网。他们和政府镇压愉快合作着，他们通过深层包检测实施侵入监控您的流量，跟踪您的DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
+互联网服务提供商也在攻破互联网。他们和政府镇压愉快合作着，他们通过深层包检测实施侵入监控您的流量，跟踪您的DNS使用，把人们投入监狱，从学校驱逐出去，取缔互联网，仅仅是处于侵犯版权的指控。此外，因特网服务提供商通常会限制你为一个Internet地址。如果你想与多个设备分享您的互联网连接，你必须把所有的设备放在本地网络上。如果您只是想浏览网络，可以正常工作，但如果你想利用许多应用，则会使生活困难。
 
-*Broken by corporations*
+*被公司攻破*
 
-Corporations have discovered how to make money from the internet: surveillance. By tracking your online habits, advertising companies build detailed profiles of your individual behavior in order to better sell you useless crap. Every single major internet ad company now uses behavioral tracking. Also, to comply with national copyright, many companies only make their services available to some internet users, those who reside in the 'right' country.
+公司已经发现怎样从互联网赚钱：通过跟踪您的在线习惯，广告公司建立你个人的行为详细档案，以便更好地卖给你没用的废物。每一个大的互联网广告公司现在都使用行为跟踪。此外，为了遵守国家版权，很多公司只提供服务给一些居住在“正确的”国家的互联网用户，那些谁住在“正确”的国家他们的服务。
 
 
-h2. The solution: fix the internet by using RiseupVPN
+h2. 解决方案：使用 RiseupVPN修补互联网
 
-There are many ways that RiseupVPN can help:
+RiseupVPN可以在许多方面提供许多帮助：
 
-# *protect against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
+# *防止ISP监控*：RiseupVPN消除您的ISP对您的沟通的监控能力·。他们可以被用来对付你，无论是营销还是状态没有意义的记录。 RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
 # *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
 # *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country, like Skype.
 # *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> http://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
