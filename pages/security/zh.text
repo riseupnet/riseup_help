@@ -1,0 +1,57 @@
+@title = 'Communications Security'
+@nav_title = 'Security'
+
+h1. 为什么安全性很重要
+
+信息和通信的重要性日益增加也带来了另一种现象：*社会监视*的崛起。您可以把监控作为向[_maintain their dominance by asserting control over communication_]的一个强大进攻。
+
+*国家* 通过推行基础设施来轻易地对整个社会控制重新规划，已对新的通信技术作出回应。不像早期的通信时代，目前的技术性质要求我们的信息要么在一定程度上挫败政府，要么是完全不安全，在一定程度上使广泛和详细的监视整个人口成为可能。
+
+*公司* 已经发现，如果他们希望在一个信息丰富的世界保持竞争性，收集和分析海量个人数据是有必要的。尤其是，几乎所有的广告正在向基于监视跟踪我们的个人能习惯的方向转变。
+
+在这种情况下，安全通信已变得非常重要。
+
+* 政府监督在很长时间导致镇压社会运动。
+* 即使是间接的，猖獗的监控对社会运动也有寒蝉效应。
+* 公司监控同政府监控一样严重。不仅可以将保存在互联网上的海量用户数据很容易地重新利用给国家镇压，而且公司现在已经超越消费者，位于获得前所未有的力量的边缘。
+
+当人们开始了解监视的不断增长，他们开始感到不知所措。有些决定可能不是安全的，所以他们甘心在永久监视下生活或放弃所有形式的数字通信。在Riseup，我们认为还有第三种方法：我们的目标是对每个人都高度的安全易用。
+
+许多反对监控的斗志通过法律制度产生，我们赞扬在这个领域工作的人。相比之下，Riseup的重点是技术。如果法律是不公正的，我们相信，为了改变法律和政治的可能性，一种新的技术实现是必要的。
+
+h1. 安全性概述
+
+<table class="table table-striped">
+<tr>
+  <th style="width: 10em">Type of security</th>
+  <th>What is it?</th>
+  <th>When is it useful?</th>
+</tr>
+<tr>
+  <td>[[human-security]]</td>
+  <td>Simple changes you can make to your *behavior*.</td>
+  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+</tr>
+<tr>
+  <td>[[device-security]]</td>
+  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
+  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+</tr>
+<tr>
+  <td>[[message-security]]</td>
+  <td>Ways to encrypt *individual messages* you send and receive.</td>
+  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+</tr>
+<tr>
+  <td>[[network-security]]</td>
+  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
+  <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
+</tr>
+</table>
+
+Riseup通常提供服务来处理 [[network-security]]：
+
+*由于网络监控非常普遍，它是个影响每个人的所有时间的*社会问题*。相比之下，被当局镇压作为单独目标的人，设备和信息安全性非常重要。
+*与设备或消息的安全性相比，提高您的网络安全性是相当*容易地*。
+
+话虽如此，人们面对镇压雇用设备和信息安全性的前景是重要的，虽然这可能需要一些时间来学习。这些帮助页面，将有助于这个过程。
