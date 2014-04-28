@@ -11,7 +11,7 @@ h2. 中间人攻击
 
 “中间人攻击”：http://en.wikipedia.org/wiki/Man-in-the-middle_attack（或者 MiTM）是攻击者可以监听或修改您的网络流量。比如一个攻击可用于非匿名你，修改内容，盗取您的密码，或者向你提供病毒、特洛伊木马或其他被设计成进入您电脑的软件。
 
-由于互联网如何工作的弱点，每一个互联网连接，都容易受到 MITM攻击。通过欺骗所使用的互联网路由协议，几乎所有的流量很容易受到来自世界各地的MiTM攻击。虽然这个漏洞已经知道了多年，[[researchers dramatically demonstrated ->/assets/43591/defcon-16-pilosov-kapela.pdf]]比如在2008年8月黑客大会DEFCON上的一次攻击。
+由于互联网如何工作的弱点，每一个互联网连接，都容易受到 MITM攻击。通过欺骗所使用的互联网路由协议，几乎所有的流量很容易受到来自世界各地的MiTM攻击。虽然这个漏洞已经知道了多年，[[researchers dramatically demonstrated =>/assets/43591/defcon-16-pilosov-kapela.pdf]]比如在2008年8月黑客大会DEFCON上的一次攻击。
 
 h3. VPN是否有助于防止 MiTM？
 
