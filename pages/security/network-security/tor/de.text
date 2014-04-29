@@ -17,7 +17,7 @@ Nach dem Herunterladen des Tor Browser Bundle, doppelklicke darauf und führe es
 
 !tor/tbb-screenshot1.jpg!
 
-Siehe [[Tor benutzen -> #Tor+benutzen]], um es zu benutzen.
+Siehe [[Tor benutzen -> #tor-benutzen]].
 
 
 h3. Mac OS X
@@ -26,7 +26,7 @@ Nach dem Herunterladen klicke einfach darauf, um es zu installieren. Mac OS X wi
 
 !tor/screenshot-osx-torbrowser-icon.png!
 
-Siehe [[Tor benutzen -> #Tor+benutzen]], um es zu benutzen.
+Siehe [[Tor benutzen -> #tor-benutzen]].
 
 
 h3. Linux
@@ -36,7 +36,9 @@ Lade die Installationsdatei für die jeweilige Architektur herunter, speichere e
 * Für 32-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-i686-1.1.13-dev-LANG.tar.gz</code>
 * Für 64-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-x86_64-1.1.13-dev-LANG.tar.gz</code>
 
-(LANG ist die Sprache, die im Dateinamen angegeben ist) und entweder doppelklicke auf den Ordner oder benutze @cd@, um ihn zu entern. Danach führe das start-tor-browser-Skript aus. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten. *Entpacke TBB nicht als root.*
+(LANG ist die Sprache, die im Dateinamen angegeben ist) und entweder doppelklicke auf den Ordner oder benutze @cd@, um ihn zu entern. Danach führe das start-tor-browser-Skript aus. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten. 
+
+*Entpacke TBB nicht als root.*
 
 
 h2. Tor benutzen
