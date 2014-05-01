@@ -1,0 +1,26 @@
+@title = "Security Resources"
+@nav_title = "Resources"
+
+h2. 其它服务供应商
+
+查看我们的列表 [[radical server projects => radical-servers]]。
+
+h2. 安全指南
+
+推荐：
+
+* [[EFF的审查自卫指南' => https://ssd.eff.org/]] （目前只有英文）
+* [[数字自卫指南 => https://guide.boum.org/]] （目前只有法语，您可以帮助翻译）
+* [[Security in-a-box => https://security.ngoinabox.org/]] 网站包含了许多实用指南，从 [[前线 => http://www.frontlinedefenders.org/]]到 [[策略技术合集 => http://www.tacticaltech.org/]]
+* FOSS手册的 [[绕过互联网审查 => http://www.flossmanuals.net/bypassing-censorship/]] 是一本全面的240页的指南，用以规避审查技术
+* FOSS手册的[[基本的互联网安全 => http://www.flossmanuals.net/basic-internet-security/]]
+* [[互联网审查维基 => http://en.cship.org/wiki]] 含有大量规避互联网审查的信息（目前只有英文）
+* [[Riseup爱好者杂志：活动家的数字安全！=>https://zine.riseup.net]]
+
+已过时，但可能有用：
+
+* [[security.resist.ca => http://security.resist.ca]] 帮助活动家在压迫的世界里保持安全
+* [[APC安全文档 => http://secdocs.net/manual/lp-sec/]] 一系列关于信息安全和网络安全民间社会组织的简报
+* [[电子邮件安全指南 => http://www.activist.ca/guide/encrypt.html]] 使用加密和数字签名
+* [[一般活动家的计算机安全 => http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] 可下载的 PDF文件
+* [[互联网激进主义介绍 => http://www.backspace.com/action/]]
