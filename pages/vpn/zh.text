@@ -1,11 +1,11 @@
 @nav_title = 'VPN'
 @title = 'Riseup VPN'
 
-p（警告警报）。当我们过渡到新系统，我们会撤下关于如何使用 RiseupVPN的说明。当准备就绪，我们将会张贴使用新系统的说明。
+p.当我们过渡到新系统，我们会撤下关于如何使用 RiseupVPN的说明。当准备就绪，我们将会张贴使用新系统的说明。
 
 h2. 什么是 RiseupVPN？
 
-虚拟专用网（VPN）通常用于远程工作人员连接到主办公室网络。RiseupVPN是不同的：它 <%= 连接 ‘sends all your internet traffic through an encrypted connection’ => ‘how-vpn-works’ %>到 riseup.net，然后发送到公共网络。有时，这种 VPN也叫做“个人 VPN”。个人 VPN的目的不是为了安全地与专用网络连接，而是要你安全地连接到整个互联网。
+虚拟专用网（VPN）通常用于远程工作人员连接到主办公室网络。RiseupVPN是不同的：它[[通过加密连接发送您的所有互联网流量 => how-vpn-works]]到 riseup.net，然后发送到公共网络。有时，这种 VPN也叫做“个人 VPN”。个人 VPN的目的不是为了安全地与专用网络连接，而是要你安全地连接到整个互联网。
 
 h2. 为什么您要使用 Riseup VPN？
 
