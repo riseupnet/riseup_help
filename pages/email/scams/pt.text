@@ -1,10 +1,7 @@
 @title = 'Golpes por e-mail'
 
+!scams/robot-zombies.jpg!:http://www.flickr.com/photos/kurai/291396807/in/photostream/
+
 Tudo de ruim que pode acontecer com emails:
 
-* [[Vírus => viruses]]
-
-* [[Spam => spam]]
-
-* [[Phishing => phishing]]
-
+<%= child_summaries :include_toc => true %>

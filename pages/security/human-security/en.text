@@ -6,13 +6,13 @@ h2. Save the world with better passwords
 
 <%= render 'common/good-passwords' %>
 
-h2. How to laugh in the face of con men
+h2. Common internet scams
 
-<%= render 'common/scams' %>
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
 
 h2. Keep your software up to date
 
-insert here tips on how to do this.
+To be written.
 
 h2. Be cautious on shared computers
 
