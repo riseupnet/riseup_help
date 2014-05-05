@@ -85,16 +85,15 @@ Putting it all together:
 4. Edit files in `riseup_help/pages`
 5. Preview changes in your browser using http://localhost:8000
 6. When satisfied, `git commit`, `git push`
-7. Go to https://github.com/your-id/riseup_help and "issue a pull request":https://help.github.com/articles/using-pull-requests
+7. Go to https://github.com/your-id/riseup_help and [issue a pull request](https://help.github.com/articles/using-pull-requests)
 
-"more info":https://help.github.com/articles/fork-a-repo on how to fork a repository:
-<code>
-$ git remote add upstream https://github.com/riseupnet/riseup-help
-$ git fetch upstream # retrieve in changes from riseup-help
-$ git merge upstream/master # merge them into your working copy before pushing changes
-</code>
+One way you can refresh your repo with upstream before pushing:
 
-See results in the "network graph":https://github.com/riseupnet/riseup_help/network
+    git remote add upstream https://github.com/riseupnet/riseup-help
+    git fetch upstream
+    git rebase upstream/master
+
+You only need to run `git remote add` once. Alternately, you could set origin to be `riseupnet/riseup-help` and add your fork as a remote.
 
 Directories
 --------------------------------------------
@@ -136,7 +135,7 @@ Modifying Navigation
 
 If you need to add or remove a top or side nav menu, you'll need to edit
 
-	amber/menu.txt
+    amber/menu.txt
 
 Note that you will need to restart the amber server for changes to take effect.
 
@@ -182,8 +181,9 @@ name is missing and it will ensure that the link is created with the correct
 language prefix. In haml, you can get the same effect using
 `link 'label' => 'page'`
 
-You should use the standard textile link markup for external links or links to
-files.
+The standard textile method of linking does not work well with non-latin
+languages, so it is recommended that you always use the amber method of
+forming links.
 
 Setting page properties
 --------------------------------------------
@@ -246,3 +246,8 @@ Alternately, if you want different versions of ruby installed, consider:
 
 * https://github.com/sstephenson/rbenv
 * http://rvm.io/
+
+Installing on Windows
+----------------------------------------
+
+Windows is not yet supported.
