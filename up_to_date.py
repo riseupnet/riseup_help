@@ -35,7 +35,7 @@ def database(filename, dirname):
     filepath = os.path.join(dirname, filename)
     if filename == "en.text":
         output = subprocess.call(["git", "log", "-1",
-                                  "--format=%h|%ai", "--", filepath])
+                                  "--format=%ai", "--", filepath])
         print(filepath)
         print(output)
 
