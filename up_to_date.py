@@ -28,6 +28,7 @@ except ImportError:
         """ % ("python-docopt", "python-docopt", "python-docopt"))
 
 import os
+import re
 import subprocess
 
 from collections import defaultdict
@@ -39,10 +40,20 @@ def create_database(filename, dirname, database):
                               "--date=local", "--", filepath],
                               stdout=subprocess.PIPE)
     output, error = pipe.communicate()
+    output = output[4:]
     if output != "":
+        time = output.split(" ")[2]
+        day = output.split(" ")[1]
+        month = output.split(" ")[0]
+        year = (output.split(" ")[3]).strip("\n")
         database[dirname].append(
-            [os.path.splitext(filename)[0], output.strip()])
+            [os.path.splitext(filename)[0],
+            time, day, month, year])
     return database
+
+# Defining the function that generates the textile file
+
+
 
 # Defining main function
 def main():
@@ -57,8 +68,7 @@ def main():
                    database = create_database(filename, dirname, database)
                 except KeyboardInterrupt:
                     raise
-#    database = sorted(database.iterkeys())
-    print(database)
+    print(database["./pages"])
 
 # Calling main function
 if __name__ == "__main__":
