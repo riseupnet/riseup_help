@@ -30,6 +30,8 @@ except ImportError:
 import os
 import subprocess
 
+from collections import defaultdict
+
 # Defining the function that builds the database
 def create_database(filename, dirname, database):
     filepath = os.path.join(dirname, filename)
@@ -38,13 +40,14 @@ def create_database(filename, dirname, database):
                               stdout=subprocess.PIPE)
     output, error = pipe.communicate()
     if output != "":
-        database[filepath] = output.strip() 
+        database[dirname].append(
+            [os.path.splitext(filename)[0], output.strip()])
     return database
 
 # Defining main function
 def main():
     args = docopt(__doc__, version="up_to_date XX")
-    database = dict()
+    database = defaultdict(list)
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
                                    topdown=False):
@@ -54,6 +57,7 @@ def main():
                    database = create_database(filename, dirname, database)
                 except KeyboardInterrupt:
                     raise
+#    database = sorted(database.iterkeys())
     print(database)
 
 # Calling main function
