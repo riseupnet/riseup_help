@@ -31,9 +31,11 @@ import os
 import subprocess
 
 from collections import defaultdict
+import csv
+
 
 # Defining the function that builds the database
-def create_database(filename, dirname, database):
+def create_dictionary(filename, dirname, dictionary):
     filepath = os.path.join(dirname, filename)
     pipe = subprocess.Popen(["git", "log", "-1", "--format=%ad",
                               "--date=local", "--", filepath],
@@ -42,43 +44,40 @@ def create_database(filename, dirname, database):
     output = output[4:]
     if output != "":
         time = output.split(" ")[2]
-        day = output.split(" ")[1]
+        day = output.split(" ")[1].zfill(2)
         month = output.split(" ")[0]
         year = (output.split(" ")[3]).strip("\n")
-        database[dirname].append(
+        dictionary[dirname].append(
             [os.path.splitext(filename)[0],
             time, day, month, year])
-    return database
+    return dictionary
 
-# Defining the function that generates the textile file
-def textile(database):
-    f = open("up_to_date.text", "w")
-    f.write("{:<10} {:<10} {:<10} {:<10} {:<10} {:<10}".format(
-        "Directory","Language","Time", "Day", "Month", "Year"))
-    for directory in database.iterkeys():
-        for values in database.itervalues():
-            for value in values:
-                lang, time, day, month, year = value
-                f.write("{:<10} {:<10} {:<10} {:<10} {:<10} {:<10}".format(
-                    directory, lang, time, day, month, year))
-    f.close()
+
+# Defining the function that generates the csv database
+def create_csv(dictionary):
+    f = csv.writer(open('up_to_date.csv', 'wb'))
+    f.writerow(["Directory", "Language", "Time", "Day", "Month", "Year"])
+    for directory, values in dictionary.items():
+        for value in values:
+            lang, time, day, month, year = value
+            f.writerow([directory, lang, time, day, month, year])
 
 
 # Defining main function
 def main():
     args = docopt(__doc__, version="up_to_date XX")
-    database = defaultdict(list)
+    dictionary = defaultdict(list)
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
                                    topdown=False):
         for filename in filenames:
             if os.path.splitext(filename)[1] == ".text":
                 try:
-                   database = create_database(filename, dirname, database)
+                   dictionary = create_dictionary(filename, dirname, dictionary)
                 except KeyboardInterrupt:
                     raise
-    textile(database)
-#    print(database["./pages"])
+    create_csv(dictionary)
+
 
 # Calling main function
 if __name__ == "__main__":
