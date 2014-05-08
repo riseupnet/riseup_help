@@ -28,7 +28,6 @@ except ImportError:
         """ % ("python-docopt", "python-docopt", "python-docopt"))
 
 import os
-import re
 import subprocess
 
 from collections import defaultdict
@@ -52,7 +51,17 @@ def create_database(filename, dirname, database):
     return database
 
 # Defining the function that generates the textile file
-
+def textile(database):
+    f = open("up_to_date.text", "w")
+    f.write("{:<10} {:<10} {:<10} {:<10} {:<10} {:<10}".format(
+        "Directory","Language","Time", "Day", "Month", "Year"))
+    for directory in database.iterkeys():
+        for values in database.itervalues():
+            for value in values:
+                lang, time, day, month, year = value
+                f.write("{:<10} {:<10} {:<10} {:<10} {:<10} {:<10}".format(
+                    directory, lang, time, day, month, year))
+    f.close()
 
 
 # Defining main function
@@ -68,7 +77,8 @@ def main():
                    database = create_database(filename, dirname, database)
                 except KeyboardInterrupt:
                     raise
-    print(database["./pages"])
+    textile(database)
+#    print(database["./pages"])
 
 # Calling main function
 if __name__ == "__main__":
