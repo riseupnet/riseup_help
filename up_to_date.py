@@ -31,28 +31,30 @@ import os
 import subprocess
 
 # Defining the function that builds the database
-def database(filename, dirname):
+def create_database(filename, dirname, database):
     filepath = os.path.join(dirname, filename)
-    if filename == "en.text":
-        output = subprocess.call(["git", "log", "-1",
-                                  "--format=%ai", "--", filepath])
-        print(filepath)
-        print(output)
-
+    pipe = subprocess.Popen(["git", "log", "-1", "--format=%ad",
+                              "--date=local", "--", filepath],
+                              stdout=subprocess.PIPE)
+    output, error = pipe.communicate()
+    if output != "":
+        database[filepath] = output.strip() 
+    return database
 
 # Defining main function
 def main():
     args = docopt(__doc__, version="up_to_date XX")
+    database = dict()
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
                                    topdown=False):
         for filename in filenames:
             if os.path.splitext(filename)[1] == ".text":
                 try:
-                    database(filename, dirname)
+                   database = create_database(filename, dirname, database)
                 except KeyboardInterrupt:
                     raise
-
+    print(database)
 
 # Calling main function
 if __name__ == "__main__":
