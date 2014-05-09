@@ -10,11 +10,11 @@ h2. Usando el servicio de Jabber de Riseup.
 
 Tu dirección de correo en riseup.net también te sirve para ocuparla en jabber. Para enviarle un mensaje a alguien o solicitud de amistad, simplemente necesitas enviárselo a [@usuario@riseup.net@]
 
-En orden de configurar un [[cliente de jabber => chat/clientes]], necesitas la siguiente información:
+En orden de configurar un [[cliente de jabber => chat/clients]], necesitas la siguiente información:
 
 * *protocolo*: "jabber" o "xmpp"
 * *cuenta*: [@usuario@riseup.net@]
-* *contraseña*: tu [[contraseña de riseup]]
+* *contraseña*: tu [[contraseña de riseup => human-security/riseup-password]]
 
 Es importante que cuando configures tu cliente, marques *siempre requerir encriptación*. Pues algunos clientes tienen la opción "encriptar si es posible". A pesar de que los servidores de riseup.net requieren encriptación, si tu cliente está configurado con "encriptar si es posible", un atacante puede fácilmente adquirir tu contraseña. 
 
@@ -23,7 +23,7 @@ Algunos clientes de jabber te pedirán tu nombre de usuario y dominio por separa
 * *nombre de usuario usuario*: [@nombredeusuario@]
 * *dominio*: @riseup.net@
 
-Para ver tutoriales específicos de distintos clientes, ve nuestra página [[jabber clientes => chat/clientes]]
+Para ver tutoriales específicos de distintos clientes, ve nuestra página [[jabber clientes => chat/clients]]
 
 
 
