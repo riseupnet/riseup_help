@@ -1,4 +1,6 @@
 @title = 'Spam, spam, spam!'
+@nav-title = Spam
+@this.alias = Spam
 
 h2. A Word on Spam
 
@@ -46,12 +48,35 @@ h3. Spamassassin
 host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
 </pre>
 
-Riseup uses "Spamssassin":http://spamassassin.apache.org to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check "this page":http://wiki.apache.org/spamassassin/AvoidingFpsForSenders to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
+Riseup uses "Spamassassin":http://spamassassin.apache.org to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check "this page":http://wiki.apache.org/spamassassin/AvoidingFpsForSenders to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
 
-h3. My mail server has "bad MX records"
+h2. Why is email from me being blocked as spam?
 
-<pre>
-Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address (EXAMPLE@EXAMPLE.NET) blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
-</pre>
+h3. Spamcop
 
-MX records define servers that are authorized to send mail. Some ISPs do not configure their DNS records correctly, and this leads to lots of problems. In fact, this is a common practice for spammers - so riseup does not accept mail with bogus mx records. If the person who is sending you mail is receiving this error, please have them contact their ISP (or their IT department if it's a business) and tell them to look at "this page":http://rfc-ignorant.org/policy-bogusmx.php.
+Spamcop is a service which email providers can use to block servers which spamcop suspects of sending spam. The problem is that Spamcop is incredibly agressive, makes it easy to attack a legitimate email provider by filing false reports, and makes it impossible to get a server delisted quickly. Spamcop is a harmful and easily abused service which stops more legitimate email than it does spam. 
+
+In Spamcop's own words:
+
+bq. The SCBL is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a "tag only" mode, which is preferable in many situations.
+
+Spamcop is really causing a problem for riseup.net, and for many other legitimate email providers. The "solution" which Spamcop imposes is worse than the problem they are trying to solve: by [[one estimate => http://jhoward.fastmail.fm/spamcop.html]], Spamcop often blocks 10,000 legitimate emails for each actual spam it stops.
+
+Additionally, Spamcop is open for abuse. They make it incredibly simple for people to tag legitimate messages as spam, just because they can't figure out how to unsubscribe themselves. This can also be used as an attack: if you don't like our politics, all you have to do is get a few people to report riseup.net to spamcop. Riseup.net is frequently reported to Spamcop for legitimate non-spam activist email.
+
+It is our strong opinion that the Spamcop blocklist should NOT be used by ISPs, and we encourage users who have an ISP that uses spamcop to complain to their ISP about their use of spamcop. Spamcop's policy is guaranteed to block more legitimate mail than real spam.
+
+When you contact your ISP to complain you can use the following as a template for your email:
+
+bq. I am writing to ask that you please don't trust the Spamcop blocklist. It's been shown many times to use a hopelessly broken algorithm. It is an exceptionally poor indicator of whether a site is a source of unsolicited bulk email. In Spamcop's own words, the blocklist "is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a 'tag only' mode, which is preferable in many situations." Spamcop's policy is guaranteed to generate false positives, and your use of their RBL in your mail configuration has caused me problems with legitimate email. The SpamCop BL is a system that is open to abuse, and can be very inaccurate. Please consider removing spamcop as one of your blocklists in your SMTP configuration. It is causing me serious problems.
+
+_Links_
+
+* [[Why not to use SpamCop -- some first-hand accounts => http://www.politechbot.com/p-04129.html]]
+* [[Why the SpamCop blocking list is harmful => http://jhoward.fastmail.fm/spamcop.html]]
+
+h3. Blocklist maintained by email providers
+
+Some large email providers (for example, comcast, aol) maintain their own blocklists. Unfortunately, riseup is occasionally listed on these blocklists. This often happens as a result of a riseup user falling for a phishing attack, where their account is taken over by a spammer. The spammer sends out loads of spam, which results in various providers blocking all outbound mail from riseup. These blocklists are often removed automatically after the passage of time. 
+
+What can you do in the interim? Contact the providers and tell them they are blocking legitimate mail, or even better, encourage your friends who are using those providers to switch! What else can you do? Don't fall for [[scams => phishing]].
