@@ -1,6 +1,6 @@
 @title = 'Spam, spam, spam!'
-@nav-title = Spam
-@this.alias = Spam
+@nav_title = 'Spam'
+@this.alias = '/spam'
 
 h2. A Word on Spam
 
@@ -77,6 +77,6 @@ _Links_
 
 h3. Blocklist maintained by email providers
 
-Some large email providers (for example, comcast, aol) maintain their own blocklists. Unfortunately, riseup is occasionally listed on these blocklists. This often happens as a result of a riseup user falling for a phishing attack, where their account is taken over by a spammer. The spammer sends out loads of spam, which results in various providers blocking all outbound mail from riseup. These blocklists are often removed automatically after the passage of time. 
+Some large email providers (for example, comcast, aol, gmail, hotmail) maintain their own blocklists. Unfortunately, riseup is occasionally listed on these blocklists. This often happens as a result of a riseup user falling for a phishing attack, where their account is taken over by a spammer. The spammer sends out loads of spam, which results in various providers blocking all outbound mail from riseup. These blocklists are often removed automatically after the passage of time. 
 
 What can you do in the interim? Contact the providers and tell them they are blocking legitimate mail, or even better, encourage your friends who are using those providers to switch! What else can you do? Don't fall for [[scams => phishing]].
