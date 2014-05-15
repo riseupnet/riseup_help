@@ -52,16 +52,16 @@ def create_dictionary(filename, dirname, dictionary):
 
 
 # Defining the function that compares the timestamps of the files
-#def compare(dirname, dictionary):
-#    for directory, values in dictionary.items():
-#        for value in values:
-#            language, time = value
-#            if language == "en":
-#                time_en = time
-#                for value in values:
-#                    language, time = value
-#                    if language != "en" and time < time_en:
-#                         print(dirname, language)
+def compare(dirname, dictionary):
+    for directory, values in dictionary.items():
+        for value in values:
+            language, time = value
+            if language == "en":
+                time_en = time 
+        for value in values:
+            language, time = value
+            if time < time_en:
+                print(directory, language)
 
 # Defining main function
 def main():
@@ -77,8 +77,8 @@ def main():
                                     filename, dirname, dictionary)
                 except KeyboardInterrupt:
                     raise
-    print(dictionary)
-#        compare(dirname, dictionary)
+#    print(dictionary)
+    compare(dirname, dictionary)
 
 
 
