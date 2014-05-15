@@ -42,40 +42,31 @@ def create_dictionary(filename, dirname, dictionary):
                               stdout=subprocess.PIPE)
     time, error = pipe.communicate()
     time = time.strip("\n")
-    if time != "":
-        dictionary[dirname].append(
-            [os.path.splitext(filename)[0], time])
+    filename = os.path.splitext(filename)[0]
+    if len(filename) == 2 and time != "":
+        dictionary[dirname].append([filename, time])
+    else:
+        dictionary[dirname + "/" + filename.split(".")[0]].append(
+            [filename.split(".")[1], time])
     return dictionary
 
 
 # Defining the function that compares the timestamps of the files
-def compare(dirname, dictionary):
-    for directory, values in dictionary.items():
-        for value in values:
-            language, time = value
-            if language == "en":
-                time_en = time
-                for value in values:
-                    language, time = value
-                    if time < time_en:
-                         print(dirname, language)
-
-
-# Defining the function that generates the csv database
-#def create_csv(dictionary):
-#    f = csv.writer(open('up_to_date.csv', 'wb'))
-#    f.writerow(["Directory", "Language", "Time", "Day", "Month", "Year"])
+#def compare(dirname, dictionary):
 #    for directory, values in dictionary.items():
 #        for value in values:
-#            lang, time, day, month, year = value
-#            f.writerow([directory, lang, time, day, month, year])
-
+#            language, time = value
+#            if language == "en":
+#                time_en = time
+#                for value in values:
+#                    language, time = value
+#                    if language != "en" and time < time_en:
+#                         print(dirname, language)
 
 # Defining main function
 def main():
     args = docopt(__doc__, version="up_to_date XX")
     dictionary = defaultdict(list)
-    global time_en
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
                                    topdown=False):
@@ -86,9 +77,9 @@ def main():
                                     filename, dirname, dictionary)
                 except KeyboardInterrupt:
                     raise
-        compare(dirname, dictionary)
+    print(dictionary)
+#        compare(dirname, dictionary)
 
-#    create_csv(dictionary)
 
 
 # Calling main function
