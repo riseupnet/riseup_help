@@ -32,51 +32,63 @@ import subprocess
 
 from collections import defaultdict
 import csv
-
+import tabulate
 
 # Defining the function that builds the database
 def create_dictionary(filename, dirname, dictionary):
     filepath = os.path.join(dirname, filename)
-    pipe = subprocess.Popen(["git", "log", "-1", "--format=%ad",
+    pipe = subprocess.Popen(["git", "log", "-1", "--format=%at",
                               "--date=local", "--", filepath],
                               stdout=subprocess.PIPE)
-    output, error = pipe.communicate()
-    output = output[4:]
-    if output != "":
-        time = output.split(" ")[2]
-        day = output.split(" ")[1].zfill(2)
-        month = output.split(" ")[0]
-        year = (output.split(" ")[3]).strip("\n")
+    time, error = pipe.communicate()
+    time = time.strip("\n")
+    if time != "":
         dictionary[dirname].append(
-            [os.path.splitext(filename)[0],
-            time, day, month, year])
+            [os.path.splitext(filename)[0], time])
     return dictionary
 
 
-# Defining the function that generates the csv database
-def create_csv(dictionary):
-    f = csv.writer(open('up_to_date.csv', 'wb'))
-    f.writerow(["Directory", "Language", "Time", "Day", "Month", "Year"])
+# Defining the function that compares the timestamps of the files
+def compare(dirname, dictionary):
     for directory, values in dictionary.items():
         for value in values:
-            lang, time, day, month, year = value
-            f.writerow([directory, lang, time, day, month, year])
+            language, time = value
+            if language == "en":
+                time_en = time
+                for value in values:
+                    language, time = value
+                    if time < time_en:
+                         print(dirname, language)
+
+
+# Defining the function that generates the csv database
+#def create_csv(dictionary):
+#    f = csv.writer(open('up_to_date.csv', 'wb'))
+#    f.writerow(["Directory", "Language", "Time", "Day", "Month", "Year"])
+#    for directory, values in dictionary.items():
+#        for value in values:
+#            lang, time, day, month, year = value
+#            f.writerow([directory, lang, time, day, month, year])
 
 
 # Defining main function
 def main():
     args = docopt(__doc__, version="up_to_date XX")
     dictionary = defaultdict(list)
+    global time_en
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
                                    topdown=False):
         for filename in filenames:
             if os.path.splitext(filename)[1] == ".text":
                 try:
-                   dictionary = create_dictionary(filename, dirname, dictionary)
+                   dictionary = create_dictionary(
+                                    filename, dirname, dictionary)
                 except KeyboardInterrupt:
                     raise
-    create_csv(dictionary)
+        compare(dirname, dictionary)
+
+#    create_csv(dictionary)
 
 
 # Calling main function
