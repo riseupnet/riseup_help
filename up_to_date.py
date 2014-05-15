@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 
 """
-up_to_date is a program that checks if the translations files are up to date with the English ones. It then builds a database and a textile file with this data.
+up_to_date is a program that checks if the translations files are up to date
+with the English ones. It then builds a database and a textile file with
+this data.
 
 Usage:
     up_to_date.py [--verbose]  <repository>
     up_to_date.py (-h | --help)
-    up_to_date.py --version
 
 Arguments:
     <repository>      The path to the repository containing the files
 
 Options:
     -h  --help       Shows the help screen
-    --version        Outputs version information
     --verbose        Runs the program as verbose mode
 """
 import sys
@@ -43,7 +43,7 @@ def create_dictionary(filename, dirname, dictionary):
     time, error = pipe.communicate()
     time = time.strip("\n")
     filename = os.path.splitext(filename)[0]
-    if len(filename) == 2 and time != "":
+    if len(filename) == 2 and time != "":            #To fix foo.en.text
         dictionary[dirname].append([filename, time])
     else:
         dictionary[dirname + "/" + filename.split(".")[0]].append(
@@ -52,7 +52,7 @@ def create_dictionary(filename, dirname, dictionary):
 
 
 # Defining the function that compares the timestamps of the files
-def compare(dirname, dictionary):
+def compare(dictionary, f):
     for directory, values in dictionary.items():
         for value in values:
             language, time = value
@@ -60,12 +60,13 @@ def compare(dirname, dictionary):
                 time_en = time 
         for value in values:
             language, time = value
-            if time < time_en:
-                print(directory, language)
+            if language.isalpha() == True and time < time_en:
+                f.write("{:<60} {:<0} {:<0}".format(directory, language, "\n"))
+      
 
 # Defining main function
 def main():
-    args = docopt(__doc__, version="up_to_date XX")
+    args = docopt(__doc__)
     dictionary = defaultdict(list)
     for dirname, _, filenames in os.walk(
                                    args["<repository>"],
@@ -77,9 +78,21 @@ def main():
                                     filename, dirname, dictionary)
                 except KeyboardInterrupt:
                     raise
-#    print(dictionary)
-    compare(dirname, dictionary)
+    f = open("up_to_date.en.text", "w")
+    f.write(
+"""@title = "Up to date"
 
+This page tracks down the help pages that have been translated, but are not up
+to date with the original English page.
+
+If a page is listed below, please don't use the translation and refer to the 
+English page.
+
+
+
+""")
+    f.write("{:<60} {:<0} {:<0}".format("Page", "Language", "\n\n"))
+    compare(dictionary, f)
 
 
 # Calling main function
