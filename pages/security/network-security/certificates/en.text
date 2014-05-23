@@ -8,9 +8,15 @@ In particular, certificates are needed to establish secure connections. Without 
 
 To make sure you are actually creating a secure connection with Riseup, you can follow the below steps to verify our certificates. This verification process is not required in order to use Riseup's services. However, without verification, you cannot be certain you actually are connecting to our servers, and you cannot be certain that your connections are secure.
 
-h2. How to verify Riseup's certificates are valid
+h2. Very Riseup's certificates
 
 To verify these fingerprints, you need to look at what your browser believes the fingerprints are for the certificates and compare them to what is listed below. If they are different, there is a problem. Be warned: a complete verification is difficult and requires an understanding of OpenPGP.
+
+The fingerprint for Riseup's certificates are:
+
+<pre>
+<%= render :file => 'riseup-signed-certificate-fingerprints.txt', :type => :raw %>
+</pre>
 
 h3. When should I verify these fingerprints?
 
@@ -18,31 +24,33 @@ You should verify these fingerprints whenever they change, or you are using a co
 
 h3. Basic verification
 
-First find the fingerprint of Riseup's certificate in your browser. To do this in most browsers, is by clicking on the lock icon (located at the bottom of the window or in the URL location bar) or the red and black star icon (often located in the URL location bar). This should bring up details about the certificate being used, including the fingerprint.
-
-If you compare the fingerprint you see there, with what you see below, then you have done some basic verification.
+# Find the fingerprint of Riseup's certificate in your browser. In most browser, you can do this by clicking on the lock icon located in the location bar. This should bring up details about the certificate being used, including the fingerprint.
+# Compare the fingerprint the browser reports with the fingerprints listed above.
 
 If you are interested in doing a complete verification, then you will need to follow a more complicated technical process involving knowedge of OpenPGP.
 
 h3. Complete verification
 
-Warning: this process is pretty technical, it requires familiarity with OpenPGP and the command-line.
+Warning: this process is pretty technical, it requires familiarity with OpenPGP and the command-line. It assumes you have the program <code>gpg</code> installed.
 
 *Import riseup's key*
 
-First you need to open a terminal/shell, how you do this depends on your system. If you do not know how, please ask someone or search on the internet to find out how.
+On the terminal, import Riseup's key from a keyserver:
 
-The following instructions will demonstrate the commands you need to type in the terminal. The commands will be pre-pended with a '$' character, which is used to indicate the command/shell prompt. This prompt indicates that the system is waiting for you to type in a command. In your shell, your prompt may look different, it could be a number of different things, if it is not a '$' that is not a problem! Just use the command that follows this character in your shell.
+<code>
+gpg --keyserver keys.riseup.net --recv-key 3043E2B7139A768E
+gpg --fingerprint 3043E2B7139A768E
+</code>
 
-You need to import Riseup's key from a keyserver:
+The first line will import the key into your keyring, but there is no guarentee that you actually imported the right key. The <code>--fingerprint</code> command allows you to see the fingerprint of the key and actually confirm you imported the correct key. You should see output that contains this line:
 
-<code>gpg --keyserver keys.riseup.net --recv-key 139A768E</code>
-
-If you get an error about gpg not being found, you will need to install the gnupg program before you can continue.
+<pre>
+Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+</pre>
 
 There is no particular reason that you should trust this key. You can see who has trusted it:
 
-<code>gpg --list-sigs 139A768E</code>
+<code>gpg --list-sigs 3043E2B7139A768E</code>
 
 *Verify these instructions*
 
