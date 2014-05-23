@@ -24,7 +24,7 @@ You should verify these fingerprints whenever they change, or you are using a co
 
 h3. Basic verification
 
-# Find the fingerprint of Riseup's certificate in your browser. In most browser, you can do this by clicking on the lock icon located in the location bar. This should bring up details about the certificate being used, including the fingerprint.
+# Find the fingerprint of the certificate in your browser sees. In most browsers, you can do this by clicking on the lock icon located in the location bar. This should bring up details about the certificate being used, including the fingerprint.
 # Compare the fingerprint the browser reports with the fingerprints listed above.
 
 If you are interested in doing a complete verification, then you will need to follow a more complicated technical process involving knowedge of OpenPGP.
@@ -33,14 +33,12 @@ h3. Complete verification
 
 Warning: this process is pretty technical, it requires familiarity with OpenPGP and the command-line. It assumes you have the program <code>gpg</code> installed.
 
-*Import riseup's key*
+h4. Import Riseup's OpenPGP key
 
-On the terminal, import Riseup's key from a keyserver:
+On the terminal, import Riseup's public OpenPGP key from a keyserver:
 
-<code>
-gpg --keyserver keys.riseup.net --recv-key 3043E2B7139A768E
-gpg --fingerprint 3043E2B7139A768E
-</code>
+<code>gpg --keyserver keys.riseup.net --recv-key 3043E2B7139A768E</code>
+<code>gpg --fingerprint 3043E2B7139A768E</code>
 
 The first line will import the key into your keyring, but there is no guarentee that you actually imported the right key. The <code>--fingerprint</code> command allows you to see the fingerprint of the key and actually confirm you imported the correct key. You should see output that contains this line:
 
@@ -52,11 +50,11 @@ There is no particular reason that you should trust this key. You can see who ha
 
 <code>gpg --list-sigs 3043E2B7139A768E</code>
 
-*Verify these instructions*
+h4. Verify Riseup's Certificate
 
 Now that you have imported Riseup's public key, you can verify that the fingerprints listed on this page are really from riseup.net.
 
-# Download the signed "certificate fingerprint statement":certificates/riseup-signed-certificate-fingerprints.txt
+# Download the signed [[certificate fingerprint statement => certificates/riseup-signed-certificate-fingerprints.txt]]
 # Then run this command in a terminal:
 <code>gpg --verify riseup-signed-certificate-fingerprints</code>
 # Type control-d
@@ -68,15 +66,15 @@ You should make sure that it says "Good signature" in the output! If this text h
 Unless you have taken explicit steps to build a trust path to the Riseup Collective key, you will see a warning message similar to:
 
 <pre>
-  gpg: WARNING: This key is not certified with a trusted signature!
-  gpg:          There is no indication that the signature belongs to the owner.
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
 </pre>
 
 However, you still should see the "Good signature".
 
-*Compare the fingerprints*
+h4. Compare the fingerprints
 
-Now that you verified that the above message contains the fingerprints for our certificate, you can compare this value to the value provided by your browser. You can get that value by either clicking on the lock icon in the URL bar, or by clicking our black and red star on the left side of the URL bar, then click "More Information" and then "View Certificate", you should find the fingerprints there. Compare these with what you see above on this page.
+Now that you verified that the above message contains the fingerprints for our certificate, you can compare this value to the value provided by your browser. In most browsers, to find the fingerprint of the certificate your browser sees you can click on the lock icon located in the location bar. This should bring up details about the certificate being used, including the fingerprint.
 
 If the values match, and you trust the Riseup public OpenPGP key, then you can be confident you are really communicating with riseup.net servers.
 
