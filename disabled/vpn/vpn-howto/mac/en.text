@@ -12,7 +12,7 @@ Just doubleclick the downloaded file and drag Tunnelblick to your Applications f
 
 h2. Download Riseup CA
 
-Download the "RiseupCA.pem":/security/certificates/RiseupCA.pem and save it to your @Library@ folder. Note that there are two Library folders, one located at /Library and one located at /username/Library/. You can save it in either place, but be sure to remember which location you used, you'll need it later.
+Download the "RiseupCA.pem":RiseupCA.pem and save it to your @Library@ folder. Note that there are two Library folders, one located at /Library and one located at /username/Library/. You can save it in either place, but be sure to remember which location you used, you'll need it later.
 
 Also, for some reason, Mac likes to add a ".txt" extension to the riseup certificate file. So, you may need to locate the file, select get info, then scroll down and uncheck "hide extension." Then you should be able to change the name of the cert to "RiseupCA.pem" rather than "RiseupCA.pem.txt"
 
