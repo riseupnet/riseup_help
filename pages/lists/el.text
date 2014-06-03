@@ -1,0 +1,30 @@
+@title = 'Λίστες Riseup'
+@nav_title = 'Λίστες'
+
+!>(image-right)lists/pile-of-mail.jpg!
+
+h2. Καλωσήρθατε
+
+Καλωσήρθατε στη σελίδα βοήθειας για τις mailing lists σας στο riseup.net! Εδώ θα βρείτε πληροφορίες σχετικά με τις mailing lists που φιλοξενούνται στη διαδικτυακή διεύθυνση http://lists.riseup.net.
+
+Αν χρειάζεστε βοήθεια για τον λογαριασμό email σας του riseup.net, τότε μεταβείτε στην σελίδα βοήθειας για τα [[email]]. Εάν η ερώτησή σας δεν απαντάται παρακάτω μπορείτε να χρησιμοποιήσετε την πλατφόρμα : "create a help ticket":https://user.riseup.net/forms.
+
+h2. Δημοφιλέστερες ερωτήσεις διαχειριστών λίστας
+
+* [[Πώς φτιάχνω μια λίστα; => creating-lists]]
+* [[Πώς αλλάζω τον κάτοχο μιας λίστας; => list-definition#changing-owners]]
+* [[Πώς διαχειρίζομαι τα bounces (αποτυχία αποστολής σε συγκεκριμένο συνδρομητή της λίστας); => bounces]]
+* [[Πώς αλλάζω το όνομα μιας λίστας; => list-admin/faq#how-do-I-change-the-list-name]]
+* [[Τι σημαίνει το μήνυμα "FYI: automatic_del"; => list-admin/faq#what-does-fyi-automatic_del-mean]]
+* [[Όλες οι συχνές ερωτήσεις διαχειριστών => list-admin/faq]]
+
+h2. Δημοφιλέστερες ερωτήσεις μελών λίστας
+
+* [[Πώς αλλάζω τον λογαριασμό με τον οποίο είμαι εγγεγραμμένος/η στη λίστα; => list-user/accounts#how-do-i-change-my-subscription-address]]
+* [[Γιατί τα mail μου προς τη λίστα μπλοκάρονται ως spam; => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[Όλες οι συχνές ερωτήσεις εγγεγραμμένων μελών λίστας => list-user]]
+
+h2. Σχετικά με τις lists.riseup.net
+
+Η παροχή της υπηρεσίας lists.riseup.net καθίσταται εφικτή μόνο μέσω των συνεισφορών σας. Για αυτό, αν επιθυμείτε να συνεχίσει να είναι σε λειτουργία, σας παρακαλούμε [[Συνεισφέρετε => https://help.riseup.net/el/about-us/donate]].
+Οι lists.riseup.net χρησιμοποιούν "ελεύθερο":http://www.gnu.org/philosophy/free-sw.html λογισμικό, συμπεριλαμβανομένων του "sympa mailing list manager":http://www.sympa.org/, του "apache webserver":http://httpd.apache.org/, του "debian GNU/Linux":http://www.debian.org operating system και της γλώσσας προγραμματισμού "Perl":http://www.perl.org.
