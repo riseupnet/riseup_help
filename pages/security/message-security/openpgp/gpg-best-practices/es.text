@@ -1,0 +1,229 @@
+@title = 'GPG buenas prácticas'
+
+h2. Asegúrate de estar recibiendo regularmente actualizaciones de las llaves.
+
+Si no refrescas regularmente tus llaves públicas implica que no recibas a tiempo la información sobre las llaves que han expirado o las revocaciones, lo cual es muy importante ¡y de lo que hay que estar al pendiente!.
+
+Si realizas un simple ‘gpg —refresh-keys’, revelas a cualquiera y al operador de servidor de llaves todo el conjunto de llaves que te interesa refrescar.
+
+Para evitar esto puedes hacer actualizaciones regulares de llaves usando [[Parcimonie -> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] para refrescar tu llavero. Parcimonie es un daemon que refresca lentamente tu llavero desde un servidor de llaves a través de Tor utilizando un dormir aleatorio y circuitos de Tor frescos para cada llave.  El propósito es hacer más difícil para un atacante correlacionar las actualizaciones de las llaves con tu llavero. [[Parcimonie -> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] es un paquete que se encuentra en Debian y Ubuntu.
+
+También puedes usar un simple cronjob, como el siguiente para refrescar tus llaves, esto requiere que tu computadora este conectada a la red a la 1am, y potencialmente revela al mundo todas las llaves que estés actualizando en tu llavero.
+
+pre. 0 1 * * * /usr/bin/gpg --refresh-keys > /dev/null 2>&1
+
+h2. No uses pgp.mit.edu
+
+El servidor de llaves pgp.mit.edu ha estado sin funcionar adecuadamente por años, especialmente para cierto tipo de actualizaciones de llaves.
+
+(Historia sobre MIT omitida en la traducción al español)
+
+Depender específicamente de un único servidor de llaves te hace vulnerable a las posibles fallas de ese servidor de llaves — si el servidor de llaves se queda fuera de la piscina principal por cualquier razón, puede que nunca lleguen las actualizaciones al resto de la piscina. Utilizar la piscina es más robusto que usar un único servidor de llaves.
+Considera mejor utilizar sks keyservers pool . En `gpg.conf` sería:
+
+keyserver [[hkp://pool.sks-keyservers.net -> https://sks-keyservers.net/overview-of-pools.php]]
+
+Nota: ver la sección sobre utilizar hkps
+
+h2. La transición a una llave primaria más fuerte
+
+Muchas personas siguen teniendo llaves DSA de 1024-bit. Debes considerar hacer la transición a un algoritmo de función hash más fuerte y de más bits. Ahora se sabe que este tamaño está dentro de lo que Well Funded Organizations pueden llegar a vulnerar. Este algoritmo de función hash ya está también envejeciendo.
+
+Se recomienda hacer una llave 4096bit RSA con el algoritmo de función hash SHA512, realizando un [[aviso de transición(EN) -> https://we.riseup.net/assets/176898/key transition]] que esté firmado por ambas llaves y hacerlo del conocimiento de todos. Este es un [[buen documento(EN) -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] que detalla exactamente los pasos para que generes una llave así, asegurándose de  obtener al algoritmo de función de digest adecuado (puede ser un poco complicado si estás utilizando versiones gnupg menores a la versión 1.4.10).
+Hacer la transición puede ser doloroso, pero vale la pena y ¡es una buena oportunidad para practicar con las herramientas!
+
+h2. Considera hacer que tu servidor de llaves por defecto use un servidor de llaves que tenga transporte HKPS
+
+En lugar de un hkp sin encriptación por defecto ¡puedes usar hkps! Esto hace menos evidente tu mapa de relaciones sociales de cualquiera que pueda estar fisgoneando el tráfico de tus datos por la red. Si realizas un  @gpg --refresh-keys@ en un servidor de llaves que es sólo hkp, entonces alguien monitoreando tu tráfico vera cada una de las llaves que tienes en tu llavero cuando pidas las actualizaciones de las llaves. Eso puede ser información interesante.
+Nota: para poder utilizar el paquete hkps usuarios Debian/Ubuntu necesitarán instalar el paquete gnupg-curl
+Puedes usar  *hkps.pool.sks-keyservers.net* como tu servidor de llaves por defecto, este es un servidor piscina que contiene los servidores disponibles que usan hkps. Esta piscina contiene únicamente servidores que han sido certificados por [[sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]]. Puede ser usado mediante los siguientes parámetros en gpg.conf:
+
+pre.. ~/.gnupg/gpg.conf:
+  keyserver hkps://hkps.pool.sks-keyservers.net
+  keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
+
+p. Además, hkps:/keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net ofrecen esto (aunque es recomendable que mejor utilices la piscina)
+
+Finalmente, si optas por designar la piscina como tu servidor de llaves, debes también agregar la siguiente opción:
+
+pre.. ~/.gnupg/gpg.conf:
+  keyserver-options no-honor-keyserver-url
+
+p. Cuando se genera una llave, los usuarios pueden designar un servidor de llaves específico desde el cual se pueden descargar sus llaves. La opción de arriba va a omitir esa especificación y utilizará la piscina, lo cual es útil porque (1) previene que alguien designe un método inseguro para que podamos bajar su llave y (2) si el servidor designado usa hkps, refrescar las llaves no funcionará porque el ca-cert no va a coincidir y por lo tanto las llaves no se van a refrescar.
+
+h2. Asigna una fecha de vencimiento si no tienes una
+
+Las personas suelen preferir que sus llaves no expiren, pero tú *sí debes querer que expiren*. ¿Porqué? Porque siempre podrás extender su fecha de vencimiento, aún después de que hayan expirado. Este “vencimiento” es de hecho una válvula de seguridad o un “sistema de seguridad de hombre-muerto” que automáticamente se activará en algún momento. Si tienes acceso a los datos secretos de tus llaves lo puedes desactivar. El objetivo es implementar algo que deshabilite tu llave en caso de que pierdas acceso a ella (y que no tengas certificado de revocación).
+
+Asignar una fecha de vencimiento significa que necesitarás extender esa fecha en algún punto del futuro. Es una pequeña tarea que necesitarás recordar hacer (ve el siguiente punto sobre agendar un recordatorio).
+
+Puedes pensar que es molesto y que no quieres tener que lidiar con ello, pero de hecho es bueno hacerlo regularmente para que mantengas tus habilidades sobre OpenPGP frescas. Indica a los usuarios que su llave sigue estando activa, y que el propietario de la llave la utiliza, te da también una oportunidad de repasar el estado actual de tus herramientas y buenas prácticas. Además, mucha gente no firmará una llave que no tenga fecha de vencimiento.
+
+Para asignar una fecha de vencimiento a tu llave, simplemente necesitas ejecutar:
+
+pre. gpg --edit-key <fingerprint>
+
+Ahora selecciona la subllave a la que quieres asignar una fecha de vencimiento (por ejemplo, la primera), o ninguna para asignar el vencimiento en tu llave primaria y luego ejecuta el comando ‘expire’
+
+pre.. gpg> key 1
+gpg> expire
+
+p. Ahora asigna un valor razonable, (por ejemplo, 2 años)  guarda la llave y sal:
+pre.. Key is valid for? (0) 2y 
+gpg> save
+
+p. Ahora debes enviar tu llave a los servidores de llaves para publicar este cambio:
+pre. gpg --send-key <fingerprint>
+
+h2. Agenda un evento en el calendario para recordarte sobre la fecha de vencimiento de tu llave
+
+No lo vas a recordar, así que lo mejor es pedir un recordatorio. Agenda una alerta un mes o más antes de la fecha para que puedas hacer el cambio con algo de tiempo. No quieres tener que apresurarte cuando tengas que manejar tus llaves.
+Recuerda: Siempre puedes extender la fecha de expiración (¡aún cuando la llave ya expiro!), así que no necesitas generar una nueva llave cada vez, sólo necesitas extender a fecha de vencimiento para después. Hacer esto regularmente es bueno para ejercitar los músculos OpenPGP, de otro modo vas a olvidar cosas.
+
+h2. ¿Tienes un certificado de revocación?
+
+Si llegas a olvidar tu frase de contraseña o si tu llave privada queda comprometida o la pierdes, la única esperanza que te queda es esperar a que expire la llave (esto no es una buena solución), o activar tu certificado de revocación publicándolo a los servidores de llaves. Al hacer esto notificarás a otros que esta llave ha sido revocada.
+
+Una llave revocada puede seguir utilizándose para verificar firmas anteriores o desencriptar datos (si es que sigues teniendo acceso a la llave privada), pero no puede ser usada para encriptar nuevos mensajes para ti.
+pre. gpg --output revoke.asc --gen-revoke <fingerprint>
+
+Este comando va a generar un archivo llamado revoke.asc Puede que quieras también imprimir una copia del certificado y guardarlo en algún sitio seguro (dárselo a tu mamá, o ponerlo en tus respaldos remotos). Si alguien llega tener acceso a este, pueden revocar tu llave, lo cual es muy inconveniente, pero si también tienen acceso a tu llave privada, entonces eso es precisamente lo que quieres que suceda.
+
+h2. ¿Tienes un respaldo encriptado para la información secreta de tus llaves?
+
+Revisa.
+
+h2. Utiliza únicamente tu llave primaria para certificación (y tal vez también firmar). Ten una subllave por separado para encriptar.*
+
+h2. (extra) Ten una subllave por separado para firmar y mantén tu llave primaria completamente fuera de linea.
+
+En este escenario, tu llave primaria es utilizada solo para certificación, lo que no sucede con frecuencia.
+
+h2. No confíes en el ID de la llave
+
+Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
+
+Si quieres tratar con un identificador criptográficamente fuerte para una llave, debes usar la huella digital completa. Nunca debes confiar en la ID corta de la llave. 
+
+Probablemente deberías al menos tener:
+
+pre. keyid-format 0xlong y with-fingerprint en las opciones gpg (ponlas en: ~/.gnupg/gpg.conf) para incrementar el tamaño en el que se muestra el ID de la llave a 64-bit bajo uso rergular y para mostrar siempre la huella digital.
+
+h2. Revisiones relacionadas con llaves OpenPGP
+
+Existe una práctica herramienta que procesará las siguientes revisiones de tus llaves. La puedes obtener de la [[fuente -> http://floss.scru.org/hopenpgp-tools/]] en el archivo de paquetes, o si estás corriendo Debian, puedes instalar directamente el paquete haciendo:
+
+pre. apt-get install hopenpgp-tools
+
+para correr estas revisiones con la herramienta, puedes hacer lo siguiente:
+
+pre. $ hkt export-pubkeys <fingerprint> | hokey lint
+
+h2. Asegúrate de que tu llave es OpenPGPv4
+
+De acuerdo con el [[RFC4880 -> http://tools.ietf.org/html/rfc4880]]: “Las llaves V3 están ya desaprobadas (deprecated), contienen 3 vulnerabilidades. Primero, es relativamente fácil construir una llave V3 que tenga el mismo ID que otra llave porque el ID de la llave son simplemente los 64 bits del módulo público. Segundo porque la huella digital de una llave V3 hace las funciones de digest del material de la llave pero no de su extensión, por lo que hay una mayor oportunidad para colisiones de huellas digitales. Tercero, hay puntos débiles en el algoritmo MD5 que hace que los desarrolladores prefieran otros algoritmos. Ver abajo la discusión sobre ID's de llaves y huellas digitales.
+
+Para determinar si tu llave es una llave V3 puedes hacer lo siguiente:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep version
+
+Las llaves primarias deben ser DSA-2 o RSA de 4096 bits o más. (RSA de preferencia)
+
+Para revisar si estás utilizando DSA-2 o RSA puedes hacer lo siguiente:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A2 '^:public key packet:$'|grep algo
+
+Si el algoritmo reportado es 1, quiere decir que estas usando RSA. Si es 17 entonces es DSA y necesitarás confirmar que las siguientes revisiones reporten un tamaño de llave mayor a 1024,  de otro modo no estás utilizando DSA-2.
+
+Si el algoritmo reportado es 19, estás usando ECDSA, si es 18 es ECC. En ese caso la siguiente comprobación del tamaño de bits de la llave no es un criterio apropiado para este tipo de llaves ya que los tamaños de llave se reducirán significativamente.
+
+Para revisar el tamaño de bits de la llave primaria puedes hacer lo siguiente:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A2 'public key'|grep 'pkey\[0\]:'
+
+Las auto-firmas no deben usar MD5
+
+Puedes revisar esto con:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
+
+Si ves que se genera algún resultado ‘digest algo 1’, entonces tienes algunas auto-firmas que están usando MD5, ya que el algoritmo digest 1 es MD5. Ve el OpenPGP [[RFC 4880, section 9.4 (EN) -> http://tools.ietf.org/html/rfc4880#section-9.4]] que tiene una tabla que mapea algoritmos hash a números. 
+
+Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
+
+pre. cert-digest-algo SHA512
+
+Las auto-firmas no deben usar SHA1
+
+Puedes revisar esto con:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 2,'
+
+Si obtienes cualquier resultado ‘digest algo 2’ quiere decir que tienes algunas auto-firmas que están utilizando SHA1, ya que el algoritmo digest 2 es SHA1. 
+
+Ve el OpenPGP RFC 4880, section 9.4 (EN) que tiene una tabla que mapea algoritmos hash a números. 
+
+Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
+
+pre. cert-digest-algo SHA512
+
+Las preferencias del algoritmo digest deben incluir al menos un miembro de la familia SHA-2 con una prioridad más alta que las MD5 y SHA1 juntas
+
+Puedes revisar esto con:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep 'pref-hash-algos'
+
+e inspeccionar los resultados. El orden de preferencia está basado en cuál número está primero de izquierda a derecha. Si ves un número ‘3’, ‘2’, o ‘1’ antes del ‘11’, ‘10’, ‘9’ u ‘8’, quiere decir que has especificado en tus preferencias preferir un algoritmo digest más débil.
+
+Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
+
+pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+Las llaves primarias deben tener una fecha de vencimiento razonable (no más de 2 años en el futuro)
+Puedes revisar cuáles son las fechas de vencimiento de tus llaves haciendo lo siguiente:
+
+pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep 'key expires after'
+
+Después inspecciona visualmente cuáles son los resultados para confirmarlo — la fecha enlistada será relativa a la creación de la llave lo cual puede ser difícil de interpretar.
+
+Otro modo de revisar el vencimiento es simplemente:
+
+pre. gpg --list-keys <fingerprint>
+
+lo cual debe mostrar las fechas de creación y vencimiento de la llave primaria y de cada subllave asociada. Si no ves nada que mencione “expires” en este resultado, quiere decir entonces que no designaste una fecha de vencimiento apropiadamente.
+
+Para corregirlo:
+
+pre.. $ gpg --edit-key <fingerprint>
+gpg> expire
+...
+gpg> save
+
+h2. Actualiza tu configuración GPG por defecto
+
+Si estás utilizando GnuPG, asegúrate que tengas las siguientes líneas en ~/.gnupg/gpg.conf:
+
+pre.. # when outputting certificates, view user IDs distinctly from keys:
+fixed-list-mode
+# short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
+keyid-format 0xlong
+with-fingerprint
+# when multiple digests are supported by all recipients, choose the strongest one:
+personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+# preferences chosen for new keys should prioritize stronger algorithms: 
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
+# If you use a graphical environment (and even if you don't) you should be using an agent:
+# (similar arguments as  https://www.debian-administration.org/users/dkg/weblog/64)
+use-agent
+# You should always know at a glance which User IDs gpg thinks are legitimately bound to the keys in your keyring:
+verify-options show-uid-validity
+list-options show-uid-validity
+# include an unambiguous indicator of which key made a signature:
+# (see http://thread.gmane.org/gmane.mail.notmuch.general/3721/focus=7234)
+sig-notation issuer-fpr@notations.openpgp.fifthhorseman.net=%g
+# when making an OpenPGP certification, use a stronger digest than the default SHA1:
+cert-digest-algo SHA512
+
+h2. No incluyas un "comentario" en tu ID de usuario
+
+Si crees que necesitas un lugar para un “comentario” en tu OpenPGP User ID piénsalo bien dos veces [[lee más sobre esto (EN) -> https://www.debian-administration.org/users/dkg/weblog/97]]. Probablemente no lo necesites ni lo quieras. Tener un espacio para un comentario dificulta a mucha gente saber qué es lo que están certificando.
