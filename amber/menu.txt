@@ -61,6 +61,7 @@ security
     openpgp
       enigmail
       gpg-keys
+      gpg-best-practices
     otr
   network-security
     secure-connections
