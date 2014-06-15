@@ -2,7 +2,7 @@
 
 h2. How to use this guide.
 
-We have gathered here a lot of information about configuring OpenPGP. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the gnupg configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->http://localhost:8000/en/security/message-security/openpgp/gpg-best-practices#putting-it-all-together]].
+We have gathered here a lot of information about configuring OpenPGP. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the gnupg configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/gpg-best-practices#putting-it-all-together]].
 
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
