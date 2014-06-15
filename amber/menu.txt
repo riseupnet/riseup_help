@@ -59,9 +59,9 @@ security
   device-security
   message-security
     openpgp
-      enigmail
-      gpg-keys
       gpg-best-practices
+      gpg-keys
+      enigmail
     otr
   network-security
     secure-connections
