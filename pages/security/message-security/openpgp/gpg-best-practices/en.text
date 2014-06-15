@@ -59,11 +59,11 @@ Short OpenPGP keyids, for example 0x2861A790, are 32 bits long. They have been [
 
 If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, keyID. 
 
-You should probably at least set @keyid-format 0xlong@ and @fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the keyid display size to 64-bit under regular use, and to always display the fingerprint.
+You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the keyid display size to 64-bit under regular use, and to always display the fingerprint.
 
-Note that there is a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/280/]]. If you add the option 'fingerprints,' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Note that there is a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/280/]]. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
-pre. gpg --fingerprint --list-secret-key
+pre. gpg --with-fingerprint --list-secret-key
 
 h2. Key configuration.
 
@@ -228,7 +228,7 @@ keyserver-options no-honor-keyserver-url
 fixed-list-mode
 # short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
 keyid-format 0xlong
-fingerprint
+with-fingerprint
 # when multiple digests are supported by all recipients, choose the strongest one:
 personal-digest-preferences SHA512 SHA384 SHA256 SHA224
 # preferences chosen for new keys should prioritize stronger algorithms: 
