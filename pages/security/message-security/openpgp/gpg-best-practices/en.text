@@ -239,9 +239,6 @@ use-agent
 # You should always know at a glance which User IDs gpg thinks are legitimately bound to the keys in your keyring:
 verify-options show-uid-validity
 list-options show-uid-validity
-# include an unambiguous indicator of which key made a signature:
-# (see http://thread.gmane.org/gmane.mail.notmuch.general/3721/focus=7234)
-sig-notation issuer-fpr@notations.openpgp.fifthhorseman.net=%g
 # when making an OpenPGP certification, use a stronger digest than the default SHA1:
 cert-digest-algo SHA512
 
