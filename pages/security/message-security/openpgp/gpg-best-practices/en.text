@@ -1,35 +1,75 @@
 @title = 'OpenPGP Best Practices'
 
+h2. How to use this guide.
 
-h2. Make sure you are receiving regular key updates.
+We have gathered here a lot of information about configuring OpenPGP. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the gnupg configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->http://localhost:8000/en/security/message-security/openpgp/gpg-best-practices#putting-it-all-together]].
 
-If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! 
+h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
-If you do a simple 'gpg --refresh-keys', you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing. 
+If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Key updates are stored on keyservers. So you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
 
-To avoid this, you can do regular key updates by using [[parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] to refresh your keyring. Parcimonie is a daemon that slowly refreshes your keyring from a keyserver over Tor. It uses a randomized sleep, and fresh tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. Parcimonie is packaged in both debian and ubuntu.
+h3. Use the sks keyserver pool, instead of one specific server, with secure connections .
 
-You *can* also use a simple cronjob, such as the following to refresh your keys, this requires that your machine be online at 1am, and it potentially discloses to the world all the keys in your keyring that you are updating:
+Most gpg clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates.
 
-pre. 0 1 * * * /usr/bin/gpg --refresh-keys > /dev/null 2>&1
+Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. In order to use hkps, you will first need to install gnupg-curl:
 
-h2. Don't use pgp.mit.edu
+pre. sudo apt-get install gnupg-curl
 
-pgp.mit.edu as a keyserver was broken for years, especially with certain types of key updates. For a long time subkey updates, key expiration changes, revocations and other important information that you may wish to communicate to others, they were dropping on the floor. 
+Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Now you should [[verify the fingerprint on this certificate -> https://sks-keyservers.net/verify_tls.php]].
 
-History because people keep wondering: In 2010 MIT operaters (bug-pks@mit.edu) were contacted about their key server not working properly. The previous year they changed their keyserver software to the more maintained software (SKS). Unfortunately, that switch didn't help, and in fact the pgp.mit.edu keyserver had been 'ejected' from the SKS 'consensus' because of "Missing Keys", basically the keyserver wasn't accepting updates. That means that you would *not* get revocations and key expiration updates. The reason why it wasn't working was because their reconcilation daemon wouldn't start, partially because the SKS code is written in an uncommon language (OCAML), but also partly because they were trying to run this on a SPARC machine, but perhaps more tellingly MIT indicated that "..this service is run on a time available basis for us...[we] haven't had the time or energy to try and debug it...". We offered to help, in fact we had a MIT alumni who was willing to maintain the service for them, they never replied.
+Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
 
-Sometime in December of 2013 they switched to Debian, and it started to work. It took them *four* years to fix that. The reconcilation daemon was broken for about a year before they were contacted. Its working now, but with that poor support track record, pgp.mit.edu needs to earn back their position to be depended on as a reliable service providing timely, and critical key updates before we are willing to recommend them again. 
+pre.. keyserver hkps://hkps.pool.sks-keyservers.net
+keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
 
-However, depending specifically on a single keyserver leaves you vulnerable to the failure of that keyserver -- if the keyserver drops out of the main pool for whatever reason, you may never get updates delivered to the rest of the pool.  Using the pool itself is more robust than using a single keyserver.
+p. Now your interactions with the keyserver will be encrypted via hkps, which will obscure your social relationship map from anyone who may be snooping on your traffic. For example, if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information. 
 
-Consider using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]] instead. In `gpg.conf` that would be:
+_Note:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net all offer this (although it is recommended that you use a pool instead). 
 
-pre. keyserver hkp://pool.sks-keyservers.net
+h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
-Note: see [[section on using hkps -> #consider-making-your-default-keyserver-use-a-keyse]]
+When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.gnupg/gpg.conf@, which will ignore such designations:
 
-h2. Transition to a stronger primary key
+pre. keyserver-options no-honor-keyserver-url
+
+This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. 
+
+h3. Use parcimonie to refresh your keys.
+
+Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on debian and ubuntu is to use parcimonie:
+
+pre. sudo apt-get install parcimonie
+
+[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over Tor. It uses a randomized sleep, and fresh tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. 
+
+You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
+
+h3. Do not blindly trust keys from keyservers
+
+Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
+
+pre. gpg --recv-key '<fingerprint>'
+
+Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. 
+
+h3. Don't rely on the keyid.
+
+Short OpenPGP keyids, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] to be easily spoofed by another key with the same keyid. Long OpenPGP keyids (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]]. 
+
+If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, keyID. 
+
+You should probably at least set @keyid-format 0xlong@ and @fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the keyid display size to 64-bit under regular use, and to always display the fingerprint.
+
+Note that there is a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/280/]]. If you add the option 'fingerprints,' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+
+pre. gpg --fingerprint --list-secret-key
+
+h2. Key configuration.
+
+Now that you are know how to receive regular key updates from a well-maintained keyserver, you should make sure that your gpg key is optimally configured. Many of these changes may require you to generate a new key.
+
+h3. Use a strong primary key
 
 Many people still have 1024-bit DSA keys. You really should consider transitioning to a stronger bit-length and hashing algo. This size is known now to be within Well Funded Organizations' ability to break. Also the hashing algo is showing its age.
 
@@ -37,108 +77,79 @@ It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making 
 
 Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
 
-h2. consider making your default keyserver use a keyserver that provides HKPS transport
+h3. Use an expiration date less than two years
 
-Instead of the default, unencrypted hkp, you can use hkps! This obscures your social relationship map from anyone who may be snooping on your traffic. If you do a gpg --refresh-keys on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information. 
-
-Note that, for debian/ubuntu users, you will need to install the gnupg-curl package to use hkps.
-
-You can use hkps.pool.sks-keyservers.net as your default keyserver, this is a pool containing only servers available using hkps. This pool only include servers that have been [[certified by the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]]. This can be used by using the following parameters in gpg.conf:
-
-pre.. ~/.gnupg/gpg.conf:
-  keyserver hkps://hkps.pool.sks-keyservers.net
-  keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
-
-p. Additionally, hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net all offer this (although it is recommended that you use a pool instead)
-
-Finally, if you opt to designate the pool as your keyserver, you should also add the following option:
-
-pre.. ~/.gnupg/gpg.conf:
-  keyserver-options no-honor-keyserver-url
-
-p. When creating a key, individuals may designate a specific keyserver to use to pull their keys from. The above option will disregard this designation and use the pool, which is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed.
-
-h2. Set an expiration date if you do not have one
-
-People think that they don't want their keys to expire, but you actually *do*. Why? Because you can always extend your expiration date, even after it has expired. This "expiration" is actually more of a safety valve or "dead-man switch" that will automatically trigger at some point. If you have access to the secret key material, you can untrigger it. The point is to setup something to disable your key in case you loose access to it (and have no revocation certificate). 
+People think that they don't want their keys to expire, but you actually *do*. Why? Because *you can always extend your expiration date, even after it has expired!* This "expiration" is actually more of a safety valve or "dead-man switch" that will automatically trigger at some point. If you have access to the secret key material, you can untrigger it. The point is to setup something to disable your key in case you lose access to it (and have no revocation certificate). 
 
 Setting an expiration date means that you will need to extend that expiration date sometime in the future. That is a small task that you will need to remember to do (see next item about setting a reminder). 
 
 You may think that is annoying and you don't want to deal with it, but it is actually good to be doing this on a regular basis so you keep your OpenPGP skills fresh. It indicates to users that they key is still active, and that the keyholder is using it, and gives you an opportunity to review the current state of your tools, and best practices. Also, many people will not sign a key that has no expiration date!
 
-To set an expiration date on your key, you simply need to do the following:
+If you have already generated a key without an expiration, you can set an expiration date on your key by doing the following:
 
-pre. gpg --edit-key <fingerprint>
+pre. gpg --edit-key '<fingerprint>'
 
 Now select the subkey for which you want to set an expiration date (e.g. the first one), or none to set the expiration on your primary key and then issue the 'expire' command:
 
 pre.. gpg> key 1
-  gpg> expire
+gpg> expire
 
 p. Then set the date to a reasonable one, and save the key and exit (eg. 2 years):
 
 pre.. Key is valid for? (0) 2y 
-  gpg> save
+gpg> save
 
 p. Then you must send your key to the keyservers to publish this change:
 
-pre. gpg --send-key <fingerprint>
+pre. gpg --send-key '<fingerprint>'
 
-h2. Set a calendar event to remind you about your expiration date
+h3. Set a calendar event to remind you about your expiration date
 
-You wont remember, so its best to ask something to remind you. Set your reminder a month or more before the date so you can do the change with some time. You do not want to be rushed when you are dealing with your keys. 
+You won't remember, so its best to ask something to remind you. Set your reminder a month or more before the date so you can do the change with some time. You do not want to be rushed when you are dealing with your keys. 
 
 Remember: you can always extend your expiration date (even after it has expired!), so you do not need to make a brand new key, you just need to extend your expiration to a later time. Doing this on a regular basis is good to exercise your OpenPGP muscles, otherwise you will forget things.
 
-h2. Do you have a revocation certificate?
+h3. Generate a revocation certificate
 
 If you forget your passphrase or if your private key is compromised or lost, the only hope you have is to wait for the key to expire (this is not a good solution), or to activate your revocation certificate by publishing it to the keyservers. Doing this will notify others that this key has been revoked. 
 
 A revoked key can still be used to verify old signatures, or decrypt data (if you still have access to the private key), but it cannot be used to encrypt new messages to you.
 
-pre. gpg --output revoke.asc --gen-revoke <fingerprint></code>
+pre. gpg --output revoke.asc --gen-revoke '<fingerprint>'
 
 This will create a file called revoke.asc. You may wish to print a hardcopy of the certificate to store somewhere safe (give it to your mom, or put it in your offsite backups). If someone gets access to this, they can revoke your key, which is very inconvenient, but if they also have access to your private key, then this is exactly what you want to happen.
 
-h2. Do you have an encrypted backup of your secret key material?
+h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
 
-Double check on it.
-
-h2. Only use your primary key for certification (and possibly signing).  Have a separate subkey for encryption.
-
-h2. (bonus) Have a separate subkey for signing, and keep your primary key entirely offline.
+h3. (bonus) Have a separate subkey for signing, and keep your primary key entirely offline.
 
 In this scenario, your primary key is used only for certifications, which happen infrequently.
 
-h2. Don't rely on the keyid
+h3. OpenPGP key checks.
 
-Short OpenPGP keyids, for example 0x2861A790, are 32 bits long.  They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] to be easily spoofed by another key with the same keyid.  Long OpenPGP keyids (for example 0xA1E6148633874A3D) are 64 bits long.  They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]]. 
+There is a handy tool that will perform the key checks below for you. You can get it [[from the source -> http://floss.scru.org/hopenpgp-tools/]], or if you are running Debian or Ubuntu, you can install the package directly by doing: 
 
-If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint.  You should _never_ rely on the short, or even long, keyID.  
-
-You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the keyid display size to 64-bit under regular use, and to always display the fingerprint.
-
-h2. OpenPGP key checks
-
-There is a handy tool that will perform the key checks below for you. You can get it [[from the source -> http://floss.scru.org/hopenpgp-tools/]], or if you are running Debian, you can install the package directly by doing: apt-get install hopenpgp-tools
+pre. sudo apt-get install hopenpgp-tools
 
 To run these tests with the tool, you can do the following:
 
-pre. $ hkt export-pubkeys <fingerprint> | hokey lint
+pre. hkt export-pubkeys '<fingerprint>' | hokey lint
 
-h3. Make sure your key is OpenPGPv4
+The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should generate a new key after ensuring that your gpg.conf is setup as recommended.
+
+h4. Make sure your key is OpenPGPv4
 
 According to [[RFC4880 -> http://tools.ietf.org/html/rfc4880]]: "V3 keys are deprecated. They contain three weaknesses. First, it is relatively easy to construct a V3 key that has the same Key ID as any other key because the Key ID is simply the low 64 bits of the public modulus. Secondly, because the fingerprint of a V3 key hashes the key material, but not its length, there is an increased opportunity for fingerprint collisions. Third, there are weaknesses in the MD5 hash algorithm that make developers prefer other algorithms. See below for a fuller discussion of Key IDs and fingerprints"
 
 To determine if your key is a V3 key you can do the following:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep version
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
 
-h3. primary keys should be DSA-2 or RSA, 4096 bits or more. (RSA preferred)
+h4. primary keys should be DSA-2 or RSA, 4096 bits or more. (RSA preferred)
 
 To check if you are using DSA-2 or RSA, you can do this:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A2 '^:public key packet:$'|grep algo
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A2 '^:public key packet:$'|grep algo
 
 If the algo reported is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size as greater than 1024, otherwise you aren't using DSA-2.
 
@@ -146,13 +157,13 @@ If the algo reported is 19, you are using ECDSA, if it is 18 you are using ECC, 
 
 To check the bit-length of the primary key you can do this:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A2 'public key'|grep 'pkey\[0\]:'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A2 'public key'|grep 'pkey\[0\]:'
 
-h3. self-signatures must not use MD5
+h4. self-signatures must not use MD5
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
@@ -160,11 +171,11 @@ To fix this, you will need to regenerate a key after setting the following in yo
 
 pre. cert-digest-algo SHA512
 
-h3. self-signatures must not use SHA1
+h4. self-signatures must not use SHA1
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 2,'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A 2 signature|grep 'digest algo 2,'
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
@@ -172,11 +183,11 @@ To fix this, you will need to regenerate a key after setting the following in yo
 
 pre. cert-digest-algo SHA512
 
-h3. stated digest algorithm preferences must include at least one member of the SHA-2 family at a higher priority than both MD5 and SHA1
+h4. stated digest algorithm preferences must include at least one member of the SHA-2 family at a higher priority than both MD5 and SHA1
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep 'pref-hash-algos'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep 'pref-hash-algos'
 
 and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
 
@@ -184,52 +195,62 @@ To fix this, you will need to regenerate a key after setting the following in yo
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
-h3. primary keys should have a reasonable expiration date (no more than 2 years in the future)
+h4. primary keys should have a reasonable expiration date (no more than 2 years in the future)
 
 You can check what your expiration dates are by doing this:
 
-pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep 'key expires after'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep 'key expires after'
 
 Then visually inspect what the results are to confirm this -- the date listed will be relative to key creation, though, which can be difficult to interpret.
 
 Another way to check expiration is just to do:
 
-pre. gpg --list-keys <fingerprint>
+pre. gpg --list-keys '<fingerprint>'
 
-which should show the creation and expiration dates of the primary key and each associated subkey.  If you don't see anything that says "expires" in this output, then you have not set an expiration date properly.
+which should show the creation and expiration dates of the primary key and each associated subkey. If you don't see anything that says "expires" in this output, then you have not set an expiration date properly.
 
 To fix this, you can do:
 
-pre.. $ gpg --edit-key <fingerprint>
+pre.. $ gpg --edit-key '<fingerprint>'
 gpg> expire
 ...
 gpg> save
 
-h2. update your GPG defaults
+h2. Putting it all together.
 
-If you're using GnuPG, you might want to ensure you have the following lines in @~/.gnupg/gpg.conf@:
+Below are all the recommended settings discussed on this guide combined into one. Note that this assumes you are using the sks keyserver pool via hkps transport. If you are using only hkp, or not using the sks keyserver pool, you should omit the lines relating to the /path/to/CA. The following should be included in your @~/.gnupg/gpg.conf@:
 
-pre.. # when outputting certificates, view user IDs distinctly from keys:
-  fixed-list-mode
-  # short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
+pre.. # use the sks keyserver via hkps
+keyserver hkps://hkps.pool.sks-keyservers.net
+keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
+keyserver-options no-honor-keyserver-url 
+# when outputting certificates, view user IDs distinctly from keys:
+fixed-list-mode
+# short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
 keyid-format 0xlong
-  with-fingerprint
-  # when multiple digests are supported by all recipients, choose the strongest one:
-  personal-digest-preferences SHA512 SHA384 SHA256 SHA224
-  # preferences chosen for new keys should prioritize stronger algorithms: 
-  default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
-  # If you use a graphical environment (and even if you don't) you should be using an agent:
-  # (similar arguments as  https://www.debian-administration.org/users/dkg/weblog/64)
-  use-agent
-  # You should always know at a glance which User IDs gpg thinks are legitimately bound to the keys in your keyring:
-  verify-options show-uid-validity
-  list-options show-uid-validity
-  # include an unambiguous indicator of which key made a signature:
-  # (see http://thread.gmane.org/gmane.mail.notmuch.general/3721/focus=7234)
-  sig-notation issuer-fpr@notations.openpgp.fifthhorseman.net=%g
-  # when making an OpenPGP certification, use a stronger digest than the default SHA1:
-  cert-digest-algo SHA512
+fingerprint
+# when multiple digests are supported by all recipients, choose the strongest one:
+personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+# preferences chosen for new keys should prioritize stronger algorithms: 
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
+# If you use a graphical environment (and even if you don't) you should be using an agent:
+# (similar arguments as https://www.debian-administration.org/users/dkg/weblog/64)
+use-agent
+# You should always know at a glance which User IDs gpg thinks are legitimately bound to the keys in your keyring:
+verify-options show-uid-validity
+list-options show-uid-validity
+# include an unambiguous indicator of which key made a signature:
+# (see http://thread.gmane.org/gmane.mail.notmuch.general/3721/focus=7234)
+sig-notation issuer-fpr@notations.openpgp.fifthhorseman.net=%g
+# when making an OpenPGP certification, use a stronger digest than the default SHA1:
+cert-digest-algo SHA512
 
-h2. do not include a "Comment" in your User ID
+h2. Additional suggestions.
 
-If you think you need a "Comment" field in your OpenPGP User ID [[please think long and hard before deciding that is really the case -> https://www.debian-administration.org/users/dkg/weblog/97]].  You probably don't need or want it, and having a comment field makes it harder for people to know what they're certifying.
+h3. Do you have an encrypted backup of your secret key material?
+
+Double check on it.
+
+h3. do not include a "Comment" in your User ID
+
+If you think you need a "Comment" field in your OpenPGP User ID [[please think long and hard before deciding that is really the case -> https://www.debian-administration.org/users/dkg/weblog/97]]. You probably don't need or want it, and having a comment field makes it harder for people to know what they're certifying.
