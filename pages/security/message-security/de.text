@@ -54,7 +54,7 @@ h3. Das "Web of Trust" (Vertrauensnetz) und das Signieren von Schlüsseln
 Nach dem Joe nun Ritas öffentlichen Schlüssel sicher verifiziert hat, kann Joe ihn *signieren*. Es gibt da zwei Ansätze: Eine Gruppe meint, daß Du nur Schlüssel signieren solltest, wenn Du Dich anhand eines von einer Behörde beglaubigten Fotos (z.B. Reisepass) davon überzeugt hast, daß der Name der InhaberInnen (selbst wenn Du sie seit Jahren kennst) und der mit der E-Mail-Adresse assoziierte Realname übereinstimmen.
 Andere signieren Schlüssel, ohne den Realnamen des/der EigentümerIn zu prüfen. Das stellt zwar sicher, daß der/dem EigentümerIn der E-Mail-Adresse auch der Schlüssel gehört, aber nicht, daß der mit der Adresse assoziierte Realname stimmt.
 
-Wenn Du Joe traust, daß er beim Signieren von Schlüsseln sorgfältig vorgeht, kannst Du Joe Schlüssel an Deinem Schlüsselbund eine Vertrauensstufe (Trust-Level) zuschreiben. Somit kannst Du auf Grund von Joes Signatur anderen Schlüsseln vertrauen, auch ohne die Personen getroffen zu haben. 
+Wenn Du Joe traust, daß er beim Signieren von Schlüsseln sorgfältig vorgeht, kannst Du Joe Schlüssel an Deinem Schlüsselbund eine Vertrauensstufe (Trust-Level) zuschreiben. Somit kannst Du auf Grund von Joes Signatur anderen Schlüsseln vertrauen, auch ohne die Personen getroffen zu haben.
 
 Du kannst auch einen *Schlüsselsignierungs-Party* schmeißen, um Deine Freunde und Kolleginnen zum Austauschen und gegenseitigen Signieren der Schlüssel anzuregen. Dies bietet die Gelegenheit, die Identität von Leuten zu verifizieren, die Du zwar nie getroffen hast, die jedoch mit Menschen, denen Du vertraust, die Schlüssel sicher getauscht haben.
 
@@ -67,7 +67,7 @@ Schön, daß Du fragst!
 * Benutze ein *starkes Mantra*! Dein Mantra ist der letzte Schutz vor unautorisierter Nutzung Deines privaten Schlüssels. Vermassele das nicht Durch ein schlechtes Passwort. Mantras sollten mindestens 21 Zeichen lang sein und keine Wörter aus Wörterbüchern oder andere leicht zu erratende Zeichenfolgen beinhalten. *Eine zufällige Folge von Zeichen, die Du an einem sicheren Ort notierst ist besser, als ein langer Satz mit bekannten Wörtern.*
 * Benutze *allgemein gehaltene Betreff-Zeilen*. Die Betreff-Zeile einer E-Mail wird nicht verschlüsselt, darum sollte sie nichts über den Inhalt der Mail verraten.
 * Gib eine *Schlüsselsignierungs-Party* und bringe Deine FreundInnen dazu, PGP zu nutzen und die Schlüssel gegenseitig zu signieren.
-* Sende Deine Mails verschlüsselt, selbst *wenn der Inhalt bedeutungslos ist*. Das ist wichtig! Je mehr verschlüsselte Kommunikation stattfindet, desto schwieriger wird es, die zu analysierenden, interessanten Mails herauszufiltern. Tauscht also auch Eure Kochrezepte mit PGP-Verschlüsselung! 
+* Sende Deine Mails verschlüsselt, selbst *wenn der Inhalt bedeutungslos ist*. Das ist wichtig! Je mehr verschlüsselte Kommunikation stattfindet, desto schwieriger wird es, die zu analysierenden, interessanten Mails herauszufiltern. Tauscht also auch Eure Kochrezepte mit PGP-Verschlüsselung!
 
 Wie richte ich die OpenPGP-Verschlüsselung auf meinem Computer ein?
 ------------------------
