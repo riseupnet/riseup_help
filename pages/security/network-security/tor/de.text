@@ -15,7 +15,7 @@ h3. Windows-Anleitung
 
 Nach dem Herunterladen des Tor Browser Bundle, doppelklicke darauf und führe es aus. Klicke auf den Knopf mit der Aufschrift "..." (1) und wähle, wohin das Paket installiert werden soll und klicke OK (2). Es werden mindestens 50 MB freier Speicher benötigt. Wenn es auf dem Computer bleiben soll, ist der Desktop ein guter Ort. Wenn Du es auf einen anderen Computer verschieben willst, um Spuren zu vermeiden, speichere es auf einen USB-Stick. Danach klicke 'entpacken' (3). Das kann einige Minuten dauern.
 
-!tor/tbb-screenshot1.jpg!
+!tbb-screenshot1.jpg!
 
 Siehe [[Tor benutzen -> #tor-benutzen]].
 
@@ -24,7 +24,7 @@ h3. Mac OS X
 
 Nach dem Herunterladen klicke einfach darauf, um es zu installieren. Mac OS X wird es automatisch entpacken und die TorBrowser-Anwendung in der gewählten Sprache (zum Beispiel TorBrowser_en-US.app) installieren. Klicke auf die TorBrowser-Anwendung, um Vidalia zu starten. Sobald Vidalia mit Tor verbunden ist, wird es Firefox starten.
 
-!tor/screenshot-osx-torbrowser-icon.png!
+!screenshot-osx-torbrowser-icon.png!
 
 Siehe [[Tor benutzen -> #tor-benutzen]].
 
@@ -36,7 +36,7 @@ Lade die Installationsdatei für die jeweilige Architektur herunter, speichere e
 * Für 32-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-i686-1.1.13-dev-LANG.tar.gz</code>
 * Für 64-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-x86_64-1.1.13-dev-LANG.tar.gz</code>
 
-(LANG ist die Sprache, die im Dateinamen angegeben ist) und entweder doppelklicke auf den Ordner oder benutze @cd@, um ihn zu entern. Danach führe das start-tor-browser-Skript aus. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten. 
+(LANG ist die Sprache, die im Dateinamen angegeben ist) und entweder doppelklicke auf den Ordner oder benutze @cd@, um ihn zu entern. Danach führe das start-tor-browser-Skript aus. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
 
 *Entpacke TBB nicht als root.*
 
@@ -45,13 +45,13 @@ h2. Tor benutzen
 
 Sobald das Entpacken fertig ist, öffne den Ordner Tor Browser, wohin Du das Paket installiert hast. Doppelklicke auf Starte Tor Browser (4) (auf einigen Systemen heißt es evtl. Start Tor Browser.exe). Kurz darauf wird sich das Vidalia-Fenster öffnen.
 
-!tor/tbb-screenshot2.jpg!
+!tbb-screenshot2.jpg!
 
 Sobald Tor bereit ist, wird Firefox geöffnet. Nur Webseiten, die mit dem beinhalteten Firefox-Browser geöffnet werden, werden via Tor übertragen. Andere Browser wie der Internet Explorer bleiben unbehelligt. *Stelle sicher*, dass es am rechten unteren Rand "Tor aktiviert" (5) anzeigt, bevor Du es benutzt. Um das Risiko der Verwirrung zu vermeiden, benutze den normalen Firefox nicht während Tor benutzt wird und beende existierende Firefox-Fenster vor dem Starten.
 
 Sobald Du fertig bist mit Browsen, schließe alle Firefox-Fenster durch Klicken auf das 'X' (6). Zum Schutz der Privatssphäre werden der Verlauf und alle Cookies gelöscht.
 
-!tor/tbb-screenshot3a.jpg!
+!tbb-screenshot3a.jpg!
 
 Mit dem Tor Browser Bundle, werden Vidalia und Tor automatisch geschlossen.
 

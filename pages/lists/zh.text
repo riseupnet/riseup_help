@@ -1,11 +1,11 @@
 @title = 'Riseup Lists'
 @nav_title = 'Lists'
 
-!>(image-right)lists/pile-of-mail.jpg!
+!>(image-right)pile-of-mail.jpg!
 
 h2. 欢迎辞
 
-欢迎来到 riseup.net *邮件列表帮助*！在这里你能够找到有关托管在http://lists.riseup.net邮件列表的信息。 
+欢迎来到 riseup.net *邮件列表帮助*！在这里你能够找到有关托管在http://lists.riseup.net邮件列表的信息。
 
 关于电子邮件账户的帮助，请查看 [[email]]帮助页面。如果您的问题在这里没有被答复，“创建一个求助标签”：https://user.riseup.net/forms。
 

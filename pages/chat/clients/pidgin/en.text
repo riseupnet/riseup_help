@@ -2,7 +2,7 @@
 
 h2. About Pidgin
 
-!pidgin/logo.pidgin.png!
+!logo.pidgin.png!
 
 Pidgin is the most popular instant message client for GNU/Linux, Windows, and Mac. You can download Pidgin from http://pidgin.im/download. For Mac, check out [[Adium]], the native build of pidgin for Mac.
 
@@ -12,7 +12,7 @@ When you first start pidgin, hit the *Add...* button to add an account.
 
 (1) Under *Basic* tab, set these values:
 
-!pidgin/new-account-basic-tab.png!
+!new-account-basic-tab.png!
 
 * *Protocol*: XMPP
 * *Username*: your Riseup username
@@ -43,7 +43,7 @@ To configure Pidgin to use Tor, you need to modify your account settings as foll
 
 First chose *Modify Account Settings*...
 
-!pidgin/pidgin-modify-account.png!
+!pidgin-modify-account.png!
 
 then click the *Advanced* tab and set the following values:
 
@@ -54,7 +54,7 @@ then click the *Advanced* tab and set the following values:
 
 Then click on the *Proxy* tab...
 
-!pidgin/pidgin-modify-account-proxy.png!
+!pidgin-modify-account-proxy.png!
 
 Set the proxy type to be Socks5, set the host and port as shown in the image, and set your username and password.
 
