@@ -1,4 +1,4 @@
-@title = 'OpenPGP Best Practices (OpenPGP Bestmögliche Praxis)'
+@title = 'OpenPGP Bestmögliche Praxis'
 
 h2. Über diese Anleitung
 
@@ -13,7 +13,7 @@ h3. Benutze den sks Schlüsselserververbund statt eines einzelnen Servers und si
 Die meisten gpg Clients werden mit einem einzelnen, spezifischen Schlüsselserver vorkonfiguriert. Das ist alles andere als ideal, denn falls der Server ausfällt oder - schlimmer noch - zu funktionieren scheint aber fehlerhaft ist, könnte es geschehen, dass Dir kritische Schlüsselupdates nicht zugestellt werden.
 
 Deshalb empfehlen wir die Nutzung des [[sks Schlüsselserververbundes -> https://sks-keyservers.net/overview-of-pools.php]]. Die Rechner in diesem Verbund werden regelmäßigen Sicherheitschecks unterzogen um sicherzustellen, dass sie fehlerfrei funktionieren. Funktioniert ein Server nicht gut, wird er automatisch aus dem Verbund entfernt. Um hkps nutzen zu können, musst Du zunächst gnupg-curl installieren:
- 
+
 pre. sudo apt-get install gnupg-curl
 
 Um nun den Schlüsselserververbund nutzen zu können, musst Du das [[Sicherheitszertifikat von sks-keyservers.net herunterladen -> https://sks-keyservers.net/sks-keyservers.netCA.pem]] und an einem geeigneten Ort auf Deinem Rechner speichern. Bitte merke Dir, unter welchem Pfad Du die Datei ablegst! Nun solltest Du den [[Fingerabdruck des Zertifikats verifizieren -> https://sks-keyservers.net/verify_tls.php]].
@@ -23,7 +23,7 @@ Wenn das geschehen ist, solltest Du die folgenden Parameter in @~/.gnupg/gpg.con
 pre.. keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/pfad/zur/Datei/sks-keyservers.netCA.pem
 
-p. Von jetzt an werden Deine Interaktionen mit dem Schlüsselserver über hkps verschlüsselt, so dass Deine Sozialprofil jedem verborgen bleibt, der vielleicht Deinen Datenverkehr abschnüffelt. Wenn Du beispielsweise @gpg --refresh-keys@ mit einem Schlüsselserver durchführst, der nur hkp unterstützt, dann wird jemand, der Deine Daten abfängt, jeden einzelnen Schlüssel in Deinem Schlüsselbund zu sehen bekommen, während Du die Schlüsselupdates anforderst. Das sind ziemlich interessante Informationen. 
+p. Von jetzt an werden Deine Interaktionen mit dem Schlüsselserver über hkps verschlüsselt, so dass Deine Sozialprofil jedem verborgen bleibt, der vielleicht Deinen Datenverkehr abschnüffelt. Wenn Du beispielsweise @gpg --refresh-keys@ mit einem Schlüsselserver durchführst, der nur hkp unterstützt, dann wird jemand, der Deine Daten abfängt, jeden einzelnen Schlüssel in Deinem Schlüsselbund zu sehen bekommen, während Du die Schlüsselupdates anforderst. Das sind ziemlich interessante Informationen.
 
 _Anmerkung:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org und hkps://keys.riseup.net bieten dies auch alle (allerdings ist es ratsam, stattdessen einen Schlüsselserververbund zu verwenden).
 
@@ -34,7 +34,7 @@ Bei der Schlüsselerzeugung können die Besitzer*innen einen bestimmten Schlüss
 pre. keyserver-options no-honor-keyserver-url
 
 Das ist sinnvoll, weil es 1.) verhindert, dass jemand eine unsichere Methode angibt, um ihren Schlüssel herunterzuladen und 2.) weil die Aktualisierung auf einem Server, der hkps verwendet, scheitern wird, da das Sicherheitszertifikat nicht mit dem des Servers übereinstimmt, so dass die Schlüssel niemals aktualisiert werden.
- 
+
 h3. Verwende parcimonie um Deine Schlüssel zu aktualisieren.
 
 Nun, da Du einen guten Schlüsselserver konfiguriert hast, solltest Du sicherstellen, dass Deine Schlüssel regelmäßig aktualisiert werden. Der beste Weg, dies unter Debian und Ubuntu zu erreichen, ist die Verwendung von parcimonie:
@@ -48,7 +48,7 @@ Du solltest *nicht* @gpg --refresh-keys@ oder den Aktualisierungsbefehl Deines M
 h3. Schlüsseln von Schlüsselservern nicht blind vertrauen
 
 Jede*r kann Schlüssel auf einen Schlüsselserver hochladen und es gibt keinen Grund, weshalb Du darauf vertrauen solltest, dass der Schlüssel, den Du herunterlädst, tatsächlich der Person gehört, die im Schlüssel angegeben wird. Deshalb solltest Du den vollständigen Fingerabdruck des Schlüssels mit der Eigentümer*in des Schlüssels verifizieren. Sobald Du den gesuchten Fingerabdruck mit der Eigentümer*in verifiziert hast, kannst Du den Schlüssel über den Fingerabdruck vom Schlüsselserververbund herunterladen:
- 
+
 pre. gpg --recv-key '<fingerabdruck>'
 
 Beachte die einfachen Anführungsstriche oben ('), welche vor und hinter dem vollständigen Fingerabdruck stehen sollten und notwendig sind, damit dieser Befehl funktioniert.
@@ -57,7 +57,7 @@ h3. Verlasse Dich nicht auf die Schlüssel-ID (keyid).
 
 Kurze OpenPGP Schlüssel-IDs, beispielsweise 0x2861A790, sind 32 bit lang. Es ist [[belegt -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]], dass sie leicht durch einen anderen Schlüssel mit der selben Schlüssel-ID zu fälschen sind. Lange OpenPGP Schlüssel-IDs (wie z.B. 0xA1E6148633874A3D) sind 64 bit lang. [[ID-Kollisionen zu erstellen ist trivial -> http://    thread.gmane.org/gmane.ietf.openpgp/7413]], was ebenfalls [[ein potentiell ernsthaftes Problem darstellt -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
-Wenn Du einen kryptographisch wirklich starke Identifikation für einen Schlüssel haben willst, solltest Du den vollen Fingerabdruck verwenden. Du solltest Dich _nie_ auf die kurze, nichtmals auf die lange Schlüssel-ID verlassen. 
+Wenn Du einen kryptographisch wirklich starke Identifikation für einen Schlüssel haben willst, solltest Du den vollen Fingerabdruck verwenden. Du solltest Dich _nie_ auf die kurze, nichtmals auf die lange Schlüssel-ID verlassen.
 Du solltest wahrscheinlich mindestens die gpg-Optionen @keyid-format 0xlong@ und @with-fingerprint@ verwenden (trage sie in @~/.gnupg/gpg.conf@ ein) um die Anzeigenlänge der Schlüssel-ID auf 64 bit zu verlängern und immer den Fingerabdruck anzuzeigen.
 
 Anmerkung: Es gibt einen [[Bug in Enigmail -> https://sourceforge.net/p/enigmail/bugs/280/]]. Wenn Du die Option 'with-fingerprint' einsetzt, um bei der Anzeige der Schlüssel immer den vollständigen Fingerabdruck mit auszugeben, wird der Fingerabdruck der im Schlüsselverwaltungsfenster von Enigmail angezeigt wird, der eines Unterschlüssels (subkey) sein und nicht der des primären Schlüssels. Du kannst immer den Fingerabdruck Deines primären Schlüssels finden (z.B. wenn Du jemandem auf einer Keysigning-Party Deinen Fingerabdruck zur Verifikation geben möchtest), indem Du die Fingerabdrücke all Deiner geheimen Schlüssel mit dem folgenden Kommando anzeigen lässt:
@@ -83,7 +83,7 @@ Die meisten Leute denken, dass sie ihre Schlüssel nicht ablaufen lassen wollen,
 Wenn Du ein Ablaufdatum vergibst, wirst Du den Ablaufzeitraum in der Zukunft erweitern müssen. Das ist eine kleine Aufgabe, an die Du denken musst (siehe den nächsten Punkt zum Erstellen eines Erinnerungstermins).
 
 Du denkst vielleicht, dass das lästig ist und Du Dich damit nicht auseinandersetzen willst, aber es ist wirklich sinnvoll dies regelmäßig zu tun, um Deine OpenPGP-Fertigkeiten aufzufrischen. Es zeigt anderen Benutzer*innen, dass der Schlüssel weiterhin aktiv ist und die Eigentümer*in ihn benutzt, und gibt Dir die Gelegenheit, den aktuellen Zustand Deiner Tools und der best practices zu überprüfen. Außerdem sind viele Leute nicht bereit, einen Schlüssel zu signieren, der kein Ablaufdatum hat!
- 
+
 Wenn Du bereits einen Schlüssel ohne Ablaufdatum erzeugt hast, kannst Du nachträglich ein Ablaufdatum für Deinen Schlüssel erstellen, indem Du folgendes eingibst:
 
 pre. gpg --edit-key '<fingerabdruck>'
@@ -95,7 +95,7 @@ gpg> expire
 
 p. Stelle nun ein vernünftiges Datum ein (z.B. 2 Jahre) und speichere den Schlüssel dann ab und verlasse so das Interface:
 
-pre.. Key is valid for? (0) 2y 
+pre.. Key is valid for? (0) 2y
 gpg> save
 
 p. Danach musst Du Deinen Schlüssel an den Schlüsselserver versenden, um die Änderung zu veröffentlichen:
@@ -117,9 +117,9 @@ Ein widerrufener Schlüssel kann immer noch verwendet werden um alte Unterschrif
 pre. gpg --output widerruf.asc --gen-revoke '<fingerabdruck>'
 
 Damit erstellst Du eine Datei namens widerruf.asc. Du könntest einen Ausdruck von diesem Zertifikat vornehmen und an einem sicheren Ort ablegen (gib ihn Deiner Mutter oder bewahre ihn bei Deinen Backups an einem anderen Ort auf). Wenn jemand Zugang dazu erhält, kann sie Deinen Schlüssel widerrufen, was sehr lästig ist; wenn sie allerdings auch Zugang zu Deinem privaten Schlüssel haben, solltest Du genau das wollen - Deinen Schlüssel widerrufen.
- 
 
-h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren). 
+
+h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren).
 
 Zum Verschlüsseln solltest Du Dir einen separaten Unterschlüssel (subkey) erstellen.
 
@@ -148,7 +148,7 @@ Um festzustellen, ob Dein Schlüssel ein V3-Schlüssel ist, kannst Du folgendes 
 pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep version
 
 h4. Primäre Schlüssel sollten DSA-2 oder RSA sein mit 4096 bit oder mehr (bevorzugt RSA)
- 
+
 h4. primary keys should be DSA-2 or RSA, 4096 bits or more. (RSA preferred)
 
 Um zu überprüfen, ob Du DSA-2 oder RSA verwendest, kannst Du folgendes eingeben:
@@ -228,7 +228,7 @@ Im Folgenden findest Du alle empfohlenen Einstellungen, die in dieser Anleitung 
 pre.. # sks-Schlüsselserver mit hkps verwenden
 keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/Pfad/zum/Sicherheitszertifikat/sks-keyservers.netCA.pem
-keyserver-options no-honor-keyserver-url 
+keyserver-options no-honor-keyserver-url
 # bei der Ausgabe von Zertifikaten die Benutzer-IDs getrennt vom Schlüssel anzeigen
 fixed-list-mode
 # kurze Schlüssel-IDs zu fälschen ist trivial; es ist einfach, eine Kollision langer Schlüssel-IDs zu erstellen; wenn Dir starke Identifizierungsmerkmale am Herzen liegen, solltest Du Dir immer den Fingerabdruck anzeigen lassen:
