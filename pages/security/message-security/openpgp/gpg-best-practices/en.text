@@ -18,7 +18,7 @@ In order to use hkps, you will first need to install gnupg-curl:
 
 pre. sudo apt-get install gnupg-curl
 
-Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Now you should [[verify the fingerprint on this certificate -> https://sks-keyservers.net/verify_tls.php]].
+Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to!
 
 Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
 
