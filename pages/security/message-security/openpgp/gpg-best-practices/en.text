@@ -8,11 +8,13 @@ h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
 If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Key updates are stored on keyservers. So you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
 
-h3. Use the sks keyserver pool, instead of one specific server, with secure connections .
+h3. Use the sks keyserver pool, instead of one specific server, with secure connections.
 
 Most gpg clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates.
 
-Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. In order to use hkps, you will first need to install gnupg-curl:
+Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. 
+
+In order to use hkps, you will first need to install gnupg-curl:
 
 pre. sudo apt-get install gnupg-curl
 
@@ -37,11 +39,11 @@ This is useful because (1) it prevents someone from designating an insecure meth
 
 h3. Use parcimonie to refresh your keys.
 
-Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on debian and ubuntu is to use parcimonie:
+Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie:
 
 pre. sudo apt-get install parcimonie
 
-[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over Tor. It uses a randomized sleep, and fresh tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. 
+[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over Tor. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. 
 
 You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
 
@@ -53,13 +55,13 @@ pre. gpg --recv-key '<fingerprint>'
 
 Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. 
 
-h3. Don't rely on the keyid.
+h3. Don't rely on the Key ID.
 
-Short OpenPGP keyids, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] to be easily spoofed by another key with the same keyid. Long OpenPGP keyids (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]]. 
+Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]]. 
 
-If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, keyID. 
+If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, Key ID. 
 
-You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the keyid display size to 64-bit under regular use, and to always display the fingerprint.
+You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
 
 Note that there is a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/280/]]. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
