@@ -45,11 +45,12 @@ First chose *Modify Account Settings*...
 
 !pidgin/pidgin-modify-account.png!
 
-then click the *Advanced* tab...
+then click the *Advanced* tab and set the following values:
 
-!pidgin/pidgin-modify-account-advanced.png!
-
-put the Tor .onion address in for the *Connect Server* field: ztmc4p37hvues222.onion
+* *Connection Security*: Require encryption
+* *Connect Port*: 5222
+* *Connect Server*: 4cjw6cwpeaeppfqz.onion
+* *File Transfer Proxies*: proxy.riseup.net
 
 Then click on the *Proxy* tab...
 
