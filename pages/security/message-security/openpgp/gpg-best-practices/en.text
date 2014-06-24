@@ -16,7 +16,7 @@ Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyserver
 
 You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. In order to use hkps, you will first need to install gnupg-curl:
 
-pre. sudo apt-get install GnuPG-curl
+pre. sudo apt-get install gnupg-curl
 
 Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to!
 
