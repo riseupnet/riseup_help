@@ -2,25 +2,25 @@
 
 h2. How to use this guide.
 
-We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/gpg-best-practices#putting-it-all-together]].
+We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/gpg-best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
 
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
-If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Key updates are stored on keyservers. So you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
+If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
 
 h3. Use the sks keyserver pool, instead of one specific server, with secure connections.
 
-Most OpenPGP clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates.
+Most OpenPGP clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target.
 
 Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. 
 
-In order to use hkps, you will first need to install gnupg-curl:
+You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. In order to use hkps, you will first need to install gnupg-curl:
 
-pre. sudo apt-get install gnupg-curl
+pre. sudo apt-get install GnuPG-curl
 
 Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to!
 
-Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
+Now, you will need to use the following parameters in @~/.GnuPG/gpg.conf@, and specify the full path where you saved the .pem file above:
 
 pre.. keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
@@ -31,29 +31,29 @@ _Note:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.rise
 
 h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
-When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.gnupg/gpg.conf@, which will ignore such designations:
+When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.GnuPG/gpg.conf@, which will ignore such designations:
 
 pre. keyserver-options no-honor-keyserver-url
 
-This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. 
+This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when you refresh their key.
 
-h3. Use parcimonie to refresh your keys.
+h3. Refresh your keys slowly and one at a time.
 
 Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie:
 
 pre. sudo apt-get install parcimonie
 
-[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over Tor. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. 
+[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring. 
 
 You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
 
-h3. Do not blindly trust keys from keyservers
+h3. Do not blindly trust keys from keyservers.
 
-Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
+Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone. Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
 
 pre. gpg --recv-key '<fingerprint>'
 
-Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. 
+Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. Double-quotes (") also work. 
 
 h3. Don't rely on the Key ID.
 
@@ -63,7 +63,7 @@ If you want to deal with a cryptographically-strong identifier for a key, you sh
 
 You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
 
-Note that there is a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/280/]]. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Note that there is a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/280/]] which is fixed in version 1.6.1. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
 pre. gpg --with-fingerprint --list-secret-key
 
@@ -71,15 +71,15 @@ h2. Key configuration.
 
 Now that you are know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
 
-h3. Use a strong primary key
+h3. Use a strong primary key.
 
-Many people still have 1024-bit DSA keys. You really should consider transitioning to a stronger bit-length and hashing algo. This size is known now to be within Well Funded Organizations' ability to break. Also the hashing algo is showing its age.
+Many people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. This size is known now to be within Well Funded Organizations' ability to break. Also the hashing algo is showing its age.
 
-It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> https://we.riseup.net/assets/176898/key%20transition]] that is signed by both keys, and then letting people know. A [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using gnupg versions less than 1.4.10).
+It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> https://we.riseup.net/assets/176898/key%20transition]] that is signed by both keys, and then letting people know. A [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
 
 Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
 
-h3. Use an expiration date less than two years
+h3. Use an expiration date less than two years.
 
 People think that they don't want their keys to expire, but you actually *do*. Why? Because *you can always extend your expiration date, even after it has expired!* This "expiration" is actually more of a safety valve or "dead-man switch" that will automatically trigger at some point. If you have access to the secret key material, you can untrigger it. The point is to setup something to disable your key in case you lose access to it (and have no revocation certificate). 
 
@@ -101,7 +101,7 @@ p. Then set the date to a reasonable one, and save the key and exit (eg. 2 years
 pre.. Key is valid for? (0) 2y 
 gpg> save
 
-p. Then you must send your key to the keyservers to publish this change:
+p. Then you may send your key to the keyservers to publish this change:
 
 pre. gpg --send-key '<fingerprint>'
 
@@ -111,7 +111,7 @@ You won't remember, so its best to ask something to remind you. Set your reminde
 
 Remember: you can always extend your expiration date (even after it has expired!), so you do not need to make a brand new key, you just need to extend your expiration to a later time. Doing this on a regular basis is good to exercise your OpenPGP muscles, otherwise you will forget things.
 
-h3. Generate a revocation certificate
+h3. Generate a revocation certificate.
 
 If you forget your passphrase or if your private key is compromised or lost, the only hope you have is to wait for the key to expire (this is not a good solution), or to activate your revocation certificate by publishing it to the keyservers. Doing this will notify others that this key has been revoked. 
 
@@ -169,7 +169,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your ~/.GnuPG/gpg.conf:
 
 pre. cert-digest-algo SHA512
 
@@ -181,7 +181,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your ~/.GnuPG/gpg.conf:
 
 pre. cert-digest-algo SHA512
 
@@ -193,7 +193,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your ~/.GnuPG/gpg.conf:
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
@@ -220,7 +220,7 @@ gpg> save
 
 h2. Putting it all together.
 
-Below are all the recommended settings discussed on this guide combined into one. Note that this assumes you are using the sks keyserver pool via hkps transport. If you are using only hkp, or not using the sks keyserver pool, you should omit the lines relating to the /path/to/CA. The following should be included in your @~/.gnupg/gpg.conf@:
+Below are all the recommended settings discussed on this guide combined into one. Note that this assumes you are using the sks keyserver pool via hkps transport. If you are using only hkp, or not using the sks keyserver pool, you should omit the lines relating to the /path/to/CA. The following should be included in your @~/.GnuPG/gpg.conf@:
 
 pre.. # use the sks keyserver via hkps
 keyserver hkps://hkps.pool.sks-keyservers.net
@@ -250,6 +250,6 @@ h3. Do you have an encrypted backup of your secret key material?
 
 Double check on it.
 
-h3. do not include a "Comment" in your User ID
+h3. Do not include a "Comment" in your User ID.
 
 If you think you need a "Comment" field in your OpenPGP User ID [[please think long and hard before deciding that is really the case -> https://www.debian-administration.org/users/dkg/weblog/97]]. You probably don't need or want it, and having a comment field makes it harder for people to know what they're certifying.
