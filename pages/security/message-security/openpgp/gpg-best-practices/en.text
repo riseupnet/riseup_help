@@ -35,7 +35,7 @@ When creating a key, individuals may designate a specific keyserver to use to pu
 
 pre. keyserver-options no-honor-keyserver-url
 
-This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when you refresh their key.
+This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when or from where you refresh their key.
 
 h3. Refresh your keys slowly and one at a time.
 
