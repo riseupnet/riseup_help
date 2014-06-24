@@ -63,7 +63,7 @@ If you want to deal with a cryptographically-strong identifier for a key, you sh
 
 You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
 
-Note that there is a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/280/]] which is fixed in version 1.6.1. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Note that there is a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]] which is fixed in version 1.6.1. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
 pre. gpg --with-fingerprint --list-secret-key
 
