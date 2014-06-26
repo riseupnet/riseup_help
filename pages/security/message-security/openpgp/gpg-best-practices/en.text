@@ -242,6 +242,8 @@ keyid-format 0xlong
 with-fingerprint
 # when multiple digests are supported by all recipients, choose the strongest one:
 personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+# when multiple ciphers are supported by all recipients, choose the strongest one:
+personal-cipher-preferences AES256 AES192 AES CAST5
 # preferences chosen for new keys should prioritize stronger algorithms: 
 default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
 # If you use a graphical environment (and even if you don't) you should be using an agent:
