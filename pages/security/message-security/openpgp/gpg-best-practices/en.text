@@ -4,6 +4,15 @@ h2. How to use this guide.
 
 We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/gpg-best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
 
+h2. Use free software, and keep it updated.
+
+Information security is too important to leave to proprietary software.  You should use a free OpenPGP implementation, and keep it up-to-date.  The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system.  It is not enough to install GnuPG and forget about it, though.  You *must* keep it up to date so that critical security flaws are fixed.  All software has bugs, and GnuPG is no exception.  If you are running:
+
+- GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
+- Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
+- Mac OS := you can install [[GPG suite from GPGTools -> https://gpgtools.org/]] (how do you know when you need to update?). 
+- Building from source for any other operating system := you should [[subscribe to gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] to know when you should update.
+
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
 If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
@@ -233,6 +242,8 @@ keyid-format 0xlong
 with-fingerprint
 # when multiple digests are supported by all recipients, choose the strongest one:
 personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+# when multiple ciphers are supported by all recipients, choose the strongest one:
+personal-cipher-preferences AES256 AES192 AES CAST5
 # preferences chosen for new keys should prioritize stronger algorithms: 
 default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
 # If you use a graphical environment (and even if you don't) you should be using an agent:
