@@ -4,7 +4,7 @@ This how to will guide you step-by-step through creating OpenPGP public/private 
 
 h1. Before you begin -- do this first!
 
-You should first review our [[gpg-best-practices]] guide to ensure that you have setup your system to generate a strong key and receive key updates from a well-maintained keyserver. This will require you to make changes to the gpg.conf configuration file, which is located the different places depending on your operating system. In Linux it is located at @~/.gnupg/gpg.conf@
+You should first review our [[openpgp-best-practices]] guide to ensure that you have setup your system to generate a strong key and receive key updates from a well-maintained keyserver. This will require you to make changes to the gpg.conf configuration file, which is located the different places depending on your operating system. In Linux it is located at @~/.gnupg/gpg.conf@
 
 h1. Linux
 
@@ -23,15 +23,15 @@ h3. Create and Export an OpenPGP Public/Private Key pair
 # Select advanced options
 # Encryption type should be RSA
 # Key strength should be 4096
-# Expiration should be some time within two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> /gpg-best-practices#set-an-expiration-date-if-you-do-not-have-one]] 
+# Expiration should be some time within two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> openpgp-best-practices#use-an-expiration-date-less-than-two-years]] 
 # Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
 # The computer will now generate the key, which may take a long time. After this, you will have a OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface, or the command line.
-# **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you. Before you continue, please make sure you have [[selected a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Once you are ready:
+# **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you. Before you continue, please make sure you have [[selected a good keyserver -> /openpgp-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Once you are ready:
 ## Select the Key(s) you want to publish. Hold Ctrl and click to select more than one, or press **Ctrl+A** to select all keys.
 ## Navigate to **Remote** -> **Sync and Publish Keys...**
 ## Press the **Key Servers** button.
 ## Publish the keys to any keyserver (select one if the "Sync" button was grayed out in the previous screen); they all synchronize with each other, so your key will be on each one.
-## **Recommended:** Check the **Automatically retrieve keys from key servers** but *do not check* the **Automatically synchronize modified keys with key servers** check boxes. Instead, please consider [[using parcimonie -> /gpg-best-practices#use-parcimonie-to-refresh-your-keys]]. 
+## **Recommended:** Check the **Automatically retrieve keys from key servers** but *do not check* the **Automatically synchronize modified keys with key servers** check boxes. Instead, please consider [[using parcimonie -> /openpgp-best-practices#refresh-your-keys-slowly-and-one-at-a-time]]. 
 ## Press the **Close** button and then the **Sync** button to synchronize your keys.
 
 Your public key is now published to the key servers and is accessible to others!
@@ -82,7 +82,7 @@ This is based on the "Ubuntu GPG Howto":https://help.ubuntu.com/community/GnuPri
 
 h3. Ensure that you have already set the right defaults
 
-Please first review the [[gpg-best-practices]] guide to ensure that you have set your defaults correctly. *Do this before proceeding!*
+Please first review the [[openpgp-best-practices]] guide to ensure that you have set your defaults correctly. *Do this before proceeding!*
 
 h3. Generate an OpenPGP Key pair using GPG
 
@@ -117,9 +117,9 @@ Please specify how long the key should be valid.
    <n>y = key expires in n years
 Key is valid for? (0)
 
-If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> /gpg-best-practices#set-an-expiration-date-if-you-do-not-have-one]] to have your key expire within no more than 2 years. 
+If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> /openpgp-best-practices#use-an-expiration-date-less-than-two-years]] to have your key expire within no more than 2 years. 
 
-Enter your name, email address. [[It is not recommended to use a comment -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]]. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" prompt.
+Enter your name, email address. [[It is not recommended to use a comment -> /openpgp-best-practices#do-not-include-a-comment-in-your-user-id]]. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" prompt.
 
 bc.
 You need a user ID to identify your key; the software constructs the user ID
@@ -157,7 +157,7 @@ ssb   4096R/0x40339E25E2F2D99E 2014-05-14
 
 p. So for this example, the **KEY-ID** would be **E361D8GH916EFH89**.
 
-However, [[as discussed here -> /gpg-best-practices#dont-rely-on-the-keyid]] you should not rely on the keyid! Instead, you should use your *full fingerprint* for all operations.
+However, [[as discussed here -> /openpgp-best-practices#dont-rely-on-the-key-id]] you should not rely on the keyid! Instead, you should use your *full fingerprint* for all operations.
 
 h3. Export/Publish your public OpenPGP Key
 
@@ -172,7 +172,7 @@ h3. Publish your OpenPGP public key to the Ubuntu Key server
 At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you.
 # Press **Alt+F2** and run: @gnome-terminal@
 # type @gpg --send-keys <<fingerprint>>@
-where <<fingerprint>> is the fingerprint of the key you wish to publish on the key servers. Hopefully, you have already [[configured a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
+where <<fingerprint>> is the fingerprint of the key you wish to publish on the key servers. Hopefully, you have already [[configured a good keyserver -> /openpgp-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
 
 h1. Windows
 
