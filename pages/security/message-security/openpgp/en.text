@@ -72,6 +72,6 @@ h2. How do I setup OpenPGP encrypted email on my computer?
 
 Please read:
 
-* [[READ THIS FIRST -> openpgp-best-practices]]
+* [[READ THIS FIRST -> best-practices]]
 * [[gpg-keys]]
 * [[enigmail]]

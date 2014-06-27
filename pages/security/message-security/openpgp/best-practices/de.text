@@ -2,7 +2,7 @@
 
 h2. Über diese Anleitung
 
-Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erkläuterungen. Für viele dieser Änderungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/openpgp-best-practices#zusammenfassung-aller-empfehlungen]].
+Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erkläuterungen. Für viele dieser Änderungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]].
 
 h2. Einen Schlüsselserver auswählen und den eigenen Rechner so konfigurieren, dass der Schlüsselbund aktualisiert wird.
 
