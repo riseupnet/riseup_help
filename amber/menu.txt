@@ -49,6 +49,11 @@ chat
     pidgin
   security
     otr
+eip
+  how-to
+    linux
+    android
+  faq
 vpn
   how-vpn-works
   security-issues
