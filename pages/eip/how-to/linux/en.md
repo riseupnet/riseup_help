@@ -12,14 +12,14 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 #### Install on Trusty Thar (14.04)
 
-	sudo add-apt-repository "deb http://deb.bitmask.net/debian trusty main"
+	sudo echo "deb http://deb.bitmask.net/debian trusty main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
 
 #### Install on Saucy Salamander (13.10)
 
-	sudo echo "deb http://deb.bitmask.net/debian saucy main" >> /etc/apt/sources.list
+	sudo echo "deb http://deb.bitmask.net/debian saucy main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
@@ -27,7 +27,7 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 #### Install on Raring Ringtail (13.04)
 
-	sudo echo "deb http://deb.bitmask.net/debian raring main" >> /etc/apt/sources.list
+	sudo echo "deb http://deb.bitmask.net/debian raring main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
@@ -36,14 +36,14 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 #### Install on Wheezy (Debian 7)
 
-	sudo echo "deb http://deb.bitmask.net/debian wheezy main" >> /etc/apt/sources.list
+	sudo echo "deb http://deb.bitmask.net/debian wheezy main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
 
 #### Install on Jessie (Debian 8)
 
-	sudo echo "deb http://deb.bitmask.net/debian jessie main" >> /etc/apt/sources.list
+	sudo echo "deb http://deb.bitmask.net/debian jessie main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
@@ -51,7 +51,7 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 #### Install on Jessie using the Tor anonymizing network:
 
 	sudo apt-get install apt-transport-tor
-	sudo echo "deb tor://deb.bitmask.net/debian jessie main" >> /etc/apt/sources.list
+	sudo echo "deb tor://deb.bitmask.net/debian jessie main" >> /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
