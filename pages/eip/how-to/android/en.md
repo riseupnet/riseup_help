@@ -4,7 +4,7 @@
 
 ## Getting and Installing Bitmask
 
-There are two ways to obtain the Bitmask Android client, the first one is to download directly from the [Bitmask](https://bitmask.net) website and the second is to download it through the Play Store.
+There are two ways to obtain the Bitmask Android client, the first one is to download directly from the [Bitmask](https://dl.bitmask.net) website and the second is to download it through the Play Store.
 
 This first one means you will have to manually download any updates to the client. The second that you are letting Google live on your device. We recommend for now to use the direct download method.
 

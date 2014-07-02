@@ -36,6 +36,11 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 #### Install on Wheezy (Debian 7)
 
+You need to enable `wheezy-backports` as a software source. 
+
+	sudo apt-get install software-properties-common
+	sudo add-apt-repository 'deb http://http.debian.net/debian wheezy-backports main'
+
 	sudo echo "deb http://deb.bitmask.net/debian wheezy main" > /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
@@ -60,7 +65,7 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 The stand-alone Bitmask bundle should work on recent versions of Debian derived linux distributions (Mint, Ubuntu, Elementary, etc). Remember that you are the person in charge to keep the software updated. 
 
-To get the stand-alone bundle we need to know which kind of kernel do we have. That can be done with the following command: `uname -m`.
+To get the stand-alone bundle, first determine the type of kernel you have. This can be done with the following command: `uname -m`.
 
 #### 64bits
 
@@ -79,7 +84,7 @@ If and only if you get 'Correct signature' in the output, uncompress.
 
 #### 32bits
 
-If the output of that command was 'i686' or 'i386' then download the lastest version avaiable from [https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2](https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2) and it's OpenPGP signature from [https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc](https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc). You can download and verify the authenticity of the bundle using the following commands.
+If the output of that command was 'i686' or 'i386' then download the lastest version avaiable from [https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2](https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2) and it's OpenPGP signature from [https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2.asc](https://dl.bitmask.net/client/linux/Bitmask-linux32-latest.tar.bz2.asc). You can download and verify the authenticity of the bundle using the following commands.
 
 You can use the following commands to download and verify the bundle.
 
