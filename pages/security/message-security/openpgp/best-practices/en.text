@@ -2,7 +2,7 @@
 
 h2. How to use this guide.
 
-We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
+We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
 
 h2. Use free software, and keep it updated.
 
@@ -78,7 +78,7 @@ pre. gpg --with-fingerprint --list-secret-key
 
 h2. Key configuration.
 
-Now that you are know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
+Now that you know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
 
 h3. Use a strong primary key.
 
