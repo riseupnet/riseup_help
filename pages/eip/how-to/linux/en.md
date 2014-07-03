@@ -2,7 +2,7 @@
 @title = "How to: Linux"
 @summary = "Getting, Installing and Configuring the Bitmask client"
 
-To use Riseup's VPN Service you will need a LEAP Powered Riseup account. You can create one from the Bitmask or from https://black.riseup.net/signup. **It's recommended to register your account from the Bitmask application unless you are planning to only use the VPN from Android**.
+To use Riseup's VPN Service you will need a LEAP Powered Riseup account. You can create one from the Bitmask or from [https://black.riseup.net/signup](https://black.riseup.net/signup). **It's recommended to register your account from the Bitmask application unless you are planning to only use the VPN from Android**.
 
 ## Getting and Installing Bitmask
 
