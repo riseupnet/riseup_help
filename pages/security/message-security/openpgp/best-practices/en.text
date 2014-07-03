@@ -2,7 +2,7 @@
 
 h2. How to use this guide.
 
-We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the gpg.conf file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
+We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the @gpg.conf@ file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
 
 h2. Use free software, and keep it updated.
 
@@ -78,13 +78,13 @@ pre. gpg --with-fingerprint --list-secret-key
 
 h2. Key configuration.
 
-Now that you are know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
+Now that you know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
 
 h3. Use a strong primary key.
 
 Many people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. This size is known now to be within Well Funded Organizations' ability to break. Also the hashing algo is showing its age.
 
-It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> https://we.riseup.net/assets/176898/key%20transition]] that is signed by both keys, and then letting people know. A [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
+It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> https://we.riseup.net/assets/176898/key%20transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
 
 Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
 
@@ -146,7 +146,7 @@ To run these tests with the tool, you can do the following:
 
 pre. hkt export-pubkeys '<fingerprint>' | hokey lint
 
-The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should generate a new key after ensuring that your gpg.conf is setup as recommended.
+The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should generate a new key after ensuring that your @gpg.conf@ is setup as recommended.
 
 h4. Make sure your key is OpenPGPv4
 
@@ -178,7 +178,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
 
@@ -190,7 +190,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
 
@@ -202,7 +202,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
 
-To fix this, you will need to regenerate a key after setting the following in your ~/.gnupg/gpg.conf:
+To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
