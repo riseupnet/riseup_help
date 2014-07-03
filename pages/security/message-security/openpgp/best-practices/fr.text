@@ -1,0 +1,266 @@
+@title = "Bonnes pratiques pour l'utilisation d'OpenPGP"
+
+h2. Comment utiliser ce guide
+
+Nous avons rassemblé ici beaucoup d'informations sur la configuration de GnuPG. Vous trouverez des explications détaillées pour chaque suggestion de configuration. Beaucoup de ces changements nécessitent que vous effectuiez des modifications sur le fichier de configuration GnuPG de votre machine, qui se trouve à l'emplacement @~/.gnupg/gpg.conf@. Pour vous simplifier la vie, nous avons regroupé à un seul endroit [[vers le bas de cette page ->/best-practices#putting-it-all-together]] tous les changements suggérés pour le fichier @gpg.conf@. Nous vous encourageons fortement à ne pas copier aveuglément ce fichier, mais à lire ce document et à comprendre ce que font les réglages.
+
+h2. Utilisez du logiciel libre, et maintenez-le à jour
+
+La sécurité de l'information est quelque chose de trop important pour être laissé à du logiciel propriétaire. Vous devriez utiliser une implémentation OpenPGP libre, et la maintenir à jour. L'implémentation libre canonique d'OpenPGP est [[GnuPG -> https://gnupg.org/]], et elle est disponible pour tous les systèmes d'exploitation modernes et répandus. Cependant, vous ne pouvez pas juste installer GnuPG et le laisser tel quel. Vous *devez* le maintenir à jour pour que les problèmes de sécurité critiques puissent être corrigés. Tous les logiciels ont des bogues, et GnuPG ne fait pas exception. Suivez les instructions suivantes en fonction de votre système d'exploitation :
+
+- GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc.) : := Votre système d'exploitation installe automatiquement GnuPG et le maintiendra à jour pour vous.
+- Windows : := Vous pouvez installer [[Gpg4win -> https://gpg4win.org/]] et [[vous abonner à gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] pour savoir quand le mettre à jour.
+- Mac OS : := Vous pouvez installer [[la suite GPG de GPGTools -> https://gpgtools.org/]] (à voir : comment savoir quand mettre à jour ?).
+- Compiler à partir du code source pour n'importe quel autre système d'exploitation : := Vous devriez vous [[inscrire à gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] pour savoir quand mettre à jour.
+
+h2. Choisir un serveur de clés et configurer votre machine pour rafraîchir votre trousseau de clés
+
+Si vous ne rafraîchissez pas régulièrement vos clés publiques, vous ne serez pas informé à temps des expirations ou des révocations, or il faut absolument que vous soyiez au courant de ce genre d'événements ! Il y a deux étapes nécessaires pour recevoir les mises à jour de clés. Beaucoup d'utilisateurs envoient leurs mises à jour de clés à des serveurs de clés. Afin de récupérer ces mises à jour, vous devez d'abord vous assurer que vous utilisez un serveur de clés qui fonctionne correctement. Vous devez ensuite configurer votre machine pour recevoir les mises à jour de clés de façon régulière.
+
+h3. Utilisez le groupe de serveurs de clés sks plutôt qu'un seul serveur, et utilisez des connexions sécurisées
+
+La plupart des clients OpenPGP sont fournis avec une configuration qui ne s'adresse qu'à un seul serveur de clés spécifique. Ce n'est pas idéal : si le serveur de clés cesse de fonctionner, ou pire, s'il semble marcher mais ne fonctionne en fait pas correctement, vous risquez de ne pas recevoir des mises à jour de clés d'importance critique. Non seulement cela constitue un point de défaillance unique, mais c'est également une importante fuite d'information sur les relations entre utilisateurs OpenPGP, et donc une cible d'attaque.
+
+Pour ces raisons, nous recommandons l'usage du [[groupe de serveur de clés sks -> https://sks-keyservers.net/overview-of-pools.php]]. Le bon fonctionnement des machines de ce groupe est vérifié par des contrôles de routine réguliers. Si un serveur ne fonctionne pas bien, il sera automatiquement retiré du groupe.
+
+Vous devriez aussi vous assurer que vous communiquez avec le groupe de serveurs de clés au travers d'un canal chiffré, en utilisant un protocole qui s'appelle hkps. Pour utiliser hkps, vous devez d'abord installer gnupg-curl :
+    
+pre. sudo apt-get install gnupg-curl
+    
+Ensuite, pour utiliser le groupe de serveurs de clés, il vous faut [[télécharger l'autorité de certification de sks-keyservers.net -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], et la sauvegarder quelque part sur votre machine. Souvenez-vous du chemin où vous l'avez sauvegardée.
+
+Il faut ensuite utiliser les paramètres suivants dans @~/.gnupg/gpg.conf@, et spécifier le chemin d'accès complet où vous avez sauvegardé le fichier .pem ci-dessus :
+    
+pre.. keyserver hkps://hkps.pool.sks-keyservers.net
+keyserver-options ca-cert-file=/chemin/vers/CA/sks-keyservers.netCA.pem
+
+p. Dorénavant, vos interactions avec le serveur de clés seront chiffrées avec hkps, qui masquera votre réseau de relations sociales pour éviter qu'il ne soit divulgué à quiconque intercepterait votre trafic réseau. Par exemple, si vous faites @gpg --refresh-keys@ sur un serveur de clés qui ne supporte que hkp, quelqu'un qui surveillerait votre trafic pourrait voir toutes les clés que vous avez dans votre trousseau en observant les demandes de mises à jour que vous envoyez pour chacune d'entre elles. C'est là une information plutôt intéressante !
+
+_Note :_ [[hkps://keys.indymedia.org -> https://keys.indymedia.org/]], [[hkps://keys.mayfirst.org -> https://keys.mayfirst.org]] et [[hkps://keys.riseup.net -> https://keys.riseup.net]] sont d'autres serveurs qui proposent ce service (mais il reste recommandé de leur préférer un groupe de serveurs).
+
+h3. Assurez-vous que toutes les clés sont rafraîchies à l'aide du serveur de clés que vous avez sélectionné
+
+Un utilisateur qui crée sa clé peut indiquer un serveur de clés spécifique auquel s'adresser pour récupérer les nouvelles versions de sa clé. Il est recommandé d'utiliser l'option suivante dans @~/.gnupg/gpg.conf@, qui ignorera de telles instructions :
+    
+pre. keyserver-options no-honor-keyserver-url
+
+C'est une bonne chose à faire car (1) ça évite que les gens indiquent des méthodes non-sécurisées pour télécharger des mises à jour de leurs clés et (2) même si le serveur choisi utilisait hkps, le rafraîchissement échouerait parce que le ca-cert ne correspondrait pas, donc la clé ne serait jamais mise à jour. Notez aussi qu'un attaquant pourrait désigner un serveur de clés sous son contrôle afin de surveiller à quel moment, et depuis quel endroit, vous rafraîchissez ses clés.
+
+h3. Rafraîchissez vos clés l'une après l'autre
+
+Maintenant que vous avez configuré un bon serveur de clés, vous devez vous assurer que vous rafraîchissez vos clés régulièrement. La meilleure façon de faire cela sur Debian et Ubuntu est d'utiliser parcimonie :
+    
+pre. sudo apt-get install parcimonie
+
+[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] est un démon qui rafraîchit lentement votre trousseau de clés à partir d'un serveur de clés en passant par [[Tor -> https://www.torproject.org/]]. Il utilise un délai aléatoire, et un nouveau circuit Tor pour chaque clé. Le but est de compliquer la vie d'un attaquant qui voudrait corréler les mises à jour de clés avec votre trousseau.
+
+Vous ne devriez *pas* utiliser @gpg --refresh-keys@ ou la fonction équivalente de votre client de messagerie pour rafraîchir les clés, parce que vous dévoilez ainsi à toute personne qui vous écoute, et à l'opérateur du serveur de clés, la totalité des clés que vous désirez rafraîchir.
+
+h3. Ne faites pas aveuglément confiance aux clés des serveurs de clés
+
+N'importe qui peut envoyer des clés sur les serveurs et il n'y a pas de raison de croire que celles que vous téléchargez appartiennent vraiment à la personne dont elles indiquent le nom. Vous devez donc vérifier personnellement avec le propriétaire l'empreinte entière de sa clé. Vous devriez faire cette vérification face à face ou par téléphone. Une fois que vous avez vérifié l'empreinte, vous pouvez télécharger la bonne clé depuis un serveur :
+    
+pre. gpg --recv-key '<fingerprint>'
+
+Faites attention aux apostrophes droites ci-dessus (') qu'il faut placer autour de votre empreinte complète et qui sont nécessaires pour que la commande fonctionne. Les guillemets droits (") fonctionnent également.
+
+h3. Ne vous fiez pas à l'identifiant de clé
+
+Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
+
+h2. Configuration de la clé
+
+Maintenant que vous savez recevoir des mises à jour de clés régulières à partir d'un serveur de clés bien maintenu, il faut vérifier que votre clé OpenPGP est configurée de façon optimale. Beaucoup de ces changements peuvent nécessiter que vous génériez une nouvelle clé.
+
+h3. Utilisez une clé primaire robuste
+
+Beaucoup de monde utilise toujours des clés DSA de 1024 bits. Vous devriez vraiment passer à une longueur plus importante et à un meilleur algorithme de hachage. On sait maintenant que de telles clés sont sans doute à la portée d'Organisations avec de Grands Moyens, et le hachage montre également des signes de faiblesse.
+
+Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> https://we.riseup.net/assets/176898/key%20transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
+
+La transition peut être pénible, mais elle en vaut la peine, et c'est aussi une bonne opportunité pour s'entraîner à utiliser les outils !
+
+h3. Utilisez un délai d'expiration de deux ans ou moins
+
+Vous ne vous en rendez pas forcément compte, mais mettre une date d'expiration sur sa clé est en fait une *bonne chose*. Pourquoi ? Parce que *vous pouvez toujours étendre votre date d'expiration, même une fois qu'elle est passée !* Cette "expiration" est plutôt une sorte de valve de sûreté ou un "dispositif de l'homme mort" qui se déclenchera automatiquement à un certain moment. Si vous avez accès à la clé privée, vous pouvez le désamorcer. L'idée est de configurer un mécanisme qui désactivera votre clé au cas où vous n'y avez plus accès (et ne disposez pas d'un certificat de révocation).
+
+Paramétrer une date d'expiration vous obligera à repousser cette date quand elle approchera. C'est une petite chose que vous devrez vous souvenir de faire (voir le prochain point pour savoir comment paramétrer un rappel).
+
+Vous pouvez penser que c'est pénible et que vous ne voulez pas vous en occuper, mais c'est en fait une bonne chose de faire cela de façon régulière pour maintenir à niveau vos compétences OpenPGP. Cela indique aux utilisateurs que la clé est toujours active, que le détenteur de la clé l'utilise toujours, et cela vous donne une occasion de vérifier l'état actuel de vos outils, et vos bonnes pratiques. Du reste, beaucoup de personnes refuseront de signer une clé qui n'a pas de date d'expiration !
+
+Si vous avez déjà généré une clé sans date d'expiration, vous pouvez en spécifier une sur votre clé existante en utilisant la commande suivante :
+    
+pre. gpg --edit-key '<fingerprint>'
+
+À présent, sélectionnez la sous-clé pour laquelle vous voulez paramétrer une date d'expiration (par exemple la première), ou aucune pour paramétrer l'expiration de votre clé primaire, puis invoquez la commande "expire" :
+
+pre.. gpg> key 1
+gpg> expire
+
+p. Ajustez ensuite la date à une valeur raisonnable (par exemple deux ans plus tard), puis sauvegardez la clé et quittez
+
+pre.. Key is valid for? (0) 2y 
+gpg> save
+
+p. Vous pouvez alors envoyer votre clé aux serveurs de clés pour publier ce changement :
+    
+pre. gpg --send-key '<fingerprint>'
+
+h3. Notez un événement sur votre calendrier pour vous rappeler votre date d'expiration
+
+Vous ne vous en souviendrez pas, donc il vaut mieux paramétrer quelque chose pour vous le rappeler. Mettez votre rappel un mois ou plus avant la date, afin de pouvoir faire le changement un peu en avance. Travailler dans l'urgence avec vos clés n'est pas une bonne idée.
+
+N'oubliez pas : vous pouvez toujours reporter la date d'expiration de votre clé (même quand elle a déjà expiré !), donc il n'y a pas besoin de faire une clé toute neuve, il suffit de reporter la date d'expiration à plus tard. En plus, c'est une bonne manière de vous maintenir à niveau et de vous assurer que vous n'oubliez pas le fonctionnement des outils OpenPGP.
+
+h3. Générez un certificat de révocation
+
+Si vous oubliez votre phrase de passe ou si votre clé privée est compromise ou perdue, vous êtes condamnés à attendre que la clé expire... sauf si vous avez un certificat de révocation que vous pouvez alors publier sur les serveurs de clés pour signaler aux autres utilisateurs que la clé a été révoquée.
+
+Une clé révoquée peut encore être utilisée pour vérifier ses anciennes signatures, ou pour déchiffrer des données (si vous avez toujours accès à la clé privée), mais elle ne peut plus être utilisée pour chiffrer de nouveaux messages à votre intention.
+
+pre. gpg --output revoke.asc --gen-revoke '<fingerprint>'
+
+Cela créera le fichier revoke.asc. C'est une bonne idée d'imprimer une copie en dur du certificat pour la stocker à un endroit sûr (donnez-la à votre mère, stockez-la avec vos sauvegardes hors ligne). Si quelqu'un a accès à ce certificat, il peut révoquer votre clé, ce qui est assez désagréable, mais s'il a également accès à votre clé privée, c'est également ce que vous voudriez qu'il se passe.
+
+h3. N'utilisez votre clé primaire que pour certifier (et éventuellement signer). Utilisez une sous-clé différente pour le chiffrement
+
+h3. (bonus) Utilisez une sous-clé séparée pour signer, et gardez votre clé primaire entièrement hors-ligne
+
+Dans ce scénario, votre clé primaire n'est utilisée que pour les certifications, qui ont lieu relativement peu souvent.
+
+h3. Vérification de clés OpenPGP
+
+Il existe un outil commode pour vérifier automatiquement les points ci-dessous. Vous pouvez [[récupérer son code source -> http://floss.scru.org/hopenpgp-tools/]], ou, si vous utilisez Debian ou Ubuntu, vous pouvez installer le paquet directement :
+
+pre. sudo apt-get install hopenpgp-tools
+
+Pour lancer le logiciel et faire les tests, vous pouvez utiliser la commande :
+
+pre. hkt export-pubkeys '<empreinte>' | hokey lint
+
+La sortie indiquera en rouge les problèmes potentiels avec votre clé. Si tout est en vert, votre clé passe tous les tests ci-dessous. S'il y a du rouge, votre clé ne passe pas l'un des tests, et vous devriez générer une nouvelle clé après vous être assuré que votre fichier @gpg.conf@ est paramétré suivant nos recommandations.
+
+h4. Vérifiez que vous avez une clé OpenPGPv4
+
+D'après la [[RFC4880 -> http://tools.ietf.org/html/rfc4880]] : « Les clés V3 sont dépréciées. Elles ont trois faiblesses. Premièrement, il est relativement facile de construire une clé V3 qui a le même identifiant de clé que n'importe quelle autre clé, parce que l'identifiant de clé est simplement les 64 bits de poids faible du modulo public. Deuxièmement, l'empreinte d'une clé V3 porte sur le contenu de la clé mais pas sur sa longueur, ce qui donne davantage d'opportunités pour des collisions. Troisièmement, l'algorithme de hachage MD5 a des faiblesses qui fait que les développeurs préfèrent d'autres algorithmes. Voyez ci-dessous pour une discussion plus complète sur les identifiants et les empreintes de clés. »
+
+Pour savoir si vous utilisez une clé V3, utilisez la commande :
+
+pre. gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep version
+
+h4. Les clés primaires devraient être des clés DSA-2 ou RSA, de 4096 bits ou plus (de préférence RSA)
+
+Pour vérifier si vous utilisez DSA-2 ou RSA, vous pouvez entrer la commande :
+
+pre.  gpg --export-options export-minimal --export '<empreinte>' |  gpg --list-packets | grep -A2 '^:public key packet:$'| grep algo
+
+Si le numéro de l'algorithme mentionné est 1, vous utilisez RSA. Si c'est 17, vous utilisez DSA et vous devrez vérifier que la taille reportée dans la vérification suivante correspond à un nombre de bits supérieur à 1024, sinon vous n'utilisez pas DSA-2.
+
+Si l'algorithme porte le numéro 19, vous utilisez ECDSA, si c'est 18 vous utilisez ECC, et la méthode de contrôle de la longueur de clé ci-dessous n'est pas appropriée pour ces types de clé parce que les tailles de clé vont significativement décroître.
+
+Pour vérifier la longueur en bits de la clé primaire vous pouvez faire :
+    
+pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A2 'public key'| grep 'pkey\[0\]:'
+
+h4. Les auto-signatures ne doivent pas utiliser MD5
+
+Vous pouvez le vérifier en utilisant la commande :
+
+pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A 2 signature| grep 'digest algo 1,'
+
+Si vous voyez des résultats 'digest algo 1', alors vous avez des auto-signatures qui utilisent MD5, parce que l'algorithme de hachage 1 est MD5. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
+
+Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
+
+pre. cert-digest-algo SHA512
+
+h4. Les auto-signatures ne doivent pas utiliser SHA-1
+
+Vous pouvez le vérifier avec la commande :
+
+pre.   gpg --export-options export-minimal --export '<empreinte>' | gpg  --list-packets | grep -A 2 signature| grep 'digest algo 2,'
+
+Si vous voyez des résultats 'digest algo 2', alors vous avez des auto-signatures qui utilisent SHA-1, parce que l'algorithme de hachage 2 est SHA-1. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
+
+Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
+
+pre. cert-digest-algo SHA512
+
+h4. Les préférences indiquées pour l'algorithme de haché devraient inclure au moins un membre de la famille SHA-2 avec une priorité plus élevée que MD5 et SHA-1
+
+Vous pouvez vérifier cela grâce à la commande :
+
+pre. gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep 'pref-hash-algos'
+
+et inspecter les résultats. Les algorithmes sont indiqués par leur code suivant l'ordre de préférence décroissant. Si vous voyez les nombres '3', '2' ou '1' avant '11', '10', '9' out '8', alors vous avez spécifié des préférences qui favorisent un algorithme de hachage faible.
+
+Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
+
+pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+h4. Les clés primaires devraient avoir une date d'expiration raisonnable (deux ans dans le futur ou moins)
+
+Vous pouvez vérifier vos dates d'expiration en utilisant la commande :
+
+pre. gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep 'key expires after'
+
+Vérifiez visuellement les résultats, mais attention, la date sera indiquée relativement à la date de création de la clé, ce qui peut être délicat à interpréter.
+
+Une autre façon de vérifier la date d'expiration est simplement d'utiliser :
+
+pre. gpg --list-keys '<empreinte>'
+
+Cela devrait indiquer les dates de création et d'expiration de la clé primaire et de toutes les sous-clés associées. Si vous ne voyez rien qui indique "expires" dans la sortie, alors vous n'avez pas correctement paramétré la date d'expiration.
+
+Pour corriger cela, vous pouvez faire :
+    
+pre.. $ gpg --edit-key '<empreinte>'
+gpg> expire
+...
+gpg> save
+
+h2. En résumé
+
+Voici tous les paramètres recommandés présentés dans ce guide, rassemblés en un seul bloc. Notez que cela suppose que vous utilisez le groupe de serveurs de clés sks au travers du protocole hkps. Si vous utilisez seulement hkp, ou n'utilisez pas le groupe de serveurs de clés sks, vous pouvez retirer les lignes qui concernent le /chemin/vers/CA. Les lignes suivantes sont à placer dans votre fichier @~/.gnupg/gpg.conf@ :
+
+pre.. # Utiliser le serveur de clés sks via hkps
+keyserver hkps://hkps.pool.sks-keyservers.net
+keyserver-options ca-cert-file=/chemin/vers/CA/sks-keyservers.netCA.pem
+keyserver-options no-honor-keyserver-url 
+# Lors de l'affichage de certificats, séparer les identifiants utilisateur et
+# les clés
+fixed-list-mode
+# Les identifiants de clés courts sont triviaux à usurper ; il est facile de
+# créer une collision sur les identifiants de clé longs ; si vous voulez des
+# identifiants de clé forts, vous voudrez toujours voir l'empreinte
+keyid-format 0xlong
+with-fingerprint
+# Quand tous les destinataires supportent plusieurs hachés, choisir le plus
+# fort
+personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+# Les préférences choisies pour de nouvelles clés devraient donner la priorité
+# aux algorithmes les plus forts
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
+# Si vous utilisez un environnement graphique (et même si ce n'est pas votre
+# cas) vous devriez utiliser un agent (les arguments sont similaires à ceux de
+# https://www.debian-administration.org/users/dkg/weblog/64)
+use-agent
+# Vous devriez toujours savoir au premier coup d'œil quels sont les
+# identifiants utilisateur dont gpg pense qu'ils sont légitimement liés aux
+# clés de votre trousseau
+verify-options show-uid-validity
+list-options show-uid-validity
+# Lorsque vous faites une certification OpenPGP, utiliser un haché plus fort
+# que le choix par défaut (SHA1)
+cert-digest-algo SHA512
+
+h2. Suggestions supplémentaires
+
+h3. Avez-vous une copie de sauvegarde chiffrée de votre clé secrète ?
+
+Revérifiez-le.
+
+h3. N'incluez pas de "Commentaire" dans votre identifiant utilisateur
+
+Si vous pensez avoir besoin du champ "Commentaire" dans votre identifiant utilisateur OpenPGP, s'il vous plaît, [[réfléchissez longtemps et attentivement avant de décider que c'est le cas -> https://www.debian-administration.org/users/dkg/weblog/97]]. Il est rare d'en avoir légitimement besoin, et avoir un champ "Commentaire" complique la vie des gens car ils ne savent pas précisément ce qu'ils certifient.
+
