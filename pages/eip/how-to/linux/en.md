@@ -10,7 +10,7 @@ Bitmask Application for Linux is delivered in two flavors. If you use Ubuntu or 
 
 ### Ubuntu
 
-The steps described bellow will add the Bitmask respositories for your system. This commands have to be run inside your Terminal application, one by one as you will be promt for your sudo password. The repositories information will be stored at `/etc/apt/sources.list.d/bitmask.list`. 
+The steps described bellow will add the Bitmask respositories for your system. These commands need to be run in a terminal, one by one as you will be promt for your sudo password. The repository information will be stored at `/etc/apt/sources.list.d/bitmask.list`. 
 
 #### Install on Trusty Thar (14.04)
 
@@ -42,7 +42,7 @@ The steps described bellow will add the Bitmask respositories for your system. T
 
 ### Debian
 
-The steps described bellow will add the Bitmask respositories for your system. This commands have to be run inside your Terminal application, one by one as you will be promt for your sudo password. The repositories information will be stored at `/etc/apt/sources.list.d/bitmask.list`. 
+The steps described bellow will add the Bitmask respositories for your system. These commands need to be run in a terminal, one by one as you will be promt for your sudo password. The repository information will be stored at `/etc/apt/sources.list.d/bitmask.list`. 
 
 #### Install on Wheezy (Debian 7)
 
@@ -141,7 +141,7 @@ Bitmask has to make sure that it can connect securily with riseup.net. After tha
 
 The next step is to define an username and password for your account. Please make sure to remember them.
 
-Please notice that at this stage of the beta the current riseup's usernames are reserved and can't be used. You will need to create a new one, don't worry it's going to be only used for this service and during this beta.
+Please notice that at this stage of the beta the current riseup usernames are reserved and can't be used. You will need to create a new one, don't worry it's going to be only used for this service and during this beta.
 
 ![Step 6](linux/Bitmask-7.png)
 
@@ -157,10 +157,10 @@ Ok, you found a bug? Let us know about it so we can fix all the stuff before ope
 
 ### Something is not working... What do I do now?
 
-The first thing is to know what is causing the issue, for this open your Terminal application and run the command `bitmask --debug --logfile /tmp/bitmask.log`. This will run Bitmask in debug mode and store the output to a text file at `/tmp/bitmask.log`. If you are an advanced user, maybe you can trace the issue a little more. If not please fill a ticket with the contents of `/tmp/bitmask.log` file and the system you use (Debian Wheezy, Mint 17, Ubuntu Trusty, etc).
+The first thing is to know what is causing the issue, for this open your terminal application and run the command `bitmask --debug --logfile /tmp/bitmask.log`. This will run Bitmask in debug mode and store the output to a text file at `/tmp/bitmask.log`. If you are an advanced user, maybe you can trace the issue a little more. If not please file a ticket with the contents of `/tmp/bitmask.log` file and the system you use (Debian Wheezy, Mint 17, Ubuntu Trusty, etc).
 
-To fill a ticket, please visit [https://black.riseup.net/tickets/new](https://black.riseup.net/tickets/new). Thanks for your invaluable help!
+To file a ticket, please visit [https://black.riseup.net/tickets/new](https://black.riseup.net/tickets/new). Thanks for your invaluable help!
 
 ### My Riseup username and password are not working!
 
-At this stage of the beta, all the current riseup's usernames are reserved and can't be used. You will need to create a new one using the Bitmask application or at [https://black.riseup.net](https://black.riseup.net). Don't worry, this accounts will be only used for this beta period and will not be used in any other service. Feel free to user whatever username you want.
+At this stage of the beta, all the current riseup usernames are reserved and can't be used. You will need to create a new one using the Bitmask application or at [https://black.riseup.net](https://black.riseup.net). Don't worry, these accounts will be only used for this beta period and will not be used in any other service. Feel free to user whatever username you want.
