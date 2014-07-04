@@ -161,4 +161,4 @@ At this stage of the beta, all the current riseup usernames are reserved and can
 
 #### A "Configure Bitmask email Account" window shows up everytime I launch Thunderbird/Icedove
 
-For some reason the package `xul-ext-bitmask` got installed. This package contains the Thunderbird/Icedove extension to support LEAP as a Mail provider. Feel free to remove it, just run `sudo apt-get remove xul-ext-bitmask` and restart your Thunderbird/Icedove email client.
+For some reason the package `xul-ext-bitmask` was installed. This package contains the Thunderbird/Icedove extension to support LEAP as a Mail provider. Feel free to remove it, just run `sudo apt-get remove xul-ext-bitmask` and restart your Thunderbird/Icedove email client.
