@@ -26,14 +26,6 @@ Los pasos descritos acontinuación añadirán los repositorios de Bitmask para t
     sudo apt-get update
     sudo apt-get install bitmask leap-keyring
 
-
-#### Instalar en Raring Ringtail (13.04)
-
-    echo "deb http://deb.bitmask.net/debian raring main" | sudo tee -a /etc/apt/sources.list.d/bitmask.list
-    curl https://dl.bitmask.net/apt.key | sudo apt-key add -
-    sudo apt-get update
-    sudo apt-get install bitmask leap-keyring
-
 #### Desinstalar
 
     sudo apt-get remove bitmask leap-keyring
@@ -159,6 +151,12 @@ Lo primero es saber qué está causando el problema, para esto abre la aplicaci�
 
 Para llenar un ticket de soporte, por favor visita [https://black.riseup.net/tickets/new](https://black.riseup.net/tickets/new). ¡Muchas gracias por su invaluable ayuda!
 
-### ¡Mi usuario y password de riseup no funcionan!
+### Problemas que nos han reportado y posibles soluciones
+
+#### ¡Mi usuario y password de riseup no funcionan!
 
 En esta etapa de la beta, todos los nombres de usuarios actuales de riseup se encuentran reservados y no pueden ser utilizados. Necesitarás crear uno usando la aplicación Bitmask o en [https://black.riseup.net](https://black.riseup.net). No te preocupes, estas cuentas solo serán utilizadas durante el periodo beta y no serán usadas en ningún otro servicio. Siéntete libre de ocupar cualquier nombre de usuario.
+
+#### Una ventana de "Configure Bitmask email Account" aparece cada vez que inicio Thunderbird/Icedove
+
+Por algún motivo el paquete `xul-ext-bitmask` se instaló. Este paquete contiene la extensión para soportar LEAP como proveedor de Mail. Siéntete libre de eliminarla, solo ejecuta `sudo apt-get remove xul-ext-bitmask` y reinicia Thunderbird/Icedove. 
