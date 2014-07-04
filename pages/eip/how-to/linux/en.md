@@ -161,6 +161,12 @@ The first thing is to know what is causing the issue, for this open your termina
 
 To file a ticket, please visit [https://black.riseup.net/tickets/new](https://black.riseup.net/tickets/new). Thanks for your invaluable help!
 
-### My Riseup username and password are not working!
+### Issues we have been notified and possible fixes
+
+#### My Riseup username and password are not working!
 
 At this stage of the beta, all the current riseup usernames are reserved and can't be used. You will need to create a new one using the Bitmask application or at [https://black.riseup.net](https://black.riseup.net). Don't worry, these accounts will be only used for this beta period and will not be used in any other service. Feel free to user whatever username you want.
+
+#### A "Configure Bitmask email Account" window shows up everytime I launch Thunderbird/Icedove
+
+For some reason the package `xul-ext-bitmask` got installed. This package contains the Thunderbird/Icedove extension to support LEAP as a Mail provider. Feel free to remove it, just run `sudo apt-get remove xul-ext-bitmask` and restart your Thunderbird/Icedove email client.
