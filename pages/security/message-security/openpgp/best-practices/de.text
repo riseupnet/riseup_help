@@ -223,29 +223,9 @@ gpg> save
 
 h2. Zusammenfassung aller Empfehlungen.
 
-Im Folgenden findest Du alle empfohlenen Einstellungen, die in dieser Anleitung diskutiert wurden in einem Textblock. Beachte, dass dies voraussetzt, dass Du den sks-Schlüsselserververbund mit hkps-Verbindung verwendest. Wenn Du nur hkp benutzt oder nicht den sks-Schlüsselserververbund verwenden möchtest, dann solltest Du die Zeilen, die sich auf den /Pfad/zum/Sicherheitszertifikat beziehen. Folgendes solltest Du in Deine @~/.gnupg/gpg.conf@ einfügen:
+Alle empfohlenen Einstellungen, die in dieser Anleitung diskutiert wurden, sind in einer Konfigurationsdatei in Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "Sammlung gehärteter Konfigurationsdateien" kombiniert. Lade [[gpg.conf -> https://raw.githubusercontent.com/ioerror/duraconf/master/configs/gnupg/gpg.conf]] und füge es in deine @~/.gnupg/gpg.conf@ ein.
 
-pre.. # sks-Schlüsselserver mit hkps verwenden
-keyserver hkps://hkps.pool.sks-keyservers.net
-keyserver-options ca-cert-file=/Pfad/zum/Sicherheitszertifikat/sks-keyservers.netCA.pem
-keyserver-options no-honor-keyserver-url
-# bei der Ausgabe von Zertifikaten die Benutzer-IDs getrennt vom Schlüssel anzeigen
-fixed-list-mode
-# kurze Schlüssel-IDs zu fälschen ist trivial; es ist einfach, eine Kollision langer Schlüssel-IDs zu erstellen; wenn Dir starke Identifizierungsmerkmale am Herzen liegen, solltest Du Dir immer den Fingerabdruck anzeigen lassen:
-keyid-format 0xlong
-with-fingerprint
-# Wenn alle Empfänger*innen mehrere Digest-Algorithmen unterstützen, sollte der stärkste gemeinsame ausgewählt werden:
-personal-digest-preferences SHA512 SHA384 SHA256 SHA224
-# Präferenzen für neue Schlüssel sollten stärkere Algorithmen vorziehen:
-default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
-# Wenn Du eine graphische Umgebung verwendest (und selbst, wenn Du das nicht tust), solltest Du einen Agent benutzen:
-# (aus ähnlichen Gründen wie in https://www.debian-administration.org/users/dkg/weblog/64)
-use-agent
-# Du solltest immer auf einen Blick erkennen, welche Benutzer-IDs gpg glaubt legitimerweise mit einem Schlüssel in Deinem Schlüsselbund in Verbindung bringen zu können:
-verify-options show-uid-validity
-list-options show-uid-validity
-# Bei OpenPGP-Zertifizierungen einen stärkeren Digest als SHA1 verwenden:
-cert-digest-algo SHA512
+Du solltest die folgenden Einstellungen einkommentieren und/oder an deine lokalen Präferenzen anpassen: @default-key@, @keyserver-options ca-cert-file@ und @keyserver-options http-proxy@.
 
 h2. Zusätzliche Vorschläge.
 

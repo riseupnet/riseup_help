@@ -229,31 +229,9 @@ gpg> save
 
 h2. Putting it all together.
 
-Below are all the recommended settings discussed on this guide combined into one. Note that this assumes you are using the sks keyserver pool via hkps transport. If you are using only hkp, or not using the sks keyserver pool, you should omit the lines relating to the /path/to/CA. The following should be included in your @~/.gnupg/gpg.conf@:
+All the recommended settings discussed on this guide have been combined into one configuration file at Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "collection of hardened configuration files". Download [[gpg.conf -> https://raw.githubusercontent.com/ioerror/duraconf/master/configs/gnupg/gpg.conf]] and include it in your @~/.gnupg/gpg.conf@.
 
-pre.. # use the sks keyserver via hkps
-keyserver hkps://hkps.pool.sks-keyservers.net
-keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
-keyserver-options no-honor-keyserver-url 
-# when outputting certificates, view user IDs distinctly from keys:
-fixed-list-mode
-# short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
-keyid-format 0xlong
-with-fingerprint
-# when multiple digests are supported by all recipients, choose the strongest one:
-personal-digest-preferences SHA512 SHA384 SHA256 SHA224
-# when multiple ciphers are supported by all recipients, choose the strongest one:
-personal-cipher-preferences AES256 AES192 AES CAST5
-# preferences chosen for new keys should prioritize stronger algorithms: 
-default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
-# If you use a graphical environment (and even if you don't) you should be using an agent:
-# (similar arguments as https://www.debian-administration.org/users/dkg/weblog/64)
-use-agent
-# You should always know at a glance which User IDs gpg thinks are legitimately bound to the keys in your keyring:
-verify-options show-uid-validity
-list-options show-uid-validity
-# when making an OpenPGP certification, use a stronger digest than the default SHA1:
-cert-digest-algo SHA512
+You should uncomment and/or adjust the following settings to your local preferences: @default-key@, @keyserver-options ca-cert-file@ and @keyserver-options http-proxy@.
 
 h2. Additional suggestions.
 
