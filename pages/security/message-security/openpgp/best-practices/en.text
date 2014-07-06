@@ -229,9 +229,9 @@ gpg> save
 
 h2. Putting it all together.
 
-All the recommended settings discussed on this guide have been combined into one configuration file at Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "collection of hardened configuration files". Download [[gpg.conf -> https://raw.githubusercontent.com/ioerror/duraconf/master/configs/gnupg/gpg.conf]] and include it in your @~/.gnupg/gpg.conf@.
+All the recommended settings discussed on this guide have been combined into one configuration file at Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "collection of hardened configuration files." You may [[right-click on this link and save the gpg.conf -> https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]] in your @~/.gnupg/gpg.conf@ (linux and MacOS). For windows users, the gpg.conf file should be saved to @AppData\GnuPG\@.
 
-You should uncomment and/or adjust the following settings to your local preferences: @default-key@, @keyserver-options ca-cert-file@ and @keyserver-options http-proxy@.
+You will need to uncomment and/or adjust the following settings to your local preferences: @default-key@, @keyserver-options ca-cert-file@ and @keyserver-options http-proxy@.
 
 h2. Additional suggestions.
 
