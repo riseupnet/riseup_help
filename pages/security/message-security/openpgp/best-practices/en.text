@@ -170,7 +170,7 @@ To check the bit-length of the primary key you can do this:
 
 pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A2 'public key'|grep 'pkey\[0\]:'
 
-h4. self-signatures must not use MD5
+h4. self-signatures should not use MD5 exclusively
 
 You can check this by doing:
 
@@ -178,11 +178,11 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, you can generate a new self-signature on your key (i.e. by changing its expiration date) after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
 
-h4. self-signatures must not use SHA1
+h4. self-signatures should not use SHA1
 
 You can check this by doing:
 
@@ -190,7 +190,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, you can generate a new self-signature on your key (i.e. by changing its expiration date) after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
 
