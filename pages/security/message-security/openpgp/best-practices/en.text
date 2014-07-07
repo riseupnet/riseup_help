@@ -178,9 +178,11 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you can generate a new self-signature on your key (i.e. by changing its expiration date) after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, first, you should set the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
+
+Second, you should generate a new self-signature on your key (e.g. [[by changing the key's expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]).
 
 h4. self-signatures should not use SHA1
 
@@ -190,7 +192,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you can generate a new self-signature on your key (i.e. by changing its expiration date) after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, you can generate a new self-signature on your key (e.g. [[by changing its expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]) after setting the following in your @~/.gnupg/gpg.conf@:
 
 pre. cert-digest-algo SHA512
 
