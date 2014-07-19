@@ -60,16 +60,12 @@ h2. Adding Buddies to your Contacts
 
 h2. Authenticate Buddies
 
-Click **Start private conversation** and follow the instructions to authenticate each other to start a private conversation. The easiest method to authenticate someone is the Question and Answer method in which you ask the other person a question that only they could answer. This is an important security step to verify that you are talking to who you think you are talking to. Examples of acceptable questions:
+Click **Start private conversation** and follow the instructions to authenticate each other to start a private conversation.
 
-p((. Q: What did you and I talk about at Jad's last night in the front room? (lower case, one word)
-A: welding
+The primary reason why it's important to authenticate your buddies is because of what are called "Man-In-The-Middle" (or MITM) attacks. In brief, because internet communications pass among many different computers from point A to point B, any of those steps along the way can intercept and alter that communication, and significantly for our purposes, can completely impersonate the other end of the connection. The NSA has been known to do just this with their QUANTUM and TURMOIL programs, as revealed by Edward Snowden. To attack OTR with a MITM attack, an adversary would intercept communications en route and deliver their own public key instead of the other person's. They would then continue to pass along the message to its intended recipient, but with the public key data altered so that the communications would be readable by the adversary. Because of the way a MITM attack works, it can be almost impossible to detect and difficult to prevent - proper authentication of your buddies is essential to ensuring that your communications are secure.
 
-There was just the two people involved in the past conversation, so this is a secure question.
+"Proper authentication" in this case must mean more than just, say, using OTR to ask your buddy some questions that only they would know the answer to - because the "man in the middle" could read the answers they provide and relay them along with no problem at all, automatically. What you are really authenticating is the Fingerprint of your buddy's Public Key, which is displayed by OTR when you first begin a chat with them. Because of MITM attacks, the only proper way to authenticate a buddy on OTR is to use a different medium than OTR itself that would be very difficult to alter or impersonate someone over. One very good method, suggested by OTR's creators, is talking to your buddy over the phone, if both of you have adequate hearing and speech abilities, and then carefully reading out and comparing each of your key's Fingerprints to the one that's displayed in the OTR chat window. A TTY phone or other text-based tool for the hearing-impaired is too vulnerable to a MITM attack of its own to be useful, so an alternative like a video chat or in-person meeting would be necessary to verify key Fingerprints if a voice conversation is not practical.
 
-p((. Q: Who created the poster on the wall of my bedroom? (lower case, two words)
-A: beehive collective
+Note that even a phone conversation, video chat or in-person meeting would not be a totally secure means of authentication if you are not sure in advance of what your buddy sounds like or looks like. In such a situation, while you are authenticating your buddy's key fingerprint over the phone or otherwise, ask them some questions that only they would know the answer to. Questions that someone might be able to find out through simple investigation, like "what is my dog's name?" or "what is my hair color?" are not suitable, since an adversary could easily learn the correct answers.
 
-This is a secure question assuming you trust the people that have been in your bedroom.
-
-Questions like "What is my hair color" or "What's my dog's name" are insecure because most anyone could easily discover the answers to those questions.
+It is a bit annoying and difficult, but it really is imperative to do this kind of key fingerprint authentication if you want to use OTR securely.
