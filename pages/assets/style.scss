@@ -259,6 +259,11 @@ html, body {
     padding: $gutter;
     .label {
       font-size: 1em;
+      white-space: normal !important;
+      display: block;
+      text-align: left;
+      padding: 6px;
+      line-height: 1.3em;
     }
     .date {
       font-style: italic;
