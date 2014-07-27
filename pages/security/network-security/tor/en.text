@@ -14,7 +14,7 @@ h3. Windows Instructions
 
 After you've downloaded the Tor Browser Bundle, then double click on it to run it. Click on the button labeled "..." (1) and select where you want to save the bundle then click OK (2). At least 50 MB free space must be available in the location you select. If you want to leave the bundle on the computer, saving it to the Desktop is a good choice. If you want to move it to a different computer or limit the traces you leave behind, save it to a USB disk. Then Click Extract (3) to begin extraction. This may take a few minutes to complete.
 
-!tor/tbb-screenshot1.jpg!
+!tbb-screenshot1.jpg!
 
 See the Using Tor section below for how to use Tor.
 
@@ -22,7 +22,7 @@ h3. Mac OS X
 
 After you've downloaded the Tor Browser Bundle, then simply click on it to begin the installation. Mac OS X will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch Vidalia. Once Vidalia connects to Tor, it will launch Firefox.
 
-!tor/screenshot-osx-torbrowser-icon.png!
+!screenshot-osx-torbrowser-icon.png!
 
 See the Using Tor section below about how to use Tor.
 
@@ -39,13 +39,13 @@ h2. Using Tor
 
 Once extraction is complete, open the folder Tor Browser from the location you saved the bundle. Double click on the Start Tor Browser (4) application (it may be called Start Tor Browser.exe on some systems) The Vidalia window will shortly appear.
 
-!tor/tbb-screenshot2.jpg!
+!tbb-screenshot2.jpg!
 
 Once Tor is ready, Firefox will automatically be opened. Only web pages visited through the included Firefox browser will be sent via Tor. Other web browsers such as Internet Explorer are not affected. *Make sure* that it says "Tor Enabled" (5) in the bottom right corner before using it. To reduce the risk of confusion, don't run your normal Firefox while using the Tor Browser Bundle, its better to close existing Firefox windows before starting.
 
 Once you are finished browsing, close any open Firefox windows by clicking on the 'x' (6). For privacy reasons, the list of web pages you visited and any cookies will be deleted.
 
-!tor/tbb-screenshot3a.jpg!
+!tbb-screenshot3a.jpg!
 
 With the Tor Browser Bundle, Vidalia and Tor will automatically close.
 

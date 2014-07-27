@@ -59,7 +59,7 @@ security
   device-security
   message-security
     openpgp
-      best-practices
+      gpg-best-practices
       gpg-keys
       enigmail
     otr

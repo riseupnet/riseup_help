@@ -2,7 +2,7 @@
 
 h2. About Adium
 
-!adium/logo.png!
+!logo.png!
 
 Adium is the recommended jabber client for Macs. It is open source and supports [[OTR]] for end-to-end message encryption.
 
@@ -14,18 +14,18 @@ h2. Configuring an account
 
 (2) Click plus icon in bottom left, and select *Jabber*.
 
-!adium/new-plus-menu.png!
+!new-plus-menu.png!
 
 (3) In the *Account* tab, enter your riseup email address and password.
 
-!adium/new-account-tab.png!
+!new-account-tab.png!
 
 (4) In the *Options* tab:
 
 * For file transfer proxy, specify *proxy.riseup.net*.
 * Make certain that *Require SSL/TLS* is checked.
 
-!adium/new-options-tab.png!
+!new-options-tab.png!
 
 (5) Click *OK*
 
@@ -39,5 +39,5 @@ h2. Using Tor
 
 Edit the account settings of the account you want to use Tor with. Then select the *Proxy* tab, and configure like so:
 
-!adium/proxy-tab.png!
+!proxy-tab.png!
 

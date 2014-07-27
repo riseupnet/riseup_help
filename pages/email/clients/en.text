@@ -44,7 +44,7 @@ Suppose your email address was [@collective@riseup.net@]:
 
 h2.  Use Thunderbird
 
-!>clients/reclaimyourinbox.png!:http://getthunderbird.com
+!reclaimyourinbox.png!:http://getthunderbird.com
 
 Thunderbird is the mail client recommend for use with riseup.net. Sadly, The "Mozilla Foundation":https://mozilla.org has essentially abandoned Thunderbird, but it is still the best option for a free software cross-platform mail client.
 
