@@ -7,7 +7,7 @@ We have gathered here a lot of information about configuring GnuPG. There are de
 
 h2. Use free software, and keep it updated.
 
-Information security is too important to leave to proprietary software.  You should use a free OpenPGP implementation, and keep it up-to-date.  The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system.  It is not enough to install GnuPG and forget about it, though.  You *must* keep it up to date so that critical security flaws are fixed.  All software has bugs, and GnuPG is no exception.  If you are running:
+Information security is too important to leave to proprietary software. You should use a free OpenPGP implementation, and keep it up-to-date. The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system. It is not enough to install GnuPG and forget about it, though. You *must* keep it up to date so that critical security flaws are fixed. All software has bugs, and GnuPG is no exception. If you are running:
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
 - Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
@@ -165,7 +165,7 @@ pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-p
 
 If the reported algorithm is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
 
-If the  reported algorithm is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
+If the reported algorithm is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
 
 To check the bit-length of the primary key you can do this:
 
