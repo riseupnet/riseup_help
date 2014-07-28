@@ -7,7 +7,7 @@ We have gathered here a lot of information about configuring GnuPG. There are de
 
 h2. Use free software, and keep it updated.
 
-Information security is too important to leave to proprietary software.  You should use a free OpenPGP implementation, and keep it up-to-date.  The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system.  It is not enough to install GnuPG and forget about it, though.  You *must* keep it up to date so that critical security flaws are fixed.  All software has bugs, and GnuPG is no exception.  If you are running:
+Information security is too important to leave to proprietary software. You should use a free OpenPGP implementation, and keep it up-to-date. The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system. It is not enough to install GnuPG and forget about it, though. You *must* keep it up to date so that critical security flaws are fixed. All software has bugs, and GnuPG is no exception. If you are running:
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
 - Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
@@ -28,7 +28,7 @@ You should also ensure that you are communicating with the keyserver pool over a
 
 pre. sudo apt-get install gnupg-curl
 
-Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to!
+Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Next, you should [[verify the certificate's finger print -> https://sks-keyservers.net/verify_tls.php]].
 
 Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
 
@@ -73,7 +73,7 @@ If you want to deal with a cryptographically-strong identifier for a key, you sh
 
 You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
 
-Note that there is a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]] which is fixed in version 1.6.1. If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Note that there was a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], which is fixed in version 1.7.0: If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
 pre. gpg --with-fingerprint --list-secret-key
 
@@ -97,7 +97,7 @@ Setting an expiration date means that you will need to extend that expiration da
 
 You may think that is annoying and you don't want to deal with it, but it is actually good to be doing this on a regular basis so you keep your OpenPGP skills fresh. It indicates to users that they key is still active, and that the keyholder is using it, and gives you an opportunity to review the current state of your tools, and best practices. Also, many people will not sign a key that has no expiration date!
 
-If you have already generated a key without an expiration, you can set an expiration date on your key by doing the following:
+If you have already generated a key without an expiration date, you can set an expiration date on your key by doing the following:
 
 pre. gpg --edit-key '<fingerprint>'
 
@@ -106,7 +106,7 @@ Now select the subkey for which you want to set an expiration date (e.g. the fir
 pre.. gpg> key 1
 gpg> expire
 
-p. Then set the date to a reasonable one, and save the key and exit (eg. 2 years):
+p. Then set the date to a reasonable one, and save the key and exit (e.g. 2 years):
 
 pre.. Key is valid for? (0) 2y
 gpg> save
@@ -147,7 +147,7 @@ To run these tests with the tool, you can do the following:
 
 pre. hkt export-pubkeys '<fingerprint>' | hokey lint
 
-The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should generate a new key after ensuring that your @gpg.conf@ is setup as recommended.
+The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should fix it or generate a new key after ensuring that your @gpg.conf@ is set up as recommended.
 
 h4. Make sure your key is OpenPGPv4
 
@@ -157,25 +157,25 @@ To determine if your key is a V3 key you can do the following:
 
 pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
 
-h4. primary keys should be DSA-2 or RSA, 4096 bits or more. (RSA preferred)
+h4. primary keys should be DSA-2 or RSA (RSA preferred), ideally 4096 bits or more.
 
 To check if you are using DSA-2 or RSA, you can do this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A2 '^:public key packet:$'|grep algo
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
 
-If the algo reported is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size as greater than 1024, otherwise you aren't using DSA-2.
+If the reported algorithm is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
 
-If the algo reported is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
+If the reported algorithm is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
 
 To check the bit-length of the primary key you can do this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A2 'public key'|grep 'pkey\[0\]:'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
 
 h4. self-signatures should not use MD5 exclusively
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
@@ -189,7 +189,7 @@ h4. self-signatures should not use SHA1
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep -A 2 signature|grep 'digest algo 2,'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
@@ -201,19 +201,26 @@ h4. stated digest algorithm preferences must include at least one member of the 
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep 'pref-hash-algos'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
 
 and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
 
-To fix this, you will need to regenerate a key after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, first set the following in your @~/.gnupg/gpg.conf@:
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+then set the preferences on your key like this:
+
+pre.. $ gpg --edit-key '<fingerprint>'
+gpg> setpref
+...
+gpg> save
 
 h4. primary keys should have a reasonable expiration date (no more than 2 years in the future)
 
 You can check what your expiration dates are by doing this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep 'key expires after'
+pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'key expires after'
 
 Then visually inspect what the results are to confirm this -- the date listed will be relative to key creation, though, which can be difficult to interpret.
 
