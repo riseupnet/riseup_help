@@ -19,13 +19,6 @@ The steps described bellow will add the Bitmask respositories for your system. T
 	sudo apt-get update
 	sudo apt-get install bitmask leap-keyring
 
-#### Install on Saucy Salamander (13.10)
-
-	echo "deb http://deb.bitmask.net/debian saucy main" | sudo tee -a /etc/apt/sources.list.d/bitmask.list
-	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
-	sudo apt-get update
-	sudo apt-get install bitmask leap-keyring
-
 #### Uninstall
 
 	sudo apt-get remove bitmask leap-keyring
