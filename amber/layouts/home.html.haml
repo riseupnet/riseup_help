@@ -20,13 +20,16 @@
             .shadow-box
               .title-box
                 .logo
-                  .summary= @page.prop(@locals[:locale], :summary)
+                  .summary
+                    = @page.prop(@locals[:locale], :summary)
               .content-box
                 .row
                   .col-sm-8
                     .locale-links
                       - available_languages.each do |name, code, url|
                         %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
+                    <br>
+                    = link(t(:support_riseup) => 'donate', :class => 'btn btn-success')
                     = yield :content
                   .col-sm-4
                     .feed
