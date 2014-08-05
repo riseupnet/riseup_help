@@ -1,0 +1,31 @@
+@title = 'Two Factor Authentication with Roundcube Webmail'
+@nav_title = 'Two Factor Auth'
+
+Riseup's new webmail is roundcube and it supports an added security feature called [[two factor authentication -> https://en.wikipedia.org/wiki/Two-factor_authentication]]. A roundcube plugin supports [[HMAC-based One-time Passwords -> https://en.wikipedia.org/wiki/HOTP]]
+
+h2. Why use two-factor authentication?
+
+Two factor authentication provides an extra layer of security by requiring the entry of a random code in addition to your password. This code changes regularly. Even if someone gains access to your password, they still won't be able to login without the secret code. You can access the secret code by installing the two-factor authentication application on your home computer, or on your smart phone.
+
+h2. How to setup two-factor authentication for riseup's webmail.
+
+First, you will need to install a two-factor authentication application on the device that you want to use to access riseup email. Any application that supports [[HOTP ->https://en.wikipedia.org/wiki/HOTP]] should work. Here is a non-exhaustive list of some possible applications:
+
+* [[android ->  https://code.google.com/p/google-authenticator/]]
+* [[extension for chromium -> https://github.com/gbraad/html5-google-authenticator]] - Note that this extension currently requires you to download the git repository and build the extension.
+* [[extension for firefox -> https://marketplace.firefox.com/app/gauth-authenticator/]]
+* [[symbian and iOS ->https://build.phonegap.com/apps/135419/]]
+
+Once you've installed the applicaiton, you'll need to login to roundcube and follow these steps:
+
+# go to Settings --> 2-factor auth
+# click the activiate box, it will populate the secret box with a randomly generated secret
+# click save
+# Either click "show secret" or, if you have a device with a camera that can process QR-codes, you can click "Show QR-code."
+# Take that secret to the application you installed in the previous step, add a new account, put the secret there. 
+# If the application provides the option, select "time based" rather than "counter based."
+# Now your application should automatically generate a code on a regular basis.
+# Take the code generated from your application and put it in the "Check code" box within roundcube to make sure it works.
+# (optional, but recommended). Add "recovery codes" which are just backup passwords in case you do not have access to the two-factor code generation that let you in. *This is important because if you lose access to the device with your secret passcode, you won't be able to access roundcube!*
+
+You're done! Now you should have two-factor authentication working.

@@ -38,3 +38,32 @@ If you are using IMP, follow these instructions to create an email list from exi
 Viola!
 
 To edit this group, follow 1-3 above, then click on the first letter of the group's name to find it in your address book. Click on the address list. Now you can remove members from the list.
+
+h2. Manually importing your contacts from IMP/Squrrelmail to Roundcube
+
+You are probably reading this because our handy scripts for automatically importing your addressbook into roundcube didn't work properly. Sorry about that! Fortunately, it's easy to manually import your contacts.
+
+h3. Importing your contacts from SquirrelMail
+
+# Login to squirrelmail. 
+# Select addressbook
+# Scroll to the bottom and click on the "Export to CSV file" (you can leave all the settings exactly as they are)
+# Login to roundcube
+# Select Addressbook
+# Select Import
+# Choose the file you just exported from squirrelmail
+# Click on "Import"
+
+h3. Importing your contacts from IMP
+
+# Login to IMP
+# Select Address Book
+# Select Import/Export from the top nav bar
+# Under "Export Address Book," change the export format to vCard.
+# Click on Export
+# Login to roundcube
+# Select Addressbook
+# Select Import
+# Choose the file you just exported from IMP
+# Click on "Import"
+

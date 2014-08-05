@@ -18,6 +18,7 @@ email
   webmail
     address-book
     where-is-imp
+    2factorauth
   scams
     phishing
     viruses
