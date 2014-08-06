@@ -49,7 +49,7 @@ h2. Verification instructions
 
 You should follow [[these instructions to download riseup's gpg key and verify the keyid => network-security/certificates#complete-verification]]. Then you may follow these steps to verify this statement:
 
-# Download the signed "canary statement":canary/canary-statement-signed.txt
+# Download the signed "canary statement":/about-us/canary/canary-statement-signed.txt
 # Then run this command in a terminal:
 <code>gpg --verify canary-statement-signed.txt</code>
 # You should get output that says:
