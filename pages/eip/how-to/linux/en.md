@@ -102,23 +102,23 @@ When you launch Bitmask for the first time we will need to setup Riseup as a LEA
 
 h3. Create a LEAP powered Riseup account
 
-![Step 1](linux/Bitmask-1.png)
+![Step 1](Bitmask-1.png)
 
 Select sign up for a new account and press *next* button.
 
-![Step 2](linux/Bitmask-2.png)
+![Step 2](Bitmask-2.png)
 
 Select Configure a new provider and fill needed field with 'riseup.net'. Press the *check* button after that.
 
-![Step 3](linux/Bitmask-3.png)
+![Step 3](Bitmask-3.png)
 
 Bitmask has to make sure that riseup.net is a valid provider. After that you can press *next* to continue. If there is any problem in this step, please check the troubleshooting section in this page.
 
-![Step 4](linux/Bitmask-4.png)
+![Step 4](Bitmask-4.png)
 
 If everything went right you will see this screen. Press *next* after that.
 
-![Step 5](linux/Bitmask-5.png)
+![Step 5](Bitmask-5.png)
 
 Bitmask has to make sure that it can connect securily with riseup.net. After that press *next* to continue. If there is any issues in this step, please check the troubleshooting section in this page.
 
@@ -128,11 +128,11 @@ The next step is to define an username and password for your account. Please mak
 
 Please notice that at this stage of the beta the current riseup usernames are reserved and can't be used. You will need to create a new one, don't worry it's going to be only used for this service and during this beta.
 
-![Step 6](linux/Bitmask-7.png)
+![Step 6](Bitmask-7.png)
 
 Confirmation message. You can let Bitmask remember your username and password here, if you do please take note of them. Press *next* to continue!
 
-![Step 7](linux/Bitmask-8.png)
+![Step 7](Bitmask-8.png)
 
 Select Encrypted Internet and Connect. Welcome to the Riseup's VPN Service. Yay!
 
