@@ -16,7 +16,7 @@ First, you will need to install a two-factor authentication application on the d
 * [[extension for firefox -> https://marketplace.firefox.com/app/gauth-authenticator/]]
 * [[symbian and webOS -> https://build.phonegap.com/apps/135419/]]
 
-Once you've installed the applicaiton, you'll need to login to roundcube and follow these steps:
+Once you've installed the application, you'll need to login to roundcube and follow these steps:
 
 # go to Settings --> 2-factor auth
 # click the activiate box, it will populate the secret box with a randomly generated secret
