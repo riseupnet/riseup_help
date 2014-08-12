@@ -11,12 +11,12 @@ h2. How to setup two-factor authentication for riseup's webmail.
 
 First, you will need to install a two-factor authentication application on the device that you want to use to access riseup email. Any application that supports [[HOTP ->https://en.wikipedia.org/wiki/HOTP]] should work. Here is a non-exhaustive list of some possible applications:
 
-* [[android ->  https://code.google.com/p/google-authenticator/]]
+* [[android and iOS ->  https://fedorahosted.org/freeotp/]]
 * [[extension for chromium -> https://github.com/gbraad/html5-google-authenticator]] - Note that this extension currently requires you to download the git repository and build the extension.
 * [[extension for firefox -> https://marketplace.firefox.com/app/gauth-authenticator/]]
-* [[symbian and iOS ->https://build.phonegap.com/apps/135419/]]
+* [[symbian and webOS -> https://build.phonegap.com/apps/135419/]]
 
-Once you've installed the applicaiton, you'll need to login to roundcube and follow these steps:
+Once you've installed the application, you'll need to login to roundcube and follow these steps:
 
 # go to Settings --> 2-factor auth
 # click the activiate box, it will populate the secret box with a randomly generated secret
