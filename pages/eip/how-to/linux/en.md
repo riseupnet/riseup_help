@@ -33,7 +33,6 @@ The steps described bellow will add the Bitmask respositories for your system. T
 
 You need to enable `wheezy-backports` as a software source. 
 
-	echo "deb http://http.debian.net/debian wheezy-backports main" | sudo tee -a /etc/apt/sources.list.d/bitmask.list
 	echo "deb http://deb.bitmask.net/debian wheezy main" | sudo tee -a /etc/apt/sources.list.d/bitmask.list
 	curl https://dl.bitmask.net/apt.key | sudo apt-key add -
 	sudo apt-get update
