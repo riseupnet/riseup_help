@@ -60,6 +60,12 @@ vpn
   troubleshooting
   faq
   security-issues
+  legacy
+    vpn-howto
+      linux
+      mac
+      windows
+    troubleshooting
 security
   privacy
   surveillance
