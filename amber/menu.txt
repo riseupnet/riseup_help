@@ -52,7 +52,13 @@ chat
   security
     otr
 vpn
+  why-is-needed
   how-vpn-works
+  how-to
+    android
+    linux
+  troubleshooting
+  faq
   security-issues
 security
   privacy
