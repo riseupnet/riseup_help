@@ -103,7 +103,7 @@ If you get 'Correct signature' or 'Good signature' in the output, uncompress wit
 
 When you launch Bitmask for the first time we will need to setup Riseup as a LEAP Provider. These steps will guide you through that process.
 
-h3. Create a LEAP powered Riseup account
+### Create a LEAP powered Riseup account
 
 ![Step 1](Bitmask-1.png)
 
@@ -123,13 +123,13 @@ If everything went right you will see this screen. Press *next* after that.
 
 ![Step 5](Bitmask-5.png)
 
-Bitmask has to make sure that it can connect securily with riseup.net. After that press *next* to continue. If there is any issues in this step, please check the troubleshooting section in this page.
+Bitmask has to make sure that it can connect securily with riseup.net. After that press *next* to continue. If there is any issues in this step, please check the [[troubleshooting]].
 
-![Step 6](GNU/Linux/Bitmask-6.png)
+![Step 6](Bitmask-6.png)
 
 The next step is to define an username and password for your account. Please make sure to remember them.
 
-Please notice that at this stage of the beta the current riseup usernames are reserved and can't be used. You will need to create a new one, don't worry it's going to be only used for this service and during this beta.
+You will be not able to pick your current riseup.net username. This is to avoid possible issues between the current and the new systems. Don't worry, you will be able to recover your username later.
 
 ![Step 6](Bitmask-7.png)
 
