@@ -52,7 +52,7 @@ h2. VPN Servers
 
 For *Gateway* choose one of the following:
 
-<%= render '/vpn/vpn-servers' %>
+<%= render '/vpn/legacy/vpn-servers' %>
 
 
 h2. VPNAutoconnect
