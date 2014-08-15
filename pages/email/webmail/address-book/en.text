@@ -33,7 +33,7 @@ h2.  How do I create an address group in Squirrelmail?
 
 This is how you create an email list of your existing addresses. To do this, you must already have the addresses that you want to add entered into your address book.
 
-# login to https://mail.riseup.net
+# "Login to squirrelmail":https://mail.riseup.net/sm
 # Click on options
 # Click on Address Groups
 # Click on "Add New Member"
@@ -44,7 +44,7 @@ This is how you create an email list of your existing addresses. To do this, you
 
 h2.  How do I remove someone from an address group in Squirrelmail?
 
-# login to https://mail.riseup.net
+# "Login to squirrelmail":https://mail.riseup.net/sm
 # Click on options
 # Click on Address Groups
 # Click on modify
