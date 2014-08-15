@@ -1,6 +1,6 @@
 @title = 'GNU/Linux'
 
-p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your [Black](https://black.riseup.net) powered credentials will not work for the following instructions.
+p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
 
 p(alert alert-warning). *IF YOU RUN DEBIAN, UBUNTU OR ANOTHER DEBIAN DERIVATIVE, WE STRONGLY SUGGEST THAT YOU SWITCH TO OUR [[NEW VPN SERVICES -> vpn/how-to/linux ]].*
 
@@ -39,7 +39,7 @@ h2. Configuration
 ** Type:: password
 ** Username:: your riseup.net username.
 ** Password:: your riseup.net password or [[VPN Secret->/vpn/vpn-secret]] (VPN Secret is preferred).
-** CA Certificate:: download "RiseupCA.pem":RiseupCA.pem
+** CA Certificate:: download "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem
 ** Available to all users:: NO! Leave this unchecked.
 
 Note: if you later move the location of the RiseupCA.pem file, then the VPN will break until you specify the new location. For more information on the RiseupCA.pem file, and how to verify it, see [[riseup-ca]].

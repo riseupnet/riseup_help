@@ -6,7 +6,7 @@ p(alert alert-warning). We are launching a new VPN, the first step on our next g
 
 h2. Quick links!
 
-* Black: [black.riseup.net](https://black.riseup.net)
+* Black: "black.riseup.net":https://black.riseup.net
 * Linux user? [[Install instructions -> linux]]
 * Android user? [[Install instructions -> android]]
 * Something now working? check [[Troubleshooting]]

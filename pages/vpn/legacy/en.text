@@ -1,7 +1,7 @@
 @nav_title = 'Legacy VPN'
 @title = 'Riseup Legacy VPN'
 
-p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your [Black](https://black.riseup.net) powered credentials will not work for the following instructions.
+p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
 
 This is the first step on our next generation anti-surveillance services. These new security enhanced systems are hosted on https://black.riseup.net and are not linked to the current riseup's infrastructure. This means you will need to create a different account there. Don't worry, all of our current usernames are 'reserved' and cannot be used on Black and you will be able to use your current username or the new one (if you want) later this year.
 
