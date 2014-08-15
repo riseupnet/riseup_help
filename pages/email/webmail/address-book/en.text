@@ -7,7 +7,7 @@ You are probably reading this because our handy scripts for automatically import
 
 h3. Importing your contacts from SquirrelMail
 
-# Login to squirrelmail. 
+# "Login to squirrelmail":https://mail.riseup.net/sm
 # Select addressbook
 # Scroll to the bottom and click on the "Export to CSV file" (you can leave all the settings exactly as they are)
 # Login to roundcube
@@ -18,7 +18,7 @@ h3. Importing your contacts from SquirrelMail
 
 h3. Importing your contacts from IMP
 
-# Login to IMP
+# "Login to IMP":https://fulvetta.riseup.net/horde3/imp/ (NOTE: this will go away soon!)
 # Select Address Book
 # Select Import/Export from the top nav bar
 # Under "Export Address Book," change the export format to vCard.
