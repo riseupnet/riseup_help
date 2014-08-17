@@ -28,7 +28,7 @@ For example, if your email address was joe_hill@riseup.net, your login is @joe_h
 This is *required*. If you mail client does not support secure SMTP, you cannot use riseup.net as your SMTP. You might have the option of choosing either *TLS* or *SSL* for the secure connection. Both protocols work, but most ISPs will block port 25 (used by TLS), so we recommend that you choose SSL.
 * *Port*: For *TLS*, the port should be @25@. For *SSL*, the port should be @465@. Again, port @25@ is probably blocked by your internet provider, so you should probably choose SSL.
 
-For details on setting up SMTP for different mail clients, see the [email clients] page.
+For details on setting up SMTP for different mail clients, see the [[email clients => email/clients]] page.
 
 h2. How many messages can I send?
 
