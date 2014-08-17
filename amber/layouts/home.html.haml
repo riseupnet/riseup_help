@@ -3,12 +3,13 @@
   %head
     %title
       = @page.nav_title + ' - ' + @site.title
-    %meta(name="viewport" content="width=device-width, initial-scale=1.0")/
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %meta(charset="UTF-8")
-    %link(rel="stylesheet" href="/assets/bootstrap.min.css")/
-    %link(rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css")/
-    %link(rel="stylesheet" href="/assets/style.css")/
-    %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")/
+    %link(rel="stylesheet" href="/assets/bootstrap.min.css")
+    %link(rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css")
+    %link(rel="stylesheet" href="/assets/style.css")
+    %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")
+    = html_head_base
   %body.home
     #wrap
       #masthead
@@ -19,13 +20,16 @@
             .shadow-box
               .title-box
                 .logo
-                  .summary= @page.prop(@locals[:locale], :summary)
+                  .summary
+                    = @page.prop(@locals[:locale], :summary)
               .content-box
                 .row
                   .col-sm-8
                     .locale-links
                       - available_languages.each do |name, code, url|
                         %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
+                    <br>
+                    = link(t(:support_riseup) => 'donate', :class => 'btn btn-default btn-lg')
                     = yield :content
                   .col-sm-4
                     .feed

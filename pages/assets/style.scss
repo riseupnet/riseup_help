@@ -35,6 +35,10 @@ a:visited {
   color: $link-visited-color;
 }
 
+//a.btn {
+//  color: white;
+//}
+
 .content-box h1:first-child, .content-box h2:first-child {
   margin-top: 0px !important;
 }
@@ -259,6 +263,11 @@ html, body {
     padding: $gutter;
     .label {
       font-size: 1em;
+      white-space: normal !important;
+      display: block;
+      text-align: left;
+      padding: 6px;
+      line-height: 1.3em;
     }
     .date {
       font-style: italic;

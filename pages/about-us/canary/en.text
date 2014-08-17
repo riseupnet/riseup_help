@@ -3,13 +3,13 @@
 @this.alias = '/canary'
 @toc = false
 
-!{float:right}/about-us/canary/canaryimg.jpg!
+!{float:right}canaryimg.jpg!
 
-h4{margin-left: 200px; margin-right:200px}. _*noun*_ 
+h4{margin-left: 200px; margin-right:200px}. _*noun*_
 
-h4{margin-left: 200px; margin-right:200px}. _*1...*_ A small songbird in the finch family, _serinus canaria domestica,_ originally native to islands in the North Atlantic. 
+h4{margin-left: 200px; margin-right:200px}. _*1...*_ A small songbird in the finch family, _serinus canaria domestica,_ originally native to islands in the North Atlantic.
 
-!{float:left}/about-us/canary/canarypronounce.png!
+!{float:left}canarypronounce.png!
 
 h4{margin-left: 200px; margin-right:200px}. _*2...*_ A mechanism to test for unsafe conditions, originating from the use of canaries in coal mines to detect poisonous gases or cave-ins. If the canary died, it was time to get out of the mine. More recently, the term has been used by some online service providers to refer to an affirmative statement, updated regularly, that the provider has not been subjected to certain legal processes. If the statement is not updated in a timely fashion, users may infer that the canary statement may no longer be true.
 
@@ -17,31 +17,31 @@ h4{margin-left: 200px; margin-right:200px}. _*2...*_ A mechanism to test for uns
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of April 21, 2014, Riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court. Riseup has never placed any backdoors in our software and have not received any requests to do so. Riseup has never disclosed any user communications to any third party.
+As of July 1, 2014, riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
 
-Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of April 21, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
+Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of July 1, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
 
 Riseup intends to update this report approximately once per quarter.
 
 [1] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.14 (GNU/Linux)
+Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQJ8BAEBCgBmBQJTVHqQXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+iQJ8BAEBCgBmBQJTssepXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
 ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaObNcQAKQdMCKZfHT3NrIyx2D9IUmd
-XQMoqdihUNm9tL3WBNsSCG5dy0lukiZuhuLXZGiMmAeghjU5nIfnf2vRHjSitWNu
-ai0l431a1S4pGH8YgIPx4rarqk9zToF7TwHAcbnMpFrSDHLug6XKsrVMZdnbaqHW
-DvHIDnE9XWD+Jt9YkOUj1OSl4fLkI/+zi1xEBt0GqfS5DgEoXgHxgr1WMv33RYqz
-IKkmJmFHCT9cyagdwIp96bPVtGo43vAzeFw9cZJ/Xz9t9I7JoSHY4pt+Iab4pgKx
-Nqw34lVPuWkHHamZpUeesWpP9NXjIQ+xIAXEr++lg3E1BQs5olcXOLPljCrg/iqp
-hwmlU8r1aggBJ8Dp0TNw3sHHWo8Hqu2l4vESqxdqMp9w2UBxrSr8lAwj4e5qcEQA
-9b5JEo5jyVEZON27GfSkCzyYYmSojMKXgi6ZFg2a7j0r+kN6jd9on3hHiyN8bGzA
-6hLymRsgvQ3KrtdgzZTYC5YNf1dkdpDYEMvyl4swTdboGoc1+HOppr2BJxbjRJSF
-7bgfmFBmunmqDenwPRp/6jpjpoTsMnsQLG5Ph7/nQ/T1VO1++/DJJFoyDUfSPSRz
-TrjWreeP9Qr/Uzk1d25Yc5VqaKBZRALeDbMMcud9ViU+YtdTA1G/cfG6vX4TMQOt
-7phpF8GsBlt96x8SziQ+
-=h//E
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOk7MP/AnL0H3l1GiO1aZd4ir2yHlS
+V9W2rNnLpYdkuetsatYBP3BnDLTP//bRUS8sh1v5GVzQUd4JI29fNYzHBSQPMHve
+Wz2xLbCHB0cUXAJpBrnaje0ZJaTYpdwiU+B33l+slneHknGj9SpI04xVXASzs+cv
+z7zF0kr8DnjyHegLYy4ADu+YjbP6hR+SE+BB9Hh74TLkTOs3Ipr5dhB56gYpKiRT
+jjfvVJ5eDiQFqTP1FlJzHGKiinAB5bK8Ax3ta+KXSsspgf1SdxWIr9tg3CoLjZSN
+xGKhRMfjepU5j8R+1Y45CYvziQ4/YTg+WfgsLgMuvzwRErEWlMLs5MES+9lnC8AA
+AaK+LpZbgWRfD2jeQThdmOR6meEDxSwgRnAFwNHJnrGAZMOCkvoQ2Cfb5fyJ+zZV
+T8fVMBkJZflZ1Nnndbfj9AopvANbLrtttC69C5S4ISaalwyZDQg2lBGcTLcwJE5y
+cb3X0CUMSDnoDYDT/e6FET87rhP/KqTy0HBoQO6mtYd0f/AYX1Q4Ssl0ybTE6Wed
+RvY+St9OmfeTVFFYp10TVCtuQYV9FyB8foCOxCRCh5Suj8SnGTLu8v1ttuT+KCkH
+j5763p6cdMUQ7ZipQA964rGityNx2tPZ1O4JGYuNIWYp/6XnfDdoHaEc+vFIKAsr
+YIrp2zzjBgZIpRsNTvgu
+=HUBz
 -----END PGP SIGNATURE-----
 </pre>
 
@@ -49,12 +49,12 @@ h2. Verification instructions
 
 You should follow [[these instructions to download riseup's gpg key and verify the keyid => network-security/certificates#complete-verification]]. Then you may follow these steps to verify this statement:
 
-# Download the signed "canary statement":canary/canary-statement-signed.txt
+# Download the signed "canary statement":/about-us/canary/canary-statement-signed.txt
 # Then run this command in a terminal:
 <code>gpg --verify canary-statement-signed.txt</code>
 # You should get output that says:
 
-pre.. 
+pre..
 Signature made Sun 20 Apr 2014 06:55:28 PM PDT
 gpg:           using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"

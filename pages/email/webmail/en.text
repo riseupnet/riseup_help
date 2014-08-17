@@ -13,10 +13,8 @@ h2. Webmail options
 
 Currently, Riseup offers two options for webmail:
 
+# *Roundcube*: roundcube presents a fluid and responsive user interface, but requires javascript and may not work for some people. 
 # *SquirrelMail*: squirrelmail is more simple and does not require javascript.
-# *IMP*: if you don't like squirrelmail, maybe try IMP.
-
-In the future, we plan to migrate to using "RoundCube":http://roundcube.net for webmail.
 
 h2. Cookies must be enabled
 

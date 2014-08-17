@@ -2,7 +2,7 @@
 
 h2. What is Thunderbird?
 
-!>reclaimyourinbox.png!
+!>img/reclaimyourinbox.png!
 
 Thunderbird is the mail client recommended by riseup.net. It is Free Software and is available for Linux, Windows, and Mac OS X. You can download Thunderbird "from the thunderbird website":http://www.mozillamessaging.com/en-US/thunderbird/download. As Free Software, Thunderbird is part of the digital commons, a kind of common treasury for all. Outlook, on the other hand, is Microsoft's tool for world domination.
 
@@ -16,17 +16,17 @@ The first time you run Thunderbird, the account wizard will walk you through set
 
 1. Choose the menu item *Edit > Account Settings...*
 
-!/email/clients/thunderbird/img/edit-account-settings.png!
+!img/edit-account-settings.png!
 
 2. Click the *Add Account...* button.
 
-!/email/clients/thunderbird/img/account-actions.png!
+!img/account-actions.png!
 
 h3. Step 1
 
 You will see a prompt. Enter in your name, email address and password.
 
-!/email/clients/thunderbird/img/mail-account-setup1.png!
+!img/mail-account-setup1.png!
 
 Click *Continue*.
 
@@ -34,14 +34,14 @@ h3. Step 2
 
 Thunderbird will pull the settings from riseup's servers.
 
-!/email/clients/thunderbird/img/mail-account-setup2.png!
+!img/mail-account-setup2.png!
 
 Now you need to decide if you want to use [[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
 * *IMAP*: It will by default pick IMAP, so if you want IMAP you can simply click *Continue*.
 * *POP*: To switch to POP, click *edit*. Then click the dropdown menu that says IMAP and change it to POP. Now click Re-Test Configuration. It should show you using POP. If so, click *Continue*.
 
-!/email/clients/thunderbird/img/imap-pop.png!
+!img/imap-pop.png!
 
 h3. Step 3
 

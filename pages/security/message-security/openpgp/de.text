@@ -1,7 +1,6 @@
 @title = 'E-Mail-Verschlüsselung'
 
-Was ist E-Mail-Verschlüsselung?
------------------------
+h2. Was ist E-Mail-Verschlüsselung?
 
 E-Mail-Verschlüsselung ist eine Möglichkeit, den Inhalt Deiner Mails vor im Internet möglichen Abhörmaßnahmen zu schützen. Die bekannteste Verschlüsselungstechnik ist OpenPGP (OpenPGP ist die Spezifikation, PGP steht für "Pretty Good Privacy", zu deutsch etwa: "ziemlich gut geschützte Privatsphäre" und ist proprietäre Software, während GPG für "GNU Privacy Guard" steht und freie Software ist). Im Internet gibt es viele gute Quellen, die detaillierte Informationen über die Funktionsweise von Verschlüsselung bieten. Für unsere Zwecke genügt es, die folgenden Begriffe zu verstehen: *öffentlicher Schlüssel* ("public Key"), *privater Schlüssel* ("private Key") and *Passwort/Mantra*. (Anmerkung d. Übersetzers: "Mantra" übersetzt hier den englischen Begriff "Passphrase", welcher zum Ausdruck bringen soll, daß ein einfaches Pass*wort* keinen ausreichenden Schutz gewährleistet.)
 
@@ -11,8 +10,7 @@ Ein *privater Schlüssel* gehört zu genau einem öffentlichen Schlüssel. Er wi
 
 Dein *Mantra* sollte mindestens 21 Zeichen lang sein und Groß- und Kleinbuchstaben sowie Sonderzeichen (z.B. &$"{@) beinhalten. Dein Mantra schützt Deinen privaten Schlüssel und erlaubt, ihn in Verbindung mit Deinem öffentlichen Schlüssel zum Senden und Empfangen verschlüsselter E-Mail zu verwenden.
 
-Wie verwende ich E-Mail-Verschlüsselung?
----------------------
+h2. Wie verwende ich E-Mail-Verschlüsselung?
 
 Es gibt drei grundlegende Funktionen, die Du mit GPG durchführen kannst: *signieren*, *verschlüsseln* und *verifizieren*.
 
@@ -22,22 +20,19 @@ Es gibt drei grundlegende Funktionen, die Du mit GPG durchführen kannst: *signi
 
 *Verschlüsseln*: Um eine Nachricht zu verschlüsseln, benötigst Du den öffentlichen Schlüssel der/des EmpfängerIn. Du brauchst dafür weder ein Mantra noch einen eigenen GPG-Schlüssel. Jedoch verschlüsseln die meisten Anwendungen alles zusätzlich mit Deinem eigenen öffentlichen Schlüssel, da Du andernfalls die von Dir verschlüsselte Nachricht später nicht mehr lesen könntest. Sobald die Nachricht verschlüsselt ist, ist ihr Inhalt während des Transports nicht mehr lesbar. *Jedoch sind Betreff, Absender und Empfänger weiterhin sichtbar.*
 
-Kann ich mit Riseups Webmail verschlüsselte E-Mails senden und empfangen?
-------------------------
+h2. Kann ich mit Riseups Webmail verschlüsselte E-Mails senden und empfangen?
 
 Eines der Webmail-Programme auf Riseups Servern ermöglicht das Senden und Empfangen verschlüsselter Mails. Die Software heißt IMP und ist die zweite Anmeldemaske auf mail.riseup.net. Dabei besteht jedoch das Problem, daß Dein privater Schlüssel auf Riseups Servern gespeichert werden muss. Damit ist er bedroht durch den US-amerikanische Rechtsweg (wie Durchsuchungsbefehle oder Vorladungen) und *wir können dies nicht empfehlen*.
 
 Viel besser ist es für Riseup-NutzerInnen, ein Mail-Programm wie [[Thunderbird]] zum Senden und Empfangen von E-Mail zu nutzen, wobei Dein privater Schlüssel sicher auf Deinem eigenen Rechner gespeichert bleibt.
 
-Wo liegen die Grenzen verschlüsselter Kommunikation?
------------------------
+h2. Wo liegen die Grenzen verschlüsselter Kommunikation?
 
 Verschlüsseltes Kommunizieren schützt Dich nicht vor *Beziehungsanalysen*, die beobachten, wer mit wem in Verbindung steht. So wissen Überwachende zum Beispiel, wenn ihatebush@riseup.net regelmäßig verschlüsselte Mails mit joehill@riseup.net austauscht zwar nicht, *was* die beiden diskutieren, aber allein die Tatsache, daß die beiden regelmäßig kommunizieren kann schon nützlich sein. Dazu kommt, daß die Betreffzeile der Nachrichten *nicht verschlüsselt* ist.
 
 Signieren und Verifizieren stellen *nicht* sicher, daß die E-Mail tatsächlich von der mit dem Schlüssel assoziierten Adresse stammt: das Vorgeben falscher Absenderadressen ist sehr einfach. So könnte jemand mit der E-Mail-Adresse spezialagent@yahoo.com (1) ein Schlüsselpaar für joehill@riseup.net erstellen, (2) dessen öffentlichen Schlüssel auf einen öffentlichen Schlüsselserver hochladen und (3) von spezialagent@yahoo.com eine E-Mail senden, die von  joehill@riseup.net zu kommen scheint und signiert ist. Wenn Du nun einfach den öffentlichen Schlüssel herunterlädst und damit die Nachricht verifizierst, wirst Du den Status "Good Signature" ("Gültige Signatur") ausgegeben bekommen, obwohl die Nachricht überhaupt nicht von ihm stammt! Aus diesem Grund ist das *Web of Trust* ("Vertrauensnetz") so wichtig (siehe unten).
 
-Wie kann ich die Identität eines/r Schlüssel-BesitzerIn überprüfen?
-----------------
+h2. Wie kann ich die Identität eines/r Schlüssel-BesitzerIn überprüfen?
 
 Du hast Dir also die E-Mail-Verschlüsselung eingerichtet und sendest und empfängst fröhlich Nachrichten. Doch woher weißt Du daß Du auch wirklich mit der richtigen Person kommunizierst? Dafür kommen die Prüfsummen ("Fingerprints") der Schlüssel ins Spiel.
 
@@ -49,8 +44,7 @@ Jeder öffentliche Schlüssel hat eine eindeutige *Prüfsumme*. Diese Prüfsumme
 
 Die Prüfsumme ist nicht geheim, sondern kann einfach anhand des öffentlichen Schlüssels erzeugt werden.
 
-Wie kann ich einen Schlüssel signieren und warum sollte ich das wollen?
------------------
+h2. Wie kann ich einen Schlüssel signieren und warum sollte ich das wollen?
 
 Gehen wir einen Schritt weiter und sagen, daß Du mit Joe auf sichere Art und Weise Schlüssel getauscht hast. Du kannst nun also auf sichere Weise mit Joe kommunizieren und wissen, daß Du die Mails auch wirklich mit Joe austauschst (weil er seine Mails signiert) und daß der Inhalt Eurer Kommunikation abhörsicher ist (weil Du Deine Mails mit Joes öffentlichem Schlüssel verschlüsselst). Aber gehen wir mal davon aus, Joe trifft auf einer Aktion Rita und die beiden tauschen auf sicher Weise ihre Schlüssel. Du kennst und vertraust Joe, aber Rita hast Du nie gesehen. Wie kannst Du sichergehen, daß Ritas Schlüssel echt ist, ohne sie persönlich getroffen zu haben?
 
@@ -59,12 +53,11 @@ h3. Das "Web of Trust" (Vertrauensnetz) und das Signieren von Schlüsseln
 Nach dem Joe nun Ritas öffentlichen Schlüssel sicher verifiziert hat, kann Joe ihn *signieren*. Es gibt da zwei Ansätze: Eine Gruppe meint, daß Du nur Schlüssel signieren solltest, wenn Du Dich anhand eines von einer Behörde beglaubigten Fotos (z.B. Reisepass) davon überzeugt hast, daß der Name der InhaberInnen (selbst wenn Du sie seit Jahren kennst) und der mit der E-Mail-Adresse assoziierte Realname übereinstimmen.
 Andere signieren Schlüssel, ohne den Realnamen des/der EigentümerIn zu prüfen. Das stellt zwar sicher, daß der/dem EigentümerIn der E-Mail-Adresse auch der Schlüssel gehört, aber nicht, daß der mit der Adresse assoziierte Realname stimmt.
 
-Wenn Du Joe traust, daß er beim Signieren von Schlüsseln sorgfältig vorgeht, kannst Du Joe Schlüssel an Deinem Schlüsselbund eine Vertrauensstufe (Trust-Level) zuschreiben. Somit kannst Du auf Grund von Joes Signatur anderen Schlüsseln vertrauen, auch ohne die Personen getroffen zu haben. 
+Wenn Du Joe traust, daß er beim Signieren von Schlüsseln sorgfältig vorgeht, kannst Du Joe Schlüssel an Deinem Schlüsselbund eine Vertrauensstufe (Trust-Level) zuschreiben. Somit kannst Du auf Grund von Joes Signatur anderen Schlüsseln vertrauen, auch ohne die Personen getroffen zu haben.
 
 Du kannst auch einen *Schlüsselsignierungs-Party* schmeißen, um Deine Freunde und Kolleginnen zum Austauschen und gegenseitigen Signieren der Schlüssel anzuregen. Dies bietet die Gelegenheit, die Identität von Leuten zu verifizieren, die Du zwar nie getroffen hast, die jedoch mit Menschen, denen Du vertraust, die Schlüssel sicher getauscht haben.
 
-Habt Ihr noch weitere Tipps zum Thema E-Mail-Verschlüsselung?
-------------------------
+h2. Habt Ihr noch weitere Tipps zum Thema E-Mail-Verschlüsselung?
 
 Schön, daß Du fragst!
 
@@ -73,9 +66,8 @@ Schön, daß Du fragst!
 * Benutze ein *starkes Mantra*! Dein Mantra ist der letzte Schutz vor unautorisierter Nutzung Deines privaten Schlüssels. Vermassele das nicht Durch ein schlechtes Passwort. Mantras sollten mindestens 21 Zeichen lang sein und keine Wörter aus Wörterbüchern oder andere leicht zu erratende Zeichenfolgen beinhalten. *Eine zufällige Folge von Zeichen, die Du an einem sicheren Ort notierst ist besser, als ein langer Satz mit bekannten Wörtern.*
 * Benutze *allgemein gehaltene Betreff-Zeilen*. Die Betreff-Zeile einer E-Mail wird nicht verschlüsselt, darum sollte sie nichts über den Inhalt der Mail verraten.
 * Gib eine *Schlüsselsignierungs-Party* und bringe Deine FreundInnen dazu, PGP zu nutzen und die Schlüssel gegenseitig zu signieren.
-* Sende Deine Mails verschlüsselt, selbst *wenn der Inhalt bedeutungslos ist*. Das ist wichtig! Je mehr verschlüsselte Kommunikation stattfindet, desto schwieriger wird es, die zu analysierenden, interessanten Mails herauszufiltern. Tauscht also auch Eure Kochrezepte mit PGP-Verschlüsselung! 
+* Sende Deine Mails verschlüsselt, selbst *wenn der Inhalt bedeutungslos ist*. Das ist wichtig! Je mehr verschlüsselte Kommunikation stattfindet, desto schwieriger wird es, die zu analysierenden, interessanten Mails herauszufiltern. Tauscht also auch Eure Kochrezepte mit PGP-Verschlüsselung!
 
-Wie richte ich die OpenPGP-Verschlüsselung auf meinem Computer ein?
-------------------------
+h2. Wie richte ich die OpenPGP-Verschlüsselung auf meinem Computer ein?
 
 In unserem [[HOWTO-Bereich über OpenPGP -> openpgp]] gibt es Infos zu den Schlüsseln. Außerdem gibt es ein Dokument über die [[Einbindung Deines Schlüsselbundes in Thunderbird -> enigmail]].

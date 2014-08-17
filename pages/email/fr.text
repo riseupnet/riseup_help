@@ -1,11 +1,11 @@
 @title = 'Courriel Riseup'
 @nav_title = 'Courriel'
 
-!>email/airmail.jpg!
+!>airmail.jpg!
 
 Bienvenu sur la page d'aide pour les courriels riseup.net. Ici, vous trouverez de l'information sur les *comptes courriel* riseup.net
 
-Si vous ne trouvez pas ce que vous cherchez, "remplissez un billet de dépannage":https://user.riseup.net/forms/. Une fois que l'on a répondu à vos questions, faites nous savoir en quoi ces pages d'aide pourraient être améliorées. 
+Si vous ne trouvez pas ce que vous cherchez, "remplissez un billet de dépannage":https://user.riseup.net/forms/. Une fois que l'on a répondu à vos questions, faites nous savoir en quoi ces pages d'aide pourraient être améliorées.
 
 h2. Premiers pas
 
@@ -45,7 +45,7 @@ Riseup recommande [[thunderbird]], un client libre et gratuit. Thunderbird se co
 
 h2. Ce qu'il y a de spécial avec les courriels riseup.net
 
-Vos comptes courriel riseup.net sont des choses merveilleuses. Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, riseup.net a plusieures caractéristiques qui sortent de l'ordinaire: 
+Vos comptes courriel riseup.net sont des choses merveilleuses. Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, riseup.net a plusieures caractéristiques qui sortent de l'ordinaire:
 
 [*Nous encryptons le traffic à chaque fois que cela est possible.*]
 Quand vous envoyez un courriel de riseup.net à un autre fournisseur de courriels sécuritaires, le message est encrypté tout au long de son trajet. (voir [[StartTLS]] pour plus d'infos)

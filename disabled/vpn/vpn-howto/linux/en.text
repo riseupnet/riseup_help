@@ -35,7 +35,7 @@ h2. Configuration
 ** Type:: password
 ** Username:: your riseup.net username.
 ** Password:: your riseup.net password or [[VPN Secret->/vpn/vpn-secret]] (VPN Secret is preferred).
-** CA Certificate:: download "RiseupCA.pem":/security/certificates/RiseupCA.pem
+** CA Certificate:: download "RiseupCA.pem":RiseupCA.pem
 ** Available to all users:: NO! Leave this unchecked.
 
 Note: if you later move the location of the RiseupCA.pem file, then the VPN will break until you specify the new location. For more information on the RiseupCA.pem file, and how to verify it, see [[riseup-ca]].

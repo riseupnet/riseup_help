@@ -1,0 +1,84 @@
+@title = 'Riseup Email'
+@nav_title = 'Email'
+
+!>email/airmail.jpg!
+
+Benvenuta/o nella pagina di aiuto sull'email. Qui troverai informazioni relative alle *caselle di posta elettronica* di riseup.net.
+
+Se non trovi quello che stai cercando "apri un ticket per ottenere aiuto":https://user.riseup.net/forms/. Una volta che la tua domanda avrà ottenuto una risposta, aiutaci a mantenere queste pagine aggiornate inviando gli aggiornamenti o le aggiunte che vorrai condividere con gli altri utenti.
+
+h2. Primi passi
+
+Visita "user.riseup.net":https://user.riseup.net , da lì potrai cambiare la tua password, aggiungere un alias alla tua casella, impostare filtri per la posta elettronica, modificare lo spazio a tua disposizione e richiedere aiuto.
+
+Noi distruggiamo le informazioni che ci fornisci quando richiedi la tua casella di posta. Dovresti prendere in considerazione di rimuovere dalle impostazioni della tua casella qualsiasi informazione che possa identificarti, come ad esempio il tuo nome, il tuo compleanno, le domande segrete e gli indirizzi di posta alternativi. Tuttavia, se dimenticherai la tua password e questa informazioni non saranno impostate (o se hai dimenticato le informazioni o il tuo indirizzo di posta alternativo non è più accessibile), avrai perso l'accesso al tua casella.
+
+h2. Cose importanti da sapere
+
+h3. Proteggi la tua password
+
+Internet è piena di gente che tenta di rubare il tuo account di posta elettronica. Con ogni probabilità, ad un certo punto riceverai un email fraudolenta da qualcuno che fingerà di essere riseup.net. Questi messaggi ti chiederanno di fare qualcosa per mantenere il tuo indirizzo di posta.
+
+* Non dare mai a nessuno la tua password, specialmente se dice di essere riseup.net.
+* Non credere mai che il mittente di un messaggio di posta elettronica sia chi dice di essere perché il mittente dei messaggi può essere facilmente contraffatto.
+* Spesso i link contenuti nei messaggi di posta elettronica sono fraudolenti. Per stare tranquillo, dovresti riscrivere il link invece di cliccarci sopra. Inoltre, fai attenzione agli errori ortografici, come ad esempio riseupp.net invece di riseup.net
+
+Approfondimenti sulle [[passwords => mail-passwords]].
+
+h3. Cancellazione automatica dei messaggi contenuti in alcune cartelle
+
+I messaggi contenuti in alcune [[cartelle speciali => email-folders]] vengono cancellati automaticamente dopo un certo periodo di tempo:
+
+* *Trash* vengono cancellati dopo 21 giorni.
+* *Spam* vengono cancellati dopo 7 giorni.
+* *Sent* vengono cancellati dopo 120 giorni.
+
+h3. Quota
+
+Per diverse ragioni, non forniamo molto spazio per i messaggi di posta elettronica. Se hai bisogno di più spazio, considera la possibilità di scaricare le tue mail usando un client di posta oppure aumenta la tua quota di spazio visitando https://user.riseup.net. Approfondimenti sulla [[quota]].
+
+h3. Usare un client di posta
+
+Sebbene l'interfaccia basata su web di riseup.net non abbia molte funzionalità, puoi usare la tua casella di posta elettronica di riseup.net con un client POP o IMAP, un applicazione ricca di funzionalità fatta apposta per gestire le tue email. Dai un'occhiata a nostri [[tutorial per molti client di posta elettronica => email/clients]].
+
+Riseup raccomanda di usare [[thunderbird]], un client di posta gratuito ed open source. Inserendo in Thunderbird il tuo indirizzo di posta di riseup.net e la tua password, esso si configurerà automaticamente in modo corretto.
+
+h2. Cosa c'è di speciale nella posta elettronica di riseup.net
+
+Il tuo indirizzo di posta su riseup.net è una cosa meravigliosa. Nonostante non diamo tanto spazio quanto ne danno i provider commerciali finanziati dalla sorveglianza, la posta di riseup.net ha molte funzionalità insolite:
+
+[*Quando è possibile crittografiamo il traffico.*]
+Quando spedisci una mail da riseup.net ad un altro provider sicuro, il messaggio viene crittografato per tutto il tragitto. (vedi [[StartTLS]] per ulteriori informazioni)
+
+[*Noi non riveliamo la tua posizione a chi riceve la tua posta.*]
+Quando spedisci la posta con riseup.net, il tuo indirizzo internet (IP address) non viene incorporato nel messaggio. Con i provider commerciali, tutti quelli che ricevono la tua posta possono conoscere la tua posizione fisica approssimativa attraverso l'indirizzo internet contenuto nell'email.
+
+[*Noi non registriamo il tuo indirizzo internet.*]
+Il nostro impegno è mantenere il minor numero possibile di dati che ti riguardano, noi non registriamo l'indirizzo internet di chiunque utilizzi i servizi di riseup.net, compresa la posta elettronica.
+
+h2. Aiuto reciproco
+
+La posta elettronica gratis non esiste. Servizi come gmail, hotmail e yahoo fanno soldi attraverso la sorveglianza: essi costruiscono un profilo con i tuoi comportamenti ed i tuoi desideri e poi ti bombardano di pubblicità mirata su di te.
+
+Riseup.net è differente. Questo servizio è un lavoro fatto per passione da attivisti come te impegnati nel costruire un'infrastruttura alternativa, mantenuta dal movimento e sicura.
+
+Il servizio di posta elettronica di riseup.net richiede un sacco di tempo e di soldi per essere mantenuto attivo ed è finanziato interamente da piccole donazioni fatte dai suoi utenti. Per favore, fai la tua parte e [[contribuisci oggi stesso => donate]].
+
+h2. Risposte alle domande frequenti (FAQ)
+
+* [[Come cambio la mia password? => mail-passwords]]
+* [[Come posso cancellare il mio account di posta? => mail-accounts]]
+* [[Come incremento la mia quota di spazio? => quota]]
+* [[Perché la mia quota non è stata aggiornata? => quota]]
+* [[Come crittografare la mia posta elettronica? => message-security]]
+* [[Come posso fare per la posta indesiderata? => spam]]
+* [[Perché non riesco ad accedere usando webmail? => webmail]]
+* [[Perché non posso inviare le email dal mio client di posta? => smtp]]
+* [[C'è una rubrica per gli indirizzi? => address-book]]
+* [[Perché no posso vedere le mie cartelle? => email-folders]]
+* [[Come posso scaricare i miei messaggi di posta elettronica? => downloading-email]]
+* [[Perché i miei messaggi vengono bloccati come posta indesiderata? => spam]]
+* [[Cosa mi puoi dire riguardo i virus? => viruses]]
+* [[Cos'è l'accordo sull'utilizzo di Riseup? => email/usage-agreement]]
+* [[Perché non posso impostare una risposta automatica per segnalare la mia assenza? => email-filters]]
+* [[Perché i miei messaggi vengono bloccati come posta indesiderata? => email/scams/spam]]

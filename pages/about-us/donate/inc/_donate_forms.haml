@@ -6,21 +6,21 @@
     %th= t(:supports_credit_card)
     %th= t(:notes)
   %tr
-    %td <a href="#bitcoin"><img src="donate/img/bitcoin.png"></a>
+    %td <a href="#bitcoin"><img src="img/bitcoin.png"></a>
     %td= t :no_value
     %td
       %b= t :yes_value
     %td= t :no_value
     %td= t :bitcoin_note
   %tr
-    %td <a href="#dwolla"><img src="donate/img/dwolla.png"></a>
+    %td <a href="#dwolla"><img src="img/dwolla.png"></a>
     %td
       %b= t :yes_value
     %td= t :no_value
     %td= t :no_value
     %td= t :dwolla_note
   %tr
-    %td <a href="#paypal"><img src="donate/img/paypal.png"></a>
+    %td <a href="#paypal"><img src="img/paypal.png"></a>
     %td
       %b= t :yes_value
     %td
@@ -29,14 +29,14 @@
       %b= t :yes_value
     %td= t :paypal_note
   %tr
-    %td <a href="#flattr"><img src="donate/img/flattr.png"></a>
+    %td <a href="#flattr"><img src="img/flattr.png"></a>
     %td= t :no_value
     %td= t :no_value
     %td
       %b= t :yes_value
     %td= t :flattr_note
   %tr
-    %td <a href="#gittip"><img src="donate/img/gittip.png"></a>
+    %td <a href="#gittip"><img src="img/gittip.png"></a>
     %td
       %b= t :yes_value
     %td= t :no_value
@@ -47,18 +47,18 @@
 .panel.panel-default
   %h2.hidey= t :bitcoin
   .panel-heading
-    <a name="bitcoin"><img src="donate/img/bitcoin.png"></a>
+    <a name="bitcoin"><img src="img/bitcoin.png"></a>
   .panel-body
     %p= t :bitcoin_description
     .donation
-      %form(action="https://riseup.net/en/new-bitcoin-address" method="post")
+      %form(action="https://help.riseup.net/new-bitcoin-address" method="post")
         %b= t :bitcoin_grab_address
         %input(type="submit" value="#{t :generate}")
 
 .panel.panel-default
   %h2.hidey= t :dwolla
   .panel-heading
-    <a name="dwolla"><img src="donate/img/dwolla.png"></a>
+    <a name="dwolla"><img src="img/dwolla.png"></a>
   .panel-body
     %p= t :dwolla_description
     .donation
@@ -69,7 +69,7 @@
 .panel.panel-default
   %h2.hidey= t :paypal
   .panel-heading
-    <a name="paypal"><img src="donate/img/paypal.png"></a>
+    <a name="paypal"><img src="img/paypal.png"></a>
   .panel-body
     %p= t :paypal_description
 
@@ -125,7 +125,7 @@
 .panel.panel-default
   %h2.hidey= t :flattr
   .panel-heading
-    <a name="flattr"><img src="donate/img/flattr.png"></a>
+    <a name="flattr"><img src="img/flattr.png"></a>
   .panel-body
     %p= t :flattr_description
     .donation
@@ -136,7 +136,7 @@
 .panel.panel-default
   %h2.hidey= t :gittip
   .panel-heading
-    <a name="gittip"><img src="donate/img/gittip.png"></a>
+    <a name="gittip"><img src="img/gittip.png"></a>
   .panel-body
     %p= t :gittip_description
     .donation

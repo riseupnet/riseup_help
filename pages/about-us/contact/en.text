@@ -4,6 +4,14 @@ The best way to get in touch with us is to fill out a help ticket. Please visit 
 
 To contact us regarding general questions about our collective, send mail to collective@riseup.net. Any help questions directed to this email will be ignored.
 
+Our gpg long keyid is 0x3043E2B7139A768E. The full fingerprint is:
+
+pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+
+There is no particular reason you should trust this key. You can see who trusts it:
+
+pre. gpg --list-sigs 3043E2B7139A768E
+
 Our mailing address is:
 
 <pre>
@@ -12,7 +20,7 @@ PO Box 4282
 Seattle, WA 98194 USA
 </pre>
 
-Riseup collective members and friends are often found on irc.indymedia.org in the #riseup chat room.  You can use the web interface at https://chat.indymedia.org to contact us there if "irc" is not a familiar acronym.
+Riseup collective members and friends are often found on irc.indymedia.org in the #riseup chat room.  *Please note: In order to join the #riseup channel, you have to be connected via SSL on port 6697.* You can use the web interface at https://chat.indymedia.org to contact us there if "irc" is not a familiar acronym.
 
 We are also on "twitter":https://twitter.com/riseupnet.
 
