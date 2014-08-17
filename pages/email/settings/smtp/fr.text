@@ -1,0 +1,66 @@
+@title = 'Envoyer des courriels'
+
+Pour être en mesure d'envoyer des courriels, vous devez avoir réglé vos paramètres SMTP correctement.
+
+h2. Qu'est-ce que le protocole SMTP?
+
+SMTP est l’acronyme de Simple Mail Transfert Protocol (protocole simple de transfert de courriels). C'est avez ce protocole que beaucoup de serveurs de courriels se parlent pour livrer les messages. Si vous voulez envoyer des courriels sur internet, il vous faut un serveur SMTP. Si vous utilisez l'interface en ligne, tout ceci est paramétré automatiquement et vous n'avez pas à vous en faire sur l'utilisation du bon serveur SMTP. Si vous utilisez un client de messagerie, vous devez entrer un serveur SMTP spécifique en tant que votre 'serveur courriel sortant'.
+
+h2. Pourquoi devrais-je utiliser le serveur courriel sortant de riseup.net?
+
+Il y a plusieurs bonnes raisons d'utiliser nos serveur SMTP:
+
+* Le serveur SMTP fournit par riseup utilise une connexion encryptée. La plupart des autres services SMTP ne sont pas sécuritaires et ils envoient les messages en clair.
+* Nous n'incluons pas votre adresse IP dans les en-têtes des courriels sortants. Nous ne connaissons que quelques autres fournisseurs qui font cela.
+* Certains FAIs ne vous laisseront pas envoyer de courriels d'une adresse courriel différente de celle de leur domaine (par exemple, si vous tentez d’utiliser les serveurs SMTP d'AOL avec une autre adresse que aol.com, cela ne fonctionnera pas).
+* Certains FAIs limitent fortement combien de courriels vous pouvez envoyer.
+* Les services SMTP fournis par riseup.net sont portables: ils ne dépendent pas du réseau sur lequel vous être connectés. Vous serez toujours en mesure d'utiliser nos serveur SMTP si vous bougez votre ordinateur.
+
+h2. Comment configurer le SMTP?
+
+Les services courriel sortants de riseup.net nécessitent de s'identifier et d'utiliser une connexion sécurisée (SSL ou TLS) pour des raisons de sécurité et de lutte contre les pourriels. Pour utiliser le SMTP de riseup, utilisez ces paramètres:
+
+* *Serveur courriel sortant*: @mail.riseup.net@
+* *Identifiant ou nom d'utilisateur*: votre identifiant riseup.net.
+Par exemple, si votre adresse courriel est joe_hill@riseup.net, votre identifiant est @joe_hill@. Cela est *obligatoire*. Si votre client de messagerie ne supporte pas le SMTP identifié, vous ne pouvez pas utiliser riseup.net comme serveur SMTP.
+* *Utiliser une connexion sécurisée*: Toujours.
+Ceci est *obligatoire*. Si votre client de messagerie ne supporte pas le SMTP sécurisé, vous ne pouvez pas utiliser riseup.net comme serveur SMTP. Il se peut que vous ayez à choisir entre l'option *TLS* ou *SSL* pour la connexion sécurisée. Les deux protocoles fonctionnent, mais la plupart des FAIs vont bloquer le port 25 (utilisé par TLS). Nous recommandons donc SSL.
+* *Port*: Pour *TLS*, le port devrait être @25@. Pour *SSL*, le port devrait être @465@. De nouveau, le port @25@ est probablement bloqué par votre fournisseur d'accès internet, alors vous devriez probablement choisir SSL.
+
+Pour les détails sur les paramètres SMTP sur différents clients de messagerie, consultez la page sur les [[clients de messagerie => email/clients]]
+
+h2. Combien de messages puis-je envoyer?
+
+Si vous prévoyez envoyer des milliers de message via SMTP, vous devrez probablement nous en parler en premier lieur pour que cela fonctionne. Écrivez-nous au mail-help@riseup.net.
+
+h2. Qu'est-ce que Relay Access Denied veut dire?
+
+Le message d'erreur "Relay Access Denied" est causé par un des problèmes suivants:
+
+# Vous n'avez pas spécifié mail.riseup.net comme serveur de courriels sortant.
+# Vous n'avez pas spécifié le bon identifiant.
+# Vous n'avez pas configuré votre client pour utiliser une connexion identifiée. Cela est obligatoire.
+# Vous n'avez pas configuré votre client pour utiliser une connexion sécurisée (TLS ou SSL). Cela est obligatoire. 
+# Vous avez choisi 'mot de passe sécurisé'. Ceci n'est pas plus sécuritaire et c'est incompatible avec riseup.net
+# Notre base de donnée d'utilisateurs ne fonctionne pas. Cela arrive à de rares occasions, mais elle est généralement de retour rapidement.
+
+Le message complet de l'erreur peut ressembler à ceci:
+
+<pre>The message could not be sent because one of the recipients was rejected by the server. The rejected e-mail address was 'joe_hill@revolt.org'.</pre>
+
+<pre>Subject 'test', Account: 'myaccount@riseup.net', Server: 'mail.riseup.net', Protocol: SMTP, Server Response: '554 joe_hill@revolt.org: Relay access denied', Port: 25, Secure(SSL): Yes, Server Error: 554, Error Number: 0x800CCC79</pre>
+
+h2. Pourquoi puis-je seulement envoyer des courriels à des personnes sur riseup.net?
+
+Ce problème apparaît quand vous n'avez pas paramétré votre clien de messagerie pour s'identifier au serveur de courriels sortants.
+
+h2. Pourquoi mon FAI bloque-t'il mes courriels sortants?
+
+De plus en plus, les FAIs bloquent l'accès au port 25, le port standard pour les courriels sortants. Ils font cela à cause de l'augmentation du spam zombie, où un ordinateur personnel est utilisé par un virus pour envoyer du spam.
+
+La solution est d'utiliser SSL à la place de TLS (SSL utilise le port 465, qui n'est normalement pas bloqué).
+
+h2. Quand je tente d'envoyer un courriel, j'obtiens une erreur disant que le serveur ne peux pas être contacté. Suis-je maudit?
+
+Non. Lisez la réponse à la question précédente. Vous ne pouvez pas contacter le serveur SMTP parce que votre FAI bloque vos courriels sortants.
+
