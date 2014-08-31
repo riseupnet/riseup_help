@@ -1,0 +1,34 @@
+@title = 'Junio & Julio'
+
+
+h2. Noticias del Colectivo
+
+Algunas integrantes del colectivo están en las afueras de Barcelona en una colonia postcapitalista y ecoindustrial junto con geeks radicales de todo el mundo. ¡Hola, Catalunya! Otras integrantes del colectivo están en Seattle, en donde ha estado inusualmente soleado. ¡Hola, calentamiento global! Y otra integrante del colectivo está finalizando su disertación en Portland. ¡Hola, infierno de postgrado!
+
+En noticias tal vez más relevantes, hemos puesto en marcha el nuevo servidor lists.riseup.net desde una ubicación no revelada, y es bastante rápido. Los retrasos de emails deberían haber cesado, aunque esperamos que al escribir esto no nos estemos maldiciendo en algún modo. Además, estamos trabajando duro en fortalecer nuestros sistemas y en una eventual migración a una plataforma más segura y radiante para brindarles soporte a todos ustedes. ¡Les informaremos en cuanto tengamos novedades!
+
+
+h2. Riseup versus la agencia británica de inteligencia GCHQ
+
+El día 2 de Julio, Riseup se unió a otros seis proveedores de servicios en línea en una demanda contra la agencia británica de inteligencia GCHQ. La demanda fue presentada por Privacidad Internacional con el propósito de establecer que la vigilancia es ilegal. Aunque las demandas no parezcan muy emocionantes, ¡lo son! Esta es la primera vez que proveedores de internet y comunicaciones en conjunto han tomado acciones colectivas en contra del GHCQ por la vigilancia, ataque y vulneración de redes que mantienen infraestructura de comunicaciones. Esperamos que la demanda genere conciencia alrededor del mundo acerca del problema de la vigilancia estatal sobre las comunicaciones privadas.
+
+
+h2. Usando OpenPGP
+
+Una manera para asegurar tus comunicaciones es usar OpenPGP para encriptar tus correos. Hace poco actualizamos en nuestras página de ayuda el apartado de buenas prácticas para usar OpenPGP. Si nunca has usado OpenPGP, puedes darle un vistazo a la guía y empezar. Si ya eres un usuario de OpenPGP, puedes seguir la guía para ver como mejorar tu uso de esta importante herramienta.
+
+Así que dale un vistazo a help.riseup.net/security/message-security/openpgp/best-practices
+
+
+h2. ¿El Spam te molesta?
+
+El Spam, los virus, y los ataques de phishing nos están saturando a todos, ¡detengámoslo!
+
+¿Sabías que si ingresas en user.riseup.net, y haces click en la pestaña de Email, puedes ajustar la sensibilidad de tu filtro de Spam? Puedes reducir el límite un poco y obtener algo de paz. No lo bajes mucho de una sola vez, hazlo de a poco y presta atención a tu carpeta de Spam durante una semana para ver si algún correo legítimo es filtrado por tu nueva configuración. Si cualquier correo legítimo va a tu carpeta de Spam, muévelo a tu INBOX, ¡así nuestro sistema puede aprender de sus errores!
+
+También estamos trabajando duro en qué podemos hacer tras bambalinas para disminuir estas cosas indeseadas.
+
+
+h2. Dinero
+
+¿Sabías que Riseup acepta bitcoins? ¿Y micropagos? ¿Y donaciones Paypal? ¿Y que podrías aportar un poco cada mes? ¿Sabías que Riseup ha sido apoyado por miles de usuarios que aportan un poco aquí y allá, de vez en cuando, en los últimos catorce años? Si es que puedes, agradeceríamos tu aporte: help.riseup.net/donate
