@@ -1,0 +1,41 @@
+@title = 'Agosto'
+
+h2. Lançamento do novo VPN - Beta!
+
+Temos o orgulho de anunciar nossa próxima geração de serviços anti-vigilância com o lançamento do novo serviço VPN (sigla do inglês para Rede Privada Virtual)! Estamos substituindo nosso antigo serviço VPN por este novinho em folha, embora estejamos mantendo o legado do serviço VPN por hora.
+
+Porque estamos substituindo a VPN? Ela não é segura o suficiente e não é fácil de usar, resultando em dor de cabeça massiva para todos os envolvidos. A criptografia precisa ser fácil, e não ser algo fácil de dar errado. Esta nova VPN é fácil de usar e tem um nível de segurança elevado. Este novo serviço VPN é também parte da tecnologia que estamos adotando para conseguirmos oferecer no futuro um email super seguro e super fácil de criptografar.
+
+Quer dar uma testada? Veja três coisas que você precisa saber:
+
+1. Atualmente, a interface só funciona em inglês, estará disponível em outros idiomas logo mais.
+2. Neste momento, só está disponível para Linux e Android (Mac e Windows também chegarão em breve).
+3. Comece em: https://help.riseup.net/vpn
+4. Sua conta VPN não é vinculada à sua conta Riseup existente, então você terá que criar uma nova conta com um nome de usuário diferente. Não se preocupe, é fácil e você pode fundir essas contas depois.
+
+
+h2. Novo Webmail? Novo Webmail!
+
+Você deve ter percebido que atualizamos para uma nova interface de webmail (https://mail.riseup.net). Muito empolgante e bonito!
+
+Se você era um usuário dos nossos antigos sistemas de webmail, a primeira vez que você entrar neste novo sistema, nós tentaremos importar seu catálogo de endereços e configurações. Apesar de o processo de importação não ser perfeito, esperamos que ele ajude a fazer esta transição mais suave pra você. Pedimos por favor que você confira se há erros, contatos duplicados ou faltando no seu novo catálogo de endereços. Particularmente, sabemos que há problemas com a importação de entradas com acentos e caracteres não-latinos. Se perceber erros ou coisas faltando, a melhor coisa a fazer é a importação manual: https://help.riseup.net/en/email/webmail/address-book#manually-importing-your-contacts-from-impsqurrelmail-to-roundcube
+
+Ainda estamos adicionando recursos e consertando erros, e esperamos ter uma versão para uso móvel em breve. Se tiver problemas, nos avise. Saiba mais sobre checar Riseup via webmail e porque nós fizemos estas mudanças aqui:
+https://help.riseup.net/en/email/webmail  
+https://help.riseup.net/en/email/webmail/where-is-imp
+
+
+h2. Fora do ar e mais spam
+
+Não só temos um novo VPN e um novo webmail como também estamos fazendo grandes alterações na nossa infraestrutura de core. Queremos transferir para uma criptografia maior e melhor e expandir nossa capacidade. Isto é ótimo, mas você pode ter percebido um aumento nas vezes em que Riseup está fora do ar, ou visto mais spam na sua caixa de entrada. Pedimos sua paciência enquanto trabalhamos nessas mudanças que tornarão tudo mais seguro futuramente.
+
+
+h2. Problemas no DMARC resolvidos
+
+No boletim Riseup de maio, nós informamos que uma nova tecnologia de combate a spam, chamada DMARC, estava interferindo em certos domínios conseguirem enviar emails para listas de Riseup. Desde então, foi desenvolvida uma forma de solucionar este problema e a instalamos em nossas listas. Agora, contas no Yahoo, AOL e em outros domínios que utilizam DMARC não terão mais problemas em enviar emails para nossas listas.
+
+
+h2. Dinheiro
+
+Nossa, Riseup esteve muito ocupado ultimamente (veja tudo o que fizemos acima!). Porque somos capazes de fazer todas essas incríveis mudanças e tornar Riseup muito mais seguro? Porque muitos de vocês vem doando dinheiro para Riseup. Se você pode doar para gente, maravilha! Se você pode configurar uma doação recorrente, melhor ainda. E se você é uma das milhares de pessoas que tem nos apoiado nos últimos catorze anos com pequenas ou grandes doações, agradecemos muito mesmo. E, de verdade, se você não pode doar para Riseup mas está trabalhando para fazer este mundo um lugar melhor, agradecemos por isso também.
+https://help.riseup.net/pt/donate
