@@ -1,0 +1,61 @@
+@title = "Webmail"
+
+h2. Was ist Webmail?
+
+Webmail erlaubt den Zugriff auf E-Mails von jedem Computer mit einem Webbrowser. Wir empfehlen dies jedoch aus verschiedenen Gründen nicht:
+
+# Webmail ist weniger sicher als ein [[E-Mail-Programm->email#use-an-email-client]] zu benutzen.
+# The Webmail software that Riseup currently offers has few features and is very slow.
+
+The primary reason to use webmail is if you do not have your own device that you can install a mail client on. Sometimes people use webmail because they don't want to leave a record of what email account they use on the device. Webmail is not a good solution for this, because web browsers leave behind all sorts of temporary files, and session files can be recovered with the right tools.
+
+h2. Webmailoptionen
+
+Currently, Riseup offers two options for webmail:
+
+# *Roundcube*: roundcube presents a fluid and responsive user interface, but requires javascript and may not work for some people. 
+# *SquirrelMail*: squirrelmail is more simple and does not require javascript.
+
+h2. Cookies must be enabled
+
+For security reasons, we require cookies. Without cookies, it is impossible to make your login session secure.
+
+Unfortunately, cookies also allow advertisers and companies like google to track you nearly all your activity on the web. If you are concerned about tracking, we suggest that you simply disable third party cookies. Alternately, you can block all cookies by default and then enable cookies for the sites you want.
+
+h2.  Troubleshooting webmail login
+
+The most common question we receive is this: "why can't I login?" This page will help you figure out what is wrong and help you fix it.
+
+Almost always, login problems are due to one of the following:
+
+* Your web browser is blocking cookies.
+* You have typed your login or password incorrectly.
+* Your web browser is old and does not correctly support javascript or encrypted connections.
+* Our mail server is down.
+
+h4. Step 1: Ensure cookies are enabled
+
+For specific instructions on cookie management, see:
+
+* "Firefox":https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+* "Chrome":https://support.google.com/chrome/answer/95647
+* "Internet Explorer 9":http://windows.microsoft.com/en-US/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
+* "General Windows cookie FAQ":http://windows.microsoft.com/en-us/windows/cookies-faq
+
+h4. Step 2: Try other web browsers
+
+If you still cannot login, you should next figure out if the problem is with your account or with your computer.
+
+* Try other computers and other web browsers. For this test to be helpful, the other computers and web browsers should be as different as possible. If you can, try to login from a different network, using a different browser, on a different operating system.
+* We suggest you download and install a recent version of Firefox or Chrome. If this works, then the problem is with your browser.
+
+h4.  Step 3: Check the server status
+
+It is possible that the server is down. You can view the status of the mail server, and read any service notices, at this page:
+
+https://status.riseup.net
+
+h4.  Step 4: Call for help!
+
+If none of the above seem to work, then "fill out a help ticket":https://user.riseup.net/forms. But please, try these suggestions first! Also, include in your description of the problem a summary of the things you have already tried.

@@ -1,0 +1,5 @@
+@title = 'Listenadministration'
+
+Hilfeseiten für die Listenverwaltung.
+
+<%= child_summaries %>
