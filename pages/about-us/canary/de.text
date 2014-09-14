@@ -49,7 +49,7 @@ h2. Schritte zur Verifizierung
 
 Um riseup's Schlüssel herunter zu laden und die verwendete Schlüsselbezeichnung zu verifzieren, [[solltest Du diese Schritte befolgen => network-security/certificates#complete-verification]]. Danach kannst Du mit diesen Schritten diese Erklärung überprüfen:
 
-# Lade das "canary statement":canary/canary-statement-signed.txt herunter
+# Lade das "canary statement":canary-statement-signed.txt herunter
 # Danach führe diesen Befehl in der Kommandozeile aus:
 <code>gpg --verify canary-statement-signed.txt</code>
 # Die Ausgabe sollte so aussehen:
