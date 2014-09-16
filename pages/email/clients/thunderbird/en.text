@@ -77,3 +77,7 @@ To set these options, go to *Edit* menu > *Preferences* item > *Advanced* tab > 
 * use_status_for_biff: set this to *false*
 * mail.server.default.autosync_offline_stores: set this to *true*
 
+h3. Consider automatically deleting old email
+
+Do you really need to keep all that email? You can configure thunderbird to automatically delete your old email. To do this, navigate to Account Settings --> Local Folders --> Disk space. You can set thunderbird to delete messages once they get to be X days old.
+
