@@ -43,11 +43,13 @@ Essential:
 Also recommended:
 
 * "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.
+* "HTTPS Finder":https://code.google.com/p/https-finder/ Automatically tries to redirect Firefox to a HTTPS connection where available. This is especially good for sites HTTPS Everywhere has no rules for.
 
 Advanced:
 
-* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/
-* "torbutton":https://addons.mozilla.org/en-US/firefox/addon/torbutton/
+* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ Blocks JavaScript, CSRF and others
+* The Tor project provides a modified version of Firefox adapted to be more secure/anonymous called "Tor browser":https://www.torproject.org/download/download-easy.html.en
+* "RequestPolicy":https://www.requestpolicy.com/ Enables you to block content loaded from any other site
 
 h3. Chrome
 
