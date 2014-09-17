@@ -31,12 +31,13 @@ Siehe [[Tor benutzen -> #tor-benutzen]].
 
 h3. Linux
 
-Lade die Installationsdatei für die jeweilige Architektur herunter, speichere es irgendwo und starte es
+Lade die Installationsdatei für die jeweilige Architektur herunter, speichere die Datei an einem beliebigen Ort. Extrahiere die Dateien mit dem Archivmanager (oder Ark, Xarchiver) oder über die Kommandozeile mit diesen Befehlen:
 
-* Für 32-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-i686-1.1.13-dev-LANG.tar.gz</code>
-* Für 64-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-x86_64-1.1.13-dev-LANG.tar.gz</code>
+* Für 32-bit Linux: <code>tar -xvzf tor-browser-linux32-3.6.5_LANG.tar.gz</code>
+* Für 64-bit Linux: <code>tar -xvzf tor-browser-linux64-3.6.5_LANG.tar.gz</code>
 
-(LANG ist die Sprache, die im Dateinamen angegeben ist) und entweder doppelklicke auf den Ordner oder benutze @cd@, um ihn zu entern. Danach führe das start-tor-browser-Skript aus. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
+(LANG ist die Sprache, die im Dateinamen angegeben ist)
+Um Tor zu starten einfach das Skript `start-tor-browser`im gerade extrahierten Ordner per Doppelklick oder Kommandozeile starten. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
 
 *Entpacke TBB nicht als root.*
 
