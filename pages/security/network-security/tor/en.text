@@ -28,10 +28,10 @@ See the Using Tor section below about how to use Tor.
 
 h3. Linux
 
-Download the architecture-appropriate file above, save it somewhere, then run:
+Download the architecture-appropriate file above, save it somewhere. To extract the files you may use graphical tools like archive manager, Ark or Xarchiver. Alternatively you can extract on the command line:
 
-* For 32-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-i686-1.1.13-dev-LANG.tar.gz</code>
-* For 64-bit Linux: <code>tar -xvzf tor-browser-gnu-linux-x86_64-1.1.13-dev-LANG.tar.gz</code>
+* For 32-bit Linux: <code>tar -xvzf tor-browser-linux32-3.6.5_LANG.tar.gz</code>
+* For 64-bit Linux: <code>tar -xvzf tor-browser-linux64-3.6.5_dev-LANG.tar.gz</code>
 
 (where LANG is the language listed in the filename), and either double click on the directory or cd into it, then execute the start-tor-browser script. This will launch Vidalia and once that connects to Tor, it will launch Firefox. Do not unpack or run TBB as root.
 
