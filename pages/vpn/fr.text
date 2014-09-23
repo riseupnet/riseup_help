@@ -16,8 +16,8 @@ dans l'année.
 h2. Quick links!
 
 * Black: "black.riseup.net":https://black.riseup.net
-* Utilisateur linux? [[Install instructions -> linux]]
-* Utilisateur Android ? [[Install instructions -> android]]
+* Utilisateur linux? [[Guide d'installation-> linux]]
+* Utilisateur Android ? [[Guide d'installation -> android]]
 * Quelque chose ne fonctionne pas? Vérifiez [[Troubleshooting]]
 * Une question? Consultez notre [[FAQs -> faq]]
 
@@ -28,7 +28,7 @@ anglais) sont typiquement utilisés pour connecter les travailleurs
 nomades à leur bureau. Cependant, le VPN de Riseup est différent: il
 fournit un service de contournement de la censure, anonymise la
 localisation, et chiffre le traffic. Pour ce faire, il [[redirige tout
-votre traffic internet par une connexion sécurisée => how-vpn-works]]
+votre traffic internet par une connexion sécurisée -> how-vpn-works]]
 vers riseup.net, qui re-achemine ensuite vers internet.
 
 Ce genre de VPN est parfois appelé "VPN Personel" ou "Proxy
