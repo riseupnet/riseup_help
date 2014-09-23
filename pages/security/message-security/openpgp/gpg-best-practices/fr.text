@@ -166,13 +166,15 @@ h4. Les auto-signatures ne doivent pas utiliser MD5
 
 Vous pouvez le vérifier en utilisant la commande :
 
-pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A 2 signature| grep 'digest algo 1,'
+pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A 2 signature| grep 'digest algo'
 
 Si vous voyez des résultats 'digest algo 1', alors vous avez des auto-signatures qui utilisent MD5, parce que l'algorithme de hachage 1 est MD5. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
 
 Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
 
 pre. cert-digest-algo SHA512
+
+Il vous faudra ensuite générer une nouvelle auto-signature pour votre clef ([[par exemple en changeant la date d'expiration de votre clef -> https://help.riseup.net/fr/security/message-security/openpgp/best-practices/#utilisez-un-d%C3%A9lai-dexpiration-de-deux-ans-ou-moins]]).
 
 h4. Les auto-signatures ne doivent pas utiliser SHA-1
 
@@ -182,7 +184,7 @@ pre.   gpg --export-options export-minimal --export '<empreinte>' | gpg  --list-
 
 Si vous voyez des résultats 'digest algo 2', alors vous avez des auto-signatures qui utilisent SHA-1, parce que l'algorithme de hachage 2 est SHA-1. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
 
-Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
+Pour corriger ce problème, il vous faudra regénérer une clé ([[par exemple en changeant la date d'expiration de votre clef -> https://help.riseup.net/fr/security/message-security/openpgp/best-practices/#utilisez-un-d%C3%A9lai-dexpiration-de-deux-ans-ou-moins]]) après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
 
 pre. cert-digest-algo SHA512
 
@@ -197,6 +199,13 @@ et inspecter les résultats. Les algorithmes sont indiqués par leur code suivan
 Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+puis fixez les préférences de votre clef comme suit : 
+
+pre.. $ gpg --edit-key '<fingerprint>'
+gpg> setpref
+...
+gpg> save
 
 h4. Les clés primaires devraient avoir une date d'expiration raisonnable (deux ans dans le futur ou moins)
 
@@ -220,6 +229,10 @@ gpg> expire
 gpg> save
 
 h2. En résumé
+
+Toutes les recommandations discutées dans ce guide ont été réunies dans un fichier de configuration à la [[duraconf -> https://github.com/ioerror/duraconf]] de Jacob Appelbaum sur la "collecte de fichiers de configuration durcis". Vous pouvez [[l'enregistrer en cliquant sur ce lien avec le bouton droit de la souris et sauver le fichier gpg.conf -> https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]] et remplacer votre @~/.gnupg/gpg.conf@ (linux et MacOS). Pour les utilisateurs de Windows, le fichier gpg.conf doit être sauvegardé dans le répertoire @AppData\GnuPG\@.
+
+Il vous faudra décommenter et/ou ajuster les paramètres suivants : @default-key@, @keyserver-options ca-cert-file@ et @keyserver-options http-proxy@.
 
 Voici tous les paramètres recommandés présentés dans ce guide, rassemblés en un seul bloc. Notez que cela suppose que vous utilisez le groupe de serveurs de clés sks au travers du protocole hkps. Si vous utilisez seulement hkp, ou n'utilisez pas le groupe de serveurs de clés sks, vous pouvez retirer les lignes qui concernent le /chemin/vers/CA. Les lignes suivantes sont à placer dans votre fichier @~/.gnupg/gpg.conf@ :
 
