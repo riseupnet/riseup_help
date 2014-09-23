@@ -13,14 +13,6 @@ infrastructure (Black), et dans un futur proche, vous pourrez utiliser
 votre login courant ou le nouveau (si vous le souhaitez) plus tard
 dans l'année.
 
-We are launching a new VPN, the first step on our next generation
-anti-surveillance services. These new security enhanced systems are
-hosted on https://black.riseup.net and are not linked to the current
-riseup's infrastructure. This means you will need to create a
-different account there. Don't worry, all of our current usernames are
-'reserved' and cannot be used on Black and you will be able to use
-your current username or the new one (if you want) later this year.
-
 h2. Quick links!
 
 * Black: "black.riseup.net":https://black.riseup.net
@@ -39,24 +31,10 @@ localisation, et chiffre le traffic. Pour ce faire, il [[redirige tout
 votre traffic internet par une connexion sécurisée => how-vpn-works]]
 vers riseup.net, qui re-achemine ensuite vers internet.
 
-
-Virtual Private Networks (VPN) are used typically to connect remote
-workers to the main office network. However, The RiseupVPN is
-different: it provides a service for censorship circumvention,
-location anonymization and traffic encryption. To make this possible,
-it [[sends all your internet traffic through an encrypted connection
-=> how-vpn-works]] to riseup.net, where it then goes out onto the
-public internet.
-
 Ce genre de VPN est parfois appelé "VPN Personel" ou "Proxy
 chiffrant".  Le but d'un VPN personnel n'est pas de vous connecter à
 un réseau privé de façon sécurisée, mais de vous connecter à internet
 de façon sécurisée.
-
-This type of VPN is sometimes called a "Personal VPN" or an "Encrypted
-Proxy". The goal of a personal VPN is not to securely connect you with
-a private network, but to securely connect you to the internet as a
-whole.
 
 h2. Qu'est ce que Bitmask? Qu'est ce que LEAP?
 
@@ -66,13 +44,6 @@ https://leap.se]]. LEAP est un projet collaboratif pour rendre accessible
 les technologies de chiffrement à tous, sans en compromettre la sécurité.
 Pour accéder au service, vous devrez installer une application appelée "Bitmask"
 
-our new RiseupVPN system is part of our next generation
-anti-surveillance services powered by the [[LEAP Encryption Access
-Project -> https://leap.se]]. LEAP is a collaborative effort to make
-existing encryption technologies easy to use and widely available
-without compromissing their security. To access this service you will
-need to install the application called Bitmask.
-
 Nous sommes onscient que le chiffrement est (en général) complexe, et
 qu'il y a un écart important d'accès aux systèmes sécurisés entre les
 technophiles, et le reste du monde. Cependant, pour créer une société
@@ -80,14 +51,6 @@ libre, nous devons garantir le même niveau de sécurité et de
 confidentialité des échanges pour tous. Bitmask facilite grandement
 cela, sans peine, sans configuration, tournant sur plusieurs
 plateformes, et dôté d'améliorations de sécurité.
-
-We are aware that encryption (in general) is hard and that there is an
-important gap between the access to security systems between tech
-savvy people and the rest of the world. However, to create a free
-society we must guarantee the equal access to secure and private
-communications technologies. Bitmask's role is to help us in that
-work. Bitmask gives a hassle-free, self-configuring and multi-platform
-experience with several security enhancements.
 
 Interessé? Alors lisez le guide d'installation. N'ayez pas peur!
 
@@ -100,14 +63,6 @@ des erreurs; c'est pourquoi nous forçons un niveau de sécurité
 important dans Bitmask. Il empechera les problèmes communs des VPNs
 comme la fuite DNS ou IPV6, ou l'envoi d'informations non chiffrées si
 votre connexion VPN tombe.
-
-OpenVPN is still here! Bitmask is built using OpenVPN but with several
-security enhancements turned on by default. One of the biggest
-problems with encryption today is how it's too easy to make mistakes,
-because of that, we are forcing security with Bitmask. It will prevent
-common VPN problems like DNS or IPv6 leaks or data going over the
-clear to the Internet if your connection with the VPN service
-repeatingly drops.
 
 Gardez en tête que même si OpenVPN est utilisé comme base, vous devrez utiliser Bitmask pour vous connecter à notre VPN LEAP.
 
