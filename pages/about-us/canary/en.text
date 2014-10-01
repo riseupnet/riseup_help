@@ -52,7 +52,7 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 # You should get output that says:
 
 pre..
-Signature made Sun 20 Apr 2014 06:55:28 PM PDT
+gpg: Signature made Tue 30 Sep 2014 08:03:08 PM PDT
 gpg:           using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
 
