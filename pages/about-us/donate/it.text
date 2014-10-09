@@ -1,6 +1,6 @@
 @title = 'Fai una donazione a Riseup'
 @nav_title = 'Donare'
-@this.alias = '/donate'
+@this.alias = '/donare'
 
 h1. Supporta le alternative radicali!
 
