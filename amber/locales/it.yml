@@ -54,9 +54,9 @@ it:
   wepay_description: "WePay è una buona alternativa a PayPal. Puoi usare WePay senza creare un account e supporta le carte di credito."
 
   flattr: "Flattr"
-  flattr_note: "Micropagamenti."
+  flattr_note: "Micropagamenti che si sommano."
   flattr_description: "Flattr è un sistema di micropagamenti che permette di supportare numerosi progetti."
 
   gittip: "Gittip"
-  gittip_note: "Micropagamenti ricorrenti add up."
+  gittip_note: "Micropagamenti ricorrenti che si sommano."
   gittip_description: "Gittip è un altro sistema di micropagamenti che permette di fare donazioni settimanali ai progetti che più ti piacciono."
