@@ -4,3 +4,59 @@ it:
   related: "Correlati"
   missing_translation: "Questa pagina non è ancora stata tradotta dall'inglese."
   support_riseup: "Supporto Riseup!"
+  motto: "Lasciate internet, ci vediamo nelle strade."
+  footer_tagline: "Questo sito è gestito da riseup.net, il tuo collettivo tecnologico amichevole ed autonomo dal 1999."
+  contribute_to_help: "Sei invitato a dare il tuo contributo a queste pagine con contenuti e traduzioni."
+  system_updates: "Aggiornamenti al sistema"
+  # quick links:
+  link_privacy: "Politica sulla riservatezza"
+  link_about_us: "Chi siamo"
+  link_status: "Stato del sistema"
+  link_support: "Supporta Riseup"
+  # services:
+  link_lists: "Mailing Lists"
+  link_email: "Email"
+  link_chat: "Chat"
+  link_groups: "Gruppi"
+
+  # Donation page
+  donation_processor: "Gestore"
+  supports_recurring_donations: "Donazioni ricorrenti?"
+  supports_optional_registration: "Registrazione facoltativa?"
+  supports_credit_card: "Carta di credito?"
+  notes: "Note"
+  yes_value: "Sì"
+  no_value: "No"
+
+  subscribe: "Aderisci"
+  donate: "Dona"
+  monthly: "Mensile"
+  quarterly: "Trimestrale"
+  recurring_donation: "Donazione ricorrente"
+  one_time_donation: "One Time Donation"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Crypto-valuta elettronica decentralizzata peer-to-peer"
+  bitcoin_description: "Bitcoin è una crypto-valuta elettronica decentralizzata peer-to-peer. Bitcoin è anche un modo per spedire soldi oltreoceano gratuitamente. Se vuoi usare bitcoin per inviare soldi a riseup, genereremo un nuovo indirizzo bitcoin univoco dedicato a te ed alle tue donazioni. E sufficiente che tu faccia click sul tasto qui sotto per avere un nuovo indirizzo bitcoin da utilizzare."
+  bitcoin_grab_address: "Prendi un indirizzo bitcoin"
+  generate: "Genera"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Tariffe bassissime. E' necessario registrarsi ed avere un conto corrente bancario statunitense"
+  dwolla_description: "Dwolla è una modalità molto economica per spedire contanti virtuali, anche se richiede la creazione di un account Dwolla collegato ad un conto corrente statunitense. Dwolla supporta le donazioni ricorrenti."
+
+  paypal: "Paypal"
+  paypal_note: "Utilizzabile da molte nazioni."
+  paypal_description: "Paypal accetta le carte di credito e supporta le donazioni ricorrenti (per le donazioni ricorrenti è necessario possedere un account PayPal)."
+
+  wepay: "WePay"
+  wepay_note: "Un'alternativa a PayPal."
+  wepay_description: "WePay è una buona alternativa a PayPal. Puoi usare WePay senza creare un account e supporta le carte di credito."
+
+  flattr: "Flattr"
+  flattr_note: "Micropagamenti."
+  flattr_description: "Flattr è un sistema di micropagamenti che permette di supportare numerosi progetti."
+
+  gittip: "Gittip"
+  gittip_note: "Micropagamenti ricorrenti add up."
+  gittip_description: "Gittip è un altro sistema di micropagamenti che permette di fare donazioni settimanali ai progetti che più ti piacciono."
