@@ -8,7 +8,7 @@ In particular, certificates are needed to establish secure connections. Without 
 
 To make sure you are actually creating a secure connection with Riseup, you can follow the below steps to verify our certificates. This verification process is not required in order to use Riseup's services. However, without verification, you cannot be certain you actually are connecting to our servers, and you cannot be certain that your connections are secure.
 
-h2. Very Riseup's certificates
+h2. Verify Riseup's certificates
 
 To verify these fingerprints, you need to look at what your browser believes the fingerprints are for the certificates and compare them to what is listed below. If they are different, there is a problem. Be warned: a complete verification is difficult and requires an understanding of OpenPGP.
 
