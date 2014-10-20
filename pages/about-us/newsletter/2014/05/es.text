@@ -1,0 +1,39 @@
+@title ='Mayo'
+
+
+h2. Nuestra declaración sobre seguridad
+
+Si quieres recibir actualizaciones sobre la interacción de Riseup con el aparato de vigilancia estatal, por favor ve a:
+ 
+https://help.riseup.net/canary
+
+Lo estaremos actualizando al menos trimestralmente.
+
+Lo que dice actualmente:
+ 
+A 21 de abril de 2014, Riseup no ha recibido ninguna carta de Seguridad Nacional u órdenes de alguna corte FISA, ni tampoco hemos sido objeto de ninguna orden de acallamiento por parte de alguna corte FISA. Riseup nunca ha puesto puertas traseras ('backdoors') en nuestro software, ni ha recibido peticiones para hacerlo. Riseup nunca ha revelado comunicaciones de usuarias a terceros.
+
+Respecto a incautaciones de servidores, en un incidente ampliamente reportado, el FBI incautó uno de los servidores de Riseup en abril de 2012. Este incidente sucedió en Nueva York. La máquina estaba encriptada y no contenía información alguna de usuarias. El servidor fue devuelto, pero no fue puesto en servicio nuevamente. Además de este incidente, a 21 de abril de 2014, Riseup confirma que nunca ha sido incautado ningún tipo de hardware ni tampoco ha sido obtenido por parte de terceros.
+
+
+h2. Yahoo y las listas
+
+Puede que hayas visto algunos rebotes desde yahoo.com y aol.com. Estos son debido a cambios de políticas en dichas corporaciones. Ellos han publicado un registro DMARC (una tecnología anti-spam) que efectivamente dice que "si cualquier servidor distinto de nuestros servidores oficiales envía correo con remitente proveniente de una dirección yahoo.com (o aol.com), asume que el correo es spam y lo rechaza". El registro DMARC es posteriormente usado por otros sitios (como hotmail.com, comcast.net, y varios otros) para decidir qué hacer cuando el correo llega.
+
+El problema con esto es que el software de listas de correo, como lists.riseup.net, retransmite mensajes a otros. Así, cuando una usuaria de yahoo.com o aol.com envía un correo a una lista y éste se redistribuye (con la dirección yahoo.com/aol.com aún como remitente), entonces el servidor que recibe el correo dice "este mensaje no fue enviado de un servidor yahoo/aol, por lo que debe ser spam; ¡rechazado!", y rebota el mensaje. Es por esto que puedes haber visto muchos rebotes, y no sólo de yahoo.com/aol.com, sino de otros sitios también.
+
+Aquí hay una explicación detallada: http://jrl.guru/Email/yahoobomb.html
+
+Lo más fácil para arreglar esto es que yahoo/aol cambien sus políticas. Hasta que esto suceda, lo que Riseup hace es lo siguiente:
+* Para reducir el daño estamos bloqueando todos los remitentes en lists.riseup.net que tienen una dirección yahoo.com/aol.com.
+Al momento de enviar, los remitentes yahoo.com/aol.com obtendrán inmediantamente un mensaje de error explicando lo sucedido. Esto 
+es malo para los remitentes, pero prevendrá los rebotes masivos y las dadas de baja relacionadas a los rebotes.
+* Alentamos a que todos se cambien de yahoo.com/aol.com a un proveedor de correo que proteja tu privacidad y que no haga imposible manejar listas de correo.
+* Estamos investigando otras maneras de enfrentar este problema. Esperamos encontrar un arreglo pronto.
+
+
+h2. ¡Dinero!
+
+¿Te hace falta dinero? A nosotras también. Si puedes donar un poco a Riseup, cualquier monto, por pequeño que sea, va en apoyo de partidarios de miles de grupos y activistas alrededor del mundo.
+https://help.riseup.net/donate
+Además, wepay, una de las maneras que la gente dona a Riseup, ha dejado de aceptar donaciones. Para cualquiera que haya donado reiteradamente a través de ellos, sería genial si pudieran establecer otra manera de realizar los pagos. ¡Gracias!

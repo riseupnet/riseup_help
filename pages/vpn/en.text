@@ -1,36 +1,44 @@
-@nav_title = 'VPN'
+@nav_title = "VPN"
 @title = 'Riseup VPN'
+@toc = false
 
-p(alert alert-warning). We have taken down instructions on how to use the RiseupVPN while we transition to our new system. When this is ready, we will post instructions for using this new system.
+p(alert alert-warning). We are launching a new VPN, the first step on our next generation anti-surveillance services. These new security enhanced systems are hosted on https://black.riseup.net and are not linked to the current riseup's infrastructure. This means you will need to create a different account there. Don't worry, all of our current usernames are 'reserved' and cannot be used on Black and you will be able to use your current username or the new one (if you want) later this year.
+
+h2. Quick links!
+
+* Black: "black.riseup.net":https://black.riseup.net
+* Linux user? [[Install instructions -> linux]]
+* Android user? [[Install instructions -> android]]
+* Something not working? check [[Troubleshooting]]
+* Have a question? check our [[FAQs -> faq]]
 
 h2. What is the RiseupVPN?
 
-Virtual Private Networks (VPN) are used typically used to connect remote workers to the main office network. The RiseupVPN is different: it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet. This type of VPN is sometimes called a "Personal VPN". The goal with a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
+Virtual Private Networks (VPN) are used typically to connect remote workers to the main office network. However, The RiseupVPN is different: it provides a service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet.
 
-h2. Why would you want to use the Riseup VPN?
+This type of VPN is sometimes called a "Personal VPN" or an "Encrypted Proxy". The goal of a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
 
-At Riseup, we believe it is important for everyone to use some technology like VPN or [[security/tor]] to encrypt their internet traffic. Why? Because the internet is being broken by governments, internet service providers (ISPs), and corporations.
+h2. What is Bitmask? What is LEAP?
 
-*Broken by governments*
+Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromissing their security. To access this service you will need to install the application called Bitmask.
 
-Around the world, governments are using the internet for social control, through both surveillance and censorship. Many countries, such as China, Iran, and the United States practice active surveillance of the social relationships of everyone and the European Union countries require all ISPs and website operators to record and retain personal data on your behavior. With three-strikes laws, many countries now deny citizens access to the internet if accused of file sharing. Some countries forbid the use of new communication technologies, like skype.
+We are aware that encryption (in general) is hard and that there is an important gap between the access to security systems between tech savvy people and the rest of the world. However, to create a free society we must guarantee the equal access to secure and private communications technologies. Bitmask's role is to help us in that work. Bitmask gives a hassle-free, self-configuring and multi-platform experience with several security enhancements.
 
-*Broken by ISPs*
+Want to check it out? Please read the install instructions. Don't be afraid!
 
-Internet service providers are breaking the internet too. They happily cooperate with government repression, they practice intrusive monitoring of your traffic through deep packet inspection, they track your DNS usage, and they get people thrown in jail, expelled from school, or banned from the internet, merely from the accusation of copyright infringement. Also, ISPs typically limit you to one internet address. If you want to share your internet connection with multiple devices, you must put all the devices on a local network. This works OK if you just want to browse the web, but makes life difficult  if you want to take advantage of many applications.
+h2. What happened OpenVPN? Why is Bitmask better than my OpenVPN client?
 
-*Broken by corporations*
+OpenVPN is still here! Bitmask is built using OpenVPN but with several security enhancements turned on by default. One of the biggest problems with encryption today is how it's too easy to make mistakes, because of that, we are forcing security with Bitmask. It will prevent common VPN problems like DNS or IPv6 leaks or data going over the clear to the Internet if your connection with the VPN service repeatingly drops.
 
-Corporations have discovered how to make money from the internet: surveillance. By tracking your online habits, advertising companies build detailed profiles of your individual behavior in order to better sell you useless crap. Every single major internet ad company now uses behavioral tracking. Also, to comply with national copyright, many companies only make their services available to some internet users, those who reside in the 'right' country.
+Take note that even if we run OpenVPN in the background, you will need Bitmask to connect to our LEAP powered VPN system.
 
+h2. Why would you want to use the RiseupVPN?
 
-h2. The solution: fix the internet by using RiseupVPN
+At Riseup, we believe it is important for everyone to use some technology like VPN or [[security/tor]] to encrypt their internet traffic. Why? Because the internet is being broken by governments, internet service providers (ISPs), and corporations (Read more). RiseupVPN will fight that, providing:
 
-There are many ways that RiseupVPN can help:
-
-# *protect against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
+# *protection against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
 # *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
-# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country, like Skype.
+# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN gateway server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country.
 # *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> http://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
 # *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
 
@@ -38,8 +46,8 @@ h2. Limitations to using RiseupVPN
 
 The RiseupVPN shares some limitations common to all personal VPNs:
 
-* *An insecure connection is still insecure*: Although RiseupVPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. This means you should still use TLS when available (ie https over http, imaps over imap, etc).
+* *An insecure connection is still insecure*: Although RiseupVPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. This means you should still use TLS when available (ie. https, imaps, etc).
 
-* *VPNs are not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
+* *RiseupVPN is not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
 
-* *The internet might get slower*: the RiseupVPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN server close to where you actually live.
+* *The internet might get slower*: the RiseupVPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN gateway server close to where you actually live.

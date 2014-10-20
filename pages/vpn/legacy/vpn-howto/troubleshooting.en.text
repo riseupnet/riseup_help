@@ -1,0 +1,56 @@
+p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
+
+h2. Error Messages
+
+h3. "AUTH: Received AUTH_FAILED control message"
+
+This happens when you have the wrong password.
+
+h3. "No VPN secrets!"
+
+This happens when the keyring is not working and returns an empty username and password.
+
+h2. General Tips
+
+example logs:
+
+<pre>
+openvpn: TUN/TAP device tun0 opened
+openvpn: /sbin/ifconfig tun0 172.27.0.X netmask 255.255.252.0 mtu 1500 broadcast 172.27.3.255
+openvpn: /usr/lib/network-manager-openvpn/nm-openvpn-service-openvpn-helper tun0 1500 1541 172.27.0.X 255.255.252.0 init
+openvpn: OpenVPN 2.1.3 x86_64-pc-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] [MH] [PF_INET6] [eurephia] built on Mar 11 2011
+openvpn: WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+openvpn: UDPv4 link local: [undef]
+openvpn: UDPv4 link remote: [AF_INET]209.234.253.121:1194
+openvpn: [vpn.riseup.net] Peer Connection Initiated with [AF_INET]209.234.253.121:1194
+openvpn: Initialization Sequence Completed
+</pre>
+
+h2. Gnome
+
+Example logs:
+
+<pre>
+NetworkManager: <info> Starting VPN service 'openvpn'...
+NetworkManager: <info> VPN service 'openvpn' started (org.freedesktop.NetworkManager.openvpn), PID 5615
+NetworkManager: <info> VPN service 'openvpn' appeared; activating connections
+NetworkManager: <info> VPN plugin state changed: 3
+NetworkManager: <info> VPN connection 'openvpn' (Connect) reply received.
+NetworkManager:    SCPlugin-Ifupdown: devices added (path: /sys/devices/virtual/net/tun0, iface: tun0)
+NetworkManager:    SCPlugin-Ifupdown: device added (path: /sys/devices/virtual/net/tun0, iface: tun0): no ifupdown configuration found.
+NetworkManager: <info> VPN connection 'openvpn' (IP Config Get) reply received.
+NetworkManager: <info> VPN Gateway: 209.234.253.121
+NetworkManager: <info> Internal Gateway: 172.27.0.1
+NetworkManager: <info> Tunnel Device: tun0
+NetworkManager: <info> Internal IP4 Address: 172.27.0.X
+NetworkManager: <info> Internal IP4 Prefix: 22
+NetworkManager: <info> Internal IP4 Point-to-Point Address: 0.0.0.0
+NetworkManager: <info> Maximum Segment Size (MSS): 0
+NetworkManager: <info> Forbid Default Route: no
+NetworkManager: <info> Internal IP4 DNS: 172.27.0.1
+NetworkManager: <info> DNS Domain: '(none)'
+NetworkManager: <info> VPN connection 'openvpn' (IP Config Get) complete.
+NetworkManager: <info> Policy set 'openvpn' (tun0) as default for IPv4 routing and DNS.
+NetworkManager: <info> VPN plugin state changed: 4
+</pre>

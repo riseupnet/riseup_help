@@ -1,0 +1,23 @@
+@title = 'Mots de passe des courriels'
+
+h2. Comment changer mon mot de passe?
+
+Voici comment changer votre mot de passe:
+
+# Connectez-vous au https://user.riseup.net (plutôt que de faire confiance à ce lien, vous pouvez aller sur le site principal de riseup et chercher le lien "Modifier ma configuration" dans la section "Courriel")
+# Cliquez sur "Mes paramètres"
+# Entrez un nouveau mot de passe et cliquez sur "Sauvegarder"
+
+Vous devriez changer votre mot de passe régulièrement. Choisissez en un qui contient des lettres, des numéros et des caractères spéciaux. Un mot de passe ne devrait pas seulement être des mots du dictionnaire. Et ne choisissez pas un mot de passe que vous utilisez ailleurs!
+
+h2. Comment choisir un mot de passe sécuritaire?
+
+<%= render 'common/good-passwords' %>
+
+h2. J'ai oublié mon mot de passe, que faire?
+
+Pour réinitialiser votre compte, vous devez avoir spécifié un [[courriel alternatif => mail-accounts]] dans vos paramètres. Vous pouvez par la suite utiliser le "formulaire de mot de passe perdu":https://user.riseup.net.
+
+h2. Mon mot de passe fonctionne à certains endroits, mais pas à d'autres. Pourquoi?
+
+Si votre mot de passe fonctionne sur https://mail.riseup.net mais pas sur votre client de messagerie, vous devriez vérifier si vous utilisez des caractères spéciaux dans votre mot de passe. Certains clients de messagerie ne reconnaissent pas les caractères spéciaux et cela ne fonctionnera pas. Vous pouvez changer votre mot de passe au https://user.riseup.net.

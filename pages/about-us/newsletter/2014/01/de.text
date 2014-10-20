@@ -1,5 +1,6 @@
 @title = 'Januar'
 
+
 h2. Bericht von Riseup
 
 Wir haben einiges umgebaut, um alte Server loszuwerden, auf denen interne Infrastruktur lief. Einiges haben wir aktualisiert und jetzt läuft unsere 'nest'-Anwendung für user.riseup.net auf ruby 1.9, und die funktioniert prima.
@@ -36,4 +37,3 @@ Der mächtige Sonnenvogel und sein lieblicher Partner haben ein neues Baby, das 
 h2. Danke
 
 Danke für alle kleinen und großen Spenden während unseres jährlichen Fundraisings. Ihr seid Sonne und Mond für uns. Und alle anderen, denen nach Spenden ist, bitte, bitte, tut es, damit wir noch mehr Leute noch besser unterstützen können. Danke. [[donate]]
-

@@ -1,0 +1,129 @@
+@nav_title = "VPN"
+@title = 'Riseup VPN'
+@toc = false
+
+p(alert alert-warning). Nous lançons un nouveau VPN, première étape
+vers notre nouvelle génération de services anti-surveillance.  Ces
+nouveaux services plus sécurisés sont hébergés sur
+https://black.riseup.net and ne sont pas liés à l'infrastructure
+actuelle de riseup.  Vous aurez donc besoin de créer un nouveau compte
+utilisateur. Ne vous inquiétez pas, tous les logins actuels sont
+'réservés' et ne peuvent pas être utilisé sur la nouvelle
+infrastructure (Black), et dans un futur proche, vous pourrez utiliser
+votre login courant ou le nouveau (si vous le souhaitez) plus tard
+dans l'année.
+
+h2. Quick links!
+
+* Black: "black.riseup.net":https://black.riseup.net
+* Utilisateur linux? [[Guide d'installation-> linux]]
+* Utilisateur Android ? [[Guide d'installation -> android]]
+* Quelque chose ne fonctionne pas? Vérifiez [[Troubleshooting]]
+* Une question? Consultez notre [[FAQs -> faq]]
+
+h2. Qu'est ce que RiseupVPN?
+
+Les Réseaux Privés Virtuels (VPN pour Virtual Private Networks en
+anglais) sont typiquement utilisés pour connecter les travailleurs
+nomades à leur bureau. Cependant, le VPN de Riseup est différent: il
+fournit un service de contournement de la censure, anonymise la
+localisation, et chiffre le traffic. Pour ce faire, il [[redirige tout
+votre traffic internet par une connexion sécurisée -> how-vpn-works]]
+vers riseup.net, qui re-achemine ensuite vers internet.
+
+Ce genre de VPN est parfois appelé "VPN Personel" ou "Proxy
+chiffrant".  Le but d'un VPN personnel n'est pas de vous connecter à
+un réseau privé de façon sécurisée, mais de vous connecter à internet
+de façon sécurisée.
+
+h2. Qu'est ce que Bitmask? Qu'est ce que LEAP?
+
+Notre nouveau système de VPN fait parti de notre nouvelle génération
+de service anti-surveillance qui fonctionne grâce au [[projet LEAP ->
+https://leap.se]]. LEAP est un projet collaboratif pour rendre accessible
+les technologies de chiffrement à tous, sans en compromettre la sécurité.
+Pour accéder au service, vous devrez installer une application appelée "Bitmask"
+
+Nous sommes onscient que le chiffrement est (en général) complexe, et
+qu'il y a un écart important d'accès aux systèmes sécurisés entre les
+technophiles, et le reste du monde. Cependant, pour créer une société
+libre, nous devons garantir le même niveau de sécurité et de
+confidentialité des échanges pour tous. Bitmask facilite grandement
+cela, sans peine, sans configuration, tournant sur plusieurs
+plateformes, et dôté d'améliorations de sécurité.
+
+Interessé? Alors lisez le guide d'installation. N'ayez pas peur!
+
+h2. Qu'est-il arrivé à OpenVPN? Pourquoi Bitmask est il meilleur que mon client OpenVPN?
+
+OpenVPN est toujours présent! Bitmask est construit au dessus
+d'OpenVPN, avec certaines options de sécurité activées par défaut.  Un
+des plus grand problèmes actuels du chiffrement est la facilté à faire
+des erreurs; c'est pourquoi nous forçons un niveau de sécurité
+important dans Bitmask. Il empechera les problèmes communs des VPNs
+comme la fuite DNS ou IPV6, ou l'envoi d'informations non chiffrées si
+votre connexion VPN tombe.
+
+Gardez en tête que même si OpenVPN est utilisé comme base, vous devrez utiliser Bitmask pour vous connecter à notre VPN LEAP.
+
+h2. Pourquoi voudrais-je utiliser le VPN de Riseup?
+
+Chez Riseup, nous pensons qu'il est important que tout le monde puisse
+utiliser des technologies comme les VPN ou [[security/tor]] pour
+chiffrer leur communications vers internet. Pourquoi? Parceque les
+gouvernements, les fournisseurs d'accès à internet (FAI) et les
+grandes entreprises (voir plus bas)cassent internet. Le VPN Riseup
+combat cela, en fournissant :
+
+
+# *Une protection contre la surveillance des FAI*: Le VPN Riseup
+   élimine toute possibilité à un tier d'espionner vos
+   communications. Aucun enregistrement interessant, ni pour les
+   démarcheurs ni pour l'état.
+# *Outrepasser la censure des gouvernements*: Le VPN Riseup peut
+   completement outrepasser les censures de tous les gouvernements,
+   tant que vous êtes connecté à internet. Notez cependant qu'une
+   analyse fine de votre traffic peut révéler que vous utilisez un
+   VPN, ce qui peut être légal ou pas dans votre juridiction.
+# *Accéder à tout internet, quelque soit l'endroit où vous êtes*: Le
+   VPN Riseup vous permet de faire croire que vous vivez dans un autre
+   pays où nous avons un point de sortie. Cela peut vous donner accès
+   à des contenus exclusivement disponibles dans certains pays. Le VPN
+   Riseup peut également vous permettre d'utiliser des services qui
+   pourraient être bloqués dans votre pays.
+# *Outrepasser le parfeu de votresociété*: Vous travaillez pour une
+   société diabolique, et vous essayez de perde le plus de temps
+   possible sur internet? Malheuresement, le parfeu vous empêche
+   d'accéder à certians sites (riseup.net est dans la liste des sites
+   interdits [[dans de nombreux parfeu ->
+   http://www.barracudanetworks.com/]]). Le VPN Riseup va vous
+   permettre de passer outre ces restrictions, et vous donner un libre
+   accès à tout internet.
+# *Sécuriser vos connexions Wi-Fi*: Chaque fois que vous utilisez un
+   réseau Wi-Fi public, toute personne connectée au même réseau peut
+   espioner votre traffic. Le VPN Riseup va empêcher cela.
+
+h2. Limites d'utilisation du VPN Riseup
+
+Le VPN Riseup possède certaines limitations inhérentes aux VPNs personnels:
+
+* *Une connexion non sécurisée reste non sécurisée*: Même si le VPN
+   Riseup va anonymiser votre localisation, et vous protéger de la
+   surveillance de votre fournisseur d'accès, dès que vos données
+   sortent de chez riseup.net, elles vont circuler sur internet
+   telles-quelles. Cela signifie que vous devriez utiliser TLS quand
+   c'est disponible (c'est à dire https, imaps, etc).
+* *Le VPN Riseup n'est pas la panacé*: Même si les VPNs en font
+   beaucoup, ils ne réparent pas tout. Par exemple, ils ne peuvent
+   augmenter votre niveau de sécurité si votre ordinateur est déjà
+   compromis par des virus ou des logiciels espions. Si vous donnez
+   vos informations personnelles à un site, un VPN ne pourra pas vous
+   aider à conserver votre anonymat avec ce site ou ses
+   partenaires. Pour plus d'information, reportez vous à la page
+   [[anonymat VPN -> security-issues]].
+* *Votre connexion internet peut-être plus lente*: le VPN Riseup route
+   tout votre traffic à travers une connexion sécurisée vers
+   riseup.net avant que celui-ci ne ressorte vers internet. Cette
+   étape supplémentaire peut ralentir votre expérience. Pour minimiser
+   ce ralentissement, essayez de choisir un serveur VPN proche de
+   l'endroit où vous êtes.

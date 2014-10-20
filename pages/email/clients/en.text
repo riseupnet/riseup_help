@@ -9,7 +9,7 @@ A <b>mail client</b>, on the other hand, is a specialized application designed s
 For help configuring a particular client, click on one of the following links:
 
 table(table table-striped).
-|_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Other Commercial Clients*|
+|_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Proprietary Clients*|
 |Linux   | [[thunderbird]], [[evolution]], Kmail, Balsa, mutt, alpine, etc| |
 |Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
 |Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |

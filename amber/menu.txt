@@ -52,8 +52,20 @@ chat
   security
     otr
 vpn
+  why-is-needed
   how-vpn-works
+  how-to
+    android
+    linux
+  troubleshooting
+  faq
   security-issues
+  legacy
+    vpn-howto
+      linux
+      mac
+      windows
+    troubleshooting
 security
   privacy
   surveillance

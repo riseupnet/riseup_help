@@ -14,7 +14,13 @@ h1. What limitations will this impose?
 
 Some routers identify you by your MAC address, giving you a specific IP as a result or allowing you to use their services.  Any service that is linked to a specific network adapter may stop functioning if you use this method.  If you don't know what that means, however, it's very likely that it's not a problem.  More likely is the necessity to click through any portals that come up automatically when first signing onto a public network which prompts the user with something before providing internet service.  Examples of this typically come in the form of free wireless access points provided by corporate entities--you'll probably have to 'agree' to 'terms of service' again every time you connect to free corporate wireless access points.
 
-h1. Setup automatic random MAC address creation in Ubuntu 10.04 using Network Manager
+h1. Setup automatic random MAC address creation in Linux using Network Manager
+
+h2. Linux (general)
+
+To find your current MAC address look into `/sys/class/dev` e.g. by running `ls /sys/class/dev` or open Network Manager. `lo` usually indicates localhost, LAN connections usually start with `e`. `ip link` provides some more details.
+
+h2. Ubuntu 10.04 with NetworkManager
 
 Ubuntu 10.04 (and as of September 1, 2010 and the near future, all distributions using Network Manager) ships with a version of Network Manager that does not support "pre-up" scripts for network connections--this means that it is unable to run scripts before connecting to a network.  This feature would easily enable one to use a script that changes the MAC address on every connection.  Due to this limitation, this guide specifically generates a random MAC address every time the Network Manager service starts, and then generates a new one every time you disconnect from the network.
 
@@ -85,5 +91,11 @@ sudo service network-manager restart
 </code>
 
 Your computer will now automatically create (without your intervention or notification) a new random MAC address for every physical network adapter you have (wired and WIFI) and reduce your trackability on public networks!
+
+h2. Arch Linux and most up-to-date Linux distributions using systemd
+
+see https://wiki.archlinux.org/index.php/MAC_address_spoofing
+
+h2. Other operating systems
 
 This tactic can easily be adapted to different linux/BSD setups and possibly OS X and Windows--if you create a new implementation, add it here!

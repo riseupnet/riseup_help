@@ -17,31 +17,28 @@ h4{margin-left: 200px; margin-right:200px}. _*2...*_ A mechanism to test for uns
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of July 1, 2014, riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
+As of October 1, 2014, riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
 
-Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of July 1, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
+Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of October 1, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
 
 Riseup intends to update this report approximately once per quarter.
 
 [1] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQJ8BAEBCgBmBQJTssepXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
-ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOk7MP/AnL0H3l1GiO1aZd4ir2yHlS
-V9W2rNnLpYdkuetsatYBP3BnDLTP//bRUS8sh1v5GVzQUd4JI29fNYzHBSQPMHve
-Wz2xLbCHB0cUXAJpBrnaje0ZJaTYpdwiU+B33l+slneHknGj9SpI04xVXASzs+cv
-z7zF0kr8DnjyHegLYy4ADu+YjbP6hR+SE+BB9Hh74TLkTOs3Ipr5dhB56gYpKiRT
-jjfvVJ5eDiQFqTP1FlJzHGKiinAB5bK8Ax3ta+KXSsspgf1SdxWIr9tg3CoLjZSN
-xGKhRMfjepU5j8R+1Y45CYvziQ4/YTg+WfgsLgMuvzwRErEWlMLs5MES+9lnC8AA
-AaK+LpZbgWRfD2jeQThdmOR6meEDxSwgRnAFwNHJnrGAZMOCkvoQ2Cfb5fyJ+zZV
-T8fVMBkJZflZ1Nnndbfj9AopvANbLrtttC69C5S4ISaalwyZDQg2lBGcTLcwJE5y
-cb3X0CUMSDnoDYDT/e6FET87rhP/KqTy0HBoQO6mtYd0f/AYX1Q4Ssl0ybTE6Wed
-RvY+St9OmfeTVFFYp10TVCtuQYV9FyB8foCOxCRCh5Suj8SnGTLu8v1ttuT+KCkH
-j5763p6cdMUQ7ZipQA964rGityNx2tPZ1O4JGYuNIWYp/6XnfDdoHaEc+vFIKAsr
-YIrp2zzjBgZIpRsNTvgu
-=HUBz
+iQIcBAEBCgAGBQJUK27sAAoJEDBD4rcTmnaOcBcP/ilbw5weTZM9vdSWgizdGv9O
+H/Aw6BJmTsKM9dsfRGQECSG80sNh974v5OS+PdPH0yc7gZfztuBLfAcKzJw7hcrt
+c0gkEPsU5IdASbmp88CfjN+5UJXUNOx/kLvuGIV6cKNHrKNWYf1EqyLdPUOueb6B
+j7c46UFwRE+hWktrxkJfoAbZi5b7VUUXwwQzS77yuIoeckz8hMyPTmhJK0jRQm52
+ND/GJLD/qwtuluZ/1XJSpis2N9OmWFP4KzGoAqO4nDroYF0qpBGgFGArPViDFCfP
+N7G5eMTcwxS7ae2Hz1aQobl6QcaJcZIcpl0TQgTjMSmrPKv5kFwzF1I0oC63v9QU
+9q/T1seP7HucV1UvOjRl8TcBp9BikR32f5ao3Hf6R41F8cRdGBLjhhaLfz3p4LES
+rYmNvYadMhpATMGdK4FSW87VDFUGRnCdF51Ogr+b93dSLnhork+39A0+DqqtBsfh
+dIJ4XsF9eXyO9ViC55XZmZytvwFPUDpuawUN+/F5TTmTk+WRJGFlAUBFftW3bvW0
+BuCh1lsvSTH2+xKHA90xTNXIrTQcNQHggsdnxjk3LpxyZnkjBuGR8BAwZJdwLcXK
+otgIT8vJMp93z9fw5Nnk444/QRfqVutus1X6IZ7E/toc/lCXGkqMuLnQFYq7Gt7p
+UMp85/g58RL05NyFMmR8
+=ClPZ
 -----END PGP SIGNATURE-----
 </pre>
 
@@ -55,7 +52,7 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 # You should get output that says:
 
 pre..
-Signature made Sun 20 Apr 2014 06:55:28 PM PDT
+gpg: Signature made Tue 30 Sep 2014 08:03:08 PM PDT
 gpg:           using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
 

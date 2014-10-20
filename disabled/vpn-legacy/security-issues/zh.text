@@ -1,0 +1,38 @@
+@title = 'VPN Security'
+@summary = 'Some security issues when using a VPN'
+
+h2. VPN的匿名性
+
+RiseupVPN有多大程度的匿名？ 答案主要取决于您的 Riseup登录名关联了哪些用户信息。如果您担心您的匿名性，我们建议您创建一个单独的VPN帐号，您只使用VPN。
+
+我们只保留很少的记录，也不跟踪任何 DNS请求或 VPN流量，但是我们保留哪个用户哪天使用 VPN的记录。
+
+h2. 中间人攻击
+
+[[中间人攻击 => http://en.wikipedia.org/wiki/Man-in-the-middle_attack]]（或者 MiTM）是攻击者可以监听或修改您的网络流量。比如一个攻击可用于非匿名你，修改内容，盗取您的密码，或者向你提供病毒、特洛伊木马或其他被设计成进入您电脑的软件。
+
+由于互联网如何工作的弱点，每一个互联网连接，都容易受到 MITM攻击。通过欺骗所使用的互联网路由协议，几乎所有的流量很容易受到来自世界各地的MiTM攻击。虽然这个漏洞已经知道了多年，[[researchers dramatically demonstrated => /assets/43591/defcon-16-pilosov-kapela.pdf]]比如在2008年8月黑客大会DEFCON上的一次攻击。
+
+h3. VPN是否有助于防止 MiTM？
+
+既肯定又否定。使用 VPN将会关闭 MiTM攻击可能发生的许多地点，但不是所有。具体来讲，将会保护在您的设备与 VPN网关之间的流量，防止您的ISP（或大多数政府）执行针对您的 MITM攻击。
+
+然而，一旦您的流量从VPN网关通过到达其最终目的地，它变得易受 MITM攻击。通过 VPN，你的流量是半匿名的，所以瞄准任何特定人员的任何攻击都是非常困难的。但是针对特定网站的所有用户的随意攻击还是很有可能的。
+
+举个例子吧，2011年1月突尼斯政府，恐惧民众的不断上升最终将推翻政权，执行了对从突尼斯连接到 Facebook上的用户进行 MiTM攻击，捕捉他们的登录名和密码。在这种情况下，只要 VPN网关位于突尼斯的国家之外，VPN就能阻止。
+
+h2. PPTP和 LT2P
+
+由于[[漏洞攻击 => http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html]]，PPTP和 LT2P已被禁用：
+
+bq. 虽然PPTP协议具有在Windows平台预装了客户端的优势，但通过密码学专家分析，揭示了安全漏洞。（openvpn.net）
+
+几年来，[[Bruce Schneier分析的 PPTP的弱点 => https://www.schneier.com/pptp.html]] 和 Moxie Marlinspike的 [[ChapCrack => https://github.com/moxie0/chapcrack]] 能够[[放弃 PPTP 加密 =>：http://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/]]。
+
+h2. WPA2的缺陷
+
+连同ChapCrack，渗透测试服务 [[Cloudcracker => https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2]] 可以 [[破解加密的无线网络 => http://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/]] [[在一小时内 => http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/]]：
+
+bq. WPA-PSK、NT和NTLM密码很久以来都是易于被字典攻击的，试着用单词的所有组合组成密码。但因为他们使用密码散列来​​隐藏单词，对多数用户来讲，运行字典攻击的计算能力是不可行的。Marlinspike的服务接入400个CPU和70个GPU，并在它们之间分配破解任务。（福布斯）
+
+WPA2路由器启用了[[无线保护设置 => https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup]] [[允许远程攻击者恢复，使用它，可以在数小时内破解 WPA2密码 => https://en.wikipedia.org/wiki/WPA2#WPA2_security_harmed_by_flaws_in_WPS]]。
