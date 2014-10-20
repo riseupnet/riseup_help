@@ -1,0 +1,43 @@
+As of October 19th, 2014, the following are the fingerprints for Riseup's certificates:
+
+ . riseup.net/www.riseup.net, help.riseup.net
+        SHA-1 fingerprint:
+                3b98d2e72cf48e690276b23637812b7458f7d1a7                
+        SHA-256 fingerprint:
+                4ee9ba66705d4e9dd8759835af2233598a72ede66f4995f3478d3c604183e6c5
+ . status.riseup.net (CACert):
+	SHA-1 fingerprint:
+                108e95fd26839a154dced2b862d6c2916e7a0355
+        SHA-256 fingerprint:
+                66489042039c4977ef4bb3a8af82bcecd0e19eea220c4fc6b28e8e61a520bf27
+
+ . labs.riseup.net:
+	SHA-1 fingerprint:
+                40970b78c6ca6f64e41ab9ca8f1d23f43e194a41
+        SHA-256 fingerprint:
+                47e94c15a6a36bd2819ab6751830bde8ea8275e4b50244230945d41926de7bb1
+
+ . those not listed above should have the following:
+	SHA-1 fingerprint:
+                8f4de7caff66c526aad1bce95e00b0033f1b5793
+        SHA-256 fingerprint:
+		ac85c52b13a8758611558a5e6682cfc13b2f234835601d2dc8d178c47d3b165b
+               
+-----BEGIN PGP SIGNATURE-----
+
+iQJ8BAEBCgBmBQJTjTKxXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaO4XQP/j+voE6Qtu4h1sPU/d8VGIzS
+JcNB+xL2rZUj/2LyZHzpEtv/sPl/wFDUH4ENK1QYPit3HVO6AZzWTeJGOnWL6RAJ
+hFhtknvlQTHDgMqwIe7hF/f1cBgSmw72SsSW0sgtT0bU/FvsiTs+nI4ErtKpNOKf
+SfQH9E1dKykWMZDfg06c4e2HYfOVIPdIeRbkr/Zz0iWnc6F6LF05eYvWArdpX8Wh
+B6y/Dn6PtM/oa15dbgqpt9kS5VBM6OzDGt/pcMYHdvR4x6/0xni+PayGzoCKhrHZ
+qhRjnFpYFEJK2NovoJTbtk4GOn4reVtcIDarcMoWYWCJbgZdG5wfAg2tlzQCL1Fm
+048THKSliBJ3jvq8p9h/y0vTHmnWfcAVrFwmr+qoACyJSiIkjhFMPkjZCma243hc
+I55V2U1ubpaT+YIaxKHXBn7YDsCNJJRbSlsR2dlavDYdnsfqB83fNV2+bWNEterQ
+DYSX4RnG/UGT/dOfqP6dwFK9c8Y/zHT2DSIIObKPgaKEoHjOTMMSH46+9d3645xc
+ATDdCbkf1nzdtiZ6K1AL/D5/ZXPFZI/wOmx9pMM8yfwYVgegtkJaQkgBLmpDk93+
+tG7q6/gUH+mC6Kv1AAYDmr0ueT7TXA1YkfwbbJ/unlCXuEBvdMOBrJU4rMoS7Tf5
+f9tGMyAGDGl+sLmZFeg/
+=ChQj
+-----END PGP SIGNATURE-----
