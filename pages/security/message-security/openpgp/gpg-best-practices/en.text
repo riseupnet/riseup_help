@@ -26,13 +26,13 @@ Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyserver
 
 You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. In order to use hkps, you will first need to install gnupg-curl:
 
-pre. sudo apt-get install gnupg-curl
+bc. sudo apt-get install gnupg-curl
 
 Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Next, you should [[verify the certificate's finger print -> https://sks-keyservers.net/verify_tls.php]].
 
 Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
 
-pre.. keyserver hkps://hkps.pool.sks-keyservers.net
+bc. keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
 
 p. Now your interactions with the keyserver will be encrypted via hkps, which will obscure your social relationship map from anyone who may be snooping on your traffic. For example, if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information.
@@ -43,7 +43,7 @@ h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
 When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.gnupg/gpg.conf@, which will ignore such designations:
 
-pre. keyserver-options no-honor-keyserver-url
+bc. keyserver-options no-honor-keyserver-url
 
 This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when or from where you refresh their key.
 
@@ -51,7 +51,7 @@ h3. Refresh your keys slowly and one at a time.
 
 Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie:
 
-pre. sudo apt-get install parcimonie
+bc. sudo apt-get install parcimonie
 
 [[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring.
 
@@ -59,9 +59,23 @@ You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your 
 
 h3. Do not blindly trust keys from keyservers.
 
-Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone. Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
+Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone.
 
-pre. gpg --recv-key '<fingerprint>'
+Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
+
+bc. gpg --recv-key '<fingerprint>'
+
+The next step is to confirm that you actually got the correct key from the keyserver. The keyserver might have given you a different key than the one you just asked for, and gpg will not warn you. You can confirm the key fingerprint in one of two ways:
+
+Option 1. Check the fingerprint is now in your keyring:
+
+bc. gpg --fingerprint '<fingerprint>'
+
+Option 2. Attempt to (locally) sign a key with that fingerprint:
+
+bc. gpg --lsign-key '<fingerprint>'
+
+If you are confident you have the right fingerprint from the owner of the key, the preferred method is to locally sign the key. If you want to publicly advertise your connection to the person who owns the key, you can do a publicly exportable [@--sign-key@] instead.
 
 Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. Double-quotes (") also work.
 
@@ -75,7 +89,7 @@ You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gp
 
 Note that there was a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], which is fixed in version 1.7.0: If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
-pre. gpg --with-fingerprint --list-secret-key
+bc. gpg --with-fingerprint --list-secret-key
 
 h2. Key configuration.
 
@@ -99,21 +113,21 @@ You may think that is annoying and you don't want to deal with it, but it is act
 
 If you have already generated a key without an expiration date, you can set an expiration date on your key by doing the following:
 
-pre. gpg --edit-key '<fingerprint>'
+bc. gpg --edit-key '<fingerprint>'
 
 Now select the subkey for which you want to set an expiration date (e.g. the first one), or none to set the expiration on your primary key and then issue the 'expire' command:
 
-pre.. gpg> key 1
+bc. gpg> key 1
 gpg> expire
 
 p. Then set the date to a reasonable one, and save the key and exit (e.g. 2 years):
 
-pre.. Key is valid for? (0) 2y
+bc. Key is valid for? (0) 2y
 gpg> save
 
 p. Then you may send your key to the keyservers to publish this change:
 
-pre. gpg --send-key '<fingerprint>'
+bc. gpg --send-key '<fingerprint>'
 
 h3. Set a calendar event to remind you about your expiration date
 
@@ -127,7 +141,7 @@ If you forget your passphrase or if your private key is compromised or lost, the
 
 A revoked key can still be used to verify old signatures, or decrypt data (if you still have access to the private key), but it cannot be used to encrypt new messages to you.
 
-pre. gpg --output revoke.asc --gen-revoke '<fingerprint>'
+bc. gpg --output revoke.asc --gen-revoke '<fingerprint>'
 
 This will create a file called revoke.asc. You may wish to print a hardcopy of the certificate to store somewhere safe (give it to your mom, or put it in your offsite backups). If someone gets access to this, they can revoke your key, which is very inconvenient, but if they also have access to your private key, then this is exactly what you want to happen.
 
@@ -141,11 +155,11 @@ h3. OpenPGP key checks.
 
 There is a handy tool that will perform the key checks below for you. You can get it [[from the source -> http://floss.scru.org/hopenpgp-tools/]], or if you are running Debian or Ubuntu, you can install the package directly by doing:
 
-pre. sudo apt-get install hopenpgp-tools
+bc. sudo apt-get install hopenpgp-tools
 
 To run these tests with the tool, you can do the following:
 
-pre. hkt export-pubkeys '<fingerprint>' | hokey lint
+bc. hkt export-pubkeys '<fingerprint>' | hokey lint
 
 The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should fix it or generate a new key after ensuring that your @gpg.conf@ is set up as recommended.
 
@@ -155,13 +169,13 @@ According to [[RFC4880 -> https://tools.ietf.org/html/rfc4880]]: "V3 keys are de
 
 To determine if your key is a V3 key you can do the following:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
 
 h4. primary keys should be DSA-2 or RSA (RSA preferred), ideally 4096 bits or more.
 
 To check if you are using DSA-2 or RSA, you can do this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
 
 If the reported algorithm is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
 
@@ -169,19 +183,19 @@ If the reported algorithm is 19, you are using ECDSA, if it is 18 you are using 
 
 To check the bit-length of the primary key you can do this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
 
 h4. self-signatures should not use MD5 exclusively
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
 
 If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
 To fix this, first, you should set the following in your @~/.gnupg/gpg.conf@:
 
-pre. cert-digest-algo SHA512
+bc. cert-digest-algo SHA512
 
 Second, you should generate a new self-signature on your key (e.g. [[by changing the key's expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]).
 
@@ -189,29 +203,29 @@ h4. self-signatures should not use SHA1
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
 To fix this, you can generate a new self-signature on your key (e.g. [[by changing its expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]) after setting the following in your @~/.gnupg/gpg.conf@:
 
-pre. cert-digest-algo SHA512
+bc. cert-digest-algo SHA512
 
 h4. stated digest algorithm preferences must include at least one member of the SHA-2 family at a higher priority than both MD5 and SHA1
 
 You can check this by doing:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
 
 and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
 
 To fix this, first set the following in your @~/.gnupg/gpg.conf@:
 
-pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+bc. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
 then set the preferences on your key like this:
 
-pre.. $ gpg --edit-key '<fingerprint>'
+bc. $ gpg --edit-key '<fingerprint>'
 gpg> setpref
 ...
 gpg> save
@@ -220,19 +234,19 @@ h4. primary keys should have a reasonable expiration date (no more than 2 years 
 
 You can check what your expiration dates are by doing this:
 
-pre. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'key expires after'
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'key expires after'
 
 Then visually inspect what the results are to confirm this -- the date listed will be relative to key creation, though, which can be difficult to interpret.
 
 Another way to check expiration is just to do:
 
-pre. gpg --list-keys '<fingerprint>'
+bc. gpg --list-keys '<fingerprint>'
 
 which should show the creation and expiration dates of the primary key and each associated subkey. If you don't see anything that says "expires" in this output, then you have not set an expiration date properly.
 
 To fix this, you can do:
 
-pre.. $ gpg --edit-key '<fingerprint>'
+bc. $ gpg --edit-key '<fingerprint>'
 gpg> expire
 ...
 gpg> save
