@@ -1,3 +1,8 @@
+@title = "Home"
+@this.layout = 'home'
+@this.toc = false
+@this.summary = "Riseup bietet Online-Kommunikationstools für Menschen und Gruppen an, die an einem freiem gesellschaftlichen Wandel arbeiten. Wir sind ein Projekt, das demokratische Alternativen entwickelt und wir üben Selbstbestimmung aus, indem wir unsere eigenen sicheren Kommunikationswege kontrollieren."
+
 h2. E-mail <small>https://mail.riseup.net</small>
 
 Wir bieten sichere und private E-mail-Konten mit Zugriff per Webseite, Shell, IMAP und POP. [[Hilfe zum Thema E-Mail -> email]]. [[Webmail-Zugang->https://mail.riseup.net]]. [[Konto anfordern -> https://user.riseup.net/forms/new_user]]. [[Passwort zurück setzen -> https://user.riseup.net/forms/password_reset/first]]. [[Einstellungen ändern -> https://user.riseup.net]].
