@@ -131,11 +131,21 @@ pre. gpg --output revoke.asc --gen-revoke '<fingerprint>'
 
 This will create a file called revoke.asc. You may wish to print a hardcopy of the certificate to store somewhere safe (give it to your mom, or put it in your offsite backups). If someone gets access to this, they can revoke your key, which is very inconvenient, but if they also have access to your private key, then this is exactly what you want to happen.
 
-h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
+h3. Create a separate subkey for signing data, and only use your primary key for certification of other keys.
 
-h3. (bonus) Have a separate subkey for signing, and keep your primary key entirely offline.
+GnuPG allows for the creation of "subkeys" that are subordinate to a "primary key" (sometimes referred to as a "master key"). Subkeys are signed using the primary key and can be edited and/or revoked as long as you have possession of the primary key.
 
-In this scenario, your primary key is used only for certifications, which happen infrequently.
+If you are using public-key encryption with GnuPG, you [[already have a separate encryption subkey -> http://security.stackexchange.com/questions/43590/pgp-why-have-separate-encryption-subkey]] that was automatically created when you generated your keys. However, you also create an additional subkey for signing data/messages, and then securely store your primary key offline (perhaps on removable media or a separate computer that isn't connected to the internet). The things you do most frequently with GPG -- signing and encrypting messages/data -- are done using your subkeys, which stay with you on your personal computer for everyday use. However, your primary key (which is not on the same computer) is now only used in a few special circumstances (which generally happen relatively infrequently): 
+
+(1) certifying other people's keys, 
+(2) creating new subkeys, 
+(3) editing/revoking subkeys. 
+
+To understand the benefit of all of this, consider what would happen if you were using the default GnuPG setup (a primary signing/certification key and an encryption subkey) on your laptop, and that your laptop was then stolen by an attacker. Let's say that you had been smart enough to encrypt your hard disk, picked a very strong passphrase for your key, and had generated a revocation certificate and set an expiration date. So it's unlikely that an attacker will be able to decrypt your messages/data, because even if they decrypt your disk and get access to your private keys, they still have to find your passphrase. Furthermore, you can revoke your keys with the revocation certificate so everyone knows not to trust them anymore (and they'll expire anyway). However, you still have a major problem: over the years, you've been building up [[trust -> https://en.wikipedia.org/wiki/Web_of_trust]] in the form of other PGP users signing your primary key. You now have to start from scratch rebuilding your web of trust by getting everyone to re-sign your new key, and you've lowered the trust of all the keys you had signed with your old primary key. It can be very troublesome and time consuming to go through this process again, and its disruptive of the web of trust ...
+
+The process described above, however, solves this problem! Let's imagine instead that your stolen laptop only contained your encryption subkey and your signing subkey, and that your primary key was safely stored somewhere else. This time you don't have to revoke your primary key, which is the one that everyone else has been certifying -- i.e. you don't have to rebuild your web of trust. All you have to do now is revoke your subkeys and generate new ones, using your primary key. 
+
+The process to generate subkeys is somewhat involved, but there are several helpful guides that have been written elsewhere describing how to do it. You can find them with a cursory internet search for "gpg subkeys" ...
 
 h3. OpenPGP key checks.
 
