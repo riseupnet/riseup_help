@@ -79,7 +79,7 @@ pre. gpg --with-fingerprint --list-secret-key
 
 h3. Check key fingerprints before importing.
 
-If you received or downloaded a key in a <keyfile>, you should display its fingerprint without (prior to) actually importing it into your keyring:
+If you received or downloaded a key in a <keyfile>, you can and should display its fingerprint before importing it into your keyring, in that way you can verify the fingerprint without possibly spoiling your keyring and adding a compromised key:
 
 pre. gpg --with-fingerprint <keyfile>
 
