@@ -46,22 +46,22 @@ Auch empfohlen:
 * "Disconnect":https://disconnect.me/: Verfolge wer versucht dich zu verfolgen und stoppe sie.
 * "HTTPS Finder":https://code.google.com/p/https-finder/: Versucht Firefox automatisch zu einer HTTPS Verbindung umzuleiten wo vorhanden. Das ist besonders gut für Seiten für die HTTPS Everywhere keine Regeln hat.
 
-Advanced:
+Fortgeschritten:
 
-* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ Blocks JavaScript, CSRF and others
-* The Tor project provides a modified version of Firefox adapted to be more secure/anonymous called "Tor browser":https://www.torproject.org/download/download-easy.html.en
-* "RequestPolicy":https://www.requestpolicy.com/ Enables you to block content loaded from any other site
+* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ Blockiert JavaScript, CSRF und andere.
+* Das Tor-Projekt stellt eine veränderte Version von Firefox bereit welche angepasst wurde um sicherer/anonymer zu sein, genannt "Tor Browser":https://www.torproject.org/download/download-easy.html.en
+* "RequestPolicy":https://www.requestpolicy.com/ Erlaubt dir das Nachladen von Inhalten von anderen Seiten zu blockieren.
 
 h3. Chrome
 
-Essential:
+Wesentliches:
 
-* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+* "Adblock Plus":http://adblockplus.org/en/: benutzt Abolisten um Werbung und Verhaltens Verfolgung zu blocken.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine sichere Verbindung [[secure connection->secure-connections]] für Webseiten die diese Unterstützen.
 
-You might also want to consider:
+Was du auch berücksichtigen solltest:
 
-* "click & clean":https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod: Deletes your browsing history, typed URLs, Flash cookies, all traces of your online activity to protect your privacy.
-* "NOREF":https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip: Suppress Referrer (referer) for Hyperlinks
-* "Disconnect":https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo: Track who is trying to track you and stop them.
-* "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.
+* "click & clean":https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod: Löscht deinen Browserverlauf, eingetippte URLs, Flash Cookies, alle Spuren deiner Online Aktivität um deine Privatsphäre zu schützen.
+* "NOREF":https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip: Unterdrückt Referrer (referer) für Hyperlinks.
+* "Disconnect":https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo: Verfolge wer versucht dich zu verfolgen und stoppe sie.
+* "Ghostery":https://www.ghostery.com: Verfolge wer versucht dich zu verfolgen und stoppe sie.
