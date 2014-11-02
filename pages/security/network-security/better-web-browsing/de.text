@@ -6,25 +6,25 @@ Zurzeit gibt es vier bedeutende Browser, Firefox, Chrome, IE und Safari. Alle vi
 
 Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen [[installing extensions->#privacy-enhancing-extensions]] stark verbessert werden.
 
-h2. Adjust your settings
+h2. Passe deine Einstellungen an
 
 (to be written)
 
-Setting you should adjust:
+Einstellungen die du ändern solltest:
 
-* Disable third party cookies.
-* Clear cookies on exit.
-* Set a master password (if your drive is not encrypted).
+* Deaktiviere Cookies von Drittanbietern.
+* Lösche Cookies beim beenden.
+* Setze ein Master-Passwort (wenn deine Festplatte nicht verschlüsselt ist).
 
-h2. Use secure connections
+h2. Benutze sichere Verbindungen
 
-When your browser establishes [[secure connections->secure-connections]] to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*.
+Wenn dein Browser eine sichere Verbindung zu einer Webseite herstellt, werden alle Daten zwischen dir und der Webseite verschlüsselt. Du benutzt eine sichere Verbindung wenn du *HTTPS* in der Adresszeile siehst statt *HTTP*.
 
-h2. Verify Riseup's certificate fingerprints
+h2. Prüfe den Fingerabdruck vom Riseup-Zertifikat
 
-On the internet, a certificate is needed in order to verify the identity of people or computers. These certificates are also called SSL certificates or identity certificates. We will just call them “certificates” here.
+Im Internet wird ein Zertifikat benutzt um die Identität von Menschen oder Computern zu bestätigen. Diese Zertifikate werden auch SSL-Zertifikate oder Identitäts-Zertifikate genannt. Wir werden sie hier nur "Zertifikate" nennen.
 
-In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections.
+Besonders werden Zertifikate benutzt um eine sichere Verbindung herzustellen. Ohne Zertifikate würde man sicherstellen dass noemand zuhört, aber man könnte mit einem völlig falschen Computer kommunizieren. Alle riseup.net Server und alle riseup.net Dienste erlauben oder verlangen sichere Verbindungen.
 
 To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
 
