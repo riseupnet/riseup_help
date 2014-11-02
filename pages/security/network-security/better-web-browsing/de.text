@@ -1,0 +1,66 @@
+@title = 'Better Web Browsing'
+
+h2. Einen Browser auswählen
+
+Zurzeit gibt es vier bedeutende Browser, Firefox, Chrome, IE und Safari. Alle vier haben in letzter Zeit große Sicherheitsfehler erlebt, also solltest du sicherstellen, dass du die neueste Version nutzt, egal welchen du aussuchst. Wir raten stark davon ab den Internet Explorer (IE)vor Version 9 zu benutzen.
+
+Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen [[installing extensions->#privacy-enhancing-extensions]] stark verbessert werden.
+
+h2. Adjust your settings
+
+(to be written)
+
+Setting you should adjust:
+
+* Disable third party cookies.
+* Clear cookies on exit.
+* Set a master password (if your drive is not encrypted).
+
+h2. Use secure connections
+
+When your browser establishes [[secure connections->secure-connections]] to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*.
+
+h2. Verify Riseup's certificate fingerprints
+
+On the internet, a certificate is needed in order to verify the identity of people or computers. These certificates are also called SSL certificates or identity certificates. We will just call them “certificates” here.
+
+In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections.
+
+To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
+
+h2. Privacy enhancing extensions
+
+Although there is not yet a browser with good privacy capabilities, you can greatly improve your browser with a few add-ons.
+
+h3. Firefox
+
+Essential:
+
+* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+
+Also recommended:
+
+* "Disconnect":https://disconnect.me/: Track who is trying to track you and stop them.
+* "HTTPS Finder":https://code.google.com/p/https-finder/ Automatically tries to redirect Firefox to a HTTPS connection where available. This is especially good for sites HTTPS Everywhere has no rules for.
+
+Advanced:
+
+* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ Blocks JavaScript, CSRF and others
+* The Tor project provides a modified version of Firefox adapted to be more secure/anonymous called "Tor browser":https://www.torproject.org/download/download-easy.html.en
+* "RequestPolicy":https://www.requestpolicy.com/ Enables you to block content loaded from any other site
+
+h3. Chrome
+
+Essential:
+
+* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+
+You might also want to consider:
+
+* "click & clean":https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod: Deletes your browsing history, typed URLs, Flash cookies, all traces of your online activity to protect your privacy.
+* "NOREF":https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip: Suppress Referrer (referer) for Hyperlinks
+* "Disconnect":https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo: Track who is trying to track you and stop them.
+* "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.
