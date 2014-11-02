@@ -26,24 +26,25 @@ Im Internet wird ein Zertifikat benutzt um die Identität von Menschen oder Comp
 
 Besonders werden Zertifikate benutzt um eine sichere Verbindung herzustellen. Ohne Zertifikate würde man sicherstellen dass noemand zuhört, aber man könnte mit einem völlig falschen Computer kommunizieren. Alle riseup.net Server und alle riseup.net Dienste erlauben oder verlangen sichere Verbindungen.
 
-To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
+Um sicher zu sein dass du sicher mit Riseup kommunizierst, sieh [[how to verify Riseup’s certificates => /security/certificates]].
 
-h2. Privacy enhancing extensions
+h2. Erweiterungen die die Privatsphäre verbessern
 
-Although there is not yet a browser with good privacy capabilities, you can greatly improve your browser with a few add-ons.
+//anderes Wort für Privatsphärenfähigkeiten
+Obwohl es noch keinen Browser mit guten Privatsphärenfähigkeiten gibt, kannst du deinen Browser mit wenigen Add-ons stark verbessern
 
 h3. Firefox
 
-Essential:
+Wesentliches:
 
-* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
-* "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
+* "Adblock Plus":http://adblockplus.org/en/: benutzt Abolisten um Werbung und Verhaltens Verfolgung zu blocken.
+* "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Naben anderen Dingen löscht Better Privacy "Flash Cookies" welche sonst schwer zu verwalten sind.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine sichere Verbindung [[secure connection->secure-connections]] für Webseiten die diese Unterstützen.
 
-Also recommended:
+Auch empfohlen:
 
-* "Disconnect":https://disconnect.me/: Track who is trying to track you and stop them.
-* "HTTPS Finder":https://code.google.com/p/https-finder/ Automatically tries to redirect Firefox to a HTTPS connection where available. This is especially good for sites HTTPS Everywhere has no rules for.
+* "Disconnect":https://disconnect.me/: Verfolge wer versucht dich zu verfolgen und stoppe sie.
+* "HTTPS Finder":https://code.google.com/p/https-finder/: Versucht Firefox automatisch zu einer HTTPS Verbindung umzuleiten wo vorhanden. Das ist besonders gut für Seiten für die HTTPS Everywhere keine Regeln hat.
 
 Advanced:
 
