@@ -4,11 +4,11 @@ h2. Einen Browser auswählen
 
 Zurzeit gibt es vier bedeutende Browser, Firefox, Chrome, IE und Safari. Alle vier haben in letzter Zeit große Sicherheitsfehler erlebt, also solltest du sicherstellen, dass du die neueste Version nutzt, egal welchen du aussuchst. Wir raten stark davon ab den Internet Explorer (IE)vor Version 9 zu benutzen.
 
-Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen [[installing extensions->#privacy-enhancing-extensions]] stark verbessert werden.
+Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[Browser Bewertungstafel]]. Allerdings können diese Browser durch Installieren von Erweiterungen [[installing extensions->#privacy-enhancing-extensions]] stark verbessert werden.
 
 h2. Passe deine Einstellungen an
 
-(to be written)
+(zu schreiben)
 
 Einstellungen die du ändern solltest:
 
@@ -26,12 +26,11 @@ Im Internet wird ein Zertifikat benutzt um die Identität von Menschen oder Comp
 
 Besonders werden Zertifikate benutzt um eine sichere Verbindung herzustellen. Ohne Zertifikate würde man sicherstellen dass noemand zuhört, aber man könnte mit einem völlig falschen Computer kommunizieren. Alle riseup.net Server und alle riseup.net Dienste erlauben oder verlangen sichere Verbindungen.
 
-Um sicher zu sein dass du sicher mit Riseup kommunizierst, sieh [[how to verify Riseup’s certificates => /security/certificates]].
+Um sicher zu sein dass du sicher mit Riseup kommunizierst, schaue unter [[wie man Riseups Zertifikate nachprüft => /security/certificates]].
 
 h2. Erweiterungen die die Privatsphäre verbessern
 
-//anderes Wort für Privatsphärenfähigkeiten
-Obwohl es noch keinen Browser mit guten Privatsphärenfähigkeiten gibt, kannst du deinen Browser mit wenigen Add-ons stark verbessern
+Obwohl es noch keinen Browser mit guter Privatsphärenunterstützung gibt, kannst du deinen Browser mit wenigen Add-ons stark verbessern
 
 h3. Firefox
 
@@ -39,7 +38,7 @@ Wesentliches:
 
 * "Adblock Plus":http://adblockplus.org/en/: benutzt Abolisten um Werbung und Verhaltens Verfolgung zu blocken.
 * "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Naben anderen Dingen löscht Better Privacy "Flash Cookies" welche sonst schwer zu verwalten sind.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine sichere Verbindung [[secure connection->secure-connections]] für Webseiten die diese Unterstützen.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine [[sichere Verbindung->secure-connections]] für Webseiten die diese Unterstützen.
 
 Auch empfohlen:
 
@@ -57,7 +56,7 @@ h3. Chrome
 Wesentliches:
 
 * "Adblock Plus":http://adblockplus.org/en/: benutzt Abolisten um Werbung und Verhaltens Verfolgung zu blocken.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine sichere Verbindung [[secure connection->secure-connections]] für Webseiten die diese Unterstützen.
+* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Aktiviert automatisch eine [[sichere Verbindung->secure-connections]] für Webseiten die diese Unterstützen.
 
 Was du auch berücksichtigen solltest:
 
