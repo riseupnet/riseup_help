@@ -8,59 +8,60 @@ Damit ein Zertifikat als gültig erachtet wird, muss es von einem privaten Unter
 
 Bis dahin kauft Riseup Zertifikate von kommerziellen Zertifizierungsstellen, welche von deinem Browser, Mail-Client oder Chat-Client anerkannt werden. Diese Zertifikate funktionieren selbstständig und ohne dein Zutun.
 
+//andere übersetzung für den letzter satz von zeile 12
 Trotzdem verwenden manche riseup.net Dienste, wie [[RiseupVPN -> vpn]], Zertifikate welche von unserer eigenen Zertifizierungsstelle abgesegnet wurden. Diese Seite ist für Leute die die Riseup Zertifizierungsstelle downloaden und installieren müssen.
 
 h2. Riseup Zertifikat herunterladen
 
-Every CA (certificate authority) has a file that is distributed publicly. This file, called a "CA certificate", is used by your local program to confirm the identity of servers you connect with.
+Jede CA (Zertifizierungsstelle) hat eine Datei die öffentlich verteilt wird. Diese Datei, "CA Zertifikate" genannt, wird von unserem lokalen Programm benutzt um die Identität von Servern mit denen du dich verbindest zu bestätigen.
 
-Download the Riseup CA certificate:
+Riseup CA Zertifikat herunterladen:
 
-* click "RiseupCA.pem":RiseupCA.pem
+* Klicke auf "RiseupCA.pem":RiseupCA.pem
 
-All the possible OpenVPN clients require this file.
+Alle möglichen OpenVPN Clients benötigen diese Datei.
 
-h2. Verify the Riseup CA certificate (optional)
+h2. Bestätige das Riseup CA Zertifikat (optional)
 
-This verification process is not required in order to use the Riseup CA certificate. However, without verification, you cannot be certain you have downloaded the correct certificate, and you cannot be certain that your connections are secure.
+Dieser Bestätigungsvorgang wird nicht benötigt um das Riseup CA Zertifikat zu benutzen. Trotzdem kannst du ohne Verifikation nicht sicher sein, dass du das richtige Zertifikat heruntergeladen hast und deine Verbindungen sicher sind.
 
-Be warned: this verification process is difficult, requires an understanding of OpenPGP, and ultimately depends on knowing someone who has trusted riseup.net's public OpenPGP key.
+Achtung: der Bestätigungsvorgang ist schwierig, benötigt Verständnis von OpenPGP und hängt letztlich davon ab ob man jemanden kennt der riseup.net's öffentlichen OpenPGP Schlüssel vertraut.
 
-In brief, the steps are:
+Kurzgefasst sind die Schritte:
 
-# download the "RiseupCA.pem":RiseupCA.pem file (see above).
-# import Riseup's public PGP key
-# verify that the instructions on this page have been signed by Riseup's PGP key.
-# calculate the fingerprint of RiseupCA.pem
-# compare the fingerprint you calculated with the fingerprint listed, and signed, on this page.
+# Lade die "RiseupCA.pem":RiseupCA.pem Datei runter (siehe oben).
+# Importiere Riseup's öffentlichen PGP Schlüssel
+# Prüfe ob die Anweisungen auf dieser Seite von Riseup's PGP Schlüssel verifiziert wurden.
+# Berechne den Fingerabdruck von RiseupCA.pem
+# Vergleiche den Fingerabdruck, den du berechnet hast, mit dem aufgelisteten, signierten Fingerabdruck auf dieser Seite.
 
-h3. import Riseup's public PGP key
+h3. Importiere Riseup's öffentlichen PGP Schlüssel
 
-On the command line:
+In der Kommandozeile:
 
 <code>
 $ gpg --keyserver keys.riseup.net --recv-key 139A768E
 </code>
 
-There is no particular reason that you should trust this key. You can see who has trusted it:
+Es gibt keinen bestimmten Grund, dass du diesem Schlüssel trauen solltest. Du kannst sehen wer ihm vertraut hat:
 
 <code>
 $ gpg --list-sigs 139A768E
 </code>
 
-h3. verify these instructions
+h3. Prüfe diese Anweisungen
 
-Now that you have imported Riseup's public key, you can verify the certificate is correct:
+Da du jetzt Riseup's öffentlichen Schlüssel importiert hast, kannst du prüfen ob das Zertifikat ordnungsgemäß ist:
 
-# "Download this cryptographically signed file containing the SHA1 Sum of the RiseupCA.pem":riseupCA-signed-sha1.txt
-# Then run this command in a terminal: @gpg --verify riseupCA-signed-sha1.txt@
-# Type control-d
-# You should get output that says:
+# "Lade diese kryptographisch signierte Datei herunter, welche die SHA1 Summe von der RiseupCA.pem":riseupCA-signed-sha1.txt beinhalted.
+# Führe dann diesen Befehl im Terminal aus: @gpg --verify riseupCA-signed-sha1.txt@
+# Schreibe control-d
+# Du solltest folgende Ausgabe erhalten:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 
-You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
+Du solltest sicher stellen, dass die Ausgabe "Good signature" beinhaltet. Wenn der Text verändert wurde, sollte der Information nicht vertraut werden.
 
-Unless you have taken explicit steps to build a trust path to the Riseup Collective key, you will see a warning message similar to:
+Wenn du nicht explizit Schritte unternommen hast um einen Vertrauenspfad zu dem Riseup Collective Schlüssel zu bilden, siehst du eine ähnliche Warnung:
 
 <pre>
   gpg: WARNING: This key is not certified with a trusted signature!
