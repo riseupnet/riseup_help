@@ -2,7 +2,7 @@
 
 h2. What is a Certificate Authority?
 
-On the internet, a [[certificate->http://en.wikipedia.org/wiki/Public_key_certificate]] is needed in order to verify the identity of people or computers, and to establish secure connections to services to keep people from listening in your connection. All riseup.net services require secure connections and thus use certificates to verify the identity of the server.
+On the internet, a [[certificate->https://en.wikipedia.org/wiki/Public_key_certificate]] is needed in order to verify the identity of people or computers, and to establish secure connections to services to keep people from listening in your connection. All riseup.net services require secure connections and thus use certificates to verify the identity of the server.
 
 For a certificate to be considered valid, it must be blessed by a private corporation who acts as a [[Certificate Authority -> http://en.wikipedia.org/wiki/Certificate_Authority]]. This centralized authority model has troubling social and political ramifications, especially when we rely on it for security. Some day, we hope that [[alternative, non-heriarchical models->http://web.monkeysphere.info]] will replace this flawed system.
 
