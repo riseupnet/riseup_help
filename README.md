@@ -89,11 +89,11 @@ Putting it all together:
 
 One way you can refresh your repo with upstream before pushing:
 
-    git remote add upstream https://github.com/riseupnet/riseup-help
+    git remote add upstream https://github.com/riseupnet/riseup_help
     git fetch upstream
     git rebase upstream/master
 
-You only need to run `git remote add` once. Alternately, you could set origin to be `riseupnet/riseup-help` and add your fork as a remote.
+You only need to run `git remote add` once. Alternately, you could set origin to be `riseupnet/riseup_help` and add your fork as a remote.
 
 Directories
 --------------------------------------------
