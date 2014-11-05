@@ -68,17 +68,16 @@ Wenn du nicht explizit Schritte unternommen hast um einen Vertrauenspfad zu dem 
   gpg:          There is no indication that the signature belongs to the owner.
 </pre>
 
-However, you still should see the "Good signature".
+Trotzdem solltest du "Good signature" in der Ausgabe sehen.
 
-h3. calculate the fingerprint of RiseupCA.pem
+h3. Berechne den Fingerabdruck von RiseupCA.pem
 
-Open a terminal and use @sha1sum@:
+Öffne das Terminal und benutze @sha1sum@:
 
 <code>$ sha1sum RiseupCA.pem</code>
 
-h3. compare the fingerprints
+h3. Vergleiche die Fingerabdrücke
 
-Now that you have calculated the fingerprint or sha1sum of RiseupCA.pem, you can compare this value to the value signed by Riseup and listed on this page.
+Da du jetzt die Fingerabdrücke oder SHA1-Summen von RiseupCA.pem berechnet hast, kannst du diesen Wert mit dem von Riseup signierten und hier aufgelisteten Wert verlgeichen.
 
-If the values match, and you trust the Riseup public PGP key, then you can be confident you are really communicating with riseup.net servers when using an application that uses RiseupCA.pem.
-
+Wenn die Werte übereinstimmen, und du dem öffentlichen Riseup PGP Schlüssel vertraust, kannst du sicher sein, dass du wirklich mit den riseup.net Servern kommunizierst wenn du eine Anwendung benutzt die RiseupCA.pem verwendet.
