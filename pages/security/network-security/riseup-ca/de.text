@@ -8,7 +8,6 @@ Damit ein Zertifikat als gültig erachtet wird, muss es von einem privaten Unter
 
 Bis dahin kauft Riseup Zertifikate von kommerziellen Zertifizierungsstellen, welche von deinem Browser, Mail-Client oder Chat-Client anerkannt werden. Diese Zertifikate funktionieren selbstständig und ohne dein Zutun.
 
-//andere übersetzung für den letzter satz von zeile 12
 Trotzdem verwenden manche riseup.net Dienste, wie [[RiseupVPN -> vpn]], Zertifikate welche von unserer eigenen Zertifizierungsstelle abgesegnet wurden. Diese Seite ist für Leute die die Riseup Zertifizierungsstelle downloaden und installieren müssen.
 
 h2. Riseup Zertifikat herunterladen
