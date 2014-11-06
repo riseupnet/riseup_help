@@ -1,0 +1,31 @@
+@title = 'StartTLS'
+
+h2. About StartTLS
+
+StartTLS is used to encrypt the network connection between mail providers when they relay email.
+
+Things that are great about StartTLS:
+
+* It is *easy to use*, you don't have to think about it.
+* It allows protection of meta-data from dragnet surveillance.
+
+Disadvantages:
+
+* The user has no way to prove that a particular message was transmitted securely.
+
+Riseup practices StartTLS verification with some of the other activist email providers.
+
+h2. A horrible email journey
+
+* Red: Insecure, email can be read by a listener (or email headers if the body is encrypted with OpenPGP)
+* Green: Secure, the transport is encrypted.
+
+!smtp-01_large.png!
+
+h2. A better email journey
+
+!smtp-02_large.png!
+
+h2. An email journey with StartTLS
+
+!smtp-03_large.png!
