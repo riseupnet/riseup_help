@@ -1,0 +1,31 @@
+@title = "Menschliche Sicherheit"
+
+Diese Sicherheits-Artikel enthalten viel Gerede über Verschlüsselung. Schlussendlich ist jedoch die gesamte zauberhafte Krypto-Magie komplett sinnlos, wenn du unsicheres Benehmen an den Tag legst. Mit ein paar einfachen Praktiken kannst du deine Sicherheit enorm steigen.
+
+h2. Rette die Welt mit besseren Passwörtern
+
+<%= render 'common/good-passwords' %>
+
+h2. Häufiger Betrug im Internet
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Halte deine Software auf dem neuesten Stand
+
+Muss noch geschrieben werden.
+
+h2. Vorsicht bei gemeinsam genutzten Computern
+
+Logout: Denke daran, dich immer abzumelden, wenn du den Webmailer verwendest. Das ist sehr wichtig und sehr einfach. Es ist besonders wichtig, wenn du einen öffentlichen Computer verwendest. Lasse dein Computer nicht ungesperrt und unbeaufsichtigt stehen.
+
+Vermeide öffentliche Computer: Das könnte schwierig sein. Wenn du öffentliche Computer verwendest, überlege dir, ob du deine Passwörter häufiger wechselst oder verwende den *virtuelle Tastatur* Link (solltest du den Webmailer von riseup.net verwenden).
+
+Erstellt verschiedene Benutzern mit unterschiedlichen Einstelungen, wenn du einen gemeinsamen Computer mit deinen Freunden verwendest. Außerdem solltest du dich immer ausloggen oder den Computer sperren, wenn du ihn gerade nicht benutzt.
+
+h2. Spüre die Liebe von freier Software
+
+Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
+
+OS X suffers from similar issues that windows does. While it is based on Unix (of which Linux is a “clone”), a large portion of the operating system is not open source and thus not available for third party review. Its increasing popularity has been resulting in increasing viruses and exploits (though still far fewer than windows) and its corporate culture of authoritarianism is reflected in the structure of the operating system. OS X also includes the built-in “feature” to remotely activate the webcam which, as a feature regardless of the OS its on, has been shown to be used for other purposes.
+
+GNU/Linux, however, is composed primarily (and can be made exclusively) of software whose source can be obtained and audited by essentially anyone, it has been built by a community of people for years. Its history is filled with few viruses and user-level exploits. Linux is also an easy to use operating system that supports a wealth of older hardware that makes this level of security accessible to the average individual.
