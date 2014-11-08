@@ -1,14 +1,14 @@
 @title = 'Pidgin'
 
-h2. About Pidgin
+h2. Acerca de Pidgin
 
 !logo.pidgin.png!
 
-Pidgin is the most popular instant message client for GNU/Linux, Windows, and Mac. You can download Pidgin from http://pidgin.im/download. For Mac, check out [[Adium]], the native build of pidgin for Mac.
+Pidgin es el cliente de mensajeria instantanea mas popular para GNU/Linux, Windows y Mac. Tu puedes descargar Pidgin desde  http://pidgin.im/download. Para Mac utiliza [[Adium]], la compilación nativa de pidgin para Mac.
 
-h2. Setting up an account
+h2. Configurando una cuenta
 
-When you first start pidgin, hit the *Add...* button to add an account.
+Cuando inicias por primera vez pidgin, dale click en el botón *Añadir...* para agregar una cuenta.
 
 (1) Under *Basic* tab, set these values:
 
