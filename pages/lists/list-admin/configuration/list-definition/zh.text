@@ -22,7 +22,7 @@ h3.  更改所有者
 
 为了更改列表所有者，请执行以下步骤：
 
-# 为您的电子邮件地址创建一个新的 “list account”。新的列表账户可以在这里创建<a href="http://lists.riseup.net/www/renewpasswd">here</a>。
+# 为您的电子邮件地址创建一个新的 “list account”。新的列表账户可以在这里创建<a href="https://lists.riseup.net/www/renewpasswd">here</a>。
 # 作为 *existing*所有者登录。
 # 添加一个新的电子邮件地址作为列表的追加的所有者（查看上面的‘增加所有者’）。
 # 退出，然后用新所有者登入。

@@ -142,7 +142,7 @@ La sortie indiquera en rouge les problèmes potentiels avec votre clé. Si tout 
 
 h4. Vérifiez que vous avez une clé OpenPGPv4
 
-D'après la [[RFC4880 -> http://tools.ietf.org/html/rfc4880]] : « Les clés V3 sont dépréciées. Elles ont trois faiblesses. Premièrement, il est relativement facile de construire une clé V3 qui a le même identifiant de clé que n'importe quelle autre clé, parce que l'identifiant de clé est simplement les 64 bits de poids faible du modulo public. Deuxièmement, l'empreinte d'une clé V3 porte sur le contenu de la clé mais pas sur sa longueur, ce qui donne davantage d'opportunités pour des collisions. Troisièmement, l'algorithme de hachage MD5 a des faiblesses qui fait que les développeurs préfèrent d'autres algorithmes. Voyez ci-dessous pour une discussion plus complète sur les identifiants et les empreintes de clés. »
+D'après la [[RFC4880 -> https://tools.ietf.org/html/rfc4880]] : « Les clés V3 sont dépréciées. Elles ont trois faiblesses. Premièrement, il est relativement facile de construire une clé V3 qui a le même identifiant de clé que n'importe quelle autre clé, parce que l'identifiant de clé est simplement les 64 bits de poids faible du modulo public. Deuxièmement, l'empreinte d'une clé V3 porte sur le contenu de la clé mais pas sur sa longueur, ce qui donne davantage d'opportunités pour des collisions. Troisièmement, l'algorithme de hachage MD5 a des faiblesses qui fait que les développeurs préfèrent d'autres algorithmes. Voyez ci-dessous pour une discussion plus complète sur les identifiants et les empreintes de clés. »
 
 Pour savoir si vous utilisez une clé V3, utilisez la commande :
 
@@ -168,7 +168,7 @@ Vous pouvez le vérifier en utilisant la commande :
 
 pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A 2 signature| grep 'digest algo'
 
-Si vous voyez des résultats 'digest algo 1', alors vous avez des auto-signatures qui utilisent MD5, parce que l'algorithme de hachage 1 est MD5. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
+Si vous voyez des résultats 'digest algo 1', alors vous avez des auto-signatures qui utilisent MD5, parce que l'algorithme de hachage 1 est MD5. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
 
 Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
 
@@ -182,7 +182,7 @@ Vous pouvez le vérifier avec la commande :
 
 pre.   gpg --export-options export-minimal --export '<empreinte>' | gpg  --list-packets | grep -A 2 signature| grep 'digest algo 2,'
 
-Si vous voyez des résultats 'digest algo 2', alors vous avez des auto-signatures qui utilisent SHA-1, parce que l'algorithme de hachage 2 est SHA-1. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
+Si vous voyez des résultats 'digest algo 2', alors vous avez des auto-signatures qui utilisent SHA-1, parce que l'algorithme de hachage 2 est SHA-1. Reportez-vous à la [[RFC 4880 sur OpenPGP, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] pour la table associant les algorithmes de hachage au nombre qui les représente.
 
 Pour corriger ce problème, il vous faudra regénérer une clé ([[par exemple en changeant la date d'expiration de votre clef -> https://help.riseup.net/fr/security/message-security/openpgp/best-practices/#utilisez-un-d%C3%A9lai-dexpiration-de-deux-ans-ou-moins]]) après avoir ajouté ceci à votre fichier @~/.gnupg/gpg.conf@ :
 

@@ -16,7 +16,7 @@ h2. Recommended clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Empathy -> http://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
+| [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
 | [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. Native Tor support. |
 | [[Pidgin]]   | Windows, GNU/Linux | *Yes*   | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Use most current version. |
 | [[Adium]] | Mac | *Yes* | No | *Yes* | *Yes* | Partial | Open source. Good native build of Pidgin for Mac, but rarely updates libpurple. DNS and URL hovering information leaks.|
@@ -30,7 +30,7 @@ table(table table-striped).
 | [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Written in Java. |
 | [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
 | [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
-| [[Spark -> http://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Anyone tried it? Written in Java. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Yes* | *Yes* | ? | ? | ? | Open source. Anyone tried it? Written in Java. |
 | iChat | Mac | No | No | ? | ? | ? | Apple's built-in chat application has support for jabber, but to a limited degree. |
 
 h2. Clients to avoid

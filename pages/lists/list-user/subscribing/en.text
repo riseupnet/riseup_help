@@ -12,7 +12,7 @@ If this doesn't work, then almost certainly the problem is that you sent the 'un
 
 This can happen if you have multiple email addresses (or aliases) for a single mail box. If possible, make sure the from address on your unsubscribe email matches the address you are subscribed with. If this is not possible, follow these steps:
 
-# login at http://lists.riseup.net using the address which is subscribed to the list. If you don't have a password, follow the links on that page to have one mailed to you.
+# login at https://lists.riseup.net using the address which is subscribed to the list. If you don't have a password, follow the links on that page to have one mailed to you.
 # once you are logged in, click "Your subscriptions" near the top of the page.
 # click the name of the list you want off.
 # click *Unsubscribe*
@@ -29,7 +29,7 @@ Make sure the account you send the mail from is the one you want subscribed to t
 
 If you are unable to send the confirmation email from the same address as you are subscribing with, you must use a different method. Follow these steps instead:
 
-# [[create a list account->http://lists.riseup.net/www/remindpasswd]]
+# [[create a list account->https://lists.riseup.net/www/remindpasswd]]
 # login
 # search for the list and open the list's home page.
 # click *Subscribe*
@@ -40,7 +40,7 @@ In 'digest' mode, you receive multiple posts to the list in one email instead of
 
 To switch to digest mode:
 
-* Login using your list account. If you don't have one, fill out the <a href="http://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+* Login using your list account. If you don't have one, fill out the <a href="https://lists.riseup.net/www/remindpasswd">password reminder form</a>.
 * Click *Your Subscriptions* at the top.
 * Click on the name of the list you want in digest mode.
 * Click on *My Options* on the left.
@@ -54,7 +54,7 @@ h2.  How do I switch to no-mail mode?
 Sometimes, you may want to be a member of a list, but not receive postings from the list. This could happen if you have multiple email addresses or perhaps you read the emails on the online archive. You can change your subscription status to "no-mail" by doing the following:
 
 * Login using your list account. If you don't have one, fill out the
- <a href="http://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+ <a href="https://lists.riseup.net/www/remindpasswd">password reminder form</a>.
 * Click *Your Subscriptions* at the top.
 * Click on the name of the list you want in digest mode.
 * Click on *My Options* on the left.

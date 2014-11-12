@@ -5,7 +5,7 @@
 
 h2. Καλωσήρθατε
 
-Καλωσήρθατε στη σελίδα βοήθειας για τις mailing lists σας στο riseup.net! Εδώ θα βρείτε πληροφορίες σχετικά με τις mailing lists που φιλοξενούνται στη διαδικτυακή διεύθυνση http://lists.riseup.net.
+Καλωσήρθατε στη σελίδα βοήθειας για τις mailing lists σας στο riseup.net! Εδώ θα βρείτε πληροφορίες σχετικά με τις mailing lists που φιλοξενούνται στη διαδικτυακή διεύθυνση https://lists.riseup.net.
 
 Αν χρειάζεστε βοήθεια για τον λογαριασμό email σας του riseup.net, τότε μεταβείτε στην σελίδα βοήθειας για τα [[email]]. Εάν η ερώτησή σας δεν απαντάται παρακάτω μπορείτε να χρησιμοποιήσετε την πλατφόρμα : "create a help ticket":https://user.riseup.net/forms.
 
@@ -27,4 +27,4 @@ h2. Δημοφιλέστερες ερωτήσεις μελών λίστας
 h2. Σχετικά με τις lists.riseup.net
 
 Η παροχή της υπηρεσίας lists.riseup.net καθίσταται εφικτή μόνο μέσω των συνεισφορών σας. Για αυτό, αν επιθυμείτε να συνεχίσει να είναι σε λειτουργία, σας παρακαλούμε [[Συνεισφέρετε => https://help.riseup.net/el/about-us/donate]].
-Οι lists.riseup.net χρησιμοποιούν "ελεύθερο":http://www.gnu.org/philosophy/free-sw.html λογισμικό, συμπεριλαμβανομένων του "sympa mailing list manager":http://www.sympa.org/, του "apache webserver":http://httpd.apache.org/, του "debian GNU/Linux":http://www.debian.org operating system και της γλώσσας προγραμματισμού "Perl":http://www.perl.org.
+Οι lists.riseup.net χρησιμοποιούν "ελεύθερο":https://www.gnu.org/philosophy/free-sw.html λογισμικό, συμπεριλαμβανομένων του "sympa mailing list manager":http://www.sympa.org/, του "apache webserver":https://httpd.apache.org/, του "debian GNU/Linux":https://www.debian.org operating system και της γλώσσας προγραμματισμού "Perl":http://www.perl.org.

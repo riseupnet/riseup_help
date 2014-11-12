@@ -12,7 +12,7 @@ h2. Introduction to OTR
 
 h2. Installing OTR
 
-In this tutorial, we will be using OTR with [[pidgin -> http://pidgin.im]]. Pidgin has the most mature implementation of OTR, and runs on Windows, Linux, and Mac.
+In this tutorial, we will be using OTR with [[pidgin -> https://pidgin.im]]. Pidgin has the most mature implementation of OTR, and runs on Windows, Linux, and Mac.
 
 h3. Linux
 
@@ -25,11 +25,11 @@ h3. Linux
 
 h3. Windows
 
-Visit http://pidgin.im/download
+Visit https://pidgin.im/download
 
 h3. Mac
 
-Pidgin can be run on the Mac, but it is much easier to run Adium instead. Adium is a native port of pidgin to the Mac OS. Download [[Adium -> http://adium.im]].
+Pidgin can be run on the Mac, but it is much easier to run Adium instead. Adium is a native port of pidgin to the Mac OS. Download [[Adium -> https://adium.im]].
 
 h2. Adding an Account to Pidgin
 

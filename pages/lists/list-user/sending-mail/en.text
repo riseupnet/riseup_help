@@ -33,7 +33,7 @@ It is possible to send HTML mail to riseup.net lists. But first, we ask you that
 
 * HTML email is *unnecessary*: Most mail clients will already convert well formed URLs. Here is an example:
 <code>
-   a webpage: http://help.riseup.net
+   a webpage: https://help.riseup.net
    an email address: listhelp@riseup.net
 </code>
 If you put this in a text-only email, most mail clients will convert these into clickable links.
@@ -54,7 +54,7 @@ h2.  Why don't I receive a copy of the emails that I post to the list?
 
 There are two possible reasons for this.  You may have your subscription options for the list set to not receive copies of your own posts.  To find out:
 
-# Go to [[https:://lists.riseup.net/]]
+# Go to [[https://lists.riseup.net/]]
 # Login with your email and password
 # Click on "Your subscriptions"
 # Click on the list at issue
@@ -75,8 +75,8 @@ h3. Spamassassin
 host lists.riseup.net[[204.13.164.55]] said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
 </pre>
 
-Riseup uses [[Spamassassin->http://spamassassin.apache.org/]] to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam.
-Check [[this page->http://wiki.apache.org/spamassassin/AvoidingFpsForSenders]] to see if you, or your ISP, can resolve the issue on your end before you contact us to report this issue.
+Riseup uses [[Spamassassin->https://spamassassin.apache.org/]] to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam.
+Check [[this page->https://wiki.apache.org/spamassassin/AvoidingFpsForSenders]] to see if you, or your ISP, can resolve the issue on your end before you contact us to report this issue.
 
 h3. My mail server has "bad MX records"
 
