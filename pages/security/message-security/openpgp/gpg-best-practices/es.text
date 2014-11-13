@@ -121,7 +121,7 @@ pre. $ hkt export-pubkeys <fingerprint> | hokey lint
 
 h2. Asegúrate de que tu llave es OpenPGPv4
 
-De acuerdo con el [[RFC4880 -> http://tools.ietf.org/html/rfc4880]]: “Las llaves V3 están ya desaprobadas (deprecated), contienen 3 vulnerabilidades. Primero, es relativamente fácil construir una llave V3 que tenga el mismo ID que otra llave porque el ID de la llave son simplemente los 64 bits del módulo público. Segundo porque la huella digital de una llave V3 hace las funciones de digest del material de la llave pero no de su extensión, por lo que hay una mayor oportunidad para colisiones de huellas digitales. Tercero, hay puntos débiles en el algoritmo MD5 que hace que los desarrolladores prefieran otros algoritmos. Ver abajo la discusión sobre ID's de llaves y huellas digitales.
+De acuerdo con el [[RFC4880 -> https://tools.ietf.org/html/rfc4880]]: “Las llaves V3 están ya desaprobadas (deprecated), contienen 3 vulnerabilidades. Primero, es relativamente fácil construir una llave V3 que tenga el mismo ID que otra llave porque el ID de la llave son simplemente los 64 bits del módulo público. Segundo porque la huella digital de una llave V3 hace las funciones de digest del material de la llave pero no de su extensión, por lo que hay una mayor oportunidad para colisiones de huellas digitales. Tercero, hay puntos débiles en el algoritmo MD5 que hace que los desarrolladores prefieran otros algoritmos. Ver abajo la discusión sobre ID's de llaves y huellas digitales.
 
 Para determinar si tu llave es una llave V3 puedes hacer lo siguiente:
 
@@ -147,7 +147,7 @@ Puedes revisar esto con:
 
 pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
 
-Si ves que se genera algún resultado ‘digest algo 1’, entonces tienes algunas auto-firmas que están usando MD5, ya que el algoritmo digest 1 es MD5. Ve el OpenPGP [[RFC 4880, section 9.4 (EN) -> http://tools.ietf.org/html/rfc4880#section-9.4]] que tiene una tabla que mapea algoritmos hash a números. 
+Si ves que se genera algún resultado ‘digest algo 1’, entonces tienes algunas auto-firmas que están usando MD5, ya que el algoritmo digest 1 es MD5. Ve el OpenPGP [[RFC 4880, section 9.4 (EN) -> https://tools.ietf.org/html/rfc4880#section-9.4]] que tiene una tabla que mapea algoritmos hash a números. 
 
 Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
 

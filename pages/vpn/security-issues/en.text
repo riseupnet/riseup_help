@@ -9,7 +9,7 @@ We keep very few logs and do not track any DNS requests or traffic of the VPN, b
 
 h2. Man-in-the-middle attacks
 
-A "Man-in-the-middle attack":http://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) is where the attacker is able to listen and/or modify your network traffic. Such an attack can be used to de-anonymize you, modify content, steal your passwords, or serve you viruses, trojans or other software designed to gain access to your computer.
+A "Man-in-the-middle attack":https://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) is where the attacker is able to listen and/or modify your network traffic. Such an attack can be used to de-anonymize you, modify content, steal your passwords, or serve you viruses, trojans or other software designed to gain access to your computer.
 
 Every internet connection is vulnerable to a MiTM attack because of the broken nature of how the internet works. By tricking the routing protocol used by the internet, most any traffic is vulnerable to a MITM attack from anywhere in the world. Although this vulnerability has been know about for years, [[researchers dramatically demonstrated -> /assets/43591/defcon-16-pilosov-kapela.pdf]] such an attack at the hacker conference DEFCON in August of 2008.
 
@@ -23,11 +23,11 @@ For example, in January 2011 the Tunisian government, in fear of the popular upr
 
 h2. PPTP and LT2P
 
-PPTP and LT2P have been disabled because of "vulnerabilities":http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
+PPTP and LT2P have been disabled because of "vulnerabilities":https://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
 
 bq. While the PPTP protocol has the advantage of a pre-installed client base on Windows platforms, analysis by cryptography experts has revealed security vulnerabilities. (openvpn.net)
 
-"Bruce Schneier analysed PPTP weaknesses":https://www.schneier.com/pptp.html for years and Moxie Marlinspike's "ChapCrack":https://github.com/moxie0/chapcrack is able to "drop PPTP encryption":http://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
+"Bruce Schneier analysed PPTP weaknesses":https://www.schneier.com/pptp.html for years and Moxie Marlinspike's "ChapCrack":https://github.com/moxie0/chapcrack is able to "drop PPTP encryption":https://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
 
 h2. WPA2 flaws
 

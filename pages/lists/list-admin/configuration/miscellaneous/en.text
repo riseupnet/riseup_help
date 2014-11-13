@@ -11,7 +11,7 @@ If set, the remind task will send a message to all list members reminding them o
 
 h2.  email address protection method
 
-These options determine what method is used to protect email addresses in the list archives so that they cannot be recognized by [[email harvesting web spider->http://en.wikipedia.org/wiki/Web_crawler]].
+These options determine what method is used to protect email addresses in the list archives so that they cannot be recognized by [[email harvesting web spider->https://en.wikipedia.org/wiki/Web_crawler]].
 
 The choices are:
 

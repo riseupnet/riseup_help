@@ -5,7 +5,7 @@
 
 h2. Welcome
 
-Welcome to riseup.net *mailing list help*! Here you will find information regarding mailing lists hosted at http://lists.riseup.net.
+Welcome to riseup.net *mailing list help*! Here you will find information regarding mailing lists hosted at https://lists.riseup.net.
 
 For help with riseup.net email accounts, check the [[email]] help pages instead. If your question is not answered here, "create a help ticket":https://user.riseup.net/forms.
 
@@ -26,6 +26,6 @@ h2. Top questions for list subscribers
 
 h2. About lists.riseup.net
 
-http://lists.riseup.net is only made possible through your donations. So if you want to keep us running, please [[donate]]!
+https://lists.riseup.net is only made possible through your donations. So if you want to keep us running, please [[donate]]!
 
-http://lists.riseup.net uses all "free":http://www.gnu.org/philosophy/free-sw.html software, including the "sympa mailing list manager":http://www.sympa.org/, the "apache webserver":http://httpd.apache.org/, "debian GNU/Linux":http://www.debian.org operating system, and the "Perl":http://www.perl.org programming language.
+https://lists.riseup.net uses all "free":https://www.gnu.org/philosophy/free-sw.html software, including the "sympa mailing list manager":http://www.sympa.org/, the "apache webserver":https://httpd.apache.org/, "debian GNU/Linux":https://www.debian.org operating system, and the "Perl":http://www.perl.org programming language.

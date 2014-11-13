@@ -22,7 +22,7 @@ h3.  Changing owners
 
 To change the owner of the list, follow these steps:
 
-# Create a new "list account" for your new email address. New list accounts can be created <a href="http://lists.riseup.net/www/renewpasswd">here</a>.
+# Create a new "list account" for your new email address. New list accounts can be created <a href="https://lists.riseup.net/www/renewpasswd">here</a>.
 # Login as the *existing* owner.
 # Add the new email address as an additional owner of the list (see 'Adding owners' above).
 # Logout and log back in as the new owner.

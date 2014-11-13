@@ -18,7 +18,7 @@ It is a good sign the that three major web browsers are thinking about behavior 
 
 As it happens, the Riseup birds are also thinking about ways to block behavior tracking. One method is to use the new RiseupVPN service that we are currently beta-testing. If you want to help test it, and you are a windows, mac, linux, or android programmer and you want to help with making the clients easy to use, send mail to vpn@riseup.net.
 
-fn1. http://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/
+fn1. https://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/
 
 fn2. http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html
 
@@ -31,7 +31,7 @@ fn5. "Microsoft Quashed Effort To Boost Online Privacy":WSJ-2010-Microsoft-Quash
 
 h2. On passwords and antifascists
 
-If you are in Germany, you probably heard wild reports about riseup.net getting "hacked" (http://linksunten.indymedia.org/de/node/32436) by a German antifa activist in order to prove a point about lax security practice among antifa activists.
+If you are in Germany, you probably heard wild reports about riseup.net getting "hacked" (https://linksunten.indymedia.org/de/node/32436) by a German antifa activist in order to prove a point about lax security practice among antifa activists.
 
 Head for the hills! Throw away your computers! Or... maybe not. In truth, none of our systems were compromised, but the attacker was able to acquire the passwords of antifa activists by various methods:
 

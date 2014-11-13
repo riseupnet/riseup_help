@@ -152,7 +152,7 @@ In der Ausgabe werden eventuelle Probleme im Zusammenhang mit Deinem Schlüssel 
 
 h4. Vergewissere Dich, dass Dein Schlüssel OpenPGPv4 ist
 
-In [[RFC4880 -> http://tools.ietf.org/html/rfc4880]] heißt es: "V3 Schlüssel sind veraltet. Sie enthalten drei Schwächen. Erstens ist es relativ einfach einen V3 Schlüssel zu erzeugen, der die selbe Schlüssel-ID wie ein beliebiger anderer Schlüssel hat, weil die Schlüssel-ID lediglich aus den letzten 64 bit des öffentlichen Moduls besteht. Zweitens, weil der Fingerabdruck eines V3 Schlüssels zwar das Schlüsselmaterial in die Prüfsumme einbezieht, nicht aber dessen Länge, gibt es eine erhöhte die Wahrscheinlichkeit von Fingerabdruckkollisionen. Drittens gibt es Schwächen im MD5 Hashalgorithmus, die dazu geführt haben, dass Entwickler andere Algorithmen bevorzugen. Siehe unten für eine ausführlichere Diskussion von Schlüssel-IDs und Fingerabdrücken."
+In [[RFC4880 -> https://tools.ietf.org/html/rfc4880]] heißt es: "V3 Schlüssel sind veraltet. Sie enthalten drei Schwächen. Erstens ist es relativ einfach einen V3 Schlüssel zu erzeugen, der die selbe Schlüssel-ID wie ein beliebiger anderer Schlüssel hat, weil die Schlüssel-ID lediglich aus den letzten 64 bit des öffentlichen Moduls besteht. Zweitens, weil der Fingerabdruck eines V3 Schlüssels zwar das Schlüsselmaterial in die Prüfsumme einbezieht, nicht aber dessen Länge, gibt es eine erhöhte die Wahrscheinlichkeit von Fingerabdruckkollisionen. Drittens gibt es Schwächen im MD5 Hashalgorithmus, die dazu geführt haben, dass Entwickler andere Algorithmen bevorzugen. Siehe unten für eine ausführlichere Diskussion von Schlüssel-IDs und Fingerabdrücken."
 
 Um festzustellen, ob Dein Schlüssel ein V3-Schlüssel ist, kannst Du folgendes eingeben:
 
@@ -178,7 +178,7 @@ Das kannst Du folgendermaßen überprüfen:
 
 pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
 
-Wenn die Ausgabe 'digest algo 1' enthält, dann enthält Dein Schlüssel Eigensignaturen, die MD5 verwenden, denn MD5 ist Hashalgorithmus 1. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle der Hashalgorithmen und Nummern.
+Wenn die Ausgabe 'digest algo 1' enthält, dann enthält Dein Schlüssel Eigensignaturen, die MD5 verwenden, denn MD5 ist Hashalgorithmus 1. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle der Hashalgorithmen und Nummern.
 
 Um dieses Problem zu beheben, solltest Du zuerst folgende Änderung an Deiner @~/.gnupg/gpg.conf@ vornehmen:
 
@@ -192,7 +192,7 @@ h4. Eigensignaturen sollten nicht nur SHA1 verwenden
 
 pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
 
-Wenn die Ausgabe 'digest algo 2' enthält, dann enthält Dein Schlüssel Eigensignaturen, die SHA1 verwenden, denn SHA1 ist Hashalgorithmus 2. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> http://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle, der Hashalgorithmen und Nummern.
+Wenn die Ausgabe 'digest algo 2' enthält, dann enthält Dein Schlüssel Eigensignaturen, die SHA1 verwenden, denn SHA1 ist Hashalgorithmus 2. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle, der Hashalgorithmen und Nummern.
 
 Um dieses Problem zu beheben, solltest Du zuerst folgende Änderung an Deiner @~/.gnupg/gpg.conf@ vornehmen:
 

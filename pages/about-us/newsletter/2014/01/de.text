@@ -6,7 +6,7 @@ h2. Bericht von Riseup
 Wir haben einiges umgebaut, um alte Server loszuwerden, auf denen interne Infrastruktur lief. Einiges haben wir aktualisiert und jetzt läuft unsere 'nest'-Anwendung für user.riseup.net auf ruby 1.9, und die funktioniert prima.
 
 Wir haben an der physischen Sicherheit gearbeitet, bessere Schlösser an unseren Schränken installiert und ähnliches.
-Und wir haben uns Sorgen wegen der ganzen Sache mit Lavabit gemacht -- http://de.wikipedia.org/wiki/Lavabit -- und warteten darauf, die nächsten zu sein.
+Und wir haben uns Sorgen wegen der ganzen Sache mit Lavabit gemacht -- https://de.wikipedia.org/wiki/Lavabit -- und warteten darauf, die nächsten zu sein.
 
 Allerdings erhielten wir keine geheimen Befehle, oder nicht geheime, irgendetwas zu tun. Das bedeutet entweder,
 

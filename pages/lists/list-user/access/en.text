@@ -11,7 +11,7 @@ h2.  Why can't I view the list archives?
 
 There are several reasons why you might not be able to view the archives:
 
-* You have disabled cookies: In order to prevent <a href="http://www.neilgunton.com/spambot_trap/">email harvesting spambots</a>, Sympa requires a cookie in order to view the archives. If you see the button 'I am not a spammer' every time you try to view an archive, then you need to enable cookies.
+* You have disabled cookies: In order to prevent <a href="https://www.neilgunton.com/spambot_trap/">email harvesting spambots</a>, Sympa requires a cookie in order to view the archives. If you see the button 'I am not a spammer' every time you try to view an archive, then you need to enable cookies.
 * You are not logged in: By default, most list archives are available only to list subscribers (members). This means that you must identify yourself as a list subscriber by logging in before you can view the archives. This is probably the case if you go to the list page and the 'archive' link is not clickable.
 * The list archives are closed: The owner of a list might have decided to prevent anyone from viewing the list archives.
 * The archives are broken: once is a while, a list's archives will get totally tweaked. Usually, rebuilding them will make them visible again.

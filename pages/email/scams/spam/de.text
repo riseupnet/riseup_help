@@ -15,14 +15,14 @@ There are a couple things you can do to cut down on spam:
 * *create a Spam folder:* If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
 * *create a temporary disposable alias:* A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at [user.riseup.net->https://user.riseup.net/].
 * *use a mail client:* Most mail clients these days have some form of spam filtering built in. We suggest [thunderbird->thunderbird].
-* *change your email address:* If you really want to cut down on spam, you can simply [rename your account->http://help.riseup.net/mail/spam/mail-accounts/#how_do_i_change_my_username]. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
+* *change your email address:* If you really want to cut down on spam, you can simply [rename your account->https://help.riseup.net/mail/spam/mail-accounts/#how_do_i_change_my_username]. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
 
 h1. How riseup.net fights spam
 
 Our crack team of spam fighters has erected three layers of spam defense:
 
 * *Realtime Block Lists*: Realtime Block Lists (RBLs) are frequently updated lists of computers which are known to send spam. We use these lists to block email from those spammers. If you try to send an email to riseup.net and it gets rejected because of an RBL, you will see a link in the rejection notice which will lead you to a website with details about the reason for the listing in an RBL. There are good RBLs and bad RBLs: we only use the most reputable ones.
-* *Spamassassin*: Riseup uses [spamassassin->http://spamassassin.apache.org/] to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
+* *Spamassassin*: Riseup uses [spamassassin->https://spamassassin.apache.org/] to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
 * *Customizable Spam* Filtering: As our final line of defense, we allow you to customize the spam settings for your account. If the statistical filter is also turned on, it will learn and adapt over time based. For more information, see below.
 
 h1. Why is email to me being blocked as spam?
@@ -37,7 +37,7 @@ h3. Spamassassin
 host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
 </blockquote>
 
-Riseup uses [Spamassassin->http://spamassassin.apache.org/] to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check [this page->http://wiki.apache.org/spamassassin/AvoidingFpsForSenders] to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
+Riseup uses [Spamassassin->https://spamassassin.apache.org/] to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check [this page->https://wiki.apache.org/spamassassin/AvoidingFpsForSenders] to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
 
 h3. My mail server has "bad MX records"
 

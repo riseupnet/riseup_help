@@ -36,7 +36,7 @@ h3. Firefox
 
 Essential:
 
-* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "Adblock Plus":https://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
 * "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
 * "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
 
@@ -55,7 +55,7 @@ h3. Chrome
 
 Essential:
 
-* "Adblock Plus":http://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
+* "Adblock Plus":https://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
 * "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
 
 You might also want to consider:

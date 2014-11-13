@@ -68,7 +68,7 @@ h2.  What is the maximum size for list email?
 
 The maximum email size is restricted to 500k. If you need, we might be able to raise the limit, although probably not. There are many reasons to limit the size of list email:
 
-* First and foremost, large attachments are not needed because you can create a "shared web space." Shared web spaces allow a list subscriber to upload a file using their web browser. When you send out an email, include the URL of the file in the shared web space (an example URL might be http://lists.riseup.net/www/d_read/newsletter/readme.txt). Other subscribers can then download the file using their web browser (some lists restrict uploading to editors, depending on how permissions are set up).
+* First and foremost, large attachments are not needed because you can create a "shared web space." Shared web spaces allow a list subscriber to upload a file using their web browser. When you send out an email, include the URL of the file in the shared web space (an example URL might be https://lists.riseup.net/www/d_read/newsletter/readme.txt). Other subscribers can then download the file using their web browser (some lists restrict uploading to editors, depending on how permissions are set up).
 
 * Typically, a large attachment will not be relevant for every member of the list. Only those people who are interested in the attachment should have to spend the time to download it.
 
@@ -154,7 +154,7 @@ Q: </i>I am converting a list from another list provider. Is it possible to simp
 
 A: Yes, you can mass subscribe people to your list.
 
-# Go to the info page for your list. If your list was call <i>mylist</i>, your list info page is http://lists.riseup.net/www/info/mylist
+# Go to the info page for your list. If your list was call <i>mylist</i>, your list info page is https://lists.riseup.net/www/info/mylist
 # Click on 'Members'
 # Click on 'Multiple add'
 # Paste in a list of the addresses you want subscribed, one per line.
