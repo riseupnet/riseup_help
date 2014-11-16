@@ -39,6 +39,8 @@ Lade die Installationsdatei für die jeweilige Architektur herunter und speicher
 (LANG ist die Sprache, die im Dateinamen angegeben ist)
 Um Tor zu starten einfach das Skript `start-tor-browser`im gerade extrahierten Ordner per Doppelklick oder Kommandozeile starten. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
 
+Linux-Anwender könnten Sie auch interessieren: [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Dieses Skript sorgt für Ihr Tor Browser Bundle ist auf dem neuesten Stand gehalten wird.
+
 *Entpacke TBB nicht als root.*
 
 

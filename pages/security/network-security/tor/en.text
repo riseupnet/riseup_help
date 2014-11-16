@@ -35,6 +35,8 @@ Download the architecture-appropriate file above, save it somewhere. To extract 
 
 (where LANG is the language listed in the filename), and either double click on the directory or cd into it, then execute the start-tor-browser script. This will launch Vidalia and once that connects to Tor, it will launch Firefox. Do not unpack or run TBB as root.
 
+Linux users might also be interested in [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. This script ensures your Tor Browser Bundle is kept up to date. 
+
 h2. Using Tor
 
 Once extraction is complete, open the folder Tor Browser from the location you saved the bundle. Double click on the Start Tor Browser (4) application (it may be called Start Tor Browser.exe on some systems) The Vidalia window will shortly appear.
