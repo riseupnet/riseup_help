@@ -5,7 +5,7 @@
 
 h2. 欢迎辞
 
-欢迎来到 riseup.net *邮件列表帮助*！在这里你能够找到有关托管在http://lists.riseup.net邮件列表的信息。
+欢迎来到 riseup.net *邮件列表帮助*！在这里你能够找到有关托管在https://lists.riseup.net邮件列表的信息。
 
 关于电子邮件账户的帮助，请查看 [[email]]帮助页面。如果您的问题在这里没有被答复，“创建一个求助标签”：https://user.riseup.net/forms。
 
@@ -26,6 +26,6 @@ h2. 列表用户的热门问题
 
 h2. 关于 lists.riseup.net
 
-http://lists.riseup.net只通过您的捐赠，来实现运转。如果您希望我们保持运行，请 [[donate]]!
+https://lists.riseup.net只通过您的捐赠，来实现运转。如果您希望我们保持运行，请 [[donate]]!
 
-http://lists.riseup.net使用所有的“免费”：http://www.gnu.org/philosophy/free-sw.html 软件，包括“sympa mailing list manager”：http://www.sympa.org/，“apache webserver”：http://httpd.apache.org/，“debian GNU/Linux”：http://www.debian.org operating system和“Perl”：http://www.perl.org programming language。
+https://lists.riseup.net使用所有的“免费”：https://www.gnu.org/philosophy/free-sw.html 软件，包括“sympa mailing list manager”：http://www.sympa.org/，“apache webserver”：https://httpd.apache.org/，“debian GNU/Linux”：https://www.debian.org operating system和“Perl”：http://www.perl.org programming language。

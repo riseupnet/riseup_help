@@ -4,7 +4,7 @@ This guide will show you how to generate a new MAC address every time you connec
 
 h1. What is a MAC address?
 
-A [[MAC (Media Access Control) address->http://en.wikipedia.org/wiki/Mac_address]] is a unique address present in all networking hardware.  It identifies the specific network card (and thus, if you don't change network cards very often, your computer) you use to connect to a computer network.  It's similar to an IP address in its ability to uniquely identify you, but more directly tied to the hardware you're using.
+A [[MAC (Media Access Control) address->https://en.wikipedia.org/wiki/Mac_address]] is a unique address present in all networking hardware.  It identifies the specific network card (and thus, if you don't change network cards very often, your computer) you use to connect to a computer network.  It's similar to an IP address in its ability to uniquely identify you, but more directly tied to the hardware you're using.
 
 h1. Why randomize your MAC address?
 

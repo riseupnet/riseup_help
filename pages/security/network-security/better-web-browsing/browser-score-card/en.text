@@ -23,7 +23,7 @@ As more people block cookies, a huge number of websites have switched to trackin
 There are three methods of opting out of behavioral tracking:
 
 * Do Not Track HTTP header: The "Do Not Track" header tells websites that you don't want to be tracked. It is a good idea, but is not supported yet by any advertisers, and my never be. Currently, Firefox 4 and Internet Explorer 9 have optional support for the Do Not Track header.
-* Tracking Protection Lists: Browsers with "Tracking Protection Lists" allow you to subscribe to a list of companies that will be blocked. This is a great method, because it works today and allows you to effectively block almost all tracking. Support for Tracking Protection Lists is built into Internet Explorer 9 and can be added to Firefox and Chrome by using the [[Adblock Plus extension -> http://adblockplus.org/en/]],
+* Tracking Protection Lists: Browsers with "Tracking Protection Lists" allow you to subscribe to a list of companies that will be blocked. This is a great method, because it works today and allows you to effectively block almost all tracking. Support for Tracking Protection Lists is built into Internet Explorer 9 and can be added to Firefox and Chrome by using the [[Adblock Plus extension -> https://adblockplus.org/en/]],
 * Opt-out cookies: Opt-out cookies are a system pushed by the advertising industry. This method has many flaws, and has been shown by researchers to be only marginally respected by advertisers. Advertisers allow you to set special cookies to tell them you don't want to be tracked. These cookies can be easily deleted, however. So some browser extensions will allow you to keep these cookies once set (as with Chrome) or to automatically set them (as with Beef TACO for Firefox).
 
 h3. Scorecard Notes
@@ -44,13 +44,13 @@ Version 9 of Internet Explorer is much better than all the previous versions.
 
 Chrome
 
-* Tracking Opt-out: [[Announced in early 2011 -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], Chrome will allow users to set a special "opt-out" cookie that is recognized by members of [[Network Advertising Initiative -> http://www.networkadvertising.org/managing/opt_out.asp]]. This method is nearly useless. [[One report found -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]] that the NAI cookie did not work consistently, ignored new ways of profiling and tracking, does not include a majority of industry groups, and lacks transparency. The report concludes that "the only success of the NAI has been lulling regulators into thinking that self-regulation fairly and effectively addresses the interests of consumers who are the targets of behavioral advertising."
+* Tracking Opt-out: [[Announced in early 2011 -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], Chrome will allow users to set a special "opt-out" cookie that is recognized by members of [[Network Advertising Initiative -> https://www.networkadvertising.org/managing/opt_out.asp]]. This method is nearly useless. [[One report found -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]] that the NAI cookie did not work consistently, ignored new ways of profiling and tracking, does not include a majority of industry groups, and lacks transparency. The report concludes that "the only success of the NAI has been lulling regulators into thinking that self-regulation fairly and effectively addresses the interests of consumers who are the targets of behavioral advertising."
 * Cookie tracking: the way that Chromium allows users to control cookies is fairly advanced. You can block all cookies and selectively (through a context-menu that pops up in the URL) enable certain domains as you see fit. You can also directly see which cookies are set for the site you are visiting in that dialog. Also, when you set your config to "ask first", you get the confirmation dialogs one at a time instead of all at once as it is in Firefox.
 * Flash cookies: Chrome does the right thing and cleans up flash cookies whenever you clear cookies.
 
 Safari
 
-* Third-party cookies: Safari wins as the [[only browser to disable third-party cookies by default -> http://www.grc.com/cookies/stats.htm]].
+* Third-party cookies: Safari wins as the [[only browser to disable third-party cookies by default -> https://www.grc.com/cookies/stats.htm]].
 * Other: Safari deserves bonus points for being the only browser immune to history harvesting.
 * Tracking Opt-out: At this time, I don't think there is any planned.
 

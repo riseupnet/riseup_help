@@ -12,7 +12,7 @@ h2. Using GNOME's GUI frontend: Seahorse
 
 h3. What is Seahorse?
 
-"Seahorse":http://en.wikipedia.org/wiki/Seahorse_(software) is a GUI tool for creating and managing OpenPGP keys, securely storing passwords, and creating and managing SSH certificates. It uses GPG as the back-end OpenPGP implementation.
+"Seahorse":https://en.wikipedia.org/wiki/Seahorse_(software) is a GUI tool for creating and managing OpenPGP keys, securely storing passwords, and creating and managing SSH certificates. It uses GPG as the back-end OpenPGP implementation.
 
 h3. Create and Export an OpenPGP Public/Private Key pair
 # Launch Seahorse. It should be installed by default.
@@ -196,8 +196,8 @@ h2. Install Gpg4win
 # Select the language you'll be using.
 # You'll be greeted by the welcome screen. Press **Next** to continue.
 !img/gpg4win1-install-welcome.gif!
-# Next, you'll be asked to agree to the [GNU General Public License->http://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->http://www.gnu.org/licenses/gpl.html]. If you accept, press **Next**.
-# Choose the components you want to install. The default options are recommended. [Claws-Mail->http://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+# Next, you'll be asked to agree to the [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->https://www.gnu.org/licenses/gpl.html]. If you accept, press **Next**.
+# Choose the components you want to install. The default options are recommended. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
 !img/gpg4win2-components.gif!
 # Select the install folder (the default is recommended).
 # Choose what shortcuts to create.
@@ -263,4 +263,4 @@ h1. Mac OS X
 It is **not recommended** to use Mac OS X as a secure communication platform. While there are fewer exploits and a better security model than windows, OS X has demonstrated a poor security patch speed in the past and has a large quantity of proprietary software and packaging, making it not capable of scrutiny for efects, back doors, or anything that "phones home". Furthermore, it offers features that can be exploited by hackers or abused by governments or corporations. Some bullet points about OS X security:
 * Relies on a lot of proprietary software that can't be modified or scrutinized by you
 * The webcam can be remotely turned on, offered as a "feature" if the laptop gets stolen, which could be abused or exploited to violate your privacy
-* Filesystem not encrypted by default and the primary tool available "may have inadequate security":http://en.wikipedia.org/wiki/FileVault#Criticism.
+* Filesystem not encrypted by default and the primary tool available "may have inadequate security":https://en.wikipedia.org/wiki/FileVault#Criticism.

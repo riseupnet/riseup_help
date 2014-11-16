@@ -32,7 +32,7 @@ If you do not wish your list to have any archives, please contact us directly.
 
 h2. Email Address Protection
 
-By default, sympa tries to make protect email addresses in the list archives so that they cannot be recognized by "email harvesting web spiders":http://en.wikipedia.org/wiki/Web_crawler.
+By default, sympa tries to make protect email addresses in the list archives so that they cannot be recognized by "email harvesting web spiders":https://en.wikipedia.org/wiki/Web_crawler.
 
 This option is under:
 

@@ -2,9 +2,9 @@
 
 h2. Evolution是什么？
 
-“Evolution”：http://en.wikipedia.org/wiki/Evolution_software 是“GNOME桌面环境”：http://en.wikipedia.org/wiki/GNOME 上的官方个人信息管理器和邮件客户端。它是基于GPL协议的自由开源软件。
+“Evolution”：https://en.wikipedia.org/wiki/Evolution_software 是“GNOME桌面环境”：https://en.wikipedia.org/wiki/GNOME 上的官方个人信息管理器和邮件客户端。它是基于GPL协议的自由开源软件。
 
-通常情况下，在Linux系统上，它随同 GNOME桌面环境一起发布，可以在使用安装了 GNOME的Linux发行版获取，比如["Ubuntu":http://en.wikipedia.org/wiki/Ubuntu_(operating_system)]，或者通过您的经销商的“包管理器”：http://en.wikipedia.org/wiki/Package_manager获取。 Evolution也可以在“Windows上获取”: http://www.dipconsultants.com/evolution/download.htm。
+通常情况下，在Linux系统上，它随同 GNOME桌面环境一起发布，可以在使用安装了 GNOME的Linux发行版获取，比如["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu_(operating_system)]，或者通过您的经销商的“包管理器”：https://en.wikipedia.org/wiki/Package_manager获取。 Evolution也可以在“Windows上获取”: http://www.dipconsultants.com/evolution/download.htm。
 
 Evolution包含对电子邮件、日历、地址簿、联系人和 GPG加密的支持。
 

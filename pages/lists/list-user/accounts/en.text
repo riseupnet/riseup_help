@@ -4,7 +4,7 @@ h2.  How do I create an account?
 
 To create a list account all you have to do is subscribe to a list. To subscribe, send mail to <b>listname-subscribe@lists.riseup.net</b>, where <i>listname</i> is the name of the list you want to subscribe to.
 
-Alternately, you can fill out the [[account creation form->http://lists.riseup.net/www/renewpasswd]].
+Alternately, you can fill out the [[account creation form->https://lists.riseup.net/www/renewpasswd]].
 
 When you create an account, Sympa (the mail list software we use) creates a random password and mails it to your email address. This prevents others from subscribing you without your permission and verifies that your address is real. You should change the random password as soon as possible to a password which you can remember.
 
@@ -16,11 +16,11 @@ Login using your full email address and password, then click the _Preferences_ l
 
 h2.  I forgot my password!
 
-Fill out the [[password reminder form->http://lists.riseup.net/www/renewpasswd]]. Your password will be sent to the email address you specify.
+Fill out the [[password reminder form->https://lists.riseup.net/www/renewpasswd]]. Your password will be sent to the email address you specify.
 
 h2.  I don't have a password!
 
-If someone else subscribed you to a list, it is possible that you do not have a password. Fill out the [[new password form->http://lists.riseup.net/www/renewpasswd]]. A temporary password will be sent to the email address you specify, along with directions for changing it.
+If someone else subscribed you to a list, it is possible that you do not have a password. Fill out the [[new password form->https://lists.riseup.net/www/renewpasswd]]. A temporary password will be sent to the email address you specify, along with directions for changing it.
 
 h2.  How do I change my subscription address?
 

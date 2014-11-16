@@ -1,19 +1,19 @@
 @title = 'Tor'
 @summary = 'The Onion Router'
 
-Wilkommen in der aufregenden Welt von Tor! Diese Seite hilft Dir, Tor in möglichst wenigen Schritten zum Laufen zu bringen. Alles, was Du im Moment wissen musst, ist dass [[Tor->https://torproject.org]] ein großartiges Werkzeug für Anonymität und Online-Privatssphäre ist.
+Wilkommen in der aufregenden Welt von Tor! Diese Seite hilft Dir, Tor in möglichst wenigen Schritten zum Laufen zu bringen. Alles, was Du im Moment wissen musst, ist dass [[Tor->https://torproject.org]] ein großartiges Werkzeug für Anonymität und Online-Privatsphäre ist.
 
 
 h2. Tor installieren
 
-Der erste Schritt ist, Tor herunter zu laden. Das Tor-Projekt bietet einige Pakete zum Herunterladen an. Beginne mit dem [[“Tor Browser Bundle”->https://torproject.org/download/download.html.en]] als Betriebssystem.
+Der erste Schritt ist, Tor herunter zu laden. Das Tor-Projekt bietet einige Pakete zum Herunterladen an. Beginne mit dem [[“Tor Browser Bundle”->https://torproject.org/download/download.html.en]] für dein Betriebssystem.
 
 Anschließend folge unten stehender Anleitung, je nach dem, welches System Du benutzt.
 
 
 h3. Windows-Anleitung
 
-Nach dem Herunterladen des Tor Browser Bundle, doppelklicke darauf und führe es aus. Klicke auf den Knopf mit der Aufschrift "..." (1) und wähle, wohin das Paket installiert werden soll und klicke OK (2). Es werden mindestens 50 MB freier Speicher benötigt. Wenn es auf dem Computer bleiben soll, ist der Desktop ein guter Ort. Wenn Du es auf einen anderen Computer verschieben willst, um Spuren zu vermeiden, speichere es auf einen USB-Stick. Danach klicke 'entpacken' (3). Das kann einige Minuten dauern.
+Nach dem Herunterladen des Tor Browser Bundle, doppelklicke darauf und führe es aus. Klicke auf die Schaltfläche mit der Aufschrift "..." (1) und wähle, wohin das Paket installiert werden soll und klicke OK (2). Es werden mindestens 50 MB freier Speicher benötigt. Wenn es auf dem Computer bleiben soll, ist der Desktop ein guter Ort. Wenn Du es auf einen anderen Computer verschieben willst, um Spuren zu vermeiden, speichere es auf einem USB-Stick. Klicke danach auf 'entpacken' (3). Das kann einige Minuten dauern.
 
 !tbb-screenshot1.jpg!
 
@@ -31,7 +31,7 @@ Siehe [[Tor benutzen -> #tor-benutzen]].
 
 h3. Linux
 
-Lade die Installationsdatei für die jeweilige Architektur herunter, speichere die Datei an einem beliebigen Ort. Extrahiere die Dateien mit dem Archivmanager (oder Ark, Xarchiver) oder über die Kommandozeile mit diesen Befehlen:
+Lade die Installationsdatei für die jeweilige Architektur herunter und speichere die Datei an einem beliebigen Ort. Extrahiere die Dateien mit dem Archivmanager (oder Ark, Xarchiver) oder über die Kommandozeile mit diesen Befehlen:
 
 * Für 32-bit Linux: <code>tar -xvzf tor-browser-linux32-4.0_LANG.tar.gz</code>
 * Für 64-bit Linux: <code>tar -xvzf tor-browser-linux64-4.0_LANG.tar.gz</code>
@@ -50,7 +50,7 @@ Sobald das Entpacken fertig ist, öffne den Ordner Tor Browser, wohin Du das Pak
 
 Sobald Tor bereit ist, wird Firefox geöffnet. Nur Webseiten, die mit dem beinhalteten Firefox-Browser geöffnet werden, werden via Tor übertragen. Andere Browser wie der Internet Explorer bleiben unbehelligt. *Stelle sicher*, dass es am rechten unteren Rand "Tor aktiviert" (5) anzeigt, bevor Du es benutzt. Um das Risiko der Verwirrung zu vermeiden, benutze den normalen Firefox nicht während Tor benutzt wird und beende existierende Firefox-Fenster vor dem Starten.
 
-Sobald Du fertig bist mit Browsen, schließe alle Firefox-Fenster durch Klicken auf das 'X' (6). Zum Schutz der Privatssphäre werden der Verlauf und alle Cookies gelöscht.
+Sobald Du fertig bist mit Browsen, schließe alle Firefox-Fenster durch Klicken auf das 'X' (6). Zum Schutz der Privatssphäre werden alle Cookies und der Verlauf gelöscht.
 
 !tbb-screenshot3a.jpg!
 
@@ -58,11 +58,14 @@ Mit dem Tor Browser Bundle, werden Vidalia und Tor automatisch geschlossen.
 
 h2. Riseups versteckte Tor-Dienste
 
-Tor macht es möglich, dass nicht nur Nutzer*innen ihren Ort verbergen, sondern auch Server. Du kannst Riseups Dienste via [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]]-Adressen erreichen. Immer wenn Du eine URL wie @http://xyvp43vrggckj427.onion@ siehst, ist das ein versteckter Tor-Dienst. Wenn Du Tor ausführst, kannst Du einfach diese Adresse eingeben, wo normalerweise die Internetadresse eingegeben wird (zum Beispiel als URL in Deinen Browser mit aktiviertem Tor) und es wird das Tor-Netzwerk benutzen, um unsere Server zu erreichen.
+Tor macht es möglich, dass nicht nur Nutzer*innen ihren Standort verbergen, sondern auch Server. Du kannst Riseups Dienste via [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]]-Adressen erreichen. Immer wenn Du eine URL wie @http://xyvp43vrggckj427.onion@ siehst, ist das ein versteckter Tor-Dienst. Wenn Du Tor ausführst, kannst Du einfach diese Adresse eingeben, wo normalerweise die Internetadresse eingegeben wird (zum Beispiel als URL in Deinen Browser mit aktiviertem Tor) und es wird das Tor-Netzwerk benutzen, um unsere Server zu erreichen.
 
 Die folgenden sind Riseups versteckte Tor-Dienste:
 
 <pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
 labs.riseup.net:  yfm6sdhnfbulplsw.onion (port 80, 443)
 lists.riseup.net: xpgylzydxykgdqyg.onion (port 80, 443)
@@ -74,18 +77,34 @@ smtp.riseup.net:  zsolxunfmbfuq7wf.onion (ports 465, 587)
 user.riseup.net:  j6uhdvbhz74oefxf.onion (port 80, 443)
 we.riseup.net:    7lvd7fa5yfbdqaii.onion (port 443)
 xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 3478, 3479, 5190, 5222, 5223, 5269, 7777)
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJUAJiWAAoJEDBD4rcTmnaOzYQP/RyQ0bGy5CHrM4H3JqGqGlVo
+n9GgSkZruEO+oFTVWILrnNXNgz4um25UVqe9NlizimvMzcMlyH+9oYdLWPd/Rcgg
+m1qYjgOBE7zQWa54va58d1JZZ0jSqdz2V4GpIY+wC4zJERciyEnZNJ0kJQ4LDodd
+ITGhiyJZWTrq9/zaTzoBdjznlO4Vo/6Mf+aYzJFMMu7z8rElhMc7jzZpWABMQ1M8
+26GHo8ce+UMqSgdalyh9NWhj13qq9t7WTriyPYbehHSEc30SmTxaI0YYKlJjsUlZ
+YMdjS1wZD0zB+NsCn7RiXc447JUZmG5TVoQlsTX5O5XoJ81haZf8CkapyXy7sfjW
+tqa5B8o+hQwHLp5Qrp1Ekax3Jxkb63v54NFkoEoalyWwCVhUmF0zdiZXuwUe2JsM
+0YpZhB3wgiHH59uw5F9C3Skt5feHwpYy+V/xp30LsGMJppEHQGIH29IYx+2uQBCD
+Wu4tmBU1bsrz+7903gczrckFWt8mmn7X8riUtQH7vc7cyhj4K68nnGLw1VUA2SYT
+8Zs7BaVMmusgAJgmZgzoLPgLfbhTlDlzOuQlfZucK93d2ikMjRErm5KO7T5CoKI4
+MdjLyzAkKx5/uLhDYpKvCMYXdeRtc0f+hacTh+1EDofX2wgkXj/yCsTXK4lz9N4O
+Yt6+Y/1Mjz982iOo8nQH
+=gjTM
+-----END PGP SIGNATURE-----
 </pre>
 
 h2. Warnungen und Anmerkungen
 
-Als erstes wisse, dass Tor sehr langsam sein kann. Manchmal ist es nicht zu bemerken, aber manchmal kann es so wirken, als funktioniert es nicht. Die Erfahrungen variieren je nachdem, wie die Verbindung durch Tor geroutet wird. Das passiert, weil die Verbindung durch MINDESTENS drei Rechner geschickt wird. Wenn zwei davon blitzschnell sind, aber der dritte eine Schnecke, kommen die Daten nur so langsam, wie die Schnecke sie ausliefern kann.
+Vorweg: Tor kann sehr langsam sein. Manchmal ist es nicht zu bemerken, aber manchmal scheint es so, als ob Tor nicht funktionieren würde. Die Erfahrungen variieren je nachdem, wie die Verbindung durch Tor geroutet wird. Das passiert, weil die Verbindung durch MINDESTENS drei Rechner geschickt wird. Wenn zwei davon blitzschnell sind, aber der dritte eine Schnecke, kommen die Daten nur so langsam, wie die Schnecke sie ausliefern kann.
 
-Zweitens: Während Tor ziemlich sicher ist, ist es andere Software auf Deinem Rechner vielleicht nicht. Einige Angewohnheiten musst Du vielleicht ändern und Softwareeinstellungen ändern. Tor selbst schafft NICHT alles, was es für Anonymität braucht. Weitere Informationen gibt es auf der Tor-Projektseite im Bereich [[Dokumentation -> https://torproject.org/docs/documentation.html.en]]. Bitte lies diese Informationen sorgfältig bevor Du etwas möglicherweise gefährliches mit Tor machst.
+Zweitens: Während Tor ziemlich sicher ist, ist es andere Software auf Deinem Rechner vielleicht nicht. Einige Angewohnheiten und Softwareeinstellungen musst Du gegebenenfalls ändern. Tor selbst schafft NICHT alles, was es für Anonymität braucht. Weitere Informationen gibt es auf der Tor-Projektseite im Bereich [[Dokumentation -> https://torproject.org/docs/documentation.html.en]]. Bitte lies diese Informationen sorgfältig bevor Du etwas möglicherweise gefährliches mit Tor machst.
 
-Einiger Text in diesem Dokument wurde übertragen von der [[Tor-Webseite -> https://www.torproject.org/download/download.html.en]] via Creative Commons Attribution 3.0.
+Einige Textpassagen in diesem Dokument wurden von der [[Tor-Webseite -> https://www.torproject.org/download/download.html.en]] via Creative Commons Attribution 3.0 übertragen.
 
 h2. Weitere Ressourcen
 
-* das [[Überwachungs-Selbstverteidigungs-Projekt -> https://ssd.eff.org/]] bei der Electronic Frontier Foundation hat eine Fülle weiterer hilfreicher und interessanter Informationen. Besonders wichtig ist deren [[Tor-Seite -> https://ssd.eff.org/tech/tor]].
+* das [[Überwachungs-Selbstverteidigungs-Projekt -> https://ssd.eff.org/]] bei der Electronic Frontier Foundation hat eine Fülle weiterer hilfreicher und interessanter Informationen. Besonders wichtig ist deren [[Tor-Seite -> https://ssd.eff.org/en/module/how-use-tor-windows]].
 
 * Die [[Tor-Projektseite -> https://www.torproject.org/index.html.en]] wird die meisten Fragen zu Tor beantworten können und wie die Software effektiv zu benutzen ist.

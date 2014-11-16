@@ -2,16 +2,16 @@
 
 h2. Verbessere Deine Netzwerksicherheit
 
-Das Internet ist ein wilder Ort. Praktisch jeder Klick, den Du tätigst, wird aufgezeichnet, archiviert und durch irgendwelche Computer analysiert, um Dein Konsumverhalten vorherzusagen, oder die Einhaltung von Gesetzen zu erzwingen. In dem Moment, in dem sich Dein Computer mit dem Internet verbindet, ist es wahrscheinlich, durch Viren und Crackers nach Schwachstellen durchsucht zu werden, in der Hoffnung, ihn für die "Roboter-Zombie-Armee":http://en.wikipedia.org/wiki/Zombie_computer zwangszuverpflichten.
+Das Internet ist ein wilder Ort. Praktisch jeder Klick, den Du tätigst, wird aufgezeichnet, archiviert und durch irgendwelche Computer analysiert, um Dein Konsumverhalten vorherzusagen, oder die Einhaltung von Gesetzen zu erzwingen. In dem Moment, in dem sich Dein Computer mit dem Internet verbindet, ist es wahrscheinlich, von Viren und Crackern nach Schwachstellen durchsucht zu werden, in der Hoffnung, ihn für die "Roboter-Zombie-Armee":https://en.wikipedia.org/wiki/Zombie_computer zwangszuverpflichten.
 
-Prima! Was soll ein Internetnutzi also tun? Diese Seiten helfen Dir, Deinen Computer so zu konfigurieren, diesen Angriffe _auf Netzwerkebene_ zu widerstehen.
+Prima! Was soll ein Internetnutzer also tun? Diese Seiten helfen Dir, Deinen Computer so zu konfigurieren, diesen Angriffen _auf Netzwerkebene_ zu widerstehen.
 
 table(table).
 |_. Technologie  |_. Schwierigkeit |_. Wann einzusetzen |
-| [[sichere Verbindungen -> secure-connections]] | Automatisch | All Riseup services require a secure connection. |
+| [[sichere Verbindungen -> secure-connections]] | Automatisch | Alle Riseup Dienste fordern  eine sichere Verbindung. |
 | [[besser surfen -> better-web-browsing]] | Einfach| Es gibt einige Dinge, um beim Browsen im Netz sicherer unterwegs zu sein und weniger Spuren zu hinterlassen. |
 | [[vpn]]                 | Moderat | Route deine Verbindungen sicher durch riseup.net, um Überwachung und Angriffen auf Internetverbindungen vorzubeugen. |
-| [[tor]]                 | Schwierig | Tor ist wie VPN, aber der Internetverkehr springt einige Male durch das Internet, um ihn zu *anonymisieren*. |
+| [[tor]]                 | Schwierig | Tor ist wie ein VPN, aber der Internetverkehr wird durch verschiedene Stationen im Internet geleitet, um ihn zu *anonymisieren*. |
 
 h2. Fortgeschrittene Themen
 

@@ -1,0 +1,82 @@
+@title = "Riseup Zertifikatsstelle"
+
+h2. Was ist eine Zertifikatsstelle?
+
+Im Internet wird ein [[Zertifikat->https://de.wikipedia.org/wiki/Public-Key-Zertifikat]] genutzt um die Identität von Menschen oder Computern zu bestätigen und um sichere Verbindungen zu Diensten herzustellen, damit Unbefugte nicht deine Verbindung abhören können. Alle riseup.net Dienste benötigen sichere Verbindungen und nutzen deshalb Zertifikate um die Identität vom Server nachzuweisen.
+
+Damit ein Zertifikat als gültig erachtet wird, muss es von einem privaten Unternehmen abgesegnet werden, welches als [[Zertifikatsstelle -> https://de.wikipedia.org/wiki/Zertifizierungsstelle]] agiert. Diese zentralisierte Behördenstruktur beunruhigt soziale und politische Verzweigungen, besonders wenn wir uns auf die Sicherheit stützen. Wir hoffen, dass eines Tages [[alternative, nicht hirarchische Strukturen->http://web.monkeysphere.info]] dieses fehlerhafte System ersetzen werden.
+
+Bis dahin kauft Riseup Zertifikate von kommerziellen Zertifizierungsstellen, welche von deinem Browser, Mail-Client oder Chat-Client anerkannt werden. Diese Zertifikate funktionieren selbstständig und ohne dein Zutun.
+
+Trotzdem verwenden manche riseup.net Dienste, wie [[RiseupVPN -> vpn]], Zertifikate welche von unserer eigenen Zertifizierungsstelle abgesegnet wurden. Diese Seite ist für Leute die die Riseup Zertifizierungsstelle downloaden und installieren müssen.
+
+h2. Riseup Zertifikat herunterladen
+
+Jede CA (Zertifizierungsstelle) hat eine Datei die öffentlich verteilt wird. Diese Datei, "CA Zertifikate" genannt, wird von unserem lokalen Programm benutzt um die Identität von Servern mit denen du dich verbindest zu bestätigen.
+
+Riseup CA Zertifikat herunterladen:
+
+* Klicke auf "RiseupCA.pem":RiseupCA.pem
+
+Alle möglichen OpenVPN Clients benötigen diese Datei.
+
+h2. Bestätige das Riseup CA Zertifikat (optional)
+
+Dieser Bestätigungsvorgang wird nicht benötigt um das Riseup CA Zertifikat zu benutzen. Trotzdem kannst du ohne Verifikation nicht sicher sein, dass du das richtige Zertifikat heruntergeladen hast und deine Verbindungen sicher sind.
+
+Achtung: der Bestätigungsvorgang ist schwierig, benötigt Verständnis von OpenPGP und hängt letztlich davon ab ob man jemanden kennt der riseup.net's öffentlichen OpenPGP Schlüssel vertraut.
+
+Kurzgefasst sind die Schritte:
+
+# Lade die "RiseupCA.pem":RiseupCA.pem Datei runter (siehe oben).
+# Importiere Riseup's öffentlichen PGP Schlüssel
+# Prüfe ob die Anweisungen auf dieser Seite von Riseup's PGP Schlüssel verifiziert wurden.
+# Berechne den Fingerabdruck von RiseupCA.pem
+# Vergleiche den Fingerabdruck, den du berechnet hast, mit dem aufgelisteten, signierten Fingerabdruck auf dieser Seite.
+
+h3. Importiere Riseup's öffentlichen PGP Schlüssel
+
+In der Kommandozeile:
+
+<code>
+$ gpg --keyserver keys.riseup.net --recv-key 139A768E
+</code>
+
+Es gibt keinen bestimmten Grund, dass du diesem Schlüssel trauen solltest. Du kannst sehen wer ihm vertraut hat:
+
+<code>
+$ gpg --list-sigs 139A768E
+</code>
+
+h3. Prüfe diese Anweisungen
+
+Da du jetzt Riseup's öffentlichen Schlüssel importiert hast, kannst du prüfen ob das Zertifikat ordnungsgemäß ist:
+
+# "Lade diese kryptographisch signierte Datei herunter, welche die SHA1 Summe von der RiseupCA.pem":riseupCA-signed-sha1.txt beinhalted.
+# Führe dann diesen Befehl im Terminal aus: @gpg --verify riseupCA-signed-sha1.txt@
+# Schreibe control-d
+# Du solltest folgende Ausgabe erhalten:
+<code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
+
+Du solltest sicher stellen, dass die Ausgabe "Good signature" beinhaltet. Wenn der Text verändert wurde, sollte der Information nicht vertraut werden.
+
+Wenn du nicht explizit Schritte unternommen hast um einen Vertrauenspfad zu dem Riseup Collective Schlüssel zu bilden, siehst du eine ähnliche Warnung:
+
+<pre>
+  gpg: WARNING: This key is not certified with a trusted signature!
+  gpg:          There is no indication that the signature belongs to the owner.
+</pre>
+
+Trotzdem solltest du "Good signature" in der Ausgabe sehen.
+
+h3. Berechne den Fingerabdruck von RiseupCA.pem
+
+Öffne das Terminal und benutze @sha1sum@:
+
+<code>$ sha1sum RiseupCA.pem</code>
+
+h3. Vergleiche die Fingerabdrücke
+
+Da du jetzt die Fingerabdrücke oder SHA1-Summen von RiseupCA.pem berechnet hast, kannst du diesen Wert mit dem von Riseup signierten und hier aufgelisteten Wert verlgeichen.
+
+Wenn die Werte übereinstimmen, und du dem öffentlichen Riseup PGP Schlüssel vertraust, kannst du sicher sein, dass du wirklich mit den riseup.net Servern kommunizierst wenn du eine Anwendung benutzt die RiseupCA.pem verwendet.

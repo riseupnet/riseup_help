@@ -24,7 +24,7 @@ Du kannst eine Liste aller Abonnent_innen Deiner Mailingliste herunterladen. Daf
 h2.  Wie groß dürfen E-Mails sein, die über die Liste versendet werden?
 
 Die Größe der E-Mails ist auf 500kB limitiert. Falls nötig, könnten wir die Begrenzung anheben, wobei wir das nur ungern tun. Dafür gibt es viele Gründe:
-* Der wichtigste davon ist, dass große Dateianhänge nicht nötig sind, weil Du einen "shared web space" einrichten kannst. Dieser ermöglicht den Listenabonnent_innen, Dateien per Browser hochzuladen. Wenn Du nun eine E-Mail rausschickst, kannst Du einen Link auf diese Datei einfügen (dieser könnte folgendermaßen aussehen: http://lists.riseup.net/www/d_read/newsletter/readme.txt). Die Listenabonnent_innen können die Datei dann per Browser herunterladen. (Einige Mailinglisten stellen diese Funktion nur für „Editoren“ zur Verfügung, das hängt von der Konfiguration Eurer Liste ab.)
+* Der wichtigste davon ist, dass große Dateianhänge nicht nötig sind, weil Du einen "shared web space" einrichten kannst. Dieser ermöglicht den Listenabonnent_innen, Dateien per Browser hochzuladen. Wenn Du nun eine E-Mail rausschickst, kannst Du einen Link auf diese Datei einfügen (dieser könnte folgendermaßen aussehen: https://lists.riseup.net/www/d_read/newsletter/readme.txt). Die Listenabonnent_innen können die Datei dann per Browser herunterladen. (Einige Mailinglisten stellen diese Funktion nur für „Editoren“ zur Verfügung, das hängt von der Konfiguration Eurer Liste ab.)
 * Meistens sind große Dateianhänge nicht für alle Abonnent_innen von Bedeutung. Nur wer sich wirklich dafür interessiert, sollte die Zeit für den Download aufwenden.
 * Kurze Nachrichten sind wirkungsvoller. Keine_r will Bücher im Posteingang liegen haben. Falls Du viel zu sagen hast, sage es schnell und biete einen Weg an weiterführende Informationen zu gelangen.
 * Große Dateianhänge können uns viel Geld kosten. Wir haben viel Bandbreite zur Verfügung, aber wir bezahlen nach Verbrauch. Wenn Du nun einen 1MB großen Flyer als PDF an eine Liste mit 100 Abonnent_innen versendest, musst Du nur ein Megabyte hochladen - unsere bescheidenen kleinen Server müssen sich dann aber mit zu versendenden 100 Megabyte rumschlagen. Auch müssen wir den Dateianhang archivieren und Sicherungskopien davon in alle Ewigkeit aufbewahren. Solange die Nachrichten klein bleiben, kriegen wir das hin.
@@ -110,7 +110,7 @@ h2.  Kann ich mehrere Personen gleichzeitig auf die Liste eintragen?
 F: <i>Ich übertrage eine Mailingliste von einem anderen Anbieter. Kann ich alle Abonnent_innen gleichzeitig übernehmen, oder müssen sich alle einzeln eintragen?</i>
 
 A: Es ist möglich, viele Abonnent_innen gleichzeitig hinzuzufügen:
-# Navigiere auf die „Info“-Seite Deiner Mailingliste. Wenn Deine Liste <i>mylist</i> heißt, wäre die Info-Seite http://lists.riseup.net/www/info/mylist
+# Navigiere auf die „Info“-Seite Deiner Mailingliste. Wenn Deine Liste <i>mylist</i> heißt, wäre die Info-Seite https://lists.riseup.net/www/info/mylist
 # Klicke auf *Members*
 # Klicke auf *Multiple add*
 # Kopiere die Liste der (neuen) Abonnent_innen in das Feld, jeweils eine Adresse je Zeile
