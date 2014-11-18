@@ -33,11 +33,13 @@ h3. Linux
 
 Lade die Installationsdatei für die jeweilige Architektur herunter und speichere die Datei an einem beliebigen Ort. Extrahiere die Dateien mit dem Archivmanager (oder Ark, Xarchiver) oder über die Kommandozeile mit diesen Befehlen:
 
-* Für 32-bit Linux: <code>tar -xvzf tor-browser-linux32-4.0_LANG.tar.gz</code>
-* Für 64-bit Linux: <code>tar -xvzf tor-browser-linux64-4.0_LANG.tar.gz</code>
+* Für 32-bit Linux: <code>tar -xvzf tor-browser-linux32-4.0.1_LANG.tar.gz</code>
+* Für 64-bit Linux: <code>tar -xvzf tor-browser-linux64-4.0.1_LANG.tar.gz</code>
 
 (LANG ist die Sprache, die im Dateinamen angegeben ist)
 Um Tor zu starten einfach das Skript `start-tor-browser`im gerade extrahierten Ordner per Doppelklick oder Kommandozeile starten. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
+
+Linux-Anwender könnten Sie auch interessieren: [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Dieses Skript sorgt für Ihr Tor Browser Bundle ist auf dem neuesten Stand gehalten wird.
 
 *Entpacke TBB nicht als root.*
 
