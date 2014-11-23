@@ -1,0 +1,59 @@
+@title = 'Pidgin'
+
+h2. Acerca de Pidgin
+
+!logo.pidgin.png!
+
+Pidgin es el cliente de mensajeria instantanea mas popular para GNU/Linux, Windows y Mac. Tu puedes descargar Pidgin desde  http://pidgin.im/download. Para Mac utiliza [[Adium]], la compilación nativa de pidgin para Mac.
+
+h2. Configurando una cuenta
+
+Cuando inicias por primera vez pidgin, dale click en el botón *Añadir...* para agregar una cuenta.
+
+(1) En la pestaña *básica*, escribe estos valores:
+
+!new-account-basic-tab.png!
+
+* *Protocolo*: XMPP
+* *Nombre de usuario*: tu nombre de usuario de Riseup
+* *Dominio*: riseup.net
+* *Contraseña*: tu [[riseup-password]]
+
+Opcionalmente, escribe un apodo local para que sea tu nombre, y añade un icono para ti. Otras personas veran este icono en su cliente jabber.
+
+h2. Usando OTR
+
+Mira el tutorial [[otr]] para detalles sobre usar cifrado punto a punto con Pidgin.
+
+h2. Asegurando pidgin en GNU/Linux
+
+Para seguridad adicional en sistemas Linux, te recomendamos proteger tu pidgin usando estos pasos::
+
+* copia usr.bin.pidgin a /etc/apparmor.d/usr.bin.pidgin
+** [[usr.bin.pidgin for Ubuntu 14.04 => https://bazaar.launchpad.net/~apparmor-dev/apparmor-profiles/master/view/head:/ubuntu/14.04/usr.bin.pidgin]]
+** [[usr.bin.pidgin for Ubuntu 11.04 => https://github.com/ioerror/AppArmorPolicies/blob/master/policies/usr.bin.pidgin]]
+** [[usr.bin.pidgin for Ubuntu 9.04 => http://bazaar.launchpad.net/~jpds/apparmor/pidgin-profile/view/head:/usr.bin.pidgin]]
+* reinicia apparmor
+<code>sudo /etc/init.d/apparmor restart</code>
+* reinicia pidgin
+
+h2. Configuración de Pidgin con Tor
+
+Para configurar que pidgin use Tor, necesitas modificar tus preferencias de esta forma:
+
+Primero escoge *Modificar Preferencias de Cuenta*...
+
+!pidgin-modify-account.png!
+
+enseguida da click en la pestaña de *Avanzadas* y establece los siguientes valores:
+
+* *Seguridad de la conexión*: Solicitar cifrado
+* *Puerto de conexión*: 5222
+* *Conectar con el Servidor*: 4cjw6cwpeaeppfqz.onion
+* *Pasarelas de transferencia de archivos*: proxy.riseup.net
+
+Enseguida da click en la pestaña *Pasarela*...
+
+!pidgin-modify-account-proxy.png!
+
+Establece el tipo de proxy en Socks5, establece el servidor y el puerto como se muestra en la imagen y pon tu nombre de usuario y contraseña.
