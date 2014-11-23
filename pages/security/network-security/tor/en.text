@@ -53,7 +53,7 @@ With the Tor Browser Bundle, Vidalia and Tor will automatically close.
 
 h2. Riseup's Tor Hidden Services
 
-Tor makes it possible for not just users to hide their locations, but servers as well. You can access Riseup's services via our [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]] addresses. Whenever you see a URL like http://xyvp43vrggckj427.onion, that's a Tor hidden Web service. If you are running Tor, you can simply put that address in where you would normally put an address (for example, as a URL in your Tor enabled web browser) and it will use the tor network to get to our servers.
+Tor makes it possible for not just users to hide their locations, but servers as well. You can access Riseup's services via our [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]] addresses. Whenever you see a URL like http://xyvp43vrggckj427.onion, that's a Tor hidden Web service. If you are running Tor, you can simply put that address in where you would normally put an address (for example, as a URL in your Tor enabled web browser) and it will use the Tor network to get to our servers.
 
 The following is a list of Riseup's Tor hidden services. If you have trouble verifying this, try downloading and verifying [[this file -> /security/network-security/tor/hs-addresses-signed.txt]]:
 
