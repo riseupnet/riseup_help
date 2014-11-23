@@ -214,8 +214,45 @@ Available properties:
 * `@this.alias` -- An alternate url path (or paths if the value is an array)
    where this page should be available.
 
-Tracking pages that need translating
+Translating
 --------------------------------------------
+
+For the most part, to create a new translation for a given page, copy en.text
+file to xx.text and edit the document (where xx is the language code of language
+you are translating into).
+
+The language codes are as follows:
+
+* zh: Simplified Chinese
+* es: Spanish
+* en: English
+* pt: Portuguese
+* ru: Russian
+* de: German
+* fr: French
+* it: Italian
+* el: Greek
+* ca: Catalan
+
+Only those languages are currently enabled. We are happy to add additional
+languages if there is sufficient interest.
+
+In addition to the text of a particular page, the navigation items and footer
+text can be found in `amber/locales/xx.yml`.
+
+When translating the text of a page you should only modify the label of the
+links but not the page names that the links point to. For example:
+
+    [[Security => security]]
+
+Should be translated to:
+
+    [[Seguridad => security]]
+
+The locale will be automatically added to the link, so there is no need to ever
+include it (e.g. the link `[[Seguridad => security]]` will link to
+https://help.riseup.net/es/security). The link `[[Security => security]]` could
+have also been written simply `[[Security]]`.
 
 We do not yet have the capability to automatically identify which translated
 pages need to be updated. However, in the future, I plan to add the command
