@@ -7,7 +7,7 @@
     %th= t(:notes)
   %tr
     %td <a href="#bitcoin"><img src="img/bitcoin.png"></a>
-    %td= t :no_value
+    %td= t :yes_value
     %td
       %b= t :yes_value
     %td= t :no_value
@@ -36,13 +36,13 @@
       %b= t :yes_value
     %td= t :flattr_note
   %tr
-    %td <a href="#gittip"><img src="img/gittip.png"></a>
+    %td <a href="#gratipay"><img src="img/gratipay.png"></a>
     %td
       %b= t :yes_value
     %td= t :no_value
     %td
       %b= t :yes_value
-    %td= t :gittip_note
+    %td= t :gratipay_note
 
 .panel.panel-default
   %h2.hidey= t :bitcoin
@@ -50,6 +50,15 @@
     <a name="bitcoin"><img src="img/bitcoin.png"></a>
   .panel-body
     %p= t :bitcoin_description
+
+    %p= t :recurring_donation
+
+    :plain
+      <a class="coinbase-button" data-code="05fd5b1f110ec67e62f1e8edfa961df6" data-button-style="subscription_small" href="https://www.coinbase.com/checkouts/05fd5b1f110ec67e62f1e8edfa961df6">Donate Bitcoins</a>
+      <script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
+
+    %p= t :one_time_donation
+
     .donation
       %form(action="https://help.riseup.net/new-bitcoin-address" method="post")
         %b= t :bitcoin_grab_address
@@ -134,12 +143,12 @@
         %input(type="submit" value="#{t :donate}")
 
 .panel.panel-default
-  %h2.hidey= t :gittip
+  %h2.hidey= t :gratipay
   .panel-heading
-    <a name="gittip"><img src="img/gittip.png"></a>
+    <a name="gratipay"><img src="img/gratipay.png"></a>
   .panel-body
-    %p= t :gittip_description
+    %p= t :gratipay_description
     .donation
-      %form(action="https://www.gittip.com/riseup.net" method="get")
-        %b= t :gittip
+      %form(action="https://www.gratipay.com/riseup.net" method="get")
+        %b= t :gratipay
         %input(type="submit" value="#{t :donate}")

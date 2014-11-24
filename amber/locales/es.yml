@@ -43,7 +43,7 @@ es:
   flattr_note: "Micropagos."
   flattr_description: "Flattr es un sistema de micropagos que te permite ayudar a muchos proyectos."
 
-  gittip: "Gittip"
-  gittip_note: "Micropagos periódicos."
-  gittip_description: "Gittip es otro sistema de micropagos que te permite hacer donaciones semanales a los proyectos que te gusten."
+  gratipay: "Gratipay"
+  gratipay_note: "Micropagos periódicos."
+  gratipay_description: "Gratipay es otro sistema de micropagos que te permite hacer donaciones semanales a los proyectos que te gusten."
 

@@ -43,6 +43,6 @@ de:
   flattr_note: "Minispenden summieren sich!"
   flattr_description: "Flattr ist ein Überweisungssystem für Kleinstbeträge („Micropayment“), das es Dir ermöglicht, verschiedene Projekte zu unterstützen."
 
-  gittip: "Gittip"
-  gittip_note: "regelmäßige Zahlungen summieren sich"
-  gittip_description: "Gittip ist ein weiteres micropayment-System, das es ermöglicht, wöchentliche Zahlungen einzustellen."
+  gratipay: "Gratipay"
+  gratipay_note: "regelmäßige Zahlungen summieren sich"
+  gratipay_description: "Gratipay ist ein weiteres micropayment-System, das es ermöglicht, wöchentliche Zahlungen einzustellen."
