@@ -1,7 +1,7 @@
 @title = "Clientes Jabber"
 @summary = "Configurando los clientes Jabber para usar el servicio de chat con Riseup."
-p(alert alert-info). Please help us update this page by trying out different clients.
-h2. Features to look for
+p(alert alert-info). Porfavor ayudanos a actualizar esta página probando diferentes clientes.
+h2. Caracteristicas para revisar
 table(table).
 | *OTR?* | If yes, this client has built in support for OTR (off the record) which provides end-to-end encryption of chat messages and has perfect-forward-secrecy. |
 | *Jingle?* | If yes, this client can used for voice or video chat.|
