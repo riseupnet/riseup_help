@@ -133,6 +133,8 @@ This will create a file called revoke.asc. You may wish to print a hardcopy of t
 
 h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
 
+Note this is the default behavior in the last versions of GPG, that is, a subkey is automatically created for encryption, and the primary key usage is "flagged" just for certification and signing.
+
 h3. (bonus) Have a separate subkey for signing, and keep your primary key entirely offline.
 
 In this scenario, your primary key is used only for certifications, which happen infrequently.
