@@ -14,32 +14,7 @@ h4{margin-left: 200px; margin-right:200px}. _*1...*_ A small songbird in the fin
 h4{margin-left: 200px; margin-right:200px}. _*2...*_ A mechanism to test for unsafe conditions, originating from the use of canaries in coal mines to detect poisonous gases or cave-ins. If the canary died, it was time to get out of the mine. More recently, the term has been used by some online service providers to refer to an affirmative statement, updated regularly, that the provider has not been subjected to certain legal processes. If the statement is not updated in a timely fashion, users may infer that the canary statement may no longer be true.
 
 <pre>
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
-As of October 1, 2014, riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
-
-Regarding server seizures, in a widely-reported incident [1], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of October 1, 2014, riseup confirms that it has never had any hardware seized or taken by any third party.
-
-Riseup intends to update this report approximately once per quarter.
-
-[1] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
------BEGIN PGP SIGNATURE-----
-
-iQIcBAEBCgAGBQJUK27sAAoJEDBD4rcTmnaOcBcP/ilbw5weTZM9vdSWgizdGv9O
-H/Aw6BJmTsKM9dsfRGQECSG80sNh974v5OS+PdPH0yc7gZfztuBLfAcKzJw7hcrt
-c0gkEPsU5IdASbmp88CfjN+5UJXUNOx/kLvuGIV6cKNHrKNWYf1EqyLdPUOueb6B
-j7c46UFwRE+hWktrxkJfoAbZi5b7VUUXwwQzS77yuIoeckz8hMyPTmhJK0jRQm52
-ND/GJLD/qwtuluZ/1XJSpis2N9OmWFP4KzGoAqO4nDroYF0qpBGgFGArPViDFCfP
-N7G5eMTcwxS7ae2Hz1aQobl6QcaJcZIcpl0TQgTjMSmrPKv5kFwzF1I0oC63v9QU
-9q/T1seP7HucV1UvOjRl8TcBp9BikR32f5ao3Hf6R41F8cRdGBLjhhaLfz3p4LES
-rYmNvYadMhpATMGdK4FSW87VDFUGRnCdF51Ogr+b93dSLnhork+39A0+DqqtBsfh
-dIJ4XsF9eXyO9ViC55XZmZytvwFPUDpuawUN+/F5TTmTk+WRJGFlAUBFftW3bvW0
-BuCh1lsvSTH2+xKHA90xTNXIrTQcNQHggsdnxjk3LpxyZnkjBuGR8BAwZJdwLcXK
-otgIT8vJMp93z9fw5Nnk444/QRfqVutus1X6IZ7E/toc/lCXGkqMuLnQFYq7Gt7p
-UMp85/g58RL05NyFMmR8
-=ClPZ
------END PGP SIGNATURE-----
+<%= render :file => 'canary-statement-signed.txt', :type => :raw %>
 </pre>
 
 h2. Verification instructions
