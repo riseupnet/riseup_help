@@ -1,16 +1,67 @@
 pt:
-  tags: "Etiquetas"
-  tag: "Etiqueta"
+  tags: "Marcadores"
+  tag: "Marcador"
   related: "Relacionado"
   missing_translation: "Esta página ainda não foi traduzida do inglês."
   support_riseup: "Apoie Riseup!"
-  motto: "Saia da internet, vejo você nas ruas."
+  motto: "Saia da internet, a gente se vê nas ruas."
+  contribute_to_help: "Você pode contribuir com conteúdo e tradução para estas páginas."
   footer_tagline: "Este site é mantido por riseup.net, seu coletivo técnico autônomo e amigo desde 1999."
-  link_privacy: "Política de Privacidade"
+  system_updates: "Notícias do Sistema"
+  
+  # links rápidos:
   link_about_us: "Sobre nós"
-  link_lists: "Listas de Email"
+  link_privacy: "Política de Privacidade"
   link_status: "Estado do Sistema"
   link_support: "Apoie Riseup"
-  link_email: "Email"
+  
+  # serviços:
   link_chat: "Bate-papo"
+  link_email: "Email"
   link_groups: "Grupos"
+  link_lists: "Listas de Email"
+  
+  
+  # Página de doação
+  donation_processor: "Processador/a da Doação"
+  supports_recurring_donations: "Doações periódicas?"
+  supports_optional_registration: "Registro Opcional?"
+  supports_credit_card: "Cartão de crédito?"
+  notes: "Notas"
+  yes_value: "Sim"
+  no_value: "Não"
+
+  subscribe: "Cadastrar"
+  donate: "Doar"
+  monthly: "Mensal"
+  quarterly: "Trimestral"
+  recurring_donation: "Doação periódica"
+  one_time_donation: "Doação única"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
+  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
+  bitcoin_grab_address: "Consiga um endereço bitcoin"
+  generate: "Gerar"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Taxas baixas. Requer registro e conta em banco nos EUA"
+  dwolla_description: "Dwolla is a really cheap way to send virtual cash, although it requires that you create a Dwolla account linked to a US bank account. Dwolla supports recurring donations."
+
+  paypal: "Paypal"
+  paypal_note: "Funciona em muitos países."
+  paypal_description: "Paypal accepts credit cards and supports recurring donations (for recurring donations, a PayPal account is required)."
+
+  wepay: "WePay"
+  wepay_note: "Uma alternativa ao PayPal."
+  wepay_description: "WePay is a nice alternative to PayPal. You can use WePay without creating an account, and it supports credit cards."
+
+  flattr: "Flattr"
+  flattr_note: "Micropayments add up."
+  flattr_description: "Flattr is a micropayment system that allows you to support multiple projects."
+
+  gratipay: "Gratipay"
+  gratipay_note: "Reoccurring micropayments add up."
+  gratipay_description: "Gratipay is another micropayment system that allows you to give weekly to the projects you like."
+
+
