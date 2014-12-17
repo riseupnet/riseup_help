@@ -1,6 +1,6 @@
 @nav_title = "Linux"
 @title = "How to: Linux"
-@summary = "Getting, Installing and Configuring the Bitmask client"
+@summary = "Bitmask Linux: Getting, Installing and Configuring"
 
 Para usar el nuevo sistema VPN de Riseup (Riseup EIP) necesitas una cuenta que funcione bajo LEAP. Puedes crear una desde Bitmask (el cliente de LEAP) o desde [https://black.riseup.net/signup](https://black.riseup.net/signup). **Recomendamos registrar tu cuenta desde Bitmask a menos que solo planees usar la VPN desde Android**.
 
