@@ -65,7 +65,9 @@ Once you have verified the key fingerprint that you need, you may download the k
 
 bc. gpg --recv-key '<fingerprint>'
 
-The next step is to confirm that you actually got the correct key from the keyserver. The keyserver might have given you a different key than the one you just asked for, and gpg will not warn you. You can confirm the key fingerprint in one of two ways:
+The next step is to confirm that you actually got the correct key from the keyserver. The keyserver might have given you a different key than the one you just asked for. If you have gpg with version less than 2.1, then you must manually confirm the fingerprint after you have downloaded the key (versions 2.1 and later will refuse to accept incorrect keys from the keyserver).
+
+You can confirm the key fingerprint in one of two ways:
 
 Option 1. Check the fingerprint is now in your keyring:
 
