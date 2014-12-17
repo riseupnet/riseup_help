@@ -1,0 +1,44 @@
+@title = 'Doe para Riseup'
+@nav_title = 'Doação'
+@this.alias = '/doacao'
+
+h1. Apoie alternativas radicais!
+
+!>img/red-leap-medium.jpg!
+
+Riseup.net trabalha sem descanso para criar alternativas tecnológicas de base que vão de encontro às necessidades de comunicação de pessoas e organizações que trabalham por mudanças sociais. Quando você recebe um serviço de uma empresa que não cobra por isso, são grandes as chances do financiamento vir de vigilância extensiva. Riseup, por outro lado, se sustenta pela doação de usuárias como você que acreditam em apoiar alternativas democráticas.
+
+Para mais informações sobre Riseup, você pode [conhecer nossa equipe -> pt-quem-somos] e dar uma olhada nos nossos [projetos -> pt-projetos]. Riseup.net é uma [entidade sem fins lucrativos registrada -> https://riseup.net/irs-tax-letter.pdf] na seção ==501(c)(4)== do Código Tributário Federal dos Estados Unidos (US Internal Revenue Code).
+
+As doações para riseup.net não são dedutíveis dos impostos. Se você deseja fazer uma doação dedutível de impostos (Estados Unidos), você pode [contribuir para nossa organização irmã, RiseupLabs -> riseuphelp+en/donate-labs].
+
+h2. Contribuição sugerida
+
+* *Indivíduos:* Pedimos que indivíduos com contas de email ou que possuam listas doem mensal ou anualmente. Se você está sem dinheiro, vive no hemisfério sul, ou em lugares com moeda desvalorizada, nós não esperamos que você doe. Isto significa que quem tem dinheiro no norte do planeta deveria contribuir um pouco mais como ato de solidariedade. Se você não tem certeza de quanto contribuir, nós podemos sugerir algo entre $5 e $15 dólores? Se vocẽ puder doar mais, por favor faça!
+* *Grupos:* Nós precisamos que as organizações com contas de email e listas contribuam. É especialmente essencial que organizações com listas de email muito grandes contribuam, já que esse tipo de serviço é caro para nós mantermos. Como sugestão, em geral, nós pedimos que organizações contribuam com 1% de seu orçamento anual -- isto quer dizer $100 por ano em doação para uma organização que tenha um orçamento anual de $10,000. 
+
+Se você tem listas grandes, com mais de cem membros ou com grande tráfico de mensagens e muitos arquivos, a quantia de doação deve ser maior. 
+
+Por favor, considere doar mais se você tem condições. Qualquer orçamento que sobra após cobrirmos nossas despesas básicas é revertido para prover serviços para mais pessoas. Se estiver fazendo uma doação grande (obrigado!), então por favor considere enviar um cheque ou dinheiro através do correio -- sistemas de pagamento online retiram uma fatia de até 3%.
+
+Todas as decisões sobre finanças do "Coletivo Riseup" são tomadas usando o processo de consenso por membros do coletivo. 
+
+
+h1. Doações por Correio
+
+Envie cheques a [*"Riseup Networks"*] para:
+
+div(donation). Riseup Networks
+PO Box 4282
+Seattle, WA 98194 USA 
+
+Infelizmente, não podemos enviar pra você uma carta de agradecimento quando recebemos sua doação. Por favor, saiba que nós sentimos uma gratidão incrível: seu apoio é vital e faz que todo o nosso trabalho duro seja possível. Nós amamos que você ponha dinheiro naquilo que valoriza! *Exceção:* A lei requer que nós relatemos anualmente a identidade de quem nos doa mais de $5 mil dólares.
+
+
+h1. Doações Online
+
+<%= render :partial => 'inc/donate_forms' %>
+
+h1. Perguntas Frequentes
+
+<%= render :partial => 'inc/faq' %>
