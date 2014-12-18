@@ -1,0 +1,84 @@
+@title = 'Riseup Email'
+@nav_title = 'Email'
+
+!>airmail.jpg!
+
+Добро пожаловать, на этой странице вы найдете всю необходимую вам информацию о *почтовом сервисе* riseup.net.
+
+Если вы не смогли найти какую-либо информацию, [[задайте этот вопрос нам => https://user.riseup.net/forms/]]. Как только вы получите ответ на вопрос, вы можете помочь нам поддерживать эту страницу в актуальном состоянии, добавляя недостающую информацию.
+
+h2. First steps
+
+Visit [[user.riseup.net => https://user.riseup.net]]. From there, you can change your password, add email aliases, set up email filters, change your quota, and request help.
+
+We automatically destroy the information you gave us as part of your account request. You should consider removing any identifying information from your account settings, such as your name, birthday, secret question, and alternate email. However, if you forget your password and this information is not set (or you've forgotten what you stored, or the alternate email is no longer accessible), then you will lose access to your account.
+
+h2. Important things to know
+
+h3. Protect your password
+
+The Internet is crawling with people trying to steal your email account. At some point, you will probably receive a fraudulent email from someone pretending to be riseup.net. These emails will claim that you must perform some action in order to keep your account.
+
+* Never give your password to anyone, especially someone claiming to be riseup.net.
+* Never trust that the "From" address of an email is from who it says, because this can be forged easily.
+* Web links in email messages are often fraudulent. To be safe, you should retype the link rather than clicking on it. Also, be careful about misspellings, like riseupp.net instead of riseup.net
+
+Read more on [[passwords => mail-passwords]].
+
+h3. Automatic deletion of messages in some folders
+
+Messages in some [[special folders => email-folders]] are automatically deleted after a certain number of days:
+
+* *Trash* deleted after 21 days.
+* *Spam* deleted after 7 days.
+* *Sent* deleted after 120 days.
+
+h3. Quota
+
+For many reasons, we do not provide much storage space for email. If you need more space, consider downloading your email using a mail client or increasing your quota by visiting https://user.riseup.net. Read more about [[quota]].
+
+h3. Use an email client
+
+Although the riseup.net web-based interface does not have many features, you can use your riseup.net email account with an IMAP or POP email client, a feature-rich application designed specifically to handle your email. Check out our [[tutorials for many popular email clients => email/clients]].
+
+Riseup recommends [[thunderbird]], a free and open source mail client. Thunderbird will automatically configure itself correctly if you just give it your riseup.net email address and password.
+
+h2. What is special about riseup.net email
+
+Your riseup.net email account is a wonderful thing. Although we don't provide as much storage quota as surveillance-funded corporate email providers, riseup.net email has many unusual features:
+
+[*We encrypt traffic whenever possible.*]
+When you send email from riseup.net to another secure email provider, the email is encrypted for its entire journey. (see [[StartTLS]] for more info)
+
+[*We don't disclose your location to email recipients.*]
+When you send email with riseup.net, your internet address (IP address) is not embedded in the email. With corporate email providers, anyone who receives your email can figure out your approximate physical location from the internet address included in the email.
+
+[*We don't log your internet address.*]
+Our commitment is to keep as little data on you as we can. Unlike corporate providers, we do not log internet addresses of anyone using riseup.net services, including email.
+
+h2. Mutual aid
+
+There is no such thing as free email. Services like gmail, hotmail, and yahoo make their money from surveillance: they build a profile on your behavior and your desires and then bombard you with advertising specifically targeted to you.
+
+Riseup.net is different. This service is a labor of love by activists like you committed to building movement-run and secure alternative infrastructure.
+
+The riseup.net email service takes a lot of time and money to keep running, and is funded entirely by small donations from its users. Please do your part and [[contribute today => donate]].
+
+h2. Frequently asked questions (FAQ)
+
+* [[How do I change my password? => mail-passwords]]
+* [[How can I delete my account? => mail-accounts]]
+* [[How do I increase my quota? => quota]]
+* [[Why isnt my quota updated? => quota]]
+* [[How do I encrypt my email? => message-security]]
+* [[What can I do about the spam? => spam]]
+* [[Why cant I login using webmail? => webmail]]
+* [[Why cant I send mail from my mail client? => smtp]]
+* [[Is there an address book? => address-book]]
+* [[Why cant I see my folders? => email-folders]]
+* [[How do I download my email? => downloading-email]]
+* [[Why is email to me being blocked as spam? => spam]]
+* [[What can you tell me about viruses? => viruses]]
+* [[What is Riseups Usage Agreement? => email/usage-agreement]]
+* [[Why cant I set up an automatic out-of-office reply => email-filters]]
+* [[Why is my email being blocked as spam? => email/scams/spam]]
