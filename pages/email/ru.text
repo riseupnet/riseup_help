@@ -7,78 +7,78 @@
 
 Если вы не смогли найти какую-либо информацию, [[задайте этот вопрос нам => https://user.riseup.net/forms/]]. Как только вы получите ответ на вопрос, вы можете помочь нам поддерживать эту страницу в актуальном состоянии, добавляя недостающую информацию.
 
-h2. First steps
+h2. Первые шаги
 
-Visit [[user.riseup.net => https://user.riseup.net]]. From there, you can change your password, add email aliases, set up email filters, change your quota, and request help.
+Посетите [[user.riseup.net => https://user.riseup.net]]. Там вы сможете изменить свой пароль, добавить почтовые псевдонимы, настроить фильтры, изменить квоту и запросить помощь.
 
-We automatically destroy the information you gave us as part of your account request. You should consider removing any identifying information from your account settings, such as your name, birthday, secret question, and alternate email. However, if you forget your password and this information is not set (or you've forgotten what you stored, or the alternate email is no longer accessible), then you will lose access to your account.
+Мы автоматически уничтожаем всю информацию о вас, которую вы оставляли при запросе на регистрацию вашего аккаунта. Решение об удалении остальной информации о вас, такой как ваше имя, дата рождения, секретный вопрос и дополнительный почтовый адрес - полностью ложится на вас. Однако, вы должны помнить, что если вы забудете или потеряете пароль от своего аккаунта, а дополнительный почтовый ящик не указан, или недоступен, то вы потеряете доступ к своему аккаунту.
 
-h2. Important things to know
+h2. Важно помнить
 
-h3. Protect your password
+h3. Защитите свой пароль
 
-The Internet is crawling with people trying to steal your email account. At some point, you will probably receive a fraudulent email from someone pretending to be riseup.net. These emails will claim that you must perform some action in order to keep your account.
+Интернет переполнен людьми которые хотят украсть ваш почтовый аккаунт. Когда-нибудь, вы, вероятно, получите мошенническое письмо от кого-то, кто выдаст себя за сервис riseup.net. Зачастую, в этих письмах говорится о том, что вам необходимо выполнить ряд дейстиий, чтобы не потерять доступ к своему аккаунту.
 
-* Never give your password to anyone, especially someone claiming to be riseup.net.
-* Never trust that the "From" address of an email is from who it says, because this can be forged easily.
-* Web links in email messages are often fraudulent. To be safe, you should retype the link rather than clicking on it. Also, be careful about misspellings, like riseupp.net instead of riseup.net
+* Никогда не давайте пароль от своего аккаунта, особенно тем, кто выдает себя за riseup.net. Мы никогда не просим у своих пользователей их пароли.
+* Никогда не верьте тому, что написано в поле "От: " во входящем письме, потому что это значение может быть очень легко подменено. 
+* Ссылки содержащиеся в электронных письмах часто бывают мошенничискими. Чтобы обезопасить себя, лучше перенабрать их вручную, или скопировать и вставить в другую вкладку, нежели переходить по ним напрямую из письма. Кроме того, обращайте внимание на написание ссылок, часто там бывают "ошибки", типа riseupp.net вместо riseup.net, а это уже совершенно другой сайт.
 
-Read more on [[passwords => mail-passwords]].
+Больше о [[паролях => mail-passwords]].
 
-h3. Automatic deletion of messages in some folders
+h3. Автоматическое удаление писем из некоторых директорий
 
-Messages in some [[special folders => email-folders]] are automatically deleted after a certain number of days:
+Письма из некоторых [[спец. директорий => email-folders]] автоматически удаляются спустя определенное количество дней:
 
-* *Trash* deleted after 21 days.
-* *Spam* deleted after 7 days.
-* *Sent* deleted after 120 days.
+* *Корзина*. Письма удаляются через 21 день.
+* *СПАМ*. Письма удаляются через 7 дней.
+* *Отправленные* письма удаляются через 120 дней.
 
-h3. Quota
+h3. Квота
 
-For many reasons, we do not provide much storage space for email. If you need more space, consider downloading your email using a mail client or increasing your quota by visiting https://user.riseup.net. Read more about [[quota]].
+По многим причинам, мы не предоставляем большое количество дискового пространства под хранение вашей почты. Если вам необходимо больше места, вы можете использовать почтовый клиент и загружать всю корреспонденцию на свой компьютер, либо вы можете посетить https://user.riseup.net и увеличить квоту. Узнать больше о [[квоте => quota]].
 
-h3. Use an email client
+h3. Используйте почтовый клиент
 
-Although the riseup.net web-based interface does not have many features, you can use your riseup.net email account with an IMAP or POP email client, a feature-rich application designed specifically to handle your email. Check out our [[tutorials for many popular email clients => email/clients]].
+Не смотря на то, что riseup.net имеет веб-интерфейс, в нем отсутствуют многие полезные функции. Вы можете использовать свой почтовый аккаунт с помощью полнофункционального почтового клиента через IMAP или POP. Эти приложения созданы специально для того, чтобы обрабатывать вашу почтовую корреспонденцию. Прочитать больше вы сможете на [[странице => email/clients]] посвященной настройке наиболее популярных почтовых клиентов. 
 
-Riseup recommends [[thunderbird]], a free and open source mail client. Thunderbird will automatically configure itself correctly if you just give it your riseup.net email address and password.
+Наша команда рекомендует использовать вам [[thunderbird]], это бесплатный почтовый клиент, с открытым исходным кодом. Thunderbird автоматически настроится как только вы предоставите ему почтовый адрес и пароль. 
 
-h2. What is special about riseup.net email
+h2. Что особенного в нашем почтовом сервисе
 
-Your riseup.net email account is a wonderful thing. Although we don't provide as much storage quota as surveillance-funded corporate email providers, riseup.net email has many unusual features:
+Ваш почтовый аккаунт на riseup.net - восхитителен. Не смотря на то, что мы не предоставляем много места в отличие от сервисов спонсируемых корпорациями, наш сервис имеет много необычных функнций:
 
-[*We encrypt traffic whenever possible.*]
-When you send email from riseup.net to another secure email provider, the email is encrypted for its entire journey. (see [[StartTLS]] for more info)
+[*Мы шифруем трафик везде, где это возможно.*]
+Когда вы отправляете письмо с riseup.net на другой защищенный почтовый провайдер, на протяжении всего своего пути, письмо будет зашифровано. Для более подробной информации, читайте статью [[StartTLS]].
 
-[*We don't disclose your location to email recipients.*]
-When you send email with riseup.net, your internet address (IP address) is not embedded in the email. With corporate email providers, anyone who receives your email can figure out your approximate physical location from the internet address included in the email.
+[*Мы не раскрываем ваше местоположение получателям писем.*]
+Когда вы отправляете письмо с нашего почтового сервиса, ваш IP-адрес не записывается в письмо, в то время как у корпоративных почтовых провайдеров, любой кто получает ваше письмо, может узнать ваше примерное местоположение исходя из вашего IP-адреса включенного в тело письма.
 
-[*We don't log your internet address.*]
-Our commitment is to keep as little data on you as we can. Unlike corporate providers, we do not log internet addresses of anyone using riseup.net services, including email.
+[*Мы не оставляем записей о вашем IP-адресе.*]
+Наше правило - хранить как можно меньше данных. В отличие от корпоративных провайдеров, мы не логгируем IP-адреса подключаемых пользователей.
 
-h2. Mutual aid
+h2. Взаимопомощь
 
-There is no such thing as free email. Services like gmail, hotmail, and yahoo make their money from surveillance: they build a profile on your behavior and your desires and then bombard you with advertising specifically targeted to you.
+Не существует такой вещи, как "бесплатная почта". Сервисы типа gmail, hotmail и yahoo делают свои деньги на наблюдении за вами: они составляют ваш профиль основываясь на вашей почте, смотрят на то, как вы себя ведёте, изучают ваши желания и после этого, нещадно засыпают вас рекламой, направленной именно на вас. 
 
-Riseup.net is different. This service is a labor of love by activists like you committed to building movement-run and secure alternative infrastructure.
+Riseup.net действует по другому. Этот сервис - бескорыстный труд активистов, которые стремятся к тому, чтобы создавать защищенную и удобную альтернативу. Альтернативу, которой не плевать на вашу конфиденциальность.
 
-The riseup.net email service takes a lot of time and money to keep running, and is funded entirely by small donations from its users. Please do your part and [[contribute today => donate]].
+Существование этого сервиса требует много времени и денег, и спонсируется он исключительно небольшими пожертвованиями от пользователей. Пожалуйста, примите участие и [[помогите проекту уже сегодня => donate]].
 
-h2. Frequently asked questions (FAQ)
+h2. Вопросы и ответы (FAQ)
 
-* [[How do I change my password? => mail-passwords]]
-* [[How can I delete my account? => mail-accounts]]
-* [[How do I increase my quota? => quota]]
-* [[Why isnt my quota updated? => quota]]
-* [[How do I encrypt my email? => message-security]]
-* [[What can I do about the spam? => spam]]
-* [[Why cant I login using webmail? => webmail]]
-* [[Why cant I send mail from my mail client? => smtp]]
-* [[Is there an address book? => address-book]]
-* [[Why cant I see my folders? => email-folders]]
-* [[How do I download my email? => downloading-email]]
-* [[Why is email to me being blocked as spam? => spam]]
-* [[What can you tell me about viruses? => viruses]]
-* [[What is Riseups Usage Agreement? => email/usage-agreement]]
-* [[Why cant I set up an automatic out-of-office reply => email-filters]]
-* [[Why is my email being blocked as spam? => email/scams/spam]]
+* [[Как мне изменить пароль? => mail-passwords]]
+* [[Как удалить аккаунт? => mail-accounts]]
+* [[Как я могу увеличить квоту? => quota]]
+* [[Почему квота не увеличилась? => quota]]
+* [[Как мне зашифровать свои письма? => message-security]]
+* [[Как мне избавиться от спама? => spam]]
+* [[Почему я не могу войти через веб-интерфейс? => webmail]]
+* [[Почему я не могу отправить письмо с помощью почтового клиента? => smtp]]
+* [[Есть ли тут адресная книга? => address-book]]
+* [[Почему я не вижу свои директории? => email-folders]]
+* [[Как мне загрузить письмо? => downloading-email]]
+* [[Почему полученное мною сообщение помечено как спам? => spam]]
+* [[Что на счёт вирусов? => viruses]]
+* [[Какие правила пользования вашим сервисом? => email/usage-agreement]]
+* [[Почему я не могу настроить автоответчик? => email-filters]]
+* [[Почему мои письма блокируются как спам? => email/scams/spam]]
