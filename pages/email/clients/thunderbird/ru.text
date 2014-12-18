@@ -1,0 +1,83 @@
+@title = 'Thunderbird'
+
+h2. Что такое Thunderbird?
+
+!>img/reclaimyourinbox.png!
+
+Thunderbird это рекомендуемый нами почтовый клиент. Он бесплатен и доступен под все популярные платформы, такие как Windows, Linux и Mac OS X. Вы можете загрузить его с "официального сайта":http://www.mozillamessaging.com/en-US/thunderbird/download. Как свободное программное обеспечение, thunderbird является частью цифрового фонда, этакой общей сокровищницы ПО для всех. По другую же сторону, находится инструмент мирового господства за авторством Microsoft - Outlook.
+
+Thunderbird Обладает очень широким функционалом, включающим в себя: поддержку IMAP и POP, поддержку нескольких учетных записей, быстрый поиск, проверку орфографии, продвинутую систему спам-фильтров, ленты RSS, отображение виртуальных директорий, фильтрацию писем, адресную книгу и поддержку OpenPGP шифрования.
+
+h2. Настройка Thunderbird
+
+h3.  Запускаем мастер настройки
+
+При первом запуске Thunderbird, откроется мастер настройки в котором вы сможете настроить свою учётную запись. В случае, если мастер не запустился, вы можете сделать следующее:
+
+1. Выберите пункт меню *Edit > Account Settings...*
+
+!img/edit-account-settings.png!
+
+2. Нажмите кнопку *Add Account...*.
+
+!img/account-actions.png!
+
+h3. Шаг 1
+
+You will see a prompt. Enter in your name, email address and password.
+
+!img/mail-account-setup1.png!
+
+Click *Continue*.
+
+h3. Step 2
+
+Thunderbird will pull the settings from riseup's servers.
+
+!img/mail-account-setup2.png!
+
+Now you need to decide if you want to use [[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
+
+* *IMAP*: It will by default pick IMAP, so if you want IMAP you can simply click *Continue*.
+* *POP*: To switch to POP, click *edit*. Then click the dropdown menu that says IMAP and change it to POP. Now click Re-Test Configuration. It should show you using POP. If so, click *Continue*.
+
+!img/imap-pop.png!
+
+h3. Step 3
+
+If this does not work, you may have entered your username or password wrong. Click Start Over and try again. Otherwise...
+
+h3. You're Done!
+
+It should automatically check your mail now and every few minutes after. Have fun using Thunderbird!
+
+h2. What is next?
+
+h3. Enhance your email security
+
+# Ideally, you should *not* use StartTLS. Instead, it is much better to use regular TLS. For added security, go to your account settings and change your connection type from StartTLS to TLS.
+# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
+# For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/gpg-keys]] setup.
+
+h3. Add some extensions
+
+We suggest these extensions for Thunderbird:
+
+* "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: This extension will display the current status of your IMAP quota in thunderbird's statusbar and will warn you when you reach a configurable limit.
+* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: get started in no time encrypting and decrypting emails and verifying that emails you receive are from the people who you expect them to be.
+
+h3. Hidden options that radically improve Thunderbird speed
+
+By default, thunderbird talks to the email server every time you open an email or change its state. This can feel really sluggish on a slower network connection or if the Riseup server is busy.
+
+Happily, there is something you can do about it! Thunderbird has some hidden settings to make it sync entirely with the mail server when it connects. This will generally make your experience much more pleasant and snappy.
+
+To set these options, go to *Edit* menu > *Preferences* item > *Advanced* tab > *Config Editor* button.
+
+* use_status_for_biff: set this to *false*
+* mail.server.default.autosync_offline_stores: set this to *true*
+
+h3. Consider automatically deleting old email
+
+Do you really need to keep all that email? You can configure thunderbird to automatically delete your old email. To do this, navigate to Account Settings --> Local Folders --> Disk space. You can set thunderbird to delete messages once they get to be X days old.
+
