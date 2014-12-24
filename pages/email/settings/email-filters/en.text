@@ -8,6 +8,12 @@ h2. How do I edit my email filters?
 # Click on the *Mail Filters* tab
 # From this screen, you can change the order of your email filters, edit or remove existing filters, or add new filters. To edit an existing filter, click on it, and you will be brought to a screen where you can add new conditions, remove conditions, or edit existing ones.
 
+h2. How do I set up a filter for a nested folder?
+
+# Follow the steps above to create or edit a filter.
+# Place a "." character between the parent and child folders (e.g. the folder /riseup/Lists would be entered as "riseup.Lists", remember folders are case sensitive).
+# Save your filter.
+
 h2. How do I block an email address?
 
 If you are receiving harassing email or spam and want to ensure that a particular email address is automatically deleted, you can follow these steps:
