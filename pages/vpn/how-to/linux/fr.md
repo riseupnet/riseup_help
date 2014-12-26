@@ -71,7 +71,7 @@ Pour avoir l'application, il faut déjà que vous déterminiez le type de noyau 
 
 #### 64bits
 
-Si le résultat de cette commande est 'x86_64' ou 'amd64' alors téléchargez la dernière version disponible sur [https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux64-latest.tar.bz2](https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux64-latest.tar.bz2) et sa signature OpenPGP sur [https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux64-latest.tar.bz2.asc](https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux64-latest.tar.bz2.asc). 
+Si le résultat de cette commande est 'x86_64' ou 'amd64' alors téléchargez la dernière version disponible sur [https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2](https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2) et sa signature OpenPGP sur [https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc](https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc). 
 
 Les commandes suivantes téléchargeront et vérifieront l'authenticité de l'application.
 
@@ -86,7 +86,7 @@ Si vous obtenez 'Correct signature' ou 'Good signature' en résultat, décompres
 
 #### 32bits
 
-Si le résultat de cette commande est 'i686' ou 'i386' alors téléchargez la dernière version disponible sur [https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux32-latest.tar.bz2](https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux32-latest.tar.bz2) et sa signature OpenPGP sur [https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux32-latest.tar.bz2.asc](https://dl.bitmask.net/client/GNU/Linux/Bitmask-GNU/Linux32-latest.tar.bz2.asc).
+Si le résultat de cette commande est 'i686' ou 'i386' alors téléchargez la dernière version disponible sur [https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2](https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2) et sa signature OpenPGP sur [https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2.asc](https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2.asc).
 
 Les commandes suivantes téléchargeront et vérifieront l'authenticité de l'application.
 
