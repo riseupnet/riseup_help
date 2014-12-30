@@ -13,7 +13,7 @@ Um einen [[Jabber-Client => chat/clients]] zu konfigurieren, benötigst du folge
 
 * *Protokoll*: "jabber" oder "xmpp"
 * *Account*: [@benutzername@riseup.net@]
-* *Passwort*: dein [[Riseup-Passwort]]
+* *Passwort*: dein [[Riseup-Passwort -> human-security/riseup-password]]
 
 Es ist sehr wichtig, dass du deinen Client so konfigurierst, dass er *Verschlüsselung immer erfordert*. Einige Clients haben die Einstellungsmöglichkeit "verschlüsseln, wenn möglich". Obwohl der riseup.net-Server eine Verschlüsselung erfordert, kann ein Angreifer dein Passwort leicht abfangen, falls dein Client so konfiguriert ist, dass er "verschlüsselt, wenn möglich".
 

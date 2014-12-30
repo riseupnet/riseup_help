@@ -49,7 +49,7 @@ chat
   clients
     adium
     pidgin
-  security
+  chat-security
     otr
 vpn
   why-is-needed
