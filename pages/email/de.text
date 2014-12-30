@@ -1,0 +1,85 @@
+@title = 'Riseup E-Mail'
+@nav_title = 'E-Mail'
+
+!>airmail.jpg!
+
+Willkommen auf der riseup.net E-Mail-Hilfe. Hier findest du Informationen zu riseup.net *E-Mail Accounts*.
+
+Falls du nicht findest, nach was du suchst, [[fülle ein Hilfe-Ticket aus => https://user.riseup.net/forms/]]. Sobald deine Frage beantwortet wurde, hilf uns bitte dabei, diese Seiten aktuell zu halten, indem du Änderungen oder Ergänzungen, die du mit anderen Benutzern teilen möchtest, an uns übermittelst.
+
+h2. Erste Schritte
+
+Besuche [[user.riseup.net => https://user.riseup.net]]. Dort kannst du dein Passwort ändern, E-Mail Aliase hinzufügen, Filter einrichten, deinen Speicherplatz anpassen oder Hilfe anforden.
+
+Wir löschen die Informationen automatisch, die du uns als Teil deiner Registrierung übermittelt hast. Du solltest darüber nachdenken, sämtliche identifizierenden Informationen (Name, Geburtstag, Geheimfrage, alternative E-Mail) aus deinen Account-Einstellungen zu entfernen. Bedenke dabei, dass du den Zugriff auf deinen Account verlieren kannst, falls du dein Passwort vergessen solltest und diese Informationen nicht vorhanden sind (oder du hast vergessen, was du in diese Felder eingetragen hast bzw. deine alternative E-Mail Adresse ist nicht mehr erreichbar).
+We automatically destroy the information you gave us as part of your account request. You should consider removing any identifying information from your account settings, such as your name, birthday, secret question, and alternate email. However, if you forget your password and this information is not set (or you've forgotten what you stored, or the alternate email is no longer accessible), then you will lose access to your account.
+
+h2. Wichtige Informationen
+
+h3. Schütze dein Passwort
+
+Im Internet wimmelt es von Personen, die versuchen, deinen E-Mail Account zu stehlen. Möglicherweise erhälst du eine gefälschte E-Mail von jemanden, der behauptet, im Namen von riseup.net zu handeln. In diesen E-Mails steht beispielsweise, dass du einige Aktionen ausführen sollst, um deinen Account zu behalten.
+
+* Gib niemals dein Passwort weiter, vor allem nicht jemanden, der behauptet, im Namen von riseup.net zu Handeln.
+* Vertraue niemals dem "From"-Header (der Absenderadresse) einer E-Mail, da dieser leicht gefälscht werden kann.
+* Links in E-Mails sind oft manipuliert. Um sicher zu gehen solltest du den Link abtippen, anstatt ihn anzuklicken. Achte auch auf Tippfehler, wie z.B. riseupp.net statt riseup.net
+
+Weitere Informationen findest du unter [[Passwörter => mail-passwords]].
+
+h3. Automatisches Löschen in einigen Ordnern
+
+Nachrichten in einigen [[speziellen Ordnern => email-folders]] werden automatisch nach einer bestimmten Anzahl an Tagen gelöscht:
+
+* Nachrichten im Ordner *Papierkorb* werden nach 21 Tagen gelöscht.
+* Nachrichten im Ordner *Spam* werden nach 7 Tagen gelöscht.
+* Nachrichten im Ordner *Gesendet* werden nach 120 Tagen gelöscht.
+
+h3. Speicherplatz
+
+Es hat verschiedene Gründe, dass wir nicht viel Speicherplatz für E-Mails bereitstellen. Wenn du mehr Platz benötigst, solltest du deine E-Mails mit einem E-Mail Client abrufen (und serverseitig löschen lassen) oder deinen Speicherplatz unter https://user.riseup.net erhöhen. Weitere Informationen findest du unter [[Speicherplatz => quota]].
+
+h3. Verwendung eines E-Mail Clients
+
+Da das riseup.net Webinterface nicht besonders viele Features mitbringt, kannst du deinen riseup.net E-Mail Account mit einem IMAP oder POP E-Mail Client abrufen, ein funktionenreiches Programm, das speziell zur Synchronisation von E-Mails entwickelt wurde. Siehe dazu unsere [[Anleitungen für populäre E-Mail Clients => email/clients]].
+
+Riseup empfiehlt [[thunderbird]], ein kostenloser Open-Source E-Mail Client. Thunderbird wird sich selbst automatisch richtig konfigurieren, wenn du deine riseup.net E-Mail Adresse und dein Passwort eingibst.
+
+h2. Was ist das besondere am riseup.net E-Mail Account
+
+Dein riseup.net E-Mail Account ist eine wundervolle Sache. Trotz des geringen Speicherplatzes im Vergleich zu kommerziellen, durch Überwachung finanzierten E-Mail Provider hat riseup.net einige unübliche Funktionen:
+
+[*Wir verschlüsseln den Datenverkehr so oft als möglich.*]
+Wenn du eine E-Mail von riseup.net an andere sichere E-Mail Provider sendest, wird deine E-Mail die ganze Reise über verschlüsselt bleiben. (Siehe [[StartTLS]] für weitere Informationen)
+
+[*Wir leiten deine Standort-Informationen nicht an Empfänger weiter.*]
+Wenn du eine E-Mail über riseup.net versendest, wird deine Internet-Adresse (IP-Adresse) nicht in die E-Mail eingebunden. Bei kommerziellen E-Mail Providern kann jeder, der deine E-Mail erhält, deine ungefähre geografische Position aus der IP-Adresse, die in die E-Mail eingebunden wurde, ermitteln.
+
+[*Wir speichern deine Internet-Adresse nicht.*]
+Unser Ziel ist es, so wenig Daten wie möglich über dich zu sammeln. Im Gegensatz zu kommerziellen E-Mail Providern speichern wir keinerlei IP-Adressen der Benutzer von riseup.net Services sowie des E-Mail Dienstes.
+
+h2. Gegenseitige Unterstützung
+
+Es gibt keine kostenlosen E-Mail Provider. Unternehmen wie Gmail, Hotmail und Yahoo finanzieren sichdurch Überwachung: sie legen ein Profil deines Verhaltens und deiner Wünsche an und bombardieren dich dann mit personalisierter, maßgeschneiderter Werbung.
+
+Riseup.net ist anders. Dieser Service ist ein Labor der Liebe von Aktivisten wie dir, die sich dazu verpflichtet haben, kollektive und sichere alternative Infrastruktur aufzubauen.
+
+Der riseup.net E-Mail Dienst benötigt viel Zeit und Geld und wird ausschließlich durch kleine Spendenbeiträge seiner Benutzer finanziert. Bitte trage deinen Teil dazu bei und [[spende noch heute => donate]].
+
+h2. Häufig gestellte Fragen (FAQ)
+
+* [[Wie ändere ich mein Passwort? => mail-passwords]]
+* [[Wie kann ich meinen Account löschen? => mail-accounts]]
+* [[Wie erhöhe ich meinen Speicherplatz? => quota]]
+* [[Wieso ändert sich mein Speicherplatz nicht? => quota]]
+* [[Wie verschlüssele ich meine E-Mails? => message-security]]
+* [[Wie kann ich Spam-Mails verhindern? => spam]]
+* [[Warum kann ich mich beim Webmail nicht anmelden? => webmail]]
+* [[Warum kann ich über meinen E-Mail Client keine Mails versenden? => smtp]]
+* [[Gibt es ein Adressbuch? => address-book]]
+* [[Warum kann ich meine Ordner nicht sehen? => email-folders]]
+* [[Wie lade ich meine E-Mails herunter? => downloading-email]]
+* [[Warum wird eine E-Mail an mich als Spam behandelt und blockiert? => spam]]
+* [[Was sind deine Ratschläge bezüglich Computerviren? => viruses]]
+* [[Wo finde ich die Nutzungsbedingungen von Riseup? => email/usage-agreement]]
+* [[Warum kann ich keine automatischen Abwesenheitsmeldungen erstellen? => email-filters]]
+* [[Warum wird meine E-Mail als Spam behandelt und blockiert? => email/scams/spam]]
