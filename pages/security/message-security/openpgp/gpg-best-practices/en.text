@@ -93,6 +93,12 @@ Note that there was a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs
 
 bc. gpg --with-fingerprint --list-secret-key
 
+h3. Check key fingerprints before importing.
+
+If you received or downloaded a key in a <keyfile>, you can and should display its fingerprint before importing it into your keyring, in that way you can verify the fingerprint without possibly spoiling your keyring and adding a compromised key:
+
+pre. gpg --with-fingerprint <keyfile>
+
 h2. Key configuration.
 
 Now that you know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
