@@ -65,36 +65,7 @@ Tor macht es möglich, dass nicht nur Nutzer*innen ihren Standort verbergen, son
 Die folgenden sind Riseups versteckte Tor-Dienste:
 
 <pre>
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
-imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
-labs.riseup.net:  yfm6sdhnfbulplsw.onion (port 80, 443)
-lists.riseup.net: xpgylzydxykgdqyg.onion (port 80, 443)
-mail.riseup.net:  zsolxunfmbfuq7wf.onion (ports 443, 465, 587)
-pad.riseup.net:   5jp7xtmox6jyoqd5.onion (port 443)
-pop.riseup.net:   zsolxunfmbfuq7wf.onion (port 995)
-shell.riseup.net: akarp42hn2znnxjk.onion (port 22)
-smtp.riseup.net:  zsolxunfmbfuq7wf.onion (ports 465, 587)
-user.riseup.net:  j6uhdvbhz74oefxf.onion (port 80, 443)
-we.riseup.net:    7lvd7fa5yfbdqaii.onion (port 443)
-xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 3478, 3479, 5190, 5222, 5223, 5269, 7777)
------BEGIN PGP SIGNATURE-----
-
-iQIcBAEBCgAGBQJUAJiWAAoJEDBD4rcTmnaOzYQP/RyQ0bGy5CHrM4H3JqGqGlVo
-n9GgSkZruEO+oFTVWILrnNXNgz4um25UVqe9NlizimvMzcMlyH+9oYdLWPd/Rcgg
-m1qYjgOBE7zQWa54va58d1JZZ0jSqdz2V4GpIY+wC4zJERciyEnZNJ0kJQ4LDodd
-ITGhiyJZWTrq9/zaTzoBdjznlO4Vo/6Mf+aYzJFMMu7z8rElhMc7jzZpWABMQ1M8
-26GHo8ce+UMqSgdalyh9NWhj13qq9t7WTriyPYbehHSEc30SmTxaI0YYKlJjsUlZ
-YMdjS1wZD0zB+NsCn7RiXc447JUZmG5TVoQlsTX5O5XoJ81haZf8CkapyXy7sfjW
-tqa5B8o+hQwHLp5Qrp1Ekax3Jxkb63v54NFkoEoalyWwCVhUmF0zdiZXuwUe2JsM
-0YpZhB3wgiHH59uw5F9C3Skt5feHwpYy+V/xp30LsGMJppEHQGIH29IYx+2uQBCD
-Wu4tmBU1bsrz+7903gczrckFWt8mmn7X8riUtQH7vc7cyhj4K68nnGLw1VUA2SYT
-8Zs7BaVMmusgAJgmZgzoLPgLfbhTlDlzOuQlfZucK93d2ikMjRErm5KO7T5CoKI4
-MdjLyzAkKx5/uLhDYpKvCMYXdeRtc0f+hacTh+1EDofX2wgkXj/yCsTXK4lz9N4O
-Yt6+Y/1Mjz982iOo8nQH
-=gjTM
------END PGP SIGNATURE-----
+<%= render :file => 'hs-addresses-signed.txt', :type => :raw %>
 </pre>
 
 h2. Warnungen und Anmerkungen
