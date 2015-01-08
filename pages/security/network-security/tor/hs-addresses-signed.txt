@@ -2,6 +2,7 @@
 Hash: SHA512
 
 riseup.net:       nzh3fv6jc6jskki3.onion (port 443)
+help.riseup.net:  nzh3fv6jc6jskki3.onion (port 443)
 black.riseup.net: cwoiopiifrlzcuos.onion (port 443)
 imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
 labs.riseup.net:  yfm6sdhnfbulplsw.onion (port 80, 443)
@@ -17,19 +18,19 @@ xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 3478, 3479, 5190, 5222, 5223, 52
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJ8BAEBCgBmBQJUrB1OXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+iQJ8BAEBCgBmBQJUrqD+XxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
 ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOlQoP/083JHY4nF7cm2kN5LLNVn7p
-ieVJywEoTJMi1uXb6AbXHS1wZSIQ1gAE4IgxBkKZSkrcPx9WEwj800XK4dcPavbk
-FMe3gema+r1Vi4+NeVUaEs76DilcYydnBMd8PQvCQ3ljkudBbIJn5+l1JGCTEiDf
-Lu7MndLbA9Wnj69BIH+0iFZV4NnE6lq2A5F+hvgsrA6XAIAIFzN38OlCgK9NWG5R
-1PttVWauv2ug54Bhfd1NbYbKVgJ42jtjVWQZJcBJVOCU8rLN87Od0mYuBFuQiHuj
-dfAFUVPPObHtAAxY6BcMssb7m0jgqMKkIScTQxJigdpX1KU3za0P+rzwnThzL89f
-e19f0jvlSCHkAIgEBljR5PvOeVPSuSUiYZSwU3vrbIGhUUtk16AaYyM/iSf0Khyx
-pQv5nkGM5Pnc839s2ZqB5GqUwB/rStbK40kaGIPL8TSxabmkTglgsAhrP1lBp1MK
-5d+gsSNBGgntzblqYugUk5PBMFlmhyT2toXtTipTWF31XQW9g0VVgQaIQ52PyfVi
-pgk8CDSpfcSEx/RxTIn/P0Xnp0MKYlb9mvIlnTAKq+IOpn5BruKJABeH0dsZ4isY
-Sm0wQ9hyqOqu1ZcjYKBc5Oc+AKC655knINoS8VhJHGWzidaD/X7zZOGHGtAh6tgK
-Kh/0BlAQQWOIqJ1KHr+4
-=3mwe
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaO8HEQAKZxHVx6q7Ye3esoDG4yvCxC
+qWrGgOaywY0zrF60SoN533A3e+TG8U66PeJnaDC6ITl1yKE1+fyDrUP9nhW7Oln1
+s6vFDXSdjxYwjcj8pu3Rn3T0J8/dALQ5d5JckogZoKv7ilkRENKDhRnrXTey5qBY
+FGgDixZOKF4K0jPeVhYnnpLfWAs8hPwQgHJLXJDizaRqRINaWeNgKycX9p039ro9
+PFmQKC2571jIrfD+sACCjKemjpo0x+BXNbqB0brbvt0ydOw6VQOI95aukjJ+p5rB
+SkywmslSZgxCHBhAFnVJU8RYYM7uDGcBIV17+bvth4wnLL21EH4hgjVznBE3DMRt
+510njWo9PKrTxD4/YlFzxYEoZ/tun6wlbPD3i2jXQRxty861L3rNP9oMX7D6+LAY
+bhgKvsxqjdL/iVi1JFL4yKvPIou+1JoZacjFA8dJvpw6EQpkP3V+I5+NAiFoeNZ9
+98MBtRWdZZTL8qs+EAAUc08WBg1gQ8k80BL+uIcHaqdBN6atfYtRzWg5h5Tq9KDO
+MLWMACvm+FJfV6C0yptRaBhjqq9RwXGN3AlXq5L+ZDJDnAu31x2dWhF93R9JfHvU
+i/0+EGsjDQ5vyi5OZ48k86DKOZ4ZADonbfeLiYPhU+z2PdaojmaHTH4scLrLlESV
+0LkmCQ/lb0xXg+wexqoI
+=RTfB
 -----END PGP SIGNATURE-----
