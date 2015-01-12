@@ -1,0 +1,24 @@
+@title = 'Sylpheed'
+
+!>
+
+Sylpheed is a free/libre Email Client for Linux/Mac/Window$. The app is a more functional, lighter, and free replacement for the default mail application included on most Systems. It supports both POP3 and IMAP mailboxes.
+
+You can install Sylpheed from http://sylpheed.sraoss.jp/en/, or free/libre repos such as those provided with Trisquel.
+
+
+Sylpheed is very easy to set up. 
+
+1) Install, as mentioned above (or referencing Sylpheed documentation)
+2) Open Sylpheed 
+3) Select either POP or IMAP (if you don't know the difference, and plan to use this email account on multiple devices select IMAP) 
+4) Click 'forward'
+5) Enter your riseup email address 'youruser@riseup.net'
+6) Give the account a name if you like, and add your name in the 'name' field, please be aware, this information will be transmitted when you send mail from this device, so do not use your real name if you wish to remain (somewhat) anonymous
+7) Click 'forward'
+6) Fill the information in with 'youruser' and 'yourpassword' and mail.riseup.net (for both incoming and outgoing servers)
+7) Select 'SSL/TLS' for both
+8) Select 'Use SMTP Authentication'
+8) Click 'forward'
+9) You are done configuring your email client! Make sure to test your ability to send/receive mail!
+10) Donate to riseup, either with time or money!
