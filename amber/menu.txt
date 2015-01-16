@@ -15,6 +15,7 @@ email
     ios-mail
     microsoft-outlook
     postbox
+    sylpheed
   webmail
     address-book
     where-is-imp
