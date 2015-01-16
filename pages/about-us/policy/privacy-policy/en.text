@@ -1,36 +1,72 @@
 @title = 'Privacy Policy'
 @this.alias = '/privacy-policy'
 
-Our goal is to retain as little information on you as possible while still retaining the ability to provide reliable service and prevent abuse of server resources.
+This document describes what information we collect and what it’s used for. It applies to all interactions with riseup.net, except for our new "black" services which are covered by a [[different privacy policy -> https://black.riseup.net/privacy-policy]]. Your use of riseup.net services will constitute your agreement to our Privacy Policy. Please also review our [[Terms of Service -> ../tos/]].
 
-h3.  Please delete your user data
+h2. Summary 
 
-We collect user information from you when you make a request for service. Once your request is approved, you have two options:
+You have a reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. We collect very little personal information, and none of the information we do collect is ever shared or disclosed to anyone.
 
-# Leave intact the user information which you have provided. This information helps us troubleshoot problems which may arise. For example, if you forget your password this information might help us to confirm your identity and reset your password.
-# Delete your user information. If you are concerned about your privacy, we strongly suggest that you delete all the user information which you have provided. The drawback is that you will lose your account and all your mail  if you forget your password. No exceptions.
+h2. Information we collect and retain
 
-Riseup.net does not want to keep your user information. If we don't have your information, we cannot be forced to provide this data to a third party. It is our preference that you delete your information now. But the choice is up to you.
+h3. Registration information
 
-For mail accounts, user information can be deleted by visiting https://mail.riseup.net and clicking "change my settings." For lists, you can edit the list description and owners (and other information) from the list admin interface once you are logged into https://lists.riseup.net.
+When you create an account, we retain the date you registered. Account request information is removed after four months, and invite status is removed after one month. Unless you delete it from your user account, we retain the alternate email addresses that you specify. You may choose to delete your alternate email address, but if you do so, we will not be able to restore access to your account if you lose the password.
 
-h3.  We keep minimal logs
+h3. Help tickets
 
-Most Online Service Providers keep detailed records of all connections. In general, we do not keep information which uniquely identifies you or could be used to build a profile of your usage and associations. We do not log IP addresses. For troubleshooting, we may enable increased logging for brief periods of time. These extra logs are deleted immediately after they are used.
+The content of any help ticket you create or comment on while authenticated will be associated with your user account. You can choose to fill out a help ticket anonymously by creating a ticket while not logged in. We periodically delete old help tickets that are closed.
 
-h3.  We do not share data with anyone
+h3. Session identifiers
 
-We do not share any user information with any other groups or individuals. Within the Riseup Collective, members of the collective have access only to information which they need in order to perform their work.
+While currently logged in, we keep a temporary session identifier on your computer that your software uses to prove your authentication state. This is erased immediately after you log out or the session expires. We do not use any third party cookies or tracking of any kind.
 
-h3.  We will defend your data
+h3. Email transit logs
 
-We will actively fight any attempt to force Riseup Networks to disclose user information or logs.
+In order to detect when our servers are under attack from a “spam bomb” or when a spammer is using our system, we keep a log of the “from” or “to” information for every message relayed. These logs are purged on a daily basis.
 
-h3.  We will not monitor your communications
+h3. Month of last log in
+
+We keep a record of the current calendar month and year of your last successful authentication (in order to be able to disable and delete dormant accounts). We do not record the time or day of the last log in.
+
+h2. Information we choose to not retain
+
+h3. IP addresses
+
+No IP addresses of any user for any service are retained.
+
+h3. Browser fingerprint 
+
+Your web browser communicates uniquely identifying information to all web servers it visits by allowing the site to know details about your operating system, browser information, plugins installed, fonts installed, screen resolution, and much more. We do not retain any of this information.
+
+h3. Message metadata 
+
+Even when using end-to-end OpenPGP encryption for email messages, the email “subject” and routing information regarding the message “from” and “to” are seen by our servers in the clear when the email initially arrives. This is due to inherent limitations in the email protocol and in OpenPGP. 
+
+h2. How we store and disclose collected information
+
+h3. Encryption 
+
+All of your data is stored in an encrypted format, and only Riseup has the keys to decrypt the data.
+
+h3. Cleartext messages 
+
+Some messages that you send or receive will not be end-to-end-encrypted (for example, when the other party does not support email encryption). Once we receive these clear-text messages, they are stored on an encrypted disk drive. If they are sent from or to our system without encryption, we cannot ensure that the contents of the mail have not been intercepted in transit.
+
+h3. We do not disclose user information
+
+We retain only the bare minimum of information about each user that is required to make the service work. We do not disclose, sell, or share any of it.
+
+h3. Academic research
+
+Anonymous, aggregated information that cannot be linked back to an individual user may be made available to third parties for the sole purpose of researching better systems for anonymous and secure communication. For example, we may aggregate information on how many messages a typical user sends and receives, and with what frequency.
 
 We will not read, search, or process any of your incoming or outgoing mail other than to protect you from viruses and spam or when directed to do so by you when troubleshooting.
 
-h3.  Your data is encrypted
+h2. Account deletion
 
-The content of your communications, the calendar date of your last login, your addressbook, and all backups are stored in encrypted format.
+You may choose to delete your riseup.net account at any time. Doing so will destroy all the data we retain that is associated with your account. The usernames associated with deleted accounts remain unavailable for others to use for one year.
 
+h2. Changes to this policy
+
+We reserve the right to change this policy. If we make major changes, we will notify our users in a clear and prominent manner. Minor changes may only be highlighted in the footer of our website.
