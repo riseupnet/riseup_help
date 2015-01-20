@@ -1,0 +1,23 @@
+@title = "Sécurité de l'appareil"
+
+Well... this page is just a placeholder. It needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
+
+h1. Cryptage du disque
+
+Difficulté: de Simple à Complexe
+Pourquoi: Prévenir l'accès aux informations contenues sur le disque dur de l'ordinateur.
+
+Le plus simple: cyptage LUKS des partitions après une nouvelle installation.
+Simple: formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et « scrub »: https://code.google.com/p/diskrub/ l'ancien emplacement des données.
+Moyen: cryptage LUKS sur LVM.
+Moyen: cryptage par-dessus des fichiers/emplacements de fichiers spécifiques.
+Compliqué: cryptage du disque dans son ensemble, ave des fichiers clefs placés sur un autre dispositif (comme une clé USB).
+Le plus compliqué: Méthodes de stéganographie..
+
+h1. Pare-feu Personnel
+
+Difficulté: Simple
+*Pourquoi*: Rend votre ordinateur moins vulnérable aux attaques depuis l'internet. Lorsque vous lancez le [[RiseupVPN->vpn]] il est *essentiel* parce que votre ordinateur est encore plus exposé que la normale.
+*Comment*: Installez [[gufw->http://gufw.org]], "L'un des plus simples pare-feu du monde". Vous pouvez trouver gufw dans Ubuntu et Debian.
+
+[[Suivez ces simples instructions pour vous lancer sur gufw -> https://help.ubuntu.com/community/Gufw]]
