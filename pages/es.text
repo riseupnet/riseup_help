@@ -1,18 +1,19 @@
 @nav_title = "VPN"
 @title = 'Riseup VPN'
 @toc = false
-p(alert alert-warning). We are launching a new VPN, the first step on our next generation anti-surveillance services. These new security enhanced systems are hosted on https://black.riseup.net and are not linked to the current riseup's infrastructure. This means you will need to create a different account there. Don't worry, all of our current usernames are 'reserved' and cannot be used on Black and you will be able to use your current username or the new one (if you want) later this year.
-h2. Quick links!
+p(alert alert-warning). 
+Hemos lanzado una nueva VPN, el primer paso en nuestros servicios anti-vigilancia de última generación. Estos sistemas con seguridad mejorada están alojados en https://black.riseup.net y no están vinculados a la infraestructura actual de riseup. Esto significa que tendrás que crear una cuenta diferente allí. No te preocupes, todos nuestros nombres de usuario están "reservados" y no se puede utilizar en Black, podrás utilizar tu nombre de usuario actual o el nuevo (si quieres) a finales de este año.
+h2. ¡Enlaces rápidos!
 * Black: "black.riseup.net":https://black.riseup.net
-* Linux user? [[Install instructions -> linux]]
-* Android user? [[Install instructions -> android]]
-* Something not working? check [[Troubleshooting]]
-* Have a question? check our [[FAQs -> faq]]
-h2. What is the RiseupVPN?
-Virtual Private Networks (VPN) are used typically to connect remote workers to the main office network. However, The RiseupVPN is different: it provides a service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet.
-This type of VPN is sometimes called a "Personal VPN" or an "Encrypted Proxy". The goal of a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
-h2. What is Bitmask? What is LEAP?
-Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromissing their security. To access this service you will need to install the application called Bitmask.
+* ¿Usas GNU/Linux? [[Instrucciones de instalación -> linux]]
+* ¿Usas Android? [[Instrucciones de instalación -> android]]
+* ¿Algon no funciona? comprueba [[Troubleshooting]]
+* ¿Tienes alguna pregunta? visita nuestras [[FAQs -> faq]]
+h2. ¿Qué es RiseupVPN?
+Las Redes Privadas Virtuales (Virtual Private Networks - VPN) se usan generalmente para que se conecten de forma remota los trabajadores a una oficina principal. Sin embargo, RiseupVPN es diferente: ofrecemos un servicio para evadir la censura, anomizar tu ubicación y para cifrar el tráfico. Para que esto sea posible, [[envía todo tu tráfico de Internet a través de una conexión cifrada => how-vpn-works]] a riseup.net, desde donde sale a la Internet pública.
+Este tipo de VPN a veces se llama "VPN Personal" o "cifrado Proxy". El objetivo de una VPN personal no es el de conectar de forma segura con una red privada, si no para conectarse de forma segura a Internet entera.
+h2. ¿Qué es Bitmask? ¿Qué es LEAP?
+El nuevo sistema RiseupVPN es parte de nuestros servicios anti-vigilancia de última generación proporcionado por el [[LEAP Encryption Access Project -> https://leap.se]]. LEAP es un esfuerzo colaborativo para hacer que las tecnologías de cifrado existentes sean fáciles de usar y ampliamente disponibles sin compromenter su seguridad. Para acceder a este servicio tendrás que instalar una aplicación llamada Bitmask.
 We are aware that encryption (in general) is hard and that there is an important gap between the access to security systems between tech savvy people and the rest of the world. However, to create a free society we must guarantee the equal access to secure and private communications technologies. Bitmask's role is to help us in that work. Bitmask gives a hassle-free, self-configuring and multi-platform experience with several security enhancements.
 Want to check it out? Please read the install instructions. Don't be afraid!
 h2. What happened OpenVPN? Why is Bitmask better than my OpenVPN client?
