@@ -7,7 +7,7 @@ h2. ¡Enlaces rápidos!
 * Black: "black.riseup.net":https://black.riseup.net
 * ¿Usas GNU/Linux? [[Instrucciones de instalación -> linux]]
 * ¿Usas Android? [[Instrucciones de instalación -> android]]
-* ¿Algon no funciona? comprueba [[Troubleshooting]]
+* ¿Algo no funciona? comprueba [[Resolución de problemas]]
 * ¿Tienes alguna pregunta? visita nuestras [[FAQs -> faq]]
 h2. ¿Qué es RiseupVPN?
 Las Redes Privadas Virtuales (Virtual Private Networks - VPN) se usan generalmente para que se conecten de forma remota los trabajadores a una oficina principal. Sin embargo, RiseupVPN es diferente: ofrecemos un servicio para evadir la censura, anomizar tu ubicación y para cifrar el tráfico. Para que esto sea posible, [[envía todo tu tráfico de Internet a través de una conexión cifrada => how-vpn-works]] a riseup.net, desde donde sale a la Internet pública.
