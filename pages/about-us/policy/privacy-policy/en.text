@@ -3,9 +3,9 @@
 
 This document describes what information we collect and what it’s used for. It applies to all interactions with riseup.net, except for our new "black" services which are covered by a [[different privacy policy -> https://black.riseup.net/privacy-policy]]. Your use of riseup.net services will constitute your agreement to our Privacy Policy. Please also review our [[Terms of Service -> ../tos/]].
 
-h2. Summary 
+h2. Summary
 
-You have a reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. We collect very little personal information, and none of the information we do collect is ever shared or disclosed to anyone.
+You have a reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. We collect very little personal information, and none of the information we do collect is ever shared.
 
 h2. Information we collect and retain
 
@@ -35,31 +35,31 @@ h3. IP addresses
 
 No IP addresses of any user for any service are retained.
 
-h3. Browser fingerprint 
+h3. Browser fingerprint
 
 Your web browser communicates uniquely identifying information to all web servers it visits by allowing the site to know details about your operating system, browser information, plugins installed, fonts installed, screen resolution, and much more. We do not retain any of this information.
 
-h3. Message metadata 
+h3. Message metadata
 
-Even when using end-to-end OpenPGP encryption for email messages, the email “subject” and routing information regarding the message “from” and “to” are seen by our servers in the clear when the email initially arrives. This is due to inherent limitations in the email protocol and in OpenPGP. 
+Even when using end-to-end OpenPGP encryption for email messages, the email “subject” and routing information regarding the message “from” and “to” are seen by our servers in the clear when the email initially arrives. This is due to inherent limitations in the email protocol and in OpenPGP.
 
-h2. How we store and disclose collected information
+h2. How we store and share collected information
 
-h3. Encryption 
+h3. Encryption
 
 All of your data is stored in an encrypted format, and only Riseup has the keys to decrypt the data.
 
-h3. Cleartext messages 
+h3. Cleartext messages
 
 Some messages that you send or receive will not be end-to-end-encrypted (for example, when the other party does not support email encryption). Once we receive these clear-text messages, they are stored on an encrypted disk drive. If they are sent from or to our system without encryption, we cannot ensure that the contents of the mail have not been intercepted in transit.
 
-h3. We do not disclose user information
+h3. We do not share user information
 
-We retain only the bare minimum of information about each user that is required to make the service work. We do not disclose, sell, or share any of it.
+We retain only the bare minimum of information about each user that is required to make the service work. We do not sell or share any of it.
 
 h3. Academic research
 
-Anonymous, aggregated information that cannot be linked back to an individual user may be made available to third parties for the sole purpose of researching better systems for anonymous and secure communication. For example, we may aggregate information on how many messages a typical user sends and receives, and with what frequency.
+Anonymous, aggregated information that cannot be linked back to an individual user may be made available to experienced researchers for the sole purpose of developing better systems for anonymous and secure communication. For example, we may aggregate information on how many messages a typical user sends and receives, and with what frequency.
 
 We will not read, search, or process any of your incoming or outgoing mail other than to protect you from viruses and spam or when directed to do so by you when troubleshooting.
 
