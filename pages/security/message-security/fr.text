@@ -1,6 +1,6 @@
 @title = "Sécurité des Messages"
 
-*Sécurité des messages* c'est la pratique de crypter les messages sur votre disque de manière à ce qu'ils ne soient lus que par les personnes auxquelles ils étaient destinés. Bien que la [[sécurité-réseau]] et la [[sécurité-de-l'appareil]] soient importantes, ce type de *cryptage de messages* est nécessaire dans plusieurs situations :
+*Sécurité des messages* c'est la pratique de crypter les messages sur votre disque de manière à ce qu'ils ne soient lus que par les personnes auxquelles ils étaient destinés. Bien que la [[sécurité-réseau -> security/network-security]] et la [[sécurité-de-l'appareil -> security/device-security]] soient importantes, ce type de *cryptage de messages* est nécessaire dans plusieurs situations :
 
 * *Confidentialité*: Le cryptage de messages est le seul moyen d'assurer que seules les personnes concernées puissent lire vos messages.
 * *Authenticité*: Le cryptage de messages est le seul moyen d'assurer l'identité des personnes avec lesquelles vous communiquez.
@@ -36,7 +36,7 @@ Bien que vous pouvez cacher le contenu d'un e-mail avec le cryptage par clef pub
 
 Pourquoi? Imaginez que quelqu'un ne connaisse pas le contenu de votre e-mail, mais il sait à qui vous l'avez envoyé et qui l'a envoyé et il connaît la fréquence d'envoi et ce qu'est le sujet global. Ces informations peuvent fournir une image de vos associations, habitudes, contacts, intérêts et activités.
 
-Le seul moyen de garder votre liste d'associations privée est d'utiliser un fournisseur de services qui établira une connexion sécurisée avec d'autres fournisseurs de services. Veuillez vous rendre à [[ répertoire de serveurs radicaux->serveurs-radicaux]] pour une liste de tels fournisseurs.
+Le seul moyen de garder votre liste d'associations privée est d'utiliser un fournisseur de services qui établira une connexion sécurisée avec d'autres fournisseurs de services. Veuillez vous rendre à [[ répertoire de serveurs radicaux->radical-servers]] pour une liste de tels fournisseurs.
 
 h1. Utilisez les Messages Cryptés
 
