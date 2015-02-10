@@ -10,7 +10,7 @@ At Riseup, we are accustomed to defending against regular DDoS attacks, but the 
 
 Many people, including our dear friends and lovers, consider DDoS to be a form of electronic civil disobedience (when conducted by many volunteers, and not the usual way with hijacked computers). At Riseup, however, we have always opposed DDoS as a political tactic for a simple reason: DDoS is a weapon that can be brutally effective against marginal voices online, but is almost always ineffective against the powerful. We believe that all social movements should reject DDoS as a tactic.
 
-h2. Try out Bitmask
+h1. Try out Bitmask
 
 Riseup's new VPN service uses the free software Bitmask application. There is a new version of the Bitmask for Android that is better than ever and allows you to easily use the Riseup VPN service on your Android device. We now have VPN gateways in Seattle, Montreal, and Amsterdam.
 
