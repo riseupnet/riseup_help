@@ -16,6 +16,7 @@ email
     microsoft-outlook
     postbox
     sylpheed
+    claws
   webmail
     address-book
     where-is-imp
