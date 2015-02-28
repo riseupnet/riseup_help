@@ -4,7 +4,7 @@ h2. What is Claws?
 
 !>img/it_bites.png!
 
-Claws Mail is the mail client bundled with Tails (The Amnesiac Incognito Live System) which makes it an obvious mail client choice if you are using that platform. It is Free Software and is available for Linux, and Windows. You can download Claws Mail "from the Claws Mail website":http://www.claws-mail.org/downloads.php?section=downloads. 
+Claws Mail is the mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org/ which makes it an obvious mail client choice if you are using that platform. It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":http://www.claws-mail.org/downloads.php?section=downloads. 
 
 Claws Mail aims to be feature rich, fast, and stable.  It has IMAP and POP support, multiple account support, colored labels, spell checking, filtering, and support for OpenPGP encryption.
 
@@ -14,7 +14,7 @@ h3.  The First Time - Setup Wizard
 
 The first time you run Claws Mail, the setup wizard will walk you through setting up an account. If the wizard does not open, see section "Manual Account Creation" below.
 
-If using Tails you will almost certainly want to "configure a persistent volume":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html and enable "GnuPG", and "Claws Mail".
+*If using Tails* you will almost certainly want to "configure a persistent volume":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html and enable "GnuPG", and "Claws Mail".
 
 # Enter your name/alias and e-mail address on the first page 
 # Click "Forward" to advance to the next screen
@@ -35,17 +35,11 @@ h3.  Manual Account Creation
 While running Claws Mail select "Configuration > Create New Account" from the menubar.
 
 # *Basic Settings* - enter a name for your account, enter your name, mail address, select POP3 or IMAP, enter *mail.riseup.net* for both the "Server for receiving" and "SMTP server (send)" fields, and your riseup.net userid (without @riseup.net) and password
-
 !img/setup_basic.png!
-
 # *Send Settings* - select "SMTP Authentication"
-
 !img/setup_send.png!
-
 # *SSL Settings* - Select STARTTLS for both POP3 and SMTP.
-
 !img/setup_ssl.png!
-
 # Click "OK" to finish adding your new account
 
 h3.  First Time, SSL Certificates
@@ -54,13 +48,13 @@ When checking your mail for the first time, and also sending your first message,
 
 !img/ssl.png!
 
-When you see this be sure to "View certificate" details and verify the SSL certificate SHA1 certificate against the [[published fingerprints for riseup.net => /security/network-security/certificates]].
+When you see this be sure to "View certificate" details dropdown and verify the SSL certificate SHA1 certificate against the [[published fingerprints for riseup.net => /security/network-security/certificates]].
 
 Claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates.  Any time you get this SSL pop-up, verify the fingerprints!
 
 h3. Warnings
 
-* If you are using the Claws Mail under Tails it is important to verify that your mail folders are setup in a persistent location (reboot!) before permanently removing any mail from the server or you may lose mail!
+* If you are using the Claws Mail under Tails it is important to verify that your local mail folders are setup in a persistent location before permanently removing any mail from the server or you may lose mail!
 
 h3. You're Done!
 
