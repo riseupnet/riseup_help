@@ -1,9 +1,9 @@
 @title = 'Virus'
-@summary = 'Tout ce que vous auriez voulu savoir à propos des virus mais dont vous n’avez jamais osez demander'
+@summary = 'Tout ce que vous avez toujours voulu savoir sur les virus sans jamais oser le demander'
 
-h2. Ce dont vous devez absolument savoir
+h2. Ce que vous devez absolument savoir
 
-* Les virus envoyés par email indiquent toujours une adresse de provenance falsifiée. Les virus vont vous sembler venir de personne que vous connaissez, de vous-même, d’administrateurs systèmes, ou d’autres personnes auxquelles vous faites confiances.
+* Les virus envoyés par email indiquent toujours une adresse de provenance falsifiée. Les virus vont vous sembler venir de personne que vous connaissez, de vous-même, d’administrateurs systèmes, ou d’autres personnes auxquelles vous faites confiance.
 * Il y a plusieurs virus très connus qui prétendent être envoyé par le staff de "riseup.net" (ou le staff de n’importe quel domaine dont le mail semble venir). Ces virus menacent de fermer votre compte à moins que vous preniez une décision immédiate en ouvrant la pièce jointe (et de ce fait votre ordinateur ce trouve infecté). Ne vous faites pas avoir !
 * Les virus envoyés par email indiquent toujours une adresse de provenance falsifiée. D’accord, nous venons de le dire, mais il convient de le répéter.
 * Si vous recevez une notification qui vous dit qu’un des messages que vous avez envoyé contient un virus, vous pouvez presque toujours l’ignorer. Encore une fois, comme les virus falsifient leurs adresses de provenance, cela veut tout simplement dire que quelqu’un d’autre est infecté et vous envoie un ou plusieurs virus, qui semble provenir de vous.
@@ -14,14 +14,14 @@ h2. Ce dont vous devez absolument savoir
 h2. Les virus et listes de diffusions
 
 * Si un virus est envoyé à votre liste privé, cela ne signifie pas forcément qu’il y a un problème de sécurité. Cela signifie juste que quelqu’un qui est infecté à, a la fois l’adresse de la liste et les adresses d’une liste d’abonné sur son ordinateur.
-* Nous filtrons vos mails et les listes pour y enlever les éventuels virus, mais il se peut que quelques uns passe à travers les mailles du filet.
-* Un virus peut essayer de vous inscrire a une liste de diffusion. Comment cela est possible ? Disons que vous et un ami êtes sur la même liste de diffusion, puis l’ordinateur de votre ami est ensuite infecté. Le virus sur l’ordinateur de votre ami à de ce faite votre adresse et l’adresse de souscription de la liste (listname-subscribe@lists.riseup.net). Par la suite, le virus vas probablement envoyer un courrier électronique à listname-subscribe@lists.riseup.net qui vas s’embler venir de vous-même. Ensuite, le logiciel vous enverra un courrier électronique qui vous demandera de confirmer que vous voulez être abonné.
+* Nous filtrons vos mails et les listes pour y enlever les éventuels virus, mais il se peut que quelques-uns passent à travers les mailles du filet.
+* Un virus peut essayer de vous inscrire a une liste de diffusion. Comment cela est possible ? Disons que vous et un ami êtes sur la même liste de diffusion, puis l’ordinateur de votre ami est ensuite infecté. Le virus sur l’ordinateur de votre ami à de ce fait votre adresse et l’adresse de souscription de la liste (listname-subscribe@lists.riseup.net). Par la suite, le virus vas probablement envoyer un courrier électronique à listname-subscribe@lists.riseup.net qui vas sembler venir de vous-même. Ensuite, le logiciel vous enverra un courrier électronique qui vous demandera de confirmer que vous voulez être abonné.
 
-h2. Bloquez les emails provenant de virus
+h2. Bloquez les emails contenant des virus
 
 * Si vous recevez beaucoup de virus et si vous avez une boite mail chez riseup.net, vous pouvez bloquer la plupart d’entre eux en activant le filtre anti-spam. Accédez à votre « panneau de contrôle utilisateur » : https://user.riseup.net, et cliquez sur 'Filtre anti-spam'.
 * La plupart des clients de messagerie, comme Thunderbird (qui est un logiciel gratuit) ont de très bon filtres anti-spam intégrés et feront un bon travail pour bloquer les virus.
-* Les comptes de messagerie et les listes de diffusion sur riseup.net devrait normalement bloquer toutes les pièces jointes qui sont des fichiers exécutables. Néanmoins cela ne fonctionne pas parfaitement, et certains virus peuvent aussi arriver en tant que fichier exécutable dans des archives zip.
+* Les comptes de messagerie et les listes de diffusion sur riseup.net devraient normalement bloquer toutes les pièces jointes qui sont des fichiers exécutables. Néanmoins cela ne fonctionne pas parfaitement, et certains virus peuvent aussi arriver en tant que fichier exécutable dans des archives zip.
 
 h2. Eradiquez les virus d’un ordinateur infecté
 
