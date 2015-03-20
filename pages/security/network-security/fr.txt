@@ -2,16 +2,16 @@
 
 h2. Améliorez votre sécurité réseau
 
-L'internet est un endroit sauvage. Pratiquement chaque clic que vous effectuez est à présent enregistré, archivé, et analysé par un ordinateur quelque part afin de prédire vos préférences de consommateur ou renforcer les lois de l'état nation. Dès l'instant où vous mettez un nouvel ordinateur en relation avec internet, il y a de fortes chances que votre ordinateur soit sondé à la recherche de ses vulnérabilités par des virus ou des crackers avec l'espoir de l'enrôler dans une « armée de robots zombie »:https://en.wikipedia.org/wiki/Zombie_computer.
+Le net est un endroit sauvage. Pratiquement chaque clic que vous effectuez est à présent enregistré, archivé, et analysé par un ordinateur quelque part afin de prédire vos comportements en matière de consommation ou ou dans le but de renforcer les lois de l'Etat-nation. Dès l'instant où vous mettez un nouvel ordinateur en relation avec internet, il y a de fortes chances que votre ordinateur soit sondé à la recherche de ses vulnérabilités par des virus ou des crackers avec l'espoir de l'enrôler au sein d'une « armée de robots zombie »:https://en.wikipedia.org/wiki/Zombie_computer.
 
-Ah! Mais que peut faire un utilisateur d'internet ? Ces pages vous aideront à configurer votre ordinateur de manière à prévoir ces attaques [_sur le plan réseau_].
+Ah! Mais que peut faire un utilisateur d'internet ? Ces pages vous aideront à configurer votre ordinateur de manière à éviter ces attaques [_sur le plan du réseau_].
 
 table(table).
 |_. Technologie  |_. Difficulté |_. Quand l'utiliser |
 | [[connexions-sécurisées]] | Automatique | Tous les services de Riseup requièrent une connexion sécurisée. |
 | [[meilleure-navigation]] | Facile | Il existe de simples choses que vous pouvez faire pour que votre navigation soit plus sécurisée et privée. |
-| [[vpn]]                 | Modéré | Sécurise votre accès à riseup.net afin d'aider à la prévention de l'espionnage et des attaques sur le *contenu de votre trafic internet*. |
-| [[tor]]                 | Difficile | Tor c'est comme VPN, mais votre trafic est lancé à travers internet sur plein de nœuds pour le rendre *plus anonyme.* |
+| [[vpn]]                 | Modéré | Sécurise votre accès à riseup.net afin de se protéger de l'espionnage et des attaques sur le *contenu de votre trafic internet*. |
+| [[tor]]                 | Difficile | Tor est semblable à VPN, mais votre trafic transite aléatoirement par un grand nombre de relais pour le rendre *plus anonyme.* |
 
 h2. Topics Avancés
 
