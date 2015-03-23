@@ -52,7 +52,7 @@ Le message complet de l'erreur peut ressembler à ceci:
 
 h2. Pourquoi puis-je seulement envoyer des courriels à des personnes sur riseup.net?
 
-Ce problème apparaît quand vous n'avez pas paramétré votre clien de messagerie pour s'identifier au serveur de courriels sortants.
+Ce problème apparaît quand vous n'avez pas paramétré votre client de messagerie pour s'identifier au serveur de courriels sortants.
 
 h2. Pourquoi mon FAI bloque-t'il mes courriels sortants?
 
