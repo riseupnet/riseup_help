@@ -2,23 +2,97 @@
 
 h2. Choosing a web browser
 
-Currently, there are four major web browsers, Firefox, Chrome, Internet Explorer, and Safari. All four have experienced major security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
+All four major web browsers, Firefox, Chrome, Internet Explorer, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
 
-All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by [[installing extensions->#privacy-enhancing-extensions]].
+All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by certain installing extensions (see below).
+
+Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
 
 h2. Adjust your settings
 
-(to be written)
+h3. Disable third-party cookies
 
-Setting you should adjust:
+Third-party cookies are an abomination. They serve no purpose except to allow tracking networks to follow you as your browse the web.
 
-* Disable third party cookies.
-* Clear cookies on exit.
-* Set a master password (if your drive is not encrypted).
+* Firefox: Preferences > Privacy > Accept third-party cookies > Never.
+* Chrome: Settings > Show advanced settings... > Content settings > Block third-party cookies and site data.
 
-h2. Use secure connections
+h3. Clear cookies on exit
 
-When your browser establishes [[secure connections->secure-connections]] to a website, all the data between you and the website are encrypted. You are using a secure connection if you see *HTTPS* in the location bar instead of *HTTP*.
+Most browsers keep cookies around much longer than necessary. It is best to configure your browser to delete cookies when you quit the browser.
+
+* Firefox: Preferences > Privacy > Keep until > I close Firefox.
+* Chrome: Settings > Show advanced settings... > Content settings > Keep local data only until you quit your browser.
+
+h3. Disable Flash
+
+Flash is the cause of an endless stream of security problems. Remove or disable it with haste.
+
+* Firefox: Add-ons > Plugins > Flash > Never Activate.
+* Chrome: Settings > Show advanced settings... > Content settings > Do not run plugins by default.
+
+h3. Disable Java
+
+Java also has many security problems and you probably have never used it. Remove or disable it with haste.
+
+* Firefox: Add-ons > Plugins > Java > Never Activate.
+* Chrome: Settings > Show advanced settings... > Content settings > Do not run plugins by default.
+
+h3. Change default search engine (optional)
+
+While you are adjusting your setting, take the opportunity to change your default search engine to [[duckduckgo.com => https://duckduckgo.com]]. Riseup recommends DuckDuckGo over other privacy-respecting search engines. See instructions for [[desktop browsers => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] or [[mobile browsers => https://duck.co/help/mobile]].
+
+h2. Browser extensions
+
+The extensions in this list work for both Firefox and Chrome, unless otherwise noted.
+
+h3. Essential extensions
+
+These are absolutely essential browser extensions that everyone should be using all the time. They are stable, open source, and rarely cause websites to break.
+
+* [*uBlock*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster. Install for [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock/]] or [[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]].
+* [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it.
+* [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
+
+h3. Advanced extensions
+
+These extensions are for advanced users because they are complicated to use or cause many websites to malfunction.
+
+These extensions attempt to overcome basic privacy flaws in how web browsers work. However, many websites rely on these privacy flaws for basic functionality, so attempts to fix these problems can often make a website stop working.
+
+Some of these privacy flaws include:
+
+* HTTP Referrer: When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
+* HTTP User-Agent: Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in the User-Agent string these days, and it is better to use a generic value, such as the one used by the Tor Browser.
+* HTML5 Canvas: Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
+* JavaScript: JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
+
+For Firefox:
+
+* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
+* [[NoScript => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] allows you to selectively block Javascript and Java.
+* [[RequestPolicy => https://www.requestpolicy.com/]] enables you to prevent a site from loading any third -party content.
+* [[RefControl => https://addons.mozilla.org/en-US/firefox/addon/refcontrol/]] will suppress the HTTP referrer header.
+* [[Random Agent Spoof => https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/]] will change your User-Agent string randomly.
+* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
+
+For Chrome:
+
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] is an advanced tool to control precisely what content your browser is allowed to load. It allows you to selectively block Javascript, and so much more. It includes the functionality of NoScript and RequestPolicy.
+* [[NOREF => https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip]] will suppress the HTTP referrer header).
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
+* [[Random User-Agent => https://github.com/tarampampam/random-user-agent]] will change your User-Agent randomly.
+
+h3. Harmful or not recommended
+
+Despite their popularity, we recommend that you avoid the following extensions.
+
+* [[Adblock Plus => https://adblockplus.org/]] used to be the best extension to block ads and tracking. However, now they run a bribery scheme where advertisers can pay to bypass their filters. Also, uBlock is better technology anyway.
+* [[Disconnect => https://disconnect.me/]] works like uBlock, and is open source, but the Disconnect company seems focused on selling VPN service these days than on maintaining their browser extension.
+* [[Ghostery => https://www.ghostery.com]] works like uBlock, but has horrible defaults that allow most tracking, and the source code is proprietary.
+* Flash Block (Firefox) is an extension allows you to 'click to play' Flash. It is preferable to uninstall Flash. Also, this functionality is now built in.
+* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] was needed in the past to remove LSO or "Flash cookies," but since the advent of [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], this is no longer needed.
+* TrackMeNot will generate bogus search traffic. It is an interesting idea, but it is much better to just use DuckDuckGo.
 
 h2. Verify Riseup's certificate fingerprints
 
@@ -26,41 +100,6 @@ On the internet, a certificate is needed in order to verify the identity of peop
 
 In particular, certificates are needed to establish secure connections. Without certificates, you would be able to ensure that no one else was listening, but you might be talking to the wrong computer altogether! All riseup.net servers and all riseup.net services allow or require secure connections.
 
-To be certain you are communicating securely with Riseup, see [[how to verify Riseup’s certificates => /security/certificates]].
+To be certain you are communicating securely with Riseup, see [[how to verify Riseup's certificates => /security/certificates]].
 
-h2. Privacy enhancing extensions
 
-Although there is not yet a browser with good privacy capabilities, you can greatly improve your browser with a few add-ons.
-
-h3. Firefox
-
-Essential:
-
-* "Adblock Plus":https://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
-* "BetterPrivacy":https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/: Among other things, Better Privacy will delete "flash cookies" that are difficult to manage otherwise.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
-
-Also recommended:
-
-* "Disconnect":https://disconnect.me/: Track who is trying to track you and stop them.
-* "HTTPS Finder":https://code.google.com/p/https-finder/ Automatically tries to redirect Firefox to a HTTPS connection where available. This is especially good for sites HTTPS Everywhere has no rules for.
-
-Advanced:
-
-* "noscript":https://addons.mozilla.org/en-US/firefox/addon/noscript/ Blocks JavaScript, CSRF and others
-* The Tor project provides a modified version of Firefox adapted to be more secure/anonymous called "Tor browser":https://www.torproject.org/download/download-easy.html.en
-* "RequestPolicy":https://www.requestpolicy.com/ Enables you to block content loaded from any other site
-
-h3. Chrome
-
-Essential:
-
-* "Adblock Plus":https://adblockplus.org/en/: uses subscription lists to block advertisements and behavioral tracking.
-* "HTTPS Everywhere":https://www.eff.org/https-everywhere: Automatically enables a [[secure connection->secure-connections]] for websites that supports it.
-
-You might also want to consider:
-
-* "click & clean":https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod: Deletes your browsing history, typed URLs, Flash cookies, all traces of your online activity to protect your privacy.
-* "NOREF":https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip: Suppress Referrer (referer) for Hyperlinks
-* "Disconnect":https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo: Track who is trying to track you and stop them.
-* "Ghostery":https://www.ghostery.com: Track who is trying to track you and stop them.
