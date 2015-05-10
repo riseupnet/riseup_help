@@ -4,7 +4,7 @@ h2. Choosing a web browser
 
 All four major web browsers, Firefox, Chrome, Internet Explorer, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
 
-All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by certain installing extensions (see below).
+All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by installing certain extensions (see below).
 
 Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
 
@@ -12,7 +12,7 @@ h2. Adjust your settings
 
 h3. Disable third-party cookies
 
-Third-party cookies are an abomination. They serve no purpose except to allow tracking networks to follow you as your browse the web.
+Third-party cookies are tracking identifiers used by advertising networks to track your behavior as you browse from website to website. They are an abomination and serve no legitimate purpose.
 
 * Firefox: Preferences > Privacy > Accept third-party cookies > Never.
 * Chrome: Settings > Show advanced settings... > Content settings > Block third-party cookies and site data.
@@ -26,7 +26,7 @@ Most browsers keep cookies around much longer than necessary. It is best to conf
 
 h3. Disable Flash
 
-Flash is the cause of an endless stream of security problems. Remove or disable it with haste.
+Flash is a plug-in from Adobe that has been the cause an endless stream of security problems. We highly recommend that you remove or disable Flash.
 
 * Firefox: Add-ons > Plugins > Flash > Never Activate.
 * Chrome: Settings > Show advanced settings... > Content settings > Do not run plugins by default.
@@ -50,9 +50,32 @@ h3. Essential extensions
 
 These are absolutely essential browser extensions that everyone should be using all the time. They are stable, open source, and rarely cause websites to break.
 
-* [*uBlock*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster. Install for [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock/]] or [[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]].
-* [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it.
-* [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
+<table class="table">
+<tr>
+  <td>
+    !img/ublock-64.png!
+  </td>
+  <td>
+    [*[[uBlock -> https://chrismatic.io/ublock/]]*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+  </td>
+</tr>
+<tr>
+  <td>
+    !img/https-64.png!
+  </td>
+  <td>
+    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it. This helps to protect against surveillance of the content of your web browsing, although it does not hide which websites you are visiting (unless you also run [[Tor]] or a [[VPN]]).
+  </td>
+</tr>
+<tr>
+  <td>
+    !img/badger-64.png!
+  </td>
+  <td>
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
+  </td>
+</tr>
+</table>
 
 h3. Advanced extensions
 
@@ -62,10 +85,10 @@ These extensions attempt to overcome basic privacy flaws in how web browsers wor
 
 Some of these privacy flaws include:
 
-* HTTP Referrer: When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
-* HTTP User-Agent: Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in the User-Agent string these days, and it is better to use a generic value, such as the one used by the Tor Browser.
-* HTML5 Canvas: Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
-* JavaScript: JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
+* *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
+* *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in the User-Agent string these days, and it is better to use a generic value, such as the one used by the Tor Browser.
+* *HTML5 Canvas:* Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
+* *JavaScript:* JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
 
 For Firefox:
 
@@ -88,7 +111,7 @@ h3. Harmful or not recommended
 Despite their popularity, we recommend that you avoid the following extensions.
 
 * [[Adblock Plus => https://adblockplus.org/]] used to be the best extension to block ads and tracking. However, now they run a bribery scheme where advertisers can pay to bypass their filters. Also, uBlock is better technology anyway.
-* [[Disconnect => https://disconnect.me/]] works like uBlock, and is open source, but the Disconnect company seems focused on selling VPN service these days than on maintaining their browser extension.
+* [[Disconnect => https://disconnect.me/disconnect]] works like uBlock, and is open source. If you are running uBlock, Disconnect is unnecessary, although it has some visualization features that uBlock does not.
 * [[Ghostery => https://www.ghostery.com]] works like uBlock, but has horrible defaults that allow most tracking, and the source code is proprietary.
 * Flash Block (Firefox) is an extension allows you to 'click to play' Flash. It is preferable to uninstall Flash. Also, this functionality is now built in.
 * [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] was needed in the past to remove LSO or "Flash cookies," but since the advent of [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], this is no longer needed.
