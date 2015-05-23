@@ -1,0 +1,88 @@
+@title = 'Améliorer sa navigation sur le web'
+h2. Choisir son navigateur
+Ces derniers temps, dans les quatre navigateurs principaux, Firefox, Chrome, Internet Explorer, et Safari, de grâves brêches de sécurité ont été découvertes, il est donc fortement recommandé d'utiliser toujours la dernière version, peut-importe lequel vous utilisez.
+Ces quatre navigateurs principaux ont tous reçu un grade d'échec dans notre [[browser-score-card]]. Cependant, ces navigateurs peuvent être considérablement améliorés en leur installant certaines extension (voir plus bas).
+D'autre part, le projet Tor propose une version modifiée de Firefox, prévue pour être plus sécurisée et "anonyme". Ce projet s'appelle [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
+
+h2. Réglez vos paramètres
+h3. Désactivez les cookies tierce-partie
+Les cookies tierce-partie servent notamment aux publicitaires à suivre vos comportements de navigation. Ils sont exécrables et n'ont aucune utilité légitime.
+* Firefox: Preferences > Privacy > Accept third-party cookies > Never.
+* Chrome: Paramètres > Afficher les paramètres avancés... > Paramètres de contenu > Bloquer les cookies et les données de sites tiers.
+h3. Effacer les cookies lors de la fermeture
+La plupart des navigateurs gardent les cookies beaucoup plus longtemps que nécessaire. Il est préférable de configurer votre navigateur afin qu'il les supprime lors de sa fermeture.
+* Firefox: Preferences > Privacy > Keep until > I close Firefox.
+* Chrome: Settings > Show advanced settings... > Content settings > Keep local data only until you quit your browser.
+h3. Desactivez Flash
+Flash est un plug-in Adobe qui est la cause d'une suite de problèmes de sécurité sans fin. Nous vous recommandons fortement de supprimer ou désactiver Flash.
+* Firefox: Add-ons > Plugins > Flash > Never Activate.
+* Chrome: Paramètres > Afficher les paramètres avancés... > Paramètres de contenu > Me laisser choisir quand executer le contenu du plug-in.
+h3. Desactivez Java
+Java a aussi un grand nombre de problèmes de sécurité, de plus vous ne l'avez probablement jamais utilisé. Supprimez-le ou desactivez-le au plus vite.
+* Firefox: Add-ons > Plugins > Java > Never Activate.
+* Chrome: Paramètres > Afficher les paramètres avancés... > Paramètres de contenu > Me laisser choisir quand executer le contenu du plug-in.
+h3. Changez votre moteur de recherche par défaut (optionel)
+Tant que vous ajustez vos paramètres, profitez-en pour changer votre moteur de recherche par défaut. Riseup recommande [[DuckDuckGo => https://duckduckgo.com]] parmis les moteurs de recherche qui respectent la confidentialité. Voici les instructions pour l'utiliser sur [[ordinateur => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] ou [[périphériques mobiles => https://duck.co/help/mobile]].
+h2. Extensions de navigateur
+Les extensions de cette liste fonctionnent pour Firefox ET Chrome, sauf mention contraire.
+h3. Extensions essentielles
+Voici les extensions de navigateur essentielles que tout le monde devrait utiliser de tout temps. Elles sont stables, open-source, et n'altèrent la navigation que très rarement.
+<table class="table">
+<tr>
+<td>
+!img/ublock-64.png!
+</td>
+<td>
+[*[[uBlock -> https://chrismatic.io/ublock/]]*] bloque la plupart des publicités et réseaux de tracking. Cette extension est similaire à Adblock Plus ou Disconnect mais est plus robuste et plus rapide.
+</td>
+</tr>
+<tr>
+<td>
+!img/https-64.png!
+</td>
+<td>
+[*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] passera automatiquement en connexion sécurisée TLS lorsque le site le supporte. Ceci permet de se protéger contre la surveillance du contenu de votre navigation, cependant, ça ne cache absolument pas les noms des sites que vous visitez (exepté si vous utilisez [[Tor]] ou un [[VPN]]).
+</td>
+</tr>
+<tr>
+<td>
+!img/badger-64.png!
+</td>
+<td>
+[*[[Privacy Badger => https://www.eff.org/privacybadger]]*] détecte automatiquement les tentatives de suivi de votre navigation et bloque le contenu de ces trackers. Privacy Badger n'est pas fait pour bloquer les publicités, il n'est donc pas un remplacement à uBlock, mais il a quelques fonctionnalités de sécurité qu'uBlock n'a pas.
+</td>
+</tr>
+</table>
+h3. Etensions avancées
+Ces extensions sont pour les utilisateurices avancé.e.s car elles sont complexes à utiliser et altèrent la navigation sur beaucoup de sites.
+Ces extensions tentent de combler les défauts basiques de la gestion de la confidentialité des navigateurs. Cependant, de nombreux sites web dépendent de ces défauts pour fonctionner normalement, les tentatives de réparations de ces problèmes empêchent donc souvent un site de fonctionner.
+Voici certains de ces défauts de fonctionnement :
+* *HTTP Referrer:* Lorsque vous cliquez sur un lien, votre navigateur envoie au nouveau site web l'adresse du site sur lequel vous avez cliqué. Des informations personnelles ou sensibles pouvant être inclues dans l'URL d'une page, le HTTP Referrer devrait être désactivé. Ceci n'est possible qu'avec l'utilisation d'une extension.
+* *HTTP User-Agent:* Votre navigateur envoie un entête spécial à tous les sites qu'il visite : le "User-Agent". Cet entête contient de nombreuses informations souvent uniques qui peuvent être utilisées, combinées à d'autres données, pour identifier <b>votre</b> traffic. Cet entête a très peu d'utilité, et il est mieux d'utiliser une valeur générique, comme celle utilisée par Tor Browser.
+* *HTML5 Canvas:* Un grand nombre de sites internet se sont mis à utiliser les Canvas HTML5 afin de créer une empreinte unique pour votre navigateur et suivre vos comportements en ligne. Il n'y a pour le moment aucun moyen de désactiver cette fonctionnalité, bien que quelques extension s'y soit essayées.
+* *JavaScript:* JavaScript est essentiel pour la plupart des sites web aujourd'hui, mais vous pouvez souhaiter le désactiver de temps à autres. Lorsque JavaScript est activé, il est beaucoup plus facile de créer l'emprunte unique de votre navigateur et de suivre vos comportement. De plus, la plupart des failles de sécurité des navigateurs sont dues à JavaScript.
+Pour Firefox
+* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] nettoiera les cookies d'un site internet dès que tous les onglets de ce site seront fermés (plutôt que d'attendre que le navigateur soit fermé)
+* [[NoScript => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] vous permet de choisir quand bloquer JavaScript ou Java sur tel ou tel site.
+* [[RequestPolicy => https://www.requestpolicy.com/]] empêche les sites internet de charger du contenu tierce-partie.
+* [[RefControl => https://addons.mozilla.org/en-US/firefox/addon/refcontrol/]] supprime l'entête HTTP Referrer.
+
+* [[Random Agent Spoof => https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/]] choisi un entête HTTP User-Agent aléatoirement.
+* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] permet de désactiver les Canvas HTML5 pour certains sites.
+For Chrome:
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] est un outil avancé pour contrôler précisément quel contenu votre navigateur est autorisé à charger. Il vous permet de bloquer Javascript de manière sélective, et beaucoup plus. Il inclus les fonctionnalités de NoScript et RequestPolicy.
+* [[NOREF => https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip]] supprime l'entête HTTP Referrer.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] permet de modifier l'entête HTTP User-Agent.
+* [[Random User-Agent => https://github.com/tarampampam/random-user-agent]] change l'User-Agent de manière aléatoire.
+h3. Extensions dangeureuses ou non-recommandées
+Malgré leur popularité, nous vous recommandons d'éviter les extensions suivantes :
+* [[Adblock Plus => https://adblockplus.org/]] a été la meilleure extension de bloquage des pubs et du suivi. Cependant, les publicitaires peuvent dorénavant payer les développeurs afin de ne pas être filtrés. De plus, uBlock est de meilleure qualité.
+* [[Disconnect => https://disconnect.me/disconnect]] fonctionne comme uBlock et est open-source. Si vous utilisez uBlock, Disconnect n'est pas nécessaire, malgré qu'il aie quelques fonctionnalités que uBlock n'a pas.
+* [[Ghostery => https://www.ghostery.com]] fonctionne comme uBlock, mais a des gros défauts qui laissent faire la plupart du suivi, et le code source est propriétaire.
+* Flash Block (Firefox) est une extension permettant d'activer Flash <i>à la demande</i>. Il est préférable de désinstaller Flash. De plus, cette fonctionnalité est maintenant intégrée à Firefox.
+* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] était nécessaire il y quelques temps pour supprimer les LSO ou les "Cookies flash", mais depuis l'arrivée de [[l'API ClearSiteData => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], elle n'a plus d'intérêt.
+* TrackMeNot altère votre traffic de recherche. L'idée est intéressante, mais il est bien mieux d'utiliser DuckDuckGo.
+h2. Vérifiez les empreintes des certificats de Riseup
+Sur l'Internet, les certificats servent à vérifier l'identité de personnes ou d'ordinateurs. Ces certificats sont aussi appelés Certificats SSL ou certificats d'identité. Nous les appeleront simplement "certificats".
+Les certificats sont particulièrement nécessaires pour établir des connexions sécurisées. Sans certificats, le traffic peut être sécurisé pour que personne ne puisse l'écouter ni l'analyser, mais on ne peut pas s'assurer d'être en communication avec le bon ordinateur. Tous les serveurs et tous les services de Riseup.net permettent ou force l'utilisation de connexions sécurisées.
+Pour être certain-e d'utiliser des communications sécurisées avec Riseup, lisez [[how to verify Riseup's certificates => /security/certificates]].
