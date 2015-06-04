@@ -38,7 +38,7 @@ h1. Panorama da segurança
   <td>Útil caso seu dispositivo caia *fisicamente* nas mãos de um atacante.</td>
 </tr>
 <tr>
-  <td>[[Segurança das Mensagem -> message-security]]</td>
+  <td>[[Segurança das Mensagens -> message-security]]</td>
   <td>Maneiras de criptografar *mensagens individuais* que você envia e recebe.</td>
   <td>Necessária se você quer garantir a *confidencialidade* de uma certa mensagem quando armazenada e transmitida.</td>
 </tr>
@@ -54,4 +54,4 @@ O Riseup oferece principalmente serviços relacionados à [[Segurança de Rede -
 * Porque a vigilância de rede é tão difusa e onipresente, ela é um *problema social* que afeta a todos o tempo inteiro. Em contraste, a segurança dos dispositivos e das mensagens são importantes para pessoas que estão sendo sofrendo ataques direcionados das autoridades repressoras.
 * Melhorar sua segurança de rede é razoavelmente *fácil* em comparação com a segurança de dispositivo ou de mensagem.
 
-Dito isso, é importante pras pessoas que encaram a possibilidade real de serem alvos da repressão que elas empreguem segurança para dispositivos e mensagens, apesar de isso levar um certo tempo para se aprender. Essas páginas de ajuda irão ajudar nessa jornada.
+Dito isso, é importante pras pessoas que encaram a possibilidade real de serem alvos da repressão que elas empreguem segurança pros dispositivos e mensagens, apesar de isso levar um certo tempo para se aprender. Essas páginas de ajuda irão ajudar nessa jornada.
