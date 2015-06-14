@@ -56,7 +56,7 @@ These are absolutely essential browser extensions that everyone should be using 
     !img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock -> https://chrismatic.io/ublock/]]*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+    [*[[uBlock -> https://github.com/gorhill/uBlock]]*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
   </td>
 </tr>
 <tr>
