@@ -1,19 +1,19 @@
-@title = "Security Resources"
-@nav_title = "Resources"
+@title = "相关资源"
+@nav_title = "资源"
 
 h2. 其它服务供应商
 
-查看我们的列表 [[radical server projects => radical-servers]]。
+查看我们的列表： [[激进的服务和项目 => radical-servers]]。
 
 h2. 安全指南
 
 推荐：
 
-* [[EFF的审查自卫指南' => https://ssd.eff.org/]] （目前只有英文）
-* [[数字自卫指南 => https://guide.boum.org/]] （目前只有法语，您可以帮助翻译）
-* [[Security in-a-box => https://security.ngoinabox.org/]] 网站包含了许多实用指南，从 [[前线 => https://www.frontlinedefenders.org/]]到 [[策略技术合集 => http://www.tacticaltech.org/]]
-* FOSS手册的 [[绕过互联网审查 => http://www.flossmanuals.net/bypassing-censorship/]] 是一本全面的240页的指南，用以规避审查技术
-* FOSS手册的[[基本的互联网安全 => http://www.flossmanuals.net/basic-internet-security/]]
+* EFF的[[《审查自卫指南》 => https://ssd.eff.org/]] （目前只有英文）
+* [[《数字自卫指南》 => https://guide.boum.org/]] （目前只有法语，您可以帮助翻译）
+* [[Security in-a-box => https://security.ngoinabox.org/]] 网站包含了许多实用指南，从 [[前线卫士 => https://www.frontlinedefenders.org/]]到 [[策略技术合集 => http://www.tacticaltech.org/]]
+* FOSS的手册 [[《绕过互联网审查》 => http://www.flossmanuals.net/bypassing-censorship/]] 是一本全面的240页的指南，教你规避当前的审查技术
+* FOSS的手册 [[《基本的互联网安全》 => http://www.flossmanuals.net/basic-internet-security/]]
 * [[互联网审查维基 => http://en.cship.org/wiki]] 含有大量规避互联网审查的信息（目前只有英文）
 * [[Riseup爱好者杂志：活动家的数字安全！=>https://zine.riseup.net]]
 
