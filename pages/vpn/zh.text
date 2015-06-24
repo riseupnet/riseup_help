@@ -8,8 +8,8 @@ h2. 链接导航
 * Black项目: "black.riseup.net":https://black.riseup.net
 * Linux 用户指南 [[安装说明 -> linux]]
 * Android 用户指南 [[安装说明 -> android]]
-* 无法正常使用？来看一下 [[Troubleshooting]]
-* 还有问题? 看看我们的 [[FAQs -> faq]]
+* 无法正常使用？来看一下 [[故障排除 -> Troubleshooting]]
+* 还有问题? 看看我们的 [[常见问题 -> faq]]
 
 h2. 什么是RiseupVPN?
 
@@ -41,7 +41,7 @@ h2. 为什么你会需要用RiseupVPN？
 # *突破防火墙*: 当你在一个“恶魔”般的企业工作，是不是想要在互联网上自由的冲浪？不幸的是，企业防火墙会禁止你访问很多站点(riseup.net也是被屏蔽列表的一员 [[众多的企业防火墙 -> https://www.barracudanetworks.com/]]). RiseupVPN可以让你突破封锁，自由的使用网络。
 # *保护你的Wi-Fi安全*: 任何你使用公众开放 Wi-Fi 连接的时候, 任何使用此监控的的人都可以监视你的流量. RiseupVPN 会防止这一点
 
-h2.RiseupVPN的局限性
+h2. RiseupVPN的局限性
 
 RiseupVPN 有一些普通VPN共存的局限性:
 
