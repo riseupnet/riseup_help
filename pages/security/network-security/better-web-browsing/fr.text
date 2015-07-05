@@ -7,6 +7,7 @@ Ces quatre navigateurs principaux ont tous reçu un grade d'échec dans notre [[
 D'autre part, le projet Tor propose une version modifiée de Firefox, prévue pour être plus sécurisée et "anonyme". Ce projet s'appelle [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
 
 h2. Réglez vos paramètres
+
 Cette page a été testée avec Firefox 38 et Chromium 42, sous Debian Jessie. Les noms des éléments peuvent être différents des autres versions.
 
 h3. Désactivez les cookies tierce-partie
