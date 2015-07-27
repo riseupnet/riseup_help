@@ -45,7 +45,7 @@ program called `amber`.
 
 To install on Debian or Ubuntu (Wheezy or later):
 
-    sudo apt-get install ruby ruby-dev
+    sudo apt-get install ruby ruby-dev build-essential zlib1g-dev
     sudo gem install amber
 
 To install on Mac, see below. Check https://github.com/elijh/amber for more
