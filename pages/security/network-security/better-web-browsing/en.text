@@ -93,18 +93,13 @@ Some of these privacy flaws include:
 For Firefox:
 
 * [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
-* [[NoScript => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] allows you to selectively block Javascript and Java.
-* [[RequestPolicy => https://www.requestpolicy.com/]] enables you to prevent a site from loading any third -party content.
-* [[RefControl => https://addons.mozilla.org/en-US/firefox/addon/refcontrol/]] will suppress the HTTP referrer header.
-* [[Random Agent Spoof => https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/]] will change your User-Agent string randomly.
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It effectively replaces NoScript and RequestPolicy.
 * [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
 
 For Chrome:
 
-* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] is an advanced tool to control precisely what content your browser is allowed to load. It allows you to selectively block Javascript, and so much more. It includes the functionality of NoScript and RequestPolicy.
-* [[NOREF => https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip]] will suppress the HTTP referrer header).
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
 * [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
-* [[Random User-Agent => https://github.com/tarampampam/random-user-agent]] will change your User-Agent randomly.
 
 h3. Harmful or not recommended
 
