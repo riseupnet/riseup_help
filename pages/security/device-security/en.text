@@ -3,6 +3,7 @@
 This page is currently just a placeholder as it still needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
 
 h1. Disk Encryption
+
 Encrypting your device's disks is one of the easiest things you can do to prevent unauthorized access to your data. Proper disk encryption can prevent access to your data when the device is turned off or if it is seized. We recommend that any solution chosen should fully encrypt your disk, this is also known as Full Disk Encryption (FDE). FDE ensures that most of your disk space is rendered unreadable to any individual without the proper decryption key. Please remember however that certain countries and legal jurisdictions may compel you reveal your disk's password during an investigation. This may include locations such as border crossings in your country. So always take proper precautions to protect and hide your data, even on a device with a fully encrypted disk.
 
 Difficulty: Easy to Hard
