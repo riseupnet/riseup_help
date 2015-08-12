@@ -10,7 +10,7 @@ Evolution includes support for email, calendar, address book, contacts, and GPG 
 
 h2. Install Evolution
 
-* Debian/Ubuntu Linux: Most likely, evolution is already installed. If not, @sudo apt-get install evolution@
+* Debian/Ubuntu Linux: Most likely, evolution is already installed. If not, @sudo apt install evolution@
 * Windows: "Download":http://www.dipconsultants.com/evolution/download.htm and install the windows version.
 
 h2. Setup a New Account in Evolution

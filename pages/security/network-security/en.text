@@ -4,7 +4,7 @@ h2. Improve your network security
 
 The internet is a wild place. Practically ever click you make is now recorded, archived, and analyzed by a computer somewhere in order to predict your consumer behavior or enforce the laws of the nation state. The moment you put a computer on the internet, it is likely to be probed for vulnerabilities by viruses and crackers hoping to conscript it into a "zombie bot army":https://en.wikipedia.org/wiki/Zombie_computer.
 
-Yikes! What is an internet user to do? These pages will help you configure your computer to prevent these attacks [_at the network level_].
+Yikes! What is an internet user to do? These pages will help you configure your computer to prevent these attacks [_at the network level_]. [[Visualize using tor with https => https://www.eff.org/pages/tor-and-https]].
 
 table(table).
 |_. Technology  |_. Difficulty |_. When to use it |
