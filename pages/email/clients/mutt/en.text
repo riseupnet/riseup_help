@@ -76,12 +76,12 @@ set pgp_timeout=1800
 set pgp_good_sign="^gpg: Good signature from"
 </code>
 
-h3. Using [[**TOR** => security/network-security/tor]] with @mutt@
+h3. Using [[Tor]] with @mutt@
 
-For added security, access our mail service via [[Tor hidden service => security/network-security/tor#riseups-tor-hidden-services]].
+For added security, access our mail service via [[Tor hidden service => tor]].
 
-# [[Setup Tor => https://help.riseup.net/en/security/network-security/tor#get-tor-installed]].
-# Replace @zsolxunfmbfuq7wf.onion@ with @mail.riseup.net@ in *~/.mutt/muttrc*
+# [[Setup Tor => Tor]].
+# Replace the @mail.riseup.net@ with the corresponding ".onion" address found on the [[Tor]] page (in *~/.mutt/muttrc*).
 # Add @alias mutt="torify mutt 2>/dev/null"@ to *~/.bashrc* or *~/.zshenv*. For fish users, add @alias mutt="torify mutt ^ /dev/null"@ to *~/.config/fish/config.fish*
 
 Enjoy using @mutt@! Look at https://wiki.archlinux.org/index.php/Mutt for more info.

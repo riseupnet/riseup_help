@@ -76,12 +76,12 @@ set pgp_timeout=1800
 set pgp_good_sign="^gpg: Good signature from"
 </code>
 
-h3. 在@mutt@使用[[**TOR** => security/network-security/tor]]
+h3. 在@mutt@使用[[Tor]]
 
-为增强安全性，使用我们的邮件服务通过[[Tor隐藏服务 => security/network-security/tor#riseups-tor-hidden-services]]。
+为增强安全性，使用我们的邮件服务通过[[Tor隐藏服务 => tor]]。
 
-# [[设置Tor => https://help.riseup.net/en/security/network-security/tor#get-tor-installed]]。
-# 取代@zsolxunfmbfuq7wf.onion@于@mail.riseup.net@在*~/.mutt/muttrc*
+# [[设置Tor => tor]]。
+# 取代@.onion@于@mail.riseup.net@在*~/.mutt/muttrc*
 # 加入@alias mutt="torify mutt 2>/dev/null"@在*~/.bashrc*或*~/.zshenv*. fish的用户，加入@alias mutt="torify mutt ^ /dev/null"@在*~/.config/fish/config.fish*
 
 享受使用@mutt@！参见https://wiki.archlinux.org/index.php/Mutt欲解更多信息.
