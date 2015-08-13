@@ -16,7 +16,7 @@ h3. Personal information
 
 Add the following lines to *~/.mutt/muttrc*:
 
-<code>
+<pre>
 # Account
 set realname  = 'Foo Bar'
 set from      = foo@riseup.net
@@ -28,13 +28,13 @@ set smtp_pass = $imap_pass
 # Connection
 set ssl_force_tls = yes
 set ssl_starttls  = yes
-</code>
+</pre>
 
 h3. Using **IMAP** with @mutt@
 
 Add the following lines to *~/.mutt/muttrc*:
 
-<code>
+<pre>
 # Receive
 set imap_user = foo@riseup.net
 set imap_pass = 'password'
@@ -45,18 +45,18 @@ set imap_check_subscribed
 set spoolfile = +INBOX
 set postponed = +Drafts
 set record    = +Sent
-</code>
+</pre>
 
 h3. Using **POP** with @mutt@
 
 Look at https://wiki.archlinux.org/index.php/Mutt#POP3 for more info.
 
-h3. Using [[**OpenPGP** => security/message-security/openpgp]] in @mutt@
+h3. Using [[OpenPGP]] in @mutt@
 
-# [[Setup OpenPGP => security/message-security/openpgp/gpg-keys]]
+# [[Setup OpenPGP => openpgp]]
 # Add the following lines to ~/.mutt/muttrc and change <code>0xDBD0F842</code> with **sec** key in <code>gpg -K</code>
 
-<code>
+<pre>
 set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
 set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
 set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
@@ -74,7 +74,7 @@ set pgp_sign_as=0xDBD0F842
 set pgp_replyencrypt=yes
 set pgp_timeout=1800
 set pgp_good_sign="^gpg: Good signature from"
-</code>
+</pre>
 
 h3. Using [[Tor]] with @mutt@
 
