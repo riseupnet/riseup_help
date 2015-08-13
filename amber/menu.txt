@@ -17,6 +17,7 @@ email
     postbox
     sylpheed
     claws
+    mutt
   webmail
     address-book
     where-is-imp
