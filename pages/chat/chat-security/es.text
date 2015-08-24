@@ -1,0 +1,11 @@
+@title = "Seguridad en chat"
+
+h2. Proteger tus mensajes
+
+En la mayoría de los casos, cuando usas el servicio jabber de Riseup tus mensajes serán encriptados en tránsito. Sin embargo, esto no es una fuerte garantía de esto (a menos que ambas partes estén usando Riseup).
+
+Si quieres asegurar el cifrado del mensaje punto a punto, entonces la mejor opcion es  [[Off The Record (OTR) -> https://es.wikipedia.org/wiki/Off_the_record_messaging]]. Para mas información, lee nuestro [[OTR tutorial -> otr]].
+
+h2. Proteger tus conversaciones de voz
+
+La última vez que revisamos, Jitsi es el único cliente de jabber que soporta llamadas seguras de voz / video.
