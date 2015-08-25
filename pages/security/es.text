@@ -27,32 +27,31 @@ h1. Descripción de seguridad.
   <th>¿Cuándo es útil?</th>
 </tr>
 <tr>
-  <td>[[seguridad para humanos => human-security]]</td>
+  <td>[[Seguridad para Humanos => human-security]]</td>
   <td>Simples cambios que puedes hacer a tu *conducta*.</td>
-  <td>Ayuda a prevenir cualquier error humano al ser el *enlace débil* en cualquier sistema de seguridad.</td>
+  <td>Ayuda a prevenir cualquier error humano de ser el *enlace débil* en cualquier sistema de seguridad.</td>
 </tr>
 <tr>
-  <td>[[seguridad para dispositivos => device-security]]</td>
+  <td>[[Seguridad para Dispositivos => device-security]]</td>
   <td>Pasos para hacer tu *computador o teléfono* menos vulnerable a ser atacado.</td>
   <td>Útil cuando tu dispositivo podría caer *físicamente* en manos de un atacante.</td>
 </tr>
 <tr>
-  <td>[[mensajería segura => message-security]]</td>
+  <td>[[Mensajería Segura => message-security]]</td>
   <td>Maneras de encriptar *mensajes individuales* cuando envías o recibes.</td>
   <td>Asegurar la *confidencialidad* de un mensaje en particular cuando este es transmitido y almacenado.</td>
 </tr>
 <tr>
-  <td>[[seguridad en la red => network-security]]</td>
+  <td>[[Seguridad en la Red => network-security]]</td>
   <td>Bloqueando sitios que te rastrean y encriptando tu *tráfico en internet.</td>
-  <td>Protección contra el rastreo conductual, hijacking de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
+  <td>Protección contra el rastreo conductual, secuestro de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
 </tr>
 </table>
 
 
-Riseup provee principalmente servicios, más que direcciones [[seguridad en la red => network-security]]:
+Riseup provee principalmente servicios dirigidos a la [[seguridad en la red => network-security]]:
 
-* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento.
-* En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
-* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en mensajería o dispositivos.
+* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento. En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
+* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en dispositivos o mensajería.
 
 Habiendo dicho esto, es importante que las personas que son objetivo de la represión empleen la seguridad en dispositivos y mensajería. Aunque les podría tomar un poco de tiempo, estas páginas les ayudarán en el viaje.
