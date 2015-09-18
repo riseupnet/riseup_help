@@ -32,16 +32,21 @@ h2. Basic client configuration
 
 Although some mail clients are able to automatically configure themselves, most require some basic information in order to connect to your Riseup email account.
 
-Suppose your email address was [@collective@riseup.net@]:
+Suppose your email address was [@joehill@riseup.net@]:
 
-* Incoming mail server: @mail.riseup.net@
-* Outgoing mail server: @mail.riseup.net@
-* Login or user name: @collective@
-* Use secure connection: @yes@ (TLS)
+* Incoming mail server:
+** IMAP: @mail.riseup.net@ port 993 (TLS) or port 143 (StartTLS).
+** POP: @mail.riseup.net@ port 995 (TLS) or port 110 (StartTLS).
+* Outgoing mail server:
+** SMTP: @mail.riseup.net@, port 465 (TLS) or port 587 (StartTLS).
+* Login or user name: @joehill@
+* Use secure connection: @yes@ (TLS or StartTLS)
 
 The [[secure connection -> secure-connections]] may be of type TLS or StartTLS. For security reasons, we no longer support SSL.
 
 *Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords." Because the connection to riseup.net is encrypted anyway, these are not needed.
+
+*Tor Note:* SMTP port 465 is often blocked by exit nodes, but port 587 is less frequently blocked. If you have a problem sending mail, try 587.
 
 h2. Use Thunderbird
 

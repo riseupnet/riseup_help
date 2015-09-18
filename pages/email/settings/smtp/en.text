@@ -16,7 +16,6 @@ There are many good reasons to use our SMTP servers:
 * Some ISPs severely limit how many emails you can send.
 * The SMTP service provided by riseup.net is portable: it does not depend on what network you are connected to. You will always be able to use it even if you are moving your computer around.
 
-
 h2. How do I configure SMTP?
 
 Riseup.net's outgoing mail service requires authentication and a secure connection (SSL or TLS) for security and anti-spam reasons. To use riseup.net as your outgoing mail server (SMTP), use these settings:
@@ -26,7 +25,7 @@ Riseup.net's outgoing mail service requires authentication and a secure connecti
 For example, if your email address was joe_hill@riseup.net, your login is @joe_hill@. This is *required*. If you mail client does not support authenticated SMTP, you cannot use riseup.net as your SMTP.
 * *Use secure connection*: Always.
 This is *required*. If you mail client does not support secure SMTP, you cannot use riseup.net as your SMTP. You might have the option of choosing either *TLS* or *SSL* for the secure connection. Both protocols work, but most ISPs will block port 25 (used by TLS), so we recommend that you choose SSL.
-* *Port*: For *TLS*, the port should be @25@. For *SSL*, the port should be @465@. Again, port @25@ is probably blocked by your internet provider, so you should probably choose SSL.
+* *Port*: For *TLS*, the port should be @465@. For *StartTLS*, the port should be @587@. If one port is blocked for you, try the other one.
 
 For details on setting up SMTP for different mail clients, see the [[email clients => email/clients]] page.
 
@@ -57,11 +56,9 @@ This problem appears when you do not have your mail client configured to authent
 
 h2. Why is my ISP blocking my outgoing mail?
 
-Increasingly, ISPs are blocking access to port 25, the standard port for sending outgoing mail. They do this because of the rise of zombie spam, where a personal computer is taken over by a virus and used as a spam engine for the virus writer.
+There are two ports that you may use for SMTP:
 
-The solution is for you to use SSL instead of TLS (SSL uses port 465, which is usually not blocked).
+* Port 465 (TLS)
+* Port 587 (StartTLS)
 
-h2. When I try to send I get a SMTP error saying the server cannot be contacted, am I doomed?
-
-No, see the answer to the previous question. You cannot contact the SMTP server because your ISP is blocking your outgoing mail.
-
+If one port is blocked, try the other one.
