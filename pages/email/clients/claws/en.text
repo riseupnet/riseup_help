@@ -40,6 +40,8 @@ While running Claws Mail select "Configuration > Create New Account" from the me
 !img/setup_send.png!
 # *SSL Settings* - Select STARTTLS for both POP3 and SMTP.
 !img/setup_ssl.png!
+# *Advanced settings* - Change the SMTP port to 587 (POP3 can stay as 110)
+!img/setup_advanced.png!
 # Click "OK" to finish adding your new account
 
 h3.  First Time, SSL Certificates
