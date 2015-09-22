@@ -1,0 +1,60 @@
+@title = "Riseup Chat"
+@nav_title = "Chat"
+
+h2. O que é Jabber?
+
+Jabber é um padrão aberto para troca de mensagens instantâneas que também abrange conversas por voz e por vídeo. Com jabber, você pode enviar e receber mensagens entre usuários de milhares de provedores de chat diferentes.
+
+h2. Usando o serviço Jabber da Riseup
+
+Seu endereço de e-mail riseup.net lhe serve também como o seu endereço jabber. Para alguém lhe enviar uma mensagem jabber ou solicitação de amizade, será necessário apenas enviá-la para [@usuario@riseup.net@].
+
+Para criar um [[cliente jabber => chat/clients]], você precisará destas informações:
+
+* *protocolo*: "jabber" ou "xmpp"
+* *conta*: [@usuario@riseup.net@]
+* *senha*: suas [[Senhas Riseup => riseup-password]]
+
+É de extrema importância que você configure seu cliente para *sempre requerir criptografia*. Alguns clients possuem a opção "encryption if available" ("criptografia se disponível"). Mesmo que os servidores riseup.net requerem criptografia, se o seu cliente for configurado para usar "encryption if available" então um atacante pode fácilmente adquirir sua senha.
+
+Alguns clientes jabber irão pedir seu usuário e domínio separadamente. Neste caso, você deve especificar:
+
+* *usuário*: [@usuario@]
+* *domínio*: @riseup.net@
+
+Para tutorias de clientes específicos, veja nossa página de [[clientes jabber => chat/clients]].
+
+h2. Conectando em salas de bate-papo multi-usuário
+
+Quando na criação ou conexão a uma sala de bate-papo na rede jabber da Riseup, a sintaxe deve ser:
+
+* [@nome-da-sua-sala@conference.riseup.net@]
+
+Se você precisar especificar a sala separadamente, faça o seguinte:
+
+* sala de bate-papo: @nome-da-sua-sala@
+* domínio: @conference.riseup.net@
+
+NÃO use este modo:
+
+* [@nome-da-sua-sala@riseup.net@]
+
+h3. Usando salas no cliente Pidgin
+
+Ser você está conectado via [[pidgin]], para entrar ou criar uma sala de bate-papo, clique em @Add room@ (@adicionar sala@) no menu @Buddy@ (@amigo@).
+
+* Sala: @ynome-da-sua-sala@
+* Servidor: @conference.riseup.net@
+* Apelido: @seu-nick@
+* Senha: [opcional]
+* Pseudônimo: [opcional]
+* Grupo: [opcional]
+
+Clique em @Ok@ e dê uma olhada na lista de amigos. Você deve notar um grupo @Chat@ com a sua sala.
+Clique com o botão direito do mouse nele e selecione a opção @join@ (@juntar-se@).
+
+Para testes, você pode selecionar @riseup.net@ como nome da sala e juntar-se a ela.
+
+h2. Para segurança adicional
+
+Para segurança adicional, acesse nosso server jabber através da [[VPN Riseup => vpn]] ou através deste "serviço Tor oculto":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. (Veja também nossa [[página do Tor->tor#riseups-tor-hidden-services]] para uma lista completa de nós ocultos)
