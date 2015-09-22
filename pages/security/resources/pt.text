@@ -1,0 +1,38 @@
+@title = "Recursos para Segurança"
+@nav_title = "Recursos"
+
+h2. Provedores de serviços alternativos
+
+Veja nossa lista de [[projetos de servidores radicais -> radical-servers]].
+
+h2. Guias para segurança na Internet
+
+h4. Recomendações de softwares (programas)
+
+* [[PRISM Break => http://prism-break.org/]] lista de serviços e softwares alternativos.
+* EFF's [[Secure Messaging Scorecard => https://www.eff.org/secure-messaging-scorecard]].
+
+h4. Guias de uso dos iniciantes
+
+* [[Security in-a-box -> https://securityinabox.org/]] website que contém muitos guias práticos, do [[Front Line -> https://www.frontlinedefenders.org/]] e do [[Tactical Technology Collective -> http://www.tacticaltech.org/]].
+* [[Guia EFF's sobre Surveillance Self Defense (Autodefesa contra Vigilância) -> https://ssd.eff.org/]] (atualmente apenas em Inglês).
+
+h4. Guias de uso avançado
+
+* [[Começando a utilizar o TAILS: The Amnesic Incognito Live System (O Sistema Bootável Incógnito Amnésico) -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
+* [[Guia de autodefesa digital -> https://guide.boum.org/]] (atualmente em Francês apenas, você pode ajudar na tradução).
+* [[Livro de bolso sobre Cryptoparty => https://www.cryptoparty.in/documentation/handbook]].
+* Manual FOSS sobre [[Driblando a Censura da Internet -> http://www.flossmanuals.net/bypassing-censorship/]] é um guia compreensível de 240 páginas sobre tecnologia anti-censura.
+* Manual FOSS sobre [[Segurança Básica na Internet -> http://www.flossmanuals.net/basic-internet-security/]].
+* [[Wiki da censura na Internet -> http://en.cship.org/wiki]] contém muita informação sobre como evitar a censura na Internet (atualmente apenas em Inglês).
+
+h4. Conteúdo desatualizado
+
+Esses guias antigos são de significância histórica mas que podem ser úteis atualmente.
+
+* [[Riseup Zine: Segurança Digital Para Ativistas!->https://zine.riseup.net]]
+* [[security.resist.ca -> http://security.resist.ca]] Ajudando ativistas manterem-se seguros em um mundo opressivo.
+* [[APC Security Docs -> http://secdocs.net/manual/lp-sec/]] Uma série de revisões com informações sobre segurança em geral e segurança on-line para organizações da sociedade civil.
+* [[Guia para Segurança em E-mails -> http://www.activist.ca/guide/encrypt.html]] Utilizando Criptografia e Assinaturas Digitais.
+* [[Segurança de Computadores para a Maioria dos Ativistas -> http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] PDF carregável.
+* [[Uma introdução ao ativismo na Internet -> http://www.backspace.com/action/]].
