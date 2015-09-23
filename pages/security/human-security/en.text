@@ -22,6 +22,22 @@ Avoid public computers: this can be difficult. If you do use a public computer, 
 
 if you share a computer with friends, create multiple logins which keep user settings separate. You should enable this feature, and logout or "lock" the computer when not in use.
 
+h2. Avoid personal information leaking
+
+Personal information leaking caused by Social Engineering is a very embracing topic, because of the uses for good or not so good reasons, so we will write down not to explain what Social Engineering is, or to list reasons someone would use it, instead, we will give some basic tips to identify and avoid such approach when needed. Afterall, it is all about build your own human firewall against "things" that seek for your information for any nefarious sake.
+
+The tips are:
+
+* *Identify social engineering approach. Learn through real cases, reports, documentaries, etc. about the different methods used by social engineers today, also these applied in identity theft. There is a lot of books and articles out there;
+
+* *Creating an awareness program for personal safety. Create and attend events (like CryptoParty, or any underground neighborhood meetup), dynamics or culture (like that we do here) that will engage people, causing a deep interaction with the theme and creating awareness about preventive measures.
+
+* *Create awareness for the value of your information sought by social engineers. How important to you is your name, your phone number, your e-mail password or simply your favorite color? Create an inquisitive sense about providing information, investigating the applicant with questions to determine exactly who needs the information, exactly what information and for what purpose, ask where the applicant comes from, what kind of place he or she want to send the information.
+
+* *Develop scripts that bypass the social engineer steps. Practice director answers to investigate the applicant's information, something that encourage the applicant to reveal more of his identity and purpose. Always ask why the applicant wishes the requested information. Remember that you don't need to correct anyone that don't need to have a true information, don't be afraid to say "no" or ask for space to think about the subject, if it seems something important. Eliminate your own doubts the maximum as possible. An example, if someone requested to enter a restricted office, check the credentials of the applicant even before state whether such office is or before providing any other information, even corrections about where to go.
+
+* *Don't consume information you didn't requested. Be aware of people using disasters to appeal an emotional request.
+
 h2. Feel the love of free and open source software
 
 Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
