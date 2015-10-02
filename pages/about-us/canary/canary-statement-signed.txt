@@ -1,29 +1,27 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of July 27, 2015 [1], riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
+As of October 2, 2015 [1], riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
 
-Regarding server seizures, in a widely-reported incident [2], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of July 27, 2015 riseup confirms that it has never had any hardware seized or taken by any third party.
+Regarding server seizures, in a widely-reported incident [2], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of October 2, 2015 riseup confirms that it has never had any hardware seized or taken by any third party.
 
-Riseup intends to update this report approximately once per quarter [4].
+Riseup intends to update this report approximately once per quarter.
 
-[1] https://firstlook.org/theintercept/2015/07/23/homeland-security-chief-goes-going-dark-script-says-can-see-plenty/
+[1] https://theintercept.com/2015/10/01/u-s-senators-hem-and-haw-on-saudi-arabias-human-rights-abuses/
 [2] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
-[3] There is no footnote three, but since you looked, you should read this too: https://firstlook.org/theintercept/2015/03/26/passphrases-can-memorize-attackers-cant-guess/
-[4] This report was delayed this quarter not for any legal reason, but simply because the bird responsible for updating it was on vacation.
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCgAGBQJVtja7AAoJEDBD4rcTmnaOI7gP/jRGsXnoXIa176lRqxIRG6M5
-vKkcFm5r7LVC/mUzR/KOLswMZ7sayeVheRQuImKAnjeAlu2Df0XAwd5FVCX8GYIm
-tCRuNOLMCsyS+yJOYXSMhJLgt6EslmFl2joemTQDWiQbxhTJ3hf/gqcEOVKgn9Xh
-v7xJDsjDm8NquaudbS1xhJwIOfuY2nKLumsz/GInJZ/ixkJPiwUPUZ9nh78Ce97P
-CS5fC8vTjrOnVv3j7sQXbCOtWeeh6vtS/MX8Yq4oXJaLNga57OrGOIwr0Xmbrely
-JhqAtJf1Zgndr59Z7AInWdehM0PbAMS5k8bDqD2/Yi8h18dcQva6bxaaxaDFJDFC
-pqj10MekOYww39xCtvo5LcPEJF0LSou6EC2O5ik94vGZU75ktkl6svttBmXm9rkf
-/lpU/i1oj0uHZlIA+a5bqb1x+lSalQYblswhPCrNruXZsNjW0HGVnlkv8IzAq3G2
-VVOEmmHpA5/XvercFqax3g3eaNbX/Rc2nJBTT0tw1/Nci3A/lH7z6AJDCwcA17Wu
-7lAmpJApP8Rg9NlW1JZ3q/Q/6pag+3yzGzsLhaFf4xcaB4XzwZkWHqflHWc+Nfvp
-a72pFPjQLut++td/6Cmqh919fHfDTcwXF5xGxL4J8OuDW2tJCqDjBYNJ2+Z3m+oi
-uaf4/e5I1YmuRXq13/wE
-=BREM
+iQIcBAEBCgAGBQJWDrbEAAoJEDBD4rcTmnaOIMAP/0sVB+KMtvja6aYf628pdMAC
+81lo59wWLqDIBqZJppkS3agVWOwMzqxBCAc76TnTwSihGCmq3Vw5joOWzkYc63K0
+38crJiF4rUON5N8TcRB964AN9YjfzzaQthNShnsqvcxnXwKx6r5FSdhC9SfWf2LY
+8gc1NdlvzkCtxa/iQtmcvceRSQlpiSr92+XyN8rOIb/fGa/X2hRFfZ2kaCy5y0QE
+tRckXNzZPUVVHfASoRGo9ZbefzJNvVj4RwriGL+9/bGailSROx9OXXe0D1aa6Rez
+23GoqMfCb8RS412gurUtpQcJSPvJAAFTgDfgVQbmAG8zZPIeASPEZ9Mfppf0T2rF
+ghKLFYRHO6yztzAmiT9HGlxwrKOsX6+QVD7qq2pA3za6ftE41KZJKueUN6Sx/vnw
+ecNNaJ1HcwOxSsa52w+RBte4LTLcJ9FDinx/MTRP1j3FsioxZyP0OzGs/K+pd5sl
+55fQfSEPzBeYMTmVg+qsrtFV3USx9uzzHO+32fkj7xyWtgbMzCE2ce0O4VZnDG0n
+mqNMGQqQrmh7XCErK1rpFmjoL4A+WQVp+dLr6k5LavmogmNg3p3KyMIiOtJ9P/nd
+hy4AvlJCLxnXREztHchxsomzbgYwfKriN/HWMFRn7OucazdTp3R+rB/2Smwxcycz
+bahS3mlghUtxh7Cw1Qq7
+=TE+n
 -----END PGP SIGNATURE-----
