@@ -19,29 +19,20 @@ to contribute to riseup_help by directly editing pages through the github
 website. This method does not let you preview how the page will render, but it
 does allow you to contribute edits without needing to install any software.
 
-First, create your own fork:
+First, you need to register a github.com account. Then visit
+https://github.com/riseupnet/riseup_help
 
-1. Go to https://github.com and register for an account
-2. Visit https://github.com/riseupnet/riseup_help
-3. Click "Fork" in the top right hand corner
-
-Next, edit files:
+To edit files:
 
 * **Existing Files:** You can edit an existing file by clicking on the file
-  name and then clicking the "Edit" button in the file's toolbar. To save,
-  type a commit message and hit the "Commit" button.
+  name and then clicking the "Edit" button in the file's toolbar (it looks like
+  pencil). To save, type a commit message and hit the "Propose file change" button.
 * **New Files:** You can add a new page by clicking the "+" button at the
   end of the path breadcrumbs (e.g. "riseup_help / pages / chat / [+]"
-  near the top of the page).
+  near the top of the page). When you are done editing the content, hit the
+  "Propose new file" button.
 
-Once you are done with edits:
-
-1. Visit the web page for your fork (e.g. https://github.com/yourname/riseup_help)
-2. Click the "Pull Request" link above the file listing (not the "Pull Requests" link on the side)
-3. Review changes, then click "Create Pull Request"
-4. Add some description, the click "Send pull request"
-
-Boom, you are done. one of the riseup birds will review the pull request
+Boom, you are done. one of the riseup birds will review the change request
 and either merge it right away or add comments.
 
 Advanced method - using git and amber
@@ -54,7 +45,7 @@ program called `amber`.
 
 To install on Debian or Ubuntu (Wheezy or later):
 
-    sudo apt-get install ruby ruby-dev
+    sudo apt-get install ruby ruby-dev build-essential zlib1g-dev
     sudo gem install amber
 
 To install on Mac, see below. Check https://github.com/elijh/amber for more
@@ -73,9 +64,7 @@ by running the amber server:
     amber server
 
 Then browse to http://localhost:8000. Any page you view this way gets re-
-rendered when it is loaded. Because the links and css paths are absolute,
-loading the rendered pages directly in the browser will create ugly results.
-For this reason, it is best to use the `amber server`.
+rendered when it is loaded.
 
 Putting it all together:
 
@@ -214,8 +203,45 @@ Available properties:
 * `@this.alias` -- An alternate url path (or paths if the value is an array)
    where this page should be available.
 
-Tracking pages that need translating
+Translating
 --------------------------------------------
+
+For the most part, to create a new translation for a given page, copy en.text
+file to xx.text and edit the document (where xx is the language code of language
+you are translating into).
+
+The language codes are as follows:
+
+* zh: Simplified Chinese
+* es: Spanish
+* en: English
+* pt: Portuguese
+* ru: Russian
+* de: German
+* fr: French
+* it: Italian
+* el: Greek
+* ca: Catalan
+
+Only those languages are currently enabled. We are happy to add additional
+languages if there is sufficient interest.
+
+In addition to the text of a particular page, the navigation items and footer
+text can be found in `amber/locales/xx.yml`.
+
+When translating the text of a page you should only modify the label of the
+links but not the page names that the links point to. For example:
+
+    [[Security => security]]
+
+Should be translated to:
+
+    [[Seguridad => security]]
+
+The locale will be automatically added to the link, so there is no need to ever
+include it (e.g. the link `[[Seguridad => security]]` will link to
+https://help.riseup.net/es/security). The link `[[Security => security]]` could
+have also been written simply `[[Security]]`.
 
 We do not yet have the capability to automatically identify which translated
 pages need to be updated. However, in the future, I plan to add the command

@@ -1,0 +1,32 @@
+@nav_title = "FAQ"
+@title = "FAQ pour le VPN Riseup"
+@summary = "Questions fréquemments posées et leur réponses"
+
+h2. Qu'est ce qu'il s'est passé avec l'ancien VPN Riseup ? Pourquoi ce changement ?
+
+Le principal problème de notre ancien système était qu'il n'était pas facile d'accès, ce qui avait pour conséquence que beaucoup de personnes avaient des maux de têtes quand ils essayaient de configurer ou de régler le problème quand il ne marchait plus. Le chiffrement doit être facile, pas facile à casser mais facile d'utilisation !
+Nous changeons pour un service produit par LEAP qui propose un nouveau client accessible, facile d'utilisation et avec un niveau de sécurité encore renforcé sur Linux et Android (Windows et OSX sont en projets).
+
+Cela fait partie intégrante de la nouvelle génération des services anti-surveillance de Riseup alimenté par le [Project d'Accessibilité du Chiffrement LEAP](https://leap.se).
+
+h2. ... mais j'aimais bien OpenVPN !
+
+Nous aussi ! C'est pourquoi notre nouveau système VPN est conçu en utilisant OpenVPN. L'approche de LEAP pour rendre le chiffrement accessible consiste à adapter les technologies existantes quand c'est possible, en éliminant les problèmes de sécurité banales concernant la configuration (comme les DNS ou les fuites d'IPv6) ou de mauvais comportement du client (comme envoyer tout votre trafic directement sur internet si vous perdez la connection à votre fournisseur VPN).
+
+
+h2. Qu'est ce que LEAP ?
+
+LEAP est un projet qui se concentre sur faciliter l'accès au chiffrement et le rendre largement utilisable sans compromettre sa sécurité. En adaptant des technologies existantes, LEAP créé des outils qui vous permettent d'exercer votre droit de chuchoter numériquement, comme une condition préalable à une société libre.
+
+h2. Quel est le statut du nouveau VPN Riseup ?
+
+Le nouvau VPN Riseup fonctionne déjà. Faites nous savoir si vous avez un quelconque problème !
+
+h2. Quels systèmes d'exploitation sont supportés ?
+
+L'application Bitmask fonctionne sur GNU/Linux (comme paquet sur Debian et Ubuntu et comme module pour les autres distributions), Mac OSX et Android.
+Allez sur les instructions de configuration pour ces systèmes.
+
+h2. Où est-ce que j'envois les bugs que j'ai trouvé ?
+
+Signaler le problème sur [votre compte](https://black.riseup.net).

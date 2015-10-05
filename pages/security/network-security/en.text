@@ -10,8 +10,8 @@ table(table).
 |_. Technology  |_. Difficulty |_. When to use it |
 | [[secure-connections]] | Automatic | All Riseup services require a secure connection. |
 | [[better-web-browsing]] | Easy | There are a few easy things you can do to make your web browsing more secure and more private. |
-| [[vpn]]                 | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic*. |
-| [[tor]]                 | Hard | Tor is like VPN, but your traffic is bounced around the internet to many nodes to make it *more anonymous.* |
+| [[VPN]]                 | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic*. |
+| [[Tor]]                 | Hard | Tor is like VPN, but your traffic is bounced around the internet to many nodes to make it *more anonymous.* EFF has a handy visual chart showing the [[interaction of Tor and HTTPS => https://www.eff.org/pages/tor-and-https]] |
 
 h2. Advanced Topics
 

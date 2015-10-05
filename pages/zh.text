@@ -1,25 +1,24 @@
 @title = "首页"
 @this.layout = 'home'
 @this.toc = false
-@this.summary = "Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目的目标，是提供自由的、可控的、安全的网络交流平台。"
+@this.summary = "Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。"
 
-h2. 电子邮件 <small>https://mail.riseup.net</small>
+h2. 电子邮箱服务 <small>https://mail.riseup.net</small>
 
-我们提供安全和私密的电子邮件账户，支持网页访问、IMAP和POP。[[更多帮助 => email]]。 "登陆网页邮箱":https://mail.riseup.net. "申请账户":https://user.riseup.net/forms/new_user. "密码找回":https://user.riseup.net/forms/password_reset/first. "修改设置":https://user.riseup.net.
+我们提供安全和私密的电子邮件账户，支持网页访问、IMAP和POP协议。[[更多帮助 => email]]。 "登陆网页邮箱":https://mail.riseup.net. "申请账户":https://user.riseup.net/forms/new_user. "密码找回":https://user.riseup.net/forms/password_reset/first. "修改设置":https://user.riseup.net.
 
-h2. 邮件列表 <small>https://lists.riseup.net</small>
+h2. 电子邮件列表 <small>https://lists.riseup.net</small>
 
-我们维护着一个邮件列表，其中包括了一些活跃的组织。We provide mailing lists for activist organizations. [[更多帮助 => lists]]. "登陆":https://lists.riseup.net/www/. [[请求列表 => creating-lists]]. [[提交地址 => subscribing]]. [[删除地址 => subscribing]].
+我们维护着一个电子邮件列表，包括了许多活跃组织的电子邮件地址。[[更多帮助 => lists]]. "登陆":https://lists.riseup.net/www/. [[请求列表 => creating-lists]]. [[提交地址 => subscribing]]. [[删除地址 => subscribing]].
 
 h2. 新服务
 
-我们正在测试[*[[VPN => vpn]]*]（虚拟专用网络）, [*[[聊天工具 => chat]]*]，以及，[*“以太白板（etherpad）”：https://pad.riseup.net*]服务。这些服务仍然在开发中，暂时可能还不太可靠。如果您想要帮助我们测试这些产品，我们非常欢迎。
-
+我们正在测试[*[[VPN => vpn]]*]（虚拟专用网络），[*[[聊天工具 => chat]]*]，以及[*"以太白板（etherpad）":https://pad.riseup.net*]服务。请注意，这些服务仍然在开发中，暂时可能还不太可靠。但我们非常欢迎您来帮助我们测试这些产品，以改进用户体验。
 h2. 资源
 
 *[[安全 => security]]*
-关于安全通讯的更多在线资源和教程。
+更多有关安全通讯的在线资源和教程。
 
 *"咨询台":https://user.riseup.net/forms*
 想问我们什么问题吗？在咨询台创建一个新的帖子即可。
-不过，在那之前，还请先搜索一下过去的咨询以及在线文档。
+不过，在那提问之前，不妨先搜索一下过去的咨询和在线文档，也许您的问题已经被解答过了。

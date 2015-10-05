@@ -1,0 +1,36 @@
+@title = 'Comment le VPN Riseup fonctionne'
+
+Un réseau virtuel privé (VPN) est utilisé par exemple pour permettre à un employé d'accéder à un réseau d'entreprise sécurisé.
+Cependant, avec le VPN Riseup, nous utilisons la même technologie pour permettre à tout le monde d'avoir une bonne sécurité en accédant à internet. Ce type de VPN est appelé VPN personnel.
+
+h2. Une connection internet normale
+
+!vpn-01_large.png!
+
+Avec une connection internet normale, tout votre trafic part de votre ordinateur, passe par votre FAI (Fournisseur d'Accès Internet), ressort sur internet et va finalement à sa destination. A chaque étape du chemin, vos données sont enregistrées et sont vulnérables à une attaque de type "Man-in-the-middle" (le danger de ce type d'attaque est moindre si vous utilisez un protocole sécurisé comme https).
+
+h2. Une connection internet avec un VPN privé
+
+!vpn-02_large.png!
+
+Avec un VPN privé, votre trafic est chiffré sur votre ordinateur, passe par votre FAI et va au serveur VPN. Parce que les données sont chiffrées, votre FAI n'a pas connaissance des données qu'il relaie vers le serveur VPN. Une fois que vos données ont atteint le serveur VPN, elles sont déchiffrées et vont à leur destination finale.
+
+Avec le VPN privé, si vos données n'utilisent pas de [[connections sécurisées -> secure-connections]] alors elle sont toujours vulnérables du moment où elles quittent le serveur VPN. Cependant, en routant vos données par le serveur VPN, vous avez eu 2 avantages importants :
+
+* Vos données sont protégées des blocages, espionnages ou attaques de type "Man-in-the-middle" réalisés par votre FAI ou un opérateur de réseau dans votre pays.
+
+* Vos données utilisent l'adresse IP du serveur VPN, et pas votre adresse IP réelle. La plupart des sites web rassemblent et conservent des données en se basant sur cette adresse IP, qui a maintenant été anonymisée.
+
+h2. Les VPNs privés anonymisent votre connection
+
+!vpn-03_large.png!
+
+Parce que votre trafic apparaît comme venant du serveur VPN, le destinataire de votre communication internet ne sait pas où vous résidez actuellement (sauf, bien sûr, si vous leur dites).
+Dans le cas illustré ci-dessus, le site web en Californie pense que les ordinateurs portables au Brésil et en Europe ainsi que le téléphone portable au Canada viennent tous de New-York, parce que c'est là où est le serveur VPN.
+
+h2. Limitations à l'utilisation d'un VPN privé
+
+* Si vous vivez dans un état non démocratique, il peut être illégal d'utiliser un VPN privé pour accéder à internet.
+* Utiliser un VPN sur votre téléphone portable sécurisera vos données sur internet, mais l'entreprise de téléphonie connaîtra toujours votre localisation en enregistrant avec quelles tours votre appareil communique.
+* Un VPN aide à sécuriser vos informations pendant qu'elles transitent sur internet, mais ça ne sécurise pas vos informations quand elles sont stockées sur votre ordinateur ou sur un serveur distant.
+* Une fois que vos données sont routées de manière sécurisé via les serveurs du VPN Riseup, elles vont sur internet comme elles auraient normalement faits. Par conséquent, vous devez toujours utiliser des [[connections sécurisées -> secure-connections]] dès que possible.

@@ -1,6 +1,6 @@
 @nav_title = "Android"
 @title = "How to: Android"
-@summary = "Getting, Installing and Configuring the Bitmask client"
+@summary = "Bitmask for Android: Getting, Installing and Configuring"
 
 ## Getting and Installing Bitmask
 

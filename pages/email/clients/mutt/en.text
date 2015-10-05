@@ -1,0 +1,87 @@
+@title = "Mutt"
+
+h2. What is Mutt?
+
+"Mutt":http://www.mutt.org/ is a small but very powerful text based program for reading and sending electronic mail under unix operating systems, including support for color terminals, MIME, OpenPGP, and a threaded sorting mode.
+
+h2. Installation
+
+* Debian/Ubuntu Linux: @sudo apt install mutt@
+
+h2. Configuration
+
+Edit *~/.mutt/muttrc*. Choose either **IMAP** or **POP**. [[What is the difference between IMAP and POP email servers? => email/clients]]
+
+h3. Personal information
+
+Add the following lines to *~/.mutt/muttrc*:
+
+<pre>
+# Account
+set realname  = 'Foo Bar'
+set from      = foo@riseup.net
+
+# Send
+set smtp_url  = smtps://$imap_user@mail.riseup.net/
+set smtp_pass = $imap_pass
+
+# Connection
+set ssl_force_tls = yes
+set ssl_starttls  = yes
+</pre>
+
+h3. Using **IMAP** with @mutt@
+
+Add the following lines to *~/.mutt/muttrc*:
+
+<pre>
+# Receive
+set imap_user = foo@riseup.net
+set imap_pass = 'password'
+set folder    = imaps://foo@mail.riseup.net/
+set imap_check_subscribed
+
+# Folder
+set spoolfile = +INBOX
+set postponed = +Drafts
+set record    = +Sent
+</pre>
+
+h3. Using **POP** with @mutt@
+
+Look at https://wiki.archlinux.org/index.php/Mutt#POP3 for more info.
+
+h3. Using [[OpenPGP]] in @mutt@
+
+# [[Setup OpenPGP => openpgp]]
+# Add the following lines to ~/.mutt/muttrc and change <code>0xDBD0F842</code> with **sec** key in <code>gpg -K</code>
+
+<pre>
+set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
+set pgp_sign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --detach-sign --textmode %?a?-u %a? %f"
+set pgp_clearsign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --textmode --clearsign %?a?-u %a? %f"
+set pgp_encrypt_only_command="pgpewrap gpg --batch --quiet --no-verbose --output - --encrypt --textmode --armor --always-trust --encrypt-to 0xDBD0F842 -- -r %r -- %f"
+set pgp_encrypt_sign_command="pgpewrap gpg --passphrase-fd 0 --batch --quiet --no-verbose --textmode --output - --encrypt --sign %?a?-u %a? --armor --always-trust --encrypt-to 0xDBD0F842 -- -r %r -- %f"
+set pgp_import_command="gpg --no-verbose --import -v %f"
+set pgp_export_command="gpg --no-verbose --export --armor %r"
+set pgp_verify_key_command="gpg --no-verbose --batch --fingerprint --check-sigs %r"
+set pgp_list_pubring_command="gpg --no-verbose --batch --with-colons --list-keys %r"
+set pgp_list_secring_command="gpg --no-verbose --batch --with-colons --list-secret-keys %r"
+set pgp_autosign=yes
+set pgp_sign_as=0xDBD0F842
+set pgp_replyencrypt=yes
+set pgp_timeout=1800
+set pgp_good_sign="^gpg: Good signature from"
+</pre>
+
+h3. Using [[Tor]] with @mutt@
+
+For added security, access our mail service via [[Tor hidden service => tor]].
+
+# [[Setup Tor => Tor]].
+# Replace the @mail.riseup.net@ with the corresponding ".onion" address found on the [[Tor]] page (in *~/.mutt/muttrc*).
+# Add @alias mutt="torify mutt 2>/dev/null"@ to *~/.bashrc* or *~/.zshenv*. For fish users, add @alias mutt="torify mutt ^ /dev/null"@ to *~/.config/fish/config.fish*
+
+Enjoy using @mutt@! Look at https://wiki.archlinux.org/index.php/Mutt for more info.

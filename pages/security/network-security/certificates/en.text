@@ -57,7 +57,6 @@ Now that you have imported Riseup's public key, you can verify that the fingerpr
 # Download the signed [[certificate fingerprint statement => /security/network-security/certificates/riseup-signed-certificate-fingerprints.txt]]
 # Then run this command in a terminal:
 <code>gpg --verify riseup-signed-certificate-fingerprints.txt</code>
-# Type control-d
 # You should get output that says:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 

@@ -1,5 +1,5 @@
-@title = 'Communications Security'
-@nav_title = 'Security'
+@title = '通讯安全'
+@nav_title = '安全'
 
 h1. 为什么安全性很重要
 
@@ -49,7 +49,7 @@ h1. 安全性概述
 </tr>
 </table>
 
-Riseup通常提供服务来处理 [[network-security]]：
+Riseup通常提供服务来处理 [[网络安全 => network-security]]：
 
 *由于网络监控非常普遍，它是个影响每个人的所有时间的*社会问题*。相比之下，被当局镇压作为单独目标的人，设备和信息安全性非常重要。
 *与设备或消息的安全性相比，提高您的网络安全性是相当*容易地*。

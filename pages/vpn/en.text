@@ -26,7 +26,7 @@ We are aware that encryption (in general) is hard and that there is an important
 
 Want to check it out? Please read the install instructions. Don't be afraid!
 
-h2. What happened OpenVPN? Why is Bitmask better than my OpenVPN client?
+h2. What happened to OpenVPN? Why is Bitmask better than my OpenVPN client?
 
 OpenVPN is still here! Bitmask is built using OpenVPN but with several security enhancements turned on by default. One of the biggest problems with encryption today is how it's too easy to make mistakes, because of that, we are forcing security with Bitmask. It will prevent common VPN problems like DNS or IPv6 leaks or data going over the clear to the Internet if your connection with the VPN service repeatingly drops.
 

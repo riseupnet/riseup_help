@@ -10,7 +10,7 @@ For help configuring a particular client, click on one of the following links:
 
 table(table table-striped).
 |_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Proprietary Clients*|
-|Linux   | [[thunderbird]], [[evolution]], Kmail, Balsa, mutt, alpine, etc| |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc| |
 |Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
 |Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
 |Android | [[k9]] |  |
@@ -25,26 +25,32 @@ table(table table-striped).
 | Storage | *Your computer*. When using POP, you typically download all your mail to your computer and remove it from the riseup.net servers. | *Riseup Server*. IMAP leaves all messages on the server. Another way to think of this is that an IMAP mail client provides a view of the existing data stored on the server. |
 | Mobility | *Low*. POP only works well when you predominately check your mail from the same computer. | *High*. IMAP allows you to use many clients and keep them in sync. |
 | Speed   | *Faster*, since everything is just downloaded once to your computer. | *Slower*, since the mail client will query the server repeatedly. |
-| Quota   | *Unlimited*. You never need to worry about quota if your client is configured to delete messages on the server after downloading. | *Limited*. You will have [limited quota -> quota]. |
+| Quota   | *Unlimited*. You never need to worry about quota if your client is configured to delete messages on the server after downloading. | *Limited*. You will have [[limited quota -> quota]]. |
 | Security | *High*. Your messages are not stored on the server (typically). | *Lower*. You are entrusting Riseup with your storage. |
 
 h2. Basic client configuration
 
 Although some mail clients are able to automatically configure themselves, most require some basic information in order to connect to your Riseup email account.
 
-Suppose your email address was [@collective@riseup.net@]:
+Suppose your email address was [@joehill@riseup.net@]:
 
-* Incoming mail server: @mail.riseup.net@
-* Outgoing mail server: @mail.riseup.net@
-* Login or user name: @collective@
-* Use secure connection: @yes@ (TLS)
-(This is required. The [[secure-connection->/security/network-security/secure-connections]] may be of type SSL, TLS or StartTLS. TLS is strongly recommended, the others are far less secure.)
+* Incoming mail server:
+** IMAP: @mail.riseup.net@ port 993 (TLS) or port 143 (StartTLS).
+** POP: @mail.riseup.net@ port 995 (TLS) or port 110 (StartTLS).
+* Outgoing mail server:
+** SMTP: @mail.riseup.net@, port 465 (TLS) or port 587 (StartTLS).
+* Login or user name: @joehill@
+* Use secure connection: @yes@ (TLS or StartTLS)
 
-*Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords". Because the connection to riseup.net is encrypted anyway, these are not needed.
+The [[secure connection -> secure-connections]] may be of type TLS or StartTLS. For security reasons, we no longer support SSL.
 
-h2.  Use Thunderbird
+*Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords." Because the connection to riseup.net is encrypted anyway, these are not needed.
 
-!reclaimyourinbox.png!:http://getthunderbird.com
+*Tor Note:* SMTP port 465 is often blocked by exit nodes, but port 587 is less frequently blocked. If you have a problem sending mail, try 587.
+
+h2. Use Thunderbird
+
+!thunderbird/img/reclaimyourinbox.png!:http://getthunderbird.com
 
 Thunderbird is the mail client recommend for use with riseup.net. Sadly, The "Mozilla Foundation":https://mozilla.org has essentially abandoned Thunderbird, but it is still the best option for a free software cross-platform mail client.
 
@@ -55,7 +61,6 @@ h2.  Why would I use a mail client?
 There are many advantages to using a mail client rather than using web mail:
 
 * When using a mail client, you do not have to always be connected to the internet. Instead you can connect, download all your email, disconnect, and read the emails when you want. This is very convenient if your connectivity is not reliable, is slow or maybe you have limited access. Also, you can compose email anytime, save it, and send it later when you are connected to the internet.
-* The Riseup [[webmail]] is very limited. Mail clients have many more features.
 * Mail clients are generally much faster than web mail.
 * Most mail clients allow you to manage multiple accounts all from one place. This can be very useful if you are different email accounts for different parts of your life.
 
@@ -64,6 +69,6 @@ There are also some disadvantages:
 * To use a mail client, you must install software on your computer and configure it specially for your account (or accounts).
 * Because mail clients store messages on your machine, other people can read your mail if they have access to your computer.
 
-h2.  Can I use both web mail and a mail client?
+h2. Can I use both web mail and a mail client?
 
-Yes, you can switch back and forth easily. Often, people will use a mail client when at home or at work, and use the web-based email when traveling. If you do use both options, you should be familiar with the different between IMAP and POP.
+Yes, you can switch back and forth easily. Often, people will use a mail client when at home or at work, and use the web-based email when traveling. If you do use both options, you should be familiar with the difference between IMAP and POP.

@@ -1,0 +1,34 @@
+@title = 'Les alias et faire suivre ses courriels'
+
+h2. Qu'est-ce que faire suivre ses courriels?
+
+Si vous souhaitez que tous les courriels reçus sur votre adresse riseup soit automatiquement réexpédiés quelque part, cela consiste à faire suivre vos courriels.
+
+h3. Comment faire suivre ses courriels vers une autre adresse?
+
+# Connectez-vous au https://user.riseup.net
+# Cliquez sur "Courriel"
+# Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
+# Cliquez sur "Sauvegarder les changements"
+# *note:* Il se peut que vous obteniez un étrange point d'exclamation rouge en haut de la page. Ceci est un bug. Tant que l'adresse à laquelle vous faites suivre vos courriels s'affiche à l'écran, la modification sera effective.
+
+h2. Qu'est-ce qu'un alias courriel?
+
+Un alias est une adresse courriel différente mais qui redirige vers une même boîte courriel. Prennons l'exemple où vous avez un compte riseup joe_hill@riseup.net, mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
+
+h3. Utiliser un alias pour prévenir les pourriels
+
+Si vous avez besoin d'utiliser une adresse courriel pour vous inscrire à certains sites, vous pouvez créer un alias et utiliser cette adresse à la place de votre courriel normal. De cette manière, vous saurez si ce site commence à vous envoyer des pourriels et si jamais vous voulez que cela cesse, vous n'avez qu'à détruire l'alias. Cela n'affectera pas votre compte principal. Rusé!
+
+h3. Comment créer un alias?
+
+Vous pouvez créer un alias! Voici comment:
+
+# Connectez-vous au https://user.riseup.net
+# Cliquez sur "Courriel"
+# Tapez NOM_DE_LALIAS@riseup.net dans la boîte "Alias"
+# Type "ALIASNAME@riseup.net" in the "Aliases" box
+# Cliquez sur "Sauvegarder les changements"
+
+Note: si une personne utilise déjà cet alias ou cet identifiant, vous ne serez pas en mesure de choisir cet alias. Utilisez un nom différent!
+Note: Si vous utilisez une identité alternative dans votre client courriel, vous allez avoir l'air d'envoyer des courriels de votre alias. Votre adresse courriel réelle est cepedant facile à trouver dans l'entête du courriel. Ne vous fiez pas aux identités alternatives pour cacher votre nom de compte riseup dans les messages que vous envoyez!

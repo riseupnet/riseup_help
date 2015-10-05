@@ -8,7 +8,7 @@ h2. Primeiros passos
 
 Visite https://user.riseup.net. Ali você pode alterar sua senha, adicionar pseudônimos (atalhos), configurar filtros de email, aumentar sua cota e pedir ajuda.
 
-Nós destruimos automaticamente a informação que você nos dá como parte de seu pedido de conta. Considere remover de suas configurações da conta qualquer informação que possa lhe indentificar, como seu nome, data de nascimento, pergunta secreta e email alternativo. Porém, se você esquecer sua senha e não tiver gravado seu email alternativo (ou esquecer o que escreveu, ou o email alternativo não for mais acessível) então perderá o acesso à sua conta. 
+Nós destruimos automaticamente a informação que você nos dá como parte de seu pedido de conta. Considere remover de suas configurações da conta qualquer informação que possa lhe indentificar, como seu nome, data de nascimento, pergunta secreta e email alternativo. Porém, se você esquecer sua senha e não tiver gravado seu email alternativo (ou esquecer o que escreveu, ou o email alternativo não for mais acessível) então perderá o acesso à sua conta.
 
 h2. Coisas importantes
 
@@ -36,7 +36,7 @@ Por muitas razões, nós não fornecemos muito espaço de armazenamento para ema
 
 h3. Use um cliente de email
 
-É verdade que a interface web do riseup.net não é muito elegante. Você pode usar conta de email riseup.net com [[clientes de email=>clients]] IMAP ou POP, que são programas cheios de funcionalidades para lidar especificamente com emails. Confira nossos [[dicas de como usar os clientes de email mais populares => clients]].
+É verdade que a interface web do riseup.net não é muito elegante. Você pode usar conta de email riseup.net com [[clientes de email=>email/clients]] IMAP ou POP, que são programas cheios de funcionalidades para lidar especificamente com emails. Confira nossos [[dicas de como usar os clientes de email mais populares => email/clients]].
 
 Riseup recomenda [[Thunderbird=> Thunderbird]], que é um cliente de email livre e código-aberto. [[Thunderbird => Thunderbird]] se configura automaticamente, você precisa usar seu endereço de email e senha.
 
@@ -87,4 +87,3 @@ Encontre respostas para dúvidas comuns sobre email
 * O que você pode me dizer [[sobre vírus => scams/viruses]]?
 * O que é o [[Acordo de Uso => about-us/policy]] de Riseup?
 * [[Por que eu não posso configurar uma resposta automática? => settings/email-filters#posso-configurar-uma-resposta-automática]]?
-

@@ -1,0 +1,43 @@
+@title = "Jabber Clients"
+@summary = "Konfiguration von Jabber-Clients für die Verwendung mit dem Riseup Jabber-Chat-Dienst."
+
+p(alert alert-info). Bitte hilf uns, diese Seite auf dem neuesten Stand zu halten, indem du unterschiedliche Clients ausprobierst.
+
+h2. Wichtige Funktionen, nach denen eine Beurteilung des Clients erfolgen kann:
+
+table(table).
+| *OTR?* | Falls verfügbar, hat dieser Client eine eingebaute Unterstützung für OTR (off the record), was eine Ende-zu-Ende Verschlüsselung von Chat-Nachrichten mit PFS (perfect-forward-secrecy / perfekte Weiterleitungs-Geheimhaltung) vereint.|
+| *Jingle?* | Falls verfügbar, kann dieser Client für Sprach- und Videochat verwendet werden.|
+| *Proxy?* | Falls verfügbar, kann dieser Client Proxys verwenden bzw. hält sich dieser Client strikt an die Proxy-Einstellungen.|
+| *SSL/TLS?* | Falls verfügbar, unterstützt dieser Client verschlüsselte Verbindungen mit dem Chat-Server.|
+| *Tor?* | Falls verfügbar, kann dieser Client Verbindungen korrekt durch Tor leiten, um Zensur zu umgehen und auf Dienste anonym zuzugreifen. Falls nein, sollte der Client *nicht mit Tor verwendet werden*.|
+
+h2. Empfohlene Clients
+
+table(table table-striped).
+|_. Client |_. Unterstütztes Betriebssystem |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Kommentare |
+| [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux      | Nein           | *Ja* | *Ja* (GNOME) | *Ja* (GNOME) | ? | Open-Source. Läuft stabil und ist einfach zu verwenden. |
+| [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Open-Source, Tor-Unterstützung. |
+| [[Pidgin]]   | Windows, GNU/Linux | *Ja*   | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Open-Source. Läuft Stabil und bringt viele Funktionen mit. Verwende die aktuellste Version. |
+| [[Adium]] | Mac | *Ja* | Nein | *Ja* | *Ja* | Teilweise | Open-Source. Gute native Version von Pidgin für Mac, jedoch wird libpurple nur selten aktualisiert. DNS- und URL-Informationen dringen durch.|
+| [[Beem -> http://www.beem-project.com/]] | Android | Nein | Nein | ? | ? | ? | Open-Source. Stabile Android-App. Unterstützt keine Gruppenchats. |
+| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Ja* | Nein | ? | ? | ? | Open-Source. Stabiler Client mit vielen Plugins. |
+
+h2. Andere Clients
+
+table(table table-striped).
+|_. Client |_. Unterstützte Betriebssysteme |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Kommentare |
+| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Ja* | *Ja* | ? | ? | ? | Open-Source. Programmiert in Java. |
+| [[Pandion -> http://pandion.im/]] | Windows | Nein | Nein | ? | ? | ? | Open-Source. Guter stabiler Windows-Jabber-Client. |
+| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | Nein | *Ja* | ? | ? | ? | Open-Source. Stabile native Anwendung. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Ja* | *Ja* | ? | ? | ? | Open-Source. Programmiert in Java, derzeit leider noch nicht getestet. |
+| iChat | Mac | Nein | Nein | ? | ? | ? | Apple's eingebaute Chat-Software unterstützt Jabber, aber nur mit einer stark dezimierten Anzahl an Funktionen. |
+
+h2. Clients, die man meiden sollte
+
+table(table table-striped).
+|_. Client |_. Unterstützte Betriebssysteme |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Kommentare |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | Nein | *Ja* | *Ja* | *Ja* | *Ja* | Open-Source. Guter Jabber-Client, der in Python programmiert wurde. Bedauerlicherweise ist es nicht möglich, verschlüsselte Verbindungen aufzubauen. Eventuell bereits behoben? |
+
+
+

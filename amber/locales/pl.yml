@@ -1,0 +1,62 @@
+pl:
+  tags: "Tagi"
+  tag: "Tag"
+  related: "Powiązane"
+  missing_translation: "Ta strona nie została jeszcze przetłumaczona z angielskiego."
+  support_riseup: "Wspomóż Riseup!"
+  motto: "Zejdź z komputera, zobaczymy się na ulicy."
+  footer_tagline: "Ten serwis jest prowadzony przez riseup.net, twoją przyjazną autonomiczną techniczną grupę od 1999."
+  contribute_to_help: "Zostałeś zaproszony do darowizny nowego materiału i tłumaczeń dla tych stron."
+  system_updates: "Aktualizacje systemu"
+  # quick links:
+  link_privacy: "Polityka prywatnośći"
+  link_about_us: "O nas"
+  link_status: "Stan systemu"
+  link_support: "Wspomóż Riseup"
+  # services:
+  link_lists: "Listy mailingowe"
+  link_email: "Email"
+  link_chat: "Czat"
+  link_groups: "Grupy"
+
+  # Donation page
+  donation_processor: "Dostawca dotacji"
+  supports_recurring_donations: "Cykliczne dotacje?"
+  supports_optional_registration: "Ewentualna rejestracja?"
+  supports_credit_card: "Karta kredytowa?"
+  notes: "Notatki"
+  yes_value: "Tak"
+  no_value: "Nie"
+
+  subscribe: "Zasubskrybuj"
+  donate: "Wspomóż"
+  monthly: "Miesięcznie"
+  quarterly: "Kwartalnie"
+  recurring_donation: "Cykliczna dotacja"
+  one_time_donation: "Jednorazowa darowizna"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
+  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
+  bitcoin_grab_address: "Zgarnij adres bitcoin."
+  generate: "Wygeneruj"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Bardzo niskie koszta. Wymaga rejestracji i amerykańskiego konta bankowego."
+  dwolla_description: "Dwolla jest naprawdę tanim sposobem na wysyłanie wirtualnych pieniędzy, aczkolwiek wymaga od ciebie stworzenia konta Dwolla powiązanego z amerykańskim kontem bankowym. Dwolla wspiera cykliczne dotacje."
+
+  paypal: "Paypal"
+  paypal_note: "Działa w wielu krajach."
+  paypal_description: "PayPal akceptuje karty kredytowe i wspiera cykliczne dotacje (dla cyklicznych dotacji, konto PayPal jest wymagane)."
+
+  wepay: "WePay"
+  wepay_note: "Alternatywa PayPal."
+  wepay_description: "WePay jest dobrą alternatywą do PayPal. Możesz używać WePay bez tworzenia konta, a także obsługuje karty kredytowe."
+
+  flattr: "Flattr"
+  flattr_note: "Mikropłatności się dodają."
+  flattr_description: "Flattr jest systemem mikropłatności, który pozwala na wspieranie wielu projektów."
+
+  gratipay: "Gratipay"
+  gratipay_note: "Cykliczne mikropłatności się dodają."
+  gratipay_description: "Gratipay jest kolejnym systemem mikropłatności, ktory pozwala na cotygodniowe dotacje projektów, które lubisz."

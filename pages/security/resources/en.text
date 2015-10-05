@@ -1,27 +1,38 @@
 @title = "Security Resources"
 @nav_title = "Resources"
 
-h2. Alternative Service Providers
+h2. Alternative service providers
 
 Check out our list of [[radical server projects -> radical-servers]].
 
-h2. Guides on security
+h2. Guides on internet security
 
-Recommended:
+h4. Software recommendations
 
-* [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT)
+* [[PRISM Break => http://prism-break.org/]] list of alternative software and services.
+* EFF's [[Secure Messaging Scorecard => https://www.eff.org/secure-messaging-scorecard]].
+
+h4. Usage guides for beginners
+
+* [[Security in-a-box -> https://securityinabox.org/]] website contains many hands-on guides, from [[Front Line -> https://www.frontlinedefenders.org/]] and [[Tactical Technology Collective -> http://www.tacticaltech.org/]].
 * [[EFF's Guide to Surveillance Self Defense -> https://ssd.eff.org/]] (currently only in English).
+
+h4. Advanced usage guides
+
+* [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
 * [[Digital self defense guide -> https://guide.boum.org/]] (currently French language only, you can help translate).
-* [[Security in-a-box -> https://security.ngoinabox.org/]] website contains many hands-on guides, from [[Front Line -> https://www.frontlinedefenders.org/]] and [[Tactical Technology Collective -> http://www.tacticaltech.org/]]
+* [[Cryptoparty Handbook => https://www.cryptoparty.in/documentation/handbook]].
 * FOSS Manual on [[Bypassing Internet Censorship -> http://www.flossmanuals.net/bypassing-censorship/]] is a comprehensive 240 page guide to circumvention technologies.
-* FOSS Manual on [[Basic Internet Security -> http://www.flossmanuals.net/basic-internet-security/]]
+* FOSS Manual on [[Basic Internet Security -> http://www.flossmanuals.net/basic-internet-security/]].
 * [[Internet censorship wiki -> http://en.cship.org/wiki]] contains lots of information on circumventing internet censorship (currently only in English).
+
+h4. Out of date
+
+These old guides are of historical significance and may sometimes even be useful.
+
 * [[Riseup Zine: Digital Security for Activists!->https://zine.riseup.net]]
-
-Out of date, but sometimes useful:
-
 * [[security.resist.ca -> http://security.resist.ca]] Helping activists stay safe in our oppressive world.
 * [[APC Security Docs -> http://secdocs.net/manual/lp-sec/]] A series of briefings on information security and online safety for civil society organizations.
-* [[Guide to Email Security -> http://www.activist.ca/guide/encrypt.html]] Using Encryption and Digital Signatures
+* [[Guide to Email Security -> http://www.activist.ca/guide/encrypt.html]] Using Encryption and Digital Signatures.
 * [[Computer Security for the Average Activist -> http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] A downloadable PDF.
-* [[An introduction to activism on the internet -> http://www.backspace.com/action/]]
+* [[An introduction to activism on the internet -> http://www.backspace.com/action/]].

@@ -15,6 +15,9 @@ email
     ios-mail
     microsoft-outlook
     postbox
+    sylpheed
+    claws
+    mutt
   webmail
     address-book
     where-is-imp
@@ -49,7 +52,7 @@ chat
   clients
     adium
     pidgin
-  security
+  chat-security
     otr
 vpn
   why-is-needed
@@ -90,6 +93,7 @@ about-us
   canary
   contact
   newsletter
+    2015
     2014
     2013
     2012

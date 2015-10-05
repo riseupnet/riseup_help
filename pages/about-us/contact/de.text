@@ -1,0 +1,27 @@
+@title = 'Kontakt'
+
+Am besten kannst du mit uns in Kontakt treten, indem du eine Nutzeranfrage ausfüllst. Auf https://user.riseup.net kannst du eine Nutzeranfrage (=help ticket) erstellen. Für eine Nutzeranfrage brauchst Du kein E-Mail-Konto bei riseup zu haben.
+
+Für Fragen über unser Kollektiv schicke eine Mail an collective@riseup.net. Alle Hilfe-Anfragen, die an diese Adresse gerichtet werden, werden kommentarlos ignoriert.
+
+Unsere lange gpg keyid ist 0x3043E2B7139A768E. Der ganze Fingerabdruck (fingerprint) ist:
+
+pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+
+Es gibt keinen Grund, warum Du diesem Schlüssel trauen solltest. Aber Du kannst sehen, wer diesem Schlüssel vertraut:
+
+pre. gpg --list-sigs 3043E2B7139A768E
+
+Unsere Postadresse ist:
+
+<pre>
+riseup.net
+PO Box 4282
+Seattle, WA 98194 USA
+</pre>
+
+Mitglieder des Riseup-Kollektivs sind oft auf irc.indymedia.org im #riseup Chatroom.  *Bitte beachten: Um dem #riseup Channel beizutreten, musst du über SSL auf Port 6697 mit dem Server verbunden sein.* Du kannst auch das Webinterface auf https://chat.indymedia.org benutzen, um mit uns in Kontakt zu treten, falls "irc" für dich keine vertraute Abkürzung ist.
+
+Wir sind auch auf "Twitter":https://twitter.com/riseupnet.
+
+Suchst du hoch aufgelöste Riseup Grafiken? Schau auf der Seite [[images]].

@@ -7,7 +7,7 @@
     %th= t(:notes)
   %tr
     %td <a href="#bitcoin"><img src="img/bitcoin.png"></a>
-    %td= t :no_value
+    %td= t :yes_value
     %td
       %b= t :yes_value
     %td= t :no_value
@@ -36,13 +36,13 @@
       %b= t :yes_value
     %td= t :flattr_note
   %tr
-    %td <a href="#gittip"><img src="img/gittip.png"></a>
+    %td <a href="#gratipay"><img src="img/gratipay.png"></a>
     %td
       %b= t :yes_value
     %td= t :no_value
     %td
       %b= t :yes_value
-    %td= t :gittip_note
+    %td= t :gratipay_note
 
 .panel.panel-default
   %h2.hidey= t :bitcoin
@@ -50,6 +50,24 @@
     <a name="bitcoin"><img src="img/bitcoin.png"></a>
   .panel-body
     %p= t :bitcoin_description
+
+    %p= t :recurring_donation
+
+    .donation
+      %b
+        Coinbase
+        =t :subscribe
+      %form(action="https://www.coinbase.com/checkouts/ac67a9014d25814aea2247e117cd0322" method="get" style="display: inline-block")
+        %input(type="submit" value="$5 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/67c30cfa5a0ab3c64493c3af93a49482" method="get" style="display: inline-block")
+        %input(type="submit" value="$10 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/88988e7908f6084533a17b72b6fa6ddd" method="get" style="display: inline-block")
+        %input(type="submit" value="$15 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/d86c8d027328c26ef8d816d471032e31" method="get" style="display: inline-block")
+        %input(type="submit" value="$20 #{t :monthly}")
+
+    %p= t :one_time_donation
+
     .donation
       %form(action="https://help.riseup.net/new-bitcoin-address" method="post")
         %b= t :bitcoin_grab_address
@@ -134,12 +152,12 @@
         %input(type="submit" value="#{t :donate}")
 
 .panel.panel-default
-  %h2.hidey= t :gittip
+  %h2.hidey= t :gratipay
   .panel-heading
-    <a name="gittip"><img src="img/gittip.png"></a>
+    <a name="gratipay"><img src="img/gratipay.png"></a>
   .panel-body
-    %p= t :gittip_description
+    %p= t :gratipay_description
     .donation
-      %form(action="https://www.gittip.com/riseup.net" method="get")
-        %b= t :gittip
+      %form(action="https://www.gratipay.com/riseup.net" method="get")
+        %b= t :gratipay
         %input(type="submit" value="#{t :donate}")

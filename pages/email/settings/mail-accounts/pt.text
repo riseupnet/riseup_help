@@ -1,0 +1,46 @@
+@title = "Contas de E-mail"
+
+h2. Como posso criar uma conta de e-mail?
+
+Existem dois modos:
+
+# "Solicite uma conta":https://user.riseup.net/, ou...
+# Obtenha códigos de convite de dois amigos.
+
+Por vezes é difícil lidar-mos com o volume de requisições de e-mail, então talvez leve algumas semanas para processar a sua requisição e responder-lhe. Se você conhece dois usuários riseup.net diferentes, você pode usar o método do convite, e sua conta de e-mail será criada e estará imediatamente pronta para uso. Você deve solicitar convites apenas à pessoas que você conheça pessoalmente.
+
+
+h2. Como posso trocar meu nome de usuário?
+
+# Faça login em https://user.riseup.net
+# Clique em *My Settings* (*Minhas Configurações*)
+# Troque seu nome de usuário
+# Clique em *Save* (*Salvar*).
+
+Existem algumas coisas importantes que devem ser consideradas antes de trocar o seu nome de usuário:
+
+* Seu catálogo de endereços (addressbooks) do roundcube e squirrelmail serão perdidos. Se você deseja manter seu catálogo de endereços para essas interfaces de e-mail web, então você deve fazer isto:
+
+# Exporte o catálogo de endereços para um arquivo pelo roundcube ou squirrelmail
+# Troque seu nome de usuário
+# Importe o arquivo de catálogo de endereços de volta pelo roundcube ou squirrelmail.
+
+* Após a troca do nome de usuário, você deve provavelmente adicionar o antigo nome como um alias (pseudônimo) para a sua conta. Desta forma, você não perderá nenhum e-mail. Se você está trocando seu nome de usuário para evitar spam, no entanto, pule este passo.
+* Uma vez que seu nome de usuário for trocado, use este novo nome para entrar em mail.riseup.net.
+
+h2. Como posso apagar minha conta?
+
+Apenas siga estes passos:
+
+# Entre em https://user.riseup.net
+# Clique no link *Close my email account* (*Fechar a minha conta de e-mail*).
+
+h2. Como posso mudar ou apagar o endereço da minha conta de e-mail alternativa?
+
+Nós preferimos não armazenar um endereço de e-mail alternativo para você. Porém, o e-mail alternativo é atualmente o único modo de redefinir sua senha caso seja esquecida.
+
+Para mudar isto:
+
+# Entre em https://user.riseup.net
+# Clique em *My Settings* (*Minhas Configurações*)
+# Você pode remover ou mudar o que estiver no campo 'Alternate Email' ('E-mail alternativo').

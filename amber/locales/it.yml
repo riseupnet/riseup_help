@@ -57,6 +57,6 @@ it:
   flattr_note: "Micropagamenti che si sommano."
   flattr_description: "Flattr è un sistema di micropagamenti che permette di supportare numerosi progetti."
 
-  gittip: "Gittip"
-  gittip_note: "Micropagamenti ricorrenti che si sommano."
-  gittip_description: "Gittip è un altro sistema di micropagamenti che permette di fare donazioni settimanali ai progetti che più ti piacciono."
+  gratipay: "Gratipay"
+  gratipay_note: "Micropagamenti ricorrenti che si sommano."
+  gratipay_description: "Gratipay è un altro sistema di micropagamenti che permette di fare donazioni settimanali ai progetti che più ti piacciono."

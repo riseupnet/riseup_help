@@ -1,0 +1,87 @@
+@title = "Mutt"
+
+h2. 什么是Mutt？
+
+"Mutt":http://www.mutt.org/ 是个小有多功能文体程序，并于Unix操作系统, MIME, OpenPGP，和threaded sorting mode的支持。
+
+h2. 安装Mutt
+
+* Debian/Ubuntu Linux: @sudo apt install mutt@
+
+h2. 设置Mutt
+
+编辑*~/.mutt/muttrc*. 选择**IMAP**或者**POP**. [[IMAP于POP的分别？ => email/clients]]
+
+h3. 个人资料
+
+添加以下行于*~/.mutt/muttrc*：
+
+<pre>
+# Account
+set realname  = 'Foo Bar'
+set from      = foo@riseup.net
+
+# Send
+set smtp_url  = smtps://$imap_user@mail.riseup.net/
+set smtp_pass = $imap_pass
+
+# Connection
+set ssl_force_tls = yes
+set ssl_starttls  = yes
+</pre>
+
+h3. 在@mutt@使用**IMAP**
+
+添加以下行于*~/.mutt/muttrc*：
+
+<pre>
+# Receive
+set imap_user = foo@riseup.net
+set imap_pass = 'password'
+set folder    = imaps://foo@mail.riseup.net/
+set imap_check_subscribed
+
+# Folder
+set spoolfile = +INBOX
+set postponed = +Drafts
+set record    = +Sent
+</pre>
+
+h3. 在@mutt@使用**POP**
+
+看看https://wiki.archlinux.org/index.php/Mutt#POP3了解更多详情。
+
+h3. 在@mutt@使用[[OpenPGP]]
+
+# [[设置OpenPGP => openpgp]]
+# 添加以下行于~/.mutt/muttrc后，以**sec**在<code>gpg -K</code>为<code>0xDBD0F842</code>
+
+<pre>
+set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
+set pgp_sign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --detach-sign --textmode %?a?-u %a? %f"
+set pgp_clearsign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --textmode --clearsign %?a?-u %a? %f"
+set pgp_encrypt_only_command="pgpewrap gpg --batch --quiet --no-verbose --output - --encrypt --textmode --armor --always-trust --encrypt-to 0xDBD0F842 -- -r %r -- %f"
+set pgp_encrypt_sign_command="pgpewrap gpg --passphrase-fd 0 --batch --quiet --no-verbose --textmode --output - --encrypt --sign %?a?-u %a? --armor --always-trust --encrypt-to 0xDBD0F842 -- -r %r -- %f"
+set pgp_import_command="gpg --no-verbose --import -v %f"
+set pgp_export_command="gpg --no-verbose --export --armor %r"
+set pgp_verify_key_command="gpg --no-verbose --batch --fingerprint --check-sigs %r"
+set pgp_list_pubring_command="gpg --no-verbose --batch --with-colons --list-keys %r"
+set pgp_list_secring_command="gpg --no-verbose --batch --with-colons --list-secret-keys %r"
+set pgp_autosign=yes
+set pgp_sign_as=0xDBD0F842
+set pgp_replyencrypt=yes
+set pgp_timeout=1800
+set pgp_good_sign="^gpg: Good signature from"
+</pre>
+
+h3. 在@mutt@使用[[Tor]]
+
+为增强安全性，使用我们的邮件服务通过[[Tor隐藏服务 => tor]]。
+
+# [[设置Tor => tor]]。
+# 取代@.onion@于@mail.riseup.net@在*~/.mutt/muttrc*
+# 加入@alias mutt="torify mutt 2>/dev/null"@在*~/.bashrc*或*~/.zshenv*. fish的用户，加入@alias mutt="torify mutt ^ /dev/null"@在*~/.config/fish/config.fish*
+
+享受使用@mutt@！参见https://wiki.archlinux.org/index.php/Mutt欲解更多信息.

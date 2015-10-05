@@ -18,19 +18,8 @@ h2.  How do I increase my quota?
 
 h2.  Where is my quota going?
 
-You can use squirrelmail to see the size of each of your folders. This is useful if you are unsure of where your quota is being used up.
+If you log into your riseup webmail account [mail.riseup.net], and click the 'settings' gear, a small menu will pop up, select 'manage folders'
 
-# go to https://mail.riseup.net and login to squirrelmail.
-# click on the button *Folder Sizes* on the left (under the list of folders).
-
-This method only counts mail in folders that you are subscribed to in Squirrelmail; you can confirm that you are subscribed to all folders in Squirrelmail by clicking 'Folders' at the top, and looking at the 'Unsubscribe/Subscribe' field. If there any folders that you are not subscribed to, they will show up in the right column, and you can select them and hit 'Subscribe' to subscribe to them.
-
-Space in folders is often taken up by a few messages with large attachments. Within a folder, you can sort by size, to see which are the largest messages.
-
-# in squirrelmail, open the folder you want to check
-# click on the box to the right of "Size"
-# this will display the largest messages first. You can then delete any large messages you no longer want.
-# you can click on the arrow to the right of "Size" to change whether it displays the largest first or last
-# when you are done, you likely want to click on the box to the right of "Date" to order by date
+from the manage folders window, you can select individual folders on your account, and under the 'information' section on the right hand size, is a link called 'click to get folder size' which will provide the folder size to you in human readable format.
 
 All messages in your folders count towards your quota, including messages in the [[special folders => email-folders]] Trash, Sent and Spam.

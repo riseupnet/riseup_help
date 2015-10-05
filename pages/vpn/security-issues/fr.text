@@ -1,0 +1,38 @@
+@title = 'VPN et sécurité'
+@summary = 'Quelques problèmes de sécurité quand vous utilisez un VPN'
+
+h2. VPN et anonymat
+
+Etes-vous anonyme avec le VPN Riseup ? La réponse dépend principalement des informations que vous avez associé avec votre login Riseup. Si vous êtes préoccupés par le fait d'être anonyme, nous vous suggérons de créer un compte VPN séparé, que vous utilisez seulement pour le VPN.
+
+Nous gardons très peu de logs et ne traquons aucune requête DNS ou trafic du VPN, mais nous gardons un enregistrement de quels utilisateurs ont utilisé le VPN à quel moment.
+
+h2. Attaques de type "Man-in-the-middle"
+
+Une attaque "Man-in-the-middle":http://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu (ou MiTM) est un type d'attaque où l'attaquant est capable d'écouter et/ou modifier votre trafic. Une telle attaque peut être utilisée pour casser votre anonymat, modifier du contenu, voler vos mots de passe ou vous filer des virus, trojans ou d'autres logiciels réalisés pour accéder à votre ordinateur.
+
+Chaque connection internet est vulnérable à une attaque de type MiTM, cela est dû au fonctionnement même d'internet. En utilisant le protocole utilisé par Internet, la plupart des trafics sont vulnérables à une attaque de type MiTM et ce d'où qu'elles viennent dans le monde. Cette vulnérabilité est connue depuis des années, [[des chercheurs ont encore prouvé de manière spectaculaire -> /assets/43591/defcon-16-pilosov-kapela.pdf]] qu'une telle attaque était possible à la conférence de hackers DEFCON en Août 2008.
+
+h3. Est-ce qu'un VPN aide contre les attaques MiTM ?
+
+Oui et non. Utiliser un VPN vous rendra protégé à plusieurs endroits où une attaque de type MiTM pourrait arriver, mais pas toutes. Plus spécifiquement, cela protégera votre trafic entre votre appareil et la passerelle VPN, empêchant votre FAIs (ou la plupart des gouvernements) d'effectuer une attaque de type MiTM ciblée contre vous.
+
+Cependant, dès que le trafic passe de la passerelle VPN à sa destination, il devient vulnérable à une attaque MiTM. Avec un VPN, votre trafic est à moitié anonymisé, donc il devient beaucoup, beaucoup plus difficiles de cibler une attaque vers une personne en particulier, mais une attaque non ciblée contre tout les utilisateurs d'un site web est toujours possible.
+
+Par exemple, en Janvier 2011 le gouvernement tunisien, craignant la population qui se révoltait et pouvait faire chuter le régime, a été capable de réaliser une attaque MiTM sur les utilisateurs Facebook qui se connectés depuis la Tunisie, en prenant leur login et leur mot de passe. Dans ce cas là, un VPN aurait permis d'être protégé tant que votre passerelle VPN était située en dehors de la Tunisie.
+
+h2. PPTP et LT2P
+
+PPTP et LT2P ont été désactivés à cause de "vulnérabilités":http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
+
+bq. Tant que le protocole PPTP a l'avantage d'être un client pré-installé pour des plateformes Windows, des analyses d'experts en cryptographie ont révélé des vulnérabilités de sécurité. (openvpn.net)
+
+"Bruce Schneier a analysé les faiblesses de PPTP":https://www.schneier.com/pptp.html pendant des années et le "ChapCrack":https://github.com/moxie0/chapcrack de Moxie Marlinspike est capable de "casser le chiffrement PPTP":http://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
+
+h2. Les défauts de WPA2
+
+En conjonction avec ChapCrack le service de test "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 peut "casser les réseaux sans fils encryptés":http://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/ "en moins d'une heure":http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/:
+
+bq. Les mots de passe WPA-PSK, NT et NTLM sont tous connus pour être vulnérables à des attaques par dictionnaires qui testent tout les placements possibles de mots qui composent un mot de passe. Mais, parce qu'ils utilisent des tables de hachages chiffrés pour masquer ces mots, la puissance pour mener une attaque par dictionnaire a été longtemps inaccessible pour la plupart des utilisateurs. Le service de Marlinspike est constitué d'une collection de 400 CPUs et 70 GPUs et distibue la tâche de craquage entre eux. (forbes)
+
+Les routeurs WPA2 avec l'option "Wi-Fi Protected Setup (WPS)":https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup activée permet à un attaquant distant de récupérer le code PIN WPS et grâce à ce code de trouver en quelques heures le mot de passe WPA2 du routeur":https://en.wikipedia.org/wiki/WPA2#WPA2_security_harmed_by_flaws_in_WPS .

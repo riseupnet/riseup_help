@@ -57,7 +57,7 @@ en:
   flattr_note: "Micropayments add up."
   flattr_description: "Flattr is a micropayment system that allows you to support multiple projects."
 
-  gittip: "Gittip"
-  gittip_note: "Reoccurring micropayments add up."
-  gittip_description: "Gittip is another micropayment system that allows you to give weekly to the projects you like."
+  gratipay: "Gratipay"
+  gratipay_note: "Recurring micropayments add up."
+  gratipay_description: "Gratipay is another micropayment system that allows you to give weekly to the projects you like."
 

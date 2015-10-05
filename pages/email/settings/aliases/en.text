@@ -6,11 +6,11 @@ If you would like all email that comes to your riseup email address to be automa
 
 h3.  How do I forward my email to another address?
 
-* Login at https://user.riseup.net
-* Click on "email"
-* Enter the address which you would like your riseup mail forwarded to in the field marked "Forward" towards the bottom of the page
-* Click on "Save Changes"
-* *note:* you may get a strange red exclamation mark at the top of the screen. this is a bug, but as long as your forwarding email address appears on the screen, your email is being forwarded.
+# Login at https://user.riseup.net
+# Click on "email"
+# Enter the address which you would like your riseup mail forwarded to in the field marked "Forward" towards the bottom of the page
+# Click on "Save Changes"
+# *note:* you may get a strange red exclamation mark at the top of the screen. This is a bug, but as long as your forwarding email address appears on the screen, your email is being forwarded.
 
 h2. What is an email alias?
 
