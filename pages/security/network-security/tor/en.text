@@ -1,5 +1,6 @@
 @title = 'Tor'
 @summary = 'The Onion Router'
+@nav_title = 'Tor'
 
 Welcome to the exciting world of Tor! This page will get you up and running, in the fewest steps possible. For now, all you need to know is that [[Tor->https://torproject.org]] is a great tool for anonymity and privacy online.
 
