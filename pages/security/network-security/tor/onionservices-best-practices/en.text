@@ -44,9 +44,15 @@ Although it is true that extra layers are good beware that usually redirecting t
 
 h2. Onion services can be found
 
-If you are not very careful and keep your server from revealing identifying information about you, your computer, or your location, then the onion service will no longer be hidden! A common misstep here is server signatures, for example it is easy to determine if a webserver is thttpd or Apache, or learn about your operating system because the banner tells the version of the running service and operating system.
+If you are not very careful and keep your server from revealing identifying information about you, your computer, or your location, then the onion service will no longer be hidden!
+
+A common misstep here is server signatures, for example it is easy to determine if a webserver is thttpd or Apache, or learn about your operating system because the banner tells the version of the running service and operating system.
+
+Another way that your onion address will get out is via the referrer header in browsers when a client browses a hidden service website and then clicks on a clearnet/hidden service link. The tor browser has [[taken care->https://trac.torproject.org/projects/tor/ticket/9623]] of many of these tiny leaks, so be sure to encourage your users to [[use an up-to-date tor browser->https://www.torproject.org/download/download-easy]] instead of using their own browser with tor.
 
 The longer an onion service is online, the higher the risk that its location is discovered. The most prominent attacks are building a profile of the onion service's availability and matching induced traffic patterns.
+
+There are [[currently ways in the protocol->https://blog.torproject.org/blog/hidden-services-need-some-love]] that a bad relay can learn about your onion address, even if you don't tell anybody. [[Follow the discussion->https://trac.torproject.org/projects/tor/ticket/8106]] on the subject if you want to stay on top of how the Tor project is working on fixing these issues.
 
 h3. Onion services don't need to be hidden!
 
