@@ -28,7 +28,7 @@ Although their stability has improved greatly, onion services can still fail for
 
 h3. Multiple ports for one onion service
 
-You dont need to create a different onion service for every service you want to make available, just add more HiddenServicePort lines, for example:
+You don't need to create a different onion service for every service you want to make available, just add more HiddenServicePort lines, for example:
 
 bc. HiddenServiceDir /usr/local/etc/tor/other_hidden_service/
 HiddenServicePort 6667 127.0.0.1:6667
@@ -36,7 +36,7 @@ HiddenServicePort 22 127.0.0.1:22
 
 If you want to run multiple onion services from the same Tor client, just add another HiddenServiceDir line to the config file.
 
-h3. Dont be tempted to generate a custom vanity onion address
+h3. Don't be tempted to generate a custom vanity onion address
 
 You can do it, but don't do it for things that matter. Vanity onion addresses are easier to spoof, and if you have to regenerate a lot of onion services (eg. if there was a vulnerability like heartbleed), it will take a lot longer to bring them online
 
