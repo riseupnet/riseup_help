@@ -56,7 +56,7 @@ Essas são extensões de navegação absolutamente essenciais que todo mundo dev
     !img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock -> https://chrismatic.io/ublock/]]*]  previne a maioria das redes de publicidade e rastreamento. É similar ao Adblock Plus e Disconnect mas funciona melhor e é mais rápido.
+    [*[[uBlock -> https://github.com/gorhill/uBlock]]*]  previne a maioria das redes de publicidade e rastreamento. É similar ao Adblock Plus e Disconnect mas funciona melhor e é mais rápido.
   </td>
 </tr>
 <tr>
