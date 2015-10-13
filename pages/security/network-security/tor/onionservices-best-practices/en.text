@@ -8,7 +8,7 @@ Tor Hidden Services are being renamed because "Hidden Service" didn't accurately
 
 h2. Installing and configuring Onion Services
 
-For information on configuring onion services, please [[read the Tor Project's guide->https://www.torproject.org/docs/tor-hidden-service.html.en]]
+For information on configuring onion services, please [[read the Tor Project's guide->https://www.torproject.org/docs/tor-hidden-service]]
 
 h3. Make sure your tor software is updated
 
