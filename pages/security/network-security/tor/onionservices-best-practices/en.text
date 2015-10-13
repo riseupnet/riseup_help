@@ -2,7 +2,7 @@
 
 h2. How to use this guide.
 
-Here you can find information about running Tor hidden (onion) services based on our experiences running them and helpful tips from people like you. If you have a helpful tip, please contribute it!
+Here you can find information about running Tor hidden (onion) services based on our experiences running them and helpful tips from people like you. If you have a helpful tip, or can translate this into another language, [[please contribute->https://github.com/riseupnet/riseup_help]]!
 
 Tor Hidden Services are being renamed because "Hidden Service" didn't accurately describe what was possibile, so the name is being broadened to be "Onion Services", in this guide we will use the new name. 
 
@@ -84,7 +84,9 @@ You should take very careful care to not accidentally expose things on your serv
 
 There are a few ways you can solve this problem:
 
-*different machine*: consider running the onion service on a different machine than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
+*different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
+
+*isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
 
 *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
