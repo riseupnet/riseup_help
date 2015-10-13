@@ -93,17 +93,14 @@ Algumas dessas falhas de privacidade incluem:
 Para Firefox:
 
 * [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] irá limpar os cookies de uma página quando todas as abas daquele site forem fechadas (ao invés de ter que reiniciar seu navegador).
-* [[NoScript => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] permite que você bloqueia seletivamente JavaScript e Java. 
-* [[RequestPolicy => https://www.requestpolicy.com/]] permite que você previna uma página de carregar conteúdos de terceiros. 
-* [[RefControl => https://addons.mozilla.org/en-US/firefox/addon/refcontrol/]] irá retirar o cabeçalho de HTTP referrer.
-* [[Random Agent Spoof => https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/]] altera seu string de User-Agent aleatoriamente. 
+* [[µMatrix => https://addons.mozilla.org/pt-BR/firefox/addon/umatrix/]] é uma ferramenta avançada para controlar precisamente qual conteúdo seu navegador pode carregar. Ele permite que você bloqueie seletivamente JavaScript e muitas outras coisas. Ele inclui as funcionalidades de NoScript e RequestPolicy.
 * [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] permitirá que você desabilite HTML5 Canvas para sites. 
+
 Para Chrome:
 
 * [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] é uma ferramenta avançada para controlar precisamente qual conteúdo seu navegador pode carregar. Ele permite que você bloqueie seletivamente JavaScript e muitas outras coisas. Ele inclui as funcionalidades de NoScript e RequestPolicy.
-* [[NOREF => https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip]] irá retirar o cabeçalho de HTTP referrer.
 * [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] permite que você modifique o HTTP User-Agent.
-* [[Random User-Agent => https://github.com/tarampampam/random-user-agent]] altera seu string de User-Agent aleatoriamente.
+
 
 h3. Perigoso ou não recomendável
 
