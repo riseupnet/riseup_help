@@ -5,20 +5,24 @@
 
 h2. 电子邮箱服务 <small>https://mail.riseup.net</small>
 
-我们提供安全和私密的电子邮件账户，支持网页访问、IMAP和POP协议。[[更多帮助 => email]]。 "登陆网页邮箱":https://mail.riseup.net. "申请账户":https://user.riseup.net/forms/new_user. "密码找回":https://user.riseup.net/forms/password_reset/first. "修改设置":https://user.riseup.net.
+我们提供安全、私密的电子邮件账户，支持Web访问、IMAP和POP协议。获取[[更多帮助 => email]]。
+"登陆网页邮箱":https://mail.riseup.net. "申请账户":https://user.riseup.net/forms/new_user. "密码找回":https://user.riseup.net/forms/password_reset/first. "修改设置":https://user.riseup.net.
 
-h2. 电子邮件列表 <small>https://lists.riseup.net</small>
+h2. 电子邮箱列表 <small>https://lists.riseup.net</small>
 
-我们维护着一个电子邮件列表，包括了许多活跃组织的电子邮件地址。[[更多帮助 => lists]]. "登陆":https://lists.riseup.net/www/. [[请求列表 => creating-lists]]. [[提交地址 => subscribing]]. [[删除地址 => subscribing]].
+我们维护着一个电子邮箱地址列表，包括了许多活跃组织的电子邮件地址。获取[[更多帮助 => lists]]。
+"查看":https://lists.riseup.net/www/. [[请求一个列表 => creating-lists]]. [[提交邮箱地址 => subscribing]]. [[删除邮箱地址 => subscribing]].
 
-h2. 新服务
+h2. 测试中的新服务
 
-我们正在测试[*[[VPN => vpn]]*]（虚拟专用网络），[*[[聊天工具 => chat]]*]，以及[*"以太白板（etherpad）":https://pad.riseup.net*]服务。请注意，这些服务仍然在开发中，暂时可能还不太可靠。但我们非常欢迎您来帮助我们测试这些产品，以改进用户体验。
-h2. 资源
+我们正在测试[*[[VPN => vpn]]*]（虚拟专用网络）、[*[[聊天工具 => chat]]*]以及[*"以太白板（etherpad）":https://pad.riseup.net*]服务。
+请注意，这些服务仍然在开发中，暂时可能还不太可靠。但我们非常欢迎您来帮助我们测试这些产品，以改进用户体验。
+
+h2. 更多资源
 
 *[[安全 => security]]*
 更多有关安全通讯的在线资源和教程。
 
 *"咨询台":https://user.riseup.net/forms*
-想问我们什么问题吗？在咨询台创建一个新的帖子即可。
-不过，在那提问之前，不妨先搜索一下过去的咨询和在线文档，也许您的问题已经被解答过了。
+想询问我们什么问题吗？在咨询台创建一个新的帖子即可。
+不过，在那提问之前，不妨先搜索并浏览一下过去的咨询和在线文档，也许您的问题已经被解答过了。
