@@ -10,25 +10,26 @@ lists.riseup.net: xpgylzydxykgdqyg.onion (port 80, 443)
 mail.riseup.net:  zsolxunfmbfuq7wf.onion (ports 443, 465, 587)
 pad.riseup.net:   5jp7xtmox6jyoqd5.onion (port 443) (note: only works with https://5jp7xtmox6jyoqd5.onion)
 pop.riseup.net:   zsolxunfmbfuq7wf.onion (port 995)
+share.riseup.net: 6zc6sejeho3fwrd4.onion (port 80, 443)
 smtp.riseup.net:  zsolxunfmbfuq7wf.onion (ports 465, 587)
 user.riseup.net:  j6uhdvbhz74oefxf.onion (port 80, 443)
 we.riseup.net:    7lvd7fa5yfbdqaii.onion (port 443)
 xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 5222, 5269)
 -----BEGIN PGP SIGNATURE-----
 
-iQJ8BAEBCgBmBQJUtwKMXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+iQJ8BAEBCgBmBQJWVdX8XxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
 ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaO7akP/i/rj7gmjnsNrETy4C2AIY7+
-QVazc4GFbUldMkZMGIMMBkxIOhw04MzLhmJZTLpeLfCW0Y6UQEvBe1BlxTQZio4K
-Kd9xQWm0yO+UNueBUnUNuHTMDOeGJLjEdAUgGcMXW51f6j7OKTCGQWrXLqmgcbrX
-+MOCMC4Hx8vxDj2mIVDKGjCruq+yC0qx6SCosFwiXGjdJLGK0MGb2zyTlR2CIDbu
-OFT8C2JpMShidtAIR0VPKJ6gjyro8uTkHaVS+LkdgVoLa0eInSoaGrA6fiSbkjOi
-QZ+zDa9zWYMACKIZCmiqGwoejeFQT06+etbAxuELfJ0+UMgWtmP25DlpKgJ74BkW
-quondvAmLcG61VHni3kesaYJvJk2qJZznqDyRsYqxtopzC4AlQEooTzW2q54myLR
-AYzvWS3PbNzCh3pZyXFZHo3D2BR48Y5KDUMhptCGnFHtyqlt/kO5lAkAW5YDI2dc
-F04YoQKQyy2A+OLlS86oEZ8+j+HfuYG59OUc2nSLld3CsCxX5dgPmX1fPv+GmSBx
-pWuAw9n1FODiO5nKkMvULToF1DTVzKHMai67ZQphD/1TLCgJBE3VxInC4MUr73/x
-hkDSuTsk41I8RgheD7d8YJejfJWV5oqsHvBKWJBoSOiX0JAl4JALHalFaLXzFlOE
-SAmpVD/Z7t3HW8V7a8Kl
-=8eIj
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaOv9kP/2VT6mTx3It5Ag1/stz7SArg
+HIeYukwAMzELsh4+jUXl3VrrPyptmlIE3jc3XkwyvwEw7licYhguNm/IcQVTEeOq
+EFVESscQ6pmsD0Zqz0aDUM57OejEXyaQomAWRqSJyp4NMXwwHNgRbI/SaOMijDWT
+lZvN0syRESKzTWDtNZK/g27QGUQq3MIstwPnBNHgCVDQIVMz3SXyRXT5KI3pm0vF
+H86sx/kaWSqWMcZB66RBxMvKiAXXFeaVofeflTnjGqi45c+vBe8boZnyE2TCwvJf
+NkjtajKL4ta1h1vrsJ1aXoapSJxuvt+8wxv4w9vLJy0r4pcoxaMAOpJspTynbXqa
+Syk1z9v955U7Qj6TdTDTjYeXiQFqXCej56HE274o4APg8mYivtWMk34CH9hC1TMO
+5fovPwOKaX7TEdtu0BsttZ6BGe9R4sq6u+hnnQ7NUsmnHQ83cP5pzbDGBVJAY/4K
+sIkly+HHIfL5Iu255T3X8+ztkCMW43qQ9krhYg11g3ZmZMNYDOp0s2p/0vRPgpJU
+kvqBCc/yAWcbth1plk4Dta5OHgiRf9FB4nNhZchFJ4Ght83V8jpKVzFYe77EPbxn
+gR91YGpptH2xOwiQK7ruG27cXi41RmyhljvAHZ8xKxCMiAQqLqGwvGYgjJiOu1E9
+rmXYZ1CxsrNvwKyAaUK+
+=ZMk3
 -----END PGP SIGNATURE-----
