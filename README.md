@@ -1,7 +1,7 @@
 Riseup Help Pages
 ==================================
 
-This is the repository for the riseup help pages at http://help.riseup.net.
+This is the repository for the riseup help pages at https://help.riseup.net.
 
 It is entirely static, but relies on a bunch of apache tricks for things like
 language negotiation. Riseup help uses a static website generator called `amber`
