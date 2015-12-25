@@ -2,11 +2,11 @@
 
 h1. ¿Por qué la privacidad importa?
 
-La creciente importancia de la información y la comunicación han traído consigo otro problema: el ascenso de una *sociedad vigilada*. Tú podrías pensar que la vigilancia proviene solo de los poderosos para [_mantener su dominio, afirmando su control sobre las comunicaciones_].
+La creciente importancia de la información y la comunicación han traído consigo otro problema: el ascenso de una *sociedad vigilada*. Tú podrías pensar que la vigilancia es un intento de los poderosos para [_mantener su dominio, afirmando su control sobre las comunicaciones_].
 
-Los *estados naciones* han respondido con nuevas tecnologías, buscando una infraestructura que puede ser fácilmente repropuesta a favor de un total control social. A diferencia de antiguas formas de comunicación, la naturaleza de la tecnología actual requiere que nuestra información también sea segura en dirección a frustrar gobiernos; o bien, ser totalmente insegura en una dirección, haciendo posible la difusión de un detallado monitoreo de la población entera.
+Los *estados naciones* han respondido con nuevas tecnologías, buscando una infraestructura que puede ser fácilmente usada para un total control social. A diferencia de antiguas formas de comunicación, la naturaleza de la tecnología actual requiere que nuestra información sea segura y frustrar gobiernos; o bien, ser totalmente insegura de la manera que hace posible el monitoreso masivo y detallado de la población entera.
 
-Por otra parte, las *corporaciones* han descubierto que la recopilación y análisis masivo de grandes cantidades de información es necesaria si quieren permanecer competitivos en un mundo rico en información. En particular, cerca de todos los negocios publicitarios se están volcando a un sistema basado en la vigilancia y rastreo de nuestra conducta.
+Por otra parte, las *corporaciones* han descubierto que la recopilación y análisis masivo de grandes cantidades de información es necesaria si quieren permanecer competitivos en un mundo rico en información. En particular, casi todos los negocios publicitarios se están volcando a un sistema basado en la vigilancia y rastreo de nuestra conducta.
 
 En este contexto, las comunicaciones seguras se convierten en algo vitalmente importante.
 
@@ -14,7 +14,7 @@ En este contexto, las comunicaciones seguras se convierten en algo vitalmente im
 * Incluso indirectamente, la exuberante vigilancia tiene un efecto amedrentador en los movimientos sociales.
 * La vigilancia corporativa es tan grave como la vigilancia estatal. No solo la gran cantidad de datos obtenidos de usuarios de internet puede predisponerlos a la vigilancia estatal, sino que las corporaciones ahora están a punto de obtener un poder sin precedentes sobre sus consumidores.
 
-Cuando la gente empieza a aprender sobre el incremento de la vigilancia, comienzan a sentirse abrumados. Algunos deciden, por lo tanto, que es imposible estar seguros, así que se resignan a vivir bajo perpetua vigilancia o a abandonar cualquier forma de comunicación digital. Pero nosotros, en Riseup, creemos que hay una tercera salida: nuestro objetivo es alcanzar un alto grado de seguridad, que sea fácil y accesible para cualquiera.
+Cuando la gente empieza a aprender sobre el incremento de la vigilancia, comienzan a sentirse abrumados. Algunos deciden, por lo tanto, que es imposible estar seguros, así que se resignan a vivir bajo perpetua vigilancia y abandonan cualquier forma de comunicación digital. Pero nosotros, en Riseup, creemos que hay una tercera salida: nuestro objetivo es alcanzar un alto grado de seguridad, que sea fácil y accesible para cualquiera.
 
 Gran parte de la pelea contra la vigilancia toma lugar a través del sistema legal, y aplaudimos a aquellos que trabajan en esa área. Pero en contraste, el foco de Riseup es la tecnología. Cuando todas las leyes son injustas, creemos que una nueva realidad tecnológica es necesaria, en orden de alterar las posibilidades legales y políticas.
 
@@ -27,32 +27,31 @@ h1. Descripción de seguridad.
   <th>¿Cuándo es útil?</th>
 </tr>
 <tr>
-  <td>[[seguridad para humanos => human-security]]</td>
+  <td>[[Seguridad para Humanos => human-security]]</td>
   <td>Simples cambios que puedes hacer a tu *conducta*.</td>
-  <td>Ayuda a prevenir cualquier error humano al ser el *enlace débil* en cualquier sistema de seguridad.</td>
+  <td>Ayuda a prevenir cualquier error humano de ser el *enlace débil* en cualquier sistema de seguridad.</td>
 </tr>
 <tr>
-  <td>[[seguridad para dispositivos => device-security]]</td>
+  <td>[[Seguridad para Dispositivos => device-security]]</td>
   <td>Pasos para hacer tu *computador o teléfono* menos vulnerable a ser atacado.</td>
   <td>Útil cuando tu dispositivo podría caer *físicamente* en manos de un atacante.</td>
 </tr>
 <tr>
-  <td>[[mensajería segura => message-security]]</td>
+  <td>[[Mensajería Segura => message-security]]</td>
   <td>Maneras de encriptar *mensajes individuales* cuando envías o recibes.</td>
   <td>Asegurar la *confidencialidad* de un mensaje en particular cuando este es transmitido y almacenado.</td>
 </tr>
 <tr>
-  <td>[[seguridad en la red => network-security]]</td>
+  <td>[[Seguridad en la Red => network-security]]</td>
   <td>Bloqueando sitios que te rastrean y encriptando tu *tráfico en internet.</td>
-  <td>Protección contra el rastreo conductual, hijacking de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
+  <td>Protección contra el rastreo conductual, secuestro de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
 </tr>
 </table>
 
 
-Riseup provee principalmente servicios, más que direcciones [[seguridad en la red => network-security]]:
+Riseup provee principalmente servicios dirigidos a la [[seguridad en la red => network-security]]:
 
-* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento.
-* En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
-* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en mensajería o dispositivos.
+* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento. En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
+* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en dispositivos o mensajería.
 
 Habiendo dicho esto, es importante que las personas que son objetivo de la represión empleen la seguridad en dispositivos y mensajería. Aunque les podría tomar un poco de tiempo, estas páginas les ayudarán en el viaje.
