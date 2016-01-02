@@ -71,9 +71,10 @@ However, you still should see the "Good signature".
 
 h3. calculate the fingerprint of RiseupCA.pem
 
-Open a terminal and use @sha1sum@:
+Open a terminal and use either @certtool@, or @openssl@ to get the correct fingerprints:
 
-<code>$ sha1sum RiseupCA.pem</code>
+<code>$ certtool -i < RiseupCA.pem |egrep -A 1 '(SHA1|SHA256) fingerprint'</code>
+<code>$ openssl x509 -sha256 -in RiseupCA.pem -noout -fingerprint</code>
 
 h3. compare the fingerprints
 
