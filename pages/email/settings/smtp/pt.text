@@ -1,0 +1,64 @@
+@title = 'Enviando e-mails'
+
+Para enviar e-mails, você precisa verificar suas configurações de SMTP.
+
+h2. O que é SMTP?
+
+SMTP significa Simple Mail Transfer Protocol - em português, Protocolo Simples de Transferência de Correio. Ele define como servidores de correio eletrônico devem se comunicar para entregar e-mails. Para enviar um e-mail pela Internet, é necessário um servidor SMTP. Se você está usando webmail, não precisa se preocupar com isso, pois tudo será configurado automaticamente por você. Se você está usando um cliente de e-mail, deve informar qual servidor SMTP será usado para envio de correio eletrônico.
+
+h2. Por que usar o servidor de envio de correio eletrônico de Riseup.net?
+
+Há muitas boas razões para usar nossos servidores SMTP:
+
+* O protocolo SMTP de Riseup.net transfere dados por uma conexão criptografada. A maioria dos outros serviços SMTP é insegura, uma vez que as mensagens são enviadas em texto inteligível.
+* Não incluímos seu endereço IP no cabeçalho dos e-mails que você envia. Conhecemos apenas dois outros provedores que fazem o mesmo.
+* Alguns ISPs (Servidores de Serviços de Internet) não permitem o envio de mensagens a partir de um remetente de outro domínio. Por exemplo, não é possível usar o SMTP da AOL com um endereço de e-mail que não seja aol.com.
+* Alguns ISPs limitam muito quantos e-mails você pode mandar.
+* O serviço SMTP oferecido por Riseup.net é portátil: não depende da rede à qual você se conecta. Você pode usá-lo enquanto leva seu computador para todo lugar.
+
+h2. Como configurar o protocolo SMTP?
+
+O serviço de correio eletrônico de saída de Riseup.net requer autenticação e uma conexão segura (SSL ou TLS) para garantir a segurança de quem usa e evitar o spam. Para usar riseup.net como seu servidor SMTP, use as seguintes configurações:
+
+* *Servidor de saída de correio eletrônico*: @mail.riseup.net@
+* *Login ou Nome de Usuário*: seu login em riseup.net.
+Por exemplo, se o seu endereço de e-mail for joao_neves@riseup.net, seu login será @joao_neves@. Essa configuração é *obrigatória*. Se o seu cliente de e-mail não der suporte à autenticação do SMTP, você não poderá usar Riseup.net como seu SMTP.
+* *Use uma conexão segura*: Sempre.
+Isso é *obrigatório*. Se o seu cliente de e-mail não der suporte a SMTP seguro, you você não poderá usar Riseup.net como SMTP. Pode haver a opção de escolher entre *TLS* e *SSL* para a conexão segura. Ambos os protocolos funcionam, mas a maioria dos ISPs bloqueia a porta 25 (usada pela TLS), por isso recomendamos o SSL.
+* *Porta*: Para *TLS*, a porta deve ser @465@. Para *StartTLS*, @587@. Se uma porta estiver bloqueada, tente a outra.
+
+Para saber como configurar SMTP em alguns clientes de e-mail, veja a página de [[clientes de e-mail => email/clients]].
+
+h2. Quantas mensagens posso enviar?
+
+Se você quiser enviar milhares de mensagens com SMTP, precisa nos pedir antes para conseguir. Envie um e-mail para mail-help@riseup.net.
+
+h2. O que significa "Relay Access Denied"?
+
+A mensagem de erro "Relay Access Denied" poderá ser ser exibida em um dos seguintes casos:
+
+# Você não especificou mail.riseup.net como servidor de saída de correio eletrônico.
+# Você informou o nome de usuário errado.
+# Seu cliente não está configurado para autenticar os e-mails de saída. Isso é obrigatório.
+# Seu cliente não está configurado para usar uma conexão segura (TLS ou SSL). Isso é obrigatório.
+# Você habilitou senhas seguras. Elas não são mais seguras que as senhas normais e são incompatíveis com riseup.net.
+# Nossa base de dados de usuário está offline. Isso raramente acontece, e a base geralmente volta a ficar on-line em pouco tempo.
+
+O texto completo da mensagem de erro deve ser mais ou menos assim:
+
+<pre>A mensagem não pôde ser enviada porque um dos destinatários foi recusado pelo servidor. O endereço de e-mail recusado é "joao_neves@revolt.org".</pre>
+
+<pre>Assunto 'teste', Conta: 'minhaconta@riseup.net', Servidor: 'mail.riseup.net', Protocolo: SMTP, Resposta do Servidor: '554 joao_neves@revolt.org: Relay access denied', Porta: 25, Segurança(SSL): Sim, Erro do Servidor: 554, Número do Erro: 0x800CCC79</pre>
+
+h2. Por que só consigo enviar e-mails para outros usuários de riseup.net?
+
+Esse problema surge quando seu cliente de e-mail não está configurado para autenticar os e-mails de saída.
+
+h2. Por que meu ISP está bloqueando minhas mensagens enviadas?
+
+Há duas portas que você pode usar com SMTP:
+
+* Porta 465 (TLS)
+* Porta 587 (StartTLS)
+
+Se uma porta estiver bloqueada, tente a outra.
