@@ -24,7 +24,7 @@ h2. Verify the Riseup CA certificate (optional)
 
 This verification process is not required in order to use the Riseup CA certificate. However, without verification, you cannot be certain you have downloaded the correct certificate, and you cannot be certain that your connections are secure.
 
-Be warned: this verification process is difficult, requires an understanding of OpenPGP, and ultimately depends on knowing someone who has trusted riseup.net's public OpenPGP key.
+Be warned: this verification process is difficult, requires an understanding of OpenPGP, and ultimately depends on trusting someone you already know who has certified riseup.net's public OpenPGP key.
 
 In brief, the steps are:
 
@@ -42,7 +42,7 @@ On the command line:
 $ gpg --keyserver keys.riseup.net --recv-key 139A768E
 </code>
 
-There is no particular reason that you should trust this key. You can see who has trusted it:
+There is no particular reason that you should trust this key. You can see who has certified it:
 
 <code>
 $ gpg --list-sigs 139A768E
