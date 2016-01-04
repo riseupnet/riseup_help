@@ -54,7 +54,6 @@ Now that you have imported Riseup's public key, you can verify the certificate i
 
 # "Download this cryptographically signed file containing the SHA1 Sum of the RiseupCA.pem":riseupCA-signed-sha1.txt
 # Then run this command in a terminal: @gpg --verify riseupCA-signed-sha1.txt@
-# Type control-d
 # You should get output that says:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 
