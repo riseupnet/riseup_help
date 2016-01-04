@@ -1,0 +1,73 @@
+@title = 'Thunderbird'
+
+h2. O que é Thunderbird?
+
+!>img/reclaimyourinbox.png!
+
+O Thunderbird é o cliente de e-mail recomendado por Riseup.net. É software livre, isto é, garante a quem o usa a liberdade de executá-lo, copiá-lo, distribui-lo, estudá-lo, mudá-lo e melhorá-lo. Isso significa que, diferente do Microsoft Outlook, não é uma ferramenta para dominação mundial. O Thunderbird está disponível para Linux, Windows e Mac OS X e pode ser baixado "deste site":https://www.mozilla.org/pt-BR/thunderbird/.
+
+Alguns dos muitos recursos do Thunderbird são: suporte a IMAP e POP, gerenciamento de várias contas (de e-mail, RSS, newsgroups etc.), pesquisa rápida, verificação de ortografia ao digitar, controle avançado de spam, visualização de pastas virtuais (como Lixeira, Enviadas), filtragem de mensagens, catálogo de endereços e suporte a criptografia OpenPGP.
+
+h2. Configurando o Thunderbird
+
+h3.  Configurando sua conta
+
+Na primeira vez que você usar o Thunderbird, um assistente de configuração de conta deve ser lançado. Senão, inicie-o manualmente:
+
+h3. Primeiro passo
+
+Vá para *Arquivo > Novo > Configurar conta de e-mail...*
+
+!img/pt-editar-conf-conta.png!
+
+Insira seu nome, endereço de e-mail e senha como no exemplo abaixo.
+
+!img/pt-conta-email-conf1.png!
+
+Clique em *Continuar*.
+
+h3. Segundo passo
+
+O Thunderbird obterá as configurações dos servidores Riseup.
+
+!img/pt-conta-email-conf2.png!
+
+IMAP e POP3 são protocolos de recebimento de mensagens. [[Nesta página => pt/email/clients#escolha-imap-ou-pop]], explicamos a diferença. Depois de escolher qual deles quer usar, clique em *Concluir*.
+
+h3. Terceiro passo
+
+Se não deu certo, provavelmente é porque você inseriu o nome de usuário ou a senha errados. Tente novamente! Caso contrário...
+
+h3. Você conseguiu!
+
+Seu cliente de e-mail deve começar a verificar suas mensagens sem demora. Divirta-se usando o Thunderbird!
+
+h2. Falta alguma coisa?
+
+h3. Reforce sua segurança
+
+# O ideal é *não* usar StartTLS, e sim TLS. Você pode mudar seu tipo de conexão de StartTLS para SSL/TLS nas suas *Configurações de conta*, na guia *Servidor*.
+# Mesmo uma conexão segura tem muitas vulnerabilidades. Se segurança é uma preocupação para você, use sempre a [[VPN Riseup => vpn]] ao conectar-se aos nossos serviços para se proteger de uma longa lista de ataques, que podem pôr em risco a sua comunicação.
+# Para [[criptografar suas mensagens => message-security]], considere [[usar a extensão Enigmail no Thunderbird => /security/message-security/encrypted-email/enigmail]]. Ela permite criptografar seus e-mails com o padrão [[OpenPGP => /security/gpg-keys]].
+
+h3. Adicione extensões
+
+Sugerimos estas extensões para o Thunderbird:
+
+* "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: Ela mostra o status atual da sua cota IMAP na barra de status do Thunderbird, além de avisar quando o limite (configurável) for atingido.
+* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: Em pouco tempo, é possível começar a criptografar, descriptografar e verificar a assinatura dos seus e-mails. Este terceiro recurso é útil para certificar que os remetentes das mensagens que você recebe são de fato quem dizem ser.
+
+h3. Torne o Thunderbird mais rápido
+
+Por padrão, o Thunderbird se comunica com o servidor Riseup sempre que você abre um e-mail ou muda seu status. Em uma conexão lenta ou com o servidor ocupado, essa transação pode levar muito tempo.
+
+Felizmente, você pode mudar isso! Algumas configurações ocultas do Thunderbird podem fazê-lo sincronizar-se completamente com o servidor sempre que se conectra a ele. Assim, sua experiência pode ser muito mais fluida e agradável.
+
+No menu *Editar*, selecione *Preferências*. Na guia *Avançado*, clique no botão *Editor de config...*
+
+* Altere o valor da variável _mail.imap.use_status_for_biff_ para *false*.
+* Altere o valor da variável _mail.server.default.autosync_offline_stores_ para *true*.
+
+h3. Considere apagar automaticamente e-mails antigos
+
+Você já se perguntou se precisa realmente guardar todos aqueles e-mails? O Thunderbird pode excluir automaticamente os e-mails mais antigos. Navegue para *Editar > Configurações de conta > Pastas Locais > Espaço em disco*. Você pode escolher manter um número X de mensagens mais recentes ou descartar as recebidas há mais de Y dias, além de salvar as marcadas como favoritas.

@@ -1,0 +1,48 @@
+@title = 'Filtros de E-mail'
+
+h2. Como editar meus filtros de e-mail?
+
+# Primeiro, certifique-se de que as pastas que você quer filtrar já existem. Você pode criar uma nova pasta no seu cliente de e-mail ou no webmail.
+# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Clique em *Email* (à esquerda).
+# Selecione a aba *Filtros de correio*.
+# Nesta tela, você pode mudar a ordem dos seus filtros de e-mail, editar ou remover filtros existentes e adicionar novos filtros. Clique em um filtro para editá-lo e adicionar, remover e editar suas condições.
+
+h2. Como criar um filtro para uma pasta aninhada?
+
+# Siga as instruções acima para criar ou editar um filtro.
+# Coloque o caractere "." entre a pasta-mãe e a pasta-filha (ex. a pasta /riseup/Lists ficaria "riseup.Lists"). Lembre-se que, nos nomes de pastas, distinguem-se maiúsculas e minúsculas.
+# Salve seu filtro.
+
+h2. Como bloquear um endereço de e-mail?
+
+Se você estiver recebendo e-mails abusivos ou spam e quiser que as mensagens de um endereço de e-mail em particular sejam automaticamente deletadas, faça o seguinte:
+
+# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Clique em *Email* (à esquerda).
+# Selecione a aba *Filtros de correio*.
+# Clique em *Adicionar filtro*
+# Dê o nome que quiser ao filtro. Pode ser, por exemplo, "Mover para a lixeira"
+# Em *messages matching*, selecione *De* e *Contém* e digite o e-mail. Por exemplo, "george_bush@whitehouse.gov".
+# No campo *Will be placed in folder*, digite "Trash" (*a caixa importa* - não escreva "trash" ou "TRASH", pois não funcionará).
+# Clique em *Salvar*
+
+Pronto! Todos os e-mails recebidos desse endereço serão automaticamente movidos para a Lixeira.
+
+Obs: Se você quiser adicionar mais endereços de e-mail a esse filtro, clique em *adicionar condição* e refaça os passos 6, 7 e 8 acima - não é preciso criar um novo filtro.
+
+h2. Como evitar que um e-mail legítimo seja filtrado como spam?
+
+Se as mensagens de um endereço de e-mail não são spam, mas são sempre movidas automaticamente para essa pasta, siga as instruções abaixo para impedir que isso aconteça no futuro. 
+
+# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Clique em <b>Email</b> (à esquerda).
+# Selecione a aba <b>Configurações de Spam</b>.
+# Habilite as configurações de spam se ainda não o fez, clicando em <b>Enable Custom Spam Settings</b>.
+# Role para baixo até a <b>Lista de contatos permitidos</b>. Adicione o endereço de e-mail que o seu filtro de spam deve ignorar e clique em <b>Salvar alterações</b>.
+
+h2. Posso criar uma resposta automática?
+
+Não, Riseup não dá suporte a respostas automáticas. Principalmente porque, se habilitada, a resposta automática é enviada também para e-mails de spam. Responder a spam torna você um alvo mais certo, e portanto mais visado, para quem o envia.
+
+Respostas automáticas também são incômodas. Elas podem, por exemplo, acabar sendo enviadas para toda uma lista de e-mails da qual você faz parte. Os e-mails de Riseup já são bloqueados como spam por alguns provedores, e ter respostas automáticas só pioraria esse problema.

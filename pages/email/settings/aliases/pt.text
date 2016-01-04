@@ -1,0 +1,33 @@
+@title = 'Atalhos e Redirecionamento'
+
+h2. O que é redirecionamento de e-mails?
+
+Se você quiser, as mensagens que chegam ao seu endereço de e-mail Riseup podem ser redirecionadas, isto é, encaminhadas automaticamente para outro endereço.
+
+h3.  Como redirecionar meus e-mails para outro endereço?
+
+# Faça login em https://user.riseup.net
+# Clique em "Email"
+# Insira o endereço de e-mail para o qual suas mensagens serão redirecionadas no campo "Redirecionar"
+# Clique em "Salvar alterações"
+# *Lembrete:* Pode ser que apareça um ponto de exclamação vermelho no topo da página. Isso é um bug. Porém se o endereço especificado continuar a aparecer na tela, isso significa que seus e-mails já estão sendo redirecionados.
+
+h2. O que é um atalho de e-mail?
+
+Um atalho é um outro endereço de e-mail para a caixa de entrada da sua conta. Por exemplo, você pode já ter a conta joao_neves@riseup.net, mas querer cadastrar uma nova - maydaychicago@riseup.net - para servir de e-mail de contato de um evento que está organizando. As mensagens enviadas para o atalho serão entregues na sua caixa de entrada.
+
+h3. Use atalhos para evitar spam
+
+Se você precisar de um e-mail para se cadastrar em um site qualquer, você pode criar um atalho e usá-lo em vez do seu endereço normal. Assim, se o site começar a enviar spam, você saberá e poderá, se quiser, destruir o atalho sem afetar seu endereço de e-mail principal. Bem esperto!
+
+h3. Como criar um atalho?
+
+Você pode criar um atalho seguindo as instruções abaixo
+
+# Faça login em https://user.riseup.net
+# Clique em "Email"
+# Digite "NOMEDOATALHO@riseup.net" na caixa rotulada "Atalhos"
+# Clique em "Salvar alterações"
+
+Lembrete: Se o endereço que você quer já estiver em uso, ele não poderá ser seu atalho. Tente um nome diferente!
+Lembrete: Se o seu objetivo for criar uma identidade alternativa para esconder seu verdadeiro endereço de e-mail, fazendo parecer que o atalho é o remetente, atenção: ele ainda poderá ser localizado facilmente no cabeçalho da mensagem.

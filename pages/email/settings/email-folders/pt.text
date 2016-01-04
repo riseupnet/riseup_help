@@ -1,0 +1,48 @@
+@title = 'Pastas de e-mail'
+
+Se você usa webmail ou IMAP, sua conta de e-mail mostra algumas pastas "especiais". Elas não aparecem para quem usa POP, que não acessa pastas armazenadas no servidor.
+
+h2. Lixeira
+
+Todas as mensagens que ficam na Lixeira por mais de 21 dias são apagadas automaticamente. A maioria dos clientes de e-mail move para a Lixeira quaisquer mensagens que são apagadas de outra pasta.
+
+h2. Enviadas
+
+Todas as mensagens enviadas há mais de 120 dias, localizadas na pasta *Enviadas*, são apagadas automaticamente. Se você quiser mantê-las por mais tempo, pode copiá-las para outra pasta de tempos em tempos.
+
+Com Squirrelmail:
+
+* Selecione a pasta "Enviadas".
+* Clique em "Mostrar tudo"
+* Clique em "Marcar tudo"
+* Selecione uma pasta de destino e clique em "Mover".
+
+Com Thunderbird:
+* Selecione a pasta "Enviadas".
+* Vá para Editar > Selecionar > Todas
+* Vá para Mensagem > "Mover para" e selecione a pasta de destino.
+* Se você escolher uma pasta do seu computador (em "Pastas Locais"), os e-mails serão armazenados no seu computador e não consumirão sua cota. Você não poderá, porém, acessá-los de outros computadores.
+
+Normalmente, não é necessário criar uma pasta *Enviadas* - o webmail e a maioria dos clientes de e-mail já fazem isso automaticamente.
+
+h2.  Spam
+
+Se a filtragem de spam estiver habilitada, as mensagens identificadas como tal serão entregues diretamente nessa pasta. Para evitar que spam consuma sua cota, as mensagens na pasta *Spam* são apagadas automaticamente após sete dias.
+
+h2. Por que não consigo ver minhas pastas?
+
+h3. Você está usando POP?
+
+Com POP, você não pode ver as pastas armazenadas no servidor. Você poderá vê-las se usar IMAP ou o webmail.
+
+POP mostra apenas pastas locais armazenadas no seu computador.
+
+h3. Você está usando IMAP?
+
+Se você está usando IMAP e não consegue ver suas pastas armazenadas no servidor, será preciso "inscrever-se" para vê-las pelo seu cliente de e-mail.
+
+No [[thunderbird]], você deve clicar com o botão direito em *Entrada* e selecionar *Inscrever*.
+
+No Squirrelmail, clique em *Pastas* no topo e verifique o campo de inscrições. Se houver alguma pasta na qual você não se inscreveu, ela será mostrada na coluna da direita e você poderá selecioná-la e clicar em *Inscrever*.
+
+Se não conseguir ver suas pastas seguindo os passos acima, consulte a documentação do seu cliente de e-mail.
