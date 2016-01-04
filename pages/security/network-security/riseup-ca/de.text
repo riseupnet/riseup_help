@@ -39,13 +39,13 @@ h3. Importiere Riseup's öffentlichen PGP Schlüssel
 In der Kommandozeile:
 
 <code>
-$ gpg --keyserver keys.riseup.net --recv-key 139A768E
+$ gpg --keyserver keys.riseup.net --recv-key 0x3043E2B7139A768E
 </code>
 
 Es gibt keinen bestimmten Grund, dass du diesem Schlüssel trauen solltest. Du kannst sehen wer ihm vertraut hat:
 
 <code>
-$ gpg --list-sigs 139A768E
+$ gpg --list-sigs 0x3043E2B7139A768E
 </code>
 
 h3. Prüfe diese Anweisungen
