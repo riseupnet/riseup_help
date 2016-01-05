@@ -37,8 +37,8 @@ h4. Import Riseup's OpenPGP key
 
 On the terminal, import Riseup's public OpenPGP key from a keyserver:
 
-<code>gpg --keyserver keys.riseup.net --recv-key 3043E2B7139A768E</code>
-<code>gpg --fingerprint 3043E2B7139A768E</code>
+<code>gpg --keyserver keys.riseup.net --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
+<code>gpg --fingerprint 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
 
 The first line will import the key into your keyring, but there is no guarentee that you actually imported the right key. The <code>--fingerprint</code> command allows you to see the fingerprint of the key and actually confirm you imported the correct key. You should see output that contains this line:
 
@@ -48,7 +48,7 @@ Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 
 There is no particular reason that you should trust this key. You can see who has trusted it:
 
-<code>gpg --list-sigs 3043E2B7139A768E</code>
+<code>gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
 
 h4. Verify Riseup's Certificate
 
