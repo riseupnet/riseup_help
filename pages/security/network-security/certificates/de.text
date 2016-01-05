@@ -37,7 +37,7 @@ Die folgende Anleitung zeigt die Befehle, die Du im Terminal eingeben musst. Den
 Du musst Riseups öffentlichen Schlüssel von einem Schlüsselserver importieren:
 
 <code>
-$ gpg --keyserver keys.mayfirst.org --recv-key 139A768E
+$ gpg --keyserver keys.mayfirst.org --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 </code>
 
 Falls Du eine Fehlermeldung bekommst, daß gpg nicht gefunden wurde, musst Du zuerst das Programm GnuPG installieren, bevor Du fortfahren kannst.
@@ -45,7 +45,7 @@ Falls Du eine Fehlermeldung bekommst, daß gpg nicht gefunden wurde, musst Du zu
 Es gibt keinen guten Grund, diesem Schlüssel zu vertrauen. Du kannst aber sehen, wer dem Schlüssel das Vertrauen ausgesprochen hat: 
 
 <code>
-$ gpg --list-sigs 139A768E
+$ gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 </code>
 
 h3. Verifiziere diese Anleitung
