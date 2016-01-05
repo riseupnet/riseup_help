@@ -24,7 +24,7 @@ h2. Verify the Riseup CA certificate (optional)
 
 This verification process is not required in order to use the Riseup CA certificate. However, without verification, you cannot be certain you have downloaded the correct certificate, and you cannot be certain that your connections are secure.
 
-Be warned: this verification process is difficult, requires an understanding of OpenPGP, and ultimately depends on knowing someone who has trusted riseup.net's public OpenPGP key.
+Be warned: this verification process is difficult, requires an understanding of OpenPGP, and ultimately depends on trusting someone you already know who has certified riseup.net's public OpenPGP key.
 
 In brief, the steps are:
 
@@ -39,13 +39,13 @@ h3. import Riseup's public PGP key
 On the command line:
 
 <code>
-$ gpg --keyserver keys.riseup.net --recv-key 0x3043E2B7139A768E
+$ gpg --keyserver keys.riseup.net --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 </code>
 
-There is no particular reason that you should trust this key. You can see who has trusted it:
+There is no particular reason that you should trust this key. You can see who has certified it:
 
 <code>
-$ gpg --list-sigs 0x3043E2B7139A768E
+$ gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 </code>
 
 h3. verify these instructions
@@ -54,7 +54,6 @@ Now that you have imported Riseup's public key, you can verify the certificate i
 
 # "Download this cryptographically signed file containing the SHA1 Sum of the RiseupCA.pem":riseupCA-signed-sha1.txt
 # Then run this command in a terminal: @gpg --verify riseupCA-signed-sha1.txt@
-# Type control-d
 # You should get output that says:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 
