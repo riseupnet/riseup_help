@@ -249,7 +249,7 @@ pages need to be updated. However, in the future, I plan to add the command
 shows the changes made to the source English pages since the translation for
 each page was made.
 
-In the mean time, you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
+In the meantime, you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
 
 Installing on Mac
 --------------------------------------------
