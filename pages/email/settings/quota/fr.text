@@ -1,0 +1,27 @@
+@title = 'Espace de stockage et quota'
+
+h2. Pourquoi Riseup ne fournit-il pas un espace de stockage plus important ?
+
+Nous aimerions le faire, mais cela coûte cher. Les disques durs sont bon marché, ce qui coûte très cher ce sont les ordinateurs nécessaires au bon fonctionnement de ces disques ainsi que les frais engagés pour héberger ces ordinateurs.
+
+h2. Pourquoi la valeur affichée de mon quota encore disponible n'est-elle pas ajustée automatiquement ?
+
+Le calcul exact du quota disponible pour chaque compte email à tout instant serait très consommateur en temps de calcul pour le serveur. Pour cette raison, le quota disponible est seulement estimé. L'estimation est souvent très fiable, cependant il arrive parfois qu'elle soit aussi complètement fausse. Les nouveaux messages entrant commenceront à être refusés par le serveur seulement si vous avez effectivement utilisé tout l'espace de stockage alloué à votre compte.
+
+Toujours pour économiser le temps de calcul, le serveur ne met à jour l'estimation du quota disponible restant que lorsque vous recevez un nouveau message. Cela signifie que si vous supprimez des messages, votre quota disponible restant, votre quota disponible restant semblera inchangé jusqu'à l'arrivée du prochain nouveau message.
+
+h2. Comment puis-je augmenter mon espace de stockage ?
+
+# Identifiez-vous dans https://user.riseup.net
+# Cliquez sur *Email*
+# Entrez une nouvelle valeur de quota
+# Enregistrez les nouveaux paramètres
+
+Gardez à l'esprit que l'espace de stockage constitue nos dépenses en matériel les plus importantes. Si vous augmentez votre espace de stockage, nous apprécions que vous augmentiez également vos dons.
+
+h2. Quels dossiers de messages utilisent le plus mon espace de stockage ?
+
+Pour le savoir, identifiez-vous au "webmail riseup":https://mail.riseup.net et cliquez sur "Paramètres" (icône représentant une roue dentée). Dans le menu qui s'ouvre, choisissez "Dossiers" : vous pouvez alors sélectionner chaque dossier de messages individuellement, et plusieurs informations dont le nombre de messages et la taille du dossier s'affichent dans le panneau de droite.
+
+Tous les messages dans vos dossiers contribuent à occuper votre quota, y compris les messages dans les [[dossiers spéciaux => email-folders]] Envoyés, Corbeille et Pourriels.
+
