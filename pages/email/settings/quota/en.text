@@ -18,8 +18,8 @@ h2.  How do I increase my quota?
 
 h2.  Where is my quota going?
 
-If you log into your riseup webmail account [mail.riseup.net], and click the 'settings' gear, a small menu will pop up, select 'manage folders'
+If you log into your riseup webmail account (https://mail.riseup.net), and click the 'settings' gear, menu will show up. In this menu, select the 'Folders' tab.
 
-from the manage folders window, you can select individual folders on your account, and under the 'information' section on the right hand size, is a link called 'click to get folder size' which will provide the folder size to you in human readable format.
+From the Folders window, you can select individual folders on your account, and under the 'information' section on the right hand size, is a link called 'click to get folder size' which will provide the folder size to you in human readable format.
 
 All messages in your folders count towards your quota, including messages in the [[special folders => email-folders]] Trash, Sent and Spam.
