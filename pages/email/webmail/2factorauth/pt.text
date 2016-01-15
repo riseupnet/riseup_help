@@ -1,0 +1,4 @@
+@title = 'Autenticação em duas etapas no Roundcube'
+@nav_title = 'Autenticação em duas etapas'
+
+Não oferecemos atualmente verificação em duas etapas para o cliente de webmail Roundcube; essa extensão tinha muitos problemas. Sentimos muito.
