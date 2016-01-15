@@ -1,0 +1,29 @@
+@title = 'Vírus'
+@summary = 'Tudo que você sempre quis saber sobre vírus, mas tinha medo de perguntar'
+
+h2. É indispensável saber
+
+* Vírus transmitidos por e-mail sempre falsificam remetentes para parecer que vêm de pessoas em quem você confia - uma colega, um administrador de sistema, até mesmo você.
+* São muito comuns os vírus que fingem vir da equipe de riseup.net (e das de outros provedores). Eles ameaçam fechar sua conta, a não ser que você aja imediatamente, abrindo o anexo - e infectando seu computador. Não se deixe enganar!
+* Vírus sempre falsificam remetentes. Tudo bem, já dissemos isso, mas não custa enfatizar.
+* Advertências de que você enviou uma mensagem com vírus quase sempre podem ser ignoradas. Repetimos: como vírus falsificam remetentes, esses avisos significam apenas que alguém se infectou e está enviando vírus como se fosse você.
+* Quer saber como um vírus conseguiu seu endereço de e-mail? Provavelmente, ou você trocou mensagens com um computador que acabou sendo infectado, ou o vírus pegou o endereço de uma página na Internet.
+* Não abra anexos de ninguém, nem mesmo de pessoas que você conhece, a não ser que tenha certeza do conteúdo.
+* Nós aqui de riseup.net JAMAIS enviaremos um e-mail com anexo para você.
+
+h2. Vírus e listas de discussão
+
+* Se um vírus fosse enviado para sua lista privada, não haveria, necessariamente, uma falha de segurança. Algum computador infectado poderia conter os endereços da lista e de um assinante.
+* Nós filtramos seu correio e suas listas para evitar vírus, mas alguns passam despercebidos.
+* É comum um vírus tentar inscrever você em uma lista de discussão. Como isso acontece? Suponha que você e um amigo estejam na mesma lista, e o computador dele seja contaminado. O vírus terá seu e-mail e o endereço de inscrição da lista (por exemplo, lista-subscribe@lists.riseup.net). Cedo ou tarde, o vírus enviará uma mensagem para lista-subscribe@lists.riseup.net que parecerá vir de você. A lista, então, mandará para você uma mensagem de confirmação de inscrição na lista.
+
+h2. Bloqueando e-mails "viróticos"
+
+* Se você recebe muitos vírus na sua conta de e-mail riseup.net, bloqueie-os habilitando o filtro de spam no "painel de controle":https://user.riseup.net, na guia "Email".
+* Alguns clientes de e-mail, como o Thunderbird (software livre), têm uma excelente filtragem de spam integrada e fazem um bom trabalho no bloqueio de vírus.
+* Contas de e-mail e listas de riseup.net normalmente bloqueiam todo anexo executável. Alguns vírus executáveis, porém, vêm dentro de pastas compactadas.
+
+h2. Descontaminando computadores com vírus
+
+* Se você abriu um anexo suspeito em um computador rodando Micro$oft Windows, ele provavelmente foi infectado. Recomendamos o antivírus livre chamado ClamWin. Uma alternativa é o Grisoft, que oferece uma versão gratuita de seu antivírus comercial.
+* Apenas computadores, e nunca contas de e-mail, podem ser infectados com vírus. Se você se infectou, limpe seu computador pessoal; não se preocupe com sua conta riseup.net.
