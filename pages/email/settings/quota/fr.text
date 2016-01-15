@@ -1,0 +1,25 @@
+@title = 'Quota'
+
+h2. Pourquoi Riseup ne fournit pas un plus grand quota?
+
+Nous aimerions le faire, mais cela coûte cher. Les disques durs sont incroyablement bon marchés, mais les ordinateurs qui les abritent et les salles où se trouvent les ordinateurs coûtent cher.
+
+h2.  Pourquoi mon quota n'est-il pas mis à jour?
+
+Il serait très demandant pour nos serveurs de faire un calcul exact de votre quota. Ainsi, l'espace que vous utilisez est plutôt une estimation. Souvent, cette estimation est très précise. Elle peut cependant parfois être complètement à côté de la plaque. Vous ne dépasserez jamais votre quota (ce qui impliquerait le refus de nouveaux messages) à moins d'avoir utilisé l'ensemble de votre espace disponible.
+
+Une autre chose que les serveurs font pour réduire le temps de calcul est de mettre à jour l'estimation du quota seulement quand vous recevez un nouveau message. Cela veut dire que si vous supprimez des messages, votre quota ne changera pas sur le champ. Il sera mis à jour lors de la réception du prochain message.
+
+h2. Comment augmenter mon quota?
+
+# Connectez vous au https://user.riseup.net
+# Cliquez sur *Courriel*
+# entrez la taille du nouveau quota
+
+h2.  Où va mon quota?
+
+Si vous vous connectez sur votre messagerie en ligne (https;//mail.riseup.net) et cliquez sur l'onglet "Paramètres", un sous-menu apparaît et vous permet de sélectionner l'onglet "Dossiers".
+
+À partir du menu "Dossiers", vous pouvez sélectionner les dossiers dans votre compte. Si vous cliquez sur un dossier, il vous est possible de voir dans la section "Informations" à droite de l'écran un lien intitulé "Cliquer pour obtenir la taille de dossier". En cliquant sur ce lien, vous pouvez voir la taille de ce dossier.
+
+Tous les messages dans vos dossiers comptent dans le calcul de votre quota. Cela inclue également les [[dossiers spéciaux => dossiers-courriel]] "Corbeille", "Envoyés" et "Pourriels".
