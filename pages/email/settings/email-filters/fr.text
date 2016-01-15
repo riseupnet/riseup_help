@@ -31,7 +31,7 @@ Et voilà ! Désormais tout email en provenance de cette adresse sera automatiqu
 
 Note : si vous souhaitez que ce filtre agisse sur les emails provenant de plusieurs adresses, cliquez simplement sur *ajouter une condition* et suivez les étapes 6 à 8 ci-dessus pour ajouter une nouvelle adresse au filtre. Inutile de créer un nouveau filtre pour chaque adresse.
 
-h2. Comment déclarer des messages légitimes pour ne plus qu'ils soient filtrés par l'anti-spam ?
+h2. Comment déclarer des messages légitimes pour qu'ils ne soient plus filtrés par l'anti-spam ?
 
 Si un type de message particulier est systématiquement détecté comme un spam et que vous voulez vous assurer que cela n'arrive plus, suivez ces instructions :
 
