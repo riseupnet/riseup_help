@@ -1,0 +1,60 @@
+@title = "Messagerie web"
+
+h2. Qu'est-ce que la messagerie web?
+
+La messagerie web vous permet de consulter vos courriels riseup.net à partir de n'importe quel ordinateur.
+
+Pour utiliser la messagerie web Riseup, visitez le https://mail.riseup.net
+
+La raison première d'utiliser la messagerie web est si vous n'avez pas votre propre ordinateur sur lequel vous pourriez installer un client de messagerie courriel. Parfois, les gens utilisent la messagerie web parce qu'elles et ils ne veulent pas laisser de traces du compte courriel utilisé sur un ordinateur. La messagerie web n'est pas une bonne solution dans ce cas, car les navigateurs web laissent toutes sortes de traces dans des fichiers temporaires qui peuvent être récupérés avec les bons outils.
+
+h2. Les options de messagerie web
+
+En ce moment, Riseup offre deux clients web différents:
+
+# *Roundcube*: Roundcube a une interface fluide et moderne, mais requiert l'utilisation de javascript et peut ne pas fonctionner pour certaines personnes
+# *SquirrelMail*: SquirrelMail est un client plus simple et ne requiert pas de javascript.
+
+h2. Les cookies doivent être permis
+
+Pour des raisons de sécurité, nous requérons des cookies. Sans cookies, il nous est impossible de sécuriser vos sessions.
+
+Malheureusement, les cookie permettent également aux publicitaires ou à des entreprises comme Google de suivre presque toutes vos activités sur le net. Si vous ne souhaitez pas être suivis, nous vous suggérons de désactiver les cookies des tierces parties. Vous pouvez également bloquer par défaut les cookies et les permettre seulement sur les sites que vous souhaitez.
+
+h2.  Régler les problèmes avec la messagerie web
+
+La question la plus courante que l'on nous pose est "pourquoi je n'arrive pas à me connecter?". Cette page a comme but de vous aider à identifier le problème et le régler.
+
+La plupart du temps, les problèmes de connexions sont causés par une de ces choses:
+
+* Votre navigateur web bloque les cookies.
+* Vous n'avez pas rentré le bon mot de passe ou le bon identifiant.
+* Votre navigateur web est trop vieux et ne supporte pas le javascript ou les connexions chiffrées correctement.
+* Notre serveur de courriels est temporairement infonctionnel.
+
+h4. Étape 1: Assurez-vous que les cookies sont activés
+
+Voici des instructions spécifiques pour gérer vos cookies:
+
+* "Firefox":https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+* "Chrome":https://support.google.com/chrome/answer/95647
+* "Internet Explorer 9":http://windows.microsoft.com/en-US/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
+* "FAQ Windows":http://windows.microsoft.com/en-us/windows/cookies-faq
+
+h4. Étape 2: Essayez un autre navigateur web
+
+Si vous ne pouvez toujours pas vous connecter, vous devriez tenter de savoir si le problème est votre ordinateur ou votre compte.
+
+* Essayez un autre navigateur web ou un autre ordinateur. Pour que ce test soit concluant, le navigateur ou l'ordinateur choisi devrait être aussi différent que possible. Si vous le pouvez, tentez de vous connecter sur un réseau internet différent, sur une machine différent, avec un navigateur web différent.
+* Nous vous suggérons d'installer une version récente de Firefox ou de Chrome. Si cela fonctionne, le problème est votre navigateur web.
+
+h4. Étape 3: Vérifiez l'état du serveur
+
+Il est possible que nous ayons des problèmes avec nos serveur. Vous pouvez voir l'état du serveur de courriels et lire les notices de mise à jour sur cette page:
+
+https://help.riseup.net
+
+h4. Étape 4: Demandez de l'aide!
+
+Si rien n'a fonctionné, vous pouvez "remplir un ticket d'aide":https://user.riseup.net/forms. Merci d'essayer les solutions citées plus haut avant de remplir un ticket! Il est important d'inclure un description précise de vos problèmes dans votre ticket et de ce que vous avez déjà essayé.
