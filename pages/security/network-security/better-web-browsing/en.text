@@ -72,7 +72,7 @@ These are absolutely essential browser extensions that everyone should be using 
     !img/badger-64.png!
   </td>
   <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have. If you run uBlock in [[advanced mode => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], you should not also run Privacy Badger.
   </td>
 </tr>
 </table>
