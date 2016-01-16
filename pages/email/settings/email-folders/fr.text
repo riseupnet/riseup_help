@@ -1,0 +1,48 @@
+@title = 'Dossiers de messages'
+
+Si vous utilisez le webmail ou le protocole IMAP, votre compte email contient quelques dossiers spéciaux au comportement particulier. Ces dossiers spéciaux n'ont pas d'importance si vous utilisez le protocole POP, car ce protocole n'utilise pas les dossiers définis sur le serveur.
+
+h2. Dossier *Corbeille*
+
+Tous les messages présents dans le dossier *Corbeille* depuis plus de 21 jours sont automatiquement supprimés. La plupart des clients de messagerie sont configurés de sorte que tout message supprimé d'un autre dossier soit automatiquement déplacé vers le dossier *Corbeille*.
+
+h2. Dossier *Envoyés*
+
+Tous les messages présents dans le dossier *Envoyés* depuis plus de 120 jours sont automatiquement supprimés. Si vous souhaitez conserver plus longtemps vos messages envoyés, nous vous suggérons de les déplacer régulièrement dans un dossier simple. Par exemple :
+
+dans le webmail :
+
+# sélectionnez le dossier *Envoyés* ;
+# dans ce dossier, sélectionnez tous les messages ;
+# dans le menu, choisissez "Déplacer vers" puis choisissez le dossier de destination.
+
+Dans Thunderbird :
+
+# sélectionnez le dossier *Envoyés* ;
+# cliquez sur le menu *Édition > Sélectionner > Tous* ;
+# cliquez sur le menu *Message > Déplacer* et sélectionnez le dossier de destination.
+
+Si vous choisissez un dossier local à votre ordinateur (sous *Dossiers locaux*), les messages seront déplacés sur votre ordinateur et ne consommeront plus votre espace de stockage sur le serveur de messagerie. Cependant, vous ne pourrez plus lire ces messages depuis le webmail ou depuis un autre ordinateur.
+
+Vous n'avez pas besoin de créer un nouveau dossier *Envoyés* car notre webmail ainsi que la plupart des clients de messagerie le font automatiquement.
+
+h2. Dossier *Spam*
+
+Si vous avez activé le filtre anti-spam, alors les messages entrants identifiés comme spam arriveront directement dans ce dossier *Spam*. Pour éviter que votre espace de stockage ne soit entièrement occupé par des spams, tous les messages présents dans ce dossier depuis plus de 7 jours sont automatiquement supprimés.
+
+h2. Pourquoi est-ce que certains dossiers sont invisibles ?
+
+h3. Utilisez-vous le protocole POP ?
+
+En utilisant le protocole POP, vous ne pourrez pas voir les dossiers présents sur le serveur (ceux que vous voyez en utilisant le webmail ou le protocole IMAP). Le protocole POP n'utilise que des dossiers locaux stockés sur votre ordinateur.
+
+h3. Utilisez-vous le protocole IMAP ?
+
+Si vous utilisez le protocole IMAP et que vous ne voyez pas les dossiers présents sur le serveur, vous devez vous "abonner" (vocabulaire du protocole IMAP) à ces dossiers depuis votre client de messagerie pour pouvoir les voir.
+
+Dans [[thunderbird]] vous pouvez faire cela en cliquant droit sur *Boîte de réception* et en choisissant l'otpion *S'abonner*.
+
+Dans le webmail, cliquez sur *Paramètres* (icône représentant une roue dentée) et choisissez *Dossiers* dans le menu. Les dossiers s'affichent, et il suffit de cocher la case située à droite du nom d'un dossier pour s'y abonner (ou la décocher pour se désabonner).
+
+Nous vous invitons à consulter la documentation de votre client de messagerie si les étapes décrites ici ne correspondent pas à votre situation.
+
