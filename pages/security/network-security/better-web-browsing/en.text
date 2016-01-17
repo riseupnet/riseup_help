@@ -72,10 +72,15 @@ These are absolutely essential browser extensions that everyone should be using 
     !img/badger-64.png!
   </td>
   <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have. If you run uBlock in [[advanced mode => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], you should not also run Privacy Badger.
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have.
   </td>
 </tr>
 </table>
+
+Usage notes:
+
+* Leaking IP addresses: All browsers will leak your real IP address when using audio or video conferencing. If you use a VPN or Tor with audio or video chat, then you should open the uBlock settings and enable the option that prevents WebRTC from leaking your real IP address.
+* uBlock advanced mode: If you run uBlock in [[advanced mode => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], you should not also run Privacy Badger.
 
 h3. Advanced extensions
 
