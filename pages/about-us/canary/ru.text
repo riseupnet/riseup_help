@@ -1,5 +1,5 @@
-@title = 'Канареечное заявление
-@nav_title = 'Канарейка
+@title = 'Канареечное заявление'
+@nav_title = 'Канарейка'
 @this.alias = '/canary'
 @toc = false
 
