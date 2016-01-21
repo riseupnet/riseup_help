@@ -1,0 +1,6 @@
+
+@title = 'Assinantes de listas'
+
+Respostas a dúvidas comuns de assinantes de listas hospedadas em https://lists.riseup.net
+
+<%= child_summaries :include_toc => true %>
