@@ -1,0 +1,17 @@
+@title = "Où est passé Horde/IMP?"
+
+h2. Mise en contexte
+
+Depuis de nombreuses années nous avons maintenus non pas une mais deux messageries web au https://mail.riseup.net. Pourquoi deux? Alors que les difficultés techniques devenaient de plus en plus complexes, nous nous posions également la question. Nous ne sommes pas certain-e-s que nous nous rappelons des raisons de départ, mais nous croyons que l'une supportait mieux certaines langues que d'autres, avait plus d'options et était peut-être un peu mieux pour des raisons d'accessibilité.
+
+À travers les années, deux messageries impliquait deux fois plus de problèmes, tant au niveau du support qu'au niveau des mises à jour. Cela signifiait également que nous ne pouvions pas mettre en place de nouvelles messageries quand elles nous semblaient intéressantes car nous ne voulions pas en avoir trois.
+
+Après avoir débat longtemps et avoir changé d'avis de nombreuses fois, nous avons donc décidé de ne plus supporter la messagerie Hordre/IMP (aussi connue par le surnom affectueux de 'deuxième fenêtre de connexion'). Cette messagerie avait beaucoup plus d'options et supportait plus de langages mais était également bien plus difficile à maintenir. En fait, quand nous avons tenté de mettre à jour nos serveurs sans succès, la frustration a pris le dessus et nous avons dit au revoir à Hordre/IMP.
+
+h2. Informations importantes
+
+Si vous étiez des utilisateurs réguliers ou des utilisatrices régulières de Horde/IMP, nous sommes désolés de vous causer ces troubles et nous espérons que notre nouvelle messagerie soit meilleure en tous points. Si vous utilisiez cette vielle messagerie web, vous devez cependant savoir qu'il y a peut-être eu certains problèmes importants. Vous devriez donc lire la suie.
+
+Il est particulièrement important de vérifier si vous aviez des caractère non latin dans votre liste de contacts et de les corriger. Nous nous excusons car il n'y existe pas de bonne solution automatisée pour régler ce problème.
+
+Si vous avez essayé les deux messageries, nous avons importés les paramètres des deux. Il est donc nécessaire de vérifier vos contacts et vos identités pour être sûr-e que tout est correct. Il se peut que vous ne vouliez plus de certains paramètres: vous devriez donc passer à travers l'ensemble des paramètres pour vous en assurer.

@@ -1,0 +1,89 @@
+@title = 'Hameçonnage'
+
+h2. Qu'est-ce que l'hameçonnage?
+
+*L'hameçonnage* - aussi connu par son nom anglais "Phishing" - est quand une personne envoi un courriel frauduleux en prétendant être une entité qu'elle n'est pas. L'hameçonnage a comme but de soutirer de l'information (numéros d'assurance sociale, informations bancaires, mots de passe et autres informations personnelles). Les courriels suivent souvent la forme suivante:
+
+<pre>
+From: help@company_or_organization.com
+To: you@riseup.net
+
+Subject: Account Alert
+
+We need to verify your account details. Please reply to this message and enter your information the following spaces. If you do not reply, you may lose access to your account.
+
+username: _______
+password: _______
+</pre>
+
+*Si vous voyez un courriel comme celui-là, NE RÉPONDEZ PAS.*
+
+h2. Comme cela affecte les comptes Riseup?
+
+Les comptes Riseup sont souvent la cible d'hameçonnage. *Riseup ne vous demandera jamais votre mot de passe!*. Si vous recevez un courriel se faisant passer pour Riseup et qu'il vous demande votre mot de passe, *il n'est pas de Riseup.*
+
+Si vous recevez un courriel qui vous demande de cliquer sur un lien et de donner les informations de votre compte, mieux vaut taper l'adresse manuellement. Ne vous fiez pas au liens, car le nom de domaine pourrait être https://ríseup.net and not https://riseup.net (notez le subtil accent au dessus du i).
+
+h2. Examples de courriels d'hameçonnages
+
+Voici quelques couriels d'hameçonnages qui sont fréquemment envoyés aux personnes qui ont des comptes Riseup de la part de *gens mal intentionnés* qui tentent de *prendre le contrôle* de votre compte.
+
+*Example 1*
+
+<pre>
+To: abdecom@riseup.net
+Subject: UPGRADE YOUR RISEUP EMAIL ACCOUNT!
+From: RISEUP UPGRADE <upgrade@riseup.net>
+
+Dear Riseup Subscriber,
+
+Your Riseup e-mail account may be frozen as a result of unusual activity.
+
+We have noticed that your email account needs to be verified, as we are upgrading our webmail database.
+
+Click Here to Verify Your E-mail Account
+
+Please do this so that your email account can be upgraded and protected from being closed.
+
+Your immediate response is highly needed.
+
+We appreciate your time and assistance!
+
+Sincerely
+© 2011 Riseup Email Support.
+</pre>
+
+*Example 2*
+
+<pre>
+From: WebAdmin Security <no_reply@riseup.net>
+Subject: Account Alert®
+To: undisclosed-recipients:;
+
+Dear valued customer(R):
+
+Due to concerns, for the safety and integrity of the Riseup.Net Security we have issued this warning message
+
+We have noticed that your Riseup.Net account needs to be verify, after we have upgraded our SSL database. To verify your Riseup.Net account and access your account in future, please click on the verification link below to log into account update and complete the required informations:
+
+http//mail.riseup.net/SSL [<< this actually linked to another site that is not riseup but is made to look like riseup]
+
+This e-mail was sent to all of our customers. Recently, we have noticed that many customers' were receiving a scam letter asking them to send their username and password via email.
+
+Note that Riseup.Net will never ask for your ID and password via email. Just click on the above link, continue by filling the required informations correctly to verify and your Riseup.Net account informations on our database will be automatically updated.
+
+Note: Failure to Verify email account might lead to account deactivation.
+
+Thanks for your
+co-operations.
+
+Sincerely,
+WEBMAIL Riseup.Net Security Team(R)
+
+Email
+ticket: R0929NT4
+</pre>
+
+Ceci est un courriel de hameçonnage particulièrement intelligent. Les gens qui l'on envoyé savent que Riseup ne vous demandera jamais votre mot de passe dans un courriel, alors un lien vers une page qui demande votre courriel a été ajouté. Le lien ressemble à un lien qui mène à une page de Riseup, mais quand vous cliquez syr le lien il vous mène ailleurs. La page est faite pour ressembler le plus possible à une page de Riseup dans l'espoir que vous ne remarquerez pas les différences et que vous rentrerez votre mot de passe.
+
+Pour être le plus en sécurité possible, vous ne devriez jamais cliquer sur un lien dans un courriel qui vous demande d'entrer votre mot de passe. Tapez toujours 'user.riseup.net' dans la barre de votre navigateur manuellement.
