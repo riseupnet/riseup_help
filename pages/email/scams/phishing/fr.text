@@ -16,18 +16,17 @@ username: _______
 password: _______
 </pre>
 
-*If you see an email like this, do NOT reply to it.*
+*Si vous voyez un courriel comme celui-là, NE RÉPONDEZ PAS.*
 
-h2. How does it affect Riseup accounts?
+h2. Comme cela affecte les comptes Riseup?
 
-Riseup accounts are a frequent target. *Riseup emails will never ask for your password!* If you get an email claiming to be from Riseup, and it asks for your password in the email, *it is not from Riseup.*
+Les comptes Riseup sont souvent la cible d'hameçonnage. *Riseup ne vous demandera jamais votre mot de passe!*. Si vous recevez un courriel se faisant passer pour Riseup et qu'il vous demande votre mot de passe, *il n'est pas de Riseup.*
 
-If you get an email that asks you to click on a link and give your account information, it is best to manually type the address. Do not rely on the link, because the domain might be https://ríseup.net and not https://riseup.net (not the subtle difference with the accent over the i).
+Si vous recevez un courriel qui vous demande de cliquer sur un lien et de donner les informations de votre compte, mieux vaut taper l'adresse manuellement. Ne vous fiez pas au liens, car le nom de domaine pourrait être https://ríseup.net and not https://riseup.net (notez le subtil accent au dessus du i).
 
+h2. Examples de courriels d'hameçonnages
 
-h2. Example phishing emails
-
-Here are some example emails frequently sent to riseup users from *phishers* attempting to *hijack* the user's account.
+Voici quelques couriels d'hameçonnages qui sont fréquemment envoyés aux personnes qui ont des comptes Riseup de la part de *gens mal intentionnés* qui tentent de *prendre le contrôle* de votre compte.
 
 *Example 1*
 
@@ -85,6 +84,6 @@ Email
 ticket: R0929NT4
 </pre>
 
-This is an especially clever phishing attack. It knows that some people know Riseup will never ask them for their password in an email, so it links to a webpage that asks them for their password. The link looks like a link to riseup page, but when you click on it it actually takes you somewhere else. The webpage is cleverly designed to look almost exactly like the riseup page, in hopes that people will not notice the difference and enter their password.
+Ceci est un courriel de hameçonnage particulièrement intelligent. Les gens qui l'on envoyé savent que Riseup ne vous demandera jamais votre mot de passe dans un courriel, alors un lien vers une page qui demande votre courriel a été ajouté. Le lien ressemble à un lien qui mène à une page de Riseup, mais quand vous cliquez syr le lien il vous mène ailleurs. La page est faite pour ressembler le plus possible à une page de Riseup dans l'espoir que vous ne remarquerez pas les différences et que vous rentrerez votre mot de passe.
 
-To be safe, you should never click on links in emails that ask you to enter password information. Always type 'user.riseup.net' into your browser's address bar manually.
+Pour être le plus en sécurité possible, vous ne devriez jamais cliquer sur un lien dans un courriel qui vous demande d'entrer votre mot de passe. Tapez toujours 'user.riseup.net' dans la barre de votre navigateur manuellement.
