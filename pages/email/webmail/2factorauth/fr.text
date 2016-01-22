@@ -1,0 +1,4 @@
+@title = 'Authentification à deux facteurs avec la messagerie web Roundcube'
+@nav_title = 'Authentification à deux facteurs'
+
+Nous n'offrons pas à l'heure actuelle d'authentification à deux facteurs pour Roundcube car le plugin a beaucoup de problèmes. Désolé.
