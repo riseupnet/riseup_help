@@ -1,6 +1,6 @@
-
 @title = 'Assinantes de listas'
+@nav_title = 'Assinantes'
 
-Respostas a dúvidas comuns de assinantes de listas hospedadas em https://lists.riseup.net
+Respostas a dúvidas comuns de assinantes de listas hospedadas em https://lists.riseup.net.
 
 <%= child_summaries :include_toc => true %>
