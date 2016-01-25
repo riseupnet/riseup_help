@@ -1,0 +1,87 @@
+@title = 'Spam, spam, spam!'
+@nav_title = 'Spam'
+@this.alias = '/spam'
+
+h2. Un mot sur le spam (pourriel)
+
+Beaucoup de personnes se demandent, « Pourquoi reçois-je autant de spam? ».
+
+Et bien, vous n'êtes pas les seul-e-s. De nos jours, la majorité des courriels envoyés sont du spam. Les spammeur-e-s ont une panoplie de moyens traitres et ratoureux d'obtenir vos adresses courriels, incluant le scan de pages web, la création de virus informatiques pour récolter les adresses des ordinateurs de vos ami-e-s et l'envoi de courriels au hasard en espérant tomber sur une adresse valide. La plupart des spams proviennent maintenant de "réseaux zombies" où les spammeurs utilisent des virus pour prendre contrôle des ordinateurs de personnes ordinaires (tant à la maison qu'au bureau) dans le but d'envoyer des quantités massives de spam.
+
+Il y a certaines choses que vous pouvez faire pour réduire le spam:
+
+*Ajustez vos paramètres de spam*:
+Par défaut, tous vos courriels sont filtrés pour y enlever le spam. Vous pouvez cependant améliorer la sensibilité et la finesse de ces filtres en ajustant vos paramètres de spam.
+# Visitez le https://user.riseup.net et connectez-vous.
+# Cliquez sur *Courriel* et puis sur 
+
+*Customize your spam settings:*
+By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
+# Visit https://user.riseup.net and login.
+# Click on *Email* and then *Spam* settings.
+# Click Enable custom spam settings.
+
+*Create a Spam folder:*
+If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
+
+*Create a temporary disposable alias:*
+A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at https://user.riseup.net.
+
+*Use a mail client:*
+Most mail clients these days have some form of spam filtering built in.
+
+*Change your email address:*
+If you really want to cut down on spam, you can simply [[rename your account => mail-accounts]]. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
+
+h2. How riseup.net fights spam
+
+Our crack team of spam fighters has erected three layers of spam defense:
+
+* *Realtime Block Lists*: Realtime Block Lists (RBLs) are frequently updated lists of computers which are known to send spam. We use these lists to block email from those spammers. If you try to send an email to riseup.net and it gets rejected because of an RBL, you will see a link in the rejection notice which will lead you to a website with details about the reason for the listing in an RBL. There are good RBLs and bad RBLs: we only use the most reputable ones.
+* *Spamassassin*: Riseup uses "spamassassin":https://spamassassin.apache.org to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
+* *Customizable Spam* Filtering: As our final line of defense, we allow you to customize the spam settings for your account. If the statistical filter is also turned on, it will learn and adapt over time based. For more information, see below.
+
+h2. Why is email to me being blocked as spam?
+
+A recent study has shown that over 95% of the email traffic on the internet is spam! Yes, 95%! For you and me, it is just a nuisance, but for riseup's poor servers, it's a huge hassle. Riseup has deployed a number of tools to combat spam and sometimes a legitimate user's email will be incorrectly identified as spam. Before contacting us, please review the steps listed here to see if you can resolve the problem.
+
+First, let's identify the problem. If your mail is being bounced by Riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup uses "Spamassassin":https://spamassassin.apache.org to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check "this page":https://wiki.apache.org/spamassassin/AvoidingFpsForSenders to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
+
+h2. Why is email from me being blocked as spam?
+
+h3. Spamcop
+
+Spamcop is a service which email providers can use to block servers which spamcop suspects of sending spam. The problem is that Spamcop is incredibly agressive, makes it easy to attack a legitimate email provider by filing false reports, and makes it impossible to get a server delisted quickly. Spamcop is a harmful and easily abused service which stops more legitimate email than it does spam. 
+
+In Spamcop's own words:
+
+bq. The SCBL is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a "tag only" mode, which is preferable in many situations.
+
+Spamcop is really causing a problem for riseup.net, and for many other legitimate email providers. The "solution" which Spamcop imposes is worse than the problem they are trying to solve: by [[one estimate => http://jhoward.fastmail.fm/spamcop.html]], Spamcop often blocks 10,000 legitimate emails for each actual spam it stops.
+
+Additionally, Spamcop is open for abuse. They make it incredibly simple for people to tag legitimate messages as spam, just because they can't figure out how to unsubscribe themselves. This can also be used as an attack: if you don't like our politics, all you have to do is get a few people to report riseup.net to spamcop. Riseup.net is frequently reported to Spamcop for legitimate non-spam activist email.
+
+It is our strong opinion that the Spamcop blocklist should NOT be used by ISPs, and we encourage users who have an ISP that uses spamcop to complain to their ISP about their use of spamcop. Spamcop's policy is guaranteed to block more legitimate mail than real spam.
+
+When you contact your ISP to complain you can use the following as a template for your email:
+
+bq. I am writing to ask that you please don't trust the Spamcop blocklist. It's been shown many times to use a hopelessly broken algorithm. It is an exceptionally poor indicator of whether a site is a source of unsolicited bulk email. In Spamcop's own words, the blocklist "is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a 'tag only' mode, which is preferable in many situations." Spamcop's policy is guaranteed to generate false positives, and your use of their RBL in your mail configuration has caused me problems with legitimate email. The SpamCop BL is a system that is open to abuse, and can be very inaccurate. Please consider removing spamcop as one of your blocklists in your SMTP configuration. It is causing me serious problems.
+
+_Links_
+
+* [[Why not to use SpamCop -- some first-hand accounts => http://www.politechbot.com/p-04129.html]]
+* [[Why the SpamCop blocking list is harmful => http://jhoward.fastmail.fm/spamcop.html]]
+
+h3. Blocklist maintained by email providers
+
+Some large email providers (for example, comcast, aol, gmail, hotmail) maintain their own blocklists. Unfortunately, riseup is occasionally listed on these blocklists. This often happens as a result of a riseup user falling for a phishing attack, where their account is taken over by a spammer. The spammer sends out loads of spam, which results in various providers blocking all outbound mail from riseup. These blocklists are often removed automatically after the passage of time. 
+
+What can you do in the interim? Contact the providers and tell them they are blocking legitimate mail, or even better, encourage your friends who are using those providers to switch! What else can you do? Don't fall for [[scams => phishing]].
