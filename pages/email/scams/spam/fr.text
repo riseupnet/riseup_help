@@ -13,37 +13,33 @@ Il y a certaines choses que vous pouvez faire pour réduire le spam:
 *Ajustez vos paramètres de spam*:
 Par défaut, tous vos courriels sont filtrés pour y enlever le spam. Vous pouvez cependant améliorer la sensibilité et la finesse de ces filtres en ajustant vos paramètres de spam.
 # Visitez le https://user.riseup.net et connectez-vous.
-# Cliquez sur *Courriel* et puis sur 
+# Cliquez sur *Courriel* et puis sur *activer le filtre des statistiques*
 
-*Customize your spam settings:*
-By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
-# Visit https://user.riseup.net and login.
-# Click on *Email* and then *Spam* settings.
-# Click Enable custom spam settings.
+*Créez un dossier de spam:*
+Si vous avez un dossier nommé Spam, l'ensemble des courriels que vous recevez et qui sont marqués comme du spam iront dans ce dossier. Vous devriez vérifier périodiquement le dossier Spam pour vous assurer que les filtres n'y ont pas mis un bon courriel. Le dossier doit être nommé Spam et non spam.
 
-*Create a Spam folder:*
-If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
+*Créez un alias temporaire:*
+Un alias temporaire est un alias courriel que vous n'utilisez que pour une période de temps donnée avant de détruire. Cela est pratique si vous devez donner une adresse courriel à une entreprise ou que vous devez la publier sur un site interne. Une fois que vous commencez à recevoir du spam sur cet alias, il suffit de le supprimer. Vous pouvez créer des alias pour votre compte riseup.net en vous connectant au https://user.riseup.net
 
-*Create a temporary disposable alias:*
-A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at https://user.riseup.net.
+*Utilisez un client de messagerie:*
+La plupart des clients de messagerie modernes ont une certaine forme de filtrage de spam.
 
-*Use a mail client:*
-Most mail clients these days have some form of spam filtering built in.
+*Changez votre adresse courriel:*
+Si vous voulez vraiment réduire le spam, il vous est possible de [[changer le nom de votre compte => mail-accounts]]. Le désavantage de cette méthode est qu'il vous faudra avertir tous vos contacts que votre adresse a changée. Cela est cependant très efficace pour éliminer le spam.
 
-*Change your email address:*
-If you really want to cut down on spam, you can simply [[rename your account => mail-accounts]]. The disadvantage is that then you need to notify everyone that your account changed, but this can be very effective at eliminating spam.
+h2. Comment riseup combat le spam
 
-h2. How riseup.net fights spam
+Notre équipe professionnelle de combat du spam a érigée trois couches de défenses:
 
-Our crack team of spam fighters has erected three layers of spam defense:
+* *Une liste de blocage en temps réel*: les listes de blocage en temps réel sont des listes noires d’ordinateurs connus pour envoyer du spam. Nous utilisons ces listes pour bloquer les courriels de ces spammers. Si vous tentez d’envoyer un courriel à riseup.net et qu’il est rejeté à cause d’une de ces listes, vous verrez un lien dans la notice de réjection qui vous mènera aux raisons détaillées de la réjection. Il a de bonnes listes et de mauvaises listes: nous n’utilisons que celles ayant bonne réputation.
+* *Spamassassin*: Riseup utilise "spamassassin":https://spamassassin.apache.org pour combattre le spam. Spamassassin utilise une série d’algorithmes complexes pour déterminer si le message envoyé est du spam.
+* *Des listes de spam personnalisées*: comme ligne de défense finale, nous vous permettons de personnaliser les paramètres de spam de votre compte. Si les filtres statistiques sont activés, ces derniers apprendront et s’adapteront avec le temps. Pour plus d’informations, continuez à lire cette page.
 
-* *Realtime Block Lists*: Realtime Block Lists (RBLs) are frequently updated lists of computers which are known to send spam. We use these lists to block email from those spammers. If you try to send an email to riseup.net and it gets rejected because of an RBL, you will see a link in the rejection notice which will lead you to a website with details about the reason for the listing in an RBL. There are good RBLs and bad RBLs: we only use the most reputable ones.
-* *Spamassassin*: Riseup uses "spamassassin":https://spamassassin.apache.org to help fight spam. Spamassassin uses a complex set of algorithms to determine if incoming mail is spam.
-* *Customizable Spam* Filtering: As our final line of defense, we allow you to customize the spam settings for your account. If the statistical filter is also turned on, it will learn and adapt over time based. For more information, see below.
+h2. Pourquoi est-ce que les courriels qu'on m'envoie sont marqués comme étant du spam?
 
-h2. Why is email to me being blocked as spam?
+Une étude récente démontre que plus de 95% des courriels envoyés sur l'internet sont du spam. Oui, 95%! Pour vous et moi, c'est tout simplement une nuisance, mais pour les pauvres serveurs de riseup, c'est un gros problème. Riseup a déployé une série d'outils pour combattre le spam et parfois des courriels légitimes sont identifiés comme du spam par erreur. Avant de nous contacter, il est important de suivre les étapes ci-dessous pour voir si vous pouvez régler le problème. 
 
-A recent study has shown that over 95% of the email traffic on the internet is spam! Yes, 95%! For you and me, it is just a nuisance, but for riseup's poor servers, it's a huge hassle. Riseup has deployed a number of tools to combat spam and sometimes a legitimate user's email will be incorrectly identified as spam. Before contacting us, please review the steps listed here to see if you can resolve the problem.
+Premièrement, il faut identifier votre problème. Si votre courriel est rebondit (bounced) par les serveurs de Riseup, nos serveurs vous donneront une explication. Regardez 
 
 First, let's identify the problem. If your mail is being bounced by Riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
 
