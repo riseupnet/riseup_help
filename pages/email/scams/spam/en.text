@@ -13,8 +13,8 @@ There are a couple things you can do to cut down on spam:
 *Customize your spam settings:*
 By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
 # Visit https://user.riseup.net and login.
-# Click on *Email* and then *Spam* settings.
-# Click Enable custom spam settings.
+# Click on *Email* and then *Spam settings*.
+# Click *enable statistical filter*
 
 *Create a Spam folder:*
 If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
