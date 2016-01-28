@@ -1,8 +1,7 @@
 @title = "Accueil"
 @this.layout = 'home'
 @this.toc = false
-@this.summary = "Riseup fournit des outils de communication informatique pour les personnes et les groupes qui militent en faveur d'un changement social libérateur. Nous souhaitons créer des alternatives démocratiques en autogérant des moyens de communication sécuritaires."
-
+@this.summary = "Riseup fournit des outils de communication en ligne pour les personnes et les groupes qui militent en faveur d'un changement social libérateur. Nous sommes un projet pour créer des alternatives démocratiques et pour pratiquer l'auto-détermination en contrôlant nos propres moyens de communication sécurisés."
 
 h2. Courriel <small>https://mail.riseup.net</small>
 
