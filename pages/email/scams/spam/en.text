@@ -13,8 +13,8 @@ There are a couple things you can do to cut down on spam:
 *Customize your spam settings:*
 By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
 # Visit https://user.riseup.net and login.
-# Click on *Email* and then *Spam* settings.
-# Click Enable custom spam settings.
+# Click on *Email* and then *Spam settings*.
+# Click *enable statistical filter*
 
 *Create a Spam folder:*
 If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
@@ -54,7 +54,7 @@ h2. Why is email from me being blocked as spam?
 
 h3. Spamcop
 
-Spamcop is a service which email providers can use to block servers which spamcop suspects of sending spam. The problem is that Spamcop is incredibly agressive, makes it easy to attack a legitimate email provider by filing false reports, and makes it impossible to get a server delisted quickly. Spamcop is a harmful and easily abused service which stops more legitimate email than it does spam. 
+Spamcop is a service which email providers can use to block servers which spamcop suspects of sending spam. The problem is that Spamcop is incredibly agressive: it is easy to attack a legitimate email provider by filing false reports and impossible to get a server delisted quickly. Spamcop is a harmful and easily abused service which stops more legitimate email than it does spam. 
 
 In Spamcop's own words:
 

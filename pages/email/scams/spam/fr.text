@@ -1,0 +1,81 @@
+@title = 'Spam, spam, spam!'
+@nav_title = 'Spam'
+@this.alias = '/spam'
+
+h2. Un mot sur le spam (pourriel)
+
+Beaucoup de personnes se demandent, « Pourquoi reçois-je autant de spam? ».
+
+Et bien, vous n'êtes pas les seul-e-s. De nos jours, la majorité des courriels envoyés sont du spam. Les spammeur-e-s ont une panoplie de moyens traitres et ratoureux d'obtenir vos adresses courriels, incluant le scan de pages web, la création de virus informatiques pour récolter les adresses des ordinateurs de vos ami-e-s et l'envoi de courriels au hasard en espérant tomber sur une adresse valide. La plupart des spams proviennent maintenant de "réseaux zombies" où les spammeurs utilisent des virus pour prendre contrôle des ordinateurs de personnes ordinaires (tant à la maison qu'au bureau) dans le but d'envoyer des quantités massives de spam.
+
+Il y a certaines choses que vous pouvez faire pour réduire le spam:
+
+*Ajustez vos paramètres de spam*:
+Par défaut, tous vos courriels sont filtrés pour y enlever le spam. Vous pouvez cependant améliorer la sensibilité et la finesse de ces filtres en ajustant vos paramètres de spam.
+# Visitez le https://user.riseup.net et connectez-vous.
+# Cliquez sur *Courriel* et puis sur *activer le filtre des statistiques*
+
+*Créez un dossier de spam:*
+Si vous avez un dossier nommé Spam, l'ensemble des courriels que vous recevez et qui sont marqués comme du spam iront dans ce dossier. Vous devriez vérifier périodiquement le dossier Spam pour vous assurer que les filtres n'y ont pas mis un bon courriel. Le dossier doit être nommé Spam et non spam.
+
+*Créez un alias temporaire:*
+Un alias temporaire est un alias courriel que vous n'utilisez que pour une période de temps donnée avant de détruire. Cela est pratique si vous devez donner une adresse courriel à une entreprise ou que vous devez la publier sur un site interne. Une fois que vous commencez à recevoir du spam sur cet alias, il suffit de le supprimer. Vous pouvez créer des alias pour votre compte riseup.net en vous connectant au https://user.riseup.net
+
+*Utilisez un client de messagerie:*
+La plupart des clients de messagerie modernes ont une certaine forme de filtrage de spam.
+
+*Changez votre adresse courriel:*
+Si vous voulez vraiment réduire le spam, il vous est possible de [[changer le nom de votre compte => mail-accounts]]. Le désavantage de cette méthode est qu'il vous faudra avertir tous vos contacts que votre adresse a changée. Cela est cependant très efficace pour éliminer le spam.
+
+h2. Comment riseup combat le spam
+
+Notre équipe professionnelle de combat du spam a érigée trois couches de défenses:
+
+* *Une liste de blocage en temps réel*: les listes de blocage en temps réel sont des listes noires d’ordinateurs connus pour envoyer du spam. Nous utilisons ces listes pour bloquer les courriels de ces spammers. Si vous tentez d’envoyer un courriel à riseup.net et qu’il est rejeté à cause d’une de ces listes, vous verrez un lien dans la notice de réjection qui vous mènera aux raisons détaillées de la réjection. Il a de bonnes listes et de mauvaises listes: nous n’utilisons que celles ayant bonne réputation.
+* *Spamassassin*: Riseup utilise "spamassassin":https://spamassassin.apache.org pour combattre le spam. Spamassassin utilise une série d’algorithmes complexes pour déterminer si le message envoyé est du spam.
+* *Des listes de spam personnalisées*: comme ligne de défense finale, nous vous permettons de personnaliser les paramètres de spam de votre compte. Si les filtres statistiques sont activés, ces derniers apprendront et s’adapteront avec le temps. Pour plus d’informations, continuez à lire cette page.
+
+h2. Pourquoi est-ce que les courriels qu'on m'envoie sont marqués comme étant du spam?
+
+Une étude récente démontre que plus de 95% des courriels envoyés sur l'internet sont du spam. Oui, 95%! Pour vous et moi, c'est tout simplement une nuisance, mais pour les pauvres serveurs de riseup, c'est un gros problème. Riseup a déployé une série d'outils pour combattre le spam et parfois des courriels légitimes sont identifiés comme du spam par erreur. Avant de nous contacter, il est important de suivre les étapes ci-dessous pour voir si vous pouvez régler le problème. 
+
+Premièrement, il faut identifier votre problème. Si votre courriel est rebondit (bounced) par les serveurs de Riseup, nos serveurs vous donneront une explication. Regardez l'exemple ci-dessous: si votre message d'erreur correspond à votre problème, suivez les étapes qui sont proposées avant de nous contacter.
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup utilise "Spamassassin":https://spamassassin.apache.org" pour nous aider à combattre le spam. Il y a un certain nombre de règles que Spamassassin utilise pour déterminer si un message est du spam. Vous pouvez consulter "cette page":https://wiki.apache.org/spamassassin/AvoidingFpsForSenders avant de nous contacter pour vérifier si la personne qui vous envoie des courriels ou si son fournisseur d'accès internet peut régler le problème.
+
+h2. Pourquoi est-ce que les courriels que j'envoie sont bloqués comme étant du spam?
+
+h3. Spamcop
+
+Spamcop est un service que les compagnies qui fournissent des comptes courriels peuvent utiliser pour bloquer les serveur que Spamcop suspecte être du spam. Le problème est que Spamcop est incroyablement agressif: il est facile de fournir de faux rapports sur un fournisseurs de courriels et il est impossible de se faire retirer des listes rapidement. Spamcop est un service dangereux et abusif qui arrête plus de courriels légitimes que de spam.
+
+Dans les propres mots de Spamcop:
+
+bq. La SCBL [Spam Cop Blocking List] est agressive et est souvent erronée quand il est question de bloquer des courriels. Quand vous implémentez la SCBL, vous devez donner aux utilisatrices et aux utilisateurs de l'information sur la manière dont la SCBLet votre système filtre les courriels. Dans l'idéal, elles et ils devraient avoir le choix du filtre en place. Beaucoup de serveur fonctionnent par des listes noires dans le mode "tag seulement", ce qui est préférable dans bien des situations.
+
+Spamcop cause beaucoup de problèmes à riseup.net et à beaucoup d'autres fournisseurs légitimes de courriels. La "solution" que Spamcop impose est pire que le problème qu'elles et ils tentent de régler: [[une estimation => http://jhoward.fastmail.fm/spamcop.html]] affirme que Spamcop bloque parfois jusqu'à 10 000 courriels légitimes pour chaque spam bloqué.
+
+De plus, Spamcop est permet l'abus. Leur service rend incroyablement simple de marquer des services légitimes comme du spam, simplement parce qu'il est difficile de se désinscrire des listes soi-même. Cela peut également être utilisé comme une attaque: si vos n'aimez pas nos visées politiques, la seule chose que vous avez à faire est de demander à quelques personnes d'inscrire riseup.net sur Spamcop. Riseup.net est souvent inscrit sur les listes de Spamcop pour des courriels légitimes militants.
+
+À notre avis, Spamcop ne devrait jamais être utilisé par les fournisseurs d'accès internet. Nous encourageons les utilisatrices et les utilisateurs qui ont un fournisseur d'accès internet utilisant Spamcop à se plaindre. Les pratiques de Spamcop sont garanties de bloquer plus de courriels légitimes que de vrai spam.
+
+Pour contacter votre fournisseur d'accès internet, vous pouvez utiliser le canevas suivant:
+
+bq. Je vous écris pour vous demander d'arrêter d'utiliser les listes noires de Spamcop. Il a été démontré maintes fois que leurs services utilisent un algorithme irrémédiablement brisé. Spamcop est un indicateur très pauvre pour décider si un site est la source de courriels non sollicités. Selon Spamcop eux-même, leurs listes "est agressive et est souvent erronée quand il est question de bloquer des courriels. Quand vous implémentez la SCBL, vous devez donner aux utilisatrices et aux utilisateurs de l'information sur la manière dont la SCBLet votre système filtre les courriels. Dans l'idéal, elles et ils devraient avoir le choix du filtre en place. Beaucoup de serveur fonctionnent par des listes noires dans le mode "tag seulement", ce qui est préférable dans bien des situations.". Les pratiques de Spamcop sont garanties de générer de faux-positifs et votre utilisation de leurs listes dans vos configurations courriel m'ont causées des problèmes avec des courriels légitimes. Les listes Spamcop sont un système qui permet l'abus et qui peut manquer d'acuité. Merci de considérer d'enlever Spamcop de vos listes dans vos configurations SMTP. Cela me cause de sérieux problèmes.
+
+_Liens_
+
+* [[Pourquoi ne pas utiliser Spamcop (en) => http://www.politechbot.com/p-04129.html]]
+* [[Pourquoi les listes de Spamcop causent problèmes (en) => http://jhoward.fastmail.fm/spamcop.html]]
+
+h3. Listes maintenues par des fournisseurs de courriels
+
+Plusieurs grandes compagnies de courriels (par exemple comcast, aol, gmail, hotmail) maintiennent leurs propres listes. Malheureusement, y est parfois ajouté. Cela arrive souvent quand une personne utilisant riseup se fait avoir par une attaque de type hameçonnage (phishing), où sont compte est volé par des spammers. Les spammers envoient des tonnes de courriels, ce poussent ces fournisseurs à bloquer riseup. Ces blocages sont souvent retirés automatiquement avec le temps. 
+
+Que pouvez-vous faire pendant ce temps? Contactez les fournisseurs et dites leurs qu'ils bloquent des courriels légitimes. Encore mieux, encouragez vos ami-e-s qui utilisent ces services à utiliser riseup! Que pouvez-vous faire d'autre? Ne vous faites pas avoir par [[l'hameçonnage => phising]].
