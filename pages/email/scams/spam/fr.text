@@ -39,9 +39,7 @@ h2. Pourquoi est-ce que les courriels qu'on m'envoie sont marqués comme étant 
 
 Une étude récente démontre que plus de 95% des courriels envoyés sur l'internet sont du spam. Oui, 95%! Pour vous et moi, c'est tout simplement une nuisance, mais pour les pauvres serveurs de riseup, c'est un gros problème. Riseup a déployé une série d'outils pour combattre le spam et parfois des courriels légitimes sont identifiés comme du spam par erreur. Avant de nous contacter, il est important de suivre les étapes ci-dessous pour voir si vous pouvez régler le problème. 
 
-Premièrement, il faut identifier votre problème. Si votre courriel est rebondit (bounced) par les serveurs de Riseup, nos serveurs vous donneront une explication. Regardez 
-
-First, let's identify the problem. If your mail is being bounced by Riseup, our servers will give a reason for the bounce. Look at the bounce message and compare it to our sample messages below. If you find a match, try the steps listed before contacting us.
+Premièrement, il faut identifier votre problème. Si votre courriel est rebondit (bounced) par les serveurs de Riseup, nos serveurs vous donneront une explication. Regardez l'exemple ci-dessous: si votre message d'erreur correspond à votre problème, suivez les étapes qui sont proposées avant de nous contacter.
 
 h3. Spamassassin
 
@@ -49,11 +47,13 @@ h3. Spamassassin
 host lists.riseup.net (204.13.164.55) said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
 </pre>
 
-Riseup uses "Spamassassin":https://spamassassin.apache.org to help us fight spam. There are a number of rules that Spamassassin uses to determine if incoming mail is spam. Check "this page":https://wiki.apache.org/spamassassin/AvoidingFpsForSenders to see if the person sending you mail, or their ISP, can resolve the issue before you contact us to report this issue.
+Riseup utilise "Spamassassin":https://spamassassin.apache.org" pour nous aider à combattre le spam. Il y a un certain nombre de règles que Spamassassin utilise pour déterminer si un message est du spam. Vous pouvez consulter "cette page":https://wiki.apache.org/spamassassin/AvoidingFpsForSenders avant de nous contacter pour vérifier si la personne qui vous envoie des courriels ou si son fournisseur d'accès internet peut régler le problème.
 
-h2. Why is email from me being blocked as spam?
+h2. Pourquoi est-ce que les courriels que j'envoie sont bloqués comme étant du spam?
 
 h3. Spamcop
+
+Spamcop est un service que les compagnies qui fournissent des comptes courriels peuvent utiliser pour bloquer les serveur que Spamcop suspecte être du spam. Le problème est que Spamcop est incroyablement agressif
 
 Spamcop is a service which email providers can use to block servers which spamcop suspects of sending spam. The problem is that Spamcop is incredibly agressive, makes it easy to attack a legitimate email provider by filing false reports, and makes it impossible to get a server delisted quickly. Spamcop is a harmful and easily abused service which stops more legitimate email than it does spam. 
 
