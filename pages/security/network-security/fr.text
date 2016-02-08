@@ -8,8 +8,8 @@ Ah! Mais que peut faire un utilisateur d'internet ? Ces pages vous aideront à c
 
 table(table).
 |_. Technologie  |_. Difficulté |_. Quand l'utiliser |
-| [[connexions-sécurisées]] | Automatique | Tous les services de Riseup requièrent une connexion sécurisée. |
-| [[meilleure-navigation]] | Facile | Il existe de simples choses que vous pouvez faire pour que votre navigation soit plus sécurisée et privée. |
+| [[connexions-sécurisées => secure-connections]] | Automatique | Tous les services de Riseup requièrent une connexion sécurisée. |
+| [[meilleure-navigation => better-web-browsing]] | Facile | Il existe de simples choses que vous pouvez faire pour que votre navigation soit plus sécurisée et privée. |
 | [[vpn]]                 | Modéré | Sécurise votre accès à riseup.net afin de se protéger de l'espionnage et des attaques sur le *contenu de votre trafic internet*. |
 | [[tor]]                 | Difficile | Tor est semblable à VPN, mais votre trafic transite aléatoirement par un grand nombre de relais pour le rendre *plus anonyme.* |
 
