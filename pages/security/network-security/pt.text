@@ -1,0 +1,18 @@
+@title = "Segurança da Rede"
+
+h2. Melhore a segurança de rede
+
+A internet é um lugar selvagem. Atualmente, praticamente qualquer clique que você dá é registrado, arquivado, e analisado por um computador em algum lugar, pra que consigam prever o seu comportamento de consumo, ou pra poder se fazer impor a lei do Estado. No momento que você liga um computador na internet, é provável que ele seja examinado por atacantes e vírus a procura de vulnerabilidades pra recrutá-lo para um "exército de computadores zumbis":https://pt.wikipedia.org/wiki/Computador_zumbi.
+
+Uou! O que um usuário de internet pode fazer? Essas páginas vão ajudar você a configurar seu computador pra previnir esses ataques [_no nível da rede_].
+
+table(table).
+|_. Tecnologia  |_. Dificuldade |_. Quando usar |
+| [[secure-connections]] | Automático | Todos os serviços do Riseup exigem conexões seguras. |
+| [[better-web-browsing]] | Fácil | Existem algumas coisas muito simples que você pode fazer pra tornar sua navegação na rede mais segura e mais privada. |
+| [[vpn]]                 | Moderada | Roteie com segurança o seu tráfego de internet pelo riseup.net, pra ajudar a previnir contra a espionagem e os ataques ao *conteúdo do seu tráfego de internet*. |
+| [[tor]]                 | Difícil | O Tor é como a VPN, mas o seu tráfego é roteado por vários nós espalhados pela rede pra tornar a sua conexão *mais anônima*. |
+
+h2. Tópicos Avançados
+
+* [[mac-address]]: mude o endereço de hardware do seu dispositivo pra ter mais anonimato.
