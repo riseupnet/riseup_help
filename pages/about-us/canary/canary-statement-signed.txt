@@ -3,7 +3,7 @@ Hash: SHA512
 
 As of February 10, 2016 [1], riseup has not received any National Security Letters or FISA court orders, and we have not been subject to any gag order by a FISA court, or any other similar court of any government. Riseup has never placed any backdoors in our hardware or software and has not received any requests to do so. Riseup has never disclosed any user communications to any third party.
 
-Regarding server seizures, in a widely-reported incident [2], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of October 2, 2015 riseup confirms that it has never had any hardware seized or taken by any third party.
+Regarding server seizures, in a widely-reported incident [2], the FBI seized one of riseup's servers in April 2012. This incident happened in New York. The machine was encrypted and contained no user data. The server was returned, but it was not placed back in service. Other than this incident, as of February 10, 2016 riseup confirms that it has never had any hardware seized or taken by any third party.
 
 Riseup intends to update this report approximately once per quarter.
 
@@ -11,17 +11,17 @@ Riseup intends to update this report approximately once per quarter.
 [2] https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCgAGBQJWu4WWAAoJEDBD4rcTmnaOBKkP/2GwWPkW1lzvikMUKT+38oEO
-OlY9pRejqZEntdYyQxNQcyp870gwdvkC3poySYbKXCxzS1rSUpIVdK7X8GdWpHGV
-nIF0m5NsToA+G/l/OmdC+fGOhg+XaGdKm7btjpjPxpgG7qT9UgGyEBwK4/IuVUze
-6+ZGs7smmHzYm1BNO2TYiRUiZOUCH6fKb2TV9ZgWccfwG2di7dPcxpkvLDX+0E9H
-lczmFu9R0qnSIaDGNLOYWWDUJJa3kVb3cJEGpHfg1PpE5+dJ4Z/nMKfI0vOlDZ9H
-8x0jiNQwQFeLi1EfymYZJFUrSdfIsNackyl9p3tNVT2NI3uYFqaYojDuWp8EW6r/
-u/EvetBE556CJvp6LA890s8EmkJBagkyHCgPAXkmXtjE6OF9mNZlhKY46qsQ8BHl
-T5FsitkbazfLe+qEjlMKUb6xW/+JoaW++WQdpXONCubi2vPfcrjHEUFWWIlcgmxi
-d3gHmYw+BX6OFwn21o+YuB0Fim+qJcgBzhq4Rpo5/otaoZD6vajLZ3sYIblGr4D2
-Cw9/e5htpM/qONw8wv3KNHCJxAAlPES324UIpT/3NDI7cSOHytKVbKtGd55hzqVQ
-8s/IbeNffBXEyfhKlwMytp45FQuxWqH1JCgGVagIWY5+MOslEKs98E78FZOl3Qq0
-k26jRMgmVU7G6lBTvgnX
-=rHxN
+iQIcBAEBCgAGBQJWvDEeAAoJEDBD4rcTmnaO6mkP/jUBF+DIz7cyLbaD2EeWdi9L
+y7YmfK2so6I+WBXhODcntXGV6IcNSrdtQCsQcETjV5KS77WF/Dojn/uBeg6lUwme
+f9A0m25dT4AcKptj+y+bw3998dQvJjQ7v7HKleabGXG8pvP6Zan3LCB/vFCRePA4
+etDxxcI1DId4xEugliN6aHaO9BJ+/oLSxvMjfPwVbvFiY9hjqsQFkEXsJ8ktznKS
+xfY6fxbJqwgu1glYpYzuMp3/T/Pf61B8t02gPPLbOTz19NVrzdPhBbzQr1qCUCSG
+e0i2cyLZnvCKGfDsvSWxcqQCB+NfL74q8752agBWpsme3q3Bta14wKtqqOlPyTQO
+3tJRpHlNhBA8KThOzNNPYBnwBvg5e+K1Y13c9vN5knmENElRh1AZ1/zlWca0c9Rb
+7Wenbzomu7gg7niMpXafwJDho4w86eklAndr9pNJiWtKvNkCVe8RY7nvkJhaWpWH
+2qapvTgn7ZTiLxRnI3JUNAOqOzL6I4VsJdr+6SEmUOAqfKH230gzUvIeu+Pnwd5z
+Dlz0eQdJpiABbSSuzXBZ5mizQwKknKx9YXZutg6kYUi1+zWfeB25wjQ5MbMT/aDI
+aPEpRJOLa0o08ESwhtarl/DdS2uGYaDQ2uxbb9UUUh5gZR5wATuSdTLNjA26cVzd
+4BD84ZfVmQQf/LKO6jZv
+=KQYy
 -----END PGP SIGNATURE-----
