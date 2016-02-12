@@ -14,25 +14,25 @@ h2. Qu'est-ce qu'un client de messagerie?
 
 Qu'est-ce qu'un client de messagerie? Un client de messagerie est un programme spécifique qui permet de lire et de composer des courriels. Il peut être Thunderbird, Apple Mail, Outlook, Eudora, etc. Peu importe son nom, le logiciel que vous utilisez pour lire et écrire des courriels est votre client de messagerie.
 
-h2. General settings
+h2. Paramètres généraux
 
-In general terms, you need to navigate the configuration settings for your mail program and make sure that it is set to use SSL or TLS on all connections (that means for POP or IMAP and SMTP), and also make sure that you are using the correct port. If you don't know what any of that means, don't worry, we will walk you through it.
+Peu importe le client de messagerie, vous devez être en mesure de modifier votre configuration pour vous assurer que votre client est paramétré pour utiliser les standards SSL ou TLS sur toutes vos connexions (que ce soit pour les connexions POP,IMAP ou SMTP). Il faut également que vous vous assuriez que vous utilisez les bons ports de connexion. Si vous ne savez pas ce que tout ceci veut dire, ne vous en faites pas: nous allons vous montrer comment faire.
 
-The specific procedure to do this is going to be a very different for each mail client, and sometimes is even quite different for different versions of the same software.
+La marche à suivre pour les différents programmes est très différente. C'est parfois également le cas entre diverses versions d'un même programme.
 
-In general, we do not offer support for mail clients.  However, we do have [[some general information about configuring mail clients->email/clients]]. If your client is listed, the information there will help you make the required changes.
+En général, nous n'offrons pas de support pour les clients de messagerie. Cependant, nous avons [[de l'information générale sur la configuration à suivre pour les divers clients de messagerie => email/clients]]. Si votre client de messagerie est dans cette liste, ces informations vous aiderons à faire les modifications nécessaires.
 
-If you aren't using Mozilla's Thunderbird, we would like to take a second to urge you to consider switching to it. It is a reasonably secure, easy to use, free software project. There is no harm in giving it a try! [[Best is that our instructions for setting up Thunderbird->thunderbird]] are really good, its what we know best and can support you much easier if you use it.
+Si vous n'utilisez pas Mozilla Thunderbird, nous aimerions prendre un instant pour vous convaincre d'y migrer. C'est un programme relativement sécuritaire, facile à utiliser et qui est un logiciel libre. Il n'y a pas de mal à l'essayer! [[Le mieux, c'est que nos instructions pour paramétrer Thunderbird => thunderbird]] sont réellement excellentes. De plus, comme nous connaissons mieux ce programme que les autres, il nous est plus facile de vous aider en cas de problème.
 
-If you don't want to switch to Thunderbird, and are not familiar with how to make these changes yourself, and our help pages weren't helpful, you will need to seek support from your local friendly tech person, or your software vendor/community for information about how to make the required configuration changes.
+Si vous ne souhaitez pas utiliser Thunderbird, que vous n'êtes pas familières ou familiers avec la manière de faire ces changements et que nos pages d'aides ne vous aident pas, vous devrez aller demander de l'aide aux personnes proches de vous qui s'y connaissent en informatique. La compagnie ou la communauté qui développe votre logiciel peut aussi peut-être vous aider.
 
 h2. Thunderbird
 
-To make the required changes in Thunderbird, follow these steps:
+Pour faire les modifications requises dans Thunderbird, suivez ces étapes:
 
-First, find out what version of Thunderbird you have by clicking the "Help" menu --> "About Thunderbird"
+Premièrement, il vous faut trouver la version de Thunderbird que vous utilisez en cliquant sur le menu "Aide" --> "À propos de Thunderbird"
 
-Once you have determined your version number, follow one of the below processes that matches your version.
+Une fois que vous avez déterminé la version du logiciel, suivez un des deux guides ci-dessous.
 
 h3. Thunderbird 3.x and newer
 
