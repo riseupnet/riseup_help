@@ -32,7 +32,7 @@ To make the required changes in Thunderbird, follow these steps:
 
 First, find out what version of Thunderbird you have by clicking the "Help" menu --> "About Thunderbird"
 
-Once you have determined your version number, follow one of the below processes that matches your version.
+Once you have determined your version number, follow one of the below processes that matches your version. If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
 
 h3. Thunderbird 3.x and newer
 
@@ -56,31 +56,6 @@ To make the changes needed to enable secure connections in Thunderbird version 3
 * Click "OK"
 * Click "OK" again
 * At no point in time should you change the "Authentication Method" setting - it should always say "Normal Password"
-* Your work here is done!!! Yay!
-
-h3. Thunderbird 2.x or older
-
-If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
-
-If you do happen to use this old version and can't upgrade yet, then please follow these steps:
-
-* Choose "Account Settings" from the "Tools" menu
-* Select "Server Settings" for your riseup account after the account settings dialog box pops up
-* In the center of the box you'll see a heading that reads "Security Settings"
-* Choose "SSL"
-* DO NOT check the box that says "Use Secure Authentication"
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
-* This should automatically be set, but check it to be sure
-** Port number should be 993 if using IMAP
-** Port number should be 995 is using POP
-* There is a "Server Type" line at the top of the "Server Settings" dialog box that tells you if you are using IMAP or POP
-* Next click "Outgoing server (SMTP)" in the left-hand pane
-* Click once on riseup's SMTP server in the right-hand pane
-* Click "Edit" on the far right of the dialog box
-* Set "Use Secure Connection" to "SSL"
-* Make sure the "Port" setting is set to 465
-* Click "OK"
-* Click "OK" again
 * Your work here is done!!! Yay!
 
 h2. iOS
