@@ -20,3 +20,5 @@ Sylpheed is very easy to set up.
 # Select *Use SMTP Authentication*.
 # Click *Forward*.
 # You are done configuring your email client! Make sure to test your ability to send/receive mail!
+
+***Note***: If you use *SSL/TLS* for SMTP as descript earlier, remember to change the **smtp port** to **587** in advance options.
