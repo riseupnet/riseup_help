@@ -1,65 +1,62 @@
 @title = 'Webmail'
 @nav-title = 'pt-webmail'
 
-h2. This translation needs help - see below
+h2. O que é webmail
 
-This page is really out of date.
+Com um webmail, você pode checar seu e-mail Riseup.net de qualquer computador que tenha um navegador da Web.
 
-The content should be:
+Para usar o webmail de Riseup, visite https://mail.riseup.net.
 
-* webmail comparison: squirrelmail vs imp vs roundcube.
-* don't use IE.
-* cookies must be enabled
-* checking server status
-* exporting your address book
-* exporting your email
+A principal razão para usar um webmail é não possuir um dispositivo próprio no qual se pode instalar um cliente de e-mail. Às vezes, as pessoas usam webmail porque não querem deixar registro de sua conta de e-mail no dispositivo. Essa não é uma boa solução, porque navegadores da Web podem deixar arquivos temporários, e arquivos de sessão podem ser recuperados com as ferramentas certas.
 
-h2. introduction
+h2. Opções de webmail
 
-explain what webmail is.
+Atualmente, Riseup oferece duas opções de webmail:
 
-compare the different webmail interfaces.
+# *Roundcube*: Roundcube tem uma interface fluida e adaptável, mas requer Javascript e pode não funcionar para algumas pessoas.
+# *SquirrelMail*: Squirrelmail é mais simples e não requer Javascript.
 
+h2. Habilite os cookies
 
-h2. Não use o Internet Explorer
+Por segurança, nós exigimos cookies. Sem eles, é impossível garantir que sua sessão será segura.
 
-Se tu fores usar um webmail para checar seu email, por favor não use o Internet Explorer (IE). Todas as versões do IE de antes da 9.0 são muito [[defeituosas e inseguras  => http://browsehappy.com/why/]].
+Infelizmente, cookies também possibilitam que anunciantes e sites como o Google rastreiem quase toda a sua atividade na Web. Se isso preocupa você, sugerimos que desabilite cookies de terceiros. Uma alternativa é bloquear todos os cookies e então permitir apenas aqueles dos sites que você quiser.
 
-O que deverias usar? Felizmente, existem múltiplos navegadores livres e código-aberto de qualidade para escolher:
+h2. Problemas com o login?
 
-* [[Firefox  =>  http://getfirefox.com/]]: Firefox é desenvolvido pela Mozilla Foundation, sem fins lucrativos.
-* [[Chrome  =>  https://www.google.com/chrome]]: Chrome é um navegador código aberto desenvolvido primariamente pela Google.
+É muito comum nos perguntarem: "por que não consigo entrar no sistema?". Tentaremos, nesta página, ajudá-lo a descobrir e consertar o que há de errado.
 
-h2. Cookies devem ser habilitados
+Quase sempre, problemas de autenticação decorrem de uma destas causas:
 
-Por razões de segurança, nós requisitamos cookies. Sem cookies, é impossível se autenticar seguramente. Cookies tem uma má reputação porque eles permitem a anunciantes rastrear tua atividade na web, mas para webmail cookies são ótimos.
+* Seu navegador está bloqueando cookies.
+* Você digitou seu nome de usuário ou senha incorretamente.
+* Seu navegador é antigo e não dá suporte a Javascript ou a conexões criptografadas.
+* Nosso servidor de e-mail está fora do ar.
 
-h2.  Solução de problemas de autenticação webmail 
+h4. Passo 1: Certifique-se de que os cookies estão habilitados
 
-A questão mais comum que recebemos é esta: "porque não posso autenticar-me/logar-me?" Essa página irá ajudar-te a descobrir o que está errado e a consertar isto.
+Para instruções específicas sobre gerenciamento de cookies, veja:
 
-Quase sempre, problemas de autenticação são decorrentes de uma das causas a seguir:
-
-* Teu navegador está bloqueando cookies.
-* Tu digitou seu nome de usuário ou senha incorretamente.
-* Teu navegador é antigo e não suporta javascript ou conexões encriptadas corretamente.
-* Nosso servidor de e-mail está fora do ar (embora isso raramente aconteça)
+* "Firefox":https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+* "Chrome":https://support.google.com/chrome/answer/95647
+* "Internet Explorer 9":http://windows.microsoft.com/en-US/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
+* "FAQ do Windows sobre cookies":http://windows.microsoft.com/en-us/windows/cookies-faq
 
 h4.  Passo 2: Tente outros navegadores 
 
-Se ainda não consegues autenticar-te, deverias então descobrir se o problema é com a tua conta ou com teu computador. 
+Se ainda não conseguiu, procure descobrir se o problema é com a sua conta ou com seu computador. 
 
-* Tente outros computadores ou navegadores. Para esse teste ser prestativo, os outros computadores e navegadores devem ser tão diferentes quanto for possível. Se puderes, tente autenticar-te de uma rede diferente, usando um navegador diferente, com um outro sistema operacional.
+* Tente outros computadores e navegadores. Para esse teste ser eficiente, os outros computadores e navegadores devem ser tão diferentes quanto for possível. Se puder, tente se autenticar de uma rede diferente, usando um navegador diferente, com um outro sistema operacional.
 
-* Sugerimos que tu [[baixe e instale o firefox => http://getfirefox.com]]. Se isso funcionar, então o problema é com o teu navegador.
+* Sugerimos que você baixe e instale uma versão recente do Firefox ou do Chrome. Se der certo, então o problema é com o seu navegador.
 
-h4.  Passo 3: Verifique o estado do servidor
+h4.  Passo 3: Verifique o status do servidor
 
-É possível que o servidor esteja fora do ar. Tu podes ver o estado do servidor de e-mail, e leres quaisquer avisos do serviço, nesta página:
+É possível que o servidor esteja fora do ar. Você pode ver o status do servidor de e-mail, além de ler avisos do serviço, nesta página:
 
 * https://status.riseup.net
 
-h4. Passo 4: Chames por ajuda! 
+h4. Passo 4: Peça ajuda! 
 
-Se nada acima parece funcionar, então [[preenche um formulário de ajuda => https://user.riseup.net/forms]]. Mas por favor, tenta aquelas sugestões primeiro! E também, incluas em tua descrição do problema um sumário das coisas que já tentaste.
-
+Se nada acima parece funcionar, então "preencha um ticket de ajuda":https://user.riseup.net/forms. Mas, por favor, tente as nossas sugestões primeiro! E também inclua na descrição do problema um resumo de tudo o que já tentou.

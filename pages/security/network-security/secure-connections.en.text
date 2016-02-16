@@ -111,9 +111,9 @@ A: POP and IMAP are common protocols that are used by software to retrieve mail 
 
 Q: If I'm configuring my mail software myself, what port numbers should I use?
 
-A: For POP connections using SSL or TLS, use port number 995.
-   For IMAP connections using SSL or TLS use port number 993.
-   For SMTP connections using SSL or TLS use port number 465.
+A: For POP connections using TLS, use port number 995.
+   For IMAP connections using TLS use port number 993.
+   For SMTP connections using TLS use port number 465.
 
 Q: What if I have more questions about using internet email securely?
 

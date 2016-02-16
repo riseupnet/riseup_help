@@ -16,7 +16,7 @@ h3. 个人资料
 
 添加以下行于*~/.mutt/muttrc*：
 
-<code>
+<pre>
 # Account
 set realname  = 'Foo Bar'
 set from      = foo@riseup.net
@@ -28,13 +28,13 @@ set smtp_pass = $imap_pass
 # Connection
 set ssl_force_tls = yes
 set ssl_starttls  = yes
-</code>
+</pre>
 
 h3. 在@mutt@使用**IMAP**
 
 添加以下行于*~/.mutt/muttrc*：
 
-<code>
+<pre>
 # Receive
 set imap_user = foo@riseup.net
 set imap_pass = 'password'
@@ -45,18 +45,18 @@ set imap_check_subscribed
 set spoolfile = +INBOX
 set postponed = +Drafts
 set record    = +Sent
-</code>
+</pre>
 
 h3. 在@mutt@使用**POP**
 
 看看https://wiki.archlinux.org/index.php/Mutt#POP3了解更多详情。
 
-h3. 在@mutt@使用[[**OpenPGP** => security/message-security/openpgp]]
+h3. 在@mutt@使用[[OpenPGP]]
 
-# [[设置OpenPGP => security/message-security/openpgp/gpg-keys]]
+# [[设置OpenPGP => openpgp]]
 # 添加以下行于~/.mutt/muttrc后，以**sec**在<code>gpg -K</code>为<code>0xDBD0F842</code>
 
-<code>
+<pre>
 set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
 set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
 set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
@@ -74,14 +74,14 @@ set pgp_sign_as=0xDBD0F842
 set pgp_replyencrypt=yes
 set pgp_timeout=1800
 set pgp_good_sign="^gpg: Good signature from"
-</code>
+</pre>
 
-h3. 在@mutt@使用[[**TOR** => security/network-security/tor]]
+h3. 在@mutt@使用[[Tor]]
 
-为增强安全性，使用我们的邮件服务通过[[Tor隐藏服务 => security/network-security/tor#riseups-tor-hidden-services]]。
+为增强安全性，使用我们的邮件服务通过[[Tor隐藏服务 => tor]]。
 
-# [[设置Tor => https://help.riseup.net/en/security/network-security/tor#get-tor-installed]]。
-# 取代@zsolxunfmbfuq7wf.onion@于@mail.riseup.net@在*~/.mutt/muttrc*
+# [[设置Tor => tor]]。
+# 取代@.onion@于@mail.riseup.net@在*~/.mutt/muttrc*
 # 加入@alias mutt="torify mutt 2>/dev/null"@在*~/.bashrc*或*~/.zshenv*. fish的用户，加入@alias mutt="torify mutt ^ /dev/null"@在*~/.config/fish/config.fish*
 
 享受使用@mutt@！参见https://wiki.archlinux.org/index.php/Mutt欲解更多信息.

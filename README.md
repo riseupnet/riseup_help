@@ -1,7 +1,7 @@
 Riseup Help Pages
 ==================================
 
-This is the repository for the riseup help pages at http://help.riseup.net.
+This is the repository for the riseup help pages at https://help.riseup.net.
 
 It is entirely static, but relies on a bunch of apache tricks for things like
 language negotiation. Riseup help uses a static website generator called `amber`
@@ -45,7 +45,7 @@ program called `amber`.
 
 To install on Debian or Ubuntu (Wheezy or later):
 
-    sudo apt-get install ruby ruby-dev
+    sudo apt-get install ruby ruby-dev build-essential zlib1g-dev
     sudo gem install amber
 
 To install on Mac, see below. Check https://github.com/elijh/amber for more
@@ -248,6 +248,8 @@ pages need to be updated. However, in the future, I plan to add the command
 `amber diff [language-code]`, which will automatically spit out a listing that
 shows the changes made to the source English pages since the translation for
 each page was made.
+
+In the meantime, you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
 
 Installing on Mac
 --------------------------------------------

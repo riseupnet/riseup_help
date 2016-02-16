@@ -1,0 +1,50 @@
+@title = 'Filtres de messages'
+
+h2. Comment modifier mes filtres de messages ?
+
+# Premièrement, vérifiez que le dossier dans lequel le nouveau filtre enverra les messages existe déjà. Vous pouvez créer un nouveau dossier depuis votre client de messagerie ou depuis le webmail.
+# Identifiez-vous sur https://user.riseup.net
+# Cliquez sur *Courriel* dans la colonne de gauche.
+# Cliquez sur l'onglet *filtres-courriel*.
+# Dans cet onglet, vous pouvez changer l'ordre d'exécution des filtres, modifier ou supprimer des filtres existants, ou en ajouter de nouveaux. Pour modifier un filtre existant, cliquez dessus et vous serez dirigé vers une page où vous pouvez ajouter de nouvelles conditions, ou supprimer ou modifier des conditions déjà existantes.
+
+h2. Comment paramétrer un filtre pour un sous-dossier (imbriqué dans un premier dossier) ?
+
+# Suivez les étapes présentées ci-dessus pour créer ou modifier un filtre.
+# Placez un point "." entre le nom du dossier parent et celui du sous-dossier (par exemple, le dossier /riseup/Lists doit être entré comme "riseup.Lists" ; les noms des dossiers sont sensibles à la casse donc n'oubliez pas les éventuelles majuscules).
+# Sauvegardez votre filtre.
+
+h2. Comment bloquer une adresse email ?
+
+Si vous recevez des messages inappropriés ou du spam, et que vous voulez vous assurer que les messages provenant d'une adresse en particulier soient automatiquement supprimés, vous pouvez suivre les étapes suivantes :
+
+# Identifiez-vous sur https://user.riseup.net
+# Cliquez sur *Courriel* dans la colonne de gauche.
+# Cliquez sur l'onglet *filtres-courriel*.
+# Cliquez sur *Ajouter un filtre*.
+# Nommez le filtre comme vous voulez, par exemple "Envoyer à la corbeille".
+# Dans *correspondance des messages*, sélectionnez *De* et *Contiens* et entrez l'adresse email indésirable, par exemple "president@elysee.fr"
+# Dans la case *sera placé dans le dossier*, entrez "Trash" (sensible à la casse, n'oubliez pas la majuscule).
+# Cliquez finalement sur *Sauvegarder*.
+
+Et voilà ! Désormais tout email en provenance de cette adresse sera automatiquement déplacé dans la corbeille.
+
+Note : si vous souhaitez que ce filtre agisse sur les emails provenant de plusieurs adresses, cliquez simplement sur *ajouter une condition* et suivez les étapes 6 à 8 ci-dessus pour ajouter une nouvelle adresse au filtre. Inutile de créer un nouveau filtre pour chaque adresse.
+
+h2. Comment déclarer des messages légitimes pour qu'ils ne soient plus filtrés par l'anti-spam ?
+
+Si un type de message particulier est systématiquement détecté comme un spam et que vous voulez vous assurer que cela n'arrive plus, suivez ces instructions :
+
+# Identifiez-vous sur https://user.riseup.net
+# Cliquez sur *Courriel* dans la colonne de gauche.
+# Cliquez sur l'onglet *Paramètres de gestion des pourriels*.
+# Si vous ne l'avez pas encore fait, cliquez sur *Enable custom spam settings*.
+# Défilez vers le bas de la page jusqu'à *Liste autorisée* et ajoutez à cette liste l'adresse que vous voulez autoriser à vous envoyer des messages.
+# Cliquez sur *Sauvegarder les changements*.
+
+h2. Puis-je paramétrer un répondeur automatique pour les périodes où je ne relève pas mes messages ?
+
+Non, Riseup ne propose pas cette option de répondeur automatique. La raison principale est que si vous activez le répondeur, votre adresse répondra automatiquement aux spams. Les spammeurs sauront donc immédiatement que votre adresse est active, ce qui la classera dans les adresses à spammer en priorité.
+
+Les réponses automatiques peuvent aussi être une nuisance. Par exemple si vous êtes abonné à une liste de diffusion, en votre absence les réponses automatiques seront envoyées à tous les membres de la liste à chaque message envoyé à la liste. Riseup a déjà fait face à des problèmes de ce type : il nous est arrivé d'être bloqués par les filtres anti-spam des principaux fournisseurs de messagerie. Le trafic généré par des réponses automatiques en provenance d'adresses riseup ne peut qu'aggraver ce problème.
+

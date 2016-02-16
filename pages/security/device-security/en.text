@@ -1,18 +1,20 @@
 @title = "Device Security"
 
-Well... this page is just a placeholder. It needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
+This page is currently just a placeholder as it still needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
 
 h1. Disk Encryption
+
+Encrypting your device's disks is one of the easiest things you can do to prevent unauthorized access to your data. Proper disk encryption can prevent access to your data when the device is turned off or if it is seized. We recommend that any solution chosen should fully encrypt your disk, this is also known as Full Disk Encryption (FDE). FDE ensures that most of your disk space is rendered unreadable to any individual without the proper decryption key. Please remember however that certain countries and legal jurisdictions may compel you reveal your disk's password during an investigation. This may include locations such as border crossings in your country. So always take proper precautions to protect and hide your data, even on a device with a fully encrypted disk.
 
 Difficulty: Easy to Hard
 Why: Prevent access of information stored on your computer's hard disk.
 
-Easiest: LUKS encrypion of partitions at fresh installation.
-Easy: formatting new partition with LUKS, move existent data there and "scrub":https://code.google.com/p/diskscrub/ the old location of data.
-Medium: LUKS encryption on LVM.
-Medium: ecryptfs over specific files/directories.
-Hard: encryption of whole disk, with key file placed in another device (like a pendrive).
-Hardest: Steganographic methods.
+* Easiest: "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md encryption of partitions at fresh installation.
+* Easy: Formatting new partition with LUKS, move existent data there and "scrub":https://code.google.com/p/diskscrub/ the old location of data.
+* Medium: LUKS encryption on LVM.
+* Medium: ecryptfs over specific files/directories.
+* Hard: encryption of whole disk, with key file placed in another device (like a pendrive).
+* Hardest: Steganographic methods.
 
 h1. Personal Firewall
 

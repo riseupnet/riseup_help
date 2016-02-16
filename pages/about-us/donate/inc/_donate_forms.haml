@@ -36,13 +36,6 @@
       %b= t :yes_value
     %td= t :flattr_note
   %tr
-    %td <a href="#gratipay"><img src="img/gratipay.png"></a>
-    %td
-      %b= t :yes_value
-    %td= t :no_value
-    %td
-      %b= t :yes_value
-    %td= t :gratipay_note
 
 .panel.panel-default
   %h2.hidey= t :bitcoin
@@ -151,13 +144,4 @@
         %b= t :flattr
         %input(type="submit" value="#{t :donate}")
 
-.panel.panel-default
-  %h2.hidey= t :gratipay
-  .panel-heading
-    <a name="gratipay"><img src="img/gratipay.png"></a>
-  .panel-body
-    %p= t :gratipay_description
-    .donation
-      %form(action="https://www.gratipay.com/riseup.net" method="get")
-        %b= t :gratipay
-        %input(type="submit" value="#{t :donate}")
+

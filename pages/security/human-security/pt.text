@@ -1,0 +1,31 @@
+@title = "Errar é humano"
+
+Grande parte deste guia sobre segurança é dedicada à criptografia, mas, no final das contas, criptografar é inútil quando não são tomados cuidados que, apesar de básicos, são indispensáveis.
+
+h2. Salve o mundo com senhas melhores
+
+<%= render 'common/good-passwords' %>
+
+h2. Armadilhas comuns na Internet
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Mantenha seu software atualizado
+
+Esta seção ainda precisa ser escrita! Se você souber inglês, "contribua com conteúdo":https://github.com/riseupnet/riseup_help para esta página.
+
+h2. Use computadores compartilhados com cautela
+
+Desconecte-se: Depois de usar o _webmail_, lembre-se de sair da conta. Apesar de simples, esse passo é muito importante, principalmente em um computador público. Além disso, não deixe seu computador desbloqueado se precisar desocupá-lo.
+
+Evite computadores públicos: Se não puder, mude sua senha com frequência ou insira-a com o *teclado virtual* (se você usa o _webmail_ de riseup.net), pois as teclas podem ser rastreadas.
+
+Se você compartilha um computador com pessoas conhecidas, crie várias contas para manter as configurações de cada uma separadas. Encerre ou bloqueie sua sessão quando desocupá-lo.
+
+h2. Apaixone-se por software livre e de código aberto
+
+Por que usar GNU/Linux em vez de Windows ou OS X? Há muitas razões, uma das quais é a desconfiança inspirada pela grande quantidade de vírus, cavalos de Troia, "passagens secretas" (programas _backdoor_), erros de segurança, espionagens do governo e outros abusos verificados ao longo dos anos. Por que esses sistemas operacionais são "caixas pretas", isto é, têm o código fechado, não se pode saber como funcionam e que abusos sofre quem os usa. Por que não são livres, não são leais à sua vontade, mas ao arbítrio de empresas cujo único objetivo é o lucro, não a segurança das suas informações pessoais.
+
+Esses problemas estão presentes tanto no Windows como no OS X. Embora seja baseado no Unix (do qual o GNU/Linux é um "clone"), o sistema operacional da Apple é, em grande parte, de código fechado e, portanto, só pode ser escrutinado por quem participa diretamente do seu desenvolvimento. O autoritarismo da cultura corporativa da Apple reflete-se na estrutura do OS X. A popularidade crescente do sistema resulta em cada vez mais vírus e ataques, ainda que bem menos que no Windows. Além disso, o OS X inclui um "recurso" para ativar a câmera a distância que pode, em qualquer sistema, ser usado maliciosamente.
+
+Já o GNU/Linux é composto principalmente - e, se você quiser, exclusivamente - de software desenvolvido pela comunidade e cujo código pode ser obtido e auditado por qualquer pessoa. Tem um histórico de poucos vírus e de baixo nível de acesso nos ataques. O sistema é fácil de usar e leve, ou seja, pode ser usado em máquinas mais antigas.

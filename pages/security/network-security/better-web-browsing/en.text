@@ -72,10 +72,15 @@ These are absolutely essential browser extensions that everyone should be using 
     !img/badger-64.png!
   </td>
   <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have.
   </td>
 </tr>
 </table>
+
+Usage notes:
+
+* Leaking IP addresses: All browsers will leak your real IP address when using audio or video conferencing. If you use a VPN or Tor with audio or video chat, then you should open the uBlock settings and enable the option that prevents WebRTC from leaking your real IP address.
+* uBlock advanced mode: If you run uBlock in [[advanced mode => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], you should not also run Privacy Badger.
 
 h3. Advanced extensions
 
@@ -93,18 +98,13 @@ Some of these privacy flaws include:
 For Firefox:
 
 * [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
-* [[NoScript => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] allows you to selectively block Javascript and Java.
-* [[RequestPolicy => https://www.requestpolicy.com/]] enables you to prevent a site from loading any third -party content.
-* [[RefControl => https://addons.mozilla.org/en-US/firefox/addon/refcontrol/]] will suppress the HTTP referrer header.
-* [[Random Agent Spoof => https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/]] will change your User-Agent string randomly.
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It effectively replaces NoScript and RequestPolicy.
 * [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
 
 For Chrome:
 
-* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] is an advanced tool to control precisely what content your browser is allowed to load. It allows you to selectively block Javascript, and so much more. It includes the functionality of NoScript and RequestPolicy.
-* [[NOREF => https://chrome.google.com/webstore/detail/dkpkjedlegmelkogpgamcaemgbanohip]] will suppress the HTTP referrer header).
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
 * [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
-* [[Random User-Agent => https://github.com/tarampampam/random-user-agent]] will change your User-Agent randomly.
 
 h3. Harmful or not recommended
 

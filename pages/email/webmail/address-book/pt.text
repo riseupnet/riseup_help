@@ -1,0 +1,39 @@
+@title = "Contatos do webmail"
+@nav"title = "Contatos"
+
+h2. Importar manualmente seus contatos do Squirrelmail para o Roundcube
+
+Se você está lendo isso, provavelmente é porque nossos scripts para importar automaticamente sua lista de contatos para o Roundcube não funcionaram. Ops! Felizmente, é fácil importá-los manualmente.
+
+h3. Importar seus contatos do SquirrelMail
+
+# "Faça login no SquirrelMail":https://mail.riseup.net/sm
+# Clique em "Addresses"
+# Role para baixo e clique em "Export to CSV file" (você pode deixar as configurações exatamente como estão)
+# "Faça login no Roundcube":https://mail.riseup.net/rc
+# Entre no "Catálogo de endereços"
+# Clique em "Importar"
+# Selecione o arquivo que você acabou de exportar do SquirrelMail
+# Clique em "Importar"
+
+h2. Como criar um grupo com seus contatos no SquirrelMail?
+
+Você pode criar uma lista de e-mails com os seus contatos. Antes, é preciso adicionar esses contatos a "Addresses".
+
+# "Faça login no SquirrelMail":https://mail.riseup.net/sm
+# Clique em "Options"
+# Clique em "Address Groups"
+# Clique em "Add New Member"
+# Clique em "List All Groups"
+# Selecione os contatos que você deseja adicionar ao grupo
+# Digite o nome do grupo no campo "Add to New Group"
+# Clique em "Add"
+
+h2. Como remover alguém de um grupo no SquirrelMail?
+
+# "Faça login no SquirrelMail":https://mail.riseup.net/sm
+# Clique em "Options"
+# Clique em "Address Groups"
+# Clique em "Modify"
+# Clique em "List"
+# Selecione a pessoa que você quer remover

@@ -17,6 +17,7 @@ email
     postbox
     sylpheed
     claws
+    mutt
   webmail
     address-book
     where-is-imp
@@ -82,10 +83,11 @@ security
   network-security
     secure-connections
     better-web-browsing
-    tor
     certificates
     riseup-ca
     starttls
+    tor
+      onionservices-best-practices
   resources
     radical-servers
 about-us

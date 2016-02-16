@@ -1,0 +1,27 @@
+@title = 'Contato'
+
+O melhor meio de entrar em contato conosco é preenchendo um ticket de ajuda. Por favor visite https://user.riseup.net para criar um ticket. Note que não é necessário possuir uma conta de e-mail Riseup para preencher o ticket.
+
+Para contatar-nos a respeito de dúvidas em geral sobre o nosso coletivo, envie um e-mail para collective@riseup.net. Qualquer pergunta sobre ajuda direcionada a este e-mail será ignorada.
+
+Nosso GPG Key-ID longo é 0x3043E2B7139A768E. O fingerprint completo é:
+
+pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+
+Não existe nenhuma razão especial para você confiar nesta chave. No entanto, você pode verificar quem confia nela:
+
+pre. gpg --list-sigs 3043E2B7139A768E
+
+Nosso endereço para correspondências é:
+
+<pre>
+riseup.net
+PO Box 4282
+Seattle, WA 98194 USA
+</pre>
+
+Membros e amigos do coletivo Riseup são frequentemente encontrados no IRC em irc.indymedia.org na sala de bate-papo #riseup. *Por favor note: para se juntar ao canal #riseup, você precisa estar conectado via SSL na porta 6697.* Você pode utilizar a interface web em https://chat.indymedia.org para entrar em contato com nós por esse canal se "IRC" não lhe é um acrônimo familiar.
+
+Também estamos no "Twitter":https://twitter.com/riseupnet.
+
+Procurando por gráficos do Riseup em alta resolução? Venha dar uma olhada em [[images]].
