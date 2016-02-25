@@ -63,13 +63,15 @@ Si vous avez un appareil Apple, vous pouvez lire nos [[instructions->https://hel
 
 h2. FAQ
 
-Q: What if I use webmail, is that secure?
+Q: Et si j'utilise la messagerie web, est-ce sécuritaire?
 
-A: When you use the web, you are making a connection from your computer, through various servers on the internet, to the webserver of the site you are trying to visit. You are making this connection using something called "HTTP". This connection is done in plain text, and is not secure. Attackers can gain access to your website accounts, and any information that you send or receive during your web browsing. There is hope! There is a secure version of "HTTP" called "HTTPS" (notice the little 's' for secure). HTTPS is designed to provide secure connections that can withstand attacks.
+A: Quand vous utilisez le web, vous faites des connexions depuis votre ordinateur, à travers divers serveurs sur l'internet, vers le serveur que vous tentez de visiter. Vous faites de connexions en utilisant quelque chose nommée "HTTP. Cette connexion est faite en clair et n'est pas sécuritaire. Des attaquant-e-s peuvent avoir accès à vos comptes en ligne ainsi qu'à toute l'information que vous envoyez ou que vous recevez en ligne. Il y a cependant de l'espoir! Il y a une version sécurisée de "HTTP" nomée "HTTPS" (remarquez ici le petit 's' pour sécurisé). HTTPS est construite pour fournir des connexions sécurisés qui résistent aux attaques.
 
-For further security, you should consider verifying that the website you are visiting is the one you intend to visit. When using HTTPS, you are receiving a certificate from the server which is supposed to authenticate that this is the correct server. To verify that the site is the one you intend to visit, you [[should verify that the certificate that is presented is the correct one->/certificates]].
+Pour plus de sécurité, vous devriez considérer la vérifier si les sites webs que vous visitez sont biens ceux qu'ils prétendent être. Quand vous utilisez HTTPS, vous recevez un certificat du serveur qui est supposé prouver qu'il est authentique. Pour vérifier que le site est bien celui que vous tentez de visiter, vous [[devriez vérifier que le certificat qui vous est présenté est le bon => /certificates]].
 
-There are some issues with certificates that you should be aware of (see limitations of secure connections below).
+Il existe cependant des problèmes avec les certificats et vous devriez en être conscient-e-s (voir plus bas les limites des connexions sécurisées).
+
+Regardez dans la barre d'URL, où l'adresse d'un site se trouve. Si elle commence par "https://" (NOTEZ le 's'), alors vous avez une connexion sécurisé. Si vous ne voyez que "http://" (SANS 's'), alors votre connexion n'est pas sécurisée. Vous pouvez changer le "http" pour "https" en cliquant dans la barre d'URL, en y ajoutant le 's' et en pesant sur la touche "Entrée" pour charger la page de manière sécurisée.
 
 Look up at the URL bar, where the address is. If it starts with “https://” (NOTE the ‘s’), then you have a secure connection, if its just “http://” (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit to load the page securely.
 
