@@ -64,10 +64,6 @@ If you have an apple device like this, you can review our [[instructions->https:
 
 h2. FAQ
 
-Q. I have this setup already and have for years! Why are you contacting me?
-
-Do you have a phone or a tablet that you set up mail on, or another computer? People often forget that they set their mail up on their devices!
-
 Q: What if I use webmail, is that secure?
 
 A: When you use the web, you are making a connection from your computer, through various servers on the internet, to the webserver of the site you are trying to visit. You are making this connection using something called "HTTP". This connection is done in plain text, and is not secure. Attackers can gain access to your website accounts, and any information that you send or receive during your web browsing. There is hope! There is a secure version of "HTTP" called "HTTPS" (notice the little 's' for secure). HTTPS is designed to provide secure connections that can withstand attacks.
