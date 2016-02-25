@@ -43,32 +43,25 @@ Pour paramétrer Thunderbird 3.x ou une version plus récente de manière sécur
 * Sous cet entête se trouve un menu déroulant nommé "Sécurité de la connexion"
 * Ce menu déroulant doit être mis à l'option "SSL/TLS"
 * Dans le coin supérieur droit de la fenêtre se trouve un paramètre nommé "Port"
-
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
-* This should automatically be set, but check it to be sure
-** Port number should be 993 if you are using IMAP
-** Port number should be 995 is you are using POP
-* There is a "Server Type" line at the top of the "Server Settings" dialog box that tells you if you are using IMAP or POP
-* Next click "Outgoing server (SMTP)" in the left-hand pane
-* Click once on riseup's SMTP server in the right-hand pane
-* Click "Edit" on the far right of the dialog box
-* Set "Connection Security" to SSL/TLS
-* Make sure the "Port" setting is set to 465
-* Click "OK"
-* Click "OK" again
-* At no point in time should you change the "Authentication Method" setting - it should always say "Normal Password"
-* Your work here is done!!! Yay!
-
+* Ce paramètre devrait être paramétré automatiquement, mais c'est une bonne idée de le vérifier tout de même
+** Le numéro de port devrait être 993 si vous utilisez IMAP
+** Le numéro de port devrait être 995 si vous utilisez POP
+* Une ligne nommée "Type de serveur" en haut de la fenêtre vous indique si vous utilisez IMAP ou POP
+* Ensuite, cliquez sur l'option "Serveur sortant (SMTP)" dans le menu de gauche
+* Cliquez une fois sur le serveur SMTP Riseup dans la liste à droite
+* Cliquez sur le bouton "Modifier" complètement à droite de la fenêtre
+* Assurez-vous que le paramètre "Sécurité des connexions" est à "SSL/TLS"
+* Assurez-vous que le paramètre "Port" est à 465
+* Cliquez sur "OK"
+* Cliquez sur "OK" une seconde fois
+* En aucun cas vous ne devriez modifier le paramètre "Méthode d'authentification". Il devrait être laissé à "Mot de passe normal"
+* Et voilà, vous avez fini! Bravo!!
 
 h2. iOS
 
-If you have an apple device like this, you can review our [[instructions->https://help.riseup.net/en/iphone-mail]] for them to figure out how to change your settings to be secure.
+Si vous avez un appareil Apple, vous pouvez lire nos [[instructions->https://help.riseup.net/fr/iphone-mail]] pour savoir quels paramètres il est nécessaire de modifier pour sécuriser vos connexions.
 
 h2. FAQ
-
-Q. I have this setup already and have for years! Why are you contacting me?
-
-Do you have a phone or a tablet that you set up mail on, or another computer? People often forget that they set their mail up on their devices!
 
 Q: What if I use webmail, is that secure?
 
