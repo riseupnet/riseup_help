@@ -43,7 +43,7 @@ To make the changes needed to enable secure connections in Thunderbird version 3
 * In the center of the box you'll see a heading that reads "Security Settings"
 * Under that heading is a drop down labeled "Connection Security"
 * That drop down should be set to read SSL/TLS
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
+* In the upper-right corner of the dialog box there is a setting that reads "Port"
 * This should automatically be set, but check it to be sure
 ** Port number should be 993 if you are using IMAP
 ** Port number should be 995 is you are using POP
