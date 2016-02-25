@@ -21,7 +21,6 @@ Peu importe le client de messagerie, vous devez être en mesure de modifier votr
 La marche à suivre pour les différents programmes est très différente. C'est parfois également le cas entre diverses versions d'un même programme.
 
 En général, nous n'offrons pas de support pour les clients de messagerie. Cependant, nous avons [[de l'information générale sur la configuration à suivre pour les divers clients de messagerie => email/clients]]. Si votre client de messagerie est dans cette liste, ces informations vous aiderons à faire les modifications nécessaires.
-
 Si vous n'utilisez pas Mozilla Thunderbird, nous aimerions prendre un instant pour vous convaincre d'y migrer. C'est un programme relativement sécuritaire, facile à utiliser et qui est un logiciel libre. Il n'y a pas de mal à l'essayer! [[Le mieux, c'est que nos instructions pour paramétrer Thunderbird => thunderbird]] sont réellement excellentes. De plus, comme nous connaissons mieux ce programme que les autres, il nous est plus facile de vous aider en cas de problème.
 
 Si vous ne souhaitez pas utiliser Thunderbird, que vous n'êtes pas familières ou familiers avec la manière de faire ces changements et que nos pages d'aides ne vous aident pas, vous devrez aller demander de l'aide aux personnes proches de vous qui s'y connaissent en informatique. La compagnie ou la communauté qui développe votre logiciel peut aussi peut-être vous aider.
@@ -32,17 +31,19 @@ Pour faire les modifications requises dans Thunderbird, suivez ces étapes:
 
 Premièrement, il vous faut trouver la version de Thunderbird que vous utilisez en cliquant sur le menu "Aide" --> "À propos de Thunderbird"
 
-Une fois que vous avez déterminé la version du logiciel, suivez un des deux guides ci-dessous.
+Une fois que vous avez déterminé la version du logiciel, suivez le guide ci-dessous. Si vous utilisez Thunderbird 2.x ou une version encore plus ancienne, vous devez vraiment la mettre à jour! Malheureusement nous ne pouvons pas vous expliquer comment faire ici, mais vous pouvez trouver un grande quantité d'information en ligne si vous faites une recherche pour « mises à jour Thunderbird ».
 
-h3. Thunderbird 3.x and newer
+h3. Thunderbird 3.x ou plus récent
 
-To make the changes needed to enable secure connections in Thunderbird version 3.x, please follow these steps:
+Pour paramétrer Thunderbird 3.x ou une version plus récente de manière sécuritaire, veuillez suivre ces étapes:
 
-* Choose "Account Settings" from the "Edit" menu,
-* Select "Server Settings" for your riseup account after the account settings dialog box pops up
-* In the center of the box you'll see a heading that reads "Security Settings"
-* Under that heading is a drop down labeled "Connection Security"
-* That drop down should be set to read SSL/TLS
+* Choisissez l'option "Paramètres des comptes" dans le menu "Édition"
+* Sélectionnez "Paramètres serveur" sous votre nom de compte Riseup dans la fenêtre qui viens de s'ouvrir
+* Au milieu de la fenêtre, vous verrez alors un entête intitulé "Paramètres de sécurité"
+* Sous cet entête se trouve un menu déroulant nommé "Sécurité de la connexion"
+* Ce menu déroulant doit être mis à l'option "SSL/TLS"
+* Dans le coin supérieur droit de la fenêtre se trouve un paramètre nommé "Port"
+
 * In the upper-left corner of the dialog box there is a setting that reads "Port"
 * This should automatically be set, but check it to be sure
 ** Port number should be 993 if you are using IMAP
@@ -58,30 +59,6 @@ To make the changes needed to enable secure connections in Thunderbird version 3
 * At no point in time should you change the "Authentication Method" setting - it should always say "Normal Password"
 * Your work here is done!!! Yay!
 
-h3. Thunderbird 2.x or older
-
-If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
-
-If you do happen to use this old version and can't upgrade yet, then please follow these steps:
-
-* Choose "Account Settings" from the "Tools" menu
-* Select "Server Settings" for your riseup account after the account settings dialog box pops up
-* In the center of the box you'll see a heading that reads "Security Settings"
-* Choose "SSL"
-* DO NOT check the box that says "Use Secure Authentication"
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
-* This should automatically be set, but check it to be sure
-** Port number should be 993 if using IMAP
-** Port number should be 995 is using POP
-* There is a "Server Type" line at the top of the "Server Settings" dialog box that tells you if you are using IMAP or POP
-* Next click "Outgoing server (SMTP)" in the left-hand pane
-* Click once on riseup's SMTP server in the right-hand pane
-* Click "Edit" on the far right of the dialog box
-* Set "Use Secure Connection" to "SSL"
-* Make sure the "Port" setting is set to 465
-* Click "OK"
-* Click "OK" again
-* Your work here is done!!! Yay!
 
 h2. iOS
 
