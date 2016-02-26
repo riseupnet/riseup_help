@@ -65,7 +65,7 @@ h2. FAQ
 
 Q: Et si j'utilise la messagerie web, est-ce sécuritaire?
 
-A: Quand vous utilisez le web, vous faites des connexions depuis votre ordinateur, à travers divers serveurs sur l'internet, vers le serveur que vous tentez de visiter. Vous faites de connexions en utilisant quelque chose nommée "HTTP. Cette connexion est faite en clair et n'est pas sécuritaire. Des attaquant-e-s peuvent avoir accès à vos comptes en ligne ainsi qu'à toute l'information que vous envoyez ou que vous recevez en ligne. Il y a cependant de l'espoir! Il y a une version sécurisée de "HTTP" nomée "HTTPS" (remarquez ici le petit 's' pour sécurisé). HTTPS est construite pour fournir des connexions sécurisés qui résistent aux attaques.
+R: Quand vous utilisez le web, vous faites des connexions depuis votre ordinateur, à travers divers serveurs sur l'internet, vers le serveur que vous tentez de visiter. Vous faites de connexions en utilisant quelque chose nommée "HTTP. Cette connexion est faite en clair et n'est pas sécuritaire. Des attaquant-e-s peuvent avoir accès à vos comptes en ligne ainsi qu'à toute l'information que vous envoyez ou que vous recevez en ligne. Il y a cependant de l'espoir! Il y a une version sécurisée de "HTTP" nomée "HTTPS" (remarquez ici le petit 's' pour sécurisé). HTTPS est construite pour fournir des connexions sécurisés qui résistent aux attaques.
 
 Pour plus de sécurité, vous devriez considérer la vérifier si les sites webs que vous visitez sont biens ceux qu'ils prétendent être. Quand vous utilisez HTTPS, vous recevez un certificat du serveur qui est supposé prouver qu'il est authentique. Pour vérifier que le site est bien celui que vous tentez de visiter, vous [[devriez vérifier que le certificat qui vous est présenté est le bon => /certificates]].
 
@@ -73,21 +73,19 @@ Il existe cependant des problèmes avec les certificats et vous devriez en être
 
 Regardez dans la barre d'URL, où l'adresse d'un site se trouve. Si elle commence par "https://" (NOTEZ le 's'), alors vous avez une connexion sécurisé. Si vous ne voyez que "http://" (SANS 's'), alors votre connexion n'est pas sécurisée. Vous pouvez changer le "http" pour "https" en cliquant dans la barre d'URL, en y ajoutant le 's' et en pesant sur la touche "Entrée" pour charger la page de manière sécurisée.
 
-Look up at the URL bar, where the address is. If it starts with “https://” (NOTE the ‘s’), then you have a secure connection, if its just “http://” (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit to load the page securely.
+Une troisième manière de faire (elle est très peu fiable) est de chercher la petite image de cadenas. Elle apparaît soit dans la basse d'URL, soit en bas de la fenêtre de navigation (sa place diffère d'un navigateur à l'autre). Ce petit cadenas devrait être fermé. Si le cadenas n'existe pas ou qu'il semble être ouvert, votre connexion n'est pas sécurisée. Vous pouvez toujours déplacer votre souris sur cette image pour avoir plus d'informations. Souvent vous pouvez obtenir plus d'informations sur le certificat SSL utilisé en cliquant (clic gauche ou droit) sur ce cadenas.
 
-A third, and much less reliable way to tell is by looking for a little padlock icon. It will either appear in the URL location bar, or in the bottom corner of the window (the location is different depending on what browser you user), it should appear locked, if the lock doesn’t exist, or the lock picture looks like it is unlocked, you are not using a secure connection. You can hover your mouse over the padlock to get more information, and often clicking (or sometimes right-clicking) on the lock will bring up details about the SSL certificate used to secure the connection.
+Q: Qu'est-ce que POP/IMAP & SMTP?
 
-Q: What is POP/IMAP & SMTP?
+R: POP et IMAP sont deux protocoles communs qui sont utilisés par des programmes pour récupérer des courriels sur un serveur distant. La plupart du temps vous utiliserez l'un ou l'autre, mais jamais les deux en même temps. SMTP est un autre protocole courant, mais qui sert à envoyer des courriels de votre ordinateur au serveur de courriels.
 
-A: POP and IMAP are common protocols that are used by software to retrieve mail from a remote mail server.  Usually you will use one or the other of them, but not both at the same time. SMTP is another common mail transfer protocol, but this one is used to send mail from your computer to the mail server.
+Q: Si je configure mon client de messagerie, quels ports devrais-je utiliser?
 
-Q: If I'm configuring my mail software myself, what port numbers should I use?
+R: Pour les connexions POP utilisez TLS, avec le port numéro 995.
+   Pour les connexions IMAP utilisez TLS, avec le port numéro 993.
+   Pour les connexions SMTP utilisez TLS, avec le port numéro 465.
 
-A: For POP connections using TLS, use port number 995.
-   For IMAP connections using TLS use port number 993.
-   For SMTP connections using TLS use port number 465.
-
-Q: What if I have more questions about using internet email securely?
+Q: Que faire si j'ai plus de questions sur l'utilisation sécuritaire des courriels?
 
 A: If, after thoroughly reviewing the [[riseup help pages->https://help.riseup.net]] you still have further questions, we encourage you to submit a [[riseup help ticket->https://user.riseup.net/forms/email_help/first]]. We are happy to help our users understand how to make their communications  more secure and to help increase the privacy of all internet users.
 
