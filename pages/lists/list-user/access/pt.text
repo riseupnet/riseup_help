@@ -1,0 +1,18 @@
+@title = 'Acesso'
+
+h2.  Por que não consigo ver a lista?
+
+Uma lista pode estar oculta por vários motivos. Algumas listas não são publicamente visíveis; assinantes só podem vê-la depois de entrar no sistema. Para assinar uma lista oculta, envie um e-mail para nomedalista-subscribe@lists.riseup.net.
+
+A maioria das listas ocultas também são particulares; nestas, sua inscrição deve ser aprovada pela dona ou dono. Se você possui uma lista e deseja torná-la visível, configure sua *_visibility_* como *_no conceal_*.
+
+Outra razão para uma lista estar oculta é ela não ter sido criada ainda. Calma, vamos explicar: quando você solicita uma lista, ela torna-se visível e editável para você, que a administra, mas só poderá ser acessada por outras pessoas quando for aprovada.
+
+h2.  Por que não consigo ver os arquivos da lista?
+
+Você pode não estar conseguindo ver os arquivos porque:
+
+* Desabilitou os cookies: Para evitar que ["bots de spam":https://www.neilgunton.com/spambot_trap/] coletem e-mails de assinantes, o Sympa usa cookies para mostrar os arquivos. Se você vê o botão _'I am not a spammer'_ toda vez que tenta visualizar um arquivo, habilite os cookies no seu navegador.
+* Você não entrou no sistema: Por padrão, a maioria dos arquivos de listas só fica disponível para assinantes; ou seja, você precisa se identificar, fazendo login, para vê-los. Vá para a página da lista; se o link 'arquivo' não puder ser clicado, esse provavelmente é o seu caso.
+* Os arquivos da lista estão interditados: Quem administra a lista pode ter decidido impedir o acesso de qualquer pessoa a eles.
+* Os arquivos estão quebrados: Às vezes, os arquivos de uma lista ficam meio desarranjados. Normalmente, reconstruí-los resolve o problema.

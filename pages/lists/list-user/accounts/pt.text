@@ -1,0 +1,43 @@
+@title = 'Contas'
+
+h2.  Como criar uma conta?
+
+Para criar uma conta, basta inscrever-se em uma lista de discussão qualquer: envie um e-mail para *lista-subscribe@lists.riseup.net*, substituindo "lista" pelo nome da que você quer assinar.
+
+Quando você cria uma conta, o Sympa (software que usamos) gera uma senha aleatória e envia-a para o seu endereço de e-mail. Isso evita que outras pessoas inscrevam você sem a sua permissão e confirma que o endereço é verdadeiro. Assim que possível, troque a senha aleatória por uma que você possa lembrar.
+
+Você também pode preencher um "formulário de criação de conta":https://lists.riseup.net/www/renewpasswd.
+
+Repare que contas para gerenciar listas hospedadas em lists.riseup.net são _completamente diferentes_ de contas de e-mail riseup.net.
+
+h2.  Como mudar minha senha?
+
+Entre no sistema com seu endereço de e-mail e senha e clique em *Preferências*, na parte superior da página, para acessar o formulário de mudança de senha.
+
+h2.  Esqueci minha senha!
+
+Preencha um "formulário de recuperação de senha":https://lists.riseup.net/www/renewpasswd. Ela será enviada para o endereço de e-mail que você informar.
+
+h2.  Não tenho uma senha!
+
+Se alguém inscreveu você em uma lista, você pode não ter uma senha. Preencha um "formulário de criação de senha":https://lists.riseup.net/www/renewpasswd. Uma senha temporária será enviada, junto com instruções para alterá-la, para o endereço de e-mail que você informar.
+
+h2.  Como mudar meu e-mail de inscrição?
+
+Para mudar o endereço de e-mail que você usa para assinar todas as listas de discussão riseup.net, faça o seguinte:
+
+# Entre com seu e-mail atual em https://lists.riseup.net.
+# Abra a guia *Preferências*.
+# Digite seu e-mail em *Novo endereço de e-mail* e clique em *Mudar e-mail*.
+
+*IMPORTANTE:* Quem administra ou modera listas de discussão não deve seguir as instruções acima, pois perderá seus privilégios. Em vez disso, deve seguir os passos abaixo:
+
+# Adicione o novo e-mail como dono *adicional*.
+# Siga os passos acima para mudar seu endereço de e-mail de assinante.
+# Retire o endereço antigo da administração da lista.
+
+Leia a página sobre [[list-definition#changing-owners]] para mais detalhes.
+
+h2. Como escolher uma senha segura?
+
+<%= render 'common/good-passwords' %>
