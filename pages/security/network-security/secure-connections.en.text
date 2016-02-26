@@ -72,7 +72,7 @@ For further security, you should consider verifying that the website you are vis
 
 There are some issues with certificates that you should be aware of (see limitations of secure connections below).
 
-Look up at the URL bar, where the address is. If it starts with “https://” (NOTE the ‘s’), then you have a secure connection, if its just “http://” (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit the "Enter" button to load the page securely.
+Look up at the URL bar, where the address is. If it starts with <code>https://</code> (NOTE the ‘s’), then you have a secure connection, if its just <code>http://</code> (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit the "Enter" button to load the page securely.
 
 A third, and much less reliable way to tell is by looking for a little padlock icon. It will either appear in the URL location bar, or in the bottom corner of the window (the location is different depending on what browser you user), it should appear locked, if the lock doesn’t exist, or the lock picture looks like it is unlocked, you are not using a secure connection. You can hover your mouse over the padlock to get more information, and often clicking (or sometimes right-clicking) on the lock will bring up details about the SSL certificate used to secure the connection.
 

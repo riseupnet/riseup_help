@@ -85,7 +85,7 @@ Für weitergehende Sicherheit kannst Du überprüfen, ob Du wirklich auf der Web
 
 Im Zusammenhang mit Zertifikaten gibt es einige Punkte, deren Du Dir bewusst sein solltest (siehe "Grenzen sicherer Verbindungen" weiter unten).
 
-Schaue oben in der URL-Leiste nach der Internetadresse. Falls sie mit "https://" (beachte das 's') beginnt, hast Du eine sichere Verbindung, falls es nur "http://" (ohne 's') ist, hast Du keine sichere Verbindung. Du kannst von "http" zum "https" wechseln, indem Du drauf klickst, das 's' anhängst und anschließend "Enter" drückst, um die Seite sicher neu zu laden.
+Schaue oben in der URL-Leiste nach der Internetadresse. Falls sie mit <code>https://</code> (beachte das 's') beginnt, hast Du eine sichere Verbindung, falls es nur <code>http://</code> (ohne 's') ist, hast Du keine sichere Verbindung. Du kannst von "http" zum "https" wechseln, indem Du drauf klickst, das 's' anhängst und anschließend "Enter" drückst, um die Seite sicher neu zu laden.
 
 Ein dritter, deutlich weniger verlässlicher Weg besteht darin, auf das kleine Vorhängeschloss-Symbol zu achten. Es erscheint entweder in der URL/Adressleiste, oder in der unteren Ecke des Fensters, je nach dem welchen Browser Du benutzt. Es sollte "geschlossen" erscheinen. Falls da kein Schloss ist, oder es "geöffnet" aussieht, besteht keine sichere Verbindung. Das Bewegen des Mauszeigers über das Schloss-Symbol zeigt mehr Informationen, in vielen Fällen erhältst Du durch Klicken (oder auch Rechts-Klicken) auf das Schloss weitere Details über das SSL-Zertifikat, mit dem die Verbindung gesichert ist.
 
