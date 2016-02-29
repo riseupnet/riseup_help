@@ -1,0 +1,5 @@
+@title = 'Administração'
+
+Um guia para quem possui ou administra listas de discussão hospedadas pelo Riseup.
+
+<%= child_summaries %>
