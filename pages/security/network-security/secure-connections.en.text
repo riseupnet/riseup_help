@@ -32,7 +32,7 @@ To make the required changes in Thunderbird, follow these steps:
 
 First, find out what version of Thunderbird you have by clicking the "Help" menu --> "About Thunderbird"
 
-Once you have determined your version number, follow one of the below processes that matches your version.
+Once you have determined your version number, follow one of the below processes that matches your version. If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
 
 h3. Thunderbird 3.x and newer
 
@@ -43,7 +43,7 @@ To make the changes needed to enable secure connections in Thunderbird version 3
 * In the center of the box you'll see a heading that reads "Security Settings"
 * Under that heading is a drop down labeled "Connection Security"
 * That drop down should be set to read SSL/TLS
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
+* In the upper-right corner of the dialog box there is a setting that reads "Port"
 * This should automatically be set, but check it to be sure
 ** Port number should be 993 if you are using IMAP
 ** Port number should be 995 is you are using POP
@@ -58,40 +58,11 @@ To make the changes needed to enable secure connections in Thunderbird version 3
 * At no point in time should you change the "Authentication Method" setting - it should always say "Normal Password"
 * Your work here is done!!! Yay!
 
-h3. Thunderbird 2.x or older
-
-If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
-
-If you do happen to use this old version and can't upgrade yet, then please follow these steps:
-
-* Choose "Account Settings" from the "Tools" menu
-* Select "Server Settings" for your riseup account after the account settings dialog box pops up
-* In the center of the box you'll see a heading that reads "Security Settings"
-* Choose "SSL"
-* DO NOT check the box that says "Use Secure Authentication"
-* In the upper-left corner of the dialog box there is a setting that reads "Port"
-* This should automatically be set, but check it to be sure
-** Port number should be 993 if using IMAP
-** Port number should be 995 is using POP
-* There is a "Server Type" line at the top of the "Server Settings" dialog box that tells you if you are using IMAP or POP
-* Next click "Outgoing server (SMTP)" in the left-hand pane
-* Click once on riseup's SMTP server in the right-hand pane
-* Click "Edit" on the far right of the dialog box
-* Set "Use Secure Connection" to "SSL"
-* Make sure the "Port" setting is set to 465
-* Click "OK"
-* Click "OK" again
-* Your work here is done!!! Yay!
-
 h2. iOS
 
 If you have an apple device like this, you can review our [[instructions->https://help.riseup.net/en/iphone-mail]] for them to figure out how to change your settings to be secure.
 
 h2. FAQ
-
-Q. I have this setup already and have for years! Why are you contacting me?
-
-Do you have a phone or a tablet that you set up mail on, or another computer? People often forget that they set their mail up on their devices!
 
 Q: What if I use webmail, is that secure?
 
@@ -101,7 +72,7 @@ For further security, you should consider verifying that the website you are vis
 
 There are some issues with certificates that you should be aware of (see limitations of secure connections below).
 
-Look up at the URL bar, where the address is. If it starts with “https://” (NOTE the ‘s’), then you have a secure connection, if its just “http://” (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit to load the page securely.
+Look up at the URL bar, where the address is. If it starts with <code>https://</code> (NOTE the ‘s’), then you have a secure connection, if its just <code>http://</code> (NO ‘s’), then you are not using a secure connection. You can change that “http” to “https” by clicking on the URL bar and adding the ‘s’ and then hit the "Enter" button to load the page securely.
 
 A third, and much less reliable way to tell is by looking for a little padlock icon. It will either appear in the URL location bar, or in the bottom corner of the window (the location is different depending on what browser you user), it should appear locked, if the lock doesn’t exist, or the lock picture looks like it is unlocked, you are not using a secure connection. You can hover your mouse over the padlock to get more information, and often clicking (or sometimes right-clicking) on the lock will bring up details about the SSL certificate used to secure the connection.
 

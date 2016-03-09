@@ -4,12 +4,12 @@
 
 p(alert alert-warning). Nous lançons un nouveau VPN, première étape vers notre nouvelle génération de services anti-surveillance.  Ces nouveaux services plus sécurisés sont hébergés sur https://black.riseup.net et ne sont pas liés à l'infrastructure actuelle de riseup. Vous aurez donc besoin de créer un nouveau compte utilisateur. Ne vous inquiétez pas, tous les logins actuels sont 'réservés' et ne peuvent pas être utilisés sur la nouvelle infrastructure (Black), et dans un futur proche, vous pourrez utiliser votre login courant ou le nouveau (si vous le souhaitez) plus tard dans l'année.
 
-h2. Quick links!
+h2. Liens rapides!
 
 * Black : https://black.riseup.net
 * Utilisateur linux? [[Guide d'installation-> linux]]
 * Utilisateur Android ? [[Guide d'installation -> android]]
-* Quelque chose ne fonctionne pas? Vérifiez [[Troubleshooting]]
+* Quelque chose ne fonctionne pas? Vérifiez nos pages de [[dépannage -> Troubleshooting]].
 * Une question? Consultez notre [[FAQs -> faq]]
 
 h2. Qu'est ce que RiseupVPN?
