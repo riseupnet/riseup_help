@@ -1,0 +1,12 @@
+@title = 'Depósito'
+
+h2. Como faço para subir ou visualizar um arquivo?
+
+Consulte a documentação completa sobre o [[shared-web-space]].
+
+h2. Por que não consigo subir um arquivo?
+
+Você pode não estar conseguindo subir um arquivo porque:
+
+* Nomes de arquivos não podem conter espaços. É. Renomeie o arquivo substituindo os espaços por um caractere permitido, como um hífen (-) ou um sublinhado (_).
+* Talvez você não tenha permissão para subir arquivos. Por padrão, na maioria dos tipos de listas, apenas a moderação é autorizada a subir arquivos. Essa configuração pode ser alterada.

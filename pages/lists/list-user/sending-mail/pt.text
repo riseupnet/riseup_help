@@ -1,0 +1,87 @@
+@title = 'Enviando e-mails'
+
+h2.  Por que minha mensagem não aparece no arquivo?
+
+As mensagens não são arquivadas imediatamente. Seja paciente, ela deve aparecer mais cedo ou mais tarde. Se não, os arquivos precisarão ser reconstruídos. Nesse caso, "preencha um pedido de ajuda":https://user.riseup.net/forms.
+
+h2.  Minha mensagem foi rejeitada por ser muito grande!
+
+O tamanho máximo para e-mails enviados a listas é de 500 kibibytes - mais do que suficiente, na nossa opinião. Anexos grandes exigem mais recursos e, geralmente, não são essenciais. As pessoas que assinam a lista são obrigadas a baixá-los, a maioria sem precisar deles. [[Este espaço->web-space]] é mais apropriado para compartilhar documentos.
+
+h2. Por que minha mensagem precisa ser aprovada pela moderação?
+
+Há muitas razões possíveis.
+
+* Você não é assinante da lista.
+** A maioria das listas permite apenas publicações de membros. Assine-a [[seguindo estas instruções->subscribing#how-do-i-subscribe-to-a-list]].
+
+* Você assina a lista - isto é, recebe suas atualizações.
+** Publicações de membros de uma lista também podem ser submetidas à moderação. Você pode pedir à administração para mudar essa configuração enviando um e-mail para *nomedalista-admin@lists.riseup.net*.
+** Talvez você esteja recebendo mensagens em um endereço de e-mail e enviando de outro. Por exemplo, suponha que você tenha dois endereços: *carol1@riseup.net* e *carol2@gmail.com*. O primeiro está inscrito na lista; o último, não. Se você enviar um email de carol2 para a lista, ele será submetido à moderação. *Solução:* Inscreva seu segundo endereço de e-mail e [[configure-o para não receber correio->subscribing#how-do-i-switch-to-no-mail-mode]]. Você receberá as atualizações da lista só no primeiro endereço, mas poderá enviar mensagens a partir de ambos.
+
+h2.  Como faço para falar com a dona ou dono da lista?
+
+Para entrar em contato com a administração da lista, envie uma mensagem para _nomedalista_-admin@lists.riseup.net. Para falar com a moderação, envie uma mensagem para _nomedalista_-editor@lists.riseup.net.
+
+h2.  Como faço para enviar uma mensagem em HTML?
+
+É possível enviar um e-mail formatado (em HTML) para listas hospedadas em riseup.net. Pedimos, porém, que reconsidere.
+
+* E-mails em HTML são *inseguros*: É muito difícil garantir a segurança e a privacidade de um e-mail formatado. Há muitos riscos, inclusive de sequestro de sessão, de fixação de sessão e de rastreamento por meio dos URLs das imagens. Repare que as falhas de segurança mais graves do Microsoft Outlook têm relação com a formatação em HTML.
+
+* E-mails em HTML são *deselegantes*: Na maioria dos casos, a formatação apenas atrapalha o fluxo do texto. Clientes de e-mail já são projetados para facilitar a leitura das mensagens, e você não vai conseguir superar o padrão. A formatação será uma distração do conteúdo da mensagem, principalmente se as imagens forem desabilitadas (por segurança) no cliente de destino, o que desalinharia completamente o texto.
+
+* E-mails em HTML são *desnecessários*: A maioria dos clientes de e-mail converte URLs. Por exemplo:
+<code>
+   uma página da Web: https://help.riseup.net
+   um endereço de e-mail: listhelp@riseup.net
+</code>
+A maioria dos clientes de e-mail reconhece esses URLs, mesmo se escritos em texto puro, e transforma-os em links clicáveis.
+
+* E-mails em HTML são *exclusivos*: Muitas pessoas não podem ou não querem - por segurança, privacidade, acessibilidade ou estética - visualizar mensagens formatadas. Elas veriam um e-mail em HTML seu como texto puro, que seria menos bem-acabado do que se você tivesse concebido a mensagem sem formatação, uma vez que a conversão feita pelos clientes de e-mail é imperfeita.
+
+Se, por algum motivo, você ainda quiser mandar um e-mail em HTML para uma lista de discussão, faça o seguinte:
+
+* Escreva a mensagem em um cliente de e-mail, como o [[Thunderbird->thunderbird]], que dê suporte ao envio de e-mails formatados.
+
+* No Thunderbird, pode ser necessário habilitar essa opção em Preferências > Configurações de conta > Editar e endereçar.
+
+* Envie a mensagem para a lista usando o cliente.
+
+É isso. Mais uma coisa: *não* dá certo colar trechos em HTML no meio do texto normal, nem colar código em HTML na página "Postar Mensagem", na interface da Web.
+
+h2. Por que não recebo uma cópia das mensagens que envio para a lista?
+
+Há duas possibilidades. A primeira é que suas configurações determinem o não envio de cópias. Descubra se esse é o problema:
+
+# Vá para [[https://lists.riseup.net/]].
+# Entre no sistema com seu e-mail e senha.
+# Clique em *Listas*.
+# Clique na lista desejada na coluna à esquerda.
+# Selecione *Opções de Inscrição*.
+# O modo de recebimento deve ser padrão, e não *você não recebe suas próprias mensagens*.
+
+A segunda é que você use Gmail. Ele não mostra as publicações que você faz, presumindo que não gostaria de vê-las.  Não podemos fazer nada sobre isso; o Gmail deve consertar esse problema. Se você não conseguiu diagnosticar a sua situação a partir deste guia, preencha um pedido de ajuda.
+
+h2.  Por que minha mensagem está sendo bloqueada como spam?
+
+Spam, que para você é um incômodo, para os servidores do Riseup é uma luta diária. Na tentativa de [[combater essa prática->spam]], às vezes rejeitamos um e-mail legítimo sem intenção. Antes de entrar em contato conosco, tente resolver o problema seguindo estes passos.
+
+Quando seus e-mails são rejeitados pelos servidores, uma mensagem de erro é exibida. Compare-a aos modelos abaixo e, se corresponder a algum, tente seguir as instruções antes de contatar-nos.
+
+h3. SpamAssassin
+
+<pre>
+host lists.riseup.net[[204.13.164.55]] said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+O Riseup usa o [[SpamAssassin->https://spamassassin.apache.org/]] para combater spam. [[Nesta página (em inglês)->https://wiki.apache.org/spamassassin/AvoidingFpsForSenders]], há várias dicas para evitar que os seus e-mails sejam reconhecidos como spam pelo programa. Tente resolver o problema só ou com a ajuda do seu Provedor de Serviços da Internet (ISP) antes de relatar o problema.
+
+h3. Os "registros de MX" do meu servidor de e-mail são "falsificados"
+
+<pre>
+Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address [[EXAMPLE@EXAMPLE.NET]] blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
+</pre>
+
+Registros de MX definem quais servidores são autorizados a enviar e-mails. Alguns provedores não configuram seus registros DNS corretamente, causando muitos problemas. Se você estiver recebendo esse erro, entre em contato com o seu provedor e peça para alguém consultar [[esta página (em inglês)->http://rfc-ignorant.org/policy-bogusmx.php]].
+

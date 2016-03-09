@@ -1,0 +1,58 @@
+@title = 'Assinatura'
+
+h2. Como faço para me desinscrever de uma lista?
+
+O jeito mais fácil é enviar um e-mail para:
+
+p((. *_nomedalista_-unsubscribe@lists.riseup.net*
+
+Substitua _nomedalista_ pelo nome da lista que você quer deixar de assinar.
+
+Se você usa mais de um endereço de e-mail para uma única caixa de correio, certifique-se de enviar a mensagem de desinscrição a partir do endereço inscrito na lista.
+
+Você também pode, se preferir, se desinscrever pelo site:
+
+# Entre em https://lists.riseup.net com o endereço de e-mail inscrito na lista. Se não tiver uma senha, clique em *Primeiro acesso?*.
+# Clique no nome da lista indesejada.
+# Clique em *Cancelar inscrição*.
+
+h2. Como faço para assinar uma lista?
+
+Basta enviar um e-mail para:
+
+p((. *_nomedalista_-subscribe@lists.riseup.net*
+
+Troque _nomedalista_ pelo nome da lista que você quer assinar.
+
+As mensagens da lista de discussão serão enviadas para o endereço de e-mail a partir do qual você mandar o e-mail de assinatura.
+
+Ou, se achar melhor, inscreva-se pelo site:
+
+# [[Crie uma conta de lista->https://lists.riseup.net/www/remindpasswd]].
+# Entre no sistema.
+# Procure a lista e vá para sua página principal.
+# Clique em *Inscrever*.
+
+h2. Como faço para receber um resumo?
+
+É possível reunir múltiplas postagens de uma lista em um único e-mail de resumo. Cabe à administração da lista decidir se você pode ativar o modo de resumo e qual período ele deve cobrir.
+
+Para ativar o modo de resumo:
+
+* Entre na sua conta de lista. Se ainda não tem uma, preencha um [[formulário de lembrete de senha->https://lists.riseup.net/www/remindpasswd]].
+* Na coluna à esquerda, clique no nome da lista que você quer resumir.
+* Clique em *Opções de Inscrição*.
+* Selecione um dos modos de *resumo* em *Modo de recebimento*.
+* Clique em *Atualizar*.
+
+Você só vai receber esses boletins se a administração tiver configurado as opções de resumo da lista. Além disso, devido a um defeito no software que impede o envio em horários próximos da meia-noite, o remetimento do resumo deve ser marcado para depois da 1h e antes das 22h. Se necessário, contate a administração da lista no endereço _nomedalista_-admin@lists.riseup.net.
+
+h2. Como faço para deixar de receber e-mails da lista?
+
+Você pode continuar a ser membro de uma lista e deixar de receber suas atualizações por e-mail. Talvez porque participe dela com mais de um endereço de e-mail; talvez porque prefira ler as publicações no arquivo on-line. De qualquer maneira, você pode parar de recebê-las fazendo o seguinte:
+
+* Entre na sua conta de lista. Se não tem uma, preencha um [[formulário de lembrete de senha->https://lists.riseup.net/www/remindpasswd]].
+* Na coluna à esquerda, clique no nome da lista.
+* Clique em *Opções de Inscrição*.
+* Selecione *no mail* em *Modo de recebimento*.
+* Clique em *Atualizar*.
