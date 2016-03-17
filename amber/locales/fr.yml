@@ -1,6 +1,62 @@
 fr:
   tags: "Tags"
   tag: "Tag"
-  related: "Related"
+  related: "En lien avec"
   missing_translation: "Cette page n'a pas encore été traduite de l'anglais."
   support_riseup: "Supportez Riseup!"
+  motto: "Laisse l'internet tranquille, on se voit dans la rue."
+  footer_tagline: "Ce site est géré par riseup.net, votre collectif tech autonome depuis 1999."
+  contribute_to_help: "Nous vous invitons à contribuer à ce contenu et à la traduction de ces pages."
+  system_updates: "Mises à jour du système"
+  # quick links:
+  link_privacy: "Politique de confidentialité"
+  link_about_us: "À propos"
+  link_status: "Statut des systèmes"
+  link_support: "Supportez Riseup!"
+  # services:
+  link_lists: "Listes courriel"
+  link_email: "Courriels"
+  link_chat: "Chat"
+  link_groups: "Groupes"
+
+  # Donation page
+  donation_processor: "Traitement des dons"
+  supports_recurring_donations: "Dons récurrents?"
+  supports_optional_registration: "Enregistrement optionnel?"
+  supports_credit_card: "Carte de crédit?"
+  notes: "Notes"
+  yes_value: "Oui"
+  no_value: "Non"
+
+  subscribe: "Enregistrement"
+  donate: "Donnez"
+  monthly: "Mensuel"
+  quarterly: "Trimestriel"
+  recurring_donation: "Dons récurrents"
+  one_time_donation: "Dons uniques"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Crypto-monnaie électronique décentralisée pairs à pairs"
+  bitcoin_description: "Les bitcoins sont une Crypto-monnaie électronique décentralisée pairs à pairs. Les bitcoin sont également une manière gratuite d'envoyer de l'argent outre-mer. Quand vous utilisez les bitcoins pour envoyer de l'argent à Riseup, nous générons une nouvelle adresse unique. Il suffit de cliquer sur le bouton ci-dessous pour obtenir une nouvelle adresse bitcoin."
+  bitcoin_grab_address: "Récupérez une adresse bitcoin"
+  generate: "Générez"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Des frais très bas. Nécessite de s'inscrire et d'avoir un compte de banque américain."
+  dwolla_description: "Dwolla est une manière peu chère d'envoyer de l'argent virtuel même il faut s'y inscrire avec un compte de banque américain. Dwolla supporte les dons récurrents."
+
+  paypal: "Paypal"
+  paypal_note: "Fonctionne dans plusieurs pays différents."
+  paypal_description: "Paypal accepte les cartes de crédit et supporte les dons récurrent. Pour des dons récurrents, il est nécessaire d'avoir un compte PayPal."
+
+  wepay: "WePay"
+  wepay_note: "Une alternative à PayPal."
+  wepay_description: "WePay est une alternative intéressante à PayPal. Vous pouvez utiliser WePay sans créer de compte. WePay supporte également les cartes de crédit."
+
+  flattr: "Flattr"
+  flattr_note: "Des micro-paiements qui s'additionnent."
+  flattr_description: "Flattr est un service de micro-paiements qui vous permet de supporter plusieurs projets différents."
+
+  gratipay: "Gratipay"
+  gratipay_note: "Des micro-paiements récurrents qui s'additionnent."
+  gratipay_description: "Gratipay est un autre service de micro-paiements qui vous permet de donner à chaque semaine aux projets que vous appréciez."
