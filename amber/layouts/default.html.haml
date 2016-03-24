@@ -27,7 +27,7 @@
                     .summary
                       = @page.props.summary
                 .content-box
-                  - if translation_missing?
+                  - if @page.props.translatable && translation_missing?
                     .alert.alert-info= t(:missing_translation)
                   = yield :content
           - else
