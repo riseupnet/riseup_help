@@ -6,7 +6,7 @@ Si vous êtes un programmateur et si vous souhaitez aider Riseup, nous vous invi
 
 h2. Infrastructure alternative pour des emails sécurisés
 
-Il y a un problème avec les courriers électroniques. Le gouvernement des Etats-Unis pratique le "full pipe monitoring" et une cartographie des interactions, qui leurs donne l’habilité de construire une cartographie détaillé de comment nos mouvements sociaux sont organisé. Pour plus d’informations sur la confidentialité pour les courriers électroniques allez voir nos "bases de sécurité pour activistes":https://zine.riseup.net.
+Il y a un problème avec les courriers électroniques. Le gouvernement des Etats-Unis pratique le "full pipe monitoring" et une cartographie des interactions, qui leurs donne l’habilité de construire une cartographie détaillé de comment nos mouvements sociaux sont organisé. Pour plus d’informations sur la confidentialité pour les courriers électroniques allez voir nos "bases de sécurité pour activistes":https://web.archive.org/web/20160306044630/https://zine.riseup.net/.
 
 Nous estimons qu’il est vitale que les infrastructures pour les communications essentielles soit contrôlés par des organisations pour le mouvement et non par des sociétés ou le gouvernement. C'est pour cette raison, que nous fournissons un service de courrier électronique avec un niveau unique de sécurité et de confidentialité. Contrairement à presque tous les autres services de courrier électronique, nos logs et les headers des mails ne contient aucune information qui permet de vous identifier personnellement. De plus, tous les mails sont stockés sur des partitions chiffrés et transmis, à chaque fois que possible à travers des connexions chiffrés.
 
