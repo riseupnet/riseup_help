@@ -4,3 +4,5 @@ fr:
   related: "Related"
   missing_translation: "Cette page n'a pas encore été traduite de l'anglais."
   support_riseup: "Supportez Riseup!"
+
+  toggle_feed_items: "Afficher/cacher les mises à jour"

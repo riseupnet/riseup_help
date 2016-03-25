@@ -35,5 +35,7 @@
                     .feed
                       %h2= t(:system_updates)
                       = render 'common/news_feed'
+                      .text-center
+                        %button{:class => 'hide-link btn'}= t(:toggle_feed_items)
     #footer
       = render 'layouts/footer'
