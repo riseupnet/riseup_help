@@ -1,11 +1,11 @@
-@title = ''
+@title = 'Febrero'
 
 h2. Nuestros “deberes de Snowden”
 
 Como resultado de las contínuas revelaciones de Snowden que siguen goteando, nos hemos enterado de otras capacidades que tiene la NSA (Agencia Secreta Nacional por sus siglas en inglés, y otras amenazas de las que nos tenemos que preocupar. Hemos comenzado a referirnos a estas últimas como los “deberes de Snowden”, porque requiren mucho estudio y análisis de como afectan a Riseup. Estamos manteniéndonos al día, y actualizando nuestro cifrado, nuestros procesos, y nuestra infrastructura de trabajo para estar protegidas contra estas nuevas amenazas. En muchos casos son amenazas para las que ya nos estábamos preocupando en teoría, pero ahora sabemos que la amenaza es más real y urgente.
 
 
-h2. Ejercicio de pensamiento en la seguridad 
+h2. Ejercicio de pensamiento en la seguridad
 
 Imagínate que acabas de descubrir que un miembro de tu proyecto es un informante de la policía. ¿A qué recursos del proyecto tienen acceso? ¿Qué hará tu grupo para sacarlos fuera y para protegerte? ¿Hay alguna persona que puede paralizar el proyecto porque es la única con cierta contraseña, acceso a lista de correo, o base de datos? ¿Hay alguien con acceso a muchos datos que no necesita? (Lo que no quiere decir que sean sospechosas, pero una buena práctica de seguridad es limitar el acceso a la información sólo a la gente que lo necesita).
 
