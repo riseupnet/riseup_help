@@ -20,8 +20,7 @@ h2. Javascript
 
 h2. Ruby
 
-* Servidor de Jabber: Queremos passar a usar Vines com um servidor XMPP. Primeiro, precisamos implementar MUC, de preferência de modo que possamos integrar o controle de acesso a um MUC por meio de um banco de dados externo.
-* Rede social: Contribua para o desenvolvimento do "Crabgrass":https://github.com/Crabgrass/Crabgrass-Core.
+* Rede social: Contribua para o desenvolvimento do "Crabgrass":https://github.com/RiseupLabs/crabgrass-core.
 * Listas de discussão: Ajude a programar uma nova interface Web para o "mecanismo de listas Sympa":https://www.sympa.org.
 * Gerenciamento de usuários: Ajude-nos a reescrever o Nest, o software que gerencia todas as contas de usuário.
 
