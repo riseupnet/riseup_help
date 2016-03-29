@@ -5,9 +5,18 @@
         %a{:href => item[:href], :class => ''}= item[:label]
 
 .sidebar-addendum
+  %form#searchform(method="get" action="https://duckduckgo.com" onsubmit="document.forms.searchform.q.value = document.forms.searchform.query.value + ' site:help.riseup.net'; true")
+    .input-group
+      %input.form-control(name="query" type="search")
+      .span.input-group-btn
+        %input.btn.btn-default(value="Search" type="submit")
+    %input(name="q" type="hidden")
+
+.sidebar-addendum
   .locale-links
     - available_languages.each do |name, code, url|
       %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
 
 .sidebar-addendum
   = link(t(:support_riseup) => 'donate', :class => 'btn btn-block btn-default')
+
