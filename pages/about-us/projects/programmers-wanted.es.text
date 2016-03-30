@@ -1,6 +1,6 @@
 @title = 'Se buscan Programadores'
 
-Enfrentémoslo: la tecnología e infraestructura disponibles para los movimientos sociales no serán adecuadas en los años venideros. Mientras entramos en una ola mundial de malestar y organización social, nos vemos enfrentados a dos tendencias: 
+Enfrentémoslo: la tecnología e infraestructura disponibles para los movimientos sociales no serán adecuadas en los años venideros. Mientras entramos en una ola mundial de malestar y organización social, nos vemos enfrentados a dos tendencias:
 
 # Las tecnologías de comunicaciones se han tornado invaluables e integrales a casi todos los esfuerzos organizativos en todas partes.
 # La vigilancia de estas teconologías de comunicaciones se ha intensificado y expandido en maneras que la gente recién ahora se empieza a dar cuenta.
@@ -20,8 +20,7 @@ h2. Javascript
 
 h2. Ruby
 
-* Servidor Jabber: Queremos cambiarnos a usar Vines como servidor XMPP. Primero, necesitamos implementar MUC, idealmente en una manera que podamos integrar control de acceso a un MUC vía una base de datos externa.
-* Redes Sociales: Contribuye al desarrollo de "crabgrass.":https://github.com/Crabgrass/Crabgrass-Core
+* Redes Sociales: Contribuye al desarrollo de "crabgrass.":https://github.com/RiseupLabs/crabgrass-core
 * Listas de Correo: Ayuda a escribir un nuevo front end para el motor de listas de correo "sympa":https://www.sympa.org
 * Administración de Usuarios: Ayúdanos a re-escribir nest, el software que administra todas las cuentas de usuario.
 
