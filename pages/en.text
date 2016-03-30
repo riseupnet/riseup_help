@@ -1,3 +1,4 @@
+@translatable = true
 @title = "Home"
 @this.layout = 'home'
 @this.toc = false

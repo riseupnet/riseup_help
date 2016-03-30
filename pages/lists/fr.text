@@ -1,0 +1,31 @@
+@title = 'Listes Riseup'
+@nav_title = 'Listes'
+
+!>(image-right)pile-of-mail.jpg!
+
+h2. Bienvenu
+
+Bienvenu sur *l'aide pour les listes courriel* de riseup.net! Vous trouverez ici des informations sur les listes courriel hébergées au https://lists.riseup.net.
+
+Pour de l'aide sur les comptes courriels riseup.net, regardez plutôt les pages d'aide sur les [[courriels => email]]. Si vous avez des questions auxquelles nous ne répondons pas ici, nous vous conseillons de "créer un billet d'aide":https://user.riseup.net/forms.
+
+h2. Principales questions des personnes administrant les listes
+
+* [[Comment faire pour créer des listes? => creating-lists]]
+* [[Comment changer le ou la propriétaire d'une liste? => list-definition#changing-owners]]
+* [[Comment gérer les messages qui rebondissent? => bounces]]
+* [[Comment changer le nom d'une liste? => list-admin/faq#how-do-I-change-the-list-name]]
+* [[Qu'est-ce que "FYI: automatic_del" veut dire? => list-admin/faq#what-does-fyi-automatic_del-mean]]
+* [[Les questions les plus fréquemment posées par les admins => list-admin/faq]]
+
+h2. Principales questions des personnes inscrites aux listes
+
+* [[Comment changer l'adresse courriel avec laquelle je me suis inscrit-e? => list-user/accounts#how-do-i-change-my-subscription-address]]
+* [[Pourquoi mes courriels envoyés aux listes riseup sont marqués comme étant du spam? => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[Les questions les plus fréquemment posées par les personnes inscrites aux listes => list-user]]
+
+h2. À propos de lists.riseup.net
+
+L'existence de https://lists.riseup.net est possible grâce à vos dons. Si vous voulez vous assurer que nos services continuent à fonctionner, vos [[dons => donate]] sont nécessaires!
+
+https://lists.riseup.net n'utilise que des "logiciels libres":https://www.gnu.org/philosophy/free-sw.fr.html, notamment "le programme de gestion de listes courriel sympa":http://www.sympa.org/, le "serveur web apache":https://httpd.apache.org/, le système d'exploitation "Debian GNU/Linux":https://www.debian.org, et le programme de programmation "Perl":http://www.perl.org.

@@ -13,7 +13,7 @@ La démarche de crypter ses messages, toutefois, peut s'avérer être un challen
 
 Évidemment, ces garanties de sécurité ne s'appliquent pas si votre appareil a été compromis.
 
-H1. À propos du Cryptage de Messages
+h1. À propos du Cryptage de Messages
 
 Ce que ces pages d'aide appellent "cryptage de messages" est appelé techniquement "cryptographie des clefs-publiques". Voici comment cela fonctionne:
 
