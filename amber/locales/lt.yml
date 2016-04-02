@@ -1,0 +1,62 @@
+lt:
+  tags: "Žymos"
+  tag: "Žyma"
+  related: "Susiję"
+  missing_translation: "Šis puslapis dar nebuvo išverstas iš anglų kalbos."
+  support_riseup: "Paremkite Riseup!"
+  motto: "Išeikite iš interneto, aš pamatysiu Jus gatvėse."
+  footer_tagline: "Šis puslapis veikia dėka riseup.net, Jūsų draugiško autonominio technikų kolektyvo nuo 1999."
+  contribute_to_help: "Jūs pakviestas prisidėti prie turinio ir vertimų šiems puslapiams."
+  system_updates: "Sistemos atnaujinimai"
+  # quick links:
+  link_privacy: "Privatumo politika"
+  link_about_us: "Apie mus"
+  link_status: "Sistemos būklė"
+  link_support: "Paremti Riseup"
+  # services:
+  link_lists: "Elektroninio pašto adresų sąrašai"
+  link_email: "Elektroninis paštas"
+  link_chat: "Pokalbiai"
+  link_groups: "Grupės"
+
+  # Donation page
+  donation_processor: "Aukojimo sistema"
+  supports_recurring_donations: "Pasikartojančios aukos?"
+  supports_optional_registration: "Registracija neprivaloma?"
+  supports_credit_card: "Kreditinė kortelė?"
+  notes: "Užrašai"
+  yes_value: "Taip"
+  no_value: "Ne"
+
+  subscribe: "Užsiprenumeruokite"
+  donate: "Paremkite"
+  monthly: "Kas mėnesį"
+  quarterly: "Kas ketvirtį"
+  recurring_donation: "Pasikartojanti auka"
+  one_time_donation: "Vienkartinė auka"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Decentralizuota p2p elektroninė kriptovaliuta"
+  bitcoin_description: "Bitcoin yra decentralizuota p2p electroninė kriptovaliuta. Bitcoin taip pat yra nemokamas būdas siųsti pinigus užsienyje. Jei norite naudoti bitcoin kad siųsti pinigus riseup, mes sugeneruosime naują, unikalų bitcoin adresą, pauakojimui. Tiesiog paspauskite mygtuką žemiau naujam bitcoin adresui gauti."
+  bitcoin_grab_address: "Paiimkite bitcoin adresą"
+  generate: "Sugeneruoti"
+
+  dwolla: "Dwolla"
+  dwolla_note: "Labai maži mokesčiai. Reikalinga registracija ir Jungtinių Valstijų banko sąskaita"
+  dwolla_description: "Dwolla yra labai pigus būdas siųsti pinigus virtualiai, visgi tai reikalauja sukurti Dwolla sąskaitą Sujungtą su JAV banko sąskaita. Dwolla palaiko pasikartojančias aukas."
+
+  paypal: "Paypal"
+  paypal_note: "Veikia daugelyje šalių."
+  paypal_description: "Paypal priima kreditines korteles ir palaiko pasikartojančias aukas (pasikartojančioms aukoms reikalinga PayPal sąskaita)."
+
+  wepay: "WePay"
+  wepay_note: "PayPal alternatyva."
+  wepay_description: "WePay yra gera alternatyva PayPal. Galite naudoti WePay be vartotojo sąskaitos sukūrimo, palaikomos kortelės."
+
+  flattr: "Flattr"
+  flattr_note: "Micropayments add up."
+  flattr_description: "Flattr mikromokėjimų sistema, kuri leidžia paremti daugybę projektų."
+
+  gratipay: "Gratipay"
+  gratipay_note: "Pasikartojantys mikromokėjimai."
+  gratipay_description: "Gratipay yra mikromokėjimų sistema, kuri leidžia paremti projektus kas savaitę."
