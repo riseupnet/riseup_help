@@ -6,7 +6,7 @@ If you are a programmer and want to help Riseup, please see our [[programmers-wa
 
 h2. Alternative infrastructure for secure email
 
-There is a problem with email. The U.S. government practices "full pipe monitoring" and association mapping, which gives them the ability to build a detailed map of how our social movements are organized. For more information on email privacy, see our "security primer for activists":https://zine.riseup.net.
+There is a problem with email. The U.S. government practices "full pipe monitoring" and association mapping, which gives them the ability to build a detailed map of how our social movements are organized. For more information on email privacy, see our "security primer for activists":https://web.archive.org/web/20160306044630/https://zine.riseup.net/.
 
 We believe it is vital that essential communication infrastructure be controlled by movement organizations and not corporations or the government. For this reason, we provide email service with an unique level of security and privacy. Unlike almost all other email providers, our logs and email headers contain no personally identifiable information. Additionally, all mail is stored on encrypted partitions and transmitted over encrypted connections whenever possible.
 
