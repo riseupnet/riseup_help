@@ -1,0 +1,74 @@
+@title = "Clients courriel"
+
+h2.  Qu'est-ce qu'un client courriel ?
+
+De nos jours, la plupart des personnes sont davantage familières avec la [[messagerie web => webmail]], où vous vérifiez vos courriels en utilisant un navigateur web comme Firefox ou Chrome.
+
+Un  <b>client courriel</b>, en revanche, est une application spécialisée conçue spécifiquement pour vérifier et rédiger des courriels. Il y a plusieurs clients courriel gratuits et/ou libres disponibles sur la plupart des plate-formes.
+
+Pour de l'aide sur comment configurer un client en particulier, cliquez sur un des liens suivants :
+
+table(table table-striped).
+|_.*Plate-forme*|_.*Clients courriel libres recommandés*|_.*Clients propriétaires*|
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc| |
+|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Android | [[k9]] |  |
+|iOS     |  |  [[ios-mail]] |
+
+h2. Choisir IMAP ou POP
+
+Les clients courriel peuvent accéder à votre boite aux lettres en utilisant au choix POP ou IMAP.
+
+table(table table-striped).
+|         |_. POP    |_. IMAP   |
+| Stockage | *Votre ordinateur*. Typiquement, en utilisant POP, vous téléchargez tous vos courriels sur votre ordinateur et les supprimez des serveurs de riseup.net. | *Serveur Riseup*. IMAP laisse tous les messages sur le serveur. Une autre façon de voir cela est que le client courriel IMAP fournit une vue des données existantes stockées sur le serveur. |
+| Mobilité | *Basse*. POP marche bien uniquement quand vous vérifiez vos courriels principalement depuis le même ordinateur. | *Haute*. IMAP vous permet d'utiliser différents clients et de les garder synchronisés. |
+| Vitesse   | *Plus rapide*, puisque tout est simplement téléchargé une fois sur votre ordinateur. | *Plus lent*, puisque le client courriel doit faire des requêtes au serveur de façon répété. |
+| Quota   | *Illimité*. Vous n'aurez jamais à vous inquiéter du quota si votre client est configuré pour supprimer les messages sur le serveur après téléchargement. | *Limité*. Vous aurez [[un quota limité -> quota]]. |
+| Sécurité | *Haut*. Les messages ne sont pas stockés sur le serveur (typiquement). | *Plus basse*. Vous devez vous fier à Riseup pour le stockage. |
+
+h2. Configuration de base d'un client
+
+Bien que certains clients courriel sont capables de se configurer automatiquement, La plupart nécessitent quelques informations de base pour pouvoir se connecter à votre compte courriel Riseup.
+
+Supposons que votre adresse courriel est [@joehill@riseup.net@]:
+
+* Serveur courriel entrant :
+** IMAP : @mail.riseup.net@ port 993 (TLS) ou port 143 (StartTLS).
+** POP : @mail.riseup.net@ port 995 (TLS) ou port 110 (StartTLS).
+* Serveur courriel sortant :
+** SMTP : @mail.riseup.net@, port 465 (TLS) ou port 587 (StartTLS).
+* Login ou identifiant : @joehill@
+* Utiliser connexion sécurisée : @oui@ (TLS ou StartTLS)
+
+La [[connexion sécurisée -> secure-connections]] peut-être de type TLS ou StartTLS. Pour des raisons de sécurité, nous ne supportons plus SSL.
+
+*Remarque :* N'activez pas *mots de passe sécurisés* ou *authentification sécurisée*. Elles sont quelque peu mal nommées. Ces méthodes pour spécifier des mots de passe nécessitent que le serveur courriel garde une copie en clair de votre mot de passe. Nous considérons que c'est un risque de sécurité, donc nous ne permettons pas les "mots de passe sécurisés." Comme la connexion à riseup.net est chiffrée de toute façon, ce n'est pas nécessaire.
+
+*Remarque pour Tor :* Le port SMTP 465 est souvent bloqué par les nœuds de sortie, mais le port 587 est moins fréquemment bloqué. Si vous avez un problème pour envoyer un courriel, essayez 587.
+
+h2. Utiliser Thunderbird
+
+!thunderbird/img/reclaimyourinbox.png!:https://www.mozilla.org/fr/thunderbird/
+
+Thunderbird est un client courriel recommandé pour utiliser riseup.net. Malheureusement, la "Fondation Mozilla":https://www.mozilla.org/fr/ a complètement abandonné Thunderbird, mais cela reste la meilleure option pour un client courriel libre multiplate-forme.
+
+Thunderbird devrait se configurer automatiquement pour utiliser votre compte courriel riseup.net. Voir nos [[tutoriels Thunderbird => thunderbird]] pour plus de détails.
+
+h2.  Pourquoi devrais-je utiliser un client courriel ?
+
+Il y a de nombreux avantages à utiliser un client courriel plutôt qu'une messagerie web :
+
+* Quand vous utilisez un client courriel, vous n'avez pas besoin d'être connecté à internet en permanence. À la place, vous pouvez vous connecter, télécharger tous vos courriels, vous déconnecter, et lire les courriels que vous voulez. C'est très pratique si votre connexion n'est pas fiable, est lente ou si vous avez un accès limité. Vous pouvez également écrire un courriel n'importe quand, le sauvegarder et l'envoyer plus tard quand vous serez connecté à internet.
+* Les clients courriel sont généralement plus rapides que la messagerie web.
+* La plupart des clients courriel permettent de gérer plusieurs comptes à un seul endroit. Cela peut-être très utile quand vous avez différents comptes courriel pour différentes parties de votre vie.
+
+Il y a également quelques désavantages :
+
+* Pour utiliser un client courriel, vous devez installer un logiciel sur votre ordinateur et le configurer spécifiquement pour votre compte (ou vos comptes).
+* Comme les clients courriel stockent les messages sur votre machine, d'autres personnes peuvent lire vos courriels si elles ont accès à votre ordinateur.
+
+h2. Puis-je utiliser à la fois la messagerie web et le client courriel ?
+
+Oui, vous pouvez passer de l'un à l'autre facilement. Souvent, les personnes utilisent le client courriel à la maison ou au travail et utilisent la messagerie web quand elles voyagent. Si vous devez utiliser les deux options, vous devriez vous familiariser avec les différences entre IMAP et POP.
