@@ -1,8 +1,16 @@
 @title = 'Contact'
 
-La meilleure façon de nous contacter est de remplir un billet de dépannage. Vous pouvez aller sur https://user.riseup.net pour créer un billet.
+La meilleure façon de nous contacter est de remplir un billet de dépannage. Vous pouvez aller sur https://user.riseup.net pour créer un billet. Notez que vous n'avez pas besoin d'un compte courriel avec riseup pour créer un billet de dépannage.
 
 Si vous avez des questions générales sur notre collectif, vous pouvez nous envoyer un courriel à collective@riseup.net. Toute demande d'aide à cette adresse sera ignorée.
+
+L'identifiant long de notre clé gpg est 0x3043E2B7139A768E. L'empreinte complète est :
+
+pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88 F1B0 3043 E2B7 139A 768E
+
+Vous n'avez pas de raison particulière d'avoir confiance dans cette clé. Vous pouvez voir qui lui fait confiance :
+
+pre. gpg --list-sigs 3043E2B7139A768E
 
 Notre adresse postale est la suivante:
 
@@ -12,6 +20,9 @@ PO Box 4282
 Seattle, WA 98194 USA
 </pre>
 
-Les membres du collectif Riseup et leurs ami-e-s sont souvent sur irc.indymedia.org sur le cannal #riseup. Si IRC n'est pas un acronyme qui vous est familier, vous pouvez utiliser l'interface web à http://chat.indymedia.org pour nous rejoindre.
+Les membres du collectif Riseup et leurs ami-e-s sont souvent sur irc.indymedia.org sur le canal #riseup. *Remarque : Pour vous connecter au canal #riseup, vous devez vous connecter en utilisant SSL sur le port 6697.* Si IRC n'est pas un acronyme qui vous est familier, vous pouvez utiliser l'interface web à https://chat.indymedia.org pour nous rejoindre.
+
+Retrouvez-nous sur "diaspora":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5 (riseup@diasp.org)
+Et sur "twitter":https://twitter.com/riseupnet.
 
 Vous cherchez des images en haute résolution du collectif Riseup? Elles sont disponibles [[ici -> images]].
