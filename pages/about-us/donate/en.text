@@ -39,6 +39,15 @@ h1. Online donations
 
 <%= render :partial => 'inc/donate_forms' %>
 
+h1. Wire/Bank transfers (EUR only)
+
+We can accept wire transfers *only in Euros (EUR), no other currencies.* Please send to:
+
+p(donation). Recipient Name: Riseup Networks
+IBAN DE41 4306 0967 1126 8256 06
+BIC GENODEM1GLS
+GLS Bank
+
 h1. Frequently Asked Questions
 
 <%= render :partial => 'inc/faq' %>
