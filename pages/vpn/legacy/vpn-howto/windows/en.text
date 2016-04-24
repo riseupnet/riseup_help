@@ -15,7 +15,7 @@ Download the "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem an
 
 h2. Configure OpenVPN
 
-Download the "riseup.ovpn":/vpn-howto/windows-riseup.ovpn configuration file and move it to [*C:\Program Files\OpenVPN\config\RiseupVpn.ovpn*]
+Download the "riseup.ovpn":/vpn/legacy/vpn-howto/windows-riseup.ovpn configuration file and move it to [*C:\Program Files\OpenVPN\config\RiseupVpn.ovpn*]
 
 h2. Start OpenVPN
 
