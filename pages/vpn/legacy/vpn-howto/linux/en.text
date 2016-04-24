@@ -102,7 +102,7 @@ If you don't want to use a graphical interface, you can run OpenVPN from the com
 $ sudo openvpn riseup.ovpn
 </code>
 
-"Here is a minimal riseup.ovpn configuration file":/vpn/vpn-howto/riseup.ovpn
+"Here is a minimal riseup.ovpn configuration file":/vpn/legacy/vpn-howto/riseup.ovpn
 
 Have a look at the file, there are some things in there that you need to change. @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
 
@@ -136,4 +136,4 @@ script-security 2
 up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf
 </pre>
-# Download "this script":/vpn/vpn-howto/update-resolve.conf and place it in /etc/openvpn/update-resolve.conf
+# Download "this script":/vpn/legacy/vpn-howto/update-resolve.conf and place it in /etc/openvpn/update-resolve.conf
