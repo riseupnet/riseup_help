@@ -1,0 +1,61 @@
+@title = "Chat Riseup"
+@nav_title = "Chat"
+
+h2. Qu'est-ce que Jabber ?
+
+Jabber est un protocole de messagerie instantanée ainsi que de chat audio et vidéo. Jabber permet d'envoyer et de recevoir des messages entres utilisateurs, et ce, peu importe le fournisseur parmi les milliers disponibles.
+
+h2. Utiliser le service Jabber de Riseup
+
+Votre adresse email riseup.net sert aussi d'adresse jabber. Une personne souhaitant vous envoyez un message ou une demande d'amitié n'a qu'à l'envoyer à [@utilisateur@riseup.net@].
+
+In order to configure a [[jabber client => chat/clients]], you need this information:
+
+* *protocole*: "jabber" ou "xmpp"
+* *compte*: [@utilisateur@riseup.net@]
+* *mot de passe*: votre [[mot de passe Riseup]]
+
+It is very important than you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
+
+Some jabber clients will ask for your username and domain separately. In this case, you would specify:
+
+* *username*: [@username@]
+* *domain*: @riseup.net@
+
+For tutorials on specific clients, see our [[jabber client => chat/clients]] page.
+
+h2. Connecting to multi-user chatrooms
+
+When connecting to or creating chatrooms on Riseup's jabber network, the syntax should be:
+
+* [@your-room-name@conference.riseup.net@]
+
+If you need to specify the room separately, do this:
+
+* chatroom: @your-room-name@
+* domain: @conference.riseup.net@
+
+Do NOT use this:
+
+* [@your-room-name@riseup.net@]
+
+h3. using rooms in Pidgin
+
+If your are are connected via [[pidgin]], to join or create a chatroom, click @Add room@ in the @Buddy@ menu.
+
+* Room: @your-room-name@
+* Server: @conference.riseup.net@
+* Handle: @your-nick@
+* Password: [optional]
+* Alias: [optional]
+* Group: [optional]
+
+Click @Ok@ and have a look at the buddy list. You should see a group @Chat@ with your room.
+Right click on it and select @join@.
+
+For testing, you can select @riseup.net@ as room name and join it.
+
+h2. For added security
+
+For added security, access our jabber server via the [[Riseup VPN => vpn]] or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. (See also our [[Tor page->tor#riseups-tor-hidden-services]] for a complete list of hidden nodes)
+
