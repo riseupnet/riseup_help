@@ -9,7 +9,7 @@ h2. Utiliser le service Jabber de Riseup
 
 Votre adresse email riseup.net sert aussi d'adresse jabber. Une personne souhaitant vous envoyez un message ou une demande d'amitié n'a qu'à l'envoyer à [@utilisateur@riseup.net@].
 
-In order to configure a [[jabber client => chat/clients]], you need this information:
+Pour configurer votre [[client jabber => chat/clients]], vous aurez besoin des informations suivante:
 
 * *protocole*: "jabber" ou "xmpp"
 * *compte*: [@utilisateur@riseup.net@]
@@ -17,45 +17,45 @@ In order to configure a [[jabber client => chat/clients]], you need this informa
 
 It is very important than you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
 
-Some jabber clients will ask for your username and domain separately. In this case, you would specify:
+Certains clients jabber vont demander votre nom d'utilisateur et le domaine séparément. Dans ce cas, vous devrez spécifier les informations suivante:
 
-* *username*: [@username@]
-* *domain*: @riseup.net@
+* *nom d'utilisateur*: [@utilisateur@]
+* *domaine*: @riseup.net@
 
-For tutorials on specific clients, see our [[jabber client => chat/clients]] page.
+Pour des tutoriels spécifiques aux clients, vous pouvez regarder la page sur les [[clients jabber => chat/clients]].
 
-h2. Connecting to multi-user chatrooms
+h2. Se connecter à des _chatrooms_ multi-utilisateurs
 
-When connecting to or creating chatrooms on Riseup's jabber network, the syntax should be:
+La syntaxe pour créer ou se connecter à un _chatroom_ sur le réseau jabber de Riseup est la suivante:
 
-* [@your-room-name@conference.riseup.net@]
+* [@votre-nom-de-chatroom@conference.riseup.net@]
 
-If you need to specify the room separately, do this:
+Si vous avez besoin de spécifiez le _chatroom_ séparément:
 
-* chatroom: @your-room-name@
-* domain: @conference.riseup.net@
+* *_chatroom_*: @votre-nom-de-chatroom@
+* *domaine*: @conference.riseup.net@
 
-Do NOT use this:
+Ne faites pas ça:
 
-* [@your-room-name@riseup.net@]
+* [@votre-nom-de-chatroom@riseup.net@]
 
-h3. using rooms in Pidgin
+h3. Utiliser les _chatrooms_ avec pidgin
 
-If your are are connected via [[pidgin]], to join or create a chatroom, click @Add room@ in the @Buddy@ menu.
+Pour joindre ou créer un _chatroom_ en étant connecté avec [[pidgin]], vous devez cliquer sur @Add room@ dans le menu @Buddy@.
 
-* Room: @your-room-name@
-* Server: @conference.riseup.net@
-* Handle: @your-nick@
-* Password: [optional]
-* Alias: [optional]
-* Group: [optional]
+* *_Room_*: @votre-nom-de-room@
+* *Serveur*: @conference.riseup.net@
+* *Surnom*: @votre-surnom@
+* *Mot de passe*: [optionnel]
+* *Alias*: [optionnel]
+* *Groupe*: [optionnel]
 
-Click @Ok@ and have a look at the buddy list. You should see a group @Chat@ with your room.
-Right click on it and select @join@.
+Cliquer sur @Ok@ et regarder la liste de _buddy_. Vous devriez voir un groupe @Chat@ avec la liste des _chatroom_.
+Cliquez droit sur un _chatroom_ et sélectionnez @join@.
 
-For testing, you can select @riseup.net@ as room name and join it.
+Pour tester, vous pouvez sélectionner le _chatroom_ @riseup.net@ et le joindre.
 
-h2. For added security
+h2. Pour plus de sécurité
 
-For added security, access our jabber server via the [[Riseup VPN => vpn]] or this "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. (See also our [[Tor page->tor#riseups-tor-hidden-services]] for a complete list of hidden nodes)
+Pour plus de sécurité, accédez à notre serveur jabber en utilisant le [[VPN Riseup => vpn]] ou avec ce "service caché:":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. Regardez la [[page Tor => tor#riseups-tor-hidden-services]] pour une liste complètes de nos services cachés.
 
