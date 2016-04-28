@@ -38,7 +38,3 @@ h2. Clients to avoid
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
 | [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
-
-
-
-
