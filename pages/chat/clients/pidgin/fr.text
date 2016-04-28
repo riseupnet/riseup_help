@@ -4,20 +4,20 @@ h2. À propos de Pidgin
 
 !logo.pidgin.png!
 
-Pidgin is the most popular instant message client for GNU/Linux, Windows, and Mac. You can download Pidgin from https://pidgin.im/download. For Mac, check out [[Adium]], the native build of pidgin for Mac.
+Pidgin est le plus populaire client de messagerie instantanée pour GNU/Linux, Windows et Mac. Vous pouvez télécharger Pidgin [[ici => https://pidgin.im/donwload]]. Pour Mac, vous pouvez télécharger [[Adium]], qui est la version native de Pidgin pour Mac.
 
-h2. Setting up an account
+h2. Configurer un compte
 
-When you first start pidgin, hit the *Add...* button to add an account.
+Quand vous lancez Pidgin pour la première fois, cliquez sur le boutton *Add...* pour ajouter un compte.
 
-(1) Under *Basic* tab, set these values:
+(1) Sous l'onglet *Basic*, mettez les valeurs suivantes :
 
 !new-account-basic-tab.png!
 
-* *Protocol*: XMPP
-* *Username*: your Riseup username
-* *Domain*: riseup.net
-* *Password*: your [[riseup-password]]
+* *Protocole*: XMPP
+* *nom d'utilisateur*: votre nom d'utilisateur Riseup
+* *Domaine*: riseup.net
+* *mot de passe*: votre [[mot-de-passe-riseup]]
 
 Optionally, set the local alias to be your name, and add an icon for yourself. Other people will see this icon on their jabber client.
 
