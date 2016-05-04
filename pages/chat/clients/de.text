@@ -38,6 +38,3 @@ h2. Clients, die man meiden sollte
 table(table table-striped).
 |_. Client |_. Unterstützte Betriebssysteme |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Kommentare |
 | [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | Nein | *Ja* | *Ja* | *Ja* | *Ja* | Open-Source. Guter Jabber-Client, der in Python programmiert wurde. Bedauerlicherweise ist es nicht möglich, verschlüsselte Verbindungen aufzubauen. Eventuell bereits behoben? |
-
-
-
