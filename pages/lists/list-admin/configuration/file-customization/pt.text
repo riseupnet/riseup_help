@@ -1,0 +1,15 @@
+@title = 'Personalização de arquivos'
+@summary = 'Personalizando o texto usado para descrever uma lista em várias situações.'
+
+Na nova versão do Sympa, vários aspectos da sua lista vão deixar de ser personalizáveis por usuários. Porém você ainda poderá editar os seguintes arquivos clicando em _Administrar_ e, então, em _Personalizar_.
+
+* Página inicial: Texto de descrição da lista em HTML. É mostrado no lado direito da página principal da lista.
+* Descrição: Este texto faz parte da mensagem de boas-vindas para novos assinantes e da página inicial padrão.
+* Cabeçalho da mensagem: Se não estiver vazio, este arquivo é adicionado como anexo MIME no começo de cada mensagem.
+* Rodapé da mensagem: Se não estiver vazio, este arquivo é adicionado como anexo MIME no final de cada mensagem.
+* Mensagem de remoção: Esta é enviada para os usuários excluídos da lista (a não ser que você opte por não avisá-los).
+* Mensagem de convite para inscrição: Esta é enviado para as pessoas convidadas a se inscreverem.
+* Mensagem de boas-vindas: Esta é enviada para novos assinantes.
+* Mensagem de rejeição do editor: Esta é enviada para as pessoas cujos posts são rejeitados.
+* Mensagem de lembrete: Esta é enviada para cada assinante quando você clica em _Lembrar todos os assinantes_.
+* Mensagem de infecção por vírus: Esta é enviada para os usuários cujas mensagens para a lista estão infectadas por vírus.

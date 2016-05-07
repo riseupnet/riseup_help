@@ -1,0 +1,81 @@
+@title = 'Definição de listas'
+@summary = 'Há muitas opções de configuração para cada aspecto de uma lista. Esta seção vai ajudar você a configurar cada um desses aspectos.'
+
+h2. Donos de lista
+
+h3. O que é um dono de lista?
+
+Só o dono, ou proprietário, pode mudar as configurações de uma lista. O dono de uma lista não é automaticamente moderador nem assinante dela também; para isso, precisa adicionar seu próprio endereço de e-mail como moderador e se inscrever para receber as mensagens da lista.
+
+h3. Adicionando donos
+
+Para adicionar um dono:
+
+# Vá para a página principal da lista.
+# Clique em *Administrar*.
+# Clique em *Configurar a Lista*.
+# Clique em *Definição da Lista*.
+# Na seção *proprietário*, procure a entrada em branco. No campo *Email*, insira o endereço de e-mail do dono adicional. Em *recebimento*, selecione _Email_. Todos os outros campos podem ficar em branco.
+# Clique em *Atualizar*, no final da página.
+
+h3. Trocando donos
+
+Siga estes passos para mudar o dono de uma lista:
+
+# Crie uma nova conta de listas para o novo endereço de e-mail. Novas contas podem ser cadastradas "aqui":https://lists.riseup.net/www/renewpasswd.
+# Faça login como o dono *atual*.
+# Adicione o novo e-mail à lista como dono adicional (veja _Adicionando donos_, acima).
+# Saia do sistema e entre novamente como o novo dono.
+# Exclua o dono original da lista de donos apagando o campo do e-mail.
+# Clique em *Atualizar*, no final da página.
+
+Não é aconselhável excluir a conta de dono antiga até ter certeza de que se pode fazer login com a nova.
+
+h2. Moderadores de lista
+
+h3. O que é um moderador?
+
+Um moderador, ou editor, é encarregado de aprovar ou rejeitar as publicações de uma lista. Posts só precisam ser avaliados pelos moderadores se a opção de *enviar* da lista estiver configurada para isso.
+
+A sua lista pode ter tantos moderadores quanto você quiser. Moderadores também podem ser assinantes ou donos da lista, mas isso não é automático: se você for moderador e quiser receber mensagens de uma lista, precisa se inscrever.
+
+Algumas opções de configuração podem dar aos editores outros privilégios, como a possibilidade de editar a lista de assinantes e o depósito.
+
+h3. Adicionando moderadores
+
+Para adicionar um moderador à lista:
+
+# Clique em *Configurar a Lista*.
+# Clique em *Definição da Lista*.
+# Na seção *Moderadores*, procure a entrada em branco. No campo *Email*, insira o endereço de e-mail do moderador adicional. Em *recebimento*, selecione _Email_. Todos os outros campos podem ficar em branco.
+# Clique em *Atualizar*, no final da página.
+
+h3. Excluindo moderadores
+
+Para remover um moderador da lista:
+
+# Clique em *Configurar a Lista*.
+# Clique em *Definição da Lista*.
+# Na seção *Moderadores*, procure a entrada a ser excluída e apague todos os campos dela.
+# Clique em *Atualizar*, no final da página.
+
+h2. Descrição curta
+
+Toda lista tem uma descrição curta. Ela é exibida no diretório de listas. A variável que a define é chamada de *assunto*.
+
+Para mudar o *assunto* de uma lista:
+
+# Clique em *Configurar a Lista*.
+# Preencha o campo *Assunto* com a descrição curta desejada.
+# Clique em *Atualizar*.
+
+h2. Tópicos
+
+Na página principal de lists.riseup.net há um diretório de listas, organizadas por tópico. Se você quiser a sua lista no diretório, deve atribuir um ou mais tópicos a ela.
+
+Para definir um tópico:
+
+# Clique em *Configurar a Lista*.
+# Selecione uma opção na lista pop-up *tópicos*.
+# Clique em *Atualizar*.
+

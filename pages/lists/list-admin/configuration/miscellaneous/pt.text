@@ -1,0 +1,22 @@
+@title = 'Miscelânea'
+@summary = 'Miscelânea de possibilidades de configuração, inclusive de avisar usuários da expiração das suas contas e de lembrar a eles da assinatura.'
+
+h2. Tarefa de expiração
+
+Se ativada, a tarefa de expiração vai cancelar as assinaturas dos membros da lista que não responderem ao e-mail automático.
+
+h2. Tarefa de lembrança
+
+Se ativada, a tarefa de lembrança vai enviar uma mensagem para todos os membros de uma lista lembrando-os da assinatura.
+
+h2. Método de proteção do endereço de e-mail
+
+Esta configuração determina o método a ser usado para proteger de [[spiders da web->https://pt.wikipedia.org/wiki/Web_crawler]] os endereços de e-mail presentes nos arquivos de listas.
+
+As escolhas possíveis são:
+
+** At: Os e-mails são escritos assim: helpdesk@riseup.net -> @helpdesk AT riseup.net@.
+** Javascript: Os e-mails são recompostos usando Javascript para que sejam legíveis para pessoas, mas não para spiders coletoras de e-mails.
+** Cookie: Antes de acessar os arquivos, um cookie deve ser aceito. Assim, um mecanismo de busca não vai poder indexar os seus arquivos, mesmo sendo públicos. Porém você não vai poder distribuir links diretos para um arquivo: depois que aceitar o cookie, o internauta será redirecionado para o índice geral dos arquivos.
+** None: Nada é feito para disfarçar os endereços de e-mail.
+

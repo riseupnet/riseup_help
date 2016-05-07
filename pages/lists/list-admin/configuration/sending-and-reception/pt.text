@@ -1,0 +1,46 @@
+@title = 'Envio e recebimento'
+@summary = 'Configurações de envio, resumo e apresentação dos assuntos das mensagens, entre outros.'
+
+h2.  Quem pode enviar mensagens
+
+Primeiro, algumas definições:
+
+* Um *membro* é um assinante da lista, isto é, alguém que recebe os e-mails da lista. A relação dos membros aparece ao se clicar no link *membros* na página da lista.
+* Uma lista é *moderada* se houver um editor que precisa aprovar parte dos e-mails antes que sejam entregues aos membros da lista.
+
+Um dono ou administrador de lista pode configurar isso no campo _Quem pode mandar mensagens_, em _Administrar_ -> _Configurar Lista_ -> _Envio/recebimento_. As opções abaixo determinam quem pode enviar mensagens para uma lista:
+
+* Anyone_moderated: Qualquer um pode publicar; todas as mensagens são moderadas, mesmo aquelas cujos autores são membros da lista.
+* Anyone_unmoderated: Qualquer um pode publicar; nenhuma mensagem é moderada. Cuidado! Sua lista pode receber uma grande quantidade de spam e tofu (spam ativista).
+* Members_moderated: Todos os posts de membros são moderados; outras mensagens são rejeitadas. Se um assinante da lista publicar uma mensagem a partir de um endereço de e-mail não cadastrado, ela será rejeitada.
+* Members_or_moderated: Os membros da lista podem publicar; outras mensagens passam pela moderação. Esta é a configuração mais comum. Ela permite que todos os membros enviem mensagens livremente e que outras pessoas também possam publicar, desde que um editor aprove seus posts.
+* Members_or_moderated_quiet: Funciona do mesmo jeito que _members_or_moderated_, só que os autores não são avisados da ação dos moderadores. Normalmente, quando uma mensagem é moderada, uma notificação é enviada para a pessoa que a enviou. Com esta opção, porém, isso não acontece.
+* Members_unmoderated: Qualquer membro pode publicar; outras mensagens são rejeitadas. Se você quiser impedir posts de pessoas que não pertencem à lista, selecione esta opção.
+* Newsletter: Apenas editores podem publicar; outras mensagens são rejeitadas. Esta opção é útil para restringir a permissão de publicar a poucas pessoas.
+* Newsletter_verify: Funciona do mesmo jeito que _newsletter_, exceto que a origem do post é verificada com um e-mail de confirmação. Assim, ninguém pode falsificar o endereço de e-mail para publicar indevidamente.
+
+h2. Frequência do e-mail de resumo
+
+Esta configuração determina com qual frequência, isto é, de quanto em quanto tempo, membros inscritos no modo resumo recebem o e-mail de resumo, que reúne todas as mensagens da lista (desde o último resumo) em uma única mensagem.
+
+Atualmente, os resumos são enviados somente no formato MIME: cada uma das mensagens é incluída como um anexo MIME. Se o seu cliente de e-mail for moderno, excelente; porém, se for antigo, você pode precisar abrir manualmente cada anexo. Infelizmente, o software que usamos não dá suporte a resumos em texto puro.
+
+h2. Endereço de resposta
+
+Por padrão, respostas a mensagens da lista são remetidas para os autores das mensagens. Você pode mudar essa opção para que, em vez disso, a resposta seja enviada para a lista.
+
+Para mudar o *endereço de resposta*:
+
+# Vá para *Configurar a Lista* > *Envio/recebimento*.
+# Substitua o *Endereço de resposta* preenchido pelo desejado.
+# Clique em *Atualizar*.
+
+h2. Identificação do assunto
+
+Pode ser útil identificar os e-mails de uma lista usando o campo de assunto. Assim, os assinantes vão poder fazer uma busca rápida na caixa de entrada para encontrar os e-mails da lista. Por padrão, todas as listas têm como *identificação do assunto* o nome da lista. Por exemplo, a *identificação do assunto* de uma lista anarquismo101@riseup.net seria @anarquismo101@, e todos os e-mails incluiríam a tag @[anarquismo101]@ no campo assunto.
+
+Para mudar a *identificação do assunto*:
+
+# Vá para *Configurar a Lista* > *Envio/recebimento*.
+# Substitua a *Identificação do assunto* preenchida pela desejada.
+# Clique em *Atualizar*.

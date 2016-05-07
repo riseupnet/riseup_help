@@ -1,0 +1,40 @@
+@title = 'Formulário em HTML'
+@summary = 'Como criar, no seu site, um formulário de inscrição em uma lista riseup.net.'
+
+h2. Formulário em HTML básico
+
+Este trecho de código HTML pode ser usado para incluir no seu site um formulário de inscrição para uma lista riseup.net:
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT  NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="nomedalista">
+  <INPUT TYPE="hidden" NAME="action" VALUE="subrequest">
+  <INPUT TYPE="submit" NAME="action_subrequest" VALUE="Subscribe">
+</FORM>
+</pre>
+
+IMPORTANTE: substitua *nomedalista* pelo nome da sua lista. Por exemplo, o nome da lista anarquismo101@lists.riseup.net seria "anarquismo101". Além disso, a conexão *deve* ser em SSL (isto é, "https") para o formulário funcionar.
+
+Aqui está um modelo de formulário de cancelamento de assinatura:
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="nomedalista">
+  <INPUT TYPE="hidden" NAME="action" VALUE="sigrequest">
+  <INPUT TYPE="submit" NAME="action_sigrequest" VALUE="Unsubscribe">
+</FORM>
+</pre>
+
+h2. Para caprichar
+
+Escrevendo um script para processar o formulário, você pode enviar e-mails para nomedalista-subscribe@lists.riseup.net com o campo do remetente preechido com o endereço de e-mail da pessoa que quer se inscrever. Assim, ela não vai ser redirecionada para lists.riseup.net e vai ficar no seu site.
+
+Esse método é preferível porque a interface web do sympa é um pouco complicada: quando você tenta se inscrever pela web, uma senha é enviada por e-mail e precisa ser copiada de volta para o site. Com pedidos de inscrição via e-mail, basta responder à mensagem.
+
+h2. Para caprichar muito
+
+É possível administrar a maioria dos aspectos de uma lista remotamente, usando o protocolo SOAP (em português, Protocolo Simples de Acesso a Objetos). O SOAP não está habillitado em riseup.net, mas será em breve. O SOAP não é para os fracos do coração: é preciso programar muito. Se você quiser se dedicar ao SOAP para Sympa, conte para a gente e leia mais sobre isso em http://sympa.org.
