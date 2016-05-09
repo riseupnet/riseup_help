@@ -3,30 +3,30 @@
 
 h2.  Criar depósito para lista
 
-# Entre no sistema como administração da lista.
-# Na coluna da esquerda, procure a lista desejada em "Suas listas".
-# Clique na opção "Admin".
-# Clique em "Create Shared".
-# Privilégios podem ser configurados em "Edit List Config" -> "Privilégios", na seção "Documentos compartilhados".
+# Entre no sistema como administrador da lista.
+# Na coluna da esquerda, procure a lista desejada em _Suas listas_.
+# Clique na opção _Administrar_.
+# Clique em _Criar Compartilhamento_.
+# Privilégios podem ser configurados em _Configurar a Lista_ -> _Privilégios_, na seção _Documentos compartilhados_.
 
 h2.  Adicionar, visualizar ou editar documentos guardados no depósito
 
-* Entre em https://lists.riseup.net com conta de administração ou que tenha privilégios para adicionar e visualizar os documentos da lista.
+* Entre em https://lists.riseup.net com conta de administrador ou que tenha privilégios para adicionar e visualizar os documentos da lista.
 * Clique na lista.
-* Clique em "Documentos compartilhados".
-* Há dois modos: "modo usuário" e "modo avançado".
+* Clique em _Documentos compartilhados_.
+* Há dois modos: _modo usuário_ e _modo avançado_.
 * Para subir um documento para a pasta compartilhada:
-** Ative o "modo avançado".
-** Clique em "Selecionar arquivo...", sob "Enviar um arquivo para a pasta SHARED".
-** Localize o arquivo no disco local e clique no botão Abrir ou Ok da caixa de diálogo.
-** Clique em "Publicar" para subir o arquivo.
+** Ative o modo avançado.
+** Clique em _Selecionar arquivo..._, sob _Enviar um arquivo para a pasta SHARED_.
+** Localize o arquivo no disco local e clique no botão _Abrir_ ou _Ok_ da caixa de diálogo.
+** Clique em _Publicar_ para subir o arquivo.
 * Para abrir um arquivo compartilhado:
-** Ative o "modo usuário".
+** Ative o modo usuário.
 ** Selecione o arquivo na lista.
 * Para editar um arquivo compartilhado:
-** No modo avançado, clique em "Editar", ao lado do arquivo.
+** No modo avançado, clique em _Editar_, ao lado do arquivo.
 * Para apagar um arquivo compartilhado:
-** No modo avançado, clique em "Apagar", ao lado do arquivo.
+** No modo avançado, clique em _Excluir_, ao lado do arquivo.
 * Para mudar os privilégios de um arquivo específico:
-** No modo avançado, clique em "Acesso", ao lado do arquivo.
+** No modo avançado, clique em _Acesso_, ao lado do arquivo.
 * Você pode compartilhar o URL do arquivo subido enviando um e-mail para a lista. Os membros da lista vão precisar entrar no sistema para baixá-lo.
