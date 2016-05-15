@@ -1,17 +1,17 @@
 pl:
   tags: "Tagi"
   tag: "Tag"
-  related: "Powiązane"
-  missing_translation: "Ta strona nie została jeszcze przetłumaczona z angielskiego."
+  related: "Pokrewne"
+  missing_translation: "Ta strona nie została jeszcze przetłumaczona."
   support_riseup: "Wspomóż Riseup!"
-  motto: "Zejdź z komputera, zobaczymy się na ulicy."
-  footer_tagline: "Ten serwis jest prowadzony przez riseup.net, twoją przyjazną autonomiczną techniczną grupę od 1999."
-  contribute_to_help: "Zostałeś zaproszony do darowizny nowego materiału i tłumaczeń dla tych stron."
+  motto: "Zobaczymy się w mieście!"
+  footer_tagline: "Riseup, Twoja niezależna spółdzielnia technologiczna, od roku 1999."
+  contribute_to_help: "Zapraszamy do darowizny nowego materiału i tłumaczeń dla tych stron!"
   system_updates: "Aktualizacje systemu"
   # quick links:
   link_privacy: "Polityka prywatnośći"
   link_about_us: "O nas"
-  link_status: "Stan systemu"
+  link_status: "Status systemu"
   link_support: "Wspomóż Riseup"
   # services:
   link_lists: "Listy mailingowe"
@@ -20,9 +20,9 @@ pl:
   link_groups: "Grupy"
 
   # Donation page
-  donation_processor: "Dostawca dotacji"
+  donation_processor: "Firma"
   supports_recurring_donations: "Cykliczne dotacje?"
-  supports_optional_registration: "Ewentualna rejestracja?"
+  supports_optional_registration: "Rejestracja?"
   supports_credit_card: "Karta kredytowa?"
   notes: "Notatki"
   yes_value: "Tak"
@@ -33,17 +33,17 @@ pl:
   monthly: "Miesięcznie"
   quarterly: "Kwartalnie"
   recurring_donation: "Cykliczna dotacja"
-  one_time_donation: "Jednorazowa darowizna"
+  one_time_donation: "Jednorazowa dotacja"
 
   bitcoin: "Bitcoin"
-  bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
-  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
-  bitcoin_grab_address: "Zgarnij adres bitcoin."
+  bitcoin_note: "Bitcoin to innowacyjna sieć płatności i nowy rodzaj pieniądza"
+  bitcoin_description: "Bitcoin to zdecentralizowana kryptowaluta elektroniczna P2P. Bitcoin to także darmowy sposób na transfer pieniędzmi za granicę. Jeśli chciał(a)byś użyć Bitcoin, wygenerujemy dla Ciebie nowy, unikatowy adres Bitcoin. Kliknij przycisk i gotowe!"
+  bitcoin_grab_address: "Zgarnij adres bitcoin"
   generate: "Wygeneruj"
 
   dwolla: "Dwolla"
   dwolla_note: "Bardzo niskie koszta. Wymaga rejestracji i amerykańskiego konta bankowego."
-  dwolla_description: "Dwolla jest naprawdę tanim sposobem na wysyłanie wirtualnych pieniędzy, aczkolwiek wymaga od ciebie stworzenia konta Dwolla powiązanego z amerykańskim kontem bankowym. Dwolla wspiera cykliczne dotacje."
+  dwolla_description: "Dwolla to naprawdę tani sposób na wysyłkę wirtualnych pieniędzy, aczkolwiek wymaga od Ciebie stworzenia konta Dwolla powiązanego z amerykańskim kontem bankowym. Dwolla wspiera cykliczne dotacje."
 
   paypal: "Paypal"
   paypal_note: "Działa w wielu krajach."
@@ -51,12 +51,12 @@ pl:
 
   wepay: "WePay"
   wepay_note: "Alternatywa PayPal."
-  wepay_description: "WePay jest dobrą alternatywą do PayPal. Możesz używać WePay bez tworzenia konta, a także obsługuje karty kredytowe."
+  wepay_description: "WePay jest dobrą alternatywą do PayPal. Możesz używać WePay bez tworzenia konta. Obsługuje karty kredytowe."
 
   flattr: "Flattr"
-  flattr_note: "Mikropłatności się dodają."
-  flattr_description: "Flattr jest systemem mikropłatności, który pozwala na wspieranie wielu projektów."
+  flattr_note: "Mikropłatności się sumują."
+  flattr_description: "Flattr to system mikropłatności, który pozwala na wspieranie wielu projektów naraz."
 
   gratipay: "Gratipay"
-  gratipay_note: "Cykliczne mikropłatności się dodają."
-  gratipay_description: "Gratipay jest kolejnym systemem mikropłatności, ktory pozwala na cotygodniowe dotacje projektów, które lubisz."
+  gratipay_note: "Cykliczne mikropłatności się sumują."
+  gratipay_description: "Gratipay to kolejny system mikropłatności, ktory pozwala na cotygodniowe dotacje projektów."
