@@ -23,7 +23,7 @@ Accessoirement, vous pouvez mettre un alias local qui sera votre nom et une icô
 
 h2. Pour utiliser OTR
 
-See the [[otr]] tutorial for details on using end-to-end encryption with Pidgin.
+Voir le tutoriel [[otr]] pour plus de détails sur l'utilisation de l'encryption bout-à-bout avec Pidgin.
 
 h2. Sécuriser Pidgin sous GNU/Linux
 
@@ -39,7 +39,7 @@ Nous vous recommandons de suivre les étapes suivantes pour sécuriser Pidgin so
 
 h2. Configuration de Tor avec Pidgin
 
-Pour configure Pidgin pour utiliser Tor, vous devez modifier la configuration de votre compte de la façon suivante:
+Pour configurer Pidgin pour utiliser Tor, vous devez modifier la configuration de votre compte de la façon suivante:
 
 Premièrement choisissez *Modifier le compte*...
 
