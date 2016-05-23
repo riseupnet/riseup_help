@@ -1,0 +1,19 @@
+@title = 'Access'
+
+h2.  Warum kann ich eine Liste nicht sehen?
+
+Es gibt viele Gründe warum eine Liste unsichtbar sein kann. Manche Verteiler sind nicht öffentlich sichtbar sondern nur für die AbonnentInnen sobald sie eingeloggt sind. Um eine verstecke Liste zu abonnieren, schicke eine Mail an listname-subscribe@lists.riseup.net.
+Meistens sind versteckte Listen ausserdem Privat, d.h. dass die Listen-Administratorin deine Abonnement bestätigen muss. Wenn du die Listen-Eigentümerin bist und die Liste öffentlich machen möchtest, dann musst du die <b>Sichtbarkeitseinstellung</b> auf <b>nicht verstecken</b> setzen.
+
+The other reason a list might not be visible is that it has not been created yet. When you fill out a list request, the list becomes visible and editable by you, the admin. The list is not accessible by others until the list is actually approved.
+
+Ein anderer Grund warum eine Liste nicht sichtbar sein kann, ist, weil sie noch nicht erstellt wurde. Wenn du das Formular zum Erstellen einer Liste ausgefüllt hast, dann wird die Liste für Dich, die Administratorin, sichtbar. Andere können erst auf die Liste zugreifen wenn die Erstellung der Liste bestätigt wurde.
+
+h2.  Warum kann ich das Archiv einer Liste nicht sehen?
+
+Es gibt verschiedene Gründe warum du u.U. ein Listen-Archiv nicht sehen kannst:
+
+* Du hast Cookies im Browser deaktiviert: Um <a href="https://www.neilgunton.com/spambot_trap/">email sammelnde spambots</a> abzuhalten, muss Sympa einen Cookie speichern um Zugriff auf die Listen-Archive zu gewähren. Wenn du immer wieder einen Button mit 'I am not a spammer' siehst wenn du auf ein Listen-Archiv zugreifen möchtest, dann musst du Cookies aktivieren.
+* Du bist nicht eingeloggt: Als Voreinstellung sind die meisten Listen-Archive nur den AbonnentInnen zugänglich. Das heisst, dass du dich als Abonnent identifizieren musst, in dem du Dich einloggst, bevor du das Archiv sehen kannst. Sollte der Archiv Link auf der Seite der Mailingliste nicht klickbar sein, dann ist dies wahrscheinlich der Grund.
+* Die Listen-Archive sind geschlossen: Die Eigentümerin der Liste kann sich entschieden haben den Zugriff auf das Archiv generell zu verbieten.
+* Das Archiv ist beschädigt: ab und an gehen die Listen-Archive kaputt. Normalerweise kann man sie dann neu erstellen und sie werden wieder sichtbar.
