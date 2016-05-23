@@ -1,0 +1,31 @@
+@title = 'Riseup Lists'
+@nav_title = 'Lists'
+
+!>(image-right)pile-of-mail.jpg!
+
+h2. Willkommen
+
+Willkommen auf der Hilfeseite zu den riseup.net *mailinglisten*! Hier gibt es Infos zu den Mailinglisten welche auf https://lists.riseup.net gehostet sind.
+
+Falls du Hilfe mit riseup.net eMail Accounts brauchst, gehe zur den [[email]] Hilfeseiten. Wenn deine Frage auf hier nicht beantwortet wird, "erstelle ein Ticket": https://user.riseup.net/forms.
+
+h2. Häufige Fragen von Listen-AdministratorInnen
+
+* [[Wie erstelle ich eine Mailingliste? => creating-lists]]
+* [[Wie ändere ich den Listeneigentümer? => list-definition#changing-owners]]
+* [[Wie manage ich "bounces" (eMail Rückläufer)? => bounces]]
+* [[Wie ändere ich den Listennamen => list-admin/faq#how-do-I-change-the-list-name]]
+* [[Was heisst "FYI: automatic_del" => list-admin/faq#what-does-fyi-automatic_del-mean]]
+* [[Komplette FAQ für AdministratorInnen => list-admin/faq]]
+
+h2. Häufige Fragen von Listen-AbonnentInnen
+
+* [[Wie ändere ich die Adresse meines Abonnements? => list-user/accounts#how-do-i-change-my-subscription-address]]
+* [[Warum wird meine Mail an riseup als Spam zurückgewieseb => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[Komplette FAQ für AbonnentInnen => list-user]]
+
+h2. Über lists.riseup.net
+
+https://lists.riseup.net kann es nur mit Euren Spenden geben. Wenn diese weiter existieren sollen, spendet [[donate]]!
+
+https://lists.riseup.net benutzt nur "freie":https://www.gnu.org/philosophy/free-sw.html software, u.a. the "sympa mailing list manager":http://www.sympa.org/, den "apache webserver":https://httpd.apache.org/, "debian GNU/Linux":https://www.debian.org Betriebssystem, und die "Perl":http://www.perl.org Programmiersprache.
