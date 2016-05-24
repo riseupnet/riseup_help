@@ -1,5 +1,5 @@
-@title = 'List Subscribers'
+@title = 'Verteiler AbonnentInnen'
 
-Fragen und Antworten für Abonnenten von Mailverteilern welche auf https://lists.riseup.net gehostet sind.
+Fragen und Antworten für AbonnentInnen von Mailverteilern welche auf https://lists.riseup.net gehostet sind.
 
 <%= child_summaries :include_toc => true %>
