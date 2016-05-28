@@ -1,0 +1,39 @@
+@title = 'Progrmamierer*innen gesucht'
+
+Lasst uns ehrlich sein: die Technologie und Infrastruktur für soziale Bewegungen wird in den nächsten Jahren nicht ausreichen.
++ Da wir einer weltweiten Welle sozialer Unruhen und Organisierung begegnen werden, sind wir mit zwei Trends konfrontiert:
+
+# Kommunikationstechnologie wird zu einem unschätzbaren und integralem Teil fast aller Organisierungsversuche überall werden.
+# Überwachung dieser Kommunikationstechnologie hat sich intensiviert und ausgeweitet in einer Weise, die wir alle gerade erst beginnen zu verstehen.
+
+Wir haben ganz einfach noch nicht die nötige Technologie und Infrastruktur dafür. Riseup hilft dabei, diese Infrastruktur aufzubauen.
++ Letzendlich ist Riseup allerdings nur so gut wie die betriebene Technologie. Um zukünftigen Anforderungen an unsere Kommunikation zu begegnen, werden wir viel bessere Technologie brauchen und zwar sehr bald.
+
+Falls du programmieren kannst, brauchen wir deine Hilfe. Jetzt ist die richtige Zeit, unsere Fähigkeiten für etwas Gutes zu nutzen. Schreibt an waxwing@riseup.net.
+
+h2. LEAP
+
+In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe https://leap.se für Möglichkeiten, dabei zu helfen.
+
+h2. Javascript
+
+* kollaboratives Arbeiten: Schreibt patches für "etherpad":http://etherpad.org, um allen zu erlauben, ein Pad zu löschen, es mit Passwort zu schützen, oder zu verhindern, dass es gelöscht wird.
+* Anonyme Email: Schreib ein Plugin für Thunderbird, um persönliche Informationen von ausgehenden Kopfzeilen zu entfernen (wie z.B. dem User-Agent).
+
+h2. Ruby
+
+* Soziale Netzwerke: Nimm an der Entwicklung von "crabgrass":https://github.com/RiseupLabs/crabgrass-core teil.
+* Mailinglisten: Hilf uns, eine neue Oberfläche für "Sympa Mailinglisten":https://www.sympa.org zu entwickeln.
+* Nutzer*innenverwaltung: Hilf bei einem Rewrite von nest, unserer Kontenverwaltung.
+
+h2. PHP
+
+* Webmail: Mache "roundcube":http://roundcube.net sichrerer.
+
+h2. Perl
+
+* Mailinglisten: Wir haben eine "lange Liste mit Änderungen":https://labs.riseup.net/code/projects/sympa/issues die nötig sind für unsere "Sympa Mailinglistenverwaltung":https://www.sympa.org.
+
+h2. Python
+
+* Hilf uns bei "LEAP":https://leap.se
