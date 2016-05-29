@@ -56,5 +56,5 @@ Danach im Reiter *Proxy* ...
 
 !pidgin-modify-account-proxy.png!
 
-Setze den Proxy-Typ auf *SOCKS5*, den Host und Port so wie im Bild zu sehen ist, sowie deinen Nutzernamen und Passwort.
+Setze den Proxy-Typ auf *SOCKS5*, den Host und Port so wie im Bild zu sehen ist (127.0.0.1:9050), sowie deinen Nutzernamen und Passwort.
 
