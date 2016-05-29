@@ -25,7 +25,7 @@ h2. Usando OTR
 
 Mira el tutorial [[otr]] para detalles sobre usar cifrado punto a punto con Pidgin.
 
-h2. Asegurando pidgin en GNU/Linux
+h2. Asegurando pidgin en GNU/Linux con "AppArmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
 
 Para seguridad adicional en sistemas Linux, te recomendamos proteger tu pidgin usando estos pasos::
 
