@@ -38,7 +38,7 @@ Java also has many security problems and you probably have never used it. Remove
 * Firefox: Add-ons > Plugins > Java > Never Activate.
 * Chrome: Settings > Show advanced settings... > Content settings > Do not run plugins by default.
 
-h3. Change default search engine (optional)
+h3. Change default search engine
 
 While you are adjusting your setting, take the opportunity to change your default search engine to [[duckduckgo.com => https://duckduckgo.com]]. Riseup recommends DuckDuckGo over other privacy-respecting search engines. See instructions for [[desktop browsers => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] or [[mobile browsers => https://duck.co/help/mobile]].
 
@@ -56,7 +56,7 @@ These are absolutely essential browser extensions that everyone should be using 
     !img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock -> https://github.com/gorhill/uBlock]]*] prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
   </td>
 </tr>
 <tr>
@@ -105,6 +105,7 @@ For Chrome:
 
 * [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
 * [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
+* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] will block most HTML5 Canvas fingerprinting (not open source).
 
 h3. Harmful or not recommended
 
