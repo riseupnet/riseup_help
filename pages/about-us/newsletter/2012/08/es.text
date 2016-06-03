@@ -1,0 +1,30 @@
+@title = 'Agosto'
+
+h2. Enamórate del software de código abierto y libre
+
+¿Por qué habrías de usar GNU/Linux en lugar de Windows o Mac OS? Hay muchas razones, y una de las mejores es la enorme cantidad de viruses, troyanos, programas de puerta trasera, errores de seguridad, interceptación y hacking del gobierno, y otros exploits. A lo largo de los años, estos problemas han hecho que no podamos confiar en Windows o Mac OS, especialmente porque no te dan la oportunidad de mirar bajo su corteza para verificar que lo que está ocurriendo está bien. Ambos tienen código cerrado y propietario, lo que significa que al usarlos le estás confiando tu información privada a una corporación cuyo único objetivo es obtener ganancias, no la seguridad de tu información, y cuyos métodos no puedes auditar por ti mismo.
+
+El OS X sufre de muchos problemas similares a Windows. Aunque esté basado en Unix (del cual Linux es un “clon”), una gran porción del sistema operativo no es de código abierto y, por tanto, no está disponible para revisión independiente. Su creciente popularidad ha resultado en un incremento en viruses y exploits (aunque aún significativamente menos que en Windows), y su cultura corporativa de autoritarismo es evidente en la estructura del sistema operativo. OS X también incluye la “característica” de poder activar la cámara web remotamente, lo cual se puede usar para otros propósitos.
+
+GNU/Linux, sin embargo, está principalmente compuesto (y puede estar hecho exclusivamente) de software cuyo código puede ser obtenido y auditado esencialmente por cualquier persona, y ha sido construido por una comunidad de personas por muchos años. A lo largo de su historia ha tenido pocos viruses y exploits a nivel de usuario. Linux, además, es un sistema operativo fácil de usar y compatible con mucho hardware antiguo, lo cual permite que este nivel de seguridad sea accesible para la mayoría de personas.
+
+h2. Un consejo
+
+Hay un momento en la vida de una activista en que ella necesita cancelar su suscripción con una lista porque quizá le gustaría salir de su casa alguna vez y no tener que pasarse la vida leyendo emails de grupos en los cuales ya no está involucrada. Aquí te presentamos una útil guía para hacer eso con una lista de Riseup.
+
+Primero, la manera más fácil de cancelar una suscripción es enviar un email a: nombredelista-unsubscribe@lists.riseup.net Donde “nombredelista” es el nombre de la lista con la cual quieres cancelar tu suscripción.
+
+Si eso no funciona, es porque has enviado el mensaje de cancelación desde una dirección electrónica diferente de la dirección que está suscrita a la lista.
+
+Aquello puede ocurrir si tienes múltiples direcciones electrónica (o aliases) en una sola bandeja de entrada. Si es posible, asegúrate de que la dirección de la que envías el mensaje de cancelación sea la misma que la cual con la que te suscribiste. Si es no es posible, sigue estos pasos:
+
+# Login en lists.riseup.net con la dirección que está suscrita a la lista.
+Si no sabes la contraseña, sigue los vínculos en esa página para que se te
+envíe una.
+# Una vez en el sistema, haz click en “Tus listas” cerca de la parte
+superior de la página, o revisa la lista bajo el encabezado “Tus listas” en
+la parte izquierda de la página.
+# Haz click en el nombre de la lista que quieres cancelar.
+# Haz click en Darse de baja
+
+¡Listo! Ahora anda y disfruta del día.
