@@ -1,0 +1,43 @@
+@title = 'Accounts'
+
+h2.  Wie erstelle ich einen Account?
+
+Um einen Listen-Account zu erstellen mmusst du einfach eine Mailingliste abonnieren. Zum Abonnieren, schreibe eine Mail an  <b>listenname-subscribe@lists.riseup.net</b>, wobei <i>listenname</i> der Name des Emailverteilers ist, den du abonnieren möchtest. 
+
+Alternativ kannst du auch das [[Web-Formular benutzen->https://lists.riseup.net/www/renewpasswd]].
+
+Wenn du einen Account eröffnest, generiert Sympa (die Software die wir für die Verteiler benutzen) ein zufälliges Passwort welches an deine Mailadresse geschickt wird. Das hindert Andere daran die Liste ohne deine Genehmigung zu abonnieren - und stellt sicher, dass deine Mailadresse echt ist. Dieses zufällige Passwort solltest du so bald wie möglich auf etwas ändern was du erinnern kannst.
+
+Eine Anmerkung: Die Accounts für Mailinglisten bei lists.riseup.net sind <i>komplett unterschiedlich</i> zu den eMail-Accounts bei riseup.net.
+
+h2.  Wie ändere ich mein Passwort?
+
+Logge dich mit deiner vollen EMail-Adresse und deinem Passwort ein, dann klicke auf den Link _Voreinstellungen_ oben auf der Seite. Dort findest du das Formular um dein Passwort zu ändern.
+
+h2.  Ich habe mein Passwort vergessen!
+
+Fülle das [[Passwort-Erinnerungs Formular aus->https://lists.riseup.net/www/renewpasswd]]. Dein Passwort wird an die von Dir angegebene Adresse geschickt.
+
+h2.  Ich habe kein Passwort!
+
+Wenn jemand anders den Verteiler für Dich abonniert hat ist es möglich, dass du kein Passwort hast. Fülle das Formular für ein [[neues Passwort aus->https://lists.riseup.net/www/renewpasswd]]. Ein temporäres Passwort wird an die angegebene Adresse geschickt, zusammen mit einer Anleitung wie man es ändern kann.
+
+h2.  Wie ändere ich die Adresse meines Abonnements?
+
+To change the email address which you use to subscribe to all riseup.net list, follow these steps:
+Um deine Mailadresse für alle riseup.net Mailverteiler zu ändern, gehe die folgenden Schritte durch:
+# Logge dich mit deiner aktuellen Adresse hier ein: https://lists.riseup.net
+# Klick den Link zu *Voreinstellungen*.
+# Beim Punkt *Email:* trage deine neue eMailadresse ein und drücke *Save*.
+
+*ACHUTUNG* Wenn du Moderator oder Eigentümer einer Liste bist, dann benutze dieses Formular NICHT! Du verlierst dadurch den Administrationszugriff. Stattdessen gehe folgendermassen vor:
+
+# füge die neue Adresse als *zusätzlichen* Eigentümer hinzu
+# gehe die obigen Schritte durch um die Adresse deines Abonnements zu ändern
+# lösche die alte Adresse als Listen-Moderator bzw. Eigentümer
+
+Siehe auch die [[list-definition#changing-owners]] seite für eine weitere Anleitung wie man dies macht.
+
+h2. Wie wählt man ein sicheres Passwort?
+
+<%= render 'common/good-passwords' %>
