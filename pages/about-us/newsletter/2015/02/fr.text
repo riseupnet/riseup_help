@@ -1,3 +1,5 @@
+@title = 'Février'
+
 h1. Attaque par déni de service
 
 Depuis quelques semaines, un groupe connu sous le nom de Lizard Mafia mène des attaques par déni de service distribué (DDoS - Distribute Denial of Service) contre riseup.net.
