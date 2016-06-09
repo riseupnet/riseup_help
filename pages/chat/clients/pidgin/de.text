@@ -8,7 +8,7 @@ Pidgin ist das bekannteste Direktnachrichten-Programm für GNU/Linux, Windows un
 
 h2. Konto erstellen
 
-Beim ersten Start drücke *Strg+A* (alternativen *Konten* - *Konten verwalten*) und *Hinzufügen ...*, um ein Konto zu erstellen.
+Um ein Konto zu erstellen, drücke beim ersten Start *Strg+A* (alternativ *Konten* - *Konten verwalten*) und *Hinzufügen ...*.
 
 (1) Im Reiter *Einfach* stelle folgendes ein:
 
@@ -17,7 +17,7 @@ Beim ersten Start drücke *Strg+A* (alternativen *Konten* - *Konten verwalten*) 
 * *Protokoll*: XMPP
 * *Benutzer*: your Riseup username
 * *Domain*: riseup.net
-* *Passwort*: Dein [[riseup-password]]
+* *Passwort*: Dein [[Passwort -> riseup-password]]
 
 Optional kannst du einen lokalen Alias einstellen und ein Bild hinzufügen. Andere Menschen werden dieses Bild in ihrer Liste sehen.
 
@@ -25,7 +25,7 @@ h2. Benutzung von OTR
 
 Siehe die [[otr]]-Anleitung für Details zu Ende-zu-Ende-Verschlüsselung mit Pidgin.
 
-h2. Absichern von pidgin unter GNU/Linux mit "Apparmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
+h2. Absichern von Pidgin unter GNU/Linux mit "Apparmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
 
 Für zusätzliche Sicherheit empfehlen wir, Pidgin mit folgenden Schritten abzusichern:
 
