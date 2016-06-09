@@ -1,0 +1,74 @@
+@title = "Emailprogramme"
+
+h2. Was ist ein Emailprogramm?
+
+In diesen Tagen sind die meisten Menschen vertraut mit [[Webmail => webmail]], wobei Email per Browser wie Firefox oder Chrome abgerufen werden.
+
+Ein <b>Mailprogramm</b> ist auf der anderen Seite eine spezialisierte Anwendung zum Empfangen und Senden von Mail. Es gibt verschiedene freie und/oder Free Software Webmailprogramme für die meisten Plattformen.
+
+Für Hilfe beim Konfigurieren eines bestimmten Programms, klicke auf einen der folgenden Links:
+
+table(table table-striped).
+|_.*Plattform*|_.*Empfohlene Free Software Mailprogramme*|_.*Proprietäre Programme*|
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc. | |
+|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Android | [[k9]] |  |
+|iOS     |  |  [[ios-mail]] |
+
+h2. IMAP oder POP?
+
+Mailprogramme können das Postfach entweder per POP oder IMAP abrufen.
+
+table(table table-striped).
+|         |_. POP    |_. IMAP   |
+| Speicher | *Dein Computer*. Bei der Benutzung von POP werden typischerweise alle Nachrichten auf den eigenen Computer herunter geladen und vom Server entfernt. | *Riseup Server*. IMAP behält alle Nachrichten auf dem Server. Es ist als ob das Emailprogramm mit IMAP eine Sicht der aktuell auf dem Server gespeicherten Daten darstellt. |
+| Mobilität | *Niedrig*. POP funktioniert nur, wenn Mails nur von einem Rechner mit dem gleichen Programm abgerufen werden. | *Hoch*. IMAP erlaubt die Nutzung verschiedener Programme und Webmail und immer die gleichen Inhalte zu sehen. |
+| Geschwindigkeit | *Schneller*, weil alles direkt auf den eigenen Rechner herunter geladen werden. | *Langsamer*, weil immer wieder alles immer wieder Server heruntergeladen werden muss. |
+| Quota | *Unbegrenzt*. Du brauchst dir niemals über quota gedanken machen, weil Nachrichten direkt auf deinen Computer geladen und danach von Server gelöscht werden. | *Begrenzt*. Es gibt [[begrenzten Speicherplatz -> quota]]. |
+| Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
+
+h2. Grundlegende Konfiguration
+
+Auch wenn einige Emailprogramme sich automatisch selbst konfigurieren, benötigen die meisten einige grundlegende Informationen, um sich mit Riseup zu verbinden.
+
+Wenn deine Emailadresse [@joehill@riseup.net@] ist:
+
+* Eingangsserver:
+** IMAP: @mail.riseup.net@ Port 993 (TLS) oder Port 143 (StartTLS).
+** POP: @mail.riseup.net@ Port 995 (TLS) oder Port 110 (StartTLS).
+* Ausgangsserver:
+** SMTP: @mail.riseup.net@, Port 465 (TLS) oder Port 587 (StartTLS).
+* Login oder Nutzername: @joehill@
+* Sichere Verbindung benutzen: @yes@ (TLS oder StartTLS)
+
+Die [[sichere Verbindung -> secure-connections]] kann TLS oder StartTLS sein. Aus Sicherheitsgründen bieten wir nicht mehr SSL an.
+
+*Hinweis:* Aktiviere *sichere Passwörter* oder *sichere Authentifizierung*. Diese sind irgendwie missdeuting. Diese Methoden erfordern, dass auf dem Emailserver eine Kopie des Passwortes im Klartext gespeichert wird. Aus unserer Sicht ist das ein Sicherheitsrisiko, also aktivieren wir die Funktion "sichere Passwörter" nicht. Weil die Verbindung zu Riseup ohnehin verschlüsselt ist, besteht dafür auch kein Bedarf.
+
+*Tor-Hinweis:* SMTP Port 465 wird oft geblockt von Exit-Nodes, aber Port 587 wird weniger oft geblockt. Wenn ein Problem beim Senden von Mails besteht, benutze Port 587.
+
+h2. Benutze Thunderbird
+
+!thunderbird/img/reclaimyourinbox.png!:http://getthunderbird.com
+
+Das Emailgrogramm Thunderbird wird zur Nutzung mit riseup.net empfohlen. Unglücklicherweise hat die "Mozilla Stiftung":https://mozilla.org hat Thunderbird aufgegeben, aber es ist immer noch die beste Option von plattformübergreifenden Emailprogrammen als Freie Software.
+
+Thunderbird will automatically configure itself to use your riseup.net email account. See our [[Thunderbird tutorials => thunderbird]] for more details.
+
+h2. Warum sollte ich ein Emailprogramm benutzen?
+
+Es gibt viele Vorteile eines Emailprogramms gegenüber Webmail:
+
+* Wenn man ein Emailprogramm benutzt, muss mensch nicht immer mit dem Internet verbunden sein. Stattdessen kann sich verbunden, alle Nachrichten heruntergeladen und die Verbindung abgebrochen werden. Alle Emails können dann in Ruhe offline gelesen werden, wann immer Du willst. Das ist sehr bequem, wenn die Verbindung nicht verlässlich, oder langsam ist, oder es limitierten Zugang gibt. Also ist es möglich, Emails zu jeder Zeit zu verfassen, zu speichern und später zu senden.
+* Emailprogramme sind generell sehr viel schneller als Webmail.
+* Die meisten Emailprogramme erlaubt das Verwalten mehrerer Konten von einem Ort aus. Das ist sehr nützlich, wenn du verschiedene Konten für verschiedene Aktivitäten in Deinem Leben benutzt.
+
+Es gibt mehrer Nachteile:
+
+* Um ein Emailprogramm zu benutzen, muss Software auf deinem Rechner installiert und speziell für deine Konten konfiguriert werden.
+* Weil Emailgrogramme einige Nachrichten auf Deinem Rechner speichern, können andere Deine Nachrichten lesen, wenn sie Zugang zu deinem Rechner bekommen.
+
+h2. Kann ich sowohl Webmail als auch Emailprogramme benutzen?
+
+Es ist möglich einfach hin und her zu wechseln. Oft benutzen Menschen zu Hause Emailprogramme und unterwegs Webmail. Wenn Du beides benutzt, solltest Du mit dem Unterschied zwischen IMAP und POP vertraut sein.
