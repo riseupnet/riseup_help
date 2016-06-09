@@ -1,6 +1,5 @@
 @title = 'Viren'
-
-h1. Alles was du über Viren wissen wolltest, aber dich nicht zu fragen getraut hast
+@summary = 'Alles was du über Viren wissen wolltest, aber dich nicht zu fragen getraut hast'
 
 Email-Viren, die Windows-Rechner befallen, vermehren sich rasant über das Internet. Hier ein paar grundlegende DInge, die du darüber wissen solltest:
 
@@ -22,7 +21,7 @@ Wir von riseup.net werden dir NIEMALS eine Nachricht mit Anhang schicken.
 
 h2. Viren und Mailinglisten
 
-Wenn ein Virus bei deiner privaten Liste ankommen, ist das nicht unbedingt ein Sicherheitsproblem. Es bedeutet, dass ein Mitglied sich einen Virus eingefangen hat und damit die Adresse der Liste und aller, die etwas an die Liste geschickt haben, durch das Virus ausgelesen werden können.
+Wenn ein Virus bei deiner privaten Liste ankommt, ist das nicht unbedingt ein Sicherheitsproblem. Es bedeutet, dass ein Mitglied sich einen Virus eingefangen hat und damit die Adresse der Liste und aller, die etwas an die Liste geschickt haben, durch das Virus ausgelesen werden können.
 
 Wir fitlern an eure Nachrichten angehängte Viren, aber manches kommt durch.
 
@@ -30,8 +29,7 @@ Oftmals wird ein Virus versuchen, sich bei einer Liste einzutragen. Wie geschieh
 
 h2. vervirte E-Mails blockieren
 
-Wenn du viele Viren erhälst und ein Konto bei riseup.net hast, können diese durch Aktivieren des Spamfilters blockiert werden. Geh zu
-[[Einstellungen->https://user.riseup.net]] und klicke auf 'Spamfilter'.
+Wenn du viele Viren erhälst und ein Konto bei riseup.net hast, können diese durch Aktivieren des Spamfilters blockiert werden. Gehe zu [[Einstellungen->https://user.riseup.net]] und klicke auf 'Spamfilter'.
 
 Manche [[Email-Programme -> email/clients]] wie "Thunderbird":http://getthunderbird.com (freie Software) haben wirklich gute Spamfilter eingebaut, die das meiste Ungeziefer abhalten.
 
@@ -39,6 +37,6 @@ riseup.net E-Mail-Konten und Listen blockieren alle ausführbaren Anhänge. Das 
 
 h2. Viren von infizierten Computern entfernen
 
-Falls Du einen verdächtigen Anhang auf einem Windows-System geöffnet hast, ist diese vermutlich infiziert. Wir empfehlen dann, die freie Software [ClamWin] zu verwenden. Als Alternative bietet Grisoft eine kostenlose Version ihres kommerziellen Antivierenprogrammes an.
+Falls Du einen verdächtigen Anhang auf einem Windows-System geöffnet hast, ist dieser vermutlich infiziert. Wir empfehlen dann, die freie Software [ClamWin] zu verwenden. Als Alternative bietet Grisoft eine kostenlose Version ihres kommerziellen Antivierenprogrammes an.
 
 Postfächer an sich können nicht mit einem Virus infiziert werden. Es ist lediglich das Betriebssystem deines Rechners, das eventuell anfällig ist und ggf. gesäubert werden muss, aber  dein riseup.net-Konto ist OK. Es gibt übrigens auch "Linux-Malware":https://de.wikipedia.org/wiki/Kategorie:Linux-Malware.
