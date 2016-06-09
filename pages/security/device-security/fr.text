@@ -2,16 +2,16 @@
 
 Well... this page is just a placeholder. It needs a lot of work. "Maybe you can help":https://github.com/riseupnet/riseup_help?
 
-h1. Cryptage du disque
+h1. Chiffrement du disque
 
 Difficulté: de Simple à Complexe
 Pourquoi: Prévenir l'accès aux informations contenues sur le disque dur de l'ordinateur.
 
-Le plus simple: cyptage LUKS des partitions après une nouvelle installation.
+Le plus simple: chiffrement LUKS des partitions après une nouvelle installation.
 Simple: formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et « scrub »: https://code.google.com/p/diskrub/ l'ancien emplacement des données.
-Moyen: cryptage LUKS sur LVM.
-Moyen: cryptage par-dessus des fichiers/emplacements de fichiers spécifiques.
-Compliqué: cryptage du disque dans son ensemble, ave des fichiers clefs placés sur un autre dispositif (comme une clé USB).
+Moyen: chiffrement LUKS sur LVM.
+Moyen: chiffrement par-dessus des fichiers/emplacements de fichiers spécifiques.
+Compliqué: chiffrement du disque dans son ensemble, ave des fichiers clefs placés sur un autre dispositif (comme une clé USB).
 Le plus compliqué: Méthodes de stéganographie..
 
 h1. Pare-feu Personnel

@@ -37,12 +37,12 @@ h1. Survol des types de sécurité
 </tr>
 <tr>
 <td>[[Sécurité des messages -> message-security]]</td>
-<td>Voies de cryptage des *messages individuels* que vous envoyez et recevez.</td>
+<td>Voies de chiffrement des *messages individuels* que vous envoyez et recevez.</td>
 <td>Requis si vous désirez assurer la *confidentialité* d'un message particulier pendant son stockage et sa transmission.</td>
 </tr>
 <tr>
 <td>[[Sécurité réseau -> network-security]]</td>
-<td>Blocage des sites qui vous traquent et cryptage de votre *trafic internet*.</td>
+<td>Blocage des sites qui vous traquent et chiffrement de votre *trafic internet*.</td>
 <td>Protège contre le comportement de la traque, attaque de compte, censure, mappage du réseau social, mise sur écoute et publicité.</td>
 </tr>
 </table>
