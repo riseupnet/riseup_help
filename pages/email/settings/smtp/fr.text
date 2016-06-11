@@ -25,7 +25,7 @@ Les services courriel sortants de riseup.net nécessitent de s'identifier et d'u
 Par exemple, si votre adresse courriel est joe_hill@riseup.net, votre identifiant est @joe_hill@. Cela est *obligatoire*. Si votre client de messagerie ne supporte pas le SMTP identifié, vous ne pouvez pas utiliser riseup.net comme serveur SMTP.
 * *Utiliser une connexion sécurisée*: Toujours.
 Ceci est *obligatoire*. Si votre client de messagerie ne supporte pas le SMTP sécurisé, vous ne pouvez pas utiliser riseup.net comme serveur SMTP. Il se peut que vous ayez à choisir entre l'option *TLS* ou *SSL* pour la connexion sécurisée. Les deux protocoles fonctionnent, mais la plupart des FAIs vont bloquer le port 25 (utilisé par TLS). Nous recommandons donc SSL.
-* *Port*: Pour *TLS*, le port devrait être @25@. Pour *SSL*, le port devrait être @465@. De nouveau, le port @25@ est probablement bloqué par votre fournisseur d'accès internet, alors vous devriez probablement choisir SSL.
+* *Port*: Pour *TLS*, le port devrait être @465@. Pour *StartTLS*, le port devrait être @587@. Si un des ports est bloqué, essayez l'autre.
 
 Pour les détails sur les paramètres SMTP sur différents clients de messagerie, consultez la page sur les [[clients de messagerie => email/clients]]
 
@@ -56,9 +56,12 @@ Ce problème apparaît quand vous n'avez pas paramétré votre client de message
 
 h2. Pourquoi mon FAI bloque-t'il mes courriels sortants?
 
-De plus en plus, les FAIs bloquent l'accès au port 25, le port standard pour les courriels sortants. Ils font cela à cause de l'augmentation du spam zombie, où un ordinateur personnel est utilisé par un virus pour envoyer du spam.
+Vous avez le choix d'utilser un ou l'autre des deux ports suivant pour les connexions SMTP:
 
-La solution est d'utiliser SSL à la place de TLS (SSL utilise le port 465, qui n'est normalement pas bloqué).
+* Port 465 (TLS)
+* Port 587 (StartTLS)
+
+Si un port est bloqué pour votre connexion, veuillez essayer l'autre.
 
 h2. Quand je tente d'envoyer un courriel, j'obtiens une erreur disant que le serveur ne peux pas être contacté. Suis-je maudit?
 
