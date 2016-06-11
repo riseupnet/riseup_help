@@ -4,15 +4,17 @@ Well... this page is just a placeholder. It needs a lot of work. "Maybe you can 
 
 h1. Cryptage du disque
 
+Une des méthodes les plus simples pour protéger votre ordinateur d'un accès non authorisé à vos données est de chiffrer les données sur votre disque. Un chiffrement des données bien implémenté peut empêcher l'accès à vos données lorsque votre ordinateur est fermé ou lorsqu'il se fait saisir. Notre recommandation est que peu importe la solution de chiffrement que vous choisissiez, celle-ci couvre l'entièreté de votre disque, aussi connu comme chiffrement complet du disque. Le chiffrement complet vous assure que la presque totalité de l'espace disque utilisable est illisible pour tout individu qui n'a pas la bonne clef de décryption. Sachez par contre que dans certains pays et certaines zones de juridictions légales, vous pourriez être forcés de révéler votre mot de passe d'encryption de disque lors d'une investigation. Ceci peut inclure certains emplacements comme des frontières dans votre pays. Par conséquent, vous devriez toujours prendre des mesures adéquates pour protéger et cacher vos données, même lorsque vous utilisez le chiffrement complet de disque sur votre ordinateur.
+
 Difficulté: de Simple à Complexe
 Pourquoi: Prévenir l'accès aux informations contenues sur le disque dur de l'ordinateur.
 
-Le plus simple: cyptage LUKS des partitions après une nouvelle installation.
-Simple: formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et « scrub »: https://code.google.com/p/diskrub/ l'ancien emplacement des données.
-Moyen: cryptage LUKS sur LVM.
-Moyen: cryptage par-dessus des fichiers/emplacements de fichiers spécifiques.
-Compliqué: cryptage du disque dans son ensemble, ave des fichiers clefs placés sur un autre dispositif (comme une clé USB).
-Le plus compliqué: Méthodes de stéganographie..
+* Le plus simple: cyptage LUKS des partitions après une nouvelle installation.
+* Simple: formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et « scrub »: https://code.google.com/p/diskrub/ l'ancien emplacement des données.
+* Moyen: cryptage LUKS sur LVM.
+* Moyen: cryptage par-dessus des fichiers/emplacements de fichiers spécifiques.
+* Compliqué: cryptage du disque dans son ensemble, ave des fichiers clefs placés sur un autre dispositif (comme une clé USB).
+* Le plus compliqué: Méthodes de stéganographie..
 
 h1. Pare-feu Personnel
 
