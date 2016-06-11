@@ -11,11 +11,6 @@ If you do want to use Apple Mail, then you can follow our instructions here. The
 
 If you would like to use OpenPGP with Apple Mail:
 
-# Download the latest version of "GNU Privacy Guard":http://macgpg.sourceforge.net for your version of MacOS.
-# Mount the GnuPG Mac OS X disk image and run the .mpkg installer.
-# Download the latest version of "GPGKeys":http://macgpg.sourceforge.net.
-# Decompress the .tar.gz and drag the GPGKeys file to your Applications folder.
-# Run GPGKeys. From the Key menu, select Generate A Terminal window will open. You can select the default options for each choice unless you know what youre doing. When prompted, enter your real name, email address, and comment (handle). Once the key is generated you can quit Terminal.
-# Download the "Sen:te PGP plug-in for Mail":http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html.
-# Run the Install GPGMail script.
-# Open Mail. Everything should be working now. When composing a new message youll see a new checkbox that lets you choose your key and sign your message. When receiving a signed message youll be able to verify it.
+# Download the latest "GPG Tools version":https://gpgtools.org/
+# Install the package
+# You'll be able to use GPG and it'll be embed with Apple Mail.
