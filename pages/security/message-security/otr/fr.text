@@ -1,0 +1,74 @@
+@itle = "Off the Record"
+@summary = "OTR vous permet de crypter vos conversations chat."
+
+h2. Introduction à  OTR
+
+[[La messagerie Off-the-Record (OTR)->https://fr.wikipedia.org/wiki/Off-the-Record_Messaging]] permet d'ajouter de l'encryption bout-à-bout pour les messages chat. OTR a plusieurs fonctionnalités:
+
+* *Cryptage* Tout le cryptage prend place sur votre ordinateur. Cela empêche d'autres personnes de lire votre conversation, même sur un réseau et un serveur de chat non sécuritaire.
+* *Identification* Vous êtes en mesure de savoir que la personne avec qui vous parlez est bien la personne qu'elle prétend être.
+* *Confidentialité persistante parfaite (perfect foward secrety)* Si vous perdez le contrôle de votre clef d'encryption privée, vos conversations précédentes ne sont pas compromises.
+* *Déni plausible* Les messages que vous envoyés n'ont pas de signature électronique vérifiable par un tiers. N'importe qui peu contrefaire un message après qu'une conversation ait eu lieu pour faire croire qu'elle provient de vous. Cependant, pendant une conversation, votre correspondant-e est certain-e que les messages proviennent bien de vous et sont intouchés.
+
+h2. Installer OTR
+
+Dans ce tutoriel, nous utiliserons OTR avec [[pidgin -> https://pidgin.im]]. Pidgin a l'implémentation la plus mature d'OTR et fonctionne sur Windows, Linux et Mac.
+
+h3. Linux
+
+# Appuyez sur Alt+F2 et tapez:
+<code>gnome-terminal</code>
+# Copiez la ligne suivante dans la nouvelle fenêtre de terminal et appuyez sur Entrée:
+<code>sudo apt-get install pidgin-otr</code>
+# Pour démarrer Pidgin, appuyez sur Alt+F2 et tapez:
+<code>pidgin</code>
+
+h3. Windows
+
+Visitez https://pidgin.im/download
+
+h3. Mac
+
+Pidgin fonctionne sur Mac, mais il est bien plus simple d'utiliser Adium. Adium est un version native de Pidgin pour Mac OS. Téléchargez [[Adium -> https://adium.im]].
+
+h2. Ajouter un compte à Pidgin
+
+Vous pouvez consulter notre [[tutoriel pidgin -> pidgin]] pour savoir comment ajouter votre compte riseup.net à Pidgin.
+
+h2. Mettre en place OTR
+
+Une fois que vous avez installé Pidgin et OTR
+
+* Sélectionnez *Outils > Plugins* depuis la fenêtre principale
+
+* Activez *Messagerie confidentielle Off-the-record* et cliquez sur le bouton *Configurer*
+
+* Sélectionnez votre compte riseup.net dans la liste et cliquez sur "Générer"
+
+* *ATTENTION*: Sous "Paramètres OTR par défaut", sélectionnez à la fois "Exigez messagerie privée" et "Ne pas archiver les conversations d'OTR". Cela fera en sorte que vos conversations seront toujours cryptées et que vous ne les enregistrez pas. Rappelez-vous qu'il est toujours possible que la personne avec qui vous discutez enregistre la conversation. C'est une bonne idée de demander aux personnes avec qui vous discutez si c'est le cas.
+
+h2. Ajouter un contact
+
+* Pour ajouter un contact, sélectionnez à partir de la fenêtre principale de Pidgin l'onglet Contacts > Ajouter un contact
+
+* Assurez-vous de sélectionner votre compte et d'ajouter le nom d'utilisateur de la personne correctement. Vous avez également l'option d'ajouter un groupe pour catégoriser vos ami-e-s.
+
+* Cliquez sur Ajouter
+
+* Une fois que vos contacts ont été ajouté et qu'ils sont en ligne, ils apparaitront dans la fenêtre principale de Pidgin. Pour commencer à chatter avec une personne, il suffit de double-cliquer sur son nom.
+
+h2. Identifier un contact
+
+Cliquez sur **Démarrer une conversion privée** et suivez les instructions d'identification pour commencer une conversation privée. La méthode la plus simple pour identifier quelqu'un est de lui poser une question dont elle est la seule à connaître la réponse. Ceci est une étape importante car elle permet de vérifier que la personne avec qui vous parlez est bien celle qu'elle prétend être. Voici quelques exemples de questions qui seraient acceptables:
+
+p((. Q: De quoi avons nous discuté chez Pierre l'autre soir devant la chambre? (minuscule, un mot)
+A: soudure
+
+Il n'y avait que deux personnes dans cette conversation, alors cette question est sécuritaire.
+
+p((. Q: Qui a créé l'affiche sur le mur de ma chambre? (minuscule, deux mots)
+A: collectif beehive
+
+Cette question est sécuritaire si vous assumez que vous faites confiance aux personnes qui sont déjà entré dans votre chambre.
+
+Des questions comme "Quelle est la couleur de mes cheveux" ou "Comment s'appelle mon chien" ne sont pas sécuritaires parce qu'il est facile d'y répondre.
