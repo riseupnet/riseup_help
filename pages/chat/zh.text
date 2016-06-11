@@ -57,4 +57,4 @@ h3. 在 Pidgin使用聊天室
 
 h2.增加安全性
 
-为了增加安全性，通过 [[Riseup VPN => vpn]]或者 "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: @ztmc4p37hvues222.onion@ 访问我们的 jabber服务器 。
+为了增加安全性，通过 [[Riseup VPN => vpn]]或者 "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: [[Riseup's hidden Tor services->tor#riseups-tor-hidden-services]] 访问我们的 jabber服务器 。
