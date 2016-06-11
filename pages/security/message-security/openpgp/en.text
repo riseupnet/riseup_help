@@ -23,7 +23,7 @@ There are three basic functions you can perform using GPG: *signing*, *encryptin
 
 h2. Can I send and receive encrypted email using riseup's webmail?
 
-At the moment this is not possible. It is much better for riseup users who want to use encrypted email to utilize an email client (such as thunderbird) to send and receive email, while keeping your private key stored safely on your local machine.
+At the moment this is not possible. It is much better for riseup users who want to use encrypted email to utilize an [[email/client]] (such as [[thunderbird]]) to send and receive email, while keeping your private key stored safely on your local machine.
 
 h2. What are some limitations of encrypted communications?
 
