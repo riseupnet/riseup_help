@@ -16,19 +16,19 @@ Wenn Du Thunderbird zum ersten Mal startest, führt Dich der Kontoeinrichtungs-A
 
 1. Wähle in der Menüleiste *Bearbeiten > Konten-Einstellungen*
 
-!/assets/87223/kontoeinstellungen.png!
+!img/kontoeinstellungen.png!
 
 
 2. Unter *Konten-Aktionen* wähle *E-Mail-Konto hinzufügen*
 
-!/assets/87230/konto-erstellen.png!
+!img/konto-erstellen.png!
 
 
 h3. Schritt 1
 
 Es erscheint die Aufforderung, Deinen Namen, E-Mail-Adresse und das Passwort einzugeben.
 
-!/assets/87228/konto-einrichten-1.png!
+!img/konto-einrichten-1.png!
 
 Klicke auf *Weiter*.
 
@@ -36,13 +36,13 @@ h3. Schritt 2
 
 Thunderbird holt sich nun die Konfiguration von Riseup's Servern.
 
-!/assets/87229/konto-einrichten-2.png!
+!img/konto-einrichten-2.png!
 
 Nun musst Du Dich entscheiden, ob Du [[IMAP oder POP -> email/clients#what-is-the-difference-between-imap-and-pop]] nutzen willst. IMAP ist die Voreinstellung, um POP zu nutzen, schalte einfach in der Mitte des Fensters von IMAP auf POP um. Wenn Du Dich entschieden hast, kannst Du nun einfach *Konto erstellen* klicken.
 
 Weitere Anpassungen (für Fortgeschrittene!) sowie einen erneuten Verbindungstest kannst Du über das Feld *Manuell bearbeiten* durchführen:
 
-!/assets/87220/erweitert.png!
+!img/erweitert.png!
 
 h3. Schritt 3
 
@@ -50,28 +50,32 @@ Falls irgendetwas nicht klappt, hast Du vermutlich Deinen NutzerInnen-Namen oder
 
 Andernfalls sollte Thunderbird nun automatisch Deine Mails abrufen und wird alle paar Minuten nach neuen Mails suchen. Viel Spaß mit dem Donnervogel!
 
-h3. Wie geht´s weiter?
+h2. Wie geht´s weiter?
 
-h4. Versteckte Einstellungen, die Thunderbird enorm beschleunigen
-
-Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du ein Mail öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet ist sehr träge erscheinen.
-
-Zum Glück kannst Du was dagegen unternehmen: Thunderbird hat ein paar versteckte Optionen, beim Verbinden mit dem Mailserver einen vollständigen Abgleich durchzuführen. Dies wird Dein Arbeiten im allgemeinen viel erfreulicher und flotter machen.
-
-Um dies einzustellen, gehe in der Menüleiste über *Bearbeiten > Einstellungen > Erweitert > Allgemein* auf *Konfiguration bearbeiten...*
-
-* setzte @use_status_for_biff@ auf *false* und
-* setzte @mail.server.default.autosync_offline_stores@ auf *true*
-
-h4. Verbessere die Sicherheit Deiner E-Mail-Kommunikation
+h3. Verbessere die Sicherheit Deiner E-Mail-Kommunikation
 
 # Im besten Falle solltest Du *nicht* StartTLS nutzen. Es ist viel besser, sich für Standard TLS zu entscheiden. Für zusätzliche Sicherheit ändere Deine Konto-Einstellungen von StartTLS zu SSL/TLS.
 # Bei den gesicherten Verbindungen gibt es viele mögliche Angriffspunkte. Falls Du wirklich einen hohen Sicherheitsstandard benötigst, solltest Du Dich mit Riseup immer über [[Riseup VPN -> vpn]] verbinden. Die beugt einer Langen Liste möglicher Angriffe auf Deine Kommunikation vor.
 # Für verbesserte [[Nachrichtensicherheit -> security/message-security]], überlege Dir, das [[Enigmail-Addon für Thunderbird zu installieren -> enigmail]], welches [[OpenPGP-Unterstützung -> security/message-security/openpgp/enigmail]] integriert.
 
-h4. Installation von Erweiterungen (Addons)
+h3. Versteckte Einstellungen, die Thunderbird enorm beschleunigen
+
+Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du ein Mail öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet ist sehr träge erscheinen.
+
+Zum Glück kannst Du was dagegen unternehmen: Thunderbird hat ein paar versteckte Optionen, beim Verbinden mit dem Mailserver einen vollständigen Abgleich durchzuführen. Dies wird Dein Arbeiten im allgemeinen viel erfreulicher und flotter machen.
+
+Um dies einzustellen, gehe in der Menüleiste über *Bearbeiten > Einstellungen > Erweitert > Allgemein* auf *Konfiguration bearbeiten*
+
+* setzte @use_status_for_biff@ auf *false* und
+* setzte @mail.server.default.autosync_offline_stores@ auf *true*
+
+h3. Installation von Erweiterungen (Addons)
 
 Wir empfehlen folgende Erweiterungen für Thunderbird:
 
 * "Display Quota":https://addons.mozilla.org/de/thunderbird/addon/display-quota: Diese Erweiterung zeigt Dir Deine Aktuelle Speichernutzung auf Riseups Servern in der Statusleiste an und warnt Dich, wenn Du eine einstellbare Grenze erreicht.
 * [[Enigmail -> security/message-security/openpgp/enigmail]]: Hiermit kannst Du in kürzester Zeit in die starke Verschlüsselung von E-Mail einsteigen und gleichzeitig sicherstellen, dass die Mails, die Du bekommst, auch wirklich und unverändert von der Person stammen, die als AbsenderIn angegeben ist.
+
+h3. Erwäge Mails automatisch zu löschen
+
+Musst du wirklich all diese alten Mails behalten? Du kannst thunderbird so konfigurieren, dass alte Mails automatisch gelöscht werden. Gehe dazu auf Kontoeinstellungen -> Lokale Ordner -> Speicherplatz. Dort kennst du einstellen, dass thunderbird Mails nach X löschen soll.

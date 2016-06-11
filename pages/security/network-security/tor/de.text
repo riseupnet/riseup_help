@@ -1,8 +1,8 @@
 @title = 'Tor'
 @summary = 'The Onion Router'
+@nav_title = 'Tor'
 
 Wilkommen in der aufregenden Welt von Tor! Diese Seite hilft Dir, Tor in möglichst wenigen Schritten zum Laufen zu bringen. Alles, was Du im Moment wissen musst, ist dass [[Tor->https://torproject.org]] ein großartiges Werkzeug für Anonymität und Online-Privatsphäre ist.
-
 
 h2. Tor installieren
 
@@ -39,7 +39,7 @@ Lade die Installationsdatei für die jeweilige Architektur herunter und speicher
 (LANG ist die Sprache, die im Dateinamen angegeben ist)
 Um Tor zu starten einfach das Skript `start-tor-browser`im gerade extrahierten Ordner per Doppelklick oder Kommandozeile starten. Das wird Vidalia starten und sobald es mit Tor verbunden ist, wird es Firefox starten.
 
-Linux-Anwender könnten Sie auch interessieren: [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Dieses Skript sorgt für Ihr Tor Browser Bundle ist auf dem neuesten Stand gehalten wird.
+Linux-Anwender könnten sich auch für den [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]] interessieren. Dieses Skript sorgt dafür, dass Tor Browser Bundle auf dem neuesten Stand gehalten wird.
 
 *Entpacke TBB nicht als root.*
 
@@ -60,9 +60,9 @@ Mit dem Tor Browser Bundle, werden Vidalia und Tor automatisch geschlossen.
 
 h2. Riseups versteckte Tor-Dienste
 
-Tor macht es möglich, dass nicht nur Nutzer*innen ihren Standort verbergen, sondern auch Server. Du kannst Riseups Dienste via [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]]-Adressen erreichen. Immer wenn Du eine URL wie @http://xyvp43vrggckj427.onion@ siehst, ist das ein versteckter Tor-Dienst. Wenn Du Tor ausführst, kannst Du einfach diese Adresse eingeben, wo normalerweise die Internetadresse eingegeben wird (zum Beispiel als URL in Deinen Browser mit aktiviertem Tor) und es wird das Tor-Netzwerk benutzen, um unsere Server zu erreichen.
+Tor macht es möglich, dass nicht nur Nutzer*innen ihren Standort verbergen, sondern auch Server. Du kannst Riseups Dienste via [[Tor Hidden Service->https://www.torproject.org/docs/hidden-services.html.en]]-Adressen erreichen. Immer wenn Du eine URL siehst, die auf .onion endet, ist das ein versteckter Tor-Dienst. Wenn Du Tor ausführst, kannst Du einfach diese Adresse eingeben, wo normalerweise die Internetadresse eingegeben wird (zum Beispiel als URL in Deinen Browser mit aktiviertem Tor) und es wird das Tor-Netzwerk benutzen, um unsere Server zu erreichen.
 
-Die folgenden sind Riseups versteckte Tor-Dienste:
+Die folgenden sind Riseups versteckte Tor-Dienste. Bei Problemen, die Liste zu verifzieren, versuche, sie herunter zu laden und [[diese Datei -> /security/network-security/tor/hs-addresses-signed.txt]] zu verifzieren:
 
 <pre>
 <%= render :file => 'hs-addresses-signed.txt', :type => :raw %>

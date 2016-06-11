@@ -16,7 +16,6 @@ Es gibt einige gute Gründe, unsere SMTP-Server zu verwenden:
 * Einige ISPs limitieren die Anzahl an E-Mails, die du senden kannst.
 * Der SMTP-Dienst von riseup.net ist portabel. Es ist egal, mit welchem Netzwerk du verbunden bist. Du wirst ihn immer verwenden können, selbst wenn du dich mit deinem Computer bewegst.
 
-
 h2. Wie konfiguriere ich SMTP?
 
 Der Riseup.net SMTP-Ausgangsserver erfordert eine Authentifizierung und eine sichere Verbindung (SSL oder TLS) zur Sicherheit und um Spam zu verhindern. Um riseup.net als deinen SMTP-Ausgangsserver zu verwenden, nütze folgende Einstellungen:
@@ -26,7 +25,7 @@ Der Riseup.net SMTP-Ausgangsserver erfordert eine Authentifizierung und eine sic
 Zum Beispiel, falls deine E-Mail Adresse joe_hill@riseup.net lauten würde, wäre dein Benutzername @joe_hill@. Das ist *erforderlich*. Falls dein Mail-Client SMTP mit Authentifizierung nicht unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden.
 * *Verwende eine verschlüsselte Verbindung*: Immer.
 Das ist *erforderlich*. Wenn dein Mail-Client kein verschlüsseltes SMTP unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden. Möglicherweise hast du die Möglichkeit, zwischen *TLS* und *SSL* zu wählen. Beide Protokolle funktionieren, jedoch blockieren die meisten ISPs den Port 25 (verwendet von TLS), deshalb empfehlen wir SSL.
-* *Port*: Für *TLS* sollte der Port @25@ sein. Für *SSL* sollte der Port @465@ sein. Nachdem der Port @25@ wahrscheinlich durch deinen Internet-Provider blockiert ist, solltest du SSL verwenden.
+* *Port*: Für *TLS* sollte der Port @465@ sein. Für *StartTLS* sollte der Port @587@ sein. Wenn einer der Ports durch deinen ISP geblockt wird, versuche es mit einem anderen.
 
 Für Details zur Einrichtung von SMTP mit verschiedenen Mail-Clients, siehe [[E-Mail Clients => email/clients]].
 
@@ -57,10 +56,9 @@ Dieses Problem tritt auf, wenn dein Mail Client sich nicht am SMTP-Ausgangsserve
 
 h2. Warum blockiert mein ISP ausgehende E-Mails?
 
-Immer mehr ISPs blockieren den Zugriff auf den Port 25, der Standard-Port für die Übertragung ausgehender E-Mails. Das wird gemacht, da Zombie-Spam in steigender Zahl auftritt. Dabei wird ein privater Computer von einem Virus befallen, der dem Angreifer eine Spam-Verbreitungsmöglichkeit bereitstellt.
+Es gibt zwei erlaubte Ports für SMTP:
 
-Zur Lösung dieses Problems solltest du SSL anstatt von TLS verwenden (SSL überträgt auf Port 465, der normalerweise nicht blockiert ist).
-
-h2. Wenn ich versuche, E-Mails zu versenden, bekomme ich eine SMTP-Fehlermeldung, die besagt, dass der SMTP-Server nicht erreichbar ist.
-
-Beachte bitte die Antwort zur vorherigen Frage. Du kannst den SMTP-Server nicht erreichen, da dein ISP deinen ausgehenden Mail-Traffic blockiert.
+* Port 465 (TLS)
+* Port 587 (StartTLS)
+ 
+Wenn einer der Ports geblockt wird, versuche es mit dem anderen.

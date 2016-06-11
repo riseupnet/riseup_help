@@ -1,8 +1,14 @@
 @title= 'Emailverschlüsselung mit Enigmail und Thunderbird'
 
-﻿Willst Du Deine E-Mail-Sicherheit erhöhen, indem Du lernst, wie Du OpenPGP MIT thunderbird verwendest? Mit dieser kurzen Einführung kannst Du im Nu damit loslegen, E-Mails zu ver- und entschlüsseln sowie zu verifizieren, daß Mails, die Du erhältst, auch wirklich von der Person stammen, die im Absender steht.
+﻿Du willst Deine E-Mail-Sicherheit erhöhen, indem Du lernst, wie Du OpenPGP mit [[thunderbird]] verwendest? Mit dieser kurzen Einführung kannst Du im Nu damit loslegen, E-Mails zu ver- und entschlüsseln sowie zu verifizieren, dass Mails, die Du erhältst, auch wirklich von der Person stammen, die im Absender steht.
 
 Weitergehende Informationen zum spannenden Thema [[E-Mail-Verschlüsselung -> security/message-security]] gibt es auch [[hier -> openpgp]].
+
+h2. Bevor du loslegst
+
+Wir empfehlen, vorher die Anleitung [[gpg-best-practices]] zu lesen. Insbesondere ist es wichtig, diese *vor dem Generieren eines neuen Schlüssels* genau durchzulesen und die gpg-Anwendung so zu konfigurieren, dass sie starke Schlüssel erzeugt, denn die Voreinstellungen sind nicht optimal.
+
+Wenn du schon einen Schlüssel hast, solltest du [[diese Tests durchführen, um sicherzugehen, dass der Schlüssel stark genug ist -> /openpgp-best-practices#openpgp-key-checks]], bevor du weitermachst.
 
 h2. Installation von Enigmail und Ausführen des OpenPGP Installation-Assistenten
 
@@ -34,7 +40,7 @@ Dieses System ist ziemlich mächtig und kann ein weites Feld möglicher Optionen
 # Gib nun oben die entsprechende(n) E-Mail-Adresse(n), getrennt durch Leerzeichen, ein und wähle ob sie exakt angegeben sind oder nach einer passenden Filterregel gefunden werden sollen. Die möglichen Filterregeln sind: *ist exakt*, *enthält*, *beginnt mit* oder *endet mit*.
 # Wähle die bei zutreffender Regel auszuführende Aktion. In diesem Falle wähle *Verwende folgende OpenPGP-Schlüssel:*, klicke *Auswählen...* und wähle den EmpfängerInnen-Schlüssel. Falls Du ihn noch nicht besitzt, kannst Du über *Fehlende Schlüssel herunterladen* Schlüsselserver nach zur Filterregel passenden Schlüsseln durchsuchen lassen.
 # Nun stelle in den *Standardeinstellungen* *Verschlüsseln* auf *immer* und belasse *Unterschreiben* auf *Ja, wenn beim Verfassen ausgewählt*.
-# Wenn Du die Definition der Regel abgeschlossen hast, klicke *OK*. !/assets/87803/regeln-bearbeiten.png!
+# Wenn Du die Definition der Regel abgeschlossen hast, klicke *OK*. !enigmail-create-rule.gif!
 
 Du bist nun bereit, mit Thunderbird OpenPGP(GPG)-verschlüsselte E-Mails an beliebige EmpfängerInnen zu versenden, mit automatisch aktivierter Verschlüsselung für die in der eben erstellten Regel definierten EmpfängerInnen.
 
