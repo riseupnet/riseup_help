@@ -6,7 +6,7 @@ Webmail allows you to check your riseup.net email from any computer that has a w
 
 To use Riseup webmail, visit https://mail.riseup.net
 
-The primary reason to use webmail is if you do not have your own device that you can install a mail client on. Sometimes people use webmail because they don't want to leave a record of what email account they use on the device. Webmail is not a good solution for this, because web browsers leave behind all sorts of temporary files, and session files can be recovered with the right tools.
+The primary reason to use webmail is if you do not have your own device that you can install a [[mail client => email/client]] on. Sometimes people use webmail because they don't want to leave a record of what email account they use on the device. Webmail is not a good solution for this, because web browsers leave behind all sorts of temporary files, and session files can be recovered with the right tools.
 
 h2. Webmail options
 
@@ -19,7 +19,7 @@ h2. Cookies must be enabled
 
 For security reasons, we require cookies. Without cookies, it is impossible to make your login session secure.
 
-Unfortunately, cookies also allow advertisers and companies like google to track you nearly all your activity on the web. If you are concerned about tracking, we suggest that you simply disable third party cookies. Alternately, you can block all cookies by default and then enable cookies for the sites you want.
+Unfortunately, cookies also allow advertisers and companies like google to track you nearly all your activity on the web. If you are concerned about tracking, we suggest that you simply disable third party cookies, siee [[better-web-browsing]]. Alternately, you can block all cookies by default and then enable cookies for the sites you want.
 
 h2.  Troubleshooting webmail login
 

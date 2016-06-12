@@ -1,0 +1,38 @@
+@title = 'VPN-Sicherheit'
+@summary = 'Einige Sicherheitsprobleme bei der Benutzung von VPN'
+
+h2. VPN-Anonymität
+
+Wie anonym ist das RiseupVPN? Die Antwort hängt hauptsächlich davon ab, welche Informationen mit deinem Riseup-Login verknüpft sind, Wenn du dir um Anonymität Gedanken machst, empfehlen wir dir, ein eigenes VPN-Konto zu erstellen, welches du nur für VPN benutzt.
+
+Wir halten sehr wenige logs und zeichnen keine DNS-Anfragen oder Verkehr über VPN auf, aber wir zeichnen auf, welche Konten das VPN an welchen Tagen benutzen.
+
+h2. Man-in-the-middle-Angriffe
+
+Ein "Man-in-the-middle-Angriff":https://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) ist, wenn ein Angreifer in der Lage ist, deinen Netzwerkverkehr mitzuhören oder zu verändern. Solch ein Angriff kann genutzt werden, um dich zu deanonymisieren, Inhalte zu verändern, Passwörter zu stehlen, oder dir Viren, Trojaner oder andere Software unterzuschieben, die geeignet ist, Zugang zu deinem Rechner zu bekommen.
+
+Jede Internetverbindung ist anfällig für MiTM-Angriffe, wegen der gebrochenen Natur wie das Internet funktioniert. Durch Austricksen des Routing-Protokolls, welches das Internet benutzt, ist der meiste Internetverkehr angreifbar für MiTM-Angriffe von irgendwo auf der Welt. Obwohl diese Angreifbarkeit seit Jahren bekannt ist, wurde [[solch ein Angriff -> /assets/43591/defcon-16-pilosov-kapela.pdf]] auf der Hacker-Konferenz DEFCON im August 2008  dramatisch demonstriert.
+
+h3. Schützt mich ein VPN gegen MiTM?
+
+Ja und nein. Die Benutzung eines VPN schlägt viele mögliche Angriffsorte für einen MiTM-Angriff nieder, aber nicht alle. Insbesondere schützt es den Verkehr zwischen deinem Gerät und dem VPN-Gateway und verhindert, dass dein ISP (oder die meisten Regierungen) einen MiTM-Angriff gegen dich ausführen.
+
+Allerdings wird dein Verkehr angreifbar für MiTM-Angriffe, sobald er vom VPN-Gateway zu seinem eigentlichen Ziel geleitet wird. Mit einem VPN ist dein Verkehr semi-anonymisiert, also ist es sehr viel schwerer, Angriffe gegen einzelne Personen zu richten, aber ein ungerichtetet Angriff gegen alle Nutzer*innen einer speziellen Webseite ist immer noch möglich.
+
+Zum Beispiel war die Tunesische Regierung im Januar 2011 in Angst vor Aufständen, die vielleicht die Regierung angreifen könnten und es gelang ihr, einen MiTM-Angriff auf Facebook-Nutzer*innen durchzuführen, die sich von Tunesien aus verbunden hatten, sodass sie ihre Logins und Passwörter abfangen konnte. In diesem Fall hätte ein VPN insofern geschützt, wenn der VPN-Gateway außerhalb von Tunesien gestanden hätte.
+
+h2. PPTP und LT2P
+
+PPTP und LT2p wurden deaktiviert wegen "Angreifbarkeiten":https://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
+
+bq. Während das PPTP den Vorteil hat, bei einer Anwendung bei Windows vorinstalliert zu sein, hat eine Analyse von Cryptography-Expert*innen Sicherheitslücken enthüllt. (openvpn.net)
+
+"Bruce Schneier analysierte PPTP-Schwächen":https://www.schneier.com/pptp.html seit Jahren und Moxie Marlinspikes "ChapCrack":https://github.com/moxie0/chapcrack kann die "PPTP-Verschlüsselung in Minuten umgehen":https://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
+
+h2. WPA2-Schwächen
+
+Im Zusammenhang mit ChapCrack kann der _Belastbarkeitstest_-Dienst "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 [[verschlüsselte WLAN-Geräte => http://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses]] "in weniger als einer Stunde":http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking brechen:
+
+bq. WPA-PSK, NT und NTLM-Passwörter sind lange bekannt dafür, Schwächen gegenüber Wörterbuch-Angriffen zu haben. Dabei werden alle möglichen Kombinationen von Worten ausprobiert. Weil dabei kryptograschie Hashes benutzt werden, um die Worte zu verschleiern, war die Rechenleistung für Wörterbuchangriffe für die meisten Nutzer*innen lange Zeit unerreichbar. Marlinspikes Dienste greifen auf eine Sammlung von 400 CPU und 70 GPU zu und verteilen die Aufgabe unter ihnen. -- WPA-PSK, NT and NTLM passwords have all long been known to be vulnerable to dictionary attacks that try every possible set of words that compose a password. But because they use cryptographic hashes to obscure those words, the computing power to run a dictionary attack has long been unavailable to most users. Marlinspike’s service accesses a collection of 400 CPUs and 70 GPUs and distributes the cracking task across them. (forbes)
+
+WPA2-Router mit aktivierte "Wi-Fi Geschützten Einstellungen (WPS)":https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup "erlauben es Angreifern von Ferne die WPS PIN zu erlangen und damit das WPA2-Passwort des Routers in wenigen Stunden":https://en.wikipedia.org/wiki/WPA2#WPA2_security_harmed_by_flaws_in_WPS zu brechen.

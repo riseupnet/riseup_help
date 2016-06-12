@@ -11,7 +11,7 @@ h2. Man-in-the-middle attacks
 
 A "Man-in-the-middle attack":https://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) is where the attacker is able to listen and/or modify your network traffic. Such an attack can be used to de-anonymize you, modify content, steal your passwords, or serve you viruses, trojans or other software designed to gain access to your computer.
 
-Every internet connection is vulnerable to a MiTM attack because of the broken nature of how the internet works. By tricking the routing protocol used by the internet, most any traffic is vulnerable to a MITM attack from anywhere in the world. Although this vulnerability has been know about for years, [[researchers dramatically demonstrated -> /assets/43591/defcon-16-pilosov-kapela.pdf]] such an attack at the hacker conference DEFCON in August of 2008.
+Every internet connection is vulnerable to a MiTM attack because of the broken nature of how the internet works. By tricking the routing protocol used by the internet, most any traffic is vulnerable to a MITM attack from anywhere in the world. Although this vulnerability has been known for years, [[researchers dramatically demonstrated -> /assets/43591/defcon-16-pilosov-kapela.pdf]] such an attack at the hacker conference DEFCON in August of 2008.
 
 h3. Does a VPN help protect against MiTM?
 
