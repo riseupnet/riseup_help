@@ -58,9 +58,25 @@ Vous ne devriez *pas* utiliser @gpg --refresh-keys@ ou la fonction équivalente 
 
 h3. Ne faites pas aveuglément confiance aux clés des serveurs de clés
 
-N'importe qui peut envoyer des clés sur les serveurs et il n'y a pas de raison de croire que celles que vous téléchargez appartiennent vraiment à la personne dont elles indiquent le nom. Vous devez donc vérifier personnellement avec le propriétaire l'empreinte entière de sa clé. Vous devriez faire cette vérification face à face ou par téléphone. Une fois que vous avez vérifié l'empreinte, vous pouvez télécharger la bonne clé depuis un serveur :
-    
-pre. gpg --recv-key '<fingerprint>'
+N'importe qui peut envoyer des clés sur les serveurs et il n'y a pas de raison de croire que celles que vous téléchargez appartiennent vraiment à la personne dont elles indiquent le nom. Vous devez donc vérifier personnellement avec le propriétaire l'empreinte entière de sa clé. Vous devriez faire cette vérification face à face ou par téléphone.
+
+Une fois que vous avez vérifié l'empreinte, vous pouvez télécharger la bonne clé depuis un serveur:
+
+bc. gpg --recv-key '<fingerprint>'
+
+La prochaine étape sert à confirmer que vous avez bien reçu la bonne clef du serveur. Le serveur de clefs pourrait vous avoir acheminé une clef différente que celle dont vous avez fait la requête. Si vous utilisez une version antérieure à 2.1 de gpg, vous devez confirmer l'empreinte manuellement après avoir téléchargé la clef (les versions 2.1 et ultérieures refuseront les clefs incorrectes provenant d'un serveur de clef).
+
+Vous pouvez confirmer l'empreinte de clef en utilisant une des deux méthodes suivantes:
+
+Option 1. Vérifier l'empreinte qui se trouve maintenant dans votre trousseau de clefs:
+
+bc. gpg --fingerprint '<fingerpring>'
+
+Option 2. Tenter de signer (de façon locale) la clef avec l'empreinte que vous détenez:
+
+bc. gpg --lsign-key '<fingerprint>'
+
+Si vous pensez être en mesure de vérifier l'empreinte de la clef avec la personne qui détient cette clef, la méthode préférée est de signer la clef de façon locale. Si vous désirez publiciser votre connexion à la personne qui détient la clef, vous pouvez faire une signature qui peut être exportée de manière publique avec [@--sign-key@] au lieu de [@--lsign-key@].
 
 Faites attention aux apostrophes droites ci-dessus (') qu'il faut placer autour de votre empreinte complète et qui sont nécessaires pour que la commande fonctionne. Les guillemets droits (") fonctionnent également.
 
@@ -68,13 +84,27 @@ h3. Ne vous fiez pas à l'identifiant de clé
 
 Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
+Pour utiliser un indentifiant de clef fort du point de vue cryptographique, vous devriez utiliser les empreintes complètes. Vous ne devriez _jamais_ vous fier aux identifiants courts, ni aux identifiants longs.
+
+Vous devriez minimalement configurer @keyid-format 0xlong@ et @with-fingerprint@ comme options à gpg (ajoutez-les dans @~/.gnupg/gpg.conf@) pour augmenter les identifiants affichés à 64 bits et pour afficher inconditionnellement les empreintes complètes.
+
+Veuillez noter qu'il y a eu un [[bug dans enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], qui a été réparé dans la version 1.7.0: si vous configurez l'option 'with-fingerprint' pour afficher les empreintes complètes dans les listes de clefs, l'empreinte qui sera affichée dans la fenêtre de gestion des clefs d'enigmail sera celle d'une sous-clef plutôt que l'empreinte de la clef primaire. Pour trouver l'empreinte de votre clef primaire (par exemple si vous voulez donner cette empreinte à une personne à des fins de vérification lors d'une séance de signatures de clefs), vous pouvez afficher l'empreinte de toutes vos clefs secrètes avec la commande suivante:
+
+bc. gpg --with-fingerprint --list-secret-key
+
+h3. Vérifier l'empreinte d'une clef avant de l'importer.
+
+Si vous avez reçu ou téléchargé une clef dans un fichier <keyfile>, vous pouvez et devriez afficher son empreinte avant de l'importer dans votre trousseau. De cette manière, vous serez en mesure de vérifier l'empreinte sans risquer d'importer une clef qui a été compromise:
+
+pre. gpg --with-fingerprint <keyfile>
+
 h2. Configuration de la clé
 
 Maintenant que vous savez recevoir des mises à jour de clés régulières à partir d'un serveur de clés bien maintenu, il faut vérifier que votre clé OpenPGP est configurée de façon optimale. Beaucoup de ces changements peuvent nécessiter que vous génériez une nouvelle clé.
 
 h3. Utilisez une clé primaire robuste
 
-Beaucoup de monde utilise toujours des clés DSA de 1024 bits. Vous devriez vraiment passer à une longueur plus importante et à un meilleur algorithme de hachage. On sait maintenant que de telles clés sont sans doute à la portée d'Organisations avec de Grands Moyens, et le hachage montre également des signes de faiblesse.
+Certaines personnes utilisent toujours des clés DSA de 1024 bits. Vous devriez vraiment passer à une longueur plus importante et à un meilleur algorithme de hachage. En 2011, l'agence gouvernementale des Etats-Unis appelée NIST a [[décrété l'obsolescence -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]] de DSA-1024. Depuis 2013 cet algorithme est désormais [[interdit -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
 Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> https://we.riseup.net/assets/176898/key%20transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
 
