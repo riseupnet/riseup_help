@@ -7,7 +7,7 @@ Wir würden uns freuen, wenn ihr https://share.riseup.net testet. Du kennst sich
 
 https://share.riseup.net ist eine einfach nutzbarer “pastebin” und “imagebin” mit Verschlüsslung auf Anwendungsseite, gehosted von Riseup. Wenn du eine Datei teilst, wird sie verschlüsselt, bevor sie deinen Computer verlässt. Wir wissen also nicht, was du dort hochlädst.
 
-Diese Anwendungs-seitige Verschlüsselung, bei der das Program von Server herunter geladen wird, ist leicht zu umgehen, wenn der Anbieter entscheidet, eine Hintertür einzubauen, aber es ist schwer, dies zu verifzieren. Mit anderen Worten ist browserbasierte Verschlüsselung nützlich für den Dienstanbieter, Riseup in diesem Fall, weil wir keine Geheimnisse speichern, aber es garantiert nicht eure Konfidal. Für richtige Sicherheit braucht eine Anwendung, die nicht im Browser läuft.
+Diese Anwendungs-seitige Verschlüsselung, bei der das Program vom Server herunter geladen wird, ist leicht zu umgehen, wenn der Anbieter entscheidet, eine Hintertür einzubauen. Wir haben keine Hintertür, aber es ist schwer, dies zu überprüfen. Mit anderen Worten ist browserbasierte Verschlüsselung nützlich für den Dienstanbieter, Riseup in diesem Fall, weil wir keine Geheimnisse für Euch speichern müssen. Aber es garantiert Euch nicht die Geheimhaltung Eurer Daten. Für richtige Sicherheit braucht es eine Anwendung, die nicht im Browser läuft.
 
 https://share.riseup.net ist im Testmodus, also verlasst euch bitte nicht darauf, indem ihr die einzige Kopie einer wichtigen Datei dort speichert. Auch werden eure Dateien dort nicht für immer bleiben. Wir wissen es noch nicht genau, aber vermutlich nicht viel mehr als eine Woche!
 
