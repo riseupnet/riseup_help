@@ -1,0 +1,109 @@
+@title = 'Leitfaden für versteckte (onion) Tor-Dienste'
+
+h2. Wie diese Anleitung zu benutzen ist
+
+Hier findest du Informationen zum Betrieb eines versteckten (onion) Tor-Dienstes mit unseren Praxiserfahrungen und Tipps von hilfreichen Menschen wie dir. Wenn du einen hilfreichen Tipp hast, oder diese Seite in eine andere Sprache übersetzen kannst,  [[trage etwas bei->https://github.com/riseupnet/riseup_help]]!
+
+Tor Hidden Services wurden umbenannt, weil "Hidden Service" beschrieb nicht genau was damit möglich ist, sodass der Name in onion-Dienste ("onion Services") umbenannt wurde, in dieser Anleitung werden wir diesen Namen benutzen.
+
+h2. Installation und Konfiguration von onion-Diensten
+
+Für Informationen zum Konfigurieren von onion-Diensten siehe [[Anleitung des Tor Projekt->https://www.torproject.org/docs/tor-hidden-service]]
+
+h3. Stelle sicher, dass sie Software aktuell ist
+
+Es reicht nicht, Tor zu installieren, deinen onion-Dienst zu konfigurieren und dann zu vergessen. Du musst ihn aktuell halten, damit kritische Sicherheitslücken geschlossen werden. Jede Software hat Fehler und Tor ist keine Ausnahme. Stelle sicher, dass die Software aktuell bleibt.
+
+h3. Viele Dinge können zu onion-Diensten gemachten werden
+ 
+Eine Menge ist möglich mit onion-Diensten, nicht nur das Veröffentlichen von Webseiten! Du kannst IMAP und SMTP anbieten, oder
+[[Mails zwischen MTA austauschen->https://www.void.gr/kargig/blog/2014/05/10/smtp-over-hidden-services-with-postfix/]], unter vielen anderen Möglichkeiten. Verteile Zwiebeln weit und breit! Aber sei vorsichtig, wenn der Dienst aus irgendwelchen Gründen DNS-Anfragen stellt (z.B. auf der Suche nach einem SMTP-Server, um eine Mail zu verschicken), dann gibst du Informationen preis. Eine Möglichkeit das zu vermeiden ist, deinen Computer mit iptables so einzustellen, dass alles immer komplett über Tor geleitet wird.
+
+h3. Betreibe keinen Relay zur gleichen Zeit
+
+Betreibe keinen Relay und einen onion-Dienst auf der selben Instanz. Einen Relay und onion-Dienst auf der gleichen IP-Adresse oder Computer zu betreiben, macht es möglich, dies durch Analyse deines Verkehrs mittels Korrelationen und Fingerabdrücken zu finden. Allerdings ist Tor schlau genau genug, sich *nicht* als Node für diesen Circuit auszuwählen, also ist es kein Disaster, aber idealerweise solltest du es vermeiden.
+
+h3. Überprüfe die Verfügbarkeit deines onion-Dienstes
+
+Obwohl ihre Stabilität stark zugenommen hat, können onion-Dienste immer noch aus einer Menge Gründen ausfallen. Konfiguriere eine Beobachtung (monitoring), welches sich regelmäßig mit deinem onion-Dienst verbindet, um sicherzustellen, dass er immer noch funktioniert.
+
+h3. Mehrere Ports für einen onion-Dienst
+
+Du musst nicht für jeden Dienst einen eigenen onion-Dienst erstellen. Um ihn verfügbar zu machen, brauchst du nur eine weitere HiddenServicePort-Zeile hinzufügen:
+
+bc. HiddenServiceDir /usr/local/etc/tor/other_hidden_service/
+HiddenServicePort 6667 127.0.0.1:6667
+HiddenServicePort 22 127.0.0.1:22
+
+Wenn du mehrere onion-Dienste mit derselben Tor-Anwendung betreiben willst, füge eine weitere HiddenServiceDir-Zeile in die Konfigurationsdatei.
+
+h3. SSL/TLS ist nicht nötig
+
+Du brauchst nicht wirklich SSL/TLS auf einer onion-Adresse (wie https), denn es ist ein komplett verschlüsselter Tunnel mit Vorwärtssicherheit (perfect forward secrecy), *aber* es schadet nicht, das trotzdem zu machen, um eine zusätzliche Verschlüsselung auf diesem onion zu haben!  
+
+Obwohl es wahr ist, dass zusätzliche Verschlüsselungsschichten gut sind, beachte, dass das SSL/TLS-Zertifikat nicht valide sein wird, es sei denn du registrierst es für deine *.onion-Adresse.
+
+h2. onion-Dienste können gefunden werden
+
+Wenn du nicht vorsichtig bist und deinen Server davor bewahrst, Informationen über dich, deinen Computer, oder deinen Ort zu enthüllen, ist dein onion-Dienst nicht mehr versteckt!
+
+Ein häufiger Fehler sind Server-Signaturen, z.B. ist es einfach festzustellen, ob ein Webserver thttpd oder Apache ist, oder dein System festzustellen, denn das Banner nennt die Version und das Betriebssystem des laufendes Diestes.
+
+Eine andere Möglichkeit, deine Adresse herauszufinden, sind Referrer-Kopfzeilen, wenn ein Browser die Webseite deines onion-Dienstes öffnet und dann auf einen Link auf eine unverschlüsselte Webseite geklickt wird. Tor Browser [[kümmert sich->https://trac.torproject.org/projects/tor/ticket/9623]] um viele kleine solcher Leaks, also ermuntere deine Nutzer*innen einen  [[aktuellen Tor Browser->https://www.torproject.org/download/download-easy]] zu benutzen, statt einen eigenen Browser über Tor verbinden zu lassen.
+
+Je länger ein onion-Dienst online ist, umso größer ist die Gefahr, dass der herausgefunden wird. Die bekanntesten Angriffe bilden ein Profil über die Verfügbarkeit eines onion-Dienstes und sammeln Übereinstimmungen in deinen Verkehrsmustern.
+
+Das [[Tor-Protokoll bietet aktuell Möglichkeiten->https://blog.torproject.org/blog/hidden-services-need-some-love]] mit denen ein bösartier Relay deine onion-Adresse finden kann, selbst wenn du niemensch davon erzählst. [[Folge dieser Diskussion->https://trac.torproject.org/projects/tor/ticket/8106]] über das Thema, wenn du auf dem Laufenden bleiben willst, wie beim Tor-Projekt versucht wird, das Problem zu beheben.
+
+h3. onion-Dienste brauchen nicht versteckt werden!
+
+Du kannst onion-Dienste für öffentlich beworbene Dienste auf Servern, die nicht versteckt sind, anbieten. Onion-Dienste sind nützlich, um Nutzer*innen vor passiver Netzwerküberwachung zu schützen, sie lassen die Spione im Dunkeln darüber, von wo und wohin sich wer verbindet.
+
+h3. Mach deine onion-Dienste einfach auffindbar
+
+Wenn du onion-Dienste anbietest, bewirb sie unter deinen Nutzer*innen mit der onion-Adresse und den angebotenen Ports auf eine Weise, dass diese als die legitimen angebotenen Dienste authentifiziert (du könntest die Liste der onion-Adressen digital signieren wie [[Riseup das macht -> tor#riseups-tor-hidden-services]], oder in DNS txt-Einträge schreiben).
+
+h3. Bitte deine Lieblings-Onlinedienste, einen onion-Dienst anzubieten!
+
+Tritt ein für mehr onion-Dienste, indem du die Betreiber*innen deiner Dienste bittest, diese als onion-Dienste anzubieten. Sie sind einfach aufzusetzen und aufrecht zu erhalten und es gibt keinen Grund, sie nicht anzubieten!
+
+h3. onion-Dienste verschieben
+
+Du kannst onion-Dienste einfach zwischen Systemen verschieben. Kopiere dazu den Ordner @/var/lib/tor/<hidden_service>@ auf das neue System und stelle sicher, dass @torrc@ auf dem neuen System die gleiche Einstellung wie das alte hat. Stelle sicher, dass der alte Dienst gestoppt und deaktiviert ist, bevor der neue gestartet wird. Das Verzeichnis des onion-Dienstes enthält den Hostname des onion-Dienstes und den privaten Schlüssel.
+
+h2. Schütze deine Dienste
+
+h3. Schütze deine privaten Schlüssel
+
+Behalte deinen privaten Schlüssel privat! Der Schlüssel sollte nicht für die Öffentlichkeit erreichbar sein, nicht geteilt werden und die richtigen Dateirechte gesetzt haben, damit er nicht von anderen Nutzenden deines Systems lesbar ist, außer dem Tor-Prozess.
+
+h3. Mach ein Backup deiner privaten Schlüssel
+
+Wenn du vorhast, deine Dienste über lange Zeit anzubieten, solltest du ein Backup deiner @private_key@-Datei an einem sicheren Ort behalten.
+
+h3. Vorsicht vor localhost-Bypässen!
+
+Du solltest sehr vorsichtig sein, nicht aus Versehen Dinge auf deinem Server öffentlich sichtbar zu machen, die nur für die lokale Benutzung gedacht sind. Apache bietet z.B. den @/server-status@ (von mod_status) an, um die Gesundheit des Webservers zu beobachten. Dieser ist typischerweise nur von 127.0.0.1 erreichbar, oder du kannst @.htaccess@-Regeln einstellen, die nur localhost erlauben, etc.
+
+Es gibt einige wenige Wege, dieses Problem zu lösen:
+
+* *andere Maschine*: überlege, den onion-Dienst auf einem anderen Rechner (real oder virtuell) laufen zu lassen, als die betreffenden Dienste. Das hat den Vorteil, dass beide Dienste isoliert sind (wenn einer kompromittiert wird, bleibt der andere unbehelligt) und es hilft, die Preisgabe von Informationen zu vermeiden.
+
+* *isolation*: ähnlich zum eben Genannten kannst du tor und andere Dienste isolieren, indem sie in [[verschiedenen Netzwerk-Namensbereichen->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]] laufen.
+
+* *öffentliche IP-Adresse*: lass den onion-Dienst zur öffentlichen IP-Adresse des Dienste verbinden, anstatt nach localhost/127.0.0.1, sodass tor nicht 127.0.0.1 als Quelle auffängt und verhindert die meisten Fehlkonfigurationen, wie z.B. diese:
+
+bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
+HiddenServicePort 80 192.168.1.1:81
+
+* *unix socket*: benutze unix socket-Unterstützung, anstatt TCP socket (benötigt tor 0.26 oder neuer) - in diesem Fal läuft der onion-Dienst auf dem gleichen Server wie der Dienst selbst. Per socket sollte es möglich sein, @privatenetwork=yes@ in systemd einzustellen, was wirklich gute Isolation bietet, z.B.:
+
+bc. HiddenServicePort 80 unix:/etc/lighttpd/unix.sock
+
+Allerdings muss der Dienst selbst auch unix sockets unterstützen, andererseits muss eine socat-Weiterleitung von tcp <-> unix (nginx, twisted, lighttpd unterstützen das) eingestellt werden.
+
+* *sorgfältige Sicherheitsprüfung*: mache eine sorgfältige Sicherheitsprüfung (und wiederhole diese regelmäßig) deiner Systemeinstellungen, die localhost/127.0.0.1 erlauben, aber verbiete alle anderen und konfiguriere diese, um das Problem herum zu arbeiten (z.B. indem /server-status auf einer anderen IP-Adresse angeboten wird; lass den Webserver auf einem anderen Port lauschen für /server-status; schütze es mit einem Passwort, etc.).
+
+h3. Schütze onion-Dienste mit Authentfizierung
+
+Wenn du @HiddenServiceAuthorizeClient@ einstellst (siehe Anleitung), ist der Dienst nur für Autorisierte verfügbar. Des bedeutet, dass der Dienst nicht angegriffen werden kann, ohne Tor zu brechen (oder an den Autorisations-Schlüssel zu gelangen).
