@@ -1,0 +1,27 @@
+@title = 'Emails herunterladen'
+
+h2. Wie kann ich meine Emails herunterladen?
+
+Sowohl [[Webmail]] als auch mit IMAP konfigurierte lokale Konten lassen die Nachrichten auf dem Server, bis du sie dort manuell löschst. Um [[Quota]] frei zu machen und die Nachrichten zu behalten, musst du die Nachrichten auf dem Server in einen lokalen Ordner kopieren. Deine Quoto wird nicht direkt aktualisierst, sondern erst wenn die nächsten Mails eintreffen.
+
+Der Prozess hängt von der Oberfläche deines Programms ab. Wenn du [[Thunderbird]] benutzt, lies weiter, ansonsten schau bitte in die Dokumentation deines [[Emailprogramms => email/clients]].
+
+h3. Nachrichten mit Thunderbird herunterladen
+
+* Auf der linken Seite siehst du die Überschrift *Local Folders*. Alles darunter wird auf deinem Rechner gespeichert.
+* Wähle *Datei > Neu > Ordner...*, um einen neuen Ordner zu erstellen.
+* Wähle, deinen Ordner als Unterordner von  *Local Folders* zu erstellen.
+* Gehe zurück auf deine Inbox von riseup.net. Dort wähle einige oder alle Nachrichten in deiner Inbox. Du kannst die Suchfunktion benutzen und alle auswählen, oder manuell einzelne heraus picken.
+* Gehe auf das Menu *Nachrichten > Verschieben in > Local Folders > Names des neu erstellten Ordners*. Alternativ kannst du die Nachrichten dorthin ziehen.
+* Um ganze Ordner zu kopieren, kannst du sie nach *Local Folders* ziehen
+
+h3. Nachrichten mit squirrelmail herunterladen
+
+* Log dich ein mit "squirrelmail":https://mail.riseup.net/sm.
+* Konfiguriere das Format des Archivs mittels *Optionen > Archive Settings*.
+* Gehe zurück zum Ordner mit den Nachrichten, die du herunterladen willst.
+* Klicke auf die Kästchen vor den gewünschten Nachrichten.
+* Lade diese als Archiv herunter mit Klick auf den *Archive*-Knopf unten rechts in der Nachrichtenliste.
+* Das erstellst ein Archiv aller sichtbaren Nachrichten. Um alle deine Nachrichten zu archivieren, klicke vorher auf *Alle anzeigen*.
+* Beachte dass du nicht zu viele Nachrichten mit einem Mal archivieren kannst: dem Skript auf dem Server geht irgendwann der Speicher aus und es bricht ab.
+* Durch das Archivieren mit Squirrelmail sind die Nachrichten noch nicht gelöscht: du musst die Nachrichten immer noch auf dem Server löschen.

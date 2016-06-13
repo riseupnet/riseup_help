@@ -1,10 +1,10 @@
-@title = 'Besseres Surfen'
+@title = 'Besser Surfen'
 
 h2. Einen Browser auswählen
 
 Zurzeit gibt es vier bedeutende Browser: Firefox, Chrome, Internet Explorer und Safari. Alle vier haben in letzter Zeit große Sicherheitsfehler erlebt, also solltest du sicherstellen, dass du die neueste Version benutzt, egal welchen du aussuchst. Wir raten stark davon ab, den Internet Explorer (IE) vor Version 9 zu benutzen.
 
-Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[Browser Bewertungstafel => browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen stark verbessert werden (siehe unten).
+Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen stark verbessert werden (siehe unten).
 
 Alternativ bietet das Tor-Projekt einen veränderten Firefox an, welcher für Sicherheit und Anonymität optimiert ist: [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]]. Siehe auch unsere Seite über [[tor]].
 
