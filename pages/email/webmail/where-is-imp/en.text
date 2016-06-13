@@ -16,14 +16,3 @@ If you were a regular user of Horde/IMP, we are sorry to take this away from you
 In particular, there might be problems with some non-latin characters with addressbook entries, so be sure you check those and correct them, we are sorry that there was no good way to automatically handle this problem.
 
 If you tried both webmails, we imported settings from each, so be sure to check over any of your addressbook or identity information that you may have put into the old webmails and make sure that they are correct. There may be settings that you do not want, so just review them all once and you will be good.
-
-h2. How to retrieve your OpenPGP public and private keys
-
-# "Login to IMP":https://fulvetta.riseup.net/horde3/imp/ (NOTE: this will go away soon!)
-# Click the 'Options' icon in the top icon bar
-# Click on 'PGP Options' and scroll down to the header that reads 'Your PGP Public/Private Keys'
-# To save your Public Key as a file on your computer, right-click the '[View]' link next to 'Your public key', and choose the option 'Save link as'. You can now select the folder and filename for saving your public key.
-# To save your Private Key as a file on your computer, right-click the '[View]' link next to 'Your private key', and choose the option 'Save link as'. You can now select the folder and filename for saving your private key.
-
-If you want to save the public keys of all your contacts, you will have to repeat step 3 for every email address listed under 'PGP Public Keyring' Be sure to choose a unique filename for every contact, lest you overwrite previously downloaded public keys.
-

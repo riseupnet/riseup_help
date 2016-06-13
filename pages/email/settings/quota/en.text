@@ -4,22 +4,26 @@ h2. Why doesn't Riseup provide more quota?
 
 We would like to, but it is expensive. Hard drives are super cheap, but the computers that house these drives and the rent on the space to house the computers is expensive.
 
-h2.  Why isn't my quota updated?
+h2. Why isn't my quota updated?
 
 It would be very time consuming for the server to calculate an exact quota usage. Instead, the quota number is a guess. Often, it is a very accurate guess. However, sometimes the guess can be wildly off. You will never go over quota (and start bouncing message) unless you actually have used up all your storage space.
 
 Another thing the mail server does to save time is to only update the quota "guess" when you receive a new message. This means that if you delete a message, your quota will not appear to change until the next time you receive an email.
 
-h2.  How do I increase my quota?
+h2. How do I increase my quota?
 
 # Login to https://user.riseup.net
 # click *Email*
 # enter new quota amount
 
-h2.  Where is my quota going?
+h2. Where is my quota going?
 
-If you log into your riseup webmail account [mail.riseup.net], and click the 'settings' gear, a small menu will pop up, select 'manage folders'
+# Log int to https://user.riseup.net
+# click the *settings* gear
+# select 'manage folders' in the small popup menu
+# from the manage folders window, select individual folders on your account
+# under the *information* section on the right hand size click the link called 'click to get folder size'
 
-from the manage folders window, you can select individual folders on your account, and under the 'information' section on the right hand size, is a link called 'click to get folder size' which will provide the folder size to you in human readable format.
+This will provide the folder size to you in human readable format.
 
 All messages in your folders count towards your quota, including messages in the [[special folders => email-folders]] Trash, Sent and Spam.
