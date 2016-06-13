@@ -22,18 +22,6 @@ h2.  ¿Cómo elimino a alguien del grupo de direcciones en Squirrelmail?
 # Marca las direcciones que quieras eliminar
 # Pulsa el botón Remover
 
-h2.  ¿Cómo creo un grupo de direcciones en IMP?
-
-Si usas la aplicación web IMP, sigue estas instrucciones para crear una lista de correos partiendo direcciones ya existentes. Al igual que en Squirrelmail, las direcciones de correo ya deben estar en tu agenda para poder ser añadidas a algún grupo.
-
-# Accede a https://mail.riseup.net
-# Pulsa en Agenda
-# Pulsa en Examinar
-# Marca las direcciones que quieras añadir
-# Selecciona del menú desplegable Crear una nueva lista de contactos en mi Agenda
-# Pulsa en Añadir
-# Ponle un nombre a la lista de direcciones
-
 ¡Ya está!
 
 Para editar este grupo, sigue los tres primeros pasos de arriba, y entonces pulsa en la primera letra del nombre del grupo para encontrarlo en tu agenda. Pulsa en la lista de direcciones. Ahora ya puedes eliminar direcciones de la lista.

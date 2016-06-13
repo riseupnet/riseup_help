@@ -21,28 +21,28 @@ h3. Importing your contacts from IMP
 # "Login to IMP":https://fulvetta.riseup.net/horde3/imp/ (NOTE: this will go away soon!)
 # Select Address Book
 # Select Import/Export from the top nav bar
-# Under "Export Address Book," change the export format to vCard.
+# Under *Export Address Book*, change the export format to vCard.
 # Click on Export
 # Login to roundcube
 # Select Addressbook
 # Select Import
 # Choose the file you just exported from IMP
-# Click on "Import"
+# Click on *Import*
 
-h2.  How do I create an address group in Squirrelmail?
+h2. How do I create an address group in Squirrelmail?
 
 This is how you create an email list of your existing addresses. To do this, you must already have the addresses that you want to add entered into your address book.
 
 # "Login to squirrelmail":https://mail.riseup.net/sm
 # Click on options
 # Click on Address Groups
-# Click on "Add New Member"
-# Click on the button labeled "list all"
+# Click on *Add New Member*
+# Click on the button labeled *list all*
 # Click the check boxes for the addresses that you wish to add to the group
 # Type the name of the group in the "Add to New Group" field at the bottom
 # Click on Add
 
-h2.  How do I remove someone from an address group in Squirrelmail?
+h2. How do I remove someone from an address group in Squirrelmail?
 
 # "Login to squirrelmail":https://mail.riseup.net/sm
 # Click on options
