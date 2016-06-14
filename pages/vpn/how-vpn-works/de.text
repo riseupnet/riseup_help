@@ -1,0 +1,37 @@
+@title = 'Wie das Riseup VPN arbeitet'
+
+Ein Virtuelles Privates Netzwerk (VPN) wird typischerweise von Angestellten benutzt, um von zu Hause sicher auf ein Unternehmensnetzwerk zuzugreifen.
+
+Beim [[Riseup VPN -> vpn]] dagegen benutzen wir die gleiche Technologie, um allen eine größere Sicherheit beim Zugang zum öffentlichen Internet zu ermöglichen. Diese Art VPN heißt *persönliches VPN*.
+
+h2. Eine normale Internetverbindung
+
+!vpn-01_large.png!
+
+Bei einer normalen Internetverbindung wird dein Verkehr von dreinem Computer durch deinen Internetdiensteanbieter (Internet Service Provider, meist ISP abgekürzt) in das Internet und schließlich zum Zielort geschickt. Bei jedem Schritt werden deine Daten unterwegs aufgezeichnet und sind anfällig für [[man-in-the-middle-Angrife -> vpn/security-issues]] (die Gefahr ist viel kleiner, wenn du ein [[sicheres Protokoll -> secure-connections]] wie @https@ benutzt.
+
+h2. Eine Internetverbindung mit persönlichem VPN
+
+!vpn-02_large.png!
+
+Mit einem persönlichen VPN wird dein Verkehr auf deinem Rechner verschlüsselt und passiert deinen ISP auf dem Weg zum VPN-Server. Weil die Daten verschlüsselt sind, hat dein ISP kein Wissen, was in deinen Daten ist, die sie zum VPN-Server weiterleiten. Sobald die Daten den VPN-Server erreichen, werden sie entschlüsselt und zu ihrem Ziel weitergeleitet.
+
+Mit einem persönlichen VPN sind deine Daten, wenn sie nicht mit einer [[sicheren Verbindung -> secure-connections]] verschickt werden, immer noch angreifbar, sobald sie den VPN-Server verlassen. Allerding hast du durch das Schicken durch den VPN-Server zwei wichtige Vorteile:
+
+* Deine Daten sind davor geschützt, geblockt oder getracked zu werden, sowie vor man-in-the-middle-Angriffen durch deinen ISP oder Netzwerkoperatoren deines Landes.
+* Deine Daten scheinen nun von einer anderen IP-Adresse zu kommen, nämlich deinem VPN-Server und nicht deiner realen IP-Adresse. Die meisten Webseiten sammeln und behalten extensive Datenbanken über diese IP-Adresse, welche nun anonymisiert wurde.
+
+h2. Persönliche VPN anonymisieren deine Verbindung
+
+!vpn-03_large.png!
+
+Weil dein Verkehr von der IP-Adresse deines VPN-Servers zu kommen scheint, weiß der Empfänger deiner Netzwerkkommunikation nicht, wo du wirklich wohnst (es sei denn, du sagst es ihm).
+
+Im oben illustrierten Fall denkt die Webseite in Kalifornien, dass der Laptop in Brasilien, der Laptop in Europa und das riesige Mobiltelephon, das über Kanada fliegt, alle aus New York kommen, weil dort der VPN-Server steht.
+
+h2. Einschränkungen durch die Nutzung eines persönlichen VPN
+
+* Wenn du nicht in einem demokratischen Staat lebst, kann es illegal sein, auf das Internet mit einem persönlichen VPN zuzugreifen.
+* Benutzt du ein VPN auf deinem Mobiltelephon, ist die Datenverbindung zwar sicher, aber dein Mobilfunkanbieter weiß trotzdem noch deinen Ort, weil er aufzeichnet, mit welchen Funktürmen dein Gerät kommuniziert.
+* Ein VPN hilft, deine Informationen beim Transit durch das Internet zu sichern, aber es schützt sie nicht, wenn sie auf deinem Rechner oder einem entfernten Server gespeichert sind.
+* Sobald die Daten sicher durch den RiseupVPN-Server geschickt wurden, gehen sie weiter durch das Internet wie normalerweise auch. Deshalb solltest du immer [[sichere Verbindungen -> secure-connections]] benutzen, wenn das möglich ist.
