@@ -21,7 +21,7 @@ Eine Menge ist möglich mit onion-Diensten, nicht nur das Veröffentlichen von W
 
 h3. Betreibe keinen Relay zur gleichen Zeit
 
-Betreibe keinen Relay und einen onion-Dienst auf der selben Instanz. Einen Relay und onion-Dienst auf der gleichen IP-Adresse oder Computer zu betreiben, macht es möglich, dies durch Analyse deines Verkehrs mittels Korrelationen und Fingerabdrücken zu finden. Allerdings ist Tor schlau genau genug, sich *nicht* als Node für diesen Circuit auszuwählen, also ist es kein Disaster, aber idealerweise solltest du es vermeiden.
+Betreibe keinen Relay und einen onion-Dienst auf derselben Instanz. Einen Relay und onion-Dienst auf der gleichen IP-Adresse oder Computer zu betreiben, macht es möglich, diesen durch Analyse deines Verkehrs mittels Korrelationen und Fingerabdrücken zu finden. Allerdings ist Tor schlau genau genug, sich *nicht* als Node für diese Tor-Verbindung (Circuit) auszuwählen, also ist es kein Disaster, aber idealerweise solltest du es vermeiden.
 
 h3. Überprüfe die Verfügbarkeit deines onion-Dienstes
 

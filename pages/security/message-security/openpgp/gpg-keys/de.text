@@ -1,0 +1,260 @@
+@title = "OpenPGP-Schlüssel verwalten"
+
+Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zum Erstellen von OpenPGP-Schlüsselpaaren, Exportieren von Schlüsseln an Schlüsselserver, Finden von OpenPGP-Schlüsseln, um mit anderen sicher zu kommunizieren.
+
+h1. Bevor du anfängst -- mach das zuerst!
+
+Lies die Anleitung [[gpg-best-practices]], um sicherzustellen, dass dein System starke Schlüssel erstellt und Schlüssel-Aktualisierungen von gut verwalteten Schlüssel-Servern empfangen werden. Dazu sind Änderungen an der Datei @gpg.conf@ notig, welche sich je nach System an verschiedenen Orten befinden kann. Bei Linux befindet sie sich in @~/.gnupg/gpg.conf@.
+
+h1. Linux
+
+h2. Benutzung der GNOME-Anwendung Seahorse
+
+h3. Was ist Seahorse?
+
+"Seahorse":https://en.wikipedia.org/wiki/Seahorse_(software) ist ein graphisches (GUI) Werkzeug zum Verwalten von OpenPGP-Schlüsseln, dem sicheren Speichern von Passwörtern und Erstellen von SSH-Zertifikaten. Es benutzt GPG als Schnittstelle zur OpenGPG-Implementation.
+
+h3. Erstelle und exportiere ein OpenPGP-Schlüsselpaar
+
+# Starte Seahorse. Es sollte bei Debian/Ubuntu bereits installiert sein.
+# Wähle *GnuPG-Schlüssel*
+# Erstelle einen neuen Schlüssel durch Klick auf das +
+# Wähle *PGP-Schlüssel*
+# Gib deine Emailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
+# Wähle *Erweiterte Schlüsseleinstellungen*
+# Verschlüsselungs-Typ sollte RSA sein.
+# Schlüssellänge sollte 4096 sein.
+# Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails für immer.**
+# Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super! Du kannst die Schlüsseleinstellungen verwalten, den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen und andere Einstellungen mit Seahorse oder von der Kommandozeile aus vornehmen.
+# **Optional** An diesem Punkt kannst du deinen öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Sobald du bereit bist:
+## Wähle den/die Schlüssel, den/die du exportieren möchtest. Halte *Strg* und klicke, um mehrere auszuwählen, oder drücke **Strg+A**, um alle Schlüssel auszuwählen.
+## Gehe zu *Entfernt -> Schlüssel abgleichen und veröffentlichen*
+## Drücke den Knopf *Schlüssel-Server*
+## Veröffentliche die Schlüssel zu einem Server (wähle einen aus, wenn der Knopf *Abgleichen* auf dem vorherigen Schirm ausgegraut war); sie synchronisieren sich alle untereinander, dein Schlüssel wird auf allen verfügbar sein.
+# *Empfohlen:* Aktiviere unter *Bearbeiten > Einstellungen* die Funktion *Schlüssel automatisch von den Schlüssel-Servern abrufen*, aber lasse *Veränderte Schlüssel automatisch mit den Schlüssel-Servern abgleichen* deaktiviert. Statt dessen [[benutze parcimonie -> /gpg-best-practices#refresh-your-keys-slowly-and-one-at-a-time]].
+## Drücke den Knopf *Schließen* und *Abgleichen*, um deine Schlüssel zu synchronisieren.
+
+Dein öffentlicher Schlüssel wird nun auf den Schlüssel-Servern veröffentlicht und ist danach für andere verfügbar!
+
+h3. Deinen oder andere OpenPGP-Schlüssel importieren
+
+Wenn du mit anderen sicher kommunizieren möchtest, oder Daten verschlüsseln willst, die nur sie lesen können, musst du ihren öffentlichen Schlüssel zuerst deinem Schlüsselbund hinzufügen. *Beachte:* Der Name John Q. wird ab hier verwendet als Beispiel für einen Menschen, den du suchst, nicht dich selbst.
+
+h4. Importieren aus einer Datei
+
+Wenn dir eine Datei mit einem Schlüssel geschickt wird, kannst du ihn mit Seahors so importieren:
+# Gehe auf **Datei** -> **Importieren...**
+# Suche die Datei, wähle sie aus und drücke auf den Knopf **Öffnen**.
+
+Der Schlüssel in der Datei wurde nun in deinen Schlüsselbund importiert!
+
+h4. Suchen auf Schlüssel-Servern
+
+# Gehe zu *Entfernt > Entfernte Schlüssel suchen* in Seahorse
+# Tippe einige Worte (oder einen Namen oder Alias), um nach Schlüssel auf dem Schlüssel-Server zu suchen. Das Beste ist, nach einer Emailadresse zu suchen, weil diese direkt mit dem Schlüssel verbunden ist.
+# Schau dir die angebotene Liste genau an und suche den Schlüssel der Person, die du suchst. Weitere Informationen erhälst du durch Klicken auf *Eigenschaften*
+# Sobald du die gewünschten Schlüssel ausgewählt hast, klicke *Importieren*.
+
+Öffentliche Schlüssel wurden deinem Schlüsselbund angehängt!
+
+h3. Schlüssel verifizieren
+
+Schlüssel können von allen bei Schlüsselservern veröffentlicht werden. Suche zum Beispiel spaßeshalber nach Edward Snowdens Schlüssel. Es gibt viele davon! Bevor du einen Schlüssel benutzt, solltest du den Fingerabdruck mit der Person austauschen, mit der du kommunizieren möchtest. *Das solltest du nicht per Mail tun!* Die beste Praxis ist, den Fingerabdruck persönlich zu vergleichen. Mindestens solltest du mit der Person sprechen (Stimme/Video), um zu wissen, dass du mit der richtigen Person kommunzierst. Um den Fingerabdruck zu vergleichen, folge diesen Schritten:
+
+# Öffne seahorse
+# Im Menu wähle *Ansicht > Alle einzeigen*
+# Suche den bereits importierten Schlüssel
+# Wähle *Eigenschaften* (Rechtsklick)
+# Wähle *Details*
+# Vergewissere dich, dass Inhaber*in und Fingerabdruck richtig sind!
+
+Nachdem du den Fingerabdruck sorgfältig überprüft und die Korrektheit mit der Eigentümer*in bestätigt hast, kannst du den Schlüssel mit deinem eigenen Schlüssel unterschreiben:
+
+# Wähle im selben Fenster den Reiter **Vertrauen** drücke den Knopf **Diesen Schlüssel signieren**.
+# Signiere den Schlüssel, um anzuzeigen, wie sorgfältig du den Schlüssel überprüft hast. Auch wenn du *Überhaupt nicht* auswählst, kannst du den Schlüssel für Email- und Datenverschlüsselung wählen. Du kannst auch einstellen, dass andere deine Signatur nicht sehen können, oder dass du die Unterschrift später widerrufen können möchtest.
+# Press **Signieren**.
+
+Nun kannst du anfangen, Daten zu verschlüsseln, die nur von der Schlüsselinhaber*in entschlüsselt werden können, um einen sicheren Kommunikationskanal zu etablieren!
+
+h2. Benutzung der Linux-Kommandozeile
+
+Diese Anleitung basiert auf dem "Ubuntu GPG Howto":https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+
+h3. Stelle sicher, dass die richtigen Standards eingestellt sind
+
+Siehe [[gpg-best-practices]] *bevor du weitermachst*, um sicherzustellen, dass die richtigen Standards eingestellt sind.
+
+h3. OpenPGP-Schlüsselpar mit GPG erstellen
+
+Drücke *Alt+F2* und gib @gnome-terminal@ ein, danach drücke enter.
+
+Tippe @gpg --gen-key@ ins Terminal, das sollte dieses Menü öffnen:
+
+bc. Please select what kind of key you want:
+  (1) RSA and RSA (default)
+  (2) DSA and Elgamal
+  (3) DSA (sign only)
+  (4) RSA (sign only)
+
+Wähle den gewünschten Typ. *RSA and RSA* sind empfohlen. **(sign only)**-Schlüssel können nicht zur Verschlüsselung benutzt werden.
+
+Als nächstes wähle die Größe. **4096** ist empfohlen.
+
+bc. What keysize do you want? (2048)
+
+Danach stelle ein, wie lange der Schlüssel gültig sein soll und drücke **y**. Wenn du 0 wählst, läuft der Schlüssel nie ab und du musst ihn widerrufen, wenn du ihn nicht mehr nutzen möchtest. [[Es wird empfohlen -> /gpg-best-practices#use-an-expiration-date-less-than-two-years]], dass der Schlüssel innerhalb von 2 Jahren abläuft.
+
+bc. Please specify how long the key should be valid.
+     0 = key does not expire
+   <n> = key expires in n days
+   <n>w = key expires in n weeks
+   <n>m = key expires in n months
+   <n>y = key expires in n years
+Key is valid for? (0)
+
+Gib Name und Emailadresse, [[aber keinen Kommentar ein -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]] ein. Name und Emailadresse kannst du frei wählen und müssen nicht notwendigerweise stimmen. Wenn der OpenPGP-Schlüssel zum Verschlüsseln von Emails benutzt werden soll, gib die entsprechende Adresse bei der Abfrage "Email address" ein.
+
+bc. You need a user ID to identify your key; the software constructs the user ID
+from the Real Name, Comment and Email Address in this form:
+  "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
+Real name: John Q. Alias
+Email address: the-email-youre-going-to-use@whatever.tld
+Comment:
+
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails für immer.**
+Wenn du enter drückst, wird ein Schlüsselpaar erstellt.
+
+Dein OpenPGP-Schlüsselpaar (öffentlich/privat) wurde erstellt!
+
+h3. Schlüssel anzeigen
+
+Du kannst deine Schlüssel mit diesem Befehl anzeigen:
+@gpg --list-secret-keys@
+
+Die Ausgabe sollte in etwa so aussehen:
+
+bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+      Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb   4096R/0x40339E25E2F2D99E 2014-05-14
+
+p. Du findest die *Schlüssel-ID* in der 'sec'-Zeile. Sie enthält die Schlüsselstärke und abgekürzt den Schlüssel-Typ (*4096* in der ersten Zeile), einen Schrägstrich, die *Schlüssel-ID* und das Erstellungsdatum. Zur Veranschaulichung:
+
+bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+            ^Schlüssel-ID^
+      Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb   4096R/0x40339E25E2F2D99E 2014-05-14
+
+p. In diesem Beispiel lautet die *Schlüssel-ID* also **E361D8GH916EFH89**.
+
+Allerdings solltest du dich, [[wie hier beschrieben -> /gpg-best-practices#dont-rely-on-the-key-id]], nicht auf die Schlüssel-ID verlassen. Benutzen stattdessen den *ganzen Fingerabdruck* für alle Operationen.
+
+h3. Öffentlichen OpenPGP-Schlüssel exportieren/publizieren
+
+# Drücke **Alt+F2** und starte @gnome-terminal@
+# Exportiere eine ASCII-geschützte Version deines öffentlichen Schlüssels:
+@gpg --export -a <<fingerprint>> > mykey.asc@
+
+Dein ASCII-geschützter öffentlicher Schlüssel befindet sich jetzt in der Datei **mykey.asc** im aktuellen Ordner (gewöhnlich dein 'home'-Ordner). Jetzt kannst du den Schlüssel verschicken, damit dir andere für dich verschlüsselte Dateien schicken können.
+
+h3. Öffentlichen OpenPGP-Schlüssel bei einem Schlüssel-Server veröffentlichen
+
+Um deinen öffentlichen Schlüssel an einen Schlüssel-Server zu schicken
+# drücke **Alt+F2** und starte: @gnome-terminal@
+# tippe @gpg --send-keys <<fingerprint>>@
+wobei <<fingerprint>> der Fingerabdruck des zu veröffentlichenden Schlüssels ist. Hoffentlich hast du bereits einen [[guten Schlüssel-Server eingestellt -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
+
+h1. Windows
+
+*Die Windows-Version dieser Anleitung ist veraltet und wurde noch nicht übersetzt. Wenn du Windows benutzt, kannst du uns helfen sie zu aktualisieren und zu übersetzen! Siehe [[unser github-Archiv für Hilfe-Seiten, um zu erfahren wie -> https://github.com/riseupnet/riseup_help]]*
+
+Es wird *nicht empfohlen* Windows für sichere Kommunikation zu verwenden. Während Windows abgesichert werden kann, um es sichererer als die Standardumgebung zu machen, geht die Tendenz bei Windows in Richtung sehr laxer Sicherheit. Es gibt eine Vielfalt voreingebauter Exploits, die es einfach machen, das System anzugreifen und zu kompromittieren. Hier ein paar Stichpunkte gegen die Verwendung von Windows für sichere Kommunikation:
+* weitreichende Verbreitung von Schadsoftware/Trojanern/[[Viren -> viruses]], die Tastatureingaben mitspeichern (und damit Verschlüsselung umgehen), oder andere Informationen mitloggen könnten
+* Regierungen benutzen Windows für gezieltes Hacken und installieren Schadsoftware, während Microsoft darüber Bescheid weiß.
+* Windows benutzt gewöhnlich ein unverschlüsseltes Dateisystem und das Hauptverschlüsselungswerkzeug ist proprietär und kann nicht auf Sicherheitslücken, Hintertüren, oder anderen Schwachstellen überprüft werden.
+* Nutzungskonten sind standardmäßig Admins
+* Weil Windows proprietär ist der  offen liegt Quellcode, gibt es keine wirksame Analyse nach Defekten, Hintertüren, oder allem, was "nach Hause telefoniert". Alle Geheimnisse, die du auf deinen Rechner tust, traust du Microsoft an.
+
+Als Plattform für sichere Kommunikation empfehlen wir, Linux zu installieren. Siehe [Installing Ubuntu Linux]
+
+h2. Install Gpg4win
+
+"Gpg4win":http://www.gpg4win.org" is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
+
+# Download "Gpg4win":http://www.gpg4win.org/download.html"
+# Double click the executable and begin the installation.
+# Select the language you'll be using.
+# You'll be greeted by the welcome screen. Press **Next** to continue.
+!img/gpg4win1-install-welcome.gif!
+# Next, you'll be asked to agree to the [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->https://www.gnu.org/licenses/gpl.html]. If you accept, press **Next**.
+# Choose the components you want to install. The default options are recommended. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+!img/gpg4win2-components.gif!
+# Select the install folder (the default is recommended).
+# Choose what shortcuts to create.
+# Choose a name for any shortcut folders and then begin the installation. Choose to view the README file, or not, and then click finish.
+
+Gpg4win is now installed and ready to use!
+
+h2. Create and Export an OpenPGP Public/Private Key pair
+
+Kleopatra seems to be the more recent and more polished of the two Gpg4win key manager GUI frontends on Windows, so this guide recommends using that.
+# Launch Kleopatra by the shortcut you installed (default: **Start** -> **All Programs** -> **Gpg4win** -> **Kleopatra**)
+# Click **File** -> **New Certificate...** or **Ctrl+N**.
+# Press the **Create a personal OpenPGP key pair** button.
+# Enter your name, email address, and a comment if you wish. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
+!img/kleopatra1-name-email-advanced.gif!
+# In the **Advanced Settings...** dialog box, choose your key type and key strength. **RSA**, using key strength of **4,096 bits**, for **Signing** and **Encryption** are recommended. When finished with the key settings, press **OK** to close the dialog box, then click **Next**.
+# Review the information for the key, then press the **Create Key** button.
+# Enter a **strong** password that you can remember. The password strength meter will give you a relative indication of how strong the password is. Getting 100% **is strongly recommended**. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
+
+Your key pair is now finished! From here, you can do one of the following:
+* Make a backup copy of your certificate (key)
+* Send the Certificate by email
+* Upload the certificate to a Directory Service (key server)
+* finish the wizard
+
+It is recommended to upload the certificate to a directory service. This will upload your public key to a key server where it can be used by others to encrypt data and emails that only you can decrypt.
+
+h3. Find or Import someone else's OpenPGP Public Key
+
+If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first.
+
+h4. Import from a key file
+
+If someone exports their key to a file and sends it to you, you can import it into your keyring via Kleopatra by:
+# Pressing the **Import Certificates** button, then
+# Locating where you saved the key file, selecting it, and pressing the **Open** button.
+
+The key that was stored in the key file has now been imported into your keyring!
+
+h4. Find on the key servers
+
+# Navigate to **File** -> **Lookup Certificates on Server...** in Kleopatra
+# Type some key words (a name or alias) to search the key servers. The best way to find someone is to search for their email address, as it's uniquely tied to them.
+# Select and review the keys that are returned to determine whether the key(s) returned belong to the person you're looking for. You can review additional information about the key by pressing the **Details...** button.
+# Once you've determined and selected the key(s) you want to import into your local keyring, press **Import**.
+
+Their public key has now been imported into your keyring! Once you have verified the fingerprint (see above about why this is important), you may sign the key.
+
+h3. Sign their key (Certify their Certificate)
+
+To do this,
+# Click the **Imported Certificates** or **Other Certificates** tab.
+# Right click the key you want to sign and click **Certify Certificate...**
+# Select the user ID you want to certify and press **Next**
+# Choose whether you want this certification to be visible to others or only to yourself and then press the **Certify** button.
+
+You have now signed their key (certified their certificate) and are ready to begin encrypting data or emails that only they can decrypt!
+
+h1. Mac OS X
+
+*Wir haben leider keine MacOS-Version dieser Anleitung. Wenn du MaxOS benutzt, kannst du uns helfen sie zu schreiben! Siehe [[unser github-Archiv für Hilfe-Seiten, um zu erfahren wie -> https://github.com/riseupnet/riseup_help]]*
+
+Es wird *nicht empfohlen*, Mac OS X als sichere Kommunikationsplattform zu benutzen. Während es weniger Sicherheitslücken gibt und es im Allgemeinen sicherer als Windows ist, hat OS X in der Vergangenheit eine geringe Geschwindigkeit bei Sicherheitsaktualisierungen gezeigt. Außerdem ist durch die große Zahl proprietärer Software und Pakete eine genaue Analyse nach Hintertüren, oder alles, was "nach Hause telefoniert" unmöglich. Zudem bietet es Hintertüren, die durch Hacker, Regierungen und Unternehmen ausgenutzt werden können. Einige Stichpunkte zu OS X und Sicherheit:
+* Basiert zum Großteil auf proprietärer Software, die nicht verändert oder analysiert werden kann.
+* Die Kamera kann von Ferne angestellt werden, was als "Funktion" beworben wird, falls der Laptop gestohlen wird. Allerdings kann es auch ausgenutzt werden und schränkt damit dein Privatssphäre ein.
+* Das Dateisystem ist standardmäßig nicht verschlüsselt und das verfügbare Werkzeuge "hat unzureichende Sicherheit":https://en.wikipedia.org/wiki/FileVault#Criticism.
+
+Als Plattform für sichere Kommunikation empfehlen wir, Linux zu installieren. Siehe [Installing Ubuntu Linux]
