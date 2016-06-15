@@ -60,7 +60,7 @@ You can provide a onion service for a service that you offer publically on a ser
 
 h3. Make your onion services easy to find
 
-If you provide onion services, make them known to your users by advertising their existance, their onion hostnames and ports that they provide in a way that authenticates they are the ones that are legitimate (for example, you could digitially sign the list of onion addresses, or put them in DNS txt records)
+If you provide onion services, make them known to your users by advertising their existance, their onion hostnames and ports that they provide in a way that authenticates they are the ones that are legitimate (for example, you could digitially sign the list of onion addresses like [[Riseup does -> tor#riseups-tor-hidden-services]], or put them in DNS txt records).
 
 h3. Ask your favorite online service to provide an onion service!
 
@@ -68,7 +68,7 @@ Advocate for more onion services by asking those who provide the services that y
 
 h3. Moving onion services
 
-You can move onion services between systems, just copy the /var/lib/tor/<hidden_service> directory to the new system and make sure the torrc on the new system has the same configuration as the old one. Be sure to disable and stop the old one before starting the new one. The onion service directory simply contains the hostname of the onion service, and the private key.
+You can move onion services between systems, just copy the @/var/lib/tor/<hidden_service>@ directory to the new system and make sure the @torrc@ on the new system has the same configuration as the old one. Be sure to disable and stop the old one before starting the new one. The onion service directory simply contains the hostname of the onion service, and the private key.
 
 h2. Protecting your services
 
@@ -86,20 +86,22 @@ You should take very careful care to not accidentally expose things on your serv
 
 There are a few ways you can solve this problem:
 
-*different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
+* *different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
 
-*isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
+* *isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
 
-*public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
+* *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
+
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
 HiddenServicePort 80 192.168.1.1:81
 
-*unix socket*: consider using unix socket support instead of a TCP socket (requires 0.26 or later tor) - if you do this, then the onion service will be running on the same server as the service itself. With a socket approach, you should be able to run with privatenetwork=yes in systemd unit which gets you some really great isolation, for example:
+* *unix socket*: consider using unix socket support instead of a TCP socket (requires 0.26 or later tor) - if you do this, then the onion service will be running on the same server as the service itself. With a socket approach, you should be able to run with privatenetwork=yes in systemd unit which gets you some really great isolation, for example:
+
 bc. HiddenServicePort 80 unix:/etc/lighttpd/unix.sock
 
-but then the service itself needs to support unix sockets, otherwise you have to setup some socat redirection from tcp <-> unix (nginx, twisted, lighttpd all support this)
+But then the service itself needs to support unix sockets, otherwise you have to setup some socat redirection from tcp <-> unix (nginx, twisted, lighttpd all support this).
 
-*audit carefully*: carefully audit, and regularly re-audit your system for configurations that allow localhost/127.0.0.1, but prohibit everywhere else and configure those to work around the problem (for example make /server-status operate on a different IP; make the webserver listen on a different port for /server-status; make it password protected, etc.)
+*audit carefully*: carefully audit, and regularly re-audit your system for configurations that allow localhost/127.0.0.1, but prohibit everywhere else and configure those to work around the problem (for example make /server-status operate on a different IP; make the webserver listen on a different port for /server-status; make it password protected, etc.).
 
 h3. You can make onion services require authentication to use.
 
