@@ -49,7 +49,7 @@ klicke auf *Erweitert* und setzte folgende Werte:
 
 * *Verbindungssicherheit*: Verschlüsselung fordern
 * *Verbindungsport*: 5222
-* *Verbindungsserver*: 4cjw6cwpeaeppfqz.onion
+* *Verbindungsserver*: suche nach @xmpp.*.onion@ auf der Seite mit [[Riseups onion-Diensten->tor#riseups-tor-hidden-services]]
 * *Proxys für Dateiübertragungen*: proxy.riseup.net
 
 Danach im Reiter *Proxy* ...

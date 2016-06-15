@@ -49,7 +49,7 @@ enseguida da click en la pestaña de *Avanzadas* y establece los siguientes valo
 
 * *Seguridad de la conexión*: Solicitar cifrado
 * *Puerto de conexión*: 5222
-* *Conectar con el Servidor*: 4cjw6cwpeaeppfqz.onion
+* *Conectar con el Servidor*: [[Página sobre tor->tor#riseups-tor-hidden-services]]
 * *Pasarelas de transferencia de archivos*: proxy.riseup.net
 
 Enseguida da click en la pestaña *Pasarela*...

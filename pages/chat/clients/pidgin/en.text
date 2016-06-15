@@ -49,7 +49,7 @@ then click the *Advanced* tab and set the following values:
 
 * *Connection Security*: Require encryption
 * *Connect Port*: 5222
-* *Connect Server*: 4cjw6cwpeaeppfqz.onion
+* *Connect Server*: look for @xmpp.*.onion@ at [[Riseups onion services pages->tor#riseups-tor-hidden-services]].
 * *File Transfer Proxies*: proxy.riseup.net
 
 Then click on the *Proxy* tab...

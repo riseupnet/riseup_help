@@ -4,9 +4,9 @@ h2. What is Claws?
 
 !>img/it_bites.png!
 
-Claws Mail is the mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org/ which makes it an obvious mail client choice if you are using that platform. It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":http://www.claws-mail.org/downloads.php?section=downloads. 
+Claws Mail was the default mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Since Tails 1.8 it has been replaced with [[thunderbird]] ("Migrating from Claws Mail to Icedove":https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.en.html). It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":http://www.claws-mail.org/downloads.php?section=downloads.
 
-Claws Mail aims to be feature rich, fast, and stable.  It has IMAP and POP support, multiple account support, colored labels, spell checking, filtering, and support for OpenPGP encryption.
+Claws Mail aims to be feature rich, fast, and stable.  It has IMAP and POP support, multiple account support, colored labels, spell checking, filtering, and support for [[OpenPGP encryption->openpgp]].
 
 h2. Setup Claws Mail
 
@@ -18,43 +18,49 @@ The first time you run Claws Mail, the setup wizard will walk you through settin
 
 # Enter your name/alias and e-mail address on the first page 
 # Click "Forward" to advance to the next screen
-# Choose server type as POP3 or IMAP (IMAP leaves mail on server, POP3 downloads it locally - this means IMAP is a good choice if you have multiple machines accessing the mailbox and POP3 is a slightly better choice for privacy and the POP3 user experience is much faster)
-# Enter *mail.riseup.net* for the "Server address" (both for IMAP and POP3)
+# [[Choose server type as POP3 or IMAP -> email/clients#choose-imap-or-pop]] (IMAP leaves mail on server, POP3 downloads it locally - this means IMAP is a good choice if you have multiple machines accessing the mailbox and POP3 is a slightly better choice for privacy, the POP3 user experience is much faster and it unburdens your [[quota]])
+# Enter *mail.riseup.net* for the *Server address* (both for IMAP and POP3)
 # Enter your username (without @riseup.net) and password
-# Select "Use SSL to connect to receiving server" and also select "Use SSL via STARTTLS"
-# Click "Forward" to advance to the next screen
-# Enter *mail.riseup.net* for the "SMTP server address"
-# Select "Use authentication" (you can leave the SMTP username and password fields blank)
-# Select "Use SSL to connect to receiving server" and also select "Use SSL via STARTTLS"
-# Click "Forward" to advance to the next screen
+# Select *Use SSL to connect to receiving server* and also select *Use SSL via STARTTLS*
+# Click *Forward* to advance to the next screen
+# Enter *mail.riseup.net* for the *SMTP server address*
+# Select *Use authentication* (you can leave the SMTP username and password fields blank)
+# Select *Use SSL to connect to receiving server" and also select "Use SSL via STARTTLS*
+# Click *Forward* to advance to the next screen
 # *If using POP3 on Tails*: For "Mailbox name" enter */home/amnesia/.claws-mail/Mail* (this step is very important for Tails users because the default Mail folder location is not-persisted between reboots) and click "Forward" to advance to the next screen
-# Click "Save" to complete the process
+# Click *Save* to complete the process
 
-h3.  Manual Account Creation
+h3. Manual Account Creation
 
-While running Claws Mail select "Configuration > Create New Account" from the menubar.
+While running Claws Mail select *Configuration > Create New Account* from the menubar.
 
 # *Basic Settings* - enter a name for your account, enter your name, mail address, select POP3 or IMAP, enter *mail.riseup.net* for both the "Server for receiving" and "SMTP server (send)" fields, and your riseup.net userid (without @riseup.net) and password
+
 !img/setup_basic.png!
-# *Send Settings* - select "SMTP Authentication"
+
+# *Send Settings* - select *SMTP Authentication*
+
 !img/setup_send.png!
-# *SSL Settings* - Select STARTTLS for both POP3 and SMTP.
+
+# *SSL Settings* - Select *STARTTLS* for both POP3 and SMTP.
+
 !img/setup_ssl.png!
+
 # *Advanced settings* - Change the SMTP port to 587 (POP3 can stay as 110)
+
 !img/setup_advanced.png!
+
 # Click "OK" to finish adding your new account
 
 h3.  First Time, SSL Certificates
 
-When checking your mail for the first time, and also sending your first message, you will see an SSL confirmation dialog like this:
+When checking your mail for the first time, and also sending your first message, you will see an SSL confirmation dialog. Click *View certificate* (the fingerprint shown on the image may be outdated):
 
 !img/ssl.png!
 
-When you see this be sure to "View certificate" details dropdown and verify the SSL certificate SHA1 certificate against the [[published fingerprints for riseup.net => /security/network-security/certificates]].
+On first use claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates. *Every time* you get this SSL pop-up, [[verify the fingerprints with the ones published by Riseup -> /security/network-security/certificates#complete-verification]]]]!
 
-Claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates.  Any time you get this SSL pop-up, verify the fingerprints!
-
-h3. Warnings
+h3. Tails warning
 
 * If you are using the Claws Mail under Tails it is important to verify that your local mail folders are setup in a persistent location before permanently removing any mail from the server or you may lose mail!
 
@@ -67,4 +73,4 @@ h2. What is next?
 h3. Enhance your email security
 
 # There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
-
+# Use [[Riseup's onion service -> tor#riseups-tor-hidden-services]] to retrieve mails via [[tor]]
