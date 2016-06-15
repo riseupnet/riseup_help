@@ -2,20 +2,20 @@
 
 Wenn du [[Webmail]] oder IMAP benutzt, hat dein Emailkonto einige Ordner mit speziellem Verhalten. Diese besonderen Ordner treffen nicht für dich zu, wenn du POP benutzt, weil POP keine Ordner auf dem Server kennt.
 
-h2. Trash
+h2. Müll
 
-Alle Mails, die länger als 21 Tage dort rumgammeln, werden automatisch gelöscht. Die meisten Emailprogramme sind so konfiguriert, dass jede Nachricht, die gelöscht wird, automatisch im Müll landet.
+Alle Mails, die länger als 21 Tage im *Trash* rumgammeln, werden automatisch gelöscht. Die meisten Emailprogramme sind so konfiguriert, dass jede Nachricht, die gelöscht wird, automatisch im Müll landet.
 
-h2. Sent
+h2. Gesendet
 
 Alle Mails, die älter als 120 Tage sind, werden automatisch aus dem *Sent*-Ordner für gesendete Nachrichten gelöscht. Wenn du diese länger aufbewahren willst, solltest du diese jeden Monat in einen anderen verschieben, so:
 
 In squirrelmail:
 
 * wähle den *Sent*-Ordner
-* klicke *Show All*
-* klicke *Toggle All*
-* wähle ein Ziel und klicke *Move*.
+* klicke *Alle anzeigen*
+* klicke *Auswahl umkehren*
+* wähle ein Ziel und klicke *Verschieben*.
 
 In [[thunderbird]]:
 * wähle den *Sent*-Ordner
@@ -37,7 +37,7 @@ Wenn du POP benutzt, wirst du die serverseitigen Ordner, die du normalerweise si
 
 POP kennt nur lokale Ordner, die auf deinem Rechner gespeichert sind.
 
-h3. Benutz du IMAP?
+h3. Benutzt du IMAP?
 
 Wenn du IMAP und die serverseitigen Ordner nicht sehen kannst, musst du diese in deinem Emailprogramm "abonnieren".
 
