@@ -1,0 +1,45 @@
+@title = 'Geary'
+
+"*Geary*":https://wiki.gnome.org/Apps/Geary is a free and open source (Software Libre) lightweight email client designed for the GNOME desktop. Its interface is based on conversations, so you can easily read an entire discussion without having to click from message to message. You can download it here: "Geary download":https://wiki.gnome.org/Apps/Geary/GetIt
+
+h2. Add your Riseup account
+
+Geary currently only support IMAP accounts. When you start Geary first you are asked to create a new account:
+
+# For *Service* choose *Other*
+# Enter a name and your Riseup email address
+# Set the IMAP server @mail.riseup.net@, leave the port at 993. If you want to connect via Riseups Tor service, "see below":#use-tor.
+# Enter your Riseup username and password
+# For IMAP and SMTP choose @SSL/TLS@ *Encryption*
+# Set the IMAP server @mail.riseup.net@, leave the port at 465
+# Activate *Use IMAP credentials*, leave *No authentication required* unchecked
+# Press *Add*
+
+!img/setup.png!
+
+Geary will ask you for your GNOME keyring password to save your Riseup password. You can safely cancel this.
+
+h2. Enhance security
+
+Apparently Geary does not provide an option to display the used [[TLS certificate -> certificates]].
+
+h3. Message security
+
+At the moment Geary does not support [[OpenPGP encryption-> message-security/openpgp]], so it is necessary to [[de- and encrypt your messages -> message-security]] with an external tool.
+
+Note that while you are drafting new messages, Geary saves them without encryption on the server from time to time. To change this, open your account settings and disable *Save drafts on server* in the *Composer* section.
+
+When you received an encrypted file attachment, you need to download it and decrypt it manually. Sorry.
+
+h3. Use Tor
+
+To enhance connection security you can use [[Riseups .onion services -> tor#riseups-tor-hidden-services]] for IMAP and SMTP. Look for the according @mail.*.onion@ and @smtp.*.onion@ addresses on the linked page.
+
+To change your settings later, open the file @.local/share/geary/[Your_Email_Address].net/geary.ini@ with your preferred text editor (eg. gedit).
+# Search for @imap_host=mail.riseup.net@ and @smtp_host=mail.riseup.net@.
+# For both IMAP and SMTP replace *mail.riseup.net* with the .onion address from above page.
+
+Due to a "bug in Geary":https://bugzilla.gnome.org/show_bug.cgi?id=714818 it is not possible to change your account details while you are connected. You need to recreate your account with the Tor servers from the beginning. In case this has been fixed in the future:
+# From the Geary menu choose *Accounts*
+# Select your Riseup account and click at the pencil symbol at the bottom of the screen.
+# For both IMAP and SMTP replace @mail.riseup.net@ with the .onion addresses from above page.
