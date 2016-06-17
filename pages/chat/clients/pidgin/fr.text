@@ -25,7 +25,7 @@ h2. Pour utiliser OTR
 
 Voir le tutoriel [[otr]] pour plus de détails sur l'utilisation de l'encryption bout-à-bout avec Pidgin.
 
-h2. Sécuriser Pidgin sous GNU/Linux
+h2. Sécuriser Pidgin sous GNU/Linux avec "AppArmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
 
 Nous vous recommandons de suivre les étapes suivantes pour sécuriser Pidgin sous GNU/Linux
 
@@ -49,7 +49,7 @@ Ensuite, allez sous l'onglet *Avancé* et mettez les valeurs suivantes:
 
 * *Sécurité de la connexion*: Nécessite chiffrement
 * *Port de connexion*: 5222
-* *Serveur de connexion*: 4cjw6cwpeaeppfqz.onion
+* *Serveur de connexion*: [[page Tor => tor#riseups-tor-hidden-services]]
 * *Poryx pour le transfert de fichiers*: proxy.riseup.net
 
 Finalement, allez sur l'onglet *Proxy*...

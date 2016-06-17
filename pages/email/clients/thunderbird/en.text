@@ -59,6 +59,17 @@ h3. Enhance your email security
 # There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
 # For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/gpg-keys]] setup.
 
+h3. Use hidden options to speed up Thunderbird
+
+Per default every time you open a mail or change the status Thunderbird connects to the mail server. For slow connections or when Riseup's servers are busy this can be pain.
+
+Luckily there is a fix: Thunderbird has some hidden options, that a does a complete sync when connecting the server. This will speed up your workflow and makes your day better.
+
+To set this, go to the menu *Edit > Preferences > Advanced > General > Config Editor*
+
+* set @use_status_for_biff@ to *false*
+* set @mail.server.default.autosync_offline_stores@ to *true*
+
 h3. Add some extensions
 
 We suggest these extensions for Thunderbird:

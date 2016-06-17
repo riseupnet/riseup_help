@@ -57,4 +57,4 @@ Para testes, você pode selecionar @riseup.net@ como nome da sala e juntar-se a 
 
 h2. Para segurança adicional
 
-Para segurança adicional, acesse nosso server jabber através da [[VPN Riseup => vpn]] ou através deste "serviço Tor oculto":https://www.torproject.org/docs/hidden-services.html.en: @4cjw6cwpeaeppfqz.onion@. (Veja também nossa [[página do Tor->tor#riseups-tor-hidden-services]] para uma lista completa de nós ocultos)
+Para segurança adicional, acesse nosso server jabber através da [[VPN Riseup => vpn]] ou através deste "serviço Tor oculto":https://www.torproject.org/docs/hidden-services.html.en. Veja nossa [[página do Tor->tor#riseups-tor-hidden-services]] para uma lista completa de nós ocultos.

@@ -2,9 +2,9 @@
 
 h2. How do I download my email?
 
-Both webmail and IMAP mail clients leave your messages on the server until you specifically delete them. To free up quota but keep your messages, you need to copy your messages from a server-based folder to a local folder. Don't worry if your quota is not updated right away: when you delete messages, your quota usage information is not updated until you receive more email.
+Both webmail and IMAP [[email/clients]] leave your messages on the server until you specifically delete them. To free up quota but keep your messages, you need to copy your messages from a server-based folder to a local folder. Don't worry if your quota is not updated right away: when you delete messages, your quota usage information is not updated until you receive more email.
 
-The process varies depending on the interface of you mail client.
+The process varies depending on the interface of you mail client. If you use [[Thunderbird]] continue reading, otherwise check your email client's documentation for details.
 
 h3. If you are using Thunderbird follow these steps
 
@@ -16,7 +16,7 @@ h3. If you are using Thunderbird follow these steps
 
 * Choose the menu item *Messages* > *Move* > *Local Folders* > *Folder Name*, where *Folder Name* is the name of the new folder you just created. Alternately, you can use the mouse to drag the selected messages to the new folder.
 
-If you do not use Thunderbird, check your email client's documentation for details.
+* To copy whole folders, you can drag them to *Local Folders*.
 
 h3. Alternately, you can also use squirrelmail to download an archive of your mail
 

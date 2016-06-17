@@ -1,10 +1,10 @@
 @title = "Managing OpenPGP Keys"
 
-This how to will guide you step-by-step through creating OpenPGP public/private key pairs, exporting public keys to key servers, and finding OpenPGP public keys to use to communicate securely with others.
+This instruction will guide you step-by-step through creating OpenPGP public/private key pairs, exporting public keys to key servers, and finding OpenPGP public keys for secure communication with others.
 
-h1. Before you begin -- do this first!
+h1. First step before start
 
-You should first review our [[gpg-best-practices]] guide to ensure that you have setup your system to generate a strong key and receive key updates from a well-maintained keyserver. This will require you to make changes to the gpg.conf configuration file, which is located the different places depending on your operating system. In Linux it is located at @~/.gnupg/gpg.conf@
+Read instructions [[gpg-best-practices]] carfully to ensure your system generates a strong key and receives key updates from a well-maintained keyserver. This will require to make changes to the gpg.conf configuration file, which is located in different places depending on your operating system. In Linux it is located in @~/.gnupg/gpg.conf@.
 
 h1. Linux
 
@@ -14,18 +14,19 @@ h3. What is Seahorse?
 
 "Seahorse":https://en.wikipedia.org/wiki/Seahorse_(software) is a GUI tool for creating and managing OpenPGP keys, securely storing passwords, and creating and managing SSH certificates. It uses GPG as the back-end OpenPGP implementation.
 
-h3. Create and Export an OpenPGP Public/Private Key pair
+h3. Create and export an OpenPGP Public/Private Key pair
+
 # Launch Seahorse. It should be installed by default.
-# Select GnuPG keys
-# Select the + sign to create a new key
-# Select PGP Key
-# Enter your email and the name you would like to be associated with the key, which need not be your real name. 
-# Select advanced options
-# Encryption type should be RSA
-# Key strength should be 4096
-# Expiration should be some time within two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-best-practices#use-an-expiration-date-less-than-two-years]] 
-# Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
-# The computer will now generate the key, which may take a long time. After this, you will have a OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface, or the command line.
+# Select GnuPG keys.
+# Select the + sign to create a new key.
+# Select PGP Key.
+# Enter your email and the name you would like to be associated with the key. This doesn't need to be your real name. 
+# Select advanced options.
+# Encryption type should be RSA.
+# Key strength should be 4096.
+# Expiration date should be within less then two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-best-practices#use-an-expiration-date-less-than-two-years]].
+# Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it for, including emails, will be permanently inaccessible.**
+# The computer will now generate the key, which may take some time. After this, you will have an OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface or the command line.
 # **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you. Before you continue, please make sure you have [[selected a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Once you are ready:
 ## Select the Key(s) you want to publish. Hold Ctrl and click to select more than one, or press **Ctrl+A** to select all keys.
 ## Navigate to **Remote** -> **Sync and Publish Keys...**
@@ -34,21 +35,21 @@ h3. Create and Export an OpenPGP Public/Private Key pair
 ## **Recommended:** Check the **Automatically retrieve keys from key servers** but *do not check* the **Automatically synchronize modified keys with key servers** check boxes. Instead, please consider [[using parcimonie -> /gpg-best-practices#refresh-your-keys-slowly-and-one-at-a-time]]. 
 ## Press the **Close** button and then the **Sync** button to synchronize your keys.
 
-Your public key is now published to the key servers and is accessible to others!
+Your public key is now published on the key servers and is accessible to others!
 
-h3. Find or Import someone else's OpenPGP Public Key
+h3. Find or import someone else's OpenPGP Public Key
 
-If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first. **Note:** The John Q. Alias key is used as an example key for generating a key above and also for importing a key below; in the case of importing, it is used to refer to the person for whom you're searching, not yourself.
+If you want to communicate with others securely or encrypt data that only they can read, you first need to import their public key into your keyring. **Note:** The John Q. Alias key is used as an example key for generating a key above and also for importing a key below; in the case of importing, it is used to refer to the person for whom you're searching, not yourself.
 
 h4. Import from a key file
 
 If someone exports their key to a file and sends it to you, you can import it into your keyring via Seahorse by:
-# Navigating to **File** -> **Import...** then
-# Locating where you saved the key file, selecting it, and pressing the **Open** button.
+# Navigating to **File** -> **Import...**
+# Locate where you saved the key file, selecti it, and pressi the **Open** button.
 
 The key that was stored in the key file has now been imported into your keyring!
 
-h4. Find on the key servers
+h4. Searching on keyservers
 
 # Navigate to **Remote** -> **Find Remote Keys...** in Seahorse
 # Type some key words (a name or alias) to search the key servers. The best way to find someone is to search for their email address, as it's uniquely tied to them.
@@ -57,15 +58,15 @@ h4. Find on the key servers
 
 Their public key has now been imported into your keyring!
 
-h3. Verifying the key
+h3. Verifying a key
 
-Anyone can publish a key on a keyserver. For example, for a fun trick, try searching for Edwards Snoden's key. There are many, many keys! Before you start using a key, you should verify the key's fingerprint with the individual with whom you wish to communicate. *You should not do this by email!* The best practice is to verify the fingerprint in person. At a minimum, you should use voice/video to confirm that you have the right key. To verify the fingerprint, you can use the following steps:
+Anyone can publish a key on a keyserver. For example, for a fun trick, try searching for Edwards Snowden's key. There are many, many keys! Before you start using a key, you should verify the key's fingerprint with the individual with whom you wish to communicate. *You should not do this by email!* The best practice is to verify the fingerprint in person. At a minimum, you should use voice/video to confirm that you have the right key. To verify the fingerprint, you can use the following steps:
 
 # Open seahorse
-# On the view menu, select "show any"
+# On the view menu, select *show any*
 # Locate the key that you have already imported
-# Select properties
-# Select details
+# Select *properties* (right click)
+# Select *details*
 # Confirm with the key's owner that the fingerprint listed is correct
 
 After you have carefully reviewed the fingerprint and verified its accuracy with the owner of the key, you may sign their key with your key. To do this:
@@ -91,8 +92,7 @@ Press **Alt+F2** and type: @gnome-terminal@ and then press enter
 In the terminal, type: @gpg --gen-key@
 which should return a menu similar to this:
 
-bc.
-Please select what kind of key you want:
+bc. Please select what kind of key you want:
   (1) RSA and RSA (default)
   (2) DSA and Elgamal
   (3) DSA (sign only)
@@ -100,16 +100,14 @@ Please select what kind of key you want:
 
 Select the type of key you want. **RSA and RSA** is the recommended type. **(sign only)** keys cannot be used for encryption.
 
-Next, enter the key size you want.
+Next, enter the key size you want. **4096** is recommended.
 
-bc.
-What keysize do you want? (2048)
+bc. What keysize do you want? (2048)
 
-p. **4096** is recommended.
-Then enter the length of time that you would like the key valid for and then press **y** to confirm the expiration date.
+Then enter the length of time that you would like the key valid for and then press **y** to confirm the expiration date. If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> /gpg-best-practices#use-an-expiration-date-less-than-two-years]] to have your key expire within no more than 2 years.
 
-bc.
-Please specify how long the key should be valid.
+
+bc. Please specify how long the key should be valid.
      0 = key does not expire
    <n> = key expires in n days
    <n>w = key expires in n weeks
@@ -117,12 +115,9 @@ Please specify how long the key should be valid.
    <n>y = key expires in n years
 Key is valid for? (0)
 
-If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> /gpg-best-practices#use-an-expiration-date-less-than-two-years]] to have your key expire within no more than 2 years. 
-
 Enter your name, email address. [[It is not recommended to use a comment -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]]. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" prompt.
 
-bc.
-You need a user ID to identify your key; the software constructs the user ID
+bc. You need a user ID to identify your key; the software constructs the user ID
 from the Real Name, Comment and Email Address in this form:
   "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
 Real name: John Q. Alias
@@ -140,17 +135,15 @@ You can use this command to list your keys:
 
 This should output data in a format like this:
 
-bc..
-sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
       Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
 uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
 ssb   4096R/0x40339E25E2F2D99E 2014-05-14
 
-p. Any reference to your **KEY-ID** below can be found using the first command and looking at the output. The line you're looking at to find the **KEY-ID** is the **sec** line of each of the entries). The line contains sec, the key strength and type abbreviation (**4096R** in the first line), a slash, the **KEY-ID**, and then the date. The codebox below highlights the **KEY-ID**:
+p. Any reference to your **KEY-ID** below can be found using the first command and looking at the output. The line you're looking at to find the **KEY-ID** is the **sec** line of each of the entries). The line contains sec, the key strength and type abbreviation (**4096R** in the first line), a slash, the **KEY-ID**, and then the creation date. The codebox below highlights the **KEY-ID**:
 
-bc..
-sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
-      ^KEY-ID^
+bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+            ^KEY-ID^
       Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
 uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
 ssb   4096R/0x40339E25E2F2D99E 2014-05-14
@@ -167,7 +160,7 @@ h3. Export/Publish your public OpenPGP Key
 
 You've just exported your ASCII armored OpenPGP public key to the file **mykey.asc** in the folder you were in (your home directory, if you opened a new terminal). Now you can send the key to whomever you want to be able to encrypt files to you.
 
-h3. Publish your OpenPGP public key to the Ubuntu Key server
+h3. Publish your OpenPGP public key to a Key server
 
 At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you.
 # Press **Alt+F2** and run: @gnome-terminal@
@@ -180,7 +173,7 @@ h1. Windows
 
 It is **not recommended** to use Windows as a secure communication platform. While Windows can be locked down to provide a more secure environment than is provided by default, the tendencies in Windows lean towards very lax security. There is also a multitude of pre-built exploits for windows that make it easier for attackers to compromise. Here are some bullet points against using windows for secure communications:
 * widespread distribution of malware/trojans/viruses that could log key strokes, bypassing encryption schemes and/or logging other information
-* targeted hacking and malware installation is actively used by governmental agencies with Windows being most susceptible
+* targeted hacking and malware installation is actively used by governmental agencies with Microsoft being most susceptible
 * Usually uses an unencrypted filesystem, main encryption tool is proprietary and cannot be scrutinized for exploits, back doors, or other weaknesses.
 * User accounts are administrators by default
 * Since Windows is proprietary and closed-source, there is no outside scrutiny for defects, back doors, or anything that "phones home". You're trusting Microsoft completely with whatever secrets you choose to put on your computer.
@@ -258,7 +251,7 @@ You have now signed their key (certified their certificate) and are ready to beg
 
 h1. Mac OS X
 
-*The MacOS version of this guide is out-of-date. If you are a windows user, you can help us update it! Please see [[our github repository for our help pages to learn how -> https://github.com/riseupnet/riseup_help]]*
+*Unfortunately we have no MacOS version of this guide. If you are a MacOS user, you can help us update it! Please see [[our github repository for our help pages to learn how -> https://github.com/riseupnet/riseup_help]]*
 
 It is **not recommended** to use Mac OS X as a secure communication platform. While there are fewer exploits and a better security model than windows, OS X has demonstrated a poor security patch speed in the past and has a large quantity of proprietary software and packaging, making it not capable of scrutiny for efects, back doors, or anything that "phones home". Furthermore, it offers features that can be exploited by hackers or abused by governments or corporations. Some bullet points about OS X security:
 * Relies on a lot of proprietary software that can't be modified or scrutinized by you
