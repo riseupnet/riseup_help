@@ -1,10 +1,10 @@
 @title = "Managing OpenPGP Keys"
 
-This how to will guide you step-by-step through creating OpenPGP public/private key pairs, exporting public keys to key servers, and finding OpenPGP public keys to use to communicate securely with others.
+This instruction will guide you step-by-step through creating OpenPGP public/private key pairs, exporting public keys to key servers, and finding OpenPGP public keys for secure communication with others.
 
-h1. Before you begin -- do this first!
+h1. First step before start
 
-You should first review our [[gpg-best-practices]] guide to ensure that you have setup your system to generate a strong key and receive key updates from a well-maintained keyserver. This will require you to make changes to the gpg.conf configuration file, which is located the different places depending on your operating system. In Linux it is located at @~/.gnupg/gpg.conf@
+Read instructions [[gpg-best-practices]] carfully to ensure your system generates a strong key and receives key updates from a well-maintained keyserver. This will require to make changes to the gpg.conf configuration file, which is located in different places depending on your operating system. In Linux it is located in @~/.gnupg/gpg.conf@.
 
 h1. Linux
 
@@ -14,32 +14,32 @@ h3. What is Seahorse?
 
 "Seahorse":https://en.wikipedia.org/wiki/Seahorse_(software) is a GUI tool for creating and managing OpenPGP keys, securely storing passwords, and creating and managing SSH certificates. It uses GPG as the back-end OpenPGP implementation.
 
-h3. Create and Export an OpenPGP Public/Private Key pair
+h3. Create and export an OpenPGP Public/Private Key pair
 
-# Launch Seahorse. It should be installed on Debian/Ubuntu by default.
-# Select *GnuPG keys*
-# Select the + sign to create a new key
-# Select *PGP Key*
-# Enter your email and the name you would like to be associated with the key, which need not be your real name. 
-# Select *advanced options*
-# Encryption type should be RSA
-# Key strength should be 4096
-# Expiration should be some time within two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
-# Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
-# The computer will now generate the key, which may take a long time. After this, you will have a OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface, or the command line.
+# Launch Seahorse. It should be installed by default.
+# Select GnuPG keys.
+# Select the + sign to create a new key.
+# Select PGP Key.
+# Enter your email and the name you would like to be associated with the key. This doesn't need to be your real name. 
+# Select advanced options.
+# Encryption type should be RSA.
+# Key strength should be 4096.
+# Expiration date should be within less then two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-best-practices#use-an-expiration-date-less-than-two-years]].
+# Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it for, including emails, will be permanently inaccessible.**
+# The computer will now generate the key, which may take some time. After this, you will have an OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface or the command line.
 # **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you. Before you continue, please make sure you have [[selected a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Once you are ready:
 ## Select the Key(s) you want to publish. Hold Ctrl and click to select more than one, or press **Ctrl+A** to select all keys.
 ## Navigate to **Remote** -> **Sync and Publish Keys...**
 ## Press the **Key Servers** button.
-## Publish the keys to any keyserver (select one if the *Sync* button was grayed out in the previous screen); they all synchronize with each other, so your key will be on each one.
+## Publish the keys to any keyserver (select one if the "Sync" button was grayed out in the previous screen); they all synchronize with each other, so your key will be on each one.
 ## **Recommended:** Check the **Automatically retrieve keys from key servers** but *do not check* the **Automatically synchronize modified keys with key servers** check boxes. Instead, please consider [[using parcimonie -> /gpg-best-practices#refresh-your-keys-slowly-and-one-at-a-time]]. 
 ## Press the **Close** button and then the **Sync** button to synchronize your keys.
 
-Your public key is now published to the key servers and is accessible to others!
+Your public key is now published on the key servers and is accessible to others!
 
-h3. Find or Import someone else's OpenPGP Public Key
+h3. Find or import someone else's OpenPGP Public Key
 
-If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first. **Note:** The John Q. Alias key is used as an example key for importing a key below; in the case of importing, it is used to refer to the person for whom you're searching, not yourself.
+If you want to communicate with others securely or encrypt data that only they can read, you first need to import their public key into your keyring. **Note:** The John Q. Alias key is used as an example key for generating a key above and also for importing a key below; in the case of importing, it is used to refer to the person for whom you're searching, not yourself.
 
 h4. Import from a key file
 
@@ -49,7 +49,7 @@ If someone exports their key to a file and sends it to you, you can import it in
 
 The key that was stored in the key file has now been imported into your keyring!
 
-h4. Find on the key servers
+h4. Searching on keyservers
 
 # Navigate to **Remote** -> **Find Remote Keys...** in Seahorse
 # Type some key words (a name or alias) to search the key servers. The best way to find someone is to search for their email address, as it's uniquely tied to them.
@@ -58,7 +58,7 @@ h4. Find on the key servers
 
 Their public key has now been imported into your keyring!
 
-h3. Verifying the key
+h3. Verifying a key
 
 Anyone can publish a key on a keyserver. For example, for a fun trick, try searching for Edwards Snowden's key. There are many, many keys! Before you start using a key, you should verify the key's fingerprint with the individual with whom you wish to communicate. *You should not do this by email!* The best practice is to verify the fingerprint in person. At a minimum, you should use voice/video to confirm that you have the right key. To verify the fingerprint, you can use the following steps:
 
