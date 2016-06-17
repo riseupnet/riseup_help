@@ -1,6 +1,21 @@
 @title = 'Spenden'
 @this.alias = '/spenden'
 
+h1. Spenden per Post
+
+Mache Schecks oder Zahlungsanweisungen auszahlbar an *“Riseup Networks“* und sende sie an:
+
+p(donation). Riseup Networks
+PO Box 4282
+Seattle, WA 98194 USA
+
+Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe zu verschicken. Seid versichert, dass wir Euch unglaublich Dankbar sind: Eure Unterstützung hält uns am Leben und macht all unsere harte Arbeit erst möglich. Wir schätzen sehr, wenn Du Dein Geld für das ausgibst, was Dir wirklich wichtig ist!
+*Ausnahme:* Wir sind gesetzlich dazu verpflichtet, jährlich die Identität aller Spender_innen von über $5.000 offenzulegen.
+
+h1. Online-Spenden
+
+<%= render :partial => 'inc/donate_forms' %>
+
 h1. Unterstütze radikale Alternativen!
 
 !>img/red-leap-medium.jpg!
@@ -23,21 +38,6 @@ Falls Ihr eine große Mailingliste mit mehr als 100 Abonnent_innen oder viel Kom
 Bitte erwägt, mehr zu spenden, falls Euch das möglich ist. Alles Geld, das nach Deckung unserer grundlegenden Ausgaben übrig ist, fließt zurück in den Ausbau unserer Dienste für weitere Nutzer_innen. Falls Du eine größere Spende geben willst (Danke!), überlege Dir bitte, uns Geld oder einen Scheck per Post zukommen zu lassen - Online-Bezahlsysteme kassieren ungefähr 3% des Gesamtbetrags.
 
 Alle finanziellen Entscheidungen des *Riseup Kollektivs* werden im Konsensverfahren durch die Kollektivmitglieder getroffen.
-
-h1. Spenden per Post
-
-Mache Schecks oder Zahlungsanweisungen auszahlbar an *“Riseup Networks“* und sende sie an:
-
-p(donation). Riseup Networks
-PO Box 4282
-Seattle, WA 98194 USA
-
-Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe zu verschicken. Seid versichert, dass wir Euch unglaublich Dankbar sind: Eure Unterstützung hält uns am Leben und macht all unsere harte Arbeit erst möglich. Wir schätzen sehr, wenn Du Dein Geld für das ausgibst, was Dir wirklich wichtig ist!
-*Ausnahme:* Wir sind gesetzlich dazu verpflichtet, jährlich die Identität aller Spender_innen von über $5.000 offenzulegen.
-
-h1. Online-Spenden
-
-<%= render :partial => 'inc/donate_forms' %>
 
 h1. Häufig gestellte Fragen
 

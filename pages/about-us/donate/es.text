@@ -2,6 +2,20 @@
 @nav_title = 'Donar'
 @this.alias = '/donar'
 
+h1. Donaciones por vía postal
+
+Envíanos tu cheque o transferencia a nombre de "Riseup Networks" a esta dirección:
+
+p(donation). Riseup Networks
+PO Box 4282
+Seattle, WA 98194 USA
+
+Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimiento cuando recibimos tu donación. Tienes que saber que te estamos increíblemente agradecidos: tu ayuda es nuestra alma y hace posible todo este duro trabajo. ¡Te adoramos por poner tu dinero en el mismo bando de tus ideales! <b>Nota:</b> Estamos legalmente obligados a proporcionar la identidad de aquellas personas que donen más de 5.000 USD.
+
+h1. Donaciones online
+
+<%= render :partial => 'inc/donate_forms' %>
+
 h1. ¡Ayuda a las alternativas radicales!
 
 !>img/red-leap-medium.jpg!
@@ -24,20 +38,6 @@ Si tienes una lista grande, con más de un centenar de suscriptores o con un gra
 Por favor, considera hacer una donación mayor si puedes permitírtelo. Todo el dinero que nos sobra después de cubrir los gastos básicos se guarda para poder dar servicio a más usuarios. Si vas a hacer una donación considerable (¡gracias!), por favor, plantéate enviarlo a través de un cheque o una transferencia ya que los sistemas de pago online se llevarían en torno al 3%.
 
 Todas las decisiones financieras del <b>Colectivo Riseup</b> se toman de forma asamblearia.
-
-h1. Donaciones por vía postal
-
-Envíanos tu cheque o transferencia a nombre de "Riseup Networks" a esta dirección:
-
-p(donation). Riseup Networks
-PO Box 4282
-Seattle, WA 98194 USA
-
-Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimiento cuando recibimos tu donación. Tienes que saber que te estamos increíblemente agradecidos: tu ayuda es nuestra alma y hace posible todo este duro trabajo. ¡Te adoramos por poner tu dinero en el mismo bando de tus ideales! <b>Nota:</b> Estamos legalmente obligados a proporcionar la identidad de aquellas personas que donen más de 5.000 USD.
-
-h1. Donaciones online
-
-<%= render :partial => 'inc/donate_forms' %>
 
 h1. Preguntas más frecuentes
 
