@@ -23,14 +23,14 @@ Da Cookies immer öfter blockiert werden, sind eine Menge Webseiten dazu überge
 Es gibt drei Möglichkeiten, Verhaltensverfolgung zu deaktivieren:
 
 * HTTP header: Die "Do Not Track"-Kopfzeile sagt Webseiten, dass du nicht verfolgt werden willst. Das ist eine gute Idee, wird aber von Werbefirmen noch nicht unterstützt und wird es wahrscheinlich niemals. Aktuell unterstützen Firefox 4 und Internet Explorer 9 die optionale "Do Not Track"-Kopfzeile.
-* Tracking-Schutzlisten: Browser mit "Tracking-Schutzlisten" erlauben es, eine Liste von zu blockenden Unternehmen zu abonnieren. Das ist eine gute Methode, weil es heute schon funktioniert und es effektiv möglich macht, fast alle Tracking-Versuche zu blocken. Unterstützung für Tracking-Schutzlisten ist voreingebaut in Internet Explorer 9 und kann bei Firefix und Chrome mittels der Erweiterung [[Adblock Plus -> https://adblockplus.org/en/]] aktiviert werden.
+* Tracking-Schutzlisten: Browser mit "Tracking-Schutzlisten" erlauben es, eine Liste von zu blockenden Unternehmen zu abonnieren. Das ist eine gute Methode, weil es heute schon funktioniert und es effektiv möglich macht, fast alle Tracking-Versuche zu blocken. Unterstützung für Tracking-Schutzlisten ist voreingebaut in Internet Explorer 9 und kann bei Firefox und Chrome mittels der Erweiterung [[Adblock Plus -> https://adblockplus.org/en/]] aktiviert werden.
 * Opt-out-Cookies: Opt-out-Cookies sind ein System, das von der Werbeindustrie beworben wird. Diese Methode hat viele Schwächen und es wurde von Forscher*innen gezeigt, dass diese von Unternehmen nur marginal respektiert werden. Werbefirmen erlauben das Setzen spezieller Cookies, um ihnen zu sagen, dass du nicht verfolgt werden willst. Diese Cookies können allerdings einfach gelöscht werden. Also erlauben einige Browsererweiterungen, diese Cookies gesetzt zu halten, sobald sie ein Mal gesetzt wurden (wie mit Chrome), oder dass diese automatisch gesetzt werden (wie mit Beef TACO für Firefox).
 
 h3. Anmerkungen
 
 Firefox
 
-* Tracking Opt-out: [[Zu Beginn von 2011 wurde angekündigt -> http://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/]], dass Firefox die Fähigkeit unterstützen wird, an Webseiten den optionalen Wunsch ("opt-out") zu schicken, dass du nicht überwacht werden willst. Technologisch ist das Vorgehen von Firefox richtig und die [[EFF apllaudierte zu dem Schritt von Firefox -> https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track]]. Allerding geben wir Firefox dennoch die Bewertung fehlerhaft, weil dieses Blockieren am Ende nicht viel bewirkt und nur Effekt hat, wenn Tracker durch das Gesetz dazu verpflichtet sind, die Kopfzeile zu respektieren, was extrem unwahrscheinlich erscheint -- besonders da es sehr schwer ist, ein nationales Privatssphäregesetz für das globale Internet zu erzwingen.
+* Tracking Opt-out: [[Zu Beginn von 2011 wurde angekündigt -> http://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/]], dass Firefox die Fähigkeit unterstützen wird, an Webseiten den optionalen Wunsch ("opt-out") zu schicken, dass du nicht überwacht werden willst. Technologisch ist das Vorgehen von Firefox richtig und die [[EFF apllaudierte zu dem Schritt von Firefox -> https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track]]. Allerding geben wir Firefox dennoch die Bewertung *fehlerhaft*, weil dieses Blockieren am Ende nicht viel bewirkt und nur Effekt hat, wenn Tracker durch das Gesetz dazu verpflichtet sind, die Kopfzeile zu respektieren, was extrem unwahrscheinlich erscheint -- besonders da es sehr schwer ist, ein nationales Privatssphäregesetz für das globale Internet zu erzwingen.
 
 Internet Explorer
 
@@ -44,7 +44,7 @@ Version 9 des Internet Explorer ist viel besser als alle vorherigen Versionen.
 
 Chrome
 
-* Tracking Opt-out: [[Zu Beginn 2011 wurde angekündigt -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], Chrome wird es Benutzenden ermöglichen, ein spezielles *Opt-out* Cookie zu setzen, welches den erklärten Widerspruch gegen Verfolgung anzeigt, und von Mitgliedern der [[Network Advertising Initiative (wörtlich: Initiative Werbetreibender im Internet) -> https://www.networkadvertising.org/managing/opt_out.asp]] anerkannt wird. Diese Methode ist fast nutzlos. [[Ein Bericht fand -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]], dass das NAI-Cookie nicht konsistent funktioniert, neue Wege des Profilings und Trackings ignoriert, dass eine Mehrheit der Industriegruppen nicht dabei ist und dass Transparenz fehlt. Der Bericht kommt zu dem Schluss, dass "der einzige Erfolg der NAI war es, die Aufsichtsbehörde einzulullen mit dem Glauben, dass eine Selbstverpflichtung die Interessen der Konsumierenden fair und effektiv behandelt."
+* Tracking Opt-out: [[Zu Beginn 2011 wurde angekündigt -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], Chrome wird es Benutzenden ermöglichen, ein spezielles *Opt-out* Cookie zu setzen, welches den erklärten Widerspruch gegen Verfolgung anzeigt, und von Mitgliedern der [[Initiative Werbetreibender im Internet (wörtlich: Network Advertising Initiative) -> https://www.networkadvertising.org/managing/opt_out.asp]] anerkannt wird. Diese Methode ist fast nutzlos. [[Ein Bericht fand -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]], dass das NAI-Cookie nicht konsistent funktioniert, neue Wege des Profilings und Trackings ignoriert, dass eine Mehrheit der Industriegruppen nicht dabei ist und dass Transparenz fehlt. Der Bericht kommt zu dem Schluss, "der einzige Erfolg der NAI war es, die Aufsichtsbehörde einzulullen mit dem Glauben, dass eine Selbstverpflichtung die Interessen der Konsumierenden fair und effektiv behandelt."
 * Cookie Verfolgung: die Art mit der es Chromium Benutzer*innen erlaubt, Cookies zu kontrollieren ist ziemlich fortgeschritten. Du kannst alle Cookies blockieren und selektiv mit einem Kontextmenu, welches sich in der URL aufklappt, bestimmte Domains aktivieren, sobald du sie siehst. Du kannst also in diesem Dialog direkt sehen, welche Cookies für die Seite gesetzt sind, die du besuchst.
 * Flash Cookies: Chrome macht es richtig und löscht Flash Cookies jedes Mal, wenn du Cookies löschst.
 
@@ -58,10 +58,10 @@ h3. Wann gibt's ein "A+"?
 
 Was ein Browser braucht, um von uns mit "A+" bewertet zu werden:
 
-* Drittanbieter Cookies: Es gibt keinen legitimen Nutzen für Drittanbieter Cookies. Sie sollten immer geblockt werden.
+* Drittanbieter-Cookies: Es gibt keinen legitimen Nutzen für Cookies von Drittanbietern. Sie sollten immer geblockt werden.
 * Tracking Opt-out: Das Ideal wäre ...
-** aktiviert als Standard: Als Minimum sollte beim ersten Start eine Wahlmöglichkeit angezeigt werden.
-** verfolgt-mich-nicht-Kopfzeile: Der Browser sollte "do-not-track"-Kopfzeilen verschicken, wie Firefox, für den Fall, dass sie irgendwann von irgendwem Beachtung findet.
-** entdecktes Tracking: Der Browser kann und sollte Tracking entdecken und abweisen. Es sollte nicht nötig sein, sich auf die freiwillige Beachtung des Datenschutzes durch Tracker zu hoffen. Das wollte der IE tun, bis dies von der Führung unterbunden wurde.
-** Blocklisten: Das Abonnieren von Listen mit Trackern, die geblockt werden sollen, sollte möglich sein.
-** aktiviert für normales Browsen: Ein opt-out für Tracking ist nutzlos, wenn es nur während eines speziellen "Sicheres Browsen"-Modus aktiviert wird.
+** *aktiviert als Standard:* Als Minimum sollte beim ersten Start eine Wahlmöglichkeit angezeigt werden.
+** *verfolgt-mich-nicht-Kopfzeile:* Der Browser sollte "do-not-track"-Kopfzeilen verschicken, wie Firefox, für den Fall, dass sie irgendwann von irgendwem Beachtung findet.
+** *entdecktes Tracking:* Der Browser kann und sollte Tracking entdecken und abweisen. Es sollte nicht nötig sein, sich auf die freiwillige Beachtung des Datenschutzes durch Tracker zu hoffen. Das wollte der IE tun, bis dies von der Führung unterbunden wurde.
+** *Blocklisten:* Es sollte möglich sein, Listen mit zu blockierenden Trackern zu abonnieren.
+** *aktiviert für normales Browsen:* Ein opt-out für Tracking ist nutzlos, wenn es nur während eines speziellen "Sicheres Browsen"-Modus aktiviert wird.

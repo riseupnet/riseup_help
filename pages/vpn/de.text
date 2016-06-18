@@ -2,27 +2,27 @@
 @title = 'Riseup VPN'
 @toc = false
 
-p(alert alert-warning). Wir nehmen ein neues VPN in Betrieb, unser erster Schritt neuer Dienste gegen Überwachung. Diese Dienste mit erhöhter Sicherheit sind unter https://black.riseup.net zu finden und sind nicht verbunden mit unserer aktuellen Infrastruktur. Das bedeutet, dass Du dort ein neues Konto erstellen musst. Alle existierenden Nutzer*innennamen sind 'reserviert' and können auf Black nicht benutzt werden, sodass Du später dieses Jahr deinen aktuellen Nutzernamen benutzen können wirst.
+p(alert alert-warning). Wir nehmen ein neues [[VPN->vpn]] in Betrieb, unser erster Schritt neuer Dienste gegen Überwachung. Diese Dienste mit erhöhter Sicherheit sind unter "black.riseup.net":https://black.riseup.net zu finden und sind nicht verbunden mit unserer aktuellen Infrastruktur. Das bedeutet, dass Du dort ein neues Konto erstellen musst. Alle Namen existierender Nutzer*innen sind 'reserviert' and können auf "Black" nicht benutzt werden, sodass Du später dieses Jahr deinen aktuellen Nutzernamen benutzen können wirst.
 
-h2. Kurzlinks!
+h2. Kurzlinks
 
 * Black: "black.riseup.net":https://black.riseup.net
 * Linux Benutzer? [[Installationsanleitung -> linux]]
 * Android Benutzer? [[Installationsanleitung -> android]]
-* Etwas funktioniert nicht? Siehe [[Troubleshooting]]
-* Hast Du eine Frage? Siehe unsere [[FAQs -> faq]]
+* Etwas funktioniert nicht? [[Troubleshooting]]
+* Hast Du eine Frage? [[FAQs -> faq]]
 
 h2. Was ist RiseupVPN?
 
 Virtuelle Private Netzwerke (VPN) werden typischerweise benutzt, um sich von zu Hause mit einer Arbeitsstelle zu verbinden. Das RiseupVPN ist anders: es bietet einen Dienst, um Zensur zu umgehen, Ortsinformationen zu anonymisieren und Datenverkehr zu verschlüsseln. Um dies zu ermöglichen, [[sendet es Deinen Internetverkehr durch eine verschlüsselte Verbindung => how-vpn-works]] an riseup.net, von wo er ins öffentliche Netz weitergeleitet wird.
 
-Dieser Typ von VPN wird manchmal "Persönliches VPN" genannt, oder "Verschlüsselter Proxy". Das Ziel eines persönlichen VPN ist nicht, dich mit einem sicheren privaten Netzwerk zu verbinden, sondern um sich sicher mit dem Internet als ganzes zu verbinden.
+Dieser Typ von VPN wird manchmal "Persönliches VPN" genannt, oder "Verschlüsselter Proxy". Das Ziel eines persönlichen VPN ist nicht, dich mit einem sicheren privaten Netzwerk zu verbinden, sondern um sich sicher mit dem ganzen Internet zu verbinden.
 
 h2. Was ist Bitmask? Was ist LEAP?
 
 Unser neues RiseupVPN ist Teil einer neuen Generation von Anti-Überwachungsdiensten angetrieben durch das [[LEAP Projekt für verschlüsselten Zugang -> https://leap.se]]. LEAP ist eine Gemeinschaftsunternehmung, um existierende Verschlüsselungstechnologien einfach benutzbar und damit weithin verfügbar zu machen ohne dabei die Sicherheit einzuschränken. Um dies zu erreichen, muss die Anwendung Bitmask installiert werden.
 
-Wir sind uns bewusst, dass Verschlüsselung (im Allgemeinen) schwer ist und dass es ein erheblicher Graben klafft beim Zugang zu Sicherheitssystemen zwischen technik-affinen Menschen und dem Rest der Welt. Um eine freie Gesellschaft aufzubauen, müssen wir daher garantieren, dass alle den gleichen Zugang zu sicherer und privater Kommunikationstechnologie haben.
+Wir sind uns bewusst, dass Verschlüsselung (im Allgemeinen) schwer ist und dass ein erheblicher Graben klafft beim Zugang zu Sicherheitssystemen zwischen technik-affinen Menschen und dem Rest der Welt. Um eine freie Gesellschaft aufzubauen, müssen wir daher garantieren, dass alle den gleichen Zugang zu sicherer und privater Kommunikationstechnologie haben.
 
 Die Rolle von Bitmask ist es, uns dabei zu unterstützen. Bitmask bietet eine einfache Erfahrung ohne Nerverei, es konfiguriert sich selbst, ist auf vielen Plattformen verfügbar und bietet verschiedene Sicherheitserweiterungen.
 
@@ -36,7 +36,7 @@ Selbst wenn wir OpenVPN im Hintergrund benutzen, brauchst du Bitmask, um dich mi
 
 h2. Warum solltest du dich mit einem VPN benutzen wollen?
 
-Bei Riseup glauben wir, dass es wichtig ist, dass alle Technologie wie VPN oder [[security/tor]] verwenden, um ihren Internetverkehr zu verschlüsseln. Warum? Weil das Internet durch Regierungen, Internetanbieter (ISP) und Unternehmen kaputt gemacht wird. (Weiterlesen). RiseupVPN wird dagegen kämpfen mittels:
+Bei Riseup glauben wir, dass es wichtig ist, dass alle Technologien wie VPN oder [[security/tor]] verwenden, um ihren Internetverkehr zu verschlüsseln. Warum? Weil das Internet durch Regierungen, Internetanbieter (ISP) und Unternehmen kaputt gemacht wird. (Weiterlesen). RiseupVPN wird dagegen kämpfen mittels:
 
 # *Schutz gegen ISP-Überwachung*: RiseupVPN eliminiert die Fähigkeit deines Providers, deine Verbindung zu überwachen. Sie bekommen keine auswertbaren Einträge, die entweder durch Märkte oder Staaten gegen dich verwendet werden könnten.
 # *Umgehung von Regierungszensur*: RiseupVPN kann komplett jede Regierungszensur umgehen, so lange Du einen Internetzugang hast. Beachte, dass eine genaue Analyse deiner Verbindungsdaten enthüllen könnte, dass ein VPN benutzt wird.

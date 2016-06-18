@@ -12,17 +12,18 @@ Der Server spart auch dadurch Rechenzeit, indem die Quota nur dann neu "geschät
 
 h2. Wie erhöhe ich meine Quota?
 
-# Login bei https://user.riseup.net
+# Melde dich an bei https://user.riseup.net
 # Klick auf *Email*
 # Gib eine neue Zahl ein
+# Klicke auf *Save*
 
-h2. Wohin verschwindet meine Quota?
+h2. Wohin verschwindet mein Speicherplatz?
 
-# Logge dich bei deinem Mailkonto ein: https://mail.riseup.net
+# Melde dich bei deinem Mailkonto ein: https://mail.riseup.net
 # Klicke auf *Einstellung*
-# Im sich öffnenden Menu wähle *Folders*
+# Im sich öffnenden Menu wähle *Ordner*
 # Wähle im Fenster zum Verwalten der Ordner einzelne Ordner deines Kontos aus
-# In die Sektion 'Information' klicke auf den Link 'Klick für Ordnergröße' auf der rechten Seite
+# In die Sektion *Information* klicke auf den Link *Klick für Ordnergröße* auf der rechten Seite
 
 Die Ordnergröße wird im für Menschen lesbaren Format anzeigt.
 

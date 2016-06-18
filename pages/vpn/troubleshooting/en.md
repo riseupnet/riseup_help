@@ -30,7 +30,7 @@ Please run the following commands and check the possible possible solutions.
 
 #### Run `sudo ip route`, look for the line starting with 'default' and that 'tun0' is the value after the word 'dev'
 
-There is a bug in Debian's Network-Manager package (in testing and unstable). If you are using this package, you probably will face this problem. You can read more about it at [Debian Bug #23755015](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=%23755015). 
+There is a bug in Debian's Network-Manager package (in testing and unstable). If you are using this package, you probably will face this problem. You can read more about it at [Debian Bug #23755015](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=%23755015).
 
 A possible workaround is
 

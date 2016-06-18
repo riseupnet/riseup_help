@@ -2,16 +2,16 @@
 
 h2. Über diese Anleitung
 
-Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen um zu verstehen was die Einstellungen bewirken.
+Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich, die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen, um zu verstehen, was die Einstellungen bewirken.
 
 h2. Freie Software verwenden und auf dem neusten Stand halten
 
-Informationssicherheit is zu wichtig um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
+Informationssicherheit is zu wichtig, um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
 
-- GNU/Linux (Debian, Ubuntu, Mint, Fedora, usw.) := Dein Betriebssystem installiert GnuPG automatisch und hält es auch auf dem neuesten Stand.
-- Windows := Du kannst [[Gpg4win -> https://gpg4win.org/index-de.html]] installieren und die [[gpg4win-announce Mailingliste -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] (auf Englisch) abonnieren um herauszufinden wann es Zeit ist ein Update zu installieren.
-- Mac OS := Du kannst die [[GPG Suite von GPGTools -> https://gpgtools.org/]] installieren.
-- Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme) := Du solltest die [[gnupg-announce Mailingliste -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] abonnieren um herauszufinden wann es Zeit ist ein Update zu installieren.
+* *GNU/Linux* (Debian, Ubuntu, Mint, Fedora, usw.): Dein Betriebssystem installiert GnuPG automatisch und hält es auch auf dem neuesten Stand.
+* Windows: Du kannst "Gpg4win":https://gpg4win.org/index-de.html installieren und die "gpg4win-announce Mailingliste":http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce (englisch) abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
+* *Mac OS*: Du kannst die "GPG Suite von GPGTools":https://gpgtools.org installieren.
+* Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme), solltest du die "gnupg-announce Mailingliste":http://lists.gnupg.org/mailman/listinfo/gnupg-announce abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
 
 h2. Einen Schlüsselserver auswählen und den eigenen Rechner so konfigurieren, dass der Schlüsselbund aktualisiert wird.
 

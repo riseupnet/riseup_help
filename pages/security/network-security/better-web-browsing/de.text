@@ -14,29 +14,29 @@ h3. Deaktiviere Cookies von Drittanbietern
 
 Cookies von Drittparteien werden von Werbenetzwerken benutzt, um dein Surfverhalten auszuspähen, während du im Web unterwegs bist. Sie sind grässlich und dienen keinem legitimen Zweck.
 
-* Firefox: Einstellungen > Datenschutz > Chronik nach benutzerdefinierten Einstellungen > Cookies von Drittanbietern akzeptieren > Nie.
-* Chrome: Einstellungen > Zeige erweiterte Einstellungen > Inhaltseinstellungen > Cookies von Drittanbietern blockieren.
+* *Firefox:* Einstellungen > Datenschutz > Chronik nach benutzerdefinierten Einstellungen > Cookies von Drittanbietern akzeptieren > Nie.
+* *Chrome:* Einstellungen > Zeige erweiterte Einstellungen > Inhaltseinstellungen > Cookies von Drittanbietern blockieren.
 
 h3. Cookies beim Beenden löschen
 
-Die meisten Browser behalten Cookies länger als notwendig. Es ist am besten, du konfigurierst deinen Browser beim Beenden zu löschen.
+Die meisten Browser behalten Cookies länger als nötig. Es ist am besten, du konfigurierst deinen Browser, sie beim Beenden zu löschen.
 
-* Firefox: Einstellungen > Datenschutz > behalten bis > Ich Firefox schließe.
-* Chrome: Settings > Zeige erweiterte Einstellungen > Inhaltseinstellungen > Behalte lokale Daten nur bis ich den Browser schließe.
+* *Firefox:* Einstellungen > Datenschutz > behalten bis > Ich Firefox schließe.
+* *Chrome:* Settings > Zeige erweiterte Einstellungen > Inhaltseinstellungen > Behalte lokale Daten nur bis ich den Browser schließe.
 
 h3. Deaktiviere Flash
 
 Flash ist ein Plugin von Adobe, welches endlos Sicherheitsprobleme verursacht hat. Wir empfehlen deshalb dringend, Flash zu deaktivieren.
 
-* Firefox: Add-ons > Plugins > Flash > Nie aktivieren.
-* Chrome: Einstellungen > Zeige erweiterte Einstellungen... > Inhaltseinstellungen > Do not run plugins by default.
+* *Firefox:* Add-ons > Plugins > Flash > Nie aktivieren.
+* *Chrome:* Einstellungen > Zeige erweiterte Einstellungen... > Inhaltseinstellungen > Do not run plugins by default.
 
 h3. Deaktiviere Java
 
 Java hat auch viele Sicherheitsprobleme und du hast es vermutlich noch nie benutzt. Entferne es oder deaktiviere es mit Eile.
 
-* Firefox: Add-ons > Plugins > Java > Nie aktivieren.
-* Chrome: Settings > Zeige erweiterte Einstellungen... > Inhaltseinstellungen > Keine Plugins als Standard.
+* *Firefox:* Add-ons > Plugins > Java > Nie aktivieren.
+* *Chrome:* Settings > Zeige erweiterte Einstellungen... > Inhaltseinstellungen > Keine Plugins als Standard.
 
 h3. Ändere die Standardsuchmaschine
 
@@ -48,7 +48,7 @@ Die Erweiterungen auf dieser Liste funktionieren sowohl für Firefox als auch Ch
 
 h3. Essentielle Erweiterungen
 
-Dies sind absolut essentielle Erweiterungen, die alle immer benutzen sollten. Sie sind stabil, open source und brechen kaum Webseiten.
+Dies sind absolut essentielle Erweiterungen, die alle immer benutzen sollten. Sie sind stabil, quelloffen und brechen kaum Webseiten.
 
 <table class="table">
 <tr>
@@ -91,33 +91,33 @@ Diese Erweiterungen versuchen, einfache Datenschutzschwächen heutiger Webbrowse
 Einige dieser Datenschutzschwächen sind:
 
 * *HTTP Referrer:* Wenn du auf einen Link klickst, sendet dein Browser der neuen Webseite die Adresse der alten. Weil die URL einer bestimmten Webseite sensitive oder persönlich identifizierende Informationen enthalten kann, sollte die Herkunftsadresse deaktiviert sein. Das geht nur mit einem Plugin.
-* *HTTP User-Agent:* Dein Webbrowser sendet eine spezielle UA-Zeichenfolge an alle Webseiten, die er besucht. Dieser enthält eine Menge ungewöhnlicher Infomation, die in Kombinationen mit anderen Daten benutzt werden kann, speziell deinen Internetverkehr zu identifizieren. Es gibt heutzutage kaum Gründe für diesen Fingerabdruck  und es ist besser, Standardwerte wie den vom Tor Browser benutzten zu verwenden.
-* *HTML5 Canvas:* Viele Webseiten haben beginnen, HTML5 Canvas allein dafür zu benutzen, speziell deinen Browser zu markieren, um dein Verhalten zu beobachten. Es gibt aktuell keine Möglichkeit, dies zu deaktivieren, obwohl einige Erweiterungen einen plumpen Versuch unternehmen.
+* *HTTP User-Agent:* Dein Webbrowser sendet eine spezielle UA-Zeichenfolge an alle Webseiten, die er besucht. Dieser enthält eine Menge ungewöhnlicher Infomation, die in Kombinationen mit anderen Daten benutzt werden kann, speziell deinen Internetverkehr zu identifizieren. Es gibt heutzutage kaum Gründe für diesen Fingerabdruck und es ist besser, Standardwerte wie den vom Tor Browser benutzten zu verwenden.
+* *HTML5 Canvas:* Viele Webseiten haben begonnen, HTML5 Canvas allein dafür zu benutzen, speziell deinen Browser zu markieren, um dein Verhalten zu beobachten. Es gibt aktuell keine Möglichkeit, dies zu deaktivieren, obwohl einige Erweiterungen einen plumpen Versuch unternehmen.
 * *JavaScript* ist für die meisten Webseiten heutzutage essentiell, aber es gibt Fälle, in denen du es aktivieren willst. Wenn JavaScript aktiviert ist, haben es Webseiten viel leichter deinen Browser mit einem Fingerabdruck zu versehen und dein Verhalten zu tracken. Daher sind die meisten Verwundbarkeiten von Browsern durch JavaScript hervorgerufen.
 
 Für Firefox:
 
-* [[Selbstzerstörende Kekse (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] räumen alle Cookies einer Webseite beiseite, sobald alle Tabs dieser Seite geschlossen wurden (anstatt den Browser neustarten zu müssen).
+* [[Selbstzerstörende Kekse => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] räumen alle Cookies einer Webseite beiseite, sobald alle Tabs dieser Seite geschlossen wurden (anstatt den Browser neustarten zu müssen).
 * [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassande Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt dir den HTTP User-Agent zu ändern.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt dir, den HTTP User-Agent zu ändern.
 * [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] erlaubt dir, die HTML5-Unterstützung für bestimmte Webseiten auszuschalten.
 
 Für Chrome:
 
-* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassande Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt dir den HTTP User-Agent zu ändern.
-* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] filtert die meisten Versuche, dich per HTML5 Canvas zu verfolgen (nicht open source).
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassende Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt, dir den HTTP User-Agent zu ändern.
+* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] filtert die meisten Versuche, dich per HTML5 Canvas zu verfolgen (nicht quelloffen).
 
 h3. Schädlich oder nicht empfohlen
 
 Trotz ihrer Bekanntheit empfehlen wir, folgende Erweiterungen zu meiden.
 
-* [[Adblock Plus => https://adblockplus.org/]] war die beste Erweiterung, um Werbung oder Tracking zu blocken. Allerdings betreiben sie jetzt ein Bettelmodell, bei dem Werbefirmen dafür bezahlen können, ihre Filter zu umgehen. Zudem ist uBlock sowieso bessere Technologie.
-* [[Disconnect => https://disconnect.me/disconnect]] funktioniert wie uBlock und ist open source. Wenn du uBlock benutzt, ist Disconnect nicht mehr nötig, auch wenn es Visualisierungsfunktionen hat, die uBlock nicht besitzt.
-* [[Ghostery => https://www.ghostery.com]] funktioniert wie uBlock, aber hat schreckliche Grundeinstellungen, die das meiste Tracking erlauben und der Quellcode ist proprietär.
-* Flash Block (Firefox) ist eine Erweiterung, die Flash per Klick erlaubt. Es besser, Flash zu deinstallieren. Auch ist diese Funktionalität nun voreingebaut.
-* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] war in der Vergangenheit notwendig, um LSO oder "Flash cookies" zu entfernen, aber seit dem Aufkommen von [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]] ist das nicht mehr nötig.
-* TrackMeNot generiert unsinninge Suchanfragen. Es ist eine interessante Idee, aber besser ist es, DuckDuckGo zu benutzen.
+* [[*Adblock Plus* => https://adblockplus.org/]] war die beste Erweiterung, um Werbung oder Tracking zu blocken. Allerdings betreiben sie jetzt ein Bettelmodell, bei dem Werbefirmen dafür bezahlen können, ihre Filter zu umgehen. Zudem hat uBlock sowieso die bessere Technologie.
+* [[*Disconnect* => https://disconnect.me/disconnect]] funktioniert wie uBlock und ist quelloffen. Wenn du uBlock benutzt, ist Disconnect nicht mehr nötig, auch wenn es Visualisierungsfunktionen hat, die uBlock nicht besitzt.
+* [[*Ghostery* => https://www.ghostery.com]] funktioniert wie uBlock, aber hat schreckliche Grundeinstellungen, die das meiste Tracking erlauben und der Quellcode ist proprietär.
+* *Flash Block* (Firefox) ist eine Erweiterung, die Flash per Klick erlaubt. Es ist besser, Flash zu deinstallieren. Auch ist diese Funktionalität nun voreingebaut.
+* [[*Better Privacy* => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] war in der Vergangenheit notwendig, um LSO oder "Flash cookies" zu entfernen, aber seit dem Aufkommen von [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]] ist das nicht mehr nötig.
+* *TrackMeNot* generiert unsinninge Suchanfragen. Es ist eine interessante Idee, aber besser ist es, DuckDuckGo zu benutzen.
 
 h2. Verifiziere Riseups Zertifikat-Fingerabdrücke
 

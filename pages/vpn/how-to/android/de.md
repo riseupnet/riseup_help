@@ -4,9 +4,9 @@
 
 ## Bitmask herunterladen und installieren
 
-Es gibt zwei Wege, die Bitmask-Anwendung zu bekommen, eine ist sie direkt herunter zu laden von der [Bitmask-Webseite](https://dl.bitmask.net) und die zweite ist über den Play Store.
+Es gibt zwei Wege, die Bitmask-Anwendung zu bekommen, entweder direkt herunter laden von der [Bitmask-Webseite](https://dl.bitmask.net), oder über den Play Store.
 
-Die erste bedeutet, manuell alle Aktualisierungen laden zu müssen. Die zweite, dass Google live auf dem Gerät installiert sein muss. Im Moment empfehlen wir den direkten Download.
+Bei der ersten musst DU manuell alle Aktualisierungen laden, bei der zweiten muss Google live auf dem Gerät installiert sein. Im Moment empfehlen wir den direkten Download.
 
 ### Bitmask für Android herunterladen und installieren
 
@@ -14,7 +14,7 @@ Die aktuelle Version von Bitmask für Android gibt es unter dieser URL [https://
 
 ![Bitmask Direct](Bitmask-direct.png)
 
-Zum installieren markiere the Option "unbekannte Quellen" in den Einstellungen von Android -> Sicherheit -> "Unbekannte Quellen". Dies erlaubt die Installation von Anwendungen jenseits des Play Store.
+Zum iIstallieren markiere die Option "unbekannte Quellen" in den *Einstellungen von Android -> Sicherheit -> "Unbekannte Quellen"*. Dies erlaubt die Installation von Anwendungen jenseits des Play Store.
 
 ### Laden von Bitmask über den Play Store
 
@@ -28,7 +28,7 @@ Zuerst brauchst du ein LEAP (black) Riseup-Konto. Dazu gehe auf [https://black.r
 
 Danach öffne die Bitmask-Anwendung.
 
-### Bitmask mit riseup.net als Anbieten konfigurieren
+### Bitmask mit riseup.net als Anbieter konfigurieren
 
 ![Step 1](Bitmask-android-3.png)
 
@@ -40,7 +40,7 @@ Schreibe "riseup.net" als Anbieter.
 
 ![Step 3](Bitmask-android-2.png)
 
-Danach validiert Bitmask riseup.net als sicherer LEAP-Anbieter, drücke login.
+Danach validiert Bitmask riseup.net als sicheren LEAP-Anbieter, drücke *login*.
 
 ![Step 4](Bitmask-android-4.png)
 
@@ -52,8 +52,8 @@ Aktiviere die Riseup EIP durch Klopfen auf den Schalter.
 
 ![Step 6](Bitmask-android-6.png)
 
-Android fragt dich, ob Bitmasj eine VPN-Verbindung aufbauen soll. Markiere 'Ich vertraue dieser Anwendung' und dann *accept*.
+Android fragt dich, ob Bitmask eine VPN-Verbindung aufbauen soll. Markiere 'Ich vertraue dieser Anwendung' und dann *accept*.
 
 ![Step 7](Bitmask-android-7.png)
 
-Sobald der Schalter an ist, benutzt du das Verschlüsselte Internet von Riseup. Yay!
+Sobald der Schalter an ist, benutzt du das *Verschlüsselte Internet* von Riseup. Yay!

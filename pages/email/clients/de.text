@@ -2,9 +2,9 @@
 
 h2. Was ist ein Emailprogramm?
 
-In diesen Tagen sind die meisten Menschen vertraut mit [[Webmail => webmail]], wobei Email per Browser wie Firefox oder Chrome abgerufen werden.
+Heutzutage sind die meisten Menschen vertraut mit [[Webmail => webmail]], wobei Email per Browser wie Firefox oder Chrome abgerufen werden.
 
-Ein <b>Mailprogramm</b> ist auf der anderen Seite eine spezialisierte Anwendung zum Empfangen und Senden von Mail. Es gibt verschiedene freie und/oder Free Software Webmailprogramme für die meisten Plattformen.
+Ein Mailprogramm ist auf der anderen Seite eine spezialisierte Anwendung zum Empfangen und Senden von Mail. Es gibt verschiedene freie und/oder Free Software Mailprogramme für die meisten Plattformen.
 
 Für Hilfe beim Konfigurieren eines bestimmten Programms, klicke auf einen der folgenden Links:
 
@@ -54,7 +54,7 @@ h2. Benutze Thunderbird
 
 Das Emailgrogramm Thunderbird wird zur Nutzung mit riseup.net empfohlen. Unglücklicherweise hat die "Mozilla Stiftung":https://mozilla.org hat Thunderbird aufgegeben, aber es ist immer noch die beste Option von plattformübergreifenden Emailprogrammen als Freie Software.
 
-Thunderbird will automatically configure itself to use your riseup.net email account. See our [[Thunderbird tutorials => thunderbird]] for more details.
+Thunderbird konfiguriert sich selbst für dein riseup.net Emailkonto. Siehe [[thunderbird]] für Details.
 
 h2. Warum sollte ich ein Emailprogramm benutzen?
 
@@ -62,9 +62,9 @@ Es gibt viele Vorteile eines Emailprogramms gegenüber Webmail:
 
 * Wenn man ein Emailprogramm benutzt, muss mensch nicht immer mit dem Internet verbunden sein. Stattdessen kann sich verbunden, alle Nachrichten heruntergeladen und die Verbindung abgebrochen werden. Alle Emails können dann in Ruhe offline gelesen werden, wann immer Du willst. Das ist sehr bequem, wenn die Verbindung nicht verlässlich, oder langsam ist, oder es limitierten Zugang gibt. Also ist es möglich, Emails zu jeder Zeit zu verfassen, zu speichern und später zu senden.
 * Emailprogramme sind generell sehr viel schneller als Webmail.
-* Die meisten Emailprogramme erlaubt das Verwalten mehrerer Konten von einem Ort aus. Das ist sehr nützlich, wenn du verschiedene Konten für verschiedene Aktivitäten in Deinem Leben benutzt.
+* Die meisten Emailprogramme erlauben das Verwalten mehrerer Konten von einem Ort aus. Das ist sehr nützlich, wenn du verschiedene Konten für verschiedene Aktivitäten in Deinem Leben benutzt.
 
-Es gibt mehrer Nachteile:
+Es gibt mehrere Nachteile:
 
 * Um ein Emailprogramm zu benutzen, muss Software auf deinem Rechner installiert und speziell für deine Konten konfiguriert werden.
 * Weil Emailgrogramme einige Nachrichten auf Deinem Rechner speichern, können andere Deine Nachrichten lesen, wenn sie Zugang zu deinem Rechner bekommen.

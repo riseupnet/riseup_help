@@ -6,7 +6,7 @@ h2. Before you begin
 
 We recommned that you start by reading our [[gpg-best-practices]] guide. In particular, you should ensure *before you generate a key* that you have gone through the [[gpg-best-practices]] guide to configure your gpg client to generate a strong key because the defaults that come installed are not optimal.
 
-If you already have a key, you should [[run these checks to ensure that your key is strong -> /gpg-best-practices#openpgp-key-checks] before continuing.
+If you already have a key, you should [[run these checks to ensure that your key is strong -> gpg-best-practices#openpgp-key-checks] before continuing.
 
 h2. Install Enigmail and Run the OpenPGP Setup Wizard
 

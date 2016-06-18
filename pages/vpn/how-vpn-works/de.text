@@ -2,13 +2,13 @@
 
 Ein Virtuelles Privates Netzwerk (VPN) wird typischerweise von Angestellten benutzt, um von zu Hause sicher auf ein Unternehmensnetzwerk zuzugreifen.
 
-Beim [[Riseup VPN -> vpn]] dagegen benutzen wir die gleiche Technologie, um allen eine größere Sicherheit beim Zugang zum öffentlichen Internet zu ermöglichen. Diese Art VPN heißt *persönliches VPN*.
+Beim [[Riseup VPN -> vpn]] allerdings benutzen wir die gleiche Technologie, um allen eine größere Sicherheit beim Zugang zum öffentlichen Internet zu ermöglichen. Diese Art VPN heißt *persönliches VPN*.
 
 h2. Eine normale Internetverbindung
 
 !vpn-01_large.png!
 
-Bei einer normalen Internetverbindung wird dein Verkehr von dreinem Computer durch deinen Internetdiensteanbieter (Internet Service Provider, meist ISP abgekürzt) in das Internet und schließlich zum Zielort geschickt. Bei jedem Schritt werden deine Daten unterwegs aufgezeichnet und sind anfällig für [[man-in-the-middle-Angrife -> vpn/security-issues]] (die Gefahr ist viel kleiner, wenn du ein [[sicheres Protokoll -> secure-connections]] wie @https@ benutzt.
+Bei einer normalen Internetverbindung wird dein Verkehr von deinem Computer durch deinen Internetdiensteanbieter (Internet Service Provider, ISP) in das Internet und schließlich zum Zielort geschickt. Bei jedem Schritt werden deine Daten unterwegs aufgezeichnet und sind anfällig für [[man-in-the-middle-Angrife -> vpn/security-issues]] (die Gefahr ist viel kleiner, wenn du ein [[sicheres Protokoll -> secure-connections]] wie @https@ benutzt).
 
 h2. Eine Internetverbindung mit persönlichem VPN
 

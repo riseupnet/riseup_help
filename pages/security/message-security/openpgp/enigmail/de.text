@@ -8,12 +8,12 @@ h2. Bevor du loslegst
 
 Wir empfehlen, vorher die Anleitung [[gpg-best-practices]] zu lesen. Insbesondere ist es wichtig, diese *vor dem Generieren eines neuen Schlüssels* genau durchzulesen und die gpg-Anwendung so zu konfigurieren, dass sie starke Schlüssel erzeugt, denn die Voreinstellungen sind nicht optimal.
 
-Wenn du schon einen Schlüssel hast, solltest du [[diese Tests durchführen, um sicherzugehen, dass der Schlüssel stark genug ist -> /openpgp-best-practices#openpgp-key-checks]], bevor du weitermachst.
+Wenn du schon einen Schlüssel hast, solltest du [[diese Tests durchführen, um sicherzugehen, dass der Schlüssel stark genug ist -> gpg-best-practices#openpgp-key-checks]], bevor du weitermachst.
 
 h2. Installation von Enigmail und Ausführen des OpenPGP Installation-Assistenten
 
 # Falls Du noch kein GPG-Schlüsselpaar erzeugt hast, [[tue dies->message-security]] oder warte, bis Dich der OpenPGP-Assistent dazu auffordert (siehe unten).
-# Lade das "Enigmail Addon für Thunderbird":https://enigmail.mozdev.org/download/index.php herunter. *Linux-NutzerInnen:* Es empfiehlt sich, das Addon hier herunter zu laden, statt die Version Eures Paket-Managers zu benutzen, die wahrscheinlich nicht aktuell ist. Thunderbird wird zukünftige Aktualisierungen von Enigmail selbsttätig durchführen.
+# Lade das "Enigmail Addon für Thunderbird":https://enigmail.mozdev.org/download/index.php herunter. *Linux:* Es empfiehlt sich, das Addon hier herunter zu laden, statt die Version Eures Paket-Managers zu benutzen, die wahrscheinlich nicht aktuell ist. Thunderbird wird zukünftige Aktualisierungen von Enigmail selbsttätig durchführen.
 # Navigiere zu *Extras* -> *Add-ons*
 # Wähle aus dem Dropdown-Menü neben der Suchmaske *Add-on aus Datei installieren...*
 # Navigiere zur Enigmail .xpi-Datei und klicke *Öffnen*. Enigmail wird nun installiert.
@@ -43,4 +43,3 @@ Dieses System ist ziemlich mächtig und kann ein weites Feld möglicher Optionen
 # Wenn Du die Definition der Regel abgeschlossen hast, klicke *OK*. !enigmail-create-rule.gif!
 
 Du bist nun bereit, mit Thunderbird OpenPGP(GPG)-verschlüsselte E-Mails an beliebige EmpfängerInnen zu versenden, mit automatisch aktivierter Verschlüsselung für die in der eben erstellten Regel definierten EmpfängerInnen.
-

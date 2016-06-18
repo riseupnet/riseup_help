@@ -17,11 +17,11 @@ h3. Nachrichten mit Thunderbird herunterladen
 
 h3. Nachrichten mit squirrelmail herunterladen
 
-* Log dich ein mit "squirrelmail":https://mail.riseup.net/sm.
+* Melde dich bei "squirrelmail":https://mail.riseup.net/sm an
 * Konfiguriere das Format des Archivs mittels *Optionen > Archive Settings*.
 * Gehe zurück zum Ordner mit den Nachrichten, die du herunterladen willst.
 * Klicke auf die Kästchen vor den gewünschten Nachrichten.
 * Lade diese als Archiv herunter mit Klick auf den *Archive*-Knopf unten rechts in der Nachrichtenliste.
 * Das erstellst ein Archiv aller sichtbaren Nachrichten. Um alle deine Nachrichten zu archivieren, klicke vorher auf *Alle anzeigen*.
-* Beachte dass du nicht zu viele Nachrichten mit einem Mal archivieren kannst: dem Skript auf dem Server geht irgendwann der Speicher aus und es bricht ab.
+* Beachte, dass du nicht zu viele Nachrichten mit einem Mal archivieren kannst: dem Skript auf dem Server geht irgendwann der Speicher aus und es bricht ab.
 * Durch das Archivieren mit Squirrelmail sind die Nachrichten noch nicht gelöscht: du musst die Nachrichten immer noch auf dem Server löschen.

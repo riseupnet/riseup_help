@@ -1,10 +1,10 @@
 @title = "OpenPGP-Schlüssel verwalten"
 
-Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zum Erstellen von OpenPGP-Schlüsselpaaren, Exportieren von Schlüsseln an Schlüsselserver, Finden von OpenPGP-Schlüsseln, um mit anderen sicher zu kommunizieren.
+Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zum Erstellen von OpenPGP-Schlüsselpaaren, Exportieren von Schlüsseln an Schlüsselserver und Finden von OpenPGP-Schlüsseln, um mit anderen sicher zu kommunizieren.
 
-h1. Bevor du anfängst -- mach das zuerst!
+h1. Erster und wichtigster Schritt
 
-Lies die Anleitung [[gpg-best-practices]], um sicherzustellen, dass dein System starke Schlüssel erstellt und Schlüssel-Aktualisierungen von gut verwalteten Schlüssel-Servern empfangen werden. Dazu sind Änderungen an der Datei @gpg.conf@ notig, welche sich je nach System an verschiedenen Orten befinden kann. Bei Linux befindet sie sich in @~/.gnupg/gpg.conf@.
+Lies die Anleitung [[gpg-best-practices]], um sicherzustellen, dass dein System starke Schlüssel erstellt und Schlüssel-Aktualisierungen von gut verwalteten Schlüssel-Servern empfangen werden. Dazu sind Änderungen an der Datei @gpg.conf@ nötig, welche sich je nach System an verschiedenen Orten befinden kann, bei Linux befindet sie sich in @~/.gnupg/gpg.conf@.
 
 h1. Linux
 
@@ -18,17 +18,17 @@ h3. Erstelle und exportiere ein OpenPGP-Schlüsselpaar
 
 # Starte Seahorse. Es sollte bei Debian/Ubuntu bereits installiert sein.
 # Wähle *GnuPG-Schlüssel*
-# Erstelle einen neuen Schlüssel durch Klick auf das +
+# Erstelle einen neuen Schlüssel durch Klick auf das *+*
 # Wähle *PGP-Schlüssel*
 # Gib deine Emailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
 # Wähle *Erweiterte Schlüsseleinstellungen*
 # Verschlüsselungs-Typ sollte RSA sein.
 # Schlüssellänge sollte 4096 sein.
 # Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
-# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails für immer.**
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails, für immer.**
 # Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super! Du kannst die Schlüsseleinstellungen verwalten, den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen und andere Einstellungen mit Seahorse oder von der Kommandozeile aus vornehmen.
 # **Optional** An diesem Punkt kannst du deinen öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Sobald du bereit bist:
-## Wähle den/die Schlüssel, den/die du exportieren möchtest. Halte *Strg* und klicke, um mehrere auszuwählen, oder drücke **Strg+A**, um alle Schlüssel auszuwählen.
+## Wähle den/die Schlüssel, den/die du exportieren möchtest. Halte *Strg* und klicke auf die Schlüssel, um sie auszuwählen, oder drücke **Strg+A**, um alle Schlüssel auszuwählen.
 ## Gehe zu *Entfernt -> Schlüssel abgleichen und veröffentlichen*
 ## Drücke den Knopf *Schlüssel-Server*
 ## Veröffentliche die Schlüssel zu einem Server (wähle einen aus, wenn der Knopf *Abgleichen* auf dem vorherigen Schirm ausgegraut war); sie synchronisieren sich alle untereinander, dein Schlüssel wird auf allen verfügbar sein.
@@ -43,7 +43,7 @@ Wenn du mit anderen sicher kommunizieren möchtest, oder Daten verschlüsseln wi
 
 h4. Importieren aus einer Datei
 
-Wenn dir eine Datei mit einem Schlüssel geschickt wird, kannst du ihn mit Seahors so importieren:
+Wenn dir eine Datei mit einem Schlüssel geschickt wird, kannst du ihn so mit Seahorse importieren:
 # Gehe auf **Datei** -> **Importieren...**
 # Suche die Datei, wähle sie aus und drücke auf den Knopf **Öffnen**.
 
@@ -63,7 +63,7 @@ h3. Schlüssel verifizieren
 Schlüssel können von allen bei Schlüsselservern veröffentlicht werden. Suche zum Beispiel spaßeshalber nach Edward Snowdens Schlüssel. Es gibt viele davon! Bevor du einen Schlüssel benutzt, solltest du den Fingerabdruck mit der Person austauschen, mit der du kommunizieren möchtest. *Das solltest du nicht per Mail tun!* Die beste Praxis ist, den Fingerabdruck persönlich zu vergleichen. Mindestens solltest du mit der Person sprechen (Stimme/Video), um zu wissen, dass du mit der richtigen Person kommunzierst. Um den Fingerabdruck zu vergleichen, folge diesen Schritten:
 
 # Öffne seahorse
-# Im Menu wähle *Ansicht > Alle einzeigen*
+# Im Menu wähle *Ansicht > Alle anzeigen*
 # Suche den bereits importierten Schlüssel
 # Wähle *Eigenschaften* (Rechtsklick)
 # Wähle *Details*
@@ -73,13 +73,13 @@ Nachdem du den Fingerabdruck sorgfältig überprüft und die Korrektheit mit der
 
 # Wähle im selben Fenster den Reiter **Vertrauen** drücke den Knopf **Diesen Schlüssel signieren**.
 # Signiere den Schlüssel, um anzuzeigen, wie sorgfältig du den Schlüssel überprüft hast. Auch wenn du *Überhaupt nicht* auswählst, kannst du den Schlüssel für Email- und Datenverschlüsselung wählen. Du kannst auch einstellen, dass andere deine Signatur nicht sehen können, oder dass du die Unterschrift später widerrufen können möchtest.
-# Press **Signieren**.
+# Drücke **Signieren**.
 
 Nun kannst du anfangen, Daten zu verschlüsseln, die nur von der Schlüsselinhaber*in entschlüsselt werden können, um einen sicheren Kommunikationskanal zu etablieren!
 
 h2. Benutzung der Linux-Kommandozeile
 
-Diese Anleitung basiert auf dem "Ubuntu GPG Howto":https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+Diese Anleitung basiert auf der "GPG-Anleitung für Ubuntu":https://help.ubuntu.com/community/GnuPrivacyGuardHowto (englisch)
 
 h3. Stelle sicher, dass die richtigen Standards eingestellt sind
 
@@ -87,9 +87,7 @@ Siehe [[gpg-best-practices]] *bevor du weitermachst*, um sicherzustellen, dass d
 
 h3. OpenPGP-Schlüsselpar mit GPG erstellen
 
-Drücke *Alt+F2* und gib @gnome-terminal@ ein, danach drücke enter.
-
-Tippe @gpg --gen-key@ ins Terminal, das sollte dieses Menü öffnen:
+Drücke *Alt+F2* und gib @gnome-terminal@ ein, danach drücke enter. Tippe @gpg --gen-key@ ins Terminal, das sollte dieses Menü öffnen:
 
 bc. Please select what kind of key you want:
   (1) RSA and RSA (default)
@@ -149,7 +147,7 @@ ssb   4096R/0x40339E25E2F2D99E 2014-05-14
 
 p. In diesem Beispiel lautet die *Schlüssel-ID* also **E361D8GH916EFH89**.
 
-Allerdings solltest du dich, [[wie hier beschrieben -> /gpg-best-practices#dont-rely-on-the-key-id]], nicht auf die Schlüssel-ID verlassen. Benutzen stattdessen den *ganzen Fingerabdruck* für alle Operationen.
+Allerdings solltest du dich, [[wie hier beschrieben -> /gpg-best-practices#dont-rely-on-the-key-id]], nicht auf die Schlüssel-ID verlassen. Benutze stattdessen den *ganzen Fingerabdruck* für alle Operationen.
 
 h3. Öffentlichen OpenPGP-Schlüssel exportieren/publizieren
 

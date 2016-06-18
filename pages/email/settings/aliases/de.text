@@ -1,8 +1,8 @@
 @title = 'Aliase und Weiterleitung'
 
-h2. Was ist ein E-Mail Weiterleitung?
+h2. Was ist eine E-Mail Weiterleitung?
 
-Wenn du möchtest, dass alle E-Mails, die an deine riseup Emailadresse gesendet werden, in einem Postfach bei einem anderen Emailanbieter landen, ist das eine E-Mail-Weiterleitung.
+Wenn du möchtest, dass alle E-Mails, die an deine Riseup Emailadresse gesendet werden, in einem Postfach bei einem anderen Emailanbieter landen, ist das eine E-Mail-Weiterleitung.
 
 h3. Wie kann ich alle E-Mails an eine andere Adresse weiterleiten?
 
@@ -14,11 +14,11 @@ h3. Wie kann ich alle E-Mails an eine andere Adresse weiterleiten?
 
 h2. Was ist ein E-Mail-Alias?
 
-Ein Alias ist eine andere E-Mailadresse, die an das gleiche Postfach ausgeliefert wird. Du könntest zum Beispiel ein Riseup-Konto joe_hill@riseup.net haben, aber die neue Adresse maydaychicago@riseup.net als Kontakt-Adresse für eine Aktion verwenden. E-Mails, die an diesen Alias gesendet werden, erscheinen dann in dem Postfach deines Accounts.
+Ein Alias ist eine andere E-Mailadresse, die an das gleiche Postfach ausgeliefert wird. Du könntest zum Beispiel ein Riseup-Konto [@joe_hill@riseup.@]net haben, aber die neue Adresse [@maydaychicago@riseup.net@] als Kontaktadresse für eine Aktion verwenden. E-Mails, die an diesen Alias gesendet werden, erscheinen dann inm Postfach deines Kontos.
 
 h3. Mit Aliasen Spam verhindern
 
-Wenn du eine E-Mailadresse benötigst um dich bei eine Internetseite anzumelden, kannst du anstatt deiner normalen Adresse einen Alias erstellen und diesen verwenden. So kannst du auch erfahren, wenn diese Seite beginnt, Spam an dich zu versenden. Falls du das stoppen möchtest, kannst du einfach den Alias löschen, ohne deinen E-Mail-Account zu beeinflussen. Raffiniert!
+Wenn du eine E-Mailadresse benötigst, um dich bei eine Internetseite anzumelden, kannst du anstatt deiner normalen Adresse einen Alias erstellen und diesen verwenden. So kannst du auch erfahren, wenn diese Seite beginnt, Spam an dich zu versenden. Falls du das stoppen möchtest, kannst du einfach den Alias löschen, ohne dein Emailkonto zu beeinflussen. Raffiniert!
 
 h3. Wie kann ich einen Alias erstellen?
 
@@ -27,5 +27,6 @@ h3. Wie kann ich einen Alias erstellen?
 # Schreibe "ALIASNAME@riseup.net" in das "Alias"-Feld
 # Klicke auf *Save*
 
-Beachte: Sollte jemand anderes diesen Alias oder Benutzernamen verwenden, kannst du dir diesen Alias nicht anlegen. Versuche einen anderen Namen!
-Beachte: Wenn du eine alternative Identität in deinem Emailprogramm angelegt hast, so dass es aussieht als würdest du von deinem Alias senden, kann deine riseup E-Mailadresse immer noch in den Headern gefunden werden. Vertraue nicht auf eine alternative Identität um deinen Riseup-Benutzernamen bei gesendeten E-Mails zu verbergen!
+*Beachte:* Sollte wer anderes diesen Alias oder Benutzernamen verwenden, kannst du dir diesen Alias nicht anlegen. Versuche einen anderen Namen!
+
+*Beachte:* Wenn du eine alternative Identität in deinem Emailprogramm angelegt hast, so dass es aussieht als würdest du von deinem Alias senden, kann deine Riseup-Emailadresse immer noch in den Kopfzeilen gefunden werden. Vertraue nicht auf eine alternative Identität um deinen Riseup-Benutzernamen bei gesendeten E-Mails zu verbergen!

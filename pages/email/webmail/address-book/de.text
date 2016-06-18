@@ -1,26 +1,26 @@
-@title = "Webmail-Addressbuch"
-@nav_title = "Addressbuch"
+@title = "Webmail-Adressbuch"
+@nav_title = "Adressbuch"
 
 h2. Kontakte manuell von IMP/Squrrelmail in Roundcube importieren
 
-Du bist wahrscheinlich hier, weil unsere praktischen tollen Skripte für automatisches Importieren deines Adressbuchs in Roundcube nicht richtig funktioniert hat. Entschuldigung dafür!  Glücklicherweise ist es einfach, deine Kontakte manuell zu importieren.
+Du bist wahrscheinlich hier, weil unsere tollen praktischen Skripte für automatisches Importieren deines Adressbuchs in Roundcube nicht richtig funktioniert haben. Entschuldigung dafür! Glücklicherweise ist es einfach, deine Kontakte manuell zu importieren.
 
-h3. Importieren deiner Kontakte von SquirrelMail
+h3. Importieren deiner Kontakte von SquirrelMail 
 
-# "Login bei squirrelmail":https://mail.riseup.net/sm
-# Select addressbook
-# Scroll to the bottom and click on the "Export to CSV file" (you can leave all the settings exactly as they are)
-# Login to roundcube
-# Select Addressbook
-# Select Import
-# Choose the file you just exported from squirrelmail
-# Click on "Import"
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
+# Wähle *Adressbuch*
+# Scrolle nach unten und klicke auf "Export to CSV file" (du kannst die Einstellungen so lassen, wie sie sind)
+# Logge dich bei "roundcube":https://mail.riseup.net ein
+# Wähle *Adressbuch*
+# Wähle *Importieren*
+# Wähle die eben von squirrelmail exportierte Datei
+# Wähle *Importieren*
 
 h2.  Wie erstelle ich ein Adressbuch in Squirrelmail?
 
-Dies ist eine Anleitung, wie aus einer Liste existierenden Adressen eine Liste erstellt werden kann. Dazu müssen die Adressen, die hinzugefügt werden sollen, bereits im Adressbuch sein.
+Dies ist eine Anleitung, wie aus einer Liste existierende Adressen eine Liste erstellt werden kann. Dazu müssen die Adressen, die hinzugefügt werden sollen, bereits im Adressbuch sein.
 
-# "Login to squirrelmail":https://mail.riseup.net/sm
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
 # Klicke auf "Options"
 # Klicke auf "Address Groups"
 # Klicke auf "Neue Mitglieder hinzufügen"
@@ -31,9 +31,8 @@ Dies ist eine Anleitung, wie aus einer Liste existierenden Adressen eine Liste e
 
 h2. Wie entferne ich jemanden aus meinem Adressbuch in Squirrelmail?
 
-# "Login bei squirrelmail":https://mail.riseup.net/sm
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
 # Klicke auf "Optionen"
 # Klicke auf "Adressen-Gruppen"
 # Klicke auf "Auflisten"
-# Klicke auf das Kästchen neben der Person die du entfernen willst und dann auf Entfernen
-
+# Klicke auf das Kästchen neben der Person die du entfernen willst und dann auf *Entfernen*
