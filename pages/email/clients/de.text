@@ -46,7 +46,7 @@ Die [[sichere Verbindung -> secure-connections]] kann TLS oder StartTLS sein. Au
 
 *Hinweis:* Aktiviere *sichere Passwörter* oder *sichere Authentifizierung*. Diese sind irgendwie missdeuting. Diese Methoden erfordern, dass auf dem Emailserver eine Kopie des Passwortes im Klartext gespeichert wird. Aus unserer Sicht ist das ein Sicherheitsrisiko, also aktivieren wir die Funktion "sichere Passwörter" nicht. Weil die Verbindung zu Riseup ohnehin verschlüsselt ist, besteht dafür auch kein Bedarf.
 
-*Tor-Hinweis:* SMTP Port 465 wird oft geblockt von Exit-Nodes, aber Port 587 wird weniger oft geblockt. Wenn ein Problem beim Senden von Mails besteht, benutze Port 587.
+*Tor-Hinweis:* SMTP Port 465 wird oft geblockt von Exit-Nodes, aber Port 587 wird weniger oft geblockt. Wenn ein Problem beim Senden von Mails besteht, benutze Port 587, oder konfiguriere dein Programm, [[Riseups SMTP-onion-Dienst => tor#riseups-tor-hidden-services ]] anstelle von @mail.riseup.net@ zu benutzen. Das ist besser, als deine Daten durch einen Tor-Exit zu schicken, weil es MITM-resistent ist, aber es erzeugt Fehler für das SSL-Zertifikat bei deinem Emailprogramm.
 
 h2. Benutze Thunderbird
 
