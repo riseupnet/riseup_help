@@ -135,18 +135,18 @@ You can use this command to list your keys:
 
 This should output data in a format like this:
 
-bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
-      Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
-uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
-ssb   4096R/0x40339E25E2F2D99E 2014-05-14
+bc. sec 4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb 4096R/0x40339E25E2F2D99E 2014-05-14
 
 p. Any reference to your **KEY-ID** below can be found using the first command and looking at the output. The line you're looking at to find the **KEY-ID** is the **sec** line of each of the entries). The line contains sec, the key strength and type abbreviation (**4096R** in the first line), a slash, the **KEY-ID**, and then the creation date. The codebox below highlights the **KEY-ID**:
 
-bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
-            ^KEY-ID^
-      Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
-uid                            John Q. Alias <the-email-youre-going-to-use@wherever.tld>
-ssb   4096R/0x40339E25E2F2D99E 2014-05-14
+bc. sec 4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+^KEY-ID^
+Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb 4096R/0x40339E25E2F2D99E 2014-05-14
 
 p. So for this example, the **KEY-ID** would be **E361D8GH916EFH89**.
 
@@ -178,20 +178,24 @@ It is **not recommended** to use Windows as a secure communication platform. Whi
 * User accounts are administrators by default
 * Since Windows is proprietary and closed-source, there is no outside scrutiny for defects, back doors, or anything that "phones home". You're trusting Microsoft completely with whatever secrets you choose to put on your computer.
 
-To ensure a secure communications platform, it's recommended to install linux. See [Installing Ubuntu Linux] to create a secure communications platform or for additional information.
+To ensure a secure communications platform, it's recommended to install linux. See [[Installing Ubuntu Linux -> /missing-page]] to create a secure communications platform or for additional information.
 
 h2. Install Gpg4win
 
-"Gpg4win":http://www.gpg4win.org" is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
+"Gpg4win":http://www.gpg4win.org is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
 
-# Download "Gpg4win":http://www.gpg4win.org/download.html"
+# Download "Gpg4win":http://www.gpg4win.org/download.html
 # Double click the executable and begin the installation.
 # Select the language you'll be using.
 # You'll be greeted by the welcome screen. Press **Next** to continue.
+
 !img/gpg4win1-install-welcome.gif!
-# Next, you'll be asked to agree to the [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->https://www.gnu.org/licenses/gpl.html]. If you accept, press **Next**.
-# Choose the components you want to install. The default options are recommended. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+
+# Next, you'll be asked to agree to the [[GNU General Public License -> https://en.wikipedia.org/wiki/General_Public_License]] (the GPL license), which can be read in its entirety at [[GNU.org -> https://www.gnu.org/licenses/gpl.html]]. If you accept, press **Next**.
+# Choose the components you want to install. The default options are recommended. [[Claws-Mail -> https://en.wikipedia.org/wiki/Claws_Mail]] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+
 !img/gpg4win2-components.gif!
+
 # Select the install folder (the default is recommended).
 # Choose what shortcuts to create.
 # Choose a name for any shortcut folders and then begin the installation. Choose to view the README file, or not, and then click finish.
@@ -205,7 +209,9 @@ Kleopatra seems to be the more recent and more polished of the two Gpg4win key m
 # Click **File** -> **New Certificate...** or **Ctrl+N**.
 # Press the **Create a personal OpenPGP key pair** button.
 # Enter your name, email address, and a comment if you wish. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
+
 !img/kleopatra1-name-email-advanced.gif!
+
 # In the **Advanced Settings...** dialog box, choose your key type and key strength. **RSA**, using key strength of **4,096 bits**, for **Signing** and **Encryption** are recommended. When finished with the key settings, press **OK** to close the dialog box, then click **Next**.
 # Review the information for the key, then press the **Create Key** button.
 # Enter a **strong** password that you can remember. The password strength meter will give you a relative indication of how strong the password is. Getting 100% **is strongly recommended**. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
