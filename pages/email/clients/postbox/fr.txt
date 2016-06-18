@@ -1,0 +1,5 @@
+@title = 'Postbox'
+
+Postbox est un client courriel propriétaire basé sur Thunderbird. Il fonctionne sous Mac et Windows et il a une interface plus agréable que Thunderbird. Vous pouvez télécharger l'application depuis http://postbox-inc.com
+
+Nous n'avons pas encore de tutoriel écrit pour la configuration de Postbox avec Riseup. Vous pouvez aider à en rédiger un !
