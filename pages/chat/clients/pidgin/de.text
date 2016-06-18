@@ -8,7 +8,7 @@ Pidgin ist das bekannteste Direktnachrichten-Programm für GNU/Linux, Windows un
 
 h2. Konto erstellen
 
-Beim ersten Start drücke *Strg+A* (alternative im Menü *Konten* - *Konten verwalten*) und *Hinzufügen ...*, um ein Konto zu erstellen.
+Beim ersten Start drücke *Strg+A* (alternativ im Menü *Konten* - *Konten verwalten*) und *Hinzufügen ...*, um ein Konto zu erstellen.
 
 (1) Im Reiter *Einfach* stelle folgendes ein:
 
@@ -56,4 +56,3 @@ Danach im Reiter *Proxy* ...
 !pidgin-modify-account-proxy.png!
 
 Setze den *Proxy-Typ* auf @SOCKS5@, den Host und Port, so wie im Bild zu sehen ist, sowie deinen Nutzernamen und Passwort.
-

@@ -2,6 +2,21 @@
 @nav_title = 'Doação'
 @this.alias = '/doacao'
 
+h1. Doações por Correio
+
+Envie cheques a [*"Riseup Networks"*] para:
+
+div(donation). Riseup Networks
+PO Box 4282
+Seattle, WA 98194 USA 
+
+Infelizmente, não podemos enviar pra você uma carta de agradecimento quando recebemos sua doação. Por favor, saiba que nós sentimos uma gratidão incrível: seu apoio é vital e faz que todo o nosso trabalho duro seja possível. Nós amamos que você ponha dinheiro naquilo que valoriza! *Exceção:* A lei requer que nós relatemos anualmente a identidade de quem nos doa mais de $5 mil dólares.
+
+
+h1. Doações Online
+
+<%= render :partial => 'inc/donate_forms' %>
+
 h1. Apoie alternativas radicais!
 
 !>img/red-leap-medium.jpg!
@@ -22,22 +37,6 @@ Se você tem listas grandes, com mais de cem membros ou com grande tráfico de m
 Por favor, considere doar mais se você tem condições. Qualquer orçamento que sobra após cobrirmos nossas despesas básicas é revertido para prover serviços para mais pessoas. Se estiver fazendo uma doação grande (obrigado!), então por favor considere enviar um cheque ou dinheiro através do correio -- sistemas de pagamento online retiram uma fatia de até 3%.
 
 Todas as decisões sobre finanças do "Coletivo Riseup" são tomadas usando o processo de consenso por membros do coletivo. 
-
-
-h1. Doações por Correio
-
-Envie cheques a [*"Riseup Networks"*] para:
-
-div(donation). Riseup Networks
-PO Box 4282
-Seattle, WA 98194 USA 
-
-Infelizmente, não podemos enviar pra você uma carta de agradecimento quando recebemos sua doação. Por favor, saiba que nós sentimos uma gratidão incrível: seu apoio é vital e faz que todo o nosso trabalho duro seja possível. Nós amamos que você ponha dinheiro naquilo que valoriza! *Exceção:* A lei requer que nós relatemos anualmente a identidade de quem nos doa mais de $5 mil dólares.
-
-
-h1. Doações Online
-
-<%= render :partial => 'inc/donate_forms' %>
 
 h1. Perguntas Frequentes
 

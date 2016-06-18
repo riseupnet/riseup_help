@@ -35,7 +35,9 @@ Warning: this process is pretty technical, it requires familiarity with OpenPGP 
 
 h4. Import Riseup's OpenPGP key
 
-On the terminal, import Riseup's public OpenPGP key from a keyserver:
+Before you continue, please make sure you have [[selected a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]].
+
+On the terminal (press *Alt+F2* and enter @gnome-terminal@), import Riseup's public OpenPGP key from a keyserver:
 
 <code>gpg --keyserver keys.riseup.net --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
 <code>gpg --fingerprint 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
@@ -54,20 +56,20 @@ h4. Verify Riseup's Certificate
 
 Now that you have imported Riseup's public key, you can verify that the fingerprints listed on this page are really from riseup.net.
 
-# Download the signed [[certificate fingerprint statement => /security/network-security/certificates/riseup-signed-certificate-fingerprints.txt]]
+# Download the signed [[certificate fingerprint statement => /security/network-security/certificates/riseup-signed-certificate-fingerprints.txt]]:
+@wget https://help.riseup.net/en/signed-certificate-fingerprints@
 # Then run this command in a terminal:
-<code>gpg --verify riseup-signed-certificate-fingerprints.txt</code>
+@gpg --verify riseup-signed-certificate-fingerprints.txt@
 # You should get output that says:
-<code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
+
+bq. gpg: Good signature from "Riseup Networks <collective@riseup.net>"
 
 You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
 
 Unless you have taken explicit steps to build a trust path to the Riseup Collective key, you will see a warning message similar to:
 
-<pre>
-gpg: WARNING: This key is not certified with a trusted signature!
+bq. gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
-</pre>
 
 However, you still should see the "Good signature".
 
