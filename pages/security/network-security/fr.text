@@ -2,7 +2,7 @@
 
 h2. Améliorez votre sécurité réseau
 
-Internet est un endroit sauvage. Pratiquement chaque clic que vous effectuez est désormais enregistré, archivé et analysé par un ordinateur quelque part afin de prédire vos comportements en matière de consommation ou dans le but de renforcer les lois de l'Etat-nation. Dès l'instant où vous mettez un nouvel ordinateur en relation avec internet, il y a de fortes chances que votre ordinateur soit sondé à la recherche de ses vulnérabilités par des virus ou des crackers avec l'espoir de l'enrôler au sein d'une "armée de machines zombies":https://fr.wikipedia.org/wiki/Machine_zombie.
+Internet est un endroit sauvage. Pratiquement chaque clic que vous effectuez est désormais enregistré, archivé et analysé par un ordinateur quelque part afin de prédire vos comportements en matière de consommation ou dans le but de renforcer les lois de l'État-nation. Dès l'instant où vous mettez un nouvel ordinateur en relation avec internet, il y a de fortes chances que votre ordinateur soit sondé à la recherche de ses vulnérabilités par des virus ou des crackers avec l'espoir de l'enrôler au sein d'une "armée de machines zombies":https://fr.wikipedia.org/wiki/Machine_zombie.
 
 Ah ! Mais que peut faire un utilisateur d'internet ? Ces pages vous aideront à configurer votre ordinateur de manière à éviter ces attaques [_sur le plan du réseau_].
 
@@ -11,7 +11,7 @@ table(table).
 | [[Connexions sécurisées => secure-connections]] | Automatique | Tous les services de Riseup requièrent une connexion sécurisée. |
 | [[Meilleure navigation => better-web-browsing]] | Facile | Il existe des choses simples que vous pouvez faire pour que votre navigation soit plus sécurisée et privée. |
 | [[VPN]]                 | Modéré | Sécurise votre accès à riseup.net afin de se protéger de l'espionnage et des attaques sur le *contenu de votre trafic internet*. |
-| [[Tor]]                 | Difficile | Tor est semblable au VPN, mais votre trafic transite aléatoirement par un grand nombre de relais pour le rendre *plus anonyme.* L'EFF a une présentation visuelle pratique pour montrer l'[[interaction entre Tor et HTTPS => https://www.eff.org/pages/tor-and-https]], elle est disponible en français sous forme d'[[affiche => https://nos-oignons.net/Diffusez/nos-oignons-affiche-tor-et-https-201406-fr.pdf]] |
+| [[Tor]]                 | Difficile | Tor est semblable au VPN, mais votre trafic transite aléatoirement par un grand nombre de relais pour le rendre *plus anonyme.* L'EFF a une présentation visuelle pratique pour montrer l'[[interaction entre Tor et HTTPS => https://www.eff.org/pages/tor-and-https]], elle est disponible en français sous forme d'[[affiche => https://nos-oignons.net/Diffusez/nos-oignons-affiche-tor-et-https-201406-fr.pdf]]. |
 
 h2. Sujets avancés
 
