@@ -1,6 +1,6 @@
 @title = 'Juni'
 
-Riseup Übersetzungstag am 11. Juni
+Riseup-Übersetzungstag am 11. Juni
 -----------------------------------------------------------
 
 In den letzten zehn Jahren wurden die Riseup Hilfeseiten zu einer wichtigen Quelle für Riseup-Nutzer*innen und Aktivist*innen, die nach größerer Sicherheit und Schutz vor Überwachung suchen.
@@ -28,9 +28,9 @@ Das ist gut für euch, weil es euer Konto sicherer macht. Es bedeutet aber auch,
 * Listen: stellt sicher, dass eure Listen mehrere Admins / Eigentümer*innen haben, für den Fall, dass jemensch das Passwort vergisst.
 * Listen: stellt sicher, dass Adressen von Eigentümer*innen eurer Listen auf aktuell erreichbare Konten verweisen. Wenn nicht, verpasst ihr vielleicht wichtige Infos über die Liste und es ist nicht möglich, das Passwort zu ändern.
 
-Es macht uns immer traurig, wenn wir nichts tun können, um ein Konto zu reaktivieren. Lass es nicht dich betreffen!
+Es macht uns immer traurig, wenn wir nichts tun können, um ein Konto zu reaktivieren. Lass' es nicht dich betreffen!
 
-Helft uns, den Emailspeicherplatz zu vergrößern
+Helft uns, deinen Emailspeicherplatz zu vergrößern
 -----------------------------------------------------------
 
 Wusstest du, dass es möglich ist, den [[Speicherplatz->quota]] deiner Email zu erhöhen? Für Anleitungen dazu, siehe https://help.riseup.net/quota

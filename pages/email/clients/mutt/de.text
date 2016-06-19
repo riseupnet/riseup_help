@@ -10,7 +10,7 @@ h2. Installation
 
 h2. Konfiguration
 
-Bearbeite @~/.mutt/muttrc@. Wähle entweder **IMAP** oder **POP**. [[Was ist der Unterschied zwischen IMAP und POP? => email/clients]]
+Bearbeite @~/.mutt/muttrc@. [[Wähle POP oder IMAP -> email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails von mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]]).
 
 h3. Persönliche Informationen
 

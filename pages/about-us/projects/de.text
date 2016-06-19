@@ -1,4 +1,4 @@
-@title = 'Riseup Projektbereiche'
+@title = 'Riseups Projektbereiche'
 @nav_title = 'Projekte'
 @this.summary = 'Eine Liste einiger Projekte, an denen Riseup arbeitet.'
 
@@ -26,7 +26,7 @@ Riseup biete leicht erschwingliche, sichere und verlässliche Colocation-Server 
 
 h2. Unterstützung von [[Tor]]
 
-Tor ist ein System für Online-Anonymität über ein Netzwerk von Servern, mit dem Ziel, identifizierende Informationen über Nutzer*innen zu verbergen. Wenn du Tor benutzt, ist es sehr viel schwerer, deinen Internetverkehr einer bestimmten Person zuzuordnen. Es ist bekannt, dass Tor essentielle Dienste für vielfältige Nutzer*innen anbietet, seien es überwachte Aktivist*innen, Whistleblower, Journalist*innen, Dissident*innen, die unter staatlicher Repression leiden, Menschen, die Zensur umgehen wollen, Vergewaltigungsopfer, und alle, die ihre Privatssphäre vor skrupellosen Unternehmen schützen möchten, welche ihr Vertrauen missbrauchen, um Werbeprofile ihrer Kund*innen zu erstellen und verkaufen. 
+Tor ist ein System für Online-Anonymität über ein Netzwerk von Servern, mit dem Ziel, identifizierende Informationen über Nutzer*innen zu verbergen. Wenn du Tor benutzt, ist es sehr viel schwerer, deinen Internetverkehr einer bestimmten Person zuzuordnen. Es ist bekannt, dass Tor essentielle Dienste für vielfältige Nutzer*innen anbietet, seien es überwachte Aktivist*innen, Whistleblower, Journalist*innen, Dissident*innen, die unter staatlicher Repression leiden, Menschen, die Zensur umgehen wollen, Vergewaltigungsopfer, und alle, die ihre Privatssphäre vor skrupellosen Unternehmen schützen möchten, welche ihr Vertrauen missbrauchen, um Werbeprofile ihrer Kund*innen zu erstellen und verkaufen.
 
 Während die "Liste der Vorteile":https://www.torproject.org/about/torusers.html.en (englisch) von Tor unzählbar sind, wären diese nicht denkbar ohne Tor-Endpunkte (exit nodes) und Übermittlungsstellen (relays). Riseup trägt zum Tor-Netzwerk mit Knoten hoher Bandbreite bei. Wir betreiben Knoten innerhalb der top 30 bezüglich beigetragener Bandbreite.
 

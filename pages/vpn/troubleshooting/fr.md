@@ -23,7 +23,7 @@ Les points suivants ont été identifiés comme problématiques dans certains en
 
 ### Je n'utilise pas Debian et/ou Ubuntu. Comment puis-je installer Bitmask ?
 
-Si vous utilisez une distribution basée sur Debian (comme CrunchBang) ou basée sur Ubuntu (comme Mint), vous devez installer [l'application autonome](#stand-alone-bundle) et nous aimerions beaucoup avoir un retour concernant l'installation de Bitmask ! Il y a énormément de distributions GNU/Linux et il n'y a aucun moyen de tester tout les environnements possibles. Si vous avez pu l'installer, faites le nous savoir... et si vous n'avez pas pu, nous attendons vraiment que vous nous le signaliez. Dans tout les cas, **Bitmask devrait marcher sur n'importe quel système moderne GNU/Linux**. 
+Si vous utilisez une distribution basée sur Debian (comme CrunchBang) ou basée sur Ubuntu (comme Mint), vous devez installer [l'application autonome](#stand-alone-bundle) et nous aimerions beaucoup avoir un retour concernant l'installation de Bitmask ! Il y a énormément de distributions GNU/Linux et il n'y a aucun moyen de tester tout les environnements possibles. Si vous avez pu l'installer, faites le nous savoir... et si vous n'avez pas pu, nous attendons vraiment que vous nous le signaliez. Dans tout les cas, **Bitmask devrait marcher sur n'importe quel système moderne GNU/Linux**.
 
 
 ### Je ne peux me connecter à aucun/quelques/beaucoup de sites

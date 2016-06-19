@@ -8,7 +8,7 @@ Pidgin ist das bekannteste Direktnachrichten-Programm für GNU/Linux, Windows un
 
 h2. Konto erstellen
 
-Beim ersten Start drücke *Strg+A* (alternativ im Menü *Konten* - *Konten verwalten*) und *Hinzufügen ...*, um ein Konto zu erstellen.
+Um ein Konto zu erstellen, drücke beim ersten Start *Strg+A* (alternativ im Menü *Konten* - *Konten verwalten*) und *Hinzufügen ...*, .
 
 (1) Im Reiter *Einfach* stelle folgendes ein:
 
@@ -35,7 +35,7 @@ Für zusätzliche Sicherheit empfehlen wir, Pidgin mit folgenden Schritten abzus
 ** [[usr.bin.pidgin für Ubuntu 9.04 => https://bazaar.launchpad.net/~jpds/apparmor/pidgin-profile/view/head:/usr.bin.pidgin]]
 * starte apparmor neu
 <code>sudo /etc/init.d/apparmor restart</code>
-* starte pidgin neu
+* starte Pidgin neu
 
 h2. Tor mit Pidgin
 
@@ -43,7 +43,7 @@ Um Pidgin über Tor zu benutzen, gehe zu *Kontoeinstellungen*.
 
 !pidgin-modify-account.png!
 
-klicke auf *Erweitert* und setze folgende Werte:
+Klicke auf *Erweitert* und setze folgende Werte:
 * *Verbindungssicherheit*: Verschlüsselung fordern
 * *Verbindungsport*: 5222
 * *Verbindungsserver*: suche auf der [[Seite von Riseups .onion-Diensten->tor#riseups-tor-hidden-services]] nach @xmpp.*.onion@

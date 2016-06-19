@@ -54,15 +54,15 @@ h2. Wie geht´s weiter?
 
 h3. Verbessere die Sicherheit Deiner E-Mail-Kommunikation
 
-# Im besten Falle solltest Du *nicht* StartTLS nutzen. Es ist viel besser, sich für Standard TLS zu entscheiden. Für zusätzliche Sicherheit ändere Deine Konto-Einstellungen von StartTLS zu SSL/TLS.
-# Bei den gesicherten Verbindungen gibt es viele mögliche Angriffspunkte. Falls Du wirklich einen hohen Sicherheitsstandard benötigst, solltest Du Dich mit Riseup immer über [[Riseup VPN -> vpn]] verbinden. Die beugt einer Langen Liste möglicher Angriffe auf Deine Kommunikation vor.
+# Im besten Falle solltest Du *nicht* StartTLS nutzen. Es ist viel besser, sich für TLS zu entscheiden. Für zusätzliche Sicherheit ändere Deine Konto-Einstellungen von StartTLS zu SSL/TLS.
+# Bei den gesicherten Verbindungen gibt es viele mögliche Angriffspunkte. Falls Du einen hohen Sicherheitsstandard benötigst, solltest Du Dich mit Riseup immer über das [[Riseup VPN -> vpn]] verbinden. Dieses beugt einer Langen Liste möglicher Angriffe auf Deine Kommunikation vor.
 # Für verbesserte [[Nachrichtensicherheit -> security/message-security]], überlege Dir, das [[Enigmail-Addon für Thunderbird zu installieren -> enigmail]], welches [[OpenPGP-Unterstützung -> security/message-security/openpgp/enigmail]] integriert.
 
 h3. Versteckte Einstellungen, die Thunderbird enorm beschleunigen
 
-Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du ein Mail öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet ist sehr träge erscheinen.
+Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du eine Email öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet sind, sehr träge erscheinen.
 
-Zum Glück kannst Du was dagegen unternehmen: Thunderbird hat ein paar versteckte Optionen, beim Verbinden mit dem Mailserver einen vollständigen Abgleich durchzuführen. Dies wird Dein Arbeiten im allgemeinen viel erfreulicher und flotter machen.
+Zum Glück kannst Du etwas dagegen unternehmen: Thunderbird hat ein paar versteckte Optionen, beim Verbinden mit dem Mailserver einen vollständigen Abgleich durchzuführen. Dies wird Dein Arbeiten im allgemeinen viel erfreulicher und flotter machen.
 
 Um dies einzustellen, gehe in der Menüleiste über *Bearbeiten > Einstellungen > Erweitert > Allgemein* auf *Konfiguration bearbeiten*
 
