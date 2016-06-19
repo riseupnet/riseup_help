@@ -11,8 +11,8 @@ Pour de l'aide sur comment configurer un client en particulier, cliquez sur un d
 table(table table-striped).
 |_.*Plate-forme*|_.*Clients courriel libres recommandés*|_.*Clients propriétaires*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc| |
-|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
-|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Mac     | [[thunderbird]] | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 

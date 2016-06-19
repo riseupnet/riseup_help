@@ -11,8 +11,8 @@ h2.  邮件客户端是什么？
 table(table table-striped).
 |_.*平台*|_.*推荐的自由软件电子邮件客户端*|_.*其它商业客户端*|
 |Linux   | [[thunderbird]], [[evolution]], Kmail, Balsa, mutt, alpine, etc| |
-|Mac     | [[thunderbird]] | [[apple-mail]], [[postbox]] |
-|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]], [[postbox]] |
+|Mac     | [[thunderbird]] | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
