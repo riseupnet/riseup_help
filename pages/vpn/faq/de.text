@@ -1,30 +1,28 @@
 @nav_title = "FAQ"
 @title = "RiseupVPN FAQ"
 @summary = "Häufig gestellte Fragen und ihre Antworten"
-@toc = true
 
-h2. Was ist mit dem alten RiseupVPN passiert? Warum der Wechsel?
+[[Was ist RiseupVPN?
+Was ist RiseupVPN?
+Was ist Bitmask? Was ist LEAP?
+Wie ist der Stand des neuen RiseupVPN?
+Welche Systeme werden unterstützt?
+Wohin kann ich Fehlerberichte schicken?->vpn]]
+
+h2. Warum ist Bitmask besser als mein OpenVPN? Warum der Wechsel?
 
 Das Hauptproblem mit unserem alten System war, dass es nicht benutzerfreundlich war. Das verursachte bei einigen Nutzern massive Probleme wenn sie versucht haben den VPN einzurichten oder zu reparieren, wenn er nicht funktioniert hat. Verschlüsselung muss einfach sein, nicht etwas was einfach zu vermasseln ist! Wir wechseln zu einem neuen, von LEAP bereitgestellten Dienst, der mit einem brandneuen Client einherkommt, welcher mühelose Konfiguration und verbesserte Sicherheitsmaßnahmen auf Linux und Android bereitstellt (mit Windows und OSX Unterstützung in Bearbeitung).
 
+Wir sind uns bewusst, dass Verschlüsselung (im Allgemeinen) schwer ist und dass ein erheblicher Graben klafft beim Zugang zu Sicherheitssystemen zwischen technik-affinen Menschen und dem Rest der Welt. Um eine [[freie Gesellschaft->about-us/politics]] aufzubauen, müssen wir daher garantieren, dass alle den gleichen Zugang zu sicherer und privater Kommunikationstechnologie haben.
+
 Das ist ein wesentlicher Bestandteil von Riseups neuen Anti-Überwachungsdiensten, welche von dem "LEAP Encryption Access Project":https://leap.se bereitgestellt werden.
 
-h2. ... Aber ich mag OpenVPN!
+h2. Was ist mit dem alten RiseupVPN/OpenVPN passiert? 
+
+OpenVPN gibt es noch! Bitmask verwendet OpenVPN mit verschiedenen Sicherheitserweiterungen als Standard. Einer der größten Probleme mit Verschlüsselung ist heute, wie leicht dabei Fehler gemacht werden. Daher erzwingen wir Sicherheit mit Bitmask. Es bewahrt vor gewöhnlichen Problemen mit VPN wie DNS- oder IPv6-Leaks, oder Daten die klar über das Internet übertragen werden, sobald die Verbindung abbricht.
+
+Selbst wenn wir OpenVPN im Hintergrund benutzen, brauchst du Bitmask, um dich mit dem LEAP-VPN-System zu verbinden.
+
+h2. ... aber ich mag OpenVPN!
 
 Wir auch! Das ist der Grund, weshalb unsere neuen VPN Systeme auf OpenVPN aufgebaut sind. LEAPs Ansatz, Verschlüsselung umgänglich zu machen, beinhaltet das Anpassen von sicheren, existierenden Technologien, das Ausmerzen von bekannten Sicherheitsproblemen die durch Fehlkonfiguration entstehen (wie DNS oder IPv6 Leaks) oder Fehlverhalten von Clients (wie das Senden Deines gesamten Internetverkehrs direkt ins Internet wenn du die Verbindung zum VPN Anbieter verloren hast).
-
-h2. Was ist LEAP?
-
-LEAP ist ein Projekt, dass sich darauf konzentriert Verschlüsselung einfach verwendbar und verfügbar zu machen, ohne ihre Sicherheit zu gefährden. Mit dem Anpassen von existierenden Technologien, erstellt LEAP Werkzeuge welche Dich Dein Recht auf digitalen Schutz ausüben lassen, als fundamentale Vorraussetzung für eine freie Gesellschaft.
-
-h2. Wie ist der Status des neuen RiseupVPN?
-
-Der neue RiseupVPN funktioniert schon. Bitte sag uns bescheid wenn bei Dir ein Problem auftritt!
-
-h2. Welche Systeme werden unterstützt?
-
-Die Bitmask Anwendung läuft unter GNU/Linux (als Paket auf Debian und Ubuntu und als Bundle für andere Distributionen), Mac OSX und Android. Bitte überprüfe die Einrichtungsanweisungen für diese Systeme.
-
-h2. Wohin sende ich die gefundenen Fehler?
-
-Bitte beantrage ein Problem unter "Deinem Account":https://black.riseup.net.

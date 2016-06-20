@@ -22,32 +22,28 @@ h2. Was ist Bitmask? Was ist LEAP?
 
 Unser neues RiseupVPN ist Teil einer neuen Generation von Anti-Überwachungsdiensten angetrieben durch das [[LEAP Projekt für verschlüsselten Zugang -> https://leap.se]]. LEAP ist eine Gemeinschaftsunternehmung, um existierende Verschlüsselungstechnologien einfach benutzbar und damit weithin verfügbar zu machen ohne dabei die Sicherheit einzuschränken. Um dies zu erreichen, muss die Anwendung Bitmask installiert werden.
 
-Wir sind uns bewusst, dass Verschlüsselung (im Allgemeinen) schwer ist und dass ein erheblicher Graben klafft beim Zugang zu Sicherheitssystemen zwischen technik-affinen Menschen und dem Rest der Welt. Um eine freie Gesellschaft aufzubauen, müssen wir daher garantieren, dass alle den gleichen Zugang zu sicherer und privater Kommunikationstechnologie haben.
+LEAP ist ein Projekt, dass sich darauf konzentriert Verschlüsselung einfach verwendbar und verfügbar zu machen, ohne ihre Sicherheit zu gefährden. Mit dem Anpassen von existierenden Technologien, erstellt LEAP Werkzeuge welche Dich Dein Recht auf digitalen Schutz ausüben lassen, als fundamentale Vorraussetzung für eine freie Gesellschaft.
 
-Die Rolle von Bitmask ist es, uns dabei zu unterstützen. Bitmask bietet eine einfache Erfahrung ohne Nerverei, es konfiguriert sich selbst, ist auf vielen Plattformen verfügbar und bietet verschiedene Sicherheitserweiterungen.
+Die neue **Bitmask**-Anwendung konfiguriert sich problemlos selbst, ist auf vielen Plattformen verfügbar und bietet verschiedene Sicherheitserweiterungen.
 
-Um es auszuprobieren, lies die Installationsanleitung (siehe oben). Hab keine Angst!
+Um es auszuprobieren, lies die [[Installationsanleitung->vpn/how-to]]. Hab keine Angst!
 
-h2. Was ist mit OpenVPN passiert? Warum ist Bitmask besser als mein OpenVPN?
+[[Warum ist Bitmask besser als mein OpenVPN? Warum der Wechsel?
+Was ist mit dem alten RiseupVPN/OpenVPN passiert?
+... aber ich mag OpenVPN!->faq]]
 
-OpenVPN gibt es noch! Bitmask verwendet OpenVPN mit verschiedenen Sicherheitserweiterungen als Standard. Einer der größten Probleme mit Verschlüsselung ist heute, wie einfach es ist, Fehler zu machen. Daher erzwingen wir Sicherheit mit Bitmask. Es bewahrt vor gewöhnlichen Problemen mit VPN wie DNS- oder IPv6-Leaks, oder Daten die klar über das Internet übertragen werden, sobald die Verbindung abbricht.
+h2. Wie ist der Stand des neuen RiseupVPN?
 
-Selbst wenn wir OpenVPN im Hintergrund benutzen, brauchst du Bitmask, um dich mit dem LEAP-VPN-System zu verbinden.
+Das neue RiseupVPN läuft bereits. Sag uns, wenn Fehler bei dir auftreten!
 
-h2. Warum solltest du dich mit einem VPN benutzen wollen?
+h2. Welche Systeme werden unterstützt?
 
-Bei Riseup glauben wir, dass es wichtig ist, dass alle Technologien wie VPN oder [[security/tor]] verwenden, um ihren Internetverkehr zu verschlüsseln. Warum? Weil das Internet durch Regierungen, Internetanbieter (ISP) und Unternehmen kaputt gemacht wird. (Weiterlesen). RiseupVPN wird dagegen kämpfen mittels:
+Die Bitmask-Anwendung läuft auf [[GNU/Linux->how-to/linux]] (als Debian/Ubuntu-Paket und als eigenständiges Paket für andere Distributionen), Mac OSX und [[Android->how-to/android]]. Bitte lies [[Installationsanleitung->how-to]].
 
-# *Schutz gegen ISP-Überwachung*: RiseupVPN eliminiert die Fähigkeit deines Providers, deine Verbindung zu überwachen. Sie bekommen keine auswertbaren Einträge, die entweder durch Märkte oder Staaten gegen dich verwendet werden könnten.
-# *Umgehung von Regierungszensur*: RiseupVPN kann komplett jede Regierungszensur umgehen, so lange Du einen Internetzugang hast. Beachte, dass eine genaue Analyse deiner Verbindungsdaten enthüllen könnte, dass ein VPN benutzt wird.
-# *Zugang zum ganzen Internet, egal wo du lebst*: RiseupVPN erlaubt es, vorzugeben, in einem Land zu leben, wo unser VPN gateway server steht. Das gibt dir Zugang zu geblocktem Inhalt, der nur in diesen Ländern verfügbar ist. RiseupVPN erlaubt dir also, verschiedene Dienste zu benutzen, die sonst in Deinem Land geblockt werden.
-# *mach dich frei von Unternehmens-Firewalls*: Du arbeitest also für ein böses Unternehmen und versuchst, so viel Zeit mit Surfen im Internet zu verschwenden. Unglücklicherweise verhindert die Unternehmensfirewall wahrscheinlich, viele Seiten zu besuchen (riseup.net ist auf der Liste gebannter Seiten für [[Unternehmensfirewalls -> https://www.barracudanetworks.com/]]). RiseupVPN lässt dich komplett diese Einschränkung  umgehen und ermöglicht Zugang zum ganzen Netz.
-# *sichere deine WLAN-Verbindung*: Jedes Mal, wenn du eine WLAN-Verbindung benutzt, können alle Nutzer*innen dieses Zugangspunktes deinen Verkehr ausspähen. RiseupVPN schützt dich davor.
+h2. Wohin kann ich Fehlerberichte schicken?
 
-h2. Limitierungen von RiseupVPN
+Bitte erstelle ein Ticket in deinem "Konto":https://black.riseup.net.
 
-Das RiseupVPN teilt einige Limitierungen, die alle VPNs gemein haben:
+<%= render :file => '_why-vpn' %>
 
-* *Eine unsichere Verbindung ist immer noch unsicher*: Obwohl RiseupVPN immer deine Ortsangaben anonymisiert, sobald deine Daten sicher über riseup.net geschickt werden, werden die Pakete unverändert ins Internet übertragen. Das bedeutet, du solltest zusätzlich TLS benutzen, falls verfügbar (wie z.B. https, imaps, etc).
-* *RiseupVPN ist kein panacea*: obwohl VPNs einiges bieten, können sie nicht alle Probleme lösen. Zum Beispiel kann es nicht die Sicherheit erhöhen, wenn [[Viren oder Überwachungssoftware-> viruses]] auf Deinem Rechner sind. Wenn Du persönliche Informationen auf einer Webseite eingibst, gibt es wenig, was ein VPN tun kann, um deine Anonymität mit dieser Webseite oder ihrer Partner zu gewährleisten. Für weitere Informationen siehe [[VPN-Anonymität -> security-issues]].
-* *Das Internet könnte langsamer werden*: das RiseupVPN schickt allen Verkehr durch einen verschlüsselten Tunnel zu riseup.net, bevor er ins Internet geleitet wird. Dieser Zusatzschritt kann Dinge verlangsamen. Um diese Verlangsamung zu minimieren, versuche, einen VPN gateway server in deiner Nähe zu benutzen.
+<%= render :file => '_vpn-limitations' %>

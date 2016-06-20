@@ -1,0 +1,11 @@
+h2. Warum du ein VPN benutzen solltest
+
+Wir von Riseup glauben, dass es wichtig ist, dass alle Technologien wie VPN oder [[tor]] verwenden, um ihren Internetverkehr zu verschlüsseln. Warum? Weil das Internet durch Regierungen, Internetanbieter (ISP) und Unternehmen kaputt gemacht wurde. ([[weiterlesen->why-is-needed]]). RiseupVPN kämpft dagegen mittels:
+
+# *Schutz gegen ISP-Überwachung*: RiseupVPN eliminiert die Fähigkeit deines Providers, deine Verbindung zu überwachen. Sie bekommen keine auswertbaren Einträge, die entweder durch Märkte oder Staaten gegen dich verwendet werden könnten.
+# *Umgehung von Regierungszensur*: RiseupVPN kann komplett jede Regierungszensur umgehen, so lange Du einen Internetzugang hast. Beachte, dass eine genaue Analyse deiner Verbindungsdaten enthüllen könnte, dass ein VPN benutzt wird.
+# *Zugang zum ganzen Internet, egal wo du lebst*: RiseupVPN erlaubt es, vorzugeben, in einem Land zu leben, wo unser VPN gateway server steht. Das gibt dir Zugang zu geblocktem Inhalt, der nur in diesen Ländern verfügbar ist. RiseupVPN erlaubt dir also, verschiedene Dienste zu benutzen, die sonst in Deinem Land geblockt werden.
+# *mach dich frei von Unternehmens-Firewalls*: Du arbeitest also für ein böses Unternehmen und versuchst, so viel Zeit mit Surfen im Internet zu verschwenden. Unglücklicherweise verhindert die Unternehmensfirewall wahrscheinlich, viele Seiten zu besuchen (riseup.net ist auf der Liste gebannter Seiten für [[Unternehmensfirewalls -> https://www.barracudanetworks.com/]]). RiseupVPN lässt dich komplett diese Einschränkung  umgehen und ermöglicht Zugang zum ganzen Netz.
+# *sichere deine WLAN-Verbindung*: Jedes Mal, wenn du eine WLAN-Verbindung benutzt, können alle Nutzer*innen dieses Zugangspunktes deinen Verkehr ausspähen. RiseupVPN schützt dich davor.
+
+[[Mehr->why-is-needed]]
