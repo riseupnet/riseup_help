@@ -1,0 +1,11 @@
+h2. Why would you want to use the RiseupVPN?
+
+At Riseup, we believe it is important for everyone to use some technology like VPN or [[security/tor]] to encrypt their internet traffic. Why? Because the internet is being broken by governments, internet service providers (ISPs), and corporations ([[read more->vpn/why-is-needed]]). RiseupVPN will fight that, providing:
+
+# *protection against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
+# *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
+# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN gateway server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country.
+# *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> https://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
+# *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
+
+[[Read more->vpn/why-is-needed]]

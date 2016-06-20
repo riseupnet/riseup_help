@@ -1,6 +1,7 @@
 @nav_title = "FAQ"
 @title = "RiseupVPN FAQ"
 @summary = "Häufig gestellte Fragen und ihre Antworten"
+@toc = true
 
 h2. Was ist mit dem alten RiseupVPN passiert? Warum der Wechsel?
 

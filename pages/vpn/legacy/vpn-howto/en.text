@@ -58,4 +58,3 @@ ExitPolicy reject *:7000-7005
 </pre>
 
 and then restarting your Tor daemon.
-

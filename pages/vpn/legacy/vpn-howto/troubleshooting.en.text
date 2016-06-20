@@ -1,4 +1,8 @@
+@title = "Troubleshooting"
+
 p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
+
+h1. General Tips
 
 h2. Error Messages
 
@@ -9,8 +13,6 @@ This happens when you have the wrong password.
 h3. "No VPN secrets!"
 
 This happens when the keyring is not working and returns an empty username and password.
-
-h2. General Tips
 
 example logs:
 
@@ -26,6 +28,25 @@ openvpn: UDPv4 link remote: [AF_INET]209.234.253.121:1194
 openvpn: [vpn.riseup.net] Peer Connection Initiated with [AF_INET]209.234.253.121:1194
 openvpn: Initialization Sequence Completed
 </pre>
+
+
+h1. Linux
+
+If OpenVPN is not working, run this to see what is wrong:
+
+@# tail -f /var/log/syslog | grep -i vpn@
+
+If you are on a distribution that has SELinux enabled (eg. Fedora), then SELinux is going to block OpenVPN from accessing cert files unless they have specific permissions set properly. You need to put the Riseup cert into ~/.cert and then you need to run:
+
+@# restorecon -Rv ~/.cert@
+
+You wont see a very specific error about this, graphically just a very vague error, but in the system log you would see something like:
+
+<pre>
+nm-openvpn[6304]: Cannot load CA certificate file /home/phip/Documents/certs/RiseupCA.pem path (null) (SSL_CTX_load_verify_locations): error:0200100D:system library:fopen:Permission denied
+</pre>
+
+although the above error is the same error you would get if the permissions are wrong in general on the certificate, so if you are getting that error, but are not running SELinux, check the permissions on your cert file!
 
 h2. Gnome
 
@@ -54,3 +75,54 @@ NetworkManager: <info> VPN connection 'openvpn' (IP Config Get) complete.
 NetworkManager: <info> Policy set 'openvpn' (tun0) as default for IPv4 routing and DNS.
 NetworkManager: <info> VPN plugin state changed: 4
 </pre>
+
+
+h1. Mac
+
+If the connection doesn't work, try these:
+
+# Where is the RiseupCA.pem file saved? Make sure you can find the file in the finder and that the path to the file is the same as specified in your configuration file.
+# Did you remember to remove the .txt extensions from the certificate file and the configuration file? The config file must end in .ovpn
+# If you are not able to use the internet when connected, your ISP may be blocking connections on port 1194. To change what port OpenVPN uses, you can change 1194 to 80 or 443 in the above configuration file.
+# By default, OpenVPN will use an internet protocol call UDP. This is faster, but sometimes you need to change this to TCP in order to get OpenVPN to work. To do so, add this to the configuration: <code>proto tcp</code>.
+
+
+h1. Windows
+
+If you are having problems connecting, the first thing you need to do is to find your openvpn logs because that is where problems are typically recorded. To get your logs you simply right click on the openvpn GUI notification icon, and click view logs.
+
+Once you have these, look in there for errors, some errors and solutions are below:
+
+h3. ROUTE: route addition failed using CreateIpForwardEntry: One or more arguments are not correct.
+
+If you get this error, add these lines to your openvpn.conf file:
+<pre>
+route-method exe
+route-delay 2
+</pre>
+
+h3. WARNING: 'dev-type' is used inconsistently, local='dev-type tap', remote='dev-type tun'
+
+If you find this error in your logs, you can try to change your configuration to have 'dev tun' instead of 'dev tap'
+and add this to your configuration:
+<pre>
+tun-mtu 1500
+</pre>
+
+h2. Other Problems
+
+h3. Saving Passwords
+
+Password storage on the windows client is insecure: There is no way in the current version to save your password. although it is possible [[recompile->http://openvpn.net/archive/openvpn-users/2005-04/msg00363.html]] the software with this option enabled (such as [[this version->http://forums.ivacy.com/index.php?topic=269.0]]), this stores your password in cleartext.
+
+Instead of using your riseup.net password, you should use a [[VPN Secret->vpn-secret]]. It is OK to store the VPN Secret in cleartext.
+
+h3. Using TUN instead of TAP
+
+If you use @dev tun@ instead of @dev tap@ in the configuration file, you *must* run openvpn as administrator. Otherwise, it will appear to work, but none of your traffic will actually be going over the RiseupVPN.
+
+To run OpenVPN as administrator:
+
+Right click on the *OpenVPN GUI* application and either choose "Run as Administrator" or if that doesn't exist, choose *properties*. From there, check *compatibility mode* and *run as administrator*. The *OpenVPN GUI* can be found under Start button → All Programs → OpenVPN → OpenVPN GUI.
+
+!/vpn/vpn-howto/win7-run-as-admin.jpg!
