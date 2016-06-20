@@ -16,7 +16,7 @@ The first time you run Claws Mail, the setup wizard will walk you through settin
 
 *If using Tails* you will almost certainly want to "configure a persistent volume":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html and enable "GnuPG", and "Claws Mail".
 
-# Enter your name/alias and e-mail address on the first page 
+# Enter your name/alias and e-mail address on the first page
 # Click "Forward" to advance to the next screen
 # [[Choose server type as POP3 or IMAP -> email/clients#choose-imap-or-pop]] (IMAP leaves mail on server, POP3 downloads it locally - this means IMAP is a good choice if you have multiple machines accessing the mailbox and POP3 is a slightly better choice for privacy, the POP3 user experience is much faster and it unburdens your [[quota]])
 # Enter *mail.riseup.net* for the *Server address* (both for IMAP and POP3)
@@ -70,4 +70,4 @@ If you are using IMAP everything should just work automatically.  If you are usi
 
 h2. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>

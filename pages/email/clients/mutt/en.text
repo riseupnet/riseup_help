@@ -53,7 +53,7 @@ Look at https://wiki.archlinux.org/index.php/Mutt#POP3 for more info.
 
 h2. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h3. Using [[OpenPGP]] in @mutt@
 

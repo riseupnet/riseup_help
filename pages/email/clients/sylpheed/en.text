@@ -23,4 +23,4 @@ Sylpheed is very easy to set up.
 
 h2. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>

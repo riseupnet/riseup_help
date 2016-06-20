@@ -11,4 +11,4 @@ We have no tutorial written yet for configuring Outlook with Riseup. You can hel
 
 h1. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>

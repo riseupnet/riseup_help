@@ -39,7 +39,7 @@ You're finished!  You now can use Evolution to send and receive email through Ri
 
 h1. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h2. Setup OpenPGP Encryption in Evolution
 

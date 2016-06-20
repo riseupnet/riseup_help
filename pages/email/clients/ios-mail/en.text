@@ -69,4 +69,4 @@ That's it, your mail should be all setup now:
 
 h1. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>

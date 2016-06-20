@@ -8,7 +8,7 @@ If you do want to use Apple Mail, then you can follow our instructions here. The
 
 h1. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h2. use OpenPGP with Apple Mail
 

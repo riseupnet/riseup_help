@@ -55,7 +55,7 @@ h2. What is next?
 
 h3. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h3. Add some extensions
 

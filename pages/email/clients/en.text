@@ -44,7 +44,7 @@ Suppose your email address was [@joehill@riseup.net@]:
 
 h2. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h2. Use Thunderbird
 

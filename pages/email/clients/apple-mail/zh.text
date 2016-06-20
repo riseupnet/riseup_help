@@ -8,7 +8,7 @@
 
 h1. Enhance Security
 
-<%= render :file => 'enhance-security', :type => :raw %>
+<%= render :partial => 'enhance-security' %>
 
 h2. 如果您想在 Apple Mail上使用 OpenPGP
 

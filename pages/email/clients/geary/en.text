@@ -21,7 +21,7 @@ Geary will ask you for your GNOME keyring password to save your Riseup password.
 
 h2. Enhance your email security
 
-<%= render :file => '_enhance-security' %>
+<%= render :partial => 'enhance-security' %>
 
 h3. Verify SSL/TLS certificate
 
