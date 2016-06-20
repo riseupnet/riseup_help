@@ -1,0 +1,265 @@
+@title = "Gestion des clés OpenPGP"
+
+Ce didacticiel détaille toutes les étapes de la créations de paires de clés OpenPGP publiques et privées, l'exportation de clés publiques vers des serveurs de clés, et la recherche de clés publiques pour communiquer de façon sécuritaire.
+
+h1. Avant de commencer -- faites ceci en premier !
+
+Nous vous suggérons de commencer par vous familiariser avec notre guide des [[gpg-best-practices]] pour vous assurer que vous avez configuré votre système pour générer une clé forte et recevoir les mises à jour des clés d'un serveur de clés maintenu régulièrement. Pour ce faire, vous devrez modifier le fichier de configuration gpg.conf, qui se trouve à divers endroits, dépendant de votre système d'exploitation. Sous Linux, ce fichier se trouve le plus souvent à cet endroit : @~/.gnupg/gpg.conf@
+
+h1. Linux
+
+h2. Utiliser l'interface graphique de GNOME: Seahorse
+
+h3. Qu'est-ce que Seahorse?
+
+"Seahorse":https://en.wikipedia.org/wiki/Seahorse_(software) (page en anglais) est un outil à interface graphique servant à créer et à administrer des clés OpenPGP, stocker des mots de passe de façon sécuritaire, et créer et administrer des certificats SSH. Seahorse utilise GPG en arrière-plan, comme implémentation de OpenPGP. 
+h3. Créer et exporter une paire de clés OpenPGP publique/privée 
+# Démarrer Seahorse. Il devrait être installé par défaut.
+# Sélectionnez «Clés GnuPG»
+# Sélectionnez le + pour créer une nouvelle clé
+# Sélectionnez «PGP Key»
+# Saisissez votre adresse courriel, ainsi que le nom que vous souhaitez associer avec la clé. Ce nom ne doit pas forcément être votre vrai nom.
+# Sélectionnez «Options avancées»
+# Le type d'encryption devrait être «RSA»
+# La «force de la clé» devrait être 4096
+# La date d'expiration devrait être d'ici deux ans. *Vous pouvez toujours reporter la date d'expiration de la clé tant que vous y avez accès, même si la clé est expirée.* [[Pourquoi devrais-je spécifier une date d'expiration ? -> gpg-best-practices#use-an-expiration-date-less-than-two-years]] 
+# Choisissez un mot de passe **fort** dont vous vous souviendrez. **Si vous oubliez ce mot de passe, il ne peut être récupéré, et toutes les données encryptées avec ce mot de passe, incluant les courriels, demeureront à jamais inaccessibles.**
+# L'ordinateur va maintenant générer la clé, ce qui peut prendre beaucoup de temps. Après cela, vous aurez une paire de clés OpenPGP prête à utiliser -- Génial! Vous pouvez modifier les options de la clé, exporter la clé publique, changer le mot de passe, supprimer et/ou révoquer la clé, et procéder à d'autres ajustements par l'interface graphique de Seahorse, ou en ligne de commande.
+# **Optionnel:** Vous pouvez maintenant publier votre clé publique sur un serveur de clés où d'autre gens pourront en faire la requête pour vous envoyer des données et des courriels encryptés. Avant de continuer, assurez-vous d'avoir [[choisi un bon serveur de clés -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Lorsque vous êtes prêt-e-s:
+## Sélectionner la ou les clé(s) que vous désirez publier. Maintenez la touche Ctrl enfoncée pour sélectionner plus d'une clé, ou appuyez sur **Ctrl+A** pour sélectionner toutes les clés.
+## Ouvrez le menu **Remote** -> **Synchroniser et publier des clés...**
+## Cliquez sur le bouton **Serveurs de Clés**.
+## Publiez les clés sur n'importe quel serveur.(Sélectionnez-en un si le bouton «Synchroniser» était désactivé); Les serveurs se synchronisent tous entre eux, votre clé se retrouvera sur chacun d'entre eux.
+## **Recommandé:** Cochez la case **Récupérer les clés automatiquement depuis les serveurs** mais *ne cochez pas* la case **Synchroniser automatiquement les clés modifiées avec les serveurs de clés.**. Considérez plutôt d'adopter  [[un comportement précautionneux -> /gpg-best-practices#refresh-your-keys-slowly-and-one-at-a-time]]. 
+## Appuyez sur le bouton **Fermer** , puis le bouton **Synchroniser** pour synchroniser vos clés..
+
+Votre clé publique est maintenant publiée sur les serveurs de clés, et elle est accessible aux autres.
+
+h3. Trouver ou importer la clé OpenPGP de quelqu'un d'autre
+
+Si vous souhaitez pouvoir communiquer avec quelqu'un de façon sécuritaire ou encrypter des données qu'ils ou elles seront seul-e-s à pouvoir accéder, vous devez d'abord importer leur clé publique dans votre trousseau de clés.  **Note:** La clé alias John Q. est utilisée comme exemple pour générer une clé plus haut, et aussi pour l'importation d'une clé, plus bas; dans le cas de l'importation, ce nom réfère à la personne que vous recherchez, et non vous-mêmes. 
+
+h4. Importer depuis un fichier de clé
+
+Si quelqu'un exporte sa clé vers un fichier,puis vous le transmet, vous pouvez l'importer dans votre trousseau de clés avec Seahorse. Voici comment :
+# Rendez-vous dans le menu **Fichier** -> **Importer...** puis
+# Naviguez jusqu'à l'emplacement où vous avez sauvegardé le fichier, puis pressez le bouton **Ouvrir**.
+
+La clé contenue dans le fichier de clé sera importée dans votre trousseau de clé.
+
+h4. Rechercher sur des serveurs de clés
+
+# Rendez-vous au menu **Remote** -> **Trouver des clés distantes...** dans Seahorse
+# Saisissez des mots-clés (un nom ou un alias) pour rechercher dans les serveurs de clés. La meilleure façon de trouver quelqu'un est de rechercher leur adresse courriel, puisqu'il s'agit d'un identifiant unique.
+# Passez en revue les clés retrouvées par le serveur afin de déterminer si elles correspondent bien à la personne que vous recherchez. Vous pouvez obtenir des informations additionnelles sur les clés en appuyant sur le bouton **Propriétés**.
+# Une fois que vous avez sélectionné la ou les clés que vous désirez importer dans votre trousseau de clés local, appuyez sur **Importer**.
+
+Les clés que vous avez sélectionnées seront ajoutées à votre trousseau de clés.
+
+h3. Vérifier une clé.
+
+N'importe qui peut publier une clé sur un serveur de clés. Par exemple, pour vous amuser, essayez de trouver la clé d'Edward Snowden. Il y en a beaucoup ! Avant de commencer à utiliser une clé, vous devriez vérifier l'empreinte numérique de la clé avec l'individu avec qui vous souhaitez communiquer. *Vous ne devriez pas faire cela par courriel.* La meilleure façon de procéder est de faire cela en personne. Au minimum, vous devriez confirmer vocalement ou par vidéo que vous avez la bonne clé. Pour vérifier l'empreinte numérique, vous pouvez effectuer les étapes suivantes:
+
+# Ouvrez Seahorse
+# Sur le menu Afficher, sélectionnez "Montrer tout"
+# Trouver la clé que vous avez importée.
+# Sélectionner «propriétés».
+# Sélectionner «détails»
+# Confirmer avec le propriétaire de la clé que l'empreinte numérique qui s'y trouve est correcte.
+
+Après avoir soigneusement vérifié l'exactitude de l'empreinte numérique du propriétaire de la clé, vous pouvez signer leur clé avec votre clé. Pour faire ceci :
+
+# Depuis la même fenêtre que précédemment, sélectionner l'onglet **Confiance**, puis appuyez sur le bouton **Signer cette clé**.
+# Signez la clé, en indiquant avec quel niveau de précaution vous avez vérifié la clé. Si vous sélectionnez **Pas du tout**, vous pourrez toujours vous servir de la clé pour les courriels et les données. Vous pouvez aussi vous laisser la possibilité de révoquer votre signature plus tard, ou faire en sorte de ne laisser personne voir que vous avez signé la clé.
+# Appuyez sur **Signer**.
+
+Vous pouvez maintenant encrypter des données qui ne seront déchiffrables que par le propriétaire de la clé, et établir une ligne de communication sécuritaire entre vous et le propriétaire de la clé.
+
+h2. Utiliser la ligne de commande Linux
+
+Ceci est basé sur le didacticiel an anglais "Ubuntu GPG Howto":https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+
+h3. Assurez-vous que vous avez déjà configuré les bons paramètres par défaut.
+
+Veuillez d'abord consulter notre guide des [[gpg-best-practices]] pour vous assurez que les paramètres par défaut sont configurés correctement. *Faites cela avant de continuer.*
+
+h3. Générer une paire de clés OpenPGP avec GPG
+
+Appuyez sur **Alt+F2** et tapez: @gnome-terminal@ puis appuyez sur **Entrée**
+
+Dans le terminal, taper: @gpg --gen-key@
+Vous devriez obtenir un menu similaire à celui-ci (en anglais):
+
+bc. Please select what kind of key you want:
+  (1) RSA and RSA (default)
+  (2) DSA and Elgamal
+  (3) DSA (sign only)
+  (4) RSA (sign only)
+
+Sélectionnez le type de clés.  **RSA and RSA** est le type recommandé. Les clés de type **(sign only)** ne peuvent pas être utilisées pour le chiffrement.
+
+Ensuite, entrez la taille de clé que vous désirez.
+
+bc. What keysize do you want? (2048)
+
+p. **4096** est la taille recommandée.
+Entrez la durée de validité désirée pour la clé, puis appuyez sur **y** pour confirmer la date d'expiration.
+
+bc. Please specify how long the key should be valid.
+     0 = key does not expire
+   <n> = key expires in n days
+   <n>w = key expires in n weeks
+   <n>m = key expires in n months
+   <n>y = key expires in n years
+Key is valid for? (0)
+
+Si vous sélectionnez 0, la clé n'expirera pas, et devra être révoquée quand vous souhaiterez ne plus l'utiliser. [[Il est recommandé -> /gpg-best-practices#use-an-expiration-date-less-than-two-years]] de fixer une date d'expiration d'ici deux ans.
+
+Saisissez votre nom et votre adresse courriel. [[Il n'est pas recommandé d'utiliser un commentaire -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]]. Votre nom et votre adresse courriel peuvent être n'importe quoi, et ne sont pas limités à votre nom usuel et votre adresse courriel principale. Si vous souhaitez utiliser OpenPGP pour encrypter des courriels, inscrivez comme adresse courriel l'adresse que vous souhaitez utiliser avec encryption.
+
+bc. You need a user ID to identify your key; the software constructs the user ID
+from the Real Name, Comment and Email Address in this form:
+  "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
+Real name: John Q. Alias
+Email address: the-email-youre-going-to-use@whatever.tld
+Comment:
+
+Choisissez maintenant un mot de passe **robuste** dont vous vous souviendrez. **Si vous oubliez ce mot de passe, il ne peut être récupéré, et toutes les données que vous avez encrypté avec cette clé, incluant les courriels, seront à jamais inaccessibles.** Appuyez sur **Entrée** lorsque vous avez terminé pour entamer la génération de la clé.
+
+Votre paire de clés OpenPGP a été générée!
+
+h3. Afficher la liste de vos clés.
+
+Vous pouvez utiliser cette commande pour afficher la liste de vos clés.:
+@gpg --list-secret-keys@
+
+Cela devrait générer une liste dans un format comme celui-ci:
+
+bc. sec 4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb 4096R/0x40339E25E2F2D99E 2014-05-14
+
+p. Toute référence à votre **KEY-ID** plus bas peut être retrouvée en utilisant la première commande, puis en cherchant dans la liste. La ligne que vous devez regarder pour trouver le **KEY-ID** est la ligne **sec** de chacune des entrées. La ligne comporte sec, la «robustesse» de la clé, ainsi qu'une abréviation pour le type (**4096R** dans la première ligne de l'exemple), puis, une barre oblique, le **KEY-ID**, ainsi que la date d'expiration. Le code suivant montre le **KEY-ID** en surbrillance :
+
+bc. sec   4096R/0xE361D8GH916EFH89 2014-05-14 [expires: 2016-05-14]
+^KEY-ID^
+Key fingerprint = 1234 5678 90AB CDEF GH01  2344 5678 9012 ABCE FGH1
+uid John Q. Alias <the-email-youre-going-to-use@wherever.tld>
+ssb 4096R/0x40339E25E2F2D99E 2014-05-14
+
+p. Dans cet exemple, le **KEY-ID** serait **E361D8GH916EFH89**.
+
+Cependant, [[ainsi que discuté ici-> /gpg-best-practices#dont-rely-on-the-key-id]] vous ne devriez pas vous fier uniquement au **KEY-ID**! Vous devriez plutôt utiliser l'empreinte numérique complète («full fingerprint») pour toutes vos opérations.
+
+h3. Exporter/Publier votre clé OpenPGP publique.
+
+# Appuyez sur **Alt+F2** et exécutez @gnome-terminal@
+# Créer une version «ASCII armored» de votre clé publique for exporting by typing:
+@gpg --export -a <<fingerprint>> > mykey.asc@
+
+Vous venez d'exporter votre clé publique ASCII armored OpenPGP vers le fichier **mykey.asc** dans le répertoire courant (votre répertoire «home», si vous venez d'ouvrir un nouveau terminal). Maintenant vous pouvez envoyer la clé à n'importe qui pour leur permettre d'encrypter des données pour votre bénéfice.
+
+h3. Publier votre clé publique OpenPGP sur le serveur de clés d'Ubuntu.
+
+Vous pouvez maintenant publier votre clé publique sur un serveur de clés, où des gens pourront en faire la requête afin de vous faire parvenir des courriels et des données encryptés.
+# Appuyez sur **Alt+F2** et exécutez: @gnome-terminal@
+# tappez @gpg --send-keys <<empreinte>>@
+où <<empreinte>> est l'empreinte numérique de la clé que vous souhaitez publier. Idéalement, vous avez déjà [[choisi un bon serveur de clés-> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
+
+h1. Windows
+
+*La version Windows de ce guide n'est pas à jour. Si vous utilisez Windows, vous pouvez nous aider à la mettre à jour! Voyez [[notre dépôt github pour les pages d'aide -> https://github.com/riseupnet/riseup_help]]*
+
+Il **n'est pas recommandé** d'utiliser Windows comme plateforme de communications sécuritaire. Malgré que Windows puisse être verrouillé et ainsi procurer un environnement plus sécuritaire que celui offert par défaut, Windows a tout de même tendance à se soucier peu de la sécurité. Il y a également une multitude de failles de sécurité inscrites dans Windows qui rendent les données plus faciles à compromettre. Voici quelques arguments en défaveur de Windows comme plateforme de communications sécuritaires :
+* La distribution largement répandue de malware/troyens/virus qui enregistrent les frappes au clavier, contourner les procédures d'encryption et/ou saisir d'autres informations.
+* L'installation ciblée de malware est utilisée par des agences gouvernementales car Windows est extrêmement susceptible.
+* Windows utilise le plus souvent un système de fichiers non encrypté, l'outil principal utilisé pour l'encryption est propriétaire, et ne peut donc pas être examiné afin d'y trouver des failles ou des faiblesses.
+* Les utilisateurs sont des administrateurs par défaut.
+* Puisque Windows est est propriétaire et que le code source n'est pas accessible, il n'existe aucune possibilité de vigilance extérieure pour des défauts, ou des portes dérobées. Vous devez faire entièrement confiance à Microsoft pour tous les secrets que vous choisissez de stocker sur votre ordinateur.
+
+Pour assurer une plateforme de communications sécuritaire, il est recommandé d'installer Linux. Consultez [[Installer Ubuntu Linux -> /missing-page]] pour créer une plateforme de communications sécuritaire, ou pour de plus amples informations.
+
+h2. Installer Gpg4win
+
+"Gpg4win":http://www.gpg4win.org est l'implémentation recommandée d'OpenPGP pour Windows. C'est un logiciel libre et gratuit, sous licence GPL, et le code source est disponible, peut être modifié et examiné.
+
+# Télécharger "Gpg4win":http://www.gpg4win.org/download.html
+# Faites un clic-double sur l'exécutable, et commencez l'installation.
+# Sélectionner la langue de votre choix.
+# Vous verrez apparaître l'écran d'acceuil. Appuyez sur **Suivant** pour continuer.
+
+!img/gpg4win1-install-welcome.gif!
+
+# On vous demandera ensuite d'accepter les termes de la License [[GNU General Public License -> https://en.wikipedia.org/wiki/General_Public_License]] (the GPL license), qui peut être lue au complet sur [GNU.org ->https://www.gnu.org/licenses/gpl.html]. Si vous acceptez, appuyez sur **Suivant**.
+# Choisissez les composantes à installer. Les options par défaut sont recommandées. [[Claws-Mail -> https://en.wikipedia.org/wiki/Claws_Mail]] est un puissant client de messagerie disponible sur Linux, Windows, Mac OS X, et plusieurs autres systèmes d'exploitation. GpgOL installe le plugiciel nécessaire pour utiliser des clés OpenPGP avec le client Outlook.
+
+!img/gpg4win2-components.gif!
+
+# Sélectionner le dossier d'installation (le chemin par défaut est recommandé).
+# Choisissez les raccourcis à créer
+# Choisissez un nom pour le dossier de raccourcis, puis commencez l'installation. Choisissez ou non de lire le fichier Lisez-Moi, puis appuyez sur **Terminer**.
+
+Gpg4win est maintenant installé et prêt à être utilisé!
+
+h2. Créer et exporter un paire de clés OpenPGP publique/privée.
+
+Kleopatra semble être le plus récent et le plus peaufiné des deux interfaces graphiques de gestion de clés pour Gpg4win sous Windows; par conséquent, c'est celle que nous vous recommandons d'utiliser.
+# Lancer Kleopatra par le raccourci que vous avez créé. Par défaut, il s'agit de **Démarrer -> Tous les programmes -> Gpg4win -> Kleopatra**.
+# Cliquez sur **Fichier** -> **Nouveau certificat...** ou **Ctrl+N**.
+# Appuyez sur le bouton **Créer une paire de clés OpenPGP personnelles**.
+# Saisissez votre nom, votre adresse courriel, ainsi qu'un commentaire, si vous le désirez. Votre nom et votre adresse peuvent être ce que vous voulez, et pas nécessairement votre vrai nom ou votre vraie adresse. Si vous désirez utiliser votre clé OpenPGP pour encrypter des courriels, mettez l'adresse courriel que vous utiliserez avec votre clé. Lorsque vous avez terminé, appuyez sur le bouton **Paramètres avancés...**.
+
+!img/kleopatra1-name-email-advanced.gif!
+
+# Dans l'interface **Paramètres avancés...**, choisissez le type de clé, ainsi que la robustesse de la clé. **RSA**, avec une robustesse de **4,096 bits**, pour **Signatures** et **Encryption** sont les paramètres recommandés. Lorsque vous avez terminé, appuyez sur **OK** pour fermer les paramètres avancés, puis appuyez sur **Suivant**.
+# Passez en revue les informations pour la clé, puis appuyez sur le bouton **Créer la clé**
+# Saisissez un mot de passe **robuste** dont vous vous souviendrez. La jauge de robustesse peut vous donner une idée de la robustesse de votre mot de passe. Il est **fortement recommandé** d'y obtenir 100%. **Si vous oubliez ce mot de passe, il ne peut pas être récupéré, et toutes les données encryptées avec la clé, incluant les courriels, seront à jamais inaccessibles.**
+
+Votre paire de clés est maintenant terminée! Vous pouvez maintenant effectuer l'une des actions suivantes:
+* Créer une sauvegarde de sécurité de votre certificat (clé)
+* Envoyer le certificat par courriel. 
+* Téléverser votre certificat vers un Service de répertoire (Directory Service, un serveur de clés)
+* Fermer l'assistant de création de clés.
+
+Il est recommandé de téléverser votre certificat vers un service de répertoire. Cela téléversera votre clé publique vers un serveur de clés, là où elle pourra être accessibles à d'autre pour encrypter des données et des courriels que vous seul-e-s saurez décrypter.
+
+h3. Chercher et importer la clé OpenPGP de quelqu'un d'autre. 
+
+Si vous désirez communiquer avec quelqu'un d'autre de façon sécuritaire, ou encrypter des données que seul-e-s eux ou elles sauront décrypter, vous devrez d'abord importer leur clé publique dans votre trousseau de clés.
+
+h4. Importer depuis un fichier
+
+Si une personne vous fait parvenir sa clé exportée dans un fichier, ces étapes vous permettront de l'importer dans votre trousseau de clés avec Kleopatra:
+# Appuyez sur le bouton **Importer des Certificats**, puis
+# Trouvez l'emplacement où vous avez enregistré le fichier, sélectionnez-le, puis appuyez sur **Ouvrir**.
+
+La clé contenue dans le fichier a maintenant été importée à votre trousseau de clés !
+
+h4. Chercher une clé sur un serveur de clés.
+
+# Rendez-vous dans **Fichier** -> **Chercher un Certificat sur un Serveur...** dans Kleopatra
+# Saisissez quelques mots (un nom ou un alias) pour rechercher parmi des serveurs de clés. La meilleure façon de retrouver quelqu'un est de rechercher leur adresse courriel, car il s'agit d'un identifiant unique.
+# Passez en revue puis sélectionnez les clés retrouvées par les serveurs afin de déterminer si elles appartiennent bien à la personne que vous recherchez. Vous pouvez consulter de plus amples informations en appuyant sur le bouton **Détails...**.
+# Une fois que vous avez choisi et sélectionné les clés que vous souhaitez importer dans votre trousseau de clés, appuyez sur **Importer**.
+
+Les clés publiques sélectionnées ont maintenant été importées dans votre trousseau de clés ! Une fois que vous avez vérifié les empreintes numériques (voyez plus haut pourquoi cela est important), vous pouvez signer les clés.
+
+h3. Signer une clé (Certifier un Certificat)
+
+Pour faire cela,
+# Sélectionnez l'onglet **Certificats importés** ou l'onglet **Autre Certificats**.
+# Faites un clic droit sur la clé que vous souhaitez signer, puis appuyez sur **Certifier le Certificat...**
+# Sélectionnez l'identifiant utilisateur que vous souhaitez signer, puis appuyez sur **Suivant**
+# Choisissez si vous souhaitez que cette signature soit visible par tou-te-s ou seulement par vous-mêmes, puis appuyez sur le bouton **Certifier**.
+
+Vous avez signé la clé (certifié le certificat) et êtes prêt à encrypter des données et des courriels que seul-e le/la propriétaire de la clé saura décrypter!
+
+h1. Mac OS X
+
+*La version MacOS de ce didacticiel n'est pas à jour. Si vous utilisez MacOS X, vous pouvez nous aider à la mettre à jour! Référez-vous à [[notre dépôt github pour les pages d'aide -> https://github.com/riseupnet/riseup_help]] pour savoir comment*
+
+Il n'est **pas recommandé** d'utiliser Mac OS X comme plateforme de communication sécuritaire. Malgré qu'il y ait moins de failles et un meilleur modèle de sécurité que Windows, les développeurs d'OS X (Apple) ont souvent été très lents à combler les failles de sécurités découvertes. De plus, la grande quantité de logiciel et de paquets propriétaires et privateurs rend pratiquement impossible la détection de portes dérobées ou de logiciels qui transmettent des données à leurs propriétaires. Aussi, OS X offre des fonctionnalités qui peuvent être exploitées par des hackers, des gouvernements et des entreprises. Voici une courte liste de faits concernant la sécurité sous OS X:
+* OS X dépend de logiciels propriétaires et privateurs qui ne peuvent être soumis à un examen exhaustif par vous ou par une communauté indépendante.
+* Si vous avez une webcam, elle peut être démarrée à distance. Ceci est offert comme une «fonctionnalité» si votre ordinateur est volé, mais il est facile d'exploiter cela au détriment de votre vie privée.
+* Le système de fichier n'est pas encrypté par défaut, et le principal outil disponible "pourrait être non-sécuritaire":https://en.wikipedia.org/wiki/FileVault#Criticism
