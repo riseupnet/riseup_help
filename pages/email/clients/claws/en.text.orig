@@ -70,4 +70,11 @@ If you are using IMAP everything should just work automatically.  If you are usi
 
 h2. Enhance your email security
 
+<<<<<<< Updated upstream
 <%= render :file => '_enhance-security' %>
+=======
+h3. Enhance your email security
+
+# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
+* To enhance connection security you can use Tor to connect to [[Riseups .onion services -> tor#riseups-tor-hidden-services]] for IMAP and SMTP. Look for the according @mail.*.onion@ and @smtp.*.onion@ addresses on the linked page.
+>>>>>>> Stashed changes

@@ -8,3 +8,7 @@ Although often used mainly as an email application, it also includes a calendar,
 We don’t recommend it because it is not Free and Open Source Software (software libre).
 
 We have no tutorial written yet for configuring Outlook with Riseup. You can help by contributing one!
+
+h1. Enhance your email security
+
+<%= render :file => '_enhance-security' %>

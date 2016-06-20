@@ -67,3 +67,6 @@ That's it, your mail should be all setup now:
 
 !img/finished.png!
 
+h1. Enhance your email security
+
+<%= render :file => '_enhance-security' %>

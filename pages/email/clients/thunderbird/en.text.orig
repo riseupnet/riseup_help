@@ -55,7 +55,25 @@ h2. What is next?
 
 h3. Enhance your email security
 
+<<<<<<< Updated upstream
 <%= render :file => '_enhance-security' %>
+=======
+# Encrypt your mail! For enhanced [[message security => message-security]], consider [[setting up Enigmail with Thunderbird => /security/message-security/encrypted-email/enigmail]] to get [[OpenPGP => /security/gpg-keys]] setup.
+# Ideally, you should *not* use StartTLS. Instead, it is much better to use regular TLS. For added security, go to your account settings and change your connection type from StartTLS to TLS.
+# There are many vulnerabilities with how secure connections work. If you need high security, you should always connect to Riseup services using the [[Riseup VPN => vpn]]. This will prevent a long list of potential attacks against your communication.
+* To enhance connection security you can use Tor to connect to [[Riseups .onion services -> tor#riseups-tor-hidden-services]] for IMAP and SMTP. Look for the according @mail.*.onion@ and @smtp.*.onion@ addresses on the linked page.
+
+h3. Use hidden options to speed up Thunderbird
+
+Per default every time you open a mail or change the status Thunderbird connects to the mail server. For slow connections or when Riseup's servers are busy this can be pain.
+
+Luckily there is a fix: Thunderbird has some hidden options, that a does a complete sync when connecting the server. This will speed up your workflow and makes your day better.
+
+To set this, go to the menu *Edit > Preferences > Advanced > General > Config Editor*
+
+* set @use_status_for_biff@ to *false*
+* set @mail.server.default.autosync_offline_stores@ to *true*
+>>>>>>> Stashed changes
 
 h3. Add some extensions
 

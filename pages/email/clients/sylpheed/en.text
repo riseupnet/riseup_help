@@ -16,9 +16,11 @@ Sylpheed is very easy to set up.
 # Give the account a name if you like, and add your name in the *name* field. Please be aware that this information will be transmitted when you send mail from this device, so do not use your real name unless you wish recipients to known it.
 # Click *Forward*.
 # Fill the information in with 'youruser' and 'yourpassword' and mail.riseup.net (for both incoming and outgoing servers).
-# Select *SSL/TLS* for both.
+# Select *SSL/TLS* for both. To use *SSL/TLS* for SMTP use the smtp port **587** in advanced options.
 # Select *Use SMTP Authentication*.
 # Click *Forward*.
 # You are done configuring your email client! Make sure to test your ability to send/receive mail!
 
-***Note***: If you use *SSL/TLS* for SMTP as descript earlier, remember to change the **smtp port** to **587** in advance options.
+h2. Enhance your email security
+
+<%= render :file => '_enhance-security' %>
