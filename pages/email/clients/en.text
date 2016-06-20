@@ -42,11 +42,9 @@ Suppose your email address was [@joehill@riseup.net@]:
 * Login or user name: @joehill@
 * Use secure connection: @yes@ (TLS or StartTLS)
 
-The [[secure connection -> secure-connections]] may be of type TLS or StartTLS. For security reasons, we no longer support SSL.
+h2. Enhance your email security
 
-*Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords." Because the connection to riseup.net is encrypted anyway, these are not needed.
-
-*Tor Note:* SMTP port 465 is often blocked by exit nodes, but port 587 is less frequently blocked. If you have a problem sending mail, try 587 or configure your client to use [[Riseup's email hidden service => tor#riseups-tor-hidden-services]] in place of the regular @mail.riseup.net@ domain. This is better than sending traffic through a Tor exit as it is MITM resistant, but it will generate certificate errors on the client side.
+<%= render :file => '_enhance-security' %>
 
 h2. Use Thunderbird
 

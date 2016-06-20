@@ -37,6 +37,10 @@ username: **foobar**
 
 You're finished!  You now can use Evolution to send and receive email through Riseup's servers.
 
+h1. Enhance your email security
+
+<%= render :file => '_enhance-security' %>
+
 h2. Setup OpenPGP Encryption in Evolution
 
 All that's necessary to work with encrypted emails in Evolution is to tell Evolution the OpenPGP **KEY ID** for your account and then to select encryption every time you send an email.

@@ -6,7 +6,6 @@ K-9 Mail is an free software mail application for Android. The app is a more fun
 
 You can install K-9 from Google Play, https://f-droid.org, or the "K-9 website":https://code.google.com/p/k9mail.
 
-
 K9-Mail is about as easy to set up as they come. 
 
 1) Install, as mentioned above
@@ -25,5 +24,8 @@ K9-Mail is about as easy to set up as they come.
 14) Give the account a name if you like, and add your name in the 'name' field, please be aware, this information will be transmitted when you send mail from this device, so do not use your real name if you wish to remain (somewhat) anonymous
 15) Click 'Done'
 
+Celebrate your good fortune for using Riseup!
 
-Celebrate your good fortune for being on Rise up!
+h1. Enhance security
+
+<%= render :file => '_enhance-security' %>
