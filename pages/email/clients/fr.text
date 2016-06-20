@@ -26,7 +26,7 @@ table(table table-striped).
 | Mobilité | *Basse*. POP marche bien uniquement quand vous vérifiez vos courriels principalement depuis le même ordinateur. | *Haute*. IMAP vous permet d'utiliser différents clients et de les garder synchronisés. |
 | Vitesse   | *Plus rapide*, puisque tout est simplement téléchargé une fois sur votre ordinateur. | *Plus lent*, puisque le client courriel doit faire des requêtes au serveur de façon répété. |
 | Quota   | *Illimité*. Vous n'aurez jamais à vous inquiéter du quota si votre client est configuré pour supprimer les messages sur le serveur après téléchargement. | *Limité*. Vous aurez [[un quota limité -> quota]]. |
-| Sécurité | *Haut*. Les messages ne sont pas stockés sur le serveur (typiquement). | *Plus basse*. Vous devez vous fier à Riseup pour le stockage. |
+| Sécurité | *Haute*. Les messages ne sont pas stockés sur le serveur (typiquement). | *Plus basse*. Vous devez vous fier à Riseup pour le stockage. |
 
 h2. Configuration de base d'un client
 
