@@ -91,15 +91,16 @@ These extensions attempt to overcome basic privacy flaws in how web browsers wor
 Some of these privacy flaws include:
 
 * *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
-* *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in the User-Agent string these days, and it is better to use a generic value, such as the one used by the Tor Browser.
+* *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in this browser fingerprint these days, and it is better to use a generic value, such as the one used by the Tor Browser.
 * *HTML5 Canvas:* Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
 * *JavaScript:* JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
 
 For Firefox:
 
 * [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
-* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It effectively replaces NoScript and RequestPolicy.
-* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
+* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
 
 For Chrome:
 
@@ -114,8 +115,8 @@ Despite their popularity, we recommend that you avoid the following extensions.
 * [[Adblock Plus => https://adblockplus.org/]] used to be the best extension to block ads and tracking. However, now they run a bribery scheme where advertisers can pay to bypass their filters. Also, uBlock is better technology anyway.
 * [[Disconnect => https://disconnect.me/disconnect]] works like uBlock, and is open source. If you are running uBlock, Disconnect is unnecessary, although it has some visualization features that uBlock does not.
 * [[Ghostery => https://www.ghostery.com]] works like uBlock, but has horrible defaults that allow most tracking, and the source code is proprietary.
-* Flash Block (Firefox) is an extension allows you to 'click to play' Flash. It is preferable to uninstall Flash. Also, this functionality is now built in.
-* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] was needed in the past to remove LSO or "Flash cookies," but since the advent of [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], this is no longer needed.
+* Flash Block (Firefox) is an extension which allows you to 'click to play' Flash. It is preferable to uninstall Flash. Also, this functionality is now built in.
+* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] was needed in the past to remove LSO or "Flash cookies", but since the advent of [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], this is no longer needed.
 * TrackMeNot will generate bogus search traffic. It is an interesting idea, but it is much better to just use DuckDuckGo.
 
 h2. Verify Riseup's certificate fingerprints

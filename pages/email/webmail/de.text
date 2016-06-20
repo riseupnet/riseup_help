@@ -2,40 +2,39 @@
 
 h2. Was ist Webmail?
 
-Webmail erlaubt den Zugriff auf E-Mails von jedem Computer mit einem Webbrowser. Wir empfehlen dies jedoch aus verschiedenen Gründen nicht:
+Webmail erlaubt den Zugriff auf E-Mails von jedem Computer mit einem Webbrowser.
 
-# Webmail ist weniger sicher als ein [[E-Mail-Programm->email#use-an-email-client]] zu benutzen.
-# The Webmail software that Riseup currently offers has few features and is very slow.
+Um Riseup Webmail zu nutzen, besuche https://mail.riseup.net
 
-The primary reason to use webmail is if you do not have your own device that you can install a mail client on. Sometimes people use webmail because they don't want to leave a record of what email account they use on the device. Webmail is not a good solution for this, because web browsers leave behind all sorts of temporary files, and session files can be recovered with the right tools.
+Der Hauptgrund Webmail zu benutzen ist, wenn du kein eigenes Gerät hast, um ein [[Emailprogramm -> email/client]] zu installieren. Manchmal benutzen Menschen Webmail, weil sie keine Spuren auf einem Rechner hinterlassen wollen, welche Emailkonten sie benutzen. Webmail ist keine gute Lösung dafür, weil Browser eine Menge temporäre Daten hinterlassen und sich Sitzungsdateien mit den richtigen Werkzeugen wiederherstellen lassen.
 
 h2. Webmailoptionen
 
-Currently, Riseup offers two options for webmail:
+Aktuell bietet Riseup zwei Optionen für Webmail:
 
-# *Roundcube*: roundcube presents a fluid and responsive user interface, but requires javascript and may not work for some people. 
-# *SquirrelMail*: squirrelmail is more simple and does not require javascript.
+# *Roundcube*: roundcube bietet ein flüssiges und reaktives Interface, aber benötigt javascript und funktioniert nicht für alle.
+# *SquirrelMail*: squirrelmail ist einfacher und braucht kein javascript.
 
-h2. Cookies must be enabled
+h2. Cookies müssen aktiviert sein
 
-For security reasons, we require cookies. Without cookies, it is impossible to make your login session secure.
+Aus Sicherheitsgründen benötigen wir Cookies. Ohne Cookies ist es nicht möglich, deine Loginsitzung abzusichern.
 
-Unfortunately, cookies also allow advertisers and companies like google to track you nearly all your activity on the web. If you are concerned about tracking, we suggest that you simply disable third party cookies. Alternately, you can block all cookies by default and then enable cookies for the sites you want.
+Unglücklicherweise erlauben es Cookies auch Werbefirmen und Unternehmen wie google, dich bei fast allen Webaktivitäten zu tracken. Wenn du dir über Tracking Gedanken machst, empfehlen wir dir, alle Cookies von Drittanbietern zu deaktivieren, siehe [[better-web-browsing]]. Alternativ kannst du Cookies standardmäßig deaktivieren und für alle gewünschten Seiten  manuell aktivieren.
 
-h2.  Troubleshooting webmail login
+h2. Fehlersuche für Webmail-Login
 
-The most common question we receive is this: "why can't I login?" This page will help you figure out what is wrong and help you fix it.
+Die häufigste Frage, die wir bekommen ist: "Warum kann ich mich nicht einloggen?" Diese Seite soll dir helfen, herauszufinden, was falsch läuft und was du tun kannst.
 
-Almost always, login problems are due to one of the following:
+Fast immer treten Loginprobleme wegen einer der folgenden Gründe auf:
 
-* Your web browser is blocking cookies.
-* You have typed your login or password incorrectly.
-* Your web browser is old and does not correctly support javascript or encrypted connections.
-* Our mail server is down.
+* Dein Webbrowser blockiert Cookies.
+* Du hast dein Login oder Passwort falsch eingegeben.
+* Dein Browser ist alt und unterstützt javascript oder verschlüsselte Verbindungen nicht richtig.
+* Unser Mailserver ist nicht erreichbar.
 
-h4. Step 1: Ensure cookies are enabled
+h4. Schritt 1: Stelle sicher, dass Cookies aktiviert sind
 
-For specific instructions on cookie management, see:
+Für genaue Instruktionen zur Cookieverwaltung siehe:
 
 * "Firefox":https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
 * "Chrome":https://support.google.com/chrome/answer/95647
@@ -43,19 +42,19 @@ For specific instructions on cookie management, see:
 * "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
 * "General Windows cookie FAQ":http://windows.microsoft.com/en-us/windows/cookies-faq
 
-h4. Step 2: Try other web browsers
+h4. Schritt 2: Versuche es mit anderen Webbrowsern
 
-If you still cannot login, you should next figure out if the problem is with your account or with your computer.
+Wenn du dich immer noch nicht einloggen kannst, solltest du versuchen herauszufinden, ob das Problem dein Mailkonto oder der Computer ist.
 
-* Try other computers and other web browsers. For this test to be helpful, the other computers and web browsers should be as different as possible. If you can, try to login from a different network, using a different browser, on a different operating system.
-* We suggest you download and install a recent version of Firefox or Chrome. If this works, then the problem is with your browser.
+* Versuche es mit anderen Computern und anderen Webbrowsern. Damit dieser Test hilfreich ist, sollten die anderen Computer und Browser so verschieden wie möglich sein. Wenn du kannst, versuche dich von einem anderen Netzwerk aus einzuloggen, mit einem anderen Browser, von einem anderen Betriebssystem.
+* Wir empfehlen, du installierst eine aktuelle Version von Firefox oder Chrome. Wenn das funktioniert, ist dein Problem der Browser.
 
-h4.  Step 3: Check the server status
+h4. Schritt 3: Überprüfe den Status des Servers
 
-It is possible that the server is down. You can view the status of the mail server, and read any service notices, at this page:
+Es ist möglich, dass der Server nicht erreichbar ist. Du kannst den Status des Mailservers und Statusmeldungen zu unseren Diensten auf dieser Seite sehen:
 
-https://status.riseup.net
+https://help.riseup.net
 
-h4.  Step 4: Call for help!
+h4. Step 4: Ruf nach Hilfe!
 
-If none of the above seem to work, then "fill out a help ticket":https://user.riseup.net/forms. But please, try these suggestions first! Also, include in your description of the problem a summary of the things you have already tried.
+Wenn keiner der bisherigen Schritte hilft, "öffene ein Hilfe-Ticket":https://user.riseup.net/forms. Bitte probiere vorher  alle anderen Schritte aus, sonst verursacht uns das unnötige Arbeit. Bitte füge deiner Beschreibung des Problems auch alle Schritte bei, die du schon unternommen hast.

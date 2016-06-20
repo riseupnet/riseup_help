@@ -1,0 +1,48 @@
+@title = 'Emailfilter'
+
+h2. Wie bearbeite ich Emailfilter?
+
+# Zuerst müssen die Ordner, in die gefiltert soll, vorher in deinem [[Emailprogramm->email/clients]] oder im [[Webmail]] existieren.
+# Melde dich an bei https://user.riseup.net
+# Klicke links auf *Email*
+# Klicke auf *Mails filters*
+# Dort kannst du die Reihenfolge deiner Emailfilter ändern, die Filter ändern oder löschen und neue Filter erstellen. Um einen Filter zu bearbeiten, klicke darauf und es erscheint ein Menü, um Bedingungen zu erzeugen, löschen oder zu ändern.
+
+h2. Wie kann ich Filter für Unterordner erstellen?
+
+# Folge den den Schritten von oben, um Filter zu erzeugen oder ändern.
+# Trenne Eltern- und Kindordner durch einen ".", z.B. "riseup.Lists" für den Ordner /riseup/Lists (Groß-/Kleinschreibung ist dabei wichtig).
+# Speichere den Filter und weiter geht's.
+
+h2. Wie kann ich eine Emailadresse blocken?
+
+Wenn du nervige Mails oder Spam bekommst und Mails von einer bestimmte Adress automatisch löschen willst, folge diesen Schritten:
+
+# Melde dich an bei https://user.riseup.net
+# Klicke links auf *Email*
+# Klicke auf *Mails filters*
+# Klicke auf *Add filter*
+# Benenne den Filter wie du willst, z.B. "ab in den Müll"
+# Bei *messages matching*, wähle *From* und *Contains* und fülle die Felder entsprechend aus
+# Bei *Will be placed in folder* wähle "Trash" (Groß-/Kleinschreibung ist dabei wichtig).
+# Jetzt noch speichern *Save<*
+
+Fertig! Alle Mails von dieser Adresse werden automatisch im Müll verschwinden.
+
+Wenn du noch mehr nervige Adressen hast, kannst du diese einfach mit *add condition* und den Schritten 6-8 hinzufügen - es braucht also keinen neuen Filter.
+
+h2. Wie kann ich Mails erlauben, die Spamfilter zu passieren?
+
+Wenn Mails von einer bestimmten Adresse immer in deinem Spam-Ordner landen und du sicherstellen willst, dass das in Zukunft nicht mehr passiert, folge diesen Schritten:
+
+# Melde dich an bei https://user.riseup.net
+# Klicke links auf *Email*
+# Klicke auf *Spam Settings*
+# Wenn du es noch nicht getan hast, klicke auf den Knopf *Enable Custom Spam Settings*.
+# Jetzt scrolle nach unten zu *Allow List*. Füge die Adresse hinzu und klicke auf *Save Changes*.
+
+h2. Kann ich mit automatischen Abwesenheitsbenachrichtungen antworten?
+
+Nein, Riseup unterstützt dies nicht. Der wichtigste Grund dafür ist, dass du dadurch auf [[Spam]] antworten würdest. Das würde dich bei Spammern beliebter machen und deine Adresse hätte unter Spammern mehr wert, sodass du auch mehr Spam bekommen würdest.
+
+Außerdem können diese Nachrichten nerven, z.B. bei Mailinglisten können diese automatisch an all gehen, jedes Mail wenn eine Mail über die Liste geht. Wir haben bereits Probleme, bei denen wir als Spammer durch große Anbieter blockiert werden. Damit könnten automatische Antworten das Problem nur vergrößern.

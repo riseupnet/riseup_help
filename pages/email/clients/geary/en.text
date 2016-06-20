@@ -4,14 +4,14 @@
 
 h2. Add your Riseup account
 
-Geary currently only support IMAP accounts. When you start Geary first you are asked to create a new account:
+Geary currently only supports IMAP accounts. On first start you are asked to create a new account:
 
 # For *Service* choose *Other*
 # Enter a name and your Riseup email address
 # Set the IMAP server @mail.riseup.net@, leave the port at 993. If you want to connect via Riseups Tor service, "see below":#use-tor.
 # Enter your Riseup username and password
 # For IMAP and SMTP choose @SSL/TLS@ *Encryption*
-# Set the IMAP server @mail.riseup.net@, leave the port at 465
+# Set the SMTP server @mail.riseup.net@, leave the port at 465
 # Activate *Use IMAP credentials*, leave *No authentication required* unchecked
 # Press *Add*
 
@@ -33,9 +33,9 @@ Note that while you are drafting new messages, Geary saves them without encrypti
 
 When you received an encrypted file attachment, you need to download it and decrypt it manually. Sorry.
 
-h3. Use Tor
+h3. Use Riseup's .onion-Dienst
 
-To enhance connection security you can use [[Riseups .onion services -> tor#riseups-tor-hidden-services]] for IMAP and SMTP. Look for the according @mail.*.onion@ and @smtp.*.onion@ addresses on the linked page.
+To enhance connection security you can use Tor to connect to [[Riseups .onion services -> tor#riseups-tor-hidden-services]] for IMAP and SMTP. Look for the according @mail.*.onion@ and @smtp.*.onion@ addresses on the linked page.
 
 To change your settings later, open the file @.local/share/geary/[Your_Email_Address].net/geary.ini@ with your preferred text editor (eg. gedit).
 # Search for @imap_host=mail.riseup.net@ and @smtp_host=mail.riseup.net@.
@@ -45,3 +45,5 @@ Due to a "bug in Geary":https://bugzilla.gnome.org/show_bug.cgi?id=714818 it is 
 # From the Geary menu choose *Accounts*
 # Select your Riseup account and click at the pencil symbol at the bottom of the screen.
 # For both IMAP and SMTP replace @mail.riseup.net@ with the .onion addresses from above page.
+
+Great! You now use Tor to connect to Riseup!

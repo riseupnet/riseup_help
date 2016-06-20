@@ -22,7 +22,7 @@ The following problems have been identified as issues in some environments.
 
 ### I don't use Debian and/or Ubuntu. How can I install Bitmask?
 
-If you use a Debian based distribution (such as CrunchBang) or an Ubuntu based one (such as Mint) you should be installing the [stand-alone bundle]() and we really would love to hear your experiences installing Bitmask!. There is a huge number of GNU/Linux distributions around and there is no way to test all possible environments. If you were able to install it, please let us know... and if you weren't able, we really look forward your feedback. Anyway, **Bitmask should work on any modern GNU/Linux system**. 
+If you use a Debian based distribution (such as CrunchBang) or an Ubuntu based one (such as Mint) you should be installing the [stand-alone bundle](#stand-alone-bundle) and we really would love to hear your experiences installing Bitmask!. There is a huge number of GNU/Linux distributions around and there is no way to test all possible environments. If you were able to install it, please let us know... and if you weren't able, we really look forward your feedback. Anyway, **Bitmask should work on any modern GNU/Linux system**.
 
 ### I can't connect to any/some/several sites
 
@@ -30,7 +30,7 @@ Please run the following commands and check the possible possible solutions.
 
 #### Run `sudo ip route`, look for the line starting with 'default' and that 'tun0' is the value after the word 'dev'
 
-There is a bug in Debian's Network-Manager package (in testing and unstable). If you are using this package, you probably will face this problem. You can read more about it at [Debian Bug #23755015](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=%23755015). 
+There is a bug in Debian's Network-Manager package (in testing and unstable). If you are using this package, you probably will face this problem. You can read more about it at [Debian Bug #23755015](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=%23755015).
 
 A possible workaround is
 
@@ -50,4 +50,3 @@ Please [file a ticket](https://black.riseup.net/tickets/new)) with the contents 
 The `xul-ext-bitmask` package was installed. This is not a dependence, but a suggested package that contains the Thunderbird/Icedove extension to support LEAP as a Mail provider. Feel free to remove it, just run `sudo apt-get remove xul-ext-bitmask` and restart your Thunderbird/Icedove email client.
 
 ....
-

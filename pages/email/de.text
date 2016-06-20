@@ -3,9 +3,9 @@
 
 !>airmail.jpg!
 
-Willkommen auf der riseup.net E-Mail-Hilfe. Hier findest du Informationen zu riseup.net *E-Mail-Accounts*.
+Willkommen auf der Email-Hilfeseite mit Informationen zu *E-Mail-Accounts* von riseup.net.
 
-Falls du nicht findest, nach was du suchst, [[fülle ein Hilfe-Ticket aus => https://user.riseup.net/forms/]]. Sobald deine Frage beantwortet wurde, hilf uns bitte dabei, diese Seiten aktuell zu halten, indem du Änderungen oder Ergänzungen, die du mit anderen Benutzern teilen möchtest, an uns übermittelst.
+Falls du nicht findest, was du suchst, [[fülle ein Hilfe-Ticket aus => https://user.riseup.net/forms/]]. Sobald deine Frage beantwortet wurde, hilf uns bitte dabei, diese Seiten aktuell zu halten, indem du Änderungen oder Ergänzungen, die du mit anderen Benutzern teilen möchtest, an uns übermittelst.
 
 h2. Erste Schritte
 
@@ -17,10 +17,10 @@ h2. Wichtige Informationen
 
 h3. Schütze dein Passwort
 
-Im Internet wimmelt es von Personen, die versuchen, deinen E-Mail Account zu stehlen. Möglicherweise erhältst du eine gefälschte E-Mail von jemanden, der behauptet, im Namen von riseup.net zu handeln. In diesen E-Mails steht beispielsweise, dass du einige Aktionen ausführen sollst, um deinen Account zu behalten.
+Im Internet wimmelt es von Personen, die versuchen, dein E-Mail-Konto zu übernehmen. Möglicherweise erhältst du eine gefälschte E-Mail von jemanden, die behauptet, im Namen von riseup.net zu handeln. In diesen E-Mails steht beispielsweise, dass du einige Aktionen ausführen sollst, um deinen Account zu behalten.
 
 * Gib niemals dein Passwort weiter, vor allem nicht jemanden, der behauptet, im Namen von riseup.net zu handeln.
-* Vertraue niemals dem "From"-Header (der Absenderadresse) einer E-Mail, da dieser leicht gefälscht werden kann.
+* Vertraue niemals der "Von"-Kopfzeile (der Absenderadresse) einer E-Mail, da dieser leicht gefälscht werden kann.
 * Links in E-Mails sind oft manipuliert. Um ganz sicher zu gehen, solltest du den Link abtippen, anstatt ihn anzuklicken. Achte auch auf Tippfehler, wie z.B. riseupp.net statt riseup.net
 
 Weitere Informationen findest du unter [[Passwörter => mail-passwords]].
@@ -62,23 +62,23 @@ Es gibt keine kostenlosen E-Mail-Provider. Unternehmen wie Gmail, Hotmail und Ya
 
 Riseup.net ist anders. Dieser Service ist ein Liebesdienst von Aktivisten wie dir, die sich dem Aufbau einer kollektiven und sicheren, alternativen Infrastruktur verschrieben haben.
 
-Der riseup.net E-Mail-Dienst benötigt viel Zeit und Geld und wird ausschließlich durch kleine Spendenbeiträge seiner Benutzer finanziert. Bitte trage deinen Teil dazu bei und [[spende noch heute => donate]].
+Der riseup.net E-Mail-Dienst benötigt viel Zeit und Geld und wird ausschließlich durch kleine Spendenbeiträge der Nutzer*innen finanziert. Bitte trage deinen Teil dazu bei und [[spende noch heute => donate]].
 
 h2. Häufig gestellte Fragen (FAQ)
 
 * [[Wie ändere ich mein Passwort? => mail-passwords]]
-* [[Wie kann ich meinen Account löschen? => mail-accounts]]
+* [[Wie kann ich mein Konto löschen? => mail-accounts]]
 * [[Wie erhöhe ich meinen Speicherplatz? => quota]]
 * [[Wieso ändert sich mein Speicherplatz nicht? => quota]]
 * [[Wie verschlüssele ich meine E-Mails? => message-security]]
 * [[Wie kann ich Spam-Mails verhindern? => spam]]
-* [[Warum kann ich mich beim Webmail nicht anmelden? => webmail]]
-* [[Warum kann ich über meinen E-Mail Client keine Mails versenden? => smtp]]
+* [[Warum kann ich mich bei Webmail nicht anmelden? => webmail]]
+* [[Warum kann ich über mein E-Mail-Programm keine Mails versenden? => smtp]]
 * [[Gibt es ein Adressbuch? => address-book]]
 * [[Warum kann ich meine Ordner nicht sehen? => email-folders]]
 * [[Wie lade ich meine E-Mails herunter? => downloading-email]]
 * [[Warum wird eine E-Mail an mich als Spam behandelt und blockiert? => spam]]
-* [[Was sind deine Ratschläge bezüglich Computerviren? => viruses]]
+* [[Was sind eure Ratschläge bezüglich Computerviren? => viruses]]
 * [[Wo finde ich die Nutzungsbedingungen von Riseup? => email/usage-agreement]]
 * [[Warum kann ich keine automatischen Abwesenheitsmeldungen erstellen? => email-filters]]
 * [[Warum wird meine E-Mail als Spam behandelt und blockiert? => email/scams/spam]]

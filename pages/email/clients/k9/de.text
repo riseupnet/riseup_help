@@ -1,0 +1,26 @@
+@title = 'K-9 Mail'
+
+!>K9mail.png!
+
+*K-9 Mail* ist eine Freie Software Email-Anwendung für Android. Die Anwendung ist ein funktionalerer Ersatz für das vorinstallierte Emailprogramm der meisten Telefone. Es unterstützt POP3- und IMAP-Postfächer. Es kann von "Google Play":https://f-droid.org und der "K-9-Webseite":https://code.google.com/p/k9mail heruntergeladen werden.
+
+K9-Mail ist sehr einfach zu konfigurieren:
+# Installiere es wie oben beschrieben
+# Öffne K-9 Mail
+# Klicke 'Weiter'
+# Gib deine Riseup-Emailadresse und dein Passwort ein
+# [[Wähle POP oder IMAP -> email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails von mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
+# Dein Login, Passwort und Server sollten ausgefüllt sein, wenn nicht trage Name und Passwort deines Riseup-Kontos ein. Der Ein- und Ausgangs-Server ist @mail.riseup.net@. **Tor-Hinweis:** Wenn du dich über "Tor":https://www.torproject.org/docs/android.html. mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@.
+# Wähle 'SSL/TLS (immer)'
+# Alle anderen Standard-Einstellungen sollten gut sein für die meisten.
+# Klicke 'Weiter', um die Verbindung zu testen
+# Wenn du dich erfolgreich verbunden hast, solltest du auf das Fenster für *ausgehende Server-Einstellungen* sehen.
+# Wähle 'SSL/TLS (immer)'
+# Klicke *Weiter* um es auszuprobieren
+# Wenn der Test erfolgreich war, solltest du folgendes sehen: 'You're almost done!'
+# Gib einen beliebigen Namen für das Konto ein und gib deinen *Namen* ein. Diese Information wird beim Senden von Mails mitgeschickt, gib also nur dann deinen echten Namen ein, wenn diesen alle Empfänger*innen kennen sollen.
+# Klicke *Fertig*
+
+Du hast erfolgreich K9-Mail für Riseup konfiguriert!
+
+Was jetzt? [[Verschlüssele deine Emails -> message-security]]

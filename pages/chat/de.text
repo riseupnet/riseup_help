@@ -58,4 +58,4 @@ Zum Testen kannst du @riseup.net@ als Raumname verwenden und diesem beitreten.
 h2. Für höhere Sicherheit
 
 # Um deine Sicherheit zu erhöhen, verbinde dich mit unserem Jabber-Server über das [[Riseup VPN => vpn]].
-# Benutze den "Tor Hidden Service":https://www.torproject.org/docs/hidden-services.html.en: suche nach @xmpp.*.onion@ auf der Seite mit [[Riseups onion-Diensten->tor#riseups-tor-hidden-services]]
+# Benutze unseren "Tor .onion-Dienst":https://www.torproject.org/docs/hidden-services.html.en: suche nach @xmpp.*.onion@ auf der Seite mit [[Riseups onion-Diensten->tor#riseups-tor-hidden-services]].

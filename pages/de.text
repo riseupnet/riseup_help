@@ -3,6 +3,8 @@
 @this.toc = false
 @this.summary = "Riseup bietet Online-Kommunikationstools für Menschen und Gruppen an, die an einem freiem gesellschaftlichen Wandel arbeiten. Wir sind ein Projekt, das demokratische Alternativen entwickelt und wir üben Selbstbestimmung aus, indem wir unsere eigenen sicheren Kommunikationswege kontrollieren."
 
+h2. Email
+
 Wir bieten sichere und private E-Mail-Konten mit Zugriff per Webseite, Shell, IMAP und POP. [[Hilfe zum Thema E-Mail -> email]]. [[Webmail-Zugang->https://mail.riseup.net]]. [[Konto anfordern -> https://user.riseup.net/forms/new_user]]. [[Kennwort zurück setzen -> https://user.riseup.net/forms/password_reset/first]]. [[Einstellungen ändern -> https://user.riseup.net]].
 
 h2. Mailinglisten <small>https://lists.riseup.net</small>
@@ -11,7 +13,7 @@ Wir bieten Mailinglisten für Aktivisti und Organisation. [[Hilfe zu Mailinglist
 
 h2. Neue Dienste
 
-Wir testen *[[VPN]]*, *[[chat]]*, und *[[etherpad -> https://pad.riseup.net]]*. Diese Dienste sind noch in Entwicklung und können zeitweise unerreichbar sein. Hilfe beim Testen ist gern gesehen.
+Wir testen *[[VPN]]*, *[[chat]]*, *[[etherpad -> https://pad.riseup.net]]* und einen Dienst für [[*"gemeinsamen Dateizugriff"* -> https://share.riseup.net*]]. Diese Dienste sind noch in Entwicklung und können zeitweise unerreichbar sein. Hilfe beim Testen ist gern gesehen.
 
 h2. Ressourcen
 

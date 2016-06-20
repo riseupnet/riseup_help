@@ -4,35 +4,30 @@ Um E-Mails zu versenden, musst du deine SMTP-Einstellungen korrekt setzen.
 
 h2. Was ist SMTP?
 
-SMTP bedeutet Simple Mail Transfer Protocol (Einfaches Mail-Übertragungsprotokoll). Über dieses Protokoll kommunizieren Mail-Server miteinander, um E-Mails zuzustellen. Wenn du E-Mails im Internet versenden möchtest, brauchst du einen SMTP-Server. Wenn du Webmail verwendest, wird all dies automatisch für dich durchgeführt, du musst dich nicht darum kümmern, welcher SMTP-Server zu verwenden ist. Falls du aber einen Mail-Client verwendest, musst du einen SMTP-Server als deinen 'Ausgangsserver' bestimmen.
+SMTP bedeutet *Simple Mail Transfer Protocol* (Einfaches Mail-Übertragungsprotokoll). Über dieses Protokoll kommunizieren Mail-Server miteinander, um E-Mails zuzustellen. Wenn du E-Mails im Internet versenden möchtest, brauchst du einen SMTP-Server. Wenn du [[Webmail]] verwendest, wird all dies automatisch für dich durchgeführt, du musst dich nicht darum kümmern, welcher SMTP-Server zu verwenden ist. Falls du aber einen [[Emailprogramm->email/clients]] verwendest, musst du einen SMTP-Server als deinen *Ausgangsserver* bestimmen.
 
 h2. Warum sollte ich den SMTP-Ausgangsserver von riseup.net verwenden?
 
 Es gibt einige gute Gründe, unsere SMTP-Server zu verwenden:
 
 * Die SMTP-Server, die von riseup.net bereitgestellt werden, arbeiten über eine verschlüsselte Verbindung. Die meisten anderen SMTP-Dienste sind unsicher, da Nachrichten im Klartext übertragen werden.
-* Wir schreiben deine IP-Adresse nicht in die Header deiner ausgehenden E-Mails. Wir kennen einige andere Provider, die das tun.
-* Einige ISPs lassen dich keine E-Mails senden, falls die _Von_ Adresse von deren Domain abweicht. (z.B. falls du versuchst, über den SMTP-Server von AOL E-Mails zu übertragen, die nicht von einer aol.com-Mail-Adresse kommen, wird dies fehlschlagen)
+* Wir schreiben deine IP-Adresse nicht in den Kopf deiner ausgehenden E-Mails. Wir kennen einige andere Provider, die das tun.
+* Einige ISPs lassen dich keine E-Mails senden, falls die *Von*-Adresse von deren Domain abweicht. (z.B. falls du versuchst, über den SMTP-Server von AOL E-Mails zu übertragen, die nicht von einer aol.com-Mail-Adresse kommen, wird dies fehlschlagen)
 * Einige ISPs limitieren die Anzahl an E-Mails, die du senden kannst.
 * Der SMTP-Dienst von riseup.net ist portabel. Es ist egal, mit welchem Netzwerk du verbunden bist. Du wirst ihn immer verwenden können, selbst wenn du dich mit deinem Computer bewegst.
-
 
 h2. Wie konfiguriere ich SMTP?
 
 Der Riseup.net SMTP-Ausgangsserver erfordert eine Authentifizierung und eine sichere Verbindung (SSL oder TLS) zur Sicherheit und um Spam zu verhindern. Um riseup.net als deinen SMTP-Ausgangsserver zu verwenden, nütze folgende Einstellungen:
 
 * *SMTP-Ausgangsserver*: @mail.riseup.net@
-* *Anmelde- oder Benutzername*: Dein riseup.net-Benutzername.
-Zum Beispiel, falls deine E-Mail Adresse joe_hill@riseup.net lauten würde, wäre dein Benutzername @joe_hill@. Das ist *erforderlich*. Falls dein Mail-Client SMTP mit Authentifizierung nicht unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden.
-* *Verwende eine verschlüsselte Verbindung*: Immer.
-Das ist *erforderlich*. Wenn dein Mail-Client kein verschlüsseltes SMTP unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden. Möglicherweise hast du die Möglichkeit, zwischen *TLS* und *SSL* zu wählen. Beide Protokolle funktionieren, jedoch blockieren die meisten ISPs den Port 25 (verwendet von TLS), deshalb empfehlen wir SSL.
-* *Port*: Für *TLS* sollte der Port @25@ sein. Für *SSL* sollte der Port @465@ sein. Nachdem der Port @25@ wahrscheinlich durch deinen Internet-Provider blockiert ist, solltest du SSL verwenden.
-
-Für Details zur Einrichtung von SMTP mit verschiedenen Mail-Clients, siehe [[E-Mail Clients => email/clients]].
+* *Anmelde- oder Benutzername*: Dein riseup.net-Benutzername. (Falls deine E-Mail Adresse joe_hill@riseup.net lautet, ist dein Benutzername @joe_hill@. Das ist *erforderlich*. Falls dein Emailprogramm SMTP mit Authentifizierung nicht unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden. Details zur Einrichtung von SMTP mit verschiedenen [[email/clients]].
+* *Verwende eine verschlüsselte Verbindung*: Immer. Das ist *erforderlich*. Wenn dein Emailprogramm kein verschlüsseltes SMTP unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden.
+* *Port*: Für *TLS* ist der Port @465@, für *StartTLS*  @587@. Wenn einer von beiden durch deinen ISP geblockt wird, versuche es mit einem anderen.
 
 h2. Wie viele Nachrichten kann ich versenden?
 
-Falls du planst, tausende Nachrichten per SMTP zu versenden, musst du uns eventuell zuerst fragen, damit dies funktioniert. Sende bitte eine E-Mail an mail-help@riseup.net.
+Falls du planst, tausende Nachrichten per SMTP zu versenden, musst du uns eventuell zuerst fragen, damit dies funktioniert. Sende bitte eine E-Mail an *mail-help@riseup.net*.
 
 h2. Was bedeutet "Relay Access Denied"?
 
@@ -41,26 +36,24 @@ Die Fehlermeldung "Relay Access Denied" kann eine der folgenden Ursachen haben:
 # Du hast mail.riseup.net nicht als deinen SMTP-Ausgangsserver definiert.
 # Du hast einen falschen Benutzernamen angegeben.
 # Du hast deinen Mail-Client nicht so konfiguriert, dass er ausgehende Mails verschlüsselt. Das ist erforderlich.
-# Du hast deinen Mail-Client nicht so konfiguriert, dass er eine verschlüsselte Verbindung (entweder TLS oder SSL) verwenden. Das ist erforderlich.
-# Du hast 'sichere Passwörter' aktiviert. Das bringt dir keinen echten Sicherheitsvorteil und ist daher inkompatibel mit riseup.net.
+# Du hast deinen Mail-Client nicht so konfiguriert, dass er eine verschlüsselte Verbindung (entweder TLS oder SSL) verwendet. Das ist erforderlich.
+# Du hast *sichere Passwörter* aktiviert. Das bringt dir keinen echten Sicherheitsvorteil und ist daher inkompatibel mit riseup.net.
 # Unsere Benutzerdatenbank ist offline. Das passiert äußerst selten und ist im Normalfall schnell behoben.
 
 Der volle Text der Fehlermeldung kann so aussehen:
 
-<pre>The message could not be sent because one of the recipients was rejected by the server. The rejected e-mail address was 'joe_hill@revolt.org'.</pre>
-
-<pre>Subject 'test', Account: 'myaccount@riseup.net', Server: 'mail.riseup.net', Protocol: SMTP, Server Response: '554 joe_hill@revolt.org: Relay access denied', Port: 25, Secure(SSL): Yes, Server Error: 554, Error Number: 0x800CCC79</pre>
+bq. The message could not be sent because one of the recipients was rejected by the server. The rejected e-mail address was 'joe_hill@revolt.org'.
+Subject 'test', Account: 'myaccount@riseup.net', Server: 'mail.riseup.net', Protocol: SMTP, Server Response: '554 joe_hill@revolt.org: Relay access denied', Port: 25, Secure(SSL): Yes, Server Error: 554, Error Number: 0x800CCC79
 
 h2. Warum kann ich E-Mails nur an riseup.net-Benutzer versenden?
 
-Dieses Problem tritt auf, wenn dein Mail Client sich nicht am SMTP-Ausgangsserver authentifiziert.
+Dieses Problem tritt auf, wenn sich dein Mailprogramm nicht am SMTP-Ausgangsserver authentifiziert.
 
 h2. Warum blockiert mein ISP ausgehende E-Mails?
 
-Immer mehr ISPs blockieren den Zugriff auf den Port 25, der Standard-Port für die Übertragung ausgehender E-Mails. Das wird gemacht, da Zombie-Spam in steigender Zahl auftritt. Dabei wird ein privater Computer von einem Virus befallen, der dem Angreifer eine Spam-Verbreitungsmöglichkeit bereitstellt.
+Es gibt zwei erlaubte Ports für SMTP:
 
-Zur Lösung dieses Problems solltest du SSL anstatt von TLS verwenden (SSL überträgt auf Port 465, der normalerweise nicht blockiert ist).
-
-h2. Wenn ich versuche, E-Mails zu versenden, bekomme ich eine SMTP-Fehlermeldung, die besagt, dass der SMTP-Server nicht erreichbar ist.
-
-Beachte bitte die Antwort zur vorherigen Frage. Du kannst den SMTP-Server nicht erreichen, da dein ISP deinen ausgehenden Mail-Traffic blockiert.
+* Port 465 (TLS)
+* Port 587 (StartTLS)
+ 
+Wenn einer der Ports geblockt wird, versuche es mit dem anderen.

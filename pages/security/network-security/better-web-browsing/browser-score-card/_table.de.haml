@@ -1,0 +1,37 @@
+%table.table.table-striped.table-condensed
+  %tr
+    %th(style="width:10em") Browser
+    %th Cookie-Kontrolle
+    %th Drittanbieter Cookies
+    %th Flash Cookies
+    %th Tracking Opt-out
+  %tr
+    %td Firefox
+    %td <b>C</b><br> Etwas Filterlisten-Kontrolle
+    %td <b>D</b><br> Aktiviert als Standard
+    %td <b>F</b><br> Kann nicht gefiltert werden (ohne <a href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy-Erweiterung</a>).
+    %td <b>C-</b><br> Unterstützt nur "Do Not Track"-Kopfzeile, ausgeschaltet als Standard.
+  %tr
+    %td Internet Explorer<br><small>(Versionen vor 9.0)</small>
+    %td <b>?</b>
+    %td <b>F</b><br> Aktiviert als Standard, und manchmal trotz Ausschalten geschickt.
+    %td <b>F</b><br> Können nicht blockiert werden.
+    %td <b>F-</b><br> Microsoft-Entwickler haben ursprünglich eine hübsche Technologie zum Schutz vor Tracking gebaut, dann haben ihre Bosse sie komplett nutzlos gemacht.
+  %tr
+    %td Internet Explorer 9
+    %td <b>?</b>
+    %td <b>F</b><br>Aktiviert als Standard und manchmal trotz Ausschalten geschickt.
+    %td <b>?</b>
+    %td <b>B</b><br>Unterstützt "Do Not Track"-Kopfzeie und "Tracking Protection Lists". (welche als Standard eingeschaltet sind?)
+  %tr
+    %td Chrome
+    %td <b>A</b><br>Gute Kontrolle über Cookie-Filterlisten</a>
+    %td <b>F</b><br>Aktiviert als Standard, und manchmal trotz Ausschalten geschickt.
+    %td <b>A</b><br>"Lösche Cookies und andere Daten von Seiten" entfernt korrekt Flash Cookies.
+    %td <b>D-</b><br>Schreckliche Unterstützung für Anti-Tracking, nur verfügbar als optionale Erweiterung <a href="https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe">Keep My Opt-Outs</a>.
+  %tr
+    %td Safari
+    %td <b>?</b>
+    %td <b>B+</b><br>Ausgeschaltet als Standard, aber manchmal trotz Ausschalten geschickt.
+    %td <b>F</b><br>Lässt sich nicht filtern.
+    %td <b>F</b><br>Keine Funktion für Anti-Tracking.

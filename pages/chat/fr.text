@@ -13,7 +13,7 @@ Pour configurer votre [[client jabber => chat/clients]], vous aurez besoin des i
 
 * *protocole*: "jabber" ou "xmpp"
 * *compte*: [@utilisateur@riseup.net@]
-* *mot de passe*: votre [[mot de passe Riseup]]
+* *mot de passe*: votre [[mot de passe Riseup -> human-security/riseup-password]]
 
 Il est vraiment important de toujours configurer son client à *nécessite chiffrement*. Certains clients on une option "utiliser le chiffrement si disponible", mais ce n'est pas assez. En effet, même si les serveurs de riseup.net demandent le chiffrement, si votre client est configuré à "utiliser le chiffrement si disponible", un attaquant pourra facilement récupérer votre mot de passe.
 

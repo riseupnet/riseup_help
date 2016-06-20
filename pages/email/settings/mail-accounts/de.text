@@ -1,4 +1,4 @@
-@title = "Mail-Accounts"
+@title = "Emailkonten"
 
 h2. Wie erstelle ich einen E-Mail Account?
 
@@ -7,8 +7,7 @@ Du hast zwei Möglichkeiten:
 # "Stelle eine Account-Anfrage":https://user.riseup.net/, oder...
 # besorge dir Einladungs-Codes von zwei Freunden
 
-Teilweise ist es für uns schwer, die Masse an Anfragen zu bearbeiten, deshalb kann es bis zu einigen Wochen dauern, bis wir deine Anfrage beantworten. Falls du zwei verschiedene Riseup.net-Benutzer kennst, kannst du dch einladen lassen. Dann wird dein Account sofort erstellt und bereit sein. Du solltest nur Freunde um Einladungs-Codes bitten, die du persönlich kennst.
-
+Teilweise ist es für uns schwer, die Masse an Anfragen zu bearbeiten, deshalb kann es bis zu einigen Wochen dauern, bis wir deine Anfrage beantworten. Falls du zwei verschiedene Riseup.net-Benutzer kennst, kannst du dich einladen lassen. Dann wird dein Account sofort erstellt und bereit sein. Du solltest nur Freunde um Einladungs-Codes bitten, die du persönlich kennst.
 
 h2. Wie ändere ich meinen Benutzernamen?
 
@@ -19,7 +18,7 @@ h2. Wie ändere ich meinen Benutzernamen?
 
 Du solltest die folgenden wichtigen Dinge beachten, bevor du deinen Benutzernamen änderst:
 
-* Dein Roundcube bzw. Squirrelmail-Adressbuch wird verloren gehen. Wenn du dein Adressbuch dieser webbasierten E-Mail Programme behalten möchtest, solltest du folgende dinge tun:
+* Dein Roundcube- bzw. Squirrelmail-Adressbuch wird verloren gehen. Wenn du dein Adressbuch dieser webbasierten E-Mail Programme behalten möchtest, solltest du folgende Dinge tun:
 
 # Exportiere dein Adressbuch von Roundcube oder Squirrelmail in eine Datei
 # Ändere deinen Benutzernamen

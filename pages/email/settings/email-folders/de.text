@@ -1,0 +1,48 @@
+@title = 'Emailordner'
+
+Wenn du [[Webmail]] oder IMAP benutzt, hat dein Emailkonto einige Ordner mit speziellem Verhalten. Diese besonderen Ordner treffen nicht für dich zu, wenn du POP benutzt, weil POP keine Ordner auf dem Server kennt.
+
+h2. Müll
+
+Alle Mails, die länger als 21 Tage im *Trash* rumgammeln, werden automatisch gelöscht. Die meisten Emailprogramme sind so konfiguriert, dass jede Nachricht, die gelöscht wird, automatisch im Müll landet.
+
+h2. Gesendet
+
+Alle Mails, die älter als 120 Tage sind, werden automatisch aus dem *Sent*-Ordner für gesendete Nachrichten gelöscht. Wenn du diese länger aufbewahren willst, solltest du diese jeden Monat in einen anderen verschieben, so:
+
+In squirrelmail:
+
+* wähle den *Sent*-Ordner
+* klicke *Alle anzeigen*
+* klicke *Auswahl umkehren*
+* wähle ein Ziel und klicke *Verschieben*.
+
+In [[thunderbird]]:
+* wähle den *Sent*-Ordner
+* wähle *Edit > Select > All*
+* wähle *Message > Move*, und wähle den Zielordner
+* Wenn du einen Ordner auf deinem eigenen Rechner wählst (unter "Local Folders"), werden die Nachrichten auf deinem Rechner gespeichert und damit nicht deine Quota aufessen. Dann wird es aber auch nicht möglich sein, darauf von anderen Computern zuzugreifen.
+
+Typischerweise musst du keinen neuen *Sent*-Ordner erstellen: Webmail und die meisten Emailprogramme erzeugen diesen automatisch neu.
+
+h2. Spam
+
+Wenn du Spamfilter aktiviert hast, landen als [[Spam]] erkannte Nachrichten hier und werden automatisch nach 7 Tagen gelöscht.
+
+h2. Warum kann ich einige Ordner nicht sehen?
+
+h3. Benutzt du POP?
+
+Wenn du POP benutzt, wirst du die serverseitigen Ordner, die du normalerweise siehst, nicht sehen, wenn du IMAP oder Webmail benutzt.
+
+POP kennt nur lokale Ordner, die auf deinem Rechner gespeichert sind.
+
+h3. Benutzt du IMAP?
+
+Wenn du IMAP und die serverseitigen Ordner nicht sehen kannst, musst du diese in deinem Emailprogramm "abonnieren".
+
+In [[thunderbird]] kannst du das mit einem Rechtsklick auf die *Inbox* tun und *Subscribe* auswählen.
+
+In Squirrelmail, klicke *Folders* ganz oben und schaue auf das *Unsubscribe/Subscribe*-Feld. Wenn es Ordner gibt, die du nicht abonniert hast, werden diese in der rechten Spalte angezeigt und du kannst auf  *Subscribe* klicken, um sie zu abonnieren.
+
+Ansonsten schau ins Handbuch deines Mailprogramm, wie du Ordner abonnieren kannst.

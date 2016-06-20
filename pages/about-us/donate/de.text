@@ -1,4 +1,5 @@
-@title = 'Spenden'
+@title = 'Spendet an Riseup'
+@nav_title = 'Spendet'
 @this.alias = '/spenden'
 
 h1. Spenden per Post
@@ -9,12 +10,22 @@ p(donation). Riseup Networks
 PO Box 4282
 Seattle, WA 98194 USA
 
-Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe zu verschicken. Seid versichert, dass wir Euch unglaublich Dankbar sind: Eure Unterstützung hält uns am Leben und macht all unsere harte Arbeit erst möglich. Wir schätzen sehr, wenn Du Dein Geld für das ausgibst, was Dir wirklich wichtig ist!
+Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe zu verschicken. Seid versichert, dass wir Euch [[unglaublich dankbar->thank-you]] sind: Eure Unterstützung hält uns am Leben und macht all unsere harte Arbeit erst möglich. Wir schätzen sehr, wenn Du Dein Geld für das ausgibst, was Dir wirklich wichtig ist!
+
 *Ausnahme:* Wir sind gesetzlich dazu verpflichtet, jährlich die Identität aller Spender_innen von über $5.000 offenzulegen.
 
 h1. Online-Spenden
 
 <%= render :partial => 'inc/donate_forms' %>
+
+h1. Banküberweisungen (nur EUR)
+
+Leider können wir nur Zahlungen *nur in Euros (EUR) annehmen*. "Warum?":#warum-akzeptiert-ihr-keine-%C3%9Cberweisungen-in-anderen-w%C3%A4hrungen
+
+p(donation). Empfängername: Riseup Networks
+IBAN DE41 4306 0967 1126 8256 06
+BIC GENODEM1GLS
+GLS Bank
 
 h1. Unterstütze radikale Alternativen!
 

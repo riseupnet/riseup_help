@@ -2,16 +2,16 @@
 
 h2. Über diese Anleitung
 
-Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen um zu verstehen was die Einstellungen bewirken.
+Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich, die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen, um zu verstehen, was die Einstellungen bewirken.
 
 h2. Freie Software verwenden und auf dem neusten Stand halten
 
-Informationssicherheit is zu wichtig um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
+Informationssicherheit is zu wichtig, um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
 
-- GNU/Linux (Debian, Ubuntu, Mint, Fedora, usw.) := Dein Betriebssystem installiert GnuPG automatisch und hält es auch auf dem neuesten Stand.
-- Windows := Du kannst [[Gpg4win -> https://gpg4win.org/index-de.html]] installieren und die [[gpg4win-announce Mailingliste -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] (auf Englisch) abonnieren um herauszufinden wann es Zeit ist ein Update zu installieren.
-- Mac OS := Du kannst die [[GPG Suite von GPGTools -> https://gpgtools.org/]] installieren.
-- Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme) := Du solltest die [[gnupg-announce Mailingliste -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] abonnieren um herauszufinden wann es Zeit ist ein Update zu installieren.
+* *GNU/Linux* (Debian, Ubuntu, Mint, Fedora, usw.): Dein Betriebssystem installiert GnuPG automatisch und hält es auch auf dem neuesten Stand.
+* Windows: Du kannst "Gpg4win":https://gpg4win.org/index-de.html installieren und die "gpg4win-announce Mailingliste":http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce (englisch) abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
+* *Mac OS*: Du kannst die "GPG Suite von GPGTools":https://gpgtools.org installieren.
+* Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme), solltest du die "gnupg-announce Mailingliste":http://lists.gnupg.org/mailman/listinfo/gnupg-announce abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
 
 h2. Einen Schlüsselserver auswählen und den eigenen Rechner so konfigurieren, dass der Schlüsselbund aktualisiert wird.
 
@@ -58,11 +58,28 @@ Du solltest *nicht* @gpg --refresh-keys@ oder den Aktualisierungsbefehl Deines M
 
 h3. Schlüsseln von Schlüsselservern nicht blind vertrauen
 
-Jede*r kann Schlüssel auf einen Schlüsselserver hochladen und es gibt keinen Grund anzunehmen, dass der Schlüssel, den Du herunterlädst, tatsächlich der Person gehört, die im Schlüssel angegeben wird. Deshalb solltest Du den vollständigen Fingerabdruck des Schlüssels mit der Eigentümer*in des Schlüssels verifizieren und zwar bei einem persönlichen Treffen oder am Telefon. Sobald Du den gesuchten Fingerabdruck mit der Eigentümer*in verifiziert hast, kannst Du den Schlüssel über den Fingerabdruck vom Schlüsselserververbund herunterladen:
+Jede*r kann Schlüssel auf einen Schlüsselserver hochladen und es gibt keinen Grund anzunehmen, dass der Schlüssel, den Du herunterlädst, tatsächlich der Person gehört, die im Schlüssel angegeben wird. Deshalb solltest Du den vollständigen Fingerabdruck des Schlüssels mit der Eigentümer*in des Schlüssels verifizieren und zwar bei einem persönlichen Treffen oder am Telefon.
 
-pre. gpg --recv-key '<fingerabdruck>'
+Sobald Du den gesuchten Fingerabdruck mit der Eigentümer*in verifiziert hast, kannst Du den Schlüssel über den Fingerabdruck vom Schlüsselserververbund herunterladen:
+
+bc. gpg --recv-key '<fingerprint>'
 
 Beachte die einfachen Anführungsstriche oben ('), welche vor und hinter dem vollständigen Fingerabdruck stehen sollten und notwendig sind, damit dieser Befehl funktioniert. Doppelte Anführungszeichen oben (") gehen auch.
+
+Der nächste Schritt ist, sicherzustellen, dass du tatsächlich den richtigen Schlüssel bekommen hast. Der Schlüsselserver könnte dir einen anderen geschickt haben, als den den du wolltest. Wenn Du gpg mit einer Version kleiner als 2.1 benutzt, musst du den Fingerabdruck manuell nach dem Herunterladen überprüfen (Version 2.1 und neuer lehnen Schlüssel vom Schlüsselserver mit falschem Fingerabdruck ab).
+
+Es gibt zwei Möglichkeiten, den Fingerabdruck zu überprüfen:
+
+Option 1. Überprüfe, dass der Fingerabdruck jetzt in deinem Schlüsselbund vorhanden ist:
+
+bc. gpg --fingerprint '<fingerprint>'
+
+Option 2. Versuche (lokal) einen Schlüssel mit diesem Fingerabdruck zu signieren:
+
+bc. gpg --lsign-key '<fingerprint>'
+
+Wenn du sicher bist, dass du den richtigen Fingerabdruck von der Person hast, welcher der Schlüssel gehört, ist die bevorzugte Methode, den Schlüssel lokal zu signieren.
+Wenn du öffentlich deine Beziehung zu dieser Person bewerben willst, kannst du auch das öffentlich exportierbare [@--sign-key@] verwenden.
 
 h3. Verlasse Dich nicht auf die Schlüssel-ID (keyid).
 
@@ -82,7 +99,7 @@ Nun da Du weisst, wie Du reguläre Schlüsselaktualisierungen von einem gut gewa
 
 h3. Verwende einen starken primären Schlüssel
 
-Viele Leute benutzen noch 1024-bit DSA-Schlüssel. Du solltest wirklich in betracht ziehen, zu einer höheren Bitstärke und einem besseren Hashing-Algorithmus zu wechseln. Es ist davon auszugehen, dass diese Schlüsselgröße von gut ausgestatteten und finanzierten Organisationen inzwischen durchaus geknackt werden kann. Außerdem zeigt der Hash-Algorithmus Alterserscheinungen.
+Manche Leute benutzen noch 1024-bit DSA-Schlüssel. Du solltest wirklich zu einer höheren Bitstärke und einem besseren Hashing-Algorithmus wechseln. 2011 hat die US-Regierungsinstitution NIST DSA-1024 für [[hinfällig erklärt => ttp://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]], seit 2013 ist er sogar [[verboten -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
 Wir empfehlen, einen 4096-bit langen RSA-Schlüssel mit SHA-512 als Hash-Algorithmus zu erstellen, eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> https://we.riseup.net/assets/176898/key%20transition]] erstellen, die mit beiden Schlüsseln signiert ist und diese dann bekannt machen. Es gibt ein [[gutes Dokument http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] dass die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau* erklärt, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine gnupg-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
 

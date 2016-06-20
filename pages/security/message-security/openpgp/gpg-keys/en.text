@@ -4,7 +4,7 @@ This instruction will guide you step-by-step through creating OpenPGP public/pri
 
 h1. First step before start
 
-Read instructions [[gpg-best-practices]] carfully to ensure your system generates a strong key and receives key updates from a well-maintained keyserver. This will require to make changes to the gpg.conf configuration file, which is located in different places depending on your operating system. In Linux it is located in @~/.gnupg/gpg.conf@.
+First read the instructions in [[gpg-best-practices]] carefully to ensure your system generates a strong key and receives key updates from a well-maintained keyserver. This will require to make changes to the *gpg.conf* configuration file, which is located in different places depending on your operating system. In Linux it is located in @~/.gnupg/gpg.conf@.
 
 h1. Linux
 
@@ -20,7 +20,7 @@ h3. Create and export an OpenPGP Public/Private Key pair
 # Select GnuPG keys.
 # Select the + sign to create a new key.
 # Select PGP Key.
-# Enter your email and the name you would like to be associated with the key. This doesn't need to be your real name. 
+# Enter your email and the name you would like to be associated with the key. This doesn't need to be your real name.
 # Select advanced options.
 # Encryption type should be RSA.
 # Key strength should be 4096.

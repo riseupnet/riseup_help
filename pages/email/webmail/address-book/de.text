@@ -1,0 +1,38 @@
+@title = "Webmail-Adressbuch"
+@nav_title = "Adressbuch"
+
+h2. Kontakte manuell von IMP/Squrrelmail in Roundcube importieren
+
+Du bist wahrscheinlich hier, weil unsere tollen praktischen Skripte für automatisches Importieren deines Adressbuchs in Roundcube nicht richtig funktioniert haben. Entschuldigung dafür! Glücklicherweise ist es einfach, deine Kontakte manuell zu importieren.
+
+h3. Importieren deiner Kontakte von SquirrelMail 
+
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
+# Wähle *Adressbuch*
+# Scrolle nach unten und klicke auf "Export to CSV file" (du kannst die Einstellungen so lassen, wie sie sind)
+# Logge dich bei "roundcube":https://mail.riseup.net ein
+# Wähle *Adressbuch*
+# Wähle *Importieren*
+# Wähle die eben von squirrelmail exportierte Datei
+# Wähle *Importieren*
+
+h2.  Wie erstelle ich ein Adressbuch in Squirrelmail?
+
+Dies ist eine Anleitung, wie aus einer Liste existierende Adressen eine Liste erstellt werden kann. Dazu müssen die Adressen, die hinzugefügt werden sollen, bereits im Adressbuch sein.
+
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
+# Klicke auf "Options"
+# Klicke auf "Address Groups"
+# Klicke auf "Neue Mitglieder hinzufügen"
+# Klicke auf den Knopf "Alle auflisten"
+# Klicke auf die Kästchen für die Adressen, die zu der Gruppe hinzugefügt werden sollen
+# Gib den Namen der Gruppe in das Feld ein
+# Klicke auf "Hinzufügen"
+
+h2. Wie entferne ich jemanden aus meinem Adressbuch in Squirrelmail?
+
+# "Melde dich bei squirrelmail an":https://mail.riseup.net/sm
+# Klicke auf "Optionen"
+# Klicke auf "Adressen-Gruppen"
+# Klicke auf "Auflisten"
+# Klicke auf das Kästchen neben der Person die du entfernen willst und dann auf *Entfernen*

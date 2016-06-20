@@ -1,0 +1,18 @@
+@title = "Wo ist Horde/IMP?"
+@nav_title = "Wo ist Horde/IMP?"
+
+h2. Hintergrund
+
+Seit Jahren betreiben wir [[Webmail]] auf https://mail.riseup.net mit nicht nur einem, sondern zwei Oberflächen. Warum zwei? Als es mit der Zeit immer schwerer wurde, haben wir uns das immer öfter gefragt. Wir erinnern uns nicht mehr genau, aber glauben, der ursprüngliche Grund war, dass das eine andere Sprachen besser unterstützte und das andere mehr Funktionen hatte und besser benutzbar war.
+
+Über die Jahre bedeutete, zwei davon zu haben, doppelt mit Problemen konfrontiert zu sein bei Support, Aktualisierungen zu neuen Versionen und bei der Beantwortung von Fragen. Es bedeutete auch, dass wenn eine neue Webmail-Lösung um die Ecke kam, von der wir dachten, dass ihr sie mögen würdet, wir davon Abstand nahmen, weil wir dachten, dass drei Webmail-Oberflächen zu verwalten zu viel für uns wäre.
+
+Nach langen Debatten und Ändern unserer Position, haben wir uns entschieden, die Unterstützung für Horde/IMP-Webmail (auch bekannt als 'das zweite Login-Feld') zu beenden. Dieses hatte eine Menge mehr Funktionen und Unterstützung für verschiedene Sprachen, aber es war für uns eines der schwersten bei der Administration. Tatsächlich versuchten wir, unsere Server auf den neuesten Stand zu bringen, aber stießen auf anhaltende Probleme und gaben irgendwann frustriert auf. Also sagen wir endgültig Tschüß zu Horde/IMP.
+
+h2. Wichtige Information
+
+Wenn du Horde/IMP regelmäßig benutzt hat, tut es uns leid, dir das wegzunehmen und wir hoffen, dass das neue Webmail für dich in jeder Hinsicht viel besser funktioniert. Als regelmäßge Nutzer*in solltest du wissen, dass es einige Probleme beim Import gibt:
+
+Besonders gibt es Probleme mit non-latin-Zeichensätzen bei Adressbucheinträgen, also überprüfe sie bitte und korrigiere diese wenn nötig. Es tut uns leid, dass es keinen automatischen Weg gibt, dieses Problem zu lösen.
+
+Wenn du beide Webmails benutzt hast: Wir haben Einstellungen von beiden importiert, also überprüfe bitte dein Adressbuch und deine Identitätseinstellungen, die du beim alten Webmail benutzt hast und dass sie korrekt übertragen wurden. Es gibt evtl. auch Einstellungen, die du nicht magst und evtl. ändern willst. Danach ist hoffentlich wieder alles in Ordnung.
