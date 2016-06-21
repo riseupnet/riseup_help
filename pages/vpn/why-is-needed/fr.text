@@ -37,30 +37,6 @@ Il y a plusieurs raisons pour lesquelles le VPN Riseup peut aider :
 
 # *Sécuriser vos connexions Wi-Fi*: Chaque fois que vous utilisez un réseau Wi-Fi public, toute personne connectée au même réseau peut espionner votre trafic. Le VPN Riseup va empêcher cela.
 
-h2. Limites de l'utilisation du VPN Riseup
+[[how-vpn-works]]
 
-Le VPN Riseup partage les limitations communes à tout les VPNs personnels :
-
-* *Une connexion non sécurisée reste non sécurisée*: Même si le VPN Riseup va anonymiser votre localisation, et vous protéger de la surveillance de votre fournisseur d'accès, dès que vos données sortent de chez riseup.net, elles vont circuler sur internet telles quelles. Cela signifie que vous devriez utiliser TLS quand c'est disponible (c'est à dire https, imaps, etc).
-
-* *Le VPN Riseup n'est pas la panacé*: Même si les VPNs en font beaucoup, ils ne réparent pas tout. Par exemple, ils ne peuvent augmenter votre niveau de sécurité si votre ordinateur est déjà compromis par des virus ou des logiciels espions. Si vous donnez vos informations personnelles à un site, un VPN ne pourra pas vous aider à conserver votre anonymat avec ce site ou ses partenaires. Pour plus d'informations, reportez vous à la page [[anonymat VPN -> security-issues]].
-
-* *Votre connexion internet peut être plus lente*: le VPN Riseup route tout votre trafic à travers une connexion sécurisée vers riseup.net avant que celui-ci ne ressorte vers internet. Cette étape supplémentaire peut ralentir votre connexion. Pour minimiser ce ralentissement, essayez de choisir un serveur VPN proche de l'endroit où vous êtes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<%= render :file => '_vpn-limitations' %>

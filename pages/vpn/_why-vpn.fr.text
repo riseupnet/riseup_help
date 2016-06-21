@@ -1,0 +1,11 @@
+h2. Pourquoi voudrais-je utiliser le VPN de Riseup?
+
+Chez Riseup, nous pensons qu'il est important que tout le monde puisse utiliser des technologies comme les VPN ou [[security/tor]] pour chiffrer leurs communications vers internet. Pourquoi? Parce que les gouvernements, les fournisseurs d'accès à internet (FAI) et les grandes entreprises (voir plus bas) cassent l'internet. Le VPN Riseup combat cela, en fournissant :
+
+# *Une protection contre la surveillance des FAI*: Le VPN Riseup élimine toute possibilité à un tiers d'espionner vos communications. Aucun enregistrement intéressant, ni pour les démarcheurs ni pour l'état.
+# *Outrepasser la censure des gouvernements*: Le VPN Riseup peut complètement outrepasser les censures de tous les gouvernements, tant que vous êtes connecté à internet. Notez cependant qu'une analyse fine de votre traffic peut révéler que vous utilisez un VPN, ce qui peut être légal ou pas dans votre juridiction.
+# *Accéder à tout internet, quelque soit l'endroit où vous êtes*: Le VPN Riseup vous permet de faire croire que vous vivez dans un autre pays où nous avons un point de sortie. Cela peut vous donner accès à des contenus exclusivement disponibles dans certains pays. Le VPN Riseup peut également vous permettre d'utiliser des services qui pourraient être bloqués dans votre pays.
+# *Outrepasser le pare-feu de votre société*: Vous travaillez pour une société diabolique, et vous essayez de perde le plus de temps possible sur internet ? Malheureusement, le pare-feu vous empêche d'accéder à certains sites (riseup.net est dans la liste des sites interdits [[dans de nombreux pare-feu -> https://www.barracudanetworks.com/]]). Le VPN Riseup va vous permettre de passer outre ces restrictions, et vous donner un libre accès à tout internet.
+# *Sécuriser vos connexions Wi-Fi*: Chaque fois que vous utilisez un réseau Wi-Fi public, toute personne connectée au même réseau peut espioner votre traffic. Le VPN Riseup va empêcher cela.
+
+[[Plus->vpn/why-is-needed]]

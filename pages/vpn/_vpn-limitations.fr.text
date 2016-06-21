@@ -1,0 +1,17 @@
+h2. Limites d'utilisation du VPN Riseup
+
+Le VPN Riseup possède certaines limitations inhérentes aux VPNs personnels:
+
+* Si vous vivez dans un état non démocratique, il peut être illégal d'utiliser un VPN privé pour accéder à internet.
+
+* **: Utiliser un VPN sur votre téléphone portable sécurisera vos données sur internet, mais l'entreprise de téléphonie connaîtra toujours votre localisation en enregistrant avec quelles tours votre appareil communique.
+
+* Un VPN aide à sécuriser vos informations pendant qu'elles transitent sur internet, mais ça ne sécurise pas vos informations quand elles sont [[stockées sur votre ordinateur->device-security]] ou sur un serveur distant.
+
+* *Une [[connexion non sécurisée->secure-connections]] reste non sécurisée*: Même si le VPN Riseup va anonymiser votre localisation, et vous protéger de la surveillance de votre fournisseur d'accès, dès que vos données sortent de chez riseup.net, elles vont circuler sur internet telles-quelles. Cela signifie que vous devriez utiliser TLS quand c'est disponible (c'est à dire https, imaps, etc). Par conséquent, vous devez toujours utiliser des [ dès que possible.
+
+* *Le VPN Riseup n'est pas la panacée*: Même si les VPNs en font beaucoup, ils ne réparent pas tout. Par exemple, ils ne peuvent pas augmenter votre niveau de sécurité si votre ordinateur est déjà compromis par des virus ou des logiciels espions. Si vous donnez vos informations personnelles à un site, un VPN ne pourra pas vous aider à conserver votre anonymat avec ce site ou ses partenaires. Pour plus d'information, reportez vous à la page [[anonymat VPN -> security-issues]].
+
+* *Votre connexion internet peut-être plus lente*: le VPN Riseup route tout votre traffic à travers une connexion sécurisée vers riseup.net avant que celui-ci ne ressorte vers internet. Cette étape supplémentaire peut ralentir votre connexion. Pour minimiser ce ralentissement, essayez de choisir un serveur VPN proche de l'endroit où vous êtes.
+
+[[Plus->security-issues]]
