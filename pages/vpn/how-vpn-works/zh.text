@@ -29,4 +29,4 @@ h2. 使用个人VPN隐匿你的地理位置
 
 在上图所示的情境中，这个位于加利福尼亚州的网站会认为，实际上位于巴西、欧洲的笔记本电脑和来自加拿大的手机，都身处纽约。因为他们所连接的VPN服务器位于纽约。
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>

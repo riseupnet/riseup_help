@@ -28,4 +28,4 @@ h2. Les VPNs privés anonymisent votre connection
 Parce que votre trafic apparaît comme venant du serveur VPN, le destinataire de votre communication internet ne sait pas où vous résidez actuellement (sauf, bien sûr, si vous leur dites).
 Dans le cas illustré ci-dessus, le site web en Californie pense que les ordinateurs portables au Brésil et en Europe ainsi que le téléphone portable au Canada viennent tous de New-York, parce que c'est là où est le serveur VPN.
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>

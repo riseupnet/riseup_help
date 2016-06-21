@@ -52,4 +52,4 @@ Bist du bereit, RiseupVPN auszuprobieren? Siehe unsere [[VPN-Anleitung -> vpn-ho
 
 [[how-vpn-works]]
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>

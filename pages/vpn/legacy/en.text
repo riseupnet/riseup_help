@@ -9,6 +9,6 @@ Virtual Private Networks (VPN) are used typically used to connect remote workers
 
 <%= child_summaries :include_toc => true, :order_by => [:name, {:direction => :desc, :numeric => true}] %>
 
-<%= render :file => '_why-vpn' %>
+<%= render :partial => '_why-vpn' %>
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>

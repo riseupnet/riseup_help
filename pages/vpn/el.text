@@ -33,6 +33,6 @@ h2. Τι έγινε με το OpenVPN; Γιατί είναι το Bitmask καλ
 
 Σημειώστε ότι αν και χρησιμοποιούμε το OpenVPN στο παρασκήνιο, θα χρειαστείτε το Bitmask για να συνδεθείτε στο VPN σύστημά μας που βασίζεται στο LEAP.
 
-<%= render :file => '_why-vpn' %>
+<%= render :partial => '_why-vpn' %>
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>

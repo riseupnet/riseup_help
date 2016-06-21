@@ -51,4 +51,4 @@ Ready to give the RiseupVPN a try? Check out our [[VPN tutorial pages -> vpn-how
 
 [[how-vpn-works]]
 
-<%= render :file => '_vpn-limitations' %>
+<%= render :partial => '_vpn-limitations' %>
