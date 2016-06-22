@@ -1,0 +1,6 @@
+@title = 'Manutenção de listas'
+@this.summary = 'Gerenciamento de arquivos, rebotes e moderação.'
+
+!>(image-right)bus-maint.jpg!
+
+<%= child_summaries :include_toc => true %>

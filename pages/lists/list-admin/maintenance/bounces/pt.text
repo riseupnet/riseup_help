@@ -1,0 +1,61 @@
+@title = 'Rebotes'
+
+h3. O que são rebotes?
+
+Um *rebote* é um erro na entrega de um e-mail, que é rejeitado pelo servidor do destinatário. Tipicamente, isso acontece quando a cota do destinatário é extrapolada, a conta não existe mais ou o endereço de e-mail é digitado errado.
+
+h3. Como faço para saber quais endereços estão dando rebotes?
+
+# Entre no sistema.
+# Clique em _Suas inscrições_.
+# Selecione a lista.
+# Clique em _Rebotes_.
+
+h3. Há assinantes na lista de rebotes que estão recebendo e-mails. Por quê?
+
+Uma vez na lista de rebotes, um assinante vai continuar na lista mesmo depois de começar a receber e-mails. Após dez dias, se ainda estiver recebendo mensagens sem erro, o endereço dele será retirado da lista de rebotes.
+
+h3. Como faço para descobrir por que um assinante está na lista de rebotes?
+
+# Vá para a página da lista.
+# Clique em *Rebotes* para obter uma lista de todos os assinantes que estão rejeitando mensagens.
+# Clique no endereço de e-mail para abrir uma página com detalhes sobre o assinante.
+# Clique em *Ver último rebote* para ver a mensagem de rejeição devolvida pelo servidor de e-mail.
+
+A mensagem de rebote pode ser um pouco confusa, mas, lá no meio, deve haver uma descrição exata do motivo para a mensagem ser rejeitada.
+
+Não confie na tabela que separa os rebotes "permanentes" dos "temporários". Eles são classificados com base no código de erro devolvido pelo servidor de e-mail. Infelizmente, servidores diferentes têm códigos diferentes, então essa informação não é muito útil.
+
+h3. Quando devo excluir assinantes "reboteiros"?
+
+Uma parte vital da administração de listas é a exclusão periódica dos assinantes que estão dando rebotes. Endereços de e-mails que já nem existem e continuam a rejeitar mensagens vão permanecer inscritos na sua lista até terem a assinatura cancelada.
+
+Então, como decidir quando remover esses endereços? A contagem de rebotes é um bom indicador da validade de um e-mail. Compare-a ao tempo passado pelo assinante na lista de rebotes. Se parecer que ele está rejeitando a maioria das mensagens, então é uma boa ideia remover esse endereço.
+
+Para excluir os reboteiros da sua lista:
+
+# Vá para a seção de rebotes da sua lista.
+# Desmarque os endereços que você quer excluir. Se forem todos os que estão visíveis na página, clique em *Trocar a seleção*.
+# Clique em *Excluir selecionados*. Se você não quiser notificar esses endereços da exclusão, marque a caixa *Silencioso* antes de pressionar *Excluir selecionados*.
+
+h3. Quando devo zerar os erros de um assinante "reboteiro"?
+
+Depois de dez dias sem erros no recebimento de e-mails, um assinante antes assinalado na lista de rebotes vai, automaticamente, ser retirado dela. Então você não precisa zerar os erros manualmente. Normalmente, porém, é seguro ir em frente e zerar os erros de assinantes que só deram rebotes algumas vezes em muito tempo ou que só rejeitaram mensagens durante um curto período.
+
+Para zerar os erros de um assinante:
+
+# Vá para a seção de rebotes da sua lista.
+# Desmarque os endereços que você quer excluir. Se forem todos os que estão visíveis na página, clique em *Trocar a seleção*.
+# Clique em *Zerar erros dos selecionados*.
+
+h3. Por que todos os Hotmails inscritos estão dando rebotes?
+
+O Hotmail é famoso pelos bugs. Existe um erro conhecido em que o correio de listas é rejeitado por acidente. Isso só acontece de vez em quando, mas, quando acontecer, todos os endereços Hotmail da sua lista serão marcados como reboteiros. Se você vir isso acontecer, não hesite em zerar o status desses assinantes. Você pode, também, republicar a mensagem que eles perderam.
+
+h3. Por que as mensagens da minha lista são rejeitadas pelos grandes provedores corporativos?
+
+O Riseup está em conflito constante com as listas de bloqueio de spam mantidas por grandes corporações como AOL, Earthlink, Comcast e Hotmail. O problema é este: mais de 95% do tráfego de e-mails na internet é spam. Por conseguinte, grandes provedores de e-mail têm dificuldade em descobrir uma maneira de evitar que spam lote a caixa de entrada dos seus usuários.
+
+Cerca de 0,5% de todos os e-mails enviados por riseup.net para grandes provedores é marcado como spam por usuários desses sistemas. Nós recebemos relatórios das mensagens marcadas como spam e verificamos que, quase sempre, são e-mails legítimos de listas legítimas. Acreditamos que algumas pessoas marquem como spam mensagens com as quais não concordam. Há casos de pessoas inscritas contra a vontade delas. Nós tentamos lidar com essas situações com rapidez, mas algumas pessoas simplesmente marcam todas as mensagens enviadas por riseup.net como spam.
+
+Quando recebemos um relatório de spam, temos que apresentar um requerimento à lista de bloqueio pedindo nossa remoção, o que pode levar de 24 a 48 horas. Porém algumas empresas, como a AOL, se recusam a resolver o problema adicionando-nos a uma "lista branca" de provedores conhecidos e confiáveis. É uma pena, mas não existe uma solução fácil para nós.

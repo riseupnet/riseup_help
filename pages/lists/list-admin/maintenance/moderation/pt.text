@@ -1,0 +1,55 @@
+@title = 'Moderação'
+
+h2. Adicionando moderadores/editores
+
+# Vá para a página de administração (dica: navegue para lists.riseup.net/www/admin/_NomeDaSuaLista_)
+# Clique em *Administrar*.
+# Selecione *Editar configurações da lista*.
+# Clique em *Definição da lista*.
+# Role para baixo até a seção *Moderadores*.
+# Preencha um registro em branco:
+  *Gecos*: nome de exibição do editor (opcional).
+  *Recebimento*: se _mail_, todas as mensagens em moderação vão ser enviadas para esse editor para análise. Se _nomail_, o editor ainda vai poder moderá-las usando a interface web.
+  *Info*: descrição do editor (opcional).
+  *E-mail*: o endereço de e-mail do editor. Esse item é obrigatório.
+# Aperte o botão de *Atualizar*, no final da página.
+# Repita para todos os editores que quiser adicionar.
+
+h2. Moderação on-line
+
+# Entre no sistema.
+# Vá para a página principal da lista.
+# Clique em "Moderar", à esquerda.
+# Selecione os e-mails adequados.
+# Escolha uma destas opções:
+  *Distribuir:* a mensagem será aprovada e enviada para a lista.
+  *Rejeitar:* a mensagem será rejeitada em silêncio.
+  *Notificar e rejeitar:* a mensagem será rejeitada, e o autor, avisado.
+
+h2. Moderação por e-mail
+
+Se você edita uma lista moderada com recebimento configurado como *E-mail*, você vai receber um e-mail toda vez que alguém tentar publicar para a lista.
+
+*Obs.:* A mensagem a ser moderada será incluída em anexo. Se o seu cliente de e-mail não mostrar anexos no corpo do e-mail, você terá que abrir o anexo manualmente para ver a mensagem.
+
+O e-mail vai ser parecido com isto:
+
+bc.. Para distribuir a mensagem anexada na lista *tal*, clique neste link:
+
+mailto:sympa@lists.riseup.net?subject=DISTRIBUTE%20*tal*%20892176d8da696d9af5acd7a2ba4ed1c5
+
+Ou envie um e-mail para sympa@lists.riseup.net com o seguinte assunto:
+
+DISTRIBUTE *tal* 892176d8da696d9af5acd7a2ba4ed1c5
+
+Para rejeitá-la (será removida), clique neste link:
+
+mailto:sympa@lists.riseup.net?subject=REJECT%20*tal*%20892176d8da696d9af5acd7a2ba4ed1c5
+
+Ou envie um e-mail para sympa@lists.riseup.net com o seguinte assunto:
+
+REJECT *listname* 892176d8da696d9af5acd7a2ba4ed1c5
+
+p. Onde @*tal*@ é o nome da sua lista. Se os URLs no seu cliente de e-mail forem clicáveis, siga o link "mailto:". O número comprido que segue o nome da lista é uma senha que varia de mensagem para mensagem.
+
+Essa senha serve para impedir quem não faz parte da moderação de aprovar ou rejeitar e-mails.

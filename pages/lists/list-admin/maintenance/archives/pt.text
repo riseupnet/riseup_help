@@ -1,0 +1,47 @@
+@title = 'Arquivos de listas'
+@tags = ['lists', 'archives', 'list maintenance', 'admin']
+
+h2. Permissão de acesso aos arquivos
+
+Você pode controlar quem vê os arquivos da sua lista. Essa configuração pode ser acessada seguindo o caminho:
+
+p((.  *Administrar* > *Configurar a Lista* > *Arquivos* > *Arquivos na web*
+
+As opções para essa configuração são:
+
+* *Público*: qualquer um pode acessar os arquivos.
+* *Apenas membros*: somente assinantes podem acessar os arquivos. Para ver os arquivos, é preciso entrar no sistema e, portanto, ter uma conta de lista (além do e-mail de assinatura, uma senha).
+* *Proprietários*: somente donos podem acessar os arquivos.
+
+h2. Baixando os arquivos
+
+Para baixar os arquivos da lista compactados em zip, vá para:
+
+p((. *Administrar* > *Gerenciar arquivos*
+
+Então, selecione os meses que você quer baixar e pressione *Baixar arquivo Zip*.
+
+h2. Apagando os arquivos
+
+Há dois caminhos para apagar os arquivos de uma lista:
+
+* Nos arquivos, abra cada mensagem e aperte o botão de apagar.
+* Vá para _Administrar_ > _Gerenciar arquivos_, selecione as mensagens indesejadas e aperte o botão de apagar.
+
+Se você não quiser manter arquivos para a sua lista, fale conosco.
+
+h2. Proteção dos endereços de e-mail
+
+Por padrão, o Sympa protege os endereços de e-mail nos arquivos da lista de "spiders da web coletoras de e-mails":https://pt.wikipedia.org/wiki/Web_crawler.
+
+Essa configuração está em:
+
+p((. *Administrar* > *Configurar a Lista* > *Outras opções* > *Método de proteção do endereço de e-mail*.
+
+Selecione:
+
+* *At* para reescrever os endereços assim: helpdesk@riseup.net -> @helpdesk AT riseup.net@.
+* *Javascript* para recompor os endereços usando Javascript, de modo que sejam legíveis para humanos, mas não para spiders coletoras de e-mails.
+* *Cookie* para exigir que um cookie seja aceito antes de entrar nos arquivos. Essa opção evita que um mecanismo de busca indexe os seus arquivos, mesmo sendo eles públicos. Porém isso também impede você de obter um URL direto para os arquivos, pois, ao aceitarem o cookie, os usuários serão redirecionados para o índice geral dos arquivos.
+* *None* para deixar os endereços de e-mail como estão.
+

@@ -1,0 +1,193 @@
+@title = 'Administração de listas: perguntas frequentes'
+
+h1. Login e criação de listas
+
+h2. Por que não consigo entrar no sistema?
+
+Se você já preencheu o formulário de lembrete de senha e tem certeza que está usando a senha e o endereço de e-mail corretos, é provável que o seu navegador seja o culpado. Tente usar outro navegador ou computador.
+
+h2. Por que minha lista não funciona?
+
+Estes são os motivos mais prováveis:
+
+# A sua lista ainda não foi aprovada. Você vai receber, por e-mail, uma notificação quando ela for aprovada e estiver pronta para usar.
+# O nome da sua lista termina em "-admin" ou "-admins". Essas listas não funcionam, mas o software permite que você as crie. Se esse for o problema, você pode renomeá-la.
+# O servidor está ocupado distribuindo mensagens para uma lista muito longa. Enquanto isso, outras mensagens dificilmente vão ser entregues. Espere meia hora.
+# O software que envia os e-mails está fora do ar. Isso acontece mais do que gostaríamos. Você pode testar o software preenchendo o formulário de lembrete de senha. Se você não receber o e-mail, então provavelmente todas as entregas estão atrasadas.
+
+h1. Básico
+
+h2. Como faço para mudar o nome da lista?
+
+# Entre no sistema.
+# Suas listas devem estar relacionadas à esquerda.
+# Aperte o botão _Administrar_ ao lado da lista em questão.
+# Em _Administrar_, clique em _Renomear Lista_.
+
+h2. Posso mudar a linha de assunto padrão?
+
+P: _Por padrão, todas as mensagens da minha lista têm o nome da lista, cercado por colchetes, adicionado à linha do assunto. Como faço para mudar isso?_
+
+R: Entre nas configurações da lista. Na seção **Envio/recebimento**, procure o campo **Identificação do assunto*. Se você deixá-lo em branco, não haverá texto personalizado no assunto das mensagens. Repare que esta configuração é diferente do **assunto**, que é a descrição curta da lista e que aparece no diretório de listas e na página de informações da lista.
+
+h2. Por que meu rodapé não funciona?
+
+P: _Eu já editei o arquivo do rodapé das mensagens. Por que não o vejo nas mensagens da lista?_
+
+R: Por padrão, o rodapé é enviado como anexo. A vantagem é que, assim, ele não é incluído nas respostas. Acontece que algumas pessoas não conseguem vê-lo no formato MIME. Para mudar o formato, vá para a página de administração da lista e, seguindo o caminho **Configurar a Lista** -> **Envio/recebimento**, troque o **Tipo de arquivo anexado** de **mime** para **append**.
+
+h2. Como faço para encerrar minha lista?
+
+É muito fácil:
+
+# Entre no sistema usando o e-mail de dono da lista em questão.
+# Clique para _Administrar_ a lista a ser apagada, no lado esquerdo da página.
+# Clique em _Remover lista_.
+
+Apesar de ainda levar algum tempo para ser completamente apagada, a lista vai ficar invisível imediatamente.
+
+h1. Assinantes
+
+h2. Como faço para conseguir uma lista dos assinantes?
+
+Você pode baixar a relação de todos os e-mails inscritos na lista fazendo o seguinte:
+
+* Entre no sistema usando o e-mail de dono da lista desejada.
+* Vá para a página de informações da lista.
+* Clique em _Revisar membros_, do lado esquerdo.
+* Clique em _Descarregar_.
+* No menu do seu navegador, selecione _Salvar página_.
+
+h2. Posso bloquear os inconvenientes?
+
+Infelizmente, não há como bloquear endereços de e-mail. Você pode cancelar a inscrição de uma pessoa e pedir a pela para não renovar a assinatura. Se não der certo, você ainda pode configurar a variável _inscrição_ como "qualquer um, proprietários precisam autorizar". Assim, cada nova inscrição precisa ser aprovada por você, dono. Isso só vai funcionar se a opção de _enviar_ estiver definida como **privada**.
+
+h1. E-mails
+
+h2. Qual é o tamanho máximo para e-mails da lista?
+
+O tamanho máximo é de 500 kibibytes. Se necessário, podemos avaliar se cabe aumentar o limite, mas é provável que a resposta seja não. Há muitas razões que justificam limitar o tamanho de e-mails enviados para a lista:
+
+* Primeiro, você não precisa de anexos grandes, já que pode criar um "espaço compartilhado na web", ou depósito. Os depósitos armazenam na nuvem arquivos carregados através do navegador. Quando você enviar um e-mail, inclua o URL do arquivo no depósito (por exemplo, https://lists.riseup.net/www/d_read/newsletter/readme.txt). Outros assinantes vão poder baixar o arquivo usando o navegador. Algumas listas restrigem os uploads aos editores; depende de como as permissões estão configuradas.
+
+* Normalmente, um anexo grande não é importante para todos os membros da lista. O ideal é que apenas os interessados no anexo precisem gastar tempo e banda baixando-os.
+
+* Uma mensagem breve tem mais impacto. Ninguém quer uma biblioteca no lugar da caixa de entrada. Se você tem muito a dizer, faça um resumo e dê às pessoas uma maneira de obter mais informações sobre o assunto, se elas estiverem interessadas.
+
+* Anexos grandes costumam ser problemáticos para nós. Temos muita largura de banda, mas temos que pagar pelo que usamos. Por exemplo, suponha que você mande, como anexo, um panfleto em PDF de 1 mega para uma lista de 100 assinantes. Você só tem que subir 1 mega, mas nosso pobre servidor precisa enviar 100 megas. Além disso, temos que arquivar o anexo e manter cópias de segurança dele para sempre. Com mensagens pequenas, isso não é problema.
+
+* A infraestrutura de e-mails não é adaptada para lidar com anexos grandes. Basicamente, arquivos grandes bagunçam com tudo. Por isso, a maioria dos servidores de e-mail restringe o tamanho das mensagens.
+
+* Anexando arquivos grandes à sua mensagem, você pode estourar a cota de armazenamento do destinatário.
+
+h2. Por que minha mensagem precisa ser moderada (ou foi rejeitada)?
+
+Há diversas razões possíveis:
+
+* "Não sou assinante."
+** A maior parte das listas permite somente posts de membros. Assim, mesmo sendo editor ou proprietário da lista, você não vai conseguir publicar se não for também assinante, se a lista não permitir. Inscreva-se ["seguindo estas instruções":https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe].
+
+* "Sou proprietário/editor, mas meus posts são repassados para a moderação ou rejeitados."
+** Será que você não está enviando as mensagens de um endereço de e-mail diferente? Por exemplo, digamos que você tenha dois e-mails: *e-mail1@riseup.net* e *e-mail2@gmail.com*. O primeiro é está cadastrado como proprietário/editor da lista, mas o segundo não. Se você mandar para a lista uma mensagem usando o e-mail2, ele vai ser moderado. **Solução:** Adicione seu segundo e-mail como proprietário/editor.
+
+h2. Por que minhas respostas não vão para a lista?
+
+O destinatário padrão para todas as listas é o autor da mensagem, não a lista. Isso porque:
+
+* Anos de experiência mostraram que é péssima "netiqueta" colocar a lista como destinatário.
+
+* Quase todos os clientes de e-mail dispõem a opção de "responder a todos". Clique nela e o endereço da lista será incluído na lista de destinatários. Assim, fica fácil escolher entre responder à lista ou só ao autor. Se a lista estiver configurada para responder, por padrão, à lista, fica complicado responder ao autor.
+
+* Leigos podem, acidentalmente, congestionar a lista com mensagens pessoais. Acontece muito: alguém, distraidamente, envia uma resposta pessoal para toda a lista; outra pessoa responde explicando como responder apenas ao autor; outra ainda reclama que a última não precisava ter ensinado isso a toda a lista; e uma quarta pessoa manda todo mundo calar a boca. A situação sai, então, do controle. Já vimos listas com mais de dez e-mails desse tipo por dia.
+
+* Para quem sabe o que está fazendo, é muito simples responder corretamente ao endereço da lista, se quiser.
+
+* Uma secretária eletrônica (respostas automáticas) ativada, combinada à lista como destinatário padrão, dá início a um loop infinito que pode travar a máquina que hospeda a lista. Já aconteceu com riseup.net e causou um grande transtorno para nós e para os assinantes que encontraram 5.000 mensagens ao abrir a caixa de entrada. O Mailman, o gerenciador de listas mais popular de código aberto, é particularmente suscetível a isso. Nós migramos para um software muito mais competente em detectar loops de e-mail infinitos, o Sympa. Porém o novo sistema dificilmente será perfeito, e preferimos não arriscar a sorte.
+
+Tudo considerado, se você continua convencido de que precisa aumentar seu limite, faça isto:
+
+* Entre no sistema.
+* Acesse as *Suas Inscrições*.
+* Vá para a administração a lista.
+* Clique em *Configurar a Lista*.
+* Clique em *Envio/recebimento*.
+* Selecione *Endereço de resposta*.
+* Defina a opção *referente a cabeçalho existente* como *forçar*.
+* Clique em *Atualizar*.
+
+h1. Inscrições e convites
+
+h2. Como faço para convidar alguém a assinar minha lista?
+
+Não há, atualmente, uma interface web para convidar pessoas para a sua lista, mas você ainda pode convidá-las por e-mail.
+
+Convites são desabilitados por padrão porque enfraquecem a segurança de listas particulares. **Se você tem uma lista particular, não habilite os convites**.
+
+Para habilitar os convites:
+
+* Entre no sistema.
+* Vá para a página de informações da lista.
+* Siga o caminho _Administrar_ -> _Privilégios_.
+* Escolha outra opção além de _impossível de convidar_.
+
+Para de fato distribuir convites, envie um e-mail para sympa@lists.riseup.net com este corpo de texto:
+
+<pre>
+INVITE _nome-da-lista_ _e-mail-a-convidar_
+QUIT
+</pre>
+
+Por exemplo, convide o presidente dos Estados Unidos para a lista anarchism101@lists.riseup.net:
+
+<pre>
+INVITE anarchism101 president@whitehouse.gov
+QUIT
+</pre>
+
+O convidado vai receber uma notificação do convite por e-mail. Se ele responder à mensagem, será inscrito na lista.
+
+Você pode incluir vários comandos "INVITE" na mensagem. Quando terminar, acrescente o comando "QUIT" para que a sua assinatura no final do e-mail não seja interpretada como um comando. Não use o endereço completo da sua lista no convite, não vai funcionar.
+
+Observação: é uma boa ideia configurar a inscrição na lista como **aprovada**, na seção _Privilégios_. Senão, a pessoa vai ter que responder duas vezes ao convite, uma para aceitá-lo e outra para confirmar a inscrição.
+
+h2. Posso inscrever muitas pessoas de uma vez só?
+
+Q: _Quero migrar uma lista de outro provedor. É possível simplesmente adicionar todos os assinantes de uma vez, ou cada um precisa se inscrever individualmente?_
+
+A: Sim, você pode inscrever pessoas em massa na sua lista.
+
+# Vá para a página de informações da lista. Se o nome da sua lista fosse _minhalista_, o URL dessa página seria https://lists.riseup.net/www/info/minhalista.
+# Clique em _Membros_.
+# Clique em _Inscrever vários_.
+# Cole a lista dos endereços de e-mail, um por linha.
+# Clique em _Adicionar assinantes_.
+
+Nós desabilitamos o botão *silencioso*. Ele servia para inscrever pessoas em massa sem avisá-las. Para evitar abusos, desativamos temporariamente essa opção, até pensarmos uma solução permanente.
+
+**Observação: por favor, tenha muito cuidado e respeito ao inscrever outras pessoas. É contra a política de riseup.net permitir que um administrador inscreva pessoas sem seu consetimento. Fazer isso acarretaria a exclusão da sua lista.**
+
+h2. O que significa "FYI: automatic_del"?
+
+Não é incomum proprietários de listas receberem esta mensagem enigmática:
+
+<pre>
+FYI command automatic_del list <nome da lista> from <endereço de assinante> validated by listmaster (no action needed)
+</pre>
+
+Você a recebe quando tenta inscrever um endereço que não recebe e-mails. Quando você adiciona um assinante, ele recebe uma mensagem de "boas-vindas à lista". Se essa mensagem não conseguir ser entregue, o endereço é apagado automaticamente da lista.
+
+h1. Arquivo de mensagens
+
+h2. Como faço para apagar uma mensagem do arquivo?
+
+# Entre no sistema como moderador ou proprietário.
+# Acesse os _Arquivos_.
+# Navegue até a mensagem que você quer apagar.
+# Clique para exibi-la.
+# Clique em *marcar essa mensagem para remoção*.
+
+Pronto! Logo o e-mail vai desaparecer dos arquivos.
+
+h2. Como faço para desabilitar o arquivamento?
+
+Se você quiser desabilitar de vez os arquivos na web, [[fale diretamente conosco->https://user.riseup.net/forms]].
