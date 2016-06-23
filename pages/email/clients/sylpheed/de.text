@@ -10,12 +10,12 @@ Sylpheed ist sehr einfach zu konfigurieren:
 # Gib deine *Emailadresse* und eine *Kontobezeichnung* ein. Wenn du willst, kannst du auch deinen *Namen* eingeben. Diese Information wird beim Senden von Mails mitgeschickt, gib also nur dann deinen echten Namen ein, wenn diesen alle Empfänger*innen kennen sollen.
 # Klicke *Weiter*.
 # Gib deine Informationen für @Login@, @Passwort@ und @mail.riseup.net@ (Eingangs- und Ausgangsserver) ein. **Tor-Hinweis:** Wenn du dich mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@.
-# Wähle *SSL/TLS* für beide.
+# Wähle *SSL/TLS* für beide. Für SMTP mit *SSL/TLS* lautet der Port @587@ unter *Erweitert*.
 # Wähle *SMTP-Authentifizierung benutzen*.
 # Klicke *Weiter*.
 
 Fertig! Du hast Sylpheed zum Empfangen von Mails konfiguriert! Probier es aus!
 
-**Hinweis**: Wenn du wie beschrieben *SSL/TLS* für SMTP benutzt, ändere den **SMTP Port** auf @587@ bei *Erweitert*.
+h2. Erhöhe deine Email-Sicherheit
 
-Was jetzt? [[Verschlüssele deine Emails -> message-security]]
+<%= render :partial => 'enhance-security' %>

@@ -23,4 +23,6 @@ K9-Mail ist sehr einfach zu konfigurieren:
 
 Du hast erfolgreich K9-Mail für Riseup konfiguriert!
 
-Was jetzt? [[Verschlüssele deine Emails -> message-security]]
+h2. Erhöhe deine Email-Sicherheit
+
+<%= render :partial => 'enhance-security' %>
