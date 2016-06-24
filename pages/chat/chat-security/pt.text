@@ -1,0 +1,11 @@
+@title = "Segurança de bate-papo"
+
+h2. Garanta a segurança das suas mensagens
+
+Na maioria dos casos, quando você usar o serviço de Jabber do Riseup, as suas mensagens serão criptografadas em trânsito. Não existe, porém, garantia disso (a não ser que ambas as partes usem Riseup).
+
+Para assegurar a criptografia ponta a ponta das mensagens, a melhor opção é o protocolo [[Off-the-Record (ORT) -> https://en.wikipedia.org/wiki/Off-the-Record_Messaging]]. Para mais informações, leia nosso [[tutorial sobre OTR -> otr]].
+
+h2. Segurança das conversas de voz
+
+Da última vez que checamos, Jitsi era o único cliente de Jabber que oferecia ligações de voz e vídeo seguras.
