@@ -10,7 +10,7 @@ Difficulté : de Simple à Complexe
 Pourquoi : Prévenir l'accès aux informations contenues sur le disque dur de l'ordinateur.
 
 * Le plus simple : cryptage "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md des partitions lors d'une nouvelle installation.
-* Simple : formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et "scrub":https://code.google.com/p/diskrub/ l'ancien emplacement des données.
+* Simple : formater une nouvelle partition avec LUKS, déplacer les données préexistantes dessus et "scrub":https://code.google.com/archive/p/diskscrub/ l'ancien emplacement des données.
 * Moyen : cryptage LUKS sur LVM.
 * Moyen : cryptage par-dessus des fichiers/emplacements de fichiers spécifiques.
 * Complexe : cryptage du disque dans son ensemble, avec des fichiers clefs placés sur un autre dispositif (comme une clé USB).
