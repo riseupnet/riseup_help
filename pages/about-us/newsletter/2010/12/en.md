@@ -1,3 +1,5 @@
+@title = 'December'
+
 ## Riseup Mail Outage November 25-30, 2010
 
 Thursday, November 25th, the anti-spam service Spamhaus added our mail servers to their block list. These block lists are used by a majority of the mail servers on the internet and once we were added, any mail we tried to deliver was refused. This block lasted until the morning of Tuesday, November 30th (what a nice WTO anniversary present!), and now mail is flowing freely again.

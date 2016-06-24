@@ -1,6 +1,6 @@
 @title = 'November'
 
-h2. Think twice before you forward
+## Think twice before you forward
 
 Forwarding an email might seem like a convenient way to share it, but you should think carefully before doing so.
 
@@ -8,13 +8,13 @@ Even if the email has bits of information that are good to forward widely, like 
 
 If you receive an email with information you want to share, consider rewriting it in your own words for the audience you are sending it to, or copying-and-pasting just the relevant parts. If you decide to forward the email, check to make sure you are not sending the full thread as an attachment: depending on your mail client configuration, you might think you are only forwarding some text, but the thread history might be attached, and viewable to all recipients.
 
-h2. Money
+## Money
 
 We asked for a lot of money in September, $18,300.  We had never done that before, and we were not sure what would come of it.  So it's exciting to report that in the last two months lots of you donated large and small amounts, and we have now exceeded our goal.  Much of the work we do at Riseup is lonely, frustrating, and done in front of a computer. So supporting us when we ask for what we need to sustain and thrive? That's beautiful and kind. Thank you.
 
 https://help.riseup.net/about-us/donate/
 
-h2. Updated Welcome Message
+## Updated Welcome Message
 
 The riseup collective has gone through an extensive effort of collaborative editing to update our "welcome message" email that we send to new users.  But you're not a new user, so you might never see it.  Here is a fun new section we'd like to draw your attention to:
 
@@ -34,7 +34,7 @@ When you send email with riseup.net, your internet address (IP address) is not e
 
 Our commitment is to keep as little data on you as we can. Unlike corporate providers, we do not log internet addresses of anyone using riseup.net services, including email.
 
-h2. A Night of Peculiar Delights
+## A Night of Peculiar Delights
 
 Our friends in the Monterey Bay are putting on a fundraiser for us. If you happen to be geographically nearby, please come!
 

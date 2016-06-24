@@ -1,6 +1,6 @@
 @title = 'June'
 
-h2. We are under attack!
+## We are under attack!
 
 This is an email actually from Riseup, but you have no reason to trust that. You should assume that all emails that say they are from Riseup may not actually be from the Riseup collective, but from evil impostors. If the email that supposedly from Riseup gives you lots of tidbits about social movements and surveillance, then hopefully you find that interesting. If that email tells you to do something urgently, then probably that email is NOT from Riseup. Specifically, if the email has a link to a website that looks like the riseup page, and says you should login there, then that email is NOT from riseup. Riseup will NOT send you links to places you must login. To login to riseup, go to the same riseup page that you have always gone to, and from there you can login, change your settings, donate, etc…
 
@@ -12,7 +12,7 @@ We are also experimenting with ways to make riseup less appealing to spammers, a
 
 And to the spammers reading this, we’re no longer worth your time, please go away.
 
-h2. How secure is your Riseup connection?
+## How secure is your Riseup connection?
 
 Riseup has been working hard to move all of its services to only use secure connections. The big one remaining is our mail service which can still be checked in insecure ways if your settings are wrong. We are working on moving all of these connections to only allow secure connections, however to do this, we need your help.
 
@@ -22,7 +22,7 @@ If you are using a mail client (thunderbird, apple mail, eudora, outlook, etc.),
 
 Please check your settings, and change to using secure connections, it's easy to do!
 
-h2. A sad snail mail story
+## A sad snail mail story
 
 Earlier this year, we had some trouble with our post office box, and a bunch of mail was lost. If you sent us a check this past winter and it was never cashed, this is because it is lost in some warehouse of missing mail. We appreciate (and depend on!) your contributions, and it sucks that some might have been lost.
 
@@ -30,11 +30,11 @@ We think the problem is fully sorted out, and now we should get your snail mail,
 
 Sorry about this, and feel free to cancel any uncashed checks more than two months old, and resend us checks.
 
-h2. Great French privacy and security resources
+## Great French privacy and security resources
 
 Do you speak French, or know some lovely french-speaking activists? If so, check out this new amazing resource covering privacy and security issues in the digital world, with great explanations and implementation ideas. Check it out online at https://guide.boum.org/, or print it and distribute it!
 
-h2. Love and Money
+## Love and Money
 
 Well, we are still stuck in a capitalist economy, and therefore, alas, still need money. Riseup has been a labor of love for ten years, and part of that love has always been the checks and paypal donations floating toward us, sent with sweet notes, stickers, project updates, and zines. We've never required anyone to pay for services, because we know that lots of people doing amazing projects, just can't, and that's completely fine. But we do rely on our members to fund the electricity, servers, stipends, core services, and expanding projects of Riseup. So if you can, please consider giving us some monetary mutual aid.
 
