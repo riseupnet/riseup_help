@@ -10,7 +10,7 @@ Difficulty: Easy to Hard
 Why: Prevent access of information stored on your computer's hard disk.
 
 * Easiest: "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md encryption of partitions at fresh installation.
-* Easy: Formatting new partition with LUKS, move existent data there and "scrub":https://code.google.com/p/diskscrub/ the old location of data.
+* Easy: Formatting new partition with LUKS, move existent data there and "scrub":https://code.google.com/archive/p/diskscrub/ the old location of data.
 * Medium: LUKS encryption on LVM.
 * Medium: ecryptfs over specific files/directories.
 * Hard: encryption of whole disk, with key file placed in another device (like a pendrive).
