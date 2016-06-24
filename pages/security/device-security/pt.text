@@ -12,7 +12,7 @@ Dificuldade: Fácil a Difícil
 Objetivo: Prevenir-se contra acesso a informações armazenadas no disco rígido do seu computador.
 
 * Fácil: Criptografia "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md de partições em sistema recém-instalado.
-* Fácil: Formatar nova partição com LUKS, mover seus dados para lá e "limpar":https://code.google.com/p/diskscrub/ partição antiga.
+* Fácil: Formatar nova partição com LUKS, mover seus dados para lá e "limpar":https://code.google.com/archive/p/diskscrub/ partição antiga.
 * Médio: Criptografia LUKS em Gerenciador de Volume Lógico (LVM).
 * Médio: eCryptfs em arquivos e diretórios selecionados.
 * Difícil: Criptografia completa de disco, com arquivo que contém a chave localizado em outro dispositivo (por exemplo, um pen-drive).
