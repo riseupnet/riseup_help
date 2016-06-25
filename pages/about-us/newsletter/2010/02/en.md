@@ -1,6 +1,6 @@
 @title = 'February'
 
-h2. Google: creepy and evil
+## Google: creepy and evil
 
 Google's motto of "don't be evil" has been key to the company's success. When it came on the scene, Google was unique as the only search engine that did not privilege search results from advertisers, a significant factor in Google's rapid rise. Recently, CEO Eric Schmidt said Google is "trying not to cross what we call the creepy line" when it comes to gathering personal data [1]. Maybe Google's new motto should be "don't be creepy".
 
@@ -16,28 +16,28 @@ Despite all this, Google continues to assure its users that there is nothing to 
 
 Google wants our trust. We are asked to put faith in the wizard behind the curtain who controls the largest assemblage of data the world has ever known. Google's new motto is clear: "don't be so evil that people start to notice." We are starting to notice.
 
-fn1. "Google trying not to cross 'the creepy line'" http://news.cnet.com/8301-30684_3-10392435-265.html
+[1] "Google trying not to cross 'the creepy line'" http://news.cnet.com/8301-30684_3-10392435-265.html
 
-fn2. "Google CEO Eric Schmidt Dismisses the Importance of Privacy" https://www.eff.org/deeplinks/2009/12/Google-ceo-eric-schmidt-dismisses-privacy
+[2] "Google CEO Eric Schmidt Dismisses the Importance of Privacy" https://www.eff.org/deeplinks/2009/12/Google-ceo-eric-schmidt-dismisses-privacy
 
-fn3. "My Reaction to Eric Schmidt" https://www.schneier.com/blog/archives/2009/12/my_reaction_to.html
+[3] "My Reaction to Eric Schmidt" https://www.schneier.com/blog/archives/2009/12/my_reaction_to.html
 
-fn4. "Privacy Groups Rip Google's Targeted Advertising Plan" http://www.pcworld.com/businesscenter/article/161086/privacy_groups_rip_googles_targeted_advertising_plan.html
+[4] "Privacy Groups Rip Google's Targeted Advertising Plan" http://www.pcworld.com/businesscenter/article/161086/privacy_groups_rip_googles_targeted_advertising_plan.html
 
-fn5. "Google to enlist NSA to help it ward off cyberattacks" http://www.washingtonpost.com/wp-dyn/content/article/2010/02/03/AR2010020304057.html
+[5] "Google to enlist NSA to help it ward off cyberattacks" http://www.washingtonpost.com/wp-dyn/content/article/2010/02/03/AR2010020304057.html
 
-fn6. "Social networks make it easy for 3rd parties to identify you" http://arstechnica.com/security/news/2009/09/which-user-clicked-on-viagra-ads-ask-myspace-and-facebook.ars
+[6] "Social networks make it easy for 3rd parties to identify you" http://arstechnica.com/security/news/2009/09/which-user-clicked-on-viagra-ads-ask-myspace-and-facebook.ars
 
-fn7. Mielikäinen, Taneli. 2004 "Privacy Problems with Anonymized Transaction Databases". http://www.springerlink.com/content/rukljup9muhtrpcu/
+[7] Mielikäinen, Taneli. 2004 "Privacy Problems with Anonymized Transaction Databases". http://www.springerlink.com/content/rukljup9muhtrpcu/
 
-fn8. Shmatikov, Vitaly and Arvind Narayanan. 2008. "Robust De-anonymization of Large Sparse Datasets (How To Break Anonymity of the Netflix Prize Dataset)". https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf
+[8] Shmatikov, Vitaly and Arvind Narayanan. 2008. "Robust De-anonymization of Large Sparse Datasets (How To Break Anonymity of the Netflix Prize Dataset)". https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf
 
-fn9. Shmatikov, Vitaly and Arvind Narayanan. 2009. "De-Anonymizing Social Networks". https://www.cs.utexas.edu/~shmat/shmat_oak09.pdf
+[9] Shmatikov, Vitaly and Arvind Narayanan. 2009. "De-Anonymizing Social Networks". https://www.cs.utexas.edu/~shmat/shmat_oak09.pdf
 
-fn10. http://www.wired.com/dangerroom/2010/01/pentagon-searches-for-digital-dna-to-identify-hackers/
+[10] http://www.wired.com/dangerroom/2010/01/pentagon-searches-for-digital-dna-to-identify-hackers/
 
 
-h2. How to protect your privacy online
+## How to protect your privacy online
 
 Working on this issue is really a social problem, not an individual problem. Asking individuals to spend a lot of time practicing 'privacy hygiene' is both impractical and politically dubious. Creating privacy online, in our opinion, should be done communally by supporting alternatives.
 

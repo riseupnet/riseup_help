@@ -1,6 +1,6 @@
 @title = 'September'
 
-h2. September Newsletter
+## September Newsletter
 
 This month we're asking you to fund some specific projects for this coming year, which will be impossible without some additional money. We're also applying for some grants to try to help with these costs, but as many of you know, funding for activist projects tends to be very limited and more and more scarce, so we don't know if anything will come through.
 
@@ -10,7 +10,7 @@ Second, we are still the small collective who does a lot with very little, and a
 
 Third, we're a little different than a lot of projects in that rather than working on a specific campaign, we support the movement, be that climate justice camps, Iranian democracy-activists, democratic unions, or student-peace groups. We are passionate about building world-wide social justice infrastructure that is enduring and tough enough to face whatever the future brings. We promote social ownership and democratic control over technology and the means of communication. We empower organizations and individuals to use technology in struggles for liberation, and know that while this is only one piece to the movement, it's an important one.
 
-h2. So, here's what we're asking for:
+## So, here's what we're asking for:
 
 1. We've been secretly working on the Crabgrass Project for the last three years. Well, maybe not so secretly, but we haven't been bragging about it since it hasn't been ready to launch.
 
@@ -28,7 +28,7 @@ What do we need to upgrade and improve our email system? Approximately $6,000 US
 
 What do we need for a little sweetness in the dark times? About $300 USD.
 
-h2. And here's how you can give:
+## And here's how you can give:
 
 The most useful way you can donate is to give to Riseup Networks. This allows us to have the most versatility with the money. https://secure.groundspring.org/dn/index.php?aid=26484
 
@@ -42,7 +42,7 @@ Seattle, WA 98194 USA
 
 And last, if you live in the Global South and happen to have a local, radical, tech collective, we ask that you give to our sister collectives instead, or some other group building local alternatives. We think money should flow from the Global North to the South, not vice versa, and haven't your people already given enough via the plundering of colonialism and capitalism? The answer to that is yes.
 
-h2. One last thing
+## One last thing
 
 Thanks and love to you all,
 
