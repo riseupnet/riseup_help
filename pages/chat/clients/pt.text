@@ -1,0 +1,44 @@
+@title = "Clientes de Jabber"
+@summary = "Configurando clientes de Jabber para conectar ao bate-papo do Riseup."
+
+p(alert alert-info). Por favor, ajude-nos a atualizar esta página experimentando outros clientes.
+
+h2. Recursos a procurar
+
+table(table).
+| *OTR?* | Se sim, o cliente implementa o protocolo OTR, que serve para criptografar, de ponta a ponta, mensagens de bate-papo e oferece confidencialidade persistente (a confidencialidade de uma conversa não será comprometida se, posteriormente, a chave secreta de um dos interlocutores for descoberta).|
+| *Jingle?* | Se sim, o cliente pode ser usado para bate-papo de voz e de vídeo.|
+| *Proxy?* | Se sim, o cliente pode conectar-se via proxy e obedece às configurações de proxy.|
+| *SSL/TLS?* | Se sim, o cliente pode conectar-se de maneira segura ao provedor de bate-papo.|
+| *Tor?* | Se sim, o cliente pode fazer a conexão através do Tor para contornar a censura e acessar serviços anonimamente. Se não, o cliente *não deve ser usado com o Tor*.|
+
+h2. Clientes recomendados
+
+table(table table-striped).
+|_. Cliente |_. Sistemas operacionais |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentários |
+| [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux      | Não           | *Sim* | *Sim* (GNOME) | *Sim* (GNOME) | ? | Código aberto. Estável e fácil de usar. |
+| [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Sim* | Não | *Sim* | *Sim* | *Sim* | Código aberto. Suporte nativo para Tor. |
+| [[Pidgin]]   | Windows, GNU/Linux | *Sim*   | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Estável e com muitas funções. Use a versão mais atual. |
+| [[Adium]] | Mac | *Sim* | Não | *Sim* | *Sim* | Parcial | Código aberto. É uma boa versão nativa do Pidgin para Mac, mas raramente atualiza a biblioteca libpurple. Vazamento das informações de DNS e URL.|
+| [[Beem -> http://www.beem-project.com/]] | Android | Não | Não | ? | ? | ? | Código aberto. Aplicativo para Android nativo e estável. Não oferece bate-papo em grupo. |
+| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Sim* | Não | ? | ? | ? | Código aberto. Cliente estável e com muitas extensões. |
+
+h2. Outros clientes
+
+table(table table-striped).
+|_. Cliente |_. Sistemas operacionais |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentários |
+| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Sim* | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
+| [[Pandion -> http://pandion.im/]] | Windows | Não | Não | ? | ? | ? | Código aberto. Este cliente de Jabber para Windows é bom e estável. |
+| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | Não | *Sim* | ? | ? | ? | Código aberto. Aplicativo nativo estável. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Sim* | *Sim* | ? | ? | ? | Código aberto. Alguém já experimentou? Escrito em Java. |
+| iChat | Mac | Não | Não | ? | ? | ? | Este aplicativo da Apple implementa Jabber, mas só parcialmente. |
+
+h2. Clientes a evitar
+
+table(table table-striped).
+|_. Cliente |_. Sistemas operacionais |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentários |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | Não | *Sim* | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de Jabber escrito em Python, mas que, atualmente, não oferece uma conexão segura. Será que isso já foi consertado? |
+
+
+
+
