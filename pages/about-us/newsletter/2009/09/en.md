@@ -1,10 +1,10 @@
 @title = 'September'
 
-h2. Story from a riseup user
+## Story from a riseup user
 
 Blue Footed Booby moved recently, and some of his "snail" mail continued going to the old apartment.  He found out because the new inhabitant of his old place tracked him down and sent him a nasty note saying "please forward your ****ing shit". A better world is possible, and it's already being built: one of our riseup users (that's to say, one of you) wrote in to let us know that she often gets email meant for another riseup user, because they have very similar email account names.  When she writes back to the people about their miss-sent email, they are always sweet and kind in response.  She says this makes her feel like we are all part of a movement, and our movement is filled with the best kinds of people.
 
-h2. Tech Tip
+## Tech Tip
 
 The heights of irony:  in our struggle to smash hierarchy, we have grown the riseup mailing list system to be the worlds largest anarchist bureaucracy with over 10,000 administrators.  Oops!  Riseup birds are hard at work on tools to allow groups to organize without needing designated administrators.  But, for the moment, we are stuck with a system where some "coordinating class" is required to administer each mailing list.
 
@@ -14,11 +14,11 @@ Why the fuss?  Well, we often get asked for help when a group has lost access to
 
 To summarize, if you administer a list, please check that there are multiple list owners who are currently active in your group.  If not, add some... but remember, the power of a list owner is that they can remove any other list owner, so only add people whom you trust. If you are on a riseup list and you don't know who the list owner is, you can contact them by emailing listname-admin@lists.riseup.net, where 'listname' is the list in question.
 
-h2. Update from the collective
+## Update from the collective
 
 Thanks to everyone who gave us money to help with our 'getting lists up and running' issue. It's good to feel loved and supported. As soon as we are ready to go with accepting new lists, we'll send out a notice. It shouldn't be long now...
 
-h2. Notes from the surveillance apocalypse
+## Notes from the surveillance apocalypse
 
 In June, the Canadian federal government introduced two bills into parliament with the goal of bringing law enforcement into the 21st century [1]. One bill requires new internet, wireless, and other telecommunication equipment and software to include surveillance capability, and the other will require service providers to quickly provide identifying subscriber information to law enforcement without any judicial authorization.
 
@@ -26,10 +26,10 @@ Even within the narrow confines of liberalism, this is incredibly idiotic for a 
 
 In Germany, they know something about the dangers of surveillance. On September 13th in Berlin, 25,000 protesters rallied against increasing monitoring and data gathering by the state and capital. Their motto: "Freedom rather than fear -- stop the surveillance madness." [2]
 
-fn1. http://www.publicsafety.gc.ca/media/nr/2009/nr20090618-eng.aspx
+[1] http://www.publicsafety.gc.ca/media/nr/2009/nr20090618-eng.aspx
 
-fn2. http://www.thelocal.de/society/20090913-21897.html
+[2] http://www.thelocal.de/society/20090913-21897.html
 
-h2. Money pitch
+## Money pitch
 
 Are the servers still costing thousands dollars a month to keep running? Are we still needing new hardware to expand our lists and email capacity? Are we still dependent on money for funding things? Sadly, my fellow travelers, we are. If you can donate money, please do.
