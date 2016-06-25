@@ -1,10 +1,10 @@
 @title = 'December'
 
-h2. Thank You!
+## Thank You!
 
 We are living in rocky and uncertain economic times, and yet you, our users, have shown again and again that you care about mutual aid in supporting riseup as we support you in your endeavors and us in ours. This keeps our servers running and our code up to date, but more than that, it keeps our hearts pumping and keeps us going in our hard times as we sit alone at computers and remember that we aren't really alone, because you are out there.
 
-h2. Why you should use Riseup. Why your friends should use us, or other tech collectives, too.
+## Why you should use Riseup. Why your friends should use us, or other tech collectives, too.
 
 Two birds recently did a presentation at the People's Summit[1] celebrating the 10 year anniversary of the WTO protests. We discussed the dangers of using corporate tools to do organizing work, in particular, the fact that you don't know what they do with your data. Thanks to some anonymous comments in a blogger's post[2] about his research regarding a U.S. mobile phone company's release to law enforcement of its customers' geographic location information, we now have some answers.
 
@@ -18,24 +18,24 @@ One of the scary things about all of this is that the US actually has better dat
 
 While this information should not be surprising, it illustrates the importance of supporting alternatives and educating each other about the risks of using corporate tools for organizing work. For more information, read the blog post,[2]
 
-fn1. http://seattleplus10.org
+[1] http://seattleplus10.org
 
-fn2. http://paranoia.dubfire.net/2009/12/8-million-reasons-for-real-surveillance.html
+[2] http://paranoia.dubfire.net/2009/12/8-million-reasons-for-real-surveillance.html
 
-fn3. http://dtto.net/docs/facebook-manual.pdf
+[3] http://dtto.net/docs/facebook-manual.pdf
 
-fn4. http://dtto.net/docs/yahoo-guide.pdf
+[4] http://dtto.net/docs/yahoo-guide.pdf
 
-fn5. http://dtto.net/docs/myspace-guide.pdf
+[5] http://dtto.net/docs/myspace-guide.pdf
 
-fn6. http://dtto.net/docs/comcast-guide.pdf
+[6] http://dtto.net/docs/comcast-guide.pdf
 
-fn7. http://dtto.net/docs/paypal-guide.pdf
+[7] http://dtto.net/docs/paypal-guide.pdf
 
-fn8. https://en.wikipedia.org/wiki/Stored_Communications_Act
+[8] https://en.wikipedia.org/wiki/Stored_Communications_Act
 
-fn9. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32006L0024:EN:NOT
+[9] http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32006L0024:EN:NOT
 
-h2. Tax deductible season
+## Tax deductible season
 
 The year is ending! And you have all kinds of extra scruddy money lying around and it stinks and it's time to get rid of it. Did you know, for those of you living in the Empire, er I mean the United States, that you can give riseup labs money and it is tax deductible? And that means you pay less taxes and Riseup gets the money instead. Also, if you work for a large-ish corporation, they might have a matching donation policy, where if you give money to a tax-exempt non-profit organization, they will match your donation with an equal donation of their own. Information about donating is still at http://help.riseup.net/about-us/donate/

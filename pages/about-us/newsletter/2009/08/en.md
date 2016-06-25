@@ -1,6 +1,6 @@
 @title = 'August'
 
-h2. Riseup Lists
+## Riseup Lists
 
 You may have noticed something bad about our mailing lists recently.  Since last November, our list server has been running at (or over) capacity.  This has caused all kinds of funny day-to-day troubles for you, the list user.  Also, we have not been able to create new lists.  This is to avoid stressing the poor server further, but it means we have been unable to help activists like you work on many exciting projects.
 
