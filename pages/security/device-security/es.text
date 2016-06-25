@@ -7,7 +7,7 @@ h1. Encriptación de disco
 Dificultad: Fácil a difícil
 ¿Por qué?: Para prevenir el acceso a la información almacenada en tu disco duro.
 
-Muy fácil: Encriptación de particiones con LUKS en instalación inicial y sobreescribir (https://code.google.com/p/diskscrub/) la antigua ubicación de datos.
+Muy fácil: Encriptación de particiones con LUKS en instalación inicial y sobreescribir (https://code.google.com/archive/p/diskscrub/) la antigua ubicación de datos.
 Intermedio: Encriptar con LUKS sobre LVM.
 Intermedio: ecryptfs sobre directorios/archivos específicos.
 Difícil: Encriptar completo el disco duro con una llave ubicada en otro dispositivo (como un pendrive).
