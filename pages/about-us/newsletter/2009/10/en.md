@@ -13,14 +13,14 @@ Field opens the doors of possibility for the future use of the space.
 
 If you are receiving harassing email or spam and want to ensure that a particular email address is automatically deleted, you can follow these steps:
 
-# Login to user.riseup.net with your riseup username and password.
-# Click on Email (on the left side of the screen).
-# Click on the Mail Filters tab
-# Click on Add filter
-# Name the filter whatever you'd like, e.g. "Move to trash"
-# Under the messages matching section, select From and Contains and then type the email address, e.g. "barack_obama@whitehouse.gov"
-# In the Will be placed in folder field type "Trash" (case sensitive- do not use "trash" or "TRASH" or it will not work).
-# Now click Save
+* Login to user.riseup.net with your riseup username and password.
+* Click on Email (on the left side of the screen).
+* Click on the Mail Filters tab
+* Click on Add filter
+* Name the filter whatever you'd like, e.g. "Move to trash"
+* Under the messages matching section, select From and Contains and then type the email address, e.g. "barack_obama@whitehouse.gov"
+* In the Will be placed in folder field type "Trash" (case sensitive- do not use "trash" or "TRASH" or it will not work).
+* Now click Save
 
 You're done! Any email from that address will automatically be moved to your trash folder.
 And, if you want to add more email addresses that you want moved to the trash, you can just click on add condition follow steps 6-8 above - you don't need to create a new filter.
