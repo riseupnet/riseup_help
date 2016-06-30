@@ -65,8 +65,10 @@ h2. cybrigade / espiv.net
 * Greek / English language
 
 h2. Framasoft
+
 [[Framasoft->https://wiki.framasoft.org/presentation_en]] is a french non-profit organization and network of non-formal education, originating from the educational world and initially dedicated to free and open source software.
-Framasoft want to provide alternative services to popular but proprietary services that are centralized and tracking users' data on the Internet. Framasoft is now involved in a long-distance huge project called : [[Dégooglisons Internet->https://degooglisons-internet.org/?l=en]] (let's Ungooglize Internet). 
+
+Framasoft want to provide alternative services to popular but proprietary services that are centralized and tracking users' data on the Internet. Framasoft is now involved in a long-distance huge project called : [[Dégooglisons Internet->https://degooglisons-internet.org/?l=en]] (let's Ungooglize Internet).
 No ads, no trackers, 100% free softwares.
 
 So far, the following services are provided:
@@ -78,7 +80,7 @@ So far, the following services are provided:
 * Mindmapping ≻ Framindmap
 * Simple Drawing ≻ Framavectoriel
 * Search ≻ Framabee (searx)
-* Social network ≻ Framasphère (Diaspora*) 
+* Social network ≻ Framasphère (Diaspora*)
 * Chat (slack-like) ≻  Framateam
 * Decision ≻ Framavox (Loomio)
 * Pocket-like ≻  Framabag (Wallabag)
@@ -92,6 +94,7 @@ So far, the following services are provided:
 * Github like ≻ Framagit (Gitlab)
 
 Before the end of 2016, alternatives to Change/Avaaz, Google Calendar, Google groups, Blogger, Wix, etc. should be provided.
+
 See [[this page to see all services->https://degooglisons-internet.org/liste?l=en]] and access them (home pages in french but most of the services are available in multiple languages)
 
 h2. immerda.ch
