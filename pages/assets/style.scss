@@ -49,6 +49,10 @@ h2.hidey {
   z-index: -1000;
 }
 
+p.indent {
+  margin-left: 2em;
+}
+
 //
 // DESIGN ELEMENTS
 //
@@ -287,3 +291,13 @@ html, body {
     background: #f9f9f9;
   }
 }
+
+h1.green, h1.red, h1.black {
+  line-height: 48px;
+  height: 48px;
+  padding-left: 56px;
+  margin-top: 30px;
+}
+h1.green { background: url(/assets/images/riseup-green.png) no-repeat; }
+h1.black { background: url(/assets/images/riseup-black.png) no-repeat; }
+h1.red   { background: url(/assets/images/riseup-red.png) no-repeat; }

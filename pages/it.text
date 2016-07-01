@@ -1,24 +1,3 @@
 @title = "Home"
-@this.layout = 'home'
-@this.toc = false
-@this.summary = "Riseup mette a disposizione strumenti di comunicazione online a gruppi impegnati nel cambiamento sociale libertario. Noi siamo un progetto per creare alternative democratiche e praticare l'autodeterminazione mediante il controllo dei nostri mezzi di comunicazione."
 
-h2. Email <small>https://mail.riseup.net</small>
-
-Mettiamo a disposizione caselle di posta elettronica sicure e private, accessibili via web, shell, IMAP o POP. [[Get help on mail => email]]. "Accedi alla tua webmail":https://mail.riseup.net. "Richiedi un account":https://user.riseup.net/forms/new_user. "Resetta la password persa":https://user.riseup.net/forms/password_reset/first. "Modifica le mie impostazioni":https://user.riseup.net.
-
-h2. Mailing Lists <small>https://lists.riseup.net</small>
-
-Mettiamo a disposizione mailing list per le organizzazioni di attivisti. [[Get help on lists => lists]]. "Accedi alle liste":https://lists.riseup.net/www/. [[Richiedi una lista => creating-lists]]. [[Iscriviti => subscribing]]. [[Cancellati => subscribing]].
-
-h2. Nuovi servizi
-
-Stiamo testando servizi [*[[vpn]]*], [*[[chat]]*], ed [*"etherpad":https://pad.riseup.net*]. Questi servizi sono ancora in fase di sviluppo ed a volte potrebbero non essere disponibili. Se hai voglia di testarli, provali.
-
-h2. Risorse
-
-*[[Sicurezza => security]]*
-Risorse e tutorial per comunicazioni più sicure.
-
-*"Assistenza tecnica":https://user.riseup.net/forms*
-Per chiederci qualcosa, apri un ticket usando il modulo di assistenza tecnica. Prima di farlo, però, ti chiediamo di cercare e leggere la documentazione online disponibile su questo sito.
+<%= render :partial => 'home' %>

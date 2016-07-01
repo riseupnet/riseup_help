@@ -1,25 +1,5 @@
-@translatable = true
-@title = "Home"
+@title = 'Home'
 @this.layout = 'home'
 @this.toc = false
-@this.summary = "Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications."
 
-h2. Email <small>https://mail.riseup.net</small>
-
-We provide secure and private email accounts, accessible via the web, shell, IMAP, or POP. [[Get help on mail => email]]. "Login to webmail":https://mail.riseup.net. "Request an account":https://user.riseup.net/forms/new_user. "Reset lost password":https://user.riseup.net/forms/password_reset/first. "Change my settings":https://user.riseup.net.
-
-h2. Mailing Lists <small>https://lists.riseup.net</small>
-
-We provide mailing lists for activist organizations. [[Get help on lists => lists]]. "Login to lists":https://lists.riseup.net/www/. [[Request a list => creating-lists]]. [[Subscribe => subscribing]]. [[Unsubscribe => subscribing]].
-
-h2. New Services
-
-We are testing [*[[vpn]]*], [*[[chat]]*], [*"etherpad":https://pad.riseup.net*] and [*"file sharing":https://share.riseup.net*] services. These services are still under development, and may be unreliable at times. If you want to help test them, please give them a try.
-
-h2. Resources
-
-*[[security]]*
-Resources and tutorials for more secure communication.
-
-*"Help Desk":https://user.riseup.net/forms*
-In order to contact us with a question, use the help desk form to create a help ticket. But first, please search and read the online documentation found on this site.
+<%= render :partial => 'home' %>

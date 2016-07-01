@@ -1,0 +1,111 @@
+%h1.red
+  %span {{red_title}}
+
+%p {{red_info}}
+
+.row
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-inbox
+        {{red_webmail}}
+      %li
+        %i.fa-li.fa.fa-support
+        {{red_support}}
+      %li
+        %i.fa-li.fa.fa-toggle-on
+        {{red_settings}}
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-plus-square
+        {{red_request}}
+      %li
+        %i.fa-li.fa.fa-exclamation-circle
+        {{red_reset_password}}
+      %li
+        %i.fa-li.fa.fa-ticket
+        {{red_help}}
+
+%h1.black
+  %span {{black_title}}
+
+%p {{black_info}}
+
+.row
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-support
+        {{black_vpn}}
+      %li
+        %i.fa-li.fa.fa-toggle-on
+        {{black_settings}}
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-download
+        {{black_download}}
+      %li
+        %i.fa-li.fa.fa-ticket
+        {{black_help}}
+
+%h1.green
+  %span {{other_title}}
+
+%p {{other_info}}
+
+%h3 {{lists_title}}
+
+%p {{lists_info}}
+
+.row
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-reply-all
+        {{lists_login}}
+      %li
+        %i.fa-li.fa.fa-support
+        {{lists_help}}
+      %li
+        %i.fa-li.fa.fa-ticket
+        {{lists_request}}
+  .col-sm-6
+    %ul.fa-ul.spaced
+      %li
+        %i.fa-li.fa.fa-plus-square
+        {{lists_subscribe}}
+      %li
+        %i.fa-li.fa.fa-minus-square
+        {{lists_unsubscribe}}
+
+%h3 {{collab_title}}
+
+%ul.fa-ul.spaced
+  %li
+    %i.fa-li.fa.fa-file-text
+    %b [[we.riseup.net => https://we.riseup.net]]
+    &mdash; {{we_info}}
+  %li
+    %i.fa-li.fa.fa-pencil
+    %b [[pad.riseup.net => https://pad.riseup.net]]
+    &mdash; {{pad_info}}
+  %li
+    %i.fa-li.fa.fa-share-alt
+    %b [[share.riseup.net => https://share.riseup.net]]
+    &mdash; {{share_info}}
+
+%h3 {{resources_title}}
+
+%p [[security]]
+
+%p.indent {{security_info}}
+
+%p {{help_link}}
+
+%p.indent {{help_info}}
+
+%p [[radical-servers]]
+
+%p.indent {{servers_info}}

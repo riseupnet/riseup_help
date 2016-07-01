@@ -1,0 +1,46 @@
+riseup_intro: "Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。"
+
+red_title: "Riseup Red"
+red_info: "We provide <b>Riseup Red</b> accounts for traditional services,
+  including [[email]] (IMAP), [[chat]] (XMPP), and [[legacy]] (OpenVPN)."
+red_webmail: "[[Login to webmail => https://mail.riseup.net]]"
+red_support: "Get help on [[email]], [[chat]], and [[legacy]]."
+red_settings: "[[Change my settings => https://user.riseup.net]]"
+red_request: "[[Request an account => https://user.riseup.net/forms/new_user]]"
+red_reset_password: "[[Reset lost password => https://user.riseup.net/forms/password_reset/first]]"
+red_help: "[[Create a Riseup Red help ticket => https://user.riseup.net/forms/]]"
+
+black_title: "Riseup Black"
+black_info: "We provide <b>Riseup Black</b> accounts for new services that
+  require the Bitmask application. Currently, this includes VPN, with end-to-end
+  encrypted email coming soon."
+black_vpn: "[[Get help on VPN => vpn]]"
+black_settings: "[[Change my settings => https://black.riseup.net]]"
+black_download: "[[Download Bitmask application => https://bitmask.net/install]]"
+black_help: "[[Create a Riseup Black help ticket => https://black.riseup.net/tickets/new/]]"
+
+other_title: "Other Services"
+other_info: "The following services each use independent accounts which are not
+  tied to Riseup Red or Riseup Black."
+
+lists_title: "Mailing Lists"
+lists_info: "We provide mailing lists for activist organizations."
+lists_login: "[[Login to lists => https://lists.riseup.net/www/]]"
+lists_help: "[[Get help on lists => lists]]"
+lists_request: "[[Request a list => creating-lists]]"
+lists_subscribe: "[[Subscribe => subscribing]]"
+lists_unsubscribe: "[[Unsubscribe => subscribing]]"
+
+collab_title: "Collaboration"
+we_info: "private wikis and group collaboration."
+pad_info: "real-time collaborative text editor."
+share_info: "file upload (pastebin and imagebin)."
+
+resources_title: Resources
+security_info: "Resources and tutorials for more secure communication."
+help_link: "[[Riseup Help Desk => https://user.riseup.net/forms]]"
+help_info: "In order to contact us with a question, use the help desk form to
+  create a help ticket. But first, please search and read the online
+  documentation found on this site."
+servers_info: "A directory of dozens of radical server projects around the world."
+

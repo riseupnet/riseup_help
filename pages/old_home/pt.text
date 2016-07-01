@@ -1,0 +1,24 @@
+@title = "Início"
+@this.layout = 'home'
+@this.toc = false
+@this.summary = "O Riseup oferece ferramentas de comunicação online para pessoas e grupos trabalhando em mudanças sociais libertárias. Somos um projeto para a criação de alternativas democráticas e para a prática da autonomia, por meio do controle dos nossos próprios meios de comunicação segura."
+
+h2. E-mail <small>https://mail.riseup.net</small>
+
+Nós oferecemos contas de e-mail seguras e privadas, acessíveis via web, shell, IMAP ou POP. [[Buscar ajuda com o e-mail => email]]. [[Login no webmail => https://mail.riseup.net]]. [[Solicitar uma conta => https://user.riseup.net/forms/new_user]]. [[Recuperar senha => https://user.riseup.net/forms/password_reset/first]]. [[Ajustar minhas configurações => https://user.riseup.net]].
+
+h2. Listas de e-mail <small>https://lists.riseup.net</small>
+
+Nós oferecemos listas de e-mail para organizações ativistas. [[Buscar ajuda com as listas => lists]]. "Login de listas":https://lists.riseup.net/www/. [[Solicitar uma lista => creating-lists]]. [[Inscrever-se => subscribing]]. [[Cancelar uma inscrição => subscribing]].
+
+h2. Novos serviços
+
+Estamos testando serviços de [*[[vpn]]*], [*[[chat]]*], e [*[[etherpad=>https://pad.riseup.net]]*]. Esses serviços ainda estão em desenvolvimento e podem ser instáveis às vezes. Sinta-se à vontade para nos ajudar a testá-los.
+
+h2. Recursos
+
+*[[Segurança => security]]*
+Recursos e tutoriais para comunicações mais segura.
+
+*[[Help Desk => https://user.riseup.net/forms]]*
+Para entrar em contato conosco com perguntas, crie um ticket de ajuda pelo help desk. Mas primeiro pesquise e leia a documentação online disponível neste site.
