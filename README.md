@@ -164,6 +164,9 @@ Amber adds an additional way to make links:
     or
     [[chat/client]]
 
+Whenever possible, you should use this double bracket notation for creating
+links.
+
 By using this double bracket link notation will automatically find the right
 path for the page with the specified name. Also, it will warn you if the page
 name is missing and it will ensure that the link is created with the correct
@@ -238,10 +241,16 @@ Should be translated to:
 
     [[Seguridad => security]]
 
+But a simple:
+
+    [[security]]
+
+Should NOT be translated.
+
 The locale will be automatically added to the link, so there is no need to ever
 include it (e.g. the link `[[Seguridad => security]]` will link to
 https://help.riseup.net/es/security). The link `[[Security => security]]` could
-have also been written simply `[[Security]]`.
+have also been written simply `[[security]]`.
 
 We do not yet have the capability to automatically identify which translated
 pages need to be updated. However, in the future, I plan to add the command
