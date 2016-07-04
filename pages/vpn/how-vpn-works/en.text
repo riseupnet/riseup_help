@@ -29,9 +29,4 @@ Because your traffic appears to originate from the VPN Server, the recipient of 
 
 In the case illustrated above, the website in California thinks that the laptop in Brazil, the laptop in Europe, and the giant cellphone floating over Canada are all coming from New York, because that is where the VPN server is.
 
-h2. Limitations of using a personal VPN
-
-* If you live in an non-democratic state, it may be illegal to use a personal VPN to access the internet.
-* Using a VPN on your mobile device will secure your data connection, but the telephone company will still know your location by recording which towers your device communicates with.
-* A VPN helps secure your information while in transit on the internet, but it does not secure your information while in storage on your computer or on a remote server.
-* Once data is securely routed through the RiseupVPN servers, it goes out to the internet as it normally would. Therefore, you should still use [[secure connections -> secure-connections]] whenever possible.
+<%= render :partial => '_vpn-limitations' %>

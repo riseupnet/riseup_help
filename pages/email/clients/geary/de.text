@@ -21,6 +21,8 @@ Geary fragt dich nach dem Passwort für deinen GNOME-Schlüsselbund, um dein Ris
 
 h2. Erhöhe die Sicherheit
 
+<%= render :partial => 'enhance-security' %>
+
 h3. Überprüfe SSL/TLS-Zertifikate
 
 Offenbar ermögliche es Geary nicht, das verwendete [[TLS/SSL Zertifika -> certificates]] anzuzeigen. Wenn sich die zertifizierte Domain von der tatsächlich verwendet unterscheidet (wie z.B. bei der Verwendung von Riseups .onion-Dienstes, wird eine Warnung angezeigt, allerdings nicht die Prüfsumme (oder andere hilfreiche Infos zum verifizieren des Zertifikats).

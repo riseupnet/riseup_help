@@ -28,9 +28,4 @@ h2. Les VPNs privés anonymisent votre connection
 Parce que votre trafic apparaît comme venant du serveur VPN, le destinataire de votre communication internet ne sait pas où vous résidez actuellement (sauf, bien sûr, si vous leur dites).
 Dans le cas illustré ci-dessus, le site web en Californie pense que les ordinateurs portables au Brésil et en Europe ainsi que le téléphone portable au Canada viennent tous de New-York, parce que c'est là où est le serveur VPN.
 
-h2. Limitations à l'utilisation d'un VPN privé
-
-* Si vous vivez dans un état non démocratique, il peut être illégal d'utiliser un VPN privé pour accéder à internet.
-* Utiliser un VPN sur votre téléphone portable sécurisera vos données sur internet, mais l'entreprise de téléphonie connaîtra toujours votre localisation en enregistrant avec quelles tours votre appareil communique.
-* Un VPN aide à sécuriser vos informations pendant qu'elles transitent sur internet, mais ça ne sécurise pas vos informations quand elles sont stockées sur votre ordinateur ou sur un serveur distant.
-* Une fois que vos données sont routées de manière sécurisé via les serveurs du VPN Riseup, elles vont sur internet comme elles auraient normalement faits. Par conséquent, vous devez toujours utiliser des [[connections sécurisées -> secure-connections]] dès que possible.
+<%= render :partial => '_vpn-limitations' %>

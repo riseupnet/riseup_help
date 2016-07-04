@@ -1,4 +1,4 @@
-@title = 'Wie das Riseup VPN arbeitet'
+@title = 'Funktionsweise des RiseupVPN'
 
 Ein Virtuelles Privates Netzwerk (VPN) wird typischerweise von Angestellten benutzt, um von zu Hause sicher auf ein Unternehmensnetzwerk zuzugreifen.
 
@@ -29,9 +29,4 @@ Weil dein Verkehr von der IP-Adresse deines VPN-Servers zu kommen scheint, weiß
 
 Im oben illustrierten Fall denkt die Webseite in Kalifornien, dass der Laptop in Brasilien, der Laptop in Europa und das riesige Mobiltelephon, das über Kanada fliegt, alle aus New York kommen, weil dort der VPN-Server steht.
 
-h2. Einschränkungen durch die Nutzung eines persönlichen VPN
-
-* Wenn du nicht in einem demokratischen Staat lebst, kann es illegal sein, auf das Internet mit einem persönlichen VPN zuzugreifen.
-* Benutzt du ein VPN auf deinem Mobiltelephon, ist die Datenverbindung zwar sicher, aber dein Mobilfunkanbieter weiß trotzdem noch deinen Ort, weil er aufzeichnet, mit welchen Funktürmen dein Gerät kommuniziert.
-* Ein VPN hilft, deine Informationen beim Transit durch das Internet zu sichern, aber es schützt sie nicht, wenn sie auf deinem Rechner oder einem entfernten Server gespeichert sind.
-* Sobald die Daten sicher durch den RiseupVPN-Server geschickt wurden, gehen sie weiter durch das Internet wie normalerweise auch. Deshalb solltest du immer [[sichere Verbindungen -> secure-connections]] benutzen, wenn das möglich ist.
+<%= render :partial => '_vpn-limitations' %>

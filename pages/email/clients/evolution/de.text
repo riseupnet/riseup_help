@@ -8,12 +8,12 @@ Es wird verteilt als Teil von GNOME, wodurch es in allen Linux-Distribution mit 
 
 Evolution enthält Unterstützung für Email, Kalender, Adressbuch, Kontakte und GPG-Verschlüsselung.
 
-h2. Evolution installieren
+h3. Evolution installieren
 
 * Debian/Ubuntu Linux: Wahrscheinlich ist Evolution bereits installiert. Wenn nicht, @sudo apt install evolution@
 * Windows: "Herunterladen":http://www.dipconsultants.com/evolution/download.htm und installieren der Version für Windows.
 
-h2. Konto erstellen
+h3. Konto erstellen
 
 # Starte Evolution (drücke **Alt+F2** und gib @evolution@ ein)
 # Beim ersten Start von Evolution wirst du gefragt, ob du deine Einstellungen von einem Backup wiederherstellen möchtest.
@@ -37,7 +37,11 @@ Login: **foobar**
 
 Fertig!! Du kannst nun mit Evolution Emails durch Riseup-Server empfangen und senden.
 
-h2. OpenPGP-Verschlüsselung in Evolution aktivieren
+h2. Erhöhe deine Email-Sicherheit
+
+<%= render :partial => 'enhance-security' %>
+
+h3. OpenPGP-Verschlüsselung in Evolution aktivieren
 
 Alles was nötig ist, um Email-Verschlüsselung zu aktivieren, ist Evolution deine OpenPGP-Schlüssel-ID für dein Konto zu sagen und dann **für jede Mail** Verschlüsselung zu aktivieren.
 
@@ -50,7 +54,7 @@ Alles was nötig ist, um Email-Verschlüsselung zu aktivieren, ist Evolution dei
 
 Du kannst jetzt Emails mit Evolution ver- und entschlüsseln!
 
-h2. Verschlüsselte Emails verschicken
+h3. Verschlüsselte Emails verschicken
 
 # Verfasse eine Email
 # Wähle **Sicherheit** -> **PGP Verschlüsselung**

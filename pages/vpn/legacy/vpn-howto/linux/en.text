@@ -1,12 +1,17 @@
 @title = 'GNU/Linux'
+@toc = true
 
 p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
 
 p(alert alert-warning). *IF YOU RUN DEBIAN, UBUNTU OR ANOTHER DEBIAN DERIVATIVE, WE STRONGLY SUGGEST THAT YOU SWITCH TO OUR [[NEW VPN SERVICES -> vpn/how-to/linux ]].*
 
-h1. Gnome
+h1. Installation
 
-h2. Installation
+h2. KDE
+
+_To be written... [[by you? -> https://github.com/riseupnet/riseup_help ]]_
+
+h2. Gnome
 
 To install the necessary software, open a terminal (Accessories > Terminal) and type these commands:
 
@@ -28,7 +33,7 @@ $ sudo apt-get install network-manager-openvpn-gnome
 $ sudo /etc/init.d/network-manager restart
 </code>
 
-h2. Configuration
+h3. Configuration
 
 # Click on the network manager applet. This is a little icon in Gnome Panel that shows the status of the current network connection.
 # Select *VPN Connections* > *Configure VPN...* menu item
@@ -48,14 +53,14 @@ After you have saved the configuration, you can click on the network manager app
 
 When you connect to the VPN for the first time, you may get a dialog box asking you about allowing access to a keyring, that is OK. The keyring will keep your VPN password stored in an encrypted format.
 
-h2. VPN Servers
+h3. VPN Servers
 
 For *Gateway* choose one of the following:
 
 <%= render '/vpn/legacy/vpn-servers' %>
 
 
-h2. VPNAutoconnect
+h3. VPNAutoconnect
 
 UPDATE: VPNAutoconnect does not seem to work in the latest Ubuntu release. Alternately, you can try this "python autovpn script":python-autovpn-script. This script creates a little daemon that runs in the background and does two things: on new active network connection, activate VPN, if VPN connection is not disconnected by user, then reconnect. This requires NetworkManager 9.0 or above. (From: [[http://gist.github.com/1547663]])
 
@@ -64,37 +69,7 @@ UPDATE: VPNAutoconnect does not seem to work in the latest Ubuntu release. Alter
 UPDATE: You can also try [[this Bash script I found then edited->http://pastebin.com/5W1KwMp8]], credit to qertoip on [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
 
 
-
-
-h2. Troubleshooting
-
-If OpenVPN is not working, run this to see what is wrong:
-
-<code>
-# tail -f /var/log/syslog | grep -i vpn
-</code>
-
-If you are on a distribution that has SELinux enabled (eg. Fedora), then SELinux is going to block OpenVPN from accessing cert files unless they have specific permissions set properly. You need to put the Riseup cert into ~/.cert and then you need to run:
-
-<code>
-# restorecon -Rv ~/.cert
-</code>
-
-You wont see a very specific error about this, graphically just a very vague error, but in the system log you would see something like:
-
-<pre>
-nm-openvpn[6304]: Cannot load CA certificate file /home/phip/Documents/certs/RiseupCA.pem path (null) (SSL_CTX_load_verify_locations): error:0200100D:system library:fopen:Permission denied
-</pre>
-
-although the above error is the same error you would get if the permissions are wrong in general on the certificate, so if you are getting that error, but are not running SELinux, check the permissions on your cert file!
-
-
-h1. KDE
-
-To be written... [[by you? -> https://github.com/riseupnet/riseup_help ]]
-
-Command Line
-===================
+h2. Command Line
 
 If you don't want to use a graphical interface, you can run OpenVPN from the command line.
 
@@ -110,7 +85,7 @@ In order for openvpn to create the tun device it must be started as user root. H
 
 For more options, see @man openvpn@.
 
-h2. Testing via the command line
+h3. Testing via the command line
 
 Even if you use Network Manager to access the RiseupVPN, it can still be useful to troubleshoot problems by testing the connection via the command line. For example:
 
@@ -121,7 +96,7 @@ $ sudo openvpn --client --dev tun --auth-user-pass --remote vpn.riseup.net 1194 
 Again, see @man openvpn@ for more options.
 
 
-h2. Automatically update resolv.conf
+h3. Automatically update resolv.conf
 
 When running OpenVPN from the command line, it will not modify your DNS settings. You really want to use the DNS of the VPN, because then your DNS queries take place over an encrypted connection and they are not logged.
 
@@ -137,3 +112,8 @@ up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf
 </pre>
 # Download "this script":/vpn/legacy/vpn-howto/update-resolve.conf and place it in /etc/openvpn/update-resolve.conf
+
+
+h1. Troubleshooting
+
+See our general [[troubleshooting#linux]] page.

@@ -47,9 +47,4 @@ Once connected, if you click on the tunnelblick icon in the upper right corner o
 
 h2. Troubleshooting
 
-If the connection doesn't work, try these:
-
-# Where is the RiseupCA.pem file saved? Make sure you can find the file in the finder and that the path to the file is the same as specified in your configuration file.
-# Did you remember to remove the .txt extensions from the certificate file and the configuration file? The config file must end in .ovpn
-# If you are not able to use the internet when connected, your ISP may be blocking connections on port 1194. To change what port OpenVPN uses, you can change 1194 to 80 or 443 in the above configuration file.
-# By default, OpenVPN will use an internet protocol call UDP. This is faster, but sometimes you need to change this to TCP in order to get OpenVPN to work. To do so, add this to the configuration: <code>proto tcp</code>.
+See our general [[troubleshooting#mac]] page.

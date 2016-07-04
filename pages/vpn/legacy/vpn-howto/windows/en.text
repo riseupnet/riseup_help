@@ -25,42 +25,4 @@ Viola!
 
 h2. Troubleshooting
 
-If you are having problems connecting, the first thing you need to do is to find your openvpn logs because that is where problems are typically recorded. To get your logs you simply right click on the openvpn GUI notification icon, and click view logs.
-
-Once you have these, look in there for errors, some errors and solutions are below:
-
-h3. ROUTE: route addition failed using CreateIpForwardEntry: One or more arguments are not correct.
-
-If you get this error, add these lines to your openvpn.conf file:
-<pre>
-route-method exe
-route-delay 2
-</pre>
-
-h3. WARNING: 'dev-type' is used inconsistently, local='dev-type tap', remote='dev-type tun'
-
-If you find this error in your logs, you can try to change your configuration to have 'dev tun' instead of 'dev tap'
-and add this to your configuration:
-<pre>
-tun-mtu 1500
-</pre>
-
-h2. Other Problems
-
-h3. Saving Passwords
-
-Password storage on the windows client is insecure: There is no way in the current version to save your password. although it is possible [[recompile->http://openvpn.net/archive/openvpn-users/2005-04/msg00363.html]] the software with this option enabled (such as [[this version->http://forums.ivacy.com/index.php?topic=269.0]]), this stores your password in cleartext.
-
-Instead of using your riseup.net password, you should use a [[VPN Secret->vpn-secret]]. It is OK to store the VPN Secret in cleartext.
-
-h3. Using TUN instead of TAP
-
-If you use @dev tun@ instead of @dev tap@ in the configuration file, you *must* run openvpn as administrator. Otherwise, it will appear to work, but none of your traffic will actually be going over the RiseupVPN.
-
-To run OpenVPN as administrator:
-
-Right click on the *OpenVPN GUI* application and either choose "Run as Administrator" or if that doesn't exist, choose *properties*. From there, check *compatibility mode* and *run as administrator*. The *OpenVPN GUI* can be found under Start button → All Programs → OpenVPN → OpenVPN GUI.
-
-!/vpn/vpn-howto/win7-run-as-admin.jpg!
-
-
+See our general [[troubleshooting#windows]] page.

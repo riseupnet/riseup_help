@@ -18,36 +18,32 @@ Virtual Private Networks (VPN) are used typically to connect remote workers to t
 
 This type of VPN is sometimes called a "Personal VPN" or an "Encrypted Proxy". The goal of a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
 
-h2. What is Bitmask? What is LEAP?
+h2. What is LEAP? What is Bitmask?
 
 Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromissing their security. To access this service you will need to install the application called Bitmask.
 
-We are aware that encryption (in general) is hard and that there is an important gap between the access to security systems between tech savvy people and the rest of the world. However, to create a free society we must guarantee the equal access to secure and private communications technologies. Bitmask's role is to help us in that work. Bitmask gives a hassle-free, self-configuring and multi-platform experience with several security enhancements.
+[[LEAP Encryption Access Project -> https://leap.se]] is a project focused to make encryption easy to use and widely available while not compromising its security. Adapting existing technologies, LEAP creates tools that let you excercise the right to digitally whisper, as a fundamental precondition for a [[free society->about-us/politics]].
 
-Want to check it out? Please read the install instructions. Don't be afraid!
+**Bitmask** is a brand new client that provides hassle-free, self-configuring and multi-platform experience with several security enhancements.
 
-h2. What happened to OpenVPN? Why is Bitmask better than my OpenVPN client?
+Want to check it out? Please read the [[install instructions->vpn/how-to]]. Don't be afraid!
 
-OpenVPN is still here! Bitmask is built using OpenVPN but with several security enhancements turned on by default. One of the biggest problems with encryption today is how it's too easy to make mistakes, because of that, we are forcing security with Bitmask. It will prevent common VPN problems like DNS or IPv6 leaks or data going over the clear to the Internet if your connection with the VPN service repeatingly drops.
+[[Why is Bitmask better than my OpenVPN client?
+What happened to the old RiseupVPN/OpenVPN?
+... but I like OpenVPN!->faq]]
 
-Take note that even if we run OpenVPN in the background, you will need Bitmask to connect to our LEAP powered VPN system.
+h2. What's the status of the new RiseupVPN?
 
-h2. Why would you want to use the RiseupVPN?
+The new RiseupVPN is already working. Please tell us if you run into any problem!
 
-At Riseup, we believe it is important for everyone to use some technology like VPN or [[security/tor]] to encrypt their internet traffic. Why? Because the internet is being broken by governments, internet service providers (ISPs), and corporations (Read more). RiseupVPN will fight that, providing:
+h2. What systems are supported?
 
-# *protection against ISP surveillance*: RiseupVPN eliminates the ability of your ISP to monitor your communication. They have no meaningful records which can be used against you, either by marketers or the state.
-# *bypass government censorship*: RiseupVPN can entirely bypass all government censorship, so long as you still have access to the internet. Note, however, that careful analysis of your traffic could reveal that you are using a VPN, which may or may not be legal in your jurisdiction.
-# *access the entire internet, regardless of where you live*: RiseupVPN allows you to pretend to live in any country where we have a VPN gateway server. This gives you access to restricted content only available in those countries. RiseupVPN also allows you to use services that may be blocked in your country.
-# *break free from a corporate firewall*: So you work for an evil corporation and you try to waste as much time as possible surfing the web? Unfortunately, the corporate firewall probably prevents you from visiting many websites (riseup.net is on the list of banned sites for [[many corporate firewalls -> https://www.barracudanetworks.com/]]). RiseupVPN will let you entirely bypass these restrictions and gives you access to the whole web.
-# *secure your Wi-Fi connection*: Any time you use a public Wi-Fi connection, everyone else using that access point can spy on your traffic. RiseupVPN will prevent this.
+The Bitmask application runs on [[GNU/Linux->how-to/linux]] (as a package on Debian and Ubuntu and as a bundle for other distributions), Mac OSX and [[Android->how-to/android]]. Please check the [[Setup intructions->how-to]] for those systems.
 
-h2. Limitations to using RiseupVPN
+h2. Where do I send the bugs I found?
 
-The RiseupVPN shares some limitations common to all personal VPNs:
+Please file an issue under "your account":https://black.riseup.net.
 
-* *An insecure connection is still insecure*: Although RiseupVPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. This means you should still use TLS when available (ie. https, imaps, etc).
+<%= render :partial => '_why-vpn' %>
 
-* *RiseupVPN is not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
-
-* *The internet might get slower*: the RiseupVPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN gateway server close to where you actually live.
+<%= render :partial => '_vpn-limitations' %>

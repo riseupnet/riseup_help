@@ -4,9 +4,9 @@ h2. Was ist Claws?
 
 !>img/it_bites.png!
 
-Claws Mail war das vorinstallierte Emailprogramm für "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":http://www.claws-mail.org/downloads.php?section=downloads herunterladen.
+Claws Mail war das vorinstallierte Emailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":http://www.claws-mail.org/downloads.php?section=downloads herunterladen.
 
-Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es bietet Unterstützung für IMAP und POP, farbige Etiketten, Rechtschreibprüfung, Filter und Unterstützung für [[OpenPGP-Verschlüsselung->openpgp]]
+Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt IMAP und POP, farbige Etiketten, Rechtschreibprüfung, Filter und Unterstützung für [[OpenPGP-Verschlüsselung->openpgp]]
 
 h2. Claws Mail einstellen
 
@@ -33,7 +33,7 @@ Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Ko
 
 h3. Manuelle Kontoerstellung
 
-Gehe auf *Konfiguration > Neues Konto erstellen...* im Menu.
+Gehe im Menu auf *Konfiguration > Neues Konto erstellen...*.
 
 # *Allgemein* - gib Kontoname, Name und E-Mail-Adresse ein, [[wähle den Servertyp POP3 oder IMAP->email/clients#choose-imap-or-pop]], verwende *mail.riseup.net* als *Server zum Empfangen* und *SMTP-Server*. Für deinen riseup.net-Namen (ohne @riseup.net), sowie dein Passwort hinzu.
 !img/einstellungen_allgemein.png!
@@ -61,9 +61,6 @@ h3. Fertig!
 
 Wenn du IMAP benutzt, sollte jetzt alles automatisch funktionieren. Bei POP3 klicke auf den Knopf *Abrufen* in der Werkzeugleiste, um Emails abzurufen.
 
-h2. Was jetzt?
+h2. Erhöhe deine Email-Sicherheit
 
-h3. Erhöhe deine Email-Sicherheit
-
-# Es gibt viele Angriffsmöglichkeiten für sichere Verbindungen. Wenn du höhere Sicherheit brauchst, solltest du dich mit Riseup über das [[Riseup VPN => vpn]] verbinden. Das bewahrt dich vor einer Menge möglicher Angriff gegenüber deiner Kommunikation.
-# Verwende [[Riseups onion-Dienst -> tor#riseups-tor-hidden-services]], um Mails über [[Tor]] abzurufen
+<%= render :partial => 'enhance-security' %>

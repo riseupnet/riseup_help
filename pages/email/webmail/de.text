@@ -55,6 +55,10 @@ Es ist möglich, dass der Server nicht erreichbar ist. Du kannst den Status des 
 
 https://help.riseup.net
 
-h4. Step 4: Ruf nach Hilfe!
+h4. Step 4: Frage nach Hilfe!
 
 Wenn keiner der bisherigen Schritte hilft, "öffene ein Hilfe-Ticket":https://user.riseup.net/forms. Bitte probiere vorher  alle anderen Schritte aus, sonst verursacht uns das unnötige Arbeit. Bitte füge deiner Beschreibung des Problems auch alle Schritte bei, die du schon unternommen hast.
+
+h2. Auf Webmail über Tor zugreifen
+
+Um die Verbindungssicherheit zu erhöhen, kannst du [[Tor]] benutzen, um dich mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-services]] zu verbinden. Suche nach @mail.*.onion@ auf der verlinkten Seite.

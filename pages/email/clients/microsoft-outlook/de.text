@@ -8,3 +8,7 @@ Obwohl es oft hauptsächlich als Email-Anwendung beschrieben wird, enthält es a
 Wir empfehlen, es nicht zu benutzen, weil es keine Freie und quelloffene Software (Software Libre) ist.
 
 Wir haben noch keine Anleitung zur Benutzung von Outlook mit Riseup geschrieben. "Du kannst dabei helfen!":https://github.com/riseupnet/riseup_help
+
+h2. Erhöhe deine Email-Sicherheit
+
+<%= render :partial => 'enhance-security' %>

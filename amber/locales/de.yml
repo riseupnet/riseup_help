@@ -1,9 +1,23 @@
 de:
   tags: "Tags"
   tag: "Tag"
-  related: "Related"
+  related: "verwandt"
   missing_translation: "Diese Seite ist noch nicht ins Deutsche übersetzt worden."
   support_riseup: "Unterstütze Riseup!"
+  motto: "Komm raus aus dem Internet, wir sehen uns auf den Straßen."
+  footer_tagline: "Diese Seite wird betrieben von riseup.net, deinem freundlichen autonomen Technikkollektik seit 1999."
+  contribute_to_help: "Fühle dich eingeladen, Inhalt und Übersetzungen zu dieser Seite beizusteuern."
+  system_updates: "Systemmeldungen"
+  # quick links:
+  link_privacy: "Datenschutzrichtlinie"
+  link_about_us: "Über uns"
+  link_status: "Systemstatus"
+  link_support: "Unterstütze Riseup"
+  # services:
+  link_lists: "Emaillisten"
+  link_email: "Email"
+  link_chat: "Chat"
+  link_groups: "Gruppen"
 
   # Donation page
   donation_processor: "Dienstleister"

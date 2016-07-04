@@ -32,20 +32,6 @@ h2. ¿Qué pasa con OpenVPN? ¿Porqué es mejor Bitmask que mi cliente Open VPN?
 
 Ten en cuenta que incluso si ejecutamos OpenVPN de fondo, necesitarás Bitmask para conectarte a nuestro sistema VPN proporcionado por LEAP.
 
-h2. ¿Porqué querrías usar RiseupVPN?
+<%= render :partial => '_why-vpn' %>
 
-En Riseup, creemos que es importante para todos usar alguna tecnología como VPN o [[security/tor]] para cifrar el tráfico en Internet. ¿Por qué?. Porque Internet está siendo intentada controlar por los gobiernos, los proveedores de servicios de internet (ISP), y las diferentes empresas (Lea más). RiseupVPN combate esto proporcionando:
-
-# *protección contra la vigilancia de tu ISP*: RiseupVPN elimina la capacidad de tu proveedor de Internet para monitorear tus comunicaciones. No tendrán registros significativos de tu actividad para utilizar en tu contra, ya sea por parte de las empresas comercializadoras como del propio estado.
-# *protección contra la censura de los gobiernos*: RiseupVPN puede eludir completamente toda la censura del gobierno, siempre y cuando tengas acceso a internet. Ten en cuenta, sin embargo, que un análisis meticuloso de tu tráfico podría revelar que estás usando una VPN, lo que podría no ser legal en la legislación de tu país.
-# *acceso a la totalidad de Internet, independientemente de donde vivas*: RiseupVPN te permite simular que vives en cualquier país en el que tengamos un servidor de VPN. Esto te dará acceso a contenido restringido y que sólo esté disponible para esos países. RiseupVPN también te permite utilizar aquellos servicios que puedan ser bloqueados en tu país.
-# *una forma de evitar el cortafuegos corporativo*: ¿Trabajas para una empresa malvada e intentas perder tanto tiempo como sea posible navegando por la web? Por desgracia, el firewall de tu empresa probablemente te impida visitar muchos sitios web (riseup.net está en la lista de sitios prohibidos para [[muchos cortafuegos corporativos -> https://www.barracudanetworks.com/]]). RiseupVPN te permitirá eludir por completo estas restricciones y te dará acceso a toda la web.
-# *seguridad en tu conexión Wi-Fi*: Cada vez que utilizas una red Wi-Fi pública, todo el mundo que use ese punto de acceso podría espiar tu tráfico. RiseupVPN evitará esto.
-
-h2. Limitaciones en el uso de RiserupVPN
-
-El VPN de Riseup comparte algunas limitaciones comunes a todos los VPNs personales:
-
-* *Una conexión no segura será todavía insegura*: Aunque RiseupVPN conseguirá anonimizar tu ubicación y te protegerá de la vigilancia de tu ISP, una vez que tus datos son enviados de forma segura a través de riseup.net estos saldrán a Internet como lo harían normalmente. Esto significa que debes seguir utilizando TLS cuando esté disponible (es decir: https, imaps, etc).
-* *RiseupVPN no es la panacea*: Aunque VPNs logra mucho, no puede arreglarlo todo. Por ejemplo, no puede aumentar tu seguridad si el equipo ya está comprometido con virus o spyware. Si proporcionas información personal a un sitio web, es poco lo que una VPN puede hacer para mantener tu anonimato en ese sitio web o sus socios. Para obtener más información, consulta [[Anonimato VPN -> security-issues]].
-* *Tu conexión podría ir más lenta*: RiseupVPN redirige todo tu tráfico a través de una conexión cifrada a riseup.net antes de su viaje hacia la Internet normal. Este paso adicional puede ralentizar las cosas. Para minimizar este contratiempo, puedes elegir un servidor VPN cercano a donde vivas.
+<%= render :partial => '_vpn-limitations' %>

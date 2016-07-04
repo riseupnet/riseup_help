@@ -51,6 +51,10 @@ h3. **POP** mit @mutt@
 
 Siehe https://wiki.archlinux.org/index.php/Mutt#POP3 für mehr Infos.
 
+h2. Erhöhe deine Email-Sicherheit
+
+<%= render :partial => 'enhance-security' %>
+
 h3. [[OpenPGP]] in @mutt@
 
 # [[Setup OpenPGP => openpgp]]
