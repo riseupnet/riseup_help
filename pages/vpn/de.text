@@ -44,6 +44,6 @@ h2. Wohin kann ich Fehlerberichte schicken?
 
 Bitte erstelle ein Ticket in deinem "Konto":https://black.riseup.net.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

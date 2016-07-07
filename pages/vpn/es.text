@@ -32,6 +32,6 @@ h2. ¿Qué pasa con OpenVPN? ¿Porqué es mejor Bitmask que mi cliente Open VPN?
 
 Ten en cuenta que incluso si ejecutamos OpenVPN de fondo, necesitarás Bitmask para conectarte a nuestro sistema VPN proporcionado por LEAP.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

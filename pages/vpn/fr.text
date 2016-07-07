@@ -43,6 +43,6 @@ h2. Où est-ce que j'envois les bugs que j'ai trouvé ?
 
 Signaler le problème sur "votre compte":https://black.riseup.net.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

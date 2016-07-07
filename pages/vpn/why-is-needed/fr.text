@@ -39,4 +39,4 @@ Il y a plusieurs raisons pour lesquelles le VPN Riseup peut aider :
 
 [[how-vpn-works]]
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

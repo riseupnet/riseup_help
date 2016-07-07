@@ -44,6 +44,6 @@ h2. Where do I send the bugs I found?
 
 Please file an issue under "your account":https://black.riseup.net.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

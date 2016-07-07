@@ -27,10 +27,10 @@ h2. 什么是“Bitmask”，什么是“LEAP”？
 
 h2. OpenVPN怎么了? 为什么Bitmask比OpenVPN要更好一些?
 
-OpenVPN 依然强大! Bitmask编译的时候基于OpenVPN，同时默认开启了很多增强的安全选项。现在加密的最大的安全问题之一就是“容易犯错误”，对于这点，我们强制在Bitmask上开启安全措施。它会避免普通的VPN上的一些问题比如“DNS泄露”、“IPv6地址泄露”以及“当你的VPN服务连接经常失败时，你的所有流量将会被明文传输到互联网上”。 
+OpenVPN 依然强大! Bitmask编译的时候基于OpenVPN，同时默认开启了很多增强的安全选项。现在加密的最大的安全问题之一就是“容易犯错误”，对于这点，我们强制在Bitmask上开启安全措施。它会避免普通的VPN上的一些问题比如“DNS泄露”、“IPv6地址泄露”以及“当你的VPN服务连接经常失败时，你的所有流量将会被明文传输到互联网上”。
 
 一定要注意，即使我们的OpenVPN服务一直运行在后台,你也需要用Bitmask连接我们基于LEAP的服务.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>
