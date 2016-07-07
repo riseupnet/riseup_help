@@ -29,4 +29,4 @@ Because your traffic appears to originate from the VPN Server, the recipient of 
 
 In the case illustrated above, the website in California thinks that the laptop in Brazil, the laptop in Europe, and the giant cellphone floating over Canada are all coming from New York, because that is where the VPN server is.
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>

@@ -31,6 +31,6 @@ OpenVPN 依然强大! Bitmask编译的时候基于OpenVPN，同时默认开启�
 
 一定要注意，即使我们的OpenVPN服务一直运行在后台,你也需要用Bitmask连接我们基于LEAP的服务.
 
-<%= render :partial => '_why-vpn' %>
+<%= render :partial => 'why-vpn' %>
 
-<%= render :partial => '_vpn-limitations' %>
+<%= render :partial => 'vpn-limitations' %>
