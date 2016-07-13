@@ -6,39 +6,41 @@ h1. Apoie alternativas radicais!
 
 !>img/red-leap-medium.jpg!
 
-Riseup.net trabalha sem descanso para criar alternativas tecnológicas de base que vão de encontro às necessidades de comunicação de pessoas e organizações que trabalham por mudanças sociais. Quando você recebe um serviço de uma empresa que não cobra por isso, são grandes as chances do financiamento vir de vigilância extensiva. Riseup, por outro lado, se sustenta pela doação de usuárias como você que acreditam em apoiar alternativas democráticas.
+Riseup.net trabalha sem descanso para criar alternativas tecnológicas de base que vão ao encontro das necessidades de comunicação de pessoas e organizações que trabalham por mudanças sociais. Quando você usa um serviço de uma empresa que não cobra por isso, são grandes as chances do financiamento vir de extensa vigilância. Riseup, por outro lado, se sustenta pela doação de pessoas como você, que acreditam em apoiar alternativas democráticas.
 
-Para mais informações sobre Riseup, você pode [conhecer nossa equipe -> pt-quem-somos] e dar uma olhada nos nossos [projetos -> pt-projetos]. Riseup.net é uma [entidade sem fins lucrativos registrada -> https://riseup.net/irs-tax-letter.pdf] na seção ==501(c)(4)== do Código Tributário Federal dos Estados Unidos (US Internal Revenue Code).
+Para mais informações sobre Riseup, você pode [[conhecer nossa equipe => about-us]] e dar uma olhada nos nossos [[projetos => projects]]. Riseup.net é uma [[entidade sem fins lucrativos registrada => img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] na seção <code>501(c)(4)</code> do código tributário dos Estados Unidos ("US Internal Revenue Code").
 
-As doações para riseup.net não são dedutíveis dos impostos. Se você deseja fazer uma doação dedutível de impostos (Estados Unidos), você pode [contribuir para nossa organização irmã, RiseupLabs -> riseuphelp+en/donate-labs].
+As doações para riseup.net *não* são dedutíveis de impostos. Se você deseja fazer uma doação dedutível de impostos (Estados Unidos), você pode [[contribuir para nossa organização irmã, Riseup Labs => donate-labs]].
+
+Se você sabe programar, você pode apoiar Riseup [[escrevendo programas => programmers-wanted]].
 
 h2. Contribuição sugerida
 
-* *Indivíduos:* Pedimos que indivíduos com contas de email ou que possuam listas doem mensal ou anualmente. Se você está sem dinheiro, vive no hemisfério sul, ou em lugares com moeda desvalorizada, nós não esperamos que você doe. Isto significa que quem tem dinheiro no norte do planeta deveria contribuir um pouco mais como ato de solidariedade. Se você não tem certeza de quanto contribuir, nós podemos sugerir algo entre $5 e $15 dólores? Se vocẽ puder doar mais, por favor faça!
-* *Grupos:* Nós precisamos que as organizações com contas de email e listas contribuam. É especialmente essencial que organizações com listas de email muito grandes contribuam, já que esse tipo de serviço é caro para nós mantermos. Como sugestão, em geral, nós pedimos que organizações contribuam com 1% de seu orçamento anual -- isto quer dizer $100 por ano em doação para uma organização que tenha um orçamento anual de $10,000. 
+* *Indivíduos:* pedimos que indivíduos que tenham contas de e-mail ou administrem listas doem mensal ou anualmente. Se você estiver sem dinheiro, viver no hemisfério sul, ou a moeda do seu país for desvalorizada, não esperamos que você doe. Isto significa que quem tiver dinheiro no norte do planeta deve contribuir um pouco mais, como ato de solidariedade. Caso você não tenha certeza de quanto contribuir, nós podemos sugerir algo entre $5 e $15 dólores? Se vocẽ puder doar mais, por favor, doe!
+* *Grupos:* nós precisamos que as organizações com contas de e-mail e de listas contribuam. É particularmente essencial que organizações com listas de e-mail muito grandes contribuam, já que a manutenção desse tipo de serviço é cara. Como sugestão, em geral, nós pedimos que organizações contribuam com 1% de seu orçamento anual -- isto quer dizer uma doação de US$ 100 por ano para uma organização cujo orçamento anual seja de US$ 10.000.
 
-Se você tem listas grandes, com mais de cem membros ou com grande tráfico de mensagens e muitos arquivos, a quantia de doação deve ser maior. 
+Se você tem listas grandes, com mais de cem membros ou com grande tráfico de mensagens e muitos arquivos, sugerimos que a quantia doada seja bem maior.
 
-Por favor, considere doar mais se você tem condições. Qualquer orçamento que sobra após cobrirmos nossas despesas básicas é revertido para prover serviços para mais pessoas. Se estiver fazendo uma doação grande (obrigado!), então por favor considere enviar um cheque ou dinheiro através do correio -- sistemas de pagamento online retiram uma fatia de até 3%.
+Por favor, considere doar mais se você tiver condições. Qualquer receita que sobre após cobrirmos nossas despesas básicas é aplicada para prover serviços para mais pessoas. Se fizer uma doação grande (agradecemos!), considere enviar um cheque ou dinheiro pelo correio -- sistemas de pagamento on-line recebem comissão de até 3%.
 
-Todas as decisões sobre finanças do "Coletivo Riseup" são tomadas usando o processo de consenso por membros do coletivo. 
+Todas as decisões sobre finanças do *Coletivo Riseup* são tomadas usando o processo de consenso por membros do coletivo. 
 
 
-h1. Doações por Correio
+h1. Doações por correio
 
-Envie cheques a [*"Riseup Networks"*] para:
+Nomeie cheques e ordens de pagamento a "Riseup Networks" e envie-os para:
 
-div(donation). Riseup Networks
+p(donation). Riseup Networks
 PO Box 4282
-Seattle, WA 98194 USA 
+Seattle, WA 98194 USA
 
-Infelizmente, não podemos enviar pra você uma carta de agradecimento quando recebemos sua doação. Por favor, saiba que nós sentimos uma gratidão incrível: seu apoio é vital e faz que todo o nosso trabalho duro seja possível. Nós amamos que você ponha dinheiro naquilo que valoriza! *Exceção:* A lei requer que nós relatemos anualmente a identidade de quem nos doa mais de $5 mil dólares.
+Infelizmente, não temos pessoal suficiente para enviarmos uma carta de agradecimento quando recebemos sua doação. Saiba que nós somos extremamente gratos: o seu apoio é vital e faz que todo o nosso trabalho duro seja possível. Nós adoramos você por investir seu dinheiro naquilo em que acredita! *Exceção:* A lei requer que nós relatemos anualmente a identidade de quem nos doa mais de US$ 5 mil.
 
 
-h1. Doações Online
+h1. Doações on-line
 
 <%= render :partial => 'inc/donate_forms' %>
 
-h1. Perguntas Frequentes
+h1. Perguntas frequentes
 
 <%= render :partial => 'inc/faq' %>
