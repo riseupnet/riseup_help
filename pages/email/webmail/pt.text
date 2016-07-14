@@ -1,13 +1,13 @@
 @title = 'Webmail'
 @nav-title = 'pt-webmail'
 
-h2. O que é webmail
+h2. O que é webmail?
 
-Com um webmail, você pode checar seu e-mail Riseup.net de qualquer computador que tenha um navegador da Web.
+Com um webmail, você pode checar seu e-mail Riseup.net de qualquer computador que tenha um navegador da web.
 
 Para usar o webmail de Riseup, visite https://mail.riseup.net.
 
-A principal razão para usar um webmail é não possuir um dispositivo próprio no qual se pode instalar um cliente de e-mail. Às vezes, as pessoas usam webmail porque não querem deixar registro de sua conta de e-mail no dispositivo. Essa não é uma boa solução, porque navegadores da Web podem deixar arquivos temporários, e arquivos de sessão podem ser recuperados com as ferramentas certas.
+A principal razão para usar um webmail é não possuir um dispositivo próprio no qual se pode instalar um cliente de e-mail. Às vezes, as pessoas usam webmail porque não querem deixar registro de sua conta de e-mail no dispositivo. Essa não é uma boa solução, porque navegadores da web podem deixar arquivos temporários, e arquivos de sessão podem ser recuperados com as ferramentas certas.
 
 h2. Opções de webmail
 
@@ -20,11 +20,11 @@ h2. Habilite os cookies
 
 Por segurança, nós exigimos cookies. Sem eles, é impossível garantir que sua sessão será segura.
 
-Infelizmente, cookies também possibilitam que anunciantes e sites como o Google rastreiem quase toda a sua atividade na Web. Se isso preocupa você, sugerimos que desabilite cookies de terceiros. Uma alternativa é bloquear todos os cookies e então permitir apenas aqueles dos sites que você quiser.
+Infelizmente, cookies também possibilitam que anunciantes e sites como o Google rastreiem quase toda a sua atividade na web. Se isso preocupa você, sugerimos que desabilite cookies de terceiros. Uma alternativa é bloquear todos os cookies e então permitir apenas aqueles dos sites que você quiser.
 
 h2. Problemas com o login?
 
-É muito comum nos perguntarem: "por que não consigo entrar no sistema?". Tentaremos, nesta página, ajudá-lo a descobrir e consertar o que há de errado.
+É muito comum nos perguntarem: "por que não consigo entrar no sistema?". Tentaremos, nesta página, ajudar você a descobrir e consertar o que há de errado.
 
 Quase sempre, problemas de autenticação decorrem de uma destas causas:
 
@@ -41,13 +41,13 @@ Para instruções específicas sobre gerenciamento de cookies, veja:
 * "Chrome":https://support.google.com/chrome/answer/95647
 * "Internet Explorer 9":http://windows.microsoft.com/en-US/windows7/How-to-manage-cookies-in-Internet-Explorer-9
 * "Internet Explorer 7 & 8":http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies
-* "FAQ do Windows sobre cookies":http://windows.microsoft.com/en-us/windows/cookies-faq
+* "FAQ do Windows sobre cookies":http://windows.microsoft.com/en-us/windows/cookies-faq.
 
 h4.  Passo 2: Tente outros navegadores 
 
 Se ainda não conseguiu, procure descobrir se o problema é com a sua conta ou com seu computador. 
 
-* Tente outros computadores e navegadores. Para esse teste ser eficiente, os outros computadores e navegadores devem ser tão diferentes quanto for possível. Se puder, tente se autenticar de uma rede diferente, usando um navegador diferente, com um outro sistema operacional.
+* Tente outros computadores e navegadores. Para esse teste ser eficiente, os outros computadores e navegadores devem ser tão diferentes quanto possível. Se puder, tente se autenticar de uma rede diferente, usando um navegador diferente, com um outro sistema operacional.
 
 * Sugerimos que você baixe e instale uma versão recente do Firefox ou do Chrome. Se der certo, então o problema é com o seu navegador.
 
@@ -55,8 +55,12 @@ h4.  Passo 3: Verifique o status do servidor
 
 É possível que o servidor esteja fora do ar. Você pode ver o status do servidor de e-mail, além de ler avisos do serviço, nesta página:
 
-* https://status.riseup.net
+* https://help.riseup.net.
 
 h4. Passo 4: Peça ajuda! 
 
-Se nada acima parece funcionar, então "preencha um ticket de ajuda":https://user.riseup.net/forms. Mas, por favor, tente as nossas sugestões primeiro! E também inclua na descrição do problema um resumo de tudo o que já tentou.
+Se nada acima parece funcionar, então "preencha um tíquete de ajuda":https://user.riseup.net/forms. Mas, por favor, tente as nossas sugestões primeiro! E também inclua na descrição do problema um resumo de tudo o que já tentou.
+
+h2. Acesse o webmail com Tor
+
+Para reforçar sua segurança, você pode usar [[Tor]] para se conectar ao webmail com os [[serviços .onion do Riseup -> tor#riseups-tor-hidden-services]]. Nesta página, procure pelo endereço @mail.*.onion@ correspondente.
