@@ -18,11 +18,11 @@ h2. How do I increase my quota?
 
 h2. Where is my quota going?
 
-# Log int to https://user.riseup.net
+# Login to https://mail.riseup.net
 # click the *settings* gear
-# select 'manage folders' in the small popup menu
+# select 'manage folders' in the pop-up menu
 # from the manage folders window, select individual folders on your account
-# under the *information* section on the right hand size click the link called 'click to get folder size'
+# under the *information* section on the right-hand side, click the link called 'click to get folder size'
 
 This will provide the folder size to you in human readable format.
 
