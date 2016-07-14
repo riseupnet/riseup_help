@@ -1,27 +1,28 @@
 @title = 'Contato'
 
-O melhor meio de entrar em contato conosco é preenchendo um ticket de ajuda. Por favor visite https://user.riseup.net para criar um ticket. Note que não é necessário possuir uma conta de e-mail Riseup para preencher o ticket.
+O melhor meio de entrar em contato conosco é preencher um tíquete de ajuda. Por favor, visite https://user.riseup.net para criar um tíquete. Note que não é necessário possuir uma conta de e-mail Riseup para preencher o tíquete.
 
-Para contatar-nos a respeito de dúvidas em geral sobre o nosso coletivo, envie um e-mail para collective@riseup.net. Qualquer pergunta sobre ajuda direcionada a este e-mail será ignorada.
+Para esclarecer dúvidas em geral sobre o nosso coletivo, envie um e-mail para collective@riseup.net. Qualquer pedido de ajuda direcionado a este e-mail será ignorado.
 
-Nosso GPG Key-ID longo é 0x3043E2B7139A768E. O fingerprint completo é:
+O ID longo da nossa chave GPG é 0x3043E2B7139A768E. A impressão completa da chave é:
 
-pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+pre. Impressão da chave = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 
-Não existe nenhuma razão especial para você confiar nesta chave. No entanto, você pode verificar quem confia nela:
+Não existe nenhuma razão especial para você confiar nesta chave. Você pode ver quem confia:
 
 pre. gpg --list-sigs 3043E2B7139A768E
 
-Nosso endereço para correspondências é:
+Nosso endereço para correspondência é:
 
 <pre>
-riseup.net
+Riseup Networks
 PO Box 4282
 Seattle, WA 98194 USA
 </pre>
 
-Membros e amigos do coletivo Riseup são frequentemente encontrados no IRC em irc.indymedia.org na sala de bate-papo #riseup. *Por favor note: para se juntar ao canal #riseup, você precisa estar conectado via SSL na porta 6697.* Você pode utilizar a interface web em https://chat.indymedia.org para entrar em contato com nós por esse canal se "IRC" não lhe é um acrônimo familiar.
+Membros e amigos do coletivo Riseup são frequentemente encontrados em irc.indymedia.org, na sala de bate-papo #riseup. *Observação importante: para se juntar ao canal #riseup, você precisa se conectar via SSL à porta 6697.* Você pode utilizar a interface web em https://chat.indymedia.org para falar conosco, se não conhecer bem o IRC.
 
+Encontre-nos na "Diaspora":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5 (riseup@diasp.org).
 Também estamos no "Twitter":https://twitter.com/riseupnet.
 
 Procurando por gráficos do Riseup em alta resolução? Venha dar uma olhada em [[images]].

@@ -11,11 +11,11 @@ h2. Informações que colhemos e guardamos
 
 h3. Informações de cadastro
 
-Quando você cria uma conta, os seus dados cadastrais são retidos. As informações de requisição de conta são excluídas depois de quatro meses, e o _status_ de convite, depois de um mês. Nós guardamos o endereço de e-mail alternativo especificado por você. Você pode apagá-lo, mas seu acesso à conta não poderá ser restaurado caso você também perca sua senha.
+Quando você cria uma conta, os seus dados cadastrais são retidos. As informações de requisição de conta são excluídas depois de quatro meses, e o _status_ de convite, depois de um mês. Nós guardamos o endereços de e-mail alternativos especificados por você. Você pode apagá-los, mas seu acesso à conta não poderá ser restaurado caso você também perca sua senha.
 
-h3. Pedidos de ajuda
+h3. Tíquetes de ajuda
 
-O conteúdo de qualquer pedido de ajuda que você cria ou comenta depois de entrar no sistema fica associado à sua conta. Você pode fazer um pedido de ajuda anonimamente criando-o sem, antes, fazer _login_. Nós apagamos, periodicamente, pedidos de ajuda antigos já atendidos.
+O conteúdo de qualquer tíquete de ajuda que você cria ou comenta depois de entrar no sistema fica associado à sua conta. Você pode preencher um tíquete de ajuda anonimamente criando-o sem, antes, fazer _login_. Nós apagamos, periodicamente, tíquetes de ajuda antigos e já atendidos.
 
 h3. Identificadores de sessão
 
@@ -51,7 +51,7 @@ Todos os seus dados armazenados são criptografados; apenas o Riseup tem as chav
 
 h3. Texto em claro
 
-Algumas mensagens enviadas ou recebidas não são criptografadas de ponta a ponta (por exemplo, quando o cliente de e-mail da outra pessoa não tem suporte para criptografia). Quando recebemos mensagens em texto legível, nós as armazenamos em um disco criptografado. Se um e-mail não cifrado for enviado de ou para nosso sistema, não poderemos garantir que o conteúdo dele não será interceptado em trânsito.
+Algumas mensagens enviadas ou recebidas não são criptografadas de ponta a ponta (por exemplo, quando o cliente de e-mail da outra pessoa não tem suporte para criptografia). Quando recebemos mensagens em texto legível, nós as armazenamos em um disco criptografado. Se elas forem enviadas de ou para nosso sistema, não poderemos garantir que o conteúdo delas não será interceptado em trânsito.
 
 h3. Não compartilhamos informações de usuários
 
@@ -69,4 +69,4 @@ Podemos apagar sua conta riseup.net a qualquer momento. Isso destruiria todos os
 
 h2. Mudanças nesta política
 
-Nós nos reservamos o direito de mudar esta política. Grandes mudanças serão notificadas aos usuários de maneira clara e destacada. Mudanças menores poderão ser incluídas no rodapé do site.
+Nós nos reservamos o direito de mudar esta política. Grandes mudanças serão notificadas aos usuários de maneira clara e destacada (como em um [[boletim => newsletter]]). Mudanças menores poderão ser incluídas no rodapé do site.
