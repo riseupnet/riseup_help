@@ -5,6 +5,20 @@ es:
   missing_translation: "Esta página aún no ha sido traducida del Inglés."
   support_riseup: "¡Apoya a Riseup!"
 
+  # Months
+  january: "Enero"
+  february: "Febrero"
+  march: "Marzo"
+  april: "Abril"
+  may: "Mayo"
+  june: "Junio"
+  july: "Julio"
+  august: "Agosto"
+  september: "Septiembre"
+  october: "Octubre"
+  november: "Noviembre"
+  december: "Diciembre"
+
   # Donation page
   donation_processor: "Gestor"
   supports_recurring_donations: "Donaciones periódicas?"
