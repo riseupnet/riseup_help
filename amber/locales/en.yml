@@ -5,19 +5,34 @@ en:
   missing_translation: "This page has not yet been translated from the English."
   support_riseup: "Support Riseup!"
   motto: "Get off the internet, I will see you in the streets."
-  footer_tagline: "This site is run by riseup.net, your friendly autonomous tech collective since 1999."
-  contribute_to_help: "You are invited to contribute content and translations for these pages."
+  footer_tagline: "This site is run by Riseup, your friendly autonomous tech collective since 1999"
+  contribute_to_help: "Please edit this site"
   system_updates: "System Updates"
   # quick links:
   link_privacy: "Privacy Policy"
   link_about_us: "About Us"
   link_status: "System Status"
-  link_support: "Support Riseup"
+  link_support: "Donate!"
   # services:
-  link_lists: "Mailing Lists"
+  link_lists: "Lists"
   link_email: "Email"
+  link_pad: "Pad"
+  link_share: "Share"
   link_chat: "Chat"
   link_groups: "Groups"
+
+  # Months
+  january: "January"
+  february: "February"
+  march: "March"
+  april: "April"
+  june: "June"
+  july: "July"
+  august: "August"
+  september: "September"
+  october: "October"
+  november: "November"
+  december: "December"
 
   # Donation page
   donation_processor: "Donation Processor"

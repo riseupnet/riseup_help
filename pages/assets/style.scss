@@ -10,7 +10,7 @@ $menu-shadow-color: #fff;
 $content-border-color: #ccc;
 $content-background-color: #fff;
 $title-background-color: #efefef;
-$footer-height: 80px;
+$footer-height: 120px;
 $footer-gutter: 20px;
 $footer-background-color: #666;
 $footer-color: #ddd;
@@ -225,12 +225,20 @@ html, body {
 // footer styling
 
 #footer .footer-text {
-  text-align: right;
   padding-top: 10px;
   a, & {
     color: $footer-color;
     margin: 4px 5px;
   }
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    color: lighten($footer-color, 80%);
+  }
+}
+#footer .text-center {
+  margin-top: 10px;
 }
 
 //
