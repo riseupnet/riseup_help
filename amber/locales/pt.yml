@@ -21,6 +21,19 @@ pt:
   link_groups: "Grupos"
   link_lists: "Listas de Email"
   
+  # Months
+  january: "Janeiro"
+  february: "Fevereiro"
+  march: "Março"
+  april: "Abril"
+  may: "Maio"
+  june: "Junho"
+  july: "Julho"
+  august: "Agosto"
+  september: "Setembro"
+  october: "Outubro"
+  november: "Novembro"
+  december: "Dezembro"
   
   # Página de doação
   donation_processor: "Processador/a da Doação"
