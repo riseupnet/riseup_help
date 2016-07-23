@@ -20,6 +20,20 @@ el:
   link_chat: "Chat"
   link_groups: "Ομάδες"
 
+  # Months
+  january: "Γενάρης"
+  february: "Φλεβάρης"
+  march: "Μάρτης"
+  april: "Απρίλης"
+  may: "Μάης"
+  june: "Ιούνης"
+  july: "Ιούλης"
+  august: "Αύγουστος"
+  september: "Σεπτέμβρης"
+  october: "Οκτώβρης"
+  november: "Νοέμβρης"
+  december: "Δεκέμβρης"
+
   # Donation page
   donation_processor: "Τρόπος δωρεάς"
   supports_recurring_donations: "Επαναλαμβανόμενες συνεισφορές;"

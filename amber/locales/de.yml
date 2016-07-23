@@ -19,6 +19,20 @@ de:
   link_chat: "Chat"
   link_groups: "Gruppen"
 
+  # Months
+  january: "Januar"
+  february: "Februar"
+  march: "März"
+  april: "April"
+  may: "Mai"
+  june: "Juni"
+  july: "Juli"
+  august: "August"
+  september: "September"
+  october: "Oktober"
+  november: "November"
+  december: "Dezember"
+
   # Donation page
   donation_processor: "Dienstleister"
   supports_recurring_donations: "Daueraufträge?"
