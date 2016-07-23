@@ -2,7 +2,7 @@
 
 h2. Por que Riseup não dá mais cota?
 
-Nós gostaríamos, mas é muito caro. Discos rígidos são baratos, mas os computadores que os contém e o aluguel do espaço para abrigá-los exigem mais recursos do que podemos dispor.
+Nós gostaríamos, mas é muito caro. Discos rígidos são baratos, mas os computadores que os contém e o aluguel do espaço para abrigá-los requerem mais recursos do que podemos dispor.
 
 h2.  Por que a minha cota não é atualizada?
 
@@ -12,14 +12,18 @@ Para economizar tempo, o servidor só atualiza a estimativa de cota quando você
 
 h2.  Como aumentar minha cota?
 
-# Faça login em https://user.riseup.net
-# Clique em *Email*
-# Insira um novo valor para a cota
+# Entre em https://user.riseup.net.
+# Clique em *E-mail*.
+# Insira um novo valor para a cota.
 
 h2.  Para onde está indo minha cota?
 
-Se você entrar na sua conta de e-mail Riseup [mail.riseup.net] e acessar "Configurações", um menu aparecerá. Selecione "Pastas".
+# Entre em https://mail.riseup.net.
+# Clique em *Configurações*.
+# No menu pop-up, selecione *Gerenciar pastas*.
+# Nesta janela, clique em cada pasta da sua conta.
+# Na seção *Informação*, clique em *Exibir o tamanho da pasta*.
 
-Na janela "Pastas", você pode selecionar uma de suas pastas e, clicando no link apropriado na seção "Informação", ver seu tamanho.
+O tamanho da pasta será mostrado em formato legível.
 
 Todas as mensagens em todas as pastas contribuem para somar sua cota, inclusive aquelas nas [[pastas especiais => email-folders]] Lixeira, Enviadas e Spam.
