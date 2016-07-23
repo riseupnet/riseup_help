@@ -24,7 +24,7 @@ Search for Bitmask on the Play store, or visit the following url from your devic
 
 ## Using Bitmask for the first time
 
-Before anything, you need a LEAP powered (black) Riseup account. To get that, please visit [https://black.riseup.net/login](https://black.riseup.net/login) and sign up to a new account. Take note that this is a new system, so your current riseup.net account will not work. 
+Before anything, you need a LEAP powered (black) Riseup account. To get that, please visit [https://black.riseup.net/signup](https://black.riseup.net/signup) and sign up to a new account. Take note that this is a new system, so your current riseup.net account will not work. 
 
 After that, open your just installed Bitmask app.
 

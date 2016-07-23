@@ -71,7 +71,7 @@ To get the stand-alone bundle, first determine the type of kernel you have. This
 
 #### 64bits
 
-If the output of that command was 'x86_64' or 'amd64' then download the lastest version avaiable from [https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2](https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2) and its OpenPGP signature from [https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc](https://dl.bitmask.net/client/linux/Bitmask-linux64-latest.tar.bz2.asc). 
+If the output of that command was 'x86_64' or 'amd64' then download the lastest version available from [https://dl.bitmask.net/client/linux/stable/Bitmask-linux64-latest.tar.gz](https://dl.bitmask.net/client/linux/stable/Bitmask-linux64-latest.tar.gz) and its OpenPGP signature from [https://dl.bitmask.net/client/linux/stable/Bitmask-linux64-latest.tar.gz.asc](https://dl.bitmask.net/client/linux/stable/Bitmask-linux64-latest.tar.gz.asc). 
 
 The following commands will download and verify the authenticity of the bundle.
 
@@ -86,7 +86,7 @@ If you get 'Correct signature' or 'Good signature' in the output, uncompress wit
 
 #### 32bits
 
-If the output of that command was 'i686' or 'i386' then download the lastest version avaiable from [https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2](https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2) and its OpenPGP signature from [https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2.asc](https://dl.bitmask.net/client/Bitmask-linux32-latest.tar.bz2.asc). 
+If the output of that command was 'i686' or 'i386' then download the lastest version available from [https://dl.bitmask.net/client/linux/stable/Bitmask-linux32-latest.tar.gz](https://dl.bitmask.net/client/linux/stable/Bitmask-linux32-latest.tar.gz) and its OpenPGP signature from [https://dl.bitmask.net/client/linux/stable/Bitmask-linux32-latest.tar.gz.asc](https://dl.bitmask.net/client/linux/stable/Bitmask-linux32-latest.tar.gz.asc). 
 
 The following commands will download and verify the authenticity of the bundle.
 
