@@ -9,13 +9,13 @@ h2. Install OpenVPN
 
 Download the OpenVPN Windows installer from [[this website -> http://openvpn.net/index.php/open-source/downloads.html]] and run it. You should download the *current stable* release from this page and verify the signature. You want the "Windows installer."
 
-h2. Install "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem
+h2. Install [[RiseupCA.pem => /security/network-security/riseup-ca/RiseupCA.pem]]
 
 Download the "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem and save it to [*C:\Program Files\OpenVPN\config\*]. (If you pick a different location, make sure to change the @ca RiseupCA.pem@ line of the configuration to point to the full path). For more information on the file RiseupCA.pem, see [[riseup-ca]].
 
 h2. Configure OpenVPN
 
-Download the "riseup.ovpn":/vpn/legacy/vpn-howto/windows/windows-riseup.ovpn configuration file and move it to [*C:\Program Files\OpenVPN\config\RiseupVpn.ovpn*]
+Download the [[riseup.ovpn => windows-riseup.ovpn]] configuration file and move it to [*C:\Program Files\OpenVPN\config\RiseupVpn.ovpn*]
 
 h2. Start OpenVPN
 
