@@ -20,9 +20,9 @@ This type of VPN is sometimes called a "Personal VPN" or an "Encrypted Proxy". T
 
 h2. What is LEAP? What is Bitmask?
 
-Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromissing their security. To access this service you will need to install the application called Bitmask.
+Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromising their security. 
 
-[[LEAP Encryption Access Project -> https://leap.se]] is a project focused to make encryption easy to use and widely available while not compromising its security. Adapting existing technologies, LEAP creates tools that let you excercise the right to digitally whisper, as a fundamental precondition for a [[free society->about-us/politics]].
+Adapting these technologies, LEAP creates tools that let you excercise the right to digitally whisper, as a fundamental precondition for a [[free society->about-us/politics]]. To access this service you will need to install the application called Bitmask.
 
 **Bitmask** is a brand new client that provides hassle-free, self-configuring and multi-platform experience with several security enhancements.
 
