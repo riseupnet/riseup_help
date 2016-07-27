@@ -1,4 +1,6 @@
 @title = "Accueil"
+@this.layout = 'home'
+@this.toc = false
 
 <%= render :partial => 'home' %>
 
