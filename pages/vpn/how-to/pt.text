@@ -1,0 +1,4 @@
+@title = "Manual"
+@summary = "Baixe, instale e configure o cliente Bitmask no Linux e no Android."
+
+<%= child_summaries %>
