@@ -1,0 +1,14 @@
+@nav_title = 'VPN antiga'
+@title = 'Riseup VPN antiga'
+
+p(alert alert-warning). Lançamos uma nova RiseupVPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da RiseupVPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
+
+h2. Que é a RiseupVPN
+
+Redes Privadas Virtuais (VPN) são usadas, tipicamente, para conectar funcionários distantes à rede de um escritório principal. A RiseupVPN é, porém, diferente: ela [[envia todo o seu tráfego na internet por meio de uma conexão criptografada => how-vpn-works]] para riseup.net, de onde ele parte para a internet pública. Este tipo de VPN é, às vezes, chamado de "VPN pessoal". O objetivo de uma VPN pessoal não é conectar alguém, em segurança, a uma rede privada, mas à internet como um todo.
+
+<%= child_summaries :include_toc => true, :order_by => [:name, {:direction => :desc, :numeric => true}] %>
+
+<%= render :partial => 'why-vpn' %>
+
+<%= render :partial => 'vpn-limitations' %>

@@ -1,0 +1,19 @@
+h2. Limitações da RiseupVPN
+
+A RiseupVPN compartilha de algumas limitações comuns a todas as VPNs pessoais:
+
+* *Aviso jurídico:* se você viver em um estado não democrático, poderá ser ilegal usar uma VPN pessoal para acessar a internet.
+
+* *Informações de localização:* usar uma VPN em um dispositivo móvel protegeria sua conexão de dados, mas a companhia telefônica ainda poderia determinar sua localização, registrando quais torres se comunicam com seu dispositivo.
+
+* *[[device-security]]*: uma VPN ajuda a proteger suas informações enquanto transitam pela internet, mas não enquanto estão armazenadas no seu computador ou em um servidor remoto.
+
+* *[[Conexão insegura é insegura->network-security]]*: embora a RiseupVPN torne anônima a sua localização e proteja você da vigilância do seu provedor, depois que seus dados forem roteados em segurança por riseup.net, eles navegarão pela internet como normalmente o fariam. Portanto, ainda se devem usar [[conexões seguras -> secure-connections]] (TLS), quando disponíveis (isto é, prefira HTTPS a HTTP, IMAPS a IMAP, etc.).
+
+* *VPNs não são uma panaceia*: embora VPNs deem conta de muita coisa, elas não resolvem tudo. Por exemplo, não aumentam a sua segurança se o seu computador já estiver infectado com vírus e programas espiões. Se você passar informações pessoais a um site, a VPN poderá fazer muito pouco para manter seu anonimato frente a esse site e os parceiros dele. Para mais informações, leia sobre [[o anonimato da VPN -> security-issues]].
+
+* *A internet pode ficar mais lenta*: a RiseupVPN roteia todo o seu tráfego por uma conexão criptografada a riseup.net antes que ele siga para a internet normal. Esse passo extra pode deixar a transferência de dados mais lenta. Para minimizar a lentidão, procure escolher um servidor de VPN próximo a onde você vive.
+
+* *VPNs podem ser difíceis de configurar*: ainda que tenhamos tomado providências para facilitar ao máximo o processo, qualquer VPN complica um pouco a configuração da sua rede.
+
+[[Saiba mais->vpn/security-issues]].
