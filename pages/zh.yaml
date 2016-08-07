@@ -1,46 +1,41 @@
 riseup_intro: "Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。"
 
 red_title: "Riseup Red"
-red_info: "We provide <b>Riseup Red</b> accounts for traditional services,
-  including [[email]] (IMAP), [[chat]] (XMPP), and [[legacy]] (OpenVPN)."
-red_webmail: "[[Login to webmail => https://mail.riseup.net]]"
-red_support: "Get help on [[email]], [[chat]], and [[legacy]]."
-red_settings: "[[Change my settings => https://user.riseup.net]]"
-red_request: "[[Request an account => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[Reset lost password => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[Create a Riseup Red help ticket => https://user.riseup.net/forms/]]"
+red_info: "我们为传统服务提供 <b>Riseup Red</b> 账户，
+  服务包括 [[email]] (IMAP)、 [[chat]] (XMPP)、 和 [[legacy]] (OpenVPN)。"
+red_webmail: "[[登录在线邮箱 => https://mail.riseup.net]]"
+red_support: "获取 [[email]]、 [[chat]] 和 [[legacy]] 的帮助。"
+red_settings: "[[更改设置 => https://user.riseup.net]]"
+red_request: "[[申请账户 => https://user.riseup.net/forms/new_user]]"
+red_reset_password: "[[重置密码 => https://user.riseup.net/forms/password_reset/first]]"
+red_help: "[[创建 Riseup Red 帮助单 => https://user.riseup.net/forms/]]"
 
 black_title: "Riseup Black"
-black_info: "We provide <b>Riseup Black</b> accounts for new services that
-  require the Bitmask application. Currently, this includes VPN, with end-to-end
-  encrypted email coming soon."
-black_vpn: "[[Get help on VPN => vpn]]"
-black_settings: "[[Change my settings => https://black.riseup.net]]"
-black_download: "[[Download Bitmask application => https://bitmask.net/install]]"
-black_help: "[[Create a Riseup Black help ticket => https://black.riseup.net/tickets/new/]]"
+black_info: "我们为需要 Bitmask 的服务提供 <b>Riseup Black</b> 账户，目前只提供 VPN 服务，加密邮件服务即将提供。"
+black_vpn: "[[获取 VPN 帮助 => vpn]]"
+black_settings: "[[更改设置 => https://black.riseup.net]]"
+black_download: "[[下载 Bitmask 应用 => https://bitmask.net/install]]"
+black_help: "[[创建 Riseup Black 帮助单 => https://black.riseup.net/tickets/new/]]"
 
-other_title: "Other Services"
-other_info: "The following services each use independent accounts which are not
-  tied to Riseup Red or Riseup Black."
+other_title: "其他服务"
+other_info: "以下服务使用独立账户，而不是 Riseup Red 或 Riseup Black 账户。"
 
-lists_title: "Mailing Lists"
-lists_info: "We provide mailing lists for activist organizations."
-lists_login: "[[Login to lists => https://lists.riseup.net/www/]]"
-lists_help: "[[Get help on lists => lists]]"
-lists_request: "[[Request a list => creating-lists]]"
-lists_subscribe: "[[Subscribe => subscribing]]"
-lists_unsubscribe: "[[Unsubscribe => subscribing]]"
+lists_title: "邮箱列表"
+lists_info: "我们为激进组织提供邮箱列表。"
+lists_login: "[[登录邮箱列表 => https://lists.riseup.net/www/]]"
+lists_help: "[[获取邮箱列表的帮助 => lists]]"
+lists_request: "[[申请邮箱列表 => creating-lists]]"
+lists_subscribe: "[[订阅 => subscribing]]"
+lists_unsubscribe: "[[取消订阅 => subscribing]]"
 
-collab_title: "Collaboration"
-we_info: "private wikis and group collaboration."
-pad_info: "real-time collaborative text editor."
-share_info: "file upload (pastebin and imagebin)."
+collab_title: "团队协作"
+we_info: "私人维基和团队协作。"
+pad_info: "实时协作文本编辑器。"
+share_info: "文件共享。"
 
-resources_title: Resources
-security_info: "Resources and tutorials for more secure communication."
-help_link: "[[Riseup Help Desk => https://user.riseup.net/forms]]"
-help_info: "In order to contact us with a question, use the help desk form to
-  create a help ticket. But first, please search and read the online
-  documentation found on this site."
-servers_info: "A directory of dozens of radical server projects around the world."
+resources_title: 资源
+security_info: "使沟通更安全的资源与教程。"
+help_link: "[[Riseup 帮助台 => https://user.riseup.net/forms]]"
+help_info: "请使用帮助台创建帮助单联系我们。不过在向我们咨询问题之前，请首先仔细阅读本站的在线文档。"
+servers_info: "世界各地的激进分子服务列表。"
 
