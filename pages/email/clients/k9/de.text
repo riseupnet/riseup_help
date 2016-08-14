@@ -10,7 +10,8 @@ K9-Mail ist sehr einfach zu konfigurieren:
 # Klicke 'Weiter'
 # Gib deine Riseup-Emailadresse und dein Passwort ein
 # [[Wähle POP oder IMAP -> email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails von mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
-# Dein Login, Passwort und Server sollten ausgefüllt sein, wenn nicht trage Name und Passwort deines Riseup-Kontos ein. Der Ein- und Ausgangs-Server ist @mail.riseup.net@. **Tor-Hinweis:** Wenn du dich über "Tor":https://www.torproject.org/docs/android.html. mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@.
+!es.png!
+# Dein Login, Passwort und Server sollten ausgefüllt sein. Ändere deinen Login ggf. auf deine *Riseup-Emailadresse*. Falls Ein- und Ausgangs-Server fehlen, ergänze @mail.riseup.net@. **Tor-Hinweis:** Wenn du dich über "Tor":https://www.torproject.org/docs/android.html. mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@ (siehe unten).
 # Wähle 'SSL/TLS (immer)'
 # Alle anderen Standard-Einstellungen sollten gut sein für die meisten.
 # Klicke 'Weiter', um die Verbindung zu testen
