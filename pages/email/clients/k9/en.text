@@ -8,23 +8,25 @@ You can install K-9 from Google Play, https://f-droid.org, or the "K-9 website":
 
 K9-Mail is about as easy to set up as they come.
 
-1) Install, as mentioned above
-2) Open K-9 Mail application
-3) Click 'Next'
-4) Enter your riseup email address 'youruser@riseup.net' and password
-5) Select either POP or IMAP (if you don't know the difference, and plan to use this email account on multiple devices select IMAP)
-6) Your username, password, and server should be prefilled in, if not, fill them in with 'youruser' and 'yourpassword' and mail.riseup.net
-7) Select 'SSL/TLS (always)'
-8) All other standard settings should be fine for most users
-9) Click 'Next' to test
-10) If you were able to connect successfully, you should now be on a screen titled 'outgoing server settings'
-11) Select 'SSL/TLS (always)'
-12) Click 'Next' to test
-13) If you were able to connect successfully, you should now be on a screen titled 'You're almost done!'
-14) Give the account a name if you like, and add your name in the 'name' field, please be aware, this information will be transmitted when you send mail from this device, so do not use your real name if you wish to remain (somewhat) anonymous
-15) Click 'Done'
+# Install, as mentioned above
+# Open K-9 Mail application
+# Click 'Next'
+# Enter your riseup email address and password
+# Select either POP or IMAP (if you don't know the difference, and plan to use this email account on multiple devices select IMAP)
+!en.png!
+# Your username, password, and server should be prefilled in. You need to change your username to *youruser@riseup.net*. If it is missing, add the server @mail.riseup.net@ or @smtp.*.onion@ (see below).
+# Select 'SSL/TLS (always)'
+# All other standard settings should be fine for most users
+# Click 'Next' to test
+# If you were able to connect successfully, you should now be on a screen titled 'outgoing server settings'
+# Select 'SSL/TLS (always)'
+# Click 'Next' to test
+# If you were able to connect successfully, you should now be on a screen titled 'You're almost done!'
+# Give the account a name if you like, and add your name in the 'name' field, please be aware, this information will be transmitted when you send mail from this device, so do not use your real name if you wish to remain (somewhat) anonymous
+# Click 'Done'
 
 Celebrate your good fortune for using Riseup!
+
 
 h1. Enhance security
 
