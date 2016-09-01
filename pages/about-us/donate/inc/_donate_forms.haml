@@ -1,3 +1,14 @@
+:javascript
+  var regular_id = "BPFRUBU4TVYYS"
+  var micro_id   = "94WVNL67BW6VN"
+  function updatePaypal(form, field) {
+    if (field.value < 11.90476) {
+      form.business.value = micro_id
+    } else {
+      form.business.value = regular_id
+    }
+  }
+
 %table.table.table-striped.table-condensed
   %tr
     %th= t(:donation_processor)
@@ -81,10 +92,10 @@
   %h2.hidey= t :paypal
   .panel-heading
     <a name="paypal"><img src="img/paypal.png"></a>
-  .panel-body
+  .panel-body      
     %p= t :paypal_description
 
-    %p= t :recurring_donation
+    %p.h4= t :recurring_donation
 
     :plain
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -104,7 +115,7 @@
             <option value="GBP">GBP £</option>
             <option value="EUR">EUR €</option>
           </select>
-          <input type="input" name="a3" value="10" size="6">
+          <input onchange="updatePaypal(this.form, this)" type="input" name="a3" value="15" size="6">
           <select name="p3">
             <option value="1">#{t :monthly}</option>
             <option value="3">#{t :quarterly}</option>
@@ -113,7 +124,7 @@
         </div>
       </form>
 
-    %p= t :one_time_donation
+    %p.h4{:style => 'margin-top: 10px'}= t :one_time_donation
 
     :plain
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -128,10 +139,63 @@
             <option value="GBP">GBP £</option>
             <option value="EUR">EUR €</option>
           </select>
-          <input type="input" name="amount" value="25" size="6">
+          <input onchange="updatePaypal(this.form, this)" type="input" name="amount" value="50" size="6">
           <input type="submit" name="submit" value="#{t :donate}">
         </div>
       </form>
+
+    %noscript
+      %p.h4{:style => 'margin-top: 10px'}= t :micropayments
+      %p= t :micropayments_note
+
+      %p= t :recurring_donation
+
+      :plain
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="t3" value="M">
+          <input type="hidden" name="src" value="1">
+          <input type="hidden" name="sra" value="1">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="modify" value="1">
+          <input type="hidden" name="business" value="94WVNL67BW6VN">
+          <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+          <div class="donation">
+            <b>Paypal:</b>
+            <select name="currency_code">
+              <option value="USD">USD $</option>
+              <option value="CAD">CAD $</option>
+              <option value="GBP">GBP £</option>
+              <option value="EUR">EUR €</option>
+            </select>
+            <input type="input" name="a3" value="5" size="6">
+            <select name="p3">
+              <option value="1">#{t :monthly}</option>
+              <option value="3">#{t :quarterly}</option>
+            </select>
+            <input type="submit" name="submit" value="#{t :subscribe}">
+          </div>
+        </form>
+
+      %p= t :one_time_donation
+
+      :plain
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_donations">
+          <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+          <input type="hidden" name="business" value="94WVNL67BW6VN">
+          <div class="donation">
+            <b>Paypal:</b>
+            <select name="currency_code">
+              <option value="USD">USD $</option>
+              <option value="CAD">CAD $</option>
+              <option value="GBP">GBP £</option>
+              <option value="EUR">EUR €</option>
+            </select>
+            <input type="input" name="amount" value="5" size="6">
+            <input type="submit" name="submit" value="#{t :donate}">
+          </div>
+        </form>
 
 .panel.panel-default
   %h2.hidey= t :flattr
@@ -143,5 +207,3 @@
       %form(action="https://flattr.com/thing/523584/Donate-to-Riseup" method="get")
         %b= t :flattr
         %input(type="submit" value="#{t :donate}")
-
-

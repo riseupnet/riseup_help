@@ -50,7 +50,8 @@ en:
   quarterly: "Quarterly"
   recurring_donation: "Recurring Donation"
   one_time_donation: "One Time Donation"
-
+  micropayments: "Micropayments"
+  micropayments_note: "For amounts less than US$12 per payment, please use micropayments! It will save us a lot of money."
   bitcoin: "Bitcoin"
   bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
   bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
@@ -64,7 +65,6 @@ en:
   paypal: "Paypal"
   paypal_note: "Works from many countries."
   paypal_description: "Paypal accepts credit cards and supports recurring donations (for recurring donations, a PayPal account is required)."
-
   wepay: "WePay"
   wepay_note: "An alternative to PayPal."
   wepay_description: "WePay is a nice alternative to PayPal. You can use WePay without creating an account, and it supports credit cards."
