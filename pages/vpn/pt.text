@@ -30,7 +30,7 @@ Quer experimentar? Leia as [[instruções de instalação->vpn/how-to]]. Não te
 
 [[Por que Bitmask é melhor do que meu cliente de OpenVPN?
 Que aconteceu à antiga RiseupVPN/OpenVPN?
-... mas eu gostava do OpenVPN!->faq]]
+... mas eu gostava da OpenVPN!->faq]]
 
 h2. Qual é o status da nova RiseupVPN?
 
@@ -38,7 +38,7 @@ A nova RiseupVPN já está funcionando. Diga-nos se encontrar algum problema!
 
 h2. Quais sistemas são contemplados?
 
-O aplicativo Bitmask funciona no [[GNU/Linux->how-to/linux]] (como pacote no Debian e no Ubuntu e como conjunto de pacotes em outras distribuições), Mac OSX e [[Android->how-to/android]]. Consulte as [[instruções de configuração>how-to]] para esses sistemas.
+O aplicativo Bitmask funciona no [[GNU/Linux->how-to/linux]] (como pacote no Debian e no Ubuntu e como conjunto de pacotes em outras distribuições), Mac OSX e [[Android->how-to/android]]. Consulte as [[instruções de configuração->how-to]] para esses sistemas.
 
 h2. A quem informo os bugs que encontrar?
 
