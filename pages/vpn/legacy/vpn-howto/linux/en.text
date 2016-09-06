@@ -111,7 +111,7 @@ script-security 2
 up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf
 </pre>
-# Download "this script":/vpn/legacy/vpn-howto/update-resolve.conf and place it in /etc/openvpn/update-resolve.conf
+# Download "this script":/vpn/legacy/vpn-howto/update-resolv.conf and place it in /etc/openvpn/update-resolv.conf
 
 
 h1. Troubleshooting
