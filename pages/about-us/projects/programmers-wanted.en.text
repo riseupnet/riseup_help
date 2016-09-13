@@ -11,27 +11,26 @@ If you are a programmer, we need your help. Now is the time to use your skills f
 
 h2. LEAP
 
-In the near future, LEAP will be switching over to use the LEAP platform. Please see https://leap.se for how you can contribute to this effort.
+In the near future, LEAP will be switching over to use the LEAP platform. Please see [[https://leap.se => https://leap.se/get-involved]] for how you can contribute to this effort.
 
 h2. Javascript
 
-* Collaborative Editing: Write patches to "etherpad":http://etherpad.org to allow anyone to destroy a pad, password protect a pad, or prevent a pad from being destroyed.
-* Anonymous Email: Write a plugin for Thunderbird to remove personally identifying information from the outgoing headers (for example, User-Agent header).
+* Collaborative Editing: Write patches to [[etherpad => http://etherpad.org]] to allow anyone to destroy a pad, password protect a pad, or prevent a pad from being destroyed.
 
 h2. Ruby
 
-* Social Networking: Contribute to "crabgrass":https://github.com/RiseupLabs/crabgrass-core development.
-* Mailing Lists: Help write a new web front end for "sympa mailing list engine":https://www.sympa.org.
+* Social Wikis: Contribute to [[crabgrass => https://0xacab.org/riseuplabs/crabgrass]] development.
+* Mailing Lists: Help write a new web front end for [[sympa mailing list engine => https://www.sympa.org]].
 * User Management: Help us rewrite nest, the software that manages all user accounts.
 
 h2. PHP
 
-* Webmail: Add enhanced security features to "roundcube":http://roundcube.net.
+* Webmail: Add enhanced security features to [[roundcube => http://roundcube.net]].
 
 h2. Perl
 
-* Mailing Lists: We have a "long list of changes":https://labs.riseup.net/code/projects/sympa/issues we need made to the "sympa mailing list manager":https://www.sympa.org.
+* Mailing Lists: We have a [[long list of changes => https://0xacab.org/riseup/sympa/issues]] we need made to the [[sympa mailing list manager => https://www.sympa.org]].
 
 h2. Python
 
-* Help out with LEAP https://leap.se
+* Contribute to the [[Bitmask client => https://bitmask.net]]. See [[how to get involved => https://leap.se/get-involved]].
