@@ -27,7 +27,7 @@ Um riseup's Schlüssel herunter zu laden und die verwendete Schlüsselbezeichnun
 # Die Ausgabe sollte so aussehen:
 
 pre..
-gpg: Signature made Sun 10 Apr 2016 03:58:51 PM PDT
+gpg: Signature made Mon 15 Aug 2016 10:01:19 PM PDT
 gpg:           using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
 

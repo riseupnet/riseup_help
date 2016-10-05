@@ -39,4 +39,14 @@ h3. Beispiele
  !/assets/67182/2011-09-18-124412%20335x22%20scrot.png!
 
 
-*Achtung:* Du kannst noch immer hereingelegt werden, durch Adressen, die zwar gültig aussehen, aber ein oder zwei Zeichen vertauscht haben. Also überprüfe, ob der Link wirklich zu Riseup führt, indem Du Dich davon überzeugst, dass “riseup” korrekt buchstabiert ist (so sieht zum Beispiel “risuep.net” auf den ersten Blick gut aus – ist es aber nicht!). 
+*Achtung:* Du kannst noch immer hereingelegt werden, durch Adressen, die zwar gültig aussehen, aber ein oder zwei Zeichen vertauscht haben. Also überprüfe, ob der Link wirklich zu Riseup führt, indem Du Dich davon überzeugst, dass “riseup” korrekt buchstabiert ist (so sieht zum Beispiel “risuep.net” auf den ersten Blick gut aus – ist es aber nicht!).
+
+h2. Homographische Angriffe
+
+This kind of spoofing uses the similarity of letters among different character sets. Homographs are similarly looking characters, e.g. between Latin and Cyrillic charsets. The international domain name (IDN) system has no restrictions in mixing letters of different charsets. Hence users are not able to differenciate between letters that are displayed in the same way.
+
+The safest way for users is to never copy URLs from unsafe sources and always type URLs to the address bar directly (similarly to never copying code from websites to a terminal directly, but a text editor first for code auditing).
+
+Another protection method is to deactivate IDNA in the browser. "Known since 2005":http://www.internetnews.com/dev-news/article.php/3481651/Firefox+Others+at+Phishing+Risk.htm this issue has been "reported to Mozilla in 2013":https://www.mozilla.org/en-US/security/advisories/mfsa2013-61 with the consequence of restricting domain names to specific characters and using Punycode for domain names containing other characters. In firefox IDN whitelist settings can be changed browsing to @about:config@ -> *network.IDN*.
+
+More information on this topic is available on "Wikipedia":https://en.wikipedia.org/wiki/IDN_homograph_attack.

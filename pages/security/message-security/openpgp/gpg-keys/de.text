@@ -175,7 +175,7 @@ Es wird *nicht empfohlen* Windows für sichere Kommunikation zu verwenden. Währ
 * Nutzungskonten sind standardmäßig Admins
 * Weil Windows proprietär ist der  offen liegt Quellcode, gibt es keine wirksame Analyse nach Defekten, Hintertüren, oder allem, was "nach Hause telefoniert". Alle Geheimnisse, die du auf deinen Rechner tust, traust du Microsoft an.
 
-Als Plattform für sichere Kommunikation empfehlen wir, Linux zu installieren. Siehe [Installing Ubuntu Linux]
+Als Plattform für sichere Kommunikation empfehlen wir, eine "Distribution":https://distrowatch.com "freier Software":https://www.gnu.org/philosophy/free-system-distribution-guidelines.html basierend auf "GNU":https://www.gnu.org "Linux":https://www.gnu.org/gnu/linux-and-gnu.html wie *"Debian":https://www.debian.org/distrib (empfohlen)*, oder "Ubuntu":http://www.ubuntu.com/download/desktop ("Vorsicht wegen Problemen bei der Verletzung der Privatssphäre":https://www.gnu.org/philosophy/ubuntu-spyware.en.html) zu installieren.
 
 h2. Install Gpg4win
 

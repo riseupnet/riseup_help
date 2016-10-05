@@ -178,7 +178,7 @@ Il **n'est pas recommandé** d'utiliser Windows comme plateforme de communicatio
 * Les utilisateurs sont des administrateurs par défaut.
 * Puisque Windows est est propriétaire et que le code source n'est pas accessible, il n'existe aucune possibilité de vigilance extérieure pour des défauts, ou des portes dérobées. Vous devez faire entièrement confiance à Microsoft pour tous les secrets que vous choisissez de stocker sur votre ordinateur.
 
-Pour assurer une plateforme de communications sécuritaire, il est recommandé d'installer Linux. Consultez [[Installer Ubuntu Linux -> /missing-page]] pour créer une plateforme de communications sécuritaire, ou pour de plus amples informations.
+Pour assurer une plateforme de communications sécuritaire, il est recommandé d'installer Linux. Consultez [[Installer Debian Linux -> https://debian.org]] pour créer une plateforme de communications sécuritaire, ou pour de plus amples informations.
 
 h2. Installer Gpg4win
 

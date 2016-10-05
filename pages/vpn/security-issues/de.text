@@ -11,7 +11,7 @@ h2. Man-in-the-middle-Angriffe
 
 Ein "Man-in-the-middle-Angriff":https://en.wikipedia.org/wiki/Man-in-the-middle_attack (or MiTM) ist, wenn ein Angreifer in der Lage ist, deinen Netzwerkverkehr mitzuhören oder zu verändern. Solch ein Angriff kann genutzt werden, um dich zu deanonymisieren, Inhalte zu verändern, Passwörter zu stehlen, oder dir [[Viren->viruses]], Trojaner oder andere Software unterzuschieben, die geeignet ist, Zugang zu deinem Rechner zu bekommen.
 
-Jede Internetverbindung ist anfällig für MiTM-Angriffe, wegen der gebrochenen Natur des Internet. Durch Austricksen des Routing-Protokolls, welches das Internet benutzt, ist der meiste Internetverkehr angreifbar für MiTM-Angriffe von irgendwo auf der Welt. Obwohl diese Angreifbarkeit seit Jahren bekannt ist, wurde [[solch ein Angriff -> /assets/43591/defcon-16-pilosov-kapela.pdf]] auf der Hacker-Konferenz DEFCON im August 2008  dramatisch demonstriert.
+Jede Internetverbindung ist anfällig für MiTM-Angriffe, wegen der gebrochenen Natur des Internet. Durch Austricksen des Routing-Protokolls, welches das Internet benutzt, ist der meiste Internetverkehr angreifbar für MiTM-Angriffe von irgendwo auf der Welt. Obwohl diese Angreifbarkeit seit Jahren bekannt ist, wurde [[ein solcher Angriff -> https://we.riseup.net/assets/43591/defcon-16-pilosov-kapela.pdf]] auf der Hacker-Konferenz DEFCON im August 2008 dramatisch demonstriert.
 
 h3. Schützt mich ein VPN gegen MiTM?
 
@@ -31,7 +31,7 @@ bq. Während das PPTP den Vorteil hat, bei einer Anwendung bei Windows vorinstal
 
 h2. WPA2-Schwächen
 
-Im Zusammenhang mit ChapCrack kann der _Belastbarkeitstest_-Dienst "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 [[verschlüsselte WLAN-Geräte => http://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses]] "in weniger als einer Stunde":http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking brechen:
+Im Zusammenhang mit ChapCrack kann der _Belastbarkeitstest_-Dienst "Cloudcracker":https://web.archive.org/web/20160305151903/https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 "verschlüsselte WLAN-Geräte":http://news.cnet.com/8301-10093-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses "in weniger als einer Stunde":http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking brechen:
 
 bq. WPA-PSK, NT und NTLM-Passwörter sind lange bekannt dafür, Schwächen gegenüber Wörterbuch-Angriffen zu haben. Dabei werden alle möglichen Kombinationen von Worten ausprobiert. Weil dabei kryptographische Hashes benutzt werden, um die Worte zu verschleiern, war die Rechenleistung für Wörterbuchangriffe für die meisten Nutzer*innen lange Zeit unerreichbar. Marlinspikes Dienste greifen auf eine Sammlung von 400 CPU und 70 GPU zu und verteilen die Aufgabe unter ihnen. -- WPA-PSK, NT and NTLM passwords have all long been known to be vulnerable to dictionary attacks that try every possible set of words that compose a password. But because they use cryptographic hashes to obscure those words, the computing power to run a dictionary attack has long been unavailable to most users. Marlinspike’s service accesses a collection of 400 CPUs and 70 GPUs and distributes the cracking task across them. (forbes)
 
