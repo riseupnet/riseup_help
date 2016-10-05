@@ -141,4 +141,4 @@ Wähle *Encrypted Internet* und Connect. Wilkommen beim Riseup VPN-Dienst. Yay!
 
 ## Problemlösung
 
-Schau auf die [[Problemlösungsseite -> troubleshooting]].
+Schau auf die [[Problemlösungsseite -> vpn/troubleshooting]].

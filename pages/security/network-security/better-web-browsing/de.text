@@ -105,7 +105,7 @@ Für Firefox:
 Für Chrome:
 
 * [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassende Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt, dir den HTTP User-Agent zu ändern.
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher]] erlaubt, dir den HTTP User-Agent zu ändern.
 * [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] filtert die meisten Versuche, dich per HTML5 Canvas zu verfolgen (nicht quelloffen).
 
 h3. Schädlich oder nicht empfohlen

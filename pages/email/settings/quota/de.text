@@ -19,12 +19,12 @@ h2. Wie erhöhe ich meine Quota?
 
 h2. Wohin verschwindet mein Speicherplatz?
 
-# Melde dich bei deinem Mailkonto ein: https://mail.riseup.net
+_Falls deine Benutzeroberfläche nicht die deutsche Lokalisierung verwendet, klicke auf die englische Version dieser Seite (siehe links)._
+
+# Melde dich bei deinem Mailkonto an: https://mail.riseup.net
 # Klicke auf *Einstellung*
-# Im sich öffnenden Menu wähle *Ordner*
-# Wähle im Fenster zum Verwalten der Ordner einzelne Ordner deines Kontos aus
-# In die Sektion *Information* klicke auf den Link *Klick für Ordnergröße* auf der rechten Seite
+# Wähle *Ordner* in der Liste am linken Rand
+# Unten erscheint ein Kuchendiagramm mit einer Prozentzahl des belegten Speicherplatzes
+# Für genauere Informationen wähle einzelne Ordner aus und klicke auf *Ordnergröße anzeigen* unter *Informationen* rechts unten. Die Ordnergröße wird im für Menschen lesbaren Format anzeigt.
 
-Die Ordnergröße wird im für Menschen lesbaren Format anzeigt.
-
-Alle Nachichten deiner Ordner zählen zur Quota dazu, dazu zählen auch [[Sonderordner => email-folders]] wie Trash, Sent und Spam.
+Alle Nachichten deiner Ordner zählen zur Quota dazu, z.B. auch [[Sonderordner => email-folders]] wie Trash, Sent und Spam.

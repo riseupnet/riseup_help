@@ -24,7 +24,7 @@ h2. Kann ich mit Riseups Webmail verschlüsselte E-Mails senden und empfangen?
 
 Eines der Webmail-Programme auf Riseups Servern ermöglicht das Senden und Empfangen verschlüsselter Mails. Die Software heißt IMP und ist die zweite Anmeldemaske auf mail.riseup.net. Dabei besteht jedoch das Problem, daß Dein privater Schlüssel auf Riseups Servern gespeichert werden muss. Damit ist er bedroht durch den US-amerikanische Rechtsweg (wie Durchsuchungsbefehle oder Vorladungen) und *wir können dies nicht empfehlen*.
 
-Viel besser ist es für Riseup-NutzerInnen, ein Mail-Programm wie [Thunderbird->thunderbird-de] zum Senden und Empfangen von E-Mail zu nutzen, wobei Dein privater Schlüssel sicher auf Deinem eigenen Rechner gespeichert bleibt.
+Viel besser ist es für Riseup-NutzerInnen, ein [[Mail-Programm->/email/clients]] wie [[Thunderbird->thunderbird]] zum Senden und Empfangen von E-Mail zu nutzen, wobei Dein privater Schlüssel sicher auf Deinem eigenen Rechner gespeichert bleibt.
 
 h2. Wo liegen die Grenzen verschlüsselter Kommunikation?
 
@@ -70,4 +70,4 @@ Schön, daß Du fragst!
 
 h2. Wie richte ich die OpenPGP-Verschlüsselung auf meinem Computer ein?
 
-In unserem [HOWTO-Bereich über OpenPGP->howto-gpg-keys-de] gibt es Infos zu den Schlüsseln. Außerdem gibt es ein Dokument über die [Einbindung Deines Schlüsselbundes in Thunderbird->email-verschluesselung-mit-thunderbird].
+In unserer [[OpenPGP-Anleitung->gpg-keys]] gibt es Infos zu den Schlüsseln. Außerdem gibt es ein Dokument über die [[Einbindung Deines Schlüsselbundes in Thunderbird->opengpg/enigmail]].

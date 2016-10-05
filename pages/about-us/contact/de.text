@@ -10,7 +10,7 @@ pre. Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 
 Es gibt keinen Grund, warum Du diesem Schlüssel trauen solltest. Aber Du kannst sehen, wer diesem Schlüssel vertraut:
 
-pre. gpg --list-sigs 3043E2B7139A768E
+pre. gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 
 Unsere Postadresse ist:
 

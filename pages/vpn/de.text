@@ -7,9 +7,9 @@ p(alert alert-warning). Wir nehmen ein neues [[VPN->vpn]] in Betrieb, unser erst
 h2. Kurzlinks
 
 * Black: "black.riseup.net":https://black.riseup.net
-* Linux Benutzer? [[Installationsanleitung -> linux]]
-* Android Benutzer? [[Installationsanleitung -> android]]
-* Etwas funktioniert nicht? [[Troubleshooting]]
+* Linux Benutzer? [[Installationsanleitung -> /vpn/how-to/linux]]
+* Android Benutzer? [[Installationsanleitung -> /vpn/how-to/android]]
+* Etwas funktioniert nicht? [[Troubleshooting -> /vpn/troubleshooting]]
 * Hast Du eine Frage? [[FAQs -> faq]]
 
 h2. Was ist RiseupVPN?
@@ -20,13 +20,11 @@ Dieser Typ von VPN wird manchmal "Persönliches VPN" genannt, oder "Verschlüsse
 
 h2. Was ist Bitmask? Was ist LEAP?
 
-Unser neues RiseupVPN ist Teil einer neuen Generation von Anti-Überwachungsdiensten angetrieben durch das [[LEAP Projekt für verschlüsselten Zugang -> https://leap.se]]. LEAP ist eine Gemeinschaftsunternehmung, um existierende Verschlüsselungstechnologien einfach benutzbar und damit weithin verfügbar zu machen ohne dabei die Sicherheit einzuschränken. Um dies zu erreichen, muss die Anwendung Bitmask installiert werden.
+Unser neues RiseupVPN ist Teil einer neuen Generation von Anti-Überwachungsdiensten angetrieben durch das [[LEAP Projekt für verschlüsselten Zugang -> https://leap.se]]. LEAP ist eine Gemeinschaftsunternehmung, um existierende Verschlüsselungstechnologien einfach benutzbar und damit weithin verfügbar zu machen ohne dabei die Sicherheit einzuschränken. 
 
-LEAP ist ein Projekt, dass sich darauf konzentriert Verschlüsselung einfach verwendbar und verfügbar zu machen, ohne ihre Sicherheit zu gefährden. Mit dem Anpassen von existierenden Technologien, erstellt LEAP Werkzeuge welche Dich Dein Recht auf digitalen Schutz ausüben lassen, als fundamentale Vorraussetzung für eine freie Gesellschaft.
+Durch Anpassen existierender Technologien erstellt LEAP Werkzeuge, welche das Recht auf digitalen Schutz gewährleisten sollen, eine fundamentale Vorraussetzung für eine [[freie Gesellschaft->about-us/politics]]. Um dies zu erreichen, muss die Bitmask-Anwendung Bitmask installiert werden. Diese konfiguriert sich problemlos selbst, ist auf vielen Plattformen verfügbar und bietet verschiedene Sicherheitserweiterungen.
 
-Die neue **Bitmask**-Anwendung konfiguriert sich problemlos selbst, ist auf vielen Plattformen verfügbar und bietet verschiedene Sicherheitserweiterungen.
-
-Um es auszuprobieren, lies die [[Installationsanleitung->vpn/how-to]]. Hab keine Angst!
+Um *Bitmask* auszuprobieren, lies die [[Installationsanleitung->vpn/how-to]]. Keine Angst!
 
 [[Warum ist Bitmask besser als mein OpenVPN? Warum der Wechsel?
 Was ist mit dem alten RiseupVPN/OpenVPN passiert?

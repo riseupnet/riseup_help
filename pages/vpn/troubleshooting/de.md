@@ -1,6 +1,7 @@
 @nav_title = "Fehlersuche"
 @title = "RiseupVPN: Fehlersuche"
 @summary = "Problemlösungsanleitung für das LEAP-betriebene VPN"
+@toc = true
 
 ## Konto
 

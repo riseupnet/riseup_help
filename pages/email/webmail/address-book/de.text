@@ -1,7 +1,7 @@
 @title = "Webmail-Adressbuch"
 @nav_title = "Adressbuch"
 
-h2. Kontakte manuell von IMP/Squrrelmail in Roundcube importieren
+h2. Kontakte manuell von Squrrelmail in Roundcube importieren
 
 Du bist wahrscheinlich hier, weil unsere tollen praktischen Skripte für automatisches Importieren deines Adressbuchs in Roundcube nicht richtig funktioniert haben. Entschuldigung dafür! Glücklicherweise ist es einfach, deine Kontakte manuell zu importieren.
 
