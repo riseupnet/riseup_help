@@ -57,7 +57,7 @@ h4. Verify Riseup's Certificate
 Now that you have imported Riseup's public key, you can verify that the fingerprints listed on this page are really from riseup.net.
 
 # Download the signed [[certificate fingerprint statement => /security/network-security/certificates/riseup-signed-certificate-fingerprints.txt]]:
-@wget https://help.riseup.net/en/signed-certificate-fingerprints@
+@wget https://riseup.net/security/network-security/certificates/riseup-signed-certificate-fingerprints.txt@
 # Then run this command in a terminal:
 @gpg --verify riseup-signed-certificate-fingerprints.txt@
 # You should get output that says:
