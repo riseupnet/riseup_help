@@ -101,7 +101,7 @@ En este escenario, tu llave primaria es utilizada solo para certificación, lo q
 
 h2. No confíes en el ID de la llave
 
-Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
+Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
 
 Si quieres tratar con un identificador criptográficamente fuerte para una llave, debes usar la huella digital completa. Nunca debes confiar en la ID corta de la llave. 
 
