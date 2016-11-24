@@ -26,9 +26,10 @@ Um riseup's Schlüssel herunter zu laden und die verwendete Schlüsselbezeichnun
 <code>gpg --verify canary-statement-signed.txt</code>
 # Die Ausgabe sollte so aussehen:
 
-pre..
+<pre>
 gpg: Signature made Mon 15 Aug 2016 10:01:19 PM PDT
 gpg:           using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+</pre>
 
 p. Stelle sicher, dass es die Aussage "Good signature" enthält und bestätige, dass die Schlüsselbezeichnung mit der [[vorher verifizierten => network-security/certificates#complete-verification]] übereinstimmt. Wenn der Text verändert wurde, ist die Information in der Erklärung nicht vertrauenswürdig.
