@@ -26,9 +26,10 @@ h2. Инструкции по проверке
 <code>gpg --verify canary-statement-signed.txt</code>
 # Вы должны получить следующий вывод:
 
-pre..
+<pre>
 gpg: Signature made Fri 02 Oct 2015 09:54:28 AM PDT
 gpg:                using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+</pre>
 
 p. Убедитесь, что вывод содержит "Good signature", а также, что идентификатор ключа совпадает с тем, который вы проверили [[ранее. => network-security/certificates#complete-verification]] Если текст вывода отличается, то этой информации не следует доверять.
