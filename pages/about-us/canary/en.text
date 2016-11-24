@@ -26,9 +26,10 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 <code>gpg --verify canary-statement-signed.txt</code>
 # You should get output that says:
 
-pre..
+<pre>
 gpg: Signature made Mon 15 Aug 2016 10:01:19 PM PDT
 gpg:                using RSA key 0x3043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+</pre>
 
 p. You should make sure that it says "Good signature" in the output and confirm that the keyid matches the one you verified [[here earlier. => network-security/certificates#complete-verification]] If this text has been altered, then this information should not be trusted.
