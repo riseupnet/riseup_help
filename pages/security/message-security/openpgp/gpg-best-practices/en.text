@@ -83,7 +83,7 @@ Note the single quote marks above ('), which should surround your full fingerpri
 
 h3. Don't rely on the Key ID.
 
-Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, Key ID.
 

@@ -82,7 +82,7 @@ Faites attention aux apostrophes droites ci-dessus (') qu'il faut placer autour 
 
 h3. Ne vous fiez pas à l'identifiant de clé
 
-Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 Pour utiliser un indentifiant de clef fort du point de vue cryptographique, vous devriez utiliser les empreintes complètes. Vous ne devriez _jamais_ vous fier aux identifiants courts, ni aux identifiants longs.
 

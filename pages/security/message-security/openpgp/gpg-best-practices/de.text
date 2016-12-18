@@ -83,7 +83,7 @@ Wenn du öffentlich deine Beziehung zu dieser Person bewerben willst, kannst du 
 
 h3. Verlasse Dich nicht auf die Schlüssel-ID (keyid).
 
-Kurze OpenPGP Schlüssel-IDs, beispielsweise 0x2861A790, sind 32 bit lang. Es ist [[bekannt -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news]], dass es leicht ist einen neuen, gefälschten Schlüssel mit der selben Schlüssel-ID zu erstellen. Lange OpenPGP Schlüssel-IDs (wie z.B. 0xA1E6148633874A3D) sind 64 bit lang. [[ID-Kollisionen herbeizuführen ist trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], was ebenfalls [[ein potentiell ernsthaftes Problem darstellt -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Kurze OpenPGP Schlüssel-IDs, beispielsweise 0x2861A790, sind 32 bit lang. Es ist [[bekannt -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]], dass es leicht ist einen neuen, gefälschten Schlüssel mit der selben Schlüssel-ID zu erstellen. Lange OpenPGP Schlüssel-IDs (wie z.B. 0xA1E6148633874A3D) sind 64 bit lang. [[ID-Kollisionen herbeizuführen ist trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], was ebenfalls [[ein potentiell ernsthaftes Problem darstellt -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 Wenn Du wirklich eine kryptographisch starke Identifikation für einen Schlüssel haben willst, solltest Du den vollen Fingerabdruck verwenden. Du solltest Dich _nie_ auf die Schlüssel-ID verlassen, weder die kurze, noch die lange.
 
