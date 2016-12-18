@@ -44,7 +44,7 @@ Suponha que seu endereço de e-mail seja [@joehill@riseup.net@]:
 
 h2. Reforce a segurança do seu e-mail
 
-<%= render :partial => 'enhance-security' %>
+<%= render :partial => 'enhance-security.pt' %>
 
 h2.  Use Thunderbird
 
