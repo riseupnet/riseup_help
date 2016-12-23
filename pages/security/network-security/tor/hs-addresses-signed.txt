@@ -8,6 +8,7 @@ black.riseup.net: cwoiopiifrlzcuos.onion (port 80)
 imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
 lists.riseup.net: xpgylzydxykgdqyg.onion (port 80)
 mail.riseup.net:  zsolxunfmbfuq7wf.onion (ports 80, 465, 587)
+mx1.riseup.net:   wy6zk3pmcwiyhiao.onion (port 25)
 pad.riseup.net:   5jp7xtmox6jyoqd5.onion (port 80)
 pop.riseup.net:   zsolxunfmbfuq7wf.onion (port 995)
 share.riseup.net: 6zc6sejeho3fwrd4.onion (port 80)
@@ -19,19 +20,19 @@ xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 5222, 5269)
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJ8BAEBCgBmBQJXaqUFXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
+iQJ8BAEBCgBmBQJYXYrpXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
 ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaORtUP/jVtybS/00CFpvhaucoZxsE5
-Jid2RH31gT8fo7SDhNDRxddWvYpX+P82IT8eWPFlHJ1DrJXpuil1wYlUTSV3p2gg
-cCA7/fvcvZLySWyJXczDppCSiiJIOW/9x2OrdpmVEbCj2UpxzoLBcoZe5Hh43qoL
-xfoI3WFNcywCCmixJti+Ss333PQlu9sbLp5YB4sqIXtAe/uuAHcdfvPB8rDJ0b1D
-uL4voMQDJOPg+DhMkGSh7SdyJrN3w2KbbXarJGzk9zznxKa/UqlHctrQ59Gud70X
-E0fDvaTyan2ftdxLoonvZT7UtrrbHfmFXQZgO+IYzlcew2vyEBnCNmmaRCWTKveH
-tPPEKn0XBYw9GG07nYKfcrdFtkXGZnkKvMJaYZYrXi168FZnCbe0SxIk7pF+ECEE
-+3Id22yw1NTpLBGZ3qPnAdxX5zfYtnM6x2NMMmW53+Vr5juq1HDKVcphViGt0G3C
-sa+bH+Icx4DphX3D6zwGpXTKPGCgl9dtiW5OjjH/N0EFtou2+BObSTJkiDG07B/T
-u0hi+LSvpT81evQWZTgRyIB/AuEMSMQwGqA7jW1q0y/5FJX1ixIVSGpRJbNROGWM
-YXU5nq7Yyt12zlyxP/AWkzSlajMO63n8dCBVP3j3fP+r/45rTjLAkm4VEHBYlkEc
-M8MwXkNpi2/6PyrJwLTb
-=aOl1
+MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaO2vQP/RTXNnbGrSZLWQ4hHCHxx9Th
+0nptrHb4l2/5kCyqxfODKhUxxP5PZxTR9/uyjmzK19sLxIAoJaXObn+GRqRwXiot
+oqhqZZca2iYdpdVfLmD6n/c2oPVtmMOid1frFcm34u2B7vP7BNbgi2pkrTKqu2PG
+B1OUBk6aTxaFxxyGfFtzZmfnvGB0Ml/vcSfuutFVvS3OKxFGAekkHAQzZynHnzf9
+sefuNmaHXXx8ekkq2pTEL08lvGVT6C2D06KXtD5PC9x7UJRg53Af2AreOa9vBm+i
+oFMd6x7RGy6ilctqUIAh7u15k49mQkJLKYd5oMlcgoxDjqJLUT0rBRsAzbR9xMNw
+498U7GTWtvrBY4qNTUSzIbF4bMkilQLqLW02BWkwomiMa3X/BWjGKZpMrrQBxMl5
+yRY4cpo9TSN5U91ZrTOwVF9sHEt5Bb5icYqIBSCOU1pcGL9S+PKnoFrRGGVasZ4C
+lCxebeiSsnUvfuMp62U8L/hSSkbLA1uU8P3D/9PCwfueaO8MNrV/O+fx5x4ySSsN
+19BZqBg6nJsDX0aSmgtJHumL7IAPOwN3YF/YqQD2hS94uahkatnvD8Sw8dvpaIvx
+N0A6vv7Kf7refrrBSdlA8EZ036dbxXh55mIKUKzhsZQ+gS/3XrxwN8Zoty67js9U
+HEPWougabc1W+pEhDK60
+=ALk6
 -----END PGP SIGNATURE-----
