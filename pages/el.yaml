@@ -4,7 +4,7 @@ riseup_intro: "Η Riseup προσφέρει εργαλεία online επικοι
   καθορισμού, έχοντας τον έλεγχο των δικών μας ασφαλών μέσων επικοινωνίας."
 
 red_title: "Riseup Red"
-red_info: "Προσφέρουμε λογαριασμούς<b>Riseup Red</b> για τις βασικές υπηρεσίες,
+red_info: "Προσφέρουμε λογαριασμούς <b>Riseup Red</b> για τις βασικές υπηρεσίες,
   που περιλαμβάνουν [[email]] (IMAP), [[chat]] (XMPP), και [[legacy]] (OpenVPN)."
 red_webmail: "[[Σύνδεση στο ηλεκτρονικό ταχυδρομείο => https://mail.riseup.net]]"
 red_support: "Ζήτα βοήθεια για το [[email]], το [[chat]], και το [[legacy]]."
