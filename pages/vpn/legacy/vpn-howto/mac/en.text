@@ -6,42 +6,19 @@ The OpenVPN client for Mac is called "tunnelblick".
 
 h2. Installation
 
-[[Download tunnelblick->http://code.google.com/p/tunnelblick]]
+[[Download tunnelblick->https://tunnelblick.net/]]
 
-Just doubleclick the downloaded file and drag Tunnelblick to your Applications folder.
+And install it double clicking it's icon.
 
-*TODO*: Build a pre-configured deploy version of tunnelblick, with the ca cert already included. This way, you just download and run.
+If you are using the latest OSX version (currently Sierra), you will need to install the beta version of tunnelblick (Jan 2017).
 
-h2. Download Riseup CA
+h2. Download the Riseup Configuration
 
-Download the "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem and save it to your @Library@ folder. Note that there are two Library folders, one located at /Library and one located at /username/Library/. You can save it in either place, but be sure to remember which location you used, you'll need it later.
+After installing, please download the "riseup.tblk.zip" file, containing the riseup vpn configuration. Uncompress and install it double clicking on it. 
 
-Also, for some reason, Mac likes to add a ".txt" extension to the riseup certificate file. So, you may need to locate the file, select get info, then scroll down and uncheck "hide extension." Then you should be able to change the name of the cert to "RiseupCA.pem" rather than "RiseupCA.pem.txt"
+h2. Connecting
 
-For more information on the RiseupCA.pem file, see [[riseup-ca]].
-
-h2. Configuration
-
-Open a window in Finder and, starting in your Home directory, Navigate to Library -> Application Support -> Tunnelblick -> Configurations.
-
-Now, within the "Configurations" folder, create a plain text file, let's call it "riseup.ovpn." Once again, mac OS will try to add a ".txt" extension to this file. You will need to make sure to remove that extension.
-
-Put the following text into the file:
-
-<pre>
-client
-dev tun
-auth-user-pass
-remote vpn.riseup.net 1194
-remote-cert-tls server
-ca /Users/my-mac-username/Library/RiseupCA.pem
-</pre>
-
-You will need to modify the <code>ca</code> path to match the path where you actually saved RiseupCA.pem.
-
-After you have set this as your configuration options, you should be able to double click on tunnelblick and it will ask for your riseup username/password and store these in your keyring. You can also connect via the tunnelblick menu in the upper right corner of the screen.
-
-Rather than use your Riseup password, we suggest you use a [[VPN Secret->vpn-secret]] instead.
+Thunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://user.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
 
 Once connected, if you click on the tunnelblick icon in the upper right corner of the screen, it should show "1 connection active." You're done!
 
