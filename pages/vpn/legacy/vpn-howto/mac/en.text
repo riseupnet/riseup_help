@@ -16,6 +16,8 @@ h2. Download the Riseup Configuration
 
 After installing, please download the "riseup.tblk.zip":/vpn/legacy/vpn-howto/mac/riseup.tblk.zip file, containing the riseup vpn configuration. Uncompress and install it by double clicking on it. 
 
+Optional: verify the OpenPGP signature following "these steps":https://riseup.net/en/security/network-security/riseup-ca#verify-the-riseup-ca-certificate-optional, but replacing 'riseupCA-signed-sha1.txt' for 'riseup.tblk.zip.sig'.
+
 h2. Connecting
 
 Tunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://user.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
