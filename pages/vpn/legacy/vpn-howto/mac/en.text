@@ -8,17 +8,17 @@ h2. Installation
 
 [[Download tunnelblick->https://tunnelblick.net/]]
 
-And install it double clicking it's icon.
+And install it by double clicking it's icon.
 
 If you are using the latest OSX version (currently Sierra), you will need to install the beta version of tunnelblick (Jan 2017).
 
 h2. Download the Riseup Configuration
 
-After installing, please download the "riseup.tblk.zip" file, containing the riseup vpn configuration. Uncompress and install it double clicking on it. 
+After installing, please download the "riseup.tblk.zip":/vpn/legacy/vpn-howto/mac/riseup.tblk.zip file, containing the riseup vpn configuration. Uncompress and install it by double clicking on it. 
 
 h2. Connecting
 
-Thunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://user.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
+Tunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://user.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
 
 Once connected, if you click on the tunnelblick icon in the upper right corner of the screen, it should show "1 connection active." You're done!
 
