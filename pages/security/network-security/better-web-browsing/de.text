@@ -99,13 +99,13 @@ Für Firefox:
 
 * [[Selbstzerstörende Kekse => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] räumen alle Cookies einer Webseite beiseite, sobald alle Tabs dieser Seite geschlossen wurden (anstatt den Browser neustarten zu müssen).
 * [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassande Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt dir, den HTTP User-Agent zu ändern.
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher]] erlaubt dir, den HTTP User-Agent zu ändern.
 * [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] erlaubt dir, die HTML5-Unterstützung für bestimmte Webseiten auszuschalten.
 
 Für Chrome:
 
-* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassende Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
-* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher]] erlaubt, dir den HTTP User-Agent zu ändern.
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] erlaubt es, selektiv Javascript, Plugins, oder andere Ressourcen zu blockieren und Ressourcen von Drittanbietern zu kontrollieren. Es bietet außerdem umfassende Datenschutzfunktionen wie die Verschleierung des User-Agent, filtern von Referrern und so weiter. Es ist ein effektiver Ersatz für NoScript und RequestPolicy.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] erlaubt, dir den HTTP User-Agent zu ändern.
 * [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] filtert die meisten Versuche, dich per HTML5 Canvas zu verfolgen (nicht quelloffen).
 
 h3. Schädlich oder nicht empfohlen
