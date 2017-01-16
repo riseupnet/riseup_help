@@ -213,6 +213,8 @@ $ rm -rf .gnupg.bak
 
 Finally note that in the above manipulations, secret key material is stored in the clear on disk. You may want to securely delete those files (using, for example, @nwipe@) instead of using the simple @rm@ to remove private key material. Do consider that modern disks like SSDs run advanced firmware that may not really obey such commands and leave traces of private key material on disk. The best defense, in this case, is to use Full Disk Encryption.
 
+Note that those procedures may change from version to version. See [[this discussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] or [[this article -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], or [[this guide -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] designed for GnuPG 2.x and above.
+
 h3. OpenPGP key checks.
 
 There is a handy tool that will perform the key checks below for you. You can get it [[from the source -> http://floss.scru.org/hopenpgp-tools/]], or if you are running Debian or Ubuntu, you can install the package directly by doing:
