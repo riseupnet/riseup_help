@@ -155,9 +155,65 @@ This will create a file called revoke.asc. You may wish to print a hardcopy of t
 
 h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
 
-h3. (bonus) Have a separate subkey for signing, and keep your primary key entirely offline.
+This is done by default in GnuPG 1.4.18 (and maybe earlier) and above. If you created your key with older implementations of OpenPGP, you may need to create new subkeys like you would do for signing, below.
+
+h3. Have a separate subkey for signing
+
+By default GnuPG uses the same subkey for signing (e.g. signing an email message) and certifying (e.g. signing another key). It is useful to separate those purposes as one is way more important than the other.
 
 In this scenario, your primary key is used only for certifications, which happen infrequently.
+
+Creating a new subkey can be done in the @--edit-key@ dialog, using the @addkey@ command. During the dialog, you can choose the "capability" of the key...
+
+h3. Keep your primary key entirely offline
+
+This is tricky to do but helps in protecting the very important primary key. If your primary key is stolen, the attacker can create new identities, revoke existing ones and completely impersonate you. Storing keys "offline" is therefore a good way to protect against such attacks.
+
+Make sure you created a separate signing key before you do this, otherwise you will not be able to sign emails without your offline key.
+
+Extracting the primary key is tricky, but this should get you going:
+
+bc. # extract the primary key
+gpg -a --export-secret-key john.doe@example.com > secret_key
+# extract the subkeys, which we will reimport later
+gpg -a --export-secret-subkeys john.doe@example.com > secret_subkeys.gpg
+# *delete* the secret keys from the keyring, so only subkeys are left
+$ gpg --delete-secret-keys john.doe@example.com
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+# reimport the subkeys
+$ gpg --import secret_subkeys.gpg
+# verify everything is in order
+$ gpg --list-secret-keys
+# remove the subkeys from disk
+$ rm secret_subkeys.gpg
+
+Then you want to put the @secret_key@ file offline, probably on a thumb drive that you always carry with you, or in a guarded safe. Others will use smartcards to store the key and keep them with their physical keyring. The security of that device will be the security of your key.
+
+Again, make sure you have a revocation certificate.
+
+You can make sure the secret key material is missing by running @--list-secret-keys@ which should make the missing material with a @sec#@ instead of just @sec@.
+
+Note: in certain exotic situations, @--delete-secret-keys@ may not completely remove the secret key material and @--list-secret-keys@ will still show @sec@ instead of @sec#@. In this case, you can move the @.gnupg@ directory out of the way instead of running @--delete-secret-keys@. You will need to reimport your trustdb and public keys of course, which will look something like this:
+
+bc. instead of gpg --delete-secret-keys john.doe@example.com, do this:
+$ mv .gnupg .gnupg.bak
+# reimport the subkeys
+$ gpg --import secret_subkeys.gpg
+# verify everything is in order
+$ gpg --list-secret-keys
+# remove the subkeys from disk
+$ rm secret_subkeys.gpg
+# reimport public keyring
+$ gpg --homedir .gnupg.bak --export | gpg --import
+# reimport trust db
+$ gpg --homedir .gnupg.bak --export-ownertrust | gpg --import-ownertrust
+# remove backup GPG directory, which will clear *all* secret keys
+$ rm -rf .gnupg.bak
+
+Finally note that in the above manipulations, secret key material is stored in the clear on disk. You may want to securely delete those files (using, for example, @nwipe@) instead of using the simple @rm@ to remove private key material. Do consider that modern disks like SSDs run advanced firmware that may not really obey such commands and leave traces of private key material on disk. The best defense, in this case, is to use Full Disk Encryption.
+
+Note that those procedures may change from version to version. See [[this discussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] or [[this article -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], or [[this guide -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] designed for GnuPG 2.x and above.
 
 h3. OpenPGP key checks.
 
