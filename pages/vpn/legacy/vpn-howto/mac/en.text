@@ -1,4 +1,4 @@
-@title = 'mac'
+@title = 'Mac'
 
 p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
 
