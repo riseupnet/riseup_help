@@ -22,6 +22,9 @@ table(table table-striped).
 | [[Adium]] | Mac | *Yes* | No | *Yes* | *Yes* | Partial | Open source. Good native build of Pidgin for Mac, but rarely updates libpurple. DNS and URL hovering information leaks.|
 | [[Beem -> http://www.beem-project.com/]] | Android | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
 | [[Miranda -> http://www.miranda-im.org/]] | Windows | *Yes* | No | ? | ? | ? | Open source. Stable client with many plugins. |
+|_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python. There is an OTR plugin accessible through built-in plugin manager. |
+
 
 h2. Other clients
 
@@ -37,4 +40,4 @@ h2. Clients to avoid
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
+|  |
