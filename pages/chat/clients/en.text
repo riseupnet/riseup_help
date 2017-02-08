@@ -16,6 +16,7 @@ h2. Recommended clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python. There is an OTR plugin accessible through built-in plugin manager. |
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux      | No           | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
 | [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. Native Tor support. |
 | [[Pidgin]]   | Windows, GNU/Linux | *Yes*   | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Use most current version. |
@@ -37,4 +38,4 @@ h2. Clients to avoid
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice jabber client written in python, but currently there is no way to ensure a secure connection. Maybe this has been fixed by now? Not sure. |
+|  |
