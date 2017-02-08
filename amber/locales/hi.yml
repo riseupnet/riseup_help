@@ -1,0 +1,63 @@
+hi:
+  tags: "Tags"
+  tag: "Tag"
+  related: "संबंधित"
+  missing_translation: "यह पृष्ठ अभी तक अंग्रेजी से अनुवाद नहीं किया गया है।"
+  support_riseup: "Riseup सहयोग करें !"
+  motto: "इंटरनेट से दूर हो जाओ, मैं आपको गलियों में दिखूँगा।"
+  footer_tagline: "यह साइट riseup.net द्वारा चलाया जाता है, 1999 से आपका अपना अनुकूल स्वायत्त तकनीक सामूहिक।"
+  contribute_to_help: "आप इन पृष्ठों के लिए सामग्री और अनुवाद में योगदान करने के लिए आमंत्रित हैं।"
+  system_updates: "सिस्टम अपडेट"
+  # quick links:
+  link_privacy: "गोपनीयता नीति"
+  link_about_us: "हमारे बारे में"
+  link_status: "सिस्टम स्थिति"
+  link_support: "Riseup सहयोग करें"
+  # services:
+  link_lists: "मेलिंग सूची"
+  link_email: "ईमेल"
+  link_chat: "गपशप"
+  link_groups: "समूह"
+
+  # Donation page
+  donation_processor: "दान प्रोसेसर"
+  supports_recurring_donations: "आवर्ती दान?"
+  supports_optional_registration: "पंजीकरण वैकल्पिक?"
+  supports_credit_card: "क्रेडिट कार्ड?"
+  notes: "टिप्पणियाँ"
+  yes_value: "हाँ"
+  no_value: "नही"
+
+  subscribe: "सदस्यता"
+  donate: "दान"
+  monthly: "मासिक"
+  quarterly: "त्रैमासिक"
+  recurring_donation: "आवर्ती दान"
+  one_time_donation: "एक समय दान"
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "विकेन्द्रीकृत peer-to-peer इलेक्ट्रॉनिक क्रिप्टो-मुद्रा"
+  bitcoin_description: "Bitcoin एक विकेन्द्रीकृत peer-to-peer इलेक्ट्रॉनिक क्रिप्टो-मुद्रा है। Bitcoin भी विदेशी पैसा भेजने के लिए एक तरह से मुक्त है। अगर आप riseup पैसा भेजने के लिए Bitcoin का उपयोग करना चाहते हैं, हम एक नया, अद्वितीय Bitcoin पता उत्पन्न करेंगे आपके दान हेतु। नए Bitcoin पते का उपयोग करने के लिए नीचे दिए गए बटन पर क्लिक करें।"
+  bitcoin_grab_address: "एक Bitcoin पता बनाओ "
+  generate: "जनरेट"
+
+  dwolla: "Dwolla"
+  dwolla_note: "बहुत कम फीस। पंजीकरण और अमेरिकी बैंक खाते की आवश्यकता है"
+  dwolla_description: "इसे आप एक अमेरिकी बैंक खाते से जुड़ा एक Dwolla खाता बनाने के लिए जरूरी है कि हालांकि Dwolla, आभासी नकदी भेजने के लिए वास्तव में एक सस्ता तरीका है। Dwolla आवर्ती दान का समर्थन करता है।"
+
+  paypal: "Paypal"
+  paypal_note: "कई देशों से काम करता है।"
+  paypal_description: "Paypal क्रेडिट कार्ड स्वीकार करता है और आवर्ती दान का समर्थन करता है (दान आवर्ती के लिए, एक Paypal खाते की आवश्यकता होती है)।"
+
+  wepay: "WePay"
+  wepay_note: "PayPal के लिए एक वैकल्पिक।"
+  wepay_description: "WePay यह PayPal की तरह अच्छा विकल्प है। आप खाता बनाये बिना भी  WePay उपयोग कर सकते हैं, और यह क्रेडिट कार्ड का समर्थन करता है।"
+
+  flattr: "Flattr"
+  flattr_note: "Micropayments को जोड़ें।"
+  flattr_description: "Flattr यह एक micropayment प्रणाली है जो आपको कई परियोजनाओं का समर्थन करने की अनुमति देता है।l"
+
+  gratipay: "Gratipay"
+  gratipay_note: "आवर्ती micropayments को जोड़ें।"
+  gratipay_description: "Gratipay यह भी micropayment प्रणाली है जो आपको इस परियोजनाओं के लिए साप्ताहिक देने के लिए अनुमति देता है।"
+
