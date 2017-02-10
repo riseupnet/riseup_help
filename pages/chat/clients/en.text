@@ -8,14 +8,15 @@ table(table).
 | *OMEMO?* | If yes, this client has support for end-to-end encryption that supports multiple clients and offline chats. |
 | *Jingle?* | If yes, this client can used for voice or video chat.|
 | *Proxy?* | If yes, this client may connect through a proxy and that the client obeys the proxy settings.|
-| *SSL/TLS?* | If yes, this client support secure connections with the chat provider.|
+| *TLS?* | If yes, this client support secure connections with the chat provider.|
 | *Tor?* | If yes, this client can correctly use Tor to circumvent censorship and to access services anonymously. If no, then the client *should not be used with Tor*.|
 
 h2. Recommended clients
 
 table(table table-striped).
-|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
 | [[Gajim -> https://gajim.org]] | Windows, GNU/Linux | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python. |
+| [[Coy -> https://coy.im]] | GNU/Linux | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for Gnome. |
 | [[ChatSecure -> https://chatsecure.org/]] | iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for iOS. Native Tor support. |
 | [[Conversations -> https://conversations.im/]] | Android | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 | [[Pidgin -> https://pidgin.im/]]   | Windows, GNU/Linux | *Yes* | No | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Make sure to use most the current version! |
@@ -23,7 +24,7 @@ table(table table-striped).
 h2. Other clients
 
 table(table table-striped).
-|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
+|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
 | [[Adium]] | Mac | *Yes* | No | No | *Yes* | *Yes* | Partial | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
 | [[Jitsi -> https://jitsi.org]] | Mac, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
