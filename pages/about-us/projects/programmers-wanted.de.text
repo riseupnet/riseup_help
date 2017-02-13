@@ -11,12 +11,11 @@ Falls du programmieren kannst, brauchen wir deine Hilfe. Jetzt ist die richtige 
 
 h2. LEAP
 
-In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe https://leap.se für Möglichkeiten, dabei zu helfen.
+In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://leap.se => https://leap.se/get-involved]] für Möglichkeiten, dabei zu helfen.
 
 h2. Javascript
 
 * kollaboratives Arbeiten: Schreibt patches für "etherpad":http://etherpad.org, um allen zu erlauben, ein Pad zu löschen, es mit Passwort zu schützen, oder zu verhindern, dass es gelöscht wird.
-* Anonyme Email: Schreib ein Plugin für Thunderbird, um persönliche Informationen von ausgehenden Kopfzeilen zu entfernen (wie z.B. dem User-Agent).
 
 h2. Ruby
 
@@ -34,4 +33,4 @@ h2. Perl
 
 h2. Python
 
-* Hilf uns bei "LEAP":https://leap.se
+* Unterstütze die [[Bitmask-Anwendung => https://bitmask.net]]. [[Wie kann ich helfen? => https://leap.se/get-involved]]

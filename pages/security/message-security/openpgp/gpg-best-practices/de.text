@@ -147,13 +147,69 @@ pre. gpg --output widerruf.asc --gen-revoke '<fingerabdruck>'
 
 Damit erstellst Du eine Datei namens widerruf.asc. Du könntest einen Ausdruck von diesem Zertifikat vornehmen und an einem sicheren Ort ablegen (gib ihn Deiner Mutter oder bewahre ihn bei Deinen Backups an einem anderen Ort auf). Wenn jemand Zugang dazu erhält, kann sie Deinen Schlüssel widerrufen, was sehr lästig ist; wenn sie allerdings auch Zugang zu Deinem privaten Schlüssel haben, solltest Du genau das wollen - Deinen Schlüssel widerrufen.
 
-h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren).
+h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren). Nutze einen separaten Unterschlüssel zum Verschlüsseln.
 
 Zum Verschlüsseln solltest Du Dir einen separaten Unterschlüssel (subkey) erstellen.
 
-h3. (Bonus) Nutze einen separaten Unterschlüssel (subkey) zum Signieren und hebe Deinen primären Schlüssel komplett offline auf
+Das ist der Standard ab GnuPG 1.4.18 (und eventuell früher). Wenn Dein Schlüssel mit einer älteren Version von OpenPGP erstellt wurde, solltest du neue Unterschlüssel erstellen, wie zum Signieren (weiter unten).
 
-In diesem Szenario wir Dein primärer Schlüssel nur für Zertifizierungen benutzt, die selten stattfinden.
+h3. Benutze einen separaten Unterschlüssel zum Signieren
+
+Standardmäßig benutzt GnuPG den gleichen Unterschlüssel zum Signieren (z.B. Signieren von Emailnachrichten) und Zertifizieren (signieren einen anderen Schlüssels). Es macht Sinn, diese beiden Ziele zu trennen, weil das eine wichtiger als das andere ist.
+
+In diesem Szenario wird Dein primärer Schlüssel nur für Zertifizierungen benutzt, die selten stattfinden.
+
+Erstelle einen Unterschlüssel im Menü @--edit-key@, mit dem Befehl @addkey@. In diesem Dialog kann die "Fähigkeit" des Schlüssels ausgewählt werden...
+
+h3. Benutze den primären Schlüssel ausschließlich offline
+
+Das ist schwierig, ermöglicht aber, den äußerst wichtigen primären Schlüssel zu schützen. Wenn er gestohlen wird, kann ein Angreifer neue Identitäten erstellen, bestehende widerrufen und sich vollständig als Du selbst ausgeben. Schlüssel "offline" zu speichern ist eine sichere Möglichkeit, sich gegen solche Angriffe zu schützen.
+
+Erstelle vorher einen eignen Schlüssel zum Signieren, sonst ist es nicht möglich, Emails ohne den Offline-Schlüssel zu signieren.
+
+Den primären Schlüssel zu extrahieren ist schwierig, aber damit sollte es klappen:
+
+bc. # primären Schlüssel extrahieren
+gpg -a --export-secret-key john.doe@example.com > secret_key
+# Unterschlüssel extrahieren, die später re-importiert werden
+gpg -a --export-secret-subkeys john.doe@example.com > secret_subkeys.gpg
+# *lösche* die geheimen Schlüssel aus deinem Schlüsselbund, sodass nur Unterschlüssel übrig bleiben
+$ gpg --delete-secret-keys john.doe@example.com
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+# Unterschlüssel reimportieren
+$ gpg --import secret_subkeys.gpg
+# Überprüfe, dass alles in Ordnung ist
+$ gpg --list-secret-keys
+# Entferne die Unterschlüssel von der Festplatte
+$ rm secret_subkeys.gpg
+
+Danach sollte der @geheime Schlüssel@ offline gelagert werden, z.B. auf einem Stick, den Du immer bei dir trägst, oder in einem geschützten Safe. Andere benutzen Smartcards, um ihn zu speichern und an einem physischen Schlüsselbund bei sich zu tragen.
+
+Stelle sicher, dass Widerrufszertifikate erstellt wurden.
+
+Überprüfe, dass der geheime Schlüssel fehlt mit @--list-secret-keys@ - es sollte @sec#@ anstatt @sec@ anzeigen.
+
+In manchen ungewöhnlichen Situationen kommt es vor, dass @--delete-secret-keys@ das geheime Schlüsselmaterial nicht vollständig entfernt und @--list-secret-keys@ immer noch @sec@ anstatt von @sec#@ anzeigt. In diesem Fall sollte das Verzeichnis @.gnupg@ entfernt werden, anstatt @--delete-secret-keys@ zu benutzen. Dann ist es nötig, trustdb und öffentliche Schlüssel wieder zu importieren, etwa so:
+
+bc. anstatt von gpg --delete-secret-keys john.doe@example.com, gehe so vor:
+$ mv .gnupg .gnupg.bak
+# Unterschlüssel reimportieren
+$ gpg --import secret_subkeys.gpg
+# Überprüfe, dass alles in Ordnung ist
+$ gpg --list-secret-keys
+# Entferne die Unterschlüssel
+$ rm secret_subkeys.gpg
+# Öffentlichen Schlüsselbund reimportieren
+$ gpg --homedir .gnupg.bak --export | gpg --import
+# trustdb reimportieren
+$ gpg --homedir .gnupg.bak --export-ownertrust | gpg --import-ownertrust
+# entferne das Backupverzeichnis von GPG (*alle* geheimen Schlüssel werden gelöscht
+$ rm -rf .gnupg.bak
+
+Bei diesen Vorgängen ist der Schlüssel im Klartext auf der Festplatte gespeichert. Es ist empfehlenswert, die Dateien sicher zu löschen (z.B. mit @nwipe@) anstelle mit @rm@. Moderne Speichermedien wie SSDs benutzen fortgeschrittene Firmware, die solche Befehle nicht tatsächlich ausführen und Spuren von privaten Schlüsseln übrig lassen können. Der beste Schutz davor ist Komplettverschlüsselung.
+
+Beachte, dass sich dieses Verfahren von Version zu Version ändern kann. Lies [[diese Diskussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] oder [[diesen Artikel -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], oder [[diese Anleitung -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] für GnuPG 2.x und neuer.
 
 h3. OpenPGP Schlüssel überprüfen
 

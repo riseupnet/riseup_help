@@ -1,6 +1,10 @@
 @title = 'Kontakt'
 
+h2. Hilfe-Tickets
+
 Am besten kannst du mit uns in Kontakt treten, indem du eine Nutzeranfrage ausfüllst. Auf https://user.riseup.net kannst du eine Nutzeranfrage (=help ticket) erstellen. Für eine Nutzeranfrage brauchst Du kein E-Mail-Konto bei riseup zu haben.
+
+h2. Email
 
 Für Fragen über unser Kollektiv schicke eine Mail an collective@riseup.net. Alle Hilfe-Anfragen, die an diese Adresse gerichtet werden, werden kommentarlos ignoriert.
 
@@ -12,6 +16,8 @@ Es gibt keinen Grund, warum Du diesem Schlüssel trauen solltest. Aber Du kannst
 
 pre. gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 
+h2. Mail
+
 Unsere Postadresse ist:
 
 <pre>
@@ -20,10 +26,20 @@ PO Box 4282
 Seattle, WA 98194 USA
 </pre>
 
-Mitglieder des Riseup-Kollektivs sind oft auf irc.indymedia.org im #riseup Chatroom.  *Bitte beachten: Um dem #riseup Channel beizutreten, musst du über SSL auf Port 6697 mit dem Server verbunden sein.* Du kannst auch das Webinterface auf https://chat.indymedia.org benutzen, um mit uns in Kontakt zu treten, falls "irc" für dich keine vertraute Abkürzung ist.
+h2. IRC
 
-Du findest uns bei "diaspora":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5 (riseup@diasp.org)
+<pre>
+Server: irc.indymedia.org
+Port fr SSL-Verbindungen: 6697
+Channel: #riseup
+Webchat: https://chat.indymedia.org
+</pre>
 
-Wir sind auch auf "Twitter":https://twitter.com/riseupnet.
+h2. Soziale Netzwerke
 
-Suchst du hoch aufgelöste Riseup Grafiken? Schau auf der Seite [[images]].
+* Diaspora : "riseup@diasp.org":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5
+* Twitter : "@riseupnet":https://twitter.com/riseupnet
+
+h2. Riseup-Grafiken
+
+Siehe unsere [[images => Bilderseite]].
