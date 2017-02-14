@@ -9,11 +9,11 @@ Ok, du bist nicht allein. Fast all unserer Email-Verkehr in diesen Tagen ist Spa
 Es gibt einiges, was Du tun kannst, um Spam zu minimieren:
 
 * *Spameinstellungen anpassen:* Standardmäßig werden alle Deine ankommenden Mails nach Spam durchsucht. Allerdings lässt sich die Sensitivität und Korrektheit durch Anpassen deiner Spameinstellungen verbessern:
-     ## Besuche [[user.riseup.net->https://user.riseup.net]] und logge dich ein.
+     ## Besuche [[user.riseup.net->https://account.riseup.net]] und logge dich ein.
      ## Klicke auf Email und dort Spameinstellungen.
      ## Klicke auf "Benutzerdefinierte Einstellungen" aktivieren.
 * *Spam-Ordner erstellen:* Wenn es einen 'spam'-Ordner gibt, wird verdächtige Mail dorthin aussortiert. Der Ordner sollte regelmäßig besucht werden, um fälschlicherweise aussortiere Mails zu retten. Der Ordner muss 'spam' und nicht 'Spam' heißen.
-* *temporären Alias erstellen:* Ein temporärer Alias ist eine Email-Adresse, die Du nur für eine bestimmte Zeit benutzt und danach zerstörst. Das ist nützlich,  wenn eine Emailadresse an ein Unternehmen gegeben, oder auf einer Webseite eingeben werden muss. Beim ersten Spam an diesen Alias kannst du diesen löschen. Du kannst Aliase unter [[user.riseup.net->https://user.riseup.net/]] im Menu "Email" einstellen.
+* *temporären Alias erstellen:* Ein temporärer Alias ist eine Email-Adresse, die Du nur für eine bestimmte Zeit benutzt und danach zerstörst. Das ist nützlich,  wenn eine Emailadresse an ein Unternehmen gegeben, oder auf einer Webseite eingeben werden muss. Beim ersten Spam an diesen Alias kannst du diesen löschen. Du kannst Aliase unter [[user.riseup.net->https://account.riseup.net/]] im Menu "Email" einstellen.
 * *Nutze ein [[Email-Programm => email/clients]]:* Die meisten Email-Programme haben heutzutage eine Art Spamfilter eingebaut. Wir empfehlen [[thunderbird->thunderbird]].
 * *ändere deine Email-Adresse:* Wenn Du Spam wirklich begrenzen willst, kannst Du einfach Dein [[Konto umbenennen->mail-accounts/#wie-ändere-ich-meinen-benutzernamen]]. Der Nachteil ist dann, alle zu informieren, dass sich Deine Adresse geändert hat, auch wenn dies sehr effektiv ist, um Spam loszuwerden.
 

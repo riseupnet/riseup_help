@@ -6,7 +6,7 @@ If you would like all email that comes to your riseup email address to be automa
 
 h3.  How do I forward my email to another address?
 
-# Login at https://user.riseup.net
+# Login at https://account.riseup.net
 # Click on "email"
 # Enter the address which you would like your riseup mail forwarded to in the field marked "Forward" towards the bottom of the page
 # Click on "Save Changes"
@@ -24,7 +24,7 @@ h3. How do I create an alias?
 
 You can create an alias! Here's how
 
-# Login to https://user.riseup.net
+# Login to https://account.riseup.net
 # Click on email
 # Type "ALIASNAME@riseup.net" in the "Aliases" box
 # Click "save"

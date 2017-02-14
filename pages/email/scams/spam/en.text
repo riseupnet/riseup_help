@@ -12,7 +12,7 @@ There are a couple things you can do to cut down on spam:
 
 *Customize your spam settings:*
 By default, all your incoming mail is scanned for spam. However, you can improve its sensitivity and accuracy by customizing your spam settings.
-# Visit https://user.riseup.net and login.
+# Visit https://account.riseup.net and login.
 # Click on *Email* and then *Spam settings*.
 # Click *enable statistical filter*
 
@@ -20,7 +20,7 @@ By default, all your incoming mail is scanned for spam. However, you can improve
 If you have a folder called Spam, then any incoming mail that is suspected of being spam will get delivered directly to that folder. You should check the Spam folder periodically to make sure that the filter did not incorrectly classify a good message as spam. The folder must be named Spam and not spam.
 
 *Create a temporary disposable alias:*
-A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at https://user.riseup.net.
+A temporary alias is an email alias which you only use for a limited amount of time, and then destroy. This is useful if you need to give your email address to a corporation or you need to post it to a website. Once you start getting spam sent to that alias, just delete the alias. You can create aliases for your riseup.net account by logging in at https://account.riseup.net.
 
 *Use a mail client:*
 Most mail clients these days have some form of spam filtering built in.

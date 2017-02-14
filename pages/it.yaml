@@ -7,10 +7,10 @@ red_title: "Riseup Red"
 red_info: "Forniamo account <b>Riseup Red</b> per i servizi tradizionali, inclusi [[email]] (IMAP), [[chat]] (XMPP) e [[legacy]] (OpenVPN)."
 red_webmail: "[[Accedi alla webmail => https://mail.riseup.net]]"
 red_support: "Aiuto su [[email]], [[chat]] e [[legacy]]."
-red_settings: "[[Cambia le impostazioni => https://user.riseup.net]]"
-red_request: "[[Richiedi un account => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[Resetta la password => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[Crea una richesta di supporto per Riseup Red => https://user.riseup.net/forms/]]"
+red_settings: "[[Cambia le impostazioni => https://account.riseup.net]]"
+red_request: "[[Richiedi un account => https://account.riseup.net/user/new]]"
+red_reset_password: "[[Resetta la password => https://account.riseup.net/reset_password]]"
+red_help: "[[Crea una richesta di supporto per Riseup Red => https://support.riseup.net/en/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "Forniamo account <b>Riseup Black</b> per nuovi servizi che richiedono l'applicazione Bitmask. Attualmente include il servizio VPN, presto includerà anche l'email con cifratura end-to-end."
@@ -37,7 +37,7 @@ share_info: "upload di file (pastebin e imagebin)."
 
 resources_title: Resources
 security_info: "Risorse e guide per una comunicazione più sicura."
-help_link: "[[Help Desk di Riseup => https://user.riseup.net/forms]]"
+help_link: "[[Help Desk di Riseup => https://support.riseup.net/en/topics/new]]"
 help_info: "Per contattarci ed inviarci una domanda, usa il modulo dell'help desk per creare un ticket, ma prima per favore cerca nella documentazione online che trovi su questo sito."
 servers_info: "Una directory di dozzine di server radicali in giro per il mondo."
 

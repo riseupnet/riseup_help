@@ -5,10 +5,10 @@ red_info: "我们为传统服务提供 <b>Riseup Red</b> 账户，
   服务包括 [[email]] (IMAP)、 [[chat]] (XMPP)、 和 [[legacy]] (OpenVPN)。"
 red_webmail: "[[登录在线邮箱 => https://mail.riseup.net]]"
 red_support: "获取 [[email]]、 [[chat]] 和 [[legacy]] 的帮助。"
-red_settings: "[[更改设置 => https://user.riseup.net]]"
-red_request: "[[申请账户 => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[重置密码 => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[创建 Riseup Red 帮助单 => https://user.riseup.net/forms/]]"
+red_settings: "[[更改设置 => https://account.riseup.net]]"
+red_request: "[[申请账户 => https://account.riseup.net/user/new]]"
+red_reset_password: "[[重置密码 => https://account.riseup.net/reset_password]]"
+red_help: "[[创建 Riseup Red 帮助单 => https://support.riseup.net/en/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "我们为需要 Bitmask 的服务提供 <b>Riseup Black</b> 账户，目前只提供 VPN 服务，加密邮件服务即将提供。"
@@ -35,7 +35,7 @@ share_info: "文件共享。"
 
 resources_title: 资源
 security_info: "使沟通更安全的资源与教程。"
-help_link: "[[Riseup 帮助台 => https://user.riseup.net/forms]]"
+help_link: "[[Riseup 帮助台 => https://support.riseup.net/en/topics/new]]"
 help_info: "请使用帮助台创建帮助单联系我们。不过在向我们咨询问题之前，请首先仔细阅读本站的在线文档。"
 servers_info: "世界各地的激进分子服务列表。"
 

@@ -3,7 +3,7 @@
 h2. Como editar meus filtros de e-mail?
 
 # Primeiro, certifique-se de que as pastas que você quer filtrar já existem. Você pode criar uma nova pasta no seu cliente de e-mail ou no webmail.
-# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Faça login em https://account.riseup.net com o nome de usuário e a senha da sua conta Riseup.
 # Clique em *Email* (à esquerda).
 # Selecione a aba *Filtros de correio*.
 # Nesta tela, você pode mudar a ordem dos seus filtros de e-mail, editar ou remover filtros existentes e adicionar novos filtros. Clique em um filtro para editá-lo e adicionar, remover e editar suas condições.
@@ -18,7 +18,7 @@ h2. Como bloquear um endereço de e-mail?
 
 Se você estiver recebendo e-mails abusivos ou spam e quiser que as mensagens de um endereço de e-mail em particular sejam automaticamente deletadas, faça o seguinte:
 
-# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Faça login em https://account.riseup.net com o nome de usuário e a senha da sua conta Riseup.
 # Clique em *Email* (à esquerda).
 # Selecione a aba *Filtros de correio*.
 # Clique em *Adicionar filtro*
@@ -35,7 +35,7 @@ h2. Como evitar que um e-mail legítimo seja filtrado como spam?
 
 Se as mensagens de um endereço de e-mail não são spam, mas são sempre movidas automaticamente para essa pasta, siga as instruções abaixo para impedir que isso aconteça no futuro. 
 
-# Faça login em https://user.riseup.net com o nome de usuário e a senha da sua conta Riseup.
+# Faça login em https://account.riseup.net com o nome de usuário e a senha da sua conta Riseup.
 # Clique em <b>Email</b> (à esquerda).
 # Selecione a aba <b>Configurações de Spam</b>.
 # Habilite as configurações de spam se ainda não o fez, clicando em <b>Enable Custom Spam Settings</b>.

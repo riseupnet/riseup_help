@@ -3,7 +3,7 @@
 h2. How do I edit my email filters?
 
 # You will first want to make sure that whatever folders you want to filter to already exist. You can create a new folder in your mail client or in webmail.
-# Login to https://user.riseup.net with your riseup username and password.
+# Login to https://account.riseup.net with your riseup username and password.
 # Click on *Email* (on the left side of the screen).
 # Click on the *Mail Filters* tab
 # From this screen, you can change the order of your email filters, edit or remove existing filters, or add new filters. To edit an existing filter, click on it, and you will be brought to a screen where you can add new conditions, remove conditions, or edit existing ones.
@@ -18,7 +18,7 @@ h2. How do I block an email address?
 
 If you are receiving harassing email or spam and want to ensure that a particular email address is automatically deleted, you can follow these steps:
 
-# Login to https://user.riseup.net with your riseup username and password.
+# Login to https://account.riseup.net with your riseup username and password.
 # Click on *Email* (on the left side of the screen).
 # Click on the *Mail Filters* tab
 # Click on *Add filter*
@@ -35,7 +35,7 @@ h2. How do I automatically allow email to pass through my spam filter?
 
 If there is a particular email that always gets sorted into your spam box and you want to ensure that it does not happen in the future, follow these steps:
 
-# Login to https://user.riseup.net with your riseup username and password.
+# Login to https://account.riseup.net with your riseup username and password.
 # Click on the <b>Email</b> (on the left side of the screen).
 # Click on <b>Spam Settings</b> tab.
 # If you have not already done so, click the button that says <b>Enable Custom Spam Settings</b>.

@@ -2,11 +2,11 @@
 
 Boas-vindas à ajuda do email riseup.net. Aqui você encontra informação sobre *contas de e-mail* de riseup.net.
 
-Se não encontrar o que você está procurando [[faça um pedido de ajuda => https://user.riseup.net/forms/]]. Quando sua questão for resolvida, por favor nos ajude a manter estas páginas atualizadas enviando sugestões de mudanças ou informações que você gostaria de compartilhar com outras pessoas que usam Riseup.
+Se não encontrar o que você está procurando [[faça um pedido de ajuda => https://support.riseup.net/en/topics/new]]. Quando sua questão for resolvida, por favor nos ajude a manter estas páginas atualizadas enviando sugestões de mudanças ou informações que você gostaria de compartilhar com outras pessoas que usam Riseup.
 
 h2. Primeiros passos
 
-Visite https://user.riseup.net. Ali você pode alterar sua senha, adicionar pseudônimos (atalhos), configurar filtros de email, aumentar sua cota e pedir ajuda.
+Visite https://account.riseup.net. Ali você pode alterar sua senha, adicionar pseudônimos (atalhos), configurar filtros de email, aumentar sua cota e pedir ajuda.
 
 Nós destruimos automaticamente a informação que você nos dá como parte de seu pedido de conta. Considere remover de suas configurações da conta qualquer informação que possa lhe indentificar, como seu nome, data de nascimento, pergunta secreta e email alternativo. Porém, se você esquecer sua senha e não tiver gravado seu email alternativo (ou esquecer o que escreveu, ou o email alternativo não for mais acessível) então perderá o acesso à sua conta.
 
@@ -32,7 +32,7 @@ Em algumas [[pastas especiais => settings/email-folders]], as mensagens são apa
 
 h3. Cota
 
-Por muitas razões, nós não fornecemos muito espaço de armazenamento para email. Se você precisa de mais espaço, considere baixar seu email usando [[clientes de email => clients]] ou aumente sua cota visitando https://user.riseup.net. [[Leia mais sobre cota => settings/quota]].
+Por muitas razões, nós não fornecemos muito espaço de armazenamento para email. Se você precisa de mais espaço, considere baixar seu email usando [[clientes de email => clients]] ou aumente sua cota visitando https://account.riseup.net. [[Leia mais sobre cota => settings/quota]].
 
 h3. Use um cliente de email
 

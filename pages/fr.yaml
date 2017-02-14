@@ -9,10 +9,10 @@ red_info: "Nous fournissons des comptes <b>Riseup Red</b> pour les services,
     traditionnels incluant [[email]] (IMAP), [[chat]] (XMPP)i et [[l'ancien => legacy]] VPN (OpenVPN)."
 red_webmail: "[[Connexion au client mail web => https://mail.riseup.net]]"
 red_support: "Obtenez de l'aide pour le service [[email]], le [[chat]], and [[l'ancien => legacy]] VPN."
-red_settings: "[[Modifiez vos préférences => https://user.riseup.net]]"
-red_request: "[[Demandez un compte => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[Réinitialisez votre mot de passe => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[Créez une demande d'aide Riseup Red => https://user.riseup.net/forms/]]"
+red_settings: "[[Modifiez vos préférences => https://account.riseup.net]]"
+red_request: "[[Demandez un compte => https://account.riseup.net/user/new]]"
+red_reset_password: "[[Réinitialisez votre mot de passe => https://account.riseup.net/reset_password]]"
+red_help: "[[Créez une demande d'aide Riseup Red => https://support.riseup.net/en/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "Nous fournissons des comptes <b>Riseup Black</b> pour les nouveaux services
@@ -44,7 +44,7 @@ share_info: "Téléverssement de fichier (pastebin et imagebin)."
 
 resources_title: "Ressources"
 security_info: "Ressources et tutoriels sur les façon de communiquer plus sécuritairement"
-help_link: "[[Panneau d'aide Riseup => https://user.riseup.net/forms]]"
+help_link: "[[Panneau d'aide Riseup => https://support.riseup.net/en/topics/new]]"
 help_info: "Pour nous posez une question, utilisez le formulaire qui se trouve 
     dans le panneau d'aide pour créer une demande d'aide. Mais avant tout, 
     prenez le temps de lire et de chercher dans la documentation présente sur ce site."

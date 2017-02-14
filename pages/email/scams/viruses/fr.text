@@ -19,7 +19,7 @@ h2. Les virus et listes de diffusions
 
 h2. Bloquez les emails contenant des virus
 
-* Si vous recevez beaucoup de virus et si vous avez une boite mail chez riseup.net, vous pouvez bloquer la plupart d’entre eux en activant le filtre anti-spam. Accédez à votre « panneau de contrôle utilisateur » : https://user.riseup.net, et cliquez sur 'Filtre anti-spam'.
+* Si vous recevez beaucoup de virus et si vous avez une boite mail chez riseup.net, vous pouvez bloquer la plupart d’entre eux en activant le filtre anti-spam. Accédez à votre « panneau de contrôle utilisateur » : https://account.riseup.net, et cliquez sur 'Filtre anti-spam'.
 * La plupart des clients de messagerie, comme Thunderbird (qui est un logiciel gratuit) ont de très bon filtres anti-spam intégrés et feront un bon travail pour bloquer les virus.
 * Les comptes de messagerie et les listes de diffusion sur riseup.net devraient normalement bloquer toutes les pièces jointes qui sont des fichiers exécutables. Néanmoins cela ne fonctionne pas parfaitement, et certains virus peuvent aussi arriver en tant que fichier exécutable dans des archives zip.
 

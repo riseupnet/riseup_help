@@ -9,7 +9,7 @@ h2. Como alterar minha senha?
 
 Veja como alterar sua senha:
 
-# Faça login em https://user.riseup.net
+# Faça login em https://account.riseup.net
 # Clique em *Minhas configurações*
 # Digite uma senha nova e clique *Salvar*
 # (Se aparecer um erro quando tentar salvar, e você está usando Internet Explorer, então este pode ser o problema. Sugerimos que você tente de novo usando Firefox.)
@@ -18,11 +18,11 @@ Você deve alterar sua senha regularmente. Escolha uma senha que contenha letras
 
 h2. Perdi minha senha, o que faço? 
 
-Para recuperar sua conta você precisa ter um informado um [[email alternativo => contas-de-email#como-mudar-ou-excluir-meus-endereços-de-email-alt] e pode usar o [[formulário para perda de senha => https://user.riseup.net/forms/password_reset/first]].
+Para recuperar sua conta você precisa ter um informado um [[email alternativo => contas-de-email#como-mudar-ou-excluir-meus-endereços-de-email-alt] e pode usar o [[formulário para perda de senha => https://account.riseup.net/reset_password]].
 
 h2. Minha senha funciona em alguns lugares, e outros não, por quê?
 
-Se sua senha funciona https://mail.riseup.net/ mas não no seu cliente de emails , você deve verificar se você está usando algum caractere especial em sua senha. Alguns clientes de email não reconhecem caracteres especiais, por isso não funciona. Você pode mudar sua senha em https://user.riseup.net/
+Se sua senha funciona https://mail.riseup.net/ mas não no seu cliente de emails , você deve verificar se você está usando algum caractere especial em sua senha. Alguns clientes de email não reconhecem caracteres especiais, por isso não funciona. Você pode mudar sua senha em https://account.riseup.net/
 
 h2. Verificando um pedido de alteração de senha
 

@@ -13,14 +13,14 @@ Há algumas coisas que se podem fazer para diminuir o fluxo de spam:
 *Personalizar suas configurações de spam:*
 
 Por padrão, todo e-mail que chega passa por um detector de spam. Porém você pode melhorar sua sensibilidade e precisão se personalizar as configurações de spam.
-# Visite https://user.riseup.net e entre no sistema.
+# Visite https://account.riseup.net e entre no sistema.
 # Clique em *E-mail* e em *Configurações de spam*.
 
 *Criar uma pasta de spam:*
 Se você tiver uma pasta chamada "Spam", todos os e-mails suspeitos serão entregues diretamente nela. Verifique a pasta de spam periodicamente para ver se alguma mensagem legítima foi filtrada incorretamente. O nome da pasta deve ser "Spam", e não "spam".
 
 *Criar um e-mail alternativo temporário:*
-Este é um endereço de e-mail alternativo que você só usa por um período de tempo limitado, depois do qual o destrói. Ele é útil para ser dado a uma empresa ou publicado na web. Quando você começar a receber spam nesse endereço alternativo, simplesmente apague-o. Você pode criar e-mails alternativos para a sua conta riseup.net entrando em https://user.riseup.net.
+Este é um endereço de e-mail alternativo que você só usa por um período de tempo limitado, depois do qual o destrói. Ele é útil para ser dado a uma empresa ou publicado na web. Quando você começar a receber spam nesse endereço alternativo, simplesmente apague-o. Você pode criar e-mails alternativos para a sua conta riseup.net entrando em https://account.riseup.net.
 
 *Usar um cliente de e-mail:*
 Hoje em dia, a maioria dos clientes de e-mail filtra spam.

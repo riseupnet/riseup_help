@@ -4,7 +4,7 @@ h2. How do I change my password?
 
 Here's how to change your password:
 
-# Login to https://user.riseup.net  (Rather than trust this link, you can instead go to the main riseup website, and look for the “Email” section where you can find a link to “Change my settings”)
+# Login to https://account.riseup.net  (Rather than trust this link, you can instead go to the main riseup website, and look for the “Email” section where you can find a link to “Change my settings”)
 # Click *My Settings*
 # Enter a new password and click *Save*
 
@@ -16,8 +16,8 @@ h2. How do I pick a secure password?
 
 h2. I forgot my password, what do I do?
 
-To reset your account, you must have an active [[alternate email => mail-accounts]] set and can use the "lost password form":https://user.riseup.net.
+To reset your account, you must have an active [[alternate email => mail-accounts]] set and can use the "lost password form":https://account.riseup.net.
 
 h2. My password works some places, but not others, why?
 
-If your password works on https://mail.riseup.net but not with your mail client, you should check to see if you are using any special characters in your password. Some mail clients do not recognize special characters and will not work. You can change your password at https://user.riseup.net
+If your password works on https://mail.riseup.net but not with your mail client, you should check to see if you are using any special characters in your password. Some mail clients do not recognize special characters and will not work. You can change your password at https://account.riseup.net

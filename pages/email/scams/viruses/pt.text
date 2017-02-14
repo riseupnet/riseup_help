@@ -19,7 +19,7 @@ h2. Vírus e listas de discussão
 
 h2. Bloqueando e-mails "viróticos"
 
-* Se você recebe muitos vírus na sua conta de e-mail riseup.net, bloqueie-os habilitando o filtro de spam no "painel de controle":https://user.riseup.net, na guia "Email".
+* Se você recebe muitos vírus na sua conta de e-mail riseup.net, bloqueie-os habilitando o filtro de spam no "painel de controle":https://account.riseup.net, na guia "Email".
 * Alguns clientes de e-mail, como o Thunderbird (software livre), têm uma excelente filtragem de spam integrada e fazem um bom trabalho no bloqueio de vírus.
 * Contas de e-mail e listas de riseup.net normalmente bloqueiam todo anexo executável. Alguns vírus executáveis, porém, vêm dentro de pastas compactadas.
 

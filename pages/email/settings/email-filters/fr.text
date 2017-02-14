@@ -3,7 +3,7 @@
 h2. Comment modifier mes filtres de messages ?
 
 # Premièrement, vérifiez que le dossier dans lequel le nouveau filtre enverra les messages existe déjà. Vous pouvez créer un nouveau dossier depuis votre client de messagerie ou depuis le webmail.
-# Identifiez-vous sur https://user.riseup.net
+# Identifiez-vous sur https://account.riseup.net
 # Cliquez sur *Courriel* dans la colonne de gauche.
 # Cliquez sur l'onglet *filtres-courriel*.
 # Dans cet onglet, vous pouvez changer l'ordre d'exécution des filtres, modifier ou supprimer des filtres existants, ou en ajouter de nouveaux. Pour modifier un filtre existant, cliquez dessus et vous serez dirigé vers une page où vous pouvez ajouter de nouvelles conditions, ou supprimer ou modifier des conditions déjà existantes.
@@ -18,7 +18,7 @@ h2. Comment bloquer une adresse email ?
 
 Si vous recevez des messages inappropriés ou du spam, et que vous voulez vous assurer que les messages provenant d'une adresse en particulier soient automatiquement supprimés, vous pouvez suivre les étapes suivantes :
 
-# Identifiez-vous sur https://user.riseup.net
+# Identifiez-vous sur https://account.riseup.net
 # Cliquez sur *Courriel* dans la colonne de gauche.
 # Cliquez sur l'onglet *filtres-courriel*.
 # Cliquez sur *Ajouter un filtre*.
@@ -35,7 +35,7 @@ h2. Comment déclarer des messages légitimes pour qu'ils ne soient plus filtré
 
 Si un type de message particulier est systématiquement détecté comme un spam et que vous voulez vous assurer que cela n'arrive plus, suivez ces instructions :
 
-# Identifiez-vous sur https://user.riseup.net
+# Identifiez-vous sur https://account.riseup.net
 # Cliquez sur *Courriel* dans la colonne de gauche.
 # Cliquez sur l'onglet *Paramètres de gestion des pourriels*.
 # Si vous ne l'avez pas encore fait, cliquez sur *Enable custom spam settings*.

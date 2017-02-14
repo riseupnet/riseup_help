@@ -8,10 +8,10 @@ red_info: "Προσφέρουμε λογαριασμούς <b>Riseup Red</b> γ�
   που περιλαμβάνουν [[email]] (IMAP), [[chat]] (XMPP), και [[legacy]] (OpenVPN)."
 red_webmail: "[[Σύνδεση στο ηλεκτρονικό ταχυδρομείο => https://mail.riseup.net]]"
 red_support: "Ζήτα βοήθεια για το [[email]], το [[chat]], και το [[legacy]]."
-red_settings: "[[Άλλαξε τις ρυθμίσεις σου => https://user.riseup.net]]"
-red_request: "[[Κάνε αίτημα για νέο λογαριασμό => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[Επανέφερε το χαμένο κωδικό σου => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[Δημιούργησε ένα αίτημα βοήθειας για Riseup Red => https://user.riseup.net/forms/]]"
+red_settings: "[[Άλλαξε τις ρυθμίσεις σου => https://account.riseup.net]]"
+red_request: "[[Κάνε αίτημα για νέο λογαριασμό => https://account.riseup.net/user/new]]"
+red_reset_password: "[[Επανέφερε το χαμένο κωδικό σου => https://account.riseup.net/reset_password]]"
+red_help: "[[Δημιούργησε ένα αίτημα βοήθειας για Riseup Red => https://support.riseup.net/en/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "Προσφέρουμε λογαριασμούς <b>Riseup Black</b> που απαιτούν Bitmask
@@ -41,7 +41,7 @@ share_info: "Ανέβασμα/Φιλοξενία αρχείων (pastebin και
 
 resources_title: Πηγές
 security_info: "Πηγές και Οδηγίες για ασφαλέστερη επικοινωνία."
-help_link: "[[Κέντρο υποστήριξης Riseup => https://user.riseup.net/forms]]"
+help_link: "[[Κέντρο υποστήριξης Riseup => https://support.riseup.net/en/topics/new]]"
 help_info: "Για να έρθετε σε επαφή μαζί μας αν έχετε κάποια απορία, χρησιμοποιείστε
   το κέντρο υποστήριξης δημιουργώντας ένα αίτημα βοήθειας. Πρώτα όμως ψάξτε και διαβάστε
   τα κείμενα που υπάρχουν στο ήδη online στο site."
