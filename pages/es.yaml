@@ -11,7 +11,7 @@ red_support: "Get help on [[email]], [[chat]], and [[legacy]]."
 red_settings: "[[Change my settings => https://account.riseup.net]]"
 red_request: "[[Request an account => https://account.riseup.net/user/new]]"
 red_reset_password: "[[Reset lost password => https://account.riseup.net/reset_password]]"
-red_help: "[[Create a Riseup Red help ticket => https://support.riseup.net/en/topics/new]]"
+red_help: "[[Create a Riseup Red help ticket => https://support.riseup.net/es/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "We provide <b>Riseup Black</b> accounts for new services that
@@ -41,7 +41,7 @@ share_info: "file upload (pastebin and imagebin)."
 
 resources_title: Resources
 security_info: "Resources and tutorials for more secure communication."
-help_link: "[[Riseup Help Desk => https://support.riseup.net/en/topics/new]]"
+help_link: "[[Riseup Help Desk => https://support.riseup.net/es/topics/new]]"
 help_info: "In order to contact us with a question, use the help desk form to
   create a help ticket. But first, please search and read the online
   documentation found on this site."
