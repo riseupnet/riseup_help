@@ -1,0 +1,65 @@
+@title = 'Evolution'
+
+h2. O que é Evolution?
+
+"Evolution":https://en.wikipedia.org/wiki/Evolution_software é o gerenciador de informação pessoal e cliente de e-mail para o "Ambiente de Trabalho GNOME":https://en.wikipedia.org/wiki/GNOME. É um Software Livre e de Código Aberto, licenciado sob GPL.
+
+É geralmente distribuído com o Ambiente de Trabalho GNOME com o Linux, estando provavelmente disponível após uma instalação de uma distribuição linux que use GNOME, tal como ["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu_(operating_system)], ou disponível via "Gerenciador de Pacotes":https://en.wikipedia.org/wiki/Package_manager da sua distribuição. O Evolution também está "disponível para Windows":http://www.dipconsultants.com/evolution/download.htm.
+
+O Evolution inclui suporte para e-mail, calendário, contatos e criptografia GPG.
+
+h2. Instalando o Evolution
+
+* Debian/Ubuntu Linux: É provável que o Evolution já esteja instalado. Caso contrário, @sudo apt install Evolution@
+* Windows: "Baixar":http://www.dipconsultants.com/evolution/download.htm e instalar a versão windows.
+
+h2. Configurando uma Nova Conta no Evolution
+
+# Inicie o Evolution (exemplo: Pressione **Alt+F2** e entre: <code>evolution</code>)
+# Se você rodar o Evolution pela primeira vez, você será perguntado se quer restaurar suas configurações de um arquivo de backup, se você tiver um.
+# Entre o nome que você deseja que apareça no campo **De** para os seus destinatários, junto com o seu endereço de e-mail. Você também pode fazer com que esta seja a sua conta padrão no Evolution.
+# Entre as seguintes informações para receber e-mails de uma conta riseup.net:
+Tipo de Servidor: Escolha **IMAP** ou **POP**. [[Qual a diferença entre servidores IMAP e POP? => email/clients]]
+Servidor: **mail.riseup.net**
+Nome do usuário: **<seu usuario riseup>**
+Usar Conexão Segura: **TLS** é recomendado
+Tipo de Autenticação: **Senha**
+# A próxima tela tem 4 seções. **Conexão com o Servidor** e **Diretórios** podem ser ignorados. Escolha o tempo (minutos) com o qual o Evolution checará, automaticamente, novos e-mails na seção **Checando Novos E-mails**, ou desmarcando para checar e-mails de forma manual. A seção **Opções** permite que você aplique filtro de spam para os e-mails de entrada e automaticamente manter cópias locais dos seus e-mails para habilitar acesso quando desconectado (aplica-se somente ao IMAP).
+# Entre as seguintes informações para enviar e-mails de uma conta riseup.net:
+Tipo de Servidor: **SMTP**
+Servidor: **mail.riseup.net**
+marcar **Servidor Requer Autenticação**
+Usar Conexão Segura: **TSL** é recomendado por razões de segurança (StartTLS e SSL são facilmente comprometidos).
+Tipo de Autenticação: **Simples**
+nome de usuário: **<seu usuario riseup>**
+# Dê um nome a conta. Este nome será apenas usado para quando você estiver gerenciando múltiplas contas no Evolution e não será divulgada aos destinatários dos seus e-mails.
+# Clique em **Aplicar**
+
+Você terminou! Agora você pode usar o Evolution para enviar e receber e-mails através dos servidores do Riseup.
+
+h1. Reforce Sua Segurança
+
+<%= render :partial => 'enhance-security' %>
+
+h2. Configurar Criptografia OpenPGP no Evolution
+
+Tudo que é preciso para trabalhar com e-mails criptografados no Evolution é colocar a sua **chave** OpenPGP na sua conta e então selecionar criptografar toda vez que você enviar um e-mail.
+
+# Primeiro, [[Gerar um par de chaves OpenPGP => /security/gpg-keys]], caso você ainda não tenha feito.
+# Vá para **Editar** -> **Preferências**
+# Na seção **Contas de E-mail**, selecione a conta que você deseja ligar à sua chave OpenPGP e pressione o botão **Editar**.
+# Clique na aba **Segurança**.
+# Entre com a sua **chave** OpenPGP (Veja o [[Como gerar as chaves OpenPGP => /security/gpg-keys]] para encontrar a sua **chave**). Selecione **Sempre criptografar quando enviar mensagens criptografadas**; isto criptografa as cópias salvas em sua caixa de mensagens **Enviadas** no servidor. Com a sua chave você conseguirá descriptografá-las depois. NÃO CONFIRMADO!!! **Sempre confiar as chaves em meu chaveiro quando criptografado** permite que você se comunique com pessoas do seu chaveiro, cujas chaves você não assinou.
+Você pode ignorar a seção **MIME Seguro**. **Observe:** "Sempre assinar" **não é** a mesma coisa que "Sempre criptografar"; assinar um e-mail é diferente de encriptá-lo e não faz a mensagem ficar ilegível a terceiros.
+# Clique em **OK**
+
+Você está apto agora a criptografar e descriptografar e-mails no Evolution!
+
+h2. Enviando E-mails Criptografados
+
+# Escreva um novo e-mail
+# Selecione **Segurança** -> **Criptografia PGP**
+
+O e-mail que você escreveu será agora criptografado no início do envio! Você pode sempre verificar que seu e-mail será criptografado entrando no menu **Segurança** e vendo se a **Criptografia PGP** está marcada.
+
+Infelizmente, atualmente não parece haver nenhuma maneira de ativar a criptografia por padrão, globalmente ou por contato, significando que **toda vez que você quiser criptografar um e-mail para alguém, você terá que ir em Segurança -> Criptografia PGP para habilitar a criptografia, de outra maneira o seu e-mail será legível a terceiros.**
