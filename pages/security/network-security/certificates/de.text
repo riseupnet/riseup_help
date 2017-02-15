@@ -57,9 +57,9 @@ h3. Verifiziere diese Anleitung
 
 Jetzt, da Du Riseups öffentlichen Schlüssel importiert hast, kannst Du verifizieren, daß die Prüfsummen, die auf dieser Seite aufgeführt sind, wirklich von Riseup stammen: 
 
-# Lade die [[hier verlinkten PGP-signierten Prüfsummen unserer SSL-Zertifikate->https://help.riseup.net/en/signed-certificate-fingerprints]] herunter:
-@wget https://help.riseup.net/en/signed-certificate-fingerprints@
-# Dann führe folgenden Befehl aus:
+# Lade die [[hier verlinkten PGP-signierten Prüfsummen unserer SSL-Zertifikate => riseup-signed-certificate-fingerprints.txt]] herunter:
+@wget https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt@
+# Danach führe folgenden Befehl aus:
 @gpg --verify riseup-signed-certificate-fingerprints.txt@
 # Du solltest nun folgende Ausgabe bekommen:
 
