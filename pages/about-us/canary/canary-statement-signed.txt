@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+
 Riseup positively confirms that the integrity of our system is sound: all our infrastructure is in our control, we have not been compromised or suffered a data breach, we have not disclosed any private encryption keys, and we have not been forced to modify our system to allow access or information leakage to a third party.
 
 This canary will be re-signed on the following dates:
@@ -22,7 +23,7 @@ A: Forced speech is actually quite rare in the US legal context. It's usually on
 
 Q: Why didn't you update your canary on time in the winter of 2016?
 
-A: The canary was so broad that any attempt to issue a new one would be a violation of a gag order related to an investigation into a DDoS extortion ring and ransomeware operation[0]. This is not desirable, because if any one of a number of minor things happen, it signals to users that a major thing has happened.
+A: The canary was so broad that any attempt to issue a new one would be a violation of a gag order related to an investigation into a DDoS extortion ring and ransomware operation[0]. This is not desirable, because if any one of a number of minor things happen, it signals to users that a major thing has happened.
 
 Q: Why does the new Canary not mention gag orders, FISA court orders, National Security Letters, etc?
 
@@ -32,19 +33,19 @@ A: Our initial Canary strategy was only harming users by freaking them out unnec
 
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlimIRdfFIAAAAAALgAo
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlimKpVfFIAAAAAALgAo
 aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
 MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do5LXg//T2SSBhOrGiAJrCDzpHTVb52jRI9B4yw39MHgp0ITOKSx6jwJl8zRV9h7
-UCni0u72zefU3fdM6py940wwrV9vA9Iv1r3jikiLqsjMbiHNz9zLZqVDOkJxlOdu
-X2qfNI4/wIcA+GXPrsGAlQAHuQ27CWFBioqeAdNLUR0msGvYSJ00u/Y+514lZWAa
-qY+UL1iTfpMhMyCAsL8XskhH9BaqMEQZDM55/baKBPb9XcugAJkVwbeD1tLPU/DH
-oSireaHbOBVdDi1p2zDpAf/E3PLBpzzeoUtzYHeOV75i9kRsKUK0+riohVnw1Syn
-JGva47U2heOvS0ZIKxwLfBMsuyDC7IhrgEPW1Q4VrHrcJS415RfhU5Pk0DW0jORM
-mkXdRC/coGL5LGmAoAxOhViezCryrl/FNYtTZ0K60nAJn5WFXy5YbMmWkvVZhoQK
-6LK2qHrReAd3jhdYuEbJ0oQ3eLF61uM7oL6viEm6xb8GQs5flpD0dUkE8bDq6yuh
-qlAgjfKjnLRuH0QJR36HNne3yJcHJX3f9s9R6tyH44IIgxhwIpWzpu0uLgpIsB+2
-/faoAU2zBzX6VWaeW2hQnQMWSBEVIqqZTIvjNvXr5HbHEq5mQt/7bBA/K6sdWH5u
-5OBKFvlyO7x+X6kE2+acjvAQ1bae3mzDWS1KvEKb+1KZUCZKYjI=
-=fEbd
+do7AmBAArruhjb2/TjrS1cXlA486bYd65KTD9GzQdwDflrdfhQIqzRQH4S7FyLlg
+fTC7i+CGR178Yx0RxSlLJoTbYhXqThO1TgUIPEbfdGsShor/DcFIy/CAy+5mJRWy
+n5Zr5uyQ2ZajrpssUMnYTOOcKBk+qTKnhFFXgnQTnP7dbrQZ72oYn4Rl7ZiZtaDA
+RaZUPXRM66WHy7B5TOzLw32Pw7FRrsttl1J53gyW8aE3f0hdFbq/YFcjZCjI6Rcf
+lbgknfjawr4lPPUPDIh5mZn0fpESyqyrbqr6mMzBP6Xyvoa/lmtlsrIHqp2aEcwk
+cNCYTNkLlDhnHtmWesWUSrETmWtHYdZtjOvQJQdTdowmsSEldxnWBOceJIyMXouT
+T7csL2FVqx8hlkmiCo4CK3jGCErmy9FUNKfLMkMPNODt1yQ0TwHU37zEPXq2quR6
+I6SCoONITrSH4xF4YUn86cGPDfWnZgCNctcKVuufxLKvoyQ3ZggUvODlH5u0M1A2
+/rSwFNzXP6ZyE7/y01r+bY8ZyY/QFpwjN4Sihv8mdOQD7n/3ZC8R6pX5jfg2ARAx
+/1lQNHjgN7Ee7RVAXpq2a2LgtOsxAvsKN5QuVv2ijrkj5pmmiAp63j09CoP3cU4U
+HfBMkPpHQ+4u+vIOFRU7dqW54IKu3hdd9tuT6RfDioM2Hm7OShw=
+=h6GS
 -----END PGP SIGNATURE-----
