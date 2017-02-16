@@ -20,7 +20,7 @@ Optional: verify the OpenPGP signature following "these steps":https://riseup.ne
 
 h2. Connecting
 
-Tunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://user.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
+Tunnelblick will appear as an icon on the top of your menu bar, right click on it and pick "Connect to riseup". You will be asked to put your riseup login and your vpn secret after that. Where do you get your vpn secret? access https://account.riseup.net/users/{USERNAME}/vpn to get it (replace {USERNAME} with your real username).
 
 Once connected, if you click on the tunnelblick icon in the upper right corner of the screen, it should show "1 connection active." You're done!
 

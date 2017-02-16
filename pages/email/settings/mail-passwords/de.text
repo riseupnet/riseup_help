@@ -5,7 +5,7 @@ Wie ändere ich mein Passwort?
 -----------------------------
 
 So änderst du dein Passwort:
-# Melde dich bei https://user.riseup.net an. (Statt diesem Link zu trauen, kannst du auch auf die Riseup-Hauptseite gehen und im Bereich *Email* nach dem Link *Change my settings* suchen.)
+# Melde dich bei https://account.riseup.net an. (Statt diesem Link zu trauen, kannst du auch auf die Riseup-Hauptseite gehen und im Bereich *Email* nach dem Link *Change my settings* suchen.)
 # Klicke auf *My settings*
 # Gib ein neues Passwort ein und klicke *Save* (Falls du beim Speichern eine Fehlermeldung bekommst und den "Internet Explorer" benutzt, könnte es an diesem liegen. Versuche es am besten nochmal mit Firefox)
 Du solltest dein Passwort regelmäßig ändern. Wähle ein Passwort, das aus Buchstaben, Zahlen und Symbolen besteht. Ein Passwort sollte aus mehr als nur Begriffen aus dem Wörterbuch bestehen. Nutze kein Passwort, das du auch woanders verwendest!
@@ -19,10 +19,10 @@ Wie erstelle ich ein sicheres Passwort?
 Ich habe mein Passwort vergessen, was soll ich tun? 
 ----------------------------------------------------
 
-Um deinen Account zurückzusetzen musst du eine aktive [[alternative E-Mail -> mail-accounts#how-do-i-change-or-delete-my-alternate-email-address]] eingerichtet haben und kannst dann das [[Verlorenes-Passwort-Formular -> https://user.riseup.net]] benutzen.
+Um deinen Account zurückzusetzen musst du eine aktive [[alternative E-Mail -> mail-accounts#how-do-i-change-or-delete-my-alternate-email-address]] eingerichtet haben und kannst dann das [[Verlorenes-Passwort-Formular -> https://account.riseup.net]] benutzen.
 
 
 Mein Passwort funktioniert an manchen Orten, aber an anderen nicht. Warum?
 --------------------------------------------------------------------------
 
-Falls dein Passwort auf https://mail.riseup.net funktioniert, aber nicht mit deinem E-Mail-Programm, solltest du überprüfen ob du Sonderzeichen in deinem Passwort benutzt. Einige E-Mail-Programme erkennen keine Sonderzeichen und somit kannst du dich nicht einloggen. Du kannst dein Passwort ändern unter https://user.riseup.net.
+Falls dein Passwort auf https://mail.riseup.net funktioniert, aber nicht mit deinem E-Mail-Programm, solltest du überprüfen ob du Sonderzeichen in deinem Passwort benutzt. Einige E-Mail-Programme erkennen keine Sonderzeichen und somit kannst du dich nicht einloggen. Du kannst dein Passwort ändern unter https://account.riseup.net.

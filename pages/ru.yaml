@@ -8,10 +8,10 @@ red_info: "Мы предоставляем аккаунты <b>Riseup Red</b> д
   включающих [[email]] (IMAP), [[chat]] (XMPP), and [[legacy]] (OpenVPN)."
 red_webmail: "[[Войти в электронную почту => https://mail.riseup.net]]"
 red_support: "Получить помощь по [[email]], [[chat]], и [[legacy]]."
-red_settings: "[[Изменить настройки => https://user.riseup.net]]"
-red_request: "[[Запросить аккаунт => https://user.riseup.net/forms/new_user]]"
-red_reset_password: "[[Сбросить пароль => https://user.riseup.net/forms/password_reset/first]]"
-red_help: "[[Задать вопрос службе поддержки Riseup Red => https://user.riseup.net/forms/]]"
+red_settings: "[[Изменить настройки => https://account.riseup.net]]"
+red_request: "[[Запросить аккаунт => https://account.riseup.net/user/new]]"
+red_reset_password: "[[Сбросить пароль => https://account.riseup.net/reset_password]]"
+red_help: "[[Задать вопрос службе поддержки Riseup Red => https://support.riseup.net/en/topics/new]]"
 
 black_title: "Riseup Black"
 black_info: "Мы предоставляем аккаунты <b>Riseup Black</b> для новых сервисов,
@@ -40,7 +40,7 @@ share_info: "файлообменник (в том числе для текст�
 
 resources_title: Resources
 security_info: "Ресурсы и учебные пособия для защищенных коммуникаций."
-help_link: "[[Riseup Help Desk => https://user.riseup.net/forms]]"
+help_link: "[[Riseup Help Desk => https://support.riseup.net/en/topics/new]]"
 help_info: "Для того, чтобы получить помощь, используйте форму обратной связи
   с технической поддержкой для создания запроса. Но сначала, пожалуйста, поищите ответ
   на ваш вопрос в документации на этом сайте."

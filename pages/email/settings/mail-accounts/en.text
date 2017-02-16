@@ -4,7 +4,7 @@ h2. How do I create an email account?
 
 There are two ways:
 
-# "Request an account":https://user.riseup.net/, or...
+# "Request an account":https://account.riseup.net/, or...
 # Get invite codes from two friends
 
 It is sometimes difficult for us to keep up with the volume of requests, so it may take us up to a few weeks to get back to you. If you know two different riseup.net users, you can use the invite method, and your account will be created and be ready to use immediately. You should only request invites from people you know personally.
@@ -12,7 +12,7 @@ It is sometimes difficult for us to keep up with the volume of requests, so it m
 
 h2. How do I change my username?
 
-# Login to https://user.riseup.net
+# Login to https://account.riseup.net
 # Click *My Settings*
 # Change your username
 # Click *Save*
@@ -32,7 +32,7 @@ h2. How can I delete my account?
 
 Simply follow these steps:
 
-# Login to https://user.riseup.net
+# Login to https://account.riseup.net
 # Click on the *Close my email account* link.
 
 h2. How do I change or delete my alternate email address?
@@ -41,6 +41,6 @@ We would prefer not to store an alternate email address for you. However, the al
 
 To change this:
 
-# Login to https://user.riseup.net
+# Login to https://account.riseup.net
 # Click *My Settings*
 # You can remove or change what is in the 'Alternate Email' field

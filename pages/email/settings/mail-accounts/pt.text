@@ -4,7 +4,7 @@ h2. Como posso criar uma conta de e-mail?
 
 Existem dois modos:
 
-# "Solicite uma conta":https://user.riseup.net/, ou...
+# "Solicite uma conta":https://account.riseup.net/, ou...
 # Obtenha códigos de convite de dois amigos.
 
 Por vezes é difícil lidar-mos com o volume de requisições de e-mail, então talvez leve algumas semanas para processar a sua requisição e responder-lhe. Se você conhece dois usuários riseup.net diferentes, você pode usar o método do convite, e sua conta de e-mail será criada e estará imediatamente pronta para uso. Você deve solicitar convites apenas à pessoas que você conheça pessoalmente.
@@ -12,7 +12,7 @@ Por vezes é difícil lidar-mos com o volume de requisições de e-mail, então 
 
 h2. Como posso trocar meu nome de usuário?
 
-# Faça login em https://user.riseup.net
+# Faça login em https://account.riseup.net
 # Clique em *My Settings* (*Minhas Configurações*)
 # Troque seu nome de usuário
 # Clique em *Save* (*Salvar*).
@@ -32,7 +32,7 @@ h2. Como posso apagar minha conta?
 
 Apenas siga estes passos:
 
-# Entre em https://user.riseup.net
+# Entre em https://account.riseup.net
 # Clique no link *Close my email account* (*Fechar a minha conta de e-mail*).
 
 h2. Como posso mudar ou apagar o endereço da minha conta de e-mail alternativa?
@@ -41,6 +41,6 @@ Nós preferimos não armazenar um endereço de e-mail alternativo para você. Po
 
 Para mudar isto:
 
-# Entre em https://user.riseup.net
+# Entre em https://account.riseup.net
 # Clique em *My Settings* (*Minhas Configurações*)
 # Você pode remover ou mudar o que estiver no campo 'Alternate Email' ('E-mail alternativo').

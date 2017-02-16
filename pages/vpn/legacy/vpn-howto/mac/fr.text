@@ -20,7 +20,7 @@ Optionnel: vérifiez la signature OpenGPG en suivant les "étapes suivantes":htt
 
 h2. Connexion
 
-Un icône de Tunnelblick apparaîtra dans votre barre de menu. Faites un clique droit sur cette dernière et sélectionnez "connect riseup". Votre identifiant riseup et votre secret vpn vous seront demandés. Pour trouver votre secret vpn, visitez https://user.riseup.net/users/{USERNAME}/vpn en remplacent {USERNAME} par votre réel identifiant Riseup.
+Un icône de Tunnelblick apparaîtra dans votre barre de menu. Faites un clique droit sur cette dernière et sélectionnez "connect riseup". Votre identifiant riseup et votre secret vpn vous seront demandés. Pour trouver votre secret vpn, visitez https://account.riseup.net/users/{USERNAME}/vpn en remplacent {USERNAME} par votre réel identifiant Riseup.
 
 Once connected, if you click on the tunnelblick icon in the upper right corner of the screen, it should show "1 connection active." You're done!
 Une fois connecté, si vous cliquez sur l'icône tunnelblick dans le coin droit supérieur de l'écran, un petit widget devrait s'afficher et afficher que vous êtes connecté à riseup. Voilà, c'est fait!
