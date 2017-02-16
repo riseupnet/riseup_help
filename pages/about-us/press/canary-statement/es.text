@@ -1,5 +1,5 @@
-@title = 'Riseup se mueve al correo electrónico encriptado en respuesta a las solicitudes legales.
-@nav_title = 'Declaración Canaria'
+@title = 'Riseup responde con almacenamiento de e-mail cifrado como respuesta a requerimientos legales'
+@nav_title = 'Declaración sobre nuestra Warrant Canary'
 @toc = false
 
 p. Tras agotar nuestras opciones legales, Riseup decidió recientemente cumplir con dos requerimientos judiciales a cargo del FBI. Esto antes que enfrentar cargos por desacato a la corte (lo que habría significado cárcel para algunxs de nosotrxs y/o el fin de Riseup como organización). El primero de estos requerimientos se refería a una red internacional de extorsión mediante DDoS. El segundo a una cuenta que usaba ransomware para extorsionar dinero de distintas personas.
@@ -20,21 +20,21 @@ Riseup
 
 p. Preguntas Frecuentes:
 
-¿Están siendo controlados por organismos de seguridad?
+P: ¿Están siendo controlados por organismos de seguridad?
 
-No. Nunca hemos permitido que se instale algún hardware o software de monitoreo en ninguno de nuestros sistemas. Los organismos de seguridad no se han llevado nuestros servidores, ni les hemos dado acceso a nuestras máquinas. Preferiríamos que Riseup dejase de existir antes que aceptar algo así.
+R: No. Nunca hemos permitido que se instale algún hardware o software de monitoreo en ninguno de nuestros sistemas. Los organismos de seguridad no se han llevado nuestros servidores, ni les hemos dado acceso a nuestras máquinas. Preferiríamos que Riseup dejase de existir antes que aceptar algo así.
 
-¿Acaso el gobierno no les podría forzar a decir eso?
+P: ¿Acaso el gobierno no les podría forzar a decir eso?
 
-Forzar a que una persona diga algo es un recurso bastante poco usual en el contexto de EE.UU. Usualmente solo en casos de protección al consumidor el gobierno ha logrado utilizar ese recurso (como en las cajetillas de cigarrillos). De cualquier forma, no, no nos han forzado a decir nada.
+R: Forzar a que una persona diga algo es un recurso bastante poco usual en el contexto de EE.UU. Usualmente solo en casos de protección al consumidor el gobierno ha logrado utilizar ese recurso (como en las cajetillas de cigarrillos). De cualquier forma, no, no nos han forzado a decir nada.
 
-¿Por qué no actualizaron la Warrant Canary?
+P: ¿Por qué no actualizaron la Warrant Canary?
 
-En el invierno de 2017, nuestra warrant canary no fue actualizada a tiempo. Los gatillantes para su no actualización eran diversos y cualquier intento por actualizarla alterando el contenido de ésta habría sido una violación a la prohibición de informar relativas dos investigaciones, una sobre red de extorsión mediante DDoS y otra sobre extorsión mediante ransomware. El resultado de esto no fue el deseable, emitiendo la alarma de que algo más grave estaba ocurriendo.
+R: En el invierno de 2017, nuestra warrant canary no fue actualizada a tiempo. Los gatillantes para su no actualización eran diversos y cualquier intento por actualizarla alterando el contenido de ésta habría sido una violación a la prohibición de informar relativas dos investigaciones, una sobre red de extorsión mediante DDoS y otra sobre extorsión mediante ransomware. El resultado de esto no fue el deseable, emitiendo la alarma de que algo más grave estaba ocurriendo.
 
-¿Por qué la nueva Warrant Canary no menciona prohibiciones de informar, FISA court orders, National Security Letters, etc?
+P: ¿Por qué la nueva Warrant Canary no menciona prohibiciones de informar, FISA court orders, National Security Letters, etc?
 
-Nuestra estrategia inicial relacionada a la Warrant Canary solo producía daño a nuestros usuarios al causar pánico innecesario cuando eventos menores ocurrían. La Warrant Canary debería informar a los usuarios de un riesgo importante, pero también existe el peligro de indicar lo incorrecto y causar pánico de forma innecesaria. La Warrant Canary actual está limitada a eventos que pueden comprometer la seguridad de l@s usuari@s de Riseup.
+R: Nuestra estrategia inicial relacionada a la Warrant Canary solo producía daño a nuestros usuarios al causar pánico innecesario cuando eventos menores ocurrían. La Warrant Canary debería informar a los usuarios de un riesgo importante, pero también existe el peligro de indicar lo incorrecto y causar pánico de forma innecesaria. La Warrant Canary actual está limitada a eventos que pueden comprometer la seguridad de l@s usuari@s de Riseup.
 
 
 [1] https://riseup.net/tos
