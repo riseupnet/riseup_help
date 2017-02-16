@@ -31,7 +31,7 @@ A: Forced speech is actually quite rare in the US legal context. It's usually on
 
 Q: Why didn't you update your canary?
 
-A: In the Winter of 2016, the canary was not updated on time. The canary was so broad that any attempt to issue a new one would be a violation of a gag order related to an investigation into a DDoS extortion ring and ransomeware operation. This is not desirable, because if any one of a number of minor things happen, it signals to users that a major thing has happened.
+A: In the Winter of 2016, the canary was not updated on time. The canary was so broad that any attempt to issue a new one would be a violation of a gag order related to an investigation into a DDoS extortion ring and ransomware operation. This is not desirable, because if any one of a number of minor things happen, it signals to users that a major thing has happened.
 
 Q: Why does the new Canary not mention gag orders, FISA court orders, National Security Letters, etc?
 
