@@ -24,12 +24,13 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 # Download the signed "canary statement":/about-us/canary/canary-statement-signed.txt
 # Then run this command in a terminal:
 <code>gpg --verify canary-statement-signed.txt</code>
-# You should get output that says:
+# You should get output that is similar to the following (note the date will change, based on when the canary statement was signed):
 
 <pre>
-gpg: Signature made Mon 15 Aug 2016 10:01:19 PM PDT
-gpg:                using RSA key 0x3043E2B7139A768E
+gpg: Signature made Thu 16 Feb 2017 05:41:25 PM EST
+gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 </pre>
 
 p. You should make sure that it says "Good signature" in the output and confirm that the keyid matches the one you verified [[here earlier. => network-security/certificates#complete-verification]] If this text has been altered, then this information should not be trusted.
