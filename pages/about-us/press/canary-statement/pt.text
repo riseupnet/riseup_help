@@ -1,0 +1,42 @@
+@title = 'Riseup moves to encrypted email in response to legal requests.'
+@nav_title = 'Canary Statement'
+@toc = false
+
+_16 de fevereiro de 2017_
+
+p. Após exaurir nossas opções legais, recentemente o Riseup decidiu cumprir com duas ordens judiciais do FBI, ao invés de cometer um desacato (o que teria levado os passarinhos do Riseup à cadeia por um tempo e/ou terminado com o coletivo). A primeira tem relação com o endereço público de contato para um anel internacional de extorsão DDoS. A segunda com uma conta que usava um software de sequestro de dados (ransomware) para extorquir dinheiro das pessoas.
+
+p. As atividades de extorsão claramente violam tanto a carta de princípios quanto o espírito do contrato social 1 que temos com nossos usuários: nós cuidamos de você enquanto não estiver realizando ações exploradoras, misóginas, racistas e intolerantes.
+
+p. Houve uma “ordem de mordaça” que nos impediu de tornar público até a existência desses mandatos até agora. Essa também foi a razão para não termos atualizado nosso “Canário”. 2
+
+p. Resolvemos agir para garantir que o Riseup nunca mais tenha acesso a emails guardados de usuários em purotexto (plaintexto). A partir de hoje, todas as novas contas de email do Riseup terão pessoalmente encriptação quando armazenadas nos nossos servidores, acessíveis somente por vocês. No futurp próximo, começaremos a migrar todas as contas existentes para esse novo sistema (para detalhes técnicos, veja nota 3).
+
+p. Para ser absolutamente claro, esse tipo de encriptação não é encriptação ponta a ponta de mensagens. Com o novo sistema do Riseup, você ainda tem que acreditar no servidor enquanto estiver logado. Para encriptação ponta a ponta de email, como antes, é preciso usar um cliente que suporte OpenPGP (e que não rode no navegador).
+
+p. Estamos trabalhando para desenvolver um sistema ponta a ponta mais completo para o próximo ano, mas até que esteja pronto, estamos lançando o armazenamento encriptado pessoal.
+
+p. em solidariedade,
+Os pássaros do Riseup
+
+p. Perguntas
+
+Pergunta: Vocês estão comprometidos pelas autoridades?
+
+Resposta: Não. Nunca permitimos a instalação de qualquer hardware ou software que monitorasse qualquer sistema que controlamos; as autoridades não tomaram nossos servidores; não possuem e nunca possuiram acesso a eles. Preferimos deixar de ser o Riseup do que fazer isso.
+
+P: O governo não poderia ter obrigado vocês a falarem isso?
+
+R: Obrigar a fazer uma declaração, na realidade, é algo bem raro no contexto legal dos EUA. Em geral, é somente em casos de proteção ao consumidor onde o governo conseguiu obrigar a uma determinada declaração (por exemplo, avisos forçados em cigarros). No entanto, não, eles não estão nos obrigando a dizer nada.
+
+P: Por que não atualizaram o canário?
+
+R: No inverno de 2016 (no sul, de dezembro a fevereiro), o canário não foi atualizado a tempo. O canário era tão amplo que qualquer tentativa de lançar um novo teria sido uma violação da ordem de silêncio relacionada à investigação da extorsão do anel de DDoS e a operação ransomware. Isso não p que desejamos, pois se algumas pequenas coisas acontecem, isso sinaliza aos usuários que algo grande está acontecendo.
+
+P: Por que o novo canário não menciona ordens de silêncio, ordens judiciais FISA (lei de vigilância de inteligência estrangeira), Cartas de Segurança Nacional, etc.?
+
+R: A estratégia inicial do nosso canário era a de somente prejudicar os usuários deixando-os malucos desnecessariamente quando pequenos eventos acontecessem. Um canário deveria sinalizar informações de risco importantes para os usuários, mas também corre-se o perigo de sinalizar coisas erradas ou levar ao medo e à confusão geral por nenhum boa razão. O canário atual está limitado a eventos significantes que podem comprometer a segurança dos usuários do Riseup.
+
+[1] [[https://riseup.net/tos]]
+[2] [[https://riseup.net/canary]]
+[3] [[https://0xacab.org/riseuplabs/trees]]
