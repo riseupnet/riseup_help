@@ -1,14 +1,14 @@
-@title = 'Riseup moves to encrypted email in response to legal requests.'
-@nav_title = 'Canary Statement'
+@title = 'Riseup usará emails criptografados em resposta a solicitações legais'
+@nav_title = 'Declaração sobre o alerta canária'
 @toc = false
 
 _16 de fevereiro de 2017_
 
-p. Após exaurir nossas opções legais, recentemente o Riseup decidiu cumprir com duas ordens judiciais do FBI, ao invés de cometer um desacato (o que teria levado os passarinhos do Riseup à cadeia por um tempo e/ou terminado com o coletivo). A primeira tem relação com o endereço público de contato para um anel internacional de extorsão DDoS. A segunda com uma conta que usava um software de sequestro de dados (ransomware) para extorquir dinheiro das pessoas.
+p. Após exaurir nossas opções legais, recentemente o Riseup decidiu cumprir com duas ordens judiciais do FBI, ao invés de cometer um desacato (o que teria levado os passarinhos do Riseup à cadeia por um tempo e/ou terminado com o coletivo). A primeira tem relação com o endereço público de contato para um rede internacional de extorsão DDoS. A segunda com uma conta que usava um software de sequestro de dados (ransomware) para extorquir dinheiro das pessoas.
 
 p. As atividades de extorsão claramente violam tanto a carta de princípios quanto o espírito do contrato social 1 que temos com nossos usuários: nós cuidamos de você enquanto não estiver realizando ações exploradoras, misóginas, racistas e intolerantes.
 
-p. Houve uma “ordem de mordaça” que nos impediu de tornar público até a existência desses mandatos até agora. Essa também foi a razão para não termos atualizado nosso “Canário”. 2
+p. Houve uma “ordem de mordaça” que nos impediu de tornar público até a existência desses mandatos até agora. Essa também foi a razão para não termos atualizado nosso “Canária”. 2
 
 p. Resolvemos agir para garantir que o Riseup nunca mais tenha acesso a emails guardados de usuários em purotexto (plaintexto). A partir de hoje, todas as novas contas de email do Riseup terão pessoalmente encriptação quando armazenadas nos nossos servidores, acessíveis somente por vocês. No futurp próximo, começaremos a migrar todas as contas existentes para esse novo sistema (para detalhes técnicos, veja nota 3).
 
