@@ -8,16 +8,16 @@ h1. Europa
 
 2. actiu.info
 
-* [[Actiu.info->http://www.actiu.info/]] is a technical network created to the social movements can have resources connected to internet public network, independents of market and establishment, in a secure and confidential way.
+* [[Actiu.info->http://www.actiu.info/]] ist ein Techniknetzwerk damit soziale Bewegungen sicheren und vertraulichen Zugang zum Internet bekommen, unabhängig von Markt und etablierten Firmen.
 
-Actiu.info provides:
-* E-mail accounts
-* Mailing lists (Mailman)
-* Web hosting; weblogs, wikis, forums
-* Private channels for assemblies/meetings/writing (Gobby)
-* Remote desktops, shared folders
-* Physical server colocation, Virtual machine hosting, virtual server (container) hosting
-* English, spanish, sometimes french
+Actiu.info bietet:
+* E-mail-Konten
+* Mailinglisten (Mailman)
+* Webseiten; Weblogs, Wikis, Forums
+* Private Versammlungen (Gobby)
+* Entfernte Desktop-Sitzungen, geteilte Ordner
+* Physische Server-Geolokation, VMs, virtuelle Server-Container
+* Englisch, spanisch, manchmal französisch
 
 h2. aktivix.org
 
@@ -33,8 +33,7 @@ Aktivix provides:
 * Mailing Lists
 * English, Spanish, German
 * Blogs
-* dropbox-alternative (beta)
-
+* dropbox-Alternative (beta)
 
 h2. autistici.org
 
@@ -182,8 +181,17 @@ h2. systemli.org
 * Verschlüsselte Pastes und Abstimmungen
 * Support in Deutsch und Englisch
 
+h2. shelter.is
 
-h1. North America
+[[shelter.is->https://www.shelter.is/]] Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
+
+* VPS
+* Wordpress (standardmäßig mit SSL)
+* Emailkonten
+* VPN
+* Hilfe auf Englisch
+
+h1. Nordamerika
 
 h2. espora.org
 

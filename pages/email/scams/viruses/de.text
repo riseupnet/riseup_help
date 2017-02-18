@@ -23,7 +23,7 @@ h2. Viren und Mailinglisten
 
 Wenn ein Virus bei deiner privaten Liste ankommt, ist das nicht unbedingt ein Sicherheitsproblem. Es bedeutet, dass ein Mitglied sich einen Virus eingefangen hat und damit die Adresse der Liste und aller, die etwas an die Liste geschickt haben, durch das Virus ausgelesen werden können.
 
-Wir fitlern an eure Nachrichten angehängte Viren, aber manches kommt durch.
+Wir filtern an eure Nachrichten angehängte Viren, aber manches kommt durch.
 
 Oftmals wird ein Virus versuchen, sich bei einer Liste einzutragen. Wie geschieht das? Wenn du und ein Freund auf einer Liste eingetragen ist und der Computer deines Freundes infiziert wird, kennt das Virus die Adresse zum Abonnieren (listname-subscribe@lists.riseup.net). Möglicherweise wird es eine Nachricht an diese Adresse schicken, mit dir als Absender. In diesem Falle wird die Listensoftware eine Bestätigungsmail an dich schicken, die du einfach ignorieren kannst.
 
