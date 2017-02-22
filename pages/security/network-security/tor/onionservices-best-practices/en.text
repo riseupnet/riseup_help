@@ -42,6 +42,37 @@ You don't really need SSL/TLS in an onion address (ie. https) since it's a compl
 
 Although it is true that extra layers are good beware that usually redirecting to SSL/TLS will mean that the certificate will not validate (because the hostname will be *.onion, instead of the certificate that you have for your public service). If you can get a .onion certificate, that works!
 
+h3. Onion services and Rails 4
+
+In order to get a .onion site to play nice with rails, and have the site also work over HTTPS when not using the .onion, you need change a few defaults.
+
+The first thing that must be changed is to not use the [@config.force_ssl = true@] option. This option is the default for rails apps in production. This setting forces secure cookies and forces HSTS. Change [@my_rails_app/config/environments/production.rb@] to be:
+
+bc. config.force_ssl = false
+
+Once we set [@force_ssl = false@], we want to add back the ability to enforce secure cookies and HSTS when using normal HTTPS. So, to do this, we make sure the web server is setting the HSTS headers for the HTTPS virtualhost, and we add the secureheaders gem to enforce secure cookies. The secureheaders gem will actually override the secure cookie flag for plain http requests, unlike the rails force_ssl flag. This allows use to have secure cookies for the regular HTTPS site and insecure cookies for the .onion site, which is what we want.
+
+Install the secureheaders gem for your application, in [@my_rails_app/Gemfile@]:
+
+bc. gem 'secure_headers', '~> 3.5'
+
+(replace 3.5 with whatever the current version of secureheaders is available)
+
+Add a secureheaders configuration, in [@config/initializers/secureheaders.rb@]:
+
+bc..
+    SecureHeaders::Configuration.default do |config|
+      config.cookies = {
+        secure: true,
+        httponly: true,
+        samesite: {
+          strict: true
+        }
+      }
+    end
+
+p. NOTE: When configuring apache or nginx in this setup, do not set the X_FORWARDED_PROTO environment variable to be https.
+
 h2. Onion services can be found
 
 If you are not very careful and keep your server from revealing identifying information about you, your computer, or your location, then the onion service will no longer be hidden!
