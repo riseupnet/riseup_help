@@ -2,37 +2,36 @@
 Hash: SHA512
 
 
-riseup.net:       nzh3fv6jc6jskki3.onion (port 80)
-help.riseup.net:  nzh3fv6jc6jskki3.onion (port 80)
-black.riseup.net: cwoiopiifrlzcuos.onion (port 80)
-imap.riseup.net:  zsolxunfmbfuq7wf.onion (port 993)
-lists.riseup.net: xpgylzydxykgdqyg.onion (port 80)
-mail.riseup.net:  zsolxunfmbfuq7wf.onion (ports 80, 465, 587)
-mx1.riseup.net:   wy6zk3pmcwiyhiao.onion (port 25)
-pad.riseup.net:   5jp7xtmox6jyoqd5.onion (port 80)
-pop.riseup.net:   zsolxunfmbfuq7wf.onion (port 995)
-share.riseup.net: 6zc6sejeho3fwrd4.onion (port 80)
-smtp.riseup.net:  zsolxunfmbfuq7wf.onion (ports 465, 587)
-user.riseup.net:  j6uhdvbhz74oefxf.onion (port 80)
-we.riseup.net:    7lvd7fa5yfbdqaii.onion (port 443)
-xmpp.riseup.net:  4cjw6cwpeaeppfqz.onion (ports 5222, 5269)
-0xacab.org        vivmyccb3jdb7yij.onion (port 80)
-
+riseup.net:          nzh3fv6jc6jskki3.onion (port 80)
+help.riseup.net:     nzh3fv6jc6jskki3.onion (port 80)
+black.riseup.net:    cwoiopiifrlzcuos.onion (port 80)
+imap.riseup.net:     zsolxunfmbfuq7wf.onion (port 993)
+lists.riseup.net:    xpgylzydxykgdqyg.onion (port 80)
+mail.riseup.net:     zsolxunfmbfuq7wf.onion (ports 80, 465, 587)
+mx1.riseup.net:      wy6zk3pmcwiyhiao.onion (port 25)
+pad.riseup.net:      5jp7xtmox6jyoqd5.onion (port 80)
+pop.riseup.net:      zsolxunfmbfuq7wf.onion (port 995)
+share.riseup.net:    6zc6sejeho3fwrd4.onion (port 80)
+smtp.riseup.net:     zsolxunfmbfuq7wf.onion (ports 465, 587)
+account.riseup.net:  j6uhdvbhz74oefxf.onion (port 80)
+we.riseup.net:       7lvd7fa5yfbdqaii.onion (port 443)
+xmpp.riseup.net:     4cjw6cwpeaeppfqz.onion (ports 5222, 5269)
+0xacab.org           vivmyccb3jdb7yij.onion (port 80)
 -----BEGIN PGP SIGNATURE-----
 
-iQJ8BAEBCgBmBQJYXYrpXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25zLm9w
-ZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQ0RTA3OTEyNjhGN0M2N0VBQkU4OEYxQjAz
-MDQzRTJCNzEzOUE3NjhFAAoJEDBD4rcTmnaO2vQP/RTXNnbGrSZLWQ4hHCHxx9Th
-0nptrHb4l2/5kCyqxfODKhUxxP5PZxTR9/uyjmzK19sLxIAoJaXObn+GRqRwXiot
-oqhqZZca2iYdpdVfLmD6n/c2oPVtmMOid1frFcm34u2B7vP7BNbgi2pkrTKqu2PG
-B1OUBk6aTxaFxxyGfFtzZmfnvGB0Ml/vcSfuutFVvS3OKxFGAekkHAQzZynHnzf9
-sefuNmaHXXx8ekkq2pTEL08lvGVT6C2D06KXtD5PC9x7UJRg53Af2AreOa9vBm+i
-oFMd6x7RGy6ilctqUIAh7u15k49mQkJLKYd5oMlcgoxDjqJLUT0rBRsAzbR9xMNw
-498U7GTWtvrBY4qNTUSzIbF4bMkilQLqLW02BWkwomiMa3X/BWjGKZpMrrQBxMl5
-yRY4cpo9TSN5U91ZrTOwVF9sHEt5Bb5icYqIBSCOU1pcGL9S+PKnoFrRGGVasZ4C
-lCxebeiSsnUvfuMp62U8L/hSSkbLA1uU8P3D/9PCwfueaO8MNrV/O+fx5x4ySSsN
-19BZqBg6nJsDX0aSmgtJHumL7IAPOwN3YF/YqQD2hS94uahkatnvD8Sw8dvpaIvx
-N0A6vv7Kf7refrrBSdlA8EZ036dbxXh55mIKUKzhsZQ+gS/3XrxwN8Zoty67js9U
-HEPWougabc1W+pEhDK60
-=ALk6
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAli0RZhfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
+MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
+do5u7BAAuBPYcnuU4HAQtddb+p8y0V+Fw76fPszPjIE19ACTtfN39U+NyhSj/5LI
+i7n2++O6lXhNfwnh1A5OPIHxv8ZbA9pMeXZFYA3gHC1IVRNokRq22uxvCrfastS6
+BNmGICsTuHqIcbiZJgkkaQImywpOryT0aoWHgGU1QgprK27sWIz6tfUt5KXH5vvx
+EAyx8itiREJtNQwVMFk3epVCAnl1rAfay/6Gk/jz7rLji3mFjVzGf3wEXff3OuTS
+jVg5NqAO99k8RjHvaNqVCVkMOdPjoByvVrvJ68XHtbk+ICKDQtwTMiktgKBdAaVr
+2tf/vWeOyB/egvjpM89+uLHsxIujvUjGAUxUt/W0cu1mCC3VpdAeR7Wj+1NomNlw
+Iw0U07LVT8fqBL42CaZowtkiVAuGZ9+Aeam+ys53CksQ2/phLCZ18JNgzpBZKBnr
+x62vnfskmezW0SRjTlMbwlVejtg2HTlx6aVUd2wS8BTNyl+c7W6MMybYIxV/iNA4
+S/y5sJbcJNn5iRqIg33i95+1hhTvUqZYnvXFsXCdsgTvy4CrUt5n5vSkU9vPqBA8
+bIojBuofKErdf/vTT112c3hz0xE5LDerGuftCO4UmeOx1Cf3d2JiRRmWD0Xg5sdx
+4BL4mJThuyabxTNdLX8lS0kRvXtgY/1owiQ90VAS0ykg4FqXe8U=
+=2Mol
 -----END PGP SIGNATURE-----
