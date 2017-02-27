@@ -52,8 +52,8 @@ h3. verify these instructions
 
 Now that you have imported Riseup's public key, you can verify the certificate is correct:
 
-# "Download this cryptographically signed file containing the SHA1 Sum of the RiseupCA.pem":riseupCA-signed-sha1.txt
-# Then run this command in a terminal: @gpg --verify riseupCA-signed-sha1.txt@
+# "Download this cryptographically signed file containing the SHA256 Sum of the RiseupCA.pem":riseupCA-signed-sha256.txt
+# Then run this command in a terminal: @gpg --verify riseupCA-signed-sha256.txt@
 # You should get output that says:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
 
@@ -72,12 +72,12 @@ h3. calculate the fingerprint of RiseupCA.pem
 
 Open a terminal and use either @certtool@, or @openssl@ to get the correct fingerprints:
 
-<code>$ certtool -i < RiseupCA.pem |egrep -A 1 '(SHA1|SHA256) fingerprint'</code>
+<code>$ certtool -i < RiseupCA.pem |egrep -A 1 'SHA256 fingerprint'</code>
 <code>$ openssl x509 -sha256 -in RiseupCA.pem -noout -fingerprint</code>
 
 h3. compare the fingerprints
 
-Now that you have calculated the fingerprint or sha1sum of RiseupCA.pem, you can compare this value to the value signed by Riseup and listed on this page.
+Now that you have calculated the fingerprint or sha256sum of RiseupCA.pem, you can compare this value to the value signed by Riseup and listed on this page.
 
 If the values match, and you trust the Riseup public PGP key, then you can be confident you are really communicating with riseup.net servers when using an application that uses RiseupCA.pem.
 

@@ -52,8 +52,8 @@ h3. Prüfe diese Anweisungen
 
 Da du jetzt Riseup's öffentlichen Schlüssel importiert hast, kannst du prüfen ob das Zertifikat ordnungsgemäß ist:
 
-# "Lade diese kryptographisch signierte Datei herunter, welche die SHA1 Summe von der RiseupCA.pem":riseupCA-signed-sha1.txt beinhalted.
-# Führe dann diesen Befehl im Terminal aus: @gpg --verify riseupCA-signed-sha1.txt@
+# "Lade diese kryptographisch signierte Datei herunter, welche die SHA256 Summe von der RiseupCA.pem":riseupCA-signed-sha256.txt beinhalted.
+# Führe dann diesen Befehl im Terminal aus: @gpg --verify riseupCA-signed-sha256.txt@
 # Schreibe control-d
 # Du solltest folgende Ausgabe erhalten:
 <code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
@@ -71,12 +71,12 @@ Trotzdem solltest du "Good signature" in der Ausgabe sehen.
 
 h3. Berechne den Fingerabdruck von RiseupCA.pem
 
-Öffne das Terminal und benutze @sha1sum@:
+Öffne das Terminal und benutze @sha256sum@:
 
-<code>$ sha1sum RiseupCA.pem</code>
+<code>$ sha256sum RiseupCA.pem</code>
 
 h3. Vergleiche die Fingerabdrücke
 
-Da du jetzt die Fingerabdrücke oder SHA1-Summen von RiseupCA.pem berechnet hast, kannst du diesen Wert mit dem von Riseup signierten und hier aufgelisteten Wert verlgeichen.
+Da du jetzt die Fingerabdrücke oder SHA256-Summen von RiseupCA.pem berechnet hast, kannst du diesen Wert mit dem von Riseup signierten und hier aufgelisteten Wert verlgeichen.
 
 Wenn die Werte übereinstimmen, und du dem öffentlichen Riseup PGP Schlüssel vertraust, kannst du sicher sein, dass du wirklich mit den riseup.net Servern kommunizierst wenn du eine Anwendung benutzt die RiseupCA.pem verwendet.

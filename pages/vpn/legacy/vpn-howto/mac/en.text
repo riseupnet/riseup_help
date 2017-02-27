@@ -16,7 +16,7 @@ h2. Download the Riseup Configuration
 
 After installing, please download the "riseup.tblk.zip":/vpn/legacy/vpn-howto/mac/riseup.tblk.zip file, containing the riseup vpn configuration. Uncompress and install it by double clicking on it. 
 
-Optional: verify the OpenPGP signature following "these steps":https://riseup.net/en/security/network-security/riseup-ca#verify-the-riseup-ca-certificate-optional, but downloading "riseup.tblk.zip.sig":/vpn/legacy/vpn-howto/mac/riseup.tblk.zip.sig and replacing 'riseupCA-signed-sha1.txt' for 'riseup.tblk.zip.sig' on the instructions.
+Optional: verify the OpenPGP signature following "these steps":https://riseup.net/en/security/network-security/riseup-ca#verify-the-riseup-ca-certificate-optional, but downloading "riseup.tblk.zip.sig":/vpn/legacy/vpn-howto/mac/riseup.tblk.zip.sig and replacing 'riseupCA-signed-sha256.txt' for 'riseup.tblk.zip.sig' on the instructions.
 
 h2. Connecting
 
