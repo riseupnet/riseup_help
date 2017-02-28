@@ -96,9 +96,9 @@ h2. Other nice features from your riseup.net account
 * We do not require you to sign up with a phone number or personal information
 * You can use a distinct service password for your VPN service and/or chat service
 * We are ad-free to keep your mind clear, we also do not mine your data for the purposes of surveillance capitalism
-* [Your account management system->https://account.riseup.net] does not use any javascript, and has strong content security policies set.
+* [[Your account management system=>https://account.riseup.net]] does not use any javascript, and has strong content security policies set.
 * Our passwords are stored with strong hashing algorithms
-* You can purge your data with a click of a button in your [account management system.->https://account.riseup.net]
+* You can purge your data with a click of a button in your [[account management system.=>https://account.riseup.net]]
 * We provide POP which allows you to download your email and delete it from our servers. That way you do not need to rely on us to keep your data safe!
 
 h2. What you do not get from riseup.net
