@@ -19,7 +19,7 @@ h3. Account Recovery
 
 If you forget your password, *the only way* to regain access to your account is with a recovery code. There is *no way* around this. You *absolutely must* save this code somewhere safe, because you *will* lose your password at some point. Riseup has no way of helping you if you lose access. Your mail is stored encrypted on our systems and the key to that encryption is your password. If you do not have your password, you cannot decrypt your mail. Riseup does *not* have access to your password, we do *not* have a copy of it, and there is *nothing* we can do to recover it. The future of your email is in your hands, and your hands only.
 
-* Write it down: If you haven't already, please write down this code *now.* If you did not write it down when you created your account, [create a new one->https://account.riseup.net/passwords?view=recovery] and then write it down *now*.
+* Write it down: If you haven't already, please write down this code *now.* If you did not write it down when you created your account, [[create a new one->https://account.riseup.net/passwords?view=recovery]] and then write it down *now*.
 
 * One code: There is only one recovery code at a time. When you create a new one, it replaces the old one.
 
