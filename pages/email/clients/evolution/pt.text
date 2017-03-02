@@ -37,7 +37,7 @@ nome de usuário: **<seu usuario riseup>**
 
 Você terminou! Agora você pode usar o Evolution para enviar e receber e-mails através dos servidores do Riseup.
 
-h1. Reforce Sua Segurança
+h1. Reforce sua Segurança
 
 <%= render :partial => 'enhance-security' %>
 
