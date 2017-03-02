@@ -105,6 +105,10 @@ A configuração padrão salvará os seus e-mails enviados, rascunhos e lixo na 
 
 # Expandir a pasta abaixo da sua conta mail.riseup.net no lado esquerdo da tela, para expor todas as pastas.
 # Selecionar as pastas relevantes (exemplo: "Lixo", "Enviadas", "Rascunhos").
+<<<<<<< HEAD
 # Selecionar o menu "Caixa de Correio", selecionar "Usar esta caixa de correio para" e então selecionar a correspondente.
+=======
+# Selecionar o menu "Caixa de Correio" e selecionar "Usar esta caixa de correio para" e então selecionar a correspondente. 
+>>>>>>> 266bdb20a56452466570861ffc399bedf6708db0
 # Repetir para as outras caixas de correio.
 
