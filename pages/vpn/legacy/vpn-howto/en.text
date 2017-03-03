@@ -25,6 +25,8 @@ Although each client is different, there are five values that must be configured
 * *VPN username*: your riseup.net login (ie if your account is joe_hill@riseup.net, just enter "joe_hill")
 * *Password*: either your riseup.net password or a [[vpn-secret]].
 * *CA Certificate*: RiseupCA.pem (download and verify [[here -> security/network-security/riseup-ca]])
+* *Cipher*: AES-256-CBC <span style="color:red;">NEW</span>
+* *Hash*: SHA256 <span style="color:red;">NEW</span> 
 
 Optional configuration options:
 
