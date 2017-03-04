@@ -1,6 +1,8 @@
 @nav_title = 'Legacy VPN'
 @title = 'Riseup Legacy VPN'
 
+p(alert alert-danger). March 2017. We deployed changes to our Legacy VPN which may need adjustments in your client to work. [[Please check the changes -> https://riseup.net/en/vpn/legacy/vpn-howto#configuration-in-a-nutshell]].
+
 p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
 
 h2. What is the RiseupVPN?
