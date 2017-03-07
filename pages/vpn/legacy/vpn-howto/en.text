@@ -42,7 +42,7 @@ dev tun
 proto udp
 remote 198.252.153.226 80
 cipher AES-256-CBC
-digest SHA256
+auth SHA256
 resolv-retry infinite
 nobind
 persist-tun
