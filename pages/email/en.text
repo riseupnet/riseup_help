@@ -99,11 +99,11 @@ h2. Other nice features from your riseup.net account
 
 h2. What you do not get from riseup.net
 
-* Unless the Mailvelope browser plugin, or your own OpenPGP solution, our e-mail system is *not* end-to-end encrypted or client-encrypted. We are working on a comprehensive solution to this problem and hope to have it available soon.
+* Unless you use the Mailvelope browser plugin, or your own OpenPGP solution, our e-mail system is *not* end-to-end encrypted or client-encrypted. We are working on a comprehensive solution to this problem and hope to have it available soon.
 * If somebody gains access to your password, they will be able to read all your e-mails. Never, ever, give anyone your password. If Riseup asks you for your password, it is a trick. Never open any attachment that you receive from someone, unless you know they were going to send it to you. Attachments can compromise your computer, and your account!
 * Riseup does not have backups of your email. It is your responsibility to ensure that your data is safe!
 * Riseup is not a bullet-proof hoster, in fact the Internet in general is very insecure. If you have something very sensitive to say, do it offline.
-* There is no way to provide a magical technical solution that will solve everyone problems in all the different possible contexts and struggles. Never forget that it is a mistake to try and solve social problems with technical solutions.
+* There is no way to provide a magical technical solution that will solve everyone's problems in all the different possible contexts and struggles. Never forget that it is a mistake to try and solve social problems with technical solutions.
 
 h2. Mutual aid
 
