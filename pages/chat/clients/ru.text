@@ -1,0 +1,35 @@
+@title = "Jabber клиенты"
+@summary = "Настройка Jabber клиентов для работы с чат-сервером Riseup."
+
+h2. Ключевые возможности
+
+table(table).
+| *OTR?* | Если да, клиент поддерживает [[OTR]] (Off-the-Record) протокол, который обеспечивает [[end-to-end шифрование -> https://en.wikipedia.org/wiki/End-to-end_encryption]] сообщений и обладает абсолютной прямой секретностью ([[Perfect forward secrecy -> https://ru.wikipedia.org/wiki/Perfect_forward_secrecy]]). |
+| *[[OMEMO -> https://conversations.im/omemo/]]?* | Если да, клиент поддерживает многоклиентное [[end-to-end шифрование -> https://ru.wikipedia.org/wiki/Off-the-Record_Messaging]]. В отличии от OTR, OMEMO также подджерживает end-to-end шифрование оффлайн чатов. |
+| *[[Jingle -> https://ru.wikipedia.org/wiki/Jingle_(протокол)]]?* | Если да, клиент может использоваться для аудио- и видеочата. |
+| *[[Proxy -> https://ru.wikipedia.org/wiki/Прокси-сервер]]?* | Если да, клиент может подключаться через прокси-сервер. |
+| *[[TLS -> https://ru.wikipedia.org/wiki/TLS]]?* | Если да, клиент поддерживает защищенное соединение с сервером. |
+| *[[Tor]]?* | Если да, клиент может корректно использовать Tor для обхода цензуры и анонимного доступа к сервисам. Если нет, то клиент *не должен использоваться с Tor*. |
+
+h2. Рекомендуемые клиенты
+
+table(table table-striped).
+|_. Клиент |_. Поддерживаемые ОС |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Комментарии |
+| [[Gajim -> https://gajim.org]] | GNU/Linux, FreeBSD, Windows | *Да* | *Да* | *Да* | *Да* | *Да* | *Да* | Open source. Кроссплатформенный месс	енджер написанный на Python и использующий GTK+. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Да* | Нет | Нет | *Да* | *Да* | *Да* | Open source. Безопасный-по-умолчанию мессенджер: по умолчанию включен OTR и используется Tor. Написан на Go. |
+| [[ChatSecure -> https://chatsecure.org/]] | iOS | *Да* | *Да* | Нет | *Да* | *Да* | *Да* | Open source. Хороший мессенджер для iOS. Интегрирована поддержка Tor. |
+| [[Conversations -> https://conversations.im/]] | Android | *Да* | *Да* | Нет | *Да* | *Да* | *Да* | Open source. Хороший мессенджер для Android. Поддерживает защищенные групповые чаты! |
+| [[Pidgin -> https://pidgin.im/]]   | GNU/Linux, Windows | *Да* | Нет | *Да* (Linux) | *Да* | *Да* | *Да* | Open source. Стабильный мессенджер со множеством функций. *Обязательно используйте самую свежую версию!* |
+
+h2. Другие клиенты
+
+table(table table-striped).
+|_. Клиент |_. Поддерживаемые ОС |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Комментарии |
+| [[Adium]] | macOS | *Да* | Нет | Нет | *Да* | *Да* | Частично | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
+| [[Empathy -> https://wiki.gnome.org/Apps/Empathy]] | GNU/Linux | Нет | Нет | *Да* | *Да* (GNOME) | *Да* (GNOME) | ? | Open source. Стабильный и простой в использовании. |
+| [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | *Да* | ? | Open source. Написан на Java. |
+| [[Pandion -> http://pandion.im/]] | Windows | Нет | Нет | Нет | ? | ? | ? | Open source. Продолжительное время нет новых обновлений. |
+| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | Нет | Нет | *Да* | ? | ? | ? | Open source. Стабильное нативное приложение. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | MacOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
+| [[Beem -> https://www.beem-project.com/]] | Android | Нет | Нет | Нет | ? | ? | ? | Open source. Не поддерживает групповые чаты. |
+| [[Miranda -> https://www.miranda-im.org/]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
