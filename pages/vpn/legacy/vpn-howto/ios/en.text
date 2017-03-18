@@ -1,0 +1,22 @@
+@title = 'iOS'
+
+p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
+
+iOS does not support RiseUp Black service at this time.
+
+h2. Install OpenVPN Connect
+
+On your iOS device download the [[OpenVPN Connect app -> https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8]]
+
+h2. Transfer the .ovpn file
+
+The .ovpn file will need to use the "unified form" as specified on the [[OpenVPN Connect FAQ -> https://docs.openvpn.net/docs/openvpn-connect/openvpn-connect-ios-faq.html]]. The example configuration file in the Riseup [[legacy VPN howto -> /vpn/legacy/vpn-howto]] can be used verbatim (possibly with changing the @remote@ value to a hostname like @vpn.riseup.net@).
+
+You then need to get the .ovpn file onto your device. The Connect app lists a few ways: the simplest is to email it to yourself, but be cautious about doing this with insecure email. Transferring via Dropbox, etc also works. [[In the share sheet -> copy-to-openvpn.png]], open the file with OpenVPN Connect.
+
+h2. Start OpenVPN Connect
+Tap the green + to add the profile to OpenVPN Connect. Start the connection and enter your username and password (or [[VPN password -> https://account.riseup.net/passwords?view=services]]).
+
+h2. Troubleshooting
+
+See our general [[troubleshooting]] page and the [[OpenVPN Connect FAQ -> https://docs.openvpn.net/docs/openvpn-connect/openvpn-connect-ios-faq.html]].
