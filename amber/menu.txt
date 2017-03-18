@@ -67,7 +67,7 @@ vpn
       linux
       mac
       windows
-      iOS
+      ios
     troubleshooting
 security
   privacy

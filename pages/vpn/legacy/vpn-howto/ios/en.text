@@ -15,6 +15,7 @@ The .ovpn file will need to use the "unified form" as specified on the [[OpenVPN
 You then need to get the .ovpn file onto your device. The Connect app lists a few ways: the simplest is to email it to yourself, but be cautious about doing this with insecure email. Transferring via Dropbox, etc also works. [[In the share sheet -> copy-to-openvpn.png]], open the file with OpenVPN Connect.
 
 h2. Start OpenVPN Connect
+
 Tap the green + to add the profile to OpenVPN Connect. Start the connection and enter your username and password (or [[VPN password -> https://account.riseup.net/passwords?view=services]]).
 
 h2. Troubleshooting
