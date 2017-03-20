@@ -12,15 +12,15 @@ h2. Links diretos!
 * Alguma coisa não funciona? Dê uma olhada em [[Troubleshooting]].
 * Tem uma pergunta? Consulte nosso [[FAQ -> faq]].
 
-h2. Que é a RiseupVPN?
+h2. Que é a Riseup VPN?
 
-Redes Privadas Virtuais (VPN) são usadas, tipicamente, para conectar funcionários distantes à rede de um escritório principal. A RiseupVPN é, porém, diferente: com ela se pode contornar a censura, tornar anônima uma localização e criptografar tráfego na internet. Isso é possível porque ela [[envia todo o seu tráfego na internet por meio de uma conexão criptografada => how-vpn-works]] para riseup.net, de onde ele parte para a internet pública.
+Redes Privadas Virtuais (VPN) são usadas, tipicamente, para conectar funcionários distantes à rede de um escritório principal. A Riseup VPN é, porém, diferente: com ela se pode contornar a censura, tornar anônima uma localização e criptografar tráfego na internet. Isso é possível porque ela [[envia todo o seu tráfego na internet por meio de uma conexão criptografada => how-vpn-works]] para riseup.net, de onde ele parte para a internet pública.
 
 Este tipo de VPN é, às vezes, chamado de "VPN pessoal" ou "proxy criptografado". O objetivo de uma VPN pessoal não é conectar alguém, em segurança, a uma rede privada, mas à internet como um todo.
 
 h2. Que é LEAP? Que é Bitmask?
 
-A nova RiseupVPN faz parte da nossa nova geração de serviços antivigilância, desenvolvidos pelo [[LEAP Encryption Access Project -> https://leap.se]]. O LEAP é um esforço colaborativo para tornar as tecnologias de criptografia existentes mais fáceis de usar e ampliar o acesso a elas, sem comprometer a segurança. 
+A nova Riseup VPN faz parte da nossa nova geração de serviços antivigilância, desenvolvidos pelo [[LEAP Encryption Access Project -> https://leap.se]]. O LEAP é um esforço colaborativo para tornar as tecnologias de criptografia existentes mais fáceis de usar e ampliar o acesso a elas, sem comprometer a segurança. 
 
 Ao adaptar essas tecnologias, o LEAP cria ferramentas que permitem o exercício do direito à privacidade no meio digital, condição fundamental para uma [[sociedade livre->about-us/politics]]. Para acessar esse serviço, você precisa instalar um aplicativo chamado Bitmask.
 
@@ -29,12 +29,12 @@ Ao adaptar essas tecnologias, o LEAP cria ferramentas que permitem o exercício 
 Quer experimentar? Leia as [[instruções de instalação->vpn/how-to]]. Não tenha medo!
 
 [[Por que Bitmask é melhor do que meu cliente de OpenVPN?
-Que aconteceu à antiga RiseupVPN/OpenVPN?
+Que aconteceu à antiga Riseup VPN/OpenVPN?
 ... mas eu gostava da OpenVPN!->faq]]
 
-h2. Qual é o status da nova RiseupVPN?
+h2. Qual é o status da nova Riseup VPN?
 
-A nova RiseupVPN já está funcionando. Diga-nos se encontrar algum problema!
+A nova Riseup VPN já está funcionando. Diga-nos se encontrar algum problema!
 
 h2. Quais sistemas são contemplados?
 

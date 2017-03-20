@@ -1,0 +1,14 @@
+@nav_title = 'traditionelles VPN'
+@title = 'traditionelles Riseup VPN'
+
+p(alert alert-warning). Wir haben ein neues Riseup VPN gestartet, besser zugänglich und sicherer! Diese Dokumentation umfasst unsere traditionellen VPN-Dienste. Bitte lies die aktuelle [[Riseup VPN-Dokumentation -> vpn]] für weitere Infos. Unser traditioneller Dienst wird in Zukunft abgeschaltet werden und dein Konto für "Black":https://black.riseup.net wird für folgende Anleitung nicht funktionieren.
+
+h2. Was ist das Riseup VPN?
+
+Virtuelle Private Netzwerke (VPN) werden typischerweise genutzt, um sich von zu Hause mit einem Firmennetzwerk zu verbinden. Das Riseup VPN ist anders: es <%= link 'sendet alle Daten über eine verschlüsselte Verbindung' => 'how-vpn-works' %> an riseup.net. Von dort werden sie ins öffentliche Internet weitergeleitet. Diese Art von VPN wird manchmal "Persönliches VPN" genannt. Das Ziel eines persönlichen VPN ist nicht, sich sicher mit einem privatem Netzwerk zu verbinden, sondern mit dem Internet als ganzem.
+
+<%= child_summaries :include_toc => true, :order_by => [:name, {:direction => :desc, :numeric => true}] %>
+
+<%= render :partial => 'why-vpn' %>
+
+<%= render :partial => 'vpn-limitations' %>

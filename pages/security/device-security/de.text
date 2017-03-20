@@ -19,7 +19,7 @@ Schwierigkeit: Einfach bis Schwer
 h1. Persönliche Firewall
 
 Schwierigkeit: Leicht
-*Warum*: Macht deinen Computer weniger angreifbar von außerhalb deines Netzwerks. Wenn [[RiseupVPN->vpn]] benutzt wird, ist das essentiel, weil dein Computer dann noch anfälliger als normal ist.
+*Warum*: Macht deinen Computer weniger angreifbar von außerhalb deines Netzwerks. Wenn [[Riseup VPN->vpn]] benutzt wird, ist das essentiel, weil dein Computer dann noch anfälliger als normal ist.
 *Wie*: Installiere [[gufw->http://gufw.org]], "Eine der einfachsten Firewalls der Welt". Du kannst gufw in Ubuntu und Debian finden.
 
 [[Folge dieser einfachen Anleitung, um mit gufw zu beginnen -> https://help.ubuntu.com/community/Gufw]]

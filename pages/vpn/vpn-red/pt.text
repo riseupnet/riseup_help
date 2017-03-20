@@ -1,10 +1,10 @@
 @title = 'Como usar a Riseup VPN'
 
-p(alert alert-warning). Lançamos uma nova RiseupVPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da RiseupVPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
+p(alert alert-warning). Lançamos uma nova Riseup VPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da Riseup VPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
 
 h2. Um aviso
 
-*Observação!* Quando você se conecta à internet por meio da RiseupVPN, você contorna os firewalls da sua rede local. Seu computador terá seu próprio endereço IP na internet aberta. Isso é ótimo, porque seu computador poderá se comunicar livremente com outros sem ser bloqueado. Porém, contornar o firewall local significa também que seu computador ficará mais vulnerável a ataques. Portanto, habilite um [[firewall para o seu computador -> /security/device-security#personal-firewall]].
+*Observação!* Quando você se conecta à internet por meio da Riseup VPN, você contorna os firewalls da sua rede local. Seu computador terá seu próprio endereço IP na internet aberta. Isso é ótimo, porque seu computador poderá se comunicar livremente com outros sem ser bloqueado. Porém, contornar o firewall local significa também que seu computador ficará mais vulnerável a ataques. Portanto, habilite um [[firewall para o seu computador -> /security/device-security#personal-firewall]].
 
 h2. Configure OpenVPN
 

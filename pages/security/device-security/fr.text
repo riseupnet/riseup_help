@@ -18,7 +18,7 @@ Pourquoi : Prévenir l'accès aux informations contenues sur le disque dur de l'
 h1. Pare-feu personnel
 
 Difficulté : Simple
-*Pourquoi* : Rend votre ordinateur moins vulnérable aux attaques depuis l'internet. Lorsque vous lancez le [[RiseupVPN->vpn]] c'est *essentiel* parce que votre ordinateur est encore plus exposé que la normale.
+*Pourquoi* : Rend votre ordinateur moins vulnérable aux attaques depuis l'internet. Lorsque vous lancez le [[Riseup VPN->vpn]] c'est *essentiel* parce que votre ordinateur est encore plus exposé que la normale.
 *Comment* : Installez [[gufw->http://gufw.org]], "L'un des plus simples pare-feu du monde". Vous pouvez trouver gufw dans Ubuntu et Debian.
 
 [[Suivez ces instructions simples pour vous lancer avec gufw -> https://help.ubuntu.com/community/Gufw]]

@@ -1,10 +1,6 @@
 @title = 'GNU/Linux'
 @toc = true
 
-p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
-
-p(alert alert-warning). *IF YOU RUN DEBIAN, UBUNTU OR ANOTHER DEBIAN DERIVATIVE, WE STRONGLY SUGGEST THAT YOU SWITCH TO OUR [[NEW VPN SERVICES -> vpn/how-to/linux ]].*
-
 h1. Installation
 
 h2. KDE
@@ -43,8 +39,8 @@ h3. Configuration
 ** Gateway:: (pick from the list below)
 ** Type:: password
 ** Username:: your riseup.net username.
-** Password:: your riseup.net password or [[VPN Secret->/vpn/vpn-secret]] (VPN Secret is preferred).
-** CA Certificate:: download "RiseupCA.pem":/security/network-security/riseup-ca/RiseupCA.pem
+** Password:: your riseup.net password or [[VPN Secret -> vpn/vpn-secret]] (VPN Secret is preferred).
+** CA Certificate:: download [[RiseupCA.pem => /security/network-security/riseup-ca/RiseupCA.pem]]
 ** Available to all users:: NO! Leave this unchecked.
 
 Note: if you later move the location of the RiseupCA.pem file, then the VPN will break until you specify the new location. For more information on the RiseupCA.pem file, and how to verify it, see [[riseup-ca]].
@@ -57,15 +53,14 @@ h3. VPN Servers
 
 For *Gateway* choose one of the following:
 
-<%= render '/vpn/legacy/vpn-servers' %>
-
+<%= render 'vpn-servers' %>
 
 h3. VPNAutoconnect
 
 UPDATE: VPNAutoconnect does not seem to work in the latest Ubuntu release. Alternately, you can try this "python autovpn script":python-autovpn-script. This script creates a little daemon that runs in the background and does two things: on new active network connection, activate VPN, if VPN connection is not disconnected by user, then reconnect. This requires NetworkManager 9.0 or above. (From: [[http://gist.github.com/1547663]])
 
-
 <%= render 'vpnautoconnect' %>
+
 UPDATE: You can also try [[this Bash script I found then edited->http://pastebin.com/5W1KwMp8]], credit to qertoip on [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
 
 
@@ -77,7 +72,7 @@ If you don't want to use a graphical interface, you can run OpenVPN from the com
 $ sudo openvpn riseup.ovpn
 </code>
 
-"Here is a minimal riseup.ovpn configuration file":/vpn/legacy/vpn-howto/riseup.ovpn
+[[Here is a minimal riseup.ovpn configuration file => vpn-red/riseup.ovpn]].
 
 Have a look at the file, there are some things in there that you need to change. @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
 
@@ -87,7 +82,7 @@ For more options, see @man openvpn@.
 
 h3. Testing via the command line
 
-Even if you use Network Manager to access the RiseupVPN, it can still be useful to troubleshoot problems by testing the connection via the command line. For example:
+Even if you use Network Manager to access the Riseup VPN, it can still be useful to troubleshoot problems by testing the connection via the command line. For example:
 
 <code>
 $ sudo openvpn --client --dev tun --auth-user-pass --remote vpn.riseup.net 1194 --ca RiseupCA.pem
@@ -111,9 +106,4 @@ script-security 2
 up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf
 </pre>
-# Download "this script":/vpn/legacy/vpn-howto/update-resolv.conf and place it in /etc/openvpn/update-resolv.conf
-
-
-h1. Troubleshooting
-
-See our general [[troubleshooting#linux]] page.
+# Download [[this script => vpn-red/update-resolv.conf]] and place it in /etc/openvpn/update-resolv.conf

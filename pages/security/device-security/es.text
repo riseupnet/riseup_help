@@ -16,7 +16,7 @@ Muy difícil: Métodos esteganográficos.
 h1. Firewall personal.
 
 Dificultad: Fácil.
-*¿Por qué?*: Para hacer tu computador menos vulnerable ante ataques externos de la red. Cuando estás ejecutando la [[RiseupVPN->vpn]] esto es *esencial*, porque tu computador está más expuesto que de lo normal.
+*¿Por qué?*: Para hacer tu computador menos vulnerable ante ataques externos de la red. Cuando estás ejecutando la [[Riseup VPN->vpn]] esto es *esencial*, porque tu computador está más expuesto que de lo normal.
 *¿Cómo?*: Instala [[gufw->http://gufw.org]], "Uno de los firewalls más simples del mundo". Puedes encontrar gufw en Ubuntu y Debian.
 
 [[Sigue estas fáciles instrucciones para iniciarte con gufw -> https://help.ubuntu.com/community/Gufw]]

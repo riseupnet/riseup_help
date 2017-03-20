@@ -2,47 +2,37 @@
 @title = 'Riseup VPN'
 @toc = false
 
-p(alert alert-warning). We are launching a new VPN, the first step on our next generation anti-surveillance services. These new security enhanced systems are hosted on https://black.riseup.net and are not linked to the current riseup's infrastructure. This means you will need to create a different account there. Don't worry, all of our current usernames are 'reserved' and cannot be used on Black and you will be able to use your current username or the new one (if you want) later this year.
+h2. What is a VPN?
 
-h2. Quick links!
+Riseup offers Personal VPN service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet.
 
-* Black: "black.riseup.net":https://black.riseup.net
-* Linux user? [[Install instructions -> linux]]
-* Android user? [[Install instructions -> android]]
-* Something not working? check [[Troubleshooting -> vpn/troubleshooting]]
-* Have a question? check our [[FAQs -> faq]]
+Unlike most other VPN providers, Riseup does not log your IP address.
 
-h2. What is the RiseupVPN?
+Riseup offers two different VPN services: Black and Red.
 
-Virtual Private Networks (VPN) are used typically to connect remote workers to the main office network. However, The RiseupVPN is different: it provides a service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet.
+h2. VPN Black
 
-This type of VPN is sometimes called a "Personal VPN" or an "Encrypted Proxy". The goal of a personal VPN is not to securely connect you with a private network, but to securely connect you to the internet as a whole.
+!>vpn-black/bitmask.png!
 
-h2. What is LEAP? What is Bitmask?
+<%= render partial: "vpn-black/about" %>
 
-Our new RiseupVPN system is part of our next generation anti-surveillance services powered by the [[LEAP Encryption Access Project -> https://leap.se]]. LEAP is a collaborative effort to make existing encryption technologies easy to use and widely available without compromising their security. 
+h2. VPN Red
 
-Adapting these technologies, LEAP creates tools that let you excercise the right to digitally whisper, as a fundamental precondition for a [[free society->about-us/politics]]. To access this service you will need to install the application called Bitmask.
+!>vpn-red/openvpn-logo.png!
 
-**Bitmask** is a brand new client that provides hassle-free, self-configuring and multi-platform experience with several security enhancements.
+The [[vpn-red]] uses the "Riseup Red" accounts and requires that you configure an OpenVPN client manually.
 
-Want to check it out? Please read the [[install instructions->vpn/how-to]]. Don't be afraid!
+This approach works on all platforms, but is more difficult to get working and offers fewer guarantees about potentially leaking traffic.
 
-[[Why is Bitmask better than my OpenVPN client?
-What happened to the old RiseupVPN/OpenVPN?
-... but I like OpenVPN!->faq]]
+To sign up for Red services, visit [[account.riseup.net => https://account.riseup.net]]
 
-h2. What's the status of the new RiseupVPN?
-
-The new RiseupVPN is already working. Please tell us if you run into any problem!
-
-h2. What systems are supported?
-
-The Bitmask application runs on [[GNU/Linux->how-to/linux]] (as a package on Debian and Ubuntu and as a bundle for other distributions), Mac OSX and [[Android->how-to/android]]. Please check the [[Setup intructions->how-to]] for those systems.
+To configure your client, see our [[vpn-red]] documentation.
 
 h2. Where do I send the bugs I found?
 
-Please file an issue under "your account":https://black.riseup.net.
+* For general inquiries, please visit https://support.riseup.net
+* For bugs specific to Bitmask for desktop, visit https://0xacab.org/leap/bitmask-dev
+* For bugs specific to Bitmask for Android, visit https://0xacab.org/leap/bitmask_android
 
 <%= render :partial => 'why-vpn' %>
 

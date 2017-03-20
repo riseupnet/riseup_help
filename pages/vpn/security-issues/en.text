@@ -3,7 +3,7 @@
 
 h2. VPN Anonymity
 
-How anonymous is the RiseupVPN? The answer primarily depends on what user information you have associated with your Riseup login. If you are concerned about your anonymity, we suggest you create a separate VPN account that you only use for the VPN.
+How anonymous is the Riseup VPN? The answer primarily depends on what user information you have associated with your Riseup login. If you are concerned about your anonymity, we suggest you create a separate VPN account that you only use for the VPN.
 
 We keep very few logs and do not track any DNS requests or traffic of the VPN, but we do keep a record of which users accounts have used the VPN on which days.
 

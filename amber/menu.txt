@@ -54,21 +54,16 @@ chat
   chat-security
     otr
 vpn
+  vpn-black
+  vpn-red
+    linux
+    mac
+    windows
+    ios
+    troubleshooting
   why-is-needed
   how-vpn-works
-  how-to
-    android
-    linux
-  troubleshooting
-  faq
   security-issues
-  legacy
-    vpn-howto
-      linux
-      mac
-      windows
-      ios
-    troubleshooting
 security
   privacy
   surveillance

@@ -1,7 +1,7 @@
-@nav_title = "Por que a RiseupVPN é necessária"
-@title = 'Por que a RiseupVPN é necessária?'
+@nav_title = "Por que a Riseup VPN é necessária"
+@title = 'Por que a Riseup VPN é necessária?'
 
-h2. Por que usar a RiseupVPN?
+h2. Por que usar a Riseup VPN?
 
 No Riseup, acreditamos que é importante que todos usem alguma tecnologia, como VPN ou [[security/tor]], para criptografar o tráfego na internet. Por quê? Pois a internet está sendo arruinada por governos, provedores de serviços da internet (ISPs) e corporações.
 
@@ -17,36 +17,18 @@ h3. Arruinada por corporações
 
 As corporações já descobriram como ganhar dinheiro na internet: vigilância. Ao rastrearem seus hábitos de navegação on-line, empresas publicitárias compoem perfis minuciosos do seu comportamento individual, com o objetivo de vender mais quinquilharia para você. Toda grande empresa de publicidade na internet agora faz rastreamento comportamental. Além disso, para se adequar aos direitos autorais vigentes em um país, muitas empresas restringem seus serviços a apenas alguns internautas, aqueles que moram no país "correto".
 
-h2. A solução: conserte a internet usando a RiseupVPN
+h2. A solução: conserte a internet usando a Riseup VPN
 
-A RiseupVPN pode ajudar de muitas maneiras:
+A Riseup VPN pode ajudar de muitas maneiras:
 
-# *Proteção contra vigilância de provedores*: a RiseupVPN elimina a capacidade do seu provedor de monitorar a sua comunicação. Ele não terá registros significativos que poderiam ser usados contra você, seja por marqueteiros ou pelo Estado.
-# *Proteção contra vigilância de empresas*: a maioria dos sites comerciais usa várias redes de publicidade e serviços de análise de tráfego, que rastreiam seu comportamento enquanto você navega na internet. A RiseupVPN bloqueia a maioria desses rastreadores (mas não bloqueamos o Facebook).
-# *Contorno da censura governamental*: a RiseupVPN pode contornar completamente toda a censura do governo, desde que você tenha acesso à internet. Observe, porém, que a análise cuidadosa do seu tráfego pode revelar que você usa uma VPN, o que pode ser legal ou não na sua jurisdição.
-# *Presença na internet, de verdade*: em vez de dividir um único IP público entre vários dispositivos, a RiseupVPN permite que cada aparelho tenha seu próprio endereço público na internet (mesmo que seja atrás de um firewall). Assim, muitos aplicativos podem funcionar com bem mais eficiência.
-# *Uso de tecnologia _peer-to-peer_*: a tecnologia P2P tem muitas aplicações importantes e descentralizantes, tais como backups seguros, garantia de acesso público à informação, bate-papos na internet, entrega de conteúdo a um custo razoável, etc. Apesar disso, alguns provedores barram o tráfego P2P. Em algumas universidades, simplesmente usar P2P faz com que cortem seu acesso à internet. A RiseupVPN contorna essas restrições e, porque você passa a ter seu próprio IP, facilita bastante o funcionamento de aplicativos P2P.
-# *Acesso a toda a internet, independente de onde você more*: a RiseupVPN permite que você aparente viver em qualquer país no qual tenhamos um servidor de VPN. Com ela se pode acessar conteúdo restrito, disponível apenas nesses países. A RiseupVPN permite também que você use serviços talvez bloqueados no seu país, como o Skype.
-# *Liberdade do firewall da empresa*: então você trabalha para uma corporação do mal e desperdiça o máximo de tempo possível navegando na rede? Infelizmente, o firewall da empresa provavelmente impede que você visite vários sites (riseup.net está na lista de sites proibidos por [[muitos firewalls corporativos -> https://www.barracudanetworks.com/]]). Com a RiseupVPN, você poderá contornar completamente essas restrições e acessar toda a internet.
-# *Segurança na sua conexão wi-fi*: sempre que você usa uma conexão wi-fi pública, todas as outras pessoas conectadas ao mesmo ponto de acesso podem espionar o seu tráfego. A RiseupVPN evitará que isso aconteça.
-
-h2. Funcionalidades especiais da RiseupVPN
-
-A RiseupVPN tem algumas diferenças em relação à maioria das VPNs pessoais:
-
-*Nada de registros*
-
-p((. Não guardamos registros, exceto pelo dia em que um usuário se conecta. Especificamente, não registramos endereços IP, nem requisições de DNS. Consulte nossa [[privacy-policy]].
-
-*Endereço IP público*
-
-p((. Quando você se conecta à RiseupVPN, seu computador obtém seu próprio endereço IP público na internet, mesmo se, normalmente, tiver apenas um endereço IP particular, como 198.162.0.1. Sempre que você se conectar, você terá um IP público atribuído aleatoriamente (se esgotarmos temporariamente nossos IPs públicos, daremos, ao invés, um IP compartilhado). Isso facilita e agiliza a execução de certos aplicativos.
-
-*Fácil de usar*
-
-p((. [[LEAP/Bitmask->vpn]] é ainda mais fácil de usar. Para acessar a [[RiseupVPN antiga->legacy]], você pode simplesmente entrar com sua [[conta riseup.net->mail.accounts]] existente. Para mais segurança, você pode usar um [[segredo de VPN -> vpn-secret]] especial no lugar da sua senha normal. Além disso, você pode se conectar à RiseupVPN usando uma variedade de portas e protocolos, facilitando a ultrapassagem de firewalls.
-
-Já quer experimentar a RiseupVPN? Dê uma olhada nos [[tutoriais sobre a VPN -> vpn-howto]].
+# *Proteção contra vigilância de provedores*: a Riseup VPN elimina a capacidade do seu provedor de monitorar a sua comunicação. Ele não terá registros significativos que poderiam ser usados contra você, seja por marqueteiros ou pelo Estado.
+# *Proteção contra vigilância de empresas*: a maioria dos sites comerciais usa várias redes de publicidade e serviços de análise de tráfego, que rastreiam seu comportamento enquanto você navega na internet. A Riseup VPN bloqueia a maioria desses rastreadores (mas não bloqueamos o Facebook).
+# *Contorno da censura governamental*: a Riseup VPN pode contornar completamente toda a censura do governo, desde que você tenha acesso à internet. Observe, porém, que a análise cuidadosa do seu tráfego pode revelar que você usa uma VPN, o que pode ser legal ou não na sua jurisdição.
+# *Presença na internet, de verdade*: em vez de dividir um único IP público entre vários dispositivos, a Riseup VPN permite que cada aparelho tenha seu próprio endereço público na internet (mesmo que seja atrás de um firewall). Assim, muitos aplicativos podem funcionar com bem mais eficiência.
+# *Uso de tecnologia _peer-to-peer_*: a tecnologia P2P tem muitas aplicações importantes e descentralizantes, tais como backups seguros, garantia de acesso público à informação, bate-papos na internet, entrega de conteúdo a um custo razoável, etc. Apesar disso, alguns provedores barram o tráfego P2P. Em algumas universidades, simplesmente usar P2P faz com que cortem seu acesso à internet. A Riseup VPN contorna essas restrições e, porque você passa a ter seu próprio IP, facilita bastante o funcionamento de aplicativos P2P.
+# *Acesso a toda a internet, independente de onde você more*: a Riseup VPN permite que você aparente viver em qualquer país no qual tenhamos um servidor de VPN. Com ela se pode acessar conteúdo restrito, disponível apenas nesses países. A Riseup VPN permite também que você use serviços talvez bloqueados no seu país, como o Skype.
+# *Liberdade do firewall da empresa*: então você trabalha para uma corporação do mal e desperdiça o máximo de tempo possível navegando na rede? Infelizmente, o firewall da empresa provavelmente impede que você visite vários sites (riseup.net está na lista de sites proibidos por [[muitos firewalls corporativos -> https://www.barracudanetworks.com/]]). Com a Riseup VPN, você poderá contornar completamente essas restrições e acessar toda a internet.
+# *Segurança na sua conexão wi-fi*: sempre que você usa uma conexão wi-fi pública, todas as outras pessoas conectadas ao mesmo ponto de acesso podem espionar o seu tráfego. A Riseup VPN evitará que isso aconteça.
 
 [[how-vpn-works]].
 

@@ -21,7 +21,7 @@ Objetivo: Prevenir-se contra acesso a informações armazenadas no disco rígido
 h1. Firewall pessoal
 
 Dificuldade: Fácil
-*Objetivo*: Tornar computador menos vulnerável a ataques externos pela rede. Essa medida é *essencial* se você usa a [[RiseupVPN->vpn]], que deixa seu computador mais exposto que o normal.
+*Objetivo*: Tornar computador menos vulnerável a ataques externos pela rede. Essa medida é *essencial* se você usa a [[Riseup VPN->vpn]], que deixa seu computador mais exposto que o normal.
 *Modo de fazer*: Instale [[gufw->http://gufw.org]], "um dos firewalls mais fáceis de usar do mundo". Esse programa pode ser encontrado nos repositórios do Ubuntu e do Debian.
 
 "Siga estes passos":https://help.ubuntu.com/community/Gufw para começar a usar gufw (não disponível em português).

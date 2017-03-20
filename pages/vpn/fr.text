@@ -12,7 +12,7 @@ h2. Liens rapides!
 * Quelque chose ne fonctionne pas? Vérifiez nos pages de [[dépannage -> Troubleshooting]].
 * Une question? Consultez notre [[FAQs -> faq]]
 
-h2. Qu'est ce que RiseupVPN?
+h2. Qu'est ce que Riseup VPN?
 
 Les Réseaux Privés Virtuels (VPN pour Virtual Private Networks en anglais) sont typiquement utilisés pour connecter les travailleurs nomades à leur bureau. Cependant, le VPN de Riseup est différent : il fournit un service de contournement de la censure, anonymise la localisation, et chiffre le traffic. Pour ce faire, il [[redirige tout votre traffic internet par une connexion sécurisée -> how-vpn-works]] vers riseup.net, qui ré-achemine ensuite vers internet.
 

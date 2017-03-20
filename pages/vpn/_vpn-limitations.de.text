@@ -1,6 +1,6 @@
-h2. Limitierungen des RiseupVPN
+h2. Limitierungen des Riseup VPN
 
-Das RiseupVPN teilt einige Limitierungen, die alle VPNs gemein haben:
+Das Riseup VPN teilt einige Limitierungen, die alle VPNs gemein haben:
 
 * *Rechtshinweis*: Wenn du nicht in einem demokratischen Staat lebst, kann es illegal sein, auf das Internet mit einem persönlichen VPN zuzugreifen.
 
@@ -8,10 +8,10 @@ Das RiseupVPN teilt einige Limitierungen, die alle VPNs gemein haben:
 
 * *[[device-security]]*: Ein VPN hilft, deine Informationen beim Transit durch das Internet zu sichern, aber es schützt sie nicht, wenn sie auf deinem Rechner oder einem entfernten Server gespeichert sind.
 
-* *Eine unsichere Verbindung ist immer noch unsicher*: Obwohl RiseupVPN immer deine Ortsangaben anonymisiert, sobald deine Daten sicher über riseup.net passiert haben, gehen sie weiter durch das Internet wie normalerweise auch. Deshalb solltest du immer [[sichere Verbindungen -> secure-connections]] benutzen, wenn möglich. Das bedeutet, du solltest zusätzlich TLS benutzen, falls verfügbar (wie z.B. https, imaps, etc).
+* *Eine unsichere Verbindung ist immer noch unsicher*: Obwohl Riseup VPN immer deine Ortsangaben anonymisiert, sobald deine Daten sicher über riseup.net passiert haben, gehen sie weiter durch das Internet wie normalerweise auch. Deshalb solltest du immer [[sichere Verbindungen -> secure-connections]] benutzen, wenn möglich. Das bedeutet, du solltest zusätzlich TLS benutzen, falls verfügbar (wie z.B. https, imaps, etc).
 
-* *RiseupVPN ist kein panacea*: obwohl VPNs einiges bieten, können sie nicht alle Probleme lösen. Zum Beispiel kann es nicht die Sicherheit erhöhen, wenn [[Viren oder Überwachungssoftware-> viruses]] auf Deinem Rechner sind. Wenn Du persönliche Informationen auf einer Webseite eingibst, gibt es wenig, was ein VPN tun kann, um deine Anonymität mit dieser Webseite oder ihrer Partner zu gewährleisten. Für weitere Informationen siehe [[VPN-Anonymität -> security-issues]].
+* *Riseup VPN ist kein panacea*: obwohl VPNs einiges bieten, können sie nicht alle Probleme lösen. Zum Beispiel kann es nicht die Sicherheit erhöhen, wenn [[Viren oder Überwachungssoftware-> viruses]] auf Deinem Rechner sind. Wenn Du persönliche Informationen auf einer Webseite eingibst, gibt es wenig, was ein VPN tun kann, um deine Anonymität mit dieser Webseite oder ihrer Partner zu gewährleisten. Für weitere Informationen siehe [[VPN-Anonymität -> security-issues]].
 
-* *Das Internet könnte langsamer werden*: das RiseupVPN schickt allen Verkehr durch einen verschlüsselten Tunnel zu riseup.net, bevor er ins Internet geleitet wird. Dieser Zusatzschritt kann Dinge verlangsamen. Um diese Verlangsamung zu minimieren, versuche, einen VPN gateway server in deiner Nähe zu benutzen.
+* *Das Internet könnte langsamer werden*: das Riseup VPN schickt allen Verkehr durch einen verschlüsselten Tunnel zu riseup.net, bevor er ins Internet geleitet wird. Dieser Zusatzschritt kann Dinge verlangsamen. Um diese Verlangsamung zu minimieren, versuche, einen VPN gateway server in deiner Nähe zu benutzen.
 
 [[Mehr->security-issues]]

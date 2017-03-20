@@ -1,7 +1,7 @@
-@nav_title = "Warum RiseupVPN nötig ist"
-@title = 'Warum ist das RiseupVPN nötig?'
+@nav_title = "Warum Riseup VPN nötig ist"
+@title = 'Warum ist das Riseup VPN nötig?'
 
-h2. Warum du das RiseupVPN benutzen solltest
+h2. Warum du das Riseup VPN benutzen solltest
 
 Wir von Riseup glauben, es ist für alle wichtig, Technologien wie VPN oder [[security/tor]] für ihren Internetverkehr zu benutzen. Warum? Weil das Internet durch Riegerungen, Internetanbieter (ISP) und Unternehmen kaputt gemacht wird.
 
@@ -17,38 +17,19 @@ h3. Gebrochen durch Unternehmen
 
 Unternehmen haben herausgefunden, wie sich mit dem Internet Geld machen lässt: Überwachung. Durch das Ausspähen von Online-Gewohnheiten entwerfen Werbefirmen detaillierte Profile deines individuellen Verhalten, um besser ihren nutzlosen Kram verkaufen zu können. Jedes der größeren Internetunternehmen benutzt Techniken zum Ausspähen eures Verhaltens. Allein schon, um nationalem Copyright gerecht zu werden, bieten viele Unternehmen ihre Dienste nur einigen Internetnutzer*innen an, denen die im 'richtigen' Land leben.
 
-h2. Die Lösung: repariere das Internet durch die Nutzung von RiseupVPN
+h2. Die Lösung: repariere das Internet durch die Nutzung von Riseup VPN
 
-RiseupVPN hilft auf verschiedene Weisen:
+Riseup VPN hilft auf verschiedene Weisen:
 
-# *Schutz gegen ISP-Überwachung*: RiseupVPN eliminiert die Fähigkeit deines Providers, deine Verbindung zu überwachen. Sie bekommen keine auswertbaren Einträge, die entweder durch Märkte oder Staaten gegen dich verwendet werden könnten.
-# *protect against corporate surveillance*: Most commercial websites use multiple ad networks and traffic analysis services that track your behavior as you browse the web. These companies build detailed profiles of your behavior. The RiseupVPN blocks most of these tracking companies (however, we don't block Facebook).
-# *Schutz vor Unternehmensüberwachung*: Die meisten kommerziellen Webseiten benutzen viele Netzwerk- und Verkehrsanalysedienste, die dein Surfverhalten im Internet überwachen. Diese Unternehmen ersten detaillierte Profile deines Verhaltens. Das RiseupVPN blockiert die meisten dieser Überwachungsunternehmen (trotzdem solltest du nicht Facebook benutzen).
-# *Umgehung von Regierungszensur*: RiseupVPN kann komplett jede Regierungszensur umgehen, so lange Du einen Internetzugang hast. Beachte, dass eine genaue Analyse deiner Verbindungsdaten enthüllen könnte, dass ein VPN benutzt wird.
-# *tatsächlich im Internet sein*: Statt nur eine einzelne öffentliche IP-Adresse mit vielen Geräten zu teilen, ermöglicht das RiseupVPN, für jedes Gerät eine eigene IP-Adresse zu haben (auch hinter einer Firewall). Das macht viele Anwendungen viel einfacher.
-# *benutze peer-to-peer-Technologie*: p2p-Technologie bietet viele wichtige und dezentralisierte Verwendungsmöglichkeiten, wie sichere Backups, garantierten öffentlichen Zugang zu Informationen, Internetchat, erschwingliche Datenübertragung, etc. Trotzdem behindern viele ISP p2p-Verkehr. An einigen Universitäten reicht es, p2p zu benutzen, um vom Internet getrennt zu werden. Das RiseupVPN umgeht diese Einschränkungen, denn du bekommst eine eigene IP-Adresse, wodurch p2p-Anwendungen viel besser laufen.
-# *Zugang zum ganzen Internet, egal wo du lebst*: RiseupVPN erlaubt es, vorzugeben, in einem Land zu leben, wo unser VPN-Server steht. Das gibt dir Zugang zu geblocktem Inhalt, der nur in diesen Ländern verfügbar ist. RiseupVPN erlaubt dir damit, verschiedene Dienste zu benutzen, die sonst in Deinem Land geblockt werden.
-# *mach dich frei von Unternehmens-Firewalls*: Du arbeitest also für ein böses Unternehmen und versuchst, so viel Zeit mit Surfen im Internet zu verschwenden. Unglücklicherweise verhindert die Unternehmensfirewall wahrscheinlich, viele Seiten zu besuchen (riseup.net ist auf der Liste gebannter Seiten für [[Unternehmensfirewalls -> https://www.barracudanetworks.com/]]). RiseupVPN lässt dich komplett diese Einschränkung  umgehen und ermöglicht Zugang zum ganzen Netz.
-# *sichere deine WLAN-Verbindung*: Jedes Mal, wenn du eine WLAN-Verbindung benutzt, können alle Nutzer*innen dieses Zugangspunktes deinen Verkehr ausspähen. RiseupVPN schützt dich davor.
-
-h2. Besondere Funktionen des RiseupVPN
-
-Das RiseupVPN ist anders als die meisten persönlichen VPN:
-
-*Keine Logdateien*
-
-p((. Wir speichern keine Logdateien, außer ein Eintrag, an welchem Tag, das VPN benutzt wurde. Insbesondere speichern wir keine IP-Adressen oder DNS-Anfragen. Siehe unsere [[privacy-policy]]
-
-
-*Öffentliche IP-Adresse*
-
-p((. Beim Verbindungen über das RiseupVPN bekommt dein Gerät eine eigene öffentliche IP-Adresse, selbst wenn dein Computer normalerweise nur eine nicht-öffentliche IP-Adresse wie 192.162.0.1 hat. Jedes Mal, wenn du dich verbindest, bekommst du eine eigene zufällig vergebene öffentliche IP-Adresse (wenn wir zeitweise zu wenige öffentliche IP-Adressen zur Verfügung haben, bekommst du stattdessen eine geteile IP-Adresse). Dadurch laufen bestimmte Anwendungen viel einfacher oder schneller.
-
-*Einfach zu benutzen*
-
-p((. [[LEAP/Bitmask->vpn]] ist noch einfacher zu benutzen. Für das [[alte RiseupVPN->legacy]] meldest dich einfach mit deinem bestehenden [[riseup.net-Konto->mail-accounts]] an. Für zusätzliche Sicherheit kannst du ein spezielles [[VPN-Geheimnis->vpn-secret]] anstelle deines normalen Passworts verwenden. Zudem kannst du beim Verbinden zum RiseupVPN verschiedene Ports und Protokolle verwenden, wodurch sich Firewalls leichter umgehen lassen.
-
-Bist du bereit, RiseupVPN auszuprobieren? Siehe unsere [[VPN-Anleitung -> vpn-howto]].
+# *Schutz gegen ISP-Überwachung*: Riseup VPN eliminiert die Fähigkeit deines Providers, deine Verbindung zu überwachen. Sie bekommen keine auswertbaren Einträge, die entweder durch Märkte oder Staaten gegen dich verwendet werden könnten.
+# *protect against corporate surveillance*: Most commercial websites use multiple ad networks and traffic analysis services that track your behavior as you browse the web. These companies build detailed profiles of your behavior. The Riseup VPN blocks most of these tracking companies (however, we don't block Facebook).
+# *Schutz vor Unternehmensüberwachung*: Die meisten kommerziellen Webseiten benutzen viele Netzwerk- und Verkehrsanalysedienste, die dein Surfverhalten im Internet überwachen. Diese Unternehmen ersten detaillierte Profile deines Verhaltens. Das Riseup VPN blockiert die meisten dieser Überwachungsunternehmen (trotzdem solltest du nicht Facebook benutzen).
+# *Umgehung von Regierungszensur*: Riseup VPN kann komplett jede Regierungszensur umgehen, so lange Du einen Internetzugang hast. Beachte, dass eine genaue Analyse deiner Verbindungsdaten enthüllen könnte, dass ein VPN benutzt wird.
+# *tatsächlich im Internet sein*: Statt nur eine einzelne öffentliche IP-Adresse mit vielen Geräten zu teilen, ermöglicht das Riseup VPN, für jedes Gerät eine eigene IP-Adresse zu haben (auch hinter einer Firewall). Das macht viele Anwendungen viel einfacher.
+# *benutze peer-to-peer-Technologie*: p2p-Technologie bietet viele wichtige und dezentralisierte Verwendungsmöglichkeiten, wie sichere Backups, garantierten öffentlichen Zugang zu Informationen, Internetchat, erschwingliche Datenübertragung, etc. Trotzdem behindern viele ISP p2p-Verkehr. An einigen Universitäten reicht es, p2p zu benutzen, um vom Internet getrennt zu werden. Das Riseup VPN umgeht diese Einschränkungen, denn du bekommst eine eigene IP-Adresse, wodurch p2p-Anwendungen viel besser laufen.
+# *Zugang zum ganzen Internet, egal wo du lebst*: Riseup VPN erlaubt es, vorzugeben, in einem Land zu leben, wo unser VPN-Server steht. Das gibt dir Zugang zu geblocktem Inhalt, der nur in diesen Ländern verfügbar ist. Riseup VPN erlaubt dir damit, verschiedene Dienste zu benutzen, die sonst in Deinem Land geblockt werden.
+# *mach dich frei von Unternehmens-Firewalls*: Du arbeitest also für ein böses Unternehmen und versuchst, so viel Zeit mit Surfen im Internet zu verschwenden. Unglücklicherweise verhindert die Unternehmensfirewall wahrscheinlich, viele Seiten zu besuchen (riseup.net ist auf der Liste gebannter Seiten für [[Unternehmensfirewalls -> https://www.barracudanetworks.com/]]). Riseup VPN lässt dich komplett diese Einschränkung  umgehen und ermöglicht Zugang zum ganzen Netz.
+# *sichere deine WLAN-Verbindung*: Jedes Mal, wenn du eine WLAN-Verbindung benutzt, können alle Nutzer*innen dieses Zugangspunktes deinen Verkehr ausspähen. Riseup VPN schützt dich davor.
 
 [[how-vpn-works]]
 

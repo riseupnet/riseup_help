@@ -1,7 +1,5 @@
 @title = "Troubleshooting"
 
-p(alert alert-warning). We launched a new RiseupVPN, more accessible and secure! This documentation is for our legacy VPN services. Please check the [[RiseupVPN documentation -> vpn]] for more information. Take into consideration that we will deprecate this legacy service in the future, and that your "Black":https://black.riseup.net powered credentials will not work for the following instructions.
-
 h1. General Tips
 
 h2. Error Messages
@@ -119,7 +117,7 @@ Instead of using your riseup.net password, you should use a [[VPN Secret->vpn-se
 
 h3. Using TUN instead of TAP
 
-If you use @dev tun@ instead of @dev tap@ in the configuration file, you *must* run openvpn as administrator. Otherwise, it will appear to work, but none of your traffic will actually be going over the RiseupVPN.
+If you use @dev tun@ instead of @dev tap@ in the configuration file, you *must* run openvpn as administrator. Otherwise, it will appear to work, but none of your traffic will actually be going over the Riseup VPN.
 
 To run OpenVPN as administrator:
 

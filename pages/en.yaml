@@ -5,9 +5,9 @@ riseup_intro: Riseup provides online communication tools for people and
 
 red_title: "Riseup Red"
 red_info: "We provide <b>Riseup Red</b> accounts for traditional services,
-  including [[email]] (IMAP), [[chat]] (XMPP), and [[legacy]] (OpenVPN)."
+  including [[email]] (IMAP), [[chat]] (XMPP), and [[vpn]]."
 red_webmail: "[[Login to webmail => https://mail.riseup.net]]"
-red_support: "Get help on [[email]], [[chat]], and [[legacy]]."
+red_support: "Get help on [[email]], [[chat]], and [[vpn]]."
 red_settings: "[[Change my settings => https://account.riseup.net]]"
 red_request: "[[Request an account => https://account.riseup.net/user/new]]"
 red_reset_password: "[[Reset lost password => https://account.riseup.net/reset_password]]"

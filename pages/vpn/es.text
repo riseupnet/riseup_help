@@ -12,15 +12,15 @@ h2. ¡Enlaces rápidos!
 * ¿Algo no funciona? comprueba [[Resolución de problemas -> troubleshooting]]
 * ¿Tienes alguna pregunta? visita nuestras [[FAQs -> faq]]
 
-h2. ¿Qué es RiseupVPN?
+h2. ¿Qué es Riseup VPN?
 
-Las Redes Privadas Virtuales (Virtual Private Networks - VPN) se usan generalmente para que se conecten de forma remota los trabajadores a una oficina principal. Sin embargo, RiseupVPN es diferente: ofrecemos un servicio para evadir la censura, anomizar tu ubicación y para cifrar el tráfico. Para que esto sea posible, [[envía todo tu tráfico de Internet a través de una conexión cifrada => how-vpn-works]] a riseup.net, desde donde sale a la Internet pública.
+Las Redes Privadas Virtuales (Virtual Private Networks - VPN) se usan generalmente para que se conecten de forma remota los trabajadores a una oficina principal. Sin embargo, Riseup VPN es diferente: ofrecemos un servicio para evadir la censura, anomizar tu ubicación y para cifrar el tráfico. Para que esto sea posible, [[envía todo tu tráfico de Internet a través de una conexión cifrada => how-vpn-works]] a riseup.net, desde donde sale a la Internet pública.
 
 Este tipo de VPN a veces se llama "VPN personal" o "cifrado Proxy". El objetivo de una VPN personal no es el de conectar de forma segura con una red privada, si no para conectarse de forma segura a Internet entera.
 
 h2. ¿Qué es Bitmask? ¿Qué es LEAP?
 
-El nuevo sistema RiseupVPN es parte de nuestros servicios anti-vigilancia de última generación proporcionado por el [[LEAP Encryption Access Project -> https://leap.se]]. LEAP es un esfuerzo colaborativo para hacer que las tecnologías de cifrado existentes sean fáciles de usar y ampliamente disponibles sin compromenter su seguridad. Para acceder a este servicio tendrás que instalar una aplicación llamada Bitmask.
+El nuevo sistema Riseup VPN es parte de nuestros servicios anti-vigilancia de última generación proporcionado por el [[LEAP Encryption Access Project -> https://leap.se]]. LEAP es un esfuerzo colaborativo para hacer que las tecnologías de cifrado existentes sean fáciles de usar y ampliamente disponibles sin compromenter su seguridad. Para acceder a este servicio tendrás que instalar una aplicación llamada Bitmask.
 
 Somos conscientes de que, en general, el cifrado es difícil y que hay una distancia importante entre el acceso a los sistemas de seguridad de alta tecnología entre las personas con más conocimientos y el resto del mundo. Sin embargo, para crear una sociedad libre debemos garantizar el acceso en condiciones de igualdad a las tecnologías de comunicación seguras y privadas. El papel de Bitmask es ayudarnos en este trabajo. Bitmask proporciona una experiencia sin problemas, auto-configurada y multi-plataforma con varias mejoras en la seguridad.
 

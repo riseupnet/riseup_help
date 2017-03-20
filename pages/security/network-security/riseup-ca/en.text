@@ -8,7 +8,7 @@ For a certificate to be considered valid, it must be blessed by a private corpor
 
 Until then, Riseup has purchased certificates from a commercial certificate authority that is recognized by your web browser, mail client, or chat client. These certificates will work seamlessly without any further action on your part.
 
-However, some riseup.net services, like the [[RiseupVPN -> vpn]], use certificates that are blessed by our own certificate authority. This page is for people who need to download and install this Riseup Certificate Authority.
+However, some riseup.net services, like the [[Riseup VPN -> vpn]], use certificates that are blessed by our own certificate authority. This page is for people who need to download and install this Riseup Certificate Authority.
 
 h2. Download the Riseup CA certificate
 

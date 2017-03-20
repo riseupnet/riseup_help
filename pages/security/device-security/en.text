@@ -19,7 +19,7 @@ Why: Prevent access of information stored on your computer's hard disk.
 h1. Personal Firewall
 
 Difficulty: Easy
-*Why*: Make your computer less vulnerable to outside attack from the network. When running the [[RiseupVPN->vpn]] this is *essential* because your computer is even more exposed than normal.
+*Why*: Make your computer less vulnerable to outside attack from the network. When running the [[Riseup VPN->vpn]] this is *essential* because your computer is even more exposed than normal.
 *How*: Install [[gufw->http://gufw.org]], "One of the easiest firewalls in the world". You can find gufw in Ubuntu and Debian.
 
 [[Follow these easy instructions to get started with gufw -> https://help.ubuntu.com/community/Gufw]]

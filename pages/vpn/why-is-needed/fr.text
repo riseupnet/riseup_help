@@ -1,8 +1,6 @@
 @nav_title = "Pourquoi le VPN Riseup est nécessaire"
 @title = 'Pourquoi le VPN Riseup est nécessaire ?'
 
-
-
 h2. Pourquoi utiliser le VPN de Riseup?
 
 Chez Riseup, nous pensons qu'il est important que tout le monde puisse utiliser des technologies comme les VPN ou [[security/tor]] pour chiffrer leur communications sur internet. Pourquoi? Parce que les gouvernements, les Fournisseurs d'Accès à Internet (FAI) et les grandes entreprises (voir plus bas) "cassent" internet.
