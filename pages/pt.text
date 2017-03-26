@@ -1,3 +1,4 @@
 @title = "Início"
+@summary = "O Riseup oferece ferramentas de comunicação on-line para pessoas e grupos trabalhando por mudanças sociais libertadoras. Somos um projeto para a criação de alternativas democráticas e para a prática da autonomia, por meio do controle dos nossos próprios meios de comunicação segura."
 
-<%= render :partial => 'home' %>
+<%= render 'accounts' %>

@@ -1,8 +1,3 @@
-riseup_intro: "Riseup предлагает средства онлайн-коммуникации для групп и лиц,
-  вовлеченных в социально-освободительную деятельность. Мы — проект, занимающийся
-  созданием демократичных альтернатив и осуществляющий право на самоопределение
-  путём контроля за собственными безопасными инструментами связи."
-
 red_title: "Riseup Red"
 red_info: "Мы предоставляем аккаунты <b>Riseup Red</b> для традиционных сервисов,
   включающих [[email]] (IMAP), [[chat]] (XMPP), and [[vpn]]."
@@ -20,7 +15,7 @@ black_info: "Мы предоставляем аккаунты <b>Riseup Black</b
 black_vpn: "[[Получить помощь по VPN => vpn]]"
 black_settings: "[[Изменить настройки => https://black.riseup.net]]"
 black_download: "[[Загрузить приложение Bitmask => https://bitmask.net/install]]"
-black_help: "[[Задать вопрос службе поддержки Riseup Black => https://black.riseup.net/tickets/new/]]"
+black_help: "[[Задать вопрос службе поддержки Riseup Black => https://support.riseup.net]]"
 
 other_title: "Другие сервисы"
 other_info: "Следующие сервисы используют несвязанные с Riseup Red или Riseup Black аккаунты."

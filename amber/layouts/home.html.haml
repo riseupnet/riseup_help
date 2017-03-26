@@ -5,7 +5,7 @@
       = @page.nav_title + ' - ' + @site.title
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %meta(charset="UTF-8")
-    = render 'layouts/meta', description: @page.var(:riseup_intro)
+    = render 'layouts/meta', description: @page.props.summary
     %link(rel="stylesheet" href="/assets/bootstrap.min.css")
     %link(rel="stylesheet" href="/assets/font-awesome-4.6.3/css/font-awesome.min.css")
     %link(rel="stylesheet" href="/assets/style.css")
@@ -22,7 +22,7 @@
               .title-box
                 .logo
                   .summary
-                    = @page.var(:riseup_intro)
+                    = @page.props.summary
               .content-box
                 .row
                   .col-sm-8

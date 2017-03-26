@@ -1,8 +1,3 @@
-riseup_intro: Riseup provides online communication tools for people and
-  groups working on liberatory social change. We are a project to create
-  democratic alternatives and practice self-determination by controlling our
-  own secure means of communications.
-
 red_title: "Riseup Red"
 red_info: "We provide <b>Riseup Red</b> accounts for traditional services,
   including [[email]] (IMAP), [[chat]] (XMPP), and [[vpn]]."
@@ -20,7 +15,7 @@ black_info: "We provide <b>Riseup Black</b> accounts for new services that
 black_vpn: "[[Get help on VPN => vpn]]"
 black_settings: "[[Change my settings => https://black.riseup.net]]"
 black_download: "[[Download Bitmask application => https://bitmask.net/install]]"
-black_help: "[[Create a Riseup Black help ticket => https://black.riseup.net/tickets/new/]]"
+black_help: "[[Create a Riseup Black help ticket => https://support.riseup.net]]"
 
 other_title: "Other Services"
 other_info: "The following services each use independent accounts which are not

@@ -1,8 +1,3 @@
-riseup_intro: "Riseup bietet Online-Kommunikationstools für Menschen und Gruppen, 
-  die an befreiendem gesellschaftlichem Wandel arbeiten. Wir sind ein Projekt,
-  das demokratische Alternativen entwickelt und wir üben Selbstbestimmung
-  aus, indem wir unsere eigenen sicheren Kommunikationswege kontrollieren."
-
 red_title: "Riseup Rot"
 red_info: "Wir bieten <b>Riseup Rot</b>-Konten für traditionelle Dienste wie [[email]] (IMAP), [[chat]] (XMPP) und [[vpn]]."
 red_webmail: "[[Webmail-Anmeldung => https://mail.riseup.net]]"
@@ -17,7 +12,7 @@ black_info: "Wir bieten <b>Riseup Schwarz</b>-Konten für neue Dienste, welche d
 black_vpn: "[[Hilfe zu Virtuellen Privaten Netzwerken (VPN) => vpn]]"
 black_settings: "[[Einstellungen ändern => https://black.riseup.net]]"
 black_download: "[[Bitmask installieren => https://bitmask.net/install]]"
-black_help: "[[Hilfe-Ticket erstellen => https://black.riseup.net/tickets/new/]]"
+black_help: "[[Hilfe-Ticket erstellen => https://support.riseup.net]]"
 
 other_title: "Andere Dienste"
 other_info: "Die folgenden Dienste benutzen jeweils unabhängige Konten, die nicht mit Riseup Rot oder Riseup Schwarz verbunden sind."

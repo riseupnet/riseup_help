@@ -1,9 +1,3 @@
-riseup_intro: "Riseup fournit des outils de communication en ligne pour les
-  personnes et les groupes qui militent en faveur d'un changement social
-  libérateur. Nous sommes un projet pour créer des alternatives démocratiques et
-  pour pratiquer l'auto-détermination en contrôlant nos propres moyens de
-  communication sécurisés."
-
 red_title: "Riseup Red"
 red_info: "Nous fournissons des comptes <b>Riseup Red</b> pour les services,
     traditionnels incluant [[email]] (IMAP), [[chat]] (XMPP)i et [[vpn]]."
@@ -21,12 +15,12 @@ black_info: "Nous fournissons des comptes <b>Riseup Black</b> pour les nouveaux 
 black_vpn: "[[Obtenez de l'aide pour le VPN => vpn]]"
 black_settings: "[[Modifiez vos préférences => https://black.riseup.net]]"
 black_download: "[[Téléchargez l'application Bitmask => https://bitmask.net/install]]"
-black_help: "[[Créez une demande d'aide Riseup Black => https://black.riseup.net/tickets/new/]]"
+black_help: "[[Créez une demande d'aide Riseup Black => https://support.riseup.net]]"
 
 other_title: "Autres Services"
 other_info: "The following services each use independent accounts which are not
   tied to Riseup Red or Riseup Black."
-other_info: "Les services suivants utilisent des comptes indépendant qui ne 
+other_info: "Les services suivants utilisent des comptes indépendant qui ne
     sont pas liés à Riseup Red ou Riseup Black"
 
 lists_title: "Listes de Courriel"
@@ -45,7 +39,7 @@ share_info: "Téléverssement de fichier (pastebin et imagebin)."
 resources_title: "Ressources"
 security_info: "Ressources et tutoriels sur les façon de communiquer plus sécuritairement"
 help_link: "[[Panneau d'aide Riseup => https://support.riseup.net/fr/topics/new]]"
-help_info: "Pour nous posez une question, utilisez le formulaire qui se trouve 
-    dans le panneau d'aide pour créer une demande d'aide. Mais avant tout, 
+help_info: "Pour nous posez une question, utilisez le formulaire qui se trouve
+    dans le panneau d'aide pour créer une demande d'aide. Mais avant tout,
     prenez le temps de lire et de chercher dans la documentation présente sur ce site."
 servers_info: "Un répertoire de dizaines de projets radicals d'hébergements à travers le monde."
