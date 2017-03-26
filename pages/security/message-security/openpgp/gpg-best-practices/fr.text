@@ -24,13 +24,13 @@ La plupart des clients OpenPGP sont fournis avec une configuration qui ne s'adre
 Pour ces raisons, nous recommandons l'usage du [[groupe de serveur de clés sks -> https://sks-keyservers.net/overview-of-pools.php]]. Le bon fonctionnement des machines de ce groupe est vérifié par des contrôles de routine réguliers. Si un serveur ne fonctionne pas bien, il sera automatiquement retiré du groupe.
 
 Vous devriez aussi vous assurer que vous communiquez avec le groupe de serveurs de clés au travers d'un canal chiffré, en utilisant un protocole qui s'appelle hkps. Pour utiliser hkps, vous devez d'abord installer gnupg-curl :
-    
+
 pre. sudo apt-get install gnupg-curl
-    
+
 Ensuite, pour utiliser le groupe de serveurs de clés, il vous faut [[télécharger l'autorité de certification de sks-keyservers.net -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], et la sauvegarder quelque part sur votre machine. Souvenez-vous du chemin où vous l'avez sauvegardée.
 
 Il faut ensuite utiliser les paramètres suivants dans @~/.gnupg/gpg.conf@, et spécifier le chemin d'accès complet où vous avez sauvegardé le fichier .pem ci-dessus :
-    
+
 pre.. keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/chemin/vers/CA/sks-keyservers.netCA.pem
 
@@ -41,7 +41,7 @@ _Note :_ [[hkps://keys.indymedia.org -> https://keys.indymedia.org/]], [[hkps:/
 h3. Assurez-vous que toutes les clés sont rafraîchies à l'aide du serveur de clés que vous avez sélectionné
 
 Un utilisateur qui crée sa clé peut indiquer un serveur de clés spécifique auquel s'adresser pour récupérer les nouvelles versions de sa clé. Il est recommandé d'utiliser l'option suivante dans @~/.gnupg/gpg.conf@, qui ignorera de telles instructions :
-    
+
 pre. keyserver-options no-honor-keyserver-url
 
 C'est une bonne chose à faire car (1) ça évite que les gens indiquent des méthodes non-sécurisées pour télécharger des mises à jour de leurs clés et (2) même si le serveur choisi utilisait hkps, le rafraîchissement échouerait parce que le ca-cert ne correspondrait pas, donc la clé ne serait jamais mise à jour. Notez aussi qu'un attaquant pourrait désigner un serveur de clés sous son contrôle afin de surveiller à quel moment, et depuis quel endroit, vous rafraîchissez ses clés.
@@ -49,7 +49,7 @@ C'est une bonne chose à faire car (1) ça évite que les gens indiquent des mé
 h3. Rafraîchissez vos clés l'une après l'autre
 
 Maintenant que vous avez configuré un bon serveur de clés, vous devez vous assurer que vous rafraîchissez vos clés régulièrement. La meilleure façon de faire cela sur Debian et Ubuntu est d'utiliser parcimonie :
-    
+
 pre. sudo apt-get install parcimonie
 
 [[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] est un démon qui rafraîchit lentement votre trousseau de clés à partir d'un serveur de clés en passant par [[Tor -> https://www.torproject.org/]]. Il utilise un délai aléatoire, et un nouveau circuit Tor pour chaque clé. Le but est de compliquer la vie d'un attaquant qui voudrait corréler les mises à jour de clés avec votre trousseau.
@@ -106,7 +106,7 @@ h3. Utilisez une clé primaire robuste
 
 Certaines personnes utilisent toujours des clés DSA de 1024 bits. Vous devriez vraiment passer à une longueur plus importante et à un meilleur algorithme de hachage. En 2011, l'agence gouvernementale des Etats-Unis appelée NIST a [[décrété l'obsolescence -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]] de DSA-1024. Depuis 2013 cet algorithme est désormais [[interdit -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
-Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> https://we.riseup.net/assets/176898/key%20transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
+Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> key-transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
 
 La transition peut être pénible, mais elle en vaut la peine, et c'est aussi une bonne opportunité pour s'entraîner à utiliser les outils !
 
@@ -119,7 +119,7 @@ Paramétrer une date d'expiration vous obligera à repousser cette date quand el
 Vous pouvez penser que c'est pénible et que vous ne voulez pas vous en occuper, mais c'est en fait une bonne chose de faire cela de façon régulière pour maintenir à niveau vos compétences OpenPGP. Cela indique aux utilisateurs que la clé est toujours active, que le détenteur de la clé l'utilise toujours, et cela vous donne une occasion de vérifier l'état actuel de vos outils, et vos bonnes pratiques. Du reste, beaucoup de personnes refuseront de signer une clé qui n'a pas de date d'expiration !
 
 Si vous avez déjà généré une clé sans date d'expiration, vous pouvez en spécifier une sur votre clé existante en utilisant la commande suivante :
-    
+
 pre. gpg --edit-key '<fingerprint>'
 
 À présent, sélectionnez la sous-clé pour laquelle vous voulez paramétrer une date d'expiration (par exemple la première), ou aucune pour paramétrer l'expiration de votre clé primaire, puis invoquez la commande "expire" :
@@ -129,11 +129,11 @@ gpg> expire
 
 p. Ajustez ensuite la date à une valeur raisonnable (par exemple deux ans plus tard), puis sauvegardez la clé et quittez
 
-pre.. Key is valid for? (0) 2y 
+pre.. Key is valid for? (0) 2y
 gpg> save
 
 p. Vous pouvez alors envoyer votre clé aux serveurs de clés pour publier ce changement :
-    
+
 pre. gpg --send-key '<fingerprint>'
 
 h3. Notez un événement sur votre calendrier pour vous rappeler votre date d'expiration
@@ -189,7 +189,7 @@ Si le numéro de l'algorithme mentionné est 1, vous utilisez RSA. Si c'est 17, 
 Si l'algorithme porte le numéro 19, vous utilisez ECDSA, si c'est 18 vous utilisez ECC, et la méthode de contrôle de la longueur de clé ci-dessous n'est pas appropriée pour ces types de clé parce que les tailles de clé vont significativement décroître.
 
 Pour vérifier la longueur en bits de la clé primaire vous pouvez faire :
-    
+
 pre.  gpg --export-options export-minimal --export '<empreinte>' | gpg --list-packets | grep -A2 'public key'| grep 'pkey\[0\]:'
 
 h4. Les auto-signatures ne doivent pas utiliser MD5
@@ -230,7 +230,7 @@ Pour corriger ce problème, il vous faudra regénérer une clé après avoir ajo
 
 pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
-puis fixez les préférences de votre clef comme suit : 
+puis fixez les préférences de votre clef comme suit :
 
 pre.. $ gpg --edit-key '<fingerprint>'
 gpg> setpref
@@ -252,7 +252,7 @@ pre. gpg --list-keys '<empreinte>'
 Cela devrait indiquer les dates de création et d'expiration de la clé primaire et de toutes les sous-clés associées. Si vous ne voyez rien qui indique "expires" dans la sortie, alors vous n'avez pas correctement paramétré la date d'expiration.
 
 Pour corriger cela, vous pouvez faire :
-    
+
 pre.. $ gpg --edit-key '<empreinte>'
 gpg> expire
 ...
@@ -269,7 +269,7 @@ Voici tous les paramètres recommandés présentés dans ce guide, rassemblés e
 pre.. # Utiliser le serveur de clés sks via hkps
 keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/chemin/vers/CA/sks-keyservers.netCA.pem
-keyserver-options no-honor-keyserver-url 
+keyserver-options no-honor-keyserver-url
 # Lors de l'affichage de certificats, séparer les identifiants utilisateur et
 # les clés
 fixed-list-mode

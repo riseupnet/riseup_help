@@ -74,6 +74,7 @@ security
       gpg-best-practices
       gpg-keys
       enigmail
+      key-transition
     otr
   network-security
     secure-connections

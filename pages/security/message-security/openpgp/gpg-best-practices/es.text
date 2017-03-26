@@ -29,7 +29,7 @@ h2. La transición a una llave primaria más fuerte
 
 Muchas personas siguen teniendo llaves DSA de 1024-bit. Debes considerar hacer la transición a un algoritmo de función hash más fuerte y de más bits. Ahora se sabe que este tamaño está dentro de lo que Well Funded Organizations pueden llegar a vulnerar. Este algoritmo de función hash ya está también envejeciendo.
 
-Se recomienda hacer una llave 4096bit RSA con el algoritmo de función hash SHA512, realizando un [[aviso de transición(EN) -> https://we.riseup.net/assets/176898/key transition]] que esté firmado por ambas llaves y hacerlo del conocimiento de todos. Este es un [[buen documento(EN) -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] que detalla exactamente los pasos para que generes una llave así, asegurándose de  obtener al algoritmo de función de digest adecuado (puede ser un poco complicado si estás utilizando versiones gnupg menores a la versión 1.4.10).
+Se recomienda hacer una llave 4096bit RSA con el algoritmo de función hash SHA512, realizando un [[aviso de transición => key-transition]] que esté firmado por ambas llaves y hacerlo del conocimiento de todos. Este es un [[buen documento(EN) -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] que detalla exactamente los pasos para que generes una llave así, asegurándose de  obtener al algoritmo de función de digest adecuado (puede ser un poco complicado si estás utilizando versiones gnupg menores a la versión 1.4.10).
 Hacer la transición puede ser doloroso, pero vale la pena y ¡es una buena oportunidad para practicar con las herramientas!
 
 h2. Considera hacer que tu servidor de llaves por defecto use un servidor de llaves que tenga transporte HKPS
@@ -69,7 +69,7 @@ pre.. gpg> key 1
 gpg> expire
 
 p. Ahora asigna un valor razonable, (por ejemplo, 2 años)  guarda la llave y sal:
-pre.. Key is valid for? (0) 2y 
+pre.. Key is valid for? (0) 2y
 gpg> save
 
 p. Ahora debes enviar tu llave a los servidores de llaves para publicar este cambio:
@@ -103,7 +103,7 @@ h2. No confíes en el ID de la llave
 
 Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
 
-Si quieres tratar con un identificador criptográficamente fuerte para una llave, debes usar la huella digital completa. Nunca debes confiar en la ID corta de la llave. 
+Si quieres tratar con un identificador criptográficamente fuerte para una llave, debes usar la huella digital completa. Nunca debes confiar en la ID corta de la llave.
 
 Probablemente deberías al menos tener:
 
@@ -147,7 +147,7 @@ Puedes revisar esto con:
 
 pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 1,'
 
-Si ves que se genera algún resultado ‘digest algo 1’, entonces tienes algunas auto-firmas que están usando MD5, ya que el algoritmo digest 1 es MD5. Ve el OpenPGP [[RFC 4880, section 9.4 (EN) -> https://tools.ietf.org/html/rfc4880#section-9.4]] que tiene una tabla que mapea algoritmos hash a números. 
+Si ves que se genera algún resultado ‘digest algo 1’, entonces tienes algunas auto-firmas que están usando MD5, ya que el algoritmo digest 1 es MD5. Ve el OpenPGP [[RFC 4880, section 9.4 (EN) -> https://tools.ietf.org/html/rfc4880#section-9.4]] que tiene una tabla que mapea algoritmos hash a números.
 
 Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
 
@@ -159,9 +159,9 @@ Puedes revisar esto con:
 
 pre. gpg --export-options export-minimal --export <fingerprint> | gpg --list-packets |grep -A 2 signature|grep 'digest algo 2,'
 
-Si obtienes cualquier resultado ‘digest algo 2’ quiere decir que tienes algunas auto-firmas que están utilizando SHA1, ya que el algoritmo digest 2 es SHA1. 
+Si obtienes cualquier resultado ‘digest algo 2’ quiere decir que tienes algunas auto-firmas que están utilizando SHA1, ya que el algoritmo digest 2 es SHA1.
 
-Ve el OpenPGP RFC 4880, section 9.4 (EN) que tiene una tabla que mapea algoritmos hash a números. 
+Ve el OpenPGP RFC 4880, section 9.4 (EN) que tiene una tabla que mapea algoritmos hash a números.
 
 Para corregir esto, necesitas regenerar una llave después de agregar lo siguiente en tu ~/.gnupg/gpg.conf:
 
@@ -205,12 +205,12 @@ Si estás utilizando GnuPG, asegúrate que tengas las siguientes líneas en ~/.g
 
 pre.. # when outputting certificates, view user IDs distinctly from keys:
 fixed-list-mode
-# short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint: 
+# short-keyids are trivially spoofed; it's easy to create a long-keyid collision; if you care about strong key identifiers, you always want to see the fingerprint:
 keyid-format 0xlong
 with-fingerprint
 # when multiple digests are supported by all recipients, choose the strongest one:
 personal-digest-preferences SHA512 SHA384 SHA256 SHA224
-# preferences chosen for new keys should prioritize stronger algorithms: 
+# preferences chosen for new keys should prioritize stronger algorithms:
 default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 BZIP2 ZLIB ZIP Uncompressed
 # If you use a graphical environment (and even if you don't) you should be using an agent:
 # (similar arguments as  https://www.debian-administration.org/users/dkg/weblog/64)
