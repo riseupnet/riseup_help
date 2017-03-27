@@ -1,0 +1,207 @@
+
+//
+// LAYOUT STRUCTURE
+//
+// %body
+//   #riseup-bar.nav-home
+//     #riseup-nav
+//   #masthead
+//     .row
+//       .col
+//         .masthead-inner
+//           %ul#top-menu
+//   #main.container
+//     .row
+//       #sidebar.col
+//       .col
+//         .shadow-box
+//           .title-box
+//           .content-box
+//   #footer
+//     .footer-inner
+//
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+//#topbar {
+//  flex: 0 1;
+//}
+#masthead {
+  flex: 0 1;
+}
+#main {
+  flex: 1 1;
+}
+#footer {
+  flex: 0 1;
+}
+
+//#single-column {
+//  display: flex;
+//  margin-top: 15px;
+//  #sidebar {
+//    flex: 0 0;
+//    padding-right: 15px;
+//  }
+//  #content {
+//    flex: 1 1;
+//  }
+//}
+
+//
+// MASTHEAD
+//
+
+#masthead {
+  min-height: $masthead-height;
+  background-color: $masthead-background-color;
+  background: 0% 50% $masthead-image no-repeat;
+  background-size: cover !important;
+}
+
+.masthead-inner {
+  min-height: $masthead-height;
+//   .title {
+//     .sitename a {
+//       position: absolute;
+//       background: 0 0 $masthead-logo no-repeat;
+//       background-size: 140px;
+//       height: 36px;
+//       width: 140px;
+//       font-size: 0px;
+//       display: block;
+//       left: 16px;
+//       top: 26px;
+//     }
+//   }
+}
+
+
+//
+// TOP BAR
+//
+
+#top-menu {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 5px 14px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(0,0,0,0.15);
+  }
+  a.active {
+    background-color: $background-color;
+    color: black;
+    box-shadow: inset $menu-shadow-size $menu-shadow-size $menu-shadow-blur $menu-shadow-color;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #top-menu a {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
+}
+
+//
+// MIDDLE
+//
+
+#main {
+  margin-top: $gutter;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.shadow-box {
+  background-color: $content-background-color;
+  border: 1px solid $content-border-color;
+  box-shadow: 1px 1px 4px #CCC9C3;
+}
+
+.title-box {
+  color: black;
+  background-color: $title-background-color;
+  padding: $gutter;
+  border-bottom: 1px dotted $content-border-color;
+  h1 {
+    margin: 0;
+  }
+  .summary {
+    color: #666;
+    line-height: 1.5em;
+    margin-top: 10px;
+  }
+}
+
+.content-box {
+  padding: $gutter;
+}
+
+//
+// SIDEBAR
+//
+
+#sidebar {
+  padding-right: 0;
+  margin-bottom: 15px;
+  #navigation {
+    background-color: $navigation-item-background-color;
+    border: 1px solid $navigation-border-color;
+    box-shadow: 1px 1px 4px #CCC9C3;
+  }
+  ul.nav.nav-pills.nav-stacked {
+    li a {
+      color: $navigation-item-color;
+      border-radius: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    li.active a {
+      background-color: $navigation-item-active-background-color;
+      color: $navigation-item-active-color;
+    }
+  }
+  li.level2 a {padding-left: $gutter*2;}
+  li.level3 a {padding-left: $gutter*3;}
+  .sidebar-addendum {
+    margin-top: $gutter;
+  }
+  a {
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    padding-right: 15px; // hard coded bootstrap gutter for now.
+  }
+}
+
+
+//
+// FOOTER
+//
+
+#footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: #555;
+  color: white;
+  a {
+    color: white;
+  }
+}

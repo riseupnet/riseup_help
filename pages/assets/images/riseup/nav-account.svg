@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 64.000002 63.999999"
+   id="svg4825"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="nav-account.svg">
+  <defs
+     id="defs4827" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#222222"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="29.007757"
+     inkscape:cy="30.043735"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1317"
+     inkscape:window-height="764"
+     inkscape:window-x="1997"
+     inkscape:window-y="143"
+     inkscape:window-maximized="0"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="8.0000002,0"
+       orientation="1,0"
+       id="guide4134"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,55.999999"
+       orientation="0,1"
+       id="guide4136"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="56.000002,0"
+       orientation="1,0"
+       id="guide4138"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,7.9999999"
+       orientation="0,1"
+       id="guide4140"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4830">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(543.81678,36.392479)">
+    <g
+       transform="matrix(3.0087381,0,0,3.0087381,-535.773,-28.57084)"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+       id="g8">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         id="g10">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 5.811,11.799 5.852,-5.852 c 1.162,0.601 2.544,0.489 3.432,-0.398 0.684,-0.685 0.915,-1.666 0.709,-2.613 L 14.295,4.442 12.951,4.704 11.325,3.095 11.605,1.71 13.1,0.235 C 12.153,0.028 11.17,0.257 10.487,0.941 9.598,1.829 9.488,3.211 10.089,4.374 L 4.237,10.226 C 3.074,9.626 1.692,9.738 0.804,10.624 0.12,11.31 -0.111,12.29 0.096,13.237 l 1.508,-1.505 1.343,-0.263 1.628,1.609 -0.281,1.385 -1.495,1.476 c 0.946,0.206 1.929,-0.022 2.613,-0.707 0.887,-0.888 0.998,-2.27 0.399,-3.433 l 0,0 z"
+           class="si-glyph-fill"
+           id="path12"
+           style="fill:#ffffff;fill-opacity:1" />
+        <g
+           id="g14"
+           style="fill:#ffffff;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             d="M 14.107,12.334 12.277,11.736 9.941,9.4 l -0.58,0.58 2.336,2.334 0.637,1.872 3.067,1.833 0.579,-0.579 -1.873,-3.106 z"
+             class="si-glyph-fill"
+             id="path16"
+             style="fill:#ffffff;fill-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             d="M 7.277,5.107 2.478,0.29 C 2.075,-0.114 1.367,-0.064 0.9,0.408 L 0.367,0.94 C -0.1,1.412 -0.153,2.119 0.252,2.525 l 4.797,4.817 2.228,-2.235 0,0 z"
+             class="si-glyph-fill"
+             id="path18"
+             style="fill:#ffffff;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

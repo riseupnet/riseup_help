@@ -2,6 +2,9 @@
   .row
     .col-sm-12
       .masthead-inner
+        .title
+          .sitename
+            %a{href: "/"}
         %ul.list-unstyled#top-menu
           - top_navigation_items(include_home:true) do |item|
             %li{:class => item[:class]}

@@ -12,29 +12,29 @@
     %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")
     = html_head_base
   %body.home
-    #wrap
-      #masthead
-        = render 'layouts/masthead'
-      #main.container
-        .row
-          .col-sm-12
-            .shadow-box
-              .title-box
-                .logo
-                  .summary
-                    = @page.props.summary
-              .content-box
-                .row
-                  .col-sm-8
-                    .locale-links
-                      - available_languages.each do |name, code, url|
-                        %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
-                    <br>
-                    = render 'common/home_donate'
-                    = yield :content
-                  .col-sm-4
-                    .feed
-                      %h2= t(:system_updates)
-                      = render 'common/news_feed'
+    = render 'layouts/riseup_bar'
+    #masthead
+      = render 'layouts/masthead'
+    #main.container
+      .row
+        .col-sm-12
+          .shadow-box
+            .title-box
+              .logo
+                .summary
+                  = @page.props.summary
+            .content-box
+              .row
+                .col-sm-8
+                  .locale-links
+                    - available_languages.each do |name, code, url|
+                      %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
+                  <br>
+                  = render 'common/home_donate'
+                  = yield :content
+                .col-sm-4
+                  .feed
+                    %h2= t(:system_updates)
+                    = render 'common/news_feed'
     #footer
       = render 'layouts/footer'

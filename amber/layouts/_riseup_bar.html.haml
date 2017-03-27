@@ -1,0 +1,27 @@
+#riseup-bar.nav-home
+  #riseup-nav
+    .hover-item
+      = link_to t(:nav_home), "/"
+      .dropdown
+        .spacer
+        .menu
+          .chiclets.nav-grey
+            = link_to I18n.t(:link_home), "https://riseup.net/", class: 'nav-home'
+            = link_to I18n.t(:link_donate), "https://riseup.net/donate", class: 'nav-donate'
+          .section.nav-red= t(:link_red)
+          .chiclets.nav-red
+            = link_to I18n.t(:link_account), "https://account.riseup.net/", class: 'nav-account'
+            = link_to I18n.t(:link_help), "https://support.riseup.net/", class: 'nav-support'
+            = link_to I18n.t(:link_email), "https://mail.riseup.net/", class: 'nav-email'
+            = link_to I18n.t(:link_chat), "https://riseup.net/chat", class: 'nav-chat'
+            = link_to I18n.t(:link_vpn), "https://riseup.net/vpn", class: 'nav-vpn'
+          .section.nav-black= t(:link_black)
+          .chiclets.nav-black
+            = link_to I18n.t(:link_account), "https://black.riseup.net/", class: 'nav-account'
+            = link_to I18n.t(:link_vpn), "https://riseup.net/vpn", class: 'nav-vpn'
+          .section.nav-green= t(:other_services)
+          .chiclets.nav-green
+            = link_to I18n.t(:link_lists), "https://lists.riseup.net/", class: 'nav-lists'
+            = link_to I18n.t(:link_pad), "https://pad.riseup.net/", class: 'nav-pad'
+            = link_to I18n.t(:link_share), "https://share.riseup.net/", class: 'nav-share'
+            = link_to I18n.t(:link_groups), "https://we.riseup.net/", class: 'nav-groups'

@@ -12,31 +12,31 @@
     %link(rel="icon" href="/assets/images/favicon.png" type="image/x-icon")
     = html_head_base
   %body
-    #wrap
-      #masthead
-        = render 'layouts/masthead'
-      #main.container
-        .row
-          - if has_navigation?
-            #sidebar.col-sm-3.col-md-2
-              = render 'layouts/sidebar'
-            .col-sm-9.col-md-10
-              .shadow-box
-                .title-box
-                  = yield :title
-                  - if @page.props.summary
-                    .summary
-                      = @page.props.summary
-                .content-box
-                  - if @page.props.translatable && translation_missing?
-                    .alert.alert-info= t(:missing_translation)
-                  = yield :content
-          - else
-            .col-sm-12
-              .shadow-box
-                .title-box
-                  = yield :title
-                .content-box
-                  = yield :content
+    = render 'layouts/riseup_bar'
+    #masthead
+      = render 'layouts/masthead'
+    #main.container
+      .row
+        - if has_navigation?
+          #sidebar.col-sm-3.col-md-2
+            = render 'layouts/sidebar'
+          .col-sm-9.col-md-10
+            .shadow-box
+              .title-box
+                = yield :title
+                - if @page.props.summary
+                  .summary
+                    = @page.props.summary
+              .content-box
+                - if @page.props.translatable && translation_missing?
+                  .alert.alert-info= t(:missing_translation)
+                = yield :content
+        - else
+          .col-sm-12
+            .shadow-box
+              .title-box
+                = yield :title
+              .content-box
+                = yield :content
     #footer
       = render 'layouts/footer'

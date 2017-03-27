@@ -1,0 +1,116 @@
+$riseup-bar-bg: #222;
+$riseup-bar-fg: #fff;
+$riseup-dropdown-bg: #444;
+$riseup-dropdown-fg: #fff;
+$riseup-dropdown-border: #333;
+
+#riseup-bar {
+  color: $riseup-bar-fg;
+  padding: 6px 6px 6px 30px;
+  a {color: $riseup-bar-fg;}
+  background-color: $riseup-bar-bg;
+  background-position: 6px 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+
+  &.nav-account {background-image: image-url("riseup/nav-account.svg")}
+  &.nav-email   {background-image: image-url("riseup/nav-email.svg")}
+  &.nav-groups  {background-image: image-url("riseup/nav-groups.svg")}
+  &.nav-home    {background-image: image-url("riseup/nav-home.svg")}
+  &.nav-lists   {background-image: image-url("riseup/nav-lists.svg")}
+  &.nav-pad     {background-image: image-url("riseup/nav-pad.svg")}
+  &.nav-share   {background-image: image-url("riseup/nav-share.svg")}
+  &.nav-support {background-image: image-url("riseup/nav-support.svg")}
+}
+
+#riseup-nav {
+  .hover-item {
+    display: inline-block;
+  }
+  .dropdown {
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    width: inherit;
+    left: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+  }
+  .menu {
+    background: $riseup-dropdown-bg;
+    color: $riseup-dropdown-fg;
+    padding: 0px;
+    display: inline-block;
+    font-size: 12px;
+  }
+  // this ensures that the :hover is still active while the
+  // mouse travels down to the .menu
+  .spacer {
+    height: 16px;
+  }
+  .section {
+    padding: 14px 14px 0 14px;
+  }
+  .chiclets {
+    padding: 10px 6px 5px 6px;
+    a {
+      color: $riseup-dropdown-fg;
+      width: 64px;
+      height: 80px;
+      text-align: center;
+      margin: 0px 4px;
+      display: inline-block;
+      background-size: 48px;
+      background-repeat: no-repeat;
+      background-position: 8px 4px;
+      overflow: hidden;
+      line-height: 13px;
+      padding-top: 54px;
+      &:hover {
+        outline: 1px solid white;
+        transition: .3s background-color;
+        text-decoration: none;
+      }
+    }
+  }
+  // arrow
+  .menu:after {
+    top: -3px;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-bottom-color: $riseup-dropdown-border;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+  // make dropdown appear
+  .hover-item:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .chiclets {
+    a.nav-home    {background-image: image-url("riseup/nav-home.svg")}
+    a.nav-donate  {background-image: image-url("riseup/nav-donate.svg")}
+    a.nav-account {background-image: image-url("riseup/nav-account.svg")}
+    a.nav-support {background-image: image-url("riseup/nav-support.svg")}
+    a.nav-email   {background-image: image-url("riseup/nav-email.svg")}
+    a.nav-chat    {background-image: image-url("riseup/nav-chat.svg")}
+    a.nav-vpn     {background-image: image-url("riseup/nav-vpn.svg")}
+    a.nav-lists   {background-image: image-url("riseup/nav-lists.svg")}
+    a.nav-pad     {background-image: image-url("riseup/nav-pad.svg")}
+    a.nav-share   {background-image: image-url("riseup/nav-share.svg")}
+    a.nav-groups  {background-image: image-url("riseup/nav-groups.svg")}
+  }
+
+  .nav-red   {background: #300}
+  .nav-black {background: #000}
+  .nav-green {background: #020}
+  .nav-grey  {background: #333}
+}
