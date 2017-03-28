@@ -1,7 +1,5 @@
 @title = 'Mac'
 
-p(alert alert-warning). Nous avons lancez un nouveau service de VPN (Riseup VPN) plus accessible et sécuritaire! Cette documentation est pour l'ancien service de VPN. S'il vous plaît, regardez la [[documentation de Riseup VPN -> vpn]] pour plus d'information. Veuillez prendre en considération que ce service sera désactivé. À ce moment, les informations de votre compte "Black":https://black.riseup.net ne fonctionneront pas avec ces instructions.
-
 Le client OpenVPN pour Mac s'appelle "Tunnelblick".
 
 h2. Installation
@@ -15,8 +13,6 @@ Si vous utilisez la dernière version (actuellement Sierra), vous allez devoir i
 h2. Téléchargez la configuration Riseup
 
 Après l'installation, téléchargez le fichier [[riseup.tblk.zip => mac/riseup.tblk.zip]], qui contient la configuration du vpn riseup. Décompressez l'archive et installez la configuration en double cliquant sur celle-ci.
-
-Optionnel: vérifiez la signature OpenGPG en suivant les [[étapes suivantes => riseup-ca]], mais téléchargez le fichier [[riseup.tblk.zip.sig => mac/riseup.tblk.zip.sig]] et remplacez 'riseupCA-signed-sha256.txt' par 'riseup.tblk.zip.sig' dans les instructions.
 
 h2. Connexion
 

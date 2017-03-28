@@ -107,8 +107,8 @@ persist-key
 resolv-retry infinite
 remote-cert-tls server
 script-security 0
-# remove this if your system does not support 1.2
-tls-version-min 1.2
+# enable only if your system supports TLS 1.2
+# tls-version-min 1.2
 </pre>
 
 h3. Detailed tutorials
