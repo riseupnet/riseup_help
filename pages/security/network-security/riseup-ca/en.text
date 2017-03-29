@@ -81,3 +81,7 @@ Now that you have calculated the fingerprint or sha256sum of RiseupCA.pem, you c
 
 If the values match, and you trust the Riseup public PGP key, then you can be confident you are really communicating with riseup.net servers when using an application that uses RiseupCA.pem.
 
+*PLEASE NOTE*
+The fingerprint as described above is a hash of the certificate content, not of the actual RiseupCA.pem file. To compute this from the file, it needs have the header and footer removed, then needs to be base64 decoded, at which point it can have the hash computed successfully. Example:
+
+<code>head -n -1 RiseupCA.pem | tail -n +2 | base64 -d | sha256sum</code>
