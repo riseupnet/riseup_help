@@ -41,23 +41,11 @@ hi:
   bitcoin_grab_address: "एक Bitcoin पता बनाओ "
   generate: "जनरेट"
 
-  dwolla: "Dwolla"
-  dwolla_note: "बहुत कम फीस। पंजीकरण और अमेरिकी बैंक खाते की आवश्यकता है"
-  dwolla_description: "इसे आप एक अमेरिकी बैंक खाते से जुड़ा एक Dwolla खाता बनाने के लिए जरूरी है कि हालांकि Dwolla, आभासी नकदी भेजने के लिए वास्तव में एक सस्ता तरीका है। Dwolla आवर्ती दान का समर्थन करता है।"
-
   paypal: "Paypal"
   paypal_note: "कई देशों से काम करता है।"
   paypal_description: "Paypal क्रेडिट कार्ड स्वीकार करता है और आवर्ती दान का समर्थन करता है (दान आवर्ती के लिए, एक Paypal खाते की आवश्यकता होती है)।"
 
-  wepay: "WePay"
-  wepay_note: "PayPal के लिए एक वैकल्पिक।"
-  wepay_description: "WePay यह PayPal की तरह अच्छा विकल्प है। आप खाता बनाये बिना भी  WePay उपयोग कर सकते हैं, और यह क्रेडिट कार्ड का समर्थन करता है।"
-
   flattr: "Flattr"
   flattr_note: "Micropayments को जोड़ें।"
   flattr_description: "Flattr यह एक micropayment प्रणाली है जो आपको कई परियोजनाओं का समर्थन करने की अनुमति देता है।l"
-
-  gratipay: "Gratipay"
-  gratipay_note: "आवर्ती micropayments को जोड़ें।"
-  gratipay_description: "Gratipay यह भी micropayment प्रणाली है जो आपको इस परियोजनाओं के लिए साप्ताहिक देने के लिए अनुमति देता है।"
 

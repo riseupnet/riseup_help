@@ -55,22 +55,10 @@ fr:
   bitcoin_grab_address: "Récupérez une adresse bitcoin"
   generate: "Générez"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Des frais très bas. Nécessite de s'inscrire et d'avoir un compte de banque américain."
-  dwolla_description: "Dwolla est une manière peu chère d'envoyer de l'argent virtuel même il faut s'y inscrire avec un compte de banque américain. Dwolla supporte les dons récurrents."
-
   paypal: "Paypal"
   paypal_note: "Fonctionne dans plusieurs pays différents."
   paypal_description: "Paypal accepte les cartes de crédit et supporte les dons récurrent. Pour des dons récurrents, il est nécessaire d'avoir un compte PayPal."
 
-  wepay: "WePay"
-  wepay_note: "Une alternative à PayPal."
-  wepay_description: "WePay est une alternative intéressante à PayPal. Vous pouvez utiliser WePay sans créer de compte. WePay supporte également les cartes de crédit."
-
   flattr: "Flattr"
   flattr_note: "Des micro-paiements qui s'additionnent."
   flattr_description: "Flattr est un service de micro-paiements qui vous permet de supporter plusieurs projets différents."
-
-  gratipay: "Gratipay"
-  gratipay_note: "Des micro-paiements récurrents qui s'additionnent."
-  gratipay_description: "Gratipay est un autre service de micro-paiements qui vous permet de donner à chaque semaine aux projets que vous appréciez."

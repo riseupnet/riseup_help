@@ -25,12 +25,12 @@
     %td= t :no_value
     %td= t :bitcoin_note
   %tr
-    %td <a href="#dwolla"><img src="img/dwolla.png"></a>
+    %td <a href="#zcash"><img src="img/zcash.png"></a>
+    %td= t :no_value
     %td
-      %b= t :yes_value
+      &mdash;
     %td= t :no_value
-    %td= t :no_value
-    %td= t :dwolla_note
+    %td= t :zcash_note
   %tr
     %td <a href="#paypal"><img src="img/paypal.png"></a>
     %td
@@ -80,21 +80,19 @@
         %input(type="submit" value="#{t :generate}")
 
 .panel.panel-default
-  %h2.hidey= t :dwolla
+  %h2.hidey= t :zcash
   .panel-heading
-    <a name="dwolla"><img src="img/dwolla.png"></a>
+    <a name="zcash"><img src="img/zcash.png"></a>
   .panel-body
-    %p= t :dwolla_description
+    %p= t :zcash_description
     .donation
-      %form(action="https://www.dwolla.com/u/812-574-3324" method="get")
-        %b= t :dwolla
-        %input(type="submit" value="#{t :donate}")
+      zcc7P9dbq71WTwXi148oXGSvZC6eo2ZkMi3s57qTGLzm9Bhzt3GNVo4AzNJHtEM2gSbyvsthDkmKHCWLvTJ6ysEnfpdANVa
 
 .panel.panel-default
   %h2.hidey= t :paypal
   .panel-heading
     <a name="paypal"><img src="img/paypal.png"></a>
-  .panel-body      
+  .panel-body
     %p= t :paypal_description
 
     %p.h4= t :recurring_donation

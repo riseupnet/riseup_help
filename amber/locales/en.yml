@@ -52,15 +52,16 @@ en:
   one_time_donation: "One Time Donation"
   micropayments: "Micropayments"
   micropayments_note: "For amounts less than US$12 per payment, please use micropayments! It will save us a lot of money."
+
   bitcoin: "Bitcoin"
-  bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
+  bitcoin_note: "Digital currency"
   bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
   bitcoin_grab_address: "Grab a bitcoin address"
   generate: "Generate"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Very low fees. Requires registration and US bank account"
-  dwolla_description: "Dwolla is a really cheap way to send virtual cash, although it requires that you create a Dwolla account linked to a US bank account. Dwolla supports recurring donations."
+  zcash: "Zcash"
+  zcash_note: "Anonymous digital currency"
+  zcash_description: "Zcash is a crypto-currency similar to Bitcoin, but with the added benefit of anonymity."
 
   paypal: "Paypal"
   paypal_note: "Works from many countries."
@@ -72,8 +73,3 @@ en:
   flattr: "Flattr"
   flattr_note: "Micropayments add up."
   flattr_description: "Flattr is a micropayment system that allows you to support multiple projects."
-
-  gratipay: "Gratipay"
-  gratipay_note: "Recurring micropayments add up."
-  gratipay_description: "Gratipay is another micropayment system that allows you to give weekly to the projects you like."
-

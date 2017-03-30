@@ -41,22 +41,10 @@ lt:
   bitcoin_grab_address: "Paiimkite bitcoin adresą"
   generate: "Sugeneruoti"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Labai maži mokesčiai. Reikalinga registracija ir Jungtinių Valstijų banko sąskaita"
-  dwolla_description: "Dwolla yra labai pigus būdas siųsti pinigus virtualiai, visgi tai reikalauja sukurti Dwolla sąskaitą Sujungtą su JAV banko sąskaita. Dwolla palaiko pasikartojančias aukas."
-
   paypal: "Paypal"
   paypal_note: "Veikia daugelyje šalių."
   paypal_description: "Paypal priima kreditines korteles ir palaiko pasikartojančias aukas (pasikartojančioms aukoms reikalinga PayPal sąskaita)."
 
-  wepay: "WePay"
-  wepay_note: "PayPal alternatyva."
-  wepay_description: "WePay yra gera alternatyva PayPal. Galite naudoti WePay be vartotojo sąskaitos sukūrimo, palaikomos kortelės."
-
   flattr: "Flattr"
   flattr_note: "Micropayments add up."
   flattr_description: "Flattr mikromokėjimų sistema, kuri leidžia paremti daugybę projektų."
-
-  gratipay: "Gratipay"
-  gratipay_note: "Pasikartojantys mikromokėjimai."
-  gratipay_description: "Gratipay yra mikromokėjimų sistema, kuri leidžia paremti projektus kas savaitę."
