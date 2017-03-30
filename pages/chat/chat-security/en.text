@@ -9,3 +9,15 @@ If you want to ensure end-to-end message encryption, then your the best options 
 h2. Securing your voice conversions
 
 Last time we checked, Jitsi is the only jabber client that supports secure voice/video calling.
+
+h2. Securing IRC
+
+* *SSL* - For more info, see [[security/network-security/certificates]]. On the IndyMedia network that hosts the #riseup channel, you'll need to use port 6697.
+* *SASL EXTERNAL* and *CertFP* - different but related mechanisms to authenticate to services using certificates. Used together, they can ensure that you are authenticated to services before the connection to the network is complete and without any passwords.
+** Register your nick: @/msg nickserv register <password> <email>@
+** Make yourself a certificate: @openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -nodes -out riseup.pem -keyout riseup.pem@
+** Set your client to connect with that certificate using SASL EXTERNAL: [[see OFTC for examples -> https://www.oftc.net/NickServ/CertFP/]]
+** Connect using that certificate
+** Check that your fingerprint with @/whois <your-nick>@ is the same as your certificate's fingerprint. See [[security/network-security/certificates]] for more info.
+** Add the CertFP (certificate fingerprint): @/msg nickserv cert add@
+** Guard the certificate as you would your password.
