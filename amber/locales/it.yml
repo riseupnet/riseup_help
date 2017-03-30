@@ -55,22 +55,10 @@ it:
   bitcoin_grab_address: "Prendi un indirizzo bitcoin"
   generate: "Genera"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Tariffe bassissime. E' necessario registrarsi ed avere un conto corrente bancario statunitense"
-  dwolla_description: "Dwolla è una modalità molto economica per spedire contanti virtuali, anche se richiede la creazione di un account Dwolla collegato ad un conto corrente statunitense. Dwolla supporta le donazioni ricorrenti."
-
   paypal: "Paypal"
   paypal_note: "Utilizzabile da molte nazioni."
   paypal_description: "Paypal accetta le carte di credito e supporta le donazioni ricorrenti (per le donazioni ricorrenti è necessario possedere un account PayPal)."
 
-  wepay: "WePay"
-  wepay_note: "Un'alternativa a PayPal."
-  wepay_description: "WePay è una buona alternativa a PayPal. Puoi usare WePay senza creare un account e supporta le carte di credito."
-
   flattr: "Flattr"
   flattr_note: "Micropagamenti che si sommano."
   flattr_description: "Flattr è un sistema di micropagamenti che permette di supportare numerosi progetti."
-
-  gratipay: "Gratipay"
-  gratipay_note: "Micropagamenti ricorrenti che si sommano."
-  gratipay_description: "Gratipay è un altro sistema di micropagamenti che permette di fare donazioni settimanali ai progetti che più ti piacciono."

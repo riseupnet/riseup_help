@@ -41,22 +41,10 @@ pl:
   bitcoin_grab_address: "Zgarnij adres bitcoin"
   generate: "Wygeneruj"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Bardzo niskie koszta. Wymaga rejestracji i amerykańskiego konta bankowego."
-  dwolla_description: "Dwolla to naprawdę tani sposób na wysyłkę wirtualnych pieniędzy, aczkolwiek wymaga od Ciebie stworzenia konta Dwolla powiązanego z amerykańskim kontem bankowym. Dwolla wspiera cykliczne dotacje."
-
   paypal: "Paypal"
   paypal_note: "Działa w wielu krajach."
   paypal_description: "PayPal akceptuje karty kredytowe i wspiera cykliczne dotacje (dla cyklicznych dotacji, konto PayPal jest wymagane)."
 
-  wepay: "WePay"
-  wepay_note: "Alternatywa PayPal."
-  wepay_description: "WePay jest dobrą alternatywą do PayPal. Możesz używać WePay bez tworzenia konta. Obsługuje karty kredytowe."
-
   flattr: "Flattr"
   flattr_note: "Mikropłatności się sumują."
   flattr_description: "Flattr to system mikropłatności, który pozwala na wspieranie wielu projektów naraz."
-
-  gratipay: "Gratipay"
-  gratipay_note: "Cykliczne mikropłatności się sumują."
-  gratipay_description: "Gratipay to kolejny system mikropłatności, ktory pozwala na cotygodniowe dotacje projektów."

@@ -55,10 +55,6 @@ de:
   bitcoin_grab_address: "Hole Dir eine bitcoin-Adresse"
   generate: "Erstellen"
 
-  dwolla: "Dwolla"
-  dwolla_note: "Sehr geringe Gebühren. Erfordert Registrierung und ein US-Bankkonto"
-  dwolla_description: "Dwolla ist eine relativ günstige Möglichkeit, virtuelles Geld zu versenden, benötigt allerdings ein mit einem US-Bankkonto verknüpftes Dwolla-Konto. Dwolla unterstützt Daueraufträge."
-
   paypal: "Paypal"
   paypal_note: "Klappt von vielen Ländern der Welt"
   paypal_description: "Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig)."
@@ -70,7 +66,3 @@ de:
   flattr: "Flattr"
   flattr_note: "Minispenden summieren sich!"
   flattr_description: "Flattr ist ein Überweisungssystem für Kleinstbeträge („Micropayment“), das es Dir ermöglicht, verschiedene Projekte zu unterstützen."
-
-  gratipay: "Gratipay"
-  gratipay_note: "regelmäßige Zahlungen summieren sich"
-  gratipay_description: "Gratipay ist ein weiteres micropayment-System, das es ermöglicht, wöchentliche Zahlungen einzustellen."
