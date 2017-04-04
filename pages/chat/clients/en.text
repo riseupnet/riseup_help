@@ -4,33 +4,33 @@
 h2. Features to look for
 
 table(table).
-| *OTR?* | If yes, this client has built in support for OTR (off the record) which provides end-to-end encryption of chat messages and has perfect-forward-secrecy. |
-| *OMEMO?* | If yes, this client has support for end-to-end encryption that supports multiple clients and offline chats. |
-| *Jingle?* | If yes, this client can used for voice or video chat.|
-| *Proxy?* | If yes, this client may connect through a proxy and that the client obeys the proxy settings.|
-| *TLS?* | If yes, this client support secure connections with the chat provider.|
-| *Tor?* | If yes, this client can correctly use Tor to circumvent censorship and to access services anonymously. If no, then the client *should not be used with Tor*.|
+| *OTR?* | If yes, this client has built in support for [[OTR]] which provides end-to-end encryption of chat messages and has perfect-forward-secrecy. |
+| *[[OMEMO -> https://conversations.im/omemo/]]?* | If yes, this client has support for end-to-end encryption that supports multiple clients and offline chats. |
+| *[[Jingle -> https://en.wikipedia.org/wiki/Jingle_(protocol)]]?* | If yes, this client can used for voice or video chat.|
+| *[[Proxy -> https://en.wikipedia.org/wiki/Proxy_server]]?* | If yes, this client may connect through a proxy and that the client obeys the proxy settings.|
+| *[[TLS -> https://en.wikipedia.org/wiki/Transport_Layer_Security]]?* | If yes, this client support secure connections with the chat provider.|
+| *[[Tor]]?* | If yes, this client can correctly use Tor to circumvent censorship and to access services anonymously. If no, then the client *should not be used with Tor*.|
 
 h2. Recommended clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
-| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python. |
-| [[Coy -> https://coy.im]] | GNU/Linux | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for Gnome. |
+| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux, FreeBSD | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for Gnome. Has built-in support for Tor, OTR and TLS|
 | [[ChatSecure -> https://chatsecure.org/]] | iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for iOS. Native Tor support. |
 | [[Conversations -> https://conversations.im/]] | Android | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
-| [[Pidgin -> https://pidgin.im/]]   | Windows, GNU/Linux | *Yes* | No | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Make sure to use most the current version! |
+| [[Pidgin -> https://pidgin.im/]] | Windows, GNU/Linux | *Yes* | No | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Make sure to use most the current version! |
 
 h2. Other clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
-| [[Adium]] | Mac | *Yes* | No | No | *Yes* | *Yes* | Partial | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
+| [[Adium]] | macOS | *Yes* | No | No | *Yes* | *Yes* | Partial | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
-| [[Jitsi -> https://jitsi.org]] | Mac, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
+| [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
 | [[Pandion -> http://pandion.im/]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
-| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | No | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
-| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
+| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | No | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
 | iChat | Mac | No | No | No | ? | ? | ? | Apple's built-in chat application has limited Jabber support. |
 | [[Beem -> https://www.beem-project.com/]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
 | [[Miranda -> https://www.miranda-im.org/]] | Windows | *Yes* | No | No | ? | ? | ? | Open source. Stable client with many plugins. |
