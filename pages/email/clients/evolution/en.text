@@ -29,7 +29,7 @@ Authentication Type: **Password**
 Server Type: **SMTP**
 Server: **mail.riseup.net**
 check **Server requires Authentication**
-Use Secure Connection: **TSL** is recommended for security reasons (StartTLS and SSL are easily compromised).
+Use Secure Connection: **TLS** is recommended for security reasons (StartTLS and SSL are easily compromised).
 Authentication Type: **PLAIN**
 username: **foobar**
 # Give the account you're creating a name.  This is only used for your reference when managing multiple accounts in Evolution and is not disclosed to recipients of your emails.
