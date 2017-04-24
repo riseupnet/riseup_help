@@ -10,9 +10,9 @@ Für Hilfe beim Konfigurieren eines bestimmten Programms, klicke auf einen der f
 
 table(table table-striped).
 |_.*Plattform*|_.*Empfohlene Free Software Mailprogramme*|_.*Proprietäre Programme*|
-|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc. | |
-|Mac     | [[thunderbird]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]] |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
+|Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 

@@ -10,9 +10,9 @@ For help configuring a particular client, click on one of the following links:
 
 table(table table-striped).
 |_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Proprietary Clients*|
-|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, mutt, alpine, etc| |
-|Mac     | [[thunderbird]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]]  | [[microsoft-outlook]] |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
+|Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
