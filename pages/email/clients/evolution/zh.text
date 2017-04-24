@@ -29,7 +29,7 @@ Authentication Type： **Password**
 Server Type： **SMTP**
 Server：**mail.riseup.net**
 检查**Server requires Authentication**
-Use Secure Connection: 出于安全原因，推荐使用**TSL** （StartTLS和SSL很容易受到威胁）。
+Use Secure Connection: 出于安全原因，推荐使用**TLS** （StartTLS和SSL很容易受到威胁）。
 Authentication Type：**PLAIN**
 username：**foobar**
 # 给你创建一个名称的帐户。仅用于管理多个Evolution帐户时的参考，不会透露给你的电子邮件的收件人。
