@@ -85,7 +85,7 @@ h3. Testing via the command line
 Even if you use Network Manager to access the Riseup VPN, it can still be useful to troubleshoot problems by testing the connection via the command line. For example:
 
 <code>
-$ sudo openvpn --client --dev tun --auth-user-pass --remote vpn.riseup.net 1194 --keysize 256 --auth SHA256 --cipher AES-256-CBC --link-mtu 1569 --ca RiseupCA.pem
+$ sudo openvpn --client --dev tun --auth-user-pass --remote vpn.riseup.net 1194 --keysize 256 --auth SHA256 --cipher AES-256-CBC --ca RiseupCA.pem
 </code>
 
 Again, see @man openvpn@ for more options.
