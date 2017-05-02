@@ -11,6 +11,8 @@ This canary will be re-signed on the following dates:
 * August 1
 * November 1
 
+We will include a link to a recent news article[1] in each update to establish that the signature was not pre-generated. 
+ 
 h2. Frequently asked questions
 
 Q: Are you compromised by law enforcement?
@@ -30,22 +32,22 @@ Q: Why does the new Canary not mention gag orders, FISA court orders, National S
 A: Our initial Canary strategy was only harming users by freaking them out unnecessarily when minor events happened. A Canary is supposed to signal important risk information to users, but there is also danger in signaling the wrong thing to users or leading to general fear and confusion for no good reason. The current Canary is limited to significant events that could compromise the security of Riseup users.
 
 0. https://riseup.net/about-us/press/canary-statement
+1. https://theintercept.com/2017/05/01/cybersecurity-for-the-people-how-to-keep-your-chats-truly-private-with-signal/
 
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlimKpVfFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
-MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do7AmBAArruhjb2/TjrS1cXlA486bYd65KTD9GzQdwDflrdfhQIqzRQH4S7FyLlg
-fTC7i+CGR178Yx0RxSlLJoTbYhXqThO1TgUIPEbfdGsShor/DcFIy/CAy+5mJRWy
-n5Zr5uyQ2ZajrpssUMnYTOOcKBk+qTKnhFFXgnQTnP7dbrQZ72oYn4Rl7ZiZtaDA
-RaZUPXRM66WHy7B5TOzLw32Pw7FRrsttl1J53gyW8aE3f0hdFbq/YFcjZCjI6Rcf
-lbgknfjawr4lPPUPDIh5mZn0fpESyqyrbqr6mMzBP6Xyvoa/lmtlsrIHqp2aEcwk
-cNCYTNkLlDhnHtmWesWUSrETmWtHYdZtjOvQJQdTdowmsSEldxnWBOceJIyMXouT
-T7csL2FVqx8hlkmiCo4CK3jGCErmy9FUNKfLMkMPNODt1yQ0TwHU37zEPXq2quR6
-I6SCoONITrSH4xF4YUn86cGPDfWnZgCNctcKVuufxLKvoyQ3ZggUvODlH5u0M1A2
-/rSwFNzXP6ZyE7/y01r+bY8ZyY/QFpwjN4Sihv8mdOQD7n/3ZC8R6pX5jfg2ARAx
-/1lQNHjgN7Ee7RVAXpq2a2LgtOsxAvsKN5QuVv2ijrkj5pmmiAp63j09CoP3cU4U
-HfBMkPpHQ+4u+vIOFRU7dqW54IKu3hdd9tuT6RfDioM2Hm7OShw=
-=h6GS
+iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlkH4ksWHGNvbGxlY3Rp
+dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2js9BEACJWUXUFWx64eNk6VF6wOOvbCeX
+j4uEV5kdrR2YlWOfGk2/b2lgTEviqZt0S62UqtCciLmSmemw8v8rGJD/59pt7p+Z
+Jn+I+lGpVWdYPz8jdxbg5oAel7JRycBVmn90qLlq5Nws18IOqfU0HTMVxfnFGrQJ
+53sAItv0Zp+dF70dYftd/VbKrvCzo2z7YCS3GfwP19OefhZQImmKQzbW7Na+Db13
+MSsDLMmWchbEV7ceUleNuZQMPZ/cJCcm8411psmOhNUkxSG43wciWm9MrYf4CqNj
+6eBUc0QxMpU5eIQO8mn9FHitbILKjdMmg1c7pbFuGUhO/INFKfVeO7GiOh2wHs+2
+IRNxbHJJVT8We40KPMmZOPjMrTURGVq4ZvWdC+S552Ipy9ADHumER/pAMlD33lek
+Y84sL18H82xZXE7MxyV7CPE9d6j4YFzv4lzQsvINy9c0knrESK94/NosY+g6MkXX
+7353g41uLh5vQvep5GrVSAu39saqRJ5VuI37pf4ds6ewQt9dkB9aeiCVBcByd3zK
+FshnkWEOrtTOUgf18wYZ04BUqps86UEYt+zAS8bA5/gPY3k0J1amRIMyhEVeGFLd
+GgHINiuHHbEosvnWc8tZEF15TwXU2/wDJF+yXrASDZ6ioIBWNsEW9l+7cSWUt8Ki
+ZaSWWGcOfSsKKiqppA==
+=oqMs
 -----END PGP SIGNATURE-----
