@@ -1,0 +1,129 @@
+@title = 'Mejor Navegación de Internet'
+
+h2. Elegir un navegador web
+
+Todos los cuatro navegadores web principales, Firefox, Chrome, Internet Explorer y Safari, han experimentado serias fallas de seguridad, por eso deberías asegurarte de utilizar la versión estable más reciente del navegador que utilices.
+
+Los cuatro navegadores han recibido puntuaciones negativas en nuetra [[tabla de puntuaciones de navegadores => browser-score-card]]. Sin embargo, estos navegadores pueden mejorarse mucho instalando ciertos complementos (también llamados extensiones) (ver más abajo).
+
+Alternativamente, el Proyecto Tor proporciona una versión modificada de Firefox que ha sido adaptado para ser más seguro y anónimo llamado [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
+
+h2. Ajustar tu configuración
+
+h3. Deshabilitar cookies de terceros.
+
+Las cookies de terceros son identificadores de rastreo que utilizan las redes publicitarias para ratrear tu comportamiento en internet mientras navegas y así recolectar información de lo qué ves para elegir qué anuncios mostrarte. Son una abominación y no sirven ningún propósito legítimo.
+
+* Firefox: Preferencias > Privacidad > Aceptar cookies de terceros > Nunca.
+* Chrome: Configuración > Mostrar configuración avanzada... > Configuración de contenido > No permitir que los sitios configuren datos.
+
+h3. Limpiar cookies al salir
+
+La mayoría de los navegadores guardan cookies por más tiempo del necesario. Es mejor configurar el navegador para que elimine las cookies al cerrar el navegador.
+
+* Firefox: Preferencias > Privacidad > Mantener hasta que > Cierre el navegador.
+* Chrome: Configuración > Mostrar configuración avanzada... > Configuración de contenido > Mantener datos locales hasta cerrar el navegador.
+
+h3. Deshabilitar Flash
+
+Flash es un plug-in the Adobe que ha sido la causa de una gran cantidad de problemas de seguridad. Es muy recomendable que lo desinstales o deshabilites.
+
+* Firefox: Complementos > Plugins > Flash > Nunca activar.
+* Chrome: Configuración > Mostrar ajustes avanzados... > Configuración de contenido > No ejecutar plugins por defecto.
+
+h3. Deshabilitar Java
+
+Java también tiene muchos problemas de seguridad y probablemente nunca lo utilizas. Desinstalalo o desactivalo cuanto antes.
+
+* Firefox: Complementos > Plugins > Java > Nunca activar.
+* Chrome: Configuración > Mostrar ajustes avanzados... > Configuración de contenido > No ejecutar plugins por defecto.
+
+h3. Cambiar el motor de búsqueda predeterminado
+
+Cuando estes ajustando tus configuraciones, toma la oportunidad de cambiar tu motor de búsqueda predeterminado a [[duckduckgo.com => https://duckduckgo.com]]. Riseup recomienda DuckDuckGo sobre otros motores de búsqueda relacionados con el respeto a la privacidad. Ve intrucciones para [[navegadores de escritorio => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] o [[navegadores de mobiles => https://duck.co/help/mobile]].
+
+h2. Complementos para navegadores
+
+Los complementos en esta lista funcionan con Firefox y Chrome, a menos que se indique lo contrario.
+
+h3. Complementos esenciales.
+
+Estos son complementos absolutamente necesarios que todos los usuarios deberían utilizar siempre. Son estables, de código abierto, y casi nunca causan que el navegador falle.
+
+<table class="table">
+<tr>
+  <td>
+    !img/ublock-64.png!
+  </td>
+  <td>
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) bloquea redes publicitarias y de rastreo. Es similar a Adblock Plus y Disconnect pero funciona mucho más rápido y es mejor.
+  </td>
+</tr>
+<tr>
+  <td>
+    !img/https-64.png!
+  </td>
+  <td>
+    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] automaticamente asegura conecciones TSL cúando el sitio web lo permite. Esto ayuda a protegerse de vigilancia del contenido la navegación web, pero no oculta qué sitios web visitas (a menos que utilizes [[Tor]] o una [[VPN]]).
+  </td>
+</tr>
+<tr>
+  <td>
+    !img/badger-64.png!
+  </td>
+  <td>
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] detecta intentos de rastreo de navegación y bloquea el contenido a estos rastreadores. No está diseñado para bloquear anuncios, así que no es un reemplazo de uBlock, pero incluye características de seguridad que uBlock (en modo predeterminado) no tiene.
+  </td>
+</tr>
+</table>
+
+Notas de uso:
+
+* Filtración de dirección IP: Todos los navegadores filtran tu dirección IP cuando reproduces audio y video en ellos. Si utilizas Tor o una VPN con un chat de audio o video, deberías abrir las configuraciónes de uBlock y habilitar la opcion que impide que WebRTC filtre tu verdadera dirección IP.
+* uBlock en modo avanzado: Si utilizas uBlock en [[modo avanzado => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], no deberías utilizar Privacy Badger también.
+
+h3. Complementos avanzados
+
+Estos complementos son para usuarios avanzados por su complejidad de uso o porque causan mal funcionamiento en muchos sitios web.
+
+Estos complementos buscan solucionar fallas de privacidad básicas en el funcionamiento del navegador. Sin embargo, muchos sitios web dependen de estas fallas de privacidad para su correcto funcionamiento, así que intentar solucionarlas pueden ocasionar que éstos sitios web no funcionen.
+
+Algunas de estas fallas de privacidad incluyen:
+
+* *HTTP Referrer:* Cuando haces click en un link, tu navegador envía la ubicacion de la antiguo sitio web al nuevo. Como información sensible o de identificación personal pueden ser incluida en el URL de una página en particular, el HTTP Referrer debería estar deshabilitado. Solo puedes deshabilitarlo con un complemento.
+* *HTTP User-Agent:* Tu navegador web envía una cadena de "user agent" (agente de usuario) especial a cada sitio web que visita. Esta cadena contiene mucha información poco común que, junto con otros datos, puede ser utilizado para identificar tu tráfico de forma única. Ésta huella digital de navegador tiene poco sentido hoy en día, y es mejor utilizar un valor genérico, como el del navegador Tor.
+* *HTML5 Canvas:* Muchos sitios web han comenzado a utilizar Canvas de HTML5 para dar una huella única a tu navegador y rastrear tu navegación. Por el momento no hay forma de deshabilitar esto, aunque algunos componentes hacen el intento.
+* *JavaScript:* Javascript es esencial para la mayoría de los sitios web hoy en día, pero hay momentos en los que talvez quieras deshabilitarlo. Cuando Javascript está habilitado, es mucho más fácil para un sitio web rastrear tu navegación. Además, la mayoría de las vulnerabilidades de seguridad de los navegadores son causadas por Javascript.
+
+Para Firefox:
+
+* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] limpia todas las cookies de un sitio web cuándo todas las ventanas de ese sitio se han cerrado (en lugar de requerir que reinicies tu navegador).
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] permite deshabilitar Javascript, plugins u otros recursos de forma selectiva y controlar recursos de terceros. También incluye extensas características de privacidad, como enmascaramiento de agente de usuario. Efectivamente reemplaza NoScript y RequestPolicy.
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/]] permite modificar el agente de usuario HTTP.
+* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] permite deshabilitar el soporte de HTML5 Canvas para sitios web en particular.
+
+Para Chrome:
+
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] permite deshabilitar Javascript, plugins y otros recursos de forma selectiva y controlar recursos de terceros. También incluye extensas características de privacidad, como enmascaramiento de agente de usuario. Efectivamente reemplaza NoScript y RequestPolicy.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] permite modificar el agente de usuario HTTP.
+* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] bloquea la mayoría de las obtenciones de huellas por parte de HTML5 Canvas (no es de código abierto).
+
+h3. Peligroso o no recomendado
+
+A pesar de su popularidad, recomendamos que no utilizes los siguientes complementos:
+
+* [[Adblock Plus => https://adblockplus.org/]] solía ser el mejor complemento para bloquear anuncios y rastreo. Sin embargo, ahora manejan <---
+* [[Disconnect => https://disconnect.me/disconnect]] funciona como uBlock, y es de código abierto. Si utilizas uBlock, Disconnect es innecesario, sin embargo tiene características de visualización que uBlock no.
+* [[Ghostery => https://www.ghostery.com]] funciona como uBlock, pero tiene horribles funcionamientos por defecto que permiten el rastreo, además de que es propietario.
+* Flash Block (Firefox) es un complemento que te permite dar 'click para reproducir' Flash. Es preferible desinstalar Flash. Además, esta funcionalidad ya está incluida.
+* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] era necesario en el pasado para remover LSO o "cookies de Flash", pero desde el ... de [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], ya no es necesario.
+* TrackMeNot genera tráfico de busqueda falso. Es una idea interesante, pero es mucho mejor sólo utilizar DuckDuckGo.
+
+h2. Verificar las huellas digitales de certificado de Riseup.
+
+En el internet, un certificado es necesario para identificar a las personas o computadoras. Estos certificado también son llamados certificados SSL o certificados de identidad. Aquí sólo los llamaremos certificados.
+
+Los certificados son necesarios para establecer conecciones seguras. Sin certificados, serías capaz de saber que nadie más escuchaba, pero en conjunto podrías estar comunicandote con la computadora equivocada. Todos los servidores y servicios de riseup.net permiten o requieren conecciones seguras.
+
+Para estar seguro de que te estas comunicandote con Riseup de forma segura, ver [[cómo verificar los certificados de Riseup => /security/certificates]].
+
