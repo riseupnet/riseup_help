@@ -5,7 +5,7 @@
 
 h2. 欢迎
 
-欢迎访问riseup.net电子邮箱列表帮助！在这里你能够找到有关电子邮箱列表（https://lists.riseup.net）的信息。
+欢迎访问riseup.net电子邮箱列表帮助！在这里你能够找到有关电子邮箱列表(https://lists.riseup.net)的信息。
 
 请注意，关于电子邮件账户的帮助，请查看[[email]]帮助页面。
 
@@ -23,11 +23,11 @@ h2. 列表管理
 h2. 列表用户
 
 * [[怎样更改订阅地址？ => list-user/accounts#how-do-i-change-my-subscription-address]]
-* [为什么我到 riseup列表的电子邮件被当作垃圾邮件阻止了？ => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[为什么我到 riseup列表的电子邮件被当作垃圾邮件阻止了？ => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
 * [[所有的热门用户问题 => list-user]]
 
 h2. 关于电子邮箱列表
 
-Riseup电子邮箱列表（https://lists.riseup.net）只通过您的捐赠来运转。如果您希望我们保持运行，不妨[[donate]]!
+Riseup电子邮箱列表(https://lists.riseup.net)依赖您的捐赠来运转。如果您希望我们保持运行，不妨立即向我们[[donate]]!
 
-电子邮箱列表使用基于 GNU 协议（https://www.gnu.org/philosophy/free-sw.html）的软件，包括 Sympa Mailing List Manager（http://www.sympa.org/），Apache 服务器（https://httpd.apache.org/），debian GNU/Linux 操作系统（https://www.debian.org）和 Perl 编程语言（http://www.perl.org）。
+电子邮箱列表使用基于 GNU 协议(https://www.gnu.org/philosophy/free-sw.html)的软件，包括 Sympa Mailing List Manager(http://www.sympa.org/)，Apache 服务器(https://httpd.apache.org/)，Debian GNU/Linux(https://www.debian.org) 和 Perl(http://www.perl.org)。
