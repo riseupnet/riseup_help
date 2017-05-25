@@ -31,7 +31,6 @@ Nachrichten in einigen [[speziellen Ordnern => email-folders]] werden automatisc
 
 * Nachrichten im Ordner *Papierkorb* werden nach 21 Tagen gelöscht.
 * Nachrichten im Ordner *Spam* werden nach 7 Tagen gelöscht.
-* Nachrichten im Ordner *Gesendet* werden nach 120 Tagen gelöscht.
 
 h3. Speicherplatz
 
