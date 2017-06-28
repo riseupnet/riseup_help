@@ -42,11 +42,9 @@ Supposons que votre adresse courriel est [@joehill@riseup.net@]:
 * Login ou identifiant : @joehill@
 * Utiliser connexion sécurisée : @oui@ (TLS ou StartTLS)
 
-La [[connexion sécurisée -> secure-connections]] peut-être de type TLS ou StartTLS. Pour des raisons de sécurité, nous ne supportons plus SSL.
+h2. Améliorer la sécurité de vos courriels
 
-*Remarque :* N'activez pas *mots de passe sécurisés* ou *authentification sécurisée*. Elles sont quelque peu mal nommées. Ces méthodes pour spécifier des mots de passe nécessitent que le serveur courriel garde une copie en clair de votre mot de passe. Nous considérons que c'est un risque de sécurité, donc nous ne permettons pas les "mots de passe sécurisés." Comme la connexion à riseup.net est chiffrée de toute façon, ce n'est pas nécessaire.
-
-*Remarque pour Tor :* Le port SMTP 465 est souvent bloqué par les nœuds de sortie, mais le port 587 est moins fréquemment bloqué. Si vous avez un problème pour envoyer un courriel, essayez 587.
+<%= render :partial => 'enhance-security.fr' %>
 
 h2. Utiliser Thunderbird
 
