@@ -221,6 +221,8 @@ There is a handy tool that will perform the key checks below for you. You can ge
 
 bc. sudo apt-get install hopenpgp-tools
 
+Note: @hopenpgp-tools@ currently does not work with GnuPG version 2.1 and up. This is because GnuPG version 2.1 and up store both your public and private key in @~/.gnupg/pubring.kbx@. @hkt@ expects to find your public key in @~/.gnupg/pubring.gpg@ and will give an error message if you are using GnuPG version 2.1 and up.
+
 To run these tests with the tool, you can do the following:
 
 bc. hkt export-pubkeys '<fingerprint>' | hokey lint
