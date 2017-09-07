@@ -39,6 +39,8 @@ p. Now your interactions with the keyserver will be encrypted via hkps, which wi
 
 _Note:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net all offer this (although it is recommended that you use a pool instead).
 
+bq. Note that this is the default starting with GnuPG 2.1.18 (at least).
+
 h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
 When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.gnupg/gpg.conf@, which will ignore such designations:
