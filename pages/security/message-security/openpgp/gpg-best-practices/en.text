@@ -153,6 +153,8 @@ bc. gpg --output revoke.asc --gen-revoke '<fingerprint>'
 
 This will create a file called revoke.asc. You may wish to print a hardcopy of the certificate to store somewhere safe (give it to your mom, or put it in your offsite backups). If someone gets access to this, they can revoke your key, which is very inconvenient, but if they also have access to your private key, then this is exactly what you want to happen.
 
+bq. Note that this is done by default in newer releases of GnuPG (e.g. 2.1 and above).
+
 h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
 
 This is done by default in GnuPG 1.4.18 (and maybe earlier) and above. If you created your key with older implementations of OpenPGP, you may need to create new subkeys like you would do for signing, below.
