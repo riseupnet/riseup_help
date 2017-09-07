@@ -5,6 +5,8 @@ h2. How to use this guide.
 
 We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the @gpg.conf@ file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
 
+Also note that this guide was written for legacy versions of GnuPG (1.4) and may contain recommendations that are redundant with default settings in newer releases of GnuPG (2.1 and above). A [[review is in progress->https://github.com/riseupnet/riseup_help/issues/451]] to make sure the guide is up to date. You can help by [[submitting changes->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]] yourself.
+
 h2. Use free software, and keep it updated.
 
 Information security is too important to leave to proprietary software. You should use a free OpenPGP implementation, and keep it up-to-date. The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system. It is not enough to install GnuPG and forget about it, though. You *must* keep it up to date so that critical security flaws are fixed. All software has bugs, and GnuPG is no exception. If you are running:
@@ -225,7 +227,7 @@ There is a handy tool that will perform the key checks below for you. You can ge
 
 bc. sudo apt-get install hopenpgp-tools
 
-Note: @hopenpgp-tools@ currently does not work with GnuPG version 2.1 and up. This is because GnuPG version 2.1 and up store keys in a different format, called keybox files (e.g. @~/.gnupg/pubring.kbx@). @hkt@ expects to find your public key in @~/.gnupg/pubring.gpg@ and will give an error message if you are using GnuPG version 2.1 and up.
+Note: @hopenpgp-tools@ currently does not work with GnuPG version 2.1 and up. This is because GnuPG version 2.1 and up store both your public and private key in @~/.gnupg/pubring.kbx@. @hkt@ expects to find your public key in @~/.gnupg/pubring.gpg@ and will give an error message if you are using GnuPG version 2.1 and up.
 
 To run these tests with the tool, you can do the following:
 
