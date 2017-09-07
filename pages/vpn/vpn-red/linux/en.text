@@ -3,10 +3,6 @@
 
 h1. Installation
 
-h2. KDE
-
-_To be written... [[by you? -> https://github.com/riseupnet/riseup_help ]]_
-
 h2. Gnome
 
 To install the necessary software, open a terminal (Accessories > Terminal) and type these commands:
@@ -68,17 +64,27 @@ h2. Command Line
 
 If you don't want to use a graphical interface, you can run OpenVPN from the command line.
 
+First install it:
+
 <code>
-$ sudo openvpn riseup.ovpn
+$ sudo apt install openvpn resolvconf
 </code>
 
-[[Here is a minimal riseup.ovpn configuration file => https://riseup.net/vpn/vpn-red/riseup.ovpn]].
+Download the [[Riseup CA Certificate => /security/network-security/riseup-ca/RiseupCA.pem]] and place it in /etc/openvpn.
 
-Have a look at the file, there are some things in there that you need to change. @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
+Download [[this script for updating the resolver => https://riseup.net/vpn/vpn-red/update-resolv.conf]] and place it in /etc/openvpn/update-resolv.conf
+
+Then you need to download the [[configuration file => https://riseup.net/vpn/vpn-red/riseup.ovpn]] and you need to change it for your credentials. The @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
 
 In order for openvpn to create the tun device it must be started as user root. However, it will change to the user and group you specify. For @user@ and @group@ options, you can replace with your username or make auth.txt and RiseupCA.pem readable by @nobody@. Alternately, you can leave off those options to run openvpn as root.
 
 For more options, see @man openvpn@.
+
+Then you simply need to run it like this:
+
+<code>
+$ sudo openvpn riseup.ovpn
+</code>
 
 h3. Testing via the command line
 
@@ -98,21 +104,3 @@ $ nmcli connection list | grep vpn
 #connect to the VPN
 $ nmcli connection up id <Name of your VPN Connection>
 </code>
-
-
-h3. Automatically update resolv.conf
-
-When running OpenVPN from the command line, it will not modify your DNS settings. You really want to use the DNS of the VPN, because then your DNS queries take place over an encrypted connection and they are not logged.
-
-The following custom script can be used to make @openvpn@ automatically update the DNS correctly. The values for DNS that the VPN server specifies are stored in environment variables, so this custom script will grab these variables and use them to set your DNS.
-
-requirements:
-
-# @$ sudo apt-get install resolvconf@
-# in your riseup.ovpn configuration, make these changes
-<pre>
-script-security 2
-up /etc/openvpn/update-resolv-conf
-down /etc/openvpn/update-resolv-conf
-</pre>
-# Download [[this script => https://riseup.net/vpn/vpn-red/update-resolv.conf]] and place it in /etc/openvpn/update-resolv.conf
