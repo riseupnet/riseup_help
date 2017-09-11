@@ -8,11 +8,9 @@ h2. Installation
 
 And install it by double clicking it's icon.
 
-If you are using the latest OSX version (currently Sierra), you will need to install the beta version of tunnelblick (Jan 2017).
+h2. Download the Riseup configuration
 
-h2. Download the Riseup Configuration
-
-After installing, please download the [[riseup.tblk.zip => riseup.tblk.zip]] file, containing the VPN Red configuration. Uncompress and install it by double clicking on it.
+After installing tunnelblick, please download the [[riseup.tblk.zip => riseup.tblk.zip]] file, containing the VPN Red configuration. Uncompress and install it by double clicking on it.
 
 h2. Connecting
 
