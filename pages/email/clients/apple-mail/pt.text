@@ -1,0 +1,114 @@
+@title = 'Apple Mail'
+
+!>img/apple.mail.jpg!
+
+*Apple Mail*, também conhecido como *mail.app* ou simplesmente *Mail*, é um proprietário cliente de e-mail completo que vem com o OS X. É bonito e fácil de usar, mas nós não recomendamos usá-lo por que não é um Software Livre e de Código Aberto.
+
+Se você quer usar o Apple Mail, então você pode seguir as nossas instruções aqui. A primeira coisa que precisa ser determinada antes de configurar o Apple Mail é [[decidir se você usará IMAP ou POP => email/clients#choose-imap-or-pop]]. Se você não tem certeza, você provavelmente quer IMAP.
+
+h1. Reforce sua Segurança
+
+<%= render :partial => 'enhance-security' %>
+
+h2. Usar OpenPGP com Apple Mail
+
+# Baixe a última versão do "GPG Tools":https://gpgtools.org/
+# Instale o pacote
+# Você conseguirá usar o GPG e ele estará incorporado ao Apple Mail.
+
+h1. Adicionando uma Conta POP
+
+_Nos desculpe, mas esta página não foi escrita. "Você pode ajudar escrevendo esta página":https://github.com/riseupnet/riseuphelp_
+
+h1. Adicionando uma Nova Conta IMAP
+
+h2. Criando um Usuário pela Primeira Vez
+
+<i>Se você já está usando um e-mail, veja "usuário existente":#existing-user abaixo.</i>
+
+Na primeira vez que você iniciar o Mail, uma janela aparecerá solicitando as suas informações de conta:
+
+!img/welcomeimap.gif!
+
+# Digite seu nome.
+# Digite seu endereço de e-mail completo, exemplo: joe_hill@riseup.net.
+# Digite "mail.riseup.net" em "incoming" e em "SMTP servers".
+# Selecione o tipo de conta "IMAP".
+# O seu nome de usuário é a parte do seu e-mail antes do símbolo @, neste caso, "joe_hill".
+# <b>Muito IMPORTANTE!</b> <u>Não</u> digite a sua senha! Por quê? Porque ela será transmitida sem criptografia pela internet e alguém poderia pegá-la de você. Nós precisamos configurar algumas coisas antes para que ela possa ser criptografada. Digite uma senha <u>incorreta</u> aqui. Ocasionalmente você terá uma janela requisitando a sua senha na tentativa de checar seu e-mail. Ignore-a até finalizar a configuração de conexões seguras. Apenas cancele quando essas mensagens aparecerem.
+# Selecione "OK".
+
+Uma mensagem de erro aparecerá, apenas clique em continue:
+
+!img/loginerror.gif!
+
+h2.  Usuário Existente
+
+<i>Esta seção é para adicionar uma conta caso você já esteja usando o Apple Mail. Usuários que configuraram uma conta na seção "Criando um Usuário pela Primeira Vez":#first-time-user devem passar para a próxima seção.</i>
+
+!img/accountinfoimap.gif!
+
+# Selecione *Mail* > *Preferências...* no menu.
+# Selecione a aba *Contas*.
+# Clique no botão <b>+</b> no canto inferior esquerdo da tela.
+# Para o tipo de conta, selecione *IMAP*.
+# Digite uma descrição (pode ser qualquer coisa, sugerimos o seu endereço de e-mail).
+# Digite o seu endereço de e-mail completo, exemplo: joe_hill@riseup.net.
+# O seu servidor de entrada é mail.riseup.net.
+# O seu nome de usuário é a parte do seu e-mail antes do símbolo @, neste caso, "joe_hill".
+
+h1. Gerenciando Configurações de Conta
+
+!img/preferences.gif!
+
+Nesta seção, assumimos que você esteja com a janela preferências aberta. Então:
+
+# Selecione *Mail* > *Preferências...* no menu.
+
+h2.  Configurar Criptografia para Recebimento de E-mail
+
+# Clique em *Contas* e selecione a sua conta de e-mail riseup
+# Agora selecione a aba *Avançado*
+!img/imapadvancedsettings.png!
+# Clique em "Sincronizar automaticamente as caixas de correio alteradas"
+# Clique em "Usar SSL"
+
+<i>Nota: Se você tiver problemas para receber e-mail, tente usar a porta 993 ao invés da 143.</i>
+
+h2.  Configurar Criptografia para Envio de E-mail
+
+# Clique em "Informação da Conta"
+!img/serversettingsclickimap.gif!
+# Verifique se o servidor SMTP está como mail.riseup.net
+<i><u>Nota para usuários de e-mail existentes:</u> Você precisará selecionar "Adicionar Servidor" nas opções SMTP do menu.</i>
+# Se estiver, selecione "Configurações do Servidor"
+!img/smtp.gif!
+# Em *Porta do Servidor*, coloque 587.
+# Selecione *Use Secure Socket Layer (SSL)*.
+# Marque *Autenticação* para *Senha*
+# Agora, digite o seu nome de usuário e a sua senha <b>corretamente</b>.
+# Selecione *OK*.
+
+<i>Nota: Se você tiver problemas para enviar e-mail, tente usar a porta 465 ao invés da 587.</i>
+
+Para mais informações na configuração de servidores de saída, veja [[smtp]].
+
+h2.  Configuração Completa!
+
+!img/accountinfoimap.gif!
+
+Agora, simplesmente digite a sua senha <b>correta</b> na caixa de senha. A sua senha será criptografada quando enviada ao servidor riseup para receber e enviar e-mails.
+
+h1.  Configurando Pastas
+
+A configuração padrão salvará os seus e-mails enviados, rascunhos e lixo na sua máquina local ao invés do servidor. Se você quiser salvá-los no servidor, siga estas etapas:
+
+# Expandir a pasta abaixo da sua conta mail.riseup.net no lado esquerdo da tela, para expor todas as pastas.
+# Selecionar as pastas relevantes (exemplo: "Lixo", "Enviadas", "Rascunhos").
+<<<<<<< HEAD
+# Selecionar o menu "Caixa de Correio", selecionar "Usar esta caixa de correio para" e então selecionar a correspondente.
+=======
+# Selecionar o menu "Caixa de Correio" e selecionar "Usar esta caixa de correio para" e então selecionar a correspondente. 
+>>>>>>> 266bdb20a56452466570861ffc399bedf6708db0
+# Repetir para as outras caixas de correio.
+
