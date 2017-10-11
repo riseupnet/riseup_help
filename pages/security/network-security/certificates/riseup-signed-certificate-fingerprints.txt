@@ -1,61 +1,33 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+As of October 11, 2017, the following are the fingerprints for Riseup's certificates:
 
-As of May 29, 2017, the following are the fingerprints for Riseup's
-certificates:
-
-!!! NOTE: This following certificate is now an auto-renewed Let's Encrypt
-    certificate, it will be renewed in approximately 3 months and we will cease
-    to list its fingerprint here
-!!!
-.  help.riseup.net
-	SHA-256 fingerprint:
-	      4df80dbf1c44d4a4edc8fdf000afec2093fe2ed7e3be5495749227d646347f5c
-        SHA-1 fingerprint:
-              f8bd3869d4f879cacc524860a176fa997ea73a88
-
-!!! NOTE: This following certificate is now an auto-renewed Let's Encrypt
-    certificate, it will be renewed in approximately 3 months and we will cease
-    to list its fingerprint here
-!!!
-. riseup.net
-      SHA-256 fingerprint:
-              9c03fbef8e9c0c33ad604214abff0c1418278eec2e7919ecc943077fb4d8da25
-      SHA-1 fingerprint:
-              4c67b75e91037d96af97009cfe7a931135af4301
-
-!!! NOTE: This following certificate is now an auto-renewed Let's Encrypt
-    certificate, it will be renewed in approximately 3 months and we will cease
-    to list its fingerprint here
-!!!
-. www.riseup.net
-      SHA-256 fingerprint:
-              c760ccc1bed90d26eaa514a3d8b83791c2b1db871cfc43e66442e9ccd499a53f
-      SHA-1 fingerprint:
-              b93def89e3602c4276e685875c1fdfcb93df9f65
-              
  .  *.riseup.net, riseup.net
         SHA-256 fingerprint:
-                101c50eb4d4ac4cb9633c4de10c09c5fbee46801c023d48d2dfe0b02e27eedc0
-	SHA1 fingerprint:
-		86a010ddba262196d7f6f1f47ae03032f9031c32
+                ab1757631d84ba6f77cc0784fcbdccedd6268c217dbe625d53aa976d1de74123
 
+
+!!! 
+NOTE: Certificates for help.riseup.net, riseup.net and www.riseup.net are
+auto-renewed Let's Encrypt certificates. They are renewed approximately 3
+months and we do not list their fingerprints here 
+!!!
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlksortfFIAAAAAALgAo
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlnebVxfFIAAAAAALgAo
 aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
 MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do5T2g//SQdy0R7VQzl0p83VqaZsc0sIaadpDuvl2bSy4l41SAtabLffIUrszPnG
-qrp2qqwRUjgH3BtGeoDTRbWKjvJA8+gSRer65GKYwi62eUMFRNH6+HdfdAnp+Aju
-VjUmcIjsU2AllZ2tFQ5hzH7wNRPzIns/XNQ0I9Pt3ebx+S9BcUMr1Tp+hdwgPCwL
-NGZrhDWqFVZ+Owmz2lq6yFHh8cw8BSiRQBdzesZ8JrbA68xzI1zXbFiMKfVhxwSN
-k7+PrkAirDOaFgudHNqGHvThFzbunCuGQ3XwEORqqWixTENZb2wF1k3HbzM2KofP
-t9VTM7F2uijCwELtIb/YmVWzEk6H3QtMonNCG46vHmPfcEwHB95gIQ8br/Q7qMnq
-bDijGo3ycncgaHOKfu9+dGVOWWSO6iiEnP5dykeDE+CttLRZlADaIKHKWbkuDEyq
-1JKrET8NDN6ymdqDJO05ZGICHajqtMi0A7FwixDW7TbRzaBQ8rvvWXMzZ6nkzvKw
-NKQ7IWHWx7W0KkKXQ0+REtHmts3mzX7e6lqn0rbACtOl8AA76GnaNS2e+xnC2YLm
-gjgtV+JDQPmeYsufI3Y6r3/AYt9uQdkputgbfwOFfDTYz98jKaavZ/fokzojCG99
-DQnLuRyvesN1NXpsb6AcjMQHE5XeKgac2gdjgWCP0ez1prR632U=
-=KEoA
+do57Gg//TDr/S7miVmvm1OSuXk6ZGmSLVbcqCozNurGLkavSlao70EfX7t2vPlHP
+LufrBZaSMTAYhZcSQA/SaaVJbOfaByr1ECk4Y+d2Hocm0/kDdYkrE3MgQTiSV/3R
+w8hFxbi7OLP3Ao3XI+NMpIFy0W5PJ+EsvbiIFyV2obN3iDRCd4XdwI+Xjqdaooni
+ZsohuH6jyo9LF5NH8cVchVZGCGE79Nr++C37bXkKbarWkCM1DAIrzd/Mm8mVB8Do
+Ff7vN3d+3udIU5ztb6mtmPcv95icmqvqz2ca1o3617MbWytvZnqjSWDLahIz9LsM
+/1lF5sJ9e9mZ4yL7OInp+tQQzKjbt/ee5KyjvtX3ZRjT8+Szsz5KIH14DcaDsJ15
+OTyn+Mm/CqdqtW34cKRebhJA2wcZgkOxmlJuGrMGG9+5SNB7BOmpLADTTXUTeabc
+/uERTiFVfcJnhEsAnLnX64dQUqtjVtBIPrGQLHxvYVItXunOw0bt90V7tK7RYRno
+NyRDEEhddVfD/RSs6LbrAACC/7rL8LI8UaZ3tF/xo+ohFD2psfqMzaKQuIBMi2+z
+T2qGdKFqKLy4VZAoYd3Ig5d3cWTMryKcG3qV6qkJn4yDVEXsHEeWFJLS2zgQNFiu
+8A3jUP6cC+weksZezE7AUZv05HVWpRiH0Hw0KpQtv0EczUsxg7k=
+=Hwd9
 -----END PGP SIGNATURE-----
