@@ -1,7 +1,7 @@
 red_title: "Riseup Red"
-red_info: "Nous fournissons des comptes <b>Riseup Red</b> pour les services,
-    traditionnels incluant [[email]] (IMAP), [[chat]] (XMPP)i et [[vpn]]."
-red_webmail: "[[Connexion au client mail web => https://mail.riseup.net]]"
+red_info: "Nous fournissons des comptes <b>Riseup Red</b> pour les services
+    traditionnels incluant [[email]] (IMAP), [[chat]] (XMPP) et [[vpn]]."
+red_webmail: "[[Connexion au client courriel web => https://mail.riseup.net]]"
 red_support: "Obtenez de l'aide pour le service [[email]], le [[chat]], and [[vpn]]."
 red_settings: "[[Modifiez vos préférences => https://account.riseup.net]]"
 red_request: "[[Demandez un compte => https://account.riseup.net/user/new]]"
@@ -10,7 +10,7 @@ red_help: "[[Créez une demande d'aide Riseup Red => https://support.riseup.net/
 
 black_title: "Riseup Black"
 black_info: "Nous fournissons des comptes <b>Riseup Black</b> pour les nouveaux services
-    qui nécessite l'utilisation de l'application Bitmask. Présentement, il s'agit du VPN et
+    qui nécessitent l'utilisation de l'application Bitmask. Présentement, il s'agit du VPN et
     les emails avec encryption bout-à-bout seront bientôt disponible."
 black_vpn: "[[Obtenez de l'aide pour le VPN => vpn]]"
 black_settings: "[[Modifiez vos préférences => https://black.riseup.net]]"
@@ -20,26 +20,26 @@ black_help: "[[Créez une demande d'aide Riseup Black => https://support.riseup.
 other_title: "Autres Services"
 other_info: "The following services each use independent accounts which are not
   tied to Riseup Red or Riseup Black."
-other_info: "Les services suivants utilisent des comptes indépendant qui ne
-    sont pas liés à Riseup Red ou Riseup Black"
+other_info: "Les services suivants utilisent des comptes indépendants qui ne
+    sont pas liés à Riseup Red ou Riseup Black."
 
 lists_title: "Listes de Courriel"
 lists_info: "Nous fournissons des listes de courriel pour les organisations militantes."
-lists_login: "[[Connectez-vous aux Listes => https://lists.riseup.net/www/]]"
-lists_help: "[[Obtenez de l'aide sur les listes=> lists]]"
+lists_login: "[[Connectez-vous aux listes => https://lists.riseup.net/www/]]"
+lists_help: "[[Obtenez de l'aide pour les listes=> lists]]"
 lists_request: "[[Demandez une liste => creating-lists]]"
 lists_subscribe: "[[Abonnez-vous => subscribing]]"
 lists_unsubscribe: "[[Désabonnez-vous => subscribing]]"
 
 collab_title: "Collaboration"
-we_info: "Wiki privé et collaboration en groupe."
-pad_info: "Éditeur de texte collaboratif en temps réel."
-share_info: "Téléverssement de fichier (pastebin et imagebin)."
+we_info: "wiki privé et collaboration en groupe."
+pad_info: "éditeur de texte collaboratif en temps réel."
+share_info: "téléverssement de fichier (pastebin et imagebin)."
 
 resources_title: "Ressources"
-security_info: "Ressources et tutoriels sur les façon de communiquer plus sécuritairement"
+security_info: "Ressources et tutoriels sur les façons de communiquer plus sécuritairement"
 help_link: "[[Panneau d'aide Riseup => https://support.riseup.net/fr/topics/new]]"
-help_info: "Pour nous posez une question, utilisez le formulaire qui se trouve
+help_info: "Pour nous poser une question, utilisez le formulaire qui se trouve
     dans le panneau d'aide pour créer une demande d'aide. Mais avant tout,
     prenez le temps de lire et de chercher dans la documentation présente sur ce site."
-servers_info: "Un répertoire de dizaines de projets radicals d'hébergements à travers le monde."
+servers_info: "Un répertoire de dizaines de projets radicaux d'hébergement à travers le monde."
