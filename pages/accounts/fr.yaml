@@ -34,7 +34,7 @@ lists_unsubscribe: "[[Désabonnez-vous => subscribing]]"
 collab_title: "Collaboration"
 we_info: "wiki privé et collaboration en groupe."
 pad_info: "éditeur de texte collaboratif en temps réel."
-share_info: "téléverssement de fichier (pastebin et imagebin)."
+share_info: "téléversement de fichier (pastebin et imagebin)."
 
 resources_title: "Ressources"
 security_info: "Ressources et tutoriels sur les façons de communiquer plus sécuritairement"
