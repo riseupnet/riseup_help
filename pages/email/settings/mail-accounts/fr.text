@@ -1,46 +1,51 @@
 @title = "Comptes courriel"
 
-h2. Comment faire pour créer un compte courriel?
+h2. Comment faire pour créer un compte courriel ?
 
-Il y a deux manières de faire:
+Les "comptes Red" sont nécessaires pour les courriels, le chat, le VPN et le service d'assistance.
 
-# "Faites-en la demande":https://account.riseup.net/, ou...
-# Obtenez des codes d'invitation de deux amis
+Pour créer un compte Red vous avez besoin d'une invitation :
 
-Il nous est parfois difficile de gérer l'ensemble des demandes que nous recevons. Cela peut donc prendre quelque semaines avant que vous ayez des nouvelles de notre part. Si vous connaissez deux personnes différentes utilisant riseup.net, vous pouvez utiliser la méthode des invitations et votre compte sera créé immédiatement. Vous ne devriez demander des codes d'invitation qu'aux personnes que vous connaissez personnellement.
+# Obtenez un *code d'invitation* par un·e ami·e. Les codes d'invitation peuvent être créés en se connectant sur https://account.riseup.net
+# Utilisez le *code d'invitation* en visitant https://account.riseup.net pour créer votre compte.
 
-h2. Comment changer mon nom d'utilisateur?
+Quelques remarques :
 
-# Connectez-vous au https://account.riseup.net.
+* Vous n'avez besoin que d'une invitation.
+* Les comptes nouvellement créés ne peuvent pas créer de code d'invitation.
+* À cause d'un grand nombre de demandes de spammeurs et d'arnaqueurs pour obtenir des comptes Riseup, nous avons été forcés d'utiliser les codes d'invitation pour tous les nouveaux comptes. Nous savons que c'est nul. Comme nous ne demandons pas de numéro de téléphone ou des informations de facturation, nous avons besoin d'un autre moyen pour éviter des abus.
+
+h2. Comment changer mon nom d'utilisateur ?
+
+# Connectez-vous à https://account.riseup.net.
 # Cliquez sur "Mes paramètres".
 # Changez votre nom d'utilisateur.
 # Cliquez sur "Sauvegarder".
 
 Il a des choses importantes à savoir avant de changer votre nom d'utilisateur:
 
-* Vos carnets d'adresse sur roundcube et squirrelmail seront perdus. Si vous souhaitez conserver vos carnets d'adresse pour ces interfaces en ligne, vous devez faire ceci:
+* Vos carnets d'adresse sur roundcube et squirrelmail seront perdus. Si vous souhaitez conserver vos carnets d'adresse pour ces interfaces en ligne, vous devez faire ceci :
 
 # exportez le carnet d'adresse vers un fichier à partir de roundcube ou squirrelmail.
 # changez votre nom d'utilisateur
 # importez votre fichier de contacts dans roundcube ou squirrelmail.
 
 * Après avoir modifié votre nom d'utilisateur, vous devriez probablement ajouter votre ancien nom comme alias de votre compte. De cette manière, vous ne manquerez pas de courriels. Si vous changez votre nom d'utilisateur pour éviter le spam, sautez cette étape.
-* Une fois votre nom d'utilisateur modifié, utilisez le pour vous connecter au mail.riseup.net.
+* Une fois votre nom d'utilisateur modifié, utilisez le pour vous connecter à mail.riseup.net.
 
-h2. Comment puis-je supprimer mon compte?
+h2. Comment puis-je supprimer mon compte ?
 
-Suivez simplement ces étapes:
+Suivez simplement ces étapes :
 
-# Connectez-vous au https://account.riseup.net.
+# Connectez-vous à https://account.riseup.net.
 # Cliquez sur "Fermer mon compte courriel".
 
-h2. Comment changer ou supprimer mon adresse courriel alternative?
+h2. Comment changer ou supprimer mon adresse courriel alternative ?
 
 Nous préférerions ne pas garder une de vos adresses courriels alternatives. Cependant, cette adresse alternative est en ce moment la seule manière de réinitialiser un mot de passe oublié. 
 
-Pour changer cela:
+Pour changer cela :
 
-# Connectez-vous au https://account.riseup.net.
+# Connectez-vous à https://account.riseup.net.
 # Cliquez sur "Mes paramètres".
-# Changez ou supprimez ce qui est dans le champs 'Courriel alternatif'.
-
+# Changez ou supprimez ce qui est dans le champ 'Courriel alternatif'.
