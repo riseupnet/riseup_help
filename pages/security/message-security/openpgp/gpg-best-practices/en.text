@@ -111,7 +111,7 @@ h3. Use a strong primary key.
 
 Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]].
 
-It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
+It is recommend to make a 3072-bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
 
 Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
 
@@ -243,13 +243,15 @@ To determine if your key is a V3 key you can do the following:
 
 bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
 
-h4. primary keys should be DSA-2 or RSA (RSA preferred), ideally 4096 bits or more.
+h4. primary keys should be RSA, ideally 3072 bits.
 
-To check if you are using DSA-2 or RSA, you can do this:
+To check if you are using RSA, you can do this:
 
 bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
 
-If the reported algorithm is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
+If the reported algorithm is 1, you are using RSA.
+
+ If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
 
 If the reported algorithm is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
 
