@@ -23,7 +23,7 @@ h3. Create and export an OpenPGP Public/Private Key pair
 # Enter your email and the name you would like to be associated with the key. This doesn't need to be your real name.
 # Select advanced options.
 # Encryption type should be RSA.
-# Key strength should be 4096.
+# Key strength should be 3072.
 # Expiration date should be within less then two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-best-practices#use-an-expiration-date-less-than-two-years]].
 # Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it for, including emails, will be permanently inaccessible.**
 # The computer will now generate the key, which may take some time. After this, you will have an OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface or the command line.
@@ -100,7 +100,7 @@ bc. Please select what kind of key you want:
 
 Select the type of key you want. **RSA and RSA** is the recommended type. **(sign only)** keys cannot be used for encryption.
 
-Next, enter the key size you want. **4096** is recommended.
+Next, enter the key size you want. **3072** is recommended.
 
 bc. What keysize do you want? (2048)
 
