@@ -3,7 +3,9 @@
 
 p(alert alert-danger). March 2017. We deployed changes to our VPN Red which may need adjustments in your client to work. [[Please check the changes -> #configuration-in-a-nutshell]].
 
-h2. A word of caution
+h2. Words of caution
+
+*NOTE!* Are you using a Mac, Linux, or Android? If so, then please use [[the Black VPN->vpn-black]]. VPN Red is not as secure, and we are deprecating it!
 
 *Note!* When you connect to the internet through the VPN Red you are bypassing any firewalls on your local network. Your computer will get its own IP address on the open internet. This is great, because that way your computer can communicate freely with others without getting blocked. However, bypassing the local firewall also means that your computer is more vulnerable to attack. Therefore, you should enable a [[firewall on your computer -> /security/device-security#personal-firewall]].
 

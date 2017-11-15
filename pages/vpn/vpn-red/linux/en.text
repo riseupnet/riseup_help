@@ -3,6 +3,10 @@
 
 h1. Installation
 
+h2. Don't use this, if you do not have to!
+
+*NOTE:* If you came here because you want to use the Riseup VPN on Linux, then you should instead [[go here->vpn-black]] and use VPN Black. The only reason to use the following instructions is if for some reason Bitmask does not work on your Linux version! The Bitmask application is available as packages for supported versions of Debian and Ubuntu as well as stand-alone bundles that will work for other distributions. Yes, there is a command-line version as well!
+
 h2. Gnome
 
 To install the necessary software, open a terminal (Accessories > Terminal) and type these commands:
