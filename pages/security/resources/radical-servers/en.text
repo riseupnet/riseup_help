@@ -88,6 +88,24 @@ h2. cybrigade / espiv.net
 * Blogs
 * Greek / English language
 
+h2. Disroot
+
+[[Disroot->https://disroot.org]] is a project and non-profit foundation based in Amsterdam. It is maintained by volunteers and depends on the support of its community. Disroot is a collection of tools to communicate, share, and organize that are open, decentralized, federated, and respectful towards freedom and privacy.
+
+Currently the following services are provided:
+
+ * Email (2GB quota; RainLoop webmail, IMAP)
+ * File hosting (4GB NextCloud, Lufi)
+ * Social networking (Diaspora)
+ * Forum (Discourse)
+ * Messaging (XMPP, Matrix)
+ * Pad (Etherpad)
+ * Pastebin (PrivateBin)
+ * Search engine (Searx)
+ * Polls (Framadate)
+ * Project management (Taiga)
+ * Spreedsheet (EtherCalc)
+
 h2. Framasoft
 
 [[Framasoft->https://wiki.framasoft.org/presentation_en]] is a french non-profit organization and network of non-formal education, originating from the educational world and initially dedicated to free and open source software.
