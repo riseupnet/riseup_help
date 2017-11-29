@@ -27,7 +27,7 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 # You should get output that is similar to the following (note the date will change, based on when the canary statement was signed):
 
 <pre>
-gpg: Signature made Mon 31 Jul 2017 11:03:48 PM PDT
+gpg: Signature made Tue 28 Nov 2017 11:12:25 PM PST
 gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E
 gpg: Good signature from "Riseup Networks <collective@riseup.net>"
 Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
