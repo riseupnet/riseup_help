@@ -32,6 +32,13 @@
     %td= t :no_value
     %td= t :zcash_note
   %tr
+    %td <a href="#monero"><img src="img/monero.png"></a>
+    %td= t :no_value
+    %td
+      &mdash;
+    %td= t :no_value
+    %td= t :monero_note
+  %tr
     %td <a href="#paypal"><img src="img/paypal.png"></a>
     %td
       %b= t :yes_value
@@ -87,6 +94,15 @@
     %p= t :zcash_description
     .donation
       zcc7P9dbq71WTwXi148oXGSvZC6eo2ZkMi3s57qTGLzm9Bhzt3GNVo4AzNJHtEM2gSbyvsthDkmKHCWLvTJ6ysEnfpdANVa
+
+.panel.panel-default
+  %h2.hidey= t :monero
+  .panel-heading
+    <a name="monero"><img src="img/monero.png"></a>
+  .panel-body
+    %p= t :monero_description
+    .donation
+      46qB9tcR1feVZ7xq42tx8V8sLbYdnFdGf6EndL1fCPRuUXroufYGzzCFtZwrjkthAc8C65xBpmWCYAR1KKBXykF76GADvYE
 
 .panel.panel-default
   %h2.hidey= t :paypal

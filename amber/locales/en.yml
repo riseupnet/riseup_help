@@ -63,6 +63,10 @@ en:
   zcash_note: "Anonymous digital currency"
   zcash_description: "Zcash is a crypto-currency similar to Bitcoin, but with the added benefit of anonymity."
 
+  monero: "Monero"
+  monero_note: "Private and censorship-resistant currency"
+  monero_description: "Monero is a crypto-currency similar to Bitcoin, with a focus on private and censorship-resistant transactions."
+
   paypal: "Paypal"
   paypal_note: "Works from many countries."
   paypal_description: "Paypal accepts credit cards and supports recurring donations (for recurring donations, a PayPal account is required)."
