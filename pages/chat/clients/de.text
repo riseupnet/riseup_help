@@ -4,7 +4,7 @@
 h2. Wichtige Funktionen, nach denen eine Beurteilung des Clients erfolgen kann:
 
 table(table).
-| *[[OTR]]?* | Falls verfügbar, hat dieser Client eine eingebaute Unterstützung für _off-the-record_-messagin, was eine Ende-zu-Ende Verschlüsselung von Chat-Nachrichten mit PFS (perfect-forward-secrecy / dt. etwa perfekte vorwärts gerichtete Geheimhaltung) vereint. |
+| *[[OTR]]?* | Falls verfügbar, hat dieser Client eine eingebaute Unterstützung für _off-the-record_-messaging, was eine Ende-zu-Ende Verschlüsselung von Chat-Nachrichten mit PFS (perfect-forward-secrecy / dt. etwa perfekte vorwärts gerichtete Geheimhaltung) vereint. |
 | *[[OMEMO -> https://conversations.im/omemo/]]?* | Wenn Ja, unterstützt dieses Programm Ende-zu-Ende-Verschlüsselung für verschiedene Programme und Offline-Gespräche. |
 | *[[Jingle -> https://en.wikipedia.org/wiki/Jingle_(protocol)]]?* | Falls verfügbar, kann dieser Client für Sprach- und Videochat verwendet werden.|
 | *[[Proxy -> https://en.wikipedia.org/wiki/Proxy_server]]?* | Falls verfügbar, kann dieser Client Proxys verwenden bzw. hält sich dieser Client strikt an die Proxy-Einstellungen.|
