@@ -4,19 +4,20 @@
 h2. Wichtige Funktionen, nach denen eine Beurteilung des Clients erfolgen kann:
 
 table(table).
-| *OTR?* | Falls verfügbar, hat dieser Client eine eingebaute Unterstützung für OTR (off the record), was eine Ende-zu-Ende Verschlüsselung von Chat-Nachrichten mit PFS (perfect-forward-secrecy / perfekte Weiterleitungs-Geheimhaltung) vereint.|
-| *OMEMO?* | Wenn Ja, unterstützt dieses Programm Ende-zu-Ende-Verschlüsselung für verschiedene Programme und Offline-Gespräche. |
-| *Jingle?* | Falls verfügbar, kann dieser Client für Sprach- und Videochat verwendet werden.|
-| *Proxy?* | Falls verfügbar, kann dieser Client Proxys verwenden bzw. hält sich dieser Client strikt an die Proxy-Einstellungen.|
-| *TLS** | Falls verfügbar, unterstützt dieser Client verschlüsselte Verbindungen mit dem Chat-Server.|
-| *Tor?* | Falls verfügbar, kann dieser Client Verbindungen korrekt durch Tor leiten, um Zensur zu umgehen und auf Dienste anonym zuzugreifen. Falls nein, sollte der Client *nicht mit Tor verwendet werden*.|
+| *[[OTR]]?* | Falls verfügbar, hat dieser Client eine eingebaute Unterstützung für _off-the-record_-messagin, was eine Ende-zu-Ende Verschlüsselung von Chat-Nachrichten mit PFS (perfect-forward-secrecy / dt. etwa perfekte vorwärts gerichtete Geheimhaltung) vereint. |
+| *[[OMEMO -> https://conversations.im/omemo/]]?* | Wenn Ja, unterstützt dieses Programm Ende-zu-Ende-Verschlüsselung für verschiedene Programme und Offline-Gespräche. |
+| *[[Jingle -> https://en.wikipedia.org/wiki/Jingle_(protocol)]]?* | Falls verfügbar, kann dieser Client für Sprach- und Videochat verwendet werden.|
+| *[[Proxy -> https://en.wikipedia.org/wiki/Proxy_server]]?* | Falls verfügbar, kann dieser Client Proxys verwenden bzw. hält sich dieser Client strikt an die Proxy-Einstellungen.|
+| *[[TLS -> https://en.wikipedia.org/wiki/Transport_Layer_Security]]** | Falls verfügbar, unterstützt dieser Client verschlüsselte Verbindungen mit dem Chat-Server.|
+| *[[Tor]]?* | Falls verfügbar, kann dieser Client Verbindungen korrekt durch Tor leiten, um Zensur zu umgehen und auf Dienste anonym zuzugreifen. Falls nein, sollte der Client *nicht mit Tor verwendet werden*.|
+
 
 h2. Empfohlene Clients
 
 table(table table-striped).
 |_. Client |_. Unterstütztes Betriebssystem |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Kommentare |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | Quelloffen. Guter Jabber-Client, der in Python programmiert wurde. |
-| [[Coy -> https://coy.im]] | GNU/Linux | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Per Standard sicher in Gnome. |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux, FreeBSD | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | Quelloffen. Guter Jabber-Client, der in Python programmiert wurde. |
+| [[Coy -> https://coy.im]] | GNU/Linux, macOS, Windows | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Per Standard sicher in Gnome. |
 | [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Ja* | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen, Tor-Unterstützung. |
 | [[Conversations -> https://conversations.im/]] | Android | *Ja* | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Ein sehr gutes Chatprogramm für Android. Unterstützt verschlüsselte Gruppengespräche! |
 | [[Pidgin]]   | Windows, GNU/Linux | *Ja* | Nein | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Quelloffen. Läuft Stabil und bringt viele Funktionen mit. Verwende die aktuellste Version. |
@@ -25,12 +26,12 @@ h2. Andere Clients
 
 table(table table-striped).
 |_. Client |_. Unterstützte Betriebssysteme |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Kommentare |
-| [[Adium]] | Mac | *Ja* | Nein | Nein | *Ja* | *Ja* | Teilweise | Quelloffen. Gute native Version von Pidgin für Mac, jedoch wird libpurple nur selten aktualisiert. DNS- und URL-Informationen dringen durch.|
+| [[Adium]] | macOS | *Ja* | Nein | Nein | *Ja* | *Ja* | Teilweise | Quelloffen. Gute native Version von Pidgin für Mac, jedoch wird libpurple nur selten aktualisiert. DNS- und URL-Informationen dringen durch.|
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | Nein | Nein | *Ja* | *Ja* (GNOME) | *Ja* (GNOME) | ? | Quelloffen. Läuft stabil und ist einfach zu verwenden. |
-| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java. |
+| [[Jitsi -> http://www.jitsi.org]] | macOS, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java. |
 | [[Pandion -> http://pandion.im/]] | Windows | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Guter stabiler Windows-Jabber-Client. |
-| [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | Nein | Nein | *Ja* | ? | ? | ? | Quelloffen. Stabile native Anwendung. |
-| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java, derzeit leider noch nicht getestet. |
+| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | Nein | Nein | *Ja* | ? | ? | ? | Quelloffen. Stabile native Anwendung. |
+| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java, derzeit leider noch nicht getestet. |
 | iChat | Mac | Nein | Nein | Nein | ? | ? | ? | Apples eingebaute Chat-Software unterstützt Jabber, aber nur mit einer stark dezimierten Anzahl an Funktionen. |
 | [[Beem -> http://www.beem-project.com/]] | Android | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Stabile Android-App. Unterstützt keine Gruppenchats. |
 | [[Miranda -> http://www.miranda-im.org/]] | Windows | *Ja* | Nein | Nein | ? | ? | ? | Quelloffen. Stabiler Client mit vielen Plugins. |
