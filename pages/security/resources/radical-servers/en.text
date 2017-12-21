@@ -10,7 +10,7 @@ h1. Europe
 h2. actiu.info
 
 * [[Actiu.info->http://www.actiu.info/]] is a technical network created to the social movements can have resources connected to internet public network, independent of market and establishment, in a secure and confidential way. We develop and maintain Actiu.info as a computing resources center and to promote technological self-management and freedom.
-Or focus is on concept of "technological freedom" as the technical and formal conditions than concern individuals and collectives, meaning user's ability to have a reasonable and comprehensive control over his/her/their acting freedom, his/her/their tools, data, privacy and communication with others.
+Our focus is on concept of "technological freedom" as the technical and formal conditions that concern individuals and collectives, meaning user's ability to have a reasonable and comprehensive control over his/her/their acting freedom, his/her/their tools, data, privacy and communication with others.
 
 Actiu.info provides:
 * E-mail accounts
@@ -135,18 +135,18 @@ So far, the following services are provided:
 * Google drive or Dropbox like ≻ Framadrive
 * Github like ≻ Framagit (Gitlab)
 
-Before the end of 2016, alternatives to Change/Avaaz, Google Calendar, Google groups, Blogger, Wix, etc. should be provided.
+Alternatives to Change/Avaaz, Google Calendar, Google groups, Blogger, Wix, etc. are planned.
 
 See [[this page to see all services->https://degooglisons-internet.org/liste?l=en]] and access them (home pages in french but most of the services are available in multiple languages)
 
 h2. immerda.ch
 
-[[immerda.ch->https://www.immerda.ch/]] us an autonomous collective providing mail, lists and webspace for their friends. They support progressive and emancipatory groups and inviduals to change the world. The services are provided to the friends of immerda and their friends, which makes it an invite only project.
+[[immerda.ch->https://www.immerda.ch/]] is an autonomous collective providing mail, lists and webspace for their friends. They support progressive and emancipatory groups and inviduals to change the world. The services are provided to the friends of immerda and their friends, which makes it an invite only project.
 
 So far, the following services are provided:
 
 * Email accounts / webmail
-* Mailing lists (mailman,schleuder)
+* Mailing lists (mailman, schleuder)
 * Βlogs
 * Web hosting (static, php, ruby) in a secure environment
 * Wikis and discussion forum
@@ -263,6 +263,7 @@ h2. shelter.is
 * VPN
 * Support in English
 
+
 h1. North America
 
 h2. espora.org
@@ -303,7 +304,7 @@ h2. mutualaid.org
 
 h2. riseup.net
 
-https://riseup.net is a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications. It is a small-a anarchist tech collective centered in Seattle.
+https://riseup.net is a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications. It is a small anarchist tech collective centered in Seattle.
 
 * Email accounts
 * Mailing lists
@@ -352,7 +353,8 @@ h1. West Asia
 
 h2. Taharar!
 
-[[Taharar!->http://www.taharar.org/]] (liberate yourself! in Arabic) is an autonomous project that aims to empower individuals, collectives, and groups working on issues of social justice in West Asia and North Africa by providing them with alternative communication and technical services, information, resources, and support. Taharar!'s vision is to combat the digital censorship prevalent in West Asia and North Africa by providing an accessible pool of resources in local languages (including Arabic, Farsi, Hebrew, Kurdish, etc.) that people to create democratic alternatives by controlling their own secure means of communications through the use and proliferation of free, open source software and technologies.
+[[Taharar!->http://www.taharar.org/]] (liberate yourself! in Arabic) is an autonomous project that aims to empower individuals, collectives, and groups working on issues of social justice in West Asia and North Africa by providing them with alternative communication and technical services, information, resources, and support. Taharar!'s vision is to combat the digital censorship prevalent in West Asia and North Africa by providing an accessible pool of resources in local languages (including Arabic, Farsi, Hebrew, Kurdish, etc.) that enable people to create democratic alternatives by controlling their own secure means of communications through the use and proliferation of free, open source software and technologies.
+
 
 h1. World Wide
 
@@ -364,7 +366,7 @@ h2. indymedia.org
 
 h2. tachanka.org
 
-[[Tachanka->https://tachanka.org]] is the idea of providing technical services to emancipatory projects and groups of political change. It is also the groups of people behind this idea. There are many overlapping collectives that help to maintain the projects, but Tachanka operates within many shared principles, forming a supportive network to enable shared aims. The collectives are international, seeking to enhance global solidarity. The foremost guiding principles of the Tachanka project are the Hallmarks of People's Global Action and the Debian Social Contract.
+[[Tachanka->https://tachanka.org]] is the idea of providing technical services to emancipatory projects and groups of political change. It is also the groups of people behind this idea. There are many overlapping collectives that help to maintain the projects, but Tachanka operates within many shared principles, forming a supportive network to enable shared aims. The collectives are international, seeking to enhance global solidarity. The foremost guiding principles of the Tachanka project are the [[Hallmarks of People's Global Action -> https://en.wikipedia.org/wiki/Peoples%27_Global_Action#Hallmarks]] and the [[Debian Social Contract -> https://www.debian.org/social_contract]].
 
 * Mailing lists
 * Virtual servers
