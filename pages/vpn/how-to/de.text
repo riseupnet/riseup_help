@@ -1,4 +1,0 @@
-@title = "Anleitung"
-@summary = "Herunterladen, Installieren, Konfigurieren der Bitmask-Anwendung für Linux und Android."
-
-<%= child_summaries %>

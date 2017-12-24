@@ -1,14 +1,59 @@
-@nav_title = 'traditionelles VPN'
-@title = 'traditionelles Riseup VPN'
+@nav_title = 'VPN Rot'
+@toc = true
 
-p(alert alert-warning). Wir haben ein neues Riseup VPN gestartet, besser zugänglich und sicherer! Diese Dokumentation umfasst unsere traditionellen VPN-Dienste. Bitte lies die aktuelle [[Riseup VPN-Dokumentation -> vpn]] für weitere Infos. Unser traditioneller Dienst wird in Zukunft abgeschaltet werden und dein Konto für "Black":https://black.riseup.net wird für folgende Anleitung nicht funktionieren.
+p(alert alert-danger). März 2017. Wir haben VPN Red verändert, sodass die Einstellungen Deines VPN-Programms aktualisiert werden müssen (siehe unten).
 
-h2. Was ist das Riseup VPN?
+h2. Sicherheitshinweis
 
-Virtuelle Private Netzwerke (VPN) werden typischerweise genutzt, um sich von zu Hause mit einem Firmennetzwerk zu verbinden. Das Riseup VPN ist anders: es <%= link 'sendet alle Daten über eine verschlüsselte Verbindung' => 'how-vpn-works' %> an riseup.net. Von dort werden sie ins öffentliche Internet weitergeleitet. Diese Art von VPN wird manchmal "Persönliches VPN" genannt. Das Ziel eines persönlichen VPN ist nicht, sich sicher mit einem privatem Netzwerk zu verbinden, sondern mit dem Internet als ganzem.
+*Beachte:* Benutzt du Mac, Linux, oder Android? Wenn ja, wechsle bitte zu [[Black VPN->vpn-black]]. VPN Red ist nicht so sicher und wird bald auslaufen!
 
-<%= child_summaries :include_toc => true, :order_by => [:name, {:direction => :desc, :numeric => true}] %>
+*Note!* Wenn VPN Red benutzt, um Dich mit dem Internet zu verbinden, werden Firewalls im lokalen Netzwerk umgangen. Dein Computer bekommt eine eigene IP-Adresse im offenen Internet. Das ist gut, weil Dein Computer damit frei im Internet mit anderen kommunizieren kann, ohne geblockt zu werden. Allerdings bedeutet das auch, dass Dein Computer angreifbarer ist. Daher solltest Du eine [[Firewall auf Deinem Computer aktivieren -> /security/device-security#personal-firewall]].
 
-<%= render :partial => 'why-vpn' %>
+h2. OpenVPN einrichten
 
-<%= render :partial => 'vpn-limitations' %>
+VPN Red unterstützt OpenVPN.
+
+!>openvpn-logo.png!
+
+h3. Wähle einen Server
+
+<%= render 'vpn-servers' %>
+
+h3. Konfiguration im Überblick
+
+Obwohl jedes Programm anders ist, gibt es fünf Werte die in Deinem OpenVPN-Programm eingestellt werden müssen:
+* *VPN Server*: @vpn.riseup.net@
+* *Authentifizierungsmethode*: Passwort
+* *VPN Nutzer*in*: Dein riseup.net-Name (wenn Dein Konto joe_hill@riseup.net ist, gib "joe_hill" ein)
+* *Passwort*: entweder Dein riseup.net-Passwort oder ein [[vpn-secret]].
+* *CA-Zertifikat*: RiseupCA.pem ([[herunter laden und verifzieren -> security/network-security/riseup-ca]])
+* *Chiffre*: AES-256-CBC <span style="color:red;">NEU</span>
+* *Prüfsummenfunktion*: SHA256 <span style="color:red;">NEU</span>
+
+Optionale Optionen:
+
+* *Port*: entweder 1194, 443, oder 80. Port 1194 ist standard für OpenVPN, aber manchmal wird er im lokalen Netzwerk geblockt. Ein Änderung sollte nomalerweise nicht nötig sein. Falls doch, sind die Ports 443 und 80 vermutlich frei, denn darüber läuft normaler Webverkehr.
+* *Protokoll*: entweder UDP oder TCP. UDP ist schneller, aber TCP kann nötig sein, um Netzwerkeinschränkungen zu umgehen. UDP ist standard, es muss nur verändert werden, wenn der Zugang zum VPN geblockt wird.
+
+h3. Detaillierte Anleitungen
+
+* [[vpn-red/linux]]
+* [[vpn-red/mac]]
+* [[vpn-red/windows]]
+* [[vpn-red/troubleshooting]]
+
+h2. Tor und das Riseup VPN
+
+Wenn Du vorhast, einen Tor Exit Knoten über Riseups VPN zu betreiben, lies bitte weier. Es ist nichts falsch daran, einen Tor-Exit-Knoten über ein VPN zu betreiben, aber es kann ein Problem verursachen, das wir gern vermeiden würden. Tor-Ausgangs-Knoten werden regelmäßig in Sperrlisten veröffentlicht. Wegen des großen Missbrauchs über Tor, gibt es automatisch generierte Listen für jeden Ausgangsknoten, der sich im Netzwerk registriert. Das wäre kein großes Problem, außer dass durch solche Listen das gesamte Netzwerk gesperrt wird, nicht nur die einzelne Adrresse, die du nutzt. Dadurch entsteht auch ein Problem für andere Dienste, z.B. beim Senden von Mail.
+
+Glücklicherweise gibt es eine Möglichkeit, das zu vermeiden. Die Lösung ist, bestimmte Ports für den Ausgangsknoten zu sperren. Es scheint, dass auf den Sperrlisten nur jene Ausgangsknoten zu finden sind, die bestimmte bekannte häufig für Missbrauch genutzte Ports weiterleiten. Laut [[Sperrlisten-Betreiber->http://www.sectoor.de/tor.php]] wird ein Knoten der Sperrliste hinzu gefügt, wenn er die Standard-Richtlinie benutzt, denn diese erlauben auch einige problematische Ports 6660-6670, 6697, 7000-7005.
+
+Dies lässt sich einfach ändern. Mit folgender Einstellung werden diese Ports vom Exit-Knoten nicht erlaubt:
+
+<pre>
+ExitPolicy reject *:6660-6670
+ExitPolicy reject *:6697
+ExitPolicy reject *:7000-7005
+</pre>
+
+Danach muss nur noch Tor neugestartet werden.
