@@ -1,0 +1,72 @@
+@title = 'Mail for iOS'
+@nav_title = 'iOS Mail'
+
+Mail é o cliente de e-mail padrão do iOS, sistema operacional da Apple.
+
+Esta página vai te ajudar a configurar e usar seu e-mail Riseup no iPhone ou iPod. As imagens abaixo ilustram o passo a passo do processo de configuração de uma conta IMAP no iPhone.
+
+h2. Adicione uma conta de e-mail
+
+Para começar, clique no ícone de Ajustes na tela inicial do iPhone:
+
+!img/step-1.png!
+
+Em seguida, clique em "Mail, Contatos e Calendários". As seguintes opções devem ser exibidas:
+
+!img/step-2.png!
+
+Role para baixo e clique em "Outra".
+
+!img/step-3.png!
+
+Clique em "Adicionar Conta de E-mail"
+
+h2. Preencha as informações da sua conta
+
+Adicione suas informações à conta de e-mail. O conteúdo de "Nome" será mostrado como seu nome nas suas mensagens enviadas. A "Descrição" serve para identificar a conta no seu celular, caso você tenha outras contas no mesmo aparelho. Você pode inserir o que quiser nesse campo. Quando terminar de preencher essas informações, clique em "Seguinte".
+
+!img/step-5.png!
+
+h2. Configure o servidor de saída
+
+Preencha a seção do servidor de saída desta maneira:
+
+!img/step-6.png!
+
+h2. Configure o servidor de entrada
+
+Ajuste as informações do servidor de entrada como na imagem abaixo e clique em "Seguinte".
+
+!img/step-7.png!
+
+h2. Sincronize seus dados
+
+Na próxima etapa, o aplicativo deve perguntar se você deseja sincronizar suas notas. Não oferecemos essa função, então deixe essa opção desativada e clique em "Seguinte" para continuar.
+
+!img/step-8.png!
+
+h2. Ainda não terminamos!
+
+Volte para as configurações da conta para checar algumas coisas. Se ainda não tiver, acesse a seção "Mail, Contatos e Calendários", nos Ajustes, e clique na sua nova conta. Ela será nomeada de acordo com a "Descrição" que você tiver dado anteriormente. Você voltará a esta página:
+
+!img/step-4.png!
+
+Role para baixo e clique em "Avançado".
+
+!img/step-9.png!
+
+Aí você pode sincronizar as suas caixas de correio no iPhone às caixas IMAP. Clique em "Rascunhos" se quiser armazenar os seus rascunhos no servidor para poder acessá-los depois, de outro computador. Da mesma maneira, selecionar "Mensagens Enviadas" e "Mensagens Apagadas" armazenará os e-mails dessas pastas na nuvem. Chamamos a pasta "Mensagens Apagadas" de Lixo.
+
+Se você não usa essas pastas não é necessário configurá-las.
+
+Por fim, certifique-se que a opção "Usar SSL" está ativada e os outros itens estejam de acordo.
+
+h2. Isso é tudo!
+
+É isso, seu e-mail já está configurado e pronto para ser usado.
+
+!img/finished.png!
+
+h1. Reforce a segurança do seu e-mail
+
+<%= render :partial => 'enhance-security' %>
