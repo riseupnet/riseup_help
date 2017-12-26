@@ -80,3 +80,7 @@ h3. Vergleiche die Fingerabdrücke
 Da du jetzt die Fingerabdrücke oder SHA256-Summen von RiseupCA.pem berechnet hast, kannst du diesen Wert mit dem von Riseup signierten und hier aufgelisteten Wert verlgeichen.
 
 Wenn die Werte übereinstimmen, und du dem öffentlichen Riseup PGP Schlüssel vertraust, kannst du sicher sein, dass du wirklich mit den riseup.net Servern kommunizierst wenn du eine Anwendung benutzt die RiseupCA.pem verwendet.
+
+*Beachte:* Der Fingerabdruck ist wie oben beschrieben eine Prüfsumme vom Inhalt des Zertifikats, nicht die tatsächliche Datei RiseupCA.pem selbst. Um diesen von der Datei zu errechnen, müssen Kopf- und Fußzeilen entfernt und der verbleibende Inhalt base64-dekodiert werden. Danach kann die Prüfsumme errechnet werden. Dazu ein Beispiel:
+
+<code>head -n -1 RiseupCA.pem | tail -n +2 | base64 -d | sha256sum</code>

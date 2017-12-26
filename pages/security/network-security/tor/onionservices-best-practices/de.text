@@ -42,6 +42,37 @@ Du brauchst nicht wirklich SSL/TLS auf einer .onion-Adresse (wie https), denn es
 
 Obwohl es wahr ist, dass zusätzliche Verschlüsselungsschichten gut sind, beachte, dass das SSL/TLS-Zertifikat nicht valide sein wird, es sei denn du registrierst es für deine *.onion-Adresse.
 
+h3. Onion-Dienste und Rails 4
+
+Um eine .onion-Seite mit Rails und HTTPS zu betreiben, müssen einige Standard-Einstellungen verändert werden.
+
+Als erstes muss die Option [@config.force_ssl = true@] ausgestellt werden. Diese ist standardmäßig aktiviert für produktive Rails-Anwendungen. Sie erzwingt sichere Cookies and HSTS. Ändere [@my_rails_app/config/environments/production.rb@] zu:
+
+bc. config.force_ssl = false
+
+Mit [@force_ssl = false@] sollen nun sichere Cookies aktiviert mit HTTPS aktiviert werden. Dafür muss sicher gestellt sein, dass der Webdienst HSTS-Kopfzeilen für den HTTPS virtualhost setzt und wir fügen das secureheaders gem, um sichere Cookies zu erzwingen. Damit werden sichere Cookies für alle HTTP-Anfragen aktiviert (anders als mit force_ssl). Das ermöglicht uns, sichere Cookies für HTTPS und unsichere Cookies für die .onion-Seite zu schicken.
+
+Installiere das gem secureheaders für unsere Anwendung, in [@rails_app/Gemfile@]:
+
+bc. gem 'secure_headers', '~> 3.5'
+
+(ersetze 3.5 mit der jeweils neuesten verfügbaren Version)
+
+Füge die Konfiguration für secureheaders [@config/initializers/secureheaders.rb@] hinzu:
+
+bc..
+    SecureHeaders::Configuration.default do |config|
+      config.cookies = {
+        secure: true,
+        httponly: true,
+        samesite: {
+          strict: true
+        }
+      }
+    end
+
+p. Beachte dass für apache oder nginx die Variable X_FORWARDED_PROTO nicht auf https gesetzt werden darf.
+
 h2. .onion-Dienste können gefunden werden
 
 Wenn du nicht vorsichtig bist und deinen Server davor bewahrst, Informationen über dich, deinen Computer, oder deinen Ort zu enthüllen, ist dein .onion-Dienst nicht mehr versteckt!

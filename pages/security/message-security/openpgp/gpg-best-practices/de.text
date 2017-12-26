@@ -4,6 +4,8 @@ h2. Über diese Anleitung
 
 Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich, die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen, um zu verstehen, was die Einstellungen bewirken.
 
+Diese Anleitung wurde für eine ältere Version von GnuPG (1.4) geschrieben, einige Empfehlungen können daher redundant mit aktuellen Standardeinstellungen von neueren Versionen von GnuPG (2.1 und darüber) sein. Eine Überarbeitung [[findet gerade statt -> https://github.com/riseupnet/riseup_help/issues/451]], um die Aktualität der Anleitung zu überprüfen. Du kannst dabei helfen [[durch Einsenden von Änderungsvorschlägen->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]].
+
 h2. Freie Software verwenden und auf dem neusten Stand halten
 
 Informationssicherheit is zu wichtig, um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
@@ -37,6 +39,8 @@ keyserver-options ca-cert-file=/pfad/zur/Datei/sks-keyservers.netCA.pem
 p. Von jetzt an werden Deine Interaktionen mit dem Schlüsselserver über hkps verschlüsselt, so dass Deine Sozialprofil jedem verborgen bleibt, der vielleicht Deinen Datenverkehr abhört. Wenn Du beispielsweise @gpg --refresh-keys@ eingibst und einen Schlüsselserver benutzt, der nur hkp unterstützt, dann wird jemand, der Deine Daten abfängt, jeden einzelnen Schlüssel in Deinem Schlüsselbund zu sehen bekommen, während Du die Schlüsselupdates anforderst. Das sind ziemlich interessante Informationen.
 
 _Anmerkung:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org und hkps://keys.riseup.net bieten auch alle hkps (allerdings ist es ratsam, stattdessen einen Schlüsselserververbund zu verwenden).
+
+bq. Dies ist das Standardverhalten seit GnuPG 2.1.18.
 
 h3. Sicherstellen, dass alle Schlüssel über den Schlüsselserver aktualisiert werden, den Du angegeben hast
 
@@ -101,7 +105,7 @@ h3. Verwende einen starken primären Schlüssel
 
 Manche Leute benutzen noch 1024-bit DSA-Schlüssel. Du solltest wirklich zu einer höheren Bitstärke und einem besseren Hashing-Algorithmus wechseln. 2011 hat die US-Regierungsinstitution NIST DSA-1024 für [[hinfällig erklärt => ttp://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]], seit 2013 ist er sogar [[verboten -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
-Wir empfehlen, einen 4096-bit langen RSA-Schlüssel mit SHA-512 als Hash-Algorithmus zu erstellen, eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> key-transition]] erstellen, die mit beiden Schlüsseln signiert ist und diese dann bekannt machen. Es gibt ein [[gutes Dokument http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] dass die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau* erklärt, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine gnupg-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
+Wir empfehlen, einen 3072-bit langen RSA-Schlüssel mit sha512 als Hash-Algorithmus zu erstellen und eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> key-transition]] zu veröffentlichen, die mit beiden Schlüsseln signiert ist. [[Dieses Dokument -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] erklärt die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau und gut*, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine GnuPG-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
 
 Das Wechseln des Schlüssels kann schmerzhaft sein, aber es lohnt sich - und ist außerdem eine gute Gelegenheit, den Umgang mit den Werkzeugen zu üben!
 
@@ -146,6 +150,8 @@ Ein widerrufener Schlüssel kann immer noch verwendet werden um alte Unterschrif
 pre. gpg --output widerruf.asc --gen-revoke '<fingerabdruck>'
 
 Damit erstellst Du eine Datei namens widerruf.asc. Du könntest einen Ausdruck von diesem Zertifikat vornehmen und an einem sicheren Ort ablegen (gib ihn Deiner Mutter oder bewahre ihn bei Deinen Backups an einem anderen Ort auf). Wenn jemand Zugang dazu erhält, kann sie Deinen Schlüssel widerrufen, was sehr lästig ist; wenn sie allerdings auch Zugang zu Deinem privaten Schlüssel haben, solltest Du genau das wollen - Deinen Schlüssel widerrufen.
+
+bq. Das ist Standard seit GnuPG 2.1.
 
 h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren). Nutze einen separaten Unterschlüssel zum Verschlüsseln.
 
@@ -217,7 +223,9 @@ Es gibt ein nützliches Tool, welches die folgenden Überprüfungen für Dich vo
 
 pre. sudo apt-get install hopenpgp-tools
 
-Die Befehlszeile, mit der Du diese Tests mit dem Tools ausführen kannst, lautet:
+Beachte: @hopenpgp-tools@ funktioniert aktuell nicht mit GnuPG 2.1 und darüber, weil öffentliche und private Schlüssel nun in @~/.gnupg/pubring.kbx@ gespeichert werden. @hkt@ erwartet diese aber in @~/.gnupg/pubring.gpg@ und gibt seit GnuPG 2.1 eine Fehlermeldung aus.
+
+Die Befehlszeile, um diese Tests ausführen, lautet:
 
 pre. hkt export-pubkeys '<fingerabdruck>' | hokey lint
 
@@ -231,9 +239,9 @@ Um festzustellen, ob Dein Schlüssel ein V3-Schlüssel ist, kannst Du folgendes 
 
 pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep version
 
-h4. Primäre Schlüssel sollten DSA-2 oder RSA benutzen (besser RSA) und am Besten 4096 Bit oder länger sein
+h4. Primäre Schlüssel sollten mit RSA, ideal 3072 Bit, erstellt werden.
 
-Um zu überprüfen, ob Du DSA-2 oder RSA verwendest, kannst Du folgendes eingeben:
+Um zu überprüfen, ob Du RSA benutzt, verwende folgenden Befehl:
 
 pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
 
