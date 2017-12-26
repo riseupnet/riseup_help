@@ -1,4 +1,0 @@
-@title = 'Accounts'
-@this.toc = false
-
-<%= render :partial => 'account_links' %>
