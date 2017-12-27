@@ -38,6 +38,8 @@ The tips are:
 
 * *Don't consume information you didn't requested. Be aware of people using disasters to appeal an emotional request.
 
+See also the book "Social Engineering: The Art of Human Hacking" by Christopher Hadnagy which is available online.
+
 h2. Feel the love of free and open source software
 
 Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
