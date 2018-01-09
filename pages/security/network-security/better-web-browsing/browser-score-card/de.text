@@ -14,10 +14,6 @@ Einige Webseiten benötigen Cookies und es soll möglich sein, für Webseiten, d
 
 Cookies werden immer dann benötigt, wenn du dich bei einer Webseite einloggst (technisch ist es möglich, Sitzungen ohne Cookies zu realisieren, aber nicht sicher). Allerdings verschicken die meisten Webseiten auch Cookies von Drittanbietern, um Klicks und das Verhalten über Webseiten hinweg zu verfolgen. Es gibt keinen legitimen Grund für Cookies von Drittanbietern -- ihr einziger Zweck ist Überwachung. Drittanbieter-Cookies sollten in allen Browsern standardmäßig geblockt werden.
 
-*Flash Cookies*
-
-Da Cookies immer öfter blockiert werden, sind eine Menge Webseiten dazu übergegangen, Nutzer*innen mittels spezielle Cookies über das Adbobe Flash-Plugin zu verfolgen. Diese Cookies sind noch schlimmer als Cookies von Drittanbietern und schwerer zu entfernen. Neuere Browser bieten die Möglichkeit, Flash-Cookies zu blockieren, aber nur im Modus für "privates Surfen" oder im "incognito"-Modus.
-
 *Tracking Opt-out*
 
 Es gibt drei Möglichkeiten, Verhaltensverfolgung zu deaktivieren:
