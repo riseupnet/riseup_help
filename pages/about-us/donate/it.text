@@ -14,7 +14,11 @@ Purtroppo, non abbiamo la manodopera per inviarti una lettera di ringraziamento 
 
 h1. Donazioni online
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Donare criptovaluta
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Wire/Bank trasferimenti (EUR solo)
 

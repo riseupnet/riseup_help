@@ -52,7 +52,7 @@ de:
   bitcoin: "Bitcoin"
   bitcoin_note: "dezentrale, elektronische Peer2Peer-Kryptowährung"
   bitcoin_description: "Bitcoin ist eine dezentrale, elektronische Peer-to-Peer Kryptowährung (Übersetzt: momentan nur für Computerfreaks zu empfehlen!). Bitcoin bietet die Möglichkeit Geld kostenfrei nach Übersee zu senden. Falls Du bitcoin nutzen willst, um Geld an Riseup zu senden, erstellen wir Dir eine neue, einzigartige bitcoin-Adresse für Deine Spende. Klicke einfach unten auf den Knopf, um eine neue bitcoin-Adresse zu generieren."
-  bitcoin_grab_address: "Hole Dir eine bitcoin-Adresse"
+  grab_address: "Hole Dir eine Adresse"
   generate: "Erstellen"
 
   paypal: "Paypal"

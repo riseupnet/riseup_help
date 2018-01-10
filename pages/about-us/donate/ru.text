@@ -14,7 +14,11 @@ Seattle, WA 98194 USA
 
 h1. Онлайн пожертвования
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Пожертвовать криптовалютность
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Поддержите радикальные альтернативы!
 

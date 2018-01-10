@@ -52,7 +52,7 @@ fr:
   bitcoin: "Bitcoin"
   bitcoin_note: "Crypto-monnaie électronique décentralisée pairs à pairs"
   bitcoin_description: "Les bitcoins sont une Crypto-monnaie électronique décentralisée pairs à pairs. Les bitcoin sont également une manière gratuite d'envoyer de l'argent outre-mer. Quand vous utilisez les bitcoins pour envoyer de l'argent à Riseup, nous générons une nouvelle adresse unique. Il suffit de cliquer sur le bouton ci-dessous pour obtenir une nouvelle adresse bitcoin."
-  bitcoin_grab_address: "Récupérez une adresse bitcoin"
+  grab_address: "Récupérez une adresse"
   generate: "Générez"
 
   paypal: "Paypal"

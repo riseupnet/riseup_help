@@ -32,7 +32,12 @@ p.indent {
 // DESIGN ELEMENTS
 //
 
-.donation {border: 1px solid #FFE8A9; padding:0.5em; background-color: #FFF6DD; overflow: auto; display: inline-block;}
+.donation {
+  border: 1px solid #FFE8A9;
+  padding:0.5em;
+  background-color: #FFF6DD;
+  overflow: auto;
+}
 
 .locale-links a {
   color: $link-color;

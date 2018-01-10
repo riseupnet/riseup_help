@@ -54,7 +54,7 @@ pt:
   bitcoin: "Bitcoin"
   bitcoin_note: "Decentralized peer-to-peer electronic crypto-currency"
   bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
-  bitcoin_grab_address: "Consiga um endereço bitcoin"
+  grab_address: "Consiga um endereço"
   generate: "Gerar"
 
   paypal: "Paypal"

@@ -38,7 +38,7 @@ lt:
   bitcoin: "Bitcoin"
   bitcoin_note: "Decentralizuota p2p elektroninė kriptovaliuta"
   bitcoin_description: "Bitcoin yra decentralizuota p2p electroninė kriptovaliuta. Bitcoin taip pat yra nemokamas būdas siųsti pinigus užsienyje. Jei norite naudoti bitcoin kad siųsti pinigus riseup, mes sugeneruosime naują, unikalų bitcoin adresą, pauakojimui. Tiesiog paspauskite mygtuką žemiau naujam bitcoin adresui gauti."
-  bitcoin_grab_address: "Paiimkite bitcoin adresą"
+  grab_address: "Paiimkite adresą"
   generate: "Sugeneruoti"
 
   paypal: "Paypal"

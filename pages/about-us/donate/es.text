@@ -14,7 +14,11 @@ Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimien
 
 h1. Donaciones online
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Donaciones criptomoneda
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Wire/Bank transfers (EUR suelement)
 

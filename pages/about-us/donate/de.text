@@ -14,9 +14,13 @@ Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe z
 
 *Ausnahme:* Wir sind gesetzlich dazu verpflichtet, jährlich die Identität aller Spender_innen von über $5.000 offenzulegen.
 
-h1. Online-Spenden
+h1. Spenden Sie online
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Spende Kryptowährung
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Banküberweisungen (nur EUR)
 

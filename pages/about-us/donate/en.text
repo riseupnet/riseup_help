@@ -2,7 +2,7 @@
 @nav_title = 'Donate'
 @this.alias = '/donate'
 
-h1. Donations By Mail
+h1. Donate by mail
 
 Make checks/money orders/wads of cash payable to "Riseup Networks" and send them here:
 
@@ -14,11 +14,15 @@ Seattle, WA 98194 USA
 
 Unfortunately, we don't have the labor to send you a letter of thanks when we receive your donation. Please know that we are so incredibly grateful: your support is our lifeblood and makes all our hard work possible. We love you for putting your money where your values are! <b>Exception:</b> We are required by law to annually report the identity of any donor who gives more than $5,000 USD.
 
-h1. Online donations
+h1. Donate by credit card
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
 
-h1. Wire/Bank transfers (EUR only)
+h1. Donate cryptocurrency
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
+
+h1. Donate by IBAN transfer
 
 We can accept wire transfers *only in Euros (EUR), no other currencies.* Please send to:
 

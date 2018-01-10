@@ -1,0 +1,93 @@
+.panel.panel-default
+  %h2.hidey= t :bitcoin
+  .panel-heading
+    %strong#bitcoin
+      <img src="img/bitcoin.png">
+      Bitcoin (BTC)
+  .panel-body
+    %p= t :bitcoin_description
+
+    %p= t :recurring_donation
+
+    .donation
+      %b
+        Coinbase
+        =t :subscribe
+      %form(action="https://www.coinbase.com/checkouts/ac67a9014d25814aea2247e117cd0322" method="get" style="display: inline-block")
+        %input(type="submit" value="$5 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/67c30cfa5a0ab3c64493c3af93a49482" method="get" style="display: inline-block")
+        %input(type="submit" value="$10 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/88988e7908f6084533a17b72b6fa6ddd" method="get" style="display: inline-block")
+        %input(type="submit" value="$15 #{t :monthly}")
+      %form(action="https://www.coinbase.com/checkouts/d86c8d027328c26ef8d816d471032e31" method="get" style="display: inline-block")
+        %input(type="submit" value="$20 #{t :monthly}")
+
+    <br>
+    %p= t :one_time_donation
+
+    %table.table.donation
+      %tr
+        %td
+          %b= t :grab_address
+        %td
+          %form(action="/new-address/btc" method="post")
+            %input(type="submit" value="#{t :generate}")
+        %td= t :non_segwit_description
+      %tr
+        %td
+          %b
+            = t :grab_address
+            (SegWit)
+        %td
+          %form(action="/new-address/btc-segwit" method="post")
+            %input(type="submit" value="#{t :generate}")
+        %td= t :segwit_description
+
+.panel.panel-default
+  %h2.hidey= t :zcash
+  .panel-heading
+    %strong#zcash
+      <img src="img/zcash.png">
+      ZCash (ZEC)
+  .panel-body
+    %p= t :zcash_description
+    .donation
+      zcc7P9dbq71WTwXi148oXGSvZC6eo2ZkMi3s57qTGLzm9Bhzt3GNVo4AzNJHtEM2gSbyvsthDkmKHCWLvTJ6ysEnfpdANVa
+
+.panel.panel-default
+  %h2.hidey= t :monero
+  .panel-heading
+    %strong#monero
+      <img src="img/monero.png">
+      Monero (XMR)
+  .panel-body
+    %p= t :monero_description
+    .donation
+      46qB9tcR1feVZ7xq42tx8V8sLbYdnFdGf6EndL1fCPRuUXroufYGzzCFtZwrjkthAc8C65xBpmWCYAR1KKBXykF76GADvYE
+
+.panel.panel-default
+  %h2.hidey= t :faircoin
+  .panel-heading
+    %strong#faircoin
+      <img src="img/faircoin.png">
+      FairCoin (FAIR)
+  .panel-body
+    %p= t :faircoin_description
+    .donation
+      %form(action="/new-address/fair" method="post")
+        %b= t :grab_address
+        %input(type="submit" value="#{t :generate}")
+
+.panel.panel-default
+  %h2.hidey= t :bcash
+  .panel-heading
+    %strong#bcash
+      <img src="img/bitcoin-cash.png">
+      BCash (BCH)
+  .panel-body
+    %p= t :bcash_description
+    .donation
+      %form(action="/new-address/bch" method="post")
+        %b= t :grab_address
+        %input(type="submit" value="#{t :generate}")
+

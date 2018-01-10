@@ -38,7 +38,7 @@ es:
   bitcoin: "Bitcoin"
   bitcoin_note: "Cripto-moneda electrónica descentralizada de igual a igual."
   bitcoin_description: "Bitcoin es una cripto-monedaelectrónica descentralizada de igual a igual. Bitcoin es también una manera gratuita de enviar dinero al extranjero. Si quieres usar Bitcoin para enviar dinero a Riseup generaremos una dirección única y original para que la uses en esta donación. Simplemente pulsa en el botón de abajo para obtener esa dirección bitcoin."
-  bitcoin_grab_address: "Obten una dirección bitcoin"
+  grab_address: "Obten una dirección"
   generate: "Generar"
 
   paypal: "Paypal"
