@@ -10,7 +10,7 @@ The Riseup VPN shares some limitations common to all personal VPNs:
 
 * *[[An insecure connection is still insecure->network-security]]*: Although Riseup VPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. Therefore, you should still use [[secure connections -> secure-connections]] (TLS) when available (ie https over http, imaps over imap, etc).
 
-* *VPNs are not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see see [[VPN anonymity -> security-issues]].
+* *VPNs are not a panacea*: although VPNs accomplish a lot, they can't fix everything. For example, it cannot increase your security if your computer is already compromised with viruses or spyware. If you give personal information to a website, there is little that a VPN can do to maintain your anonymity with that website or its partners. For more information, see [[VPN anonymity -> security-issues]].
 
 * *The internet might get slower*: the Riseup VPN routes all your traffic through an encrypted connection to riseup.net before it goes out onto the normal internet. This extra step can slow things down. To minimize the slowdown, try to choose a VPN server close to where you actually live.
 
