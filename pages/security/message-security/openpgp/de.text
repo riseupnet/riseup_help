@@ -8,7 +8,7 @@ Dein *öffentlicher Schlüssel* ist, wie schon der Name verrät, öffentlich zug
 
 Ein *privater Schlüssel* gehört zu genau einem öffentlichen Schlüssel. Er wird u.a. zum Entschlüsseln benötigt - ohne den privaten Schlüssel ist der Inhalt einer verschlüsselten Nachricht nur sehr schwer zu ermitteln. Natürlich ist im Zeitalter der Supercomputer nichts unmöglich, aber ohne den privaten Schlüssel ist eine Entschlüsselung der Nachricht extrem aufwändig. Dein privater Schlüssel ist sehr wichtig und sollte zu jeder Zeit an einem gut geschützten Ort aufbewahrt werden.
 
-Dein *Mantra* sollte mindestens 21 Zeichen lang sein und Groß- und Kleinbuchstaben sowie Sonderzeichen (z.B. &$"{@) beinhalten. Dein Mantra schützt Deinen privaten Schlüssel und erlaubt, ihn in Verbindung mit Deinem öffentlichen Schlüssel zum Senden und Empfangen verschlüsselter E-Mail zu verwenden.
+Dein *Mantra* sollte mindestens 21 Zeichen lang sein und Groß- und Kleinbuchstaben sowie Sonderzeichen (z.B. &$"{@) beinhalten. Dein Mantra schützt Deinen privaten Schlüssel und erlaubt, ihn in Verbindung mit Deinem öffentlichen Schlüssel zum Senden und Empfangen verschlüsselter E-Mail zu verwenden. Siehe auch [good-passwords].
 
 h2. Wie verwende ich E-Mail-Verschlüsselung?
 
@@ -46,7 +46,7 @@ h2. Wie kann ich einen Schlüssel signieren und warum sollte ich das wollen?
 
 Gehen wir einen Schritt weiter und sagen, daß Du mit Joe auf sichere Art und Weise Schlüssel getauscht hast. Du kannst nun also auf sichere Weise mit Joe kommunizieren und wissen, daß Du die Mails auch wirklich mit Joe austauschst (weil er seine Mails signiert) und daß der Inhalt Eurer Kommunikation abhörsicher ist (weil Du Deine Mails mit Joes öffentlichem Schlüssel verschlüsselst). Aber gehen wir mal davon aus, Joe trifft auf einer Aktion Rita und die beiden tauschen auf sicher Weise ihre Schlüssel. Du kennst und vertraust Joe, aber Rita hast Du nie gesehen. Wie kannst Du sichergehen, daß Ritas Schlüssel echt ist, ohne sie persönlich getroffen zu haben?
 
-h3. Das "Web of Trust" (Vertrauensnetz) und das Signieren von Schlüsseln
+h3. Das Vertrauensnetz und das Signieren von Schlüsseln
 
 Nach dem Joe nun Ritas öffentlichen Schlüssel sicher verifiziert hat, kann Joe ihn *signieren*. Es gibt da zwei Ansätze: Eine Gruppe meint, daß Du nur Schlüssel signieren solltest, wenn Du Dich anhand eines von einer Behörde beglaubigten Fotos (z.B. Reisepass) davon überzeugt hast, daß der Name der InhaberInnen (selbst wenn Du sie seit Jahren kennst) und der mit der E-Mail-Adresse assoziierte Realname übereinstimmen.
 Andere signieren Schlüssel, ohne den Realnamen des/der EigentümerIn zu prüfen. Das stellt zwar sicher, daß der/dem EigentümerIn der E-Mail-Adresse auch der Schlüssel gehört, aber nicht, daß der mit der Adresse assoziierte Realname stimmt.

@@ -23,7 +23,7 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 
 # Download the signed "canary statement":/about-us/canary/canary-statement-signed.txt
 # Then run this command in a terminal:
-<code>gpg --verify canary-statement-signed.txt</code>
+<code>gpg --auto-key-retrieve --verify canary-statement-signed.txt</code>
 # You should get output that is similar to the following (note the date will change, based on when the canary statement was signed):
 
 <pre>

@@ -23,7 +23,7 @@ h3. Erstelle und exportiere ein OpenPGP-Schlüsselpaar
 # Gib deine Emailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
 # Wähle *Erweiterte Schlüsseleinstellungen*
 # Verschlüsselungs-Typ sollte RSA sein.
-# Schlüssellänge sollte 4096 sein.
+# Schlüssellänge sollte 3072 sein.
 # Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
 # Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails, für immer.**
 # Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super! Du kannst die Schlüsseleinstellungen verwalten, den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen und andere Einstellungen mit Seahorse oder von der Kommandozeile aus vornehmen.
@@ -97,7 +97,7 @@ bc. Please select what kind of key you want:
 
 Wähle den gewünschten Typ. *RSA and RSA* sind empfohlen. **(sign only)**-Schlüssel können nicht zur Verschlüsselung benutzt werden.
 
-Als nächstes wähle die Größe. **4096** ist empfohlen.
+Als nächstes wähle die Größe. **3072** ist empfohlen.
 
 bc. What keysize do you want? (2048)
 

@@ -1,4 +1,0 @@
-@title = "How to"
-@summary = "Getting, Installing and Configuring the Bitmask client on Linux and Android."
-
-<%= child_summaries %>
