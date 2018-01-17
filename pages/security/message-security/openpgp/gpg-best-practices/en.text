@@ -13,7 +13,7 @@ Information security is too important to leave to proprietary software. You shou
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
 - Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
-- Mac OS := you can install [[GPG suite from GPGTools -> https://gpgtools.org/]] (how do you know when you need to update?).
+- macOS := you can install [[GPG suite from GPGTools -> https://gpgtools.org/]]. The suite will let you know when there is an update available, or you can follow their [[twitter -> https://twitter.com/GPGTools]].
 - Building from source for any other operating system := you should [[subscribe to gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] to know when you should update.
 
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
