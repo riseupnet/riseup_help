@@ -20,13 +20,3 @@ h2. 使用 paypal，怎样修改或取消新的捐赠？
 
 下面介绍如何通过 paypal.com取消：
 
-为了 ["cancel a subscription":https://www.paypal.com/us/cgi-bin/webscr?cmd=_help&leafid=2381&answer_id=18037790]，按照一下步骤：
-
-# 登入您的 PayPal账户。
-# 点击*History* 标签。
-# 从 *Show* 下拉菜单选择*Subscriptions*字段。
-# 查看*From* ，并把时间往后调2年。
-# 点击*Search*。
-# 要查看特定订阅创建的细节，请点击*详细*查看细节。
-# 在页面底部，点击 *Cancel Subscription*。
-# 在确认页面，再次点击*Cancel Subscription*以取消订阅。

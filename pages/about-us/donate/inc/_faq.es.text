@@ -1,33 +1,30 @@
-h2. How do I do a wire/bank transfer?
+h2. Why do you only accept bank transfers in Euros?
 
-If you want to make an ACH wire transfer, please contact us at treasurer@riseup.net for information on our ABA/SWIFT/IBAN number.
+We are charged a large fee for converting other currencies. Additionally, sending directly to our US credit union often is difficult and does not work, and when it does work, we get charged a $13 fee for each transfer, so it is not economical.
 
-h2. How do I donate from outside the U.S?
+h2. How do I donate in currencies other than USD or EUR?
 
-If you live outside the U.S., please consider supporting a local tech collective in your area. If you want to send us a donation, here are a few options:
+First of all, if you live outside the U.S., please consider supporting a local tech collective in your area. If you want to send us a donation, here are a few options:
 
-# You can write us a check in your local currency and mail it to the address above. We can deposit foreign checks without a problem, although it may take a while to be recorded by your bank.
 # If you have a credit card, you can use the online donation link above. You can also use paypal, if it is supported in your country.
-# You can donate using "bitcoin":#bitcoin.
+# You can send us cash in any currency in the mail to our PO Box. People do this all the time.
+# You can donate using cryptocurrency.
 
 h2. How do I donate anonymously?
 
 You have two options:
 
 # Send cash to the address listed above.
-# Or use "bitcoin":#bitcoin. You need to do a bit of work if you want to "ensure strong anonymity with Bitcoin":https://en.bitcoin.it/wiki/Anonymity.
+# Or use a cryptocurrency. Monero and Zcash are anonymous. For Bitcoin, you need to do a bit of work if you want to [[ensure strong anonymity with Bitcoin => https://en.bitcoin.it/wiki/Anonymity]].
 
-h2. How do I modify or cancel my reoccurring donations through paypal?
+h2. How do I cancel recurring payments?
 
 Here's how to cancel your subscription through paypal.com:
 
-To ["cancel a subscription":https://www.paypal.com/us/cgi-bin/webscr?cmd=_help&leafid=2381&answer_id=18037790], follow these steps:
+To [[cancel a subscription => https://www.paypal.com/us/selfhelp/article/how-do-i-cancel-a-subscription-faq577]], follow these steps:
 
 # Log in to your PayPal account.
-# Click the *History* subtab.
-# Choose the *Subscriptions* field from the *Show* dropdown menu.
-# Check the *From* box and change the date back 2 years.
-# Click *Search*.
-# To view the details of a specific Subscription Creation, click Details in the *Details* column.
-# At the bottom of this page, click *Cancel Subscription*.
-# On the confirmation page, click *Cancel Subscription* again.
+# Click *Settings* gear icon.
+# Select *Preapproved Paymets* under *Payment settings.*
+# Select the merchant whose agreement you want to cancel and click *Cancel*.
+# Click *Cancel Profile* to confirm your request.
