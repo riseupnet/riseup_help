@@ -50,7 +50,7 @@ The first thing that must be changed is to not use the [@config.force_ssl = true
 
 bc. config.force_ssl = false
 
-Once we set [@force_ssl = false@], we want to add back the ability to enforce secure cookies and HSTS when using normal HTTPS. So, to do this, we make sure the web server is setting the HSTS headers for the HTTPS virtualhost, and we add the secureheaders gem to enforce secure cookies. The secureheaders gem will actually override the secure cookie flag for plain http requests, unlike the rails force_ssl flag. This allows use to have secure cookies for the regular HTTPS site and insecure cookies for the .onion site, which is what we want.
+Once we set [@force_ssl = false@], we want to add back the ability to enforce secure cookies and HSTS when using normal HTTPS. So, to do this, we make sure the web server is setting the HSTS headers for the HTTPS virtualhost, and we add the secureheaders gem to enforce secure cookies. The [@secureheaders@] gem will set the [@Secure@] cookie flag only for HTTPS connections, unlike the rails [@force_ssl@] flag. This allows use to have secure cookies for the regular HTTPS site and insecure cookies for the .onion site, which is what we want.
 
 Install the secureheaders gem for your application, in [@my_rails_app/Gemfile@]:
 
@@ -60,7 +60,7 @@ bc. gem 'secure_headers', '~> 3.5'
 
 Add a secureheaders configuration, in [@config/initializers/secureheaders.rb@]:
 
-bc..
+<pre><code>
     SecureHeaders::Configuration.default do |config|
       config.cookies = {
         secure: true,
@@ -70,8 +70,9 @@ bc..
         }
       }
     end
+</pre></code>
 
-p. NOTE: When configuring apache or nginx in this setup, do not set the X_FORWARDED_PROTO environment variable to be https.
+p. NOTE: When configuring apache or nginx in this setup, do not set the X_FORWARDED_PROTO environment variable to be https *on the port 80 onion virtual host*. You *should* set it on the port :443 non-onion virtual hosts.
 
 h2. Onion services can be found
 
