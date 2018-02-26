@@ -27,11 +27,11 @@ Um riseup's Schlüssel herunter zu laden und die verwendete Schlüsselbezeichnun
 # Die Ausgabe sollte so aussehen (das Datum kann entsprechend abweichen, je nachdem wann diese zuletzt unterzeichnet wurde):
 
 <pre>
-gpg: Signatur vom Mi 29 Nov 2017 08:12:25 CET
-gpg:                mittels RSA-Schlüssel 0x3043E2B7139A768E
+gpg: Signatur vom Do 01 Feb 2018 03:35:10 CET
+gpg:                mittels RSA-Schlüssel 4E0791268F7C67EABE88F1B03043E2B7139A768E
 gpg:                Aussteller "collective@riseup.net"
 gpg: Korrekte Signatur von "Riseup Treasurer <treasurer@riseup.net>" [unbekannt]
-gpg:                 alias "Riseup Networks <collective@riseup.net>" [unbekannt]
+gpg:                     alias "Riseup Networks <collective@riseup.net>" [unbekannt]
 gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!
 gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.
 Haupt-Fingerabdruck  = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E

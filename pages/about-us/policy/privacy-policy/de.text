@@ -11,7 +11,7 @@ h2. Informationen, die wir sammeln und speichern
 
 h3. Registrierungsinformationen
 
-Bei der Erstellung von Konten speichern wir das Datum der Registrierung. Informationen über Kontoanfragen werden nach vier Monaten gelöscht und der Einladungsstatus nach einem Monat. Wenn sie nicht von dir entfernt wird, speichern wir eine von dir vergebene alternative Emailadresse. Du kannst diese entfernen, aber dann lässt sich der Zugriff auf dein Konto nicht wiederherstellen, wenn du dein Passwort verlierst.
+Bei der Erstellung von Konten speichern wir das Quartal der Registrierung. Informationen über Kontoanfragen werden nach vier Monaten gelöscht und der Einladungsstatus nach einem Monat. Wenn sie nicht von dir entfernt wird, speichern wir eine von dir vergebene alternative Emailadresse. Du kannst diese entfernen, aber dann lässt sich der Zugriff auf dein Konto nicht wiederherstellen, wenn du dein Passwort verlierst.
 
 h3. Hilfe-Tickets
 
@@ -25,7 +25,7 @@ h3. Emailtransportlogs
 
 Um zu erkennen, ob unsere Server mittels "Spambomben" angegriffen werden, oder wenn ein Spammer unsere Systeme benutzt, speichern wir die "Von"- und "An"-Kopfzeile jeder weitergeleiteten Nachricht. Diese Logs werden täglich gelöscht.
 
-h3. Monat des letzten Einloggens
+h3. Quartal des letzten Einloggens
 
 Wir speichern Monat und Jahr der letzten erfolgreichen Anmeldung (um ungenutzte Konten zu deaktivieren und zu löschen). Wir speichern weder Tag oder Zeit der letzten Anmeldung.
 
@@ -47,11 +47,7 @@ h2. Wie wir gesammelte Informationen speichern und teilen
 
 h3. Verschlüsselung
 
-Alle Daten werden verschlüsselt gespeichert und nur Riseup hat die Schlüssel, um Daten zu entschlüsseln.
-
-h3. Klartextnachrichten
-
-Einige Nachrichten, die wir senden oder empfangen sind nicht Ende-zu-Ende-verschlüsselt (zum Beispiel wenn die andere Seite keine Emailverschlüsselung unterstützt). Sobald wir diese Klartextnachrichten empfangen, werden sie verschlüsselt auf unserer Festplatte gespeichert. Wenn sie von unserem System unverschlüsselt empfangen oder gesendet werden, können wir nicht sicherstellen, dass der Inhalt der Mail beim Transit nicht abgefangen wurde.
+Alle Daten werden verschlüsselt gespeichert und nur Riseup hat die Schlüssel, um diese Daten zu entschlüsseln. Seit März 2017 werden neue Konten persönlich verschlüsselt. Riseup kann Inhalte dieser Konten nicht lesen. Vorher erstellte Konten können diese Funktion nachträglich aktivieren.
 
 h3. Wir teilen keine Nutzer*innen-Informationen
 
