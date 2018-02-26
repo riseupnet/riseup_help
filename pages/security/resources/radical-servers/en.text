@@ -160,7 +160,7 @@ h2. indivia.net
 
 * Email accounts / webmail
 * Mailing lists (mailman,schleuder)
-* Web hosting 
+* Web hosting
 * Audio streaming
 * irc chat
 * temporary email alias
@@ -275,14 +275,6 @@ h2. espora.org
 * Mexico City
 * Spanish
 
-h2. flag.blackened.net
-
-[[flag.blackened.net->http://flag.blackened.net]] has been providing free web hosting for the anarchist left since 1997. flag also provides email and mail lists for the anarchist community. Flag hosts over 50 anarchist sites.
-
-* Email accounts
-* Mailing lists
-* Hosting
-
 h2. hackbloc.org
 
 The mission at [[hackbloc.org->http://hackbloc.org]] is to research, create and disseminate information, tools, and tactics that empower people to use technology in a way that is liberating. We support and strengthen our local communities through education and action. We strive to learn from each other and focus our skills toward creative goals,  to explore and research positive hacktivism, and to defend a free internet and free society!
@@ -292,15 +284,6 @@ The mission at [[hackbloc.org->http://hackbloc.org]] is to research, create and 
 * Jabber
 * Zines
 * Security trainings
-
-h2. mutualaid.org
-
-[[mutualaid.org->http://mutualaid.org]] is an anarchist tech collective centered in New York, Moscow, and L.A.
-
-* Email accounts
-* Mailing lists
-* Website hosting
-* English and Russian language
 
 h2. riseup.net
 
@@ -336,10 +319,6 @@ h2. tao.ca
 
 h1. South America
 
-h2. entodaspartes.org
-
-[[entodaspartes->http://entodaspartes.org]] es una zona temporalmente autónoma, al mismo tiempo es una herramienta para crear, difundir, distribuir y mantener estructuras sociales basadas en la libertad y el apoyo mutuo. entodaspartes is a temporary autonomous zone, and at the same time a tool to create, spread, distribute and mantain social structures based on freedom and mutual aid
-
 h2. GuardaChuva.org
 
 O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
@@ -347,14 +326,6 @@ O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interd
 h2. Saravá
 
 O [[Saravá->https://www.sarava.org/]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
-
-
-h1. West Asia
-
-h2. Taharar!
-
-[[Taharar!->http://www.taharar.org/]] (liberate yourself! in Arabic) is an autonomous project that aims to empower individuals, collectives, and groups working on issues of social justice in West Asia and North Africa by providing them with alternative communication and technical services, information, resources, and support. Taharar!'s vision is to combat the digital censorship prevalent in West Asia and North Africa by providing an accessible pool of resources in local languages (including Arabic, Farsi, Hebrew, Kurdish, etc.) that enable people to create democratic alternatives by controlling their own secure means of communications through the use and proliferation of free, open source software and technologies.
-
 
 h1. World Wide
 
@@ -373,4 +344,33 @@ h2. tachanka.org
 * DNS caching
 * Drupal farms
 * English / French / Portuguese language
+
+h1. In memoriam
+
+These projects are no longer active.
+
+h2. entodaspartes.org
+
+[[entodaspartes->http://entodaspartes.org]] es una zona temporalmente autónoma, al mismo tiempo es una herramienta para crear, difundir, distribuir y mantener estructuras sociales basadas en la libertad y el apoyo mutuo. entodaspartes is a temporary autonomous zone, and at the same time a tool to create, spread, distribute and mantain social structures based on freedom and mutual aid
+
+h2. flag.blackened.net
+
+[[flag.blackened.net->http://flag.blackened.net]] has been providing free web hosting for the anarchist left since 1997. flag also provides email and mail lists for the anarchist community. Flag hosts over 50 anarchist sites.
+
+* Email accounts
+* Mailing lists
+* Hosting
+
+h2. mutualaid.org
+
+[[mutualaid.org->http://mutualaid.org]] is an anarchist tech collective centered in New York, Moscow, and L.A.
+
+* Email accounts
+* Mailing lists
+* Website hosting
+* English and Russian language
+
+h2. Taharar!
+
+[[Taharar!->http://www.taharar.org/]] (liberate yourself! in Arabic) is an autonomous project that aims to empower individuals, collectives, and groups working on issues of social justice in West Asia and North Africa by providing them with alternative communication and technical services, information, resources, and support. Taharar!'s vision is to combat the digital censorship prevalent in West Asia and North Africa by providing an accessible pool of resources in local languages (including Arabic, Farsi, Hebrew, Kurdish, etc.) that enable people to create democratic alternatives by controlling their own secure means of communications through the use and proliferation of free, open source software and technologies.
 
