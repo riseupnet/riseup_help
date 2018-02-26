@@ -121,7 +121,7 @@ People think that they don't want their keys to expire, but you actually *do*. W
 
 Setting an expiration date means that you will need to extend that expiration date sometime in the future. That is a small task that you will need to remember to do (see next item about setting a reminder).
 
-You may think that is annoying and you don't want to deal with it, but it is actually good to be doing this on a regular basis so you keep your OpenPGP skills fresh. It indicates to users that they key is still active, and that the keyholder is using it, and gives you an opportunity to review the current state of your tools, and best practices. Also, many people will not sign a key that has no expiration date!
+You may think that is annoying and you don't want to deal with it, but it is actually good to be doing this on a regular basis so you keep your OpenPGP skills fresh. It indicates to users that their key is still active, and that the keyholder is using it, and gives you an opportunity to review the current state of your tools, and best practices. Also, many people will not sign a key that has no expiration date!
 
 If you have already generated a key without an expiration date, you can set an expiration date on your key by doing the following:
 
