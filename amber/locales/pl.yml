@@ -44,7 +44,3 @@ pl:
   paypal: "Paypal"
   paypal_note: "Działa w wielu krajach."
   paypal_description: "PayPal akceptuje karty kredytowe i wspiera cykliczne dotacje (dla cyklicznych dotacji, konto PayPal jest wymagane)."
-
-  flattr: "Flattr"
-  flattr_note: "Mikropłatności się sumują."
-  flattr_description: "Flattr to system mikropłatności, który pozwala na wspieranie wielu projektów naraz."

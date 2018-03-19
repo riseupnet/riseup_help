@@ -44,7 +44,3 @@ lt:
   paypal: "Paypal"
   paypal_note: "Veikia daugelyje šalių."
   paypal_description: "Paypal priima kreditines korteles ir palaiko pasikartojančias aukas (pasikartojančioms aukoms reikalinga PayPal sąskaita)."
-
-  flattr: "Flattr"
-  flattr_note: "Micropayments add up."
-  flattr_description: "Flattr mikromokėjimų sistema, kuri leidžia paremti daugybę projektų."

@@ -59,14 +59,10 @@ el:
   paypal: "Paypal"
   paypal_note: "Λειτουργεί σε πολλές χώρες."
   paypal_description: "Το Paypal δέχεται χρεωστικές κάρτες και υποστηρίζει επαναλαμβανόμενες συνεισφορές (για επαναλαμβανόμενες συνεισφορές απαιτείται λογιαριασμός στο Paypal)."
-  
+
   wepay: "WePay"
   wepay_note: "Εναλλακτική του PayPal."
   wepay_description: "To WePay είναι μια καλή εναλλακτική του PayPal. Μπορείτε να χρησιμοποιήσετε το WePay χωρίς να δημιουργήσετε λογαριασμό ενώ υποστηρίζει χρεωστικές κάρτες."
-
-  flattr: "Flattr"
-  flattr_note: "Μικροπληρωμές"
-  flattr_description: "Το Flattr είναι ένα σύστημα μικροπληρωμών που σας επιτρέπει να στηρίξετε πολλά projects."
 
   gratipay: "Gratipay"
   gratipay_note: "Μικροπληρωμές"

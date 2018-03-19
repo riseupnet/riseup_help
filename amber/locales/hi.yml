@@ -44,8 +44,3 @@ hi:
   paypal: "Paypal"
   paypal_note: "कई देशों से काम करता है।"
   paypal_description: "Paypal क्रेडिट कार्ड स्वीकार करता है और आवर्ती दान का समर्थन करता है (दान आवर्ती के लिए, एक Paypal खाते की आवश्यकता होती है)।"
-
-  flattr: "Flattr"
-  flattr_note: "Micropayments को जोड़ें।"
-  flattr_description: "Flattr यह एक micropayment प्रणाली है जो आपको कई परियोजनाओं का समर्थन करने की अनुमति देता है।l"
-

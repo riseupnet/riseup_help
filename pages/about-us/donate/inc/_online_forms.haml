@@ -117,14 +117,3 @@
             <input type="submit" name="submit" value="#{t :donate}">
           </div>
         </form>
-
-.panel.panel-default
-  %h2.hidey= t :flattr
-  .panel-heading
-    <a name="flattr"><img src="img/flattr.png"></a>
-  .panel-body
-    %p= t :flattr_description
-    .donation
-      %form(action="https://flattr.com/thing/523584/Donate-to-Riseup" method="get")
-        %b= t :flattr
-        %input(type="submit" value="#{t :donate}")
