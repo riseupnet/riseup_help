@@ -79,13 +79,13 @@
         %input(type="submit" value="#{t :generate}")
 
 .panel.panel-default
-  %h2.hidey= t :bcash
+  %h2.hidey= t :bitcoincash
   .panel-heading
-    %strong#bcash
+    %strong#bitcoincash
       <img src="img/bitcoin-cash.png">
-      BCash (BCH)
+      Bitcoin Cash (BCH)
   .panel-body
-    %p= t :bcash_description
+    %p= t :bitcoincash_description
     .donation
       %form(action="/new-address/bch" method="post")
         %b= t :grab_address

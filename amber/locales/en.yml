@@ -73,10 +73,10 @@ en:
   faircoin: "FairCoin"
   faircoin_description: "FairCoin is run by a non-profit network of radical activists, propagates the non-speculative values of the solidarity economy, and uses less electricity than other cryptocurrencies."
 
-  bcash: "BCash"
-  bcash_description: |
-    BCash a hard fork of Bitcoin and is sometimes called Bitcoin Cash.
-    BCash is not Bitcoin. If you send Bitcoin to a BCash address, the money will be lost forever.
+  bitcoincash: "Bitcoin Cash"
+  bitcoincash_description: |
+    Bitcoin Cash a hard fork of Bitcoin.
+    Bitcoin Cash is not Bitcoin. If you send Bitcoin to a Bitcoin Cash address, the money will be lost forever.
 
   paypal: "Paypal"
   paypal_note: "Works from many countries."
