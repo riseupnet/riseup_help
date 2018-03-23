@@ -10,7 +10,7 @@ Pour de l'aide sur comment configurer un client en particulier, cliquez sur un d
 
 table(table table-striped).
 |_.*Plate-forme*|_.*Clients courriel libres recommandés*|_.*Clients propriétaires*|
-|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[geary]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
 |Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
