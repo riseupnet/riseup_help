@@ -1,6 +1,6 @@
 @title = 'Nachrichtensicherheit'
 
-*Nachrichtensicherheit* ist die Praxis, den Inhalt von Nachrichten auf einem eigenen Gerät zu verschlüsseln, sodass diese nur von gewünschten Adressaten gelesen werden können. Während [[network-security]] und [[device-security]] wichtig sind, ist diese Art von *Nachrichtenverschlüssel* in vielen Situation notwendig:
+*Nachrichtensicherheit* ist die Praxis, den Inhalt von Nachrichten auf einem eigenen Gerät zu verschlüsseln, sodass diese nur von gewünschten Adressaten gelesen werden können. Während [[network-security]] und [[device-security]] wichtig sind, ist diese Art von *Nachrichtenverschlüsselung* in vielen Situation notwendig:
 
 * *Vertraulichkeit:* Nachrichtenverschlüsselung ist die einzige Möglichkeit, um sicherzustellen, dass Nachrichten nur von gewollten Empfänger*innen gelesen werden können.
 * *Unverfälschtheit*: Nachrichtenverschlüsselung ist die einzige Möglichkeit, die Identität von Kommunikationspartnern zu überprüfen.
@@ -9,7 +9,7 @@ Die Anwendung kann allerdings eine Herausforderung sein:
 
 * *Du musst ein Gerät besitzen*: Die Idee ist, keiner anderen Partei zu vertrauen, Kommunikation für Dich zu verschlüsseln. Alle Verschlüsselung muss daher auf einem Gerät unter Deiner Kontrolle stattfinden.
 * *Hohe Lernkurve*: Um Verschlüsselungssoftware richtig zu bedienen, müssen einige Verschlüsselungskonzepte erlernt werden, z.B. öffentliche und private Schlüssel, Schlüsselbunde, etc.
-* *Begrenzter Empfänger*innenkreis*: Nachrichtenverschlüsselung kannst Du nur sicher mit Menschen nutzen, welche dieselbe Software verwenden.
+* *Begrenzter Empfänger_innenkreis*: Nachrichtenverschlüsselung kannst Du nur sicher mit Menschen nutzen, welche dieselbe Software verwenden.
 
 Diese Sicherheitsgarantien treffen selbstverständlich nicht zu, wenn Dein Gerät kompromittiert wurde.
 
@@ -20,14 +20,14 @@ Nachrichtenverschlüsselung meint hier Kryptographie mit öffentlichem Schlüsse
 * *privater Schlüssel*: Alle haben ihren eigenen privaten Schlüssel. Wie der Name andeutet, muss dieser Schlüssel privat bleiben. Damit kannst Du an Dich verschlüsselte Nachrichten entschlüsseln.
 * *öffentlicher Schlüssel*: Alle haben zudem einen öffentlichen Schlüssel. Dieser wird meist breit veröffentlicht. Andere verwenden ihn, um Nachrichten an Dich zu verschlüsseln. Diese können nur mit dem zughörigen privaten Schlüssel entschlüsselt werden.
 
-h2. Tipps zum Lernen von Nachrichtenverschlüsselung
+h2. Tipps zum Erlernen von Nachrichtenverschlüsselung
 
-Obwohl sie das höchste Maß von Sicherheit bietet, ist die Anwendung von Nachrichenverschlüsselung immer noch ein Abenteuer. Um es weniger abschreckend zu machen, schlagen wir folgende Tipps vor:
+Obwohl sie das höchste Maß an Sicherheit bietet, ist die Anwendung von Nachrichenverschlüsselung immer noch ein Abenteuer. Um es weniger abschreckend zu machen, schlagen wir folgende Tipps vor:
 
 * *Langfristig dran bleiben*: Verschlüsselung mit öffentlichen Schlüsseln ist ein langfristiges Unterfangen, für das verschiedene Fähigkeiten und Begriffe gelernt werden müssen. Die großflächige Anwendung ist ein langer Weg, also kann es wie einge Menge Arbeit ohne Nutzen erscheiden.
 
-* *Finde Verschlüsselungspartner*innen*: wenn Du jemensch mit der Fähigkeit GPG zu benutzen, gefunden hast, versucht nur noch verschlüsselt zu kommunizieren.
+* *Finde Verschlüsselungspartner_innen*: wenn Du jemensch mit der Fähigkeit GPG zu benutzen, gefunden hast, versucht, nur noch verschlüsselt zu kommunizieren.
 
-* *Finde Befürworter*innen*: wer sich damit auskennt, versucht meist andere zu überzeugen. Finde Menschen, die Deine Fragen beantworten können.
+* *Finde Befürworter_innen*: wer sich damit auskennt, versucht meist andere zu überzeugen. Finde Menschen, die Deine Fragen beantworten können.
 
 <%= child_summaries :include_toc => true, :levels => 2 %>
