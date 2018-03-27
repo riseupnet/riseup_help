@@ -90,6 +90,7 @@ about-us
   canary
   contact
   newsletter
+    2018
     2017
     2016
     2015
