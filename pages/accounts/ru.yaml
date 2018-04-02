@@ -1,6 +1,6 @@
 red_title: "Riseup Red"
 red_info: "Мы предоставляем аккаунты <b>Riseup Red</b> для традиционных сервисов,
-  включающих [[email]] (IMAP), [[chat]] (XMPP), and [[vpn]]."
+  включающих [[email]] (IMAP), [[chat]] (XMPP), и [[vpn]]."
 red_webmail: "[[Войти в электронную почту => https://mail.riseup.net]]"
 red_support: "Получить помощь по [[email]], [[chat]], и [[vpn]]."
 red_settings: "[[Изменить настройки => https://account.riseup.net]]"
@@ -20,11 +20,11 @@ black_help: "[[Задать вопрос службе поддержки Riseup 
 other_title: "Другие сервисы"
 other_info: "Следующие сервисы используют несвязанные с Riseup Red или Riseup Black аккаунты."
 
-lists_title: "Листы рассылок"
-lists_info: "Мы предоставляем листы рассылок для активистских организаций."
-lists_login: "[[Войти в листы рассылок => https://lists.riseup.net/www/]]"
-lists_help: "[[Получить помощь по листам  => lists]]"
-lists_request: "[[Запросить лист => creating-lists]]"
+lists_title: "Списки рассылки"
+lists_info: "Мы предоставляем списки рассылки для активистских организаций."
+lists_login: "[[Войти в списки рассылки => https://lists.riseup.net/www/]]"
+lists_help: "[[Получить помощь по рассылкам  => lists]]"
+lists_request: "[[Запросить рассылку => creating-lists]]"
 lists_subscribe: "[[Подписаться => subscribing]]"
 lists_unsubscribe: "[[Отписаться => subscribing]]"
 
