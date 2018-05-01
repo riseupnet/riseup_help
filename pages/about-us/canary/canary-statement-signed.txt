@@ -32,22 +32,22 @@ Q: Why does the new Canary not mention gag orders, FISA court orders, National S
 A: Our initial Canary strategy was only harming users by freaking them out unnecessarily when minor events happened. A Canary is supposed to signal important risk information to users, but there is also danger in signaling the wrong thing to users or leading to general fear and confusion for no good reason. The current Canary is limited to significant events that could compromise the security of Riseup users.
 
 0. https://riseup.net/about-us/press/canary-statement
-1. https://theintercept.com/2018/01/31/democratic-party-political-fundraising-dccc/
+1. https://theintercept.com/2018/04/30/federal-job-guarantee-program-cost/
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlpyfN4WHGNvbGxlY3Rp
-dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2jvYvD/4q9haynmXL8xa37fVpGl5rOx0W
-CZRNlbdZo95y4AtBktXTvbAaWs/qEb66+I+u/YxtVOeZZiiyBPFAR3kkmsXMobQD
-OXR2rJzBKSbRDgqiK6C1sftz8+WjR067JEgTY7myCIBWF2UNZUcdEcz6Jio/v5Rc
-GG/IPJJ4atBZT//WHuZbzxvCsIa8xk9262CHlXS5zGhAR+u6uMdI/r0Z9+s6kC04
-Dy7YNPNPmsHPfUdF+xzPZv+/hDFxegxZ4QrKtpwWDJOkmuG/nzae/oHeX2EfOq+R
-yBEP/Jk2RCIVUbtLO8NM6/rQ7+LTyDULKr5vjizzTZCj5UkRHUN5gh7n3kT0F0Xh
-aqNnn3kE6TiAq8lAUNqmmxGmnLKlOKo5UcpSwnV2F/sKfQzsY32SU/SN0Df3hDOp
-8fjNeDxU4rF6UMhleDbhY7uT0O4w5qrrUwA6GOAUv3lBaZChtMDPfpewsYVLrZjF
-S2noE1g80BBfWJTsdh1jIVwMlfAO67k1Jp9UlBIpl6JodscMPaxJPeOyOCHQewn5
-gX3iWAkX+9UsDzuxRT9YVJJyrXeGbAmUupojpF1FKTbjUy8nWWwAIQ0CSuu1lccM
-MwwQeCclhvek9opLMH4/6PwAS1ZmpVaoZsHOR9LTDMR0DbHgbMz48b8HMxGgjnPh
-KVhODo6gbRm8n2YYYQ==
-=fQCU
+iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlrn698WHGNvbGxlY3Rp
+dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2jvO0D/992vwQStDLQFqLe003C9GpFzfW
+FoWcoWZVLEdSEzhBAPP/3dJpZrMZlZYRaGQsZM98lOAta35ZQRU76OqwZ+GEyXMO
+CSrt00z7isWmW4MXSjF7Mc2sR/ke+tj/B4jh2NYx7gS5lvUdmhwOxD1x8N8OkYiW
+FJ0cv1gdeN5oMGZmHOVETmYINnMt9n6/AZyKCAoBokxSBs7GNzH8QZqJgSwZofwS
+qcG5tn/3tmYWlhMkeqCe/x/HEFom1EXhRgEHF/a5IqU6YovlDVgsIOX0LEE6ry0c
+51VsfnoL+BhqGHQgIlJ6CNrTdWwJkE8WCU7AKr1vn3DAc+dwlysfKa8EzMWcx5Z4
+gDtAUcQZDxDq7qKoZrpKqmYt99rIUoQduwTCA3Rlcsn+YVZy0Pyj8ze+jXuPsyX+
+SiuEdNRn4WYboBvLFMGZWe/3ssVyzC0nJDZCvG+6ASUrcduCoDiyfooHU2SUTHF/
+U/3wGhLtccONvImHgmnb1WVbK+/s+vJaQeit+XnRvkP2pv/Ll9qZavRiC2djcvW6
+L3zp4oDpWNb4MiMWrlCoIq/yx5OQ+PJ3SpPuDdSnY/80bbrOG+TFj2CxDMGZ9k6Z
+PAYjDG3fhBaiLf8aXaRndT08Fou8bpxF+RUbRQ9mev1qkGZPevqrg5/6ghodv3HA
+2wIEUJVOG0DXzS4Sxg==
+=yCaB
 -----END PGP SIGNATURE-----
