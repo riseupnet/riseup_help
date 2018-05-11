@@ -1,0 +1,21 @@
+:plain
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-inline donation">
+    <input type="hidden" name="cmd" value="_donations">
+    <input type="hidden" name="item_name" value="RiseupVPN">
+    <input type="hidden" name="business" value="BPFRUBU4TVYYS">
+    <div class="form-group">
+      <select name="currency_code" class="form-control">
+        <option value="USD">USD $</option>
+        <option value="CAD">CAD $</option>
+        <option value="GBP">GBP £</option>
+        <option value="EUR">EUR €</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <input type="input" name="amount" class="form-control" value="60" size="6">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="form-control">#{t :donate}</button>
+    </div>
+  </form>
+

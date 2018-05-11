@@ -64,6 +64,7 @@ vpn
   why-is-needed
   how-vpn-works
   security-issues
+  betatest
 security
   privacy
   surveillance
