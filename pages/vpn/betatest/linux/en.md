@@ -2,13 +2,13 @@
 
 ## Requirements
 
-Currently, RiseupVPN is only packaged using snap. If you use Ubuntu, snap is already installed. Otherwise, run:
+Currently, RiseupVPN is only packaged for Linux using `snap`. If you use Ubuntu, snap is already installed. Otherwise, run:
 
 ```
 sudo apt install snapd
 ```
 
-RiseupVPN is currently tested on the Ubuntu LTS and Debian Stable. If you have a different release, it may or may not work.
+RiseupVPN is currently tested on the **Ubuntu LTS** and **Debian Stable**. If you have a different release, it may or may not work.
 
 ## Installation
 
@@ -45,3 +45,11 @@ riseup-vpn.launcher
 ```
 
 Any problem starting will be displayed on the terminal.
+
+### Test a pre-release version
+
+If you want to help us test a development, pre-release version of RiseupVPN, you can install it using this command:
+
+```
+sudo snap install --classic --edge riseup-vpn
+```
