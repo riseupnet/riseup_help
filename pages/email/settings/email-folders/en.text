@@ -6,25 +6,6 @@ h2. Trash Folder
 
 All mail that has been in the Trash folder more than 21 days is deleted automatically. Most mail clients are configured such that any message which is deleted from any other folder is automatically put into the Trash folder.
 
-h2. Sent Folder
-
-All mail older than 120 days in the *Sent* folder is deleted automatically. If you want to keep your sent mail for a longer period of time, we suggest that you copy the sent mail to another folder at the end of every month. For example:
-
-In squirrelmail:
-
-* select the "Sent" folder.
-* click "Show All"
-* click "Toggle All"
-* select a destination folder and click "Move".
-
-In thunderbird:
-* select the "Sent" folder.
-* choose Edit > Select > All
-* choose Message > Move, and select a destination folder.
-* If you choose a folder that is on your local computer (under "Local Folders"), then the mail will be stored on your computer and will not eat up your quota. However, then you will not be able to access the messages from other computers.
-
-Typically, you will not need to create a new *Sent* folder: webmail and most mail clients will create this for you automatically.
-
 h2.  Spam Folder
 
 If you have spam filtering enabled, then messages identified as Spam are delivered directly to this folder. In order to keep spam from eating up your quota, messages in the *Spam* folder are deleted automatically after seven days.
