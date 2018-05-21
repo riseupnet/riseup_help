@@ -3,13 +3,12 @@
 // TYPOGRAPHY
 //
 
-a {
-  color: $link-color;
-}
-a:visited {
-  color: $link-visited-color;
-}
-
+//a {
+//  color: $link-color;
+//}
+//a:visited {
+//  color: $link-visited-color;
+//}
 //a.btn {
 //  color: white;
 //}
@@ -24,7 +23,7 @@ h2.hidey {
   z-index: -1000;
 }
 
-p.indent {
+.indent {
   margin-left: 2em;
 }
 
@@ -32,7 +31,12 @@ p.indent {
 // DESIGN ELEMENTS
 //
 
-.donation {border: 1px solid #FFE8A9; padding:0.5em; background-color: #FFF6DD; overflow: auto; display: inline-block;}
+.donation {
+  border: 1px solid #FFE8A9;
+  padding:0.5em;
+  background-color: #FFF6DD;
+  overflow: auto;
+}
 
 .locale-links a {
   color: $link-color;
@@ -42,6 +46,25 @@ p.indent {
   }
   &.label-primary {
     color: white !important;
+  }
+}
+
+.btn-download {
+  font-size: 200%;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 20px;
+  display: inline-block;
+  background-color: $title-background-color;
+  margin: 0px 10px 10px 0px;
+  color: #555;
+  &:hover {
+    color: black;
+    background-color: #ddd;
+    text-decoration: none;
+  }
+  &:visited {
+    color: #555;
   }
 }
 

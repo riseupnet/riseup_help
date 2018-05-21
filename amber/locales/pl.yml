@@ -38,7 +38,7 @@ pl:
   bitcoin: "Bitcoin"
   bitcoin_note: "Bitcoin to innowacyjna sieć płatności i nowy rodzaj pieniądza"
   bitcoin_description: "Bitcoin to zdecentralizowana kryptowaluta elektroniczna P2P. Bitcoin to także darmowy sposób na transfer pieniędzmi za granicę. Jeśli chciał(a)byś użyć Bitcoin, wygenerujemy dla Ciebie nowy, unikatowy adres Bitcoin. Kliknij przycisk i gotowe!"
-  bitcoin_grab_address: "Zgarnij adres bitcoin"
+  grab_address: "Zgarnij adres"
   generate: "Wygeneruj"
 
   paypal: "Paypal"

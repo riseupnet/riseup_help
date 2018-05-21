@@ -14,7 +14,11 @@ Seattle, WA 98194 USA
 
 h1. Online donations
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Cryptocurrency donations
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Υποστηρίξτε τις ριζοσπαστικές εναλλακτικές!
 

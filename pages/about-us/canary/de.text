@@ -23,18 +23,18 @@ Um riseup's Schlüssel herunter zu laden und die verwendete Schlüsselbezeichnun
 
 # Lade das "canary statement":canary-statement-signed.txt herunter
 # Danach führe diesen Befehl in der Kommandozeile aus:
-<code>gpg --verify canary-statement-signed.txt</code>
+<code>gpg --auto-key-retrieve --verify canary-statement-signed.txt</code>
 # Die Ausgabe sollte so aussehen (das Datum kann entsprechend abweichen, je nachdem wann diese zuletzt unterzeichnet wurde):
 
 <pre>
-gpg: Signature made Mon 15 Aug 2016 10:01:19 PM PDT
-gpg:           using RSA key 0x3043E2B7139A768E
-gpg: Good signature from "Riseup Networks <collective@riseup.net>"
-gpg:                 aka "Riseup Treasurer <treasurer@riseup.net>"
-gpg: Signature made Thu 16 Feb 2017 05:41:25 PM EST
-gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E
-gpg: Good signature from "Riseup Networks <collective@riseup.net>"
-Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+gpg: Signatur vom Do 01 Feb 2018 03:35:10 CET
+gpg:                mittels RSA-Schlüssel 4E0791268F7C67EABE88F1B03043E2B7139A768E
+gpg:                Aussteller "collective@riseup.net"
+gpg: Korrekte Signatur von "Riseup Treasurer <treasurer@riseup.net>" [unbekannt]
+gpg:                     alias "Riseup Networks <collective@riseup.net>" [unbekannt]
+gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!
+gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.
+Haupt-Fingerabdruck  = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 </pre>
 
 p. Stelle sicher, dass es die Aussage "Good signature" enthält und bestätige, dass die Schlüsselbezeichnung mit der [[vorher verifizierten => network-security/certificates#complete-verification]] übereinstimmt. Wenn der Text verändert wurde, ist die Information in der Erklärung nicht vertrauenswürdig.

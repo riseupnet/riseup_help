@@ -14,10 +14,6 @@ Since some sites do require cookies and you may want to allow them for sites you
 
 Cookies are required whenever you login to a website (technically, you can create a login session without cookies, but not very securely). However, most all websites also transmit cookies from third parties that are used to track your clicks and behavior across many websites. There is no legitimate use for third party cookies -- their only use is to keep you under surveillance. Third party cookies should be blocked by default in all browsers.
 
-*Flash Cookies*
-
-As more people block cookies, a huge number of websites have switched to tracking people by setting special cookies via the Adobe Flash plugin. These cookies are even worse than third party cookies and are harder to get rid of. The newer browsers can be made to block flash cookies, but only in "private browsing" or "incognito" mode.
-
 *Tracking Opt-out*
 
 There are three methods of opting out of behavioral tracking:

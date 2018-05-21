@@ -31,17 +31,22 @@ h2.  Meet the Collective
 !{float:left}img/black-collared-jay.jpg!
 
 p{margin-left: 72px}. _*Black-collared Jay (Cyanolyca armillata)*_
-The black-collared jay has spent most of his life documenting the new generation of grassroot activism in pacific south america. He likes to learn new things, including computer related stuff, which is why he is able to help with riseup's tech work. The jay is known for being a rabbit friendly bird, skeptical about mobile design trends and for disliking to write names with capital letters. He avoids technologies that use jewelry names. 
+The black-collared jay has spent most of his life documenting the new generation of grassroot activism in pacific south america. He likes to learn new things, including computer related stuff, which is why he is able to help with riseup's tech work. The jay is known for being a rabbit friendly bird, skeptical about mobile design trends and for disliking to write names with capital letters. He avoids technologies that use jewelry names.
 
 !{float:left}img/waxwing.jpg!
 
 p{margin-left: 72px}. _*Cedar Waxwing (Bombycilla cedrorum)*_
 Waxwing is a revolutionary hacker and critic of late capitalism. Although deeply skeptical of technology, Waxwing has spent much of his life in a quixotic attempt to use technology for liberation. When not pecking away at the keyboard, Waxwing eats juniper berries, goes on long urban [-hikes-] flights, and plays with his adorable hatchlings.
 
+!{float:left}img/colibri.png!
+
+p{margin-left: 72px}. _*Colibrí Jacobina (Florisuga mellivora)*_
+Originally from the most dangerous neighborhoods of Santiago de Chile, Colibrí Jacobina has left her hometown in order to live a life without an address. A light blue strip crosses her well-maintained feathers and while she is dedicated to reading and writing in absolute tranquility, she doesn’t hesitate to use her abilities and radical spirit to fight rich people, men, meat eaters, fascists, monogamy, and the police. You can find her in Riseup forming alliances with other organizations and arguing eloquently that autonomous infrastructure is the only thing that is going to save us from this neoliberal and hyper-surveilled internet that we inhabit.
+
 !{float:left}img/blue-tit.jpg!
 
 p{margin-left: 72px}. _*Eurasian Blue Tit (Cyanistes caeruleus)*_
-The Eurasian Blue Tit is easily recognizable by its blue plumage, but various authorities dispute their scientific classification. While studying, it traveled through Europe to counter summits, social forums and the like. After university it was looking for a communal roosting in the web. So it started to work on we.riseup.net. A few years ago it stopped migrating and now nests in a small town commune. 
+The Eurasian Blue Tit is easily recognizable by its blue plumage, but various authorities dispute their scientific classification. While studying, it traveled through Europe to counter summits, social forums and the like. After university it was looking for a communal roosting in the web. So it started to work on we.riseup.net. A few years ago it stopped migrating and now nests in a small town commune.
 
 !{float:left}img/roadrunner.jpg!
 
@@ -66,12 +71,7 @@ The Snow Owl sits perched high on an icy branch, peering from afar at the inside
 !{float:left}img/sunbird.jpg!
 
 p{margin-left: 72px}. [_*Sunbird (Nectarinia asiatica)*_]
-Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @6ED610B7@, available from your local keyserver.
-
-!{float:left}img/puffin.jpg!
-
-p{margin-left: 72px}. _*Tufted Puffin (Fratercula cirrhata)*_
-Tufted Puffin is medium sized sea bird and a member of the Riseup collective. She nests in Seattle, which is pretty far south for a tufted puffin. Tufted Puffin spends much of her time in front of a computer, using flashy interfaces like pine, but she likes to go outside too. She gets around by biking or swimming with wings which have adapted to offer her a flying technique while underwater. Tufted Puffin appreciates learning tech skills from Riseup and other radical tech projects and, more importantly, helping to build alternative infrastructures.
+Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @0xD45523676ED610B7@, available from your local keyserver.
 
 h2. Alumni
 
@@ -100,3 +100,7 @@ Gadfly Petrel works to bring about communications policies and systems that are 
 p{margin-left: 72px}. [_*Starling (Sturnus Vulgaris)*_]
 Starling is a migratory bird with stars on his wings and a feisty cry. He works on developing Riseup software and keeping people accountable and on task. Starling is interested in building movement infrastructure, tactics, and strategies for the long-haul. Starling is equally comfortable plucking eyeballs from skulls as defecating from on high.
 
+!{float:left}img/puffin.jpg!
+
+p{margin-left: 72px}. _*Tufted Puffin (Fratercula cirrhata)*_
+Tufted Puffin is medium sized sea bird and a member of the Riseup collective. She nests in Seattle, which is pretty far south for a tufted puffin. Tufted Puffin spends much of her time in front of a computer, using flashy interfaces like pine, but she likes to go outside too. She gets around by biking or swimming with wings which have adapted to offer her a flying technique while underwater. Tufted Puffin appreciates learning tech skills from Riseup and other radical tech projects and, more importantly, helping to build alternative infrastructures.

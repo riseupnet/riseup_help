@@ -1,4 +1,0 @@
-@title = "Home"
-@this.summary = "Riseup mette a disposizione strumenti di comunicazione online a gruppi impegnati nel cambiamento sociale libertario. Noi siamo un progetto per creare alternative democratiche e praticare l'autodeterminazione mediante il controllo dei nostri mezzi di comunicazione."
-
-<%= render 'accounts' %>

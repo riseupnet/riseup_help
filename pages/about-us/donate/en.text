@@ -2,23 +2,29 @@
 @nav_title = 'Donate'
 @this.alias = '/donate'
 
-h1. Donations By Mail
+h1. Donate by mail
 
-Make checks/money orders/wads of cash payable to "Riseup Networks" and send them here:
+Make cheques or money orders payable to "Riseup Networks" and send them here:
 
 p(donation). Riseup Networks
 PO Box 4282
 Seattle, WA 98194 USA
 
-<b>NOTE: Do NOT send checks from outside of the US, we cannot deposit them! If you are in Europe, you can either send us a wire transfer (see below), or contact us for a mailing address to send non-US check/cheques or cash.</b>
+We also happily accept wads of crumped up currency.
+
+<b>NOTE: Do NOT send cheques from outside of the US! We cannot deposit them! If you are in Europe, you can either send us a bank transfer (see below), or [[contact us => contact]] for a European mailing address.</b>
 
 Unfortunately, we don't have the labor to send you a letter of thanks when we receive your donation. Please know that we are so incredibly grateful: your support is our lifeblood and makes all our hard work possible. We love you for putting your money where your values are! <b>Exception:</b> We are required by law to annually report the identity of any donor who gives more than $5,000 USD.
 
-h1. Online donations
+h1. Donate by credit card
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
 
-h1. Wire/Bank transfers (EUR only)
+h1. Donate cryptocurrency
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
+
+h1. Donate by IBAN transfer
 
 We can accept wire transfers *only in Euros (EUR), no other currencies.* Please send to:
 

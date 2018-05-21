@@ -16,6 +16,7 @@ de:
   # services:
   link_lists: "Emaillisten"
   link_email: "Email"
+  link_share: "Teilen"
   link_chat: "Chat"
   link_groups: "Gruppen"
 
@@ -48,15 +49,34 @@ de:
   quarterly: "vierteljährlich"
   recurring_donation: "Daueraufträge"
   one_time_donation: "Einmalige Spende"
+  micropayments: "Micropayments"
+  micropayments_note: "Für Beträge unter $12 bitte wir dich, eine Mikrozahlung (micropayment) zu verwenden. Dadurch sparen wir eine Menge Geld!"
 
   bitcoin: "Bitcoin"
   bitcoin_note: "dezentrale, elektronische Peer2Peer-Kryptowährung"
   bitcoin_description: "Bitcoin ist eine dezentrale, elektronische Peer-to-Peer Kryptowährung (Übersetzt: momentan nur für Computerfreaks zu empfehlen!). Bitcoin bietet die Möglichkeit Geld kostenfrei nach Übersee zu senden. Falls Du bitcoin nutzen willst, um Geld an Riseup zu senden, erstellen wir Dir eine neue, einzigartige bitcoin-Adresse für Deine Spende. Klicke einfach unten auf den Knopf, um eine neue bitcoin-Adresse zu generieren."
-  bitcoin_grab_address: "Hole Dir eine bitcoin-Adresse"
+  non_segwit_description: "Dies sind Adressen im alten Format, rückwärtskompatibel mit allen Wallets."
+  segwit_description: "Dies sind Adressen im neueren Bech32 Format, die nur mit bestimmten Wallets kompatibel sind."
+
+  grab_address: "Hole Dir eine Adresse"
   generate: "Erstellen"
 
+  zcash: "Zcash"
+  zcash_note: "Anonyme digitale Währung"
+  zcash_description: "Zcash ist eine Kryptowährung ähnlich zu Bitcoin, hat aber den Vorteil der Anonymität."
+
+  monero: "Monero"
+  monero_note: "Anonyme digitale Währung"
+  monero_description: "Monero ist eine Kryptowährung ähnlich zu Bitcoin, mit besonderem Augenmerk auf Anonymität und Resistenz gegen Überwachung."
+
+  faircoin: "FairCoin"
+  faircoin_description: "FairCoin wird von einer Nonprofit-Organisation betrieben und verbraucht weniger Energie als andere Kryptowährungen."
+
+  bcash: "BCash"
+  bcash_description: "BCash ist eine Abspaltung (hard fork) von Bitcoin und wird auch Bitcoin Cash genannt. BCash und Bitcoin sind zwei verschiedene Währungen! Bitcoins, die an eine BCash-Adresse übertragen werden, sind unwiederbringlich verloren."
+
   paypal: "Paypal"
-  paypal_note: "Klappt von vielen Ländern der Welt"
+  paypal_note: "Funktioniert in vielen Ländern der Welt"
   paypal_description: "Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig)."
 
   wepay: "WePay"

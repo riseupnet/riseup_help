@@ -52,7 +52,7 @@ it:
   bitcoin: "Bitcoin"
   bitcoin_note: "Crypto-valuta elettronica decentralizzata peer-to-peer"
   bitcoin_description: "Bitcoin è una crypto-valuta elettronica decentralizzata peer-to-peer. Bitcoin è anche un modo per spedire soldi oltreoceano gratuitamente. Se vuoi usare bitcoin per inviare soldi a riseup, genereremo un nuovo indirizzo bitcoin univoco dedicato a te ed alle tue donazioni. E sufficiente che tu faccia click sul tasto qui sotto per avere un nuovo indirizzo bitcoin da utilizzare."
-  bitcoin_grab_address: "Prendi un indirizzo bitcoin"
+  grab_address: "Prendi un indirizzo"
   generate: "Genera"
 
   paypal: "Paypal"

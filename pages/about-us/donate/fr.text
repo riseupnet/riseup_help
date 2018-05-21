@@ -14,7 +14,11 @@ Malheurement, nous n'avons pas les ressources pour vous envoyer des lettres de r
 
 h1. Dons en ligne
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
+
+h1. Dons de crypto-monnaie
+
+<%= render :partial => 'inc/cryptocurrency_forms' %>
 
 h1. Virement bancaire (EUR seulement)
 

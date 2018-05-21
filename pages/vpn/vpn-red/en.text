@@ -23,7 +23,7 @@ h3. Configuration in a nutshell
 
 Although each client is different, there are five values that must be configured in your OpenVPN client:
 
-* *VPN Server*: vpn.riseup.net
+* *VPN Server*: @vpn.riseup.net@
 * *Authentication method*: password
 * *VPN username*: your riseup.net login (ie if your account is joe_hill@riseup.net, just enter "joe_hill")
 * *Password*: either your riseup.net password or a [[vpn-secret]].

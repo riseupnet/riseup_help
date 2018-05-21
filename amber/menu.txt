@@ -64,6 +64,7 @@ vpn
   why-is-needed
   how-vpn-works
   security-issues
+  betatest
 security
   privacy
   surveillance
@@ -90,6 +91,7 @@ about-us
   canary
   contact
   newsletter
+    2018
     2017
     2016
     2015

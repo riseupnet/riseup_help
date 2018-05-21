@@ -27,34 +27,27 @@ h3. Windows
 
 Gehe zu https://pidgin.im/download
 
-h3. Mac
+h3. MacOS
 
 Pidgin kann zwar auf Macs laufen, aber es ist viel einfacher stattdessen Adium zu verwenden. Download: [[Adium -> https://adium.im]].
 
-h2. Einen Account zu Pidgin hinzufügen
+h2. Ein Konto zu Pidgin hinzufügen
 
 Lies unser [[Pidgin Tutorial -> pidgin]] für Anleitungen zum Hinzufügen Deines riseup.net Accounts zu Pidgin.
 
 h2. OTR einstellen
 
-Now with both Pidgin and OTR installed
-
+Wenn Pidgin und OTR installiert sind:
 * Wähle *Tools > Plugins* von dem Hauptfenster aus
-
 * Aktiviere das *Off-The-Record Messaging* Plugin und klicke auf den *Configure* Button
-
 * Wähle Deinen riseup.net Account aus der Liste aus und klicke auf Generieren
-
 * *Wichtige Anmerkung!*: Wähle unter “Default OTR Settings” Private Nachrichten vorraussetzen und OTR Unterhaltungen nicht aufzeichnen aus. Das garantiert, dass du nur verschlüsselte Unterhaltungen führst und dass du nicht Deine früheren Unterhaltungen aufzeichnest. Denke immer daran, dass es für deinen Chatpartner immer möglich ist die Unterhaltung aufzuzeichen. Es ist eine gute Idee, nachzufragen ob die Person OTR Unterhaltungen aufzeichnet.
 
 h2. Buddies zu deinen Kontakten hinzufügen
 
 * Um einen Buddy hinzuzufügen, wähle von dem Pidgin Hauptfenster Buddies > Add Buddy aus.
-
 * Stelle sicher, dass du deinen Account auswählst und den Namen deines Buddy's richtig schreibst, wenn du ihn einträgst. Du hast die Möglichkeit Gruppen zu erstellen,um deine Buddies zu kategorisieren.
-
 * Klicke auf hinzufügen.
-
 * Wenn deine Buddies hinzugefügt wurden und verfügbar zum chatten sind, werden sie im Pidgin Hauptfenster erscheinen. Klicke doppelt auf den Buddy Namen in der Liste, um zu chatten.
 
 h2. Buddies authentifizieren

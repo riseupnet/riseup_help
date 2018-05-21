@@ -16,6 +16,8 @@ fr:
   # services:
   link_lists: "Listes courriel"
   link_email: "Courriels"
+  link_pad: "Notes"
+  link_share: "Partager"
   link_chat: "Chat"
   link_groups: "Groupes"
 
@@ -48,16 +50,40 @@ fr:
   quarterly: "Trimestriel"
   recurring_donation: "Dons récurrents"
   one_time_donation: "Dons uniques"
+  micropayments: "Micropaiements"
+  micropayments_note: "Pour les transactions d'un montant de moins de 12 US$, merci d'utiliser un service supportant les micropaiements! Cela nous sauve beaucoup d'argent."
 
   bitcoin: "Bitcoin"
   bitcoin_note: "Crypto-monnaie électronique décentralisée pairs à pairs"
-  bitcoin_description: "Les bitcoins sont une Crypto-monnaie électronique décentralisée pairs à pairs. Les bitcoin sont également une manière gratuite d'envoyer de l'argent outre-mer. Quand vous utilisez les bitcoins pour envoyer de l'argent à Riseup, nous générons une nouvelle adresse unique. Il suffit de cliquer sur le bouton ci-dessous pour obtenir une nouvelle adresse bitcoin."
-  bitcoin_grab_address: "Récupérez une adresse bitcoin"
+  bitcoin_description: "Bitcoin est une crypto-monnaie électronique décentralisée pairs à pairs."
+  non_segwit_description: "Ces adresses utilisent un ancien style et ne sont pas compatibles avec tous les portefeuilles."
+  segwit_description: "Ces adresses utilisent le nouveau style Bench32 et ne sont compatibles qu'avec certains portefeuilles."
+
+  grab_address: "Récupérez une adresse"
   generate: "Générez"
+
+  zcash: "Zcash"
+  zcash_note: "Crypto-monnnaie anonyme"
+  zcash_description: "Zcash est une crypto-monnaie similaire à Bitcoin, mais qui bénéficie d'une plus grande anonymité."
+
+  monero: "Monero"
+  monero_note: "Crypto-monnaie résistante à la censure et privilégiant la vie privée"
+  monero_description: "Monero est une crypto-monnaie similaire à Bitcoin, mais qui met l'accent sur la protection de la vie privée et sur des transactions résistantes à la censure."
+
+  faircoin: "FairCoin"
+  faircoin_description: "FairCoin est gérée par une organisation à but non lucratif et utilise moins d'électricité que les autres crypto-monnaies."
+
+  bcash: "BCash"
+  bcash_description: |
+    BCash est une fourche complète de Bitcoin et est parfois appelée Bitcoin Cash.
+    BCash n'est pas Bitcoin. Si vous envoyez des Bitcoins à une address BCash, l'argent sera à jamais perdu.
 
   paypal: "Paypal"
   paypal_note: "Fonctionne dans plusieurs pays différents."
   paypal_description: "Paypal accepte les cartes de crédit et supporte les dons récurrent. Pour des dons récurrents, il est nécessaire d'avoir un compte PayPal."
+  wepay: "WePay"
+  wepay_note: "Une alternative à PayPal"
+  wepay_descriptions: "WePay est une alternative intéressante à PayPal. Vous pouvez utiliser WePay sans créer de compte. WePay supporte également les carte de crédit."
 
   flattr: "Flattr"
   flattr_note: "Des micro-paiements qui s'additionnent."

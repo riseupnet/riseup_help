@@ -38,7 +38,7 @@ hi:
   bitcoin: "Bitcoin"
   bitcoin_note: "विकेन्द्रीकृत peer-to-peer इलेक्ट्रॉनिक क्रिप्टो-मुद्रा"
   bitcoin_description: "Bitcoin एक विकेन्द्रीकृत peer-to-peer इलेक्ट्रॉनिक क्रिप्टो-मुद्रा है। Bitcoin भी विदेशी पैसा भेजने के लिए एक तरह से मुक्त है। अगर आप riseup पैसा भेजने के लिए Bitcoin का उपयोग करना चाहते हैं, हम एक नया, अद्वितीय Bitcoin पता उत्पन्न करेंगे आपके दान हेतु। नए Bitcoin पते का उपयोग करने के लिए नीचे दिए गए बटन पर क्लिक करें।"
-  bitcoin_grab_address: "एक Bitcoin पता बनाओ "
+  bitcoin_address: "एक पता बनाओ "
   generate: "जनरेट"
 
   paypal: "Paypal"

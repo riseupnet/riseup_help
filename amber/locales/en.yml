@@ -55,13 +55,28 @@ en:
 
   bitcoin: "Bitcoin"
   bitcoin_note: "Digital currency"
-  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic crypto-currency. Bitcoin is also a free way to send money overseas. If you would like to use bitcoin to send riseup money, we will generate a new, unique bitcoin address for you to use for your donation. Just click on the button below for a new bitcoin address to use."
-  bitcoin_grab_address: "Grab a bitcoin address"
+  bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic cryptocurrency."
+  non_segwit_description: "These are old style addresses, backward compatible with all wallets."
+  segwit_description: "These are new style Bech32 addresses, only compatible with some wallets."
+
+  grab_address: "Grab a new address"
   generate: "Generate"
 
   zcash: "Zcash"
   zcash_note: "Anonymous digital currency"
-  zcash_description: "Zcash is a crypto-currency similar to Bitcoin, but with the added benefit of anonymity."
+  zcash_description: "Zcash is a cryptocurrency similar to Bitcoin, but with the added benefit of anonymity."
+
+  monero: "Monero"
+  monero_note: "Private and censorship-resistant currency"
+  monero_description: "Monero is a cryptocurrency similar to Bitcoin, with a focus on private and censorship-resistant transactions."
+
+  faircoin: "FairCoin"
+  faircoin_description: "FairCoin is run by a non-profit network of radical activists, propagates the non-speculative values of the solidarity economy, and uses less electricity than other cryptocurrencies."
+
+  bcash: "BCash"
+  bcash_description: |
+    BCash a hard fork of Bitcoin and is sometimes called Bitcoin Cash.
+    BCash is not Bitcoin. If you send Bitcoin to a BCash address, the money will be lost forever.
 
   paypal: "Paypal"
   paypal_note: "Works from many countries."
