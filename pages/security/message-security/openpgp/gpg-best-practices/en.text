@@ -109,7 +109,7 @@ Now that you know how to receive regular key updates from a well-maintained keys
 
 h3. Use a strong primary key.
 
-Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]].
+Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. In 2015, NIST also [[disallowed -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] 1024-bit RSA, and use of SHA-1 for signing.
 
 It is recommend to make a 3072-bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
 
