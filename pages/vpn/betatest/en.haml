@@ -49,47 +49,8 @@
 
 %h2 Donate!
 
-%p
-  The RiseupVPN service is entirely funded through donations from users. If you value an easy, non-profit VPN service that does not track users, then please contribute to keeping RiseupVPN alive.
+= render :page => 'vpn/donate'
 
-%p
-  The cost for us to offer RiseupVPN is approximately $60 USD per person per year. If you use the VPN, please consider donating at least this much. Thank you!
+%h2 Troubleshooting and support
 
-%p
-  Note: If you donate using a different page, we will not know that you are donating for the VPN. Please help us figure out if this service can be sustainable by donating using only the links on this page.
-
-%h4 Liberapay
-
-.donation
-  %p
-    Liberapay is a non-profit subscription donation and payment service based on free software.
-  %p
-    %a.btn.btn-default(href="https://liberapay.com/riseupvpn/")
-      Subscribe
-
-%h4 Paypal
-
-= render :partial => 'paypal'
-
-%h4 Bitcoin
-
-.donation
-  1F3KowUJBfvocr1H6DRvwFxfETJ18e8Dp6
-
-%h2 Report Bugs
-
-%p
-  RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
-
-%p
-  %b Step 1:
-  [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
-
-%p
-  %b Step 2:
-  [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
-
-%p
-  %b Step 3:
-  Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
-
+= render :page => 'vpn/support'

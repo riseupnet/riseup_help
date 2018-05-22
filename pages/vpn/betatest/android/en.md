@@ -1,5 +1,6 @@
 @title = "RiseupVPN for Android"
 @toc = true
+@this.alias = '/vpn/android'
 
 We do not yet have a zero-configuration **RiseupVPN** client for Android, but the **Bitmask** Android VPN client will work fine. You just select "riseup.net" from the list of providers and then choose to connect anonymously.
 

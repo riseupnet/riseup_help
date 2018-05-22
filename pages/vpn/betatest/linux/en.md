@@ -1,4 +1,5 @@
 @title = "RiseupVPN for Linux"
+@this.alias = '/vpn/linux'
 
 ## Requirements
 
