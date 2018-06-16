@@ -26,7 +26,7 @@ table(table table-striped).
 | Mobilität | *Niedrig*. POP funktioniert nur, wenn Mails nur von einem Rechner mit dem gleichen Programm abgerufen werden. | *Hoch*. IMAP erlaubt die Nutzung verschiedener Programme und Webmail und immer die gleichen Inhalte zu sehen. |
 | Geschwindigkeit | *Schneller*, weil alles direkt auf den eigenen Rechner herunter geladen werden. | *Langsamer*, weil immer wieder alles immer wieder Server heruntergeladen werden muss. |
 | Quota | *Unbegrenzt*. Du brauchst dir niemals über quota gedanken machen, weil Nachrichten direkt auf deinen Computer geladen und danach von Server gelöscht werden. | *Begrenzt*. Es gibt [[begrenzten Speicherplatz -> quota]]. |
-| Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
+| Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht dauerhaft auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
 
 h2. Grundlegende Konfiguration
 
