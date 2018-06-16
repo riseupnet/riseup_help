@@ -44,7 +44,7 @@ Wenn deine Emailadresse [@joehill@riseup.net@] ist:
 
 h2. Verbessere die Sicherheit deiner E-Mails
 
-<%= render :partial => 'enhance-security' %>
+<%= render :partial => 'enhance-security.de' %>
 
 h2. Benutze Thunderbird
 
