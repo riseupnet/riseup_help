@@ -72,9 +72,9 @@ de:
   faircoin: "FairCoin"
   faircoin_description: "FairCoin wird von einer Nonprofit-Organisation betrieben und verbraucht weniger Energie als andere Kryptowährungen."
 
-  bcash: "BCash"
-  bcash_description: "BCash ist eine Abspaltung (hard fork) von Bitcoin und wird auch Bitcoin Cash genannt. BCash und Bitcoin sind zwei verschiedene Währungen! Bitcoins, die an eine BCash-Adresse übertragen werden, sind unwiederbringlich verloren."
-
+  bitcoincash: "Bitcoin Cash"
+  bitcoincash_description: "Bitcoin Cash ist eine Abspaltung (hard fork) von Bitcoin. Bitcoin Cash und Bitcoin sind zwei verschiedene Währungen! Bitcoins, die an eine Bitcoin Cash-Adresse übertragen werden, sind unwiederbringlich verloren."
+  
   paypal: "Paypal"
   paypal_note: "Funktioniert in vielen Ländern der Welt"
   paypal_description: "Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig)."
