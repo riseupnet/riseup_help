@@ -1,9 +1,9 @@
 @title = 'Procuram-se programadores'
 
-Vamos encarar os fatos: a tecnologia e a infraestrutura disponíveis para os movimentos sociais deixarão de ser adequadas nos pŕoximos anos. Ao mesmo tempo em que cresce uma onda mundial de agitação e organização social, duas tendências são postas ante nós:
+Vamos encarar os fatos: a tecnologia e a infraestrutura disponíveis para os movimentos sociais deixarão de ser adequadas nos próximos anos. Ao mesmo tempo em que cresce uma onda mundial de agitação e organização social, duas tendências são postas ante nós:
 
 # A tecnologia das comunicações tornou-se inestimável e essencial para quase todos os esforços de organização, em todo lugar.
-# A vigilância dessa tecnologias de comunicação é cada vez mais intensa e abrangente, em aspectos que as pessoas apenas estão começando a perceber.
+# A vigilância dessa tecnologias de comunicação é cada vez mais intensa e abrangente, em aspectos que as pessoas estão apenas começando a perceber.
 
 Nós simplesmente não temos a tecnologia nem a infraestrutura que serão necessárias. O Riseup trabalha para ajudar a construir a infraestrutura; porém, no final das contas, os serviços que o coletivo oferece dependem da tecnologia que utilizamos. Para conseguirmos atender às necessidades futuras dos movimentos sociais, vamos precisar de uma tecnologia muito melhor, e logo.
 
@@ -16,13 +16,12 @@ Em breve, o Projeto LEAP vai passar a usar a Plataforma LEAP. Por favor, visite 
 h2. Javascript
 
 * Edição colaborativa: Escrever componentes de atualização para o "Etherpad":http://etherpad.org para permitir qualquer um a destruir um documento, proteger um documento com senha ou evitar que um documento seja destruído.
-* E-mail anônimo: Escrever um plugin para o Thunderbird para excluir informações pessoais dos cabeçalhos de saída (por exemplo, o cabeçalho do cliente de e-mail).
 
 h2. Ruby
 
-* Rede social: Contribua para o desenvolvimento do "Crabgrass":https://github.com/RiseupLabs/crabgrass-core.
-* Listas de discussão: Ajude a programar uma nova interface Web para o "mecanismo de listas Sympa":https://www.sympa.org.
-* Gerenciamento de usuários: Ajude-nos a reescrever o Nest, o software que gerencia todas as contas de usuário.
+* Wiki social: Contribua para o desenvolvimento do "Crabgrass":https://github.com/RiseupLabs/crabgrass-core.
+* Listas de e-mail: Ajude a programar uma nova interface web para o "mecanismo de listas Sympa":https://www.sympa.org.
+* Gerenciamento de contas: Ajude-nos a reescrever o Nest, o software que gerencia todas as contas.
 
 h2. PHP
 
@@ -30,8 +29,8 @@ h2. PHP
 
 h2. Perl
 
-* Listas de discussão: Temos uma "longa lista de mudanças":https://labs.riseup.net/code/projects/sympa/issues que precisam ser feitas no "gerenciador de listas de discussão Sympa":https://www.sympa.org.
+* Listas de e-mail: Temos uma [[longa lista de mudanças => https://0xacab.org/riseup/sympa/issues]] que precisam ser feitas no [[gerenciador de listas Sympa =>https://www.sympa.org]].
 
 h2. Python
 
-* Ajude o "Projeto LEAP":https://leap.se.
+* Contribua para o [[cliente Bitmask => https://bitmask.net]]. Veja [[como participar => https://leap.se/get-involved]].
