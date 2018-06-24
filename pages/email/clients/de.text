@@ -26,7 +26,7 @@ table(table table-striped).
 | Mobilität | *Niedrig*. POP funktioniert nur, wenn Mails nur von einem Rechner mit dem gleichen Programm abgerufen werden. | *Hoch*. IMAP erlaubt die Nutzung verschiedener Programme und Webmail und immer die gleichen Inhalte zu sehen. |
 | Geschwindigkeit | *Schneller*, weil alles direkt auf den eigenen Rechner herunter geladen werden. | *Langsamer*, weil immer wieder alles immer wieder Server heruntergeladen werden muss. |
 | Quota | *Unbegrenzt*. Du brauchst dir niemals über quota gedanken machen, weil Nachrichten direkt auf deinen Computer geladen und danach von Server gelöscht werden. | *Begrenzt*. Es gibt [[begrenzten Speicherplatz -> quota]]. |
-| Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
+| Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht dauerhaft auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
 
 h2. Grundlegende Konfiguration
 
@@ -42,11 +42,9 @@ Wenn deine Emailadresse [@joehill@riseup.net@] ist:
 * Login oder Nutzername: @joehill@
 * Sichere Verbindung benutzen: @yes@ (TLS oder StartTLS)
 
-Die [[sichere Verbindung -> secure-connections]] kann TLS oder StartTLS sein. Aus Sicherheitsgründen bieten wir nicht mehr SSL an.
+h2. Verbessere die Sicherheit deiner E-Mails
 
-*Hinweis:* Aktiviere *sichere Passwörter* oder *sichere Authentifizierung*. Diese sind irgendwie missdeuting. Diese Methoden erfordern, dass auf dem Emailserver eine Kopie des Passwortes im Klartext gespeichert wird. Aus unserer Sicht ist das ein Sicherheitsrisiko, also aktivieren wir die Funktion "sichere Passwörter" nicht. Weil die Verbindung zu Riseup ohnehin verschlüsselt ist, besteht dafür auch kein Bedarf.
-
-*Tor-Hinweis:* SMTP Port 465 wird oft geblockt von Exit-Nodes, aber Port 587 wird weniger oft geblockt. Wenn ein Problem beim Senden von Mails besteht, benutze Port 587, oder konfiguriere dein Programm, [[Riseups SMTP-onion-Dienst => tor#riseups-tor-hidden-services ]] anstelle von @mail.riseup.net@ zu benutzen. Das ist besser, als deine Daten durch einen Tor-Exit zu schicken, weil es MITM-resistent ist, aber es erzeugt Fehler für das SSL-Zertifikat bei deinem Emailprogramm.
+<%= render :partial => 'enhance-security.de' %>
 
 h2. Benutze Thunderbird
 

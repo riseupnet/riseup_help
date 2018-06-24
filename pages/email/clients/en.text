@@ -26,7 +26,7 @@ table(table table-striped).
 | Mobility | *Low*. POP only works well when you predominately check your mail from the same computer. | *High*. IMAP allows you to use many clients and keep them in sync. |
 | Speed   | *Faster*, since everything is just downloaded once to your computer. | *Slower*, since the mail client will query the server repeatedly. |
 | Quota   | *Unlimited*. You never need to worry about quota if your client is configured to delete messages on the server after downloading. | *Limited*. You will have [[limited quota -> quota]]. |
-| Security | *High*. Your messages are not stored on the server (typically). | *Lower*. You are entrusting Riseup with your storage. |
+| Security | *High*. Your messages are not stored permanently on the server (typically). | *Lower*. You are entrusting Riseup with your storage. |
 
 h2. Basic client configuration
 
