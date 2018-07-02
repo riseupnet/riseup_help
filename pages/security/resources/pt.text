@@ -21,10 +21,8 @@ h4. Guias de uso avançado
 
 * [[Começando a utilizar o TAILS: The Amnesic Incognito Live System (O Sistema Bootável Incógnito Amnésico) -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
 * [[Guia de autodefesa digital -> https://guide.boum.org/]] (atualmente em Francês apenas, você pode ajudar na tradução).
-* [[Livro de bolso sobre Cryptoparty => https://www.cryptoparty.in/documentation/handbook]].
-* Manual FOSS sobre [[Driblando a Censura da Internet -> http://www.flossmanuals.net/bypassing-censorship/]] é um guia compreensível de 240 páginas sobre tecnologia anti-censura.
+* [[Livro de bolso sobre Cryptoparty => https://www.cryptoparty.in/learn/handbook]].
 * Manual FOSS sobre [[Segurança Básica na Internet -> http://www.flossmanuals.net/basic-internet-security/]].
-* [[Wiki da censura na Internet -> http://en.cship.org/wiki]] contém muita informação sobre como evitar a censura na Internet (atualmente apenas em Inglês).
 
 h4. Conteúdo desatualizado
 
@@ -32,7 +30,9 @@ Esses guias antigos são de significância histórica mas que podem ser úteis a
 
 * [[Riseup Zine: Segurança Digital Para Ativistas!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
 * [[security.resist.ca -> http://security.resist.ca]] Ajudando ativistas manterem-se seguros em um mundo opressivo.
-* [[APC Security Docs -> http://secdocs.net/manual/lp-sec/]] Uma série de revisões com informações sobre segurança em geral e segurança on-line para organizações da sociedade civil.
-* [[Guia para Segurança em E-mails -> http://www.activist.ca/guide/encrypt.html]] Utilizando Criptografia e Assinaturas Digitais.
-* [[Segurança de Computadores para a Maioria dos Ativistas -> http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] PDF carregável.
+* [[APC Security Docs -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]] Uma série de revisões com informações sobre segurança em geral e segurança on-line para organizações da sociedade civil (2012).
+* [[Guia para Segurança em E-mails -> http://https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html]] Utilizando Criptografia e Assinaturas Digitais (2005)
+* [[Segurança de Computadores para a Maioria dos Ativistas -> https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf]] PDF carregável.
 * [[Uma introdução ao ativismo na Internet -> http://www.backspace.com/action/]].
+* Manual FOSS sobre [[Driblando a Censura da Internet -> https://web.archive.org/web/20140106090547/http://en.flossmanuals.net/_booki/bypassing-censorship/bypassing-censorship.pdf]] é um guia compreensível de 240 páginas sobre tecnologia anti-censura (2012).
+* [[Wiki da censura na Internet -> http://en.cship.org/wiki]] contém muita informação sobre como evitar a censura na Internet (atualmente apenas em Inglês).
