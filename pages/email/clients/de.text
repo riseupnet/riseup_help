@@ -42,6 +42,12 @@ Wenn deine Emailadresse [@joehill@riseup.net@] ist:
 * Login oder Nutzername: @joehill@
 * Sichere Verbindung benutzen: @yes@ (TLS oder StartTLS)
 
+Die [[Verbindungssicherheit -> secure-connections]] muss entweder TLS oder StartTLS sein. Aus Sicherheitsgründen bieten wir SSL nicht mehr an.
+
+*Anmerkung:* Verwende nicht *sichere Passwörter* oder *sichere Authentifikation*. Diese sind missdeutig, denn es bedeudet, dass der Server Passwörter im Klartext speichert. Das halten wir für eine Sicherheitslücke. Die Verbindung zu riseup.net ist ohnehin verschlüsselt, sodass diese Funktion nicht nötig ist.
+
+*Tor:* SMTP Port 465 wird oft durch Exit-Knoten blockiert, Port 587 dagegen weniger oft. Probiere 587 bei Problemen beim Senden von Mails, oder nutze [[Riseups versteckten Dienst => tor#riseups-tor-hidden-services ]] anstelle von @mail.riseup.net@. Das ist besser als Daten zu Riseup über einen Exit-Knoten zu schicken, weil es vor MITM-Angriffen schützt ("Man in the middle"), aber es verursacht Zertifikatfehler im Emailprogramm.
+
 h2. Verbessere die Sicherheit deiner E-Mails
 
 <%= render :partial => 'enhance-security.de' %>
