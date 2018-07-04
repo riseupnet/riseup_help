@@ -5,19 +5,22 @@ h2. Alternative service providers
 
 Check out our list of [[radical server projects -> radical-servers]].
 
-h2. Guides on internet security
+h2. Guides on digital security
+
+h4. Security guides for beginners
+
+* *[[Digital security checklists for US Non-profits => https://ecl.gy/sec-check]]* from [[Information Ecology => https://iecology.org]], by Jonah Silas Sheridan, Lisa Jervis (Creative Commons: Attribute-ShareAlike)
+* *[[Security Planner => https://securityplanner.org]]* from [[Citizen Lab => https://citizenlab.ca]] (Creative Commons: Attribution)
+* *[[Surveillance Self-defense => https://ssd.eff.org]]* from [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Attribution)
+* *[[Security Education Companion => https://sec.eff.org]]* from [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Attribution)
+* *[[Security In-a-box => https://securityinabox.org]]* from [[Tactical Technology Collective => https://tacticaltech.org/]] (Creative Commons: Attribution-ShareAlike)
 
 h4. Software recommendations
 
 * [[PRISM Break => http://prism-break.org/]] list of alternative software and services.
 * EFF's [[Secure Messaging Scorecard => https://www.eff.org/secure-messaging-scorecard]].
 
-h4. Usage guides for beginners
-
-* [[Security in-a-box -> https://securityinabox.org/]] website contains many hands-on guides, from [[Front Line -> https://www.frontlinedefenders.org/]] and [[Tactical Technology Collective -> http://www.tacticaltech.org/]].
-* [[EFF's Guide to Surveillance Self Defense -> https://ssd.eff.org/]] (currently in 11 languages).
-
-h4. Advanced usage guides
+h4. Advanced security guides
 
 * [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
 * [[Digital self defense guide -> https://guide.boum.org/]] (currently French language only, you can help translate).

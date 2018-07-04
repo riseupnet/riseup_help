@@ -1,23 +1,33 @@
-@title = 'Communications Security'
+@title = 'Digital Security'
 @nav_title = 'Security'
+
+h1. Start here
+
+Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+
+# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
+# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
+# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
+# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
+# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
 
 h1. Why security matters
 
 The increasing importance of information and communication has brought with it another phenomenon: the rise of a *surveillance society*. You can think of surveillance as an attempt by the powerful to [_maintain their dominance by asserting control over communication_].
 
-*Nation states* have responded to new communications technology by pursuing an infrastructure that can easily be re-purposed for total social control. Unlike earlier communication eras, the nature of current technology requires that our information is either secure in a way that frustrates governments, or is totally insecure in a way that makes possible the widespread and detailed monitoring of an entire populous.
+*Nation states* have responded to new communications technology by pursuing an infrastructure that facilitates mass surveillance and can easily be re-purposed for total social control. Many governments also contract with unethical private corporations to track activists and break into their devices.
 
 *Corporations* have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
 
-In this context, secure communication has become vitally important.
+*Criminals* have discovered that it is very lucrative to attack personal devices and cloud accounts to ransom data or blackmail the user.
+
+In this context, digital security has become vitally important.
 
 * State surveillance has a long history of resulting in the repression of social movements.
 * Even indirectly, rampant surveillance has a chilling effect on social movements.
 * Corporate surveillance is just as serious as state surveillance. Not only can the massive amounts of data kept on internet users be easily re-purposed for direct state repression, but corporations are now on the verge of obtaining unprecedented power over consumers.
 
 When people start to learn about the rise in surveillance they start to feel overwhelmed. Some decide that it is impossible to be secure, so they resign themselves to live under perpetual surveillance or to forsake all forms of digital communication. At Riseup, we believe there is a third way: our goal is to make a high degree of security easy and accessible for everyone.
-
-Much of the fight against surveillance takes place through the legal system and we applaud those who work in this arena. In contrast, Riseup's focus is on technology. When laws are unjust, we believe that a new technical reality is necessary in order to alter the legal and political possibilities.
 
 h1. Security overview
 
@@ -35,7 +45,7 @@ h1. Security overview
 <tr>
   <td>[[device-security]]</td>
   <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
-  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+  <td>Useful to keep your device resistant to known attacks and whenever your device might *physically* fall into the hands of an attacker.</td>
 </tr>
 <tr>
   <td>[[message-security]]</td>
@@ -49,10 +59,4 @@ h1. Security overview
 </tr>
 </table>
 
-Riseup mostly provides services that address [[network-security]]:
-
-* Because network surveillance is so pervasive, it is a *social problem* that affects everyone all the time. In contrast, device and message security are important for people who are being individually targeted by repressive authorities.
-* Improving your network security is fairly *easy*, in comparison to device or message security.
-
-Having said that, it is important for people facing the prospect of targeted repression to employ device and message security, although this can take some time to learn. These help pages will aid in that journey.
-
+Also, check out [[security resources => resources]] page for more links to security guides and activists providers.

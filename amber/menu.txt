@@ -69,7 +69,11 @@ security
   privacy
   surveillance
   human-security
+    message-hygiene
+    passwords
   device-security
+    device-encryption
+    software-safety
   message-security
     openpgp
       gpg-best-practices

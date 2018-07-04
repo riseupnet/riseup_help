@@ -1,6 +1,16 @@
 @title = 'Kommunikationssicherheit'
 @nav_title = 'Sicherheit'
 
+h1. Start here
+
+Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+
+# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
+# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
+# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
+# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
+# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+
 h1. Warum Sicherheit wichtig ist
 
 Die Zunehmende Wichtigkeit von Information und Kommunikation brachte ein anderes Phänomen mit sich: die wachsende *Überwachungsgesellschaft*. Überwachung kann als ein Versuch der Mächtigen gesehen werden, _ihre Dominanz durch Kontrolle der Kommunikation zu bewahren_.

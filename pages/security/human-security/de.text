@@ -2,46 +2,5 @@
 
 Diese Sicherheits-Artikel enthalten viel Gerede über Verschlüsselung. Schlussendlich ist jedoch die gesamte zauberhafte Krypto-Magie komplett sinnlos, wenn du unsicheres Benehmen an den Tag legst. Mit ein paar einfachen Praktiken kannst du deine Sicherheit enorm steigen.
 
-h2. Rette die Welt mit besseren Passwörtern
+<%= child_summaries heading: 1, include_toc: true %>
 
-<%= render 'common/good-passwords' %>
-
-h2. Häufiger Betrug im Internet
-
-<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
-
-h2. Halte deine Software auf dem neuesten Stand
-
-Muss noch geschrieben werden.
-
-h2. Vorsicht bei gemeinsam genutzten Computern
-
-Logout: Denke daran, dich immer abzumelden, wenn du den Webmailer verwendest. Das ist sehr wichtig und sehr einfach. Es ist besonders wichtig, wenn du einen öffentlichen Computer verwendest. Lasse dein Computer nicht ungesperrt und unbeaufsichtigt stehen.
-
-Vermeide öffentliche Computer: Das könnte schwierig sein. Wenn du öffentliche Computer verwendest, überlege dir, ob du deine Passwörter häufiger wechselst oder verwende den *virtuelle Tastatur* Link (solltest du den Webmailer von riseup.net verwenden).
-
-Erstellt verschiedene Benutzern mit unterschiedlichen Einstellungen, wenn du einen gemeinsamen Computer mit deinen Freunden verwendest. Außerdem solltest du dich immer ausloggen oder den Computer sperren, wenn du ihn gerade nicht benutzt.
-
-h2. Vermeide das Preisgeben persönlicher Informationen
-
-Die Preisgabe persönlicher Informationen durch Social Engineering ist ein sehr umfassendes Thema. An dieser Stelle können wir nicht ausreichend zu erklären, oder erläutern warum dies gemacht wird, sondern nur helfen, diese Versuche zu erkennen und praktische Tipps geben, sich eine "menschliche" Firewall aufzubauenb gegen alle "Dinge", die solche versuche unternehmen.
-
-* Identifiziere Versuche von Social Engineering. Lerne durch reale Fälle, Berichte, Dokumentationen, etc. über verschiedene aktuelle Methoden sozialer Manipulation, auch angewandt auf Identitätsdiebstahl. Es gibt dazu eine Menge Bücher und Artikel.
-
-* Erstelle eine Programm für Bewusstheit über persönliche Sicherheit. Nimm an Veranstaltungen (wie CryptoPartys oder anderen "Untergrund"-Treffen teil), Dynamiken oder Kultur (wie was wir tun) die mit Menschen interagiert, das Thema präsenter macht und dadurch Bewusstheit über Schutzmöglichkeiten steigert.
-
-* Bewusstheit steigern für den Wert unserer Informationen für Social Engineers. Wie viel wert sind dir Name, Telefonnummer, Emailpasswort oder einfach deine Lieblingsfarbe? Erzeugen einer Neugier über das Bereitstellung von Informationen, Fragen stellen darüber wer diese Informationen haben will, welche Informationen genau und zu welchem Zweck, woher die fragende Person kommt und an wen diese weitergeleitet werden sollen.
-
-* Entwickle Prozesse, welche die Schritte sozialer Manipulation umgehen. Finde etwas über die Identität von Fragen stellenden Personen heraus, mit welchem Ziel diese Fragen gestellt werden. Es ist nicht notwendig, falsche Informationen zu korrigieren im Beisein von Menschen, die diese Information nicht haben brauchen. Habe keine Angst, "Nein" zu sagen, oder um Zeit zu bitten, darüber nachzudenken.
-
-* Benutze keine Information, nach der Du nicht gefragt hast. Sei vorsichtig bei Menschen, die Katastrophen benutzen, um emotionale Anfragen zu stellen.
-
-Siehe dazu auch das online verfügbare Buch "Social Engineering: The Art of Human Hacking":https://books.google.com.ua/books?id=9LpawpklYogC&redir_esc=y by Christopher Hadnagy.
-
-h2. Spüre die Liebe von freier Software
-
-Warum solltest du lieber GNU/Linux anstatt Windows oder Mac OS verwenden? Es gibt verschiedene Gründe, einer der größten ist, dass sie durch die vielen Viren, Trojaner, Hintertüren, Sicherheitslücken, gezielter Regierungsangriffe und anderer Exploits über die Jahre nicht mehr vertrauenswürdig sind. Das gilt besonders, weil dir keine Möglichkeit gelassen wird, unter die Haube zu schauen um zu sehen, ob das was die Betriebsysteme machen, auch in Ordnung ist. Die Software ist proprietär und Closed-Source, das bedeutet, dass du deine privaten Informationen Unternehmen anvertraust, deren einziger Fokus der Profit ist, nicht die Sicherheit deiner persönlichen Daten und du hast keine Chance die Methoden des Unternehmens zu überprüfen. 
-
-MacOS leidet an den selben Problemen, an denen auch Windows leidet. Obwohl es auf Unix – von dem auch Linux abstammt – basiert, sind große Teile des Betriebsystems nicht Open Source und damit auch nicht für eine Prüfung durch andere zugänglich. Die erhöhte Popularität resultierte in einer Reihe von Viren und Sicherheitslücken (es sind aber immer noch deutlich weniger als bei Windows). Apples autoritaristische Firmen Kultur zeigt sich auch in der Struktur des Betriebsystems. OS X verfügt über ein eingebautes „Feature“, das eine Aktivierung der Webcam von einem anderen Computer aus erlaubt; eine solche Funktion wurde unabhängig vom Betriebsystem schon mehrmals für andere Zwecke missbraucht.
-
-GNU/Linux setzt sich hauptsächlich aus Software zusammen, deren Quelltexte von jedermann betrachtet und überprüft werden können. Diese Programme wurden von über Jahre hinweg von eine großen Gruppe verschiedenster Menschen geschrieben. In der Geschichte von Linux gibt es nur wenige Viren und Sicherheitslücken. Linux ist zudem ein sehr leicht bedienbares Betriebsystem, das viel alte Hardware unterstützt und damit Sicherheit für eine große Anzahl von Anwendern verfügbar macht.

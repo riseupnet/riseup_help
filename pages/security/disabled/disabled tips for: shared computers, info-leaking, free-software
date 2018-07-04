@@ -1,0 +1,243 @@
+ENGLISH
+================================
+
+h2. Save the world with better passwords
+
+<%= render 'common/good-passwords' %>
+
+h2. Common internet scams
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Keep your software up to date
+
+To be written.
+
+h2. Be cautious on shared computers
+
+Logout: make sure that you always logout when using web-mail. This is very important, and very easy to do. This is particularly important when using a public computer. Don't leave your computer unlocked and unattended.
+
+Avoid public computers: this can be difficult. If you do use a public computer, consider changing your password often or using the *virtual keyboard* link (if you use riseup.net for your web-mail).
+
+if you share a computer with friends, create multiple logins which keep user settings separate. You should enable this feature, and logout or "lock" the computer when not in use.
+
+h2. Avoid personal information leaking
+
+Personal information leaking caused by Social Engineering is a very embracing topic, because of the uses for good or not so good reasons, so we will write down not to explain what Social Engineering is, or to list reasons someone would use it, instead, we will give some basic tips to identify and avoid such approach when needed. Afterall, it is all about build your own human firewall against "things" that seek for your information for any nefarious sake.
+
+The tips are:
+
+* *Identify social engineering approach. Learn through real cases, reports, documentaries, etc. about the different methods used by social engineers today, also these applied in identity theft. There is a lot of books and articles out there;
+
+* *Creating an awareness program for personal safety. Create and attend events (like CryptoParty, or any underground neighborhood meetup), dynamics or culture (like that we do here) that will engage people, causing a deep interaction with the theme and creating awareness about preventive measures.
+
+* *Create awareness for the value of your information sought by social engineers. How important to you is your name, your phone number, your e-mail password or simply your favorite color? Create an inquisitive sense about providing information, investigating the applicant with questions to determine exactly who needs the information, exactly what information and for what purpose, ask where the applicant comes from, what kind of place he or she want to send the information.
+
+* *Develop scripts that bypass the social engineer steps. Practice director answers to investigate the applicant's information, something that encourage the applicant to reveal more of his identity and purpose. Always ask why the applicant wishes the requested information. Remember that you don't need to correct anyone that don't need to have a true information, don't be afraid to say "no" or ask for space to think about the subject, if it seems something important. Eliminate your own doubts the maximum as possible. An example, if someone requested to enter a restricted office, check the credentials of the applicant even before state whether such office is or before providing any other information, even corrections about where to go.
+
+* *Don't consume information you didn't requested. Be aware of people using disasters to appeal an emotional request.
+
+See also the book "Social Engineering: The Art of Human Hacking" by Christopher Hadnagy which is available online.
+
+h2. Feel the love of free and open source software
+
+Why should you use GNU/Linux over Windows or Mac OS? There are a number of reasons, one of the biggest is that the large quantities of viruses, trojans, back-door programs, security bugs, targeted government hacking, and other exploits over the years make them very difficult to trust, especially because you are not given the opportunity to look under the hood to see if what is going on is ok. The software is proprietary and closed source, that means you are trusting your private information to a corporation whose sole focus is profit, not the security of your personal information and whose methods you are unable to audit for yourself.
+
+OS X suffers from similar issues that windows does. While it is based on Unix (of which Linux is a “clone”), a large portion of the operating system is not open source and thus not available for third party review. Its increasing popularity has been resulting in increasing viruses and exploits (though still far fewer than windows) and its corporate culture of authoritarianism is reflected in the structure of the operating system. OS X also includes the built-in “feature” to remotely activate the webcam which, as a feature regardless of the OS its on, has been shown to be used for other purposes.
+
+GNU/Linux, however, is composed primarily (and can be made exclusively) of software whose source can be obtained and audited by essentially anyone, it has been built by a community of people for years. Its history is filled with few viruses and user-level exploits. Linux is also an easy to use operating system that supports a wealth of older hardware that makes this level of security accessible to the average individual.
+
+
+PORTUGESE
+=========================
+
+h2. Salve o mundo com senhas melhores
+
+<%= render 'common/good-passwords' %>
+
+h2. Armadilhas comuns na Internet
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Mantenha seu software atualizado
+
+Esta seção ainda precisa ser escrita! Se você souber inglês, "contribua com conteúdo":https://github.com/riseupnet/riseup_help para esta página.
+
+h2. Use computadores compartilhados com cautela
+
+Desconecte-se: Depois de usar o _webmail_, lembre-se de sair da conta. Apesar de simples, esse passo é muito importante, principalmente em um computador público. Além disso, não deixe seu computador desbloqueado se precisar desocupá-lo.
+
+Evite computadores públicos: Se não puder, mude sua senha com frequência ou insira-a com o *teclado virtual* (se você usa o _webmail_ de riseup.net), pois as teclas podem ser rastreadas.
+
+Se você compartilha um computador com pessoas conhecidas, crie várias contas para manter as configurações de cada uma separadas. Encerre ou bloqueie sua sessão quando desocupá-lo.
+
+h2. Apaixone-se por software livre e de código aberto
+
+Por que usar GNU/Linux em vez de Windows ou OS X? Há muitas razões, uma das quais é a desconfiança inspirada pela grande quantidade de vírus, cavalos de Troia, "passagens secretas" (programas _backdoor_), erros de segurança, espionagens do governo e outros abusos verificados ao longo dos anos. Por que esses sistemas operacionais são "caixas pretas", isto é, têm o código fechado, não se pode saber como funcionam e que abusos sofre quem os usa. Por que não são livres, não são leais à sua vontade, mas ao arbítrio de empresas cujo único objetivo é o lucro, não a segurança das suas informações pessoais.
+
+Esses problemas estão presentes tanto no Windows como no OS X. Embora seja baseado no Unix (do qual o GNU/Linux é um "clone"), o sistema operacional da Apple é, em grande parte, de código fechado e, portanto, só pode ser escrutinado por quem participa diretamente do seu desenvolvimento. O autoritarismo da cultura corporativa da Apple reflete-se na estrutura do OS X. A popularidade crescente do sistema resulta em cada vez mais vírus e ataques, ainda que bem menos que no Windows. Além disso, o OS X inclui um "recurso" para ativar a câmera a distância que pode, em qualquer sistema, ser usado maliciosamente.
+
+Já o GNU/Linux é composto principalmente - e, se você quiser, exclusivamente - de software desenvolvido pela comunidade e cujo código pode ser obtido e auditado por qualquer pessoa. Tem um histórico de poucos vírus e de baixo nível de acesso nos ataques. O sistema é fácil de usar e leve, ou seja, pode ser usado em máquinas mais antigas.
+
+
+GERMAN
+================
+
+MacOS leidet an den selben Problemen, an denen auch Windows leidet. Obwohl es auf Unix – von dem auch Linux abstammt – basiert, sind große Teile des Betriebsystems nicht Open Source und damit auch nicht für eine Prüfung durch andere zugänglich. Die erhöhte Popularität resultierte in einer Reihe von Viren und Sicherheitslücken (es sind aber immer noch deutlich weniger als bei Windows). Apples autoritaristische Firmen Kultur zeigt sich auch in der Struktur des Betriebsystems. OS X verfügt über ein eingebautes „Feature“, das eine Aktivierung der Webcam von einem anderen Computer aus erlaubt; eine solche Funktion wurde unabhängig vom Betriebsystem schon mehrmals für andere Zwecke missbraucht.
+
+GNU/Linux setzt sich hauptsächlich aus Software zusammen, deren Quelltexte von jedermann betrachtet und überprüft werden können. Diese Programme wurden von über Jahre hinweg von eine großen Gruppe verschiedenster Menschen geschrieben. In der Geschichte von Linux gibt es nur wenige Viren und Sicherheitslücken. Linux ist zudem ein sehr leicht bedienbares Betriebsystem, das viel alte Hardware unterstützt und damit Sicherheit für eine große Anzahl von Anwendern verfügbar macht.
+
+
+h2. Rette die Welt mit besseren Passwörtern
+
+<%= render 'common/good-passwords' %>
+
+h2. Häufiger Betrug im Internet
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Halte deine Software auf dem neuesten Stand
+
+Muss noch geschrieben werden.
+
+h2. Vorsicht bei gemeinsam genutzten Computern
+
+Logout: Denke daran, dich immer abzumelden, wenn du den Webmailer verwendest. Das ist sehr wichtig und sehr einfach. Es ist besonders wichtig, wenn du einen öffentlichen Computer verwendest. Lasse dein Computer nicht ungesperrt und unbeaufsichtigt stehen.
+
+Vermeide öffentliche Computer: Das könnte schwierig sein. Wenn du öffentliche Computer verwendest, überlege dir, ob du deine Passwörter häufiger wechselst oder verwende den *virtuelle Tastatur* Link (solltest du den Webmailer von riseup.net verwenden).
+
+Erstellt verschiedene Benutzern mit unterschiedlichen Einstellungen, wenn du einen gemeinsamen Computer mit deinen Freunden verwendest. Außerdem solltest du dich immer ausloggen oder den Computer sperren, wenn du ihn gerade nicht benutzt.
+
+h2. Vermeide das Preisgeben persönlicher Informationen
+
+Die Preisgabe persönlicher Informationen durch Social Engineering ist ein sehr umfassendes Thema. An dieser Stelle können wir nicht ausreichend zu erklären, oder erläutern warum dies gemacht wird, sondern nur helfen, diese Versuche zu erkennen und praktische Tipps geben, sich eine "menschliche" Firewall aufzubauenb gegen alle "Dinge", die solche versuche unternehmen.
+
+* Identifiziere Versuche von Social Engineering. Lerne durch reale Fälle, Berichte, Dokumentationen, etc. über verschiedene aktuelle Methoden sozialer Manipulation, auch angewandt auf Identitätsdiebstahl. Es gibt dazu eine Menge Bücher und Artikel.
+
+* Erstelle eine Programm für Bewusstheit über persönliche Sicherheit. Nimm an Veranstaltungen (wie CryptoPartys oder anderen "Untergrund"-Treffen teil), Dynamiken oder Kultur (wie was wir tun) die mit Menschen interagiert, das Thema präsenter macht und dadurch Bewusstheit über Schutzmöglichkeiten steigert.
+
+* Bewusstheit steigern für den Wert unserer Informationen für Social Engineers. Wie viel wert sind dir Name, Telefonnummer, Emailpasswort oder einfach deine Lieblingsfarbe? Erzeugen einer Neugier über das Bereitstellung von Informationen, Fragen stellen darüber wer diese Informationen haben will, welche Informationen genau und zu welchem Zweck, woher die fragende Person kommt und an wen diese weitergeleitet werden sollen.
+
+* Entwickle Prozesse, welche die Schritte sozialer Manipulation umgehen. Finde etwas über die Identität von Fragen stellenden Personen heraus, mit welchem Ziel diese Fragen gestellt werden. Es ist nicht notwendig, falsche Informationen zu korrigieren im Beisein von Menschen, die diese Information nicht haben brauchen. Habe keine Angst, "Nein" zu sagen, oder um Zeit zu bitten, darüber nachzudenken.
+
+* Benutze keine Information, nach der Du nicht gefragt hast. Sei vorsichtig bei Menschen, die Katastrophen benutzen, um emotionale Anfragen zu stellen.
+
+Siehe dazu auch das online verfügbare Buch "Social Engineering: The Art of Human Hacking":https://books.google.com.ua/books?id=9LpawpklYogC&redir_esc=y by Christopher Hadnagy.
+
+h2. Spüre die Liebe von freier Software
+
+Warum solltest du lieber GNU/Linux anstatt Windows oder Mac OS verwenden? Es gibt verschiedene Gründe, einer der größten ist, dass sie durch die vielen Viren, Trojaner, Hintertüren, Sicherheitslücken, gezielter Regierungsangriffe und anderer Exploits über die Jahre nicht mehr vertrauenswürdig sind. Das gilt besonders, weil dir keine Möglichkeit gelassen wird, unter die Haube zu schauen um zu sehen, ob das was die Betriebsysteme machen, auch in Ordnung ist. Die Software ist proprietär und Closed-Source, das bedeutet, dass du deine privaten Informationen Unternehmen anvertraust, deren einziger Fokus der Profit ist, nicht die Sicherheit deiner persönlichen Daten und du hast keine Chance die Methoden des Unternehmens zu überprüfen. 
+
+FRENCH
+====================================
+
+h2. Sauvons le monde avec de meilleurs mots de passe
+
+<%= render 'common/good-passwords' %>
+
+h2. Certaines arnaques courantes sur internet
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Garder ses logiciels à jour
+
+À écrire.
+
+h2. Soyez prudent-e-s sur les ordinateurs communs
+
+Déconnexion: soyez certain-e-s de vous déconnecter lorsque vous utilisez la messagerie web. C'est vraiment très important et très facile à faire. C'est particulièrement important quand vous utilisez un ordinateur public. Ne laissez pas votre ordinateur ouvert s'il est sans surveillance.
+
+Évitez les ordinateurs publics: cela peut être difficile. Si vous devez utiliser un ordinateur public, tentez de changer votre mot de passe souvent ou utilisez le *clavier virtuel* (si vous utilisez riseup.net comme messagerie web).
+
+Si vous partagez un ordinateur avec des amis, créez plusieurs comptes pour garder vos profils séparés. Vous devriez activer cette fonctionnalité et vous déconnecter ou "barrer" votre compte quand vous n'utilisez plus l'ordinateur.
+
+h2. Tomber amoureux des logiciels libres et ouverts
+
+Pourquoi devriez-vous utiliser GNU/Linux plutôt que Windows ou Mac OS? Il y a plusieurs raisons de le faire. Un de celles-ci est qu'il y a beaucoup de virus, de trojans, de programmes avec des portes dérobées, des bugs de sécurité, des failles implémentées par les gouvernements ou d'autres failles qui les rendent difficilement fiable. Comme leur code source n'est pas disponible, il est impossible de regarder sous le capot pour s'assurer que tout est correct. Ces programmes sont propriétaires et gardent leur code source secret, ce qui implique que vous confiez la confidentialité de vos données à des entreprises motivées par le profit et dont les méthodes sont invérifiables.
+
+OS X souffre de problèmes similaires à Windows. Même s'il est basé sur Unix (sur lequel Linux se base), une large portion du code source du système d'exploitation est fermé et n'est donc pas vérifiable par des tierces parties. L'augmentation de sa popularité s'accompagne d'une augmentation des virus et des failles l'affectant. De surcroît, sa culture entrepreneuriale et autoritaire se reflète dans la structure de son système d'exploitation. OS X inclut également une "fonction" qui permettent d'activer la webcam à distance - et ce peu importe le système d'exploitation installé - et cela a déjà été utilisé à des fins malicieuses.
+
+Au contraire, GNU/Linux est composé en très grande majorité (parfois à 100%) de logiciels dont le code source peut être obtenu et vérifié par n'importe qui. Depuis plusieurs années, il est construit par une importante communauté. Son histoire n'inclut que très peu de virus et de failles de sécurité. Linux est également un système d'exploitation facile d'utilisation qui supporte beaucoup d'ordinateurs (même vieillissants) et rend la sécurité informatique accessible à toutes et à tous.
+
+
+RUSSIAN
+================================
+
+h2. Сохраним мир с лучшими паролями.
+
+<%= render 'common/good-passwords' %>
+
+h2. Распространённые интренет-угрозы
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. Поддерживайте свое ПО в актуальном состоянии.
+
+К написанию
+
+h2. Осторожнее с компьютерами общего пользования
+
+Завершайте сессию: каждый раз убеждайтесь, что разлогинились, если используете веб-интерфейс для почты. Это крайне важно, и очень легко. Как правило, это наиболее важный пункт при использовании обещственных компьютеров. Не оставляйте свой компьютер незаблокирванным и без присмотра.
+
+Избегайте общественных компьютеров: это может быть сложно. Если вы пользуетесь общественным компьютером, почаще меняйте пароли, либо пользуйтесь *виртуальной клавиатурой* при их вводе.
+
+Если делите компьютер с друзьями, создайте несколько учётных записей, хранящих данные раздельно. И каждый раз завершайте сессию, либо блокируйте компьютер, когда не пользуетесь им.
+
+h2. Избегайте утечек персональных данных.
+
+Утечка персональных данных из-за социальной инженерии — тема очень объёмная, из-за использования как в хороших, так и в плохих целях, так что мы не будем расписывать, что из себя представляец социнженерия, или перечислять причины, почему кто-то её использует, вместо этого мы дадим несколько базовых советов по выявлению таких подходов при необходимости. В конечном итоге это создаст ваш собственный человеческий фаерволл против "штучек", тишущих вашу информацию в своих гнусных целях.
+
+А советы следующие:
+* *Выявляйте характерные подходы соцнжененрии. Изучайте реальны случаи, отчёты, документальные фильмы и т.д. касательно различных методов, используемых социальными инженерами сегодня. На эту тему существует множетсво книг и статей.
+
+* *Создайте для себя программу информирования. Создавайте и принимайте участие в событиях (таких как Cryptoparty или неформальные сходки соседей), движениях и культурах (вот как мы здесь), вовлекающих людей, организующих глубокую проработку темы и дающих осведомлённость касательно превентивных мер. 
+
+* *Будьте осведомлены о ценности вашей информации, востребованной социальными инженерами. Насколько важно ваше имя, ваш номер телефона, пароль от почты или просто любимый цвет? Проявляйте дотошность, предоставляя информацию, допытывая респондента вопросами, позволяющими определить, кому  конкретно нужна информация, какая именно и для каких целей. Спрашивайте, откуда он и куда отправит ваши данные.
+
+* *Разработайте модели поведения, обходящие уловки социальных инженеров. Учитесь задавать вопросы, открывающие информацию о респонденте, что-то, что сподвигнет его открыть больше сведений о себе и своих намерениях. Всегда спрашивайте респондента, для чего ему нужна информация. Не бойтесь сказать "нет" или попросить время на раздумья о предмете беседы, если сведения кажутся вам важными. Устраните собственные сомнения насколько это возможно. Например, кто-то просится войти в офис с пропускным режимом — проверьте его данные прежде, чем даже указывать, где этот офис находится, а тем более, предоставлять любую другую информацию, даже если вас просто попросили уточнить путь.
+
+* *Не усваивайте информацию, которую вы не запрашивали. Остерегайтесь людей, использующих происшествия для воздействия на эмоции.
+
+Также рекомендуем книгу  "Social Engineering: The Art of Human Hacking" за авторством Christopher Hadnagy, доступную онлайн.
+
+h2. Полюбите свободное и открытое ПО
+
+Почему вам следует использовать GNU/Linux вместо Windows или MacOS? Есть множество причин, но одна из важнейших заключается в огромном количестве вирусов, троянов, бэкдоров, дыр в безопасности, целевых правительственных хаков и прочих эксплоитов, с годами всё больше снижают доверие к этим системам, особенно учитывая, что они не дают возможности заглянуть под капот и проверить, всё ли в порядке. Это ПО проприетарное и закрытое, что означает, что вы слепо доверяете ваши персональные даные корпорации, полностью сфокусированной на извлечении прибыли, а отнюдь не на сохраности ваших данных, и чьи методы работы вы не можете изучить лично.
+
+OS X страдает от проблем, очень сходных с Windows. Хоть она и базируется на Unix ("клоном" которой является Linux), огромная часть операционной системы закрыта и потому недоступна для изучения третьей стороной. Растущая популярность её привела к увеличению количества вирусов и эксплоитов (впрочем, их всё ещё намного меньше, чем в Windows), а их авторитарная корпоративная культура отражена в структуре операционной системы. OS X также включает встроенную "особенность", позволяющую удалённо включать вебкамеру, которая, независимо от операционой системы, может использоваться для очень разных вещей.
+
+GNU/Linux, между тем, составлена преимущественно (а при желании — и исключительно) из программного обеспечения, чей исходный код доступен каждому, создаётся сообществом людей годами. Её история содержить лишь несколько вирусов и эксплоитов уровня пользователя. Linux легка в использовании и поддерживает огромное количество аппаратных средств, что делает высокий уровень безопасности доступным практически каждому.
+
+
+CHINESE
+================================
+
+h2. 想拯救世界，先用好密码
+
+<%= render 'common/good-passwords' %>
+
+h2. 常见的网络欺诈
+
+<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
+
+h2. 及时更新你的软件
+
+有待补充-To be written.
+
+h2. 总是对公用电脑保持警惕
+
+注销：确保你每次用完网页邮箱之后都注销登录。这很重要，也很简单。在你使用公共电脑时，这一习惯就显得尤为重要了。
+
+电脑没锁定，就别让它太孤单，留神点。你应该设置你的电脑在闲置一段时间后自动锁定。
+
+尽量避免使用公用电脑：这当然很困难。如果你必须使用一台公用电脑，那你可以考虑经常修改密码，或是使用 *虚拟键盘*来输密码（如果你使用riseup.net提供的网页邮箱的话）。
+
+如果你要把你的电脑借给别人，那就另外创建一个登录用户吧，把用户设定去分开来。但如果你使用的是windows等安全系数不高的系统，多用户登录并不能完全保护你的隐私。
+
+h2. 拥抱自由软件给你的爱
+
+为什么我们提倡用GNU/Linux取代Windows或者Mac OS呢？原因有很多，但其中最终要的就是，病毒、木马、后门程序、安全漏洞、来自政府的针对性渗透，或者近些年暴露出来的其他各种毛病……总之他们很难让人信任，尤其是你不能掀起它的盖头，看看一切是否安好。信任专有而闭源的软件，那么你就必须将你的隐私交给一家或几家公司看管，而他们都是利益至上之人，不会把你的安全或者个人信息放在首要的位置。这意味着，你不能掌控你自己的隐私。
+
+OS X系统与windows系统存在类似的问题。尽管他是基于Unix改造而生的（Linux则是“克隆”而得），但这个操作系统的很大一部分是闭源的，因此无法得到充分的第三方审计。这大大提高了病毒和漏洞的风险——尽管比windows小得多。苹果的公司文化讲求极端权威和独裁，这直接反应在它的操作系统上。OS X同样内置有远程启动摄像头的“功能”，当这一功能被不当利用时，没有人知道它会带来多少麻烦。
+
+不同的是，GNU/Linux，基本上是（也可以完全是）由开放源代码的软件组成的，这些软件的代码可以被任何人获得、查看，自许多年前起就由开源社区的人们维护。Linux的历史中少有病毒和用户级别的漏洞，同时他也是一个易用的操作系统，对硬件的要求很低，能让所有人都享受到高级别的安全。
