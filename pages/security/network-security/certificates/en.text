@@ -54,15 +54,18 @@ There is no particular reason that you should trust this key. You can see who ha
 
 h4. Verify Riseup's Certificate
 
-Now that you have imported Riseup's public key, you can verify that the fingerprints listed on this page are really from riseup.net.
+You can verify that the fingerprints listed on this page are really from riseup.net by entering this command into a terminal:
 
-# Download the signed [[certificate fingerprint statement => riseup-signed-certificate-fingerprints.txt]]:
-@wget https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt@
-# Then run this command in a terminal:
-@gpg --verify riseup-signed-certificate-fingerprints.txt@
-# You should get output that says:
+bc. wget -qO - https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt | gpg --auto-key-retrieve --verify --output -
 
-bq. gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+It will show the signed message printed above followed by output that says:
+
+bq. gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E                                      
+gpg: Good signature from "Riseup Treasurer <treasurer@riseup.net>" [unknown]                                    
+gpg:                 aka "Riseup Networks <collective@riseup.net>" [unknown]                                    
+gpg: WARNING: This key is not certified with a trusted signature!                                               
+gpg:          There is no indication that the signature belongs to the owner.                                   
+Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E                                                                   
 
 You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
 
