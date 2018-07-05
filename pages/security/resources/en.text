@@ -24,10 +24,8 @@ h4. Advanced security guides
 
 * [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
 * [[Digital self defense guide -> https://guide.boum.org/]] (currently French language only, you can help translate).
-* [[Cryptoparty Handbook => https://www.cryptoparty.in/documentation/handbook]].
-* FOSS Manual on [[Bypassing Internet Censorship -> http://www.flossmanuals.net/bypassing-censorship/]] is a comprehensive 240 page guide to circumvention technologies.
+* [[Cryptoparty Handbook => https://www.cryptoparty.in/learn/handbook]].
 * FOSS Manual on [[Basic Internet Security -> http://www.flossmanuals.net/basic-internet-security/]].
-* [[Internet censorship wiki -> http://en.cship.org/wiki]] contains lots of information on circumventing internet censorship (currently only in English).
 
 h4. Out of date
 
@@ -35,7 +33,9 @@ These old guides are of historical significance and may sometimes even be useful
 
 * [[Riseup Zine: Digital Security for Activists!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
 * [[security.resist.ca -> http://security.resist.ca]] Helping activists stay safe in our oppressive world.
-* [[APC Security Docs -> http://secdocs.net/manual/lp-sec/]] A series of briefings on information security and online safety for civil society organizations.
-* [[Guide to Email Security -> http://www.activist.ca/guide/encrypt.html]] Using Encryption and Digital Signatures.
-* [[Computer Security for the Average Activist -> http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] A downloadable PDF.
+* [[APC Security Docs -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]] - a series of briefings on information security and online safety for civil society organizations from 2002
+* [[Guide to Email Security -> https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html]] Using Encryption and Digital Signatures from 2005
+* [[Computer Security for the Average Activist -> https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf]] A downloadable PDF.
 * [[An introduction to activism on the internet -> http://www.backspace.com/action/]].
+* FOSS Manual on [[Bypassing Internet Censorship -> https://web.archive.org/web/20140106090547/http://en.flossmanuals.net/_booki/bypassing-censorship/bypassing-censorship.pdf]] is a comprehensive 240 page guide to circumvention technologies from 2012.
+* [[Internet censorship wiki -> http://en.cship.org/wiki]] contains lots of information on circumventing internet censorship (currently only in English).

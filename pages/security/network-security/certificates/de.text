@@ -53,19 +53,23 @@ Es gibt keinen guten Grund, diesem Schlüssel zu vertrauen. Du kannst aber sehen
 
 @$ gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E@
 
-h3. Verifiziere diese Anleitung
+h3. Verifiziere Riseups Zertifikat
 
-Jetzt, da Du Riseups öffentlichen Schlüssel importiert hast, kannst Du verifizieren, daß die Prüfsummen, die auf dieser Seite aufgeführt sind, wirklich von Riseup stammen: 
+Mit folgendem Befehl können die Fingerabdrücke auf dieser Seite verifiziert werden:
 
-# Lade die [[hier verlinkten PGP-signierten Prüfsummen unserer SSL-Zertifikate => riseup-signed-certificate-fingerprints.txt]] herunter:
-@wget https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt@
-# Danach führe folgenden Befehl aus:
-@gpg --verify riseup-signed-certificate-fingerprints.txt@
-# Du solltest nun folgende Ausgabe bekommen:
+bc. wget -qO - https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt | gpg --auto-key-retrieve --verify --output -
 
-bq. gpg: Korrekte Unterschrift von "Riseup Networks <collective@riseup.net>"
+Du solltest obige signierte Nachricht sehen, gefolgt von:
 
-Du solltest sicherstellen, daß dort wirklich "Korrekte Unterschrift" (oder "Good signature") steht! Falls der Text abweicht, solltest Du der Information nicht trauen.
+bq. gpg: Signatur vom Mi 11 Okt 2017 21:13:32 CEST
+gpg:                mittels RSA-Schlüssel 4E0791268F7C67EABE88F1B03043E2B7139A768E                              
+gpg: Korrekte Signatur von "Riseup Treasurer <treasurer@riseup.net>" [unbekannt]                                
+gpg:                     alias "Riseup Networks <collective@riseup.net>" [unbekannt]                            
+gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!                                          
+gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.               
+Haupt-Fingerabdruck  = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E                                       
+
+Stelle sicher, dass dort wirklich "Korrekte Unterschrift" (oder "Good signature") steht! Falls der Text abweicht, ist der Information nicht zu trauen.
 
 Falls Du keine konkreten Schritte unternommen hast, einen Vertrauenspfad zum Schlüssel des Riseup-Kollektivs aufzubauen, wirst Du eine Warnung erhalten, die dieser ähnelt:
 
@@ -82,4 +86,4 @@ Falls sie übereinstimmen und Du Riseups öffentlichem PGP-Schlüssel traust, ka
 
 h1. Ich will mehr wissen!
 
-Super, dies ist auch ein wichtiges Thema und wir wollen Dir nahelegen, [diesen (englischen) Text->http://lair.fifthhorseman.net/~dkg/tls-centralization/] zu lesen, der auf nicht-technische Weise sehr gut die Probleme mit zentralen Zertifizierungsstellen darstellt und gleichzeitig einige interessante Vorschläge macht, wie die Situation mit kleinen Veränderungen der existierenden Infrastruktur und Protokolle verbessert werden könnte.
+Super, dies ist auch ein wichtiges Thema und wir wollen Dir nahelegen, [[diesen (englischen) Text -> http://lair.fifthhorseman.net/~dkg/tls-centralization/]] zu lesen, der auf nicht-technische Weise sehr gut die Probleme mit zentralen Zertifizierungsstellen darstellt und gleichzeitig einige interessante Vorschläge macht, wie die Situation mit kleinen Veränderungen der existierenden Infrastruktur und Protokolle verbessert werden könnte.

@@ -1,7 +1,7 @@
 @title = "Off the Record"
 @summary = "OTR ermöglicht dir deine Chat Nachrichten zu verschlüsseln."
 
-h2. OTR Einführung
+h2. OTR-Einführung
 
 [[Off-the-Record Messaging (OTR)->https://de.wikipedia.org/wiki/Off-the-Record_Messaging]] fügt Ende-zu-Ende-Verschlüsselung für Chat Nachrichten hinzu. Es hat viele Funktionen:
 
@@ -29,7 +29,7 @@ Gehe zu https://pidgin.im/download
 
 h3. MacOS
 
-Pidgin kann zwar auf Macs laufen, aber es ist viel einfacher stattdessen Adium zu verwenden. Download: [[Adium -> https://adium.im]].
+Pidgin kann zwar auf Macs laufen, aber es ist viel einfacher, stattdessen Adium zu verwenden. Download: [[Adium -> https://adium.im]].
 
 h2. Ein Konto zu Pidgin hinzufügen
 
