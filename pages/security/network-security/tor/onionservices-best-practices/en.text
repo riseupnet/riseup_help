@@ -1,18 +1,19 @@
-@title = 'Tor Hidden (Onion) Services Best Practices'
+@title = 'Best Practices for Hosting Onion Services'
+@nav_title = 'Hosting Onion Services'
 
 h2. How to use this guide.
 
-Here you can find information about running Tor hidden (onion) services based on our experiences running them and helpful tips from people like you. If you have a helpful tip, or can translate this into another language, [[please contribute->https://github.com/riseupnet/riseup_help]]!
+Here you can find information about running Onion Services based on our experiences running them and helpful tips from people like you. If you have a helpful tip, or can translate this into another language, [[please contribute->https://github.com/riseupnet/riseup_help]]!
 
-Tor Hidden Services are being renamed because "Hidden Service" didn't accurately describe what was possibile, so the name is being broadened to be "Onion Services", in this guide we will use the new name. 
+"Onion Services" were previously known as "Tor Hidden Services", but have been renamed since "Hidden Service" didn't accurately describe what was possibile. This guide uses the new name. 
 
 h2. Installing and configuring Onion Services
 
 For information on configuring onion services, please [[read the Tor Project's guide->https://www.torproject.org/docs/tor-hidden-service]]
 
-h3. Make sure your tor software is updated
+h3. Make sure your Tor software is updated
 
-It is not enough to simply install tor and configure your onion service and then forget about it. You must keep it up to date so that critical security flaws are fixed. All software has bugs, and Tor is no exception. Make sure you are keeping your software up-to-date.
+It is not enough to simply install Tor and configure your onion service and then forget about it. You must keep it up to date so that critical security flaws are fixed. All software has bugs, and Tor is no exception. Make sure you are keeping your software up-to-date.
 
 h3. Many things can be made into onion services
  
@@ -43,6 +44,8 @@ You don't really need SSL/TLS in an onion address (ie. https) since it's a compl
 Although it is true that extra layers are good beware that usually redirecting to SSL/TLS will mean that the certificate will not validate (because the hostname will be *.onion, instead of the certificate that you have for your public service). If you can get a .onion certificate, that works!
 
 h3. Onion services and Rails 4
+
+NOTE: the "secure cookie" bug in the Tor browser has been fixed for newer versions. This means that cookies with the secure flag will be correctly sent back to .onion addresses. You should still follow this tutorial to turn off HTTPS for .onion addresses, but you can now globally turn on the cookie secure flag for both the .onion and https versions of your website.
 
 In order to get a .onion site to play nice with rails, and have the site also work over HTTPS when not using the .onion, you need change a few defaults.
 
@@ -80,7 +83,7 @@ If you are not very careful and keep your server from revealing identifying info
 
 A common misstep here is server signatures, for example it is easy to determine if a webserver is thttpd or Apache, or learn about your operating system because the banner tells the version of the running service and operating system.
 
-Another way that your onion address will get out is via the referrer header in browsers when a client browses a hidden service website and then clicks on a clearnet/hidden service link. The tor browser has [[taken care->https://trac.torproject.org/projects/tor/ticket/9623]] of many of these tiny leaks, so be sure to encourage your users to [[use an up-to-date tor browser->https://www.torproject.org/download/download-easy]] instead of using their own browser with tor.
+Another way that your onion address will get out is via the referrer header in browsers when a client browses a hidden service website and then clicks on a clearnet/hidden service link. The Tor browser has [[taken care->https://trac.torproject.org/projects/tor/ticket/9623]] of many of these tiny leaks, so be sure to encourage your users to [[use an up-to-date tor browser->https://www.torproject.org/download/download-easy]] instead of using their own browser with Tor.
 
 The longer an onion service is online, the higher the risk that its location is discovered. The most prominent attacks are building a profile of the onion service's availability and matching induced traffic patterns.
 
@@ -106,7 +109,7 @@ h2. Protecting your services
 
 h3. Protect your private keys
 
-Keep the onion service private key private! That key should not be available to the public, it should not be shared and it should have proper permissions set so it is not readable by anyone on your system, except for the tor process.
+Keep the onion service private key private! That key should not be available to the public, it should not be shared and it should have proper permissions set so it is not readable by anyone on your system, except for the Tor process.
 
 h3. Backup your private keys
 
@@ -120,14 +123,14 @@ There are a few ways you can solve this problem:
 
 * *different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
 
-* *isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
+* *isolation*: similarly to the above, you can also isolate Tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
 
-* *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
+* *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make Tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
 
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
 HiddenServicePort 80 192.168.1.1:81
 
-* *unix socket*: consider using unix socket support instead of a TCP socket (requires 0.26 or later tor) - if you do this, then the onion service will be running on the same server as the service itself. With a socket approach, you should be able to run with privatenetwork=yes in systemd unit which gets you some really great isolation, for example:
+* *unix socket*: consider using unix socket support instead of a TCP socket (requires 0.26 or later Tor) - if you do this, then the onion service will be running on the same server as the service itself. With a socket approach, you should be able to run with privatenetwork=yes in systemd unit which gets you some really great isolation, for example:
 
 bc. HiddenServicePort 80 unix:/etc/lighttpd/unix.sock
 
@@ -137,4 +140,4 @@ But then the service itself needs to support unix sockets, otherwise you have to
 
 h3. You can make onion services require authentication to use.
 
-If you set HiddenServiceAuthorizeClient (see man page), then it is only available for authorized clients. This will mean that you can't even attack the service unless you break tor (or have the authorization key).
+If you set HiddenServiceAuthorizeClient (see man page), then it is only available for authorized clients. This will mean that you can't even attack the service unless you break Tor (or have the authorization key).
