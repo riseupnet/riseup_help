@@ -25,6 +25,8 @@ Unsere Spitzengruppe für die Bekämpfung von Spam hat drei Ebenen der Verteidig
 * *Spamassassin*: Riseup benutzt [[spamassassin->https://spamassassin.apache.org/]] im Kampf gegen Spam. Spamassassin benutzt eine komplexe Sammlung von Algorithmen, um zu bestimmen, ob eine ankommende Mail Spam ist.
 * *Anpassbarer Spamfilter*: Als letzte Verteidigungsstufe bieten wir an, die Spameinstellungen pro Konto zu individualisieren. Bei aktiviertem Statistikfilter wird dieser nach und nach lernen und sich anpassen. Für weitere Informationen siehe unten.
 
+Wenn sinnvolle Nachrichten im Spam-Ordner landen, verschiebe sie zurück in die INBOX, damit unser statistischer Spamfilter daraus lernen kann.
+
 h1. Warum werden Nachrichten an mich als Spam gefiltert?
 
 Eine aktuelle Studie hat gezeigt, dass über 95% des Emailverkehrs im Internet Spam ist! Ja, 95%! Für euch und mich ist das nur ein Ärgernis, aber für die armen Server von riseup ist das ein riesiger Druck. Riseup nutzt einige Werkzeuge gegen Spam und manchmal wird eine legitime Nachricht von Nutzer*innen unkorrekt als Spam aussortiert. Bevor ihr uns kontaktiert, geht die hier beschriebenen Schritte noch mal danach durch, ob sich das Problem damit beheben lässt.

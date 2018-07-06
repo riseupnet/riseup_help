@@ -113,18 +113,22 @@ Wenn du vorhast, deine Dienste über lange Zeit anzubieten, solltest du ein Back
 
 h3. Vorsicht vor localhost-Bypässen!
 
-Du solltest sehr vorsichtig sein, nicht aus Versehen Dinge auf deinem Server öffentlich sichtbar zu machen, die nur für die lokale Benutzung gedacht sind. Apache bietet z.B. den @/server-status@ (von mod_status) an, um die Gesundheit des Webservers zu beobachten. Dieser ist typischerweise nur von 127.0.0.1 erreichbar, oder du kannst @.htaccess@-Regeln einstellen, die nur localhost erlauben, etc.
+Du solltest sehr vorsichtig sein, nicht aus Versehen Dinge auf deinem Server öffentlich sichtbar zu machen, die nur für die lokale Benutzung gedacht sind. Apache bietet z.B. den @/server-status@ (das Modul mod_status ist standardmäßig aktiviert in Debian's Apache-Paket) an, um die Gesundheit des Webservers zu beobachten. Dieser ist typischerweise nur von 127.0.0.1 erreichbar, oder du kannst @.htaccess@-Regeln einstellen, die nur localhost erlauben, etc.
 
 Es gibt einige wenige Wege, dieses Problem zu lösen:
 
 * *andere Maschine*: überlege, den .onion-Dienst auf einem anderen Rechner (real oder virtuell) laufen zu lassen, als die betreffenden Dienste. Das hat den Vorteil, dass beide Dienste isoliert sind (wenn einer kompromittiert wird, bleibt der andere unbehelligt) und es hilft, die Preisgabe von Informationen zu vermeiden.
 
-* *Isolation*: ähnlich zum eben Genannten kannst du Tor und andere Dienste isolieren, indem sie in [[verschiedenen Netzwerk-Namensbereichen->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]] laufen.
+* *Isolation*: ähnlich zum eben Genannten kannst du Tor und andere Dienste isolieren, indem sie in [[verschiedenen Netzwerk-Namensbereichen->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]] laufen.  Der Paketfilter von [[Tails -> https://tails.boum.org/contribute/design/Tor_enforcement/Network_filter/]] stellt nur Verbindungen über [[Tor]] her und bricht ansonsten Verbindungen ab.
 
 * *öffentliche IP-Adresse*: lass den .onion-Dienst zur öffentlichen IP-Adresse des Dienste verbinden, anstatt nach localhost/127.0.0.1, sodass tor nicht 127.0.0.1 als Quelle auffängt und verhindert die meisten Fehlkonfigurationen, wie z.B. diese:
 
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
 HiddenServicePort 80 192.168.1.1:81
+
+Beachte: Dies macht den Server oder vhost evtl. über das offene Internet erreichbar. Es gibt zunehmend Versuche, den wahren Ort von Seiten hinter cloudflare festzustellen, indem über Massenscans per zmap der gesamte IPv4-Bereich nach Übereinstimmungen mit onion-Diensten durchsucht wird.
+
+Bei Apache kann das Ausliefern auf einem anderen Port als dem tatsächlichen zu einem Leak führen, weil z.B. bei 301-Fehlerseiten der tatsächliche Port angegeben wird. Für den Ordner @foo.onion/css/@ würde eine Anfrage nach  @foo.onion/css@ zu einer 301-Umleitung mit dem tatsächlichen Port führen: @foo.onion/css/@ anstatt @foo.onion:81/css/@.
 
 * *unix socket*: benutze unix socket-Unterstützung, anstatt TCP socket (benötigt tor 0.26 oder neuer) - in diesem Fal läuft der .onion-Dienst auf dem gleichen Server wie der Dienst selbst. Per socket sollte es möglich sein, @privatenetwork=yes@ in systemd einzustellen, was wirklich gute Isolation bietet, z.B.:
 

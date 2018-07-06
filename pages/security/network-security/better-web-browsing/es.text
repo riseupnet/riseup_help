@@ -116,7 +116,6 @@ A pesar de su popularidad, recomendamos que no utilizes los siguientes complemen
 * [[Disconnect => https://disconnect.me/disconnect]] funciona como uBlock, y es de código abierto. Si utilizas uBlock, Disconnect es innecesario, sin embargo tiene características de visualización que uBlock no.
 * [[Ghostery => https://www.ghostery.com]] funciona como uBlock, pero tiene horribles funcionamientos por defecto que permiten el rastreo, además de que es propietario.
 * Flash Block (Firefox) es un complemento que te permite dar 'click para reproducir' Flash. Es preferible desinstalar Flash. Además, esta funcionalidad ya está incluida.
-* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] era necesario en el pasado para remover LSO o "cookies de Flash", pero desde el ... de [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], ya no es necesario.
 * TrackMeNot genera tráfico de busqueda falso. Es una idea interesante, pero es mucho mejor sólo utilizar DuckDuckGo.
 
 h2. Verificar las huellas digitales de certificado de Riseup.
