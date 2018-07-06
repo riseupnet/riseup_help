@@ -110,7 +110,6 @@ Malgré leur popularité, nous vous recommandons d'éviter les extensions suivan
 * [[Disconnect => https://disconnect.me/disconnect]] fonctionne comme uBlock et est open-source. Si vous utilisez uBlock, Disconnect n'est pas nécessaire, malgré qu'il ait quelques fonctionnalités que uBlock n'a pas.
 * [[Ghostery => https://www.ghostery.com]] fonctionne comme uBlock, mais a des gros défauts qui laissent faire la plupart du suivi, et le code source est propriétaire.
 * Flash Block (Firefox) est une extension permettant d'activer Flash _à la demande_. Il est préférable de désinstaller Flash. De plus, cette fonctionnalité est maintenant intégrée à Firefox.
-* [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] était nécessaire il y quelques temps pour supprimer les LSO ou les "Cookies flash", mais depuis l'arrivée de [[l'API ClearSiteData => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], elle n'a plus d'intérêt.
 * TrackMeNot altère votre traffic de recherche. L'idée est intéressante, mais il est bien mieux d'utiliser DuckDuckGo.
 
 h2. Vérifiez les empreintes des certificats de Riseup
