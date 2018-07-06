@@ -1,27 +1,3 @@
 @title = "Dispositivos seguros"
 
-Esta página é apenas um esboço. "Você pode ajudar a expandi-la?":https://github.com/riseupnet/riseup_help
-
-h1. Criptografia de disco
-
-Criptografar os discos rígidos dos seus dispositivos é simples e evita que seus dados sejam acessados sem autorização, mesmo se seu computador estiver desligado ou for roubado. A criptografia completa de disco, recomendada por nós, assegura que a maior parte do disco será ilegível para quem não tiver a chave criptográfica.
-
-Em alguns países e jurisdições, inclusive em áreas de fronteira, pode-se obrigar uma pessoa a revelar a chave de seu disco rígido no curso de uma investigação criminal. Por isso, outras precauções para proteger seus dados podem ser necessárias, mesmo se seu disco tiver sido completamente criptografado.
-
-Dificuldade: Fácil a Difícil
-Objetivo: Prevenir-se contra acesso a informações armazenadas no disco rígido do seu computador.
-
-* Fácil: Criptografia "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md de partições em sistema recém-instalado.
-* Fácil: Formatar nova partição com LUKS, mover seus dados para lá e "limpar":https://code.google.com/archive/p/diskscrub/ partição antiga.
-* Médio: Criptografia LUKS em Gerenciador de Volume Lógico (LVM).
-* Médio: eCryptfs em arquivos e diretórios selecionados.
-* Difícil: Criptografia completa de disco, com arquivo que contém a chave localizado em outro dispositivo (por exemplo, um pen-drive).
-* Difícil: Métodos esteganográficos.
-
-h1. Firewall pessoal
-
-Dificuldade: Fácil
-*Objetivo*: Tornar computador menos vulnerável a ataques externos pela rede. Essa medida é *essencial* se você usa a [[Riseup VPN->vpn]], que deixa seu computador mais exposto que o normal.
-*Modo de fazer*: Instale [[gufw->http://gufw.org]], "um dos firewalls mais fáceis de usar do mundo". Esse programa pode ser encontrado nos repositórios do Ubuntu e do Debian.
-
-"Siga estes passos":https://help.ubuntu.com/community/Gufw para começar a usar gufw (não disponível em português).
+<%= child_summaries heading: 1, include_toc: true %>

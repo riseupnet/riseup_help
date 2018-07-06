@@ -2,30 +2,5 @@
 
 Ces pages d'aide contiennent beaucoup d'information technique sur la cryptographie. Ultimement, toute cette crypto-alchimie est complètement inutile si vous avez un comportement non-sécuritaire. Adopter certaines habitudes simples peuvent faire toute la différence.
 
-h2. Sauvons le monde avec de meilleurs mots de passe
+<%= child_summaries heading: 1, include_toc: true %>
 
-<%= render 'common/good-passwords' %>
-
-h2. Certaines arnaques courantes sur internet
-
-<%= child_summaries :page => 'scams', :heading => 3, :include_toc => true %>
-
-h2. Garder ses logiciels à jour
-
-À écrire.
-
-h2. Soyez prudent-e-s sur les ordinateurs communs
-
-Déconnexion: soyez certain-e-s de vous déconnecter lorsque vous utilisez la messagerie web. C'est vraiment très important et très facile à faire. C'est particulièrement important quand vous utilisez un ordinateur public. Ne laissez pas votre ordinateur ouvert s'il est sans surveillance.
-
-Évitez les ordinateurs publics: cela peut être difficile. Si vous devez utiliser un ordinateur public, tentez de changer votre mot de passe souvent ou utilisez le *clavier virtuel* (si vous utilisez riseup.net comme messagerie web).
-
-Si vous partagez un ordinateur avec des amis, créez plusieurs comptes pour garder vos profils séparés. Vous devriez activer cette fonctionnalité et vous déconnecter ou "barrer" votre compte quand vous n'utilisez plus l'ordinateur.
-
-h2. Tomber amoureux des logiciels libres et ouverts
-
-Pourquoi devriez-vous utiliser GNU/Linux plutôt que Windows ou Mac OS? Il y a plusieurs raisons de le faire. Un de celles-ci est qu'il y a beaucoup de virus, de trojans, de programmes avec des portes dérobées, des bugs de sécurité, des failles implémentées par les gouvernements ou d'autres failles qui les rendent difficilement fiable. Comme leur code source n'est pas disponible, il est impossible de regarder sous le capot pour s'assurer que tout est correct. Ces programmes sont propriétaires et gardent leur code source secret, ce qui implique que vous confiez la confidentialité de vos données à des entreprises motivées par le profit et dont les méthodes sont invérifiables.
-
-OS X souffre de problèmes similaires à Windows. Même s'il est basé sur Unix (sur lequel Linux se base), une large portion du code source du système d'exploitation est fermé et n'est donc pas vérifiable par des tierces parties. L'augmentation de sa popularité s'accompagne d'une augmentation des virus et des failles l'affectant. De surcroît, sa culture entrepreneuriale et autoritaire se reflète dans la structure de son système d'exploitation. OS X inclut également une "fonction" qui permettent d'activer la webcam à distance - et ce peu importe le système d'exploitation installé - et cela a déjà été utilisé à des fins malicieuses.
-
-Au contraire, GNU/Linux est composé en très grande majorité (parfois à 100%) de logiciels dont le code source peut être obtenu et vérifié par n'importe qui. Depuis plusieurs années, il est construit par une importante communauté. Son histoire n'inclut que très peu de virus et de failles de sécurité. Linux est également un système d'exploitation facile d'utilisation qui supporte beaucoup d'ordinateurs (même vieillissants) et rend la sécurité informatique accessible à toutes et à tous.

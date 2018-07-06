@@ -14,7 +14,7 @@ Seattle, WA 98194 USA
 
 h1. 在线捐款
 
-<%= render :partial => 'inc/donate_forms' %>
+<%= render :partial => 'inc/online_forms' %>
 
 h1.支持激进分子的替代品！
 

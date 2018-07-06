@@ -1,25 +1,3 @@
 @title = "Gerätesicherheit"
 
-Diese Seite ist im Moment nur ein Platzhalter, denn sie braucht noch eine Menge Arbeit. "Kannst du vielleicht helfen":https://github.com/riseupnet/riseup_help?
-
-h1. Festplattenverschlüsselung
-
-Deine Festplatte zu verschlüsseln ist eines der einfachsten Dinge, um unbemerkten Zugriff auf deine Daten zu verhinden. Richtige Festplattenverschlüsselung kann davor bewahren, dass andere deine Daten lesen, wenn das Gerät ausgeschaltet ist, oder beschlagnahmt wird. Wir empfehlen, dass bei jeder Option die Festplatte komplett verschlüsselt wird, auch bekannt als Full Disk Encryption (FDE). FDE stellt sicher, dass der meiste Speicherplatz ohne den richtigen Schlüssel für andere nicht mehr lesbar ist. Bitte denk daran, dass du in manchen Ländern und Rechtssprechungen dazu gezwungen werden kannst, dein Festplattenpasswort während einer Untersuchung herauszugeben, z.B. während einer Grenzüberquerung in deinem Land. Bitte triff also immer Vorbereitungen und verstecke deine Daten, selbst auf einem vollständig verschlüsselten Gerät.
-
-Schwierigkeit: Einfach bis Schwer
-*Warum*: Bewahrt Zugang zu auf der Festplatte deines Rechners gespeicherten Informationen
-
-* Am einfachsten: "LUKS":https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md-Verschlüsselung von Partitionen während einer Neuinstallation
-* Leicht: Eine neue Partition mit LUKS formattieren, Daten dorthin kopieren and an der alten Stelle die alten Daten "schrubben":https://code.google.com/archive/p/diskscrub/.
-* Mittel: LUKS-Verschlüsselung auf LVM.
-* Mittel: ecryptfs über ausgewählte Dateien/Ordner.
-* Schwer: Verschlüsselung der ganzen Festplatten, wobei die Schlüsseldatei auf einem anderen Gerät gespeichert wird (wie einem USB-Stick).
-* Am Schwersten: Stenographische Methoden.
-
-h1. Persönliche Firewall
-
-Schwierigkeit: Leicht
-*Warum*: Macht deinen Computer weniger angreifbar von außerhalb deines Netzwerks. Wenn [[Riseup VPN->vpn]] benutzt wird, ist das essentiel, weil dein Computer dann noch anfälliger als normal ist.
-*Wie*: Installiere [[gufw->http://gufw.org]], "Eine der einfachsten Firewalls der Welt". Du kannst gufw in Ubuntu und Debian finden.
-
-[[Folge dieser einfachen Anleitung, um mit gufw zu beginnen -> https://help.ubuntu.com/community/Gufw]]
+<%= child_summaries heading: 1, include_toc: true %>
