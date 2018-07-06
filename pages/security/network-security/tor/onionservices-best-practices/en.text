@@ -114,18 +114,22 @@ If you plan to keep your service available for a long time, you might want to ma
 
 h3. Be careful of localhost bypasses!
 
-You should take very careful care to not accidentally expose things on your server that are restricted to the local machine. For example, if you provide /server-status in apache (from mod_status) to monitor the health of your apache webserver, that will typically be restricted to only allow access from 127.0.0.1, or you may have .htaccess rules that only allow localhost, etc.
+You should take very careful care to not accidentally expose things on your server that are restricted to the local machine. For example, if you provide /server-status in apache (from mod_status which is enabled per default in debian's apache) to monitor the health of your apache webserver, that will typically be restricted to only allow access from 127.0.0.1, or you may have .htaccess rules that only allow localhost, etc.
 
 There are a few ways you can solve this problem:
 
 * *different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
 
-* *isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]].
+* *isolation*: similarly to the above, you can also isolate tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]]. [[Tails -> https://tails.boum.org/contribute/design/Tor_enforcement/Network_filter/]] uses a  [[tor]]-or-fail packet filter.
 
 * *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
 
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
 HiddenServicePort 80 192.168.1.1:81
+
+Note: This makes your server and vhost potentially reachable to an external entity. There has been a growing number of attempts to discover the true location of sites behind cloudflare that are badly configured because they still expose their true httpd on a public IP address. People regularly use masscan and zmap to scan the entire ipv4 address space and try to connect to a publicly exposed httpd and request "high-value" onion addresses from the httpd to see if they send a Host header and make the site serve their probed vhosts content.
+
+Binding to a port that is different from the "true" port is a source of a potential leak on Apache. If there is a directory, e.g. @foo.onion/css/@ then a request to @foo.onion/css@ will cause apache to emit a 301 redirect, but when it does issue it, it will include the port that it thinks the service is listening on. Instead of sending a 301 to @foo.onion/css/@ it would send a 301 for @foo.onion:81/css/@ this both breaks the website and reveals the port the httpd is really running on.
 
 * *unix socket*: consider using unix socket support instead of a TCP socket (requires 0.26 or later tor) - if you do this, then the onion service will be running on the same server as the service itself. With a socket approach, you should be able to run with privatenetwork=yes in systemd unit which gets you some really great isolation, for example:
 
