@@ -23,3 +23,15 @@ Difficulty: Easy
 *How*: Install [[gufw->http://gufw.org]], "One of the easiest firewalls in the world". You can find gufw in Ubuntu and Debian.
 
 [[Follow these easy instructions to get started with gufw -> https://help.ubuntu.com/community/Gufw]]
+
+h1. Phone Security
+
+Difficulty: Easy
+
+* Require a passphrase, or at least a PIN, to unlock your phone. Do not use the fingerprint or face unlock features of your phone. These features provide little to no security since and are easily defeated.
+* Use Signal instead of text messages (SMS/MMS). Encourage your contacts to do the same. Your phone number can be taken over, allowing an attacker to receive your text messages and send text messages that appear to be from you. Further, your phone carrier keeps records of who you send text messages to and who you receive text messages from.
+* Likewise, use Signal for calls when having sensitive conversations. Your phone carrier keeps records of who you call, who you receive calls from, and the duration of all of your phone calls.
+* Make sure that your phone doesn't include your location when you take pictures.
+* Configure your phone not to show detailed notifications on the lock screen.
+* Know what your phone syncs with the cloud. For example, even if you delete a picture off of your phone, it may already be backed up to one or more cloud services such as iCloud or Dropbox.
+* Familiarize yourself with your phone's remote-wipe feature. Use it immediately if your phone is lost or stolen.
