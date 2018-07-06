@@ -72,8 +72,9 @@ security
     message-hygiene
     passwords
   device-security
-    device-encryption
     software-safety
+    device-encryption
+    mobile-devices
   message-security
     openpgp
       gpg-best-practices
