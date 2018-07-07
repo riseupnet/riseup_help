@@ -20,7 +20,7 @@ h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
 If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
 
-Since version 2.1 of GnuPG, [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing and downloading certificate revocation lists (CRLs) for X.509 certificates, downloading X.509 certificates, and providing access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool.
+[[Since version 2.1 of GnuPG -> https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]], [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing and downloading certificate revocation lists (CRLs) for X.509 certificates, downloading X.509 certificates, and providing access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool.
 
 To see the list of keyservers used by dirmngr enter into a terminal:
 @gpg-connect-agent --dirmngr 'keyserver --hosttable' /bye@
@@ -174,6 +174,8 @@ Remember: you can always extend your expiration date (even after it has expired!
 
 h3. Generate a revocation certificate.
 
+bc. [[Since gnupg 2.1 -> https://www.gnupg.org/faq/whats-new-in-2.1.html#autorev]] a revocation certificate is created automatically.
+
 If you forget your passphrase or if your private key is compromised or lost, the only hope you have is to wait for the key to expire (this is not a good solution), or to activate your revocation certificate by publishing it to the keyservers. Doing this will notify others that this key has been revoked.
 
 A revoked key can still be used to verify old signatures, or decrypt data (if you still have access to the private key), but it cannot be used to encrypt new messages to you.
@@ -197,6 +199,8 @@ In this scenario, your primary key is used only for certifications, which happen
 Creating a new subkey can be done in the @--edit-key@ dialog, using the @addkey@ command. During the dialog, you can choose the "capability" of the key...
 
 h3. Keep your primary key entirely offline
+
+bc. There are [[several -> https://github.com/flamsmark/documentation/blob/master/gpg/smartcard-keygen.md]] [[good -> https://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/]] [[guides -> https://blog.josefsson.org/2014/06/23/offline-gnupg-master-key-and-subkeys-on-yubikey-neo-smartcard/]] on this topic. Below instructions have been written for gnupg 1.4 and may be outdated since 2.1
 
 This is tricky to do but helps in protecting the very important primary key. If your primary key is stolen, the attacker can create new identities, revoke existing ones and completely impersonate you. Storing keys "offline" is therefore a good way to protect against such attacks.
 
