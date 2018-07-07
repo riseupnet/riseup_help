@@ -354,6 +354,14 @@ gpg> save
 
 h2. Additional suggestions.
 
+h3. Consider using an ECC subkey
+
+Since gnupg 2.1 ECC subkeys are supported.
+
+They are faster, which is very useful for security tokens. Note that if there's a RSA and ECC key on a key, GnuPG 1.4 will do the right thing and choose the one that works (e.g. use RSA if it doesn't support ECC).
+
+For details see the [[official FAQ->https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]].
+
 h3. Do you have an encrypted backup of your secret key material?
 
 Double check on it.
