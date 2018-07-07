@@ -20,28 +20,38 @@ h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
 If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
 
+Since version 2.1 of GnuPG, [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing and downloading certificate revocation lists (CRLs) for X.509 certificates, downloading X.509 certificates, and providing access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool.
+
+To see the list of keyservers used by dirmngr enter into a terminal:
+@gpg-connect-agent --dirmngr 'keyserver --hosttable' /bye@
+
+If you want to remove a dead host or want to learn about the dirmngr's keyserver functionality, see the [[dirmngr usage examples -> https://www.gnupg.org/documentation/manuals/gnupg/Dirmngr-Examples.html#Dirmngr-Examples]].
+
+h3. Note for gnupg prior 2.1
+
+In previous version it was necessary to define a _ca-cert-file_ option:
+
+@keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem@
+
+Unfortunately some users are stuck with gpg 1 because their distribution requires it for some tools, but use gpg 2.1 in parallel. In this case following warning may occure and may be ignored:
+
+@gpg: keyserver option 'ca-cert-file' is obsolete; please use 'hkp-cacert' in dirmngr.conf@
+
+By default, from version 2.1.11, Gnupg installs the CA certificate for hkps.pool.sks-keyservers.net and make use of it by default, which means rolling linux distributions will not have problems not setting the hkp-cacert config option.
+
+The [[dirmngr option->https://www.gnupg.org/documentation/manuals/gnupg/Dirmngr-Options.html#Dirmngr-Options]] 'hkp-cacert' is supported since gnugpg 2.1.
+
 h3. Use the sks keyserver pool, instead of one specific server, with secure connections.
+
+bq. Note that this is the default starting with GnuPG 2.1.18 (at least).
 
 Most OpenPGP clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target.
 
-Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
+The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
 
-You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. In order to use hkps, you will first need to install gnupg-curl:
+Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]] over an encrypted channel, using a protocol called hkps.
 
-bc. sudo apt-get install gnupg-curl
-
-Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Next, you should [[verify the certificate's finger print -> https://sks-keyservers.net/verify_tls.php]].
-
-Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
-
-bc. keyserver hkps://hkps.pool.sks-keyservers.net
-keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
-
-p. Now your interactions with the keyserver will be encrypted via hkps, which will obscure your social relationship map from anyone who may be snooping on your traffic. For example, if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information.
-
-_Note:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net all offer this (although it is recommended that you use a pool instead).
-
-bq. Note that this is the default starting with GnuPG 2.1.18 (at least).
+The transport encryption is important because if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information.
 
 h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
@@ -60,6 +70,21 @@ bc. sudo apt-get install parcimonie
 [[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring.
 
 You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
+
+h4. Troubleshooting dirmng
+
+It is a known error, that parcimonie fails with at least gnupg 2.2.8:
+
+bc. gpg: keyserver receive failed: No data
+ at /usr/share/perl5/App/Parcimonie/Daemon.pm line 350
+
+Whenever you have the impression that "No data" is incorrect when performing a @gpg --search KEYID@, it is safe to run @dirmngr --shutdown@. It will be restarted automatically when it is needed.
+
+If it gives 'error: searching keyserver: server indicated a failure', re-start tor (if used), dirmngr and gpg-agent (by sending KILLAGENT to gpg-connect-agent). It will get things back to the way they were.
+
+There are some known issues with the libdns included and fixes have been pushed to master very recently, they'll be in 2.2.9.
+
+To relaunch it run it with whatever flags you normally use (if any). Another option is to run: @gpg-connect-agent@, it starts an interactive interface, then enter @KILLAGENT@ and press Ctrl-D to stop it. On debian based systems you can restart it with @systemctl --user restart dirmngr.socket@ and @gpgconf --kill gpg-agent@.
 
 h3. Do not blindly trust keys from keyservers.
 
@@ -324,12 +349,6 @@ bc. $ gpg --edit-key '<fingerprint>'
 gpg> expire
 ...
 gpg> save
-
-h2. Putting it all together.
-
-All the recommended settings discussed on this guide have been combined into one configuration file at Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "collection of hardened configuration files." You may [[right-click on this link and save the gpg.conf -> https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]] in your @~/.gnupg/gpg.conf@ (linux and MacOS). For windows users, the gpg.conf file should be saved to @AppData\GnuPG\@.
-
-You will need to uncomment and/or adjust the following settings to your local preferences: @default-key@, @keyserver-options ca-cert-file@ and @keyserver-options http-proxy@.
 
 h2. Additional suggestions.
 
