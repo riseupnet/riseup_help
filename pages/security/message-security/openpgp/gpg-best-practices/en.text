@@ -312,6 +312,8 @@ bc. cert-digest-algo SHA512
 
 h4. stated digest algorithm preferences must include at least one member of the SHA-2 family at a higher priority than both MD5 and SHA1
 
+bc. Note: Since gnupg 2.2.0-3 these settings are default and don't need to be changed manually anymore.
+
 You can check this by doing:
 
 bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
