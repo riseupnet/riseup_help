@@ -3,7 +3,7 @@
 
 h2. How to use this guide.
 
-We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the @gpg.conf@ file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
+We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@.
 
 Also note that this guide was written for legacy versions of GnuPG (1.4) and may contain recommendations that are redundant with default settings in newer releases of GnuPG (2.1 and above). A [[review is in progress->https://github.com/riseupnet/riseup_help/issues/451]] to make sure the guide is up to date. You can help by [[submitting changes->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]] yourself.
 

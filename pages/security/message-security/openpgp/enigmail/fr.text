@@ -6,7 +6,7 @@ h2. Avant de commencer
 
 Nous vous recommandons de commencer par lire notre guide [[gpg-best-practices]]. Il est particulièrement important de vous assurer que vous avez configuré votre client gpg manière à avoir une clef robuste *avant de la générer*, car les paramètres par défaut ne sont pas optimaux.
 
-Si vous avez déjà une clef, vous devriez [[vérifier qu'elle est bien robuste -> /gpg-best-practices#openpgp-key-checks]] avant de continuer.
+Si vous avez déjà une clef, vous devriez [[vérifier qu'elle est bien robuste -> gpg-keys#openpgp-key-checks]] avant de continuer.
 
 h2. Installer Enigmail et configurer OpenPGP avec l'assistant d'installation
 

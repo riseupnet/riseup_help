@@ -8,7 +8,7 @@ h2. Bevor du loslegst
 
 Wir empfehlen, vorher die Anleitung [[gpg-best-practices]] zu lesen. Insbesondere ist es wichtig, diese *vor dem Generieren eines neuen Schlüssels* genau durchzulesen und die gpg-Anwendung so zu konfigurieren, dass sie starke Schlüssel erzeugt, denn die Voreinstellungen sind nicht optimal.
 
-Wenn du schon einen Schlüssel hast, solltest du [[diese Tests durchführen, um sicherzugehen, dass der Schlüssel stark genug ist -> gpg-best-practices#openpgp-key-checks]], bevor du weitermachst.
+Wenn du schon einen Schlüssel hast, solltest du [[diese Tests durchführen, um sicherzugehen, dass der Schlüssel stark genug ist -> gpg-keys#openpgp-key-checks]], bevor du weitermachst.
 
 h2. Installation von Enigmail und Ausführen des OpenPGP Installation-Assistenten
 

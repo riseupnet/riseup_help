@@ -101,7 +101,7 @@ Als nächstes wähle die Größe. **3072** ist empfohlen.
 
 bc. What keysize do you want? (2048)
 
-Danach stelle ein, wie lange der Schlüssel gültig sein soll und drücke **y**. Wenn du 0 wählst, läuft der Schlüssel nie ab und du musst ihn widerrufen, wenn du ihn nicht mehr nutzen möchtest. [[Es wird empfohlen -> /gpg-best-practices#use-an-expiration-date-less-than-two-years]], dass der Schlüssel innerhalb von 2 Jahren abläuft.
+Danach stelle ein, wie lange der Schlüssel gültig sein soll und drücke **y**. Wenn du 0 wählst, läuft der Schlüssel nie ab und du musst ihn widerrufen, wenn du ihn nicht mehr nutzen möchtest. [[Es wird empfohlen -> /gpg-keys#use-an-expiration-date-less-than-two-years]], dass der Schlüssel innerhalb von 2 Jahren abläuft.
 
 bc. Please specify how long the key should be valid.
      0 = key does not expire

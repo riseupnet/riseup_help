@@ -22,7 +22,7 @@ h3. Créer et exporter une paire de clés OpenPGP publique/privée
 # Sélectionnez «Options avancées»
 # Le type d'encryption devrait être «RSA»
 # La «force de la clé» devrait être 4096
-# La date d'expiration devrait être d'ici deux ans. *Vous pouvez toujours reporter la date d'expiration de la clé tant que vous y avez accès, même si la clé est expirée.* [[Pourquoi devrais-je spécifier une date d'expiration ? -> gpg-best-practices#use-an-expiration-date-less-than-two-years]] 
+# La date d'expiration devrait être d'ici deux ans. *Vous pouvez toujours reporter la date d'expiration de la clé tant que vous y avez accès, même si la clé est expirée.* [[Pourquoi devrais-je spécifier une date d'expiration ? -> gpg-keys#use-an-expiration-date-less-than-two-years]] 
 # Choisissez un mot de passe **fort** dont vous vous souviendrez. **Si vous oubliez ce mot de passe, il ne peut être récupéré, et toutes les données encryptées avec ce mot de passe, incluant les courriels, demeureront à jamais inaccessibles.**
 # L'ordinateur va maintenant générer la clé, ce qui peut prendre beaucoup de temps. Après cela, vous aurez une paire de clés OpenPGP prête à utiliser -- Génial! Vous pouvez modifier les options de la clé, exporter la clé publique, changer le mot de passe, supprimer et/ou révoquer la clé, et procéder à d'autres ajustements par l'interface graphique de Seahorse, ou en ligne de commande.
 # **Optionnel:** Vous pouvez maintenant publier votre clé publique sur un serveur de clés où d'autre gens pourront en faire la requête pour vous envoyer des données et des courriels encryptés. Avant de continuer, assurez-vous d'avoir [[choisi un bon serveur de clés -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Lorsque vous êtes prêt-e-s:
@@ -113,7 +113,7 @@ bc. Please specify how long the key should be valid.
    <n>y = key expires in n years
 Key is valid for? (0)
 
-Si vous sélectionnez 0, la clé n'expirera pas, et devra être révoquée quand vous souhaiterez ne plus l'utiliser. [[Il est recommandé -> /gpg-best-practices#use-an-expiration-date-less-than-two-years]] de fixer une date d'expiration d'ici deux ans.
+Si vous sélectionnez 0, la clé n'expirera pas, et devra être révoquée quand vous souhaiterez ne plus l'utiliser. [[Il est recommandé -> gpg-keys#use-an-expiration-date-less-than-two-years]] de fixer une date d'expiration d'ici deux ans.
 
 Saisissez votre nom et votre adresse courriel. [[Il n'est pas recommandé d'utiliser un commentaire -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]]. Votre nom et votre adresse courriel peuvent être n'importe quoi, et ne sont pas limités à votre nom usuel et votre adresse courriel principale. Si vous souhaitez utiliser OpenPGP pour encrypter des courriels, inscrivez comme adresse courriel l'adresse que vous souhaitez utiliser avec encryption.
 

@@ -2,7 +2,7 @@
 
 h2. Über diese Anleitung
 
-Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich, die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen, um zu verstehen, was die Einstellungen bewirken.
+Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet.
 
 Diese Anleitung wurde für eine ältere Version von GnuPG (1.4) geschrieben, einige Empfehlungen können daher redundant mit aktuellen Standardeinstellungen von neueren Versionen von GnuPG (2.1 und darüber) sein. Eine Überarbeitung [[findet gerade statt -> https://github.com/riseupnet/riseup_help/issues/451]], um die Aktualität der Anleitung zu überprüfen. Du kannst dabei helfen [[durch Einsenden von Änderungsvorschlägen->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]].
 
@@ -99,7 +99,7 @@ pre. gpg --with-fingerprint --list-secret-key
 
 h2. Schlüsselkonfiguration.
 
-Nun da Du weisst, wie Du reguläre Schlüsselaktualisierungen von einem gut gewarteten Schlüsselserver abrufen kannst, solltest Du Dich vergewissern, dass Dein OpenPGP-Schlüssel optimal konfiguriert ist. Viele dieser Änderungen werden das Generieren eines neuen Schlüssels erforderlich machen.
+Nun da Du weisst, wie Du reguläre Schlüsselaktualisierungen von einem gut gewarteten Schlüsselserver abrufen kannst, solltest Du Dich vergewissern, dass Dein OpenPGP-Schlüssel optimal konfiguriert ist. Viele dieser Änderungen werden das Generieren eines neuen Schlüssels erforderlich machen. [[Details->gpg-keys#key-configuration]]
 
 h3. Verwende einen starken primären Schlüssel
 
@@ -265,7 +265,7 @@ Um dieses Problem zu beheben, solltest Du zuerst folgende Änderung an Deiner @~
 
 pre. cert-digest-algo SHA512
 
-Dann solltest Du eine neue Eigensignatur auf Deinem Schlüssel erstellen (z.B. indem Du das [[Ablaufdatum des Schlüssels änderst -> /best-practices#verwende-ein-ablaufdatum-von-unter-zwei-jahren]]).
+Dann solltest Du eine neue Eigensignatur auf Deinem Schlüssel erstellen (z.B. indem Du das [[Ablaufdatum des Schlüssels änderst -> #verwende-ein-ablaufdatum-von-unter-zwei-jahren]]).
 
 h4. Eigensignaturen sollten nicht nur SHA1 verwenden
 

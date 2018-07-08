@@ -176,7 +176,7 @@ To fix this, first, you should set the following in your @~/.gnupg/gpg.conf@:
 
 bc. cert-digest-algo SHA512
 
-Second, you should generate a new self-signature on your key (e.g. [[by changing the key's expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]).
+Second, you should generate a new self-signature on your key (e.g. [[by changing the key's expiration date -> gpg-keys#use-an-expiration-date-less-than-two-years]]).
 
 h3. self-signatures should not use SHA1
 
@@ -186,7 +186,7 @@ bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-pa
 
 If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
 
-To fix this, you can generate a new self-signature on your key (e.g. [[by changing its expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]) after setting the following in your @~/.gnupg/gpg.conf@:
+To fix this, you can generate a new self-signature on your key (e.g. [[by changing its expiration date -> gpg-keys#use-an-expiration-date-less-than-two-years]]) after setting the following in your @~/.gnupg/gpg.conf@:
 
 bc. cert-digest-algo SHA512
 
@@ -250,7 +250,7 @@ h3. Create and export an OpenPGP Public/Private Key pair
 # Select advanced options.
 # Encryption type should be RSA.
 # Key strength should be 3072.
-# Expiration date should be within less then two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-best-practices#use-an-expiration-date-less-than-two-years]].
+# Expiration date should be within less then two years. *You can always extend the key expiration as long as you still have access to the key, even after it has expired.* [[Why should I set an expiration --> gpg-keys#use-an-expiration-date-less-than-two-years]].
 # Enter a **strong** password that you can remember. **If you forget this password, it cannot be recovered and any encrypted data you have using it for, including emails, will be permanently inaccessible.**
 # The computer will now generate the key, which may take some time. After this, you will have an OpenPGP key pair that is ready to be used--Great! You can manage the key options, export the public key, change the password, delete and/or revoke the key, and perform other key adjustments through the Seahorse user interface or the command line.
 # **Optional:** At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you. Before you continue, please make sure you have [[selected a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Once you are ready:
@@ -334,7 +334,7 @@ Next, enter the key size you want. **3072** is recommended.
 
 bc. What keysize do you want? (2048)
 
-Then enter the length of time that you would like the key valid for and then press **y** to confirm the expiration date. If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> /gpg-best-practices#use-an-expiration-date-less-than-two-years]] to have your key expire within no more than 2 years.
+Then enter the length of time that you would like the key valid for and then press **y** to confirm the expiration date. If you select 0, the key does not expire and will require to be revoked when you no longer wish to use it. [[It is recommended --> #use-an-expiration-date-less-than-two-years]] to have your key expire within no more than 2 years.
 
 
 bc. Please specify how long the key should be valid.
