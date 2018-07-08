@@ -22,22 +22,28 @@ h3. Konto erstellen
 Server-Typ: Wähle **IMAP** oder **POP**. [[Was ist der Unterschied zwischen IMAP und POP? => email/clients#choose-imap-or-pop]] %>
 Server: **mail.riseup.net**
 Name: **<Dein Riseup-Login>** (@riseup.net)
-Sichere Verbindung: **TLS** ist empfohlen
+Sichere Verbindung: **TLS**
 Authentifizierungs-Typ: **Password**
 # Der nächste Bildschirm hat 4 Sektionen. **Serververbindung** und **Ordner** können problemlos ignoriert werden. Gib ein, wie oft Evolution automatisch auf neue Nachrichten prüfen soll in der Sektion **Auf neue Nachrichten prüfen**, oder lasse es deaktiviert, um E-Mails nur manuell abzurufen. Die Sektion **Optionen** erlaubt die Anwendung von Spamfiltern für ankommende E-Mails und automatisch lokale Kopien deiner E-Mails für den Offline-Betrieb zu behalten (nur bei IMAP).
 # Gib die folgenden Information ein, um E-Mails von einem riseup.net-Konto zu empfangen:
 Server-Type: **SMTP**
 Server: **mail.riseup.net**
 aktiviere **Server erfordert Authentifizierung**
-Sichere Verbindung benutzen: **TLS** ist aus Sicherheitsgrüden empfohlen (StartTLS und SSL können einfach kompromittiert werden).
+Sichere Verbindung benutzen: **TLS**
 Authentifizierungs-Type: **PLAIN**
-Login: **foobar**
+Login: **Dein Kontoname**
 # Gib dem Konto einen Namen. Dieser wird nur benötigt, um mehere Konten in Evolution zu unterscheiden und ist nicht öffentlich sichtbar.
 # Klicke **Anwenden**
 
 Fertig!! Du kannst nun mit Evolution E-Mails durch Riseup-Server empfangen und senden.
 
 h2. Erhöhe deine E-Mail-Sicherheit
+
+Um Sicherheitsprobleme wie [[Efail -> https://efail.de]] zu vermeiden, deaktivere das Anzeigen von HTML-Nachrichten
+# Öffne die Einstellungen: Umschalt+Steuerung+S
+# Klicke auf "Emaileinstellungen"
+# Wähle "HTML-Nachrichten"
+# Ganz unten wähle "Immer als einfachen Text anzeigen" in der Auswahlliste
 
 <%= render :partial => 'enhance-security' %>
 
@@ -49,7 +55,7 @@ Alles was nötig ist, um E-Mail-Verschlüsselung zu aktivieren, ist Evolution De
 # Gehe auf **Bearbeiten** -> **Einstellungen**
 # Wähle in der Sektion **Mailkonten** "OpenPGP-Schlüssel verknüpfen" und drücke den Knopf **Bearbeiten**.
 # Klicke auf den Reiter **Sicherheit**.
-# Gib Deine OpenPGP-**Schlüssel-ID** ein (Siehe [[Anleitung für OpenPGP-Schlüssel => /security/gpg-keys]], um deine Schlüssel-Kennung zu finden). Wähle **Immer an mich selbst verschlüsseln**; das speichert eine mit Deinem Schlüssel verschlüsselte Kopie gesendeter Nachrichten im Ordner **Gesendet**, um sie später entschlüsseln zu können. UNBESTÄTIGT!!! **Allen Schlüsseln in meinem Schlüsselbund vertrauen** ermöglicht dir, an Menschen in deinem Schlüsselbund zu verschlüsseln, deren Schlüssel Du nicht signiert hast. Du kannst die Sektion **Sicheres MIME** ignorieren. **Beachte: "Immer signieren" ist nicht das gleiche, wie "Immer verschlüsseln"*; eine E-Mail zu signieren ist etwas anderes, als sie zu verschlüsseln und macht sie nicht für Dritte unlesbar.
+# Gib Deine OpenPGP-**Schlüssel-ID** ein (Siehe [[Anleitung für OpenPGP-Schlüssel => /security/gpg-keys]], um deine Schlüssel-Kennung zu finden). Wähle **Immer an mich selbst verschlüsseln**; das speichert eine mit Deinem Schlüssel verschlüsselte Kopie gesendeter Nachrichten im Ordner **Gesendet**, um sie später entschlüsseln zu können. Aktiviere **Aus diesem Konto ausgehende Nachrichten immer verschlüsseln**, um nicht aus Versehen unverschlüsselte Mails zu verschicken. **Allen Schlüsseln in meinem Schlüsselbund vertrauen** ermöglicht dir, an Menschen in deinem Schlüsselbund zu verschlüsseln, deren Schlüssel Du nicht signiert hast. Du kannst die Sektion **Sicheres MIME** ignorieren. **Beachte: "Immer signieren" ist nicht das gleiche, wie "Immer verschlüsseln"*; eine Email zu signieren ist etwas anderes, als sie zu verschlüsseln und macht sie nicht für Dritte unlesbar.
 # Klicke **Ok**
 
 Du kannst jetzt E-Mails mit Evolution ver- und entschlüsseln!
@@ -59,6 +65,4 @@ h3. Verschlüsselte E-Mails verschicken
 # Verfasse eine E-Mail
 # Wähle **Sicherheit** -> **PGP Verschlüsselung**
 
-Die verfasste E-Mail wird erst beim Senden verschlüsselt! Du kannst jederzeit sicherstellen, dass deine E-Mail verschlüsselt wird, indem Du in das Menu **Sicherheit** gehst und siehst, ob dort ein Haken bei **PGP Verschlüsselung** ist.
-
-Leider scheint es keine Möglichkeit zu geben, Verschlüsselung standardmäßig entweder global oder pro Kontakt zu aktivieren, das bedeutet, dass Du **jedes Mal, wenn Du eine Mail verschlüsseln willst, auf Sicherheit > PGP-Verschlüsselung klicken musst, um diese zu aktivierien. Ansonsten wird deine E-Mail für Dritte lesbar sein.**
+Die verfasste E-Mail wird erst beim Senden verschlüsselt! Du kannst jederzeit sicherstellen, dass deine Email verschlüsselt wird, indem Du in das Menu **Sicherheit** gehst und siehst, ob dort ein Haken bei **PGP Verschlüsselung** ist.
