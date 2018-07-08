@@ -6,6 +6,10 @@ h1. First step before start
 
 First read the instructions in [[gpg-best-practices]] carefully to ensure your system generates a strong key and receives key updates from a well-maintained keyserver. This will require to make changes to the *gpg.conf* configuration file, which is located in different places depending on your operating system. In Linux it is located in @~/.gnupg/gpg.conf@.
 
+h2. Autocrypt
+
+To widen the use of OpenPGP opportunistic encryption for mails is in development under the name [[autocrypt -> https://autocrypt.org/index.html]]. Several [[mail clients]] like [[delta.chat -> https://delta.chat]] (android), [[enigmail]], [[K9mail]] and [[others->https://autocrypt.org/dev-status.html]] already implement it.
+
 h1. Key configuration
 
 h2. Use a strong primary key.
