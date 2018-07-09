@@ -60,6 +60,7 @@ h3. Installation von Erweiterungen (Addons)
 
 Wir empfehlen folgende Erweiterungen für Thunderbird:
 * [[Enigmail -> security/message-security/openpgp/enigmail]]: Hiermit kannst Du in kürzester Zeit in die starke Verschlüsselung von E-Mail einsteigen und gleichzeitig sicherstellen, dass die Mails, die Du bekommst, auch wirklich und unverändert von der Person stammen, die als AbsenderIn angegeben ist.
+* [[TorBirdy -> https://trac.torproject.org/projects/tor/wiki/torbirdy]]: verbessert Standardeinstellungen (Klartext statt HTML) und konfiguriert Thunderbird so, dass alle Verbindungen durch das [[Tor-Netzwerk -> Tor]] geschickt werden.
 * "Display Quota":https://addons.mozilla.org/de/thunderbird/addon/display-quota: Diese Erweiterung zeigt Dir Deine Aktuelle Speichernutzung auf Riseups Servern in der Statusleiste an und warnt Dich, wenn Du eine einstellbare Grenze erreicht.
 
 h3. Versteckte Einstellungen, die Thunderbird enorm beschleunigen
@@ -71,7 +72,7 @@ Zum Glück kannst Du etwas dagegen unternehmen: Thunderbird hat ein paar verstec
 Um dies einzustellen, gehe in der Menüleiste über *Bearbeiten > Einstellungen > Erweitert > Allgemein* auf *Konfiguration bearbeiten*
 
 * setzte @use_status_for_biff@ auf *false* und
-* setzte @mail.server.default.autosync_offline_stores@ auf *true*
+* setzte @mail.server.default.autosync_offline_stores@ auf *true* (standard)
 
 h3. Erwäge Mails automatisch zu löschen
 

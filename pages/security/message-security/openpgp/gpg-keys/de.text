@@ -6,6 +6,238 @@ h1. Erster und wichtigster Schritt
 
 Lies die Anleitung [[gpg-best-practices]], um sicherzustellen, dass dein System starke Schlüssel erstellt und Schlüssel-Aktualisierungen von gut verwalteten Schlüssel-Servern empfangen werden. Dazu sind Änderungen an der Datei @gpg.conf@ nötig, welche sich je nach System an verschiedenen Orten befinden kann, bei Linux befindet sie sich in @~/.gnupg/gpg.conf@.
 
+h2. Autocrypt
+
+Um die Verwendungen von OpenPGP mit opportunistischer Verschlüsselung zu vergrößern, gibt es eine neue Erweiterung für Email-Programme names [[autocrypt -> https://autocrypt.org/index.html]]. Einige  [[clients]] wie [[delta.chat -> https://delta.chat]], [[Enigmail -> enigmail]], [[K-9 Mail -> k9]] und [[andere->https://autocrypt.org/dev-status.html]] unterstützen sie bereits.
+
+h1. Schlüsselkonfiguration
+
+h3. Verwende einen starken primären Schlüssel
+
+Manche Leute benutzen noch 1024-bit DSA-Schlüssel. Du solltest wirklich zu einer höheren Bitstärke und einem besseren Hashing-Algorithmus wechseln. 2011 hat die US-Regierungsinstitution NIST DSA-1024 für [[hinfällig erklärt => ttp://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]], seit 2013 ist er sogar [[verboten -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
+
+Wir empfehlen, einen 3072-bit langen RSA-Schlüssel mit sha512 als Hash-Algorithmus zu erstellen und eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> key-transition]] zu veröffentlichen, die mit beiden Schlüsseln signiert ist. [[Dieses Dokument -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] erklärt die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau und gut*, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine GnuPG-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
+
+Das Wechseln des Schlüssels kann schmerzhaft sein, aber es lohnt sich - und ist außerdem eine gute Gelegenheit, den Umgang mit den Werkzeugen zu üben!
+
+h3. Verwende ein Ablaufdatum von unter zwei Jahren
+
+Die meisten Leute denken, dass sie ihre Schlüssel nicht ablaufen lassen wollen, tatsächlich solltest Du aber *genau das wollen*. Weshalb? Weil *Du das Ablaufdatum immer verlängern kannst, sogar nachdem der Schlüssel bereits abgelaufen ist!* Das "Ablaufdatum" ist nämlich in Wahrheit eher eine Art Sicherheitsventil oder "Totmannschalter", der zum angegebenen Zeitpunkt automatisch ausgelöst wird. Wenn Du Zugang zum geheimen Schlüssel hast, kannst Du den Schalter zurückstellen. Der Sinn der Übung besteht darin, eine Einstellung vorzunehmen, die den Schlüssel deaktiviert, falls er für Dich nicht mehr zugänglich ist (und Du kein Widerrufszertifikat besitzt).
+
+Wenn Du ein Ablaufdatum vergibst, wirst Du den Ablaufzeitraum in der Zukunft erweitern müssen. Das ist eine kleine Aufgabe, an die Du denken musst (siehe den nächsten Punkt zum Erstellen eines Erinnerungstermins).
+
+Du denkst vielleicht, dass das lästig ist und Du Dich damit nicht auseinandersetzen willst, aber es ist wirklich sinnvoll dies regelmäßig zu tun, um Deine OpenPGP-Fertigkeiten aufzufrischen. Es zeigt anderen Benutzer*innen, dass der Schlüssel weiterhin aktiv ist und benutzt wird, und gibt Dir die Gelegenheit, den aktuellen Zustand Deiner Verschlüsselungswerkzeuge und dieses Dokuments zu überprüfen. Außerdem sind viele Leute nicht bereit, einen Schlüssel zu signieren, der kein Ablaufdatum hat!
+
+Wenn Du bereits einen Schlüssel ohne Ablaufdatum erzeugt hast, kannst Du nachträglich ein Ablaufdatum für Deinen Schlüssel erstellen, indem Du folgendes eingibst:
+
+pre. gpg --edit-key '<fingerabdruck>'
+
+Wähle nun den Unterschlüssel (subkey) aus, für den Du ein Ablaufdatum vergeben möchtest (z.B. den ersten) oder keinen falls Du das Ablaufdatum für Deinen primären Schlüssel vergeben möchtest und gib dann den Befehl 'expire' ein:
+
+pre.. gpg> key 1
+gpg> expire
+
+p. Stelle nun ein vernünftiges Datum ein (z.B. 2 Jahre), speichere den Schlüssel ab und verlasse das Interface:
+
+pre.. Key is valid for? (0) 2y
+gpg> save
+
+p. Danach kannst Du Deinen Schlüssel an den Schlüsselserver versenden, um die Änderung zu veröffentlichen:
+
+pre. gpg --send-key '<fingerabdruck>'
+
+h3. Erstelle einen Erinnerungstermin, der Dich an das Ablaufdatum erinnert
+
+Du wirst nicht daran denken, also ist es am besten, wenn Du Dich von etwas daran erinnern lässt. Lege den Erinnerungstermin einen Monat oder mehr vor dem Ablaufdatum, damit Du die Änderungen in Ruhe vornehmen kannst. Du solltest nicht unter Stress stehen, wenn es um Deine Schlüssel geht.
+
+Denk daran: Du kannst das Ablaufdatum jederzeit verlängern (sogar wenn es bereits abgelaufen ist!), so dass Du keinen brandneuen Schlüssel erstellen musst; Du musst lediglich das Ablaufdatum auf einen späteren Zeitpunkt versetzen. Es trainiert Deine OpenPGP-Muskeln wenn Du dies regelmäßig tust - sonst wirst Du anfangen, zu vergessen, wie die Dinge funktionieren.
+
+h3. Erstelle ein Widerrufszertifikat
+
+Wenn Du Dein Passwort vergisst oder wenn Dein privater Schlüssel kompromittiert wird oder Du ihn verlierst, kannst Du entweder darauf warten, dass Dein Schlüssel abläuft (das ist keine gute Lösung) oder Dein Widerrufszertifikat aktivieren, indem Du es auf den Schlüsselservern veröffentlichst. Wenn Du dies tust, werden andere darüber informiert, dass Du den Schlüssel widerrufen hast und er nicht mehr gültig ist.
+
+Ein widerrufener Schlüssel kann immer noch verwendet werden um alte Unterschriften zu verifizieren oder Daten zu entschlüsseln (wenn Du noch Zugang zum geheimen Schlüssel hast), aber er kann nicht mehr benutzt werden, um Nachrichten an Dich zu verschlüsseln.
+
+pre. gpg --output widerruf.asc --gen-revoke '<fingerabdruck>'
+
+Damit erstellst Du eine Datei namens widerruf.asc. Du könntest einen Ausdruck von diesem Zertifikat vornehmen und an einem sicheren Ort ablegen (gib ihn Deiner Mutter oder bewahre ihn bei Deinen Backups an einem anderen Ort auf). Wenn jemand Zugang dazu erhält, kann sie Deinen Schlüssel widerrufen, was sehr lästig ist; wenn sie allerdings auch Zugang zu Deinem privaten Schlüssel haben, solltest Du genau das wollen - Deinen Schlüssel widerrufen.
+
+bq. Das ist Standard seit GnuPG 2.1.
+
+h3. Nutze den primären Schlüssel nur zur Zertifizierung (und evtl. zum Signieren). Nutze einen separaten Unterschlüssel zum Verschlüsseln.
+
+Zum Verschlüsseln solltest Du Dir einen separaten Unterschlüssel (subkey) erstellen.
+
+Das ist der Standard ab GnuPG 1.4.18 (und eventuell früher). Wenn Dein Schlüssel mit einer älteren Version von OpenPGP erstellt wurde, solltest du neue Unterschlüssel erstellen, wie zum Signieren (weiter unten).
+
+h3. Benutze einen separaten Unterschlüssel zum Signieren
+
+Standardmäßig benutzt GnuPG den gleichen Unterschlüssel zum Signieren (z.B. Signieren von Emailnachrichten) und Zertifizieren (signieren einen anderen Schlüssels). Es macht Sinn, diese beiden Ziele zu trennen, weil das eine wichtiger als das andere ist.
+
+In diesem Szenario wird Dein primärer Schlüssel nur für Zertifizierungen benutzt, die selten stattfinden.
+
+Erstelle einen Unterschlüssel im Menü @--edit-key@, mit dem Befehl @addkey@. In diesem Dialog kann die "Fähigkeit" des Schlüssels ausgewählt werden...
+
+h3. Benutze den primären Schlüssel ausschließlich offline
+
+Das ist schwierig, ermöglicht aber, den äußerst wichtigen primären Schlüssel zu schützen. Wenn er gestohlen wird, kann ein Angreifer neue Identitäten erstellen, bestehende widerrufen und sich vollständig als Du selbst ausgeben. Schlüssel "offline" zu speichern ist eine sichere Möglichkeit, sich gegen solche Angriffe zu schützen.
+
+Erstelle vorher einen eignen Schlüssel zum Signieren, sonst ist es nicht möglich, Emails ohne den Offline-Schlüssel zu signieren.
+
+Den primären Schlüssel zu extrahieren ist schwierig, aber damit sollte es klappen:
+
+bc. # primären Schlüssel extrahieren
+gpg -a --export-secret-key john.doe@example.com > secret_key
+# Unterschlüssel extrahieren, die später re-importiert werden
+gpg -a --export-secret-subkeys john.doe@example.com > secret_subkeys.gpg
+# *lösche* die geheimen Schlüssel aus deinem Schlüsselbund, sodass nur Unterschlüssel übrig bleiben
+$ gpg --delete-secret-keys john.doe@example.com
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+# Unterschlüssel reimportieren
+$ gpg --import secret_subkeys.gpg
+# Überprüfe, dass alles in Ordnung ist
+$ gpg --list-secret-keys
+# Entferne die Unterschlüssel von der Festplatte
+$ rm secret_subkeys.gpg
+
+Danach sollte der @geheime Schlüssel@ offline gelagert werden, z.B. auf einem Stick, den Du immer bei dir trägst, oder in einem geschützten Safe. Andere benutzen Smartcards, um ihn zu speichern und an einem physischen Schlüsselbund bei sich zu tragen.
+
+Stelle sicher, dass Widerrufszertifikate erstellt wurden.
+
+Überprüfe, dass der geheime Schlüssel fehlt mit @--list-secret-keys@ - es sollte @sec#@ anstatt @sec@ anzeigen.
+
+In manchen ungewöhnlichen Situationen kommt es vor, dass @--delete-secret-keys@ das geheime Schlüsselmaterial nicht vollständig entfernt und @--list-secret-keys@ immer noch @sec@ anstatt von @sec#@ anzeigt. In diesem Fall sollte das Verzeichnis @.gnupg@ entfernt werden, anstatt @--delete-secret-keys@ zu benutzen. Dann ist es nötig, trustdb und öffentliche Schlüssel wieder zu importieren, etwa so:
+
+bc. anstatt von gpg --delete-secret-keys john.doe@example.com, gehe so vor:
+$ mv .gnupg .gnupg.bak
+# Unterschlüssel reimportieren
+$ gpg --import secret_subkeys.gpg
+# Überprüfe, dass alles in Ordnung ist
+$ gpg --list-secret-keys
+# Entferne die Unterschlüssel
+$ rm secret_subkeys.gpg
+# Öffentlichen Schlüsselbund reimportieren
+$ gpg --homedir .gnupg.bak --export | gpg --import
+# trustdb reimportieren
+$ gpg --homedir .gnupg.bak --export-ownertrust | gpg --import-ownertrust
+# entferne das Backupverzeichnis von GPG (*alle* geheimen Schlüssel werden gelöscht
+$ rm -rf .gnupg.bak
+
+Bei diesen Vorgängen ist der Schlüssel im Klartext auf der Festplatte gespeichert. Es ist empfehlenswert, die Dateien sicher zu löschen (z.B. mit @nwipe@) anstelle mit @rm@. Moderne Speichermedien wie SSDs benutzen fortgeschrittene Firmware, die solche Befehle nicht tatsächlich ausführen und Spuren von privaten Schlüsseln übrig lassen können. Der beste Schutz davor ist Komplettverschlüsselung.
+
+Beachte, dass sich dieses Verfahren von Version zu Version ändern kann. Lies [[diese Diskussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] oder [[diesen Artikel -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], oder [[diese Anleitung -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] für GnuPG 2.x und neuer.
+
+h3. OpenPGP Schlüssel überprüfen
+
+Es gibt ein nützliches Tool, welches die folgenden Überprüfungen für Dich vornimmt. Du kannst es [[aus den Quellen kompilieren -> http://floss.scru.org/hopenpgp-tools/]] oder das Paket direkt installieren, wenn Du Debian oder Ubuntu verwendest, indem Du folgendes eingibst:
+
+pre. sudo apt-get install hopenpgp-tools
+
+Beachte: @hopenpgp-tools@ funktioniert aktuell nicht mit GnuPG 2.1 und darüber, weil öffentliche und private Schlüssel nun in @~/.gnupg/pubring.kbx@ gespeichert werden. @hkt@ erwartet diese aber in @~/.gnupg/pubring.gpg@ und gibt seit GnuPG 2.1 eine Fehlermeldung aus.
+
+Die Befehlszeile, um diese Tests ausführen, lautet:
+
+pre. hkt export-pubkeys '<fingerabdruck>' | hokey lint
+
+In der Ausgabe werden eventuelle Probleme im Zusammenhang mit Deinem Schlüssel in rotem Text angezeigt. Wenn die komplette Ausgabe grün ist, hat Dein Schlüssel die nachfolgenden Tests alle bestanden. Wenn etwas rot ist, hat Dein Schlüssel einen der Tests nicht bestanden und Du solltest ihn reparieren oder einen neuen generieren, nachdem Du Dich vergewissert hast, dass Deine gpg.conf wie empfohlen eingerichtet ist.
+
+h4. Vergewissere Dich, dass Dein Schlüssel OpenPGPv4 ist
+
+In [[RFC4880 -> https://tools.ietf.org/html/rfc4880]] heißt es: "V3 Schlüssel sind veraltet. Sie enthalten drei Schwächen. Erstens ist es relativ einfach einen V3 Schlüssel zu erzeugen, der die selbe Schlüssel-ID wie ein beliebiger anderer Schlüssel hat, weil die Schlüssel-ID lediglich aus den letzten 64 bit des öffentlichen Moduls besteht. Zweitens, weil der Fingerabdruck eines V3 Schlüssels zwar das Schlüsselmaterial in die Prüfsumme einbezieht, nicht aber dessen Länge, gibt es eine erhöhte die Wahrscheinlichkeit von Fingerabdruckkollisionen. Drittens gibt es Schwächen im MD5 Hashalgorithmus, die dazu geführt haben, dass Entwickler andere Algorithmen bevorzugen. Siehe unten für eine ausführlichere Diskussion von Schlüssel-IDs und Fingerabdrücken."
+
+Um festzustellen, ob Dein Schlüssel ein V3-Schlüssel ist, kannst Du folgendes eingeben:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep version
+
+h4. Primäre Schlüssel sollten mit RSA, ideal 3072 Bit, erstellt werden.
+
+Um zu überprüfen, ob Du RSA benutzt, verwende folgenden Befehl:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
+
+Wenn als Algorithmus 1 ausgegeben wird, verwendest Du RSA. Wird 17 ausgegeben, dann handelt es sich um DSA und Du wirst überprüfen müssen, ob die Schlüsselgröße, die im nächsten Test ermittelt wird, eine größere Bitlänge als 1024 ausgibt - andernfalls verwendest Du nicht DSA-2.
+
+Wenn der ausgegebene Algorithmus 19 ist, verwendest Du ECDSA, bei 18 handelt es sich um ECC. Die Schlüsselbitlängen-Überprüfung unten ist kein angemessenens Kriterium für diese Schlüsseltypen, da die Schlüsselgrößen beträchtlich kleiner sind.
+
+Die Bitlänge des primären Schlüssels kannst Du folgendermaßen ermitteln:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
+
+h4. Eigensignaturen sollten nicht nur MD5 verwenden
+
+Das kannst Du folgendermaßen überprüfen:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
+
+Wenn die Ausgabe 'digest algo 1' enthält, dann enthält Dein Schlüssel Eigensignaturen, die MD5 verwenden, denn MD5 ist Hashalgorithmus 1. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle der Hashalgorithmen und Nummern.
+
+Um dieses Problem zu beheben, solltest Du zuerst folgende Änderung an Deiner @~/.gnupg/gpg.conf@ vornehmen:
+
+pre. cert-digest-algo SHA512
+
+Dann solltest Du eine neue Eigensignatur auf Deinem Schlüssel erstellen (z.B. indem Du das [[Ablaufdatum des Schlüssels änderst -> gpg-keys#verwende-ein-ablaufdatum-von-unter-zwei-jahren]]).
+
+h4. Eigensignaturen sollten nicht nur SHA1 verwenden
+
+Überprüfe dies mit dieser Befehlszeile:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
+
+Wenn die Ausgabe 'digest algo 2' enthält, dann enthält Dein Schlüssel Eigensignaturen, die SHA1 verwenden, denn SHA1 ist Hashalgorithmus 2. Siehe [[das OpenPGP RFC 4880, Abschnitt 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] für eine Übersichtstabelle, der Hashalgorithmen und Nummern.
+
+Um dieses Problem zu beheben, solltest Du zuerst folgende Änderung an Deiner @~/.gnupg/gpg.conf@ vornehmen:
+
+pre. cert-digest-algo SHA512
+
+Dann solltest Du eine neue Eigensignatur auf Deinem Schlüssel erstellen (z.B. indem Du das [[Ablaufdatum des Schlüssels änderst -> gpg-keys#verwende-ein-ablaufdatum-von-unter-zwei-jahren]]).
+
+h4. Angaben zu bevorzugten Digest-Algorithmen müssen mindestens ein Mitglied der SHA-2 Familie mit einer höheren Priorität als MD5 und SHA1 enthalten
+
+Dies kannst Du überprüfen indem Du das Folgende in Deine Befehlszeile eingibst:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep 'pref-hash-algos'
+
+und Dir die Ergebnisse ansiehst. Die Reihenfolge der bevorzugten Algorithmen wird als Liste von Zahlen ausgegeben. Vorrang hat was weiter links steht. Wenn eine der Zahlen '3', '2', oder '1' in der Liste vor der ersten '11', '10', '9' oder '8' kommt, dann wird in Deinen Präferenzen ein schächerer Algorithmus bevorzugt.
+
+Um dies zu beheben, nimmst Du zuerst die folgende Änderung in Deiner @~/.gnupg/gpg.conf@ vor:
+
+pre. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+und setzt dann die neuen Präferenzen in Deinem Schlüssel:
+
+pre.. $ gpg --edit-key '<fingerabdruck>'
+gpg> setpref
+...
+gpg> save
+
+h4. Primärschlüssel sollten ein vernünftiges Ablaufdatum haben (nicht mehr als 2 Jahre in der Zukunft)
+
+Du kannst Dein Ablaufdatum mit dieser Befehlszeile überprüfen:
+
+pre. gpg --export-options export-minimal --export '<fingerabdruck>' | gpg --list-packets | grep 'key expires after'
+
+Schau Dir das Ergebnis an um zu überprüfen wann der Schlüssel abläuft -- beachte aber, dass die angegebene Zeit von der Schlüsselerzeugung ab gerechnet wird, was bei der Interpretation des Ablaufdatums für Verwirrung sorgen kann,
+
+Eine weitere Möglichkeit, das Ablaufdatum zu überprüfen ist dies:
+
+pre. gpg --list-keys '<fingerabdruck>'
+
+dabei sollten Erzeugungs- und Ablaufdatum des primären Schlüssels und aller assoziierten Unterschlüssel (subkeys) angezeigt werden. Wenn Du nirgends das Wort "expires" oder "verfällt" siehst, dann hast Du kein Ablaufdatum eingestellt.
+
+Das kannst Du folgendermaßen beheben:
+
+pre.. $ gpg --edit-key '<fingerabdruck>'
+gpg> expire
+...
+gpg> save
+
+h2. Zusammenfassung aller Empfehlungen.
+
+Alle empfohlenen Einstellungen, die in dieser Anleitung diskutiert wurden, sind in einer Konfigurationsdatei in Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "Sammlung gehärteter Konfigurationsdateien" kombiniert. Du kannst die Datei [[gpg.conf -> https://raw.githubusercontent.com/ioerror/duraconf/master/configs/gnupg/gpg.conf]] herunterladen und unter @~/.gnupg/gpg.conf@ speichern. Windows-Benutzer sollten die Datei gpg.conf im Verzeichnis @Anwendungsdaten\GnuPG\@ oder @AppData\GnuPG\@ speichern.
+
+Du solltest die folgenden Einstellungen einkommentieren und/oder an deine lokalen Präferenzen anpassen: @default-key@, @keyserver-options ca-cert-file@ und @keyserver-options http-proxy@.
+
 h1. Linux
 
 h2. Benutzung der GNOME-Anwendung Seahorse
@@ -24,15 +256,15 @@ h3. Erstelle und exportiere ein OpenPGP-Schlüsselpaar
 # Wähle *Erweiterte Schlüsseleinstellungen*
 # Verschlüsselungs-Typ sollte RSA sein.
 # Schlüssellänge sollte 3072 sein.
-# Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
-# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails, für immer.**
+# Die maximale Lebensdauer solle weniger als zwei Jahre sein. *Sie kann jederzeit verlängert werden, solange Du Kontrolle über den Schlüssel hat, auch nachdem er abgelaufen ist.* Siehe dazu: [[Warum sollte ich eine maximale Lebensdauer einstellen->gpg-keys#verwende-ein-ablaufdatum-von-unter-zwei-jahren]]
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails, für immer.**
 # Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super! Du kannst die Schlüsseleinstellungen verwalten, den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen und andere Einstellungen mit Seahorse oder von der Kommandozeile aus vornehmen.
-# **Optional** An diesem Punkt kannst du deinen öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Sobald du bereit bist:
+# **Optional** An diesem Punkt kannst du deinen öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> best-practices/#einen-schl%C3%BCsselserver-ausw%C3%A4hlen-und-den-eigenen-rechner-so-konfigurieren-dass-der-schl%C3%BCsselbund-aktualisiert-wird]]. Sobald du bereit bist:
 ## Wähle den/die Schlüssel, den/die du exportieren möchtest. Halte *Strg* und klicke auf die Schlüssel, um sie auszuwählen, oder drücke **Strg+A**, um alle Schlüssel auszuwählen.
 ## Gehe zu *Entfernt -> Schlüssel abgleichen und veröffentlichen*
 ## Drücke den Knopf *Schlüssel-Server*
 ## Veröffentliche die Schlüssel zu einem Server (wähle einen aus, wenn der Knopf *Abgleichen* auf dem vorherigen Schirm ausgegraut war); sie synchronisieren sich alle untereinander, dein Schlüssel wird auf allen verfügbar sein.
-# *Empfohlen:* Aktiviere unter *Bearbeiten > Einstellungen* die Funktion *Schlüssel automatisch von den Schlüssel-Servern abrufen*, aber lasse *Veränderte Schlüssel automatisch mit den Schlüssel-Servern abgleichen* deaktiviert. Statt dessen [[benutze parcimonie -> /gpg-best-practices#refresh-your-keys-slowly-and-one-at-a-time]].
+# *Empfohlen:* Aktiviere unter *Bearbeiten > Einstellungen* die Funktion *Schlüssel automatisch von den Schlüssel-Servern abrufen*, aber lasse *Veränderte Schlüssel automatisch mit den Schlüssel-Servern abgleichen* deaktiviert. Statt dessen [[aktualisiere Schlüssel einzeln und mit Zeitverzögerung -> openpgp/best-practices/#schl%C3%BCssel-langsam-und-einzeln-aktualisieren]].
 ## Drücke den Knopf *Schließen* und *Abgleichen*, um deine Schlüssel zu synchronisieren.
 
 Dein öffentlicher Schlüssel wird nun auf den Schlüssel-Servern veröffentlicht und ist danach für andere verfügbar!
@@ -77,6 +309,10 @@ Nachdem du den Fingerabdruck sorgfältig überprüft und die Korrektheit mit der
 
 Nun kannst du anfangen, Daten zu verschlüsseln, die nur von der Schlüsselinhaber*in entschlüsselt werden können, um einen sicheren Kommunikationskanal zu etablieren!
 
+h2. Benutze Enigmail zum Verschlüsseln von Emails
+
+Siehe [[Enigmail]]
+
 h2. Benutzung der Linux-Kommandozeile
 
 Diese Anleitung basiert auf der "GPG-Anleitung für Ubuntu":https://help.ubuntu.com/community/GnuPrivacyGuardHowto (englisch)
@@ -101,7 +337,7 @@ Als nächstes wähle die Größe. **3072** ist empfohlen.
 
 bc. What keysize do you want? (2048)
 
-Danach stelle ein, wie lange der Schlüssel gültig sein soll und drücke **y**. Wenn du 0 wählst, läuft der Schlüssel nie ab und du musst ihn widerrufen, wenn du ihn nicht mehr nutzen möchtest. [[Es wird empfohlen -> /gpg-keys#use-an-expiration-date-less-than-two-years]], dass der Schlüssel innerhalb von 2 Jahren abläuft.
+Danach stelle ein, wie lange der Schlüssel gültig sein soll und drücke **y**. Wenn du 0 wählst, läuft der Schlüssel nie ab und du musst ihn widerrufen, wenn du ihn nicht mehr nutzen möchtest. [[Es wird empfohlen -> gpg-keys#verwende-ein-ablaufdatum-von-unter-zwei-jahren]], dass der Schlüssel innerhalb von 2 Jahren abläuft.
 
 bc. Please specify how long the key should be valid.
      0 = key does not expire
@@ -111,7 +347,7 @@ bc. Please specify how long the key should be valid.
    <n>y = key expires in n years
 Key is valid for? (0)
 
-Gib Name und E-Mailadresse, [[aber keinen Kommentar ein -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]] ein. Name und E-Mailadresse kannst du frei wählen und müssen nicht notwendigerweise stimmen. Wenn der OpenPGP-Schlüssel zum Verschlüsseln von E-Mails benutzt werden soll, gib die entsprechende Adresse bei der Abfrage "Email address" ein.
+Gib Name und Emailadresse, [[aber keinen Kommentar ein -> gpg-best-practices#verwende-keinen-kommentar-in-deiner-benutzer-id]] ein. Name und Emailadresse kannst du frei wählen und müssen nicht notwendigerweise stimmen. Wenn der OpenPGP-Schlüssel zum Verschlüsseln von Emails benutzt werden soll, gib die entsprechende Adresse bei der Abfrage "Email address" ein.
 
 bc. You need a user ID to identify your key; the software constructs the user ID
 from the Real Name, Comment and Email Address in this form:
@@ -147,7 +383,7 @@ ssb   4096R/0x40339E25E2F2D99E 2014-05-14
 
 p. In diesem Beispiel lautet die *Schlüssel-ID* also **E361D8GH916EFH89**.
 
-Allerdings solltest du dich, [[wie hier beschrieben -> /gpg-best-practices#dont-rely-on-the-key-id]], nicht auf die Schlüssel-ID verlassen. Benutze stattdessen den *ganzen Fingerabdruck* für alle Operationen.
+Allerdings solltest du dich, [[wie hier beschrieben -> gpg-best-practices#verlasse-dich-nicht-auf-die-schl%C3%BCssel-id-keyid]], nicht auf die Schlüssel-ID verlassen. Benutze stattdessen den *ganzen Fingerabdruck* für alle Operationen.
 
 h3. Öffentlichen OpenPGP-Schlüssel exportieren/publizieren
 
@@ -162,7 +398,7 @@ h3. Öffentlichen OpenPGP-Schlüssel bei einem Schlüssel-Server veröffentliche
 Um deinen öffentlichen Schlüssel an einen Schlüssel-Server zu schicken
 # drücke **Alt+F2** und starte: @gnome-terminal@
 # tippe @gpg --send-keys <<fingerprint>>@
-wobei <<fingerprint>> der Fingerabdruck des zu veröffentlichenden Schlüssels ist. Hoffentlich hast du bereits einen [[guten Schlüssel-Server eingestellt -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
+wobei <<fingerprint>> der Fingerabdruck des zu veröffentlichenden Schlüssels ist. Hoffentlich hast du bereits einen [[guten Schlüssel-Server eingestellt -> gpg-best-practices#einen-schl%C3%BCsselserver-ausw%C3%A4hlen-und-den-eigenen-rechner-so-konfigurieren-dass-der-schl%C3%BCsselbund-aktualisiert-wird]].
 
 h1. Windows
 
@@ -245,6 +481,10 @@ To do this,
 # Choose whether you want this certification to be visible to others or only to yourself and then press the **Certify** button.
 
 You have now signed their key (certified their certificate) and are ready to begin encrypting data or emails that only they can decrypt!
+
+h2. Benutze Enigmail zum Verschlüsseln von Emails
+
+Siehe [[Enigmail]]
 
 h1. Mac OS X
 

@@ -2,10 +2,15 @@
 
 h2. Was sind sichere Verbindungen?
 
-Zur Nutzung von Riseups Diensten solltest Du Verschlüsselung verwenden. Ohne sichere Verbindung sind die Daten, die Du über das Internet sendest und empfängst, unverschlüsselt. Das bedeutet, dass sie von allen, die Deine E-Mails abhören wollen, mitgelesen werden können, und schlimmer noch: Jede_r kann ganz einfach an Deinen Anmeldenamen und das Passwort gelangen, oder unsere Server imitieren. Das Einrichten einer sicheren Verbindung zu Riseup sorgt für einen vernünftigen Schutz vor Lauschern und Fälscherinnen.
+Zur Nutzung von Riseups Diensten solltest Du Verschlüsselung wie [[TLS->https://de.wikipedia.org/wiki/X.509]] verwenden. Ohne sichere Verbindung sind die Daten, die Du über das Internet sendest und empfängst, unverschlüsselt. Das bedeutet, dass sie von allen, die Deine E-Mails abhören wollen, mitgelesen werden können, und schlimmer noch: Jede_r kann ganz einfach an Deinen Anmeldenamen und das Passwort gelangen, oder unsere Server imitieren. Das Einrichten einer sicheren Verbindung zu Riseup sorgt für einen vernünftigen Schutz vor Lauschern und Fälscherinnen.
 
+h2. Wie verwende ich sichere Verbindungen?
 
-h2. Wie nutze ich sichere Verbindungen?
+Um in einem Emailprogramm sichere Verbindungen zu aktivieren, müssen die Verbindungseinstellungen verändert werden. Keine Angst, wir werden alles genau erklären. 
+
+[[email/client]] sind Anwendungen zum Empfangen, Senden und Schreiben von elektronischen Nachrichten wie z.B. [[Thunderbird]], [[apple-mail]], [[microsoft-outlook]] etc.
+
+h2. allgemeine Einstellungen
 
 Um Dein Mail-Programm dazu zu bringen, sichere Verbindungen herzustellen, musst Du ein paar Änderungen an der Konfiguration vornehmen. Aber keine Sorge! Wir gehen das gemeinsam durch, lies einfach weiter:
 
@@ -20,60 +25,6 @@ Grundsätzlich bieten wir keine Unterstützung für Mail-Programme an. Jedoch ha
 Falls Du nicht Mozilla Thunderbird nutzt, möchten wir Dir einen Wechsel nahe legen. Thunderbird ist ein relativ sicheres, leicht benutzbares und freies Software-Projekt. Es tut bestimmt nicht weh, es einfach mal auszuprobieren! Unsere [[Anleitung zum Einrichten von Thunderbird -> thunderbird]] ist auch wirklich gut.
 
 Falls Du weder zu Thunderbird wechseln möchtest, Du nicht weißt, wie Du diese Änderungen selber vornimmst, und auch unsere Hilfeseiten nicht hilfreich waren, müsstest Du Dich an Deinen Software-Händler oder die Gemeinschaft wenden, um die notwendigen Änderungen durchzuführen.
-
-
-h3. Thunderbird
-
-Um die notwendigen Änderungen in Thunderbird vorzunehmen, folge diesen Schritten:
-
-  Zuerst finde heraus, welche Version von Thunderbird Du nutzt:
-      Klicke in der Menüleiste auf "Hilfe" --> "Über Thunderbird"
-
-Sobald Du die Versionsnummer herausgefunden hast, folge jener unten stehenden Anleitung, die sich auf Deine Version bezieht:
-
-h4. Thunderbird 3.x Serie
-
-Um die notwendigen Änderungen zum aktivieren sicherer Verbindungen in Thunderbird Version 3.x durchzuführen, folge diesen Schritten:
-
-* Im "Bearbeiten"-Menü wähle "Konten-Einstellungen",
-* Nachdem sich das Konteneinstellungs-Fenster geöffnet hat, gehe unter Deinem Riseup-Konto auf "Server-Einstellungen"
-* In der Mitte des Fensters siehst Du nun die Überschrift "Sicherheit und Authentifizierung"
-* Unter dieser Überschrift findest Du das Feld "Verbindungssicherheit", das auf SSL/TLS eingestellt sein muss
-* In der oberen linken Ecke des Fensters ist ein Feld namens "Port", dieses sollte automatisch eingestellt werden, aber um sicherzugehen:
-** Die "Servertyp"-Zeile oben im Fenster sagt Dir, ob Du POP oder IMAP benutzt.
-** Die Portnummer sollte 993 sein, falls Du IMAP nutzt
-** Die Portnummer sollte 995 sein, falls Du POP nutzt
-* Als nächstes klicke in der linken Spalte auf "Postausgangs-Server (SMTP)"
-* Klicke in der Spalte rechts einmal auf Riseups SMTP-Server
-* Klicke ganz rechts im Fenster auf "Bearbeiten"
-* Stelle "Verbindungssicherheit" auf SSL/TLS
-* Überprüfe, ob der "Port" auf 465 eingestellt ist
-* Schließe das Fenster mit "OK"
-** Klicke im Fenster darunter nochmals "OK"
-** Auf keinen Fall solltest Du die "Authentifizierungsmethode" auf etwas anderes als "Passwort, normal" ändern.
-** Das war´s schon, Yeah!
-
-h4. Thunderbird 2.x Serie (überlege Dir, auf 3.x umzusteigen!)
-
-_*Anmerkung des Übersetzers:* da ich keine deutsche Version von Thunderbird_2 auftreiben konnte, weicht die Übersetzung der Schaltflächen-Beschriftungen möglicherweise etwas von der Realität ab. Seid also kreativ - oder wechselt zu einer aktuellen Version._
-
-* Im "Werkzeuge"-Menü wähle "Konten-Einstellungen",
-* Nachdem sich das Konteneinstellungs-Fenster geöffnet hat, gehe unter Deinem Riseup-Konto auf "Server-Einstellungen"
-* In der Mitte des Fensters siehst Du nun die Überschrift "Sicherheit und Authentifizierung"
-* Wähle "SSL"
-* NEIN: Markiere NICHT die Box "Benutze sichere Authentifizierung"
-** In der oberen linken Ecke des Fensters ist eine Einstellung namens "Port", diese sollte automatisch eingestellt werden, aber um sicherzugehen:
-** Die "Servertyp"-Zeile oben im Fenster sagt Dir, ob Du POP oder IMAP benutzt.
-** Die Portnummer sollte 993 sein, falls Du IMAP nutzt
-** Die Portnummer sollte 995 sein, falls Du POP nutzt
-* Als nächstes klicke auf "Postausgangs-Server (SMTP)" in der linken Spalte
-* Klicke in der Spalte rechts einmal auf Riseups SMTP-Server
-* Klicke ganz rechts im Fenster auf "Bearbeiten"
-* Stelle das Feld "Benutze sichere Verbindungen" auf "SSL"
-* Überprüfe, ob der "Port" auf 465 eingestellt ist
-* Schließe das Fenster mit "OK"
-* Klicke im Fenster darunter nochmals "OK"
-      * Das war´s schon, Yeah!
 
 h2. FAQ
 
