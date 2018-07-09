@@ -2,9 +2,7 @@
 
 p(pull-right). !(image-right)K9mail.png!
 
-K-9 Mail is an free software mail application for Android. The app is a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes.
-
-You can install K-9 from Google Play, https://f-droid.org, or the "K-9 website":https://code.google.com/p/k9mail.
+[[K-9 Mail -> https://k9mail.github.io/]] is an free software mail application for Android. The app is a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes.
 
 K9-Mail is about as easy to set up as they come.
 
@@ -29,5 +27,7 @@ Celebrate your good fortune for using Riseup!
 
 
 h1. Enhance security
+
+K-9 Mail [[supports->https://k9mail.github.io/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html]] [[autocrypt->https://autocrypt.org/index.html]]'s opportunistic [[email encryption->openpgp]] by adding a OpenPGP header to outgoing mails. [[How it works -> https://autocrypt.org/examples.html]]
 
 <%= render :partial => 'enhance-security' %>

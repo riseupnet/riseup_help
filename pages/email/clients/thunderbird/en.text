@@ -61,7 +61,8 @@ h3. Add some extensions
 
 We suggest these extensions for Thunderbird:
 
-* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: get started in no time [[encrypting and decrypting emails->message-security]] and verifying that emails you receive are from the people who you expect them to be.
+* [[Enigmail => enigmail]]: get started in no time [[encrypting and decrypting emails->message-security]] and verifying that emails you receive are from the people who you expect them to be.
+* [[TorBirdy -> https://trac.torproject.org/projects/tor/wiki/torbirdy]]: improves the default settings for privacy (use plain text instead of HTML) and configures Thunderbird to make connections over the [[Tor]] anonymity network
 * "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: This extension will display the current status of your IMAP quota in thunderbird's statusbar and will warn you when you reach a configurable limit.
 * "TorBirdy":https://addons.mozilla.org/thunderbird/addon/torbirdy/: This extension configures Thunderbird to make connections over the Tor anonymity network.
 
@@ -74,7 +75,7 @@ Luckily there is a fix: Thunderbird has some hidden options, that a does a compl
 To set this, go to the menu *Edit > Preferences > Advanced > General > Config Editor*
 
 * set @use_status_for_biff@ to *false*
-* set @mail.server.default.autosync_offline_stores@ to *true*
+* set @mail.server.default.autosync_offline_stores@ to *true* (default)
 
 h3. Consider automatically deleting old email
 
