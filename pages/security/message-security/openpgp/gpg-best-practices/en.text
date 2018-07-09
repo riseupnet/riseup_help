@@ -18,7 +18,7 @@ Information security is too important to leave to proprietary software. You shou
 
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
-If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
+If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly (default since 2.1). Then, you have to configure your machine to receive key updates in a regular fashion (run @gpg --refresh-keys@ from time to time).
 
 [[Since version 2.1 of GnuPG -> https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]], [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing and downloading certificate revocation lists (CRLs) for X.509 certificates, downloading X.509 certificates, and providing access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool.
 
@@ -29,29 +29,61 @@ If you want to remove a dead host or want to learn about the dirmngr's keyserver
 
 h3. Note for gnupg prior 2.1
 
-In previous version it was necessary to define a _ca-cert-file_ option:
+Since version 2.1.11 Gnupg installs the CA certificate for hkps.pool.sks-keyservers.net and uses it by default. If you are using an up to date version (check with @gpg --version@), you can [[skip this section -> #ensure-that-all-keys-are-refreshed-through-the-keyserver-you-have-selected]].
 
-@keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem@
+bq. It is strongly recommended to upgrade your installation of gnupg for security reasons. Unfortunately some users are stuck with gpg 1 because their distribution requires it for some tools, but use gpg 2.1 in parallel. In this case the best option is to upgrade or switch the distribution, because a lot of security relevant fixes need to be backported, to keep older versions secure.
 
-Unfortunately some users are stuck with gpg 1 because their distribution requires it for some tools, but use gpg 2.1 in parallel. In this case following warning may occure and may be ignored:
+h4. Use the sks keyservers pool
 
-@gpg: keyserver option 'ca-cert-file' is obsolete; please use 'hkp-cacert' in dirmngr.conf@
-
-By default, from version 2.1.11, Gnupg installs the CA certificate for hkps.pool.sks-keyservers.net and make use of it by default, which means rolling linux distributions will not have problems not setting the hkp-cacert config option.
-
-The [[dirmngr option->https://www.gnupg.org/documentation/manuals/gnupg/Dirmngr-Options.html#Dirmngr-Options]] 'hkp-cacert' is supported since gnugpg 2.1.
-
-h3. Use the sks keyserver pool, instead of one specific server, with secure connections.
-
-bq. Note that this is the default starting with GnuPG 2.1.18 (at least).
-
-Most OpenPGP clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target.
+Previous versions of gnupg come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target. 
 
 The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
 
-Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]] over an encrypted channel, using a protocol called hkps.
+Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. 
 
-The transport encryption is important because if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information.
+You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. The transport encryption is important because if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information. In order to use hkps, you need to install gnupg-curl (on debian: @sudo apt-get install gnupg-curl@).
+
+Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to. Next, you should verify the certificate's fingerprint. Inspect the X509v3 Subject Key Identifier with
+
+bc. curl -sSL https://sks-keyservers.net/sks-keyservers.netCA.pem | openssl x509 -in - -noout -text | grep "X509v3 Subject Key Identifier" -A1 | tail -n1 | tr -d ' '
+
+and compare-it with the X509 fingerprint written on the [[pool website-> https://sks-keyservers.net/verify_tls.php]]. It has a signature to verify the .pem file:
+
+bc. curl -sSL https://sks-keyservers.net/sks-keyservers.netCA.pem -o sks-keyservers.netCA.pem
+curl -sSL https://sks-keyservers.net/sks-keyservers.netCA.pem.asc -o sks-keyservers.netCA.pem.asc
+openssl verify -trusted sks-keyservers.netCA.pem -check_ss_sig sks-keyservers.netCA.pem
+
+It should output: @sks-keyservers.netCA.pem: OK@. See also [[howto check the signature of files -> https://www.torproject.org/docs/verifying-signatures.html.en]].
+
+To verify that the certificate file was downloaded correctly, you can verify the OpenPGP signature:
+
+bc. gpg --auto-key-retrieve --verify sks-keyservers.netCA.pem.asc
+
+The option [[@--auto-key-retrieve@ -> https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html#GPG-Configuration-Options]] will automatically import keys used to create the signature. Make sure that the output looks like
+
+bc. gpg: assuming signed data in 'sks-keyservers.netCA.pem'
+gpg: Signature made Wed Mar 30 17:06:29 2016 CEST
+gpg:                using RSA key 0x250B7AFED6379D85
+gpg: Good signature from "Kristian Fiskerstrand <kristian.fiskerstrand@sumptuouscapital.com>" [unknown]
+gpg:                 aka "Kristian Fiskerstrand <kf@gnupg.net>" [unknown]
+gpg:                 aka "Kristian Fiskerstrand <k_f@gentoo.org>" [unknown]
+gpg:                 aka "Kristian Fiskerstrand <kf@sumptuouscapital.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 94CB AFDD 3034 5109 5618  35AA 0B7F 8B60 E3ED FAE3
+     Subkey fingerprint: B4EA D120 C7F8 9A4A EA47  2707 250B 7AFE D637 9D85
+
+Congratiolations, you confirmed that you are in possession of an uncorrupted copy of the correct certificate file for the keyserver pool. If you liked that procedure, have a look at [[Riseup's certificates page->certificates]].
+
+Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above by defining the _ca-cert-file_ option:
+
+@keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem@
+
+Note: Gnupg 2.1 will complain about this option:
+
+@gpg: keyserver option 'ca-cert-file' is obsolete; please use 'hkp-cacert' in dirmngr.conf@
+
+The [[dirmngr option->https://www.gnupg.org/documentation/manuals/gnupg/Dirmngr-Options.html#Dirmngr-Options]] 'hkp-cacert' is supported since gnugpg 2.1.
 
 h3. Ensure that all keys are refreshed through the keyserver you have selected.
 
@@ -61,15 +93,19 @@ bc. keyserver-options no-honor-keyserver-url
 
 This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when or from where you refresh their key.
 
+@gpg --keyserver-options no-honor-keyserver-url --refresh-keys@ is the equivalent to set this option every time you perform key updates.
+
 h3. Refresh your keys slowly and one at a time.
 
-Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie:
-
-bc. sudo apt-get install parcimonie
+Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie (@sudo apt-get install parcimonie@):
 
 [[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring.
 
-You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
+You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing. From the [[gnupg documentation -> https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html#GPG-Configuration-Options]] for @--auto-key-retrieve@:
+
+bq. Note that this option makes a "web bug" like behavior possible. Keyserver or Web Key Directory operators can see which keys you request, so by sending you a message signed by a brand new key (which you naturally will not have on your local keyring), the operator can tell both your IP address and the time when you verified the signature.
+
+Therefor it is a good idea, to [[torify GnuPG requests -> https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/GnuPG]]: Check that @use-tor@ is present in @~/.gnupg/dirmngr.conf@ (it is default since GnuPG v2.1).
 
 h4. Troubleshooting dirmng
 

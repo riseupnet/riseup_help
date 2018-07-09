@@ -8,7 +8,7 @@ First read the instructions in [[gpg-best-practices]] carefully to ensure your s
 
 h2. Autocrypt
 
-To widen the use of OpenPGP opportunistic encryption for mails is in development under the name [[autocrypt -> https://autocrypt.org/index.html]]. Several [[mail clients]] like [[delta.chat -> https://delta.chat]] (android), [[enigmail]], [[K9mail]] and [[others->https://autocrypt.org/dev-status.html]] already implement it.
+To widen the use of OpenPGP opportunistic encryption for mails is in development under the name [[autocrypt -> https://autocrypt.org/index.html]]. Several [[clients]] like [[delta.chat -> https://delta.chat]], [[Enigmail -> enigmail]], [[K-9 Mail -> k9]] and [[others->https://autocrypt.org/dev-status.html]] already implement it.
 
 h1. Key configuration
 
