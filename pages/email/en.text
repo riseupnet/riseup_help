@@ -7,6 +7,22 @@ Welcome to Riseup email help.
 
 If you don't find what you are looking for [[fill out a help ticket => https://support.riseup.net/en/topics/new]]. Once your question has been answered, please help us keep these pages updated by submitting any changes or additions you would like to share with other users.
 
+h2. Usage Agreement
+
+Your mail account is subject to the following agreements and [[policies -> policy]]:
+
+* [[tos]]
+* [[privacy-policy]]
+* [[dmca]]
+
+Additionally, we have these policies which relate specifically to your mail account.
+
+* Your email quota will be 96 megabytes. This can be increased upon request.
+* Individuals are allowed exactly one riseup.net account. Activist organizations may have more than one account.
+* Your mail account may be terminated for the following reasons:
+** Using any riseup.net hardware or return address to send spam. Activist spam, otherwise known as *tofu*, is still spam and will be treated no differently from the corporate variety. This is to ensure that riseup.net does not get blocked from delivering mail to other mail providers.
+** Account inactivity for more than six months.
+
 h2. First steps
 
 If you forget your password, the only way to regain access to your account is with a recovery code. There is no way around this, Riseup cannot help you if you lose your recovery code. You absolutely must save this code somewhere safe.

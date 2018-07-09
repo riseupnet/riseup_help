@@ -7,6 +7,23 @@ Bienvenido a la página de ayuda sobre email de Riseup. Aquí encontrarás la in
 
 Si no encuentras lo que estas buscando "cumplimenta un ticket de ayuda":https://support.riseup.net/es/topics/new. Una vez que tu pregunta sea respondida, por favor, ayúdanos a mantener al día estas páginas enviando cualquier cambio o incorporando la información que desees compartir con otras personas.
 
+h2.Contrato de uso
+
+Tu cuenta de correo está sujeta a los siguientes acuerdos y [[políticas -> policy]]:
+
+* [[tos]]
+* [[privacy-policy]]
+* [[dmca]]
+
+Además, tenemos estas políticas que se refieren específicamente a tu cuenta.
+
+* Tu cuota de correo es de 96 megabytes. Esto se puede aumentar si se pide.
+* Las personas físicas pueden tener única y exclusivamente una cuenta en riseup.net. Las organizaciones activistas pueden tener más de una cuenta.
+* Tu cuenta de correo puede ser cerrada por los siguientes motivos:
+** Usar los equipos o direcciones de riseup.net para enviar spam. El spam activista,
+también conocido como *tofu*, es spam y tendrá las mismas consecuencias que su vertiente empresarial. Hacemos esto para que riseup.net no sea bloqueado cuando se envian correos a otros proveedores.
+** Inactividad de la cuenta durante más de seis meses.
+
 h2. Primeros pasos
 
 Visita "account.riseup.net":https://account.riseup.net desde ahí, puedes cambiar tu contraseña, añadir un alias a tu email, configurar filtros, cambiar tu cuota o solicitar ayuda.
