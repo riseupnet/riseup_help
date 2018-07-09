@@ -4,7 +4,7 @@ h2. Über diese Anleitung
 
 Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet.
 
-Diese Anleitung wurde für eine ältere Version von GnuPG (1.4) geschrieben, einige Empfehlungen können daher redundant mit aktuellen Standardeinstellungen von neueren Versionen von GnuPG (2.1 und darüber) sein. Eine Überarbeitung [[findet gerade statt -> https://github.com/riseupnet/riseup_help/issues/451]], um die Aktualität der Anleitung zu überprüfen. Du kannst dabei helfen [[durch Einsenden von Änderungsvorschlägen->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]].
+Diese Anleitung wurde ursprünglich für eine ältere Version von GnuPG (1.4) geschrieben und wurde für GnuPG v2.1 [[aktualisiert -> https://github.com/riseupnet/riseup_help/issues/451]]. Du kannst dabei helfen, sie weiter zu verbessern [[durch Einsenden von Änderungsvorschlägen->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]].
 
 h2. Freie Software verwenden und auf dem neusten Stand halten
 
