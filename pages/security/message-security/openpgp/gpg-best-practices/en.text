@@ -5,7 +5,7 @@ h2. How to use this guide.
 
 We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@.
 
-Also note that this guide was written for legacy versions of GnuPG (1.4) and may contain recommendations that are redundant with default settings in newer releases of GnuPG (2.1 and above). A [[review is in progress->https://github.com/riseupnet/riseup_help/issues/451]] to make sure the guide is up to date. You can help by [[submitting changes->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]] yourself.
+This guide was originally written for legacy versions of GnuPG (1.4) and has been updated for GnuPG v2.1. If you have ideas how to improve it, you can help by [[submitting changes->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]] yourself.
 
 h2. Use free software, and keep it updated.
 
@@ -20,7 +20,7 @@ h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
 If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly (default since 2.1). Then, you have to configure your machine to receive key updates in a regular fashion (run @gpg --refresh-keys@ from time to time).
 
-[[Since version 2.1 of GnuPG -> https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]], [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing and downloading certificate revocation lists (CRLs) for X.509 certificates, downloading X.509 certificates, and providing access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool.
+[[Since GnuPG v2.1 -> https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]], [[dirmngr -> https://www.gnupg.org/documentation/manuals/gnupg/Invoking-DIRMNGR.html#Invoking-DIRMNGR]] takes care of accessing the OpenPGP keyservers. As with previous versions it is also used as a server for managing [[X.509 certificates -> secure-connections]] and access to OCSP providers. Dirmngr is invoked internally by gpg, gpgsm, or via the gpg-connect-agent tool and can be stopped without harm.
 
 To see the list of keyservers used by dirmngr enter into a terminal:
 @gpg-connect-agent --dirmngr 'keyserver --hosttable' /bye@
@@ -93,32 +93,36 @@ bc. keyserver-options no-honor-keyserver-url
 
 This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when or from where you refresh their key.
 
-@gpg --keyserver-options no-honor-keyserver-url --refresh-keys@ is the equivalent to set this option every time you perform key updates.
-
 h3. Refresh your keys slowly and one at a time.
 
-Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie (@sudo apt-get install parcimonie@):
+Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. 
 
-[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring.
-
-You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing. From the [[gnupg documentation -> https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html#GPG-Configuration-Options]] for @--auto-key-retrieve@:
+The command @gpg --keyserver-options no-honor-keyserver-url --refresh-keys@ is the equivalent to above setting, however you should not use it (similarly the 'refresh keys' menu item in your email client), because you disclose to the keyserver operator the whole set of keys that you are interested in refreshing. From the [[gnupg documentation -> https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html#GPG-Configuration-Options]] for @--auto-key-retrieve@:
 
 bq. Note that this option makes a "web bug" like behavior possible. Keyserver or Web Key Directory operators can see which keys you request, so by sending you a message signed by a brand new key (which you naturally will not have on your local keyring), the operator can tell both your IP address and the time when you verified the signature.
 
 Therefor it is a good idea, to [[torify GnuPG requests -> https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/GnuPG]]: Check that @use-tor@ is present in @~/.gnupg/dirmngr.conf@ (it is default since GnuPG v2.1).
 
+Until GnuPG offers [[this option -> https://dev.gnupg.org/T1235]], you can add following script to your cronjobs:
+
+.bc #!/bin/bash
+# refreshes gpg keys one by one with a random time interval
+while true
+do
+  for fingerprint in $(gpg --list-keys --with-colons --with-fingerprint | grep --after-context "1" "^pub" | grep "^fpr" | cut -d ":" -f "10" | sort --random-sort)
+  do
+    sleep $(( (RANDOM % 1000) + 300))
+    gpg --batch --no-tty --no-auto-check-trustdb --refresh-keys "$fingerprint" 2> /dev/null
+  done
+done &
+
 h4. Troubleshooting dirmng
 
-It is a known error, that parcimonie fails with at least gnupg 2.2.8:
-
-bc. gpg: keyserver receive failed: No data
- at /usr/share/perl5/App/Parcimonie/Daemon.pm line 350
-
-Whenever you have the impression that "No data" is incorrect when performing a @gpg --search KEYID@, it is safe to run @dirmngr --shutdown@. It will be restarted automatically when it is needed.
+Whenever you have the impression that "No data" is an incorrect answer when performing a @gpg --search KEYID@, it is safe to run @dirmngr --shutdown@. It will be restarted automatically when it is needed.
 
 If it gives 'error: searching keyserver: server indicated a failure', re-start tor (if used), dirmngr and gpg-agent (by sending KILLAGENT to gpg-connect-agent). It will get things back to the way they were.
 
-There are some known issues with the libdns included and fixes have been pushed to master very recently, they'll be in 2.2.9.
+There are some known issues with the included libdns and fixes have been pushed to master very recently, they'll be in v2.2.9.
 
 To relaunch it run it with whatever flags you normally use (if any). Another option is to run: @gpg-connect-agent@, it starts an interactive interface, then enter @KILLAGENT@ and press Ctrl-D to stop it. On debian based systems you can restart it with @systemctl --user restart dirmngr.socket@ and @gpgconf --kill gpg-agent@.
 

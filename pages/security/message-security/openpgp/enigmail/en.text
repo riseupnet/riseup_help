@@ -6,7 +6,7 @@ Enigmail also features opportunistic [[email encryption->openpgp]] ([[autocrypt-
 
 h2. Before you begin
 
-We recommned that you start by reading our [[gpg-best-practices]] guide. In particular, you should ensure *before you generate a key* that you have gone through the [[key configuration->gpg-keys#Key_configuration]] guide to configure gnupg to generate a strong key because the defaults that come installed are not optimal.
+We recommned that you start by reading our [[gpg-best-practices]] guide. Make sure, that you are using GnuPG v.2.1 or newer, or you should ensure *before you generate a key* that you have gone through the [[key configuration->gpg-keys#Key_configuration]] guide to configure gnupg to generate a strong key because the defaults were not optimal.
 
 If you already have a key, you should [[run these checks to ensure that your key is strong -> gpg-keys#openpgp-key-checks]] before continuing.
 

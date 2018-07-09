@@ -2,17 +2,13 @@
 
 h2. What are secure connections?
 
-You should be using encryption when using Riseup services. Without using secure connections, your internet traffic is not encrypted. That means it can be listened to by anyone who wants to eavesdrop on your email and worse they can easily obtain your login and password, or impersonate our servers. Setting up a secure connection to Riseup ensures reasonable protection from eavesdroppers and impersonators.
+You should be using encryption when using Riseup services. Without using secure connections like [[TLS->https://en.wikipedia.org/wiki/X.509]], your internet traffic is not encrypted. That means it can be listened to by anyone who wants to eavesdrop on your email and worse they can easily obtain your login and password, or impersonate our servers. Setting up a secure connection to Riseup ensures reasonable protection from eavesdroppers and impersonators.
 
 h2. How to use secure connections?
 
 To get your mail client to use secure connections, you have to make some configuration changes. Don't worry!  We'll walk you through it.
 
-If you know that you are using Thunderbird, you can skip below to the [[thunderbird section->/secure-connections#thunderbird]] to check your settings. If you are using a different mail client, then please read the [[general settings section->/secure-connections#general-settings]]. If you have no idea what a mail client is, read the next section and we'll teach you.
-
-h2. What is a mail client?
-
-What is a mail client? A mail client is a specialized program designed specifically for checking and composing email. This might be Thunderbird, Apple Mail, Outlook, Eudora, etc. Whichever one you use to read and write your email is your mail client.
+[[email/client]] are specialized programs designed for retrieving, sending and composing email. This might be [[Thunderbird]], [[apple-mail]], [[microsoft-outlook]] etc. Whichever one you use to read and write your email is your mail client.
 
 h2. General settings
 
@@ -25,42 +21,6 @@ In general, we do not offer support for mail clients.  However, we do have [[som
 If you aren't using Mozilla's Thunderbird, we would like to take a second to urge you to consider switching to it. It is a reasonably secure, easy to use, free software project. There is no harm in giving it a try! [[Best is that our instructions for setting up Thunderbird->thunderbird]] are really good, its what we know best and can support you much easier if you use it.
 
 If you don't want to switch to Thunderbird, and are not familiar with how to make these changes yourself, and our help pages weren't helpful, you will need to seek support from your local friendly tech person, or your software vendor/community for information about how to make the required configuration changes.
-
-h2. Thunderbird
-
-To make the required changes in Thunderbird, follow these steps:
-
-First, find out what version of Thunderbird you have by clicking the "Help" menu --> "About Thunderbird"
-
-Once you have determined your version number, follow one of the below processes that matches your version. If you are running a version of Thunderbird that is version 2.x or older, you really need to upgrade! Unfortunately, we cannot cover how to do that here, but you can find significant information online if you search for 'upgrading thunderbird'.
-
-h3. Thunderbird 3.x and newer
-
-To make the changes needed to enable secure connections in Thunderbird version 3.x, please follow these steps:
-
-* Choose "Account Settings" from the "Edit" menu,
-* Select "Server Settings" for your riseup account after the account settings dialog box pops up
-* In the center of the box you'll see a heading that reads "Security Settings"
-* Under that heading is a drop down labeled "Connection Security"
-* That drop down should be set to read SSL/TLS
-* In the upper-right corner of the dialog box there is a setting that reads "Port"
-* This should automatically be set, but check it to be sure
-** Port number should be 993 if you are using IMAP
-** Port number should be 995 is you are using POP
-* There is a "Server Type" line at the top of the "Server Settings" dialog box that tells you if you are using IMAP or POP
-* Next click "Outgoing server (SMTP)" in the left-hand pane
-* Click once on riseup's SMTP server in the right-hand pane
-* Click "Edit" on the far right of the dialog box
-* Set "Connection Security" to SSL/TLS
-* Make sure the "Port" setting is set to 465
-* Click "OK"
-* Click "OK" again
-* At no point in time should you change the "Authentication Method" setting - it should always say "Normal Password"
-* Your work here is done!!! Yay!
-
-h2. iOS
-
-If you have an apple device like this, you can review our [[instructions->https://help.riseup.net/en/iphone-mail]] for them to figure out how to change your settings to be secure.
 
 h2. FAQ
 
