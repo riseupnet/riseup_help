@@ -1,4 +1,4 @@
-@title = 'Claws'
+@title = 'Claws Mail'
 
 h2. What is Claws?
 
@@ -21,11 +21,11 @@ The first time you run Claws Mail, the setup wizard will walk you through settin
 # [[Choose server type as POP3 or IMAP -> email/clients#choose-imap-or-pop]] (IMAP leaves mail on server, POP3 downloads it locally - this means IMAP is a good choice if you have multiple machines accessing the mailbox and POP3 is a slightly better choice for privacy, the POP3 user experience is much faster and it unburdens your [[quota]])
 # Enter *mail.riseup.net* for the *Server address* (both for IMAP and POP3)
 # Enter your username (without @riseup.net) and password
-# Select *Use SSL to connect to receiving server* and also select *Use SSL via STARTTLS*
+# Select *Use TLS to connect to receiving server* and also select *Use TLS via STARTTLS*
 # Click *Forward* to advance to the next screen
 # Enter *mail.riseup.net* for the *SMTP server address*
 # Select *Use authentication* (you can leave the SMTP username and password fields blank)
-# Select *Use SSL to connect to receiving server" and also select "Use SSL via STARTTLS*
+# Select *Use TLS to connect to receiving server" and also select "Use TLS via STARTTLS*
 # Click *Forward* to advance to the next screen
 # *If using POP3 on Tails*: For "Mailbox name" enter */home/amnesia/.claws-mail/Mail* (this step is very important for Tails users because the default Mail folder location is not-persisted between reboots) and click "Forward" to advance to the next screen
 # Click *Save* to complete the process
@@ -42,7 +42,7 @@ While running Claws Mail select *Configuration > Create New Account* from the me
 
 !img/setup_send.png!
 
-# *SSL Settings* - Select *STARTTLS* for both POP3 and SMTP.
+# *TLS Settings* - Select *STARTTLS* for both POP3 and SMTP.
 
 !img/setup_ssl.png!
 
@@ -52,13 +52,13 @@ While running Claws Mail select *Configuration > Create New Account* from the me
 
 # Click "OK" to finish adding your new account
 
-h3.  First Time, SSL Certificates
+h3.  First Time, TLS Certificates
 
-When checking your mail for the first time, and also sending your first message, you will see an SSL confirmation dialog. Click *View certificate* (the fingerprint shown on the image may be outdated):
+When checking your mail for the first time, and also sending your first message, you will see an TLS confirmation dialog. Click *View certificate* (the fingerprint shown on the image may be outdated):
 
 !img/ssl.png!
 
-On first use claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates. *Every time* you get this SSL pop-up, [[verify the fingerprints with the ones published by Riseup -> /security/network-security/certificates#complete-verification]]]]!
+On first use claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates. *Every time* you get this TLS pop-up, [[verify the fingerprints with the ones published by Riseup -> /security/network-security/certificates#complete-verification]]]]!
 
 h3. Tails warning
 

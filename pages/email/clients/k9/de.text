@@ -2,7 +2,7 @@
 
 p(pull-right). !(image-right)K9mail.png!
 
-[[*K-9 Mail* -> https://k9mail.github.io]] ist ein freies Emailprogramm für Android. Die Anwendung ist ein funktionalerer Ersatz für das vorinstallierte Emailprogramm der meisten Telefone. Es unterstützt POP3- und IMAP-Postfächer.
+[[*K-9 Mail* -> https://k9mail.github.io]] ist ein freies Emailprogramm für Android. Die Anwendung ist ein funktionalerer Ersatz für das vorinstallierte Emailprogramm der meisten Telefone. Es unterstützt POP3- und IMAP-Postfächer, sowie [[IMAP IDLE->email/clients#imap-idle]].
 
 K9-Mail ist sehr einfach zu konfigurieren:
 # Installiere es wie oben beschrieben

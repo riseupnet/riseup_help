@@ -14,13 +14,15 @@ h2. use OpenPGP with Apple Mail
 
 # Download the latest "GPG Tools version":https://gpgtools.org/
 # Install the package
-# You'll be able to use GPG and it'll be embed with Apple Mail.
+# You'll be able to use [[opengpg]] and it'll be embed with Apple Mail.
 
 h1. Adding a POP Account
 
 _We are sorry, but this page has not been written. "You can help to write this page":https://github.com/riseupnet/riseuphelp_
 
 h1. Adding a New IMAP Account
+
+Apple Mail supports [[IMAP IDLE->email/clients#imap-idle]].
 
 h2. First Time User
 

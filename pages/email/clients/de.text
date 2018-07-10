@@ -28,6 +28,24 @@ table(table table-striped).
 | Quota | *Unbegrenzt*. Du brauchst dir niemals über quota gedanken machen, weil Nachrichten direkt auf deinen Computer geladen und danach von Server gelöscht werden. | *Begrenzt*. Es gibt [[begrenzten Speicherplatz -> quota]]. |
 | Sicherheit | *Hoch*. Deine Nachrichten werden (typischerweise) nicht dauerhaft auf dem Server gespeichert. | *Niedriger*. Du betraust Riseup mit der Speicherung. |
 
+h3. IMAP IDLE
+
+Der [[IMAP->https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol]]-Standard unterstützt eine Erweiterung names [["IDLE"->https://en.wikipedia.org/wiki/IMAP_IDLE]], durch die ein Emailprogramm die Verbindung aufrecht erhalten und der Server bei neuen Emails, eine "push"-Meldung über die neue Nachricht an das Programm schicken kann. Dadurch kann die Email automatisch abgerufen werden und Programme müssen sich weniger "auf gut Glück" beim Server anmelden, wodurch die Last auf dem IMAP-Server sinkt. Riseup unterstützt dies. Um davon zu profitieren, wähle eines dieser Programme aus:
+* [[Thunderbird]]
+* [[apple-mail]], siehe [[hier->https://www.lifewire.com/instant-updates-imap-idle-os-x-1172878]]
+* [[k9]], siehe [[hier->https://www.skynetbb.com/email-setup/k9-mail]]
+* [[evolution]], siehe [[here->https://help.gnome.org/users/evolution/stable/mail-send-and-receive-automatically.html.en]]
+* [[sylpheed]], mit einer [[Erweiterung->https://github.com/clehner/sylpheed-imap-notify]]
+* [[weitere->https://github.com/search?p=2&q=%22imap+idle%22&type=Repositories]]
+
+Es wird noch nicht unterstützt von
+* iOS
+* Outlook (zumindest bis Sommer 2018)
+* [[offlineimap->http://www.offlineimap.org/]], [["IMAP IDLE doesn't work yet"->https://github.com/OfflineIMAP/offlineimap/blob/master/docs/offlineimap.known_issues.txt]]
+* [[claws]], siehe [[Bugzilla #1408->http://www.thewildbeast.co.uk/claws-mail/bugzilla/show_bug.cgi?id=1408]]
+* [[Cyrus IMAP->https://cyrusimap.org/]], siehe [[#1313->https://github.com/cyrusimap/cyrus-imapd/issues/1313]]
+
+
 h2. Grundlegende Konfiguration
 
 Auch wenn einige E-Mailprogramme sich automatisch selbst konfigurieren, benötigen die meisten einige grundlegende Informationen, um sich mit Riseup zu verbinden.

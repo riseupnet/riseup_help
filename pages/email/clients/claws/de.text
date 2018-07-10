@@ -1,4 +1,4 @@
-@title = 'Claws'
+@title = 'Claws Mail'
 
 h2. Was ist Claws?
 
@@ -22,11 +22,11 @@ Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Ko
 # [[Wähle den Servertyp POP3 oder IMAP->email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails mit mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
 # Wähle *mail.riseup.net* als "Serveradresse" (für IMAP und POP3)
 # Gib dein Login (ohne @riseup.net) und Passwort ein
-# Aktiviere *SSL für Verbindung zum empfangenden Server verwendenn* und *SSL über STARTTLS benutzen*, klick auf *Vor*
+# Aktiviere *TLS für Verbindung zum empfangenden Server verwendenn* und *TLS über STARTTLS benutzen*, klick auf *Vor*
 !img/setup_de_empfangen.png!
 # Wähle *mail.riseup.net* als "SMTP-Serveradresse"
 # Aktiviere *Benutze Authentifizierung* (die Felder für SMTP-Benutzername und Kennwort können frei bleiben)
-# Aktiviere *SSL für Verbindung zum SMTP-Server benutzen* und *SSL über STARTTLS benutzen*, klick auf *Vor*
+# Aktiviere *TLS für Verbindung zum SMTP-Server benutzen* und *TLS über STARTTLS benutzen*, klick auf *Vor*
 !img/setup_de_senden.png!
 # *Für POP3 und Tails*: Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Persistant-Bereich gespeichert werden bevor du Mails vom Server entfernst, sonst gehen diese beim Neustart verloren! Wähle */home/amnesia/.claws-mail/Mail* als *Mailboxname*
 # *Vor*, *Speichern* und fertig!
@@ -39,15 +39,15 @@ Gehe im Menu auf *Konfiguration > Neues Konto erstellen...*.
 !img/einstellungen_allgemein.png!
 # *Senden* - wähle *SMTP-Authentifizierung*
 !img/einstellungen_senden.png!
-# *SSL* - Wähle *STARTTLS* für POP3 und SMTP.
+# *TLS* - Wähle *STARTTLS* für POP3 und SMTP.
 !img/einstellungen_ssl.png!
 # *Erweitert* - Ändere den SMTP-Port auf 587 (POP3 bleibt bei 110)
 !img/einstellungen_erweitert.png!
 # Klicke "OK", um die Kontoerstellung abzuschließen
 
-h3. SSL-Zertifikate
+h3. TLS-Zertifikate
 
-Beim ersten Abrufen der Mails und beim Senden der ersten Mail siehst du ein Fenster zur Bestätigung der SSL-Verbindung. Klicke auf *Zertifikat anschauen* (die auf dem Bild angezeigt Prüfsumme könnte veraltet sein):
+Beim ersten Abrufen der Mails und beim Senden der ersten Mail siehst du ein Fenster zur Bestätigung der TLS-Verbindung. Klicke auf *Zertifikat anschauen* (die auf dem Bild angezeigt Prüfsumme könnte veraltet sein):
 
 !img/ssl.png!
 
@@ -55,7 +55,8 @@ Claws Mail speichert dieses Zertifikat und wird dich erst bei einer Änderungen 
 
 h3. Tails-Warnung
 
-Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Persistant-Bereich gespeichert werden bevor du Mails vom Server entfernst, sonst gehen diese beim Neustart verloren!
+Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Persiste
+nt-Bereich gespeichert werden bevor du Mails vom Server entfernst, sonst gehen diese beim Neustart verloren!
 
 h3. Fertig!
 

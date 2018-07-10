@@ -1,6 +1,6 @@
 @title = 'Sylpheed'
 
-Sylpheed is a free/libre email client for Linux/Mac/Window$. The app is a more functional, lighter, and free replacement for the default mail application included on most Systems. It supports both POP3 and IMAP mailboxes. Sylpheed also supports encrypting and signing of messages.
+Sylpheed is a free/libre email client for Linux/Mac/Window$. The app is a more functional, lighter, and free replacement for the default mail application included on most Systems. It supports both POP3 and IMAP mailboxes (and [[IMAP IDLE->email/clients#imap-idle]]). Sylpheed also supports encrypting and signing of messages.
 
 You can install Sylpheed from https://sylpheed.sraoss.jp/en. For Debian-based Linux, you can install by typing:
 

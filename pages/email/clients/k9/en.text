@@ -2,7 +2,7 @@
 
 p(pull-right). !(image-right)K9mail.png!
 
-[[K-9 Mail -> https://k9mail.github.io/]] is an free software mail application for Android. The app is a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes.
+[[K-9 Mail -> https://k9mail.github.io/]] is an free software mail application for Android. The app is a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes and [[IMAP IDLE->email/clients#imap-idle]].
 
 K9-Mail is about as easy to set up as they come.
 

@@ -6,7 +6,7 @@ p(pull-right). !(image-right)reclaimyourinbox.png!
 
 Thunderbird is the mail client recommended by riseup.net. It is Free Software and is available for Linux, Windows, and Mac OS X. You can download Thunderbird "from the thunderbird website":https://www.thunderbird.net/en-US/thunderbird/all/. As Free Software, Thunderbird is part of the digital commons, a kind of common treasury for all. Outlook, on the other hand, is Microsoft's tool for world domination.
 
-Thunderbird has many features, including: IMAP and POP support, multiple accounts, quick search, spell as you type, advanced spam controls, RSS, virtual folder views, message filtering, addressbook, and support for OpenPGP encryption.
+Thunderbird has many features, including: IMAP and POP support, multiple accounts, quick search, spell as you type, advanced spam controls, RSS, virtual folder views, message filtering, addressbook, support for [[OpenPGP]] encryption and [[IMAP IDLE->email/clients#imap-idle]].
 
 h2. Setup Thunderbird
 

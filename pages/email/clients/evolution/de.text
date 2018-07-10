@@ -6,7 +6,7 @@ h2. Was ist Evolution?
 
 Es wird verteilt als Teil von GNOME, wodurch es in allen Linux-Distribution mit GNOME verfügbar ist, wie ["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu], und es kann per "Paketverwaltung":https://en.wikipedia.org/wiki/Package_manager deiner Distribution installiert werden. Evolution ist auch "für Windows erhältlich":https://projects-old.gnome.org/evolution/download.shtml.
 
-Evolution enthält Unterstützung für E-Mail, Kalender, Adressbuch, Kontakte und GPG-Verschlüsselung.
+Evolution enthält Unterstützung für Email, Kalender, Adressbuch, Kontakte, [[openpgp]] und [[IMAP IDLE->email/clients#imap-idle]].
 
 h3. Evolution installieren
 

@@ -14,13 +14,15 @@ h2. OpenPGP mit Apple Mail
 
 # Lade die letzte Version der "GPG Tools":https://gpgtools.org
 # Installiere das Paket
-# Danach kann GPG benutzt werden und wird integriert in Apple Mail.
+# Danach kann [[opengpg]] benutzt werden und wird integriert in Apple Mail.
 
 h1. POP-Konto erstellen
 
 _Leider wurde dieser Abschnitt noch nicht geschrieben. "Hilf mit!":https://github.com/riseupnet/riseuphelp_
 
 h1. IMAP-Konto erstellen
+
+Apple Mail unterstützt [[IMAP IDLE->email/clients#imap-idle]].
 
 _Leider wurde dieser Abschnitt noch nicht übersetzt. "Hilf mit!":https://github.com/riseupnet/riseuphelp_
 

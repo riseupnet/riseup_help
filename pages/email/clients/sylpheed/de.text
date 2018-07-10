@@ -1,6 +1,6 @@
 @title = 'Sylpheed'
 
-Sylpheed ist ein Freies quelloffenes (Software Libre) E-Mailprogramm für Linux/Mac/Window$. Die Anwendung ist funktionaler, leichter und ein freier Ersatz für die Standardanwendung der meisten Systeme. Es unterstützt sowohl POP3, also auch IMAP. Sylpheed unterstützt auch das Verschlüsseln und Signieren von Nachrichten. Du kannst Sylpheed von hier herunterladen: https://sylpheed.sraoss.jp/en. (Für Debian-basierte Systeme reicht @sudo apt-get install sylpheed@)
+Sylpheed ist ein Freies quelloffenes (Software Libre) Emailprogramm für Linux/Mac/Window$. Die Anwendung ist funktionaler, leichter und ein freier Ersatz für die Standardanwendung der meisten Systeme. Es unterstützt sowohl POP3, also auch IMAP und [[IMAP IDLE->email/clients#imap-idle]]. Sylpheed unterstützt auch das Verschlüsseln und Signieren von Nachrichten. Du kannst Sylpheed von hier herunterladen: http://sylpheed.sraoss.jp/en. (Für Debian-basierte Systeme reicht @sudo apt-get install sylpheed@)
 
 Sylpheed ist sehr einfach zu konfigurieren:
 # Installation wie erwähnt, ansonsten siehe die Sylpheed-Dokumentation

@@ -28,6 +28,23 @@ table(table table-striped).
 | Quota   | *Unlimited*. You never need to worry about quota if your client is configured to delete messages on the server after downloading. | *Limited*. You will have [[limited quota -> quota]]. |
 | Security | *High*. Your messages are not stored permanently on the server (typically). | *Lower*. You are entrusting Riseup with your storage. |
 
+h3. IMAP IDLE
+
+The [[IMAP->https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol]] standard supports an extension named [["IDLE"->https://en.wikipedia.org/wiki/IMAP_IDLE]] where a client can keep a connection open to the server and when new mail arrives at the server it "pushes" a notification to the client that mail is waiting and it is automatically retrieved. This can speed up mail delivery quite a bit and also has the benefits of clients not needing to check mail as often and reduced resource usage on the server. Riseup's IMAP server supports it. If you want to benefit from it, you can pick one of the following email clients:
+* [[Thunderbird]]
+* [[apple-mail]], see [[here->https://www.lifewire.com/instant-updates-imap-idle-os-x-1172878]]
+* [[k9]], see [[here->https://www.skynetbb.com/email-setup/k9-mail]]
+* [[evolution]], see [[here->https://help.gnome.org/users/evolution/stable/mail-send-and-receive-automatically.html.en]]
+* [[sylpheed]], with a [[plugin->https://github.com/clehner/sylpheed-imap-notify]]
+* [[others->https://github.com/search?p=2&q=%22imap+idle%22&type=Repositories]]
+
+It is not yet supported by
+* iOS
+* Outlook (as of summer 2018)
+* [[offlineimap->http://www.offlineimap.org/]], [["IMAP IDLE doesn't work yet"->https://github.com/OfflineIMAP/offlineimap/blob/master/docs/offlineimap.known_issues.txt]]
+* [[claws]], see [[Bugzilla #1408->http://www.thewildbeast.co.uk/claws-mail/bugzilla/show_bug.cgi?id=1408]]
+* [[Cyrus IMAP->https://cyrusimap.org/]], see [[#1313->https://github.com/cyrusimap/cyrus-imapd/issues/1313]]
+
 h2. Basic client configuration
 
 Although some mail clients are able to automatically configure themselves, most require some basic information in order to connect to your Riseup email account.
