@@ -1,8 +1,8 @@
 @title = 'Radikale Server'
 
-Anti-kapitalistische, anti-hierarchische, autonome, revolutionäre Kollektive, die Dienste frei oder auf Basis gegenseitiger Hilfe für radikale und Graswurzel-Bewegungen anbieten.
+Anti-kapitalistische, anti-hierarchische, autonome, feministischem oder radikale Serverprojekte, revolutionäre Kollektive, die Dienste frei oder auf Basis gegenseitiger Hilfe für radikale und Graswurzel-Bewegungen anbieten.
 
-Zum Aktualisieren der Informationen Eures Kollektivs, [[bitte das Repository bearbeiten ->https://github.com/riseupnet/riseup_help]].
+Euer Kollektiv fehlt? Informationen veraltet? [[Aktualisieren->https://github.com/riseupnet/riseup_help]].
 
 h1. Europa
 
@@ -22,7 +22,7 @@ Actiu.info bietet:
 
 h2. aktivix.org
 
-Einige zufällige Beschreibungen für [[aktivix.org->https://aktivix.org/]] von [[aktivix'->https://www.srcf.ucam.org/~jmr59/aktivix/aktivix_what.pl]] Beschreibungsgenerator:
+Einige zufällige Beschreibungen für [[aktivix.org->https://aktivix.org/]] des aktivix-Beschreibungsgenerators:
 
 * Aktivix ist eine spendenbeasierte Herde schwitzender Techies, die Computernutzer*innen befähigen wollen, Kapitalismus auf eine erfüllende und nicht-hierarchische Weise zu stürzen.
 * Aktivix ist eine spendenbasierte Kooperative plüschiger Hacktivists, die andere Kollektive ermächtigen wollen Autoritäten auf nachhaltige Weise anzufechten.
@@ -132,6 +132,17 @@ Geplant sind außerdem Alternativen zu Change/Avaaz, Google Calendar, Google gro
 
 [[Liste aller Dienste->https://degooglisons-internet.org/liste?l=en]] (Seite ist französisch aber viele Dienste sind mehrsprachig)
 
+h2. Freifunk
+
+[[Freifunk->https://freifunk.net/]] ist ein freies, öffentlich zugängliches, nicht kommerzielles, unzensiertes, dezentral organisiertes Funknetzwerk für freie Kommunikation in digitalen Datennetzen im Besitz der Gemeinschaft in Deutschland.
+
+* [[Meshing->https://wiki.freifunk.net/Meshing]]
+* [[Deutschland->https://wiki.freifunk.net/Freifunk_Weltweit]] / [[weltweit->https://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region]]
+
+h2. Guifi
+
+[[Guifi.net->https://guifi.net/en]] ist ein freier, offener und neutraler, zumeist kabellos kommunizierendes Netzwerk um Kataolonien und Valencia in Spanien. Knoten werden von Individuen, Unternehmen und Verwaltungen betrieben, die sich freiwillig verbinden und damit das gemeinschaftlichen Telekommunikationsnetzwerk erweitern. [[Wikipedia->https://en.wikipedia.org/wiki/Guifi.net]]
+
 h2. immerda.ch
 
 [[immerda.ch->https://immerda.ch]] ist ein autonomes Kollektiv, das Email, Listen, Webspace für Freund*innen anbietet. Sie unterstützen progressive und emanzipatorische Gruppen und Individuen mit dem Ziel, die Welt zu verändern. Die Dienste werden angeboten für Befreundete von immerda, geknüpft an Einladungen.
@@ -176,6 +187,22 @@ h2. no-log.org (geschlossen für Neubewerbungen)
 * Französisch, Englisch
 * Einwahl-Konten (56K-Modems, lokale Verbindungen)
 * Emailkonten (pops, imaps, smtp/tls, webmail)
+
+h2. pangea.org
+
+[[Pangea->http://pangea.org/]] ist eine private, unabhängige und nicht-kommerzielle Organisation in Barcelona, gegründet 1993, die Internet und Kommunikationstechnologien (ICT) bewirbt, zum Nutzen von Organisationen, Bewegungen und Menschen, die sich für soziale Gerechtigkeit, Frauenrechte, nachhaltige Entwicklung und kulturelle Diversität lokal und international einsetzen.
+* Hosting
+* Email
+
+h2. shelter.is
+
+[[shelter.is->https://www.shelter.is/]] Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
+
+* VPS
+* Wordpress (standardmäßig mit SSL)
+* Emailkonten
+* VPN
+* Hilfe auf Englisch
 
 h2. sindominio.net
 
@@ -231,15 +258,14 @@ h2. systemli.org
 * Verschlüsselte Pastes und Abstimmungen
 * Support auf Deutsch und Englisch
 
-h2. shelter.is
+h2. Syster Server
 
-[[shelter.is->https://www.shelter.is/]] Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
+[[Syster Server->https://systerserver.net/]] bietet Dienste für feminstische, queere und antripatriarchale Gruppen und Kollektive. Syster Server wird von Frauen mit ausschließlich freier Software betrieben. Es ist ein Ort, um Systemadministrationskenntnisse zu erlernen, etwas anzubieten und andere dazu zu inspirieren, das gleiche zu tun.
 
-* VPS
-* Wordpress (standardmäßig mit SSL)
-* Emailkonten
-* VPN
-* Hilfe auf Englisch
+* Webseiten
+* Git
+* TLS
+* frag einfach :)
 
 
 h1. Nordamerika
@@ -252,6 +278,14 @@ h2. espora.org
 * Webseiten
 * Emailkonten
 * Mexico City
+
+h2. GreenNet
+
+[[GreeNet->http://www.greennet.net/]] ist ein ISP in der Boston mit Diensten für Individuen, Unternehmen, Organisationen und andere ISP in den USA und der Welt. Sie sind spezialisiert auf eCommerce-Server (Betrieb und Entwicklung) und VoIP-Telefonie.
+
+* Hosting
+* Email
+* VoIP
 
 h2. hackbloc.org
 
@@ -297,6 +331,29 @@ h2. tao.ca
 
 h1. Südamerika
 
+h2. Codigosur
+
+[[Codigosur->https://codigosur.org]] ist ein Kollektiv von Aktivisterix verschiedener sozialer Bewegungen in Lateinamerika für Kollaboration und die Entwicklung von Kommunikationswerkzeugen, Kultur und freier Technologie
+
+* Hosting
+* Email
+* Listen
+* Mumble
+* Streaming
+* TLS
+* Etherpad
+* DNS und mehr
+
+h2. Colnodo
+
+[[Colnodo->https://colnodo.apc.org/es/servicios]] ist eine nicht-kommerzielle Organisation in Kolumbien mit dem Ziel, Kommunikation und den Austausch von Information und Erfahrung zwischen kolumbianischen Organisationen durch günstige elektronische Netzwerke voran zu bringen. [[Artikel auf cyberstewards.org->https://cyberstewards.org/category/colnodo/]]
+
+h2. Gleducar
+
+[[Gleducar->http://www.gleducar.org.ar/]] ist eine NGO mit dem Fokus auf freie Bildung und Technologie in Argentinien seit 2002. Es besteht aus einer unabhängigen Gemeinschaft von Lehrenden, Studierenden, Bildungsaktiven, verbunden durch gemeinsame Interesse und kollektives Arbeiten, Zugang, freies Wissen, Popular Education, gemeinschaftliche Bildung, kollaboratives Lernen und freie Technologien. Sie bewerbung von die Nutzung von freier Software an Schulen als pädagogisches und technisches System mit dem Ziel, Paradigmen der Produktion, Konstruktion und Auswahl von Bildungsinhalten zu verändern [[Wikipedia->https://en.wikipedia.org/wiki/Gleducar]]
+
+* freie und offen zugängliche digitale Bildung
+
 h2. GuardaChuva.org
 
 O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
@@ -306,6 +363,10 @@ h2. Saravá
 O [[Saravá->https://www.sarava.org/]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
 
 h1. Weltweit
+
+h2. hackerspaces.org
+
+[[Hackerspaces->https://wiki.hackerspaces.org/]] are community-operated physical places, where people can meet and work on their projects. This website is for Anyone and Everyone who wants to share their hackerspace stories and questions with the global hackerspaces community. 
 
 h2. indymedia.org
 
@@ -322,6 +383,14 @@ h2. tachanka.org
 * Mailinglisten
 * Drupal-Farmen
 * Englisch / Französisch / Portugiesisch
+
+h2. Take Back The Tech!
+
+[[Take Back The Tech!->https://www.takebackthetech.net/]] ist eine weltweise Kampagne, das Thema Gewalt gegen Frauen und Informations und Kommunikationstechnologie (ICT). Es geht darum, die Bewusstheit zu stärken über die Arten der Gewalt gegenüber Frauen auf ICT-Plattformen wie das Internet und Mobiltelefonen und alle Menschen aufzurufen, ICT für Aktivismus, um Gewalt gegen Frauen zu beenden. Die Kampagne wurde initiert durch [[Association for Progressive Communications->https://en.wikipedia.org/wiki/Association_for_Progressive_Communications]] ([[apc.org->https://www.apc.org]]), Women's Networking Support Programme, 2006. Seitdem wurde sie von Individuen, Kollektiven und NGOs in mindestens 24 Ländern aufegriffen und verstärkt. Mehr auf [[Wikipedia->https://en.wikipedia.org/wiki/Take_Back_The_Tech!]] (englisch)
+
+h2. Telecentre
+
+[[Telecentre->https://en.wikipedia.org/wiki/Telecentre]] ist ein weit verbreitetes Konzept, um freien Zugang zum Internet und andere Dienste an öffentlichen Orten mit Computern und anderen digitalen Technologien anzubieten, die das Erlangen von Informationen, Kreieren, Lernen, Kommunizieren beim gleichzeitigen Entwickeln digitaler Fähigkeiten. [[Handbuch zum Berieb eines Telecenters->https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks]] (englisch)
 
 h1. In memoriam
 
