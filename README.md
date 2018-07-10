@@ -252,13 +252,9 @@ include it (e.g. the link `[[Seguridad => security]]` will link to
 https://help.riseup.net/es/security). The link `[[Security => security]]` could
 have also been written simply `[[security]]`.
 
-We do not yet have the capability to automatically identify which translated
-pages need to be updated. However, in the future, I plan to add the command
-`amber diff [language-code]`, which will automatically spit out a listing that
-shows the changes made to the source English pages since the translation for
-each page was made.
+To identify translated pages that need to be updated, run `./what_needs_an_update.sh [language-code]`.
 
-In the meantime, you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
+Or you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
 
 Installing on Mac
 --------------------------------------------
