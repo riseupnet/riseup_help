@@ -13,7 +13,7 @@ Because it is difficult to verify the sender, your inbox is a common source of *
 * **Phishing Attack** is when someone sends an email claiming to be an entity they are not, and uses this deception to get information. They can be after social security numbers, bank information, passwords, or other sensitive information.
 * **Malware Attack** is when an attacker attempts to trick you into installing malicious software on your computer when you open an attachment or click on a link.
 
-Generally, anything unexpected in your email should be looked at with suspicion. Be wary of any messages that ask you to do something, including clicking a link, opening an attachment, or emailing back information.
+Generally, anything unexpected in your email should be looked at with suspicion. Be wary of any messages that ask you to do something, including clicking a link, opening an attachment, or emailing back information - even if they are from someone you know!
 
 If someone has broken into your account, you may see reply messages you don't understand, additional sent items, new folders or filters being created, or other changes to settings. Suspicious emails or account behavior should be reported to a technical support person and you should preemptively change your password.
 
