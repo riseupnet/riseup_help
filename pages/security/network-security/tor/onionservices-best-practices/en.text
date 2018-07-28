@@ -143,3 +143,8 @@ But then the service itself needs to support unix sockets, otherwise you have to
 h3. You can make onion services require authentication to use.
 
 If you set HiddenServiceAuthorizeClient (see man page), then it is only available for authorized clients. This will mean that you can't even attack the service unless you break Tor (or have the authorization key).
+
+h3. Protect your onion services from advanced attacks
+
+If you run a high-security onion service which is under attack by sophisticated adversaries, you should install the [[Vanguards addon -> https://github.com/mikeperry-tor/vanguards]] which defends against various advanced attacks. Please read [[https://blog.torproject.org/announcing-vanguards-add-onion-services -> Tor project's blog post]] on how to install and use this tool.
+
