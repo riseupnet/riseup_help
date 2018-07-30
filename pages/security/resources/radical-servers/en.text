@@ -1,8 +1,74 @@
 @title = 'Radical Servers'
 
-Anti-capitalist, anti-hierarchy, autonomous revolutionary collectives which provide free or mutual aid services to radical and grassroots activists.
+
+Anti-capitalist, anti-hierarchy, autonomous, feminist, or radical server projects, revolutionary collectives which provide free or mutual aid services to radical and grassroots activists.
 
 Want to update your collective's information or want to be listed here? [[Edit our repo ->https://github.com/riseupnet/riseup_help]].
+
+h1. World Wide
+
+h2. hackerspaces.org
+
+[[Hackerspaces->https://wiki.hackerspaces.org/]] are community-operated physical places, where people can meet and work on their projects. This website is for Anyone and Everyone who wants to share their hackerspace stories and questions with the global hackerspaces community.
+
+h2. indymedia.org
+
+[[indymedia.org->https://www.indymedia.org]] is a decentralized global network of media activists.
+
+* News feeds
+
+h2. tachanka.org
+
+[[Tachanka->https://tachanka.org]] is the idea of providing technical services to emancipatory projects and groups of political change. It is also the groups of people behind this idea. There are many overlapping collectives that help to maintain the projects, but Tachanka operates within many shared principles, forming a supportive network to enable shared aims. The collectives are international, seeking to enhance global solidarity. The foremost guiding principles of the Tachanka project are the [[Hallmarks of People's Global Action -> https://en.wikipedia.org/wiki/Peoples%27_Global_Action#Hallmarks]] and the [[Debian Social Contract -> https://www.debian.org/social_contract]].
+
+* Mailing lists
+* Virtual servers
+* DNS caching
+* Drupal farms
+* English / French / Portuguese language
+
+h2. Take Back The Tech!
+
+[[Take Back The Tech!->https://www.takebackthetech.net/]] is a global campaign that connects the issue of violence against women and information and communications technology (ICT). It aims to raise awareness on the way violence against women is occurring on ICT platforms such as the Internet and mobile phones, and to call for people to use ICT in activism to end violence against women. It was initiated by the [[Association for Progressive Communications->https://en.wikipedia.org/wiki/Association_for_Progressive_Communications]] ([[apc.org->https://www.apc.org]]), Women's Networking Support Programme, in 2006. Since then, the campaign has been taken up and organised by individuals, collectives and non-governmental organizations in at least 24 countries. More at [[Wikipedia->https://en.wikipedia.org/wiki/Take_Back_The_Tech!]]
+
+h2. Telecentre
+
+[[Telecentre->https://en.wikipedia.org/wiki/Telecentre]] is a widely adopted concept to provide free access to the internet and other services at puplic spaces with computers and other digital technologies that enable them to gather information, create, learn, and communicate with others while they develop essential digital skills. [[Guidebook for Managing Telecentre Networks->https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks]]
+
+
+
+h1. South America
+
+h2. Codigosur
+
+[[Codigosur->https://codigosur.org]] is a collective of activists from different social movements in Latin America for collaboration and the development of communication tools, culture and free technology
+
+* Hosting
+* Email
+* Lists
+* Mumble
+* Streaming
+* TLS
+* Etherpad
+* DNS and more
+
+h2. Colnodo
+
+[[Colnodo->https://colnodo.apc.org/es/servicios]] is a Colombian non-profit organization that aims to facilitate communication and the exchange of information, experience, and expertise between Colombian organizations through low-cost electronic networks. [[Article on cyberstewards.org->https://cyberstewards.org/category/colnodo/]]
+
+h2. Gleducar
+
+[[Gleducar->http://www.gleducar.org.ar/]] is a free educational project emerged in Argentina in 2002. It is also an important NGO (Civil Association) from Argentina in the field of education and technology. It is an independent community composed of teachers, students and education activists linked by a common interest in collective work, cooperative knowledge building and free distribution of knowledge. The project works around different themes, such as Open Education, Open Access, Free Knowledge, Popular Education, peer education, collaborative learning and Free Technologies. They promote the use of Free Software in schools as a pedagogical and technical system, with the objective of changing the paradigm of production, construction and dissemination of educational content. [[Wikipedia->https://en.wikipedia.org/wiki/Gleducar]]
+
+* free and open digital education
+
+h2. GuardaChuva.org
+
+O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
+
+h2. Saravá
+
+O [[Saravá->https://www.sarava.org/]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
 
 
 h1. Europe
@@ -23,7 +89,7 @@ Actiu.info provides:
 
 h2. aktivix.org
 
-Some random descriptions of [[aktivix.org->https://aktivix.org/]] from the [[aktivix->https://www.srcf.ucam.org/~jmr59/aktivix/aktivix_what.pl]] description generator:
+Some random descriptions of [[aktivix.org->https://aktivix.org/]] from the aktivix description generator:
 
 * Aktivix is a donation-funded herd of sweaty techies who desire to enable computer-users to disrupt capitalism in a fluffily non-hierarchical manner.
 * Aktivix is a donation-funded co-operative of fluffy hacktivists who wish to empower collectives to challenge authority in an entirely sustainable manner.
@@ -139,6 +205,26 @@ Alternatives to Change/Avaaz, Google Calendar, Google groups, Blogger, Wix, etc.
 
 See [[this page to see all services->https://degooglisons-internet.org/liste?l=en]] and access them (home pages in french but most of the services are available in multiple languages)
 
+h2. Freifunk
+
+[[Freifunk->https://wiki.freifunk.net/Kategorie:English]] is a free, public, freely accessible, non-commercial, uncensored, decentrally organized mesh network in germany for free communication in digital networks owned by the community. [[join->https://freifunk.net/en/how-to-join/find-your-nearest-community/]]
+
+* [[Meshing->https://en.wikipedia.org/wiki/Wireless_mesh_network]]
+* [[Germany->https://wiki.freifunk.net/Freifunk_Weltweit]] / [[worldwide->https://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region]]
+
+h2. GreenNet
+
+[[GreeNet->https://www.greennet.org.uk/]] is a not-for-profit collective established 1985, providing internet services, web design and hosting to supporters of peace, the environment and human rights.
+
+* Hosting
+* Email
+* Broadband
+* Web development
+
+h2. Guifi
+
+[[Guifi.net->https://guifi.net/en]] is a free, open and neutral, mostly wireless telecommunications community network" around Catalonia and Valencia in Spain. The nodes of the network are contributed by individuals, companies and administrations that freely connect to an open network of telecommunications and extend the network wherever the infrastructure and content might not otherwise be accessible. [[Wikipedia->https://en.wikipedia.org/wiki/Guifi.net]]
+
 h2. immerda.ch
 
 [[immerda.ch->https://www.immerda.ch/]] is an autonomous collective providing mail, lists and webspace for their friends. They support progressive and emancipatory groups and inviduals to change the world. The services are provided to the friends of immerda and their friends, which makes it an invite only project.
@@ -200,6 +286,13 @@ h2. no-log.org (closed to new subscribers)
 * Dial-up accounts (56K modems, local connection)
 * French language, English supported
 
+h2. pangea.org
+
+[[Pangea->http://pangea.org/]] is a private, independent and non-profit organization in Barcelona, created in 1993, to promote the Internet and information and communication technologies (ICT) for the benefit of organizations, movements and people working for social justice, women's rights, sustainable development and cultural diversity at local and international levels.
+
+* Hosting
+* Email
+
 h2. sindominio.net
 
 [[www.sindominio.net->https://www.sindominio.net/]] intends to immerse itself in that multiverse which exists and organises itself within the web, in order to contribute to this space which embraces cooperation and communication as well as conflicts and struggles.
@@ -252,6 +345,15 @@ h2. systemli.org
 * Mumble
 * Encrypted pastes and polls
 * Support in German and English
+
+h2. Syster Server
+
+[[Syster Server->https://systerserver.net/]] offers services to feminist, queer and antipatriarchal groups and collectives. The syster server is run by women, using free software only. It acts as a place to learn system administration skills, host services and inspire others to do the same. 
+
+* Hosting
+* Git
+* TLS
+* ask :)
 
 h2. shelter.is
 
@@ -316,34 +418,6 @@ h2. tao.ca
 * Mailing lists
 * Website hosting
 
-
-h1. South America
-
-h2. GuardaChuva.org
-
-O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
-
-h2. Saravá
-
-O [[Saravá->https://www.sarava.org/]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
-
-h1. World Wide
-
-h2. indymedia.org
-
-[[indymedia.org->https://www.indymedia.org]] is a decentralized global network of media activists.
-
-* News feeds
-
-h2. tachanka.org
-
-[[Tachanka->https://tachanka.org]] is the idea of providing technical services to emancipatory projects and groups of political change. It is also the groups of people behind this idea. There are many overlapping collectives that help to maintain the projects, but Tachanka operates within many shared principles, forming a supportive network to enable shared aims. The collectives are international, seeking to enhance global solidarity. The foremost guiding principles of the Tachanka project are the [[Hallmarks of People's Global Action -> https://en.wikipedia.org/wiki/Peoples%27_Global_Action#Hallmarks]] and the [[Debian Social Contract -> https://www.debian.org/social_contract]].
-
-* Mailing lists
-* Virtual servers
-* DNS caching
-* Drupal farms
-* English / French / Portuguese language
 
 h1. In memoriam
 
