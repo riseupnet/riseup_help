@@ -1,6 +1,6 @@
 @title = 'List Configuration'
 @this.summary = 'Creating and configuring lists.'
 
-!>steveporcaro1982.jpg!
+p(pull-right). !(image-right)steveporcaro1982.jpg!
 
 <%= child_summaries :include_toc => true %>

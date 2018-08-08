@@ -5,7 +5,7 @@ h2.  Access Rights to Archives
 
 You can control who has access to view your list's web archives. This option is under:
 
-p((.  *Admin* > *Edit List Config* > *Archives* > *Web archives*
+p(alert alert-info). *Admin* > *Edit List Config* > *Archives* > *Web archives*
 
 The options for this setting are:
 
@@ -17,7 +17,7 @@ h2. Downloading Archives
 
 To download a zip file containing the list archives, go to:
 
-p((. *Admin* > *Manage Archives*
+p(alert alert-info). *Admin* > *Manage Archives*
 
 Then select the months you want to download, and hit *Download Zip file*.
 
@@ -36,7 +36,7 @@ By default, sympa tries to make protect email addresses in the list archives so 
 
 This option is under:
 
-p((. *Admin* > *Edit List Config* > *Miscellaneous* > *email address protection method*
+p(alert alert-info). *Admin* > *Edit List Config* > *Miscellaneous* > *email address protection method*
 
 The choices are:
 

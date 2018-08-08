@@ -10,7 +10,7 @@ h2. Configure OpenVPN
 
 O serviço de VPN do Riseup contempla OpenVPN.
 
-!>vpn-howto/openvpn-logo.png!
+p(pull-right). !(image-right)vpn-howto/openvpn-logo.png!
 
 h3. Escolha um servidor
 

@@ -31,7 +31,7 @@ h1. Почему безопасность имеет значение
 h1. Обзор безопасности
 
 <table class="table table-striped">
-<tr>  <th style="width: 10em">Вид безопасности</th>
+<tr>  <th class="col-md-2">Вид безопасности</th>
 <th>Что это?</th>
 <th>Когда это необходимо?</th></tr>
 <tr>

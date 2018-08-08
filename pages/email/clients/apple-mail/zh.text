@@ -1,6 +1,6 @@
 @title = 'Apple Mail'
 
-!>img/apple.mail.jpg!
+p(pull-right). !(image-right)img/apple.mail.jpg!
 
 *Apple Mail*，也被称为 *mail.app*，或者是简单的 *Mail*，是OS X自带的，全功能的邮件客户端。它界面友好，且易于使用，但由于不是自由的开源软件，因此我们并不推荐。
 

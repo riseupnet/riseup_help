@@ -1,15 +1,15 @@
 @title = 'Riseup stands in solidarity with Saravá'
 @nav-title ='Saravá Statement'
 
-!{float:right}arthemia_logo.png!
+p(pull-right). !(image-right)arthemia_logo.png!
 
 _26 April, 2014_
 
-p{margin-right: 200px}. The [[Saravá Group => https://www.sarava.org/]] is facing the imminent threat of the seizure of its main server by the Public Prosecutor in Brazil. This action comes at a time when Brazil is hosting [[netmundial => http://netmundial.br/]], a conference on the future of internet governance. Ironically, earlier this week Brazil passed legislation touted as a "Bill of Rights" for the internet. Yet only days later, Prosecuting Attorney Edilson Vitorelli Diniz Lima from the Public Prosecutor's Office intends to seize Saravá's machine, which hosts research groups, social movements, discussion lists, and other tools wholly unconnected to the investigation. More troubling still, Saravá's [[privacy policy => https://policy.sarava.org/policy/]] states that the organization does not record the information that is being sought by the Public Prosecutor. The Public Prosecutor's decision to go forward with the seizure even though the information it is seeking is not present exposes the Prosecutor's true intent: to stifle dissent and harass social movements.
+p. The [[Saravá Group => https://www.sarava.org/]] is facing the imminent threat of the seizure of its main server by the Public Prosecutor in Brazil. This action comes at a time when Brazil is hosting [[netmundial => http://netmundial.br/]], a conference on the future of internet governance. Ironically, earlier this week Brazil passed legislation touted as a "Bill of Rights" for the internet. Yet only days later, Prosecuting Attorney Edilson Vitorelli Diniz Lima from the Public Prosecutor's Office intends to seize Saravá's machine, which hosts research groups, social movements, discussion lists, and other tools wholly unconnected to the investigation. More troubling still, Saravá's [[privacy policy => https://policy.sarava.org/policy/]] states that the organization does not record the information that is being sought by the Public Prosecutor. The Public Prosecutor's decision to go forward with the seizure even though the information it is seeking is not present exposes the Prosecutor's true intent: to stifle dissent and harass social movements.
 
-p{margin-right: 200px}. The Public Prosecutor should cease and desist from these activities which are in direct violation of Article 3 of the [[Marco Civil da Internet => https://thecdd.wordpress.com/2014/03/28/marco-civil-da-internet-unofficial-english-translation/]], which expressly protects privacy, the integrity of personal data, and freedom of expression.
+p. The Public Prosecutor should cease and desist from these activities which are in direct violation of Article 3 of the [[Marco Civil da Internet => https://thecdd.wordpress.com/2014/03/28/marco-civil-da-internet-unofficial-english-translation/]], which expressly protects privacy, the integrity of personal data, and freedom of expression.
 
-p{margin-right: 200px}. [[Saravá's statement =>https://www.sarava.org/pt-br/node/104]] is mirrored below.
+p. [[Saravá's statement =>https://www.sarava.org/pt-br/node/104]] is mirrored below.
 
 h2. Urgent - Saravá Group is about to lose its main server!
 

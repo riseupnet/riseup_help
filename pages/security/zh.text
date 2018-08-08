@@ -33,7 +33,7 @@ h1. 安全性概述
 
 <table class="table table-striped">
 <tr>
-  <th style="width: 10em">Type of security</th>
+  <th class="col-md-2">Type of security</th>
   <th>What is it?</th>
   <th>When is it useful?</th>
 </tr>

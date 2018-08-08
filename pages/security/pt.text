@@ -33,7 +33,7 @@ h1. Panorama da segurança
 
 <table class="table table-striped">
 <tr>
-  <th style="width: 10em">Tipo de segurança</th>
+  <th class="col-md-2">Tipo de segurança</th>
   <th>O que é?</th>
   <th>Quando é útil?</th>
 </tr>

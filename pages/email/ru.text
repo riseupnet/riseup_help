@@ -1,7 +1,7 @@
 @title = 'Riseup Email'
 @nav_title = 'Email'
 
-!>airmail.jpg!
+p(pull-right). !(image-right)airmail.jpg!
 
 Добро пожаловать, на этой странице вы найдете всю необходимую вам информацию о *почтовом сервисе* riseup.net.
 

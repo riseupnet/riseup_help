@@ -13,7 +13,7 @@ h2. Setting up OpenVPN
 
 The VPN Red service supports OpenVPN.
 
-!>openvpn-logo.png!
+p(pull-right). !(image-right)openvpn-logo.png!
 
 h3. Choose a server
 
@@ -28,8 +28,8 @@ Although each client is different, there are five values that must be configured
 * *VPN username*: your riseup.net login (ie if your account is joe_hill@riseup.net, just enter "joe_hill")
 * *Password*: either your riseup.net password or a [[vpn-secret]].
 * *CA Certificate*: RiseupCA.pem (download and verify [[here -> security/network-security/riseup-ca]])
-* *Cipher*: AES-256-CBC <span style="color:red;">NEW</span>
-* *Digest*: SHA256 <span style="color:red;">NEW</span>
+* *Cipher*: AES-256-CBC <span class="badge badge-danger">NEW</span>
+* *Digest*: SHA256 <span class="badge badge-danger">NEW</span>
 
 Optional configuration options:
 

@@ -44,7 +44,7 @@ Supongamos que tu dirección de correo es [@collective@riseup.net@]:
 
 h2.  ¡Usa Thunderbird
 
-!>clients/reclaimyourinbox.png!:http://getthunderbird.com
+p(pull-right). !(image-right)clients/reclaimyourinbox.png!:http://getthunderbird.com
 
 Thunderbird es el cliente de correo que recomendamos para usar riseup.net. Tristemente, la "Fundación Mozilla":https://mozilla.org ha abandonado Thunderbird, pero aún es la mejor solución de software libre multiplataforma.
 

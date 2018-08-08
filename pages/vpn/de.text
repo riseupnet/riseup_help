@@ -12,13 +12,13 @@ Riseup bietet zwei verschiedene VPN-Dienste: Schwarz und Rot.
 
 h2. VPN Schwarz
 
-!>vpn-black/bitmask.png!
+p(pull-right). !(image-right)vpn-black/bitmask.png!
 
 <%= render partial: "vpn-black/about" %>
 
 h2. VPN Rot
 
-!>vpn-red/openvpn-logo.png!
+p(pull-right). !(image-right)vpn-red/openvpn-logo.png!
 
 [[vpn-red]] nutzt "Riseup Rot"-Konten und braucht eine gesonderte Konfiguration des OpenVPN-Programms.
 

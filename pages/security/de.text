@@ -33,7 +33,7 @@ h1. Sicherheitsüberwachung
 
 <table class="table table-striped">
 <tr>
-  <th style="width: 10em">Art der Sicherheit</th>
+  <th class="col-md-2">Art der Sicherheit</th>
   <th>Was ist das?</th>
   <th>Wann ist es nützlich?</th>
 </tr>

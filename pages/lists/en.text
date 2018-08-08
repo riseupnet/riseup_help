@@ -1,7 +1,7 @@
 @title = 'Riseup Lists'
 @nav_title = 'Lists'
 
-!>(image-right)pile-of-mail.jpg!
+p(pull-right). !(image-right)pile-of-mail.jpg!
 
 h2. Welcome
 

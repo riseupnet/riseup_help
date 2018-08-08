@@ -44,7 +44,7 @@ h2.基本的客户端配置
 
 h2.  使用thunderbird
 
-!>clients/reclaimyourinbox.png!:http://getthunderbird.com
+p(pull-right). !(image-right)clients/reclaimyourinbox.png!:http://getthunderbird.com
 
 thunderbird是 riseup.net推荐使用的电子邮件客户端。可悲的是，在“Mozilla基金会”：https://mozilla.org基本上已经放弃了雷鸟，但它仍然是自由软件、跨平台的邮件客户端的最佳选择。
 

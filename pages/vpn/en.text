@@ -12,13 +12,13 @@ Riseup offers two different VPN services: Black and Red.
 
 h2. VPN Black
 
-!>vpn-black/bitmask.png!
+p(pull-right). !(image-right)vpn-black/bitmask.png!
 
 <%= render partial: "vpn-black/about" %>
 
 h2. VPN Red
 
-!>vpn-red/openvpn-logo.png!
+p(pull-right). !(image-right)vpn-red/openvpn-logo.png!
 
 The [[vpn-red]] uses the "Riseup Red" accounts and requires that you configure an OpenVPN client manually.
 

@@ -1,6 +1,6 @@
 @title = 'List Maintenance'
 @this.summary = 'Managing archives, bounces, and moderation.'
 
-!>(image-right)bus-maint.jpg!
+p(pull-right). !(image-right)bus-maint.jpg!
 
 <%= child_summaries :include_toc => true %>

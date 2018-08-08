@@ -2,7 +2,7 @@
 
 h2. Was ist Claws?
 
-!>img/it_bites.png!
+p(pull-right). !(image-right)it_bites.png!
 
 Claws Mail war das vorinstallierte Emailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":http://www.claws-mail.org/downloads.php?section=downloads herunterladen.
 
@@ -10,7 +10,7 @@ Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt
 
 h2. Claws Mail einstellen
 
-!>img/setup_de_start.png!
+!img/setup_de_start.png!
 
 h3. Erster Start - Setup-Assistent
 
