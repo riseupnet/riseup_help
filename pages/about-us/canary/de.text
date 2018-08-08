@@ -3,15 +3,23 @@
 @this.alias = '/canary'
 @toc = false
 
-!{float:right}canaryimg.jpg!
+<div class="row">
 
-h4{margin-left: 200px; margin-right:200px}. _*Nomen*_
+p(col-md-3). !canarypronounce.png!
 
-h4{margin-left: 200px; margin-right:200px}. _*1...*_ Ein kleiner Singvogel aus der Familie der Finken, _serinus canaria domestica,_ originär heimisch auf den Inseln des Nord Atlantik.
+<div class="col-md-6">
 
-!{float:left}canarypronounce.png!
+h4. _*Nomen*_
 
-h4{margin-left: 200px; margin-right:200px}. _*2...*_ Ein Mechanismus, um unsichere Bedingungen zu testen, ursprünglich durch die Nutzung von Kanarienvögeln in Kohleminen, um giftige Gase oder Einstürze zu bemerken. Wenn der Kanarienvogel starb, war es Zeit, aus der Mine zu kommen. In letzter Zeit wurde der Ausdruck im Zusammenhang mit Online-Diensten genutzt, für ein regelmäßig aktualisiertes Statement, dass der Dienst nicht von Rechtsprozessen betroffen ist. Wenn der Text nicht mehr regelmäßig aktualisiert wird, können Nutzer*innen erkennen, dass der Text nicht mehr wahr sein könnte.
+h4. _*1...*_ Ein kleiner Singvogel aus der Familie der Finken, _serinus canaria domestica,_ originär heimisch auf den Inseln des Nord Atlantik.
+
+h4. _*2...*_ Ein Mechanismus, um unsichere Bedingungen zu testen, ursprünglich durch die Nutzung von Kanarienvögeln in Kohleminen, um giftige Gase oder Einstürze zu bemerken. Wenn der Kanarienvogel starb, war es Zeit, aus der Mine zu kommen. In letzter Zeit wurde der Ausdruck im Zusammenhang mit Online-Diensten genutzt, für ein regelmäßig aktualisiertes Statement, dass der Dienst nicht von Rechtsprozessen betroffen ist. Wenn der Text nicht mehr regelmäßig aktualisiert wird, können Nutzer*innen erkennen, dass der Text nicht mehr wahr sein könnte.
+
+</div>
+
+p(col-md-3). !(pull-right image-right)canaryimg.jpg!
+
+</div>
 
 <pre>
 <%= render :file => 'canary-statement-signed.txt', :type => :raw %>
