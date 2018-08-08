@@ -4,7 +4,7 @@ h2.  How do I unsubscribe from a list?
 
 The easiest way is to unsubscribe is to send email to:
 
-p((. <b><i>listname</i>-unsubscribe@lists.riseup.net</b>
+p(alert alert-info). <b><i>listname</i>-unsubscribe@lists.riseup.net</b>
 
 Where <i>listname</i> is the name of the list you want off.
 
@@ -21,7 +21,7 @@ h2.  How do I subscribe to a list?
 
 The easiest way is to subscribe is to send email to:
 
-p((. <b><i>listname</i>-subscribe@lists.riseup.net</b>
+p(alert alert-info). <b><i>listname</i>-subscribe@lists.riseup.net</b>
 
 Where <i>listname</i> is the name of the list you want to subscribe to.
 

@@ -62,12 +62,12 @@ h2. Authenticate Buddies
 
 Click **Start private conversation** and follow the instructions to authenticate each other to start a private conversation. The easiest method to authenticate someone is the Question and Answer method in which you ask the other person a question that only they could answer. This is an important security step to verify that you are talking to who you think you are talking to. Examples of acceptable questions:
 
-p((. Q: What did you and I talk about at Jad's last night in the front room? (lower case, one word)
+p(alert alert-info). Q: What did you and I talk about at Jad's last night in the front room? (lower case, one word)
 A: welding
 
 There was just the two people involved in the past conversation, so this is a secure question.
 
-p((. Q: Who created the poster on the wall of my bedroom? (lower case, two words)
+p(alert alert-info). Q: Who created the poster on the wall of my bedroom? (lower case, two words)
 A: beehive collective
 
 This is a secure question assuming you trust the people that have been in your bedroom.

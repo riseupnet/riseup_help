@@ -5,7 +5,7 @@ h2. Permissão de acesso aos arquivos
 
 Você pode controlar quem vê os arquivos da sua lista. Essa configuração pode ser acessada seguindo o caminho:
 
-p((.  *Administrar* > *Configurar a Lista* > *Arquivos* > *Arquivos na web*
+p(alert alert-info).  *Administrar* > *Configurar a Lista* > *Arquivos* > *Arquivos na web*
 
 As opções para essa configuração são:
 
@@ -17,7 +17,7 @@ h2. Baixando os arquivos
 
 Para baixar os arquivos da lista compactados em zip, vá para:
 
-p((. *Administrar* > *Gerenciar arquivos*
+p(alert alert-info). *Administrar* > *Gerenciar arquivos*
 
 Então, selecione os meses que você quer baixar e pressione *Baixar arquivo Zip*.
 
@@ -36,7 +36,7 @@ Por padrão, o Sympa protege os endereços de e-mail nos arquivos da lista de "s
 
 Essa configuração está em:
 
-p((. *Administrar* > *Configurar a Lista* > *Outras opções* > *Método de proteção do endereço de e-mail*.
+p(alert alert-info). *Administrar* > *Configurar a Lista* > *Outras opções* > *Método de proteção do endereço de e-mail*.
 
 Selecione:
 

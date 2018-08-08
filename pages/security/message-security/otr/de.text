@@ -54,12 +54,12 @@ h2. Buddies authentifizieren
 
 Klicke **Start private conversation** und folge den Anweisungen um sich gegenseitig in einer privaten Unterhaltung zu authentifizieren. Der einfachste Weg um jemanden zu authentifizieren ist die Frage und Antwort Methode, in welcher du der anderen Person eine Frage stellst, die nur sie beantworten können. Das ist ein wichtiger Sicherheitsschritt um zu bestätigen, dass du mit demjenigen schreibst, mit dem du denkst zu schreiben. Beispiele für geeignete Fragen:
 
-p((. F: Worüber haben wir beide im Jads letzte Nacht in der Eingangshalle gesprochen? (Kleinbuchstaben, ein Wort)
+p(alert alert-info). F: Worüber haben wir beide im Jads letzte Nacht in der Eingangshalle gesprochen? (Kleinbuchstaben, ein Wort)
 A: autoreparaturen
 
 Da nur zwei Personen in der letzten Unterhaltung teilgenommen haben, ist das eine sicher Frage.
 
-p((. F: Wer erschuf das Poster an der Wand in meinem Schlafzimmer? (Kleinbuchstaben, zwei Wörter)
+p(alert alert-info). F: Wer erschuf das Poster an der Wand in meinem Schlafzimmer? (Kleinbuchstaben, zwei Wörter)
 A: bienenstock gemeinschaft
 
 Das ist eine sichere Frage, vorausgesetzt du vertraust den Leuten, die in deinem Schlafzimmer waren.

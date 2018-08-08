@@ -61,12 +61,12 @@ h2. Identifier un contact
 
 Cliquez sur **Démarrer une conversion privée** et suivez les instructions d'identification pour commencer une conversation privée. La méthode la plus simple pour identifier quelqu'un est de lui poser une question dont elle est la seule à connaître la réponse. Ceci est une étape importante car elle permet de vérifier que la personne avec qui vous parlez est bien celle qu'elle prétend être. Voici quelques exemples de questions qui seraient acceptables:
 
-p((. Q: De quoi avons nous discuté chez Pierre l'autre soir devant la chambre? (minuscule, un mot)
+p(alert alert-info). Q: De quoi avons nous discuté chez Pierre l'autre soir devant la chambre? (minuscule, un mot)
 A: soudure
 
 Il n'y avait que deux personnes dans cette conversation, alors cette question est sécuritaire.
 
-p((. Q: Qui a créé l'affiche sur le mur de ma chambre? (minuscule, deux mots)
+p(alert alert-info). Q: Qui a créé l'affiche sur le mur de ma chambre? (minuscule, deux mots)
 A: collectif beehive
 
 Cette question est sécuritaire si vous assumez que vous faites confiance aux personnes qui sont déjà entré dans votre chambre.

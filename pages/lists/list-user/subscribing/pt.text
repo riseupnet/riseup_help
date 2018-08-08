@@ -4,7 +4,7 @@ h2. Como faço para me desinscrever de uma lista?
 
 O jeito mais fácil é enviar um e-mail para:
 
-p((. *_nomedalista_-unsubscribe@lists.riseup.net*
+p(alert alert-info). *_nomedalista_-unsubscribe@lists.riseup.net*
 
 Substitua _nomedalista_ pelo nome da lista que você quer deixar de assinar.
 
@@ -20,7 +20,7 @@ h2. Como faço para assinar uma lista?
 
 Basta enviar um e-mail para:
 
-p((. *_nomedalista_-subscribe@lists.riseup.net*
+p(alert alert-info). *_nomedalista_-subscribe@lists.riseup.net*
 
 Troque _nomedalista_ pelo nome da lista que você quer assinar.
 
