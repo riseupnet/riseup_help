@@ -1,20 +1,20 @@
 @title = 'Sécurité'
 
-h1. Start here
+h1. Commencez ici
 
-Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+Peu de temps devant vous? Trop occupé-e pour résister à l'oppression généralisée ou pour tenter de bâtir un monde meilleur? Super! Nous croyons que votre aventure vers une meilleure sécurité informatique devrait commencer ici. Avec ces étapes faciles à réaliser, tout le monde peut réduire la vulnérabilité de leurs systèmes informatiques.
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+# [[Adoptez une meilleure hygiène informatique vis à vis vos courriels => message-hygiene]]: La vaste majorité des attaques informatiques proviennent de votre boîte courriel. Apprenez à naviguer vos courriels et vos applications de messagerie avec prudence.
+# [[Utilisez un gestionnaire de mots de passe => passwords]]: En utilisant un gestionnaire de mots de passe, il est possible d'éliminer toute une catégorie d'attaques informatiques.
+# [[Chiffrez vos appareils => device-encryption]]: Le chiffrement de vos appareils est une fonctionnalité qui fait partie de votre système d'exploitation et qui est simple à mettre en place.
+# [[Adoptez de meilleures pratiques en naviguant le web => better-web-browsing]]: En changeant les paramètres par défaut de votre navigateur web et en installant certaines extensions, vous pouvez grandement améliorer votre sécurité sur le web.
+# [[Gardez vos programmes à jour => software-safety]]: Maintenir vos programmes à jour est une manière simple et efficace de rester en sécurité.
 
-h1. Pourquoi la sécurité importe-t-elle
+h1. Pourquoi la sécurité est importante
 
 L'augmentation de l'importance de l'information et de la communication a apporté avec elle un autre phénomène : l'élévation d'une *société de surveillance*. Vous pouvez entendre par surveillance une tentative des lobbys pour [_maintenir leur dominance en insérant un contrôle de la communication_].
 
-*Les États-nations* ont répondus à la nouvelle technologie des communications en poursuivant une infrastructure qui peut être facilement redirigée  pour un total contrôle du social. Contrairement aux ères de communications précédentes, la nature de la technologie présente requiert que nos informations soient sécurisées de manière frustrante pour les gouvernements, ou bien de façon complètement non-sécurisée qui permette un contrôle étendu et détaillé de populations entières.
+*Les États-nations* ont répondu à la nouvelle technologie des communications en poursuivant une infrastructure qui peut être facilement redirigée  pour un total contrôle du social. Contrairement aux ères de communications précédentes, la nature de la technologie présente requiert que nos informations soient sécurisées de manière frustrante pour les gouvernements, ou bien de façon complètement non-sécurisée qui permette un contrôle étendu et détaillé de populations entières.
 
 *Les entreprises* ont découvert que la collecte et l'analyse d'une quantité massive de données personnelles est nécessaire si elles souhaitent rester dans la compétition d'un monde riche en information. En particulier, la quasi-totalité des publicités bascule sur une démarche de pistage de notre comportement personnel.
 
