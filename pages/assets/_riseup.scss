@@ -144,3 +144,7 @@ h1.green, h1.red, h1.black {
 h1.green { background: url(/assets/images/riseup-green.png) no-repeat; }
 h1.black { background: url(/assets/images/riseup-black.png) no-repeat; }
 h1.red   { background: url(/assets/images/riseup-red.png) no-repeat; }
+
+.badge-danger { color: #fff; background-color: #dc3545; }
+.badge-warning { color: #212529; background-color: #ffc107; }
+.badge-info { color: #fff; background-color: #17a2b8; }

@@ -27,8 +27,8 @@ Obwohl jedes Programm anders ist, gibt es fünf Werte die in Deinem OpenVPN-Prog
 * *VPN Nutzer*in*: Dein riseup.net-Name (wenn Dein Konto joe_hill@riseup.net ist, gib "joe_hill" ein)
 * *Passwort*: entweder Dein riseup.net-Passwort oder ein [[vpn-secret]].
 * *CA-Zertifikat*: RiseupCA.pem ([[herunter laden und verifzieren -> security/network-security/riseup-ca]])
-* *Chiffre*: AES-256-CBC <span style="color:red;">NEU</span>
-* *Prüfsummenfunktion*: SHA256 <span style="color:red;">NEU</span>
+* *Chiffre*: AES-256-CBC <span class="badge badge-danger">NEU</span>
+* *Prüfsummenfunktion*: SHA256 <span class="badge badge-danger">NEU</span>
 
 Optionale Optionen:
 
