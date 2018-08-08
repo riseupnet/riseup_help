@@ -12,13 +12,13 @@ Oferecemos dois serviços de VPN distintos: o Black e o Red.
 
 h2. VPN Black
 
-!>vpn-black/bitmask.png!
+p(pull-right). !vpn-black/bitmask.png!
 
 <%= render partial: "vpn-black/about" %>
 
 h2. VPN Red
 
-!>vpn-red/openvpn-logo.png!
+p(pull-right). !vpn-red/openvpn-logo.png!
 
 A [[vpn-red]] funciona a partir de uma conta "Riseup Red" e de um cliente de OpenVPN configurado manualmente.
 

@@ -1,6 +1,6 @@
 @title = 'K-9 Mail'
 
-!>k9/K9mail.png!
+p(pull-right). !(image-right)K9mail.png!
 
 K-9邮件是Android平台上的免费电子邮件应用程序。该应用程序功能更强大，可以替代大多数手机上的默认邮件应用程序。它同时支持 POP3和 IMAP邮箱。
 

@@ -1,6 +1,6 @@
 @title = 'K-9 Mail'
 
-!>K9mail.png!
+p(pull-right). !(image-right)K9mail.png!
 
 K-9 Mail é um aplicativo de e-mail software livre para Android. O app é uma substituição mais funcional do que a aplicação de e-mail padrão da maioria dos telefones. Ele suporta ambas caixas de e-mail POP3 e IMAP.
 

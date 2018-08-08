@@ -20,66 +20,14 @@
 
     :plain
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick-subscriptions">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
-        <input type="hidden" name="no_note" value="1">
-        <input type="hidden" name="modify" value="1">
-        <input type="hidden" name="business" value="BPFRUBU4TVYYS">
-        <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
-        <div class="donation">
-          <b>Paypal:</b>
-          <select name="currency_code">
-            <option value="USD">USD $</option>
-            <option value="CAD">CAD $</option>
-            <option value="GBP">GBP £</option>
-            <option value="EUR">EUR €</option>
-          </select>
-          <input onchange="updatePaypal(this.form, this)" type="input" name="a3" value="15" size="6">
-          <select name="p3">
-            <option value="1">#{t :monthly}</option>
-            <option value="3">#{t :quarterly}</option>
-          </select>
-          <input type="submit" name="submit" value="#{t :subscribe}">
-        </div>
-      </form>
-
-    %p.h4{:style => 'margin-top: 10px'}= t :one_time_donation
-
-    :plain
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_donations">
-        <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
-        <input type="hidden" name="business" value="BPFRUBU4TVYYS">
-        <div class="donation">
-          <b>Paypal:</b>
-          <select name="currency_code">
-            <option value="USD">USD $</option>
-            <option value="CAD">CAD $</option>
-            <option value="GBP">GBP £</option>
-            <option value="EUR">EUR €</option>
-          </select>
-          <input onchange="updatePaypal(this.form, this)" type="input" name="amount" value="50" size="6">
-          <input type="submit" name="submit" value="#{t :donate}">
-        </div>
-      </form>
-
-    %noscript
-      %p.h4{:style => 'margin-top: 10px'}= t :micropayments
-      %p= t :micropayments_note
-
-      %p= t :recurring_donation
-
-      :plain
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <div class="form-group">
           <input type="hidden" name="cmd" value="_xclick-subscriptions">
           <input type="hidden" name="t3" value="M">
           <input type="hidden" name="src" value="1">
           <input type="hidden" name="sra" value="1">
           <input type="hidden" name="no_note" value="1">
           <input type="hidden" name="modify" value="1">
-          <input type="hidden" name="business" value="94WVNL67BW6VN">
+          <input type="hidden" name="business" value="BPFRUBU4TVYYS">
           <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
           <div class="donation">
             <b>Paypal:</b>
@@ -89,12 +37,70 @@
               <option value="GBP">GBP £</option>
               <option value="EUR">EUR €</option>
             </select>
-            <input type="input" name="a3" value="5" size="6">
+            <input onchange="updatePaypal(this.form, this)" type="input" name="a3" value="15" size="6">
             <select name="p3">
               <option value="1">#{t :monthly}</option>
               <option value="3">#{t :quarterly}</option>
             </select>
             <input type="submit" name="submit" value="#{t :subscribe}">
+          </div>
+        </div>
+      </form>
+
+    %p.h4= t :one_time_donation
+
+    :plain
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <div class="form-group">
+          <input type="hidden" name="cmd" value="_donations">
+          <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+          <input type="hidden" name="business" value="BPFRUBU4TVYYS">
+          <div class="donation">
+            <b>Paypal:</b>
+            <select name="currency_code">
+              <option value="USD">USD $</option>
+              <option value="CAD">CAD $</option>
+              <option value="GBP">GBP £</option>
+              <option value="EUR">EUR €</option>
+            </select>
+            <input onchange="updatePaypal(this.form, this)" type="input" name="amount" value="50" size="6">
+            <input type="submit" name="submit" value="#{t :donate}">
+          </div>
+        </div>
+      </form>
+
+    %noscript
+      %p.h4= t :micropayments
+      %p= t :micropayments_note
+
+      %p= t :recurring_donation
+
+      :plain
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <div class="form-group">
+            <input type="hidden" name="cmd" value="_xclick-subscriptions">
+            <input type="hidden" name="t3" value="M">
+            <input type="hidden" name="src" value="1">
+            <input type="hidden" name="sra" value="1">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="modify" value="1">
+            <input type="hidden" name="business" value="94WVNL67BW6VN">
+            <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+            <div class="donation">
+              <b>Paypal:</b>
+              <select name="currency_code">
+                <option value="USD">USD $</option>
+                <option value="CAD">CAD $</option>
+                <option value="GBP">GBP £</option>
+                <option value="EUR">EUR €</option>
+              </select>
+              <input type="input" name="a3" value="5" size="6">
+              <select name="p3">
+                <option value="1">#{t :monthly}</option>
+                <option value="3">#{t :quarterly}</option>
+              </select>
+              <input type="submit" name="submit" value="#{t :subscribe}">
+            </div>
           </div>
         </form>
 
@@ -102,19 +108,21 @@
 
       :plain
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_donations">
-          <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
-          <input type="hidden" name="business" value="94WVNL67BW6VN">
-          <div class="donation">
-            <b>Paypal:</b>
-            <select name="currency_code">
-              <option value="USD">USD $</option>
-              <option value="CAD">CAD $</option>
-              <option value="GBP">GBP £</option>
-              <option value="EUR">EUR €</option>
-            </select>
-            <input type="input" name="amount" value="5" size="6">
-            <input type="submit" name="submit" value="#{t :donate}">
+          <div class="form-group">
+            <input type="hidden" name="cmd" value="_donations">
+            <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
+            <input type="hidden" name="business" value="94WVNL67BW6VN">
+            <div class="donation">
+              <b>Paypal:</b>
+              <select name="currency_code">
+                <option value="USD">USD $</option>
+                <option value="CAD">CAD $</option>
+                <option value="GBP">GBP £</option>
+                <option value="EUR">EUR €</option>
+              </select>
+              <input type="input" name="amount" value="5" size="6">
+              <input type="submit" name="submit" value="#{t :donate}">
+            </div>
           </div>
         </form>
 

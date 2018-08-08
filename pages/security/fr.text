@@ -31,7 +31,7 @@ h1. Survol des types de sécurité
 
 <table class="table table-striped">
 <tr>
-<th style="width: 10em">Type de sécurité</th>
+<th class="col-md-2">Type de sécurité</th>
 <th>Qu'est-ce?</th>
 <th>Quand est-ce utile?</th>
 </tr>

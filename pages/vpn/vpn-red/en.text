@@ -13,7 +13,7 @@ h2. Setting up OpenVPN
 
 The VPN Red service supports OpenVPN.
 
-!>openvpn-logo.png!
+p(pull-right). !openvpn-logo.png!
 
 h3. Choose a server
 

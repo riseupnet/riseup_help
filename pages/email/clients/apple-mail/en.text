@@ -1,6 +1,6 @@
 @title = 'Apple Mail'
 
-!>img/apple.mail.jpg!
+p(pull-right). !(image-right)img/apple.mail.jpg!
 
 *Apple Mail*, also known as *mail.app* or simply *Mail*, is a proprietary full featured mail client which comes with OS X. It is pretty and easy to use, but we don't recommend it because it is not Free and Open Source Software (software libre).
 

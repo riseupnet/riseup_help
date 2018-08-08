@@ -1,7 +1,7 @@
 @title = '邮箱列表'
 @nav_title = '邮箱列表'
 
-!>(image-right)pile-of-mail.jpg!
+p(pull-right). !(image-right)pile-of-mail.jpg!
 
 h2. 欢迎
 

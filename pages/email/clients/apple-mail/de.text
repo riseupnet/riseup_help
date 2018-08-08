@@ -1,6 +1,6 @@
 @title = 'Apple Mail'
 
-!>img/apple.mail.jpg!
+p(pull-right). !(image-right)img/apple.mail.jpg!
 
 *Apple Mail*, auch bekannt als *mail.app* oder einfach *Mail*, ist ein proprietäres Emailprogramm für Max OSX. Es ist einfach zu bedienen, aber wir empfehlen es nicht, weil es quelloffen (Freie Software).
 

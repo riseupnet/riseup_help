@@ -1,7 +1,7 @@
 @title = 'Riseup Email'
 @nav_title = 'Email'
 
-!>airmail.jpg!
+p(pull-right). !(image-right)airmail.jpg!
 
 Welcome to Riseup email help.
 
