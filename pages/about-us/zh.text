@@ -28,65 +28,99 @@ Riseup是独立自主的团体，总部位于西雅图，成员来自世界各�
 
 h2.  认识一下我们的团队吧！
 
-!{float:left}img/macaw.jpg!
+<div class="row">
 
-p{margin-left: 72px}. _*Arara (Ara macao)*_
+p(col-md-1). !(image-left)img/macaw.jpg!
+
+p(col-md-11). _*Arara (Ara macao)*_
 Arara是一位来自南美洲的极客。他的兴趣超级广泛。他喜欢应用数学，计算理论，编程，自由软件和安全维护。这位先生其它的兴趣还有网络协作，虚拟及现实中的社区自治，政治经济社运，Arara还是一位无政府社会的理论家。
 
-!{float:left}img/booby.jpg!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. _*Blue-footed Booby (Sula nebouxii)*_
+p(col-md-1). !(image-left)img/booby.jpg!
+
+p(col-md-11). _*Blue-footed Booby (Sula nebouxii)*_
 蓝脚Booby来自德国的美食和描绘没有政府管理的社会状态的动作片。最近他在西雅图街头游荡之中领悟了应用数学的奥妙。现在他的兴趣之一就是去计算Riseup网络服务器何时会突破负载极限崩溃。
 
-!{float:left}img/catbird.png!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. [_*Catbird (Dumetella carolinensis, small bird of the thornbushes)*_]
+p(col-md-1). !(image-left)img/catbird.png!
+
+p(col-md-11). [_*Catbird (Dumetella carolinensis, small bird of the thornbushes)*_]
 Catbird 栖息于树叶从中，一天到晚不停地叫唤，他最喜欢对着GNU/Linux服务器唱，用Perl或Ruby。Catbird喜欢挑战性别的特征，老想邀请女性加入到光棍男的IT程序员世界。
 
-!{float:left}img/waxwing.jpg!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. _*Cedar Waxwing (Bombycilla cedrorum)*_
+p(col-md-1). !(image-left)img/waxwing.jpg!
+
+p(col-md-11). _*Cedar Waxwing (Bombycilla cedrorum)*_
 Waxwing就是一程序员，社运系的新生，反政府监控的活动人士，他还懂教育。尽管对于技术带给社会的影响有着诸多批评，Waxwing却一直致力于运用科技的力量带给社会解放和进步。当他离开电脑键盘的时候，Waxwing狂吃水果，在城市的丛林里漫步，和他家最近新孵育出来的那群的宠物嬉戏。
 
-!{float:left}img/petrel.jpg!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. _*Gadfly Petrel (Pterodroma)*_
+p(col-md-1). !(image-left)img/petrel.jpg!
+
+p(col-md-11). _*Gadfly Petrel (Pterodroma)*_
 Gadfly Petrel很高尚，她希望自己的工作能够让信息通讯完全服务于个人的需求而不是服务于商业企业谋取利润。虽然这个目标并没有现成的答案或指引，但是如果对技术的创新和应用加以适度调控，那么服务于人的需求这个目标就能逐步推进。虽然Gadfly Petrel是海鸟，她已经迁徙到了内陆并学习和教授新闻学，希望此一工作能培育出新一代的Gadfly。她这位美女的其它兴趣包括协作式生存，园艺和做牛排，不仅如此，这位美女信仰网络内容自由分享并经常拿盗版开涮。
 
-!{float:left}img/roadrunner.jpg!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. _*Greater Roadrunner (Geococcyx californianus)*_
+p(col-md-1). !(image-left)img/roadrunner.jpg!
+
+p(col-md-11). _*Greater Roadrunner (Geococcyx californianus)*_
 Roadrunner is a long-legged, ground foraging bird in the cuckoo family. Originally indigenous to the North American Southwest, this specimen is currently enjoying being out of the desert and soaking up the moisture of Cascadia. He spends his days as an anarchist hacker, Debian developer, and dad. Around Riseup headquarters, it is commonly known that Roadrunner is a beast with hardware.
 
-!{float:left}img/pigeon.png!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. [_*Feral Rock Pigeon (Columba livia)*_]
+p(col-md-1). !(image-left)img/pigeon.png!
+
+p(col-md-11). [_*Feral Rock Pigeon (Columba livia)*_]
 Pigeon has been pecking along the sidelines of the Riseup collective since the beginning, and finally joined Riseup a couple of years ago. She is not a geek, but finds them strangely fascinating. When not working on the newsletter or approving lists and emails, she is a social worker, a young adult scifi writer, and an egalitarian community enthusiast. She believes the future is unwritten, and everyday we write the book.
 
-!{float:left}img/rook.png!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. _*Rook (Corvus frugilegus)*_
+p(col-md-1). !(image-left)img/rook.png!
+
+p(col-md-11). _*Rook (Corvus frugilegus)*_
 Rook stands in the corner, and works on a strong defense.  Although Rook's home is typically [[eurasia => https://en.wikipedia.org/wiki/Rook_(bird)#Distribution_and_habitat]], Rook has mostly lived in the Pacific Northwest, although there were several periods of time spent home working.  Rook helps make tools that other birds use to hack at the intersections of kyriarchy, from "cissexism":https://en.wikipedia.org/wiki/Cissexism and heterosexism to racism, in the world at large and within the social justice movement itself. Rooks [[voice => https://en.wikipedia.org/wiki/Rook_(bird)#Voice]] often seems harsh to many, and so tends not to speak up much. Rook likes to eat fresh veggies, so grows many.
 
+</div>
+<div class="row">
 
-!{float:left}img/owl.jpg!
+p(col-md-1). !(image-left)img/owl.jpg!
 
-p{margin-left: 72px}. _*Snow Owl (Bubo scandiacus)*_
+p(col-md-11). _*Snow Owl (Bubo scandiacus)*_
 The Snow Owl sits perched high on an icy branch, peering from afar at the insides of Riseup machines to find little bugs to snack on. He helped start Riseup when living in Seattle because he was dismayed by all the activists who showed up to shut down the WTO with their hotmail and yahoo accounts. He works hard keeping Riseup servers running, the network fast, and the spam from polluting your inbox. His other activities include reading and writing books, and winning strange and puzzling awards. He helped build the technical infrastructure for Indymedia, and currently contributes by maintaining some small pieces. Snow Owl is also one of the nicest people on the planet.
 
-!{float:left}img/starling.png!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. [_*Starling (Sturnus Vulgaris)*_]
+p(col-md-1). !(image-left)img/starling.png!
+
+p(col-md-11). [_*Starling (Sturnus Vulgaris)*_]
 Starling is a migratory bird with stars on his wings and a feisty cry. He works on developing Riseup software and keeping people accountable and on task. Starling is interested in building movement infrastructure, tactics, and strategies for the long-haul. Starling is equally comfortable plucking eyeballs from skulls as defecating from on high.
 
-!{float:left}img/sunbird.jpg!
+</div>
+<div class="row">
 
-p{margin-left: 72px}. [_*Sunbird (Nectarinia asiatica)*_]
+p(col-md-1). !(image-left)img/sunbird.jpg!
+
+p(col-md-11). [_*Sunbird (Nectarinia asiatica)*_]
 Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @0xD45523676ED610B7@, available from your local keyserver.
 
+</div>
+<div class="row">
 
-!{float:left}img/puffin.jpg!
+p(col-md-1). !(image-left)img/puffin.jpg!
 
-p{margin-left: 72px}. _*Tufted Puffin (Fratercula cirrhata)*_
+p(col-md-11). _*Tufted Puffin (Fratercula cirrhata)*_
 Tufted Puffin is medium sized sea bird and a member of the Riseup collective. She nests in Seattle, which is pretty far south for a tufted puffin. Tufted Puffin spends much of her time in front of a computer, using flashy interfaces like pine, but she likes to go outside too. She gets around by biking or swimming with wings which have adapted to offer her a flying technique while underwater. Tufted Puffin appreciates learning tech skills from Riseup and other radical tech projects and, more importantly, helping to build alternative infrastructures.
 
+</div>
