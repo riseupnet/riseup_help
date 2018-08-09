@@ -5,12 +5,12 @@
         %a{:href => item[:href], :class => ''}= item[:label]
 
 .sidebar-addendum
-  %form#searchform(method="get" action="https://duckduckgo.com" onsubmit="document.forms.searchform.q.value = document.forms.searchform.query.value + ' site:help.riseup.net'; true")
+  %form#searchform(action="https://duckduckgo.com" name="searchform")
     .input-group
-      %input.form-control(name="query" type="search")
+      %input.form-control(name="q" type="search")
+      %input(name="sites" type="hidden" value="help.riseup.net")
       .span.input-group-btn
         %input.btn.btn-default(value="Search" type="submit")
-    %input(name="q" type="hidden")
 
 .sidebar-addendum
   .locale-links
