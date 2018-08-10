@@ -146,5 +146,5 @@ If you set HiddenServiceAuthorizeClient (see man page), then it is only availabl
 
 h3. Protect your onion services from advanced attacks
 
-If you run a high-security onion service which is under attack by sophisticated adversaries, you should install the [[Vanguards addon -> https://github.com/mikeperry-tor/vanguards]] which defends against various advanced attacks. Please read [[https://blog.torproject.org/announcing-vanguards-add-onion-services -> Tor project's blog post]] on how to install and use this tool.
+If you run a high-security onion service which is under attack by sophisticated adversaries, you should install the [[Vanguards addon -> https://github.com/mikeperry-tor/vanguards]] which defends against various advanced attacks. Please read [[Tor project's blog post->https://blog.torproject.org/announcing-vanguards-add-onion-services]] on how to install and use this tool.
 
