@@ -8,7 +8,7 @@ Der Hauptgrund, dass Emails die Hauptangriffsmöglichkeit einer Organisation sin
 
 Zur Wiederholung: Die "Von"-Adresse kann von allen beliebig manipuliert werden, sodass eine Email so aussieht, als käme sie von einer anderen Person.
 
-Weil die Herkunft einer Nachricht so schwer zu verifizieren ist, ist der Posteingang eine übliche Quelle für **[Phishing-Angriffe -> phishing]** und **[Schadsoftware->malware]**.
+Weil die Herkunft einer Nachricht so schwer zu verifizieren ist, ist der Posteingang eine übliche Quelle für **[Phishing-Angriffe -> phishing]** und **[Schadsoftware->viruses]**.
 
 * **Phishing** ist when someone sends an email claiming to be an entity they are not, and uses this deception to get information. They can be after social security numbers, bank information, passwords, or other sensitive information.
 * **Schadsoftware** ist solche, die einen Trick nutzt, um einen zum Ausführen / Installieren von schädlicher Software verleitet, z.B. durch einen Anhang oder Link.
