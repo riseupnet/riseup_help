@@ -43,6 +43,8 @@ You don't really need SSL/TLS in an onion address (ie. https) since it's a compl
 
 Although it is true that extra layers are good beware that usually redirecting to SSL/TLS will mean that the certificate will not validate (because the hostname will be *.onion, instead of the certificate that you have for your public service). If you can get a .onion certificate, that works!
 
+If your onion service does use TLS, make sure that it does not send a certificate for an external website.
+
 h3. Onion services and Rails 4
 
 NOTE: the "secure cookie" bug in the Tor browser has been fixed for newer versions. This means that cookies with the secure flag will be correctly sent back to .onion addresses. You should still follow this tutorial to turn off HTTPS for .onion addresses, but you can now globally turn on the cookie secure flag for both the .onion and https versions of your website.
@@ -81,13 +83,27 @@ h2. Onion services can be found
 
 If you are not very careful and keep your server from revealing identifying information about you, your computer, or your location, then the onion service will no longer be hidden!
 
+h3. Leaking the real server
+
 A common misstep here is server signatures, for example it is easy to determine if a webserver is thttpd or Apache, or learn about your operating system because the banner tells the version of the running service and operating system.
 
 Another way that your onion address will get out is via the referrer header in browsers when a client browses a hidden service website and then clicks on a clearnet/hidden service link. The Tor browser has [[taken care->https://trac.torproject.org/projects/tor/ticket/9623]] of many of these tiny leaks, so be sure to encourage your users to [[use an up-to-date tor browser->https://www.torproject.org/download/download-easy]] instead of using their own browser with Tor.
 
+If the server running the onion service is also exposed to the clearnet, make sure that when you connect to either the clearnet service or the onion service, you cannot specify in the host header the other service and get a response. You should ensure the onion service is only listening on the internal IP and your external service is only listening on the external IP address. The easiest way to ensure there are no failures here is this is to run your service on a machine that has no external IP address.
+
+Make sure the time on your server is correct, and is corrected automatically by NTP, so that time skews do not help identify your server.
+
+Make sure you are not inadvertently exposing information, for example with PHP you may disclose the server's real name/address if you leak phpinfo() or $_SERVER, or expose error messages!
+
+Look into protecting yourself against Server Side Request Forgery (SSRF). This attack works by getting the server to perform an external connection (DNS lookup, etc.) which can expose your machine's real location. Strict egress firewalling is one way to mitigate against this problem.
+
 The longer an onion service is online, the higher the risk that its location is discovered. The most prominent attacks are building a profile of the onion service's availability and matching induced traffic patterns.
 
 There are [[currently ways in the protocol->https://blog.torproject.org/blog/hidden-services-need-some-love]] that a bad relay can learn about your onion address, even if you don't tell anybody. [[Follow the discussion->https://trac.torproject.org/projects/tor/ticket/8106]] on the subject if you want to stay on top of how the Tor project is working on fixing these issues.
+
+h3. OnionScan
+
+Use the [OnionScan->https://onionscan.org] tool to scan HTTP onion services to look for leaks. It will look for IP addresses, EXIF metadata in images, and things like enabled mod_status that can leak the real IP address of the server.
 
 h3. Onion services don't need to be hidden!
 
