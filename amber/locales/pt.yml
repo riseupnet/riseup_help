@@ -60,7 +60,3 @@ pt:
   paypal: "Paypal"
   paypal_note: "Funciona em muitos países."
   paypal_description: "Paypal aceita cartões de crédito e doações recorrentes (para doações recorrentes é necessária uma conta no PayPal)."
-
-  flattr: "Flattr"
-  flattr_note: "Micropagamentos se somam."
-  flattr_description: "Flattr é um sistema de micropagamentos que permite que você apoie multíplos projetos."

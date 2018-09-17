@@ -82,7 +82,3 @@ de:
   wepay: "WePay"
   wepay_note: "Eine Alternative zu Paypal"
   wepay_description: "WePay ist eine nette Alternative zu Paypal. Du kannst WePay ohne Anmeldung nutzen, Kreditkarten werden unterstützt."
-
-  flattr: "Flattr"
-  flattr_note: "Minispenden summieren sich!"
-  flattr_description: "Flattr ist ein Überweisungssystem für Kleinstbeträge („Micropayment“), das es Dir ermöglicht, verschiedene Projekte zu unterstützen."
