@@ -1,12 +1,12 @@
 @title = 'Thunderbird'
 
-h2. O que é Thunderbird?
+h2. O que é o Thunderbird?
 
 p(pull-right). !(image-right)reclaimyourinbox.png!
 
-O Thunderbird é o cliente de e-mail recomendado por Riseup.net. É software livre, isto é, garante a quem o usa a liberdade de executá-lo, copiá-lo, distribui-lo, estudá-lo, mudá-lo e melhorá-lo. Isso significa que, diferente do Microsoft Outlook, não é uma ferramenta para dominação mundial. O Thunderbird está disponível para Linux, Windows e Mac OS X e pode ser baixado "deste site":https://www.mozilla.org/pt-BR/thunderbird/.
+O Thunderbird é o cliente de e-mail recomendado por riseup.net. É software livre e está disponível para Linux, Windows e Mac OS X. Você pode baixar o Thunderbird "aqui":https://www.thunderbird.net/pt-BR/thunderbird/all/. Como software livre, o Thunderbird faz parte do patrimônio público digital, ao contrário do Outlook, que é uma ferramenta da Microsoft para dominação mundial.
 
-Alguns dos muitos recursos do Thunderbird são: suporte a IMAP e POP, gerenciamento de várias contas, pesquisa rápida, verificação de ortografia ao digitar, controle avançado de _spam_, visualização de pastas virtuais, filtragem de mensagens, catálogo de endereços e suporte a criptografia OpenPGP.
+Alguns dos muitos recursos do Thunderbird são: suporte a IMAP e POP, gerenciamento de múltiplas contas, pesquisa rápida, verificação de ortografia ao digitar, controle avançado de spam, RSS, visualização de pastas virtuais, filtragem de mensagens, catálogo de endereços e suporte a criptografia OpenPGP.
 
 h2. Configurando o Thunderbird
 
@@ -36,16 +36,16 @@ O Thunderbird obterá as configurações dos servidores do Riseup.
 
 !img/mail-account-setup2.png!
 
-Você precisa decidir se quer usar [[IMAP ou POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
+Você precisará decidir se prefere usar [[IMAP ou POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
-* *IMAP*: é a opção padrão. Se você quiser usar IMAP, apenas clique em *Continuar*.
-* *POP*: para usar POP, clique em *Editar*. No menu suspenso rotulado IMAP, selecione POP. Então, clique em *Retestar configuração*. Deve ser mostrado que o protocolo em uso é IMAP. Se sim, clique em *Continuar*.
+* *IMAP*: É a opção padrão. Se você quiser usar IMAP, apenas clique em *Continuar*.
+* *POP*: Para usar POP, clique em *Editar*. No menu suspenso rotulado IMAP, selecione POP. Então, clique em *Retestar configuração*. Deve aparecer que o protocolo em uso é IMAP. Se sim, clique em *Continuar*.
 
 !img/imap-pop.png!
 
 h3. Terceiro passo
 
-Se não deu certo, provavelmente é porque você inseriu o nome de usuário ou a senha errados. Clique em *Recomeçar* e tente novamente! Caso contrário...
+Se não der certo, provavelmente é porque o login ou a senha estão errados. Clique em *Recomeçar* e tente novamente! Caso contrário...
 
 h3. Você conseguiu!
 
@@ -61,20 +61,20 @@ h3. Adicione extensões
 
 Sugerimos estas extensões para o Thunderbird:
 
-* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: em pouco tempo, é possível começar a [[criptografar, decriptografar -> message-security]] e verificar a assinatura dos seus e-mails. Este último recurso é útil para certificar que os remetentes das mensagens que você recebe são de fato quem dizem ser.
-* "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: mostra o status atual da sua cota IMAP na barra de status do Thunderbird, além de avisar quando o limite (configurável) for atingido.
+* [[Enigmail => /security/message-security/encrypted-email/enigmail]]: Em pouco tempo, é possível começar a [[criptografar, decriptografar -> message-security]] e verificar a assinatura dos seus e-mails. Este último recurso é útil para você se certificar de que as mensagens recebidas são de fato remetidas por quem se supõe.
+* "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: Mostra o status atual da sua cota IMAP na barra de status do Thunderbird, além de avisar quando o limite (configurável) for atingido.
 
 h3. Use opções ocultas para acelerar o Thunderbird
 
-Por padrão, o Thunderbird se comunica com o servidor Riseup sempre que você abre um e-mail ou muda seu status. Em uma conexão lenta ou com o servidor ocupado, essa operação pode levar muito tempo.
+Por padrão, o Thunderbird se comunica com o servidor de e-mail sempre que você abre uma mensagem ou muda seu status. Em uma conexão lenta ou com o servidor ocupado, essa operação pode levar muito tempo.
 
-Felizmente, você pode mudar isso: algumas configurações ocultas do Thunderbird podem fazê-lo sincronizar-se completamente com o servidor sempre que se conecta a ele. Assim, sua experiência pode ser muito mais fluida e agradável.
+Felizmente, existe conserto: algumas configurações ocultas do Thunderbird podem fazê-lo sincronizar-se completamente com o servidor sempre que se conecta a ele. Assim, a sua experiência será muito mais fluida e agradável.
 
 No menu *Editar*, selecione *Preferências*. Na guia *Avançado*, clique no botão *Editor de config...*
 
 * Altere o valor da variável @use_status_for_biff@ para *false*.
 * Altere o valor da variável @mail.server.default.autosync_offline_stores@ para *true*.
 
-h3. Considere apagar automaticamente e-mails antigos
+h3. Considere apagar e-mails antigos automaticamente
 
 Será que você precisa mesmo guardar todos esses e-mails? O Thunderbird pode excluir automaticamente os e-mails mais antigos. Navegue para *Editar > Configurações de conta > Pastas Locais > Espaço em disco*. Você pode configurá-lo para descartar as mensagens recebidas há mais de _x_ dias.
