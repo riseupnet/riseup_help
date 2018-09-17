@@ -76,7 +76,7 @@ $ sudo apt install openvpn resolvconf
 
 Download the [[Riseup CA Certificate => /security/network-security/riseup-ca/RiseupCA.pem]] and place it in /etc/openvpn.
 
-Download [[this script for updating the resolver => https://riseup.net/vpn/vpn-red/update-resolv-conf]] and place it in /etc/openvpn/update-resolv-conf
+If it is not already provided by your distribution (it is in Debian), download [[this script for updating the resolver => https://riseup.net/vpn/vpn-red/update-resolv-conf]] and place it in @/etc/openvpn/update-resolv-conf@
 
 Then you need to download the [[configuration file => https://riseup.net/vpn/vpn-red/riseup.ovpn]] and you need to change it for your credentials. The @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
 
