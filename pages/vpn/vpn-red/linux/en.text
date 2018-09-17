@@ -80,10 +80,6 @@ If it is not already provided by your distribution (it is in Debian), download [
 
 Then you need to download the [[configuration file => https://riseup.net/vpn/vpn-red/riseup.ovpn]] and you need to change it for your credentials. The @auth.txt@ is a file with two lines, the first is your riseup.net login name, the second is a [[VPN Secret->/vpn/vpn-secret]].
 
-In order for openvpn to create the tun device it must be started as user root. However, it will change to the user and group you specify. For @user@ and @group@ options, you can replace with your username or make auth.txt and RiseupCA.pem readable by @nobody@. Alternately, you can leave off those options to run openvpn as root.
-
-For more options, see @man openvpn@.
-
 Then you simply need to run it like this:
 
 <code>
