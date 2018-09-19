@@ -4,26 +4,7 @@ Se você usa webmail ou IMAP, sua conta de e-mail mostra algumas pastas "especia
 
 h2. Lixeira
 
-Todas as mensagens que ficam na Lixeira por mais de 21 dias são apagadas automaticamente. A maioria dos clientes de e-mail move para a Lixeira quaisquer mensagens que são apagadas de outra pasta.
-
-h2. Enviadas
-
-Todas as mensagens enviadas há mais de 120 dias, localizadas na pasta *Enviadas*, são apagadas automaticamente. Se você quiser mantê-las por mais tempo, pode copiá-las para outra pasta de tempos em tempos.
-
-Com Squirrelmail:
-
-* Selecione a pasta "Enviadas".
-* Clique em "Mostrar tudo"
-* Clique em "Marcar tudo"
-* Selecione uma pasta de destino e clique em "Mover".
-
-Com Thunderbird:
-* Selecione a pasta "Enviadas".
-* Vá para Editar > Selecionar > Todas
-* Vá para Mensagem > "Mover para" e selecione a pasta de destino.
-* Se você escolher uma pasta do seu computador (em "Pastas Locais"), os e-mails serão armazenados no seu computador e não consumirão sua cota. Você não poderá, porém, acessá-los de outros computadores.
-
-Normalmente, não é necessário criar uma pasta *Enviadas* - o webmail e a maioria dos clientes de e-mail já fazem isso automaticamente.
+Todas as mensagens que ficam na Lixeira por mais de 21 dias são apagadas automaticamente. A maioria dos clientes de e-mail move para a Lixeira quaisquer mensagens que sejam apagadas de outra pasta.
 
 h2.  Spam
 
@@ -39,7 +20,7 @@ POP mostra apenas pastas locais armazenadas no seu computador.
 
 h3. Você está usando IMAP?
 
-Se você está usando IMAP e não consegue ver suas pastas armazenadas no servidor, será preciso "inscrever-se" para vê-las pelo seu cliente de e-mail.
+Se você está usando IMAP e não consegue ver suas pastas armazenadas no servidor, será preciso "inscrever-se" pelo seu cliente de e-mail para vê-las.
 
 No [[thunderbird]], você deve clicar com o botão direito em *Entrada* e selecionar *Inscrever*.
 

@@ -1,0 +1,19 @@
+@title = 'iOS'
+
+h2. Instale o OpenVPN Connect
+
+No seu dispositivo iOS, baixe o [[aplicativo OpenVPN Connect-> https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8]].
+
+h2. Transfira o arquivo .ovpn
+
+Você pode usar [[este arquivo => ../riseup.ovpn]] para configurar o OpenVPN Connect.
+
+Basta passar [[o arquivo => ../riseup.ovpn]] para o aparelho. O Connect sugere algumas maneiras de fazer isso. A mais simples é enviá-lo para o seu próprio e-mail, mas cuide para fazê-lo com segurança. Transferir por Dropbox ou por um programa similar é outra opção. [[No menu de compartilhamento do iOS -> copy-to-openvpn.png]], clique para abrir o arquivo com o OpenVPN Connect.
+
+h2. Inicie o OpenVPN Connect
+ 
+Clique no ícone '+' para adicionar o perfil ao OpenVPN Connect. Inicie a conexão e insira suas credenciais "Riseup Red". Você também pode configurar uma [[senha separada para a VPN -> riseup-password]].
+
+h2. Resolução de problemas
+
+Consulte a nossa página de [[resolução de problemas -> troubleshooting]] e a [[FAQ do OpenVPN Connect -> https://docs.openvpn.net/docs/openvpn-connect/openvpn-connect-ios-faq.html]].

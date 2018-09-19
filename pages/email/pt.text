@@ -1,88 +1,125 @@
-@title = 'Email'
+@title = 'E-mail Riseup'
+@nav_title = 'E-mail'
 
-Boas-vindas à ajuda do email riseup.net. Aqui você encontra informação sobre *contas de e-mail* de riseup.net.
+p(pull-right). !(image-right)airmail.jpg!
 
-Se não encontrar o que você está procurando [[faça um pedido de ajuda => https://support.riseup.net/en/topics/new]]. Quando sua questão for resolvida, por favor nos ajude a manter estas páginas atualizadas enviando sugestões de mudanças ou informações que você gostaria de compartilhar com outras pessoas que usam Riseup.
+Olá! Você chegou à página de ajuda dedicada ao serviço de e-mail do Riseup.
+
+Se não encontrar o que está procurando, [[preencha um tíquete de ajuda => https://support.riseup.net/en/topics/new]]. Quando sua pergunta for respondida, por favor, ajude-nos a manter este guia atualizado e edite a página pertinente para incluir as informações que você achar importantes e quiser compartilhar.
 
 h2. Primeiros passos
 
-Visite https://account.riseup.net. Ali você pode alterar sua senha, adicionar pseudônimos (atalhos), configurar filtros de email, aumentar sua cota e pedir ajuda.
+Se você esquecer sua senha, a única forma de recuperar sua conta é com um código de recuperação. Não há jeitinho possível, o Riseup não poderá ajudar se você perder seu código de recuperação. É fundamental que você o guarde em local seguro.
 
-Nós destruimos automaticamente a informação que você nos dá como parte de seu pedido de conta. Considere remover de suas configurações da conta qualquer informação que possa lhe indentificar, como seu nome, data de nascimento, pergunta secreta e email alternativo. Porém, se você esquecer sua senha e não tiver gravado seu email alternativo (ou esquecer o que escreveu, ou o email alternativo não for mais acessível) então perderá o acesso à sua conta.
+O futuro do seu e-mail está nas suas mãos e nelas apenas.
 
-h2. Coisas importantes
+Se ainda não o fez, guarde seu código de recuperação em local seguro agora mesmo. Se não o anotou quando criou sua conta, acesse [[suas configurações de conta->https://account.riseup.net/passwords?view=recovery]] para criar um novo, então anote-o.
+
+Só existe um código de recuperação por vez. Quando um novo é criado, ele substitui o antigo.
+
+Acesse https://account.riseup.net. Lá você pode alterar sua senha, substituir seu código de recuperação, configurar o redirecionamento de e-mails, ajustar filtros, redefinir sua cota, apagar seus dados permanentemente, configurar senhas específicas para serviços distintos e pedir ajuda.
+
+h2. Informações importantes
 
 h3. Proteja sua senha
 
-A Internet está cheia de pessoas tentando roubar sua conta de email. Em algum momento, é provável que você receberá um email falso de alguém fingindo ser de riseup.net. Esses emails costumam dizer que você deve fazer alguma coisa para manter sua conta.
+Na internet não falta gente interessada em roubar seu e-mail. Em algum momento, é provável que você receba um e-mail falso de alguém que afirme ser do Riseup. Mensagens desse tipo normalmente cobram de você alguma ação para impedir que sua conta seja excluída.
 
-* Nunca dê sua senha a ninguém, especialmente se dizer ser de riseup.net.
-* Nunca confie que o endereço "De:" de um email é de quem diz ser, porque isso pode ser forjado facilmente.
-* Links em mensagens de email costumam ser uma fraude. Para ter segurança, redigite o link na barra de endereços do navegador ao invés de clicar nele. E, também, tome cuidado com erros de digitação, como riseupp.net (percebeu a letra repetida?) ao invés de riseup.net
+* Nunca dê sua senha a ninguém, principalmente alguém que diga ser de riseup.net.
+* Nunca confie que o campo do remetente de um e-mail é verdadeiro, pois essa informação pode ser facilmente forjada.
+* Links em e-mails podem muito bem ser fraudulentos. Para se garantir, redigite o link na barra de endereços do navegador ao invés de clicar. Tome também cuidado com erros de digitação, como riseupp.net (percebeu a letra repetida?) em vez de riseup.net.
 
-Leia mais em [[senhas de email => settings/mail-passwords ]].
+Leia mais sobre [[senhas de e-mail => settings/mail-passwords]].
 
-h3. Mensagens são apagadas automaticamente em algumas pastas
+h3. Exclusão automática de mensagens em algumas pastas
 
-Em algumas [[pastas especiais => settings/email-folders]], as mensagens são apagadas automaticamente depois de um certo número de dias:
+Em algumas [[pastas especiais => settings/email-folders]], as mensagens são apagadas automaticamente após um certo número de dias:
 
-* Lixo: apagadas depois de 21 dias.
-* Spam: apagadas depois de 7 dias.
+* *Lixo*: excluídas após 21 dias.
+* *Spam*: excluídas após 7 dias.
 
 h3. Cota
 
-Por muitas razões, nós não fornecemos muito espaço de armazenamento para email. Se você precisa de mais espaço, considere baixar seu email usando [[clientes de email => clients]] ou aumente sua cota visitando https://account.riseup.net. [[Leia mais sobre cota => settings/quota]].
+Por várias razões, nós não oferecemos muito espaço de armazenamento para e-mail. Se você precisa de mais espaço, baixe suas mensagens usando um [[cliente de e-mail => clients]] ou aumente sua cota em https://account.riseup.net. [[Leia mais sobre cota => settings/quota]].
 
-h3. Use um cliente de email
+h3. Como acessar seu e-mail
 
-É verdade que a interface web do riseup.net não é muito elegante. Você pode usar conta de email riseup.net com [[clientes de email=>email/clients]] IMAP ou POP, que são programas cheios de funcionalidades para lidar especificamente com emails. Confira nossos [[dicas de como usar os clientes de email mais populares => email/clients]].
+Você pode acessar seu e-mail no endereço https://mail.riseup.net.
 
-Riseup recomenda [[Thunderbird=> Thunderbird]], que é um cliente de email livre e código-aberto. [[Thunderbird => Thunderbird]] se configura automaticamente, você precisa usar seu endereço de email e senha.
+Outra opção é baixar e instalar um [[cliente de e-mail => email/clients]] dedicado. Confira nossos [[tutoriais sobre vários clientes populares => email/clients]].
 
+A recomendação do Riseup é que você use o [[thunderbird]], um cliente gratuito e de código aberto. O programa se configurará corretamente, bastando apenas que você informe seu endereço de e-mail Riseup e senha.
 
-O que há de especial no email riseup.net
---------------------------------------
+h2. O que há de especial no e-mail Riseup
 
-Sua conta de email riseup.net é uma maravilha. Apesar de não ter tanto espaço de armazenamento como provedores de email corporativas que vigiam e colaboram com governos, o email riseup.net tem muitas características que não se encontra com facilidade:
+Sua conta de e-mail Riseup é incrível! Embora não ofereça tanto espaço de armazenamento quanto provedores comerciais que se sustentam de vigilância, o Riseup conta com vários recursos diferenciados:
 
-*Nós encriptamos o tráfego sempre que possível.*
+[*Criptografia de disco inteiro*]
+Nossos servidores físicos são protegidos de modo a permitir que apenas o Riseup tenha acesso a eles. Não estão hospedados "na nuvem". Como medida adicional, todos os nossos servidores usam criptografia de disco inteiro e só podem ser desbloqueados pelo Riseup. Além disso, toda comunicação entre os servidores é criptografada. Essas medidas são uma proteção contra acesso físico não autorizado, roubo e tentativas de investigar os dados que armazenamos. 
 
-bq. Quando você envia um email via riseup.net para outro provedor de email, o email é encriptado para sua viajem inteira. (ver [[StartTLS]] para mais informações)
+[*Criptografia individual de e-mails armazenados*]
+Seus e-mails são criptografados individualmente em nossos servidores e só podem ser abertos e lidos com a sua senha. Isso significa que o Riseup não tem como ler seus e-mails armazenados. Toda mensagem recebida é criptografada automaticamente e só pode ser decriptografada e lida quando você se autentica. Esse processo acontece no servidor, no qual se confia temporariamente, enquanto durar sua sessão. Graças a esse recurso, sua senha torna-se *essencial* para acessar seus dados. Caso ela e o código de recuperação sejam perdidos, você não poderá acessar sua conta, nem ninguém poderá decriptografar seus e-mails. Para mais detalhes, conheça o [[projeto TREES => https://0xacab.org/riseuplabs/trees]].
 
-*Nós não revelamos sua localização para destinatárias dos emails.*
+[*Seu ID de conta está sempre oculto*]
+Quando você manda um e-mail pelo Riseup, seu ID de conta é mantido em segredo. Na maioria das vezes, isso não muda muita coisa, visto que o campo de remetente da mensagem já é uma identificação. Entretanto, se você usar um alias temporário, não será possível identificar a conta que originou o e-mail. Para evitar que propagadores de spam abusem desse recurso, o Riseup retém temporariamente a capacidade de decifrar o ID de conta dos e-mails enviados.
 
-bq. Quando você envia um email via riseup.net, seu endereço IP não é embutido no email. Com provedores de email corporativos, qualquer pessoa que recebe seu email pode descobrir sua localização física aproximada a partir do endereço de IP que fica junto da mensagem.
+[*Todos os serviços podem ser ocultos com o Tor*]
+Oferecemos [[Serviços Onion do Tor -> https://www.torproject.org/docs/tor-onion-service.html.en]] (Serviços Ocultos) caso você precise reforçar seu anonimato ou contornar um possível bloqueio aos nossos serviços.
 
-*Nós não calculamos teu endereço IP.*
+[*Criptografamos tráfego sempre que possível*]
+Quando você envia um e-mail pelo Riseup para outro provedor seguro, a mensagem permanece criptografada por todo o caminho (veja [[StartTLS]] para saber mais). A criptografia é automática para troca de dados entre servidores e protege você de uma possível espionagem. Se você mandar um e-mail para outra conta Riseup, a mensagem não deixará nosso sistema e permanecerá criptografada usando os métodos acima.
 
-bq. Nosso comprometimento é manter a menor quantidade de dados possível sobre você. Diferente de provedores corporativos, nós não calculamos endereço IP de ninguém que esteja usando os serviços riseup.net, incluindo email.
+[*Entrega para outros provedores via Tor*]
+Se você enviar um e-mail para [[outro provedor ativista => https://github.com/ehloonion/onionmx/blob/master/sources/map.yml]], ele será entregue através dos Serviços de Onion do Tor. Essa retransmissão das mensagens serve de proteção contra a análise da correlação de tráfego e dos metadados possível em entregas normais. Os metadados que revelam quem se comunica com quem constituem uma informação extremamente delicada. Nas palavras de um antigo diretor da CIA, Michael Hayden, "nós matamos pessoas com base em metadados". Estamos trabalhando para popularizar essa rede de entrega de e-mails baseada no Tor, e a lista acima apenas crescerá com o passar do tempo.
 
+[*Não revelamos sua localização para quem recebe o e-mail*]
+Quando você envia e-mails pelo Riseup, seu endereço de IP não é incluído na mensagem. Quando se trata da maioria dos provedores de e-mail comerciais, qualquer pessoa que receba um e-mail seu pode descobrir a sua localização aproximada a partir do IP incluso na mensagem.
 
-Apoio mútuo
-----------
+[*Não registramos seu endereço de IP*]
+Temos o compromisso de guardar o mínimo possível de informações sobre você. Ao contrário de provedores comerciais, não registramos o endereço de IP de ninguém que use um serviço do Riseup, inclusive e-mail.
 
-Não existe email gratuito. Serviços como gmail, hotmail, e yahoo fazem dinheiro a partir da vigilância: eles constroem um perfil sobre seu comportamento e bombardeiam anúncios direcionados a você.
+h2. Outros recursos legais da sua conta Riseup
 
-Riseup.net é diferente. Esse serviço é um trabalho de amor por ativistas como você, comprometidas com a construção de ações e infraestruturas de segurança alternativas.
+* Não exigimos que você informe número de telefone ou informações pessoas para se cadastrar. Em vez disso, usamos convites.
+* Você pode ter senhas diferentes para cada serviço (p.ex. VPN, bate-papo, e-mail).
+* Não dependemos de anúncios; preferimos manter sua mente livre de propaganda e seus dados longe das mãos do capitalismo de vigilância.
+* O [[sistema de gerenciamento de conta => https://account.riseup.net]] não emprega javascript e adota fortes políticas de segurança de conteúdo.
+* As senhas são armazenadas com algoritmos de resumo criptográfico fortes, RAM-dependentes ("memory hard") - Argon2.
+* Você pode excluir seus dados permanentemente com apenas um clique por meio do [[sistema de gerenciamento de conta => https://account.riseup.net]].
+* Oferecemos POP, com o qual você pode baixar suas mensagens e apagá-las do servidor.
 
-O serviço de email riseup.net toma muito tempo e dinheiro para continuar funcionando, e é sustentado inteiramente por pequenas doações de quem usa. Por favor faça sua parte e [[contribua hoje => donate]].
+h2. O que o Riseup não oferece
 
-Perguntas frequentes
-----------------------------------
-Encontre respostas para dúvidas comuns sobre email
+* A não ser que você use o plug-in Mailvelope no seu navegador ou outra solução baseada em OpenPGP, nosso sistema de e-mails *não* é criptografado de ponta a ponta, nem pelo lado do cliente. Estamos trabalhando em uma solução abrangente para esse problema e esperamos consegui-la em breve.
+* Se alguém obtiver sua senha, poderá ler todos os seus e-mails. Nunca, nunca mesmo, dê sua senha a ninguém. Se você receber uma suposta mensagem do Riseup pedindo sua senha, saiba que é um golpe.
+* Nunca abra um anexo que receber, a não ser que saiba do que se trata. Anexos podem comprometer seu computador e sua conta também!
+* O Riseup não guarda backups das suas mensagens antigas. Você é responsável por garantir a segurança dos seus dados!
+* Nada on-line é 100% seguro. Se você tem algo muito confidencial a dizer, faça-o off-line.
+* Não há como oferecer uma solução técnica mágica capaz de resolver os problemas de todo mundo em todos os diferentes contextos e problemas possíveis. Nunca se esqueça: é um erro tentar atacar problemas sociais com soluções técnicas.
 
-* [[Como alterar minha senha? => settings/mail-passwords#como-alterar-minha-senha]]
-* [[Como posso excluir minha conta? => settings/mail-accounts#como-posso-excluir-minha-conta]]
-* [[Como posso aumentar minha cota? => settings/quota#como-posso-aumentar-minha-cota]]
-* [[Porque minha cota não está atualizada? => settings/quota#porque-minha-cota-não-está-atualizada]]
-* [[Como codificar meu email? => security/message-security]]
-* [[O que posso fazer sobre spam? => scams/spam]]
-* [[Por que não consigo fazer login usando o webmail? => webmail]]
-* [[Por quê não consigo enviar mensagens com meu cliente de email? => settings/smtp]]
-* Existe algum [[Livro de Endereços => settings/address-book]]?
-* [[Por quê eu não posso ver minhas pastas? => settings/email-folders]]
-* [[Como baixar meu email? => clients/downloading-email]]
-* Por que os e-mails enviados para mim estão sendo [[bloqueados como scams/spam => spam#por-que-os-e-mails-enviados-para-mim-estão-sendo]]?
-* O que você pode me dizer [[sobre vírus => scams/viruses]]?
-* O que é o [[Acordo de Uso => about-us/policy]] de Riseup?
-* [[Por que eu não posso configurar uma resposta automática? => settings/email-filters#posso-configurar-uma-resposta-automática]]?
+h2. Apoio mútuo
+
+Não existe e-mail gratuito. Serviços como Gmail, Hotmail e Yahoo ganham dinheiro da vigilância: traçam seu perfil a partir do seu comportamento e bombardeiam você com anúncios direcionados.
+
+O Riseup é diferente. É um trabalho de amor feito por uma equipe formada de ativistas como você e comprometida com a construção de uma infraestrutura alternativa segura e gerida por um movimento.
+
+O e-mail do Riseup exige muito tempo e dinheiro para se manter e é sustentado inteiramente por pequenas doações de quem usa o serviço. Por favor, faça sua parte e [[contribua hoje => donate]].
+
+h2. Perguntas frequentes
+
+* [[Como alterar minha senha? => mail-passwords]]
+* [[Como excluir minha conta? => mail-accounts]]
+* [[Como aumentar minha cota? => quota]]
+* [[Por que minha cota não está atualizada? => quota]]
+* [[Como criptografar meus e-mails? => message-security]]
+* [[Como lidar com spam? => spam]]
+* [[Por que não consigo entrar no webmail? => webmail]]
+* [[Por que não consigo enviar mensagens com meu cliente de e-mail? => smtp]]
+* [[Existe uma agenda de contatos? => address-book]]
+* [[Por que não consigo ver minhas pastas? => email-folders]]
+* [[Como baixar meus e-mails? => downloading-email]]
+* [[Por que mensagens que recebo são filtradas como spam? => spam]]
+* [[O que preciso saber sobre vírus? => viruses]]
+* [[O que é o Acordo de Uso do Riseup? => email/usage-agreement]]
+* [[Por que não consigo configurar uma resposta automática? => email-filters]]
+* [[Por que mensagens que envio são filtradas como spam? => email/scams/spam]]

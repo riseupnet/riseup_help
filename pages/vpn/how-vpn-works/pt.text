@@ -1,32 +1,32 @@
-@title = 'Como funciona a Riseup VPN'
+@title = 'Como funciona uma VPN'
 
-Uma Rede Privada Virtual (VPN) é utilizada, tipicamente, para permitir que funcionários acessem a rede segura da empresa.
+Normalmente, uma Rede Privada Virtual (VPN) é utilizada para permitir que pessoas acessem a rede segura da empresa onde trabalham.
 
-A [[Riseup VPN -> vpn]], porém, usa a mesma tecnologia para dar a todo o mundo mais segurança no acesso à internet pública. Este tipo de VPN é chamado de *VPN pessoal*.
+Já a [[Riseup VPN -> vpn]] usa a mesma tecnologia para dar a qualquer internauta segurança no acesso à web. Esse tipo de VPN é chamado *VPN pessoal*.
 
 h2. Uma conexão normal à internet
 
 !vpn-01_large.png!
 
-Em uma conexão normal à internet, todo o seu tráfego é roteado a partir do seu computador, através do seu Provedor de Serviços da Internet (ISP), pela internet a fora até, finalmente, chegar ao destino. A cada passo do caminho, seus dados são registrados e ficam vulneráveis a [[ataques _man-in-the-middle_ -> vpn/security-issues]] (o risco é bem menor se você usar um [[protocolo seguro->secure-connections]], como HTTPS).
+Em uma conexão normal à internet, todo o seu tráfego é roteado a partir do seu computador, através do Provedor de Serviços da Internet (ISP), pela internet afora até, finalmente, chegar ao destino. A cada passo do caminho, seus dados são registrados e ficam vulneráveis a [[ataques _man-in-the-middle_ -> vpn/security-issues]] (o risco é bem menor se você usar um [[protocolo seguro->secure-connections]], como HTTPS).
 
-h2. Uma conexão à internet com VPN pessoal
+h2. Conectando-se à internet com uma VPN pessoal
 
 !vpn-02_large.png!
 
-Com uma VPN pessoal, seu tráfego é criptografado no seu computador, atravessa o seu provedor e segue para o servidor de VPN. Como os dados são criptografados, seu provedor não tem como conhecer o conteúdo dos dados ao redireciohá-los ao servidor de VPN. Quando seus dados chegam ao servidor de VPN, eles são decriptografados e encaminhados para o destino final.
+Com uma VPN pessoal, seu tráfego é criptografado no seu computador, passa pelo provedor e segue para o servidor da VPN. Como os dados são criptografados, o provedor não tem como acessar o conteúdo deles durante o redirecionamento para o servidor. Chegando lá, os dados são decriptografados e encaminhados para o destino final.
 
-Mesmo com a VPN pessoal, se seus dados não usarem uma [[conexão segura -> secure-connections]], eles ficarão vulneráveis depois que deixarem o servidor de VPN. Entretanto, ao rotear seus dados através do servidor de VPN, você consegue duas importantes vantagens:
+Mesmo com uma VPN pessoal, se os dados não forem transmitidos por uma [[conexão segura -> secure-connections]], eles ficarão vulneráveis depois que deixarem o servidor da VPN. Ainda assim, há duas grandes vantagens em roteá-los pelo servidor:
 
-* Seus dados são protegidos de bloqueios, rastreamento ou ataques _man-in-the-middle_ conduzidos pelo seu provedor ou por operadores de rede no seu país.
-* Seus dados aparentam ter o endereço IP do servidor de VPN, e não seu endereço IP real. A maioria dos sites reúne e retém uma extensa base de dados sobre este endereço IP, tornado anônimo.
+* Seus dados são protegidos de bloqueios, rastreamento ou ataques _man-in-the-middle_ conduzidos pelo seu provedor ou operadoras de rede do seu país.
+* Seus dados aparentam ter o endereço IP do servidor da VPN, e não o seu endereço IP real. A maioria dos sites guarda uma extensa base de dados sobre o endereço IP do servidor, tornado assim anônimo.
 
-h2. VPN pessoal anonimiza sua conexão
+h2. Uma VPN pessoal torna sua conexão anônima
 
 !vpn-03_large.png!
 
-Visto que seu tráfego aparenta ter origem no servidor de VPN, o recipiente da sua comunicação de rede não tem como saber onde você mora -- a não ser, é claro, que você informe a eles.
+Como seu tráfego aparenta ter origem no servidor da VPN, a pessoa com quem você se comunica pela rede não tem como saber onde você mora -- a não ser, é claro, que você diga.
 
-No caso ilustrado acima, um site da Califórnia pensa que um laptop no Brasil, um laptop na Europa e um telefone celular sobrevoando o Canadá estão em Nova York, porque é lá que nosso servidor de VPN está.
+No caso ilustrado acima, um site da Califórnia pensa que um laptop no Brasil, um laptop na Europa e um telefone celular sobrevoando o Canadá estão em Nova York, porque é lá que está o servidor da nossa VPN.
 
 <%= render :partial => 'vpn-limitations' %>

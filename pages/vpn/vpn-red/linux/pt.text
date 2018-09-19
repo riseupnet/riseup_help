@@ -1,0 +1,109 @@
+@title = 'GNU/Linux'
+@toc = true
+
+h1. Instalação
+
+h2. Só use este guia em último caso!
+
+*ATENÇÃO:* Se você chegou aqui por que deseja usar a Riseup VPN no Linux, [[clique aqui->vpn-black]] e veja como usar, em vez disso, a VPN Black. A única razão para seguir as instruções abaixo seria se, por algum motivo, o Bitmask não funcionasse com a sua versão do Linux! O Bitmask está disponível como pacote para Debian e Ubuntu e como pacote independente para outras distribuições. E sim, também há uma versão do aplicativo para linha de comando!
+
+h2. Gnome
+
+Para instalar o software necessário, abra o terminal e insira os comandos abaixo:
+
+*No Ubuntu*
+
+<code>
+$ sudo apt-get install network-manager-openvpn-gnome
+</code>
+<code>
+$ sudo service network-manager restart
+</code>
+
+*No Debian*
+
+<code>
+$ sudo apt-get install network-manager-openvpn-gnome
+</code>
+<code>
+$ sudo /etc/init.d/network-manager restart
+</code>
+
+h3. Configuração
+
+# Abra o Gerenciador de Rede. É um pequeno ícone no painel do Gnome que mostra o status da conexão.
+# No menu, selecione *Conexões VPN* > *Configurar VPN*.
+# Clique em *Adicionar*.
+# Selecione *OpenVPN* se puder escolher o tipo de VPN, então clique em *Criar...*
+# Use as seguintes configurações:
+** Porta:: (escolher da lista abaixo).
+** Tipo:: senha.
+** Nome de usuário:: seu login em riseup.net.
+** Senha:: sua senha em riseup.net ou seu [[Segredo de VPN -> vpn/vpn-secret]] (a segunda opção é preferível).
+** Certificado de AC:: baixe o arquivo [[RiseupCA.pem => /security/network-security/riseup-ca/RiseupCA.pem]].
+** Disponível para todos os usuários:: NÃO! Deixe essa opção desmarcada.
+
+Atenção: se você alterar a localização do arquivo RiseupCA.pem, a VPN deixará de funcionar até que o novo local seja especificado. Para mais informações sobre o arquivo RiseupCA.pem, e sobre como verificá-lo, veja [[riseup-ca]].
+
+Depois que salvar as configurações, clique no Gerenciador de Rede para aplicá-las. Se tudo der certo, você verá um cadeado no canto da janela.
+
+Quando você se conectar à VPN pela primeira vez, pode ser que apareça uma caixa de diálogo perguntando se você quer permitir o acesso a um chaveiro. Pode aceitar: o chaveiro guardará a senha da VPN em formato criptográfico.
+
+h3. Servidores de VPN
+
+Para *Porta*, escolha uma das seguintes:
+
+<%= render 'vpn-servers' %>
+
+h3. VPNAutoconnect
+
+ATUALIZAÇÃO: O VPNAutoconnect parece não estar funcionando na versão mais recente do Ubuntu. Uma alternativa é a "AutoVPN":python-autovpn-script. Esse script em python cria um daemon que funciona em segundo plano e faz duas coisas: em uma nova conexão de rede ativa, ativa a VPN; e se a VPN se desconectar, a reconecta, exceto quando for desligada de propósito. Ele requer o NetworkManager 9.0 ou superior. (Fonte: [[http://gist.github.com/1547663]].)
+
+<%= render 'vpnautoconnect' %>
+
+ATUALIZAÇÃO: Você também pode experimentar [[este script em Bash->http://pastebin.com/5W1KwMp8]], uma adaptação feita por mim do original publicado por qertoip no site [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
+
+h2. Linha de comando
+
+Se não quiser usar interface gráfica, você pode executar a OpenVPN a partir da linha de comando.
+
+Primeiro, instale-a:
+
+<code>
+$ sudo apt install openvpn resolvconf
+</code>
+
+Baixe o [[certificado de AC do Riseup => /security/network-security/riseup-ca/RiseupCA.pem]] e mova-o para /etc/openvpn.
+
+Baixe [[este script para atualizar o resolvedor => https://riseup.net/vpn/vpn-red/update-resolv.conf]] e mova-o para /etc/openvpn.
+
+Em seguida, baixe o [[arquivo de configuração => https://riseup.net/vpn/vpn-red/riseup.ovpn]] e altere-o, inserindo seu login e senha. @auth.txt@ é um arquivo com duas linhas, a primeira contendo seu login em riseup.net e a segunda, seu [[Segredo de VPN->/vpn/vpn-secret]].
+
+Para criar o dispositivo TUN, a OpenVPN deve ser inicializada em root. No entanto, você pode mudá-la para o usuário e grupo que especificar. Nas opções @usuário@ e @grupo@, você pode colocar seu nome de usuário ou definir as permissões de leitura de auth.txt e RiseupCA.pem como @ninguém@. Você também deixar essas opções como estão e executar a OpenVPN como root.
+
+Mais informações podem ser obtidas inserindo @man openvpn@ no terminal.
+
+Então, basta executá-la a partir da linha de comando:
+
+<code>
+$ sudo openvpn riseup.ovpn
+</code>
+
+h3. Teste via linha de comando
+
+Mesmo que você use o Gerenciador de Rede para acessar a Riseup VPN, testar a conexão via terminal pode ser útil para resolver problemas. Por exemplo:
+
+<code>
+$ sudo openvpn --client --dev tun --auth-user-pass --remote vpn.riseup.net 1194 --keysize 256 --auth SHA256 --cipher AES-256-CBC --ca RiseupCA.pem
+</code>
+
+Para mais informações, @man openvpn@.
+
+A conexão do Gerenciador de Rede também pode ser testada pela linha de comando. Por exemplo:
+
+<code>
+#Encontre o nome das suas conexões de VPN
+$ nmcli connection list | grep vpn
+#Conecte-se à VPN
+$ nmcli connection up id <nome da conexão de VPN>
+</code>
