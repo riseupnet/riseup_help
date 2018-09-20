@@ -10,11 +10,11 @@ h1. Enhance your email security
 
 <%= render :partial => 'enhance-security' %>
 
-h2. use OpenPGP with Apple Mail
+h2. Use OpenPGP with Apple Mail
 
 # Download the latest "GPG Tools version":https://gpgtools.org/
 # Install the package
-# You'll be able to use [[opengpg]] and it'll be embed with Apple Mail.
+# You'll be able to use [[OpenPGP]] and it'll be embed with Apple Mail.
 
 h1. Adding a POP Account
 

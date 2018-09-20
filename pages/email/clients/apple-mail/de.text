@@ -10,11 +10,11 @@ h1. Erhöhe die Sicherheit
 
 <%= render :file => '_enhance-security' %>
 
-h2. OpenPGP mit Apple Mail
+h2. Benutze OpenPGP mit Apple Mail
 
 # Lade die letzte Version der "GPG Tools":https://gpgtools.org
 # Installiere das Paket
-# Danach kann [[opengpg]] benutzt werden und wird integriert in Apple Mail.
+# Danach kann [[OpenPGP]] benutzt werden und wird integriert in Apple Mail.
 
 h1. POP-Konto erstellen
 

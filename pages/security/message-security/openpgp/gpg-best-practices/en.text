@@ -35,11 +35,11 @@ bq. It is strongly recommended to upgrade your installation of gnupg for securit
 
 h4. Use the sks keyservers pool
 
-Previous versions of gnupg come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target. 
+Previous versions of gnupg come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target.
 
 The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
 
-Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool. 
+Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
 
 You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. The transport encryption is important because if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information. In order to use hkps, you need to install gnupg-curl (on debian: @sudo apt-get install gnupg-curl@).
 
@@ -95,13 +95,13 @@ This is useful because (1) it prevents someone from designating an insecure meth
 
 h3. Refresh your keys slowly and one at a time.
 
-Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. 
+Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys.
 
 The command @gpg --keyserver-options no-honor-keyserver-url --refresh-keys@ is the equivalent to above setting, however you should not use it (similarly the 'refresh keys' menu item in your email client), because you disclose to the keyserver operator the whole set of keys that you are interested in refreshing. From the [[gnupg documentation -> https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html#GPG-Configuration-Options]] for @--auto-key-retrieve@:
 
 bq. Note that this option makes a "web bug" like behavior possible. Keyserver or Web Key Directory operators can see which keys you request, so by sending you a message signed by a brand new key (which you naturally will not have on your local keyring), the operator can tell both your IP address and the time when you verified the signature.
 
-Therefor it is a good idea, to [[torify GnuPG requests -> https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/GnuPG]]: Check that @use-tor@ is present in @~/.gnupg/dirmngr.conf@ (it is default since GnuPG v2.1).
+Therefore it is a good idea, to [[torify GnuPG requests -> https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/GnuPG]]: Check that @use-tor@ is present in @~/.gnupg/dirmngr.conf@ (it is default since GnuPG v2.1).
 
 Until GnuPG offers [[this option -> https://dev.gnupg.org/T1235]], you can add following script to your cronjobs:
 
@@ -116,7 +116,7 @@ do
   done
 done &
 
-h4. Troubleshooting dirmng
+h4. Troubleshooting dirmngr
 
 Whenever you have the impression that "No data" is an incorrect answer when performing a @gpg --search KEYID@, it is safe to run @dirmngr --shutdown@. It will be restarted automatically when it is needed.
 
@@ -178,7 +178,7 @@ h3. Consider using an ECC subkey
 
 Since gnupg 2.1 ECC subkeys are supported.
 
-They are faster, which is very useful for security tokens. Note that if there's a RSA and ECC key on a key, GnuPG 1.4 will do the right thing and choose the one that works (e.g. use RSA if it doesn't support ECC).
+They are faster, which is very useful for security tokens. Note, if there both a RSA and ECC key available, GnuPG will do the right thing and choose the one that works (e.g. use RSA if it doesn't support ECC).
 
 For details see the [[official FAQ->https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]].
 

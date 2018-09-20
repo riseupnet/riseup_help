@@ -117,7 +117,7 @@ do
   done
 done &
 
-h4. Probleme mit dirmng
+h4. Probleme mit dirmngr
 
 Wenn Du den Eindruck hast, dass die Antwort "No data" ("Keine Daten") beim Suchen nach Schlüssel (@gpg --search KEYID@) falsch ist, führe @dirmngr --shutdown@ aus. Das kann beliebig oft wiederholt werden, denn dirmngr wird automatisch gestartet, wenn er gebraucht wird.
 
@@ -176,7 +176,7 @@ h3. Benutze einen Unterschlüssel mit Elliptischen Kurven (ECC)
 
 Seit GnuPG v2.1 werden ECC-Unterschlüssel unterstützt.
 
-Sie sind schneller, was für Sicherheits-Tokens nützlich ist. Beachte, dass ein Schlüssel RSA- und ECC-Unterschlüssel enthält, GnuPG v1.4 wird also den funktionieren auswählen (z.B. RSA, wenn ECC nicht unterstützt ist).
+Sie sind schneller, was für Sicherheits-Tokens nützlich ist. Beachte, dass wenn ein Schlüssel RSA- und ECC-Unterschlüssel enthält, wird GnuPG den funktionieren auswählen (z.B. RSA, wenn ECC nicht unterstützt ist).
 
 Für Details konsultiere die [[offizielle Hilfeseite->https://www.gnupg.org/faq/whats-new-in-2.1.html#ecc]].
 

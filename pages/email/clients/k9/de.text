@@ -26,6 +26,6 @@ Du hast erfolgreich K9-Mail für Riseup konfiguriert!
 
 h2. Erhöhe Email-Sicherheit
 
-K-9 Mail [[unterstützt->https://k9mail.github.io/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html]] [[autocrypt->https://autocrypt.org/index.html]], eine Email-Erweiterung für opportunistische [[openpgp]], indem OpenPGP-Kopfzeilen mit dem eingestellten Schlüssel ausgehenden Nachrichten hinzugefügt werden. [[Details -> https://autocrypt.org/examples.html]]
+K-9 Mail [[unterstützt->https://k9mail.github.io/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html]] [[autocrypt->https://autocrypt.org/index.html]], eine Email-Erweiterung für opportunistische [[OpenPGP]], indem OpenPGP-Kopfzeilen mit dem eingestellten Schlüssel ausgehenden Nachrichten hinzugefügt werden. [[Details -> https://autocrypt.org/examples.html]]
 
 <%= render :partial => 'enhance-security' %>
