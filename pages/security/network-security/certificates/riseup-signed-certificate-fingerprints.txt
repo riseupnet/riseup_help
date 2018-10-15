@@ -1,12 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of October 11, 2017, the following are the fingerprints for Riseup's certificates:
+As of octubre 15, 2018, the following are the fingerprints for Riseup's certificates:
 
  .  *.riseup.net, riseup.net
         SHA-256 fingerprint:
-                ab1757631d84ba6f77cc0784fcbdccedd6268c217dbe625d53aa976d1de74123
-
+                3814e3eaf91e30451790697a98b1b5594cdbdfef4a73ef5a47ed33c556816645
 
 !!! 
 NOTE: Certificates for help.riseup.net, riseup.net and www.riseup.net are
@@ -15,19 +14,18 @@ months and we do not list their fingerprints here
 !!!
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlnebVxfFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
-MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do57Gg//TDr/S7miVmvm1OSuXk6ZGmSLVbcqCozNurGLkavSlao70EfX7t2vPlHP
-LufrBZaSMTAYhZcSQA/SaaVJbOfaByr1ECk4Y+d2Hocm0/kDdYkrE3MgQTiSV/3R
-w8hFxbi7OLP3Ao3XI+NMpIFy0W5PJ+EsvbiIFyV2obN3iDRCd4XdwI+Xjqdaooni
-ZsohuH6jyo9LF5NH8cVchVZGCGE79Nr++C37bXkKbarWkCM1DAIrzd/Mm8mVB8Do
-Ff7vN3d+3udIU5ztb6mtmPcv95icmqvqz2ca1o3617MbWytvZnqjSWDLahIz9LsM
-/1lF5sJ9e9mZ4yL7OInp+tQQzKjbt/ee5KyjvtX3ZRjT8+Szsz5KIH14DcaDsJ15
-OTyn+Mm/CqdqtW34cKRebhJA2wcZgkOxmlJuGrMGG9+5SNB7BOmpLADTTXUTeabc
-/uERTiFVfcJnhEsAnLnX64dQUqtjVtBIPrGQLHxvYVItXunOw0bt90V7tK7RYRno
-NyRDEEhddVfD/RSs6LbrAACC/7rL8LI8UaZ3tF/xo+ohFD2psfqMzaKQuIBMi2+z
-T2qGdKFqKLy4VZAoYd3Ig5d3cWTMryKcG3qV6qkJn4yDVEXsHEeWFJLS2zgQNFiu
-8A3jUP6cC+weksZezE7AUZv05HVWpRiH0Hw0KpQtv0EczUsxg7k=
-=Hwd9
+iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAlvExlQACgkQMEPitxOa
+do4DVw/9FQLagRf67PwG9G2hPQpgK7nSbNlGq67lQIaqBa85fDU5VHlMzjiHSUEC
+8S8JNWgdDliih58BVXs5eP8NCPCuysh84S1AFQkzGFHpUyFQffoQzYPr+K6ZJuwn
+81cLS9D2qL2o0JJ4EBvvKu6MDFDhdC6U3mExSxBBEDu5dj+jR6YILzCg5qV+jN3N
+8wc+aPzy76Ehh9z8xC0x7+EhpdkKOwbU61sHT9pMXVlNyoijUj/+ILGLy1N7/fRl
+j0ddHY8IFsoSbKagbvxxfbTwCUfWeeZtg5+YxIM2nmAQV/z2zUgNghglwPvXq/rO
+w86rorMy9/KjfBCC1IgmV9B1Z9uMMZ0mt4bVAQtef7blPCsgaJ59LUlsVYRp1jgs
+PYed6Rt0Tz60WaQcAdPKAQGdGavd0TyAfjgC+SCPQXNP3m17suF0Cbz44PbLCPGy
+oFmt82S6T3k59vSSzRxD4urMpT1SLrnMt5Jf7+kc+wohzby//aVQKrWa5M7ElzkG
+/rmc3qE/92BsNTtvDzUUOsoi1QoLMgctKIaEckaEIsMvosX++pP1SzzKLX4MNOAa
+1VY5mSkvdCsIMnPKJacVi1KneOSRQlhakKRTMXpM8+594a6QOfuDVFltnBi4OHDI
+eRlOO5H77vbeGUPnEJrSFVpJcZhi4Y/jhjHbBRn/3CmusO8hATE=
+=Fqyb
 -----END PGP SIGNATURE-----
+
