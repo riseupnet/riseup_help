@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of octubre 15, 2018, the following are the fingerprints for Riseup's certificates:
+As of October 15, 2018, the following are the fingerprints for Riseup's certificates:
 
  .  *.riseup.net, riseup.net
         SHA-256 fingerprint:
@@ -14,18 +14,17 @@ months and we do not list their fingerprints here
 !!!
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAlvExlQACgkQMEPitxOa
-do4DVw/9FQLagRf67PwG9G2hPQpgK7nSbNlGq67lQIaqBa85fDU5VHlMzjiHSUEC
-8S8JNWgdDliih58BVXs5eP8NCPCuysh84S1AFQkzGFHpUyFQffoQzYPr+K6ZJuwn
-81cLS9D2qL2o0JJ4EBvvKu6MDFDhdC6U3mExSxBBEDu5dj+jR6YILzCg5qV+jN3N
-8wc+aPzy76Ehh9z8xC0x7+EhpdkKOwbU61sHT9pMXVlNyoijUj/+ILGLy1N7/fRl
-j0ddHY8IFsoSbKagbvxxfbTwCUfWeeZtg5+YxIM2nmAQV/z2zUgNghglwPvXq/rO
-w86rorMy9/KjfBCC1IgmV9B1Z9uMMZ0mt4bVAQtef7blPCsgaJ59LUlsVYRp1jgs
-PYed6Rt0Tz60WaQcAdPKAQGdGavd0TyAfjgC+SCPQXNP3m17suF0Cbz44PbLCPGy
-oFmt82S6T3k59vSSzRxD4urMpT1SLrnMt5Jf7+kc+wohzby//aVQKrWa5M7ElzkG
-/rmc3qE/92BsNTtvDzUUOsoi1QoLMgctKIaEckaEIsMvosX++pP1SzzKLX4MNOAa
-1VY5mSkvdCsIMnPKJacVi1KneOSRQlhakKRTMXpM8+594a6QOfuDVFltnBi4OHDI
-eRlOO5H77vbeGUPnEJrSFVpJcZhi4Y/jhjHbBRn/3CmusO8hATE=
-=Fqyb
+iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAlvE0ssACgkQMEPitxOa
+do7kSQ//XFzbmZx80r2AaqGhK+PFTYYsM7BeZf2KdpoqAbh4mWYP5X0MXFxi0ef9
+QA6Pt51tOqrfKTSkKJf0x1y0oJZnOvhDGtZqI2CYAWZpdlXdcIrZKx8NoA1iovfg
+mtJiYTvv1pEp5dZTPK4SSXYiyjoeuqZNUmKu4zICNnwEd0Ue3I1/hsMpktJPHN3F
+tGF/K0X3VD3I6elueGAocw168Eu8e3NBe3reRxx2EzgKx0km1UpwJius+Z9OUjG/
+Q8s9pGDAnbUGrmClWHlHQt5P/Bdam1LJa0eQKsv1pgxY+WLg40TaFgOpbD8Rp0Hs
+EXI8qQIeK682z8Llku3yT+DgW6SCWdp8pz22/BfU+rIbHR+e5JUP0zEcLhgdNQvh
+fja3GpYojNto3TdQJVPwlEU29SbOW5nkmampKyTWhei0Mwdo5UdNdwKClKIkWcMk
+zz3nU5+f5LghhFeCv1hHNVJ7QtuNgJX7VvUyXXyTOoxGLsQ4UfhNA8MhoXz7ONAo
+abS5hjt2Khs/w//JD6tiXJOIfoanrSQVsn9Gx4ToxjLrDnL1F1C3VeqRskNeIR7s
+2MCCFrvQOGYOoObIXtwQYsprJ5IHWE5VDhVtcMuq9/m9Anw9YMyE7W2BJIvZE3/S
+PFRxymQjmG/op5lRKcnZUm3siFAjKy7ZKOzd3WmZ25tQqp9cyvw=
+=Nt6z
 -----END PGP SIGNATURE-----
-
