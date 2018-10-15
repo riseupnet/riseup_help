@@ -1,12 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of October 11, 2017, the following are the fingerprints for Riseup's certificates:
+As of October 15, 2018, the following are the fingerprints for Riseup's certificates:
 
  .  *.riseup.net, riseup.net
         SHA-256 fingerprint:
-                ab1757631d84ba6f77cc0784fcbdccedd6268c217dbe625d53aa976d1de74123
-
+                3814e3eaf91e30451790697a98b1b5594cdbdfef4a73ef5a47ed33c556816645
 
 !!! 
 NOTE: Certificates for help.riseup.net, riseup.net and www.riseup.net are
@@ -15,19 +14,17 @@ months and we do not list their fingerprints here
 !!!
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlnebVxfFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
-MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do57Gg//TDr/S7miVmvm1OSuXk6ZGmSLVbcqCozNurGLkavSlao70EfX7t2vPlHP
-LufrBZaSMTAYhZcSQA/SaaVJbOfaByr1ECk4Y+d2Hocm0/kDdYkrE3MgQTiSV/3R
-w8hFxbi7OLP3Ao3XI+NMpIFy0W5PJ+EsvbiIFyV2obN3iDRCd4XdwI+Xjqdaooni
-ZsohuH6jyo9LF5NH8cVchVZGCGE79Nr++C37bXkKbarWkCM1DAIrzd/Mm8mVB8Do
-Ff7vN3d+3udIU5ztb6mtmPcv95icmqvqz2ca1o3617MbWytvZnqjSWDLahIz9LsM
-/1lF5sJ9e9mZ4yL7OInp+tQQzKjbt/ee5KyjvtX3ZRjT8+Szsz5KIH14DcaDsJ15
-OTyn+Mm/CqdqtW34cKRebhJA2wcZgkOxmlJuGrMGG9+5SNB7BOmpLADTTXUTeabc
-/uERTiFVfcJnhEsAnLnX64dQUqtjVtBIPrGQLHxvYVItXunOw0bt90V7tK7RYRno
-NyRDEEhddVfD/RSs6LbrAACC/7rL8LI8UaZ3tF/xo+ohFD2psfqMzaKQuIBMi2+z
-T2qGdKFqKLy4VZAoYd3Ig5d3cWTMryKcG3qV6qkJn4yDVEXsHEeWFJLS2zgQNFiu
-8A3jUP6cC+weksZezE7AUZv05HVWpRiH0Hw0KpQtv0EczUsxg7k=
-=Hwd9
+iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAlvE0ssACgkQMEPitxOa
+do7kSQ//XFzbmZx80r2AaqGhK+PFTYYsM7BeZf2KdpoqAbh4mWYP5X0MXFxi0ef9
+QA6Pt51tOqrfKTSkKJf0x1y0oJZnOvhDGtZqI2CYAWZpdlXdcIrZKx8NoA1iovfg
+mtJiYTvv1pEp5dZTPK4SSXYiyjoeuqZNUmKu4zICNnwEd0Ue3I1/hsMpktJPHN3F
+tGF/K0X3VD3I6elueGAocw168Eu8e3NBe3reRxx2EzgKx0km1UpwJius+Z9OUjG/
+Q8s9pGDAnbUGrmClWHlHQt5P/Bdam1LJa0eQKsv1pgxY+WLg40TaFgOpbD8Rp0Hs
+EXI8qQIeK682z8Llku3yT+DgW6SCWdp8pz22/BfU+rIbHR+e5JUP0zEcLhgdNQvh
+fja3GpYojNto3TdQJVPwlEU29SbOW5nkmampKyTWhei0Mwdo5UdNdwKClKIkWcMk
+zz3nU5+f5LghhFeCv1hHNVJ7QtuNgJX7VvUyXXyTOoxGLsQ4UfhNA8MhoXz7ONAo
+abS5hjt2Khs/w//JD6tiXJOIfoanrSQVsn9Gx4ToxjLrDnL1F1C3VeqRskNeIR7s
+2MCCFrvQOGYOoObIXtwQYsprJ5IHWE5VDhVtcMuq9/m9Anw9YMyE7W2BJIvZE3/S
+PFRxymQjmG/op5lRKcnZUm3siFAjKy7ZKOzd3WmZ25tQqp9cyvw=
+=Nt6z
 -----END PGP SIGNATURE-----
