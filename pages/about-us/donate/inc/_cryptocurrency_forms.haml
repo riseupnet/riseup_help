@@ -11,17 +11,12 @@
 
     .donation
       %b
-        Coinbase
-        =t :subscribe
-      %form(action="https://www.coinbase.com/checkouts/ac67a9014d25814aea2247e117cd0322" method="get" class="d-inline-block")
-        %input(type="submit" value="$5 #{t :monthly}")
-      %form(action="https://www.coinbase.com/checkouts/67c30cfa5a0ab3c64493c3af93a49482" method="get" class="d-inline-block")
-        %input(type="submit" value="$10 #{t :monthly}")
-      %form(action="https://www.coinbase.com/checkouts/88988e7908f6084533a17b72b6fa6ddd" method="get" class="d-inline-block")
-        %input(type="submit" value="$15 #{t :monthly}")
-      %form(action="https://www.coinbase.com/checkouts/d86c8d027328c26ef8d816d471032e31" method="get" class="d-inline-block")
-        %input(type="submit" value="$20 #{t :monthly}")
-
+        To setup a recurring donation with Coinbase, login to your Coinbase account, click Tools, then click Recurring Transactions. Then click New Recurring Transaction, pick Send.
+        <p>
+        Then click the Generate button on our page below (where it says "Grab a new address"), use that address in the To box in Coinbase.
+        <p>
+        <p>
+        If you know a better way to do this, please let us know!
     <br>
     %p= t :one_time_donation
 
