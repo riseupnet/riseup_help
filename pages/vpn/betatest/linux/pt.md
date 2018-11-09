@@ -34,7 +34,7 @@ Se a RiseupVPN travar ou sua conexão de rede estiver bloqueada, você pode for�
 
 ```
 sudo pkill -e -f riseup-vpn
-sudo riseup-vpn.bitmask-root firewall stop
+sudo /snap/bin/riseup-vpn.bitmask-root firewall stop
 ```
 
 ### Não inicializa
@@ -42,7 +42,7 @@ sudo riseup-vpn.bitmask-root firewall stop
 Caso o ícone do lançador não funcione, você pode rodar a RiseupVPN a partir da linha de comando e, assim, identificar o problema:
 
 ```
-riseup-vpn.launcher
+/snap/bin/riseup-vpn.launcher
 ```
 
 Qualquer problema na inicialização será exibido no terminal.
