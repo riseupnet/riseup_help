@@ -28,13 +28,21 @@ sudo snap install --classic riseup-vpn
 
 ## Troubleshooting
 
+### Get the logs
+
+The log of RiseupVPN is located in your home folder:
+```
+~/.config/leap/systray.log
+```
+When reporting a bug is very useful to include the log file.
+
 ### Force quit
 
 If anything stops working, run these commands and then try again:
 
 ```
 sudo pkill -e -f riseup-vpn
-sudo riseup-vpn.bitmask-root firewall stop
+sudo /snap/bin/riseup-vpn.bitmask-root firewall stop
 test -f ~/.config/leap/systray.pid && rm -v ~/.config/leap/systray.pid
 ```
 
@@ -45,7 +53,7 @@ These commands will ensure that all RiseupVPN processes are killed, the egress f
 If the launcher icon does not work, you can run RiseupVPN from the command line in order to identify the problem:
 
 ```
-riseup-vpn.launcher
+/snap/bin/riseup-vpn.launcher
 ```
 
 Any problem starting will be displayed on the terminal.

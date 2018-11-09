@@ -6,6 +6,7 @@
 
 * [[Android => vpn/android#troubleshooting]]
 * [[Mac => vpn/macos#troubleshooting]]
+* [[Windows => vpn/windows#troubleshooting]]
 * [[Linux => vpn/linux#troubleshooting]]
 
 ### Request help
