@@ -35,6 +35,7 @@ Please include the following information in your bug report:
 ### Get the logs
 
 There are three log files each for a different component of the client:
+
 * The systray log: `/Users/<your user>/Library/Preferences/leap/systray.log`
 * The priviledged helper: `/Applications/RiseupVPN.app/Contents/helper/helper.log`
 * The openvpn process: `/Applications/RiseupVPN.app/Contents/helper/openvpn.log`
