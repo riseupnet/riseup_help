@@ -24,7 +24,7 @@ RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
 
 **Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
 
-On your bug report is useful to include the following information:
+Please include the following information in your bug report:
 
 * Steps to reproduce the bug
 * What is the expected behaviour and what do you see
@@ -34,8 +34,9 @@ On your bug report is useful to include the following information:
 
 ### Get the logs
 
-There is three log files each for a different component of the client:
+There are three log files each for a different component of the client:
 * The systray log: `/Users/<your user>/Library/Preferences/leap/systray.log`
 * The priviledged helper: `/Applications/RiseupVPN.app/Contents/helper/helper.log`
 * The openvpn process: `/Applications/RiseupVPN.app/Contents/helper/openvpn.log`
-When reporting a bug is very useful to include the log files.
+
+When reporting a bug it is very useful to include the log files.
