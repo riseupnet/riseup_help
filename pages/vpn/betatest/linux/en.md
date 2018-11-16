@@ -49,9 +49,11 @@ Please include the following information in your bug report:
 ### Get the logs
 
 The log of RiseupVPN is located in your home folder:
+
 ```
 ~/.config/leap/systray.log
 ```
+
 When reporting a bug it is very useful to include the log file.
 
 ### Force quit
