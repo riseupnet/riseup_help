@@ -38,12 +38,12 @@ RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
 
 **Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
 
-On your bug report is useful to include the following information:
+Please include the following information in your bug report:
 
 * Steps to reproduce the bug
 * What is the expected behaviour and what do you see
-* A screenshot if is something visual
-* Your linux distribution and it's version
+* A screenshot if it is something visual
+* Your linux distribution and its version
 * The log of the program
 
 ### Get the logs
@@ -52,7 +52,7 @@ The log of RiseupVPN is located in your home folder:
 ```
 ~/.config/leap/systray.log
 ```
-When reporting a bug is very useful to include the log file.
+When reporting a bug it is very useful to include the log file.
 
 ### Force quit
 
