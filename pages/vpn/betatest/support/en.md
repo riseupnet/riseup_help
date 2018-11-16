@@ -22,14 +22,13 @@ Please make sure to include the following information:
 
 ### Report a bug
 
-#### Linux, Mac, Windows
-RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
+* [[Android => vpn/android#troubleshooting]]
+* [[Mac => vpn/macos#troubleshooting]]
+* [[Windows => vpn/windows#troubleshooting]]
+* [[Linux => vpn/linux#troubleshooting]]
 
-**Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
+### Contact channels
 
-**Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
+You can join the RiseupVPN and bitmask [[tester mailing list => https://lists.riseup.net/www/info/bitmask]]. There you can ask questions and be part of a community conversation around the development versions of our beloved VPN client.
 
-**Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
-
-#### Android
-Instructions can be found [[here => vpn/android#troubleshooting]].
+There is also an irc channel for more instant conversations: [[#leap @ irc.freenode.net => https://webchat.freenode.net/?channels=leap]]

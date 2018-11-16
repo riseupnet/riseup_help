@@ -14,6 +14,24 @@ Once you have saved the file, double click <code>RiseupVPN.pkg</code> to install
 
 ## Troubleshooting
 
+### Bug Reports and Feature Requests
+
+RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
+
+**Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
+
+**Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
+
+**Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
+
+On your bug report is useful to include the following information:
+
+* Steps to reproduce the bug
+* What is the expected behaviour and what do you see
+* A screenshot if is something visual
+* Your windows version
+* The logs of the program
+
 ### Get the logs
 
 There is three log files each for a different component of the client:
