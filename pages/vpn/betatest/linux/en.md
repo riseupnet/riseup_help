@@ -28,13 +28,31 @@ sudo snap install --classic riseup-vpn
 
 ## Troubleshooting
 
+### Bug Reports and Feature Requests
+
+RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
+
+**Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
+
+**Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
+
+**Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
+
+Please include the following information in your bug report:
+
+* Steps to reproduce the bug
+* What is the expected behaviour and what do you see
+* A screenshot if it is something visual
+* Your linux distribution and its version
+* The log of the program
+
 ### Get the logs
 
 The log of RiseupVPN is located in your home folder:
 ```
 ~/.config/leap/systray.log
 ```
-When reporting a bug is very useful to include the log file.
+When reporting a bug it is very useful to include the log file.
 
 ### Force quit
 
@@ -63,7 +81,7 @@ Any problem starting will be displayed on the terminal.
 If you want to help us test a development, pre-release version of RiseupVPN, you can install it using this command:
 
 ```
-sudo snap install --classic --edge riseup-vpn
+sudo snap install --classic --beta riseup-vpn
 ```
 
 ### Remove PID file
