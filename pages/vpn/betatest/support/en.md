@@ -18,10 +18,11 @@ Please make sure to include the following information:
 * What operating system you are using.
 * What version of RiseupVPN you have installed.
   * For desktop, this can be found under **Shield menu** > **About...**
-  * For Android, this can be found uner **Side menu** > **About...**
+  * For Android, this can be found under **Side menu** > **About...**
 
 ### Report a bug
 
+#### Linux, Mac, Windows
 RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
 
 **Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
@@ -30,3 +31,5 @@ RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
 
 **Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
 
+#### Android
+Instructions can be found [[here => vpn/android#troubleshooting]].
