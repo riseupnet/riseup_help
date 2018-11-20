@@ -29,7 +29,7 @@ Please include the following information in your bug report:
 * Steps to reproduce the bug
 * What is the expected behaviour and what do you see
 * A screenshot if is something visual
-* Your windows version
+* Your macOS version
 * The logs of the program
 
 ### Get the logs

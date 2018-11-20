@@ -1,0 +1,60 @@
+- @title = "RiseupVPN bêta-test"
+- @nav_title = "Beta Test"
+- @toc = true
+
+%img(src="riseupvpn.svg" style="float:left")
+
+%p
+  Riseup est actuellement en train de tester un nouveau client nommé <b>RiseupVPN</b>. Ce client VPN est très facile à utiliser! Il suffit de l'installer et de le faire rouler &mdash; aucune configuration n'est requise. Pas besoin d'enregister un compte non plus!
+
+%p
+  Ce test est une expérience. Nous souhaitons savoir si nous pouvons créer un service de VPN qui est assez facile pour que tout le monde puisse l'utiliser et qui reçoit assez de dons pour rester à flot.
+
+%p
+  Essayez-le et faites-nous savoir ce que vous en pensez. Parlez-en à vos ami-e-s!
+
+%h2 Télécharger RiseupVPN
+
+%a.btn-download(href="linux")
+  %img(src="linux.svg" width="48px")
+  %b GNU/Linux
+
+%a.btn-download(href="macos")
+  %img(src="apple.svg" width="48px")
+  %b macOS
+
+%a.btn-download(href="windows")
+  %img(src="windows.svg" width="48px")
+  %b windows
+
+%a.btn-download(href="android")
+  %img(src="android.svg" width="48px")
+  %b Android
+
+%h2 Utiliser RiseupVPN
+
+%p
+  Sur Mac, Windows et Linux, RiseupVPN crée une icône dans la barre de tâches qui indique si le VPN est connecté ou non:
+
+%p
+  %img(src="vpn_off.png") &mdash; le VPN est éteint.
+
+%p
+  %img(src="vpn_on.png") &mdash; le VPN is allumé, et tout le trafic passe sécuritairement par le VPN.
+
+%p
+  %img(src="vpn_blocked.png") &mdash; le VPN est éteint et tout le trafic est bloqué.
+
+%p
+  %img(src="vpn_wait_0.png") &mdash; VPN est connecté et tout le trafic est bloqué.
+
+%p
+  Pour allumer ou éteindre le VPN, il suffit de cliquer sur l'icône dans la barre de tâches et sélectionner l'item souhaité dans le menu qui s'affiche.
+
+%h2 Donnez!
+
+= render :page => 'vpn/donate'
+
+%h2 Problèmes et support technique
+
+= render :page => 'vpn/support'
