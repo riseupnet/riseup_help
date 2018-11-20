@@ -47,3 +47,7 @@ When reporting a bug it is very useful to include the log files.
 We believe there is no DNS or IP leaks in RiseupVPN on windows, but it is not battle tested. Unlike Mac or linux, there is no firewall on windows.
 
 If you find any kind of leaks we are very interested in hearing about it.
+
+### Test a pre-release version
+
+If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-systray/-/jobs/artifacts/master/download?job=win_installer]].
