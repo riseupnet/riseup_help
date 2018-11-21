@@ -1,0 +1,64 @@
+@title = 'Sending Mail'
+
+想要发送邮件，你必须首先设置好SMTP
+
+h2. 什么是SMTP？
+
+SMTP 就是简单邮件传输协议(Simple Mail Transfer Protocol)。它规定了邮件服务器彼此如何通信。如果你想在互联网上发邮件，你需要有一个SMTP服务器。如果你使用网页邮箱，所有的一切都已经自动配置好了，你无需担心使用那个邮件服务器。如果你使用邮件客户端，你必须输入特定的邮件服务器作为你的“发送服务器”。
+
+h2. 为什么我要使用 riseup.net's 邮件服务器？
+
+理由很多：
+
+* Riseup.net 提供的SMTP服务器时经过加密的。其他很多SMTP服务商都是明文传输的，毫无安全性可言。
+* 我们不会把你的ip地址写在你的邮件头部。据我们所知，只有很少一部分邮件提供商会这么做。
+* 一些邮件服务提供商不允许发送发送地址不是他们的域名的邮件（比如，如果你不是AOL的用户却试图用他们的SMTP服务器发送邮件，你会发送失败）
+* 一些邮件服务提供商会限制邮件发送的数量
+* Riseup.net 提供的SMTP服务是方便的：它不要求你使用某种网络。即使你离开你的电脑，你也依然能够使用它。
+
+h2. 我该如何配置SMTP？
+
+Riseup's 的发件服务器需要认证，要求使用SSL或者TLS安全连接，而且拒绝垃圾邮件。为了使用riseup.net的SMTP服务器，你需要做如下配置：
+
+* *发件服务器*: @mail.riseup.net@
+* *用户名*:你的 riseup.net 账户
+比如说，你的邮箱地址是 joe_hill@riseup.net，你的登录名就是  @joe_hill@。这个是 *必选项* 。如果你的客户端不支持认证SMTP，那么你无法使用我们的发件服务器。
+* *使用安全连接* : 总是
+这个也是 *必选项*。如果你的客户端不支持安全SMTP，你也无法使用riseup.net的发件服务器。你可能有 *TLS* 或者 *SSL* 两个选项。两个选项都行，但是因为很多ISP都会屏蔽25端口（TLS使用的端口），所以我们推荐选择SSL。
+* *端口*: 对于TLS而言，填@465@端口；对*StartSSL*而言，填 @587@ 。如果某个被屏蔽了，就换另一个。
+
+对于不同的邮件客户端，你可以到 [[email clients => email/clients]] 查看更多细节。
+
+h2. 我能发送多少邮件？
+
+呃？如果你打算一下子发送几千条，你最好提前和我们联系。发送邮件到 support@riseup.net 。
+
+h2. 中继访问失败是什么意思？
+
+这个错误可能由下面几个原因所致：
+
+# 你没有指定 smtp.riseup.net 作为发件服务器
+# 你输入了错误的用户名
+# 你没有为你的邮件客户端配置认证。这是必选项。
+# 你没有使用安全连接，SSL或者TlS。这个也是必选项。
+# 你启用了安全密码。这个并不会带来更多的安全，这个选项也不与我们的服务器兼容。
+# 我们的数据库暂时不在线。这种事情很少发生。具体原因是我们正在对数据库进行快速备份，稍等片刻即可。
+
+错误的全文可能看起来是这个样子：
+
+<pre>The message could not be sent because one of the recipients was rejected by the server. The rejected e-mail address was 'joe_hill@revolt.org'.</pre>
+
+<pre>Subject 'test', Account: 'myaccount@riseup.net', Server: 'mail.riseup.net', Protocol: SMTP, Server Response: '554 joe_hill@revolt.org: Relay access denied', Port: 25, Secure(SSL): Yes, Server Error: 554, Error Number: 0x800CCC79</pre>
+
+h2. 为什么我只能发送邮件给 riseup.net 的用户？
+
+可能你没有配置好客户端，客户端与服务器认证失败。
+
+h2. 为什么我的ISP屏蔽了我的发件服务器？
+
+SMTP发件服务器有两个端口可用：
+
+* 端口 465 (TLS)
+* 端口 587 (StartTLS)
+
+如果一个端口被屏蔽了，换另外一个。
