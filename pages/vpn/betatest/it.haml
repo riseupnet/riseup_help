@@ -1,0 +1,60 @@
+- @title = "RiseupVPN Beta Test"
+- @nav_title = "Beta Test"
+- @toc = true
+
+%img(src="riseupvpn.svg" style="float:left")
+
+%p
+  Riseup sta testando in beta un nuovo client chiamato <b>RiseupVPN</b>. Questo client VPN è facilissimo da usare! Semplicemente, installalo e lancialo&mdash; nessuna configurazione e nessun account.
+
+%p
+  Si tratta di un esperimento per vedere se possiamo creare un servizio VPN abbastanza semplice da usare per tutti e che sia sostenibile con le donazioni delle persone.
+
+%p
+  Provalo per favore e facci sapere cosa ne pensi. E dillo ai tuoi amici!
+
+%h2 Scarica RiseupVPN
+
+%a.btn-download(href="linux")
+  %img(src="linux.svg" width="48px")
+  %b GNU/Linux
+
+%a.btn-download(href="macos")
+  %img(src="apple.svg" width="48px")
+  %b macOS
+
+%a.btn-download(href="windows")
+  %img(src="windows.svg" width="48px")
+  %b windows
+
+%a.btn-download(href="android")
+  %img(src="android.svg" width="48px")
+  %b Android
+
+%h2 Come si usa RiseupVPN
+
+%p
+  Su Mac, Windows e Linux, RiseupVPN crea un menu nella barra delle applicazioni con un'icona che indica se la VPN è connessa o no:
+
+%p
+  %img(src="vpn_off.png") &mdash; La VPN non è attiva.
+
+%p
+  %img(src="vpn_on.png") &mdash; La VPN è attiva e tutto il traffico viene instradato in modo sicuro attraverso la VPN.
+
+%p
+  %img(src="vpn_blocked.png") &mdash; La VPN non è attiva e tutto il traffico è bloccato.
+
+%p
+  %img(src="vpn_wait_0.png") &mdash; La VPN si sta connettendo e tutto il traffico è bloccato.
+
+%p
+  Per attivare o disattivare la VPN, clicca l'icona nella barra delle applicazioni e seleziona la voce di menu desiderata.
+
+%h2 Donate!
+
+= render :page => 'vpn/donate'
+
+%h2 Risoluzione dei problemi e supporto
+
+= render :page => 'vpn/support'
