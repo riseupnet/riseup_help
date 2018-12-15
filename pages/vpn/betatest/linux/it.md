@@ -3,7 +3,7 @@
 
 ## Requisiti
 
-Al momento RiseupVPN è disponibile per Linux solo come pacchetto usando `snap`. Se usi Ubuntu snap è già installato, altrimenti lancia il seguente comando:
+Al momento RiseupVPN è disponibile per Linux come pacchetto solo usando `snap`. Se usi Ubuntu snap è già installato, altrimenti lancia il seguente comando:
 
 ```
 sudo apt install snapd
