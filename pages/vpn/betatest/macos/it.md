@@ -24,13 +24,13 @@ RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-systray
 
 **Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-systray/issues/new]].
 
-Per favore, includi le seguenti informazioni nella tua segnalazione di malfunzionamento:
+Nella tua segnalazione, per favore includi le seguenti informazioni:
 
 * Passi per riprodurre il problema
 * Qual'è il comportamento che ti saresti aspettato e cosa vedi
 * Uno screenshot nel caso ci sia qualcosa di visibile
-* La tua distribuzione linux e la relativa versione
-* Il log del programma
+* La versione di macOS
+* I log del programma
 
 
 ### Per prendere i log
