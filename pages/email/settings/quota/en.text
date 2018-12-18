@@ -10,12 +10,6 @@ It would be very time consuming for the server to calculate an exact quota usage
 
 Another thing the mail server does to save time is to only update the quota "guess" when you receive a new message. This means that if you delete a message, your quota will not appear to change until the next time you receive an email.
 
-h2. How do I increase my quota?
-
-# Login to https://account.riseup.net
-# click *Email*
-# enter new quota amount
-
 h2. Where is my quota going?
 
 # Login to https://mail.riseup.net
@@ -27,3 +21,7 @@ h2. Where is my quota going?
 This will provide the folder size to you in human readable format.
 
 All messages in your folders count towards your quota, including messages in the [[special folders => email-folders]] Trash, Sent and Spam.
+
+h2. But, but we really need more quota!
+
+We really encourage you to download your e-mail, but we know that in some cases that's not an option as when multiple people have access to a single mail account. If your group or collective project have really the needs for more e-mail storage, please open a support a ticket at https://support.riseup.net after you reach at least 60% of your quota so we can discuss options.

@@ -10,13 +10,6 @@ Es wäre sehr zeitaufwändig für den Server, den genauen Speicherplatz zu berec
 
 Der Server spart auch dadurch Rechenzeit, indem die Quota nur dann neu "geschätzt" wird, sobald eine neue Nachricht eintrifft. Das bedeutet, wenn du Nachrichten löschst, verändert sich die Quota nicht bis die nächste Nachricht ankommt.
 
-h2. Wie erhöhe ich meine Quota?
-
-# Melde dich an bei https://account.riseup.net
-# Klick auf *Email*
-# Gib eine neue Zahl ein
-# Klicke auf *Save*
-
 h2. Wohin verschwindet mein Speicherplatz?
 
 _Falls deine Benutzeroberfläche nicht die deutsche Lokalisierung verwendet, klicke auf die englische Version dieser Seite (siehe links)._
