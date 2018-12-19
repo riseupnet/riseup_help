@@ -10,15 +10,6 @@ Le calcul exact du quota disponible pour chaque compte email à tout instant ser
 
 Toujours pour économiser le temps de calcul, le serveur ne met à jour l'estimation du quota disponible restant que lorsque vous recevez un nouveau message. Cela signifie que si vous supprimez des messages, votre quota disponible restant, votre quota disponible restant semblera inchangé jusqu'à l'arrivée du prochain nouveau message.
 
-h2. Comment puis-je augmenter mon espace de stockage ?
-
-# Identifiez-vous dans https://account.riseup.net
-# Cliquez sur *Email*
-# Entrez une nouvelle valeur de quota
-# Enregistrez les nouveaux paramètres
-
-Gardez à l'esprit que l'espace de stockage constitue nos dépenses en matériel les plus importantes. Si vous augmentez votre espace de stockage, nous apprécions que vous augmentiez également vos dons.
-
 h2. Quels dossiers de messages utilisent le plus mon espace de stockage ?
 
 Pour le savoir, identifiez-vous au "webmail riseup":https://mail.riseup.net et cliquez sur *Paramètres* (icône représentant une roue dentée). Dans le menu qui s'ouvre, choisissez *Dossiers* : vous pouvez alors sélectionner chaque dossier de messages individuellement, et plusieurs informations dont le nombre de messages et la taille du dossier s'affichent dans le panneau de droite.

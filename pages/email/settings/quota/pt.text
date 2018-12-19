@@ -10,12 +10,6 @@ Calcular a quantidade exata de cota usada consumiria muito tempo do servidor. Em
 
 Para economizar tempo, o servidor só atualiza a estimativa de cota quando você recebe uma nova mensagem. Assim, mesmo se você apagar algumas mensagens, sua cota não parecerá mudar até a próxima vez que você receber um e-mail.
 
-h2.  Como aumentar minha cota?
-
-# Entre em https://account.riseup.net.
-# Clique em *E-mail*.
-# Insira um novo valor para a cota.
-
 h2.  Para onde está indo minha cota?
 
 # Entre em https://mail.riseup.net.
