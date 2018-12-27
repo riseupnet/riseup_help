@@ -2,53 +2,52 @@
 
 h2. Escolhendo um navegador
 
-Todos os quatro maiores navegadores de rede -- Firefox, Chrome, Internet Explorer e Safari -- têm apresentado graves falhas de segurança nos últimos tempos, então é importante que você verifique se está usando a versão mais recente, qualquer que seja a sua escolha.
+Todos os quatro maiores navegadores da web -- Firefox, Chrome, Internet Explorer e Safari -- têm apresentado graves falhas de segurança nos últimos tempos, então você deve se certificar de que está usando a versão mais recente, qualquer que seja a sua escolha.
 
-Todos esses quatro principais navegadores receberam notas ruins na nossa avaliação (confira em [[browser-score-card]]). Mas estes navegadores podem ter um funcionamento bem melhor, instalando-se algumas extensões (veja abaixo).
+Todos esses quatro principais navegadores receberam notas ruins na nossa avaliação (confira em [[browser-score-card]]). Eles podem, porém, funcionar bem melhor se algumas extensões forem instaladas (ver abaixo).
 
-Uma alternativa é a versão modificada do Firefox disponibilizada pelo projeto Tor, adaptada para ser mais segura e anônima, chamada [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
+Como alternativa, o projeto Tor oferece uma versão modificada do Firefox, adaptada para maior segurança e anonimato, chamada [[Tor Browser => https://www.torproject.org/download/download-easy.html]].
 
 h2. Ajuste suas configurações
 
-h3. Desativar cookies de terceiros
+h3. Desative cookies de terceiros
 
-Cookies de terceiros são identificadores de rastreamento usados por redes de publicidade para traçar seu comportamento enquanto você navega de site em site. Eles são abomináveis e não têm propósitos legítimos.
+Cookies de terceiros são identificadores de rastreamento usados por redes de publicidade para traçar seu comportamento enquanto você navega de site em site. Eles são uma abominação e não servem a propósitos legítimos.
 
-* Firefox: Preferências > Privacidade > Permitir cookies de fora do site atual > Nunca.
-* Chrome: Configurações > Mostrar configurações avançadas... > Configurações de conteúdo > Bloquear cookies de terceiros e dados de site.
+* Firefox: Preferências > Privacidade e segurança > Bloqueio de conteúdo > Cookies de terceiros > Todos os cookies de terceiros.
+* Chrome: Configurações > Avançado > Privacidade e segurança > Configurações de conteúdo > Cookies > Bloquear cookies de terceiros.
 
-h3. Limpar cookies ao sair
+h3. Limpe os cookies ao sair
 
-A maioria dos navegadores guardam os cookies mais tempo que o necessário. É melhor configurar seu navegador para limpar os cookies quando sair.
+A maioria dos navegadores guarda cookies por muito mais tempo do que o necessário. É melhor configurar seu navegador para limpá-los quando for fechado.
 
-* Firefox: Preferências > Privacidade > Preservar cookies até > Sair do Firefox. 
-* Chrome: Configurações > Mostrar configurações avançadas... > Configurações de conteúdo > Manter cookies e dados do site por padrão até você sair do navegador.
+* Firefox: Preferências > Privacidade e segurança > Cookies e dados de sites > Manter até Firefox ser fechado. 
+* Chrome: Configurações > Avançado > Privacidade e segurança > Configurações de conteúdo > Cookies > Manter os dados locais só até você sair do navegador.
 
-h3. Desativar Flash
+h3. Desative o Flash
 
-Flash é um plug-in da Adobe que tem sido a causa de uma enxurrada de problemas de segurança. Recomendamos fortemente que você remova ou desabilite Flash.
+Flash é um plug-in da Adobe que tem sido fonte de uma enxurrada de problemas de segurança. Recomendamos veementemente que você o remova ou desabilite.
 
-* Firefox: Complementos > Plugins > Flash > Nunca ativar.
-* Chrome: Configurações > Mostrar configurações avançadas... > Configurações de conteúdo > Não permitir plugins por padrão.
+* Firefox: Extensões > Plugins > Flash > Nunca ativar.
+* Chrome: Configurações > Avançado > Configurações de conteúdo > Perguntar primeiro.
 
-h3. Desativar Java
+h3. Desative o Java
 
-Java também tem muitos problemas de segurança, e é provável que você nunca o tenha usado. Remova ou desabilite-o logo.
+Java também apresenta muitos problemas de segurança, e é provável que você nunca sequer tenha precisado usá-lo. Remova-o ou desabilite-o sem demora.
 
-* Firefox: Complementos > Plugins > Java > Nunca ativar.
-* Chrome: Configurações > Mostrar configurações avançadas... > Configurações de conteúdo > Não permitir plugins por padrão.
+* Firefox: Extensões > Plugins > Java > Nunca ativar.
 
 h3. Altere a ferramenta de busca padrão
 
-Já que está arrumando suas configurações, aproveite a oportunidade para mudar sua ferramenta de busca padrão para [[duckduckgo.com => https://duckduckgo.com]]. Riseup recomenda DuckDuckGo dentre as ferramentas de busca que respeitam sua privacidade. Veja as instruções para [[navegadores de computadores => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] ou [[navegadores de aparelhos móveis => https://duck.co/help/mobile]].
+Já que está arrumando suas configurações, aproveite para mudar sua ferramenta de busca padrão para [[duckduckgo.com => https://duckduckgo.com]]. O DuckDuckGo é a recomendação do Riseup dentre as opções de ferramenta de busca que respeitam a sua privacidade. Confira as instruções de uso para [[navegadores desktop => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]] e [[navegadores móveis => https://duck.co/help/mobile]].
 
-h2. Extensões de navegação
+h2. Extensões de navegador
 
-As extensões desta lista funcionam em Firefox e Chrome, exceto quando indicado.
+As extensões desta lista funcionam tanto no Firefox quanto no Chrome, exceto onde indicado.
 
 h3. Extensões essenciais
 
-Estas são extensões de navegação absolutamente essenciais que todo mundo deveria usar o tempo todo. Elas são estáveis, de código aberto, e raramente travam as páginas.
+Estas são extensões de navegação absolutamente essenciais que deveriam ser usadas sempre. Elas são estáveis, de código aberto e raramente causam travamentos.
 
 <table class="table">
 <tr>
@@ -56,7 +55,7 @@ Estas são extensões de navegação absolutamente essenciais que todo mundo dev
     !img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/pt-BR/firefox/addon/ublock-origin/]]) evita a maioria das redes de publicidade e rastreamento. É similar a Adblock Plus e Disconnect, mas funciona melhor e é mais rápido.
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/pt-BR/firefox/addon/ublock-origin/]]) evita a maioria das redes de publicidade e rastreamento. É similar ao Adblock Plus e ao Disconnect, mas funciona melhor e é bem mais rápido.
   </td>
 </tr>
 <tr>
@@ -64,7 +63,7 @@ Estas são extensões de navegação absolutamente essenciais que todo mundo dev
     !img/https-64.png!
   </td>
   <td>
-    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] estabelece automaticamente uma conexão segura usando TLS, quando há suporte. Isso ajuda a proteger contra a vigilância do conteúdo que você está navegando, apesar de não conseguir esconder qual página você está visitando (a não ser que você também use [[Tor]] ou uma [[VPN]]).
+    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] estabelece automaticamente uma conexão segura usando TLS quando há disponibilidade. Isso ajuda a proteger o conteúdo da sua navegação de vigilância, apesar de não ocultar o endereço da página acessada (a não ser que você também use [[Tor]] ou uma [[VPN]]).
   </td>
 </tr>
 <tr>
@@ -72,55 +71,57 @@ Estas são extensões de navegação absolutamente essenciais que todo mundo dev
     !img/badger-64.png!
   </td>
   <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] detecta de forma dinâmica tentativas de rastrear seu comportamento e bloqueia conteúdos desses rastreadores. Privacy Badger não é projetado para bloquear propagandas, então não é um substituto de uBlock, mas tem algumas funções de segurança que uBlock não tem.
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] detecta de forma dinâmica tentativas de rastrear seu comportamento de navegação e bloqueia conteúdos desses rastreadores. O Privacy Badger não é projetado para bloquear propagandas, então não é um substituto do uBlock, porém conta com algumas funções de segurança que este não tem (em modo padrão).
   </td>
 </tr>
 </table>
 
 Observações:
 
-* Vazamento de endereços IP: todo navegador vaza seu endereço IP verdadeiro durante conferências de áudio ou vídeo. Quando usar uma VPN ou Tor durante um bate-papo de áudio ou vídeo, acesse as configurações do uBlock e habilite a opção que impede o WebRTC de vazar seu endereço IP verdadeiro.
-* Modo avançado do uBlock: antes de executar o uBlock [[no modo avançado => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], desligue o Privacy Badger.
+* Vazamento de endereços IP: todo navegador vaza seu endereço IP verdadeiro durante conferências de áudio ou vídeo. Quando usar uma VPN ou Tor durante um bate-papo de áudio ou vídeo, acesse as configurações do uBlock e habilite a opção que impede a WebRTC de vazar seu endereço IP verdadeiro.
+* Modo avançado do uBlock: antes de executar o uBlock [[em modo avançado => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]], desligue o Privacy Badger.
 
 h3. Extensões avançadas
 
-Estas extensões são recomendadas para usuárias e usuários avançados, porque elas são complicadas de usar ou podem prejudicar o funcionamento de muitos sites.
+Estas extensões são recomendadas para quem tem conhecimento avançado, seja porque são complicadas de usar ou porque podem prejudicar o funcionamento de vários sites.
 
-Estas extensões são tentativas de contornar as falhas básicas de privacidade em como operam os navegadores de rede. Porém, muitas páginas dependem dessas falhas de privacidade para o seu funcionamento básico, então tentativas de arrumar esses problemas podem parar o funcionamento da página com frequência.
+Estas extensões tentam contornar falhas básicas de privacidade em como operam os navegadores da web. Entretanto, a estrutura básica de muitos sites depende dessas falhas de privacidade, ou seja, eles deixam de funcionar quando são feitas tentativas de consertá-las.
 
-Algumas dessas falhas de privacidade incluem:
+São algumas dessas falhas de privacidade:
 
-* *HTTP Referrer:* quando você clica num link, seu navegador envia para a nova página a localização da página anterior. Informações de identificação pessoal podem estar inclusas na URL de uma página particular, por isso o HTTP Referrer deve ser desativado. Você só consegue fazer isso com uma extensão.
-* *HTTP User-Agent:* seu navegador de rede envia uma cadeia de caracteres (string) especial de "User-Agent" (agente utilizador) para toda página que você visita. Essa cadeia contém um monte de informação incomum que pode ser usada, junto com outros dados, para identificar exclusivamente o seu tráfego na rede. Essa string não tem muita utilidade hoje em dia, e o melhor é usar um valor genérico, como aquele usado pelo navegador Tor.
-* *HTML5 Canvas:* muitos sites estão começando a usar o HTML5 Canvas para identificar sua navegação e rastrear seu comportamento. Atualmente não há formas de desativá-lo, porém algumas novas extensões estão fazendo tentativas.
-* *JavaScript:* JavaScript é essencial para a maioria dos sites nos dias de hoje, mas tem vezes que você deseja desativá-lo. Quando Java está habilitado, é mais fácil para um site identificar sua navegação e rastrear seu comportamento. Além disso, a maioria das fragilidades de segurança dos navegadores são causadas por JavaScript.
+* *HTTP Referrer:* quando você clica em um link, seu navegador envia para a página aberta a localização da anterior. Informações de identificação pessoal podem estar inclusas no URL de uma página em particular, por isso o HTTP Referrer deve ser desativado. Você só consegue fazer isso com uma extensão.
+* *HTTP User-Agent:* seu navegador envia uma cadeia de caracteres especial de "User-Agent" (agente utilizador) para toda página que você acessa. Essa cadeia contém uma grande quantidade de informações incomuns que podem ser usadas, junto com outros dados, para identificar exclusivamente o seu tráfego na rede. Essa string não tem muita utilidade hoje em dia, portanto é melhor usar um valor genérico, como o do Tor Browser.
+* *HTML5 Canvas:* muitos sites estão começando a usar o elemento canvas do HTML5 para identificar sua navegação e rastrear seu comportamento. Atualmente não há como desativá-lo, embora algumas novas extensões estejam fazendo tentativas rudimentares.
+* *JavaScript:* JavaScript é essencial para a maioria dos sites atualmente, mas pode ser que você queira desabilitá-lo algum dia. Quando está habilitado, é mais fácil para um site identificar o seu navegador e rastrear seu comportamento. Além disso, a maioria das vulnerabilidades de segurança dos navegadores é causada por JavaScript.
 
 Para Firefox:
 
-* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] irá limpar os cookies de uma página quando todas as abas daquele site forem fechadas (ao invés de ter que reiniciar seu navegador).
-* [[µMatrix => https://addons.mozilla.org/pt-BR/firefox/addon/umatrix/]] permite que você bloqueie seletivamente o JavaScript, plug-ins e outros recursos, e controle recursos de terceiros. Ele inclui várias funcionalidades de proteção à privacidade, como camuflagem do _user-agent_, bloqueio do rastreamento de sites de origem e muito mais. Ele substitui o NoScript e o RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] pode ser usado para alterar o _user-agent_ indicado pelo protocolo HTTP.
-* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] permite que você desabilite HTML5 Canvas em sites específicos. 
+* [[Self Destructing Cookies => https://addons.mozilla.org/pt-BR/firefox/addon/self-destructing-cookies/]] limpa os cookies de um site quando todas as abas dele são fechadas (e não apenas quando o navegador é fechado).
+* [[µMatrix => https://addons.mozilla.org/pt-BR/firefox/addon/umatrix/]] permite bloquear seletivamente JavaScript, plug-ins e outros recursos, além de controlar recursos de terceiros. Ele também inclui várias funcionalidades de privacidade, como camuflagem do user-agent, bloqueio do rastreamento de sites de origem e muito mais. Ele substitui o NoScript e o RequestPolicy.
+* [[User-Agent Switcher => https://addons.mozilla.org/pt-BR/firefox/addon/user-agent-switcher/]] pode ser usado para alterar o user-agent de HTTP.
+* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/pt-BR/firefox/addon/canvasblocker/]] permite que você desabilite o elemento canvas do HTML5 em sites específicos. 
 
 Para Chrome:
 
-* [[µMatrix => https://addons.mozilla.org/pt-BR/firefox/addon/umatrix/]] permite que você bloqueie seletivamente o JavaScript, plug-ins e outros recursos, e controle recursos de terceiros. Ele inclui várias funcionalidades de proteção à privacidade, como camuflagem do _user-agent_, bloqueio do rastreamento de sites de origem e muito mais. Ele substitui o NoScript e o RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] permite que você modifique o HTTP User-Agent.
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] permite que você bloqueie seletivamente o JavaScript, plug-ins e outros recursos, além de controlar recursos de terceiros. Ele inclui várias funcionalidades de proteção à privacidade, como camuflagem do user-agent, bloqueio do rastreamento de sites de origem e muito mais. Ele substitui o NoScript e o RequestPolicy.
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] permite que você modifique o user-agent de HTTP.
+* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] bloqueia a maior parte do rastreamento de pegadas digitais através do elemento canvas do HTML5 (código não aberto).
 
 h3. Perigosas ou não recomendáveis
 
 Apesar de sua popularidade, recomendamos que você evite as seguinte extensões:
 
-* [[Adblock Plus => https://adblockplus.org/]] era a melhor extensão para bloquear propaganda e rastreamento. Porém, agora eles tem um esquema no qual anunciantes podem pagar para passar pelos seus filtros. Sem contar que uBlock tem uma tecnologia melhor. 
-* [[Disconnect => https://disconnect.me/disconnect]] funciona como uBlock e é de código aberto. Se está usando uBlock, Disconnect é desnecessário, mas ele tem algumas opções de visualização que uBlock não tem. 
-* [[Ghostery => https://www.ghostery.com]] funciona como uBlock, mas suas configurações padrão são péssimas e permitem a maioria dos rastreamentos, além de que seu código é proprietário.
-* Flash Block (Firefox) é uma extensão que permite que você "clique para ativar" Flash. É preferível desinstalar Flash. Além disso, essa opção agora é integrada ao Firefox.
-* TrackMeNot gera tráfegos de busca falsos. É uma ideia interessante, mas é melhor e mais fácil usar DuckDuckGo.
+* [[Adblock Plus => https://adblockplus.org/]] costumava ser a melhor extensão para bloquear propaganda e rastreamento. Porém, agora eles tem um esquema no qual anunciantes podem pagar suborno para passar pelos seus filtros. Sem contar que o uBlock tem uma tecnologia melhor. 
+* [[Disconnect => https://disconnect.me/disconnect]] funciona como o uBlock e é de código aberto. Para quem usa o uBlock, o Disconnect é desnecessário, embora tenha algumas opções de visualização que aquele não tem. 
+* [[Ghostery => https://www.ghostery.com]] funciona como o uBlock, mas suas configurações padrão são péssimas e permitem a maioria dos rastreamentos, além do que seu código é proprietário.
+* Flash Block (Firefox) é uma extensão que permite que você "clique para ativar" o Flash. É preferível desinstalar o Flash. Além disso, essa opção agora é integrada ao Firefox.
+* [[Better Privacy => https://addons.mozilla.org/pt-BR/firefox/addon/betterprivacy/]] já foi útil para remover objetos locais compartilhados, ou "cookies do Flash", mas desde a chegada da API [[ClearSiteData => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]], essa extensão não é mais necessária.
+* TrackMeNot gera tráfegos de busca falsos. É uma ideia interessante, mas é muito melhor apenas usar DuckDuckGo.
 
 h2. Verifique a validação do certificado de Riseup 
 
-Na internet, um certificado é necessário para verificar a identidade de pessoas e computadores. Esses certificados também são chamados de certificados SSL (Secure Socket Layer) ou certificados de identificação. Vamos nos referir só por "certificados" aqui. 
+Na internet, certificados são necessários para verificar a identidade de pessoas e computadores. Esses certificados também são chamados de certificados SSL ou certificados digitais. Vamos nos referir a eles só como "certificados" aqui. 
 
-Em particular, certificados são necessários para estabelecer conexões seguras. Sem certificados, você pode ter certeza que ninguém mais está ouvindo, mas você pode estar conversando com o computador errado! Todos os servidores de riseup.net e todos os serviços de riseup.net permitem ou solicitam conexões seguras.
+Em particular, certificados são necessários para estabelecer conexões seguras. Sem eles, você pode ter certeza de que uma terceira pessoa não está bisbilhotando suas conversas, mas não que está se comunicando com o computador certo! Todos os servidores e serviços de riseup.net permitem ou requerem conexões seguras.
 
-Para ter certeza que sua comunicação é segura com Riseup, veja [[como verificar os certificados de Riseup => /security/certificates]].
+Para se certificar da segurança de sua comunicação com o Riseup, veja [[como verificar os nossos certificados => /security/certificates]].
