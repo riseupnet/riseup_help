@@ -1,0 +1,73 @@
+@title = 'Envoyer des courriels'
+
+h2.  Pourquoi mon courriel n'apparaît-il pas dans l'archive? 
+
+Les courriels ne sont pas immédiatement archivés. Patientez un peu et ils devraient (éventuellement) apparaitre. Si après un long moment ils n'apparaissent toujours pas, il se peut que l'archive doive être reconstruite. Si vous croyez que c'est le cas, remplissez un [[ticket d'aide->https://support.riseup.net/en/topics/new]].
+
+h2.  Pourquoi mon courriel a-t-il été rejeté parce qu'il était trop gros?
+
+Pour l'instant, la taille maximale des courriels est de 500k et nous croyons que c'est amplement suffisant. Les grosses pièces jointes accaparent beaucoup de ressources informatiques et donnent peu de bénéfices. Elles sont pénibles pour les personnes qui sont forcées de les télécharger et la plupart du temps elles ne sont pas nécessaires à l'ensemble de la liste. Veuillez plutôt utiliser [[l'espace partagé en ligne->web-space]].
+
+h2.  Pourquoi mon courriel a-t-il été retenu pour modération/rejeté?
+
+Il peut y avoir plusieurs raisons pour cela.
+
+* Vous n'êtes pas inscrit à la liste.
+** La plupart des listes ne permettent qu'aux membres de publier de messages. Vous devez vous inscrire [[en suivant ces étapes->subscribing#how-do-i-subscribe-to-a-list]].
+* Vous êtes inscrit à la liste (c'est à dire vous recevez les messages de la liste), mais tous les courriels sont modérés.
+** Il arrive parfois que la personne administrant la liste n'accepte pas les messages sans modération. Si vous pensez que cela ne devrait pas être le cas, vous pouvez écrire à *nomdelaliste-admin@lists.riseup.net* et demander à cette personne d'enlever cette restriction.
+** Il se peut que vous receviez vos courriels à une adresse mais que vous les envoyiez d'une autre. Par exemple, disons que vous possédez courriel1@riseup.net, mais vous avez aussi courriel2@gmail.com. La première adresse est inscrite à la liste, mais pas la seconde. Si vous envoyez un courriel à partir de la seconde adresse, il sera retenu pour modération. *Pour régler ce problème*: Inscrivez votre deuxième adresse courriel à la liste. Maintenant passez votre autre adresse courriel en [[mode sans courriels->subscribing#how-do-i-switch-to-no-mail-mode]]. Vous recevrez ainsi seulement les courriels sur un de vos comptes mais vous pouvez utiliser les deux adresses pour envoyer des messages à la liste.
+
+h2.  Comment contacter la personne administrant une liste?
+
+Vous pouvez contacter la personne administrant une liste en lui envoyant un courriel à l'adresse nomdelaliste-admin@lists.riseup.net. Pour les personnes effectuant la modération de la même liste, utilisez nomdelaliste-editor@lists.riseup.net. 
+
+h2.  Comment envoyer des courriels en format HTML ?
+
+Il est possible d'envoyer des courriels en format HTML sur les listes riseup.net. Cependant, nous vous demandons de reconsidérer la décision d'envoyer de messages formatés en HTML à quelconque liste de diffusion.
+
+* Les courriels en format HTML ne sont pas sécuritaires: ils sont très difficiles à protéger et à rendre confidentiels. Ces courriels peuvent inclure beaucoup de vulnérabilités, par exemple le piratage ou encore la surveillance de votre activité en ligne grâce en intégrant des URLs uniques d'images. De plus, quelques-uns des défauts sécuritaire des plus graves dans Microsoft Outlook concernent les courriels en HTML.
+* Les courriels en en format HTML sont désagréables: dans pratiquement tous les cas, ce format les rend moins lisibles. Les clients de messagerie sont déjà là pour faciliter la lecture des mails. Le format HTML distraient du contenu de votre message. C'est encore pire pour les personnes qui se protègent en désactivant les images dans les courriels en HTML, parce que le formatage de votre courriel sera un désordre total.
+* Les courriels en format HTML sont inutiles: La plupart des clients courriel convertissent d'une manière agréable les URLs bien composés. Voici un exemple :
+<code>
+   une page web: https://help.riseup.net
+   une adresse courriel: listhelp@riseup.net
+</code>
+    une page web : help.riseup.net un adresse mail : listhelp@riseup.net
+    Si vous copiez cet exemple dans un courriel, pratiquement tous les clients de messagerie vont le convertir en liens hypertextes « cliquables ».
+* Les courriels exclusivement en format HTML ne sont pas lisibles par toutes les personnes qui ont choisi de les désactiver pour des raisons de sécurité, de protection de la vie privé, d'accessibilité ou d'esthétique. Pour ces personnes là, les messages en HTML seront affiché en texte brut, mais ils seront plus difficilement lisibles parce que vous ne l'avez pas composé de ce manière du début. Ceci arrive parce que votre client de messagerie convertit vos courriels sortant d'HTML en texte brut et il n'arrive pas à le faire bien. La seule chose que vous arriverez à faire en envoyant des courriels en HTML, c'est d'énerver les les autres.
+
+h2.  Pourquoi je ne reçois pas les copies des courriels que je publie sur la liste?
+
+Il y a deux raisons possibles. D'abord, dans les options d'abonnement à la liste vous avez peut-être choisi de ne pas recevoir les copies de vos propres messages. Pour vérifiez si c'est le cas, suivez ces étapes:
+
+# Allez sur [[https://lists.riseup.net/]]
+# Connectez-vous avec votre adresse courriel et votre mot de passe
+# Cliquez sur « Gérer vos abonnements »
+# Cliquez sur la liste en question
+# Choisissez « Options d'abonné » dans la partie gauche de l'écran.
+# Assurez-vous que le « Mode de réception » est indiqué comme « Normal » et non pas une des options excluant la réception de messages.
+
+Si vous ne recevez encore pas les copies de vos propres messages, vous avez probablement un compte Gmail. Gmail considère malin de ne pas vous présenter vos propres messages. Nous ne pouvons rien faire pour changer ça, vous devez vous adresser à Gmail pour résoudre ce type de problème. Si vous avez encore des difficultés, remplissez un ticket d'aide. 
+
+h2.  Pourquoi mon courriel à la liste est-il bloqué comme étant du « Spam »?
+
+Une étude récente à démontré que plus de 95% des courriels qui circulent sur l'internet est du Spam! Oui, 95% ! Pour vous et moi c'est juste une nuisance mais pour les pauvres serveurs de Riseup c'est un ennui énorme. Riseup a mis en place quelques [[outils pour combattre le spam->spam]] et il arrive parfois que les courriels d'un utilisateur légitime sont identifiés incorrectement comme du spam. Avant de nous contacter, essayez vous-mêmes de résoudre le problème en suivant les étapes suivantes:
+
+D'abord, identifions le problème. Si votre courriel à été rejeté et renvoyé, nos serveurs vous donnent une raison pour le rejet. Lisez le message d'erreur et comparez-le avec les exemples ci-dessous. Tentez de régler le problème en suivant les instructions ci-dessous avant d'ouvrir un ticket d'aide.
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net<a href="204.13.164.55">204.13.164.55</a> said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup utilise [[Spamassassin->https://spamassassin.apache.org/]] pour nous aider contre le Spam. Il y a un grand nombre de règles qui permettent à Spamassassin de déterminer si un courriel entrant est spam. Vérifiez sur [[cette page->https://wiki.apache.org/spamassassin/AvoidingFpsForSenders]] si vous, ou votre fournisseur courriel peuvent résoudre le problème avant nous le signaler.
+
+h3. Mon serveur courriel est qualifié comme ayant un “bad MX records”
+
+<pre>
+Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address <a href="EXAMPLE@EXAMPLE.NET">EXAMPLE@EXAMPLE.NET</a> blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
+</pre>
+
+Les entrés « MX » définissent des serveurs qui sont autorisés à envoyer des courriels. Quelques fournisseurs ne gèrent pas correctement leurs enregistrements DNS et cela crée beaucoup de problèmes. Si vous recevez ce message d'erreur, prière de contacter votre fournisseur de courriels et lui demander de lire [[cette page->http://rfc-ignorant.org/policy-bogusmx.php]].

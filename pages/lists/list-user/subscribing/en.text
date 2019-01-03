@@ -4,9 +4,9 @@ h2.  How do I unsubscribe from a list?
 
 The easiest way is to unsubscribe is to send email to:
 
-p(alert alert-info). <b><i>listname</i>-unsubscribe@lists.riseup.net</b>
+p(alert alert-info). *_listname_-unsubscribe@lists.riseup.net*
 
-Where <i>listname</i> is the name of the list you want off.
+Where _listname_ is the name of the list you want off.
 
 If this doesn't work, then almost certainly the problem is that you sent the 'unsubscribe' email from an different address then the address which is subscribed to the list.
 
@@ -21,9 +21,9 @@ h2.  How do I subscribe to a list?
 
 The easiest way is to subscribe is to send email to:
 
-p(alert alert-info). <b><i>listname</i>-subscribe@lists.riseup.net</b>
+p(alert alert-info). *_listname_-subscribe@lists.riseup.net*
 
-Where <i>listname</i> is the name of the list you want to subscribe to.
+Where _listname_ is the name of the list you want to subscribe to.
 
 Make sure the account you send the mail from is the one you want subscribed to the list.
 
@@ -40,23 +40,24 @@ In 'digest' mode, you receive multiple posts to the list in one email instead of
 
 To switch to digest mode:
 
-* Login using your list account. If you don't have one, fill out the <a href="https://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+* Login using your list account. If you don't have one, fill out the "password reminder form":form.
 * Click *Your Subscriptions* at the top.
 * Click on the name of the list you want in digest mode.
 * Click on *My Options* on the left.
 * Select *digest* from the *reception mode* pull down menu.
 * Click *update*.
 
-If you do not actually receive digests, it may be that the list administrator still needs to set the digest settings for the list. Have them make sure that the hour option is greater than 1 and no more than 22 (10pm). This option determines when the digest is sent. If it is too close to midnight, the digests won't work (a bug in the mailing list software). You can contact the list admin by sending mail to <i>listname</i>-admin@lists.riseup.net.
+If you do not actually receive digests, it may be that the list administrator still needs to set the digest settings for the list. Have them make sure that the hour option is greater than 1 and no more than 22 (10pm). This option determines when the digest is sent. If it is too close to midnight, the digests won't work (a bug in the mailing list software). You can contact the list admin by sending mail to _listname_-admin@lists.riseup.net.
 
 h2.  How do I switch to no-mail mode?
 
 Sometimes, you may want to be a member of a list, but not receive postings from the list. This could happen if you have multiple email addresses or perhaps you read the emails on the online archive. You can change your subscription status to "no-mail" by doing the following:
 
-* Login using your list account. If you don't have one, fill out the
- <a href="https://lists.riseup.net/www/remindpasswd">password reminder form</a>.
+* Login using your list account. If you don't have one, fill out the "password reminder form":form.
 * Click *Your Subscriptions* at the top.
 * Click on the name of the list you want in digest mode.
 * Click on *My Options* on the left.
 * Select *no mail* from the *reception mode* pull down menu.
 * Click *update*.
+
+[form]https://lists.riseup.net/www/remindpasswd

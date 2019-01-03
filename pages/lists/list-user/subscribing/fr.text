@@ -1,0 +1,63 @@
+@title = "S'abonner aux listes"
+
+h2.  Comment se désabonner d'une liste?
+
+La manière la plus simple de se désabonner d'une liste est d'envoyer un courriel à:
+
+p(alert alert-info). *_nomdelaliste_-unsubscribe@lists.riseup.net*
+
+Où _nomdelaliste_ est le nom de la liste que vous voulez quitter.
+
+Si cela ne fonctionne pas, la cause la plus probable est que vous avez envoyé le message pour vous désabonnement en utilisant une autre adresse courriel que celle qui est inscrite à la liste.
+
+Ceci peut arriver si vous avez plusieurs adresses (ou alias) pour la même boîte courriel. Si possible, assurez vous que l'adresse d'expédition de votre courriel de désabonnement correspond à celui que vous avez utilisé pour l'inscription. Si ceci n'est pas possible, suivez ces étapes :
+
+# Connectez-vous au https://lists.riseup.net avec l'adresse qui est inscrit à la liste. Si vous n'avez pas de mot de passe, suivez les liens sur cette page pour en obtenir un.
+# Une fois connecté, cliquez sur *Gérer vos abonnements* en haut de la page, à gauche.
+# Activez la case à gauche du nom de la liste que vous voulez quittez.
+# Cliquez *Désabonnement*.
+
+h2.  Comment s'inscrire à une liste?
+
+La manière la plus simple de s'inscrire à une liste est d'envoyer un courriel à:
+
+p(alert alert-info). *_nomdelaliste_-subscribe@lists.riseup.net*
+
+Où _nomdelaliste_ est le nom de la liste à laquelle vous voulez vous abonner.
+
+Assurez vous que le compte courriel que vous utilisez à ce moment est celui que vous voulez inscrire.
+
+Si vous ne pouvez pas envoyer une confirmation à partir de la même adresse que vous voulez inscrire, vous devez suivre une autre procédure. Voici les étapes nécessaires en ce cas:
+
+# [[Créez un compte->https://lists.riseup.net/www/remindpasswd]]
+# Connectez-vous
+# Trouvez la liste et accédez à la page d'accueil de la liste.
+# Cliquez sur *Abonnement*
+
+h2. Comment recevoir un abrégé des courriels?
+
+Dans le mode 'compilation', vous recevez plusieurs messages envoyés à la liste en un seul courriel, et non pas chaque message séparément. La personne administrant la liste décide si vous êtes autorisé à vous abonner à la liste en mode 'compilation' ainsi que la période couverte dans la compilation.
+
+Afin de changer en mode compilation :
+
+* Connectez-vous avec l'adresse inscrite à la liste. S'il vous manque le mot de passe, remplissez ce "formulaire":form.
+* Cliquez sur *Gérer vos abonnements* en haut de la page, à droite.
+* Cliquez sur le nom de la liste, que vous voulez recevoir en mode 'compilation'.
+* Cliquez sur *Options d'abonné* à gauche.
+* Sélectionnez un des modes *compilation* de la liste pour *Mode de réception*.
+* Cliquez *Mise à jour*.
+
+Si vous ne recevez pas les compilations il est possible que la personne administrant la liste n'a pas configuré la compilation. Pour ce faire, il faut que cette dernière choisisse entre 01h et 22h pour la compilation. Si cette heure est trop proche de minuit, la compilation ne fonctionnera pas (c'est un bug dans le logiciel). Vous pouvez contacter la personne administrant la liste en lui envoyant un courriel au nomdelaliste-admin@lists.riseup.net. 
+
+h2.  Comment suspendre la réception de messages de la liste ?
+
+Parfois, vous voulez restez inscrit à une liste sans en recevoir les messages. Ceci peut arriver si vous avez plusieurs adresses courriels ou si vous préférez lire les messages dans l'archive en ligne. Dans ce cas, vous pouvez activer le mode sans courriels ainsi:
+
+# Connectez-vous avec votre compte pour la liste. Si vous en avez pas encore, remplissez ce "formulaire":form.
+# Cliquez *Gérer vos abonnements* en haut de la page, à droite
+# Cliquez sur le nom de la liste, que vous voulez suspendre.
+# Cliquez sur *Options d'abonné* à gauche.
+# Sélectionnez ne pas recevoir les messages de la liste pour Mode de réception.
+# Cliquez sur *Mise à jour*.
+
+[form]https://lists.riseup.net/www/remindpasswd

@@ -3,7 +3,7 @@
 h2.  Warum kann ich eine Liste nicht sehen?
 
 Es gibt viele Gründe warum eine Liste unsichtbar sein kann. Manche Verteiler sind nicht öffentlich sichtbar sondern nur für die AbonnentInnen sobald sie eingeloggt sind. Um eine verstecke Liste zu abonnieren, schicke eine Mail an listname-subscribe@lists.riseup.net.
-Meistens sind versteckte Listen ausserdem privat, d.h. dass die Listen-Administratorin dein Abonnement bestätigen muss. Wenn du die Listen-Eigentümerin bist und die Liste öffentlich machen möchtest, dann musst du die *Sichtbarkeitseinstellung* auf *nicht verstecken* setzen.
+Meistens sind versteckte Listen ausserdem privat, d.h. dass die Listen-Administratorin dein Abonnement bestätigen muss. Wenn du die Listen-Eigentümerin bist und die Liste öffentlich machen möchtest, dann musst du die **Sichtbarkeitseinstellung** auf **nicht verstecken** setzen.
 
 Ein anderer Grund warum eine Liste nicht sichtbar sein kann, ist, weil sie noch nicht erstellt wurde. Wenn du das Formular zum Erstellen einer Liste ausgefüllt hast, dann wird die Liste für Dich, die Administratorin, sichtbar. Andere können erst auf die Liste zugreifen wenn die Erstellung der Liste bestätigt wurde.
 
@@ -16,4 +16,4 @@ Es gibt verschiedene Gründe warum du u.U. ein Listen-Archiv nicht sehen kannst:
 * Die Listen-Archive sind geschlossen: Die Eigentümerin der Liste kann sich entschieden haben den Zugriff auf das Archiv generell zu verbieten.
 * Das Archiv ist beschädigt: ab und an gehen die Listen-Archive kaputt. Normalerweise kann man sie dann neu erstellen und sie werden wieder sichtbar.
 
-[trap]: https://www.neilgunton.com/spambot_trap/
+[trap]https://www.neilgunton.com/spambot_trap/

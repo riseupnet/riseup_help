@@ -1,0 +1,12 @@
+@title = 'Espace en ligne'
+
+h2. Comment téléverser ou voir un fichier?
+
+Vous pouvez consulter la documentation complète en ligne sur [[l'espace en ligne->shared-web-space]].
+
+h2.  Pourquoi je ne peux pas téléverser un fichier?
+
+Il y a plusieurs raisons pourquoi vous ne pouvez pas téléverser un fichier:
+
+* Le nom du fichier contient des espaces. Bizarre, mais vrai. Renommez le fichier et remplacez les espaces par un autre caractère comme un trait-d'union '-' ou une barre de soulignement '_'.
+* Vous n'avez peut-être pas la permission de téléverser des fichiers. Dans les listes privées, les paramètres par défauts permettent aux membres de téléverser des fichiers. Pour toutes les autres listes, c'est le contraire. Ces paramètres peuvent être changés en modifiant la configuration de la liste.

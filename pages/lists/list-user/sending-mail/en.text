@@ -17,11 +17,11 @@ There are several possible reasons for this.
 
 * I am subscribed to the list (that is, you are receiving messages from the list), but my posts are referred to the moderator.
 ** The admin of the list may not allow members to post without moderator approval. If you think this should change, send an email to *listname-admin@lists.riseup.net* and ask your admin to change it.
-** You may be receiving your emails at one address and sending them from another. For example, lets say you have *email1@riseup.net*, but you also have *email2@gmail.com*. Email1 is subscribed to the list, but email2 is not. If you send an email FROM email2 to the list, it will be held for moderator approval. <b>To fix this:</b> Subscribe your second email address. Now switch your second email address to [[no mail mode->subscribing#how-do-i-switch-to-no-mail-mode]]. You will only receive email at the first address, but you can post from both.
+** You may be receiving your emails at one address and sending them from another. For example, lets say you have *email1@riseup.net*, but you also have *email2@gmail.com*. Email1 is subscribed to the list, but email2 is not. If you send an email FROM email2 to the list, it will be held for moderator approval. *To fix this:* Subscribe your second email address. Now switch your second email address to [[no mail mode->subscribing#how-do-i-switch-to-no-mail-mode]]. You will only receive email at the first address, but you can post from both.
 
 h2.  How do I contact a list owner?
 
-To contact the list owners, send an email to <i>listname</i>-admin@lists.riseup.net. To contact the list moderators, send an email to <i>listname</i>-editor@lists.riseup.net.
+To contact the list owners, send an email to _listname_-admin@lists.riseup.net. To contact the list moderators, send an email to _listname_-editor@lists.riseup.net.
 
 h2.  How do I send HTML mail?
 
