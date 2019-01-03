@@ -3,7 +3,7 @@
 h2.  Why can't I see a list?
 
 There are several reasons why a list might not be visible. Some lists are not publicly visible and are only visible to subscribers once they have logged in. To subscribe to a hidden list, send mail to listname-subscribe@lists.riseup.net.
-Most lists which are hidden are also private, so your list subscription will need to be approved by the list owner. If you are a list owner and you want to make your list visible, you must set the <b>visibility</b> option to <b>no conceal</b>.
+Most lists which are hidden are also private, so your list subscription will need to be approved by the list owner. If you are a list owner and you want to make your list visible, you must set the <b>Who can view list information</b> option to <b>list is visible in the directory of lists (anyone)</b>.
 
 The other reason a list might not be visible is that it has not been created yet. When you fill out a list request, the list becomes visible and editable by you, the admin. The list is not accessible by others until the list is actually approved.
 
