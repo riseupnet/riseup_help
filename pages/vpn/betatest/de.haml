@@ -1,0 +1,58 @@
+- @title = "RiseupVPN Beta Test"
+- @nav_title = "Beta Test"
+- @toc = true
+
+%img(src="riseupvpn.svg" style="float:left")
+
+%p
+  Riseup testet einen neuen eigenen Client namens <b>RiseupVPN</b>. Unser VPN-Client benötigt keinerlei Einrichtung oder Accounts, und ist daher super einfach zu benutzen.
+ 
+  Diese Beta ist ein Versuch von uns, ob wir einen VPN-Service stellen können, der einfach genug für jeden ist, und für den auch genügend Leute spenden um diesen zu erhalten.
+%p
+  Teste bitte auch unseren Client und gib uns Feedback. Und erzähl auch deinen Freunden von diesem VPN-Client!
+
+%h2 RiseupVPN downloaden
+
+%a.btn-download(href="linux")
+  %img(src="linux.svg" width="48px")
+  %b GNU/Linux
+
+%a.btn-download(href="macos")
+  %img(src="apple.svg" width="48px")
+  %b macOS
+
+%a.btn-download(href="windows")
+  %img(src="windows.svg" width="48px")
+  %b Windows
+
+%a.btn-download(href="android")
+  %img(src="android.svg" width="48px")
+  %b Android
+
+%h2 Verwendung von RiseupVPN
+
+%p
+  Auf Linux, Mac und Windows wird RiseupVPN ein Symbol in der Taskleiste oder Statusbar erstellen, das den Status des Clients anzeigt.
+  
+%p
+  %img(src="vpn_off.png") &mdash; VPN ist deaktiviert.
+
+%p
+  %img(src="vpn_on.png") &mdash; VPN ist an, alle Verbindungen werden sicher durch das VPN geleitet.
+  
+%p
+  %img(src="vpn_blocked.png") &mdash; VPN ist aus, alle Verbindung werden blockiert.
+
+%p
+  %img(src="vpn_wait_0.png") &mdash; VPN baut die Verbindung auf, alle Verbindung sind blockiert.
+
+%p
+  Um das VPN an- oder auszuschalten, klick einfach auf das Symbol und wähl die entsprechende Einstellung.
+
+%h2 Spenden!
+
+= render :page => 'vpn/donate'
+
+%h2 Troubleshooting und Support
+
+= render :page => 'vpn/support'
