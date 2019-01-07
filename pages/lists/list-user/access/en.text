@@ -3,7 +3,7 @@
 h2.  Why can't I see a list?
 
 There are several reasons why a list might not be visible. Some lists are not publicly visible and are only visible to subscribers once they have logged in. To subscribe to a hidden list, send mail to listname-subscribe@lists.riseup.net.
-Most lists which are hidden are also private, so your list subscription will need to be approved by the list owner. If you are a list owner and you want to make your list visible, you must set the <b>visibility</b> option to <b>no conceal</b>.
+Most lists which are hidden are also private, so your list subscription will need to be approved by the list owner. If you are a list owner and you want to make your list visible, you must set the *Who can view list information* option to *list is visible in the directory of lists (anyone)*.
 
 The other reason a list might not be visible is that it has not been created yet. When you fill out a list request, the list becomes visible and editable by you, the admin. The list is not accessible by others until the list is actually approved.
 
@@ -11,7 +11,9 @@ h2.  Why can't I view the list archives?
 
 There are several reasons why you might not be able to view the archives:
 
-* You have disabled cookies: In order to prevent <a href="https://www.neilgunton.com/spambot_trap/">email harvesting spambots</a>, Sympa requires a cookie in order to view the archives. If you see the button 'I am not a spammer' every time you try to view an archive, then you need to enable cookies.
+* You have disabled cookies: In order to prevent "email harvesting spambots":trap, Sympa requires a cookie in order to view the archives. If you see the button 'I am not a spammer' every time you try to view an archive, then you need to enable cookies.
 * You are not logged in: By default, most list archives are available only to list subscribers (members). This means that you must identify yourself as a list subscriber by logging in before you can view the archives. This is probably the case if you go to the list page and the 'archive' link is not clickable.
 * The list archives are closed: The owner of a list might have decided to prevent anyone from viewing the list archives.
 * The archives are broken: once is a while, a list's archives will get totally tweaked. Usually, rebuilding them will make them visible again.
+
+[trap]https://www.neilgunton.com/spambot_trap/

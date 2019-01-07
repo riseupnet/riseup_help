@@ -1,0 +1,19 @@
+@title = 'Accès'
+
+h2. Pourquoi je ne peux pas voir une liste ?
+
+Il y a plusieurs raisons qui expliquent pourquoi une liste n'est pas visible. Certaines listes ne sont pas visibles publiquement et sont seulement disponibles pour les personnes qui y sont inscrites et qui se sont authentifiées avec leur compte. Afin de s'inscrire à une liste cachée, envoyez un mail à <nomdelaliste-subscribe@lists.riseup.net>.
+La plupart des listes qui sont cachées sont aussi privées. Votre inscription nécessite alors le consentement de la personne administrant la liste. Si vous administrez une liste et voulez la rendre visible, l'option *Visibilité de la liste * doit avoir la valeur *list is visible in the directory of lists (anyone)*.
+
+L'autre raison qui explique pourquoi une liste n'est pas visible est qu'elle n'a pas encore été créée. Quand vous remplissez la demande pour une nouvelle liste, vous en devenez l'administratrice ou l'administration et elle devient visible et modifiable par vous. La liste n'est pas accessible par d'autres personnes jusqu'à son acceptation par Riseup. 
+
+h2. Pourquoi je ne peut pas voir l'archive d'une liste ? 
+
+Il y a plusieurs raisons qui expliquent pourquoi les archives d'une liste ne sont pas visibles.
+
+* Vous avez désactivé les cookies: Afin d'empêcher les "robots d'archiver les courriels":trap, Sympa a besoin d'un cookie pour l'accès aux archives. Si vous voyez le bouton « Je ne suis pas un spammer » (“I am not a spammer”) à chaque fois que vous tentez d'accéder à une archive, vous devez activer les cookies.
+* Vous n'êtes pas connecté: Par défaut, les archives sont uniquement disponibles aux membres de la liste. Il est donc nécessaire de vous authentifier avant pouvoir voir les archives. Ceci est probablement le cas, si vous allez sur la page de la liste et le lien « archives » ne peut pas être cliqué.
+* Les archives de la liste sont verrouillées: La personne administrant une liste peut avoir décidé d'empêcher la lecture des archives.
+* Les archives sont endommagées: De temps en temps, les archives d'une liste deviennent complètement tordues. D'habitude, il suffit de les régénérer pour les rendre visibles de nouveau.
+
+[trap]https://www.neilgunton.com/spambot_trap/

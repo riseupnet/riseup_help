@@ -1,0 +1,43 @@
+@title = 'Comptes'
+
+h2.  Comment créer un compte?
+
+Pour créer un compte dans un liste de distribution, vous devez vous inscrire à une liste. Pour vous inscrire, envoyez un courriel à **nomdelaliste-subscribe@lists.riseup.net**, où __nomdelaliste__ est le nom de la liste à laquelle vous souhaitez vous inscrire.
+
+Vous pouvez aussi remplir le [[formulaire pour la création d'un compte->https://lists.riseup.net/www/renewpasswd]].
+
+Quand vous créez un compte, Sympa (le logiciel qui gère les listes de diffusion chez nous) génère un mot de passe aléatoire et l'envoie à votre adresse courriel. Cette procédure empêche d'autres personnes de s'inscrire sans votre permission et sert au même temps à vérifier que votre adresse est correcte. Vous devez remplacer le mot de passe généré par un mot de passe dont vous pouvez vous rappeler.
+
+Notez que les comptes pour les listes de diffusion chez lists.riseup.net sont __complètement différents__ des comptes courriels chez riseup.net.
+
+h2.  Comment changer mon mot de passe? 
+
+Connectez-vous avec votre adresse courriel et votre mot de passe, puis cliquez sur le lien _Preferences_ en haut à droite de la page. Vous y trouverez un formulaire de changement de mot de passe.
+
+h2.  J'ai oublié mon mot de passe! 
+
+Remplissez le [[formulaire de renouvellement de mot de passe->https://lists.riseup.net/www/renewpasswd]]. Un nouveau mot de passe vous sera envoyé par courriel.
+
+h2.  Je n'ai pas de mot de passe!
+
+Si quelqu'un d'autre vous a inscrit à la liste, il est possible que vous n'ayez pas de mot de passe. Remplissez le [[formulaire de renouvellement de mot de passe->https://lists.riseup.net/www/renewpasswd]] et vous recevrez un mot de passe temporaire à l'adresse que vous indiquez ainsi que les instructions pour le changer.
+
+h2.  Comment changer mon adresse d'inscription? 
+
+Pour changer l'adresse courriel que vous avez utilisé pour l'inscription aux listes riseup.net, suivez ces étapes :
+
+# Connectez-vous avec votre adresse courriel actuelle sur http://lists.riseup.net
+# Cliquez sur le lien *Preferences*.
+# Remplissez le champ *Nouvelle adresse e-mail* et cliquez sur le bouton *Changement d'adresse email*.
+
+*NOTEZ*: N'utilisez pas ce formulaire si vous administrez ou modérez une liste. Si vous l'envoyez, vous perdrez la propriété de votre liste! Suivez plutôt ces étapes:
+
+# Ajoutez votre nouvelle adresse courriel dans la liste des administrateurs.
+# Suivez les étapes ci-dessus pour changer l'adresse courriel de votre inscription.
+# Enlevez l'ancienne adresse de la liste des administrateurs.
+
+Lisez la page [[list-definition#changing-owners]] pour plus d'informations sur cette procédure.
+
+h2. Comment choisir un bon mot de passe?
+
+<%= render 'common/good-passwords' %>
