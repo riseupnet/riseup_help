@@ -1,0 +1,63 @@
+@title = 'Avaliação de Privacidade dos Navegadores'
+
+h3. A avaliação
+
+<%= render 'table' %>
+
+h3. Explicação dos tópicos
+
+*Controle de cookies*
+
+Já que alguns sites requerem cookies e você talvez queira permiti-los para páginas em que confie, é melhor não bloqueá-los completamente, mas autorizá-los caso a caso. Navegadores são avaliados aqui considerando se oferecem as opções de bloquear sites não confiáveis (por padrão) e permitir sites confiáveis (por meio de uma lista facilmente modificável).
+
+*Cookies de terceiros*
+
+Cookies são requeridos para fazer autenticação em sites (tecnicamente, você pode iniciar uma sessão sem cookies, mas não com uma boa segurança). Por outro lado, a maioria dos sites também transmite cookies de terceiros, usados para rastrear seus cliques e comportamento de navegação. Cookies de terceiros não servem a nenhum propósito legítimo -- são úteis apenas para vigiar. Eles devem ser bloqueados por padrão em todos os navegadores.
+
+*Opção de não rastreamento*
+
+Existem três métodos para optar pelo não rastreamento comportamental:
+
+* Cabeçalho HTTP Do Not Track: o cabeçalho "Do Not Track" informa aos sites acessados que você não quer ter sua navegação rastreada. É uma ideia boa, mas ainda não conta com o apoio de agências de publicidade e talvez nunca conte. Atualmente, Firefox 4 e Internet Explorer 9 oferecem suporte opcional ao cabeçalho Do Not Track.
+* Listas de proteção contra rastreamento: navegadores com listas de proteção contra rastreamento permitem que você acompanhe uma lista de empresas a serem bloqueadas. É um ótimo método, pois funciona atualmente e permite o bloqueio eficaz de quase todo rastreamento. As listas de proteção contra rastreamento são integradas ao Internet Explorer 9 e podem ser adicionadas ao Firefox e ao Chrome usando a [[extensão Adblock Plus -> https://adblockplus.org/en/]].
+* Cookies de recusa: são um sistema imposto pela indústria da publicidade. Esse método tem muitas falhas e é apenas marginalmente respeitado pelas agências, segundo já demonstraram pesquisas. Anunciantes permitem que você configure cookies especiais para informar que deseja optar pelo não rastreamento. Esses cookies, porém, podem ser facilmente apagados. Algumas extensões permitem que você os salve após configurá-los (no Chrome) ou que eles sejam configurados automaticamente (com Beef TACO para Firefox).
+
+h3. Notas da avaliação
+
+Firefox
+
+* Opção de não rastreamento: [[conforme anunciado no início de 2011 -> http://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/]], o Firefox oferecerá a opção de emitir um aviso de "não rastrear". Ela é desabilitada por padrão e poucos sites respeitam o alerta. Tecnologicamente, isso está sendo feito "do jeito certo" e a [[EFF aplaudiu a atitude do Firefox -> https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track]]. Ainda assim, reprovamos o navegador porque esse bloqueio na realidade não faz muita diferença atualmente; só seria eficaz se houvesse uma lei que determinasse o respeito a ele, o que parece extremamente improvável -- principalmente considerando que é muito difícil fazer valer uma lei nacional de privacidade na internet global.
+
+Internet Explorer
+
+* Opção de não rastreamento: originalmente, a equipe de engenharia da Microsoft desenvolveu a melhor tecnologia antirrastreamento que existia. O navegador detectava automaticamente quando seu comportamento estava sendo rastreado em diferentes sites e bloqueava esse rastreamento. Isso também era habilitado por padrão! Quando o comando da seção de publicidade descobriu isso, uma [[batalha seguiu-se dentro da Microsoft -> /assets/45575/WSJ%202010.%20Microsoft%20Quashed%20Effort%20to%20Boost%20Online%20Privacy.pdf]]. Por fim, a engenharia perdeu para a publicidade: o Internet Explorer é distribuído com esse recurso, mas ele está disponível apenas quando o modo [[InPrivate -> http://windows.microsoft.com/en-US/windows-vista/InPrivate-frequently-asked-questions]] está ligado. Isso o torna inútil, pois precisa ser habilitado manualmente para cada janela do navegador e não funciona em modo normal (o que é importante, pois apenas no modo normal se tem acesso a vários recursos úteis, como favoritos, histórico e preenchimento automático de formulários).
+
+Internet Explorer 9
+
+A versão 9 do Internet Explorer é muito melhor que todas as anteriores.
+
+* Opção de não rastreamento: o IE9 foi o primeiro navegador a disponibilizar o cabeçalho *Do Not Track* e as *listas de proteção contra rastreamento*.
+
+Chrome
+
+* Opção de não rastreamento: [[conforme anunciado no início de 2011 -> http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]], o Chrome permitirá o estabelecimento de um cookie especial de "não rastrear", reconhecido por membros da [[Network Advertising Initiative -> https://www.networkadvertising.org/managing/opt_out.asp]]. Esse método é praticamente inútil. [[Um relatório revelou -> /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]] que o cookie da NAI não funcionava de forma consistente, ignorava novos métodos de perfilação e rastreamento, não incluía a maioria dos grupos empresariais e carecia de transparência. O relatório conclui que "o único sucesso do cookie da NAI tem sido sossegar as agências de regulação, convencendo-as de que a autorregulação atende justa e eficazmente aos interesses do mercado consumidor alvo da publicidade comportamental".
+* Rastreamento por cookies: a maneira como o Chromium permite controlar cookies é razoavelmente avançada. Você pode bloquear todos os cookies e habilitar certos domínios um a um, seletivamente (por meio de um menu aberto a partir da barra de endereços). Nessa caixa de diálogo, você também pode ver diretamente quais cookies estão definidos para o site acessado. Além disso, quando você ajusta suas configurações para "perguntar primeiro", as confirmações são feitas uma de cada vez em caixas de diálogo separadas, em vez de todas ao mesmo tempo, como no Firefox.
+* Cookies de flash: o Chrome faz a coisa certa e apaga os cookies de flash sempre que você pede para limpar os cookies.
+
+Safari
+
+* Cookies de terceiros: o Safari vence como o [[único navegador a desabilitar cookies de terceiros por padrão -> https://www.grc.com/cookies/stats.htm]].
+* Mais: o Safari merece pontos-extra por ser o único navegador imune à captura do histórico.
+* Opção de não rastreamento: atualmente, não acredito que esteja nos planos da empresa.
+
+h3. Como conseguir um "A+"?
+
+Do que um navegador precisa para conseguir a nota máxima na avaliação?
+
+* Cookies de terceiros: não há uso legítimo para cookies de terceiros. Eles devem ser sempre bloqueados.
+* Opção de não rastreamento: o ideal seria se...
+** Fosse habilitado por padrão: no mínimo, deve ser apresentada uma escolha na primeira vez que o navegador for aberto.
+** Cabeçalho Do Not Track: o navegador deveria enviar o cabeçalho "Do Not Track", assim como faz o Firefox, caso exista quem o respeite.
+** Detecção de rastreamento: o navegador pode, e deve, detectar quando houver rastreamento e bloqueá-lo. Você não deveria precisar contar com a boa vontade de rastreadores para honrar suas configurações. Era isso que o IE ia fazer e que a direção vetou.
+** Listas de bloqueio: permitir aos usuários a inscrição em listas de rastreadores a serem bloqueados.
+** Ativo em modo normal: a opção de não rastreamento é inútil se só for habilitada em modo privado.
