@@ -1,7 +1,7 @@
 @title = "RiseupVPN für Linux"
 @this.alias = '/vpn/linux'
 
-## Vorraussetzungen
+## Voraussetzungen
 
 Momentan ist RiseupVPN für Linux nur mit `snap` verfügbar. Wenn du Ubuntu benutzt, ist snap schon installiert. Wenn nicht, kannst du es im Terminal installieren:
 
