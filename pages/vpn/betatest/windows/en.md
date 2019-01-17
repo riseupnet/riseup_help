@@ -16,13 +16,13 @@ Once you have saved the file, double click <code>RiseupVPN-win-latest.exe</code>
 
 ### Bug Reports and Feature Requests
 
-RiseupVPN is built using a free software program called <b>bitmask-systray</b>.
+RiseupVPN is built using a free software program called <b>bitmask-vpn</b>.
 
-**Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-systray/issues]] if the bug has already been reported.
+**Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-vpn/issues]] if the bug has already been reported.
 
 **Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
 
-**Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 Please include the following information in your bug report:
 
@@ -50,4 +50,4 @@ If you find any kind of leaks we are very interested in hearing about it.
 
 ### Test a pre-release version
 
-If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-systray/-/jobs/artifacts/master/download?job=win_installer]].
+If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=win_installer]].

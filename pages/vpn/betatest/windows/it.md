@@ -16,13 +16,13 @@ Per installare RiseupVPN, una volta salvato il file fai doppio click su <code>Ri
 
 ### Segnalazione di malfunzionamenti e richieste di nuove funzionalità
 
-RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-systray</b>.
+RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-vpn</b>.
 
-**Passo 1:** [[Fai una ricerca per vedere => https://0xacab.org/leap/bitmask-systray/issues]] se il malfunzionamento è già stato segnalato.
+**Passo 1:** [[Fai una ricerca per vedere => https://0xacab.org/leap/bitmask-vpn/issues]] se il malfunzionamento è già stato segnalato.
 
 **Passo 2:** [[Registra un account => https://0xacab.org/users/sign_in]] su [[0xacab.org => http://0xacab.org]] ed accedi.
 
-**Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 Nella tua segnalazione, per favore includi le seguenti informazioni:
 
@@ -50,4 +50,4 @@ Se dovessi trovare delle falle che causano perdite di dati, saremmo molto intere
 
 ### Testare una versione di pre-release
 
-se vuoi aiutarci a testare una versione di sviluppo o pre-release di RiseupVPN, puoi scaricare la [[nightly builds => https://0xacab.org/leap/bitmask-systray/-/jobs/artifacts/master/download?job=win_installer]].
+se vuoi aiutarci a testare una versione di sviluppo o pre-release di RiseupVPN, puoi scaricare la [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=win_installer]].

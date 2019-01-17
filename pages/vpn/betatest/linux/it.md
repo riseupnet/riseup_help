@@ -30,13 +30,13 @@ sudo snap install --classic riseup-vpn
 
 ### Segnalazione dei malfunzionamenti e richiesta di nuove funzionalità
 
-RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-systray</b>.
+RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-vpn</b>.
 
-**Passo 1:** [[Fai una ricerca per vedere => https://0xacab.org/leap/bitmask-systray/issues]] se il malfunzionamento è già stato segnalato.
+**Passo 1:** [[Fai una ricerca per vedere => https://0xacab.org/leap/bitmask-vpn/issues]] se il malfunzionamento è già stato segnalato.
 
 **Passo 2:** [[Registra un account => https://0xacab.org/users/sign_in]] su [[0xacab.org => http://0xacab.org]] ed accedi.
 
-**Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 Per favore, includi le seguenti informazioni nella tua segnalazione di malfunzionamento:
 

@@ -30,13 +30,13 @@ sudo snap install --classic riseup-vpn
 
 ### Bug-Meldungen und Anfragen
 
-RiseupVPN wurde mit dem freien Programm <b>bitmask-systray</b> gebaut.
+RiseupVPN wurde mit dem freien Programm <b>bitmask-vpn</b> gebaut.
 
-**Schritt 1:** [[Kontrolliere => https://0xacab.org/leap/bitmask-systray/issues]] ob dieser Bug schon gemeldet wurde.
+**Schritt 1:** [[Kontrolliere => https://0xacab.org/leap/bitmask-vpn/issues]] ob dieser Bug schon gemeldet wurde.
 
 **Schritt 2:** [[Registriere dich => https://0xacab.org/users/sign_in]] auf [[0xacab.org => http://0xacab.org]] und melde dich an.
 
-**Schritt 3:** Erstelle eine [[neue Meldung => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Schritt 3:** Erstelle eine [[neue Meldung => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 Um helfen zu können brauchen mindestens diese Informationen:
 

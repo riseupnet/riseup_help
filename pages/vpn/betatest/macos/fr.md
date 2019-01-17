@@ -16,13 +16,13 @@ Une fois que vous avez sauvegardé le fichier, cliquez deux fois sur <code>Riseu
 
 ### Rapport de bug et demandes de fonctionnalités 
 
-RiseupVPN utilise un programme libre nommé <b>bitmask-systray</b>.
+RiseupVPN utilise un programme libre nommé <b>bitmask-vpn</b>.
 
-**Étape 1:** [[Parcourez => https://0xacab.org/leap/bitmask-systray/issues]] pour voir si le bug a déjà été identifié.
+**Étape 1:** [[Parcourez => https://0xacab.org/leap/bitmask-vpn/issues]] pour voir si le bug a déjà été identifié.
 
 **Étape 2:** [[Créez un compte => https://0xacab.org/users/sign_in]] sur [[0xacab.org => http://0xacab.org]] et connectez-vous.
 
-**Étape 3:** Créez un nouveau [[rapport de bug ou une nouvelle demande de fonctionnalité => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Étape 3:** Créez un nouveau [[rapport de bug ou une nouvelle demande de fonctionnalité => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 Veuillez inclure les détails suivants dans votre rapport de bug:
 

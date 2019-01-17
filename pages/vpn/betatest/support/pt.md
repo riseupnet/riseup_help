@@ -24,13 +24,13 @@ Certifique-se de incluir as seguintes informações:
 
 #### Linux, Mac, Windows
 
-A RiseupVPN foi desenvolvida a partir de um programa livre chamado <b>bitmask-systray</b>.
+A RiseupVPN foi desenvolvida a partir de um programa livre chamado <b>bitmask-vpn</b>.
 
-**Passo 1:** [[Procure para ver => https://0xacab.org/leap/bitmask-systray/issues]] se o defeito já foi relatado.
+**Passo 1:** [[Procure para ver => https://0xacab.org/leap/bitmask-vpn/issues]] se o defeito já foi relatado.
 
 **Passo 2:** [[Registre uma conta => https://0xacab.org/users/sign_in]] com [[0xacab.org => http://0xacab.org]] e entre.
 
-**Passo 3:** Crie [[um relatório de bug ou uma solicitação de recurso => https://0xacab.org/leap/bitmask-systray/issues/new]].
+**Passo 3:** Crie [[um relatório de bug ou uma solicitação de recurso => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
 #### Android
 
