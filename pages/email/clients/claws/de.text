@@ -4,7 +4,7 @@ h2. Was ist Claws?
 
 p(pull-right). !(image-right)it_bites.png!
 
-Claws Mail war das vorinstallierte Emailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":http://www.claws-mail.org/downloads.php?section=downloads herunterladen.
+Claws Mail war das vorinstallierte Emailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://tails.boum.org/news/version_2.0/index.de.html#index2h2). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":http://www.claws-mail.org/downloads.php?section=downloads herunterladen.
 
 Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt IMAP und POP, farbige Etiketten, Rechtschreibprüfung, Filter und Unterstützung für [[OpenPGP-Verschlüsselung->openpgp]]
 
