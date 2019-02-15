@@ -1,332 +1,345 @@
-@title = 'OpenPGP Best Practices'
+@title = 'Cartilha de OpenPGP'
 @this.alias = 'best-practices'
 
-h2. Como usar este guia.
+h2. Como usar este guia
 
-We have gathered here a lot of information about configuring GnuPG. There are detailed explanations for each configuration suggestion. Many of these changes require you to make changes to the GnuPG configuration file on your machine located at @~/.gnupg/gpg.conf@. For your convenience, all the suggested changes to the @gpg.conf@ file are gathered in one place [[near the bottom of this page ->/best-practices#putting-it-all-together]]. We strongly encourage you to not blindly copy the file, but read the document and understand what the settings do.
+Reunimos aqui uma grande quantidade de informações sobre como configurar o GnuPG. Damos explicações detalhadas para cada sugestão de configuração. Grande parte destas definições requerem que você edite o arquivo de configuração do GnuPG, localizado no seu computador em @~/.gnupg/gpg.conf@. Para maior conveniência, todas as alterações sugeridas para o arquivo @gpg.conf@ estão reunidas [[no fim desta página ->/best-practices#putting-it-all-together]]. Recomendamos veementemente que você não copie o arquivo às cegas, mas que leia este documento e entenda o que cada configuração faz.
 
-h2. Use free software, and keep it updated.
+Este guia foi escrito com versões mais antigas (1.4) do GnuPG em mente e pode sugerir definições que já são padrão em lançamentos mais recentes (2.1 e posterior). [[Estamos trabalhando em uma revisão->https://github.com/riseupnet/riseup_help/issues/451]] para garantir que o documento esteja atualizado. Você também pode ajudar [[propondo mudanças->https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]].
 
-Information security is too important to leave to proprietary software. You should use a free OpenPGP implementation, and keep it up-to-date. The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system. It is not enough to install GnuPG and forget about it, though. You *must* keep it up to date so that critical security flaws are fixed. All software has bugs, and GnuPG is no exception. If you are running:
+h2. Use software livre e mantenha-o atualizado
 
-- GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
-- Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
-- Mac OS := you can install [[GPG suite from GPGTools -> https://gpgtools.org/]] (how do you know when you need to update?).
-- Building from source for any other operating system := you should [[subscribe to gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] to know when you should update.
+Segurança da informação é uma questão importante demais para se resolver com software proprietário. A melhor opção é usar uma implementação livre de OpenPGP e mantê-la atualizada. A opção mais tradicional é o [[GnuPG -> https://gnupg.org/]], disponível para todos os sistemas operacionais modernos mais populares. Entretanto, não basta instalar o GnuPG e esquecer-se dele. Você *deve* mantê-lo atualizado para que falhas críticas de segurança sejam consertadas quando necessário. Todo software tem defeitos e o GnuPG não é exceção. Se você usa:
 
-h2. Selecting a keyserver and configuring your machine to refresh your keyring.
+- GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc.) := seu sistema operacional instala o GnuPG automaticamente e mantém-no atualizado.
+- Windows := você pode instalar o programa [[Gpg4win -> https://gpg4win.org/]] e [[inscrever-se na lista gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] para saber quando atualizar.
+- MacOS := você pode instalar a [[GPG suite da GPGTools -> https://gpgtools.org/]]. O software avisará quando houver uma atualização disponível, e você também pode acompanhar as novidades pelo [[Twitter -> https://twitter.com/GPGTools]].
+- Qualquer outro sistema operacional, com o programa instalado a partir da fonte := você deve se [[inscrever na lista gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] para saber quando atualizar.
 
-If you do not regularly refresh your public keys, you do not get timely expirations or revocations, both of which are very important to be aware of! There are two components to receiving key updates. Many users send their key updates to keyservers. In order to receive these updates, you must first ensure that you are using a keyserver that is functioning properly. Then, you have to configure your machine to receive key updates in a regular fashion.
+h2. Selecione um servidor de chaves e configure seu computador para manter seu chaveiro atualizado
 
-h3. Use the sks keyserver pool, instead of one specific server, with secure connections.
+Se você não atualizar regularmente suas chaves públicas, não acompanhará as expirações e revogações no tempo certo, e ambas são informações muito importantes! Dois aspectos devem ser considerados para garantir o recebimento das atualizações. Muitas pessoas enviam suas atualizações para servidores de chaves. Para recebê-las, você deve primeiro se certificar de que seu servidor de chaves está funcionando corretamente. Em seguida, precisa configurar seu computador para receber as atualizações regularmente.
 
-Most OpenPGP clients come configured with a single, specific keyserver. This is not ideal because if the keyserver fails, or even worse, if it appears to work but is not functioning properly, you may not receive critical key updates. Not only is this a single point of failure, it is also a prime source of leaks of relationship information between OpenPGP users, and thus an attack target.
+h3. Use o banco de servidores de chaves SKS, em vez de um servidor específico, com conexões seguras
 
-Therefore, we recommend using the [[sks keyservers pool -> https://sks-keyservers.net/overview-of-pools.php]]. The machines in this pool have regular health checks to ensure that they are functioning properly. If a server is not working well, it will be removed automatically from the pool.
+A maioria dos clientes de OpenPGP vem especificamente configurada com um único servidor de chaves. Não é o ideal, já que, se o servidor falhar, ou pior, se não estiver funcionando adequadamente, mas parecer estar, você pode deixar de receber atualizações críticas. Esse servidor será não apenas um ponto de falha, mas também uma das principais fontes de vazamento das relações entre as pessoas que se comunicam com OpenPGP, logo um alvo de ataques.
 
-You should also ensure that you are communicating with the keyserver pool over an encrypted channel, using a protocol called hkps. In order to use hkps, you will first need to install gnupg-curl:
+Por isso recomendamos o [[banco de servidores de chaves SKS -> https://sks-keyservers.net/overview-of-pools.php]]. Os computadores nesse banco são checados regularmente para garantir que estejam funcionando corretamente. Se um servidor não estiver funcionando bem, ele será removido automaticamente do banco.
+
+Certifique-se também de se comunicar com o banco de servidores de chaves por um canal criptografado, com um protocolo chamado HKPS. Para usar HKPS, você precisa instalar gnupg-curl:
 
 bc. sudo apt-get install gnupg-curl
 
-Then, to use this keyserver pool, you will need to [[download the sks-keyservers.net CA -> https://sks-keyservers.net/sks-keyservers.netCA.pem]], and save it somewhere on your machine. Please remember the path that you save the file to! Next, you should [[verify the certificate's finger print -> https://sks-keyservers.net/verify_tls.php]].
+Então, para usar o banco de servidores de chaves, [[baixe o certificado disponível em sks-keyservers.net -> https://sks-keyservers.net/sks-keyservers.netCA.pem]]. Não esqueça o local onde salvou o arquivo! Em seguida, [[verifique a impressão digital do certificado -> https://sks-keyservers.net/verify_tls.php]].
 
-Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above:
+Agora, edite @~/.gnupg/gpg.conf@ para incluir os seguintes parâmetros, especificando o caminho completo para o arquivo .pem.
 
 bc. keyserver hkps://hkps.pool.sks-keyservers.net
 keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
 
-p. Now your interactions with the keyserver will be encrypted via hkps, which will obscure your social relationship map from anyone who may be snooping on your traffic. For example, if you do a @gpg --refresh-keys@ on a keyserver that is hkp only, then someone snooping your traffic will see every single key you have in your key ring as you request any updates to them. That is pretty interesting information.
+p. Agora suas interações com o servidor de chaves serão criptografadas via HKPS, o que tornará seu mapa de relações sociais invisível para alguém que esteja xeretando o seu tráfego. Por exemplo, se você executar o comando @gpg --refresh-keys@ em um servidor de chaves pelo protocolo inseguro HKP, uma pessoa que esteja bisbilhotando terá acesso a todas as chaves do seu chaveiro conforme você solicita as atualizações delas. Essa pode ser uma informação bem interessante.
 
-_Note:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org and hkps://keys.riseup.net all offer this (although it is recommended that you use a pool instead).
+_Obs.:_ hkps://keys.indymedia.org, hkps://keys.mayfirst.org e hkps://keys.riseup.net oferecem esse recurso (embora seja preferível usar um banco de servidores).
 
-h3. Ensure that all keys are refreshed through the keyserver you have selected.
+bq. Isso é padrão a partir do GnuPG 2.1.18.
 
-When creating a key, individuals may designate a specific keyserver to use to pull their keys from. It is recommended that you use the following option to @~/.gnupg/gpg.conf@, which will ignore such designations:
+h3. Certifique-se de que todas as chaves sejam atualizadas através do servidor de chaves selecionado
+
+Quando uma chave é criada, é possível designar um servidor de chaves específico do qual puxar outras chaves. Recomenda-se que se adicione a seguinte opção a @~/.gnupg/gpg.conf@, que irá ignorar essas designações:
 
 bc. keyserver-options no-honor-keyserver-url
 
-This is useful because (1) it prevents someone from designating an insecure method for pulling their key and (2) if the server designated uses hkps, the refresh will fail because the ca-cert will not match, so the keys will never be refreshed. Note also that an attacker could designate a keyserver that they control to monitor when or from where you refresh their key.
+Isso é útil porque (1) evita que alguém designe um método inseguro para puxar a chave e que (2), se o servidor designado usar HKPS, a atualização falhe porque o certificado de AC não é o correspondente, ou seja, as chaves jamais seriam atualizadas. Repare também que uma pessoa mal-intencionada pode designar um servidor de chaves que ela controle para monitorar a hora e rastrear até você a origem da atualização da chave dela.
 
-h3. Refresh your keys slowly and one at a time.
+h3. Atualize suas chaves devagar, uma por uma
 
-Now that you have configured a good keyserver, you need to make sure that you are regularly refreshing your keys. The best way to do this on Debian and Ubuntu is to use parcimonie:
+Agora que configurou um bom servidor de chaves, você precisa garantir que suas chaves sejam atualizadas regularmente. A melhor maneira de fazer isso no Debian ou Ubuntu é usando parcimonie:
 
 bc. sudo apt-get install parcimonie
 
-[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] is a daemon that slowly refreshes your keyring from a keyserver over [[Tor --> https://www.torproject.org/]]. It uses a randomized sleep, and fresh Tor circuits for each key. The purpose is to make it hard for an attacker to correlate the key updates with your keyring.
+[[Parcimonie-> https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] é um daemon que atualiza seu chaveiro paulatinamente a partir de um servidor de chaves, através do [[Tor --> 
+https://www.torproject.org/]]. O programa usa hibernação randomizada e novos circuitos do Tor para cada chave. O objetivo é dificultar, em caso de ataque, a correlação entre as atualizações de chave e o seu chaveiro.
 
-You should *not* use @gpg --refresh-keys@ or the refresh keys menu item on your email client because you disclose to anyone listening, and the keyserver operator, the whole set of keys that you are interested in refreshing.
+Você *não* deve usar o comando @gpg --refresh-keys@ ou atualizar as chaves pelo menu do seu cliente de e-mail, pois a lista de chaves a serem atualizadas é revelada para quem estiver à espreita, além da pessoa reponsável pela operação do servidor de chaves.
 
-h3. Do not blindly trust keys from keyservers.
+h3. Não confie cegamente em chaves de servidores
 
-Anyone can upload keys to keyservers and there is no reason that you should trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone.
+Qualquer pessoa pode subir chaves para servidores e não há garantia de que uma chave baixada realmente pertença ao indivíduo informado. Por isso, é necessário verificar diretamente com seu contato a impressão digital completa da chave. Isso deve ser feito pessoalmente ou por telefone.
 
-Once you have verified the key fingerprint that you need, you may download the key from the keyserver pool:
+Depois que verificar a impressão digital da chave que precisa, você pode baixar a chave do banco de servidores:
 
-bc. gpg --recv-key '<fingerprint>'
+bc. gpg --recv-key '<impressão digital>'
 
-The next step is to confirm that you actually got the correct key from the keyserver. The keyserver might have given you a different key than the one you just asked for. If you have gpg with version less than 2.1, then you must manually confirm the fingerprint after you have downloaded the key (versions 2.1 and later will refuse to accept incorrect keys from the keyserver).
+O próximo passo é confirmar que puxou a chave certa do servidor. É possível que o servidor de chaves transmita uma chave diferente da solicitada. Se a sua versão do gpg instalada for anterior à 2.1, você deve confirmar manualmente a impressão digital após baixar a chave (2.1 e posterior recusam chaves incorretas transmitidas pelo servidor).
 
-You can confirm the key fingerprint in one of two ways:
+Você pode confirmar a impressão digital da chave de duas maneiras:
 
-Option 1. Check the fingerprint is now in your keyring:
+Opção 1. Verifique se a impressão digital foi incorporada ao seu chaveiro:
 
-bc. gpg --fingerprint '<fingerprint>'
+bc. gpg --fingerprint '<impressão digital>'
 
-Option 2. Attempt to (locally) sign a key with that fingerprint:
+Opção 2. Tente assinar (localmente) uma chave com essa impressão digital:
 
-bc. gpg --lsign-key '<fingerprint>'
+bc. gpg --lsign-key '<impressão digital>'
 
-If you are confident you have the right fingerprint from the owner of the key, the preferred method is to locally sign the key. If you want to publicly advertise your connection to the person who owns the key, you can do a publicly exportable [@--sign-key@] instead.
+Se você está confiante de que tem a impressão digital correta dada pela pessoa à quem pertence a chave, é preferível que use o método de assinar a chave localmente. Se quiser anunciar publicamente a sua conexão com essa pessoa, você pode, em vez disso, fazer uma [@--sign-key@] publicamente exportável.
 
-Note the single quote marks above ('), which should surround your full fingerprint and are necessary to make this command work. Double-quotes (") also work.
+Repare nas aspas simples acima ('), que devem circundar a impressão digital completa e são necessárias para o comando funcionar. Aspas duplas (") também podem ser utilizadas.
 
-h3. Don't rely on the Key ID.
+h3. Não confie no ID da chave
 
-Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]].
+IDs de chave OpenPGP curtos, tais como 0x2861A790, contam com 32 bits de complexidade. São [[comprovadamente -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] fáceis de falsificar usando outra chave com o mesmo ID. IDs longos (como 0xA1E6148633874A3D), por sua vez, têm 64 bits de complexidade. São suscetíveis a [[ataques de colisão -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], o que [[pode ser um problema sério -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
-If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, Key ID.
+Se você quiser um identificador criptograficamente forte para a chave, use a impressão digital completa. _Jamais_ confie no ID da chave, curto ou longo.
 
-You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
+Você deveria, pelo menos, adicionar as opções @keyid-format 0xlong@ e @with-fingerprint@ ao gpg (incluindo-as em @~/.gnupg/gpg.conf@) para aumentar o tamanho de exibição normal do ID de chave para 64 bits e sempre exibir a impressão digital.
 
-Note that there was a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], which is fixed in version 1.7.0: If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Vale ressaltar que um [[defeito foi detectado no Enigmail->http://sourceforge.net/p/enigmail/bugs/239/]], já consertado na versão 1.7.0: se você adicionar a opção 'with-fingerprint' para exibir as impressões digitais completas quando listar chaves, a impressão digital exibida na janela de gerenciamento de chave do Enigmail será da subchave, e não da chave primária. Você sempre pode encontrar a impressão digital da sua chave primária (por exemplo, se quiser dá-la para alguém verificar em uma "festa" de assinatura de chaves), exibindo as impressões digitais de todas as suas chaves secretas com o seguinte comando:
 
 bc. gpg --with-fingerprint --list-secret-key
 
-h3. Check key fingerprints before importing.
+h3. Verifique a impressão digital da chave antes de importá-la
 
-If you received or downloaded a key in a <keyfile>, you can and should display its fingerprint before importing it into your keyring, in that way you can verify the fingerprint without possibly spoiling your keyring and adding a compromised key:
+Se você receber ou baixar uma chave em um <arquivo-chave>, você pode e deve exibir a impressão digital antes de importá-la para o seu chaveiro, verificando-a assim sem correr o risco de contaminar seu chaveiro com uma chave comprometida:
 
-pre. gpg --with-fingerprint <keyfile>
+pre. gpg --with-fingerprint <arquivo-chave>
 
-h2. Key configuration.
+h2. Configuração da chave
 
-Now that you know how to receive regular key updates from a well-maintained keyserver, you should make sure that your OpenPGP key is optimally configured. Many of these changes may require you to generate a new key.
+Agora que você aprendeu a atualizar suas chaves regularmente a partir de um servidor mantido em dia, você precisa se certificar de que sua chave OpenPGP está configurada da melhor forma possível. Muitas das alterações a seguir podem requerer que você gere uma nova chave.
 
-h3. Use a strong primary key.
+h3. Tenha uma chave primária forte
 
-Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]].
+Algumas pessoas ainda usam chaves DSA de 1024 bits. Se é o seu caso, você realmente deveria migrar para uma chave mais comprida, com um algoritmo de dispersão mais forte. Em 2011, a agência governamental estadunidense NIST declarou [[obsoletas -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves DSA-1024, e desde 2014 elas são [[proibidas -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. Em 2015, o NIST também [[proibiu -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves RSA de 1024 bits e a utilização de SHA-1 para assinaturas.
 
-It is recommend to make a 4096bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
+É recomendável criar uma chave RSA de 3072 bits, com o algoritmo de hashing sha512, fazer uma [[declaração de transição -> key-transition]] assinada por ambas as chaves, e então divulgá-la. Veja também [[este documento -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]], que detalha *exatamente* como criar uma chave desse tipo, garantindo que você use o algoritmo de hashing correto (o que pode ser ligeiramente complicado se você estiver usando uma versão do GnuPG anterior a 1.4.10).
 
-Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
+Fazer a transição pode ser sofrido, mas vale a pena, além de ser uma boa oportunidade para aprender mais sobre as ferramentas!
 
-h3. Use an expiration date less than two years.
+h3. Defina um tempo de validade menor que dois anos
 
-People think that they don't want their keys to expire, but you actually *do*. Why? Because *you can always extend your expiration date, even after it has expired!* This "expiration" is actually more of a safety valve or "dead-man switch" that will automatically trigger at some point. If you have access to the secret key material, you can untrigger it. The point is to setup something to disable your key in case you lose access to it (and have no revocation certificate).
+Talvez você pense que não quer que sua chave expire, mas essa *é* a melhor opção. Por quê? *Você sempre pode adiar a data de validade, mesmo depois que a chave expirar!* Essa "validade", na verdade, é uma válvula de segurança ou "sistema homem-morto" programado para disparar automaticamente em um dado momento. Se você tiver acesso ao material da chave secreta, poderá desengatilhá-lo. A questão é estabelecer um sistema para desabilitar sua chave caso você perca o acesso a ela (e não possua certificado de revogação).
 
-Setting an expiration date means that you will need to extend that expiration date sometime in the future. That is a small task that you will need to remember to do (see next item about setting a reminder).
+Definir um prazo de validade significa que você precisará estendê-lo no futuro. É uma pequena tarefa que deverá se lembrar de cumprir (veja o próximo item para saber como configurar um lembrete).
 
-You may think that is annoying and you don't want to deal with it, but it is actually good to be doing this on a regular basis so you keep your OpenPGP skills fresh. It indicates to users that they key is still active, and that the keyholder is using it, and gives you an opportunity to review the current state of your tools, and best practices. Also, many people will not sign a key that has no expiration date!
+Você pode achar tudo isso chato demais para se lidar, mas, na verdade, é bom ter que passar por isso de vez em quando para manter frescos seus conhecimentos de OpenPGP. Mostra às pessoas que a sua chave ainda está ativa, ainda está sendo usada, e dá a você a oportunidade de rever o estado das suas ferramentas e as melhores práticas. Além disso, muitas pessoas não assinam chaves sem data de validade!
 
-If you have already generated a key without an expiration date, you can set an expiration date on your key by doing the following:
+Se já gerou uma chave sem data de validade, você ainda pode defini-la fazendo o seguinte:
 
-bc. gpg --edit-key '<fingerprint>'
+bc. gpg --edit-key '<impressão digital>'
 
-Now select the subkey for which you want to set an expiration date (e.g. the first one), or none to set the expiration on your primary key and then issue the 'expire' command:
+Agora, selecione a subchave para a qual deseja estabelecer uma data de validade (p.ex. a primeira), ou não selecione nenhuma para configurar a data de validade da sua chave primária, e então use o comando 'expire':
 
 bc. gpg> key 1
 gpg> expire
 
-p. Then set the date to a reasonable one, and save the key and exit (e.g. 2 years):
+p. Em seguida, defina uma data razoável (p.ex. 2 anos), salve a chave e encerre o programa:
 
 bc. Key is valid for? (0) 2y
 gpg> save
 
-p. Then you may send your key to the keyservers to publish this change:
+p. Então você poderá enviar sua chave para os servidores de chaves publicarem a mudança:
 
-bc. gpg --send-key '<fingerprint>'
+bc. gpg --send-key '<impressão digital>'
 
-h3. Set a calendar event to remind you about your expiration date
+h3. Configure um evento no calendário como lembrete da data de validade
 
-You won't remember, so its best to ask something to remind you. Set your reminder a month or more before the date so you can do the change with some time. You do not want to be rushed when you are dealing with your keys.
+Você não se lembrará, então é melhor pedir ao computador para fazer isso por você. Configure seu lembrete para um mês ou mais antes da data para que você tenha tempo para fazer a alteração. É melhor não se apressar quando estiver lidando com suas chaves.
 
-Remember: you can always extend your expiration date (even after it has expired!), so you do not need to make a brand new key, you just need to extend your expiration to a later time. Doing this on a regular basis is good to exercise your OpenPGP muscles, otherwise you will forget things.
+Lembre-se: você sempre pode estender a validade (mesmo depois que a chave expirar!), então não precisa criar uma nova chave, apenas adiar a data. Fazer isso com regularidade é um bom exercício para os seus músculos OpenPGPianos -- de outra forma, você acabará se esquecendo das coisas.
 
-h3. Generate a revocation certificate.
+h3. Gere um certificado de revogação
 
-If you forget your passphrase or if your private key is compromised or lost, the only hope you have is to wait for the key to expire (this is not a good solution), or to activate your revocation certificate by publishing it to the keyservers. Doing this will notify others that this key has been revoked.
+Se você esquecer sua frase secreta ou se sua chave privada for comprometida ou perdida, a sua única esperança será esperar que a chave expire (não é uma boa solução) ou ativar seu certificado de revogação, publicando-o nos servidores de chaves. Ao fazer isso, você notifica às pessoas de que a chave foi revogada.
 
-A revoked key can still be used to verify old signatures, or decrypt data (if you still have access to the private key), but it cannot be used to encrypt new messages to you.
+Uma chave revogada ainda pode ser usada para verificar assinaturas antigas ou decriptografar dados (se você ainda tiver acesso à chave privada), mas não pode ser usada para criptografar novas mensagens enviadas a você.
 
-bc. gpg --output revoke.asc --gen-revoke '<fingerprint>'
+bc. gpg --output revoke.asc --gen-revoke '<impressão digital>'
 
-This will create a file called revoke.asc. You may wish to print a hardcopy of the certificate to store somewhere safe (give it to your mom, or put it in your offsite backups). If someone gets access to this, they can revoke your key, which is very inconvenient, but if they also have access to your private key, then this is exactly what you want to happen.
+Assim, será criado um arquivo chamado revoke.asc. Você pode imprimir uma cópia do certificado para armazená-la em algum lugar seguro (dá-la para sua mãe ou guardá-la junto aos seus backups externos). Se alguém conseguir acessá-la, poderá revogar sua chave, o que seria muito inconveniente, mas se também tiverem acesso à sua chave privada, isso é exatamente o que deve acontecer.
 
-h3. Only use your primary key for certification (and possibly signing). Have a separate subkey for encryption.
+bq. Observe que isso é padrão nas versões mais recentes do GnuPG (a partir de 2.1).
 
-This is done by default in GnuPG 1.4.18 (and maybe earlier) and above. If you created your key with older implementations of OpenPGP, you may need to create new subkeys like you would do for signing, below.
+h3. Use sua chave primária apenas para certificações (e possivelmente assinaturas). Tenha uma subchave separada para criptografia.
 
-h3. Have a separate subkey for signing
+Isso é padrão a partir do GnuPG 1.4.18 (e talvez versões mais antigas). Se você criou sua chave usando implementações mais antigas da OpenPGP, pode ser necessário criar novas subchaves como se para assinaturas, abaixo.
 
-By default GnuPG uses the same subkey for signing (e.g. signing an email message) and certifying (e.g. signing another key). It is useful to separate those purposes as one is way more important than the other.
+h3. Separe uma subchave para assinaturas
 
-In this scenario, your primary key is used only for certifications, which happen infrequently.
+Por padrão, o GnuPG usa a mesma subchave para assinaturas (p.ex. assinar um e-mail) e certificações (p.ex. assinar outra chave). É útil separar esses propósitos, já que um deles é muito mais importante que o outro.
 
-Creating a new subkey can be done in the @--edit-key@ dialog, using the @addkey@ command. During the dialog, you can choose the "capability" of the key...
+Nesse cenário, sua chave primária seria usada apenas para certificações, que não são frequentes.
 
-h3. Keep your primary key entirely offline
+É possível criar uma nova subchave na seção @--edit-key@, usando o comando @addkey@. Dentro da seção, você pode escolher a "capacidade" da chave...
 
-This is tricky to do but helps in protecting the very important primary key. If your primary key is stolen, the attacker can create new identities, revoke existing ones and completely impersonate you. Storing keys "offline" is therefore a good way to protect against such attacks.
+h3. Mantenha sua chave primária inteiramente off-line
 
-Make sure you created a separate signing key before you do this, otherwise you will not be able to sign emails without your offline key.
+Isso é complicado de se fazer, mas ajuda a proteger a importantíssima chave primária. Se alguém roubá-la, poderá criar novas identidades, revogar as existentes e se fazer passar por você. Armazenar chaves off-line é, portanto, uma boa proteção contra esse tipo de ataque.
 
-Extracting the primary key is tricky, but this should get you going:
+Certifique-se de criar uma chave separada para assinaturas antes, ou não conseguirá assinar e-mails sem a chave off-line.
 
-bc. # extract the primary key
+Extrair a chave primária é complicado, mas deve dar certo se você fizer o seguinte:
+
+bc. # extrair a chave primária
 gpg -a --export-secret-key john.doe@example.com > secret_key
-# extract the subkeys, which we will reimport later
+# extrair as subchaves, que serão reimportadas depois
 gpg -a --export-secret-subkeys john.doe@example.com > secret_subkeys.gpg
-# *delete* the secret keys from the keyring, so only subkeys are left
+# *deletar* as chaves secretas do chaveiro, deixando apenas as subchaves
 $ gpg --delete-secret-keys john.doe@example.com
 Delete this key from the keyring? (y/N) y
 This is a secret key! - really delete? (y/N) y
-# reimport the subkeys
+# reimportar as subchaves
 $ gpg --import secret_subkeys.gpg
-# verify everything is in order
+# verificar se está tudo em ordem
 $ gpg --list-secret-keys
-# remove the subkeys from disk
+# remover as subchaves do disco
 $ rm secret_subkeys.gpg
 
-Then you want to put the @secret_key@ file offline, probably on a thumb drive that you always carry with you, or in a guarded safe. Others will use smartcards to store the key and keep them with their physical keyring. The security of that device will be the security of your key.
+Em seguida, guarde o arquivo @secret_key@ off-line, talvez em um pen drive que você sempre carregue consigo ou em um cofre. Outras pessoas podem usar cartões inteligentes para armazenar a chave e guardá-la em seus chaveiros físicos. Da segurança desse dispositivo dependerá a segurança da sua chave.
 
-Again, make sure you have a revocation certificate.
+Novamente, certifique-se de que tem um certificado de revogação.
 
-You can make sure the secret key material is missing by running @--list-secret-keys@ which should make the missing material with a @sec#@ instead of just @sec@.
+Você pode garantir que o material da chave secreta foi removido executando @--list-secret-keys@, que marca o material ausente com um @sec#@ em vez de @sec@.
 
-Note: in certain exotic situations, @--delete-secret-keys@ may not completely remove the secret key material and @--list-secret-keys@ will still show @sec@ instead of @sec#@. In this case, you can move the @.gnupg@ directory out of the way instead of running @--delete-secret-keys@. You will need to reimport your trustdb and public keys of course, which will look something like this:
+Observação: raramente, @--delete-secret-keys@ pode não remover completamente o material da chave secreta, que será mostrado como @sec@ em vez de @sec#@ ao comando @--list-secret-keys@.
 
-bc. instead of gpg --delete-secret-keys john.doe@example.com, do this:
+Nesse caso, você pode tirar o diretório @.gnupg@ do caminho em vez de executar @--delete-secret-keys@. Será necessário reimportar seu trustdb e suas chaves públicas, é claro. Veja abaixo:
+
+bc. em vez de executar gpg --delete-secret-keys john.doe@example.com, faça o seguinte:
 $ mv .gnupg .gnupg.bak
-# reimport the subkeys
+# reimportar as subchaves
 $ gpg --import secret_subkeys.gpg
-# verify everything is in order
+# verificar se está tudo em ordem
 $ gpg --list-secret-keys
-# remove the subkeys from disk
+# remover as subchaves do disco
 $ rm secret_subkeys.gpg
-# reimport public keyring
+# reimportar o chaveiro público
 $ gpg --homedir .gnupg.bak --export | gpg --import
-# reimport trust db
+# reimportar trust db
 $ gpg --homedir .gnupg.bak --export-ownertrust | gpg --import-ownertrust
-# remove backup GPG directory, which will clear *all* secret keys
+# remover o diretório GPG de backup, o que apagará *todas* as chaves secretas
 $ rm -rf .gnupg.bak
 
-Finally note that in the above manipulations, secret key material is stored in the clear on disk. You may want to securely delete those files (using, for example, @nwipe@) instead of using the simple @rm@ to remove private key material. Do consider that modern disks like SSDs run advanced firmware that may not really obey such commands and leave traces of private key material on disk. The best defense, in this case, is to use Full Disk Encryption.
+Por fim, repare que, acima, o material da chave secreta é armazenado em texto puro na memória. Você pode apagar esses arquivos com segurança (usando, por exemplo, @nwipe@) em vez de usar um simples @rm@ para remover o material da chave privada. Considere que dispositivos de armazenamento modernos como SSDs rodam firmware avançado que pode não obedecer tais comandos e deixar rastros da chave privada na memória. A melhor defesa, nesse caso, é usar criptografia de disco inteiro.
 
-Note that those procedures may change from version to version. See [[this discussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] or [[this article -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], or [[this guide -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] designed for GnuPG 2.x and above.
+Observe que os procedimentos podem mudar de versão para versão. Veja [[esta discussão -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]], [[este artigo -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]] ou ainda [[este guia -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] concebido para GnuPG 2.x e superior.
 
-h3. OpenPGP key checks.
+h3. Verificação de chaves OpenPGP
 
-There is a handy tool that will perform the key checks below for you. You can get it [[from the source -> http://floss.scru.org/hopenpgp-tools/]], or if you are running Debian or Ubuntu, you can install the package directly by doing:
+Existe uma ferramenta útil que faz por você as verificações de chave descritas abaixo. Você pode baixá-la [[da fonte -> http://floss.scru.org/hopenpgp-tools/]] ou, se estiver usando Debian ou Ubuntu, instalar o pacote diretamente com o seguinte comando:
 
 bc. sudo apt-get install hopenpgp-tools
 
-To run these tests with the tool, you can do the following:
+Observação: @hopenpgp-tools@ atualmente não funciona com GnuPG 2.1 ou superior. Isso porque versões mais recentes armazenam suas chaves pública e privada em @~/.gnupg/pubring.kbx@. @hkt@ procura sua chave pública em @~/.gnupg/pubring.gpg@ e mostra uma mensagem de erro se você estiver usando GnuPG 2.1 ou superior.
+
+Para executar esses testes com a ferramenta, você pode fazer o seguinte:
 
 bc. hkt export-pubkeys '<fingerprint>' | hokey lint
 
-The output will display any problems with your key in red text. If everything is green, your key passes each of the tests below. If it is red, your key fails one of the tests listed below and you should fix it or generate a new key after ensuring that your @gpg.conf@ is set up as recommended.
+A saída exibirá quaisquer problemas com sua chave em vermelho. Se tudo estiver verde, sua chave terá passado em todos os testes listados abaixo. Se houver algo em vermelho, sua chave não terá passado em algum dos testes, e você deverá consertá-la ou gerar uma nova chave, após se certificar de que sua @gpg.conf@ está configurada conforme recomendado.
 
-h4. Make sure your key is OpenPGPv4
+h4. Certifique-se de que sua chave é OpenPGPv4
 
-According to [[RFC4880 -> https://tools.ietf.org/html/rfc4880]]: "V3 keys are deprecated. They contain three weaknesses. First, it is relatively easy to construct a V3 key that has the same Key ID as any other key because the Key ID is simply the low 64 bits of the public modulus. Secondly, because the fingerprint of a V3 key hashes the key material, but not its length, there is an increased opportunity for fingerprint collisions. Third, there are weaknesses in the MD5 hash algorithm that make developers prefer other algorithms. See below for a fuller discussion of Key IDs and fingerprints"
+De acordo com a [[norma RFC 4880 -> https://tools.ietf.org/html/rfc4880]]: "Chaves V3 estão obsoletas. Elas têm três fraquezas. Primeiro, é relativamente fácil construir uma chave V3 que tenha o mesmo ID de Chave que qualquer outra chave, pois o ID de Chave é composto simplesmente pelos últimos 64 bits do módulo público. Segundo, como a impressão digital de uma chave V3 dispersa o material da chave, mas não seu comprimento, existe uma chance maior de colisões entre impressões digitais. Terceiro, o algoritmo de dispersão MD5 tem fraquezas que o colocam em desvantagem em relação a outros algoritmos. Veja abaixo mais informações sobre IDs de Chave e impressões digitais.
 
-To determine if your key is a V3 key you can do the following:
+Para determinar se sua chave é V3, faça o seguinte:
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets |grep version
 
-h4. primary keys should be DSA-2 or RSA (RSA preferred), ideally 4096 bits or more.
+h4. Chaves primárias devem ser RSA, idealmente de 3072 bits.
 
-To check if you are using DSA-2 or RSA, you can do this:
+Para verificar se você está usando RSA, faça isto:
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
 
-If the reported algorithm is 1, you are using RSA. If it is 17, then it is DSA and you will need to confirm that the size reported in the next check reports a bit-length key size greater than 1024, otherwise you aren't using DSA-2.
+Se o algoritmo relatado for 1, você está usando RSA.
 
-If the reported algorithm is 19, you are using ECDSA, if it is 18 you are using ECC, and the key bit-length determination check below is not an appropriate criteria for these types of keys as as the key sizes will drop significantly.
+Se for 17, então é DSA e você precisará confirmar se o tamanho relatado na próxima verificação é superior a 1024 bits; se não for, você não está usando DSA-2.
 
-To check the bit-length of the primary key you can do this:
+Se o algoritmo relatado for 19, você está usando ECDSA. Se for 18, você está usando ECC. A verificação de tamanho abaixo não é um critério apropriado para esses tipos de chave, já que os tamanhos de chave são significativamente menores nesses casos.
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
+Para verificar o comprimento em bits da sua chave primária, faça o seguinte:
 
-h4. self-signatures should not use MD5 exclusively
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
 
-You can check this by doing:
+h4. Autoassinaturas não devem usar MD5 exclusivamente
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
+Você pode verificar isso desta forma:
 
-If you see any 'digest algo 1' results printed, then you have some self-signatures that are using MD5, as digest algo 1 is MD5. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
 
-To fix this, first, you should set the following in your @~/.gnupg/gpg.conf@:
+Se você vir algo como 'digest algo 1' nos resultados, então você possui autoassinaturas que usam MD5, que é o algoritmo de resumo criptográfico número 1. Consulte a norma [[[[OpenPGP RFC 4880, seção 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] para uma tabela de correspondência entre algoritmos de resumo criptográfico e números.
 
-bc. cert-digest-algo SHA512
-
-Second, you should generate a new self-signature on your key (e.g. [[by changing the key's expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]).
-
-h4. self-signatures should not use SHA1
-
-You can check this by doing:
-
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
-
-If you see any 'digest algo 2' results printed, then you have some self-signatures that are using SHA1, as digest algo 2 is SHA1. See the [[OpenPGP RFC 4880, section 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]] for a table that maps hash algorithms to numbers.
-
-To fix this, you can generate a new self-signature on your key (e.g. [[by changing its expiration date -> /best-practices#use-an-expiration-date-less-than-two-years]]) after setting the following in your @~/.gnupg/gpg.conf@:
+Para consertar, primeiro você deve adicionar a seguinte definição ao seu arquivo @~/.gnupg/gpg.conf@:
 
 bc. cert-digest-algo SHA512
 
-h4. stated digest algorithm preferences must include at least one member of the SHA-2 family at a higher priority than both MD5 and SHA1
+Em segundo lugar, você deve gerar uma autoassinatura para sua chave (p.ex., alterando a data de validade da chave -> /best-practices#use-an-expiration-date-less-than-two-years]]).
 
-You can check this by doing:
+h4. Autoassinaturas não devem usar SHA-1
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
+Você pode verificar isso desta forma:
 
-and then inspect the results. The preference order is based on which number comes first from left to right. If you see the number '3', '2', or '1' before you see '11', '10', '9' or '8', then you have specified your preferences to favor a weakened digest algorithm
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
 
-To fix this, first set the following in your @~/.gnupg/gpg.conf@:
+Se os resultados incluírem a expressão 'digest algo 2', então você possui autoassinaturas que usam SHA-1, que é o algoritmo de resumo criptográfico número 2. Consulte a norma [[[[OpenPGP RFC 4880, seção 9.4 -> https://tools.ietf.org/html/rfc4880#section-9.4]], para uma tabela de correspondência entre algoritmos de resumo criptográfico e números.
+
+Para consertar, você pode gerar uma autoassinatura para sua chave (p.ex., alterando a data de validade da chave -> /best-practices#use-an-expiration-date-less-than-two-years]]) depois de acrescentar a seguinte definição ao seu arquivo @~/.gnupg/gpg.conf@:
+
+bc. cert-digest-algo SHA512
+
+h4. As preferências de algoritmo de resumo criptográfico devem incluir pelo menos um membro da família SHA-2 cuja prioridade seja superior a MD5 e SHA-1.
+
+Você pode verificar isso desta forma:
+
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep 'pref-hash-algos'
+
+Depois, examine os resultados. A ordem de preferência é baseada em que número vem primeiro, da esquerda para a direita. Se você vir o número '3', '2' ou '1' antes de '11', '10', '9' ou '8', então você especificou suas preferências para priorizar um algoritmo mais fraco.
+
+Para consertar, primeiro acrescente o seguinte ao seu arquivo @~/.gnupg/gpg.conf@:
 
 bc. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
-then set the preferences on your key like this:
+Então, configure as preferências da sua chave assim:
 
 bc. $ gpg --edit-key '<fingerprint>'
 gpg> setpref
 ...
 gpg> save
 
-h4. primary keys should have a reasonable expiration date (no more than 2 years in the future)
+h4. Chaves primárias devem ter um tempo de validade razoável (não mais que dois anos)
 
-You can check what your expiration dates are by doing this:
+Você pode verificar quais são suas datas de validade desta forma:
 
-bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'key expires after'
+bc. gpg --export-options export-minimal --export '<impressão digital>' | gpg --list-packets | grep 'key expires after'
 
-Then visually inspect what the results are to confirm this -- the date listed will be relative to key creation, though, which can be difficult to interpret.
+Então, examine os resultados para confirmar -- mas a data listada será relativa à criação da chave, o que pode ser difícil de interpretar.
 
-Another way to check expiration is just to do:
+Outra maneira de verificar a validade é simplesmente com o seguinte comando:
 
-bc. gpg --list-keys '<fingerprint>'
+bc. gpg --list-keys '<impressão digital>'
 
-which should show the creation and expiration dates of the primary key and each associated subkey. If you don't see anything that says "expires" in this output, then you have not set an expiration date properly.
+Ele deve exibir as datas de criação e validade da chave primária e de cada subchave associada. Se você não vir a palavra "expires", não configurou adequadamente uma data de validade.
 
-To fix this, you can do:
+Para consertar, você pode:
 
-bc. $ gpg --edit-key '<fingerprint>'
+bc. $ gpg --edit-key '<impressão digital>'
 gpg> expire
 ...
 gpg> save
 
-h2. Putting it all together.
+h2. Juntando tudo
 
-All the recommended settings discussed on this guide have been combined into one configuration file at Jacob Appelbaum's [[duraconf -> https://github.com/ioerror/duraconf]] "collection of hardened configuration files." You may [[right-click on this link and save the gpg.conf -> https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]] in your @~/.gnupg/gpg.conf@ (linux and MacOS). For windows users, the gpg.conf file should be saved to @AppData\GnuPG\@.
+Todas as definições recomendadas discutidas neste guia foram combinadas em um único arquivo de configuração no [[duraconf -> https://github.com/ioerror/duraconf]], a "coleção de arquivos de configuração reforçados" de Jacob Appelbaum. Você pode [[clicar com o botão direito neste link e salvar o arquivo gpg.conf -> https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]] no local @~/.gnupg/gpg.conf@ (Linux e MacOS). No Windows, o arquivo gpg.conf deve ser salvo em @AppData\GnuPG\@.
 
-You will need to uncomment and/or adjust the following settings to your local preferences: @default-key@, @keyserver-options ca-cert-file@ and @keyserver-options http-proxy@.
+Você precisará descomentar e/ou ajustar as seguintes configurações de acordo com suas preferências locais: @default-key@, @keyserver-options ca-cert-file@ e @keyserver-options http-proxy@.
 
-h2. Additional suggestions.
+h2. Sugestões adicionais
 
-h3. Do you have an encrypted backup of your secret key material?
+h3. Você tem um backup criptografado do material da sua chave secreta?
 
-Double check on it.
+Verifique.
 
-h3. Do not include a "Comment" in your User ID.
+h3. Não inclua um "Comentário" no seu ID de Usuário
 
-If you think you need a "Comment" field in your OpenPGP User ID [[please think long and hard before deciding that is really the case -> https://www.debian-administration.org/users/dkg/weblog/97]]. You probably don't need or want it, and having a comment field makes it harder for people to know what they're certifying.
+Se você acha necessário ter um campo de "Comentário" no seu ID de Usuário OpenPGP, [[pense melhor antes de se decidir definitivamente -> https://www.debian-administration.org/users/dkg/weblog/97]]. Você provavelmente não precisa nem quer um "Comentário", e tê-lo pode dificultar que outras pessoas saibam o que estão certificando.
