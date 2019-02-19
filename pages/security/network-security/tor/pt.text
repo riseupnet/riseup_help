@@ -2,78 +2,79 @@
 @summary = 'The Onion Router'
 @nav_title = 'Tor'
 
-É com prazer que apresentamos o emocionante mundo do Tor! Esta página vai preparar você com o menor número de passos possível. Por enquanto, tudo o que você precisa saber é que o [[Tor->https://torproject.org]] é uma ótima ferramenta para ter anonimato e privacidade on-line.
+É com prazer que apresentamos o emocionante mundo do Tor! Esta página ajudará você a deixar tudo pronto e funcionando com o mínimo de passos possível. Por enquanto, tudo o que você precisa saber é que o [[Tor->https://torproject.org]] é uma ótima ferramenta de anonimato e privacidade on-line.
 
 h2. Instale o Tor
 
-O primeiro passo é baixar o Tor. O Tor Project oferece alguns pacotes para download; comece baixando o [[“Tor Browser”->https://torproject.org/download/download.html.en]] para o sistema operacional que você usa.
+O primeiro passo é baixar o Tor. O Projeto Tor oferece vários pacotes para download -- comece baixando o [[“Tor Browser”->https://torproject.org/download/download.html]] para o seu sistema operacional.
 
-Uma vez que você tiver baixado o Tor Browser, siga as instruções abaixo, de acordo com o seu sistema operacional.
-
+Após baixar o Tor Browser, siga as instruções de instalação abaixo, de acordo com o sistema.
 
 h3. Instruções para Windows
 
-Depois que você tiver baixado o Tor Browser, dê um clique-duplo nele para rodar. Clique no botão "..." (1), selecione o local onde você quer salvar o pacote e clique "OK" (2). Você precisa de pelo menos 50 MB de espaço livre disponível no lugar escolhido. Se você quiser deixar o programa no computador, salvá-lo na Área de Trabalho é uma boa opção. Mas se você quiser movê-lo para algum computador diferente, ou diminuir os vestígios que você vai deixar pra trás, salve-o em um pen-drive. Depois clique em "Extrair" (3) para começar a extrair. Isso pode levar alguns minutos para concluir.
+Depois que baixar o Tor Browser, dê um duplo clique no ícone para executar. Clique no botão "..." (1), selecione o local onde você quer salvar o pacote e aperte "OK" (2). Você precisa de pelo menos 50 MB de espaço livre disponível no lugar escolhido. Se você quiser deixar o programa no computador, salvá-lo na Área de Trabalho é uma boa opção, mas se você quiser movê-lo para algum computador diferente, ou deixar menos vestígios para trás, salve-o em um pen drive. Depois, clique para "Extrair" (3). Isso pode levar alguns minutos.
 
 !tbb-screenshot1.jpg!
 
-Veja a seção 'Usando o Tor', abaixo, sobre como usar o Tor.
+Veja a seção 'Usando o Tor', abaixo.
 
 h3. Mac OS X
 
-Depois que você tiver baixado o Tor Browser, simplesmente clique nele para começar a instalação. O Mac OS X vai desarquivá-lo automaticamente e você vai ter um aplicativo TorBrowser na língua que você escolheu (por exemplo, TorBrowser_pt-BR.app). Clique no aplicativo TorBrowser para lançar o Vidalia. Quando o Vidalia se conecta com o Tor, ele inicia o Firefox.
+Depois que baixar o Tor Browser, clique no ícone para começar a instalação. Ele será extraído automaticamente e você terá um aplicativo TorBrowser na língua que escolheu ao fazer download (por exemplo, TorBrowser_pt-BR.app). Clique no aplicativo TorBrowser para iniciar a Vidalia. Quando a Vidalia se conectar ao Tor, o Firefox será aberto.
 
 !screenshot-osx-torbrowser-icon.png!
 
-Veja a seção 'Usando o Tor', abaixo, sobre como usar o Tor.
+Veja a seção 'Usando o Tor', abaixo.
 
 h3. Linux
 
-Baixe o arquivo com a arquitetura apropriada para o seu Linux, e salve-o em algum lugar. Para extrair os arquivos você pode usar ferramentas gráficas, como o gerenciador de arquivos, Ark ou Xarchiver. Alternativamente, você pode extrair por um comando de terminal:
+Baixe o arquivo adequado à arquitetura do seu Linux. Para extrair os arquivos você pode usar ferramentas gráficas, como o gerenciador de arquivos, a Ark ou o Xarchiver. Outra opção é extrair pela linha de comando:
 
-* Para Linux 32-bit: <code>tar -xvzf tor-browser-linux32-4.0.1_LANG.tar.gz</code>
-* Para Linux 64-bit: <code>tar -xvzf tor-browser-linux64-4.0.1_LANG.tar.gz</code>
+* No Linux 32-bit: <code>tar -xvzf tor-browser-linux32-4.0.1_LANG.tar.gz</code>
+* No Linux 64-bit: <code>tar -xvzf tor-browser-linux64-4.0.1_LANG.tar.gz</code>
 
-(em que LANG é a linguagem referida no nome do arquivo), e então dê um clique-duplo na pasta, ou use o comando 'cd' para abri-la, e execute o script "start-tor-browser". Isso vai iniciar o Vidalia e, quando ele conectar com o Tor, vai iniciar o Firefox. Não desempacote ou rode o Tor Browser como root.
+Substitua "LANG" pelo idioma indicado no nome do arquivo. Então, dê um duplo clique na pasta ou use o comando 'cd' para abri-la e execute o script "start-tor-browser". Isso vai iniciar a Vidalia e, quando ela se conectar ao Tor, o Firefox será aberto. Não desempacote ou execute o Tor Browser em root.
 
-Quem usa Linux pode se interessar também pelo [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Esse script garante que o Tor Browser se mantenha atualizado.
+Quem usa Linux talvez se interesse também pelo [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Trata-se de um script para manter o Tor Browser atualizado.
 
-*Não extraia o Tor Browser como root.*
+*Não extraia o Tor Browser em root.*
 
 h2. Usando o Tor
 
-Uma vez concluída a extração, abra a pasta Tor Browser da localização onde você salvou o pacote. Dê um clique-duplo no aplicativo "Start Tor Browser" (4) (talvez ele se chame "Start Tor Browser.exe" em alguns sistemas). A janela do Vidalia logo vai aparecer.
+Uma vez concluída a extração, abra a pasta Tor Browser a partir do local onde você salvou o pacote. Dê um duplo clique no aplicativo "Start Tor Browser" (4) (talvez ele se chame "Start Tor Browser.exe" em alguns sistemas). A janela da Vidalia logo vai aparecer.
 
 !tbb-screenshot2.jpg!
 
-Quando o Tor estiver pronto, o Firefox vai ser aberto automaticamente. Somente as páginas que forem visitadas por meio deste navegador vão ser transmitidas via Tor. Outros navegadores, como o Internet Explorer, não são afetados. *Tenha certeza* de que ele diga "Tor Enabled" (5) no canto inferior direito antes de usá-lo. Para reduzir o risco de confusão, não rode o Firefox normal enquanto estiver usando o Tor Browser; é melhor fechar as janelas existentes do Firefox antes de iniciar.
+Quando o Tor estiver pronto, o Firefox será aberto automaticamente. Somente as páginas acessadas por esse Firefox adaptado serão transmitidas via Tor. Outros navegadores, como o Internet Explorer, não são afetados. *Certifique-se* de que a mensagem "Tor Enabled" (5) apareça no canto inferior direito do navegador antes de usá-lo. Para não arriscar se confundir, não rode o Firefox normal enquanto estiver usando o Tor Browser; é melhor fechar as janelas existentes do Firefox antes de iniciar.
 
-Quando você tiver terminado de navegar, feche todas as janelas abertas do navegador clicando no 'x' (6). Por razões de privacidade, a lista de páginas da internet que você tiver visitado e todos os cookies serão deletados.
+Quando tiver terminado de navegar, feche todas as janelas abertas do navegador clicando no 'x' (6). Por uma questão de privacidade, a lista de páginas da internet que você tiver visitado e todos os cookies serão apagados.
 
 !tbb-screenshot3a.jpg!
 
-Junto com o Tor Browser, o Vidalia e o Tor vão fechar automaticamente.
+Junto com o Tor Browser, a Vidalia e o Tor serão encerrados automaticamente.
 
 h2. Serviços ocultos do Riseup
 
-O Tor torna possível que não só usuários escondam suas localizações, mas também servidores. Você pode acessar os serviços do Riseup pelos nossos endereços [[de localização oculta ->https://www.torproject.org/docs/hidden-services.html.en]]. Sempre que você vir uma URL que termine com '.onion', trata-se de um serviço de localização oculta do Tor. Se você estiver rodando o Tor, você pode simplesmente colocar esses endereços onion onde você normalmente colocaria os endereços normais (por exemplo, como um URL no seu navegador da internet com o Tor habilitado), e o Tor Browser vai usar a rede Tor para chegar aos nossos servidores.
+O Tor possibilita que não apenas indivíduos escondam suas localizações, mas também servidores. Você pode acessar os serviços do Riseup pelo nosso [[Serviço de Onion ->https://www.torproject.org/docs/hidden-services.html.en]]. Sempre que você vir uma URL que termine com '.onion', trata-se de um serviço de localização oculta do Tor. Se você estiver rodando o Tor, você pode simplesmente digitar esses endereços onion onde você normalmente inseriria os endereços normais - por exemplo, como URL -, e o Tor Browser usará a rede Tor para chegar aos nossos servidores.
 
-Abaixo, segue a lista de endereços dos serviços ocultos do Riseup. Se você tiver problemas com a verificação deles, tente baixar e verificar [[este arquivo -> /security/network-security/tor/hs-addresses-signed.txt]]:
+Abaixo, segue a lista de endereços dos serviços ocultos do Riseup. Se você tiver problemas para verificá-los, tente baixar e verificar [[este arquivo -> /security/network-security/tor/hs-addresses-signed.txt]]:
 
 <pre>
 <%= render :file => 'hs-addresses-signed.txt', :type => :raw %>
 </pre>
 
-h2. Avisos e notas
+h2. Avisos e observações
 
-Primeiro, fique alerta: o Tor pode ser bem lento; às vezes você nem vai perceber, mas outras vezes você vai pensar que as coisas simplesmente não estão funcionando. A experiência varia conforme o Tor muda o roteamento da sua conexão. Isso porque a sua conexão é roteada por PELO MENOS três computadores. Se dois desses computadores forem super rápidos, mas o terceiro for uma lesma, seus dados vão se mover tão rápido quanto a lesma for capaz de manejar.
+Primeiro, saiba que o Tor pode ser bem lento, algumas vezes imperceptivelmente, outras a ponto de parecer que parou de funcionar. O desempenho varia conforme o Tor muda o roteamento da sua conexão, já que sua conexão é roteada por *pelo menos* três computadores. Se dois desses computadores forem super rápidos, mas o terceiro for uma lesma, seus dados serão transmitidos tão rapidamente quanto a lesma permitir.
 
-Segundo, por mais seguro que o Tor possa ser em si mesmo, outros softwares do seu computador talvez não sejam. Você precisa mudar alguns dos seus hábitos, e reconfigurar o seu software! O Tor, por si mesmo, NÃO é tudo o que você precisa pra manter o seu anonimato. Mais informações estão disponíveis no site do Tor Project, na [[seção de documentação -> https://torproject.org/docs/documentation.html.en]] deles. Por favor, leia essas informações com atenção antes de fazer qualquer coisa potencialmente insegura no sistema Tor.
+Segundo, por mais que o Tor em si seja seguro, outros programas instalados no seu computador podem não ser. Você precisa mudar alguns dos seus hábitos e reconfigurar o seu software! O Tor sozinho *não* é suficiente para manter seu anonimato. Mais informações estão disponíveis no site do Tor Project, na [[parte de documentação -> https://torproject.org/docs/documentation.html.en]]. Por favor, leia essas informações com atenção antes de fazer qualquer coisa potencialmente insegura no sistema Tor.
 
-Uma parte do texto deste documento foi retirada do [[site do Tor Project -> https://www.torproject.org/download/download.html.en]] por licença de atribuição Creative Commons 3.0.
+Terceiro, você não precisa de SSL/TLS com um endereço onion, porque ele se constitui em um túnel completamente criptografado com confidencialidade persistente ("perfect forward secrecy"). Como não custa nada ter um cuidado extra, você até pode se conectar usando canais protegidos por SSL/TLS, mas saiba que o certificado não será validado automaticamente -- porque o nome do host será *.onion -- e você terá que [[fazê-lo manualmente -> https://riseup.net/en/security/network-security/certificates]].
 
-h2. Materiais adicionais
+Uma parte deste texto foi retirada do [[site do Tor Project -> https://www.torproject.org/download/download.html.en]] por licença de atribuição Creative Commons 3.0.
+
+h2. Material extra
 
 * O [[projeto Surveillance Self Defense -> https://ssd.eff.org/]] da Electronic Frontier Foundation tem uma pletora de informações úteis e interessantes. A [[página deles sobre Tor -> https://ssd.eff.org/en/module/how-use-tor-windows]] é especialmente relevante.
 
-* O [[site do Tor Project -> https://www.torproject.org/index.html.en]] vai ser capaz de responder quase todas as suas questões em relação ao Tor project, e como usar o software com efetividade.
+* O [[site do Tor Project -> https://www.torproject.org/index.html.en]] vai ser capaz de responder quase todas as suas questões em relação ao Tor project, e sobre como usar o software com eficiência.
