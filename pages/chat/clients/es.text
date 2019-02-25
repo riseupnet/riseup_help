@@ -29,7 +29,7 @@ table(table table-striped).
 |_. Cliente |_. SO soportado |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentarios |
 | [[Jitsi -> https://jitsi.org]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Código abierto. Escrito en Java. |
 | [[Pandion -> https://pandion.im]] | Windows | No | No | ? | ? | ? | Código abierto. Buen cliente estable de jabber en windows. |
-| [[Psi -> https://psi-im.org]] | Mac, Windows, GNU/Linux | No | *Si* | ? | ? | ? | Código abierto. Aplicación nativa estable. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, Mac | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Codigo abierto. Alguien lo ha probado? Escrito en Java. |
 | iChat | Mac | No | No | ? | ? | ? | Aplicación integrada de chat de Apple tiene soporte para Jabber, pero limitado. |
 
