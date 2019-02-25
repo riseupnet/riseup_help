@@ -20,7 +20,7 @@ RiseupVPN utilise un programme libre nommé <b>bitmask-vpn</b>.
 
 **Étape 1:** [[Parcourez => https://0xacab.org/leap/bitmask-vpn/issues]] pour voir si le bug a déjà été identifié.
 
-**Étape 2:** [[Créez un compte => https://0xacab.org/users/sign_in]] sur [[0xacab.org => http://0xacab.org]] et connectez-vous.
+**Étape 2:** [[Créez un compte => https://0xacab.org/users/sign_in]] sur [[0xacab.org => https://0xacab.org]] et connectez-vous.
 
 **Étape 3:** Créez un nouveau [[rapport de bug ou une nouvelle demande de fonctionnalité => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 

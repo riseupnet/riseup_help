@@ -28,7 +28,7 @@ A RiseupVPN foi desenvolvida a partir de um programa livre chamado <b>bitmask-vp
 
 **Passo 1:** [[Procure para ver => https://0xacab.org/leap/bitmask-vpn/issues]] se o defeito já foi relatado.
 
-**Passo 2:** [[Registre uma conta => https://0xacab.org/users/sign_in]] com [[0xacab.org => http://0xacab.org]] e entre.
+**Passo 2:** [[Registre uma conta => https://0xacab.org/users/sign_in]] com [[0xacab.org => https://0xacab.org]] e entre.
 
 **Passo 3:** Crie [[um relatório de bug ou uma solicitação de recurso => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 

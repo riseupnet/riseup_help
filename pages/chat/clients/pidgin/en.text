@@ -25,7 +25,7 @@ h2. Using OTR
 
 See the [[otr]] tutorial for details on using end-to-end encryption with Pidgin.
 
-h2. Securing pidgin on GNU/Linux with "AppArmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
+h2. Securing pidgin on GNU/Linux with "AppArmor":https://gitlab.com/apparmor/apparmor/wikis/home/
 
 For added security on Linux systems, we recommend you secure your pidgin following these steps:
 

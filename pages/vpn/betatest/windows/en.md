@@ -20,7 +20,7 @@ RiseupVPN is built using a free software program called <b>bitmask-vpn</b>.
 
 **Step 1:** [[Search to see => https://0xacab.org/leap/bitmask-vpn/issues]] if the bug has already been reported.
 
-**Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => http://0xacab.org]] and log in.
+**Step 2:** [[Register an account => https://0xacab.org/users/sign_in]] with [[0xacab.org => https://0xacab.org]] and log in.
 
 **Step 3:** Create a [[new bug report or feature request => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 

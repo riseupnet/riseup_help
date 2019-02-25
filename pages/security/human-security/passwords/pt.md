@@ -35,7 +35,7 @@ Seres humanos são péssimos em criar senhas seguras, enquanto computadores são
 
 Quanto a senhas que você precise lembrar, há várias maneiras de criar senhas fortes. Se você tiver um gerenciador de senhas, deixe-o gerá-la para você. A Surveillance Self-Defense também dispõe de um [guia sobre  isso](https://ssd.eff.org/en/module/creating-strong-passwords).
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) é um método divertido e eficiente de criação de senhas aleatórias, mas memoráveis, a partir de objetos do dia a dia e uma lista de palavras. Outra ótima maneira de criar uma senha forte é inventar uma frase boba que provavelmente nunca tenha sido dita antes e usar as primeiras letras de cada palavra como sua senha, misturando outros tipos de caracteres.
+[Diceware](https://world.std.com/~reinhold/diceware.html) é um método divertido e eficiente de criação de senhas aleatórias, mas memoráveis, a partir de objetos do dia a dia e uma lista de palavras. Outra ótima maneira de criar uma senha forte é inventar uma frase boba que provavelmente nunca tenha sido dita antes e usar as primeiras letras de cada palavra como sua senha, misturando outros tipos de caracteres.
 
 É importante usar senhas fortes em todas as contas, já que a invasão de apenas uma conta poderia facilitar o acesso a outros sistemas. Isso é particularmente relevante no caso de contas de e-mail, que podem ser usadas para recuperar outras senhas (geralmente pelo link de "esqueci minha senha").
 

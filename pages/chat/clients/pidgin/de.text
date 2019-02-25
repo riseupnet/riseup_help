@@ -25,7 +25,7 @@ h2. Benutzung von OTR
 
 Siehe die [[otr]]-Anleitung für Details zu Ende-zu-Ende-Verschlüsselung mit Pidgin.
 
-h2. Absichern von Pidgin unter GNU/Linux mit "Apparmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
+h2. Absichern von Pidgin unter GNU/Linux mit "Apparmor":https://gitlab.com/apparmor/apparmor/wikis/home/
 
 Für zusätzliche Sicherheit empfehlen wir, Pidgin mit folgenden Schritten abzusichern:
 

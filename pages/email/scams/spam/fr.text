@@ -59,7 +59,7 @@ Dans les propres mots de Spamcop:
 
 bq. La SCBL [Spam Cop Blocking List] est agressive et est souvent erronée quand il est question de bloquer des courriels. Quand vous implémentez la SCBL, vous devez donner aux utilisatrices et aux utilisateurs de l'information sur la manière dont la SCBLet votre système filtre les courriels. Dans l'idéal, elles et ils devraient avoir le choix du filtre en place. Beaucoup de serveur fonctionnent par des listes noires dans le mode "tag seulement", ce qui est préférable dans bien des situations.
 
-Spamcop cause beaucoup de problèmes à riseup.net et à beaucoup d'autres fournisseurs légitimes de courriels. La "solution" que Spamcop impose est pire que le problème qu'elles et ils tentent de régler: [[une estimation => http://jhoward.fastmail.fm/spamcop.html]] affirme que Spamcop bloque parfois jusqu'à 10 000 courriels légitimes pour chaque spam bloqué.
+Spamcop cause beaucoup de problèmes à riseup.net et à beaucoup d'autres fournisseurs légitimes de courriels. La "solution" que Spamcop impose est pire que le problème qu'elles et ils tentent de régler: [[une estimation => https://jhoward.fastmail.fm/spamcop.html]] affirme que Spamcop bloque parfois jusqu'à 10 000 courriels légitimes pour chaque spam bloqué.
 
 De plus, Spamcop est permet l'abus. Leur service rend incroyablement simple de marquer des services légitimes comme du spam, simplement parce qu'il est difficile de se désinscrire des listes soi-même. Cela peut également être utilisé comme une attaque: si vos n'aimez pas nos visées politiques, la seule chose que vous avez à faire est de demander à quelques personnes d'inscrire riseup.net sur Spamcop. Riseup.net est souvent inscrit sur les listes de Spamcop pour des courriels légitimes militants.
 
@@ -72,7 +72,7 @@ bq. Je vous écris pour vous demander d'arrêter d'utiliser les listes noires de
 _Liens_
 
 * [[Pourquoi ne pas utiliser Spamcop (en) => http://www.politechbot.com/p-04129.html]]
-* [[Pourquoi les listes de Spamcop causent problèmes (en) => http://jhoward.fastmail.fm/spamcop.html]]
+* [[Pourquoi les listes de Spamcop causent problèmes (en) => https://jhoward.fastmail.fm/spamcop.html]]
 
 h3. Listes maintenues par des fournisseurs de courriels
 

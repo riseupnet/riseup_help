@@ -9,7 +9,7 @@ Nous gardons très peu de logs et ne traquons aucune requête DNS ou trafic du V
 
 h2. Attaques de type "Man-in-the-middle"
 
-Une attaque "Man-in-the-middle":http://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu (ou MiTM) est un type d'attaque où l'attaquant est capable d'écouter et/ou modifier votre trafic. Une telle attaque peut être utilisée pour casser votre anonymat, modifier du contenu, voler vos mots de passe ou vous filer des virus, trojans ou d'autres logiciels réalisés pour accéder à votre ordinateur.
+Une attaque "Man-in-the-middle":https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu (ou MiTM) est un type d'attaque où l'attaquant est capable d'écouter et/ou modifier votre trafic. Une telle attaque peut être utilisée pour casser votre anonymat, modifier du contenu, voler vos mots de passe ou vous filer des virus, trojans ou d'autres logiciels réalisés pour accéder à votre ordinateur.
 
 Chaque connection internet est vulnérable à une attaque de type MiTM, cela est dû au fonctionnement même d'internet. En utilisant le protocole utilisé par Internet, la plupart des trafics sont vulnérables à une attaque de type MiTM et ce d'où qu'elles viennent dans le monde. Cette vulnérabilité est connue depuis des années, [[des chercheurs ont encore prouvé de manière spectaculaire -> /assets/43591/defcon-16-pilosov-kapela.pdf]] qu'une telle attaque était possible à la conférence de hackers DEFCON en Août 2008.
 
@@ -23,15 +23,15 @@ Par exemple, en Janvier 2011 le gouvernement tunisien, craignant la population q
 
 h2. PPTP et LT2P
 
-PPTP et LT2P ont été désactivés à cause de "vulnérabilités":http://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
+PPTP et LT2P ont été désactivés à cause de "vulnérabilités":https://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
 
 bq. Tant que le protocole PPTP a l'avantage d'être un client pré-installé pour des plateformes Windows, des analyses d'experts en cryptographie ont révélé des vulnérabilités de sécurité. (openvpn.net)
 
-"Bruce Schneier a analysé les faiblesses de PPTP":https://www.schneier.com/pptp.html pendant des années et le "ChapCrack":https://github.com/moxie0/chapcrack de Moxie Marlinspike est capable de "casser le chiffrement PPTP":http://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
+"Bruce Schneier a analysé les faiblesses de PPTP":https://www.schneier.com/pptp.html pendant des années et le "ChapCrack":https://github.com/moxie0/chapcrack de Moxie Marlinspike est capable de "casser le chiffrement PPTP":https://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
 
 h2. Les défauts de WPA2
 
-En conjonction avec ChapCrack le service de test "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 peut "casser les réseaux sans fils encryptés":http://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/ "en moins d'une heure":http://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/:
+En conjonction avec ChapCrack le service de test "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 peut "casser les réseaux sans fils encryptés":https://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/ "en moins d'une heure":https://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/:
 
 bq. Les mots de passe WPA-PSK, NT et NTLM sont tous connus pour être vulnérables à des attaques par dictionnaires qui testent tout les placements possibles de mots qui composent un mot de passe. Mais, parce qu'ils utilisent des tables de hachages chiffrés pour masquer ces mots, la puissance pour mener une attaque par dictionnaire a été longtemps inaccessible pour la plupart des utilisateurs. Le service de Marlinspike est constitué d'une collection de 400 CPUs et 70 GPUs et distibue la tâche de craquage entre eux. (forbes)
 

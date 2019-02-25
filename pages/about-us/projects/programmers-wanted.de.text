@@ -15,7 +15,7 @@ In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://lea
 
 h2. Javascript
 
-* kollaboratives Arbeiten: Schreibt patches für "etherpad":http://etherpad.org, um allen zu erlauben, ein Pad zu löschen, es mit Passwort zu schützen, oder zu verhindern, dass es gelöscht wird.
+* kollaboratives Arbeiten: Schreibt patches für "etherpad":https://etherpad.org, um allen zu erlauben, ein Pad zu löschen, es mit Passwort zu schützen, oder zu verhindern, dass es gelöscht wird.
 
 h2. Ruby
 
@@ -25,7 +25,7 @@ h2. Ruby
 
 h2. PHP
 
-* Webmail: Mache "roundcube":http://roundcube.net sicherer.
+* Webmail: Mache "roundcube":https://roundcube.net sicherer.
 
 h2. Perl
 

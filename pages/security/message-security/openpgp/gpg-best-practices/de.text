@@ -11,9 +11,9 @@ h2. Freie Software verwenden und auf dem neusten Stand halten
 Informationssicherheit is zu wichtig, um sie kommerzieller Software zu überlassen. Du solltest eine freie OpenPGP-Implementierung verwenden und auf dem neuesten Stand halten. Die Standardlösung für freies OpenPGP ist [[GnuPG -> https://gnupg.org/]] und es ist für alle gängigen, modernen Betriebssyteme verfügbar. Es reicht aber nicht GnuPG einfach zu installieren und dann nie wieder darüber nachzudenken. Du *musst* die Software auch aktuell halten, damit kritische Sicherheitslücken behoben werden können. Jede Software hat Fehler und GnuPG ist keine Ausnahme. Je nach Betriebssystem gibt es dies zu beachten:
 
 * *GNU/Linux* (Debian, Ubuntu, Mint, Fedora, usw.): Dein Betriebssystem installiert GnuPG automatisch und hält es auch auf dem neuesten Stand.
-* Windows: Du kannst "Gpg4win":https://gpg4win.org/index-de.html installieren und die "gpg4win-announce Mailingliste":http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce (englisch) abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
+* Windows: Du kannst "Gpg4win":https://gpg4win.org/index-de.html installieren und die "gpg4win-announce Mailingliste":https://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce (englisch) abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
 * *Mac OS*: Du kannst die "GPG Suite von GPGTools":https://gpgtools.org installieren.
-* Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme), solltest du die "gnupg-announce Mailingliste":http://lists.gnupg.org/mailman/listinfo/gnupg-announce abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
+* Wenn Du den Quellcode selbst übersetzt (z.B. für andere Betriebssysteme), solltest du die "gnupg-announce Mailingliste":https://lists.gnupg.org/mailman/listinfo/gnupg-announce abonnieren, um herauszufinden wann es Zeit ist ein Update zu installieren.
 
 h2. Einen Schlüsselserver auswählen und den eigenen Rechner so konfigurieren, dass der Schlüsselbund aktualisiert wird.
 
@@ -87,7 +87,7 @@ Wenn du öffentlich deine Beziehung zu dieser Person bewerben willst, kannst du 
 
 h3. Verlasse Dich nicht auf die Schlüssel-ID (keyid).
 
-Kurze OpenPGP Schlüssel-IDs, beispielsweise 0x2861A790, sind 32 bit lang. Es ist [[bekannt -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]], dass es leicht ist einen neuen, gefälschten Schlüssel mit der selben Schlüssel-ID zu erstellen. Lange OpenPGP Schlüssel-IDs (wie z.B. 0xA1E6148633874A3D) sind 64 bit lang. [[ID-Kollisionen herbeizuführen ist trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], was ebenfalls [[ein potentiell ernsthaftes Problem darstellt -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Kurze OpenPGP Schlüssel-IDs, beispielsweise 0x2861A790, sind 32 bit lang. Es ist [[bekannt -> https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]], dass es leicht ist einen neuen, gefälschten Schlüssel mit der selben Schlüssel-ID zu erstellen. Lange OpenPGP Schlüssel-IDs (wie z.B. 0xA1E6148633874A3D) sind 64 bit lang. [[ID-Kollisionen herbeizuführen ist trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], was ebenfalls [[ein potentiell ernsthaftes Problem darstellt -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 Wenn Du wirklich eine kryptographisch starke Identifikation für einen Schlüssel haben willst, solltest Du den vollen Fingerabdruck verwenden. Du solltest Dich _nie_ auf die Schlüssel-ID verlassen, weder die kurze, noch die lange.
 
@@ -105,7 +105,7 @@ h3. Verwende einen starken primären Schlüssel
 
 Manche Leute benutzen noch 1024-bit DSA-Schlüssel. Du solltest wirklich zu einer höheren Bitstärke und einem besseren Hashing-Algorithmus wechseln. 2011 hat die US-Regierungsinstitution NIST DSA-1024 für [[hinfällig erklärt => ttp://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]], seit 2013 ist er sogar [[verboten -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
-Wir empfehlen, einen 3072-bit langen RSA-Schlüssel mit sha512 als Hash-Algorithmus zu erstellen und eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> key-transition]] zu veröffentlichen, die mit beiden Schlüsseln signiert ist. [[Dieses Dokument -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] erklärt die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau und gut*, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine GnuPG-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
+Wir empfehlen, einen 3072-bit langen RSA-Schlüssel mit sha512 als Hash-Algorithmus zu erstellen und eine [[Erklärung zum Wechsel der Schlüssel (transition statement) -> key-transition]] zu veröffentlichen, die mit beiden Schlüsseln signiert ist. [[Dieses Dokument -> https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] erklärt die notwendigen Schritte zum Erstellen eines solchen Schlüssels *genau und gut*, so dass sichergestellt ist, dass Du den richtigen Hash-Algorithmus verwendest (wenn Du eine GnuPG-Version vor 1.4.10 verwendest, kann der Vorgang etwas kompliziert sein).
 
 Das Wechseln des Schlüssels kann schmerzhaft sein, aber es lohnt sich - und ist außerdem eine gute Gelegenheit, den Umgang mit den Werkzeugen zu üben!
 
@@ -215,7 +215,7 @@ $ rm -rf .gnupg.bak
 
 Bei diesen Vorgängen ist der Schlüssel im Klartext auf der Festplatte gespeichert. Es ist empfehlenswert, die Dateien sicher zu löschen (z.B. mit @nwipe@) anstelle mit @rm@. Moderne Speichermedien wie SSDs benutzen fortgeschrittene Firmware, die solche Befehle nicht tatsächlich ausführen und Spuren von privaten Schlüsseln übrig lassen können. Der beste Schutz davor ist Komplettverschlüsselung.
 
-Beachte, dass sich dieses Verfahren von Version zu Version ändern kann. Lies [[diese Diskussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] oder [[diesen Artikel -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], oder [[diese Anleitung -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] für GnuPG 2.x und neuer.
+Beachte, dass sich dieses Verfahren von Version zu Version ändern kann. Lies [[diese Diskussion -> https://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] oder [[diesen Artikel -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], oder [[diese Anleitung -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] für GnuPG 2.x und neuer.
 
 h3. OpenPGP Schlüssel überprüfen
 

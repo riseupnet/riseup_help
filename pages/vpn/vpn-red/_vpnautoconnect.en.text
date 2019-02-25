@@ -1,6 +1,6 @@
 p(alert alert-warning). We launched a new Riseup VPN, more accessible and secure! This documentation is for our red VPN services. Please check the [[Riseup VPN documentation -> vpn]] for more information. 
 
-There is a longstanding bug in Network Manager that prevents the VPN from connecting when you login or reconnecting if the VPN connect gets dropped. In order to fix this problem, we suggest you install "VPNAutoconnect":http://sourceforge.net/projects/vpnautoconnect/files/. If you are running Debian or Ubuntu, "download":http://sourceforge.net/projects/vpnautoconnect/files/ and open the appropriate .deb file (i386 is for when you have installed a 32-bit system, and amd64 is for when you have installed a 64-bit system). Note that vpnautoconnect depends on libappindicator1 and libc6 (>= 2.15) but wheezy ships libc6:amd64=2.13-38).
+There is a longstanding bug in Network Manager that prevents the VPN from connecting when you login or reconnecting if the VPN connect gets dropped. In order to fix this problem, we suggest you install "VPNAutoconnect":https://sourceforge.net/projects/vpnautoconnect/files/. If you are running Debian or Ubuntu, "download":https://sourceforge.net/projects/vpnautoconnect/files/ and open the appropriate .deb file (i386 is for when you have installed a 32-bit system, and amd64 is for when you have installed a 64-bit system). Note that vpnautoconnect depends on libappindicator1 and libc6 (>= 2.15) but wheezy ships libc6:amd64=2.13-38).
 
 Alternately, If you are running Ubuntu, you can add the VPNAutoconnect repository:
 

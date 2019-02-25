@@ -28,4 +28,4 @@ h2. About lists.riseup.net
 
 https://lists.riseup.net is only made possible through your donations. So if you want to keep us running, please [[donate]]!
 
-https://lists.riseup.net uses all "free":https://www.gnu.org/philosophy/free-sw.html software, including the "sympa mailing list manager":http://www.sympa.org/, the "apache webserver":https://httpd.apache.org/, "debian GNU/Linux":https://www.debian.org operating system, and the "Perl":http://www.perl.org programming language.
+https://lists.riseup.net uses all "free":https://www.gnu.org/philosophy/free-sw.html software, including the "sympa mailing list manager":https://www.sympa.org, the "apache webserver":https://httpd.apache.org, "debian GNU/Linux":https://www.debian.org operating system, and the "Perl":https://www.perl.org programming language.

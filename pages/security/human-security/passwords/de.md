@@ -35,7 +35,7 @@ Menschen sind extrem schlecht darin, sichere Passwörter zu erfinden. Lass es ei
 
 Auch Passwörter, die du dir merken musst, kannst du normalerweise in einem Passwortmanager dementsprechend generieren lassen. [Starke Passwörter erstellen (en) ](https://ssd.eff.org/en/module/creating-strong-passwords).
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) ist ein effektives Schema um zufällige aber merkbare Passwörter zu erfinden.
+[Diceware](https://world.std.com/~reinhold/diceware.html) ist ein effektives Schema um zufällige aber merkbare Passwörter zu erfinden.
 
 Es ist extrem wichtig, dass du überall sichere Passwörter benutzt, da oftmals ein Account zugriff auf einen anderen ermöglicht. Vorallem für Mail-Accounts, da damit über die "Passwort Vergessen"-Funktion einfach deine Passwörter geändert werden können.
 

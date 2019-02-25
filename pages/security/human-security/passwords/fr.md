@@ -35,7 +35,7 @@ Les êtres humains ne créent pas de mots de passe robustes, mais les ordinateur
 
 Pour les mots de passe qu'il faut se souvenir, il y a plusieurs manières d'en générer des bons.  D'abord, il y a un guide [Créer des mots de passe robustes](https://ssd.eff.org/fr/module/créer-des-mots-de-passe-robustes).
 
-[Diceware](https://web.archive.org/web/20041012030451/www.gjldp.org/CHARENTAISES/article.php?id_article=4) ([Version originale en anglais](http://world.std.com/~reinhold/diceware.html)) est une façon efficace et ludique de créer des mots de passes faciles à mémoriser, mais aléatoires.  Il utilise des dés et une liste de mots.
+[Diceware](https://web.archive.org/web/20041012030451/www.gjldp.org/CHARENTAISES/article.php?id_article=4) ([Version originale en anglais](https://world.std.com/~reinhold/diceware.html)) est une façon efficace et ludique de créer des mots de passes faciles à mémoriser, mais aléatoires.  Il utilise des dés et une liste de mots.
 
 Une autre façon de créer des mots de passe forts est d'inventer une phrase loufoque que personne n'a jamais dit auparavant et d'utiliser la ou les première(s) lettre(s) de chaque mot pour construire son mot de passe tout en y mélangeant de la ponctuation et des chiffres.
 

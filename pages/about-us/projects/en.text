@@ -36,14 +36,14 @@ VPN stands for Virtual Private Network. Typically, VPNs are used to connect peop
 
 h2. Software Libre
 
-Our laboratory, "Riseup Labs":http://riseuplabs.org, actively contributes to the Free Software movement, Free Software (or Software Libre) is part of a digital commons for all to use.
+Our laboratory, "Riseup Labs":https://riseuplabs.org, actively contributes to the Free Software movement, Free Software (or Software Libre) is part of a digital commons for all to use.
 
 Our contributions to Software Libre include:
 
 * *Privacy and security patches*: We develop and distribute custom versions of popular system logging, mail transport, webmail, and web hosting tools which enable system administrators to choose exactly what information they want to retain. This protects user's privacy and guards against downtime, headache, and legal costs associated with overeager government attempts to subpoena log files. See https://labs.riseup.net/code/projects/privacy
-* *"Crabgrass":https://crabgrass.riseuplabs.org*: Crabgrass is a software libre web application designed for social networking, group collaboration and network organizing. Our goal is to create communication tools that are tailored specifically to meet the needs of bottom up grassroots organizing.
-* *"backupninja":https://labs.riseup.net/code/projects/show/backupninja*: Backupninja is a popular set of tools that provides a centralized way to configure and schedule many different backup utilities.
-* *"monkeysphere":http://web.monkeysphere.info*: The Monkeysphere enables you to use the OpenPGP web of trust to verify ssh connections. SSH key-based auth entication is tried-and-true, but it lacks a true public key infrastructure for key certification, revocation, and expiration. Monkeysphere is a framework that uses the OpenPGP web of trust for these "PKI":https://en.wikipedia.org/wiki/Public_key_infrastructure functions.
+* *"Crabgrass":https://0xacab.org/riseuplabs/crabgrass*: Crabgrass is a software libre web application designed for social networking, group collaboration and network organizing. Our goal is to create communication tools that are tailored specifically to meet the needs of bottom up grassroots organizing.
+* *"backupninja":https://0xacab.org/riseuplabs/backupninja*: Backupninja is a popular set of tools that provides a centralized way to configure and schedule many different backup utilities.
+* *"monkeysphere":https://web.monkeysphere.info*: The Monkeysphere enables you to use the OpenPGP web of trust to verify ssh connections. SSH key-based auth entication is tried-and-true, but it lacks a true public key infrastructure for key certification, revocation, and expiration. Monkeysphere is a framework that uses the OpenPGP web of trust for these "PKI":https://en.wikipedia.org/wiki/Public_key_infrastructure functions.
 * *"puppet":https://labs.riseup.net/code/projects/puppetmodules*: is used to maintain nearly all our systems and services. We write a lot of puppet recipes modules that are written in a generic fashion so they can be shared with others. We are also part of a "group":https://labs.riseup.net/code/projects/sharedpuppetmodules that works to share puppet modules
 * *debian grimoire*: Everything that Riseup has ever done is written up in step by step how-to's and posted publicly to our website, in order to help other organizations grapple with complex free software technologies, especially in the grassroots and direct action movements.  See https://we.riseup.net/debian
 * *Debian GNU/Linux*: Several riseup collective members are active developers of Debian (the only major distribution created by a non-profit). Many people are familiar with Ubuntu, which is a based upon Debian.  See https://www.debian.org/

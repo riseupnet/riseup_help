@@ -57,11 +57,11 @@ For *Gateway* choose one of the following:
 
 h3. VPNAutoconnect
 
-UPDATE: VPNAutoconnect does not seem to work in the latest Ubuntu release. Alternately, you can try this "python autovpn script":python-autovpn-script. This script creates a little daemon that runs in the background and does two things: on new active network connection, activate VPN, if VPN connection is not disconnected by user, then reconnect. This requires NetworkManager 9.0 or above. (From: [[http://gist.github.com/1547663]])
+UPDATE: VPNAutoconnect does not seem to work in the latest Ubuntu release. Alternately, you can try this "python autovpn script":python-autovpn-script. This script creates a little daemon that runs in the background and does two things: on new active network connection, activate VPN, if VPN connection is not disconnected by user, then reconnect. This requires NetworkManager 9.0 or above. (From: [[https://gist.github.com/1547663]])
 
 <%= render 'vpnautoconnect' %>
 
-UPDATE: You can also try [[this Bash script I found then edited->http://pastebin.com/5W1KwMp8]], credit to qertoip on [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
+UPDATE: You can also try [[this Bash script I found then edited->https://pastebin.com/5W1KwMp8]], credit to qertoip on [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
 
 
 h2. Command Line

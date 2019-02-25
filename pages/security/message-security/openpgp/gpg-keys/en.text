@@ -178,13 +178,13 @@ It is **not recommended** to use Windows as a secure communication platform. Whi
 * User accounts are administrators by default
 * Since Windows is proprietary and closed-source, there is no outside scrutiny for defects, back doors, or anything that "phones home". You're trusting Microsoft completely with whatever secrets you choose to put on your computer.
 
-To ensure a secure communications platform, it's recommended to install a "GNU":https://www.gnu.org "Linux":https://www.gnu.org/gnu/linux-and-gnu.html "free software":https://www.gnu.org/philosophy/free-system-distribution-guidelines.html "distribution":https://distrowatch.com, like *"Debian":https://www.debian.org/distrib (recommended)*, "Ubuntu":http://www.ubuntu.com/download/desktop ("beware privacy issues":https://www.gnu.org/philosophy/ubuntu-spyware.en.html) or a derivate.
+To ensure a secure communications platform, it's recommended to install a "GNU":https://www.gnu.org "Linux":https://www.gnu.org/gnu/linux-and-gnu.html "free software":https://www.gnu.org/philosophy/free-system-distribution-guidelines.html "distribution":https://distrowatch.com, like *"Debian":https://www.debian.org/distrib (recommended)*, "Ubuntu":https://www.ubuntu.com/download/desktop ("beware privacy issues":https://www.gnu.org/philosophy/ubuntu-spyware.en.html) or a derivate.
 
 h2. Install Gpg4win
 
-"Gpg4win":http://www.gpg4win.org is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
+"Gpg4win":https://www.gpg4win.org is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
 
-# Download "Gpg4win":http://www.gpg4win.org/download.html
+# Download "Gpg4win":https://www.gpg4win.org/download.html
 # Double click the executable and begin the installation.
 # Select the language you'll be using.
 # You'll be greeted by the welcome screen. Press **Next** to continue.
@@ -264,4 +264,4 @@ It is **not recommended** to use Mac OS X as a secure communication platform. Wh
 * The webcam can be remotely turned on, offered as a "feature" if the laptop gets stolen, which could be abused or exploited to violate your privacy
 * Filesystem not encrypted by default and the primary tool available "may have inadequate security":https://en.wikipedia.org/wiki/FileVault#Criticism.
 
-To ensure a secure communications platform, it's recommended to install a "GNU":https://www.gnu.org "Linux":https://www.gnu.org/gnu/linux-and-gnu.html "free software":https://www.gnu.org/philosophy/free-system-distribution-guidelines.html "distribution":https://distrowatch.com, like *"Debian":https://www.debian.org/distrib (recommended)*, "Ubuntu":http://www.ubuntu.com/download/desktop ("beware privacy issues":https://www.gnu.org/philosophy/ubuntu-spyware.en.html) or a derivate.
+To ensure a secure communications platform, it's recommended to install a "GNU":https://www.gnu.org "Linux":https://www.gnu.org/gnu/linux-and-gnu.html "free software":https://www.gnu.org/philosophy/free-system-distribution-guidelines.html "distribution":https://distrowatch.com, like *"Debian":https://www.debian.org/distrib (recommended)*, "Ubuntu":https://www.ubuntu.com/download/desktop ("beware privacy issues":https://www.gnu.org/philosophy/ubuntu-spyware.en.html) or a derivate.

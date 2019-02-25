@@ -154,7 +154,7 @@ Here is a brief overview of textile markup:
 
     here is some *bold text*
 
-For a complete reference, see http://redcloth.org/textile/
+For a complete reference, see https://www.promptworks.com/textile
 
 Amber adds an additional way to make links:
 
@@ -278,7 +278,7 @@ After ruby is at 1.9 or newer, then just run:
 Alternately, if you want different versions of ruby installed, consider:
 
 * https://github.com/sstephenson/rbenv
-* http://rvm.io/
+* https://rvm.io/
 
 Installing on Windows
 ----------------------------------------

@@ -2,7 +2,7 @@
 
 h2. Instale a OpenVPN
 
-Baixe o instalador da OpenVPN para Windows [[deste site -> http://openvpn.net/index.php/open-source/downloads.html]] e execute-o. Você deve baixar a versão estável mais recente e verificar a assinatura. Procure o "installer" para a sua versão do Windows.
+Baixe o instalador da OpenVPN para Windows [[deste site -> https://openvpn.net/index.php/open-source/downloads.html]] e execute-o. Você deve baixar a versão estável mais recente e verificar a assinatura. Procure o "installer" para a sua versão do Windows.
 
 h2. Instale [[RiseupCA.pem => /security/network-security/riseup-ca/RiseupCA.pem]]
 

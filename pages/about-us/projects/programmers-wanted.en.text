@@ -15,7 +15,7 @@ In the near future, LEAP will be switching over to use the LEAP platform. Please
 
 h2. Javascript
 
-* Collaborative Editing: Write patches to [[etherpad => http://etherpad.org]] to allow anyone to destroy a pad, password protect a pad, or prevent a pad from being destroyed.
+* Collaborative Editing: Write patches to [[etherpad => https://etherpad.org]] to allow anyone to destroy a pad, password protect a pad, or prevent a pad from being destroyed.
 
 h2. Ruby
 
@@ -25,7 +25,7 @@ h2. Ruby
 
 h2. PHP
 
-* Webmail: Add enhanced security features to [[roundcube => http://roundcube.net]].
+* Webmail: Add enhanced security features to [[roundcube => https://roundcube.net]].
 
 h2. Perl
 

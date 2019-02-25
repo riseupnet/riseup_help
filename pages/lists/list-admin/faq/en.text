@@ -85,7 +85,7 @@ h2.  Why is my email sent to the moderator for approval and/or rejected?
 There are several possible reasons for this.
 
 * I am not subscribed to the list.
-** Most lists only allow members to post. Thus, even if you are an editor or owner of the list, you will not be able to post if you are not a member if the list does not allow it. You should subscribe by <a href="https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe">following these steps</a>.
+** Most lists only allow members to post. Thus, even if you are an editor or owner of the list, you will not be able to post if you are not a member if the list does not allow it. You should subscribe by <a href="https://riseup.net/en/lists/list-user/subscribing">following these steps</a>.
 
 * I am an owner/editor of the list, but my posts are referred to the editor or rejected.
 ** You may be sending your emails from a different email address. For example, lets say you have *email1@riseup.net*, but you also have *email2@gmail.com*. Email1 is the owner/editor of the list, but email2 is not. If you send an email FROM email2 to the list, it will be held for moderator approval. <b>To fix this:</b> Add your second email address as an owner/editor.

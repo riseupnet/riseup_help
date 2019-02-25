@@ -19,7 +19,7 @@ openvpn: TUN/TAP device tun0 opened
 openvpn: /sbin/ifconfig tun0 172.27.0.X netmask 255.255.252.0 mtu 1500 broadcast 172.27.3.255
 openvpn: /usr/lib/network-manager-openvpn/nm-openvpn-service-openvpn-helper tun0 1500 1541 172.27.0.X 255.255.252.0 init
 openvpn: OpenVPN 2.1.3 x86_64-pc-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] [MH] [PF_INET6] [eurephia] built on Mar 11 2011
-openvpn: WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+openvpn: WARNING: No server certificate verification method has been enabled.  See https://openvpn.net/howto.html#mitm for more info.
 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
 openvpn: UDPv4 link local: [undef]
 openvpn: UDPv4 link remote: [AF_INET]209.234.253.121:1194
@@ -111,7 +111,7 @@ h2. Other Problems
 
 h3. Saving Passwords
 
-Password storage on the windows client is insecure: There is no way in the current version to save your password. although it is possible [[recompile->http://openvpn.net/archive/openvpn-users/2005-04/msg00363.html]] the software with this option enabled (such as [[this version->http://forums.ivacy.com/index.php?topic=269.0]]), this stores your password in cleartext.
+Password storage on the windows client is insecure: There is no way in the current version to save your password. although it is possible [[recompile->https://openvpn.net/archive/openvpn-users/2005-04/msg00363.html]] the software with this option enabled (such as [[this version->http://forums.ivacy.com/index.php?topic=269.0]]), this stores your password in cleartext.
 
 Instead of using your riseup.net password, you should use a [[VPN Secret->vpn-secret]]. It is OK to store the VPN Secret in cleartext.
 
