@@ -2,13 +2,13 @@
 
 h2. Proteja suas mensagens
 
-Na maioria dos casos, quando você usar o serviço de jabber do Riseup, as suas mensagens serão criptografadas em trânsito. Não existe, porém, garantia disso, a não ser que ambas as partes usem Riseup.
+Na maioria dos casos, quando você usar o serviço de XMPP do Riseup, as suas mensagens serão criptografadas em trânsito. Não existe, porém, garantia disso, a não ser que ambas as partes usem Riseup.
 
 Para assegurar a criptografia ponta a ponta das mensagens, a melhor opção é o protocolo [[Off-the-Record (ORT) -> https://en.wikipedia.org/wiki/Off-the-Record_Messaging]]. Para mais informações, leia nosso [[tutorial sobre OTR -> otr]].
 
 h2. Chamadas seguras
 
-Da última vez que checamos, Jitsi era o único cliente de jabber que oferecia ligações de voz e vídeo seguras.
+Da última vez que checamos, Jitsi era o único cliente de XMPP que oferecia ligações de voz e vídeo seguras.
 
 h2. Use IRC com segurança
 

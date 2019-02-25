@@ -1,5 +1,5 @@
-@title = "Clientes Jabber"
-@summary = "Configurando clientes de Jabber para usar con el servicio de chat de Riseup."
+@title = "Clientes XMPP"
+@summary = "Configurando clientes de XMPP para usar con el servicio de chat de Riseup."
 
 p(alert alert-info). Por favor ayúdanos actualizando esta página probando diferentes clientes.
 
@@ -28,13 +28,13 @@ h2. Otros clientes
 table(table table-striped).
 |_. Cliente |_. SO soportado |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentarios |
 | [[Jitsi -> http://www.jitsi.org]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Código abierto. Escrito en Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Código abierto. Buen cliente estable de jabber en windows. |
+| [[Pandion -> http://pandion.im/]] | Windows | No | No | ? | ? | ? | Código abierto. Buen cliente estable de XMPP en windows. |
 | [[Psi -> http://psi-im.org/]] | Mac, Windows, GNU/Linux | No | *Si* | ? | ? | ? | Código abierto. Aplicación nativa estable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Codigo abierto. Alguien lo ha probado? Escrito en Java. |
-| iChat | Mac | No | No | ? | ? | ? | Aplicación integrada de chat de Apple tiene soporte para Jabber, pero limitado. |
+| iChat | Mac | No | No | ? | ? | ? | Aplicación integrada de chat de Apple tiene soporte para XMPP, pero limitado. |
 
 h2. Clientes que evitar
 
 table(table table-striped).
 |_. Cliente |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentarioss |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Si* | *Si* | *Si* | *Si* | Código abierto. Buen cliente de jabber escrito en python, pero actualmente no hay modo de asegurar una conexión segura.  ¿Quizás esto ya este arreglado? No es seguro. |
+| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux | No | *Si* | *Si* | *Si* | *Si* | Código abierto. Buen cliente de XMPP escrito en python, pero actualmente no hay modo de asegurar una conexión segura.  ¿Quizás esto ya este arreglado? No es seguro. |

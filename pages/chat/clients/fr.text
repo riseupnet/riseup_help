@@ -1,5 +1,5 @@
-@title = "Clients jabber"
-@summary = "Configurer les clients jabber pour utiliser le service de chat Riseup."
+@title = "Clients XMPP"
+@summary = "Configurer les clients XMPP pour utiliser le service de chat Riseup."
 
 p(alert alert-info). Please help us update this page by trying out different clients.
 
@@ -31,10 +31,10 @@ table(table table-striped).
 | [[Pandion -> http://pandion.im/]] | Windows | Non | Non | ? | ? | ? | Open source. Client Windows beau et stable. |
 | [[Psi -> http://psi-im.org/]] | Mac, Windows & GNU/Linux | Non | *Oui* | ? | ? | ? | Open source. Application native stable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
-| Messages | Mac | Non | Non | ? | ? | ? | Application de chat fourni avec OSX, elle a un support partiel de jabber.|
+| Messages | Mac | Non | Non | ? | ? | ? | Application de chat fourni avec OSX, elle a un support partiel de XMPP.|
 
 h2. Clients à éviter
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Gajim -> http://www.gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client jabber écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|
+| [[Gajim -> http://www.gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|

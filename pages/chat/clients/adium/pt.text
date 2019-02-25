@@ -4,7 +4,7 @@ h2. Sobre o Adium
 
 !logo.png!
 
-O Adium é o cliente de Jabber recomendado para Macs. Tem código aberto e implementa o protocolo [[OTR]] para criptografia de ponta a ponta.
+O Adium é o cliente de XMPP recomendado para Macs. Tem código aberto e implementa o protocolo [[OTR]] para criptografia de ponta a ponta.
 
 Você pode baixar o Adium no site: https://adium.im.
 
@@ -12,7 +12,7 @@ h2. Configurando uma conta
 
 (1) *Adium* > *Preferências* > *Conta*.
 
-(2) Clique no ícone de mais, no canto inferior esquerdo, e selecione *Jabber*.
+(2) Clique no ícone de mais, no canto inferior esquerdo, e selecione *XMPP*.
 
 !new-plus-menu.png!
 
