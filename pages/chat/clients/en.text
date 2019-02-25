@@ -30,6 +30,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
 | [[Pandion -> https://pandion.im]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
 | iChat | Mac | No | No | No | ? | ? | ? | Apple's built-in chat application has limited Jabber support. |
 | [[Beem -> https://www.beem-project.com]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |

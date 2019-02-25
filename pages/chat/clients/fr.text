@@ -30,6 +30,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Écrit en Java. |
 | [[Pandion -> https://pandion.im]] | Windows | Non | Non | ? | ? | ? | Open source. Client Windows beau et stable. |
 | [[Psi -> https://psi-im.org]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
+| [[Psi+ -> https://psi-plus.com/]] | Mac, Windows & GNU/Linux, FreeBSD, Haiku | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
 | Messages | Mac | Non | Non | ? | ? | ? | Application de chat fourni avec OSX, elle a un support partiel de jabber.|
 

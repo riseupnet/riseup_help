@@ -30,6 +30,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Sim* | Não | *Sim* | ? | *Sim* | ? | Código aberto. Escrito em Java. |
 | [[Pandion -> https://pandion.im]] | Windows | Não | Não | Não | ? | ? | ? | Código aberto. Um cliente de jabber para Windows bom e estável. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Sim* | Não | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
 | iChat | Mac | Não | Não | Não | ? | ? | ? | Este aplicativo da Apple conta com suporte limitado a jabber. |
 | [[Beem -> https://www.beem-project.com]] | Android | Não | Não | Não | ? | ? | ? | Código aberto. App estável nativo do Android. Não oferece bate-papo em grupo. |
