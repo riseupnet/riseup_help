@@ -37,4 +37,4 @@ This method is preferable, since currently the web interface to sympa is a bit a
 
 h2.  Really fancy
 
-It is possible to manage most aspects of a list remotely using SOAP. Currently, we do not have SOAP enabled, but we probably will soon. SOAP is not for the faint of heart and requires serious programming. If you want to dive into SOAP for sympa, let us know and read up on it at http://sympa.org.
+It is possible to manage most aspects of a list remotely using SOAP. Currently, we do not have SOAP enabled, but we probably will soon. SOAP is not for the faint of heart and requires serious programming. If you want to dive into SOAP for sympa, let us know and read up on it at https://sympa.org.

@@ -34,7 +34,7 @@ RiseupVPN è totalmente basata su un software libero chiamato <b>bitmask-vpn</b>
 
 **Passo 1:** [[Fai una ricerca per vedere => https://0xacab.org/leap/bitmask-vpn/issues]] se il malfunzionamento è già stato segnalato.
 
-**Passo 2:** [[Registra un account => https://0xacab.org/users/sign_in]] su [[0xacab.org => http://0xacab.org]] ed accedi.
+**Passo 2:** [[Registra un account => https://0xacab.org/users/sign_in]] su [[0xacab.org => https://0xacab.org]] ed accedi.
 
 **Passo 3:** Crea una [[nuova segnalazione di malfunzionamento o una richiesta di nuove funzionalità => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 

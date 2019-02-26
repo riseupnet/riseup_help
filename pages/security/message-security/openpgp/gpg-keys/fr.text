@@ -182,9 +182,9 @@ Pour assurer une plateforme de communications sécuritaire, il est recommandé d
 
 h2. Installer Gpg4win
 
-"Gpg4win":http://www.gpg4win.org est l'implémentation recommandée d'OpenPGP pour Windows. C'est un logiciel libre et gratuit, sous licence GPL, et le code source est disponible, peut être modifié et examiné.
+"Gpg4win":https://www.gpg4win.org est l'implémentation recommandée d'OpenPGP pour Windows. C'est un logiciel libre et gratuit, sous licence GPL, et le code source est disponible, peut être modifié et examiné.
 
-# Télécharger "Gpg4win":http://www.gpg4win.org/download.html
+# Télécharger "Gpg4win":https://www.gpg4win.org/download.html
 # Faites un clic-double sur l'exécutable, et commencez l'installation.
 # Sélectionner la langue de votre choix.
 # Vous verrez apparaître l'écran d'acceuil. Appuyez sur **Suivant** pour continuer.

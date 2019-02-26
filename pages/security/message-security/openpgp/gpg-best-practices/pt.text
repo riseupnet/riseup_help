@@ -12,9 +12,9 @@ h2. Use software livre e mantenha-o atualizado
 Segurança da informação é uma questão importante demais para se resolver com software proprietário. A melhor opção é usar uma implementação livre de OpenPGP e mantê-la atualizada. A opção mais tradicional é o [[GnuPG -> https://gnupg.org/]], disponível para todos os sistemas operacionais modernos mais populares. Entretanto, não basta instalar o GnuPG e esquecer-se dele. Você *deve* mantê-lo atualizado para que falhas críticas de segurança sejam consertadas quando necessário. Todo software tem defeitos e o GnuPG não é exceção. Se você usa:
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc.) := seu sistema operacional instala o GnuPG automaticamente e mantém-no atualizado.
-- Windows := você pode instalar o programa [[Gpg4win -> https://gpg4win.org/]] e [[inscrever-se na lista gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] para saber quando atualizar.
+- Windows := você pode instalar o programa [[Gpg4win -> https://gpg4win.org/]] e [[inscrever-se na lista gpg4win-announce -> https://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] para saber quando atualizar.
 - MacOS := você pode instalar a [[GPG suite da GPGTools -> https://gpgtools.org/]]. O software avisará quando houver uma atualização disponível, e você também pode acompanhar as novidades pelo [[Twitter -> https://twitter.com/GPGTools]].
-- Qualquer outro sistema operacional, com o programa instalado a partir da fonte := você deve se [[inscrever na lista gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] para saber quando atualizar.
+- Qualquer outro sistema operacional, com o programa instalado a partir da fonte := você deve se [[inscrever na lista gnupg-announce -> https://lists.gnupg.org/mailman/listinfo/gnupg-announce]] para saber quando atualizar.
 
 h2. Selecione um servidor de chaves e configure seu computador para manter seu chaveiro atualizado
 
@@ -88,13 +88,13 @@ Repare nas aspas simples acima ('), que devem circundar a impressão digital com
 
 h3. Não confie no ID da chave
 
-IDs de chave OpenPGP curtos, tais como 0x2861A790, contam com 32 bits de complexidade. São [[comprovadamente -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] fáceis de falsificar usando outra chave com o mesmo ID. IDs longos (como 0xA1E6148633874A3D), por sua vez, têm 64 bits de complexidade. São suscetíveis a [[ataques de colisão -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], o que [[pode ser um problema sério -> https://www.debian-administration.org/users/dkg/weblog/105]].
+IDs de chave OpenPGP curtos, tais como 0x2861A790, contam com 32 bits de complexidade. São [[comprovadamente -> https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] fáceis de falsificar usando outra chave com o mesmo ID. IDs longos (como 0xA1E6148633874A3D), por sua vez, têm 64 bits de complexidade. São suscetíveis a [[ataques de colisão -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], o que [[pode ser um problema sério -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 Se você quiser um identificador criptograficamente forte para a chave, use a impressão digital completa. _Jamais_ confie no ID da chave, curto ou longo.
 
 Você deveria, pelo menos, adicionar as opções @keyid-format 0xlong@ e @with-fingerprint@ ao gpg (incluindo-as em @~/.gnupg/gpg.conf@) para aumentar o tamanho de exibição normal do ID de chave para 64 bits e sempre exibir a impressão digital.
 
-Vale ressaltar que um [[defeito foi detectado no Enigmail->http://sourceforge.net/p/enigmail/bugs/239/]], já consertado na versão 1.7.0: se você adicionar a opção 'with-fingerprint' para exibir as impressões digitais completas quando listar chaves, a impressão digital exibida na janela de gerenciamento de chave do Enigmail será da subchave, e não da chave primária. Você sempre pode encontrar a impressão digital da sua chave primária (por exemplo, se quiser dá-la para alguém verificar em uma "festa" de assinatura de chaves), exibindo as impressões digitais de todas as suas chaves secretas com o seguinte comando:
+Vale ressaltar que um [[defeito foi detectado no Enigmail->https://sourceforge.net/p/enigmail/bugs/239/]], já consertado na versão 1.7.0: se você adicionar a opção 'with-fingerprint' para exibir as impressões digitais completas quando listar chaves, a impressão digital exibida na janela de gerenciamento de chave do Enigmail será da subchave, e não da chave primária. Você sempre pode encontrar a impressão digital da sua chave primária (por exemplo, se quiser dá-la para alguém verificar em uma "festa" de assinatura de chaves), exibindo as impressões digitais de todas as suas chaves secretas com o seguinte comando:
 
 bc. gpg --with-fingerprint --list-secret-key
 
@@ -110,9 +110,9 @@ Agora que você aprendeu a atualizar suas chaves regularmente a partir de um ser
 
 h3. Tenha uma chave primária forte
 
-Algumas pessoas ainda usam chaves DSA de 1024 bits. Se é o seu caso, você realmente deveria migrar para uma chave mais comprida, com um algoritmo de dispersão mais forte. Em 2011, a agência governamental estadunidense NIST declarou [[obsoletas -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves DSA-1024, e desde 2014 elas são [[proibidas -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. Em 2015, o NIST também [[proibiu -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves RSA de 1024 bits e a utilização de SHA-1 para assinaturas.
+Algumas pessoas ainda usam chaves DSA de 1024 bits. Se é o seu caso, você realmente deveria migrar para uma chave mais comprida, com um algoritmo de dispersão mais forte. Em 2011, a agência governamental estadunidense NIST declarou [[obsoletas -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves DSA-1024, e desde 2014 elas são [[proibidas -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. Em 2015, o NIST também [[proibiu -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] as chaves RSA de 1024 bits e a utilização de SHA-1 para assinaturas.
 
-É recomendável criar uma chave RSA de 3072 bits, com o algoritmo de hashing sha512, fazer uma [[declaração de transição -> key-transition]] assinada por ambas as chaves, e então divulgá-la. Veja também [[este documento -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]], que detalha *exatamente* como criar uma chave desse tipo, garantindo que você use o algoritmo de hashing correto (o que pode ser ligeiramente complicado se você estiver usando uma versão do GnuPG anterior a 1.4.10).
+É recomendável criar uma chave RSA de 3072 bits, com o algoritmo de hashing sha512, fazer uma [[declaração de transição -> key-transition]] assinada por ambas as chaves, e então divulgá-la. Veja também [[este documento -> https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]], que detalha *exatamente* como criar uma chave desse tipo, garantindo que você use o algoritmo de hashing correto (o que pode ser ligeiramente complicado se você estiver usando uma versão do GnuPG anterior a 1.4.10).
 
 Fazer a transição pode ser sofrido, mas vale a pena, além de ser uma boa oportunidade para aprender mais sobre as ferramentas!
 
@@ -222,7 +222,7 @@ $ rm -rf .gnupg.bak
 
 Por fim, repare que, acima, o material da chave secreta é armazenado em texto puro na memória. Você pode apagar esses arquivos com segurança (usando, por exemplo, @nwipe@) em vez de usar um simples @rm@ para remover o material da chave privada. Considere que dispositivos de armazenamento modernos como SSDs rodam firmware avançado que pode não obedecer tais comandos e deixar rastros da chave privada na memória. A melhor defesa, nesse caso, é usar criptografia de disco inteiro.
 
-Observe que os procedimentos podem mudar de versão para versão. Veja [[esta discussão -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]], [[este artigo -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]] ou ainda [[este guia -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] concebido para GnuPG 2.x e superior.
+Observe que os procedimentos podem mudar de versão para versão. Veja [[esta discussão -> https://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]], [[este artigo -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]] ou ainda [[este guia -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] concebido para GnuPG 2.x e superior.
 
 h3. Verificação de chaves OpenPGP
 

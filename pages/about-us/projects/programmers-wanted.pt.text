@@ -15,7 +15,7 @@ Em breve, o Projeto LEAP vai passar a usar a Plataforma LEAP. Por favor, visite 
 
 h2. Javascript
 
-* Edição colaborativa: Escrever componentes de atualização para o "Etherpad":http://etherpad.org para permitir qualquer um a destruir um documento, proteger um documento com senha ou evitar que um documento seja destruído.
+* Edição colaborativa: Escrever componentes de atualização para o "Etherpad":https://etherpad.org para permitir qualquer um a destruir um documento, proteger um documento com senha ou evitar que um documento seja destruído.
 
 h2. Ruby
 
@@ -25,7 +25,7 @@ h2. Ruby
 
 h2. PHP
 
-* Webmail: Adicione novos recursos de segurança ao "Roundcube":http://roundcube.net.
+* Webmail: Adicione novos recursos de segurança ao "Roundcube":https://roundcube.net.
 
 h2. Perl
 

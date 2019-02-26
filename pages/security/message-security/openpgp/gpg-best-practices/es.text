@@ -29,7 +29,7 @@ h2. La transición a una llave primaria más fuerte
 
 Muchas personas siguen teniendo llaves DSA de 1024-bit. Debes considerar hacer la transición a un algoritmo de función hash más fuerte y de más bits. Ahora se sabe que este tamaño está dentro de lo que Well Funded Organizations pueden llegar a vulnerar. Este algoritmo de función hash ya está también envejeciendo.
 
-Se recomienda hacer una llave 4096bit RSA con el algoritmo de función hash SHA512, realizando un [[aviso de transición => key-transition]] que esté firmado por ambas llaves y hacerlo del conocimiento de todos. Este es un [[buen documento(EN) -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] que detalla exactamente los pasos para que generes una llave así, asegurándose de  obtener al algoritmo de función de digest adecuado (puede ser un poco complicado si estás utilizando versiones gnupg menores a la versión 1.4.10).
+Se recomienda hacer una llave 4096bit RSA con el algoritmo de función hash SHA512, realizando un [[aviso de transición => key-transition]] que esté firmado por ambas llaves y hacerlo del conocimiento de todos. Este es un [[buen documento(EN) -> https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] que detalla exactamente los pasos para que generes una llave así, asegurándose de  obtener al algoritmo de función de digest adecuado (puede ser un poco complicado si estás utilizando versiones gnupg menores a la versión 1.4.10).
 Hacer la transición puede ser doloroso, pero vale la pena y ¡es una buena oportunidad para practicar con las herramientas!
 
 h2. Considera hacer que tu servidor de llaves por defecto use un servidor de llaves que tenga transporte HKPS
@@ -101,7 +101,7 @@ En este escenario, tu llave primaria es utilizada solo para certificación, lo q
 
 h2. No confíes en el ID de la llave
 
-Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
+Los IDs de llaves que son cortas, por ejemplo 0×2861A790, son de 32 bits. [[Hemos visto(EN) -> https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que son fácilmente falsificadas por otra llave con el mismo ID. las OpenPGP IDs largas (por ejemplo  0xA1E6148633874A3D) son de 64 bits. Son fáciles para un ataque de collisión [[(trivially collidable)(EN) -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], lo que es potencialmente un [[serio problema (EN). -> https://www.debian-administration.org/users/dkg/weblog/105]]
 
 Si quieres tratar con un identificador criptográficamente fuerte para una llave, debes usar la huella digital completa. Nunca debes confiar en la ID corta de la llave.
 

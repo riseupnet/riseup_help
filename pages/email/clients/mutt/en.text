@@ -2,7 +2,7 @@
 
 h2. What is Mutt?
 
-"Mutt":http://www.mutt.org/ is a small but very powerful text based program for reading and sending electronic mail under unix operating systems, including support for color terminals, MIME, OpenPGP, and a threaded sorting mode.
+"Mutt":https://www.mutt.org/ is a small but very powerful text based program for reading and sending electronic mail under unix operating systems, including support for color terminals, MIME, OpenPGP, and a threaded sorting mode.
 
 h2. Installation
 

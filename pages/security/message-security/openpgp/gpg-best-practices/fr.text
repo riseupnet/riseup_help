@@ -9,9 +9,9 @@ h2. Utilisez du logiciel libre, et maintenez-le à jour
 La sécurité de l'information est quelque chose de trop important pour être laissé à du logiciel propriétaire. Vous devriez utiliser une implémentation OpenPGP libre, et la maintenir à jour. L'implémentation libre canonique d'OpenPGP est [[GnuPG -> https://gnupg.org/]], et elle est disponible pour tous les systèmes d'exploitation modernes et répandus. Cependant, vous ne pouvez pas juste installer GnuPG et le laisser tel quel. Vous *devez* le maintenir à jour pour que les problèmes de sécurité critiques puissent être corrigés. Tous les logiciels ont des bogues, et GnuPG ne fait pas exception. Suivez les instructions suivantes en fonction de votre système d'exploitation :
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc.) : := Votre système d'exploitation installe automatiquement GnuPG et le maintiendra à jour pour vous.
-- Windows : := Vous pouvez installer [[Gpg4win -> https://gpg4win.org/]] et [[vous abonner à gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] pour savoir quand le mettre à jour.
+- Windows : := Vous pouvez installer [[Gpg4win -> https://gpg4win.org/]] et [[vous abonner à gpg4win-announce -> https://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] pour savoir quand le mettre à jour.
 - Mac OS : := Vous pouvez installer [[la suite GPG de GPGTools -> https://gpgtools.org/]] (à voir : comment savoir quand mettre à jour ?).
-- Compiler à partir du code source pour n'importe quel autre système d'exploitation : := Vous devriez vous [[inscrire à gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] pour savoir quand mettre à jour.
+- Compiler à partir du code source pour n'importe quel autre système d'exploitation : := Vous devriez vous [[inscrire à gnupg-announce -> https://lists.gnupg.org/mailman/listinfo/gnupg-announce]] pour savoir quand mettre à jour.
 
 h2. Choisir un serveur de clés et configurer votre machine pour rafraîchir votre trousseau de clés
 
@@ -82,13 +82,13 @@ Faites attention aux apostrophes droites ci-dessus (') qu'il faut placer autour 
 
 h3. Ne vous fiez pas à l'identifiant de clé
 
-Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Les identifiants courts pour les clés OpenPGP, par exemple 0x2861A790, sont d'une longueur de 32 bits. Il a été [[démontré -> https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] que l'on pouvait facilement les usurper avec une autre clé qui a le même identifiant. Les identifiants longs pour les clés OpenPGP (par exemple 0xA1E6148633874A3D) sont d'une longueur de 64 bits. Il est [[trivial -> http://thread.gmane.org/gmane.ietf.openpgp/7413]] de générer des collisions dessus, ce qui est également un [[problème potentiellement sérieux -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 Pour utiliser un indentifiant de clef fort du point de vue cryptographique, vous devriez utiliser les empreintes complètes. Vous ne devriez _jamais_ vous fier aux identifiants courts, ni aux identifiants longs.
 
 Vous devriez minimalement configurer @keyid-format 0xlong@ et @with-fingerprint@ comme options à gpg (ajoutez-les dans @~/.gnupg/gpg.conf@) pour augmenter les identifiants affichés à 64 bits et pour afficher inconditionnellement les empreintes complètes.
 
-Veuillez noter qu'il y a eu un [[bug dans enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], qui a été réparé dans la version 1.7.0: si vous configurez l'option 'with-fingerprint' pour afficher les empreintes complètes dans les listes de clefs, l'empreinte qui sera affichée dans la fenêtre de gestion des clefs d'enigmail sera celle d'une sous-clef plutôt que l'empreinte de la clef primaire. Pour trouver l'empreinte de votre clef primaire (par exemple si vous voulez donner cette empreinte à une personne à des fins de vérification lors d'une séance de signatures de clefs), vous pouvez afficher l'empreinte de toutes vos clefs secrètes avec la commande suivante:
+Veuillez noter qu'il y a eu un [[bug dans enigmail ->https://sourceforge.net/p/enigmail/bugs/239/]], qui a été réparé dans la version 1.7.0: si vous configurez l'option 'with-fingerprint' pour afficher les empreintes complètes dans les listes de clefs, l'empreinte qui sera affichée dans la fenêtre de gestion des clefs d'enigmail sera celle d'une sous-clef plutôt que l'empreinte de la clef primaire. Pour trouver l'empreinte de votre clef primaire (par exemple si vous voulez donner cette empreinte à une personne à des fins de vérification lors d'une séance de signatures de clefs), vous pouvez afficher l'empreinte de toutes vos clefs secrètes avec la commande suivante:
 
 bc. gpg --with-fingerprint --list-secret-key
 
@@ -106,7 +106,7 @@ h3. Utilisez une clé primaire robuste
 
 Certaines personnes utilisent toujours des clés DSA de 1024 bits. Vous devriez vraiment passer à une longueur plus importante et à un meilleur algorithme de hachage. En 2011, l'agence gouvernementale des Etats-Unis appelée NIST a [[décrété l'obsolescence -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]] de DSA-1024. Depuis 2013 cet algorithme est désormais [[interdit -> http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf]].
 
-Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> key-transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
+Il est recommandé de générer une clé RSA de 4096 bits avec l'algorithme de hachage SHA-512, rédiger un [[communiqué de transition -> key-transition]] signé par les deux clés, et puis en informer les gens. Voici un [[bon document -> https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] qui détaille *exactement* le processus à suivre pour générer une telle clé en s'assurant d'utiliser le bon algorithme de hachage (ça peut être compliqué avec des versions de GnuPG plus anciennes que la 1.4.10).
 
 La transition peut être pénible, mais elle en vaut la peine, et c'est aussi une bonne opportunité pour s'entraîner à utiliser les outils !
 

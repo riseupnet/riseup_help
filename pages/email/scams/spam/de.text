@@ -51,7 +51,7 @@ Mit Spamcops eigenen Worten:
 
 bq. The SCBL is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a "tag only" mode, which is preferable in many situations. -- Die SCBL ist aggressiv und oft die Ursache für Fehler beim Filtern von Mail. Bei der Einführung von SCBL gaben diese Nutzern Informationen darüber, wie SCBL und euer Mailsystem Emails filtern. Idealerweise sollten diese Optionen zum Filtern anbieten. Viele Mailserver benutzen Blocklisten im Schubladenmodus, was in manchen Situation zu bevorzugen ist.
 
-Spamcop versursacht für riseup.net arge Probleme und auch für andere legitime Emailanbieter. Die "Lösung", die Spamcop vorgibt, ist schlechter als das Problem, das sie zu lösen versuchen: nach [[einer Schätzung => http://jhoward.fastmail.fm/spamcop.html]] blockt Spamcop oft 10.000 legitime Emails für eine tatsächlich gestoppte Spammail.
+Spamcop versursacht für riseup.net arge Probleme und auch für andere legitime Emailanbieter. Die "Lösung", die Spamcop vorgibt, ist schlechter als das Problem, das sie zu lösen versuchen: nach [[einer Schätzung => https://jhoward.fastmail.fm/spamcop.html]] blockt Spamcop oft 10.000 legitime Emails für eine tatsächlich gestoppte Spammail.
 
 Zusätzlich ist Spamcop offen für Missbrauch. Sie machen es unglaublich einfach, legitime Mails als Spam zu markieren, nur weil sie nicht heraus finden können, wie sie sich selbst austragen können. Das kann auch als Angriff verwendet werden: wer unsere Politik nicht mag, braucht nur einige Berichte über riseup.net an Spamcop schicken. Riseup.net wird häufig bei Spamcop gelistet wegen legitimer Mails von Aktivist*innen.
 
@@ -64,7 +64,7 @@ bq. I am writing to ask that you please don't trust the Spamcop blocklist. It's 
 _Links_
 
 * [[Why not to use SpamCop -- some first-hand accounts => http://www.politechbot.com/p-04129.html]]
-* [[Why the SpamCop blocking list is harmful => http://jhoward.fastmail.fm/spamcop.html]]
+* [[Why the SpamCop blocking list is harmful => https://jhoward.fastmail.fm/spamcop.html]]
 
 h3. Von Emailanbietern verwaltete Filterlisten
 

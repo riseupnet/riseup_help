@@ -57,11 +57,11 @@ Wähl eines der folgenden Server für *Gateway* aus:
 
 h3. VPNAutoconnect
 
-UPDATE: VPNAutoconnect scheint im neuesten Ubuntu-Release nicht zu funktionieren. Alternativ kannst du das "python autovpn script":python-autovpn-script ausprobieren. Dieses Script läuft im Hintergrund und macht 2 Dinge: Wenn du auf einem neuen Netzwerk bist, aktiviert es VPN und verbindet sich erneut. Dafür brauchst du mindestens NetworkManager 9.0 oder neuer. (Von: [[http://gist.github.com/1547663]])
+UPDATE: VPNAutoconnect scheint im neuesten Ubuntu-Release nicht zu funktionieren. Alternativ kannst du das "python autovpn script":python-autovpn-script ausprobieren. Dieses Script läuft im Hintergrund und macht 2 Dinge: Wenn du auf einem neuen Netzwerk bist, aktiviert es VPN und verbindet sich erneut. Dafür brauchst du mindestens NetworkManager 9.0 oder neuer. (Von: [[https://gist.github.com/1547663]])
 
 <%= render 'vpnautoconnect' %>
 
-UPDATE: Du kannst auch [[dieses Script->http://pastebin.com/5W1KwMp8]], welches ich gefunden und bearbeitet habe, ausprobieren. Credits an [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
+UPDATE: Du kannst auch [[dieses Script->https://pastebin.com/5W1KwMp8]], welches ich gefunden und bearbeitet habe, ausprobieren. Credits an [[thesingularity.pl->http://thesingularity.pl/blog/2011/solved-how-to-auto-connect-to-a-vpn-on-startup-in-ubuntu-11-10/]].
 
 
 h2. Kommandozeile

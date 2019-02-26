@@ -12,12 +12,12 @@ h1. Enhance Security
 
 h2. 如果您想在 Apple Mail上使用 OpenPGP
 
-# 为您的MacOS版本下载最新的 “GNU Privacy Guard”：http://macgpg.sourceforge.net 。
+# 为您的MacOS版本下载最新的 “GNU Privacy Guard”：https://macgpg.sourceforge.io 。
 # 加载 GnuPG光盘镜像，并运行 .mpkg安装器。
-# 下载最新版本的“GPGKeys”：http://macgpg.sourceforge.net。
+# 下载最新版本的“GPGKeys”：https://macgpg.sourceforge.io。
 # 解压缩 .tar.gz，并把 GPGKeys拖进您的应用目录。
 # 运行 GPGKeys。从 Key选择 Generate，会打开一个终端窗口。如果您对这些选项不熟悉，您可以默认选项。激活后，输入您的真实名字、电子邮件地址和注释。密钥创建后，您可以推出终端。
-# 下载 “Sen:te PGP plug-in for Mail”：http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html。
+# 下载 “Sen:te PGP plug-in for Mail”：https://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html。
 # 运行安装 GPGMail脚本。
 # 打开邮件。现在应该可以工作了。当你撰写一封邮件时，你会看到一个让你选择密钥和签名邮件的复选框 。当您收到一封签名邮件时，您就可以校验了。
 

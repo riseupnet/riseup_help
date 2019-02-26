@@ -30,4 +30,4 @@ h2. 关于电子邮箱列表
 
 Riseup电子邮箱列表(https://lists.riseup.net)依赖您的捐赠来运转。如果您希望我们保持运行，不妨立即向我们[[donate]]!
 
-电子邮箱列表使用基于 GNU 协议(https://www.gnu.org/philosophy/free-sw.html)的软件，包括 Sympa Mailing List Manager(http://www.sympa.org/)，Apache 服务器(https://httpd.apache.org/)，Debian GNU/Linux(https://www.debian.org) 和 Perl(http://www.perl.org)。
+电子邮箱列表使用基于 GNU 协议(https://www.gnu.org/philosophy/free-sw.html)的软件，包括 Sympa Mailing List Manager(https://www.sympa.org)，Apache 服务器(https://httpd.apache.org)，Debian GNU/Linux(https://www.debian.org) 和 Perl(https://www.perl.org)。

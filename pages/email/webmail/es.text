@@ -16,7 +16,7 @@ Actualmente, Riseup ofrece dos opciones para usar webmail:
 # *SquirrelMail*: squirrelmail es más sencillo y no necesita javascript.
 # *IMP*: si no te gusta squirrelmail, puedes probar IMP.
 
-En un futuro, planeamos migrar a "RoundCube":http://roundcube.net para webmail.
+En un futuro, planeamos migrar a "RoundCube":https://roundcube.net para webmail.
 
 h2. Las cookies deben estar activadas
 
@@ -41,9 +41,9 @@ Para instrucciones concretas sobre la gestión de las cookies, visita:
 
 * "Firefox":https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we
 * "Chrome":https://support.google.com/chrome/answer/95647
-* "Internet Explorer 9":http://windows.microsoft.com/es-ES/windows7/How-to-manage-cookies-in-Internet-Explorer-9
-* "Internet Explorer 7 y 8":http://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies
-* "Cookies en Windows: preguntas más frecuentes":http://windows.microsoft.com/es-es/windows/cookies-faq
+* "Internet Explorer 9":https://windows.microsoft.com/es-ES/windows7/How-to-manage-cookies-in-Internet-Explorer-9
+* "Internet Explorer 7 y 8":https://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies
+* "Cookies en Windows: preguntas más frecuentes":https://windows.microsoft.com/es-es/windows/cookies-faq
 
 h4. Paso 2: Prueba con otros navegadores
 

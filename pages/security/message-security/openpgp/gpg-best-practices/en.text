@@ -12,9 +12,9 @@ h2. Use free software, and keep it updated.
 Information security is too important to leave to proprietary software. You should use a free OpenPGP implementation, and keep it up-to-date. The canonical free OpenPGP implementation is [[GnuPG -> https://gnupg.org/]], and it is available for every major modern operating system. It is not enough to install GnuPG and forget about it, though. You *must* keep it up to date so that critical security flaws are fixed. All software has bugs, and GnuPG is no exception. If you are running:
 
 - GNU/Linux (Debian, Ubuntu, Mint, Fedora, etc) := your operating system will install GnuPG automatically and keep it up to date for you.
-- Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> http://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
+- Windows := you can install [[Gpg4win -> https://gpg4win.org/]] and [[subscribe to gpg4win-announce -> https://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]] to know when to update.
 - macOS := you can install [[GPG suite from GPGTools -> https://gpgtools.org/]]. The suite will let you know when there is an update available, or you can follow their [[twitter -> https://twitter.com/GPGTools]].
-- Building from source for any other operating system := you should [[subscribe to gnupg-announce -> http://lists.gnupg.org/mailman/listinfo/gnupg-announce]] to know when you should update.
+- Building from source for any other operating system := you should [[subscribe to gnupg-announce -> https://lists.gnupg.org/mailman/listinfo/gnupg-announce]] to know when you should update.
 
 h2. Selecting a keyserver and configuring your machine to refresh your keyring.
 
@@ -87,13 +87,13 @@ Note the single quote marks above ('), which should surround your full fingerpri
 
 h3. Don't rely on the Key ID.
 
-Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]].
+Short OpenPGP Key IDs, for example 0x2861A790, are 32 bits long. They have been [[shown -> https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]] to be easily spoofed by another key with the same Key ID. Long OpenPGP Key IDs (for example 0xA1E6148633874A3D) are 64 bits long. They are [[trivially collidable -> http://thread.gmane.org/gmane.ietf.openpgp/7413]], which is [[also a potentially serious problem -> https://www.debian-administration.org/users/dkg/weblog/105]].
 
 If you want to deal with a cryptographically-strong identifier for a key, you should use the full fingerprint. You should _never_ rely on the short, or even long, Key ID.
 
 You should probably at least set @keyid-format 0xlong@ and @with-fingerprint@ gpg options (put them in @~/.gnupg/gpg.conf@) to increase the Key ID display size to 64-bit under regular use, and to always display the fingerprint.
 
-Note that there was a [[bug in enigmail ->http://sourceforge.net/p/enigmail/bugs/239/]], which is fixed in version 1.7.0: If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
+Note that there was a [[bug in enigmail ->https://sourceforge.net/p/enigmail/bugs/239/]], which is fixed in version 1.7.0: If you add the option 'with-fingerprint' to display full fingerprints when listing keys, the fingerprint that is displayed in the enigmail key management window will be that of a subkey rather than the fingerprint of the primary key. You can always find your primary key's fingerprint (for example, if you want to give your fingerprint to someone to verify at a keysigning party), you can display the fingerprints of all of your secret keys by running this:
 
 bc. gpg --with-fingerprint --list-secret-key
 
@@ -109,9 +109,9 @@ Now that you know how to receive regular key updates from a well-maintained keys
 
 h3. Use a strong primary key.
 
-Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. In 2015, NIST also [[disallowed -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] 1024-bit RSA, and use of SHA-1 for signing.
+Some people still have 1024-bit DSA keys. You really should transition to a stronger bit-length and hashing algo. In 2011, the US government instution NIST has [[deprecated -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024, since 2013 it is even [[disallowed -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]. In 2015, NIST also [[disallowed -> https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] 1024-bit RSA, and use of SHA-1 for signing.
 
-It is recommend to make a 3072-bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> http://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
+It is recommend to make a 3072-bit RSA key, with the sha512 hashing algo, making a [[transition statement -> key-transition]] that is signed by both keys, and then letting people know. Also have a look at this [[good document -> https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]] that details *exactly* the steps that you need to create such a key, making sure that you are getting the right hashing algo (it can be slightly complicated if you are using GnuPG versions less than 1.4.10).
 
 Transitioning can be painful, but it is worth it, and a good opportunity to practice with the tools!
 
@@ -219,7 +219,7 @@ $ rm -rf .gnupg.bak
 
 Finally note that in the above manipulations, secret key material is stored in the clear on disk. You may want to securely delete those files (using, for example, @nwipe@) instead of using the simple @rm@ to remove private key material. Do consider that modern disks like SSDs run advanced firmware that may not really obey such commands and leave traces of private key material on disk. The best defense, in this case, is to use Full Disk Encryption.
 
-Note that those procedures may change from version to version. See [[this discussion -> http://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] or [[this article -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], or [[this guide -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] designed for GnuPG 2.x and above.
+Note that those procedures may change from version to version. See [[this discussion -> https://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]] or [[this article -> https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]], or [[this guide -> https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]] designed for GnuPG 2.x and above.
 
 h3. OpenPGP key checks.
 

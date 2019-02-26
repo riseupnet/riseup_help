@@ -85,7 +85,7 @@ h2. Por que minha mensagem precisa ser moderada (ou foi rejeitada)?
 Há diversas razões possíveis:
 
 * "Não sou assinante."
-** A maior parte das listas permite somente posts de membros. Assim, mesmo sendo editor ou proprietário da lista, você não vai conseguir publicar se não for também assinante, se a lista não permitir. Inscreva-se ["seguindo estas instruções":https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe].
+** A maior parte das listas permite somente posts de membros. Assim, mesmo sendo editor ou proprietário da lista, você não vai conseguir publicar se não for também assinante, se a lista não permitir. Inscreva-se ["seguindo estas instruções":https://riseup.net/en/lists/list-user/subscribing].
 
 * "Sou proprietário/editor, mas meus posts são repassados para a moderação ou rejeitados."
 ** Será que você não está enviando as mensagens de um endereço de e-mail diferente? Por exemplo, digamos que você tenha dois e-mails: *e-mail1@riseup.net* e *e-mail2@gmail.com*. O primeiro é está cadastrado como proprietário/editor da lista, mas o segundo não. Se você mandar para a lista uma mensagem usando o e-mail2, ele vai ser moderado. **Solução:** Adicione seu segundo e-mail como proprietário/editor.

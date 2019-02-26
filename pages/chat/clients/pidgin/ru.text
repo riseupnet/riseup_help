@@ -25,7 +25,7 @@ h2. Использование OTR
 
 Подробнее об использовании end-to-end шифрования с помощью Pidgin смотрите в разделе [[otr]].
 
-h2. Обеспечение безопасности в GNU/Linux с помощью "AppArmor":http://wiki.apparmor.net/index.php/Main_Page#Documentation
+h2. Обеспечение безопасности в GNU/Linux с помощью "AppArmor":https://gitlab.com/apparmor/apparmor/wikis/home/
 
 Для дополнительной безопасности в системе GNU/Linux, мы рекомендуем защитить ваш Pidgin, выполнив следующие шаги:
 

@@ -60,7 +60,7 @@ Nas palavras do próprio SpamCop:
 
 bq. A lista de bloqueio do SpamCop é agressiva e bloqueia mais e-mails do que seria necessário para evitar spam. Quando implementar a lista, dê aos usuários as informações sobre como a lista e o seu sistema de e-mails filtram as mensagens. Idealmente, eles teriam opções de filtragem. Muitos sevidores de e-mail operam com listas de bloqueio no modo "apenas tags", que é preferível em muitas situações.
 
-O SpamCop está realmente causando problemas para riseup.net e para muitos outros provedores de e-mail legítimos. A "solução" imposta pelo SpamCop é pior do que o problema que estão tentando resolver: [[estima-se => http://jhoward.fastmail.fm/spamcop.html]] que o SpamCop frequentemente bloqueie dez mil e-mails legítimos para cada spam que bloqueia.
+O SpamCop está realmente causando problemas para riseup.net e para muitos outros provedores de e-mail legítimos. A "solução" imposta pelo SpamCop é pior do que o problema que estão tentando resolver: [[estima-se => https://jhoward.fastmail.fm/spamcop.html]] que o SpamCop frequentemente bloqueie dez mil e-mails legítimos para cada spam que bloqueia.
 
 Além disso, o SpamCop pode ser abusado livremente. É incrivelmente fácil marcar mensagens legítimas como spam só porque não se consegue cancelar a inscrição. Isso também pode ser usado como um ataque: se você não gosta da nossa política, tudo que precisa fazer é conseguir que algumas pessoas denunciem riseup.net para o SpamCop. Riseup.net é frequentemente denunciado para o SpamCop por e-mails de ativismo legítimos.
 
@@ -73,7 +73,7 @@ bq. Estou enviando este e-mail para pedir a vocês que, por favor, não confiem 
 _Links_
 
 * [[Por que não usar SpamCop -- alguns relatos em primeira mão (em inglês) => http://www.politechbot.com/p-04129.html]]
-* [[Por que a lista de bloqueio SpamCop é nociva (em inglês) => http://jhoward.fastmail.fm/spamcop.html]]
+* [[Por que a lista de bloqueio SpamCop é nociva (em inglês) => https://jhoward.fastmail.fm/spamcop.html]]
 
 h3. Lista de bloqueio mantida por provedores de e-mail
 

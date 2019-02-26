@@ -4,7 +4,7 @@ h2. What is Claws?
 
 p(pull-right). !(image-right)it_bites.png!
 
-Claws Mail was the default mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Since Tails 1.8 it has been replaced with [[thunderbird]] ("Migrating from Claws Mail to Icedove":https://web.archive.org/web/20151217135432/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.en.html). It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":http://www.claws-mail.org/downloads.php?section=downloads.
+Claws Mail was the default mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Since Tails 1.8 it has been replaced with [[thunderbird]] ("Migrating from Claws Mail to Icedove":https://web.archive.org/web/20151217135432/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.en.html). It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":https://www.claws-mail.org/downloads.php?section=downloads.
 
 Claws Mail aims to be feature rich, fast, and stable.  It has IMAP and POP support, multiple account support, colored labels, spell checking, filtering, and support for [[OpenPGP encryption->openpgp]].
 

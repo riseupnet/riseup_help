@@ -35,7 +35,7 @@ h2.  Warum gehen meine E-Mails zur Überprüfung an die/den Moderator_in und/ode
 
 Dafür gibt es mehrere mögliche Gründe:
 * Ich habe die Liste nicht abonniert.
-** An die meisten Listen kannst Du nur als Abonnent_in der Liste senden. Somit kannst Du, selbst wenn Du Verwalter_in oder Editor_in einer Liste bist, über eine dermaßen konfigurierte Liste nichts versenden. Zum abonnieren der Liste folge <a href="https://help.riseup.net/lists/subscribers/subscribing/#how_do_i_subscribe">dieser Anleitung</a>. 
+** An die meisten Listen kannst Du nur als Abonnent_in der Liste senden. Somit kannst Du, selbst wenn Du Verwalter_in oder Editor_in einer Liste bist, über eine dermaßen konfigurierte Liste nichts versenden. Zum abonnieren der Liste folge <a href="https://riseup.net/en/lists/list-user/subscribing">dieser Anleitung</a>. 
 * Ich bin Listenverwalter_in, aber meine E-Mails gehen zur Überprüfung an den/die Moderator_in und/oder werden ganz abgewiesen
 ** Möglicherweise sendest Du die E-Mails von der falschen Adresse aus. Z.B. hast Du vielleicht *email1@riseup.net*, aber auch *email2@gmail.com*. Email1 ist als Verwalter_in/Editor_in der Liste registriert, aber email2 nicht. Wenn Du nun eine E-Mail *von* email2 an die Liste sendest, wird diese zur Überprüfung durch den/die Moderator_in zurückgehalten. <b>Um dies zu beheben:</b> Füge Deine zweite E-Mailadresse zur Liste der  Verwalter_innen/Editor_innen hinzu.
 

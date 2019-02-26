@@ -15,7 +15,7 @@ En un futuro cercano, LEAP se cambiará para usar la plataforma LEAP. Por favor 
 
 h2. Javascript
 
-* Edición Colaborativa: Escribe parches para "etherpad":http://etherpad.org para permitir a cualquiera destruir un pad, proteger con clave un pad, o prevenir que un pad sea destruido.
+* Edición Colaborativa: Escribe parches para "etherpad":https://etherpad.org para permitir a cualquiera destruir un pad, proteger con clave un pad, o prevenir que un pad sea destruido.
 * Email Anónimo: Escribe un plugin para Thunderbird para eliminar información personal identificable de los encabezados de salida (por ejemplo, el encabezado User-Agent).
 
 h2. Ruby
@@ -26,7 +26,7 @@ h2. Ruby
 
 h2. PHP
 
-* Webmail: Agrega características de seguridad mejorada a "roundcube":http://roundcube.net.
+* Webmail: Agrega características de seguridad mejorada a "roundcube":https://roundcube.net.
 
 h2. Perl
 
