@@ -62,6 +62,14 @@ The Eurasian Blue Tit is easily recognizable by its blue plumage, but various au
 </div>
 <div class="row">
 
+p(col-md-1). !(image-left)img/petrel.jpg!
+
+p(col-md-11). _*Gadfly Petrel (Pterodroma)*_
+Gadfly Petrel (aka Professor Petrel) works to bring about communications policies and systems that are based on human needs not corporate profits. She thinks that there is no technical solution but that technology can be useful if used in moderation. Though a seabird, she can sometimes be found in classrooms and libraries inspiring new generations of gadflies. She's also a firm believer in mutual aid and loves jokes about pirates.
+
+</div>
+<div class="row">
+
 p(col-md-1). !img/roadrunner.jpg!
 
 p(col-md-11). _*Greater Roadrunner (Geococcyx californianus)*_
@@ -125,14 +133,6 @@ p(col-md-1). !(image-left)img/catbird.png!
 
 p(col-md-11). [_*Catbird (Dumetella carolinensis, small bird of the thornbushes)*_]
 Catbird perches behind foliage, singing the day away. Catbird likes to sing to GNU/Linux servers, mostly in Perl or Ruby. Catbird enjoys challenging gender stereotypes and is not afraid to invite some feminine energy into tech work.
-
-</div>
-<div class="row">
-
-p(col-md-1). !(image-left)img/petrel.jpg!
-
-p(col-md-11). _*Gadfly Petrel (Pterodroma)*_
-Gadfly Petrel works to bring about communications policies and systems that are based on human needs not corporate profits. She thinks that there is no technical solution but that technology can be useful if used in moderation. Though a seabird, she has migrated inland to study and teach journalism and communications, hopefully inspiring new generations of gadflies. Other interests include cooperative living, urban gardening and Captain Beefheart. She's also a firm believer in mutual aid and loves jokes about pirates.
 
 </div>
 <div class="row">
