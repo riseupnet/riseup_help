@@ -15,8 +15,8 @@ h2. Recommended clients
 
 table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
-| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux, FreeBSD | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python. |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for Gnome. Has built-in support for Tor, OTR and TLS|
+| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux, FreeBSD | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for Gnome. Has built-in support for Tor, OTR and TLS |
 | [[ChatSecure -> https://chatsecure.org/]] | iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for iOS. Native Tor support. |
 | [[Conversations -> https://conversations.im/]] | Android | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 | [[Pidgin -> https://pidgin.im/]] | Windows, GNU/Linux | *Yes* | No | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Make sure to use most the current version! |
@@ -29,7 +29,8 @@ table(table table-striped).
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
 | [[Pandion -> https://pandion.im]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows jabber client. |
-| [[Psi -> https://psi-im.org]] | macOS, Windows, GNU/Linux | No | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
 | iChat | Mac | No | No | No | ? | ? | ? | Apple's built-in chat application has limited Jabber support. |
 | [[Beem -> https://www.beem-project.com]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
