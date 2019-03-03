@@ -7,7 +7,7 @@ XMPP - это открытый стандарт для мгновенного о
 
 h2. Использование Riseup's XMPP-сервиса
 
-Ваш email адрес riseup.net также является вашим Адрес XMPP. For someone to send you a XMPP message or buddy request, they just need to send it to [@username@riseup.net@].
+Ваш email адрес riseup.net также является вашим Адрес XMPP. For someone to send you an XMPP message or buddy request, they just need to send it to [@username@riseup.net@].
 
 Чтобы настроить [[XMPP-клиент => chat/clients]], вам необходима следующая информация:
 

@@ -7,7 +7,7 @@ XMPP is an open standard for instant messages as well as voice and video chat. W
 
 h2. Using Riseup's XMPP service
 
-Your riseup.net email address also serves as your XMPP address. For someone to send you a XMPP message or buddy request, they just need to send it to [@username@riseup.net@].
+Your riseup.net email address also serves as your XMPP address. For someone to send you an XMPP message or buddy request, they just need to send it to [@username@riseup.net@].
 
 In order to configure a [[XMPP client => chat/clients]], you need this information:
 
