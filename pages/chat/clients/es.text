@@ -28,7 +28,7 @@ h2. Otros clientes
 table(table table-striped).
 |_. Cliente |_. SO soportado |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentarios |
 | [[Jitsi -> https://jitsi.org]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Código abierto. Escrito en Java. |
-| [[Pandion -> https://pandion.im]] | Windows | No | No | ? | ? | ? | Código abierto. Buen cliente estable de jabber en windows. |
+| [[Pandion -> https://pandion.im]] | Windows | No | No | ? | ? | ? | Código abierto. Buen cliente estable de XMPP en windows. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, Mac | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, Mac, FreeBSD, Haiku | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Codigo abierto. Alguien lo ha probado? Escrito en Java. |
@@ -38,4 +38,4 @@ h2. Clientes que evitar
 
 table(table table-striped).
 |_. Cliente |_. Supported OS |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comentarioss |
-| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux | No | *Si* | *Si* | *Si* | *Si* | Código abierto. Buen cliente de jabber escrito en python, pero actualmente no hay modo de asegurar una conexión segura.  ¿Quizás esto ya este arreglado? No es seguro. |
+| [[Gajim -> https://gajim.org]] | Windows, GNU/Linux | No | *Si* | *Si* | *Si* | *Si* | Código abierto. Buen cliente de XMPP escrito en python, pero actualmente no hay modo de asegurar una conexión segura.  ¿Quizás esto ya este arreglado? No es seguro. |
