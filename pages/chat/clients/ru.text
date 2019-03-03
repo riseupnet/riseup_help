@@ -29,7 +29,8 @@ table(table table-striped).
 | [[Empathy -> https://wiki.gnome.org/Apps/Empathy]] | GNU/Linux | Нет | Нет | *Да* | *Да* (GNOME) | *Да* (GNOME) | ? | Open source. Стабильный и простой в использовании. |
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | *Да* | ? | Open source. Написан на Java. |
 | [[Pandion -> https://pandion.im]] | Windows | Нет | Нет | Нет | ? | ? | ? | Open source. Продолжительное время нет новых обновлений. |
-| [[Psi -> https://psi-im.org]] | macOS, Windows, GNU/Linux | Нет | Нет | *Да* | ? | ? | ? | Open source. Стабильное нативное приложение. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Кроссплатформенный мессенджер написанный на С++ и Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Кроссплатформенный мессенджер написанный на С++ и Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | MacOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
 | [[Beem -> https://www.beem-project.com]] | Android | Нет | Нет | Нет | ? | ? | ? | Open source. Не поддерживает групповые чаты. |
-| [[Miranda -> http://www.miranda-im.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
+| [[Miranda -> https://www.miranda-im.org/]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
