@@ -28,9 +28,10 @@ table(table table-striped).
 | [[Adium]] | macOS | *Yes* | No | No | *Yes* | *Yes* | Partial | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows XMPP client. |
-| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | No | No | *Yes* | ? | ? | ? | Open source. Stable native application. |
+| [[Pandion -> https://pandion.im]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows XMPP client. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
 | iChat | Mac | No | No | No | ? | ? | ? | Apple's built-in chat application has limited XMPP support. |
-| [[Beem -> https://www.beem-project.com/]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
+| [[Beem -> https://www.beem-project.com]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
 | [[Miranda -> https://www.miranda-im.org/]] | Windows | *Yes* | No | No | ? | ? | ? | Open source. Stable client with many plugins. |

@@ -20,16 +20,17 @@ table(table table-striped).
 | [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Oui* | Non | *Oui* | *Oui* | *Oui* | Open source. Support natif de Tor. |
 | [[Pidgin]]   | Windows & GNU/Linux | *Oui*   | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Stable et possède beaucoup de fonctionnalités. Utiliser la dernière version. |
 | [[Adium]] | Mac | *Oui* | Non | *Oui* | *Oui* | Partial | Open source. Version native de Pidgin pour Mac, mais ne met pas libpurple à jour souvent. Fuite d'informations au survole des DNS et des URL.|
-| [[Beem -> http://www.beem-project.com/]] | Android | Non | Non | ? | ? | ? | Open source. Application android stable et native. Ne supporte pas les groupe de discussion. |
+| [[Beem -> https://www.beem-project.com]] | Android | Non | Non | ? | ? | ? | Open source. Application android stable et native. Ne supporte pas les groupe de discussion. |
 | [[Miranda -> http://www.miranda-im.org/]] | Windows | *Oui* | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
 
 h2. Autres clients
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Jitsi -> http://www.jitsi.org]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Écrit en Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | Non | Non | ? | ? | ? | Open source. Client Windows beau et stable. |
-| [[Psi -> http://psi-im.org/]] | Mac, Windows & GNU/Linux | Non | *Oui* | ? | ? | ? | Open source. Application native stable. |
+| [[Jitsi -> https://jitsi.org]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Écrit en Java. |
+| [[Pandion -> https://pandion.im]] | Windows | Non | Non | ? | ? | ? | Open source. Client Windows beau et stable. |
+| [[Psi -> https://psi-im.org]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
+| [[Psi+ -> https://psi-plus.com/]] | Mac, Windows & GNU/Linux, FreeBSD, Haiku | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows & GNU/Linux | *Oui* | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
 | Messages | Mac | Non | Non | ? | ? | ? | Application de chat fourni avec OSX, elle a un support partiel de XMPP.|
 
@@ -37,4 +38,4 @@ h2. Clients à éviter
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Gajim -> http://www.gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|
+| [[Gajim -> https://www.gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|

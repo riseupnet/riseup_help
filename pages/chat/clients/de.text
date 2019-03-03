@@ -16,7 +16,7 @@ h2. Empfohlene Clients
 
 table(table table-striped).
 |_. Client |_. Unterstütztes Betriebssystem |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Kommentare |
-| [[Gajim -> http://www.gajim.org]] | Windows, GNU/Linux, FreeBSD | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | Quelloffen. Guter XMPP-Client, der in Python programmiert wurde. |
+| [[Gajim -> https://www.gajim.org]] | Windows, GNU/Linux, FreeBSD | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | Quelloffen. Guter XMPP-Client, der in Python programmiert wurde. |
 | [[Coy -> https://coy.im]] | GNU/Linux, macOS, Windows | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Per Standard sicher in Gnome. |
 | [[ChatSecure -> https://guardianproject.info/apps/chatsecure/]] | Android & iOS | *Ja* | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen, Tor-Unterstützung. |
 | [[Conversations -> https://conversations.im/]] | Android | *Ja* | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Ein sehr gutes Chatprogramm für Android. Unterstützt verschlüsselte Gruppengespräche! |
@@ -28,10 +28,10 @@ table(table table-striped).
 |_. Client |_. Unterstützte Betriebssysteme |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Kommentare |
 | [[Adium]] | macOS | *Ja* | Nein | Nein | *Ja* | *Ja* | Teilweise | Quelloffen. Gute native Version von Pidgin für Mac, jedoch wird libpurple nur selten aktualisiert. DNS- und URL-Informationen dringen durch.|
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | Nein | Nein | *Ja* | *Ja* (GNOME) | *Ja* (GNOME) | ? | Quelloffen. Läuft stabil und ist einfach zu verwenden. |
-| [[Jitsi -> http://www.jitsi.org]] | macOS, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Guter stabiler Windows-XMPP-Client. |
-| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | Nein | Nein | *Ja* | ? | ? | ? | Quelloffen. Stabile native Anwendung. |
+| [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java. |
+| [[Pandion -> https://pandion.im]] | Windows | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Guter stabiler Windows-XMPP-Client. |
+| [[Psi -> https://psi-im.org]] | macOS, Windows, GNU/Linux | Nein | Nein | *Ja* | ? | ? | ? | Quelloffen. Stabile native Anwendung. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java, derzeit leider noch nicht getestet. |
 | iChat | Mac | Nein | Nein | Nein | ? | ? | ? | Apples eingebaute Chat-Software unterstützt XMPP, aber nur mit einer stark dezimierten Anzahl an Funktionen. |
-| [[Beem -> http://www.beem-project.com/]] | Android | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Stabile Android-App. Unterstützt keine Gruppenchats. |
+| [[Beem -> https://www.beem-project.com]] | Android | Nein | Nein | Nein | ? | ? | ? | Quelloffen. Stabile Android-App. Unterstützt keine Gruppenchats. |
 | [[Miranda -> http://www.miranda-im.org/]] | Windows | *Ja* | Nein | Nein | ? | ? | ? | Quelloffen. Stabiler Client mit vielen Plugins. |

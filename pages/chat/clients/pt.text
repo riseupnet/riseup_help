@@ -28,9 +28,10 @@ table(table table-striped).
 | [[Adium]] | macOS | *Sim* | Não | Não | *Sim* | *Sim* | Parcial | Código aberto. Inseguro por falta de atualização. Vazamento das informações de DNS e URL. |
 | [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | Não | Não | *Sim* | *Sim* (GNOME) | *Sim* (GNOME) | ? |  Código aberto. Estável e fácil de usar. |
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Sim* | Não | *Sim* | ? | *Sim* | ? | Código aberto. Escrito em Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | Não | Não | Não | ? | ? | ? | Código aberto. Um cliente de XMPP para Windows bom e estável. |
-| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | Não | Não | *Sim* | ? | ? | ? | Código aberto. Programa nativo estável. |
+| [[Pandion -> https://pandion.im]] | Windows | Não | Não | Não | ? | ? | ? | Código aberto. Um cliente de XMPP para Windows bom e estável. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
+| [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, macOS, FreeBSD, Haiku | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | macOS, Windows, GNU/Linux | *Sim* | Não | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
 | iChat | Mac | Não | Não | Não | ? | ? | ? | Este aplicativo da Apple conta com suporte limitado a XMPP. |
-| [[Beem -> https://www.beem-project.com/]] | Android | Não | Não | Não | ? | ? | ? | Código aberto. App estável nativo do Android. Não oferece bate-papo em grupo. |
+| [[Beem -> https://www.beem-project.com]] | Android | Não | Não | Não | ? | ? | ? | Código aberto. App estável nativo do Android. Não oferece bate-papo em grupo. |
 | [[Miranda -> https://www.miranda-im.org/]] | Windows | *Sim* | Não | Não | ? | ? | ? | Código aberto. Cliente estável com muitas extensões. |

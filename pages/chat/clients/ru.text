@@ -28,8 +28,8 @@ table(table table-striped).
 | [[Adium]] | macOS | *Да* | Нет | Нет | *Да* | *Да* | Частично | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
 | [[Empathy -> https://wiki.gnome.org/Apps/Empathy]] | GNU/Linux | Нет | Нет | *Да* | *Да* (GNOME) | *Да* (GNOME) | ? | Open source. Стабильный и простой в использовании. |
 | [[Jitsi -> https://jitsi.org]] | macOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | *Да* | ? | Open source. Написан на Java. |
-| [[Pandion -> http://pandion.im/]] | Windows | Нет | Нет | Нет | ? | ? | ? | Open source. Продолжительное время нет новых обновлений. |
-| [[Psi -> http://psi-im.org/]] | macOS, Windows, GNU/Linux | Нет | Нет | *Да* | ? | ? | ? | Open source. Стабильное нативное приложение. |
+| [[Pandion -> https://pandion.im]] | Windows | Нет | Нет | Нет | ? | ? | ? | Open source. Продолжительное время нет новых обновлений. |
+| [[Psi -> https://psi-im.org]] | macOS, Windows, GNU/Linux | Нет | Нет | *Да* | ? | ? | ? | Open source. Стабильное нативное приложение. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | MacOS, Windows, GNU/Linux | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
-| [[Beem -> https://www.beem-project.com/]] | Android | Нет | Нет | Нет | ? | ? | ? | Open source. Не поддерживает групповые чаты. |
-| [[Miranda -> https://www.miranda-im.org/]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
+| [[Beem -> https://www.beem-project.com]] | Android | Нет | Нет | Нет | ? | ? | ? | Open source. Не поддерживает групповые чаты. |
+| [[Miranda -> http://www.miranda-im.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
