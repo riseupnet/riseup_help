@@ -21,7 +21,7 @@ table(table table-striped).
 | [[Pidgin]]   | Windows & GNU/Linux | *Oui*   | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Stable et possède beaucoup de fonctionnalités. Utiliser la dernière version. |
 | [[Adium]] | Mac | *Oui* | Non | *Oui* | *Oui* | Partial | Open source. Version native de Pidgin pour Mac, mais ne met pas libpurple à jour souvent. Fuite d'informations au survole des DNS et des URL.|
 | [[Beem -> https://www.beem-project.com]] | Android | Non | Non | ? | ? | ? | Open source. Application android stable et native. Ne supporte pas les groupe de discussion. |
-| [[Miranda -> http://www.miranda-im.org/]] | Windows | *Oui* | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
+| [[Miranda -> http://www.miranda-im.org]] | Windows | *Oui* | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
 
 h2. Autres clients
 
@@ -38,4 +38,4 @@ h2. Clients à éviter
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Gajim -> https://gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|
+| [[Gajim -> https://gajim.org]] | Windows & GNU/Linux | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client jabber écrit en python. Malheureusement, il n'y a pas moyen d'assurer une connexion sécuritaire. Peut-être que cela a été corrigé, mais ce n'est pas certain.|
