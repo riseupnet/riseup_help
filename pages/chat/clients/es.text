@@ -1,5 +1,5 @@
-@title = "Clientes Jabber"
-@summary = "Configurando clientes de Jabber para usar con el servicio de chat de Riseup."
+@title = "Clientes XMPP"
+@summary = "Configurando clientes de XMPP para usar con el servicio de chat de Riseup."
 
 p(alert alert-info). Por favor ayúdanos actualizando esta página probando diferentes clientes.
 
@@ -32,7 +32,7 @@ table(table table-striped).
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, Mac | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Psi+ -> https://psi-plus.com/]] | GNU/Linux, Windows, Mac, FreeBSD, Haiku | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | Mac, Windows, GNU/Linux | *Si* | *Si* | ? | ? | ? | Codigo abierto. Alguien lo ha probado? Escrito en Java. |
-| iChat | Mac | No | No | ? | ? | ? | Aplicación integrada de chat de Apple tiene soporte para Jabber, pero limitado. |
+| iChat | Mac | No | No | ? | ? | ? | Aplicación integrada de chat de Apple tiene soporte para XMPP, pero limitado. |
 
 h2. Clientes que evitar
 

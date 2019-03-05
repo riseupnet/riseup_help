@@ -4,7 +4,7 @@ h2. À propos Adium
 
 !logo.png!
 
-Adium est le client jabber recommandé pour OSX. Il est libre et open source en plus de supporter [[OTR]] pour l'encryption bout-à-bout des messages.
+Adium est le client XMPP recommandé pour OSX. Il est libre et open source en plus de supporter [[OTR]] pour l'encryption bout-à-bout des messages.
 
 Vous pouvez télécharger Adium à l'adresse suivante : https://adium.im
 
@@ -12,7 +12,7 @@ h2. Configurer un compte
 
 (1) menu *Adium* > entrée *Preferences...* > onglet *Accounts*
 
-(2) Cliquez sur l'icône plus dans le coin inférieur gauche et sélectionnez *Jabber*.
+(2) Cliquez sur l'icône plus dans le coin inférieur gauche et sélectionnez *XMPP*.
 
 !new-plus-menu.png!
 

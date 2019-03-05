@@ -1,5 +1,5 @@
-@title = "Jabber Clients"
-@summary = "Konfiguration von Jabber-Clients für die Verwendung mit dem Riseup Jabber-Chat-Dienst."
+@title = "XMPP Clients"
+@summary = "Konfiguration von XMPP-Clients für die Verwendung mit dem Riseup XMPP-Chat-Dienst."
 
 h2. Wichtige Funktionen, nach denen eine Beurteilung des Clients erfolgen kann:
 

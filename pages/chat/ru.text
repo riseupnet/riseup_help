@@ -1,32 +1,32 @@
 @title = "Riseup чат"
 @nav_title = "Чат"
 
-h2. Что такое Jabber (XMPP)?
+h2. Что такое XMPP?
 
-Jabber (XMPP) - это открытый стандарт для мгновенного обмена сообщениями. Поддерживает многопользовательские чаты, аудио и видеозвонки. With jabber, you can send and receive messages between users on thousands of different chat providers.
+XMPP - это открытый стандарт для мгновенного обмена сообщениями. Поддерживает многопользовательские чаты, аудио и видеозвонки. With XMPP, you can send and receive messages between users on thousands of different chat providers.
 
-h2. Использование Riseup's Jabber-сервиса
+h2. Использование Riseup's XMPP-сервиса
 
-Ваш email адрес riseup.net также является вашим JID (JabberID). For someone to send you a jabber message or buddy request, they just need to send it to [@username@riseup.net@].
+Ваш email адрес riseup.net также является вашим Адрес XMPP. For someone to send you an XMPP message or buddy request, they just need to send it to [@username@riseup.net@].
 
-Чтобы настроить [[Jabber-клиент => chat/clients]], вам необходима следующая информация:
+Чтобы настроить [[XMPP-клиент => chat/clients]], вам необходима следующая информация:
 
-* *протокол*: "jabber" или "xmpp"
+* *протокол*: "xmpp"
 * *аккаунт*: [@username@riseup.net@]
 * *пароль*: ваш [[riseup-password]]
 
 It is very important than you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
 
-Некоторые jabber-клиенты могут запрашивать ваше имя пользователя и домен раздельно. В этом случае вы должны указать:
+Некоторые XMPP-клиенты могут запрашивать ваше имя пользователя и домен раздельно. В этом случае вы должны указать:
 
 * *имя пользователя*: [@username@]
 * *домен*: @riseup.net@
 
-Учебные пособия по конкретным клиентам смотрите на странице [[jabber-клиенты => chat/clients]].
+Учебные пособия по конкретным клиентам смотрите на странице [[XMPP-клиенты => chat/clients]].
 
 h2. Подключение к многопользовательским чатам (конференциям, комнатам)
 
-При подключении или создании конференции в jabber-сети Riseup's, синтаксис должен быть следующим:
+При подключении или создании конференции в XMPP-сети Riseup's, синтаксис должен быть следующим:
 
 * [@имя-вашей-комнаты@conference.riseup.net@]
 
@@ -55,5 +55,5 @@ h3. Использование комнат в Pidgin
 
 h2. Для дополнительной безопасности
 
-# Для дополнительной безопасности заходите на наш jabber-сервер через [[Riseup VPN => vpn]].
+# Для дополнительной безопасности заходите на наш XMPP-сервер через [[Riseup VPN => vpn]].
 # Используйте наш "Tor hidden service":https://www.torproject.org/docs/hidden-services.html.en: адрес(@xmpp.*.onion@) которого вы можете найти на [[Riseup's onion services pages->tor#riseups-tor-hidden-services]].

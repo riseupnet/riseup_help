@@ -4,7 +4,7 @@ h2. Über Adium
 
 !logo.png!
 
-Adium ist der empfohlene Jabber Client für Macs. Er ist Open Source und unterstützt [[OTR]] für die Ende-zu-Ende-Verschlüsselung der Nachrichten.
+Adium ist der empfohlene XMPP Client für Macs. Er ist Open Source und unterstützt [[OTR]] für die Ende-zu-Ende-Verschlüsselung der Nachrichten.
 
 Du kannst Adium unter https://adium.im herunterladen.
 
@@ -12,7 +12,7 @@ h2. Einen Account einrichten
 
 (1) *Adium* Menü > *Einstellungen* Menü Punk > *Account* Tab
 
-(2) Klicke auf das Plus Symbol unten links und wähle *Jabber*.
+(2) Klicke auf das Plus Symbol unten links und wähle *XMPP*.
 
 !new-plus-menu.png!
 
