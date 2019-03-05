@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*Plate-forme*|_.*Clients courriel libres recommandés*|_.*Clients propriétaires*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[geary]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,7 +21,7 @@ h2. Choisir IMAP ou POP
 Les clients courriel peuvent accéder à votre boite aux lettres en utilisant au choix POP ou IMAP.
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | Stockage | *Votre ordinateur*. Typiquement, en utilisant POP, vous téléchargez tous vos courriels sur votre ordinateur et les supprimez des serveurs de riseup.net. | *Serveur Riseup*. IMAP laisse tous les messages sur le serveur. Une autre façon de voir cela est que le client courriel IMAP fournit une vue des données existantes stockées sur le serveur. |
 | Mobilité | *Basse*. POP marche bien uniquement quand vous vérifiez vos courriels principalement depuis le même ordinateur. | *Haute*. IMAP vous permet d'utiliser différents clients et de les garder synchronisés. |
 | Vitesse   | *Plus rapide*, puisque tout est simplement téléchargé une fois sur votre ordinateur. | *Plus lent*, puisque le client courriel doit faire des requêtes au serveur de façon répété. |

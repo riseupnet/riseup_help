@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*平台*|_.*推荐的自由软件电子邮件客户端*|_.*其它商业客户端*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,7 +21,7 @@ h2. 选择 IMAP或者 POP
 电子邮件客户端可以通过 POP或者IMAP访问您的邮箱。
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | 存储 | *您的电脑*.。当使用 POP，你通常可以下载所用邮件到你的电脑，并从 riseup.net服务器删除。 | *Riseup服务器*。IMAP把所用的信息留在服务器上 。这种方式的另一种看法是，IMAP邮件客户端提供存储在服务器上的现有数据的视图。|
 | 机动性 | *低*。POP只有在使用同一台电脑检查邮件时，才工作的很好。 | *高*。IMAP允许你使用多个客户端，并让他们保持同步 。|
 | 速度   | *快*，因为所有的东西都一次性的下载到您的电脑。 | *慢*，因为邮件客户端将反复查询服务器。|

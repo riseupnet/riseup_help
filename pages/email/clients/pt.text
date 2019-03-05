@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*Plataforma*|_.*Clientes de e-mail livres e recomendados*|_.*Clientes proprietários*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,9 +21,9 @@ h2. Escolha IMAP ou POP
 Clientes de e-mail podem acessar a sua caixa de entrada usando POP ou IMAP.
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | Armazenamento | *Seu computador*. Normalmente, quando você usa POP, todo o seu e-mail é baixado para seu computador e removido dos servidores riseup.net. | *Servidor Riseup*. IMAP deixa todas as suas mensagens no servidor. Em outras palavras, um cliente IMAP permite que você veja os dados armazenados no servidor. |
-| Mobilidade | *Baixa*. POP só funciona bem quando você costuma acessar sua conta de e-mail de um mesmo computador. | *Alta*. IMAP permite que você use muitos clientes e os mantenha sincronizados.|
+| Mobilidade | *Baixa*. POP só funciona bem quando você costuma acessar sua conta de e-mail de um mesmo computador. | *Alta*. IMAP permite que você use muitos clientes e os mantenha sincronizados. |
 | Velocidade | *Mais rápido*, já que tudo é baixado para seu computador uma só vez. | *Mais lento*, já que o cliente de e-mail tem que se comunicar com o servidor várias vezes. |
 | Cota | *Ilimitada*. Você nunca precisará se preocupar com sua cota se seu cliente for configurado para apagar as mensagens do servidor depois de baixá-las. | *Limitada*. Você terá [[cota limitada  =>  quota]]. |
 | Segurança | *Alta*. As mensagens não são armazenadas no servidor (normalmente). | *Menor*. O armazenamento dos seus dados é confiado ao Riseup. |

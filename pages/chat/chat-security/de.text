@@ -4,7 +4,7 @@ h2. Deine Nachrichten schützen
 
 Wenn du den XMPP Dienst von Riseup nutzt, werden deine Nachrichten in den meisten Fällen verschlüsselt transportiert. Die verschlüsselte Verbindung kann aber nicht garantiert werden, wenn nicht beide Beteiligten den Dienst von Riseup verwenden.
 
-Wenn du eine Ende-zu-Ende Verschlüsselung deiner Nachrichten sicher stellen möchtest, ist deine beste Option [[Off the Record (OTR) -> https://de.wikipedia.org/wiki/Off-the-Record_Messaging]]. Wenn du mehr darüber wissen möchtest kannst du unser [[OTR Tutorial -> otr]] lesen.
+Wenn du eine Ende-zu-Ende Verschlüsselung deiner Nachrichten sicher stellen möchtest, ist deine beste Option [[Off-the-Record Messaging (OTR) -> https://de.wikipedia.org/wiki/Off-the-Record_Messaging]]. Wenn du mehr darüber wissen möchtest kannst du unser [[OTR Tutorial -> otr]] lesen.
 
 h2. Deine Online-Telefonate schützen
 
