@@ -34,7 +34,7 @@ table(table table-striped).
 | [[Miranda -> https://miranda-im.org]] | Windows | *Oui* | Non | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Oui* | Non | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
 | [[Pidgin]] | GNU/Linux, Windows, macOS | *Oui* | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Stable et possède beaucoup de fonctionnalités. Utiliser la dernière version. |
-| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Oui* | Non | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
+| [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Oui* | Non | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
 
 h2. Clients à éviter
 

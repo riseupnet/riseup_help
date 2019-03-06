@@ -34,7 +34,7 @@ table(table table-striped).
 | [[Miranda -> https://miranda-im.org]] | Windows | *Sim* | Não | Não | ? | ? | ? | Código aberto. Cliente estável com muitas extensões. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Sim* | Não | Não | ? | ? | ? | Código aberto. Cliente estável com muitas extensões. |
 | [[Pidgin]] | GNU/Linux, Windows, macOS | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* |Código aberto. Estável e com muitas funções. Use a versão mais atual! |
-| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Sim* | Não | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
+| [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Sim* | Não | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
 
 h2. Clientes para evitar
 

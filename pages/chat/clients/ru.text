@@ -34,9 +34,9 @@ table(table table-striped).
 | [[Miranda -> https://miranda-im.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
 | [[Pidgin]] | GNU/Linux, Windows, macOS | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Open source. Стабильный мессенджер со множеством функций. *Обязательно используйте самую свежую версию!* |
-| [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
+| [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
 
-h2. Клиенты, которые стоит избегать
+h2. Клиенты, которых стоит избегать
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Комментарии |
