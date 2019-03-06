@@ -36,7 +36,7 @@ table(table table-striped).
 | [[Pidgin]] | GNU/Linux, Windows | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Open source. Стабильный мессенджер со множеством функций. *Обязательно используйте самую свежую версию!* |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
 
-h2. Клиенты чтобы избежать
+h2. Клиенты, которые стоит избегать
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Комментарии |
