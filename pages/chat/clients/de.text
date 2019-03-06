@@ -20,7 +20,7 @@ table(table table-striped).
 | [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | *Ja* | Quelloffen. Guter XMPP-Client, der in Python und GTK+ programmiert wurde. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Ja* | *Ja* | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Quelloffen. Guter XMPP-Client, der in C ++ und Qt programmiert wurde. |
 | [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Ja* | *Ja* | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Quelloffen. Guter XMPP-Client, der in C ++ und Qt programmiert wurde. |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Per Standard sicher in Gnome. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Per Standard sicher in GNOME. |
 | [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Ja* | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen, Tor-Unterstützung. |
 | [[Conversations -> https://conversations.im]] | Android | Nein | *Ja* | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Ein sehr gutes Chatprogramm für Android. Unterstützt verschlüsselte Gruppengespräche! |
 | [[Conversations Legacy -> https://conversations.im]] | Android | *Ja* | Nein | Nein | *Ja* | *Ja* | *Ja* | Quelloffen. Ein sehr gutes Chatprogramm für Android. Unterstützt verschlüsselte Gruppengespräche! |
@@ -33,7 +33,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java. |
 | [[Miranda -> https://miranda-im.org]] | Windows | *Ja* | Nein | Nein | ? | ? | ? | Quelloffen. Stabiler Client mit vielen Plugins. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Ja* | Nein | Nein | ? | ? | ? | Quelloffen. Stabiler Client mit vielen Plugins. |
-| [[Pidgin]] | GNU/Linux, Windows | *Ja* | *Ja* | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Quelloffen. Läuft Stabil und bringt viele Funktionen mit. Verwende die aktuellste Version. |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Ja* | *Ja* | *Ja* (Linux) | *Ja* | *Ja* | *Ja* | Quelloffen. Läuft Stabil und bringt viele Funktionen mit. Verwende die aktuellste Version. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Ja* | Nein | *Ja* | ? | ? | ? | Quelloffen. Programmiert in Java, derzeit leider noch nicht getestet. |
 
 h2. Clients à éviter

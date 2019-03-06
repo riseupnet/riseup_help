@@ -20,7 +20,7 @@ table(table table-striped).
 | [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Si* | *Si* | *Si* | *Si* | *Si* | *Si* | Código abierto. Buen cliente de XMPP escrito en python. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Si* | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
 | [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Si* | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Aplicación nativa estable. |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Si* | No | No | *Si* | *Si* | *Si* | Open source. Secure-by-default chat client for Gnome. Has built-in support for Tor, OTR and TLS. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Si* | No | No | *Si* | *Si* | *Si* | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
 | [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Si* | *Si* | No | *Si* | *Si* | *Si* | Código abierto. Soporte nativo de Tor. |
 | [[Conversations -> https://conversations.im]] | Android | No | *Si* | No | *Si* | *Si* | *Si* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 | [[Conversations Legacy -> https://conversations.im]] | Android | *Si* | No | No | *Si* | *Si* | *Si* | Open source. A very good chat client for Android. Supports encrypted group chats! |
@@ -33,7 +33,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Si* | No | *Si* | ? | ? | ? | Código abierto. Escrito en Java. |
 | [[Miranda -> https://miranda-im.org]] | Windows | *Si* | No | No | ? | ? | ? | Código abierto. Cliente estable con muchos plugins. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Si* | No | No | ? | ? | ? | Código abierto. Cliente estable con muchos plugins. |
-| [[Pidgin]] | GNU/Linux, Windows | *Si* | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Estable con muchas características. Utilice la versión más actual. |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Si* | *Si* | *Si* (Linux) | *Si* | *Si* | *Si* | Código abierto. Estable con muchas características. Utilice la versión más actual. |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Si* | No | *Si* | ? | ? | ? | Codigo abierto. Alguien lo ha probado? Escrito en Java. |
 
 h2. Clientes que evitar

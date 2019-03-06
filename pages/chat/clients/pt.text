@@ -20,7 +20,7 @@ table(table table-striped).
 | [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Sim* | *Sim* | *Sim* | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em Python e GTK+. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
 | [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* | Código aberto. Um bom cliente de bate-papo multiplataforma escrito em C ++ e Qt. |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, macOS, Windows | *Sim* | Não | Não | *Sim* | *Sim* | *Sim* | Código aberto. Cliente de bate-papo seguro por padrão para Gnome. Suporte nativo ao Tor, OTR e TLS. |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Sim* | Não | Não | *Sim* | *Sim* | *Sim* | Código aberto. Cliente de bate-papo seguro por padrão para GNOME. Suporte nativo ao Tor, OTR e TLS. |
 | [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Sim* | *Sim* | Não | *Sim* | *Sim* | *Sim* | Código aberto. Um ótimo cliente para iOS. Suporte nativo ao Tor. |
 | [[Conversations -> https://conversations.im]] | Android | Não | *Sim* | Não | *Sim* | *Sim* | *Sim* | Código aberto. Um ótimo cliente para Android. Oferece criptografia para bate-papo em grupo! |
 | [[Conversations Legacy -> https://conversations.im]] | Android | *Sim* | Não | Não | *Sim* | *Sim* | *Sim* | Código aberto. Um ótimo cliente para Android. Oferece criptografia para bate-papo em grupo! |
@@ -33,7 +33,7 @@ table(table table-striped).
 | [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Sim* | Não | *Sim* | ? | *Sim* | ? | Código aberto. Escrito em Java. |
 | [[Miranda -> https://miranda-im.org]] | Windows | *Sim* | Não | Não | ? | ? | ? | Código aberto. Cliente estável com muitas extensões. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Sim* | Não | Não | ? | ? | ? | Código aberto. Cliente estável com muitas extensões. |
-| [[Pidgin]] | GNU/Linux, Windows | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* |Código aberto. Estável e com muitas funções. Use a versão mais atual! |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Sim* | *Sim* | *Sim* (Linux) | *Sim* | *Sim* | *Sim* |Código aberto. Estável e com muitas funções. Use a versão mais atual! |
 | [[Spark -> https://www.igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Sim* | Não | *Sim* | ? | ? | ? | Código aberto. Escrito em Java. |
 
 h2. Clientes para evitar

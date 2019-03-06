@@ -7,7 +7,7 @@ h2. Verwende diese Methode nur wenn es nicht anders geht!
 
 *ACHTUNG:* Wenn du hier bist, weil due das Riseup VPN auf Linux benutzen willst, sollest du [[diese Anleitung->vpn-black]] für VPN Schwarz verwenden. Benutz diese Anleitung nur wenn Bitmask nicht auf deiner Linux-Version funktioniert. Bitmask ist sowohl für Debian als auch Ubuntu verfügbar, als auch für andere Distributionen. Und ja, es gibt sogar eine Kommandozeilen-Version! 
 
-h2. Gnome
+h2. GNOME
 
 Um die benötigte Software zu installieren, öffne ein Terminal (Anwendungen > Terminal) und gib diese Kommandos ein:
 

@@ -7,7 +7,7 @@ h2. Só use este guia em último caso!
 
 *ATENÇÃO:* Se você chegou aqui por que deseja usar a Riseup VPN no Linux, [[clique aqui->vpn-black]] e veja como usar, em vez disso, a VPN Black. A única razão para seguir as instruções abaixo seria se, por algum motivo, o Bitmask não funcionasse com a sua versão do Linux! O Bitmask está disponível como pacote para Debian e Ubuntu e como pacote independente para outras distribuições. E sim, também há uma versão do aplicativo para linha de comando!
 
-h2. Gnome
+h2. GNOME
 
 Para instalar o software necessário, abra o terminal e insira os comandos abaixo:
 
@@ -31,7 +31,7 @@ $ sudo /etc/init.d/network-manager restart
 
 h3. Configuração
 
-# Abra o Gerenciador de Rede. É um pequeno ícone no painel do Gnome que mostra o status da conexão.
+# Abra o Gerenciador de Rede. É um pequeno ícone no painel do GNOME que mostra o status da conexão.
 # No menu, selecione *Conexões VPN* > *Configurar VPN*.
 # Clique em *Adicionar*.
 # Selecione *OpenVPN* se puder escolher o tipo de VPN, então clique em *Criar...*
