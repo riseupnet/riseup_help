@@ -17,7 +17,8 @@ h2. Рекомендуемые клиенты
 
 table(table table-striped).
 |_. Клиент |_. Поддерживаемые ОС |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Комментарии |
-| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Да* | *Да* | *Да* | *Да* | *Да* | *Да* | Open source. Кроссплатформенный мессенджер написанный на Python и использующий GTK+. |
+| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | Нет | *Да* | *Да* | *Да* | *Да* | *Да* | Open source. Кроссплатформенный мессенджер написанный на Python и использующий GTK+. |
+| [[Gajim 0.16.x -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Да* | Нет | *Да* | *Да* | *Да* | *Да* | Open source. Кроссплатформенный мессенджер написанный на Python и использующий GTK+. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Кроссплатформенный мессенджер написанный на С++ и Qt. |
 | [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Кроссплатформенный мессенджер написанный на С++ и Qt. |
 | [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Да* | Нет | Нет | *Да* | *Да* | *Да* | Open source. Безопасный-по-умолчанию мессенджер: по умолчанию включен OTR и используется Tor. Написан на Go. |
@@ -29,11 +30,11 @@ h2. Другие клиенты
 
 table(table table-striped).
 |_. Клиент |_. Поддерживаемые ОС |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Комментарии |
-| [[Adium]] | macOS | *Да* | *Да* | Нет | *Да* | *Да* | Частично | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
+| [[Adium]] | macOS | *Да* | *Да* (Plugin) | Нет | *Да* | *Да* | Частично | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
 | [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Да* | Нет | *Да* | ? | *Да* | ? | Open source. Написан на Java. |
 | [[Miranda -> https://miranda-im.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Да* | Нет | Нет | ? | ? | ? | Open source. Стабильный клиент со множеством плагинов. |
-| [[Pidgin]] | GNU/Linux, Windows, macOS | *Да* | *Да* | *Да* (Linux) | *Да* | *Да* | *Да* | Open source. Стабильный мессенджер со множеством функций. *Обязательно используйте самую свежую версию!* |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Да* (Plugin) | *Да* (Plugin) | *Да* (Linux) | *Да* | *Да* | *Да* | Open source. Стабильный мессенджер со множеством функций. *Обязательно используйте самую свежую версию!* |
 | [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Да* | Нет | *Да* | ? | ? | ? | Open source. Написан на Java. |
 
 h2. Клиенты, которых стоит избегать

@@ -17,7 +17,8 @@ h2. Clients recommandés
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Oui* | *Oui* | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. |
+| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | Non | *Oui* | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. |
+| [[Gajim 0.16.x -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Oui* | Non | *Oui* | *Oui* | *Oui* | *Oui* | Open source. Beau client XMPP écrit en python. |
 | [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Oui* | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
 | [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Oui* | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Application native stable. |
 | [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Oui* | Non | Non | *Oui* | *Oui* | *Oui* | Open source. Client sécurisé par défaut pour GNOME. A un support natif de Tor, OTR and TLS. |
@@ -29,11 +30,11 @@ h2. Autres clients
 
 table(table table-striped).
 |_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Commentaires |
-| [[Adium]] | macOS | *Oui* | *Oui* | Non | *Oui* | *Oui* | Partial | Open source. Version native de Pidgin pour Mac, mais ne met pas libpurple à jour souvent. Fuite d'informations au survole des DNS et des URL. |
+| [[Adium]] | macOS | *Oui* | *Oui* (Plugin) | Non | *Oui* | *Oui* | Partial | Open source. Version native de Pidgin pour Mac, mais ne met pas libpurple à jour souvent. Fuite d'informations au survole des DNS et des URL. |
 | [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Oui* | Non | *Oui* | ? | ? | ? | Open source. Écrit en Java. |
 | [[Miranda -> https://miranda-im.org]] | Windows | *Oui* | Non | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
 | [[Miranda NG -> https://miranda-ng.org]] | Windows | *Oui* | Non | Non | ? | ? | ? | Open source. Client stable avec beaucoup de plugin. |
-| [[Pidgin]] | GNU/Linux, Windows, macOS | *Oui* | *Oui* | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Stable et possède beaucoup de fonctionnalités. Utiliser la dernière version. |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Oui* (Plugin) | *Oui* (Plugin) | *Oui* (Linux) | *Oui* | *Oui* | *Oui* | Open source. Stable et possède beaucoup de fonctionnalités. Utiliser la dernière version. |
 | [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Oui* | Non | *Oui* | ? | ? | ? | Open source. Est-ce que quelqu'un l'a essayé ? Écrit en Java. |
 
 h2. Clients à éviter
