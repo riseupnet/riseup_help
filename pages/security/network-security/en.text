@@ -7,7 +7,7 @@ The internet is a wild place. Practically every click you make is now recorded, 
 Yikes! What is an internet user to do? These pages will help you configure your computer to prevent these attacks [_at the network level_].
 
 table(table).
-|_. Technology  |_. Difficulty |_. When to use it |
+|_. Technology |_. Difficulty |_. When to use it |
 | [[secure-connections]] | Automatic | All Riseup services require a secure connection. |
 | [[better-web-browsing]] | Easy | There are a few easy things you can do to make your web browsing more secure and more private. |
 | [[VPN]]                 | Moderate | Securely route your traffic through riseup.net in order to help prevent spying and attacks on the *content of your internet traffic*. |

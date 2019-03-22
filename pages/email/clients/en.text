@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*Platform*|_.*Recommended Free Software Mail Clients*|_.*Proprietary Clients*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[geary]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,7 +21,7 @@ h2. Choose IMAP or POP
 Mail clients can access your mailbox using either POP or IMAP.
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | Storage | *Your computer*. When using POP, you typically download all your mail to your computer and remove it from the riseup.net servers. | *Riseup Server*. IMAP leaves all messages on the server. Another way to think of this is that an IMAP mail client provides a view of the existing data stored on the server. |
 | Mobility | *Low*. POP only works well when you predominately check your mail from the same computer. | *High*. IMAP allows you to use many clients and keep them in sync. |
 | Speed   | *Faster*, since everything is just downloaded once to your computer. | *Slower*, since the mail client will query the server repeatedly. |

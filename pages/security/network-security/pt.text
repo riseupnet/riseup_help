@@ -7,7 +7,7 @@ A internet é um lugar selvagem. Atualmente, praticamente todo clique é registr
 Vixe! E o que se pode fazer? Este guia vai ajudar você a configurar seu computador e protegê-lo contra ataques (no nível da rede).
 
 table(table).
-|_. Tecnologia  |_. Dificuldade |_. Quando usar |
+|_. Tecnologia |_. Dificuldade |_. Quando usar |
 | [[secure-connections]] | Automático | Todos os serviços do Riseup exigem conexões seguras. |
 | [[better-web-browsing]] | Fácil | Existem algumas medidas simples que podem ser tomadas para garantir mais segurança e privacidade ao se navegar na rede. |
 | [[vpn]]                 | Moderada | Roteie com segurança o seu tráfego na internet por riseup.net, para evitar a espionagem e os ataques ao *conteúdo do seu tráfego na internet*. |

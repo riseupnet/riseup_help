@@ -2,16 +2,16 @@
 
 h2. Was ist Evolution?
 
-"Evolution":https://en.wikipedia.org/wiki/Evolution_software ist ein Emailprogramm und der offiziele Manager persönlicher Informationen für die "GNOME Desktop-Umgebung":https://en.wikipedia.org/wiki/GNOME. Es ist freie quelloffene Software, lizensiert unter der GPL.
+"Evolution":https://en.wikipedia.org/wiki/Evolution_(software) ist ein Emailprogramm und der offiziele Manager persönlicher Informationen für die "GNOME Desktop-Umgebung":https://en.wikipedia.org/wiki/GNOME. Es ist freie quelloffene Software, lizensiert unter der GPL.
 
-Es wird verteilt als Teil von GNOME, wodurch es in allen Linux-Distribution mit GNOME verfügbar ist, wie ["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu_(operating_system)], und es kann per "Paketverwaltung":https://en.wikipedia.org/wiki/Package_manager deiner Distribution installiert werden. Evolution ist auch "für Windows erhältlich":http://www.dipconsultants.com/evolution/download.htm.
+Es wird verteilt als Teil von GNOME, wodurch es in allen Linux-Distribution mit GNOME verfügbar ist, wie ["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu], und es kann per "Paketverwaltung":https://en.wikipedia.org/wiki/Package_manager deiner Distribution installiert werden. Evolution ist auch "für Windows erhältlich":https://projects-old.gnome.org/evolution/download.shtml.
 
 Evolution enthält Unterstützung für Email, Kalender, Adressbuch, Kontakte und GPG-Verschlüsselung.
 
 h3. Evolution installieren
 
 * Debian/Ubuntu Linux: Wahrscheinlich ist Evolution bereits installiert. Wenn nicht, @sudo apt install evolution@
-* Windows: "Herunterladen":http://www.dipconsultants.com/evolution/download.htm und installieren der Version für Windows.
+* Windows: "Herunterladen":https://projects-old.gnome.org/evolution/download.shtml und installieren der Version für Windows.
 
 h3. Konto erstellen
 

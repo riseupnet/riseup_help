@@ -7,7 +7,7 @@ El internet es un lugar salvaje. Prácticamente cada click que haces es registra
 Vaya! Qué pueden hacer los usuarios de internet al respecto? Estas páginas te ayudarán a configurar tu computadora para prevenir estos ataques [_al nivel de red_].
 
 table(table).
-|_. Tecnología  |_. Dificultad |_. Cuándo usarlo |
+|_. Tecnología |_. Dificultad |_. Cuándo usarlo |
 | [[Conecciónes seguras => secure-connections]] | Automatico | Todos los servicios Riseup requieren una conección segura. |
 | [[Mejor navegación => better-web-browsing]] | Fácil | Hay algunas cosas que puedes hacer para hacer tu navegación por internet más segura y privada. |
 | [[VPN]]                 | Moderado | Dirige tu tráfico por riseup.net de forma segura para prevenir espionaje y ataques en el *contenido de tu tráfico de internet*. |

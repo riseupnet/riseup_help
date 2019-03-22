@@ -46,7 +46,7 @@ nm-openvpn[6304]: Cannot load CA certificate file /home/phip/Documents/certs/Ris
 
 although the above error is the same error you would get if the permissions are wrong in general on the certificate, so if you are getting that error, but are not running SELinux, check the permissions on your cert file!
 
-h2. Gnome
+h2. GNOME
 
 Example logs:
 

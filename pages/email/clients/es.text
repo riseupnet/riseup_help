@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*Plataforma*|_.*Clientes de software libre recomendados*|_.*Otros clientes comerciales*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,7 +21,7 @@ h2. Elige IMAP o POP
 Los clientes de correo pueden acceder a tu buzón usando POP o IMAP.
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | Almacenamiento | *En tu ordenador*. Cuando usas POP, normalmente se descarga todo tu correo a tu computadora y se elimina de los servidores de riseup.net. | *En el servidor de Riseup*. IMAP mantiene todos los mensajes en el servidor. Es como si un cliente IMAP proporcionase una imagen de los datos almacenados en el servidor. |
 | Itinerancia | *Baja*. POP solo funciona bien cuando usas la misma computadora para revisar tu correo. | *Alta*. IMAP te permite usar distintos clientes y mantenerlos sincronizados entre sí. |
 | Velocidad   | *Rápida*, porque todo simplemente se descarga a tu ordenador. | *Lenta*, porque el cliente de correo debe hacer constantemente consultas al servidor. |

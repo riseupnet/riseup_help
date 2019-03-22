@@ -12,7 +12,7 @@ table(table table-striped).
 |_.*Plattform*|_.*Empfohlene Free Software Mailprogramme*|_.*Proprietäre Programme*|
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[geary]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]]  | [[microsoft-outlook]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
 |Android | [[k9]] |  |
 |iOS     |  |  [[ios-mail]] |
 
@@ -21,7 +21,7 @@ h2. IMAP oder POP?
 Mailprogramme können das Postfach entweder per POP oder IMAP abrufen.
 
 table(table table-striped).
-|         |_. POP    |_. IMAP   |
+|         |_. POP |_. IMAP |
 | Speicher | *Dein Computer*. Bei der Benutzung von POP werden typischerweise alle Nachrichten auf den eigenen Computer herunter geladen und vom Server entfernt. | *Riseup Server*. IMAP behält alle Nachrichten auf dem Server. Es ist als ob das Emailprogramm mit IMAP eine Sicht der aktuell auf dem Server gespeicherten Daten darstellt. |
 | Mobilität | *Niedrig*. POP funktioniert nur, wenn Mails nur von einem Rechner mit dem gleichen Programm abgerufen werden. | *Hoch*. IMAP erlaubt die Nutzung verschiedener Programme und Webmail und immer die gleichen Inhalte zu sehen. |
 | Geschwindigkeit | *Schneller*, weil alles direkt auf den eigenen Rechner herunter geladen werden. | *Langsamer*, weil immer wieder alles immer wieder Server heruntergeladen werden muss. |

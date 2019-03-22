@@ -7,7 +7,7 @@ Das Internet ist ein wilder Ort. Praktisch jeder Klick, den Du tätigst, wird au
 Prima! Was soll ein Internetnutzer also tun? Diese Seiten helfen Dir, Deinen Computer so zu konfigurieren, diesen Angriffen _auf Netzwerkebene_ zu widerstehen.
 
 table(table).
-|_. Technologie  |_. Schwierigkeit |_. Wann einzusetzen |
+|_. Technologie |_. Schwierigkeit |_. Wann einzusetzen |
 | [[sichere Verbindungen -> secure-connections]] | Automatisch | Alle Riseup Dienste fordern  eine sichere Verbindung. |
 | [[besser surfen -> better-web-browsing]] | Einfach| Es gibt einige Dinge, um beim Browsen im Netz sicherer unterwegs zu sein und weniger Spuren zu hinterlassen. |
 | [[VPN]]                 | Moderat | Route deine Verbindungen sicher durch riseup.net, um Überwachung und Angriffen auf Internetverbindungen vorzubeugen. |
