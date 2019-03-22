@@ -63,6 +63,7 @@ We suggest these extensions for Thunderbird:
 
 * [[Enigmail => /security/message-security/encrypted-email/enigmail]]: get started in no time [[encrypting and decrypting emails->message-security]] and verifying that emails you receive are from the people who you expect them to be.
 * "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: This extension will display the current status of your IMAP quota in thunderbird's statusbar and will warn you when you reach a configurable limit.
+* "TorBirdy":https://addons.mozilla.org/thunderbird/addon/torbirdy/: This extension configures Thunderbird to make connections over the Tor anonymity network.
 
 h3. Use hidden options to speed up Thunderbird
 
