@@ -44,7 +44,3 @@ es:
   paypal: "Paypal"
   paypal_note: "Funciona desde muchos paises."
   paypal_description: "Paypal acepta tarjetas de crédito y es compatible con donaciones periódicas (para donaciones periódicas, es necesario una cuenta PayPal)."
-
-  flattr: "Flattr"
-  flattr_note: "Micropagos."
-  flattr_description: "Flattr es un sistema de micropagos que te permite ayudar a muchos proyectos."
