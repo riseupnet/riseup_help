@@ -13,7 +13,7 @@ we_info: "private wikis and group collaboration."
 pad_info: "real-time collaborative text editor."
 share_info: "file upload (pastebin and imagebin)."
 
-black_title: "Mailing Lists"
+lists_title: "Mailing Lists"
 lists_info: "We provide mailing lists for activist organizations."
 lists_login: "[[Login to lists => https://lists.riseup.net/www/]]"
 lists_help: "[[Get help on lists => lists]]"

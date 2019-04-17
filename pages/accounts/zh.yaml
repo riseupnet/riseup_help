@@ -8,13 +8,6 @@ red_request: "[[申请账户 => https://account.riseup.net/user/new]]"
 red_reset_password: "[[重置密码 => https://account.riseup.net/reset_password]]"
 red_help: "[[创建 Riseup Red 帮助单 => https://support.riseup.net/en/topics/new]]"
 
-black_title: "Riseup Black"
-black_info: "我们为需要 Bitmask 的服务提供 <b>Riseup Black</b> 账户，目前只提供 VPN 服务，加密邮件服务即将提供。"
-black_vpn: "[[获取 VPN 帮助 => vpn]]"
-black_settings: "[[更改设置 => https://black.riseup.net]]"
-black_download: "[[下载 Bitmask 应用 => https://bitmask.net/install]]"
-black_help: "[[创建 Riseup Black 帮助单 => https://support.riseup.net]]"
-
 other_title: "其他服务"
 other_info: "以下服务使用独立账户，而不是 Riseup Red 或 Riseup Black 账户。"
 
