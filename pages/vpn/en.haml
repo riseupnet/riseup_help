@@ -1,0 +1,72 @@
+- @title = "RiseupVPN"
+- @nav_title = "VPN"
+- @toc = true
+
+%img(src="riseupvpn.svg" style="float:left")
+
+%h2 What is a VPN?
+
+Riseup offers Personal VPN service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it [[sends all your internet traffic through an encrypted connection => how-vpn-works]] to riseup.net, where it then goes out onto the public internet.
+  
+%p
+  Unlike most other VPN providers, Riseup does not log your IP address.
+
+%p
+  Riseup has a VPN client called <b>RiseupVPN</b>. This VPN client is super easy to use! You just install it and run it&mdash;no configuration, no account registration.
+
+%p
+  This is an experiment to see if we can create a VPN service that is easy enough for everyone to use and that people will donate enough to sustain.
+
+%h2 Why would you want to use the Riseup VPN?
+
+At Riseup, we believe it is important for everyone to use some technology like VPN or [[security/tor]] to encrypt their internet traffic. Why? Because the internet is being broken by governments, internet service providers (ISPs), and corporations. [[RiseupVPN will fight that => why-is-needed]]
+
+%h2 Limitations to using a VPN
+
+All VPNs share [[some limitations => limitations]], please familiarize yourself with these so you understand what the VPN does and does not provide.
+
+%h2 Download RiseupVPN
+
+%a.btn-download(href="linux")
+  %img(src="linux.svg" width="48px")
+  %b GNU/Linux
+
+%a.btn-download(href="macos")
+  %img(src="apple.svg" width="48px")
+  %b macOS
+
+%a.btn-download(href="windows")
+  %img(src="windows.svg" width="48px")
+  %b windows
+
+%a.btn-download(href="android")
+  %img(src="android.svg" width="48px")
+  %b Android
+
+%h2 Using RiseupVPN
+
+%p
+  On Mac, Windows and Linux RiseupVPN will create a system tray menu with an icon that indicates if the VPN is connected or not:
+
+%p
+  %img(src="vpn_off.png") &mdash; VPN is off.
+
+%p
+  %img(src="vpn_on.png") &mdash; VPN is on, and all traffic is securely routed through the VPN.
+
+%p
+  %img(src="vpn_blocked.png") &mdash; VPN is off, and all traffic is blocked.
+
+%p
+  %img(src="vpn_wait_0.png") &mdash; VPN is connecting, and all traffic is blocked.
+
+%p
+  To turn on or off, just click on the system tray icon and select the appropriate menu item.
+
+%h2 Donate!
+
+= render :page => 'vpn/donate'
+
+%h2 Troubleshooting and support
+
+= render :page => 'vpn/support'

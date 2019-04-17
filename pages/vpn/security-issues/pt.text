@@ -20,19 +20,3 @@ Sim e não. Usar uma VPN diminui a área na qual um ataque MiTM pode ocorrer, ma
 Entretanto, uma vez que seu tráfego tenha passado pela VPN a caminho de seu destino final, ele se torna vulnerável a um ataque MiTM. Com uma VPN, seu tráfego é semianonimizado, dificultando o ataque a você individualmente, mas o ataque indiscriminado a todos os internautas que visitam um site em particular ainda é possível.
 
 Por exemplo: em janeiro de 2011, o governo tunisiano, com medo de um levante popular que, mais cedo ou mais tarde, derrubaria o regime, levou a cabo um ataque MiTM contra usuários do Facebook que se conectavam de dentro da Tunísia, roubando nomes de usuário e senhas. Nesse caso, uma VPN teria protegido essas pessoas, contanto que a VPN estivesse localizada fora da Tunísia.
-
-h2. PPTP e LT2P
-
-PPTP e LT2P foram desabilitados devido a "vulnerabilidades":https://openvpn.net/index.php/open-source/339-why-ssl-vpn.html:
-
-bq. Apesar do protocolo PPTP ter a vantagem de vir pré-instalado em plataformas Windows, especialistas de criptografia, ao analisarem-no, descobriram falhas de segurança. (openvpn.net)
-
-"Bruce Schneier tem analisado fraquezas do PPTP":https://www.schneier.com/pptp.html há anos, e o "ChapCrack":https://github.com/moxie0/chapcrack, projetado por Moxie Marlinspike, consegue "derrubar a criptografia do PPTP":https://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/.
-
-h2. Falhas do WPA2
-
-Em conjunto com o ChapCrack, o serviço de _teste de penetração_ "Cloudcracker":https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2 pode "desvendar redes sem fio criptografadas":https://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/ "em menos de uma hora":https://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/:
-
-bq. Senhas WPA-PSK, NT e NTLM são conhecidas há muito tempo por sua vulnerabilidade a ataques com base em palavras do dicionário, que testam todas as combinações possíveis de palavras que podem fazer parte de uma senha. Porém, como essas palavras são cifradas por dispersão criptográfica, o poder computacional para realizar um ataque baseado em dicionário não é acessível à maioria dos usuários. O serviço de Marlinspike acessa uma coleção de 400 CPUs e 70 GPUs, e distribui a tarefa de craquear entre eles. (Forbes)
-
-Roteadores WPA2 com "_Wi-Fi Protected Setup_ (WPS)":https://pt.wikipedia.org/wiki/Wi-Fi_Protected_Setup habilitada "permitem que um hacker distante descubra o PIN da WPS, e, com ele, a senha WPA2 do roteador, em algumas horas":https://pt.wikipedia.org/wiki/Wi-Fi_Protected_Access.
