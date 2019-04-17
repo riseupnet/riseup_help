@@ -20,19 +20,3 @@ h3. VPN是否有助于防止 MiTM？
 然而，一旦您的流量从VPN网关通过到达其最终目的地，它变得易受 MITM攻击。通过 VPN，你的流量是半匿名的，所以瞄准任何特定人员的任何攻击都是非常困难的。但是针对特定网站的所有用户的随意攻击还是很有可能的。
 
 举个例子吧，2011年1月突尼斯政府，恐惧民众的不断上升最终将推翻政权，执行了对从突尼斯连接到 Facebook上的用户进行 MiTM攻击，捕捉他们的登录名和密码。在这种情况下，只要 VPN网关位于突尼斯的国家之外，VPN就能阻止。
-
-h2. PPTP和LT2P
-
-由于[[漏洞攻击 => https://openvpn.net/index.php/open-source/339-why-ssl-vpn.html]]，PPTP和LT2P已被禁用：
-
-bq. 虽然PPTP协议具有在Windows平台预装了客户端的优势，但通过密码学专家分析，揭示了安全漏洞。（openvpn.net）
-
-几年来，[[Bruce Schneier分析的 PPTP的弱点 => https://www.schneier.com/pptp.html]] 和 Moxie Marlinspike的 [[ChapCrack => https://github.com/moxie0/chapcrack]] 能够[[放弃 PPTP 加密 =>：https://www.infosecurity-magazine.com/view/27338/pptp-traffic-should-be-considered-unencrypted/]]。
-
-h2. WPA2的缺陷
-
-连同ChapCrack，渗透测试服务 [[Cloudcracker => https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2]] 可以[[在一小时内 => https://www.forbes.com/sites/andygreenberg/2012/02/14/moxie-marlinspikes-cloudcracker-aims-for-speedier-cheaper-password-cracking/]] [[破解加密的无线网络 => https://news.cnet.com/8301-1009_3-57481855-83/tools-boast-easy-cracking-of-microsoft-crypto-for-businesses/]]：
-
-bq. WPA-PSK、NT和NTLM密码很久以来都是易于被字典攻击的，试着用单词的所有组合组成密码。但因为他们使用密码散列来​​隐藏单词，对多数用户来讲，运行字典攻击的计算能力是不可行的。Marlinspike的服务接入400个CPU和70个GPU，并在它们之间分配破解任务。（福布斯）
-
-WPA2路由器启用了[[无线保护设置 => https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup]] [[允许远程攻击者恢复，使用它，可以在数小时内破解 WPA2密码 => https://en.wikipedia.org/wiki/WPA2#WPA2_security_harmed_by_flaws_in_WPS]]。

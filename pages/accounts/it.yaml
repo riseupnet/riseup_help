@@ -7,13 +7,6 @@ red_request: "[[Richiedi un account => https://account.riseup.net/user/new]]"
 red_reset_password: "[[Resetta la password => https://account.riseup.net/reset_password]]"
 red_help: "[[Crea una richesta di supporto per Riseup Red => https://support.riseup.net/en/topics/new]]"
 
-black_title: "Riseup Black"
-black_info: "Forniamo account <b>Riseup Black</b> per nuovi servizi che richiedono l'applicazione Bitmask. Attualmente include il servizio VPN, presto includerà anche l'email con cifratura end-to-end."
-black_vpn: "[[Aiuto sulla VPN => vpn]]"
-black_settings: "[[Modifica le impostazioni => https://black.riseup.net]]"
-black_download: "[[Scarica l'applicazione Bitmask => https://bitmask.net/install]]"
-black_help: "[[Crea una richesta di supporto per Riseup Black => https://support.riseup.net]]"
-
 other_title: "Altri servizi"
 other_info: "I servizi seguenti usano account indipendenti che non sono associati agli account Riseup Red o Riseup Black."
 
