@@ -5,7 +5,7 @@ p(alert alert-danger). März 2017. Wir haben VPN Red verändert, sodass die Eins
 
 h2. Sicherheitshinweis
 
-*Beachte:* Benutzt du Mac, Linux, oder Android? Wenn ja, wechsle bitte zu [[Black VPN->vpn-black]]. VPN Red ist nicht so sicher und wird bald auslaufen!
+*Beachte:* Benutzt du Mac, Linux, oder Android? Wenn ja, wechsle bitte zu [[RiseupVPN->vpn]]. VPN Red ist nicht so sicher und wird bald auslaufen!
 
 *Note!* Wenn VPN Red benutzt, um Dich mit dem Internet zu verbinden, werden Firewalls im lokalen Netzwerk umgangen. Dein Computer bekommt eine eigene IP-Adresse im offenen Internet. Das ist gut, weil Dein Computer damit frei im Internet mit anderen kommunizieren kann, ohne geblockt zu werden. Allerdings bedeutet das auch, dass Dein Computer angreifbarer ist. Daher solltest Du eine [[Firewall auf Deinem Computer aktivieren -> /security/device-security#personal-firewall]].
 

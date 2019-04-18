@@ -2,7 +2,7 @@
 
 h2. Don't use this, if you do not have to!
 
-*NOTE:* If you came here because you want to use the Riseup VPN on Mac, then you should instead [[go here->vpn-black]] and use VPN Black. The only reason to use the following instructions is if for some reason Bitmask does not work on your Mac version!
+*NOTE:* If you came here because you want to use the Riseup VPN on Mac, then you should instead [[go here->vpn]] and use RiseupVPN. The only reason to use the following instructions is if for some reason Bitmask does not work on your Mac version!
 
 The OpenVPN client for Mac is called "tunnelblick".
 

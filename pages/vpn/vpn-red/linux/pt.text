@@ -5,7 +5,7 @@ h1. Instalação
 
 h2. Só use este guia em último caso!
 
-*ATENÇÃO:* Se você chegou aqui por que deseja usar a Riseup VPN no Linux, [[clique aqui->vpn-black]] e veja como usar, em vez disso, a VPN Black. A única razão para seguir as instruções abaixo seria se, por algum motivo, o Bitmask não funcionasse com a sua versão do Linux! O Bitmask está disponível como pacote para Debian e Ubuntu e como pacote independente para outras distribuições. E sim, também há uma versão do aplicativo para linha de comando!
+*ATENÇÃO:* Se você chegou aqui por que deseja usar a Riseup VPN no Linux, [[clique aqui->vpn]] e veja como usar, em vez disso, a RiseupVPN. A única razão para seguir as instruções abaixo seria se, por algum motivo, o Bitmask não funcionasse com a sua versão do Linux! O Bitmask está disponível como pacote para Debian e Ubuntu e como pacote independente para outras distribuições. E sim, também há uma versão do aplicativo para linha de comando!
 
 h2. GNOME
 

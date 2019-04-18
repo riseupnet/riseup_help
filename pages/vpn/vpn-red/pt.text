@@ -1,6 +1,6 @@
 @title = 'Como usar a Riseup VPN'
 
-p(alert alert-warning). Lançamos uma nova Riseup VPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da Riseup VPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
+p(alert alert-warning). Lançamos uma nova Riseup VPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da RiseupVPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
 
 h2. Um aviso
 
