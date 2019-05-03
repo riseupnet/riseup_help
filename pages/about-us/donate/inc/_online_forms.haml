@@ -19,33 +19,16 @@
     %p.h4= t :recurring_donation
 
     :plain
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <div class="form-group">
-          <input type="hidden" name="cmd" value="_xclick-subscriptions">
-          <input type="hidden" name="t3" value="M">
-          <input type="hidden" name="src" value="1">
-          <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="modify" value="1">
-          <input type="hidden" name="business" value="BPFRUBU4TVYYS">
-          <input type="hidden" name="item_name" value="riseup donation #{I18n.locale}">
-          <div class="donation">
-            <b>Paypal:</b>
-            <select name="currency_code">
-              <option value="USD">USD $</option>
-              <option value="CAD">CAD $</option>
-              <option value="GBP">GBP £</option>
-              <option value="EUR">EUR €</option>
-            </select>
-            <input onchange="updatePaypal(this.form, this)" type="input" name="a3" value="15" size="6">
-            <select name="p3">
-              <option value="1">#{t :monthly}</option>
-              <option value="3">#{t :quarterly}</option>
-            </select>
-            <input type="submit" name="submit" value="#{t :subscribe}">
-          </div>
-        </div>
-      </form>
+      <div class="donation">
+        <p>To create a recurring payment, please enter your preferred donation and check the "Make this a monthly donation" box.</p>
+        <p><strong>Paypal</strong>: 
+          <a class="btn btn-default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L2YTN2ZUAVQMS&source=url">Donate in $ USD</a>
+          <a class="btn btn-default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FB78SMHZQTYKS&source=url">Donate in € EUR</a>
+          <a class="btn btn-default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RSTNQYGTAYTPQ&source=url">Donate in $ CAD</a>
+          <a class="btn btn-default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=274FMNGRE68QE&source=url">Donate in £ GBP</a>
+        </p>
+      </div>
+      <br>
 
     %p.h4= t :one_time_donation
 
