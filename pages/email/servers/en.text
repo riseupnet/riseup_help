@@ -18,14 +18,14 @@ h3. Absolutely required
 
 h3. Good idea to help ensure delivery
 
-* transport should be [[TLS encrypted=>https://en.wikipedia.org/wiki/Transport_Layer_Security]], using a proper CA cartel issued certificate
+* transport should be [[TLS encrypted=>https://en.wikipedia.org/wiki/Transport_Layer_Security]], using a valid certificate
 * sending domain has proper [[SPF=>https://en.wikipedia.org/wiki/Sender_Policy_Framework]] records
 * sending domain has proper [[DKIM=>https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail]] records and server does DKIM message signing
 * sending domain has proper [[DMARC=>https://en.wikipedia.org/wiki/DMARC]] record
 
 h2. Relaying email via riseup
 
-If you are a riseup user running an email server, it is possible to relay email via riseup, configure your server to do authenticated SMTP to mail.riseup.net (just like any other mail client). However, you will only be able to send mail for sender addresses that you have [[registered=>email/settings/aliases#how-do-i-create-an-alias]] as aliases, and they are also subject to things like SPF records. Also make sure that mail to bare usernames gets directed somewhere, otherwise root@riseup.net will get your root email, etc.
+If you are a riseup user running an email server, it is possible to relay email via riseup, just configure your server to do authenticated SMTP to mail.riseup.net (like any other mail client). However, you will only be able to send mail for sender addresses that you have [[registered=>email/settings/aliases#how-do-i-create-an-alias]] as aliases, and they are also subject to things like SPF records. Also make sure that mail to bare usernames gets directed somewhere, otherwise root@riseup.net will get your root email, etc.
 
 h2. Receiving mail from web servers/etc
 
