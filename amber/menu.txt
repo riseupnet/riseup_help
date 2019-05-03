@@ -17,6 +17,7 @@ email
     sylpheed
     claws
     mutt
+  servers
   webmail
     address-book
     where-is-imp
