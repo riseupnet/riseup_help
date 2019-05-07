@@ -1,0 +1,33 @@
+@title = "Email Servers"
+
+This page is technical information intended for administrators running mail servers that communicate with riseup.
+
+h2. Sending mail to riseup
+
+We have had to implement many layers of spam blocking. If you are the administrator of a mail server trying to relay messages to riseup users, here are some hints that will help ensure your mail is delivered.
+
+h3. Absolutely required
+
+* your sending mail server must have a proper reverse DNS record
+* the 'helo' string your server presents must be fully-qualified, valid, and not obfuscated
+* your mail server must follow the SMTP protocol as defined by the RFCs
+* your server IP must not be listed on any of the major RBLs
+* you should not be connecting via Tor (mostly because of the RBL requirement, if you want to do transport over Tor talk to us)
+* sender and recipient addresses must have fully qualified domain names that resolve in DNS properly
+* messages can be no more than 25mb in size
+
+h3. Good idea to help ensure delivery
+
+* transport should be [[TLS encrypted=>https://en.wikipedia.org/wiki/Transport_Layer_Security]], using a valid certificate
+* sending domain has proper [[SPF=>https://en.wikipedia.org/wiki/Sender_Policy_Framework]] records
+* sending domain has proper [[DKIM=>https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail]] records and server does DKIM message signing
+* sending domain has proper [[DMARC=>https://en.wikipedia.org/wiki/DMARC]] record
+
+h2. Relaying email via riseup
+
+If you are a riseup user running an email server, it is possible to relay email via riseup, just configure your server to do authenticated SMTP to mail.riseup.net (like any other mail client). However, you will only be able to send mail for sender addresses that you have [[registered=>email/settings/aliases#how-do-i-create-an-alias]] as aliases, and they are also subject to things like SPF records. Also make sure that mail to bare usernames gets directed somewhere, otherwise root@riseup.net will get your root email, etc.
+
+h2. Receiving mail from web servers/etc
+
+If you administer web servers (wordpress, drupal, etc) or other things that are configured to use SMTP to send you notifications/alerts/etc. we have no way of differentiating them from any other server on the internet and they will need to follow the above guidelines. What might be better is to configure them to use authenticated SMTP which bypasses many of the DNS/helo/RBL restrictions (but see the 'relaying' section above).
+
