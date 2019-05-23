@@ -12,19 +12,20 @@ table(table).
 | *[[Proxy -> https://en.wikipedia.org/wiki/Proxy_server]]?* | If yes, this client may connect through a proxy and that the client obeys the proxy settings. |
 | *[[TLS -> https://en.wikipedia.org/wiki/Transport_Layer_Security]]?* | If yes, this client support secure connections with the chat provider. |
 | *[[Tor]]?* | If yes, this client can correctly use Tor to circumvent censorship and to access services anonymously. If no, then the client *should not be used with Tor*. |
+| *[[MUC]]?* | If yes, this client can be used for Multi-User Chat (chatrooms XEP-0045) |
 
 h2. Recommended clients
 
 table(table table-striped).
-|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
-| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | No | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
-| [[Gajim 0.16.x -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Yes* | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
-| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
-| [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
-| [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for iOS. Native Tor support. |
-| [[Conversations -> https://conversations.im]] | Android | No | *Yes* | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
-| [[Conversations Legacy -> https://conversations.im]] | Android | *Yes* | No | No | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
+|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. MUC? |_. Comments |
+| [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | No | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
+| [[Gajim 0.16.x -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Yes* | No | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *?* | Open source. Nice cross-platform chat client written in C++ and Qt. |
+| [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *?* | Open source. Nice cross-platform chat client written in C++ and Qt. Development version of Psi |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Yes* | No | No | *Yes* | *Yes* | *Yes* | *No* | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
+| [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | *?* | Open source. A very good chat client for iOS. Native Tor support. |
+| [[Conversations -> https://conversations.im]] | Android | No | *Yes* | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
+| [[Conversations Legacy -> https://conversations.im]] | Android | *Yes* | No | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 
 h2. Other clients
 
