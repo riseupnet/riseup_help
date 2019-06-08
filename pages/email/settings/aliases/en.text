@@ -35,9 +35,11 @@ If your alias is on riseup.net and is available (meaning no one has the alias or
 If your alias is external, you will need to confirm you have access to the email. In addition to the "changes saved" message is also a message that a confirmation email has been sent. Additionally, the alias appears in your list with a "Confirmation Pending" tag. To finish the process:
 
 # Click on the link in the email
-# Upon loading the page, you will get a confirmation
+# Upon loading the page, you will get a confirmation 
 # Click the "Continue" button
 # Your alias list will be display with the alias having a "Send" tag
+
+If you did not get the email, check Spam/Junk folders or click the "Resend Confirmation Email" button in the alias list.
 
 Note:
 * The "Send" tag means that alias is authorized to send mail via riseup servers
