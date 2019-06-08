@@ -25,8 +25,9 @@ h3. How do I create an alias?
 You can create an alias! Here's how
 
 # Login to https://account.riseup.net
-# Click on email
-# Type "ALIASNAME@riseup.net" in the "Aliases" box
-# Click "save"
+# Click on "Mail Settings" on the left
+# Click on the "Aliases" tab at the top
+# Type your alias in the field labeled "New Alias"
+# Click the green "Create" button
 
 Note: if someone else has the alias or username in use, you will not be able to create the alias. Try a different name!
