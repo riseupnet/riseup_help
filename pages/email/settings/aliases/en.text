@@ -43,7 +43,24 @@ Note:
 * The "Send" tag means that alias is authorized to send mail via riseup servers
 * The "Receive" tag means that alias is authorized to receive mail through riseup servers. Riseup only offers this for riseup.net addresses
 
+h3. How do I use my alias?
+
+This will depend on the email client you use, but make sure you have already created your alias as above before proceeding.
+
+If you use webmail:
+
+# Login to https://mail.riseup.net
+# Click "Settings" on the top right
+# Click "Identities" on the left
+# Click the "+" to add an alias
+# Fill out the fields as appropriate, ensuring to at least add the alias to the "Email" field
+# Send mail with your alias 
+## Click on "Send" at the top left
+## Select your alias from the dropdown list labeled "From"
+## Complete the email like normal
+
+If you use an external client, like Thunderbird, you will need to set your "From" header to your alias but set up your SMTP to authenticate with your regular email address.
+
 h3. How do I delete an alias?
 
 To remove an alias, simply click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
-
