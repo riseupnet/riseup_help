@@ -27,11 +27,23 @@ You can create an alias! Here's how
 # Login to https://account.riseup.net
 # Click on "Mail Settings" on the left
 # Click on the "Aliases" tab at the top
-# Type your alias in the field labeled "New Alias"
+# Type your alias (e.g. alias@riseup.net) in the field labeled "New Alias"
 # Click the green "Create" button
+
+If your alias is on riseup.net and is available (meaning no one has the alias or username in use), you will see a message "changes saved" and the alias appears in your list with "Send" and "Receive" tags.
+
+If your alias is external, you will need to confirm you have access to the email. In addition to the "changes saved" message is also a message that a confirmation email has been sent. Additionally, the alias appears in your list with a "Confirmation Pending" tag. To finish the process:
+
+# Click on the link in the email
+# Upon loading the page, you will get a confirmation
+# Click the "Continue" button
+# Your alias list will be display with the alias having a "Send" tag
+
+Note:
+* The "Send" tag means that alias is authorized to send mail via riseup servers
+* The "Receive" tag means that alias is authorized to receive mail through riseup servers. Riseup only offers this for riseup.net addresses
 
 h3. How do I delete an alias?
 
-To remove an alias, simply click the trash button to the right of an alias.
+To remove an alias, simply click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
 
-Note: if someone else has the alias or username in use, you will not be able to create the alias. Try a different name!
