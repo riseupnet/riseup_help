@@ -64,7 +64,7 @@ Wir empfehlen folgende Erweiterungen für Thunderbird:
 
 h3. Versteckte Einstellungen, die Thunderbird enorm beschleunigen
 
-Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du eine Email öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet sind, sehr träge erscheinen.
+Standardmäßig verbindet sich Thunderbird jedes Mal, wenn Du eine E-Mail öffnest oder den Status änderst, mit dem Mailserver. Das kann bei einer langsamen Internetverbindung, oder wenn Riseups Server ausgelastet sind, sehr träge erscheinen.
 
 Zum Glück kannst Du etwas dagegen unternehmen: Thunderbird hat ein paar versteckte Optionen, beim Verbinden mit dem Mailserver einen vollständigen Abgleich durchzuführen. Dies wird Dein Arbeiten im allgemeinen viel erfreulicher und flotter machen.
 

@@ -2,7 +2,7 @@
 
 h2. Was ist Mutt?
 
-"Mutt":https://www.mutt.org/ ist ein kleiner aber sehr mächtiges textbasiertes Emailprogramm für unix-Betriebssysteme mit Unterstützung für Terminals, MIME, OpenPGP und Themensortierung.
+"Mutt":https://www.mutt.org/ ist ein kleiner aber sehr mächtiges textbasiertes E-Mailprogramm für unix-Betriebssysteme mit Unterstützung für Terminals, MIME, OpenPGP und Themensortierung.
 
 h2. Installation
 
@@ -51,7 +51,7 @@ h3. **POP** mit @mutt@
 
 Siehe https://wiki.archlinux.org/index.php/Mutt#POP3 für mehr Infos.
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>
 

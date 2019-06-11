@@ -1,13 +1,13 @@
 @title = 'Sylpheed'
 
-Sylpheed ist ein Freies quelloffenes (Software Libre) Emailprogramm für Linux/Mac/Window$. Die Anwendung ist funktionaler, leichter und ein freier Ersatz für die Standardanwendung der meisten Systeme. Es unterstützt sowohl POP3, also auch IMAP. Sylpheed unterstützt auch das Verschlüsseln und Signieren von Nachrichten. Du kannst Sylpheed von hier herunterladen: https://sylpheed.sraoss.jp/en. (Für Debian-basierte Systeme reicht @sudo apt-get install sylpheed@)
+Sylpheed ist ein Freies quelloffenes (Software Libre) E-Mailprogramm für Linux/Mac/Window$. Die Anwendung ist funktionaler, leichter und ein freier Ersatz für die Standardanwendung der meisten Systeme. Es unterstützt sowohl POP3, also auch IMAP. Sylpheed unterstützt auch das Verschlüsseln und Signieren von Nachrichten. Du kannst Sylpheed von hier herunterladen: https://sylpheed.sraoss.jp/en. (Für Debian-basierte Systeme reicht @sudo apt-get install sylpheed@)
 
 Sylpheed ist sehr einfach zu konfigurieren:
 # Installation wie erwähnt, ansonsten siehe die Sylpheed-Dokumentation
 # Öffne Sylpheed
 # [[Wähle POP oder IMAP -> email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails von mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]]).
 # Klicke *Weiter*.
-# Gib deine *Emailadresse* und eine *Kontobezeichnung* ein. Wenn du willst, kannst du auch deinen *Namen* eingeben. Diese Information wird beim Senden von Mails mitgeschickt, gib also nur dann deinen echten Namen ein, wenn diesen alle Empfänger*innen kennen sollen.
+# Gib deine *E-Mailadresse* und eine *Kontobezeichnung* ein. Wenn du willst, kannst du auch deinen *Namen* eingeben. Diese Information wird beim Senden von Mails mitgeschickt, gib also nur dann deinen echten Namen ein, wenn diesen alle Empfänger*innen kennen sollen.
 # Klicke *Weiter*.
 # Gib deine Informationen für @Login@, @Passwort@ und @mail.riseup.net@ (Eingangs- und Ausgangsserver) ein. **Tor-Hinweis:** Wenn du dich mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@.
 # Wähle *SSL/TLS* für beide. Für SMTP mit *SSL/TLS* lautet der Port @587@ unter *Erweitert*.
@@ -16,6 +16,6 @@ Sylpheed ist sehr einfach zu konfigurieren:
 
 Fertig! Du hast Sylpheed zum Empfangen von Mails konfiguriert! Probier es aus!
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>

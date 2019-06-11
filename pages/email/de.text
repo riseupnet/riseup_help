@@ -3,7 +3,7 @@
 
 p(pull-right). !(image-right)airmail.jpg!
 
-Willkommen auf der Email-Hilfeseite mit Informationen zu *E-Mail-Accounts* von riseup.net.
+Willkommen auf der E-Mail-Hilfeseite mit Informationen zu *E-Mail-Accounts* von riseup.net.
 
 Falls du nicht findest, was du suchst, [[fülle ein Hilfe-Ticket aus => https://support.riseup.net/de/topics/new]]. Sobald deine Frage beantwortet wurde, hilf uns bitte dabei, diese Seiten aktuell zu halten, indem du Änderungen oder Ergänzungen, die du mit anderen Benutzern teilen möchtest, an uns übermittelst.
 
@@ -58,29 +58,29 @@ Dein riseup.net E-Mail-Account ist eine wundervolle Sache. Trotz des geringen Sp
 
 [*Vollständige Festplattenverschlüsselung.*] Unsere physischen Server sind so geschützt, dass nur das Riseup-Kollektiv diese erreichen kann. Sie sind nicht auf einem Server "in der Cloud". Zusätzlich sind alle Server vollständig verschlüsselt, sodass sie nur von uns entsichert werden können. Alle Kommunikation zwischen unseren Servern ist immer verschlüsselt. Dadurch sind sie gegen unauthorisierten physischen Zugriff, Diebstahl und Datenanalyse der Speichermedien geschützt.
 
-[*Persönlich verschlüsselter Emailspeicher.*]
-Deine Emails werden individuell auf unseren Servern verschlüsselt und können nur mit Deinem Passwort entschlüsselt. Das bedeutet, Riseup hat keinen Zugriff auf die Klartextversion Deiner Mails. Wir können sie nicht lesen und auch nicht entschlüsseln, falls wir dazu gezwungen werden. Neue Emails werden automatisch verschlüsselt und erst wenn beim Einloggen werden sie entschlüsselt, um sie an Dich weiterzuleiten. Daher ist Dein Passwort kritisch beim Zugang zu den Mails. Wenn Du es verlierst, ist es unmöglich an das Konto heranzukommen, oder die Emails zu entschlüsseln. Du kannst Dein Passwort zu jeder Zeit ohne Problem ändern. Aber wenn Du es verlierst, muss es zurückgesetzt werden, oder es nicht möglich *Deine alten Mails zu entschlüsseln*.
+[*Persönlich verschlüsselter E-Mailspeicher.*]
+Deine E-Mails werden individuell auf unseren Servern verschlüsselt und können nur mit Deinem Passwort entschlüsselt. Das bedeutet, Riseup hat keinen Zugriff auf die Klartextversion Deiner Mails. Wir können sie nicht lesen und auch nicht entschlüsseln, falls wir dazu gezwungen werden. Neue E-Mails werden automatisch verschlüsselt und erst wenn beim Einloggen werden sie entschlüsselt, um sie an Dich weiterzuleiten. Daher ist Dein Passwort kritisch beim Zugang zu den Mails. Wenn Du es verlierst, ist es unmöglich an das Konto heranzukommen, oder die E-Mails zu entschlüsseln. Du kannst Dein Passwort zu jeder Zeit ohne Problem ändern. Aber wenn Du es verlierst, muss es zurückgesetzt werden, oder es nicht möglich *Deine alten Mails zu entschlüsseln*.
 
 Der [[persönlich verschlüsselte Speicher=>https://0xacab.org/riseuplabs/trees]] implementiert eine weiter entwickelte Version eines Dovecot-Plugins, das ursprünglich [[von Posteo.de entwickelt wurde=>https://github.com/posteo]]. Unser System funktioniert ähnlich, aber an Stelle von OpenSSL und RSA verwenden wir die NaCL-Kryptobibliothek für argo2-Prüfsummen der Passwörter als symmetrisches Geheimnis, um einen [[libsodium -> https://download.libsodium.org/doc/]]-Container zu entschlüsseln. Darin befindet sich ein privater Curve25519-Schlüssel, mit dem jede Mail einzeln entschlüsselt wird. Der Original-Kode wurde auf Fehler untersucht (audit) und einige Expert*innen haben unsere veränderte Version begutachtet. Wir möchten Dich ermutigen, das gleiche zu tun - immerhin ist es freie Software.
 
-Wir können die Verschlüsselung auch  für einzelne Nutzer*innen nicht entfernen, auch können wir bestehende Emails nicht entschlüsseln.
+Wir können die Verschlüsselung auch  für einzelne Nutzer*innen nicht entfernen, auch können wir bestehende E-Mails nicht entschlüsseln.
 
 [*Alle Dienste sind verschlüsselt*]
-Bei jeder Verbindung zu unseren Servern, per Webmail oder einem bevorzugten Emailprogramm, ist die Verbindung verschlüsselt per TLS mit perfect forward secrecy (etwa perfekter Vorwärts-Sicherheit). Es ist nicht möglich, unsere Dienste ohne verschlüsselte Verbindung zu nutzen.
+Bei jeder Verbindung zu unseren Servern, per Webmail oder einem bevorzugten E-Mailprogramm, ist die Verbindung verschlüsselt per TLS mit perfect forward secrecy (etwa perfekter Vorwärts-Sicherheit). Es ist nicht möglich, unsere Dienste ohne verschlüsselte Verbindung zu nutzen.
 
 [*Alle Dienste benutzen Tor*]
 Wir bieten [[Tor Onion Services -> https://www.torproject.org/docs/tor-onion-service.html.en]] (versteckte Dienste) für den Fall, dass erhöhte Anonymität nötig ist, wenn der Zugang zu unseren Dienste geblockt wird.
 
 [*Ende-zu-Ende-Verschlüsselung per Webmail*]
-Wir nutzen Ende-zu-Ende-Verschlüsselung per OpenPGP mit unserem Webmail-System und dem Browser-Plugin Mailvelope. Du kannst jederzeit ein eigenes Email-Programm mit OpenPGP-Erweiterung (z.B. [[Thunderbird]]+Enigmail) nutzen, aber mit Mailvelope geschieht die Verschlüsselung lokal auf Deinem Gerät - im Browser. Der private Schlüssel wird auf Deinem Rechner gespeichert (nicht auf unseren Servern) und der Nachrichtentext (body) and Anhänge werden verschlüsselt. Bitte denk daran, dass auch beim Senden und Empfangen verschlüsselter Daten Metadaten über Deine Kommunikation entstehen, also schau bitte auch nach unseren anderen Funktionen, um zu sehen, was wir tun, um dieses Problem zu lösen.
+Wir nutzen Ende-zu-Ende-Verschlüsselung per OpenPGP mit unserem Webmail-System und dem Browser-Plugin Mailvelope. Du kannst jederzeit ein eigenes E-Mail-Programm mit OpenPGP-Erweiterung (z.B. [[Thunderbird]]+Enigmail) nutzen, aber mit Mailvelope geschieht die Verschlüsselung lokal auf Deinem Gerät - im Browser. Der private Schlüssel wird auf Deinem Rechner gespeichert (nicht auf unseren Servern) und der Nachrichtentext (body) and Anhänge werden verschlüsselt. Bitte denk daran, dass auch beim Senden und Empfangen verschlüsselter Daten Metadaten über Deine Kommunikation entstehen, also schau bitte auch nach unseren anderen Funktionen, um zu sehen, was wir tun, um dieses Problem zu lösen.
 
 [*Wir verschlüsseln den Datenverkehr, wo immer es geht.*]
 Wenn du eine E-Mail von riseup.net an andere sichere E-Mail-Provider sendest, wird deine E-Mail die ganze Reise über verschlüsselt bleiben. (Siehe [[StartTLS]] für weitere Informationen)
 
 [*Verschickung an andere Anbieter über Tor*]
-Wenn Du Emails an [[andere aktivistische Emailanbieter=>https://github.com/ehloonion/onionmx/blob/master/sources/map.yml]] verschickst, werden diese per [[Tor]] übertragen. Weil Netzwerkverbindungen nur opportunistisch verschlüsselt wird und wir nicht sicher sein können, dass es tatsächlich verschlüsselt wird und selbst wenn Du OpenPGP für Ende-zu-Ende-Verschlüsselung verwendest, kann Deine Kommunikation immer noch überwacht werden. Vielleicht können nur die Metadaten durch einen passiven Beobachter überwacht werden, aber diese Daten sind gefährlich ("Wir töten Menschen basierend auf Metadaten" -- früherer CIA-Direktor Michael Hayden) und wir verwendet, um interessante Informationen zu korrelieren: Wer kommuniziert mit wem, wann und wie viel. Schlimmer, es ist einfach für Dritte, herauszufinden, dass zwei Menschen miteinander kommunzieren.
+Wenn Du E-Mails an [[andere aktivistische E-Mailanbieter=>https://github.com/ehloonion/onionmx/blob/master/sources/map.yml]] verschickst, werden diese per [[Tor]] übertragen. Weil Netzwerkverbindungen nur opportunistisch verschlüsselt wird und wir nicht sicher sein können, dass es tatsächlich verschlüsselt wird und selbst wenn Du OpenPGP für Ende-zu-Ende-Verschlüsselung verwendest, kann Deine Kommunikation immer noch überwacht werden. Vielleicht können nur die Metadaten durch einen passiven Beobachter überwacht werden, aber diese Daten sind gefährlich ("Wir töten Menschen basierend auf Metadaten" -- früherer CIA-Direktor Michael Hayden) und wir verwendet, um interessante Informationen zu korrelieren: Wer kommuniziert mit wem, wann und wie viel. Schlimmer, es ist einfach für Dritte, herauszufinden, dass zwei Menschen miteinander kommunzieren.
 
-Verschickung über Tor Onion Dienste bedeutet, dass Deine Email im Tor-Netzwerk gemixt und verschlüsselt transportiert wird, sodass die Metadaten versteckt bleiben. Wir verstärken die Mitarbeit an diesem Projekt und obige Listen wird sich im Laufe der Zeit noch verlängern.
+Verschickung über Tor Onion Dienste bedeutet, dass Deine E-Mail im Tor-Netzwerk gemixt und verschlüsselt transportiert wird, sodass die Metadaten versteckt bleiben. Wir verstärken die Mitarbeit an diesem Projekt und obige Listen wird sich im Laufe der Zeit noch verlängern.
 
 [*Wir leiten deine Standort-Informationen nicht an Empfänger weiter.*]
 Wenn du eine E-Mail über riseup.net versendest, wird deine Internet-Adresse (IP-Adresse) nicht in die E-Mail eingebunden. Bei kommerziellen E-Mail-Providern kann jeder, der deine E-Mail erhält, deine ungefähre geografische Position aus der IP-Adresse ermitteln, die im E-Mail-Header steht.
@@ -96,14 +96,14 @@ h2. Andere nette Funktionen deines riseup.net-Kontos
 * [[Deine Kontoverwaltung=>https://account.riseup.net]] benutzt kein Javascript und hat starke Inhalts-Richtlinien
 * Passwörter werden mit starken Prüfsummen-Algorithmen gespeichert
 * Du kannst alle Daten mit einem Klick löschen in der [[Kontoverwaltung -> https://account.riseup.net]]
-* Wir bieten POP an, sodass Du alle Emails von unseren Servern herunterladen und löschen kannst. So brauchst Du Dich nicht auf uns verlassen, um Deine Daten zu sichern!
+* Wir bieten POP an, sodass Du alle E-Mails von unseren Servern herunterladen und löschen kannst. So brauchst Du Dich nicht auf uns verlassen, um Deine Daten zu sichern!
 
 h2. Was Du nicht von riseup.net bekommen wirst
 
-* Solange Du Mailvelope, oder eine eigene OpenPGP-Lösung, nutzt, ist unser Email-System nicht Ende-zu-Ende-verschlüsselt. Wir arbeiten an einer umfassenden Lösung dafür und hoffen bald damit fertig zu sein.
-* Wer Zugang zu Deinem Passwort erhält, kann Deine Emails lesen. Gib niemals Dein Passwort weiter! Wenn Riseup nach Deinem Passwort fragt, ist es ein Trick.
+* Solange Du Mailvelope, oder eine eigene OpenPGP-Lösung, nutzt, ist unser E-Mail-System nicht Ende-zu-Ende-verschlüsselt. Wir arbeiten an einer umfassenden Lösung dafür und hoffen bald damit fertig zu sein.
+* Wer Zugang zu Deinem Passwort erhält, kann Deine E-Mails lesen. Gib niemals Dein Passwort weiter! Wenn Riseup nach Deinem Passwort fragt, ist es ein Trick.
 * Öffne keine unerwarteten Anhänge. Anhänge können Deinen Computer und Dein Konto kompromittieren!
-* Riseup hält keine Backups Deiner Emails. Es ist Deine Verantwortung dafür zu sorgen, dass Deine Daten sicher sind!
+* Riseup hält keine Backups Deiner E-Mails. Es ist Deine Verantwortung dafür zu sorgen, dass Deine Daten sicher sind!
 * Riseup ist ein kein kugelsicherer Anbieter, im Allgemeinen ist das Internet sehr unsicher. Wenn Du etwas sehr sensitives zu sagen hast, tu das offline.
 * Wir können keine magische technische Lösung anbieten, das alle Probleme in allen Kontexten und Kämpfen lösen kann. Es ist ein Fehler, soziale Probleme technisch lösen zu wollen.
 

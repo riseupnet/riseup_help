@@ -3,12 +3,12 @@
 
 Microsoft Outlook ist ein Verwaltungsprogramm für persönliche Informationen von Microsoft, verfügbar als Teil der Microsoft Office suite. Versionen sind z.B. Microsoft Office Outlook 2013 für Windows und Microsoft Office Outlook 2011 für Mac.
 
-Obwohl es oft hauptsächlich als Email-Anwendung beschrieben wird, enthält es auch Kalender, Aufgabenverwaltung, Kontaktverwaltung, Notizen, Tagebuch und einen Browser.
+Obwohl es oft hauptsächlich als E-Mail-Anwendung beschrieben wird, enthält es auch Kalender, Aufgabenverwaltung, Kontaktverwaltung, Notizen, Tagebuch und einen Browser.
 
 Wir empfehlen, es nicht zu benutzen, weil es keine Freie und quelloffene Software (Software Libre) ist.
 
 Wir haben noch keine Anleitung zur Benutzung von Outlook mit Riseup geschrieben. "Du kannst dabei helfen!":https://github.com/riseupnet/riseup_help
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>

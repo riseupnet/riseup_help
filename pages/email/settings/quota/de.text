@@ -6,7 +6,7 @@ Wir würden gern, aber das ist teuer. Festplatten sind super günstig, aber die 
 
 h2. Warum wird meine Quota nicht aktualisiert?
 
-Es wäre sehr zeitaufwändig für den Server, den genauen Speicherplatz zu berechnen. Stattdessen ist die Zahl eine Vermutung. Oft ist sie sehr genau, aber manchmal geht sie weit daneben. Du wirst niemals den Speicherplatz überziehen (sodass Emails "bouncen", also zurück gewiesen werden), so lange du nicht wirklich allen Speicherplatz aufgebraucht hast.
+Es wäre sehr zeitaufwändig für den Server, den genauen Speicherplatz zu berechnen. Stattdessen ist die Zahl eine Vermutung. Oft ist sie sehr genau, aber manchmal geht sie weit daneben. Du wirst niemals den Speicherplatz überziehen (sodass E-Mails "bouncen", also zurück gewiesen werden), so lange du nicht wirklich allen Speicherplatz aufgebraucht hast.
 
 Der Server spart auch dadurch Rechenzeit, indem die Quota nur dann neu "geschätzt" wird, sobald eine neue Nachricht eintrifft. Das bedeutet, wenn du Nachrichten löschst, verändert sich die Quota nicht bis die nächste Nachricht ankommt.
 

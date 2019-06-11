@@ -11,7 +11,7 @@ h2.  Warum kann ich das Archiv einer Liste nicht sehen?
 
 Es gibt verschiedene Gründe warum du u.U. ein Listen-Archiv nicht sehen kannst:
 
-* Du hast Cookies im Browser deaktiviert: Um "email sammelnde spambots":trap abzuhalten, muss Sympa einen Cookie speichern um Zugriff auf die Listen-Archive zu gewähren. Wenn du immer wieder einen Button mit 'I am not a spammer' siehst wenn du auf ein Listen-Archiv zugreifen möchtest, dann musst du Cookies aktivieren.
+* Du hast Cookies im Browser deaktiviert: Um "E-Mail sammelnde spambots":trap abzuhalten, muss Sympa einen Cookie speichern um Zugriff auf die Listen-Archive zu gewähren. Wenn du immer wieder einen Button mit 'I am not a spammer' siehst wenn du auf ein Listen-Archiv zugreifen möchtest, dann musst du Cookies aktivieren.
 * Du bist nicht eingeloggt: Als Voreinstellung sind die meisten Listen-Archive nur den AbonnentInnen zugänglich. Das heisst, dass du dich als Abonnent identifizieren musst, in dem du Dich einloggst, bevor du das Archiv sehen kannst. Sollte der Archiv Link auf der Seite der Mailingliste nicht klickbar sein, dann ist dies wahrscheinlich der Grund.
 * Die Listen-Archive sind geschlossen: Die Eigentümerin der Liste kann sich entschieden haben den Zugriff auf das Archiv generell zu verbieten.
 * Das Archiv ist beschädigt: ab und an gehen die Listen-Archive kaputt. Normalerweise kann man sie dann neu erstellen und sie werden wieder sichtbar.

@@ -20,12 +20,12 @@ h3. Erstelle und exportiere ein OpenPGP-Schlüsselpaar
 # Wähle *GnuPG-Schlüssel*
 # Erstelle einen neuen Schlüssel durch Klick auf das *+*
 # Wähle *PGP-Schlüssel*
-# Gib deine Emailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
+# Gib deine E-Mailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
 # Wähle *Erweiterte Schlüsseleinstellungen*
 # Verschlüsselungs-Typ sollte RSA sein.
 # Schlüssellänge sollte 3072 sein.
 # Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
-# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails, für immer.**
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails, für immer.**
 # Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super! Du kannst die Schlüsseleinstellungen verwalten, den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen und andere Einstellungen mit Seahorse oder von der Kommandozeile aus vornehmen.
 # **Optional** An diesem Punkt kannst du deinen öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Sobald du bereit bist:
 ## Wähle den/die Schlüssel, den/die du exportieren möchtest. Halte *Strg* und klicke auf die Schlüssel, um sie auszuwählen, oder drücke **Strg+A**, um alle Schlüssel auszuwählen.
@@ -52,7 +52,7 @@ Der Schlüssel in der Datei wurde nun in deinen Schlüsselbund importiert!
 h4. Suchen auf Schlüssel-Servern
 
 # Gehe zu *Entfernt > Entfernte Schlüssel suchen* in Seahorse
-# Tippe einige Worte (oder einen Namen oder Alias), um nach Schlüssel auf dem Schlüssel-Server zu suchen. Das Beste ist, nach einer Emailadresse zu suchen, weil diese direkt mit dem Schlüssel verbunden ist.
+# Tippe einige Worte (oder einen Namen oder Alias), um nach Schlüssel auf dem Schlüssel-Server zu suchen. Das Beste ist, nach einer E-Mailadresse zu suchen, weil diese direkt mit dem Schlüssel verbunden ist.
 # Schau dir die angebotene Liste genau an und suche den Schlüssel der Person, die du suchst. Weitere Informationen erhälst du durch Klicken auf *Eigenschaften*
 # Sobald du die gewünschten Schlüssel ausgewählt hast, klicke *Importieren*.
 
@@ -72,7 +72,7 @@ Schlüssel können von allen bei Schlüsselservern veröffentlicht werden. Suche
 Nachdem du den Fingerabdruck sorgfältig überprüft und die Korrektheit mit der Eigentümer*in bestätigt hast, kannst du den Schlüssel mit deinem eigenen Schlüssel unterschreiben:
 
 # Wähle im selben Fenster den Reiter **Vertrauen** drücke den Knopf **Diesen Schlüssel signieren**.
-# Signiere den Schlüssel, um anzuzeigen, wie sorgfältig du den Schlüssel überprüft hast. Auch wenn du *Überhaupt nicht* auswählst, kannst du den Schlüssel für Email- und Datenverschlüsselung wählen. Du kannst auch einstellen, dass andere deine Signatur nicht sehen können, oder dass du die Unterschrift später widerrufen können möchtest.
+# Signiere den Schlüssel, um anzuzeigen, wie sorgfältig du den Schlüssel überprüft hast. Auch wenn du *Überhaupt nicht* auswählst, kannst du den Schlüssel für E-Mail- und Datenverschlüsselung wählen. Du kannst auch einstellen, dass andere deine Signatur nicht sehen können, oder dass du die Unterschrift später widerrufen können möchtest.
 # Drücke **Signieren**.
 
 Nun kannst du anfangen, Daten zu verschlüsseln, die nur von der Schlüsselinhaber*in entschlüsselt werden können, um einen sicheren Kommunikationskanal zu etablieren!
@@ -111,7 +111,7 @@ bc. Please specify how long the key should be valid.
    <n>y = key expires in n years
 Key is valid for? (0)
 
-Gib Name und Emailadresse, [[aber keinen Kommentar ein -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]] ein. Name und Emailadresse kannst du frei wählen und müssen nicht notwendigerweise stimmen. Wenn der OpenPGP-Schlüssel zum Verschlüsseln von Emails benutzt werden soll, gib die entsprechende Adresse bei der Abfrage "Email address" ein.
+Gib Name und E-Mailadresse, [[aber keinen Kommentar ein -> /gpg-best-practices#do-not-include-a-comment-in-your-user-id]] ein. Name und E-Mailadresse kannst du frei wählen und müssen nicht notwendigerweise stimmen. Wenn der OpenPGP-Schlüssel zum Verschlüsseln von E-Mails benutzt werden soll, gib die entsprechende Adresse bei der Abfrage "Email address" ein.
 
 bc. You need a user ID to identify your key; the software constructs the user ID
 from the Real Name, Comment and Email Address in this form:
@@ -120,7 +120,7 @@ Real name: John Q. Alias
 Email address: the-email-youre-going-to-use@whatever.tld
 Comment:
 
-# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch Emails für immer.**
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails für immer.**
 Wenn du enter drückst, wird ein Schlüsselpaar erstellt.
 
 Dein OpenPGP-Schlüsselpaar (öffentlich/privat) wurde erstellt!

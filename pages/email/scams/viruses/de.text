@@ -1,7 +1,7 @@
 @title = 'Viren'
 @summary = 'Alles was du über Viren wissen wolltest, aber dich nicht zu fragen getraut hast'
 
-Email-Viren, die Windows-Rechner befallen, vermehren sich rasant über das Internet. Hier ein paar grundlegende DInge, die du darüber wissen solltest:
+E-Mail-Viren, die Windows-Rechner befallen, vermehren sich rasant über das Internet. Hier ein paar grundlegende DInge, die du darüber wissen solltest:
 
 h2. Was du auf jeden Fall wissen solltest
 
@@ -31,7 +31,7 @@ h2. vervirte E-Mails blockieren
 
 Wenn du viele Viren erhälst und ein Konto bei riseup.net hast, können diese durch Aktivieren des Spamfilters blockiert werden. Gehe zu [[Einstellungen->https://account.riseup.net]] und klicke auf 'Spamfilter'.
 
-Manche [[Email-Programme -> email/clients]] wie "Thunderbird":https://www.thunderbird.net (freie Software) haben wirklich gute Spamfilter eingebaut, die das meiste Ungeziefer abhalten.
+Manche [[E-Mail-Programme -> email/clients]] wie "Thunderbird":https://www.thunderbird.net (freie Software) haben wirklich gute Spamfilter eingebaut, die das meiste Ungeziefer abhalten.
 
 riseup.net E-Mail-Konten und Listen blockieren alle ausführbaren Anhänge. Das funktioniert nicht immer und manche Viren kommen auch versteckt in einer gepackten Datei wie z.B. .zip.
 

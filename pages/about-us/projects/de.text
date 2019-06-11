@@ -4,13 +4,13 @@
 
 Falls Du programmierst und Riseup helfen möchtest, siehe [[programmers-wanted]].
 
-h2. Alternative Infrastruktur für sichere [[Email]]
+h2. Alternative Infrastruktur für sichere [[E-Mail => email]]
 
-Es gibt ein Problem mit Email. Die US-Regierung praktiziert umfassende Überwachung ("full pipe monitoring") und soziale Netzwerkanalyse ("association mapping"), was ihnen die Möglichkeit gibt, eine detaillierte Karte davon zu erstellen, wie sich soziale Bewegungen organisieren. Für weitere Informationen über Emailsicherheit siehe "security primer for activists":https://web.archive.org/web/20160306044630/https://zine.riseup.net/.
+Es gibt ein Problem mit E-Mail. Die US-Regierung praktiziert umfassende Überwachung ("full pipe monitoring") und soziale Netzwerkanalyse ("association mapping"), was ihnen die Möglichkeit gibt, eine detaillierte Karte davon zu erstellen, wie sich soziale Bewegungen organisieren. Für weitere Informationen über E-Mailsicherheit siehe "security primer for activists":https://web.archive.org/web/20160306044630/https://zine.riseup.net/.
 
-Wir glauben, es ist fundamental, dass essentielle Kommunikationsstruktur durch Organisationen der Bewegung kontrolliert werden und nicht durch Unternehmen oder Regierungen. Aus diesem Grund bieten wir einen Emaildienst mit einem einzigartigen Sicherheitslevel zum Schutz eurer Privatssphäre an. Anders als fast alle anderen Emailanbieter enthalten unsere Logs und Email-Kopfzeilen keine persönlich identifizierenden Informationen. Zusätzlich werden alle Mails auf verschlüsselten Partitionen gespeichert und nur über verschlüsselte Verbindungen übertragen, sofern möglich.
+Wir glauben, es ist fundamental, dass essentielle Kommunikationsstruktur durch Organisationen der Bewegung kontrolliert werden und nicht durch Unternehmen oder Regierungen. Aus diesem Grund bieten wir einen E-Maildienst mit einem einzigartigen Sicherheitslevel zum Schutz eurer Privatssphäre an. Anders als fast alle anderen E-Mailanbieter enthalten unsere Logs und E-Mail-Kopfzeilen keine persönlich identifizierenden Informationen. Zusätzlich werden alle Mails auf verschlüsselten Partitionen gespeichert und nur über verschlüsselte Verbindungen übertragen, sofern möglich.
 
-Aktuell pflegt Riseup zehntausende Emailkonten.
+Aktuell pflegt Riseup zehntausende E-Mailkonten.
 
 h2. [[Mailinglisten -> lists]] für Bewegungen
 

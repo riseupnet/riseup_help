@@ -2,17 +2,17 @@
 
 h2.  Wie erstelle ich einen Account?
 
-Um einen Listen-Account zu erstellen mmusst du einfach eine Mailingliste abonnieren. Zum Abonnieren, schreibe eine Mail an  **listenname-subscribe@lists.riseup.net**, wobei __listenname__ der Name des Emailverteilers ist, den du abonnieren möchtest. 
+Um einen Listen-Account zu erstellen mmusst du einfach eine Mailingliste abonnieren. Zum Abonnieren, schreibe eine Mail an  **listenname-subscribe@lists.riseup.net**, wobei __listenname__ der Name des E-Mailverteilers ist, den du abonnieren möchtest. 
 
 Alternativ kannst du auch das [[Web-Formular benutzen->https://lists.riseup.net/www/renewpasswd]].
 
 Wenn du einen Account eröffnest, generiert Sympa (die Software die wir für die Verteiler benutzen) ein zufälliges Passwort welches an deine Mailadresse geschickt wird. Das hindert Andere daran die Liste ohne deine Genehmigung zu abonnieren - und stellt sicher, dass deine Mailadresse echt ist. Dieses zufällige Passwort solltest du so bald wie möglich auf etwas ändern was du erinnern kannst.
 
-Eine Anmerkung: Die Accounts für Mailinglisten bei lists.riseup.net sind __komplett unterschiedlich__ zu den eMail-Accounts bei riseup.net.
+Eine Anmerkung: Die Accounts für Mailinglisten bei lists.riseup.net sind __komplett unterschiedlich__ zu den E-Mail-Accounts bei riseup.net.
 
 h2.  Wie ändere ich mein Passwort?
 
-Logge dich mit deiner vollen EMail-Adresse und deinem Passwort ein, dann klicke auf den Link _Voreinstellungen_ oben auf der Seite. Dort findest du das Formular um dein Passwort zu ändern.
+Logge dich mit deiner vollen E-Mail-Adresse und deinem Passwort ein, dann klicke auf den Link _Voreinstellungen_ oben auf der Seite. Dort findest du das Formular um dein Passwort zu ändern.
 
 h2.  Ich habe mein Passwort vergessen!
 

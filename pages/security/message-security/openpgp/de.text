@@ -22,7 +22,7 @@ Es gibt drei grundlegende Funktionen, die Du mit GPG durchführen kannst: *signi
 
 h2. Kann ich mit Riseups Webmail verschlüsselte E-Mails senden und empfangen?
 
-Im Moment ist das nicht möglich. Es ist besser zum Senden und Empfangen verschlüsselter Nachrichten ein [[Emailprogramm => email/client]] (wie [[Thunderbird]]) zu benutzen, weil der private Schlüssel sicher auf deinem Rechner gespeichert bleibt.
+Im Moment ist das nicht möglich. Es ist besser zum Senden und Empfangen verschlüsselter Nachrichten ein [[E-Mailprogramm => email/client]] (wie [[Thunderbird]]) zu benutzen, weil der private Schlüssel sicher auf deinem Rechner gespeichert bleibt.
 
 h2. Wo liegen die Grenzen verschlüsselter Kommunikation?
 

@@ -161,7 +161,7 @@ Das ist der Standard ab GnuPG 1.4.18 (und eventuell früher). Wenn Dein Schlüss
 
 h3. Benutze einen separaten Unterschlüssel zum Signieren
 
-Standardmäßig benutzt GnuPG den gleichen Unterschlüssel zum Signieren (z.B. Signieren von Emailnachrichten) und Zertifizieren (signieren einen anderen Schlüssels). Es macht Sinn, diese beiden Ziele zu trennen, weil das eine wichtiger als das andere ist.
+Standardmäßig benutzt GnuPG den gleichen Unterschlüssel zum Signieren (z.B. Signieren von E-Mailnachrichten) und Zertifizieren (signieren einen anderen Schlüssels). Es macht Sinn, diese beiden Ziele zu trennen, weil das eine wichtiger als das andere ist.
 
 In diesem Szenario wird Dein primärer Schlüssel nur für Zertifizierungen benutzt, die selten stattfinden.
 
@@ -171,7 +171,7 @@ h3. Benutze den primären Schlüssel ausschließlich offline
 
 Das ist schwierig, ermöglicht aber, den äußerst wichtigen primären Schlüssel zu schützen. Wenn er gestohlen wird, kann ein Angreifer neue Identitäten erstellen, bestehende widerrufen und sich vollständig als Du selbst ausgeben. Schlüssel "offline" zu speichern ist eine sichere Möglichkeit, sich gegen solche Angriffe zu schützen.
 
-Erstelle vorher einen eignen Schlüssel zum Signieren, sonst ist es nicht möglich, Emails ohne den Offline-Schlüssel zu signieren.
+Erstelle vorher einen eignen Schlüssel zum Signieren, sonst ist es nicht möglich, E-Mails ohne den Offline-Schlüssel zu signieren.
 
 Den primären Schlüssel zu extrahieren ist schwierig, aber damit sollte es klappen:
 
