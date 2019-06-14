@@ -4,24 +4,24 @@ h1. Ein Wort zu Spam
 
 Viele Menschen fragen, "Warum ich? Warum bekomme ich so viel Spam?".
 
-Ok, du bist nicht allein. Fast all unserer Email-Verkehr in diesen Tagen ist Spam. Spammer haben alle möglichen trickreichen und bösen Methoden, um an deine Adresse zu kommen, wie z.B. Webseiten abzusuchen, Viren zu erstellen um Adressen vom Computer deiner Freunde zu sammeln, oder Emails an zufällig generierte Adressen zu schicken in der Hoffnung, dass einige passen werden. Der meiste Spam kommt mittlerweile von "Zombie-Netzwerken", die per Viren versuchen, normale Heim- oder Bürorechner zu übernehmen, mit dem Ziel von dort Spam zu verschicken.
+Ok, du bist nicht allein. Fast all unserer E-Mail-Verkehr in diesen Tagen ist Spam. Spammer haben alle möglichen trickreichen und bösen Methoden, um an deine Adresse zu kommen, wie z.B. Webseiten abzusuchen, Viren zu erstellen um Adressen vom Computer deiner Freunde zu sammeln, oder E-Mails an zufällig generierte Adressen zu schicken in der Hoffnung, dass einige passen werden. Der meiste Spam kommt mittlerweile von "Zombie-Netzwerken", die per Viren versuchen, normale Heim- oder Bürorechner zu übernehmen, mit dem Ziel von dort Spam zu verschicken.
 
 Es gibt einiges, was Du tun kannst, um Spam zu minimieren:
 
 * *Spameinstellungen anpassen:* Standardmäßig werden alle Deine ankommenden Mails nach Spam durchsucht. Allerdings lässt sich die Sensitivität und Korrektheit durch Anpassen deiner Spameinstellungen verbessern:
      ## Besuche [[user.riseup.net->https://account.riseup.net]] und logge dich ein.
-     ## Klicke auf Email und dort Spameinstellungen.
+     ## Klicke auf E-Mail und dort Spameinstellungen.
      ## Klicke auf "Benutzerdefinierte Einstellungen" aktivieren.
 * *Spam-Ordner erstellen:* Wenn es einen 'spam'-Ordner gibt, wird verdächtige Mail dorthin aussortiert. Der Ordner sollte regelmäßig besucht werden, um fälschlicherweise aussortiere Mails zu retten. Der Ordner muss 'spam' und nicht 'Spam' heißen.
-* *temporären Alias erstellen:* Ein temporärer Alias ist eine Email-Adresse, die Du nur für eine bestimmte Zeit benutzt und danach zerstörst. Das ist nützlich,  wenn eine Emailadresse an ein Unternehmen gegeben, oder auf einer Webseite eingeben werden muss. Beim ersten Spam an diesen Alias kannst du diesen löschen. Du kannst Aliase unter [[user.riseup.net->https://account.riseup.net/]] im Menu "Email" einstellen.
-* *Nutze ein [[Email-Programm => email/clients]]:* Die meisten Email-Programme haben heutzutage eine Art Spamfilter eingebaut. Wir empfehlen [[thunderbird->thunderbird]].
-* *ändere deine Email-Adresse:* Wenn Du Spam wirklich begrenzen willst, kannst Du einfach Dein [[Konto umbenennen->mail-accounts/#wie-ändere-ich-meinen-benutzernamen]]. Der Nachteil ist dann, alle zu informieren, dass sich Deine Adresse geändert hat, auch wenn dies sehr effektiv ist, um Spam loszuwerden.
+* *temporären Alias erstellen:* Ein temporärer Alias ist eine E-Mail-Adresse, die Du nur für eine bestimmte Zeit benutzt und danach zerstörst. Das ist nützlich,  wenn eine E-Mailadresse an ein Unternehmen gegeben, oder auf einer Webseite eingeben werden muss. Beim ersten Spam an diesen Alias kannst du diesen löschen. Du kannst Aliase unter [[user.riseup.net->https://account.riseup.net/]] im Menu "E-Mail" einstellen.
+* *Nutze ein [[E-Mail-Programm => email/clients]]:* Die meisten E-Mail-Programme haben heutzutage eine Art Spamfilter eingebaut. Wir empfehlen [[thunderbird->thunderbird]].
+* *ändere deine E-Mail-Adresse:* Wenn Du Spam wirklich begrenzen willst, kannst Du einfach Dein [[Konto umbenennen->mail-accounts/#wie-ändere-ich-meinen-benutzernamen]]. Der Nachteil ist dann, alle zu informieren, dass sich Deine Adresse geändert hat, auch wenn dies sehr effektiv ist, um Spam loszuwerden.
 
 h1. Wie riseup.net Spam bekämpft
 
 Unsere Spitzengruppe für die Bekämpfung von Spam hat drei Ebenen der Verteidigung aufgebaut:
 
-* *Echtzeit Blockliste*: Realtime Block Lists (RBLs) sind häufig aktualisierte Listen von Computern, die dafür bekannt sind, Spam zu verschicken. Wir benutzen diese Listen, um Emails von diesen Spammern zu blocken. Wenn Du versuchst, eine Email an riseup.net zu schicken und diese mit der Begründung RBL abgewiesen wird, findet sich in der Ablehnungsnachricht ein Link auf eine Webseite mit Details über den Grund, warum die Adresse in der RBL gelistet ist. Es gibt gute und schlechte RBL: wir benutzen nur die am weitesten anerkannten.
+* *Echtzeit Blockliste*: Realtime Block Lists (RBLs) sind häufig aktualisierte Listen von Computern, die dafür bekannt sind, Spam zu verschicken. Wir benutzen diese Listen, um E-Mails von diesen Spammern zu blocken. Wenn Du versuchst, eine E-Mail an riseup.net zu schicken und diese mit der Begründung RBL abgewiesen wird, findet sich in der Ablehnungsnachricht ein Link auf eine Webseite mit Details über den Grund, warum die Adresse in der RBL gelistet ist. Es gibt gute und schlechte RBL: wir benutzen nur die am weitesten anerkannten.
 * *Spamassassin*: Riseup benutzt [[spamassassin->https://spamassassin.apache.org/]] im Kampf gegen Spam. Spamassassin benutzt eine komplexe Sammlung von Algorithmen, um zu bestimmen, ob eine ankommende Mail Spam ist.
 * *Anpassbarer Spamfilter*: Als letzte Verteidigungsstufe bieten wir an, die Spameinstellungen pro Konto zu individualisieren. Bei aktiviertem Statistikfilter wird dieser nach und nach lernen und sich anpassen. Für weitere Informationen siehe unten.
 
@@ -29,7 +29,7 @@ Wenn sinnvolle Nachrichten im Spam-Ordner landen, verschiebe sie zurück in die 
 
 h1. Warum werden Nachrichten an mich als Spam gefiltert?
 
-Eine aktuelle Studie hat gezeigt, dass über 95% des Emailverkehrs im Internet Spam ist! Ja, 95%! Für euch und mich ist das nur ein Ärgernis, aber für die armen Server von riseup ist das ein riesiger Druck. Riseup nutzt einige Werkzeuge gegen Spam und manchmal wird eine legitime Nachricht von Nutzer*innen unkorrekt als Spam aussortiert. Bevor ihr uns kontaktiert, geht die hier beschriebenen Schritte noch mal danach durch, ob sich das Problem damit beheben lässt.
+Eine aktuelle Studie hat gezeigt, dass über 95% des E-Mailverkehrs im Internet Spam ist! Ja, 95%! Für euch und mich ist das nur ein Ärgernis, aber für die armen Server von riseup ist das ein riesiger Druck. Riseup nutzt einige Werkzeuge gegen Spam und manchmal wird eine legitime Nachricht von Nutzer*innen unkorrekt als Spam aussortiert. Bevor ihr uns kontaktiert, geht die hier beschriebenen Schritte noch mal danach durch, ob sich das Problem damit beheben lässt.
 
 Als erstes versucht, das Problem zu identifizieren. Wenn Deine Mail von Riseup als unzustellbar zurück kommt, geben unsere Server einen Grund dafür an. Schau in diese Nachricht und vergleiche sie mit den Beispielnachrichten weiter unten. Wenn es eine Übereinstimmung gibt, versuch es mit den oben angegebenen Schritten, bevor Du uns kontaktierst.
 
@@ -45,29 +45,29 @@ h1. Warum werden Nachrichten von mir als Spam gefiltert?
 
 h3. Spamcop
 
-Spamcop ist ein Dienst, den Emailanbieter benutzen können, um von Spamcop als spamverdächtig eingestufte Server zu blockieren. Das Problem daran ist, dass Spamcop unheimlich aggressiv ist: es ist einfach möglich, legitime Emailanbieter durch das Einreichen falscher Berichte zu deligitimieren und es ist unmöglich, den betroffenen Server schnell wieder zu entlisten. Spamcop ist ein gefährlicher und leicht missbrauchbarer Dienst, der mehr legitime Email stoppt, als Spam.
+Spamcop ist ein Dienst, den E-Mailanbieter benutzen können, um von Spamcop als spamverdächtig eingestufte Server zu blockieren. Das Problem daran ist, dass Spamcop unheimlich aggressiv ist: es ist einfach möglich, legitime E-Mailanbieter durch das Einreichen falscher Berichte zu deligitimieren und es ist unmöglich, den betroffenen Server schnell wieder zu entlisten. Spamcop ist ein gefährlicher und leicht missbrauchbarer Dienst, der mehr legitime E-Mail stoppt, als Spam.
 
 Mit Spamcops eigenen Worten:
 
-bq. The SCBL is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a "tag only" mode, which is preferable in many situations. -- Die SCBL ist aggressiv und oft die Ursache für Fehler beim Filtern von Mail. Bei der Einführung von SCBL gaben diese Nutzern Informationen darüber, wie SCBL und euer Mailsystem Emails filtern. Idealerweise sollten diese Optionen zum Filtern anbieten. Viele Mailserver benutzen Blocklisten im Schubladenmodus, was in manchen Situation zu bevorzugen ist.
+bq. The SCBL is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their E-Mail. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a "tag only" mode, which is preferable in many situations. -- Die SCBL ist aggressiv und oft die Ursache für Fehler beim Filtern von Mail. Bei der Einführung von SCBL gaben diese Nutzern Informationen darüber, wie SCBL und euer Mailsystem E-Mails filtern. Idealerweise sollten diese Optionen zum Filtern anbieten. Viele Mailserver benutzen Blocklisten im Schubladenmodus, was in manchen Situation zu bevorzugen ist.
 
-Spamcop versursacht für riseup.net arge Probleme und auch für andere legitime Emailanbieter. Die "Lösung", die Spamcop vorgibt, ist schlechter als das Problem, das sie zu lösen versuchen: nach [[einer Schätzung => https://jhoward.fastmail.fm/spamcop.html]] blockt Spamcop oft 10.000 legitime Emails für eine tatsächlich gestoppte Spammail.
+Spamcop versursacht für riseup.net arge Probleme und auch für andere legitime E-Mailanbieter. Die "Lösung", die Spamcop vorgibt, ist schlechter als das Problem, das sie zu lösen versuchen: nach [[einer Schätzung => https://jhoward.fastmail.fm/spamcop.html]] blockt Spamcop oft 10.000 legitime E-Mails für eine tatsächlich gestoppte Spammail.
 
 Zusätzlich ist Spamcop offen für Missbrauch. Sie machen es unglaublich einfach, legitime Mails als Spam zu markieren, nur weil sie nicht heraus finden können, wie sie sich selbst austragen können. Das kann auch als Angriff verwendet werden: wer unsere Politik nicht mag, braucht nur einige Berichte über riseup.net an Spamcop schicken. Riseup.net wird häufig bei Spamcop gelistet wegen legitimer Mails von Aktivist*innen.
 
 Wir glauben fest daran, dass die Filterliste von Spamcop nicht von ISP benutzt werden sollte und ermutigen Nutzer*innen eines ISP, der Spamcop benutzt, sich bei diesem über die Benutzung von Spamcop zu beschweren. Spamcops Prinzipien filtern nachweislich mehr legitime Mails als wirklichen Spam.
 
-Wenn du mit Deinem ISP Kontakt aufnimmst, um Dich zu beschweren, kannst Du folgenden Entwurf für die Email verwenden:
+Wenn du mit Deinem ISP Kontakt aufnimmst, um Dich zu beschweren, kannst Du folgenden Entwurf für die E-Mail verwenden:
 
-bq. I am writing to ask that you please don't trust the Spamcop blocklist. It's been shown many times to use a hopelessly broken algorithm. It is an exceptionally poor indicator of whether a site is a source of unsolicited bulk email. In Spamcop's own words, the blocklist "is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their email. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a 'tag only' mode, which is preferable in many situations." Spamcop's policy is guaranteed to generate false positives, and your use of their RBL in your mail configuration has caused me problems with legitimate email. The SpamCop BL is a system that is open to abuse, and can be very inaccurate. Please consider removing spamcop as one of your blocklists in your SMTP configuration. It is causing me serious problems.
+bq. I am writing to ask that you please don't trust the Spamcop blocklist. It's been shown many times to use a hopelessly broken algorithm. It is an exceptionally poor indicator of whether a site is a source of unsolicited bulk E-Mail. In Spamcop's own words, the blocklist "is aggressive and often errs on the side of blocking mail. When implementing the SCBL, provide users with the information about how the SCBL and your mail system filter their E-Mail. Ideally, they should have a choice of filtering options. Many mailservers operate with blacklists in a 'tag only' mode, which is preferable in many situations." Spamcop's policy is guaranteed to generate false positives, and your use of their RBL in your mail configuration has caused me problems with legitimate E-Mail. The SpamCop BL is a system that is open to abuse, and can be very inaccurate. Please consider removing spamcop as one of your blocklists in your SMTP configuration. It is causing me serious problems.
 
 _Links_
 
 * [[Why not to use SpamCop -- some first-hand accounts => http://www.politechbot.com/p-04129.html]]
 * [[Why the SpamCop blocking list is harmful => https://jhoward.fastmail.fm/spamcop.html]]
 
-h3. Von Emailanbietern verwaltete Filterlisten
+h3. Von E-Mailanbietern verwaltete Filterlisten
 
-Einige große Emailanbieter (wie comcast, aol, gmail, hotmail) verwalten ihre eigenen Filterlisten. Unglücklicherweise wird Riseup auch von diesen manchmal gelistet. Das geschieht häufig, wenn ein*e Riseup-Nutzer*in auf Phishing hereinfällt, bei der das Konto durch Spammer übernommen wird. Der Spammer verschickt eine große Menge Spam und verschiedene Anbieter blocken dann alle ausgehenden Mails von Riseup. Diese Filterlisten werden oft automatisch nach einer gewissen Zeit wieder entfernt.
+Einige große E-Mailanbieter (wie comcast, aol, gmail, hotmail) verwalten ihre eigenen Filterlisten. Unglücklicherweise wird Riseup auch von diesen manchmal gelistet. Das geschieht häufig, wenn ein*e Riseup-Nutzer*in auf Phishing hereinfällt, bei der das Konto durch Spammer übernommen wird. Der Spammer verschickt eine große Menge Spam und verschiedene Anbieter blocken dann alle ausgehenden Mails von Riseup. Diese Filterlisten werden oft automatisch nach einer gewissen Zeit wieder entfernt.
 
 Was kannst Du in der Zwischenzeit tun? Kontaktiert die Anbieter und sagt ihnen, dass sie legitime Mail filtern, oder noch besser, ermutigt Nutzer*innen dieser Anbieter zu wechseln! Was könnt ihr sonst noch tun? Fallt nicht auf [[Betrügereien => phishing]] rein.

@@ -2,11 +2,11 @@
 
 h2. Was ist Evolution?
 
-"Evolution":https://en.wikipedia.org/wiki/Evolution_(software) ist ein Emailprogramm und der offiziele Manager persönlicher Informationen für die "GNOME Desktop-Umgebung":https://en.wikipedia.org/wiki/GNOME. Es ist freie quelloffene Software, lizensiert unter der GPL.
+"Evolution":https://en.wikipedia.org/wiki/Evolution_(software) ist ein E-Mailprogramm und der offiziele Manager persönlicher Informationen für die "GNOME Desktop-Umgebung":https://en.wikipedia.org/wiki/GNOME. Es ist freie quelloffene Software, lizensiert unter der GPL.
 
 Es wird verteilt als Teil von GNOME, wodurch es in allen Linux-Distribution mit GNOME verfügbar ist, wie ["Ubuntu":https://en.wikipedia.org/wiki/Ubuntu], und es kann per "Paketverwaltung":https://en.wikipedia.org/wiki/Package_manager deiner Distribution installiert werden. Evolution ist auch "für Windows erhältlich":https://projects-old.gnome.org/evolution/download.shtml.
 
-Evolution enthält Unterstützung für Email, Kalender, Adressbuch, Kontakte und GPG-Verschlüsselung.
+Evolution enthält Unterstützung für E-Mail, Kalender, Adressbuch, Kontakte und GPG-Verschlüsselung.
 
 h3. Evolution installieren
 
@@ -17,15 +17,15 @@ h3. Konto erstellen
 
 # Starte Evolution (drücke **Alt+F2** und gib @evolution@ ein)
 # Beim ersten Start von Evolution wirst du gefragt, ob du Deine Einstellungen von einem Backup wiederherstellen möchtest.
-# Gib den Namen, der zusammen mit Deiner Emailadresse im **Von**-Feld für Empfänger*innen erscheinen soll. Du kannst dieses auch zu Deinem Standardkonto machen.
+# Gib den Namen, der zusammen mit Deiner E-Mailadresse im **Von**-Feld für Empfänger*innen erscheinen soll. Du kannst dieses auch zu Deinem Standardkonto machen.
 # Um E-Mails für ein riseup.net-Konto zu empfangen gib Folgendes ein:
 Server-Typ: Wähle **IMAP** oder **POP**. [[Was ist der Unterschied zwischen IMAP und POP? => email/clients#choose-imap-or-pop]] %>
 Server: **mail.riseup.net**
 Name: **<Dein Riseup-Login>** (@riseup.net)
 Sichere Verbindung: **TLS** ist empfohlen
 Authentifizierungs-Typ: **Password**
-# Der nächste Bildschirm hat 4 Sektionen. **Serververbindung** und **Ordner** können problemlos ignoriert werden. Gib ein, wie oft Evolution automatisch auf neue Nachrichten prüfen soll in der Sektion **Auf neue Nachrichten prüfen**, oder lasse es deaktiviert, um Emails nur manuell abzurufen. Die Sektion **Optionen** erlaubt die Anwendung von Spamfiltern für ankommende Emails und automatisch lokale Kopien deiner Emails für den Offline-Betrieb zu behalten (nur bei IMAP).
-# Gib die folgenden Information ein, um Emails von einem riseup.net-Konto zu empfangen:
+# Der nächste Bildschirm hat 4 Sektionen. **Serververbindung** und **Ordner** können problemlos ignoriert werden. Gib ein, wie oft Evolution automatisch auf neue Nachrichten prüfen soll in der Sektion **Auf neue Nachrichten prüfen**, oder lasse es deaktiviert, um E-Mails nur manuell abzurufen. Die Sektion **Optionen** erlaubt die Anwendung von Spamfiltern für ankommende E-Mails und automatisch lokale Kopien deiner E-Mails für den Offline-Betrieb zu behalten (nur bei IMAP).
+# Gib die folgenden Information ein, um E-Mails von einem riseup.net-Konto zu empfangen:
 Server-Type: **SMTP**
 Server: **mail.riseup.net**
 aktiviere **Server erfordert Authentifizierung**
@@ -35,30 +35,30 @@ Login: **foobar**
 # Gib dem Konto einen Namen. Dieser wird nur benötigt, um mehere Konten in Evolution zu unterscheiden und ist nicht öffentlich sichtbar.
 # Klicke **Anwenden**
 
-Fertig!! Du kannst nun mit Evolution Emails durch Riseup-Server empfangen und senden.
+Fertig!! Du kannst nun mit Evolution E-Mails durch Riseup-Server empfangen und senden.
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>
 
 h3. OpenPGP-Verschlüsselung in Evolution aktivieren
 
-Alles was nötig ist, um Email-Verschlüsselung zu aktivieren, ist Evolution Deine OpenPGP-Schlüssel-ID für Dein Konto zu sagen und dann **für jede Mail** Verschlüsselung zu aktivieren.
+Alles was nötig ist, um E-Mail-Verschlüsselung zu aktivieren, ist Evolution Deine OpenPGP-Schlüssel-ID für Dein Konto zu sagen und dann **für jede Mail** Verschlüsselung zu aktivieren.
 
 # Zuerst [[erstelle ein OpenPGP-Schlüsselpaar => /security/gpg-keys]], falls Du noch keines hast.
 # Gehe auf **Bearbeiten** -> **Einstellungen**
 # Wähle in der Sektion **Mailkonten** "OpenPGP-Schlüssel verknüpfen" und drücke den Knopf **Bearbeiten**.
 # Klicke auf den Reiter **Sicherheit**.
-# Gib Deine OpenPGP-**Schlüssel-ID** ein (Siehe [[Anleitung für OpenPGP-Schlüssel => /security/gpg-keys]], um deine Schlüssel-Kennung zu finden). Wähle **Immer an mich selbst verschlüsseln**; das speichert eine mit Deinem Schlüssel verschlüsselte Kopie gesendeter Nachrichten im Ordner **Gesendet**, um sie später entschlüsseln zu können. UNBESTÄTIGT!!! **Allen Schlüsseln in meinem Schlüsselbund vertrauen** ermöglicht dir, an Menschen in deinem Schlüsselbund zu verschlüsseln, deren Schlüssel Du nicht signiert hast. Du kannst die Sektion **Sicheres MIME** ignorieren. **Beachte: "Immer signieren" ist nicht das gleiche, wie "Immer verschlüsseln"*; eine Email zu signieren ist etwas anderes, als sie zu verschlüsseln und macht sie nicht für Dritte unlesbar.
+# Gib Deine OpenPGP-**Schlüssel-ID** ein (Siehe [[Anleitung für OpenPGP-Schlüssel => /security/gpg-keys]], um deine Schlüssel-Kennung zu finden). Wähle **Immer an mich selbst verschlüsseln**; das speichert eine mit Deinem Schlüssel verschlüsselte Kopie gesendeter Nachrichten im Ordner **Gesendet**, um sie später entschlüsseln zu können. UNBESTÄTIGT!!! **Allen Schlüsseln in meinem Schlüsselbund vertrauen** ermöglicht dir, an Menschen in deinem Schlüsselbund zu verschlüsseln, deren Schlüssel Du nicht signiert hast. Du kannst die Sektion **Sicheres MIME** ignorieren. **Beachte: "Immer signieren" ist nicht das gleiche, wie "Immer verschlüsseln"*; eine E-Mail zu signieren ist etwas anderes, als sie zu verschlüsseln und macht sie nicht für Dritte unlesbar.
 # Klicke **Ok**
 
-Du kannst jetzt Emails mit Evolution ver- und entschlüsseln!
+Du kannst jetzt E-Mails mit Evolution ver- und entschlüsseln!
 
-h3. Verschlüsselte Emails verschicken
+h3. Verschlüsselte E-Mails verschicken
 
-# Verfasse eine Email
+# Verfasse eine E-Mail
 # Wähle **Sicherheit** -> **PGP Verschlüsselung**
 
-Die verfasste E-Mail wird erst beim Senden verschlüsselt! Du kannst jederzeit sicherstellen, dass deine Email verschlüsselt wird, indem Du in das Menu **Sicherheit** gehst und siehst, ob dort ein Haken bei **PGP Verschlüsselung** ist.
+Die verfasste E-Mail wird erst beim Senden verschlüsselt! Du kannst jederzeit sicherstellen, dass deine E-Mail verschlüsselt wird, indem Du in das Menu **Sicherheit** gehst und siehst, ob dort ein Haken bei **PGP Verschlüsselung** ist.
 
-Leider scheint es keine Möglichkeit zu geben, Verschlüsselung standardmäßig entweder global oder pro Kontakt zu aktivieren, das bedeutet, dass Du **jedes Mal, wenn Du eine Mail verschlüsseln willst, auf Sicherheit > PGP-Verschlüsselung klicken musst, um diese zu aktivierien. Ansonsten wird deine Email für Dritte lesbar sein.**
+Leider scheint es keine Möglichkeit zu geben, Verschlüsselung standardmäßig entweder global oder pro Kontakt zu aktivieren, das bedeutet, dass Du **jedes Mal, wenn Du eine Mail verschlüsseln willst, auf Sicherheit > PGP-Verschlüsselung klicken musst, um diese zu aktivierien. Ansonsten wird deine E-Mail für Dritte lesbar sein.**

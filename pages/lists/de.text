@@ -7,13 +7,13 @@ h2. Willkommen
 
 Willkommen auf der Hilfeseite zu den riseup.net *mailinglisten*! Hier gibt es Infos zu den Mailinglisten welche auf https://lists.riseup.net gehostet sind.
 
-Falls du Hilfe mit riseup.net eMail Accounts brauchst, gehe zur den [[email]] Hilfeseiten. Wenn deine Frage auf hier nicht beantwortet wird, "erstelle ein Ticket": https://support.riseup.net/de/topics/new.
+Falls du Hilfe mit riseup.net E-Mail Accounts brauchst, gehe zur den [[E-Mail-Hilfeseiten => email]]. Wenn deine Frage auf hier nicht beantwortet wird, "erstelle ein Ticket": https://support.riseup.net/de/topics/new.
 
 h2. Häufige Fragen von Listen-AdministratorInnen
 
 * [[Wie erstelle ich eine Mailingliste? => creating-lists]]
 * [[Wie ändere ich den Listeneigentümer? => list-definition#changing-owners]]
-* [[Wie manage ich "bounces" (eMail Rückläufer)? => bounces]]
+* [[Wie manage ich "bounces" (E-Mail-Rückläufer)? => bounces]]
 * [[Wie ändere ich den Listennamen => list-admin/faq#how-do-I-change-the-list-name]]
 * [[Was heisst "FYI: automatic_del" => list-admin/faq#what-does-fyi-automatic_del-mean]]
 * [[Komplette FAQ für AdministratorInnen => list-admin/faq]]

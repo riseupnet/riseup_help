@@ -2,16 +2,16 @@
 
 p(pull-right). !(image-right)K9mail.png!
 
-*K-9 Mail* ist eine Freie Software Email-Anwendung für Android. Die Anwendung ist ein funktionalerer Ersatz für das vorinstallierte Emailprogramm der meisten Telefone. Es unterstützt POP3- und IMAP-Postfächer. Es kann von "Google Play":https://f-droid.org und der "K-9-Webseite":https://code.google.com/p/k9mail heruntergeladen werden.
+*K-9 Mail* ist eine Freie Software E-Mail-Anwendung für Android. Die Anwendung ist ein funktionalerer Ersatz für das vorinstallierte E-Mailprogramm der meisten Telefone. Es unterstützt POP3- und IMAP-Postfächer. Es kann von "Google Play":https://f-droid.org und der "K-9-Webseite":https://code.google.com/p/k9mail heruntergeladen werden.
 
 K9-Mail ist sehr einfach zu konfigurieren:
 # Installiere es wie oben beschrieben
 # Öffne K-9 Mail
 # Klicke 'Weiter'
-# Gib deine Riseup-Emailadresse und dein Passwort ein
+# Gib deine Riseup-E-Mailadresse und dein Passwort ein
 # [[Wähle POP oder IMAP -> email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails von mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
 !en.png!
-# Dein Login, Passwort und Server sollten ausgefüllt sein. Ändere deinen Login ggf. auf deine *Riseup-Emailadresse*. Falls Ein- und Ausgangs-Server fehlen, ergänze @mail.riseup.net@. **Tor-Hinweis:** Wenn du dich über "Tor":https://www.torproject.org/docs/android.html. mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@ (siehe unten).
+# Dein Login, Passwort und Server sollten ausgefüllt sein. Ändere deinen Login ggf. auf deine *Riseup-E-Mailadresse*. Falls Ein- und Ausgangs-Server fehlen, ergänze @mail.riseup.net@. **Tor-Hinweis:** Wenn du dich über "Tor":https://www.torproject.org/docs/android.html. mit [[Riseups .onion-Dienst -> tor#riseups-tor-hidden-service]] verbinden willst, suche nach den entsprechenden Einträgen für @mail.*.onion@ bzw. @smtp.*.onion@ (siehe unten).
 # Wähle 'SSL/TLS (immer)'
 # Alle anderen Standard-Einstellungen sollten gut sein für die meisten.
 # Klicke 'Weiter', um die Verbindung zu testen
@@ -24,6 +24,6 @@ K9-Mail ist sehr einfach zu konfigurieren:
 
 Du hast erfolgreich K9-Mail für Riseup konfiguriert!
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>

@@ -4,7 +4,7 @@ Um E-Mails zu versenden, musst du deine SMTP-Einstellungen korrekt setzen.
 
 h2. Was ist SMTP?
 
-SMTP bedeutet *Simple Mail Transfer Protocol* (Einfaches Mail-Übertragungsprotokoll). Über dieses Protokoll kommunizieren Mail-Server miteinander, um E-Mails zuzustellen. Wenn du E-Mails im Internet versenden möchtest, brauchst du einen SMTP-Server. Wenn du [[Webmail]] verwendest, wird all dies automatisch für dich durchgeführt, du musst dich nicht darum kümmern, welcher SMTP-Server zu verwenden ist. Falls du aber einen [[Emailprogramm->email/clients]] verwendest, musst du einen SMTP-Server als deinen *Ausgangsserver* bestimmen.
+SMTP bedeutet *Simple Mail Transfer Protocol* (Einfaches Mail-Übertragungsprotokoll). Über dieses Protokoll kommunizieren Mail-Server miteinander, um E-Mails zuzustellen. Wenn du E-Mails im Internet versenden möchtest, brauchst du einen SMTP-Server. Wenn du [[Webmail]] verwendest, wird all dies automatisch für dich durchgeführt, du musst dich nicht darum kümmern, welcher SMTP-Server zu verwenden ist. Falls du aber einen [[E-Mailprogramm->email/clients]] verwendest, musst du einen SMTP-Server als deinen *Ausgangsserver* bestimmen.
 
 h2. Warum sollte ich den SMTP-Ausgangsserver von riseup.net verwenden?
 
@@ -21,8 +21,8 @@ h2. Wie konfiguriere ich SMTP?
 Der Riseup.net SMTP-Ausgangsserver erfordert eine Authentifizierung und eine sichere Verbindung (SSL oder TLS) zur Sicherheit und um Spam zu verhindern. Um riseup.net als deinen SMTP-Ausgangsserver zu verwenden, nütze folgende Einstellungen:
 
 * *SMTP-Ausgangsserver*: @mail.riseup.net@
-* *Anmelde- oder Benutzername*: Dein riseup.net-Benutzername. (Falls deine E-Mail Adresse joe_hill@riseup.net lautet, ist dein Benutzername @joe_hill@. Das ist *erforderlich*. Falls dein Emailprogramm SMTP mit Authentifizierung nicht unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden. Details zur Einrichtung von SMTP mit verschiedenen [[email/clients]].
-* *Verwende eine verschlüsselte Verbindung*: Immer. Das ist *erforderlich*. Wenn dein Emailprogramm kein verschlüsseltes SMTP unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden.
+* *Anmelde- oder Benutzername*: Dein riseup.net-Benutzername. (Falls deine E-Mail Adresse joe_hill@riseup.net lautet, ist dein Benutzername @joe_hill@. Das ist *erforderlich*. Falls dein E-Mailprogramm SMTP mit Authentifizierung nicht unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden. Details zur Einrichtung von SMTP mit verschiedenen [[email/clients]].
+* *Verwende eine verschlüsselte Verbindung*: Immer. Das ist *erforderlich*. Wenn dein E-Mailprogramm kein verschlüsseltes SMTP unterstützt, kannst du riseup.net nicht als SMTP-Ausgangsserver verwenden.
 * *Port*: Für *TLS* ist der Port @465@, für *StartTLS*  @587@. Wenn einer von beiden durch deinen ISP geblockt wird, versuche es mit einem anderen.
 
 h2. Wie viele Nachrichten kann ich versenden?

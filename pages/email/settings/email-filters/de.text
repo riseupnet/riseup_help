@@ -1,12 +1,12 @@
-@title = 'Emailfilter'
+@title = 'E-Mailfilter'
 
-h2. Wie bearbeite ich Emailfilter?
+h2. Wie bearbeite ich E-Mailfilter?
 
-# Zuerst müssen die Ordner, in die gefiltert soll, vorher in deinem [[Emailprogramm->email/clients]] oder im [[Webmail]] existieren.
+# Zuerst müssen die Ordner, in die gefiltert soll, vorher in deinem [[E-Mailprogramm->email/clients]] oder im [[Webmail]] existieren.
 # Melde dich an bei https://account.riseup.net
-# Klicke links auf *Email*
+# Klicke links auf *E-Mail*
 # Klicke auf *Mails filters*
-# Dort kannst du die Reihenfolge deiner Emailfilter ändern, die Filter ändern oder löschen und neue Filter erstellen. Um einen Filter zu bearbeiten, klicke darauf und es erscheint ein Menü, um Bedingungen zu erzeugen, löschen oder zu ändern.
+# Dort kannst du die Reihenfolge deiner E-Mailfilter ändern, die Filter ändern oder löschen und neue Filter erstellen. Um einen Filter zu bearbeiten, klicke darauf und es erscheint ein Menü, um Bedingungen zu erzeugen, löschen oder zu ändern.
 
 h2. Wie kann ich Filter für Unterordner erstellen?
 
@@ -14,12 +14,12 @@ h2. Wie kann ich Filter für Unterordner erstellen?
 # Trenne Eltern- und Kindordner durch einen ".", z.B. "riseup.Lists" für den Ordner /riseup/Lists (Groß-/Kleinschreibung ist dabei wichtig).
 # Speichere den Filter und weiter geht's.
 
-h2. Wie kann ich eine Emailadresse blocken?
+h2. Wie kann ich eine E-Mailadresse blocken?
 
 Wenn du nervige Mails oder Spam bekommst und Mails von einer bestimmte Adress automatisch löschen willst, folge diesen Schritten:
 
 # Melde dich an bei https://account.riseup.net
-# Klicke links auf *Email*
+# Klicke links auf *E-Mail*
 # Klicke auf *Mails filters*
 # Klicke auf *Add filter*
 # Benenne den Filter wie du willst, z.B. "ab in den Müll"
@@ -36,7 +36,7 @@ h2. Wie kann ich Mails erlauben, die Spamfilter zu passieren?
 Wenn Mails von einer bestimmten Adresse immer in deinem Spam-Ordner landen und du sicherstellen willst, dass das in Zukunft nicht mehr passiert, folge diesen Schritten:
 
 # Melde dich an bei https://account.riseup.net
-# Klicke links auf *Email*
+# Klicke links auf *E-Mail*
 # Klicke auf *Spam Settings*
 # Wenn du es noch nicht getan hast, klicke auf den Knopf *Enable Custom Spam Settings*.
 # Jetzt scrolle nach unten zu *Allow List*. Füge die Adresse hinzu und klicke auf *Save Changes*.

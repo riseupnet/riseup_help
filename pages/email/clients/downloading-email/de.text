@@ -1,10 +1,10 @@
-@title = 'Emails herunterladen'
+@title = 'E-Mails herunterladen'
 
-h2. Wie kann ich meine Emails herunterladen?
+h2. Wie kann ich meine E-Mails herunterladen?
 
 Sowohl [[Webmail]] als auch mit IMAP konfigurierte lokale Konten lassen die Nachrichten auf dem Server, bis du sie dort manuell löschst. Um [[Quota]] frei zu machen und die Nachrichten zu behalten, musst du die Nachrichten auf dem Server in einen lokalen Ordner kopieren. Deine Quoto wird nicht direkt aktualisierst, sondern erst wenn die nächsten Mails eintreffen.
 
-Der Prozess hängt von der Oberfläche deines Programms ab. Wenn du [[Thunderbird]] benutzt, lies weiter, ansonsten schau bitte in die Dokumentation deines [[Emailprogramms => email/clients]].
+Der Prozess hängt von der Oberfläche deines Programms ab. Wenn du [[Thunderbird]] benutzt, lies weiter, ansonsten schau bitte in die Dokumentation deines [[E-Mailprogramms => email/clients]].
 
 h3. Nachrichten mit Thunderbird herunterladen
 

@@ -1,13 +1,13 @@
 @title = 'Geary'
 
-"*Geary*":https://wiki.gnome.org/Apps/Geary ist ein freies und quelloffenes (Software Libre), schlankes [[Emailprogramm->email/clients]] für die GNOME-Desktopumgebung. Das Interface basiert auf Konversationen, sodass es einfach ist, ganze Diskussionen zu lesen, ohne von Nachricht zu Nachricht klicken. Es kann hier herunter geladen werden: "Geary download":https://wiki.gnome.org/Apps/Geary/GetIt
+"*Geary*":https://wiki.gnome.org/Apps/Geary ist ein freies und quelloffenes (Software Libre), schlankes [[E-Mailprogramm->email/clients]] für die GNOME-Desktopumgebung. Das Interface basiert auf Konversationen, sodass es einfach ist, ganze Diskussionen zu lesen, ohne von Nachricht zu Nachricht klicken. Es kann hier herunter geladen werden: "Geary download":https://wiki.gnome.org/Apps/Geary/GetIt
 
 h2. Riseup-Konto hinzufügen
 
 Geary unterstützt momentan nur IMAP-Konto. Beim ersten Start öffnet sich Dialog zum Erstellen eines neuen Kontos:
 
 # Als *Service* wähle *Other*.
-# Gib einen Namen und deine Riseup-Emailadresse ein.
+# Gib einen Namen und deine Riseup-E-Mailadresse ein.
 # Setze den IMAP-Server @mail.riseup.net@, belasse den Port bei 993. Wenn du dich mit Riseups .onion-Dienst verbinden möchtest, "siehe unten":#benutze-tor.
 # Gib dein Riseup Login und Passwort ein.
 # Wähle für IMAP und SMTP @SSL/TLS@ *Verschlüsselung*

@@ -11,7 +11,7 @@ h2. Informationen, die wir sammeln und speichern
 
 h3. Registrierungsinformationen
 
-Bei der Erstellung von Konten speichern wir das Quartal der Registrierung. Informationen über Kontoanfragen werden nach vier Monaten gelöscht und der Einladungsstatus nach einem Monat. Wenn sie nicht von dir entfernt wird, speichern wir eine von dir vergebene alternative Emailadresse. Du kannst diese entfernen, aber dann lässt sich der Zugriff auf dein Konto nicht wiederherstellen, wenn du dein Passwort verlierst.
+Bei der Erstellung von Konten speichern wir das Quartal der Registrierung. Informationen über Kontoanfragen werden nach vier Monaten gelöscht und der Einladungsstatus nach einem Monat. Wenn sie nicht von dir entfernt wird, speichern wir eine von dir vergebene alternative E-Mailadresse. Du kannst diese entfernen, aber dann lässt sich der Zugriff auf dein Konto nicht wiederherstellen, wenn du dein Passwort verlierst.
 
 h3. Hilfe-Tickets
 
@@ -21,7 +21,7 @@ h3. Sitzungsschlüssel
 
 Während einer Sitzung speichern wir temporäre Sitzungsidentifikatoren auf unserem Computer, die von unserer Software benutzt wird, um den Status der Authentifzierung zu prüfen. Dieser wird sofort gelöscht, wenn du dich ausloggst, oder die Sitzung ausläuft. Wir benutzen keinerlei Cookies von Drittanbietern oder irgendeine Art von Tracking.
 
-h3. Emailtransportlogs
+h3. E-Mailtransportlogs
 
 Um zu erkennen, ob unsere Server mittels "Spambomben" angegriffen werden, oder wenn ein Spammer unsere Systeme benutzt, speichern wir die "Von"- und "An"-Kopfzeile jeder weitergeleiteten Nachricht. Diese Logs werden täglich gelöscht.
 
@@ -41,7 +41,7 @@ Dein Webbrowser kommuniziert eindeutig identifzierende Informationen an alle Web
 
 h3. Metadaten von Nachrichten
 
-Immer wenn Ende-zu-Ende-Verschlüsselung mit OpenPGP für Nachrichten benutzt wird, können der Emailbetreff und Routinginformationen der Nachricht wie "Von" und "An" von unseren Servern im Klartext gesehen werden, wenn die Nachricht bei uns ankommt. Das liegt an Limitierungen des Emailprotokolls und von OpenPGP.
+Immer wenn Ende-zu-Ende-Verschlüsselung mit OpenPGP für Nachrichten benutzt wird, können der E-Mailbetreff und Routinginformationen der Nachricht wie "Von" und "An" von unseren Servern im Klartext gesehen werden, wenn die Nachricht bei uns ankommt. Das liegt an Limitierungen des E-Mailprotokolls und von OpenPGP.
 
 h2. Wie wir gesammelte Informationen speichern und teilen
 

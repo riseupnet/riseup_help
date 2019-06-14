@@ -4,7 +4,7 @@ h2. Was ist Claws?
 
 p(pull-right). !(image-right)it_bites.png!
 
-Claws Mail war das vorinstallierte Emailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://web.archive.org/web/20161005203605/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":https://www.claws-mail.org/downloads.php?section=downloads herunterladen.
+Claws Mail war das vorinstallierte E-Mailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://web.archive.org/web/20161005203605/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":https://www.claws-mail.org/downloads.php?section=downloads herunterladen.
 
 Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt IMAP und POP, farbige Etiketten, Rechtschreibprüfung, Filter und Unterstützung für [[OpenPGP-Verschlüsselung->openpgp]]
 
@@ -18,7 +18,7 @@ Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Ko
 
 *Bei der Benutzung von Tails* wirst du ziemlich sicher den "Persistenten-Bereich":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html mit "GnuPG" und "Claws Mail" nutzen wollen.
 
-# Auf der ersten Seite Name/Alias und Emailadresse eintragen, klick auf *Vor*
+# Auf der ersten Seite Name/Alias und E-Mailadresse eintragen, klick auf *Vor*
 # [[Wähle den Servertyp POP3 oder IMAP->email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails mit mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
 # Wähle *mail.riseup.net* als "Serveradresse" (für IMAP und POP3)
 # Gib dein Login (ohne @riseup.net) und Passwort ein
@@ -59,8 +59,8 @@ Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Pers
 
 h3. Fertig!
 
-Wenn du IMAP benutzt, sollte jetzt alles automatisch funktionieren. Bei POP3 klicke auf den Knopf *Abrufen* in der Werkzeugleiste, um Emails abzurufen.
+Wenn du IMAP benutzt, sollte jetzt alles automatisch funktionieren. Bei POP3 klicke auf den Knopf *Abrufen* in der Werkzeugleiste, um E-Mails abzurufen.
 
-h2. Erhöhe deine Email-Sicherheit
+h2. Erhöhe deine E-Mail-Sicherheit
 
 <%= render :partial => 'enhance-security' %>

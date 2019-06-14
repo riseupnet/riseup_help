@@ -2,7 +2,7 @@
 
 p(pull-right). !(image-right)img/apple.mail.jpg!
 
-*Apple Mail*, auch bekannt als *mail.app* oder einfach *Mail*, ist ein proprietäres Emailprogramm für Max OSX. Es ist einfach zu bedienen, aber wir empfehlen es nicht, weil es quelloffen (Freie Software).
+*Apple Mail*, auch bekannt als *mail.app* oder einfach *Mail*, ist ein proprietäres E-Mailprogramm für Max OSX. Es ist einfach zu bedienen, aber wir empfehlen es nicht, weil es quelloffen (Freie Software).
 
 Wenn du Apple Mail benutzen willst, folgende diese Schritt. Vor der Benutzung ist zu entscheiden, ob du [[IMAP oder POP => email/clients#choose-imap-or-pop]] benutzen möchtest. Wenn du unsicher, ist wahrscheinlich IMAP besser.
 
