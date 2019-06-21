@@ -44,7 +44,7 @@ To switch to digest mode:
 * Click *Your Subscriptions* at the top.
 * Click on the name of the list you want in digest mode.
 * Click on *My Options* on the left.
-* Select *digest* from the *reception mode* pull down menu.
+* Select *digest* from the *reception mode* dropdown menu.
 * Click *update*.
 
 If you do not actually receive digests, it may be that the list administrator still needs to set the digest settings for the list. Have them make sure that the hour option is greater than 1 and no more than 22 (10pm). This option determines when the digest is sent. If it is too close to midnight, the digests won't work (a bug in the mailing list software). You can contact the list admin by sending mail to _listname_-admin@lists.riseup.net.
