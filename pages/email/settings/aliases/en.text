@@ -7,10 +7,11 @@ If you would like all email that comes to your riseup email address to be automa
 h3.  How do I forward my email to another address?
 
 # Login at https://account.riseup.net
-# Click on "email"
-# Enter the address which you would like your riseup mail forwarded to in the field marked "Forward" towards the bottom of the page
-# Click on "Save Changes"
-# *note:* you may get a strange red exclamation mark at the top of the screen. This is a bug, but as long as your forwarding email address appears on the screen, your email is being forwarded.
+# Click on "Mail Settings"
+# Enter the address which you would like your riseup mail forwarded to in the field marked "Forwarding address"
+# Click on the green "Save" button
+
+!forwarding.jpg!
 
 h2. What is an email alias?
 
@@ -29,6 +30,8 @@ You can create an alias! Here's how
 # Click on the "Aliases" tab at the top
 # Type your alias (e.g. alias@riseup.net) in the field labeled "New Alias"
 # Click the green "Create" button
+
+!aliases.jpg!
 
 If your alias is on riseup.net and is available (meaning no one has the alias or username in use), you will see a message "changes saved" and the alias appears in your list with "Send" and "Receive" tags.
 
@@ -65,4 +68,4 @@ If you use an external client, like Thunderbird, you will need to set your "From
 
 h3. How do I delete an alias?
 
-To remove an alias, simply click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
+To remove an alias, click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
