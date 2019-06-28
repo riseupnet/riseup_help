@@ -2,19 +2,20 @@
 
 h2. Qu'est-ce que faire suivre ses courriels?
 
-Si vous souhaitez que tous les courriels reçus sur votre adresse riseup soit automatiquement réexpédiés quelque part, cela consiste à faire suivre vos courriels.
+Faire suivre ses courriels signifie que tous les courriels reçus sur votre adresse Riseup vont automatiquement être réexpédiés vers une autre adresse courriel.
 
 h3. Comment faire suivre ses courriels vers une autre adresse?
 
 # Connectez-vous au https://account.riseup.net
-# Cliquez sur "Courriel"
+# Cliquez sur "Paramètres courriels"
 # Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
-# Cliquez sur "Sauvegarder les changements"
-# *note:* Il se peut que vous obteniez un étrange point d'exclamation rouge en haut de la page. Ceci est un bug. Tant que l'adresse à laquelle vous faites suivre vos courriels s'affiche à l'écran, la modification sera effective.
+# Cliquez sur le bouton vert "Sauvegarder"
+
+!forwarding.jpg!
 
 h2. Qu'est-ce qu'un alias courriel?
 
-Un alias est une adresse courriel différente mais qui redirige vers une même boîte courriel. Prennons l'exemple où vous avez un compte riseup joe_hill@riseup.net, mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
+Un alias est une adresse courriel différente mais qui redirige vers une même boîte courriel. Prenons l'exemple où vous avez un compte Riseup joe_hill@riseup.net, mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
 
 h3. Utiliser un alias pour prévenir les pourriels
 
@@ -25,8 +26,45 @@ h3. Comment créer un alias?
 Vous pouvez créer un alias! Voici comment:
 
 # Connectez-vous au https://account.riseup.net
-# Cliquez sur "Courriel"
-# Tapez NOM_DE_LALIAS@riseup.net dans la boîte "Alias"
-# Cliquez sur "Sauvegarder les changements"
+# Cliquez sur "Paramètres courriels"
+# Tapez votre alias (par exemple: alias@riseup.net) dans la boîte "Nouvel alias"
+# Cliquez sur le bouton vert "Créer"
 
-Note: si une personne utilise déjà cet alias ou cet identifiant, vous ne serez pas en mesure de choisir cet alias. Utilisez un nom différent!
+!aliases.jpg!
+
+Si votre alias est sur riseup.net et est disponible (c'est-à-dire que personne d'autre n'utilise déjà ce nom de compte), vous verrez un message indiquant "Changements acceptés" et l'alias apparaîtra dans votre liste avec les étiquettes "Envoyer" et "Recevoir".
+
+Si votre alias utilise un nom de domaine externe, vous devrez confirmer que vous avez bel et bien accès à cette adresse courriel. En plus du message "Changements acceptés", vous verrez également un message indiquant qu'un courriel de confirmation a été envoyé. L'alias s'affiche alors dans votre liste, mais avec l'étiquette "En attente de confirmation". Pour terminer le processus:
+
+# Cliquez sur le lien dans le courriel reçu
+# Quand la page s'affiche, vous recevrez un confirmation de no-reply@riseup.net
+# Cliquez sur le bouton "Continuer"
+# Votre alias sera ajouté à votre liste avec l'étiquette "Envoyer"
+
+Si vous ne recevez pas le courriel, vérifiez dans votre dossier Spam/Pourriel ou cliquez sur le bouton "Renvoyer le courriel de confirmation" dans la liste d'alias.
+
+Note:
+* L'étiquette "Envoyer" indique que votre alias peut envoyer des courriels via les serveurs de Riseup
+* L'étiquette "Recevoir" indique que votre alias peut recevoir des courriels via les serveurs de Riseup. Seuls les courriels riseup.net peuvent avoir cette fonctionnalité.
+
+h3. Comment utiliser mon alias?
+
+Cela dépend en définitive de votre client de messagerie. Dans tous les cas, il est important d'avoir complété la procédure ci-dessus.
+
+Si vous utilisez le client de messagerie en ligne:
+
+# Connectez-vous au https://mail.riseup.net
+# Cliquez sur "Paramètres" en haut à droite
+# Cliquez sur "Identités" à gauche
+# Cliquez sur le bouton "+" pour ajouter un alias
+# Remplissez les informations demandées, en utilisant votre alias dans le champ "Courriel"
+# Envoyer un courriel avec votre alias
+## Cliquez sur "Rédiger" en haut à gauche
+## Sélectionnez votre alias dans la liste déroulante près du champ "De"
+## Complétez votre courriel
+
+Si vous utilisez un client de messagerie comme Thunderbird, vous devrez changer le champ "De" dans vos courriels tout en continuant d'utiliser les paramètres de votre compte courriel principal pour l'authentification SMTP.
+
+h3. Comment supprimer un alias?
+
+Pour supprimer un alias, cliquez sur le bouton de poubelle à droite de l'alias. Vous verrez alors un message de confirmation indiquant que votre alias a été supprimé et l'alias disparaîtra de votre liste.
