@@ -1,0 +1,88 @@
+- @title = "RiseupVPN 测试"
+- @nav_title = "VPN"
+- @toc = true
+
+%img(src="riseupvpn.svg" style="float:left")
+
+%h2 什么是 VPN？
+
+%p
+  Riseup 提供的个人 VPN 服务可以帮助您加密互联网流量，以躲避网络审查或隐藏自己的真实位置。此服务先[[将你的全部流量加密发送 => how-vpn-works]]至 riseup.net 的服务器, 再通过 riseup.net 的服务器将流量发送至互联网中的目的地。
+
+%p
+  与大多数 VPN 提供商不同，Riseup 绝不记录你的 IP 地址。
+
+%p
+  Riseup 提供简单易用的 VPN 客户端 <b>RiseupVPN</b>。只需下载并点击运行&mdash;&mdash;无需设置，也无需注册账户。
+
+%p
+  目前，这只是一个测试。我们希望测试我们能否利用人们的捐赠，提供并维护一个简单易用、面向所有人的 VPN 服务。
+%p
+  <b>中国内地特别提示</b>：受中国内地防火墙影响，此 VPN 服务在内地可能无法正常使用。
+
+%h2 为什么使用 RiseupVPN？
+
+%p
+  我们坚信，让每个人都能使用诸如 VPN 或 [[security/tor]] 的服务来加密他们的互联网流量是至关重要的。这是因为，在政府、互联网提供商（ISP）和一些企业的监管下，互联网已变得透明，您的安全和隐私将受到威胁。[[RiseupVPN 将帮助您解决这一难题。 => why-is-needed]]
+
+%h2 VPN 的局限性
+
+%p
+  使用所有的 VPN 服务都将面临一些[[限制和风险 => limitations]]（例如：当地法律法规、客户端自身的安全性），因此在使用 VPN 服务前，请仔细阅读该须知，并确认您已经理解这些限制和风险。
+
+%h2 下载 RiseupVPN
+
+%a.btn-download(href="linux")
+  %img(src="linux.svg" width="48px")
+  %b GNU/Linux
+
+%a.btn-download(href="macos")
+  %img(src="apple.svg" width="48px")
+  %b macOS
+
+%a.btn-download(href="windows")
+  %img(src="windows.svg" width="48px")
+  %b Windows
+
+%a.btn-download(href="android")
+  %img(src="android.svg" width="48px")
+  %b Android
+
+%h2 使用 RiseupVPN
+
+%p
+  在 macOS、Windows 和 Linux 操作系统上，RiseupVPN 会在系统托盘（任务栏）中显示一个图标，以表明 VPN 的连接状态：
+
+%p
+  %img(src="vpn_off.png") &mdash; VPN 已关闭。
+
+%p
+  %img(src="vpn_on.png") &mdash; 已成功连接 VPN，所有流量均经过 VPN 加密。
+
+%p
+  %img(src="vpn_blocked.png") &mdash; VPN 已关闭，所有连接已被阻止。
+
+%p
+  %img(src="vpn_wait_0.png") &mdash; 正在连接 VPN，所有连接已被阻止。
+
+%p
+  点击系统托盘（任务栏）中的上述图标，即可切换 VPN 连接状态。
+
+%h2 我们需要你的帮助&mdash;&mdash;立即捐赠！
+
+= render :page => 'vpn/donate'
+
+%h2 疑难解答与技术支持
+
+= render :page => 'vpn/support'
+
+%h2 有关 Bitmask / Riseup Black 的信息
+
+%p
+  基于 Bitmask 的 VPN 服务 Riseup Black 目前已不再可用，并被 RiseupVPN 替代，RiseupVPN 保留了所有 Bitmask 的便捷功能。事实上，RiseupVPN 的构建基于 Bitmask 的代码，但 RiseupVPN 有更好的跨平台支持，同时也无需注册账户，匿名性、易用性都得到了进一步的提升
+
+%p
+  如果您已安装了 Bitmask，请在安装 RiseupVPN 之前卸载 Bitmask。
+
+%p
+  通过此系统注册的账户将最终被删除，因注册而占用的用户名将被释放。
