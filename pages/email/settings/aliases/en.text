@@ -1,18 +1,5 @@
 @title = 'Aliases and Forwarding'
 
-h2. What is email forwarding?
-
-If you would like all email that comes to your riseup email address to be automatically sent somewhere else, this is an email forward!
-
-h3.  How do I forward my email to another address?
-
-# Login at https://account.riseup.net
-# Click on "Mail Settings"
-# Enter the address which you would like your riseup mail forwarded to in the field marked "Forwarding address"
-# Click on the green "Save" button
-
-!forwarding.jpg!
-
 h2. What is an email alias?
 
 An alias is a different email address that is delivered to the same mailbox. So, you might have the riseup account joe_hill@riseup.net, but you want the new address maydaychicago@riseup.net as the contact address for an action. Emails sent to the alias will go to your account's mailbox.
@@ -69,3 +56,16 @@ If you use an external client, like Thunderbird, you will need to set your "From
 h3. How do I delete an alias?
 
 To remove an alias, click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
+
+h2. What is email forwarding?
+
+If you would like all email that comes to your riseup email address to be automatically sent somewhere else, this is an email forward!
+
+h3.  How do I forward my email to another address?
+
+# Login at https://account.riseup.net
+# Click on "Mail Settings"
+# Enter the address which you would like your riseup mail forwarded to in the field marked "Forwarding address"
+# Click on the green "Save" button
+
+!forwarding.jpg!

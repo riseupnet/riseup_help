@@ -1,18 +1,4 @@
 @title = 'Les alias et faire suivre ses courriels'
-
-h2. Qu'est-ce que faire suivre ses courriels?
-
-Faire suivre ses courriels signifie que tous les courriels reçus sur votre adresse Riseup vont automatiquement être réexpédiés vers une autre adresse courriel.
-
-h3. Comment faire suivre ses courriels vers une autre adresse?
-
-# Connectez-vous au https://account.riseup.net
-# Cliquez sur "Paramètres courriels"
-# Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
-# Cliquez sur le bouton vert "Sauvegarder"
-
-!forwarding.jpg!
-
 h2. Qu'est-ce qu'un alias courriel?
 
 Un alias est une adresse courriel différente mais qui redirige vers une même boîte courriel. Prenons l'exemple où vous avez un compte Riseup joe_hill@riseup.net, mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
@@ -68,3 +54,16 @@ Si vous utilisez un client de messagerie comme Thunderbird, vous devrez changer 
 h3. Comment supprimer un alias?
 
 Pour supprimer un alias, cliquez sur le bouton de poubelle à droite de l'alias. Vous verrez alors un message de confirmation indiquant que votre alias a été supprimé et l'alias disparaîtra de votre liste.
+
+h2. Qu'est-ce que faire suivre ses courriels?
+
+Faire suivre ses courriels signifie que tous les courriels reçus sur votre adresse Riseup vont automatiquement être réexpédiés vers une autre adresse courriel.
+
+h3. Comment faire suivre ses courriels vers une autre adresse?
+
+# Connectez-vous au https://account.riseup.net
+# Cliquez sur "Paramètres courriels"
+# Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
+# Cliquez sur le bouton vert "Sauvegarder"
+
+!forwarding.jpg!

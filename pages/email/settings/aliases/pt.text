@@ -1,17 +1,5 @@
 @title = 'Atalhos e Redirecionamento'
 
-h2. O que é redirecionamento de e-mails?
-
-Se você quiser, as mensagens que chegam ao seu endereço de e-mail Riseup podem ser redirecionadas, isto é, encaminhadas automaticamente para outro endereço.
-
-h3.  Como redirecionar meus e-mails para outro endereço?
-
-# Faça login em https://account.riseup.net
-# Clique em "Email"
-# Insira o endereço de e-mail para o qual suas mensagens serão redirecionadas no campo "Redirecionar"
-# Clique em "Salvar alterações"
-# *Lembrete:* Pode ser que apareça um ponto de exclamação vermelho no topo da página. Isso é um bug. Porém se o endereço especificado continuar a aparecer na tela, isso significa que seus e-mails já estão sendo redirecionados.
-
 h2. O que é um atalho de e-mail?
 
 Um atalho é um outro endereço de e-mail para a caixa de entrada da sua conta. Por exemplo, você pode já ter a conta joao_neves@riseup.net, mas querer cadastrar uma nova - maydaychicago@riseup.net - para servir de e-mail de contato de um evento que está organizando. As mensagens enviadas para o atalho serão entregues na sua caixa de entrada.
@@ -30,3 +18,15 @@ Você pode criar um atalho seguindo as instruções abaixo
 # Clique em "Salvar alterações"
 
 Lembrete: Se o endereço que você quer já estiver em uso, ele não poderá ser seu atalho. Tente um nome diferente!
+
+h2. O que é redirecionamento de e-mails?
+
+Se você quiser, as mensagens que chegam ao seu endereço de e-mail Riseup podem ser redirecionadas, isto é, encaminhadas automaticamente para outro endereço.
+
+h3.  Como redirecionar meus e-mails para outro endereço?
+
+# Faça login em https://account.riseup.net
+# Clique em "Email"
+# Insira o endereço de e-mail para o qual suas mensagens serão redirecionadas no campo "Redirecionar"
+# Clique em "Salvar alterações"
+# *Lembrete:* Pode ser que apareça um ponto de exclamação vermelho no topo da página. Isso é um bug. Porém se o endereço especificado continuar a aparecer na tela, isso significa que seus e-mails já estão sendo redirecionados.
