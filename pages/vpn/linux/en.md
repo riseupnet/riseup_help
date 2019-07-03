@@ -25,6 +25,7 @@ If the link above does not work for you, you can also install via the command li
 ```
 sudo snap install --classic riseup-vpn
 ```
+If you get an error stating that "python" is missing from /usr/bin/env, you need to install python. This is the case for instance in Lubuntu, at least since version 19.04.
 
 ## Troubleshooting
 
