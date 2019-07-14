@@ -1,16 +1,22 @@
 @title = 'Aliases and Forwarding'
 
-h2. What is an email alias?
+h2. Email aliases
 
-An alias is a different email address that is delivered to the same mailbox. So, you might have the riseup account joe_hill@riseup.net, but you want the new address maydaychicago@riseup.net as the contact address for an action. Emails sent to the alias will go to your account's mailbox.
+An alias is a different email address that, in different situations, can be used to send and receive emails without creating a new Riseup account.
 
-h3. Using aliases to prevent spam
+For example, if you need to use an email address when you sign up on a website, instead of using your normal email address, you can create an alias and use that instead. That way you will know if that site starts spamming you, and if you ever want to stop receiving emails from them, you can delete that alias.
 
-If you need to use an email address when you sign up on some site, instead of using your normal email address, you can create an alias and use that instead. That way you will know if that site starts spamming you, and if you ever want it to stop, you can just destroy that alias, without it affecting your main email account. Sneaky!
+h3. Receiving and sending emails with a riseup alias
 
-h3. How do I create an alias?
+If you add a riseup.net alias to your account, mails sent to that address will be delivered to your account's mailbox.
 
-You can create an alias! Here's how
+For example, your account might be joe_hill@riseup.net, but you want to use the address maydaychicago@riseup.net as the contact address for an action. Emails sent to the maydaychicago@riseup.net alias will go to your joe_hill@riseup.net mailbox.
+
+You can also send mails using that alias as your "From" address.
+
+h3. How do I create a new alias?
+
+To create a new alias:
 
 # Login to https://account.riseup.net
 # Click on "Mail Settings" on the left
@@ -18,50 +24,57 @@ You can create an alias! Here's how
 # Type your alias (e.g. alias@riseup.net) in the field labeled "New Alias"
 # Click the green "Create" button
 
+If the alias you chose is available, the alias will appears in your list with "Send" and "Receive" tags.
+
 !aliases.jpg!
 
-If your alias is on riseup.net and is available (meaning no one has the alias or username in use), you will see a message "changes saved" and the alias appears in your list with "Send" and "Receive" tags.
+h3. How do I delete an alias?
 
-If your alias is external, you will need to confirm you have access to the email. In addition to the "changes saved" message is also a message that a confirmation email has been sent. Additionally, the alias appears in your list with a "Confirmation Pending" tag. To finish the process:
+To remove an alias, click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
 
-# Click on the link in the email
-# Upon loading the page, you will get a confirmation from no-reply@riseup.net
-# Click the "Continue" button
-# Your alias list will be display with the alias having a "Send" tag
+h3. How do I configure my email client to send emails using my alias?
 
-If you did not get the email, check Spam/Junk folders or click the "Resend Confirmation Email" button in the alias list.
-
-Note:
-* The "Send" tag means that alias is authorized to send mail via riseup servers
-* The "Receive" tag means that alias is authorized to receive mail through riseup servers. Riseup only offers this for riseup.net addresses
-
-h3. How do I use my alias?
-
-This will depend on the email client you use, but make sure you have already created your alias as above before proceeding.
-
-If you use webmail:
+This will depend on the email client you use. If you use the Riseup webmail, follow these steps:
 
 # Login to https://mail.riseup.net
 # Click "Settings" on the top right
 # Click "Identities" on the left
 # Click the "+" to add an alias
 # Fill out the fields as appropriate, ensuring to at least add the alias to the "Email" field
-# Send mail with your alias 
+# Send mails with your alias
 ## Click on "Send" at the top left
 ## Select your alias from the dropdown list labeled "From"
 ## Complete the email like normal
 
-If you use an external client, like Thunderbird, you will need to set your "From" header to your alias but set up your SMTP to authenticate with your regular email address.
+If you use another client, like Thunderbird, you will need to set your "From" header to your alias. Your SMTP settings still need to use your regular email address for authentication.
 
-h3. How do I delete an alias?
+h3. Advanced usage
 
-To remove an alias, click the trash button to the right of an alias. You will get a message saying "changes saved" and the alias will disappear from your list.
+Riseup also allows registering aliases for other 3rd party domains. **This is an advanced usage and we don't recommend you try to do it** if you are not familiar with advanced email internals. If you misconfigure your 3rd party alias, **it is possible that you will lose mails sent to you**.
 
-h2. What is email forwarding?
+When you add a new 3rd party alias, you will need to confirm you have access to the email by clicking on a confirmation link sent to you by Riseup. If you do not get the email, check your Spam/Junk folder or click the "Resend Confirmation Email" button in the alias list.
 
-If you would like all email that comes to your riseup email address to be automatically sent somewhere else, this is an email forward!
+h4. Receiving emails with a 3rd party alias
 
-h3.  How do I forward my email to another address?
+If you add an alias for a domain other than riseup.net, mails sent to that address will not automatically arrive in your riseup account. If you setup an email forward to your riseup.net address, this let you receive mails.
+
+Note that mails coming from 3rd party aliases will always pass through that 3rd party servers first and will be subject to their filtering and surveillance policies.
+
+Also note that even if you properly setup this feature on your side, the "Receive" tag in the alias list won't show up for 3rd party aliases. This is reserved for riseup.net aliases, since Riseup servers are not the primary destination of mails sent to 3rd party aliases.
+
+h4. Sending emails with a 3rd party alias
+
+If you add an alias for a domain other than riseup.net, Riseup will let you send from your mail client using that address.
+
+Some modern spam blocking technologies like [[SPF -> https://en.wikipedia.org/wiki/Sender_Policy_Framework]] and [[DKIM -> https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail]] are often used to control what servers are officially allowed to send mails from a domain.
+
+If your alias is on a domain that has these configured, most servers on the internet will refuse the mail even though Riseup lets you attempt sending emails with it.
+
+h2. Email forwarding
+
+With email forwarding, you can automatically forward all emails sent to your riseup email address to another email address.
+
+You can setup email forwarding by following these steps:
 
 # Login at https://account.riseup.net
 # Click on "Mail Settings"
