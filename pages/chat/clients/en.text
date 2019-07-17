@@ -20,29 +20,29 @@ table(table table-striped).
 |_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. MUC? |_. Comments |
 | [[Gajim -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | No | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
 | [[Gajim 0.16.x -> https://gajim.org]] | GNU/Linux, Windows, FreeBSD | *Yes* | No | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in Python and GTK+. |
-| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *?* | Open source. Nice cross-platform chat client written in C++ and Qt. |
-| [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *?* | Open source. Nice cross-platform chat client written in C++ and Qt. Development version of Psi |
-| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Yes* | No | No | *Yes* | *Yes* | *Yes* | *No* | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
-| [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | *?* | Open source. A very good chat client for iOS. Native Tor support. |
+| [[Psi -> https://psi-im.org]] | GNU/Linux, Windows, macOS | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. |
+| [[Psi+ -> https://psi-plus.com]] | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Yes* | *Yes* | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | *Yes* | Open source. Nice cross-platform chat client written in C++ and Qt. Development version of Psi |
+| [[CoyIM -> https://coy.im]] | GNU/Linux, Windows, macOS | *Yes* | No | No | *Yes* | *Yes* | *Yes* | No | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
+| [[ChatSecure -> https://chatsecure.org]] | Android, F-Droid, iOS | *Yes* | *Yes* | No | *Yes* | *Yes* | *Yes* | ? | Open source. A very good chat client for iOS. Native Tor support. |
 | [[Conversations -> https://conversations.im]] | Android | No | *Yes* | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 | [[Conversations Legacy -> https://conversations.im]] | Android | *Yes* | No | No | *Yes* | *Yes* | *Yes* | *Yes* | Open source. A very good chat client for Android. Supports encrypted group chats! |
 
 h2. Other clients
 
 table(table table-striped).
-|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. Comments |
-| [[Adium]] | macOS | *Yes* | *Yes* (Plugin) | No | *Yes* | *Yes* | Partial | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
-| [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Yes* | No | *Yes* | ? | *Yes* | ? | Open source. Written in Java. |
-| [[Miranda -> https://miranda-im.org]] | Windows | *Yes* | No | No | ? | ? | ? | Open source. Stable client with many plugins. |
-| [[Miranda NG -> https://miranda-ng.org]] | Windows | *Yes* | No | No | ? | ? | ? | Open source. Stable client with many plugins. |
-| [[Pidgin]] | GNU/Linux, Windows, macOS | *Yes* (Plugin) | *Yes* (Plugin) | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | Open source. Stable with many features. Make sure to use most the current version! |
-| [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Yes* | No | *Yes* | ? | ? | ? | Open source. Written in Java. |
+|_. Client |_. Supported OS |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. TLS? |_. Tor? |_. MUC? |_. Comments |
+| [[Adium]] | macOS | *Yes* | *Yes* (Plugin) | No | *Yes* | *Yes* | Partial | ? | Open source. Lack of updates cause for security concern. DNS and URL hovering information leaks. |
+| [[Jitsi -> https://jitsi.org]] | GNU/Linux, Windows, macOS | *Yes* | No | *Yes* | ? | *Yes* | ? | ? | Open source. Written in Java. |
+| [[Miranda -> https://miranda-im.org]] | Windows | *Yes* | No | No | ? | ? | ? | ? | Open source. Stable client with many plugins. |
+| [[Miranda NG -> https://miranda-ng.org]] | Windows | *Yes* | No | No | ? | ? | ? | ? | Open source. Stable client with many plugins. |
+| [[Pidgin]] | GNU/Linux, Windows, macOS | *Yes* (Plugin) | *Yes* (Plugin) | *Yes* (Linux) | *Yes* | *Yes* | *Yes* | ? | Open source. Stable with many features. Make sure to use most the current version! |
+| [[Spark -> https://igniterealtime.org/projects/spark/]] | GNU/Linux, Windows, macOS | *Yes* | No | *Yes* | ? | ? | ? | ? | Open source. Written in Java. |
 
 h2. Clients to avoid
 
 table(table table-striped).
-|_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. Comments |
-| [[Beem -> https://beem-project.com]] | Android | No | No | No | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
-| [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | Open source. Stable and easy to use. |
-| [[iChat -> https://www.apple.com]] | macOS | No | No | No | ? | ? | ? | Apple's built-in chat application has limited XMPP support. |
-| [[Pandion -> https://pandion.im]] | Windows | No | No | No | ? | ? | ? | Open source. Nice stable windows XMPP client. |
+|_. Client |_. OS supportés |_. OTR? |_. OMEMO? |_. Jingle? |_. Proxy? |_. SSL/TLS? |_. Tor? |_. MUC? |_. Comments |
+| [[Beem -> https://beem-project.com]] | Android | No | No | No | ? | ? | ? | ? | Open source. Stable native android app. Does not support group chats. |
+| [[Empathy -> https://live.gnome.org/Empathy]] | GNU/Linux | No | No | *Yes* | *Yes* (GNOME) | *Yes* (GNOME) | ? | ? | Open source. Stable and easy to use. |
+| [[iChat -> https://www.apple.com]] | macOS | No | No | No | ? | ? | ? | ? | Apple's built-in chat application has limited XMPP support. |
+| [[Pandion -> https://pandion.im]] | Windows | No | No | No | ? | ? | ? | ? | Open source. Nice stable windows XMPP client. |
