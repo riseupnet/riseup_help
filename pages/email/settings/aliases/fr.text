@@ -1,57 +1,40 @@
-@title = 'Les alias et faire suivre ses courriels'
+@title = 'Les alias et le réacheminement des courriels'
 
-h2. Qu'est-ce que faire suivre ses courriels?
+h2. Alias courriel
 
-Faire suivre ses courriels signifie que tous les courriels reçus sur votre adresse Riseup vont automatiquement être réexpédiés vers une autre adresse courriel.
+Un alias est une adresse courriel différente qui, dans certains cas, peut-être utilisée pour envoyer et recevoir des courriels sans créer un nouveau compte Riseup.
 
-h3. Comment faire suivre ses courriels vers une autre adresse?
+Par exemple, si vous avez besoin d'utiliser une adresse courriel pour vous inscrire sur certains sites webs, vous pouvez créer un alias et utiliser votre alias à la place de votre adresse régulière. De cette manière, vous saurez si ce site commence à vous envoyer des pourriels et si jamais vous voulez que cela cesse, vous n'avez qu'à détruire l'alias.
 
-# Connectez-vous au https://account.riseup.net
-# Cliquez sur "Paramètres courriels"
-# Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
-# Cliquez sur le bouton vert "Sauvegarder"
+h3. Recevoir et envoyer des courriels avec un alias riseup
 
-!forwarding.jpg!
+Si vous ajoutez un alias riseup.net à votre compte, les courriels envoyés à cette adresse apparaîtront dans la boîte de réception de votre compte.
 
-h2. Qu'est-ce qu'un alias courriel?
+Par exemple, vous avez un compte Riseup joe_hill@riseup.net mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
 
-Un alias est une adresse courriel différente mais qui redirige vers une même boîte courriel. Prenons l'exemple où vous avez un compte Riseup joe_hill@riseup.net, mais vous souhaitez utiliser la nouvelle adresse maydaychicago@riseup.net comme contact pour une action. Les courriels envoyés à l'alias iront dans la boîte courriel de votre compte.
+Vous pouvez également envoyer des courriels en utilisant votre alias.
 
-h3. Utiliser un alias pour prévenir les pourriels
+h3. Comment créer un nouvel alias?
 
-Si vous avez besoin d'utiliser une adresse courriel pour vous inscrire à certains sites, vous pouvez créer un alias et utiliser cette adresse à la place de votre courriel normal. De cette manière, vous saurez si ce site commence à vous envoyer des pourriels et si jamais vous voulez que cela cesse, vous n'avez qu'à détruire l'alias. Cela n'affectera pas votre compte principal. Rusé!
-
-h3. Comment créer un alias?
-
-Vous pouvez créer un alias! Voici comment:
+Pour créer un alias:
 
 # Connectez-vous au https://account.riseup.net
 # Cliquez sur "Paramètres courriels"
+# Cliquez sur l'onglet "Alias" en haut de la page
 # Tapez votre alias (par exemple: alias@riseup.net) dans la boîte "Nouvel alias"
 # Cliquez sur le bouton vert "Créer"
 
+Si l'alias choisi est disponible, ce dernier apparaîtra dans votre liste avec les étiquettes "Envoyer" et "Recevoir".
+
 !aliases.jpg!
 
-Si votre alias est sur riseup.net et est disponible (c'est-à-dire que personne d'autre n'utilise déjà ce nom de compte), vous verrez un message indiquant "Changements acceptés" et l'alias apparaîtra dans votre liste avec les étiquettes "Envoyer" et "Recevoir".
+h3. Comment supprimer un alias?
 
-Si votre alias utilise un nom de domaine externe, vous devrez confirmer que vous avez bel et bien accès à cette adresse courriel. En plus du message "Changements acceptés", vous verrez également un message indiquant qu'un courriel de confirmation a été envoyé. L'alias s'affiche alors dans votre liste, mais avec l'étiquette "En attente de confirmation". Pour terminer le processus:
+Pour supprimer un alias, cliquez sur le bouton de poubelle à droite de l'alias. Vous verrez alors un message de confirmation indiquant que votre alias a été supprimé et l'alias disparaîtra de votre liste.
 
-# Cliquez sur le lien dans le courriel reçu
-# Quand la page s'affiche, vous recevrez un confirmation de no-reply@riseup.net
-# Cliquez sur le bouton "Continuer"
-# Votre alias sera ajouté à votre liste avec l'étiquette "Envoyer"
+h3. Comment configurer mon client de messagerie pour envoyer des courriels avec mon alias?
 
-Si vous ne recevez pas le courriel, vérifiez dans votre dossier Spam/Pourriel ou cliquez sur le bouton "Renvoyer le courriel de confirmation" dans la liste d'alias.
-
-Note:
-* L'étiquette "Envoyer" indique que votre alias peut envoyer des courriels via les serveurs de Riseup
-* L'étiquette "Recevoir" indique que votre alias peut recevoir des courriels via les serveurs de Riseup. Seuls les courriels riseup.net peuvent avoir cette fonctionnalité.
-
-h3. Comment utiliser mon alias?
-
-Cela dépend en définitive de votre client de messagerie. Dans tous les cas, il est important d'avoir complété la procédure ci-dessus.
-
-Si vous utilisez le client de messagerie en ligne:
+Cela dépend en définitive de votre client de messagerie. Si vous utilisez le client de messagerie en ligne de Riseup, suivez ces étapes:
 
 # Connectez-vous au https://mail.riseup.net
 # Cliquez sur "Paramètres" en haut à droite
@@ -63,8 +46,39 @@ Si vous utilisez le client de messagerie en ligne:
 ## Sélectionnez votre alias dans la liste déroulante près du champ "De"
 ## Complétez votre courriel
 
-Si vous utilisez un client de messagerie comme Thunderbird, vous devrez changer le champ "De" dans vos courriels tout en continuant d'utiliser les paramètres de votre compte courriel principal pour l'authentification SMTP.
+Si vous utilisez un autre client de messagerie, comme Thunderbird, vous devrez changer le champ "De" dans vos courriels. Vos paramètres SMTP doivent continuer d'utiliser les paramètres de votre compte courriel principal pour l'authentification.
 
-h3. Comment supprimer un alias?
+h3. Utilisation avancée
 
-Pour supprimer un alias, cliquez sur le bouton de poubelle à droite de l'alias. Vous verrez alors un message de confirmation indiquant que votre alias a été supprimé et l'alias disparaîtra de votre liste.
+Riseup permet également d'enregistrer des alias pour des domaines externes. **Ceci est un usage avancé et n'est pas recommandé** à moins d'avoir une connaissance intime des technicités des adresses courriel. Si vous ne configurez pas correctement un alias externe, **il est possible que vous perdiez des courriels qui vous sont envoyés**.
+
+Quand vous ajoutez un nouvel alias externe, il est nécessaire de confirmer que vous avez accès à l'adresse courriel en cliquant sur le lien de confirmation qui vous est envoyé par Riseup. Si vous ne recevez pas le courriel, vérifiez dans votre dossier Spam/Pourriel ou cliquez sur le bouton "Renvoyer le courriel de confirmation" dans la liste d'alias.
+
+h4. Recevoir des courriels avec un alias externe
+
+Si vous ajoutez un alias pour un autre domaine que riseup.net, les courriels envoyés à cette adresse ne seront pas automatiquement acheminés dans votre compte riseup. Si vous paramétrez un réacheminement de courriel vers votre adresse riseup.net, vous recevrez les courriels dans votre boîte de réception.
+
+Veuillez prendre note que les courriels provenant d'alias externes passent tout d'abord par des serveurs externes et sont donc sujet aux filtres et aux politiques de surveillances de ces derniers.
+
+Veuillez également prendre note que même si vous configurez correctement cette fonctionnalité, l'étiquette "Recevoir" dans la liste d'alias n'apparaitra pas pour les alias externes. Cette étiquette est réservée aux alias riseup.net, car les serveurs de Riseup ne sont pas la destination primaire des courriels envoyés sur des alias externes.
+
+h4. Envoyer des courriels avec un alias externe
+
+Si vous ajoutez un alias pour un autre domaine que riseup.net, Riseup vous permettra d'envoyer des courriels à partir de cette adresse.
+
+Certains mécanismes modernes de bloquage des pourriels comme [[SPF -> https://fr.wikipedia.org/wiki/Sender_Policy_Framework]] and [[DKIM -> https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail]] sont souvent utilisés pour contrôler quels serveurs peuvent officiellement envoyer des courriels associés à un domaine.
+
+Si votre alias est sur un domaine où ces technologies sont configurées, la plupart des serveurs en ligne refuseront les courriels envoyés même si Riseup vous laisse envoyer des courriels avec cet alias.
+
+h2. Réacheminement des courriels?
+
+Avec le réacheminement des courriels, les courriels reçus sur votre adresse Riseup peuvent automatiquement être réexpédiés vers une autre adresse courriel.
+
+Vous pouvez configurer le réacheminement des courriels en suivant ces étapes:
+
+# Connectez-vous au https://account.riseup.net
+# Cliquez sur "Paramètres courriels"
+# Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
+# Cliquez sur le bouton vert "Sauvegarder"
+
+!forwarding.jpg!
