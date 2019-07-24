@@ -1,0 +1,84 @@
+@title = 'Alias ed inoltro dei messaggi'
+
+h2. Alias delle email
+
+Un alias è un indirizzo di posta diverso dal tuo che, in varie situazioni, può essere usato per inviare e ricevere email senza creare un nuovo account Riseup.
+
+Per esempio, se hai bisogno di un indirizzo per iscriverti ad un sito web, invece di usare il tuo normale indirizzo di posta elettronica, puoi creare un alias e usarlo al suo posto. In questo modo saprai se dal sito iniziano ad inviarti spam e quando vorrai smettere di ricevere messaggi da loro, potrai eliminare quell'alias.
+
+h3. Inviare e ricevere posta usando un alias Riseup
+
+Se aggiungi un alias riseup.net al tuo account, i messaggi inviati a quell'indirizzo verranno recapitati nella casella del tuo account.
+
+Per esempio, il tuo account potrebbe essere joe_hill@riseup.net, ma tu potresti voler usare l'indirizzo maydaychicago@riseup.net come indirizzo di contatto per un azione. I messaggi spediti all'alias maydaychicago@riseup.net andranno nella tua casella joe_hill@riseup.net.
+
+Puoi anche inviare email usando l'alias come mittente.
+
+h3. Come faccio a creare un nuovo alias?
+
+Per creare un nuovo alias:
+
+# Effettua il login su https://account.riseup.net
+# Clicca su "Mail Settings" sulla sinistra
+# Clicca sul tab "Aliases" in alto
+# Scrivi il tuo alias (ad esempio: alias@riseup.net) nel campo "New Alias"
+# Clicca il tasto verde "Create"
+
+Se l'alias che hai scelto è disponibile, esso apparirà nella tua lista con i tag "Send" e "Receive".
+
+!aliases.jpg!
+
+h3. Come faccio ad eliminare un alias?
+
+Per rimuovere un alias, clicca il tasto che raffigura un cestino che si trova alla destra dell'alias. Riceverai un messaggio che dice "changes saved" e l'alias sparirà dalla tua lista.
+
+h3. Come faccio a configurare un client di posta elettronica per spedire email usando il mio alias?
+
+Dipende dal client di posta che usi. Se usi Riseup webmail, segui questi passi:
+
+# Effettua il login su https://account.riseup.net
+# Clicca su "Settings" in alto a destra
+# Clicca "Identities" sulla sinistra
+# Clicca il "+" per aggiungere un alias
+# Compila i campi assicurandoti di aver inserito almeno l'alias nel campo "Email"
+# Per inviare messaggi con il tuo alias
+## Clicca su "Send" in alto a destra
+## Seleziona il tuo alias dalla lista del campo "From"
+## Completa il tuo messaggio come fai di solito
+
+Se usi un altro client, come ad esempio Thunderbird, dovrai impostare l'intestazione "From" con il tuo alias. Le impostazioni SMTP continueranno ad usare l'indirizzo email del tuo account per l'autenticazione.
+
+h3. Utilizzo avanzato
+
+Riseup permette anche di registrare alias per domini di terze parti. **Questo è un utilizzo di tipo avanzato e non ti raccomandiamo di provare a farlo* se non hai familiarità con il funzionamento interno della posta elettronica. In caso tu configurassi in modo errato il tuo alias di terza parte, **è possibile che tu perda le mail che ti vengono inviate**.
+
+Quando aggiungi un nuovo alias di terza parte, dovrai confermare di aver accesso alla casella di posta cliccando su un link di conferma inviato da Riseup. Se il messaggio non ti dovesse arrivare, controlla la cartella dello spam o clicca il tasto "Resend Confirmation Email" nell'elenco degli alias.
+
+h4. Ricevere email con un alias di terza parte
+
+Se aggiungi un alias per un dominio diverso da riseup.net, i messaggi inviati a quell'indirizzo non arriveranno automaticamente al tuo account riseup. Impostare l'inoltro della posta verso il tuo indirizzo riseup.net ti permetterà di ricevere i messaggi.
+
+Nota che i messaggi che arrivano da alias di terze parti, passano sempre prima per i server della terza parte e sono quindi soggetti alle loro politiche di filtraggio e sorveglianza.
+
+Nota inoltre che anche se configuri correttamente questa funzionalità, il tag "Receive" nell'elenco degli alias non verrà mostrato per gli alias di terza parte. Esso è riservato agli alias riseup.net in quanto i server Riseup non sono la destinazione primaria dei messaggi spediti agli alias di terza parte.
+
+h4. Inviare messaggi con gli alias di terza parte
+
+Se aggiungi un alias per un dominio diverso da riseup.net, Riseup ti permetterà di inviare messaggi con il tuo client usando quell'indirizzo.
+
+Alcune moderne tecnologie per bloccare lo spam come [[SPF -> https://en.wikipedia.org/wiki/Sender_Policy_Framework]] e [[DKIM -> https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail]] vengono spesso usate per controllare quali server sono ufficialmente autorizzati ad inviare messaggi da un dominio.
+
+Se il tuo alias si trova su un dominio dove queste tecnologie sono attive, molti server su internet rifiuteranno il messaggio nonostante Riseup ti permetta di inviare messaggi con esso.
+
+h2. Inoltro dei messaggi
+
+Con l'inoltro dei messaggi, puoi automaticamente inoltrare tutti i messaggi indirizzati al tuo indirizzo riseup ad un altro indirizzo di posta elettronica.
+
+Puoi impostare l'inoltro dei messaggi seguendo questi passi:
+
+# Effettua il login su https://account.riseup.net
+# CLicca su "Mail Settings"
+# Inserisci l'indirizzo al quale vuoi vengano inoltrati tutti i tuoi messaggi riseup nel campo "Forwarding address"
+# Clicca sul tasto verde "Save"
+
+!forwarding.jpg!
