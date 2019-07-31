@@ -32,22 +32,22 @@ Q: Why does the new Canary not mention gag orders, FISA court orders, National S
 A: Our initial Canary strategy was only harming users by freaking them out unnecessarily when minor events happened. A Canary is supposed to signal important risk information to users, but there is also danger in signaling the wrong thing to users or leading to general fear and confusion for no good reason. The current Canary is limited to significant events that could compromise the security of Riseup users.
 
 0. https://riseup.net/about-us/press/canary-statement
-1. https://theintercept.com/2019/04/29/family-separation-protests-surveillance/
+1. https://theintercept.com/2019/07/30/elizabeth-warren-bernie-sanders-dominate-democratic-debate/
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlzHw3UWHGNvbGxlY3Rp
-dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2jqviD/9F4zWWPyMOBrXa0GsKdNpsT6pW
-XFQwmUJG+lz/ckbo++tz3K0oqO+5R/Ml88KgGRN1AtEvmTyDUBxyTB6QXRuARgei
-MIJ8q3bMRETZoz2fDr6FlIBlrbBL8zmU8SIPSIjJJdIzmNjVNb4MZAjtgyk2y9pM
-dU0tQtW5xENmaEzWUtztnKQdeCbkws2A4i5PdoF1UnlEgOR2lF2Uulg+KnF7PEwH
-gcisbN4drN7j3LXLa3+lJT/1vAXxnSvugRp5F3J6Jnqfy2TrSH1Ty1n42wMqq1xs
-IG777GPr6dbzLddvUkbFKs02MXPNonQpPXZcqFeDcFIftlUNvLqOA1Hk1sHXUyDV
-asOvzfHr21UKKXLV0QEfS+l/ZWd/+2dxI7pT/4o9RI2NMHD+wjE0eKIjjzF+PnfZ
-ldfRaczrX3ilD9Qkzcv/9v6gll2cMebksn3FnfKFPAIcErRP/eIE4p9MN78fyF9r
-3RXBfdz8TjyM56bVlOgrEYbNO/vhZrb4K06wDRC4B5EuesloTKdP/gGk6Cz1uQRC
-PjXlJmEX3pLlY3USwZKa6TuLbu1MZXWLqO7BQld1Woj7hZkJHlCssfwNBDwbOjf1
-Sy0AoY1r5vybWtrabtH8WtVxsj59S8o69MYoYIwHotg2/K1hb3m2KSfS/Ono9FMD
-RF8N7mvo3ma7AhuJjw==
-=qPob
+iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAl1Bu0cWHGNvbGxlY3Rp
+dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2joNLD/44Addci9R0wQorynCcy8VVwcas
+GP974EXRzjdMaxcZFPL0v8rAISHF/LX4hr9ENclZJPRDO8uTwmrVrjKMNi3Mn0Sw
+jEgKPyggnW3Erxc6+IFSVa7SIVfnitswBytD/aSKaVSk9E1Gw+iYED+iv0Q30lpo
+Mty8xFCLU0aK14aspgZlq/slR+HKO6OXvPB+D+mR5Pa7sqid7MkKc7sH9qGi97Ng
+bIRsdx4Nwj8k5rz/KkaUerFG2WLF4TUjneGAqk5HyHroo/y2uhg50/kI8S8mm/53
+5GvwobgA0nHuK1mefT+gj1LzCNAGsfs3pw6sm8+g08uys0Eft65U8wlvySeL6jp2
+M1Y3+D7ma5pVipt+ATGvVkPqYcLAXyNyvYb/mZG780ptq+fnInBm2utqMCSpFKXA
+MFsk4Aus2u+JiM62wKlY/BgywKHXgomK3hAznJbWGphgDilFJRpNYmzTojpwGtbN
+gBnr/mWreSomVXEJfa07iS1f6Z3ReeONz8qSPhwvbPJ+bFgxE7jP3PtGk8j5s/ND
+vp9CmfoOqcnGJFMlUIUqMpFDQ5VsT6EE5RmfjY2sb6nOLtTQ7vfc3vpMS7bOufGp
+6XRz7yOIrCxqDzEWrUYiBethOs5pCtoZTujDpICwAIBUeSI27d+kOd+SBl8/VoWc
+qvgpceToPelFRJLUkg==
+=C1ep
 -----END PGP SIGNATURE-----
