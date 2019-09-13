@@ -1,0 +1,62 @@
+@title = 'Subscribing'
+
+h2. Wie melde ich mich von einer Liste ab?
+
+Die einfachste Möglichkeit ist eine Email an:
+
+p(alert alert-info). *_listname_-unsubscribe@lists.riseup.net*
+
+Dabei ist  _listname_ der Name der Liste, von der Du Dich abmelden möchtest.
+
+Falls das nicht funktionieren sollte ist die wahrscheinlichste Ursache, dass die 'unsubscribe'-Email von einem anderen Email-Account aus  gesendet wurde als dem, für das das Listen-Abonnement eingerichtet wurde. Wenn möglich stelle also bitte sicher, dass Du die 'unsubscribe'-Email von dem Email-Account, für den das Listen-Abo eingerichtet ist, gesendet wird. Falls das nicht möglich ist verfahre bitte folgendermaßen:
+
+
+# Logge Dich auf  https://lists.riseup.net ein, benutze dabei die Email-Adresse, für die Du die Liste abonniert hast. Falls Du kein Passwort kennst, folge den Links auf der Seite, damit Du eins (oder ein neues) zugeschickt bekommst.
+# Wenn Du eingeloggt bist, Klicke "Deine Abonnements" oben auf der Seite
+# Klicke auf den Namen der Liste, von der Du Dich abmelden möchtest.
+# Klicke auf *Abbestellen*
+
+h2.  Wie melde ich mich bei einer Mailingliste an?
+
+Am einfachsten schickst Du eine leere Email an:
+
+p(alert alert-info). *_listname_-subscribe@lists.riseup.net*
+
+Dabei ist  _listname_ der Name der Liste, bei der Du Dich anmelden möchtest.
+
+Stelle bitte sicher, dass der Email-Account, von dem aus Du die Email schickst, derjenige ist, für den Du die Liste Abonnieren möchtest.
+
+Falls das nicht funktioniert musst Du eine andere Methode benutzen:
+
+# [[Account einrichten->https://lists.riseup.net/www/remindpasswd]]
+# Einloggen
+# Suche nach der gewünschten Liste und öffne die Listen-Hompage
+# Klicke auf *Anmelden*
+
+h2.  Wie kann ich eine Zusammenfassung erhalten?
+
+Im 'Zusammenfassungs-Modus' bekommst Du viele Postings an die Liste in einer Email zusammengefasst statt als separate Emails. Der Listen-Administrator hat festgelegt, ob Dein Account Zusammenfassungen empfangen kann und über welchen Zeitraum Postings zusammengefasst werden.
+
+Um in den Zusammenfassungs-Modus zu wechseln:
+
+* Logge dich mit Deinem Listenaccount ein. Wenn Du keinen Listenaccount hast, trage Deine Emailadresse in das "Passwort-Erinnerung" – Formblatt ein und klicke dann auf 'Neues Passwort beantragen'
+* Klicke auf *Verwaltung Ihrer Abonnements* oben links auf der Seite.
+* Klicke auf den Namen der Liste, für die der Zusammenfassungs-Modus eingerichtet werden soll
+* Klicke links auf  *Abonnementoptionen*
+* Wähle *Zusammenfassungs-Modus* im *Empfangsmodus* Dropdown-Menü.
+* Klicke *Aktualisieren*.
+
+Falls Du dann keine Zusammenfassungen erhältst könnte es sein, dass der Listen-Administrator noch die Zusammenfassungs-Optionen für die Liste einrichten muss. Die Uhrzeit für das Zusammenfassungsintervall muss größer als eins und kleiner gleich 22 (10 Uhr abends) sein. Diese Option legt fest, wann die Zusammenfassung gesendet wird. Liegt die gewählte Zeit zu nah an Mitternacht wird die Zusammenfassung nicht funktionieren (ein Bug in der Mailinglisten-Software). Du Kannst den Listen-Administrator mit einer Email an _listname_-admin@lists.riseup.net kontaktieren.
+
+h2. Wie kann ich in den no-mail-Modus wechseln?
+
+Manchmal ist es gewünscht, eine Liste abonniert zu haben, aber keine Emails von der Liste zu bekommen. Beispielsweise, wenn die Liste für mehrere Deiner Email-Accounts abonniert ist, Du aber nur auf einem Account Emails von der Liste empfangen möchtest. Der Wechsel in den „no-mail“-Modus erfolgt folgendermaßen:
+
+* Logge dich mit Deinem Listenaccount ein. Wenn Du keinen Listenaccount hast, trage Deine Emailadresse in das "Passwort-Erinnerung":form – Formblatt ein und klicke dann auf 'Neues Passwort beantragen'
+* Klicke auf *Verwaltung Ihrer Abonnements* oben links auf der Seite.
+* Klicke auf den Namen der Liste, für die der Zusammenfassungs-Modus eingerichtet werden soll
+* Klicke links auf  *Abonnementoptionen*
+* Wähle *no mail*  im *Empfangsmodus* Dropdown-Menü.
+* Klicke *Aktualisieren*.
+
+[form]https://lists.riseup.net/www/remindpasswd
