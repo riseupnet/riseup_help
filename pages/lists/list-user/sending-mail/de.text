@@ -1,0 +1,96 @@
+@title = 'Email Senden'
+
+h2.  Warum ist meine Email nicht im Archiv zu sehen?
+
+Emails werden nicht sofort archiviert, sei geduldig, sie wird wahrscheinlich in kürze dort erscheinen. In Ausnahmefällen bleiben Emails verschollen, dann ist ein Rebuild des Archivs erforderlich. Sofern sich das als erforderlich herausstellen sollte  [[fülle bitte ein Support-Ticket aus->https://support.riseup.net/en/topics/new]].
+
+h2.  Warum wird meine Mail mit der Begründung, sie sei zu groß, zurückgewiesen?
+
+Derzeit ist die maximale Email-Größe auf 500kB begrenzt, was wir für mehr als ausreichend halten. Große Anhänge beanspruchen für wenig tatsächlichen Vorteil erhebliche Computer-Ressourcen. Sie sind lästig für Nutzer, die sie herunterladen müssen, und oft werden diese Anhänge von der Mehrzahl der Listennutzer gar nicht benötigt. Bitte nutze stattdessen [[shared web documents->web-space]].
+
+h2.  Warum wurde meine Email dem Moderator zur Bestätigung vorgelegt und/oder zurückgewiesen?
+
+Es gibt mehrere mögliche Gründe
+
+* Ich habe die Liste nicht abonniert.
+
+** Die meisten Listen erlauben nur Mitgliedern/Abonnenten, Emails zu senden. Sie müssen die Liste abonnieren, indem sie  [[diese Schritte ausführen->subscribing#how-do-i-subscribe-to-a-list]].
+
+* Ich habe die Liste abonniert (heißt: Du bekommst Nachrichten von der Liste), aber meine gesendeten Nachrichten werden dem Moderator vorgelegt
+
+** Wahrscheinlich hat der Listen-Administrator die Liste so konfiguriert, das Nachrichten an die Liste stets der Bestätigung durch den Moderator bedürfen. Wenn Du der Ansicht bist, das solle geändert werden, schicke eine Email an
+
+*listname-admin@lists.riseup.net*und bitte den Admin, das zu ändern.
+
+** Eventuell schickst Du die Nachrichten aber auch von einer anderen Emailadresse als der, auf der Du Emails von der Liste bekommst. Beispiel: Du hast 2 Email-Accounts *email1@riseup.net*, und *email2@gmail.com*.  Email1 hat die Liste abonniert, Email2 aber nicht. Sendest du nun von Email2 an die Liste, wird die Nachricht bis zur Bestätigung durch den Moderator zurückgehalten. Um das Problem abzustellen, abonniere die Liste für Email2! Ändere die Einstellung für Email2 auf  [[no mail mode->subscribing#how-do-i-switch-to-no-mail-mode]]. Du wirst Nachrichten nur auf Email1 erhalten, kannst aber sowohl von Email1 als auch von Email2 Nachrichten an die Liste schicken.
+
+h2.  Wie kann ich Kontakt zum Listenbesitzer (Listowner) aufnehmen?
+
+Um Kontakt zu einem Listowner aufzunehmen, schicke eine Email an an _listname_-admin@lists.riseup.net. Um Moderatoren zu kontaktieren schicke eine Email an _listname_-editor@lists.riseup.net.
+
+h2. Wie kann ich HTML-Mails an die Liste schicken?
+
+Es ist möglich, HTML-Emails an riseup.net  Listen zu schicken. Aber bitte überdenke zunächst, ob das wirklich notwendig ist.
+
+* HTML-Emails sind unsicher! Aufgrund viele Verwundbarkeiten inklusive [[Session Hijacking->https://de.wikipedia.org/wiki/Session_Hijacking]], [[Session Fixation->https://de.wikipedia.org/wiki/Session_Fixation]], [[Webtracking->https://de.wikipedia.org/wiki/Web_Analytics]] ist es ist sehr schwierig, HTML-Email-Verkehr sicher und mit optimalem Datenschutz zu realisieren. Zudem hatten die meisten schweren Sicherheitsprobleme von Microsoft Outlook ihre Ursache im HTML-Mailing. Und ohne zweifel wird es auch in Zukunft weitere geben.
+
+* HTML-Emails sind unschön, in den meisten Fällen verschlechtert HTML nur die Lesbarkeit. Email-Clients sind bereits darauf eingerichtet, Emails leicht lesbar zu machen, zusätzliche Formatierungsvorgaben verbessern nichts. Zusätzlich HTML-Formatierung lenkt nur von der eigentlichen Aussage des Textes ab. Das gilt um so mehr für Nutzer, die ihre Sicherheit schützen, indem sie Bilder in ihren Emails blockieren. Die sehen HTML-Emails mit völlig zerstörter Formatierung.
+
+* HTML-Emails sind unnötig, die meisten Email-Clients fügen bereits einen klickbaren Link zu korrekt geschriebenen Text-URLs zu. Ein Beispiel:
+
+<code>
+ Webseiten-Link: https://help.riseup.net
+ Email-Adresse: listhelp@riseup.net
+</code>
+
+In einer "Plain Text" Email werden zeitgemäße Email-Clients einen klickbaren Link ergänzen.
+
+* HTML-Emails sind ausgrenzend. Viele Nutzer haben keine Möglichkeit, HTML-Emails formatiert zu lesen oder haben wegen Sicherheitsbedenken oder aus ästhetischen Gründen HTML abgeschaltet. Diese Nutzer sehen HTML-Emails als Plain Text, der in der Regel schlechter lesbarer sein wird als Text, der gleich als Plain Text verfasst wurde. Das liegt an der unzureichenden Leistungsfähigkeit der Email-Clients, ausgehende HTML-Emails von HTML in Plain Text umzuwandeln. Das einzige, was man mit HTML-Emails erreicht, ist Leute zu verärgern, die sie nicht als HTML-Emails ansehen wollen oder können.
+
+Wenn Du aus unerfindlichen Gründen weiterhin darauf bestehst, HTML-Emails an eine Mailing-Liste zu versenden, verfahre bitte wie folgt:
+
+* Verfasse die Email mit einem Email-Client wie [[Thunderbird->thunderbird]], der das Senden von HTML-Emails unterstützt.
+
+* Es ist evtl. notwendig, in Thunderbird diese Option unter Bearbeiten > Account-Einstellungen > Verfassen und Adressierung zu aktivieren.
+
+* Sende die Nachricht aus dem Email-Client heraus an die Listen-Adresse,
+
+* Das ist alles. HTML-Fragmente in eine normale Plain-Text-Email oder ein einen WEB-basiertes Email-System zu kopieren wird nicht funktionieren.
+
+h2. Warum bekomme ich keine Kopie meiner an die Kiste gesendeten Emails?
+
+Dafür gibt es 2 mögliche Gründe. Eventuell hast Du in den Abo-Optionen die Option Kopie an mich selbst nicht aktiviert? So findest Du das heraus:
+
+
+# Gehe nach [[https://lists.riseup.net/]]
+# Sogge Dich mit Deiner Emailadresse und Deinem Passwort ein
+# Klicke auf  Verwaltung Ihrer Abonnements
+# Wähle mit einem Klick die Liste, bei der das Problem auftritt
+# Klicke links auf "Abonnementoptionen"
+# Stelle sicher, dass im entsprechenden Dropdwon "standard (Direkter Empfang) und nicht "Sie empfangen Ihre eigenen Nachrichten nicht" gewählt ist.
+
+Falls Du weiterhin keine Kopien der eigenen Postings bekommst, hast Du vielleicht einen Gmail Account? Gmail hält es für schlau nicht Deine eigenen Postings anzuzeigen. Dagegen können wir nichts machen, das müsstest Du mit Gmail klären.
+
+h2. Warum werden meine Postings an eine Riseup-Liste als SPAM markiert?
+
+Eine Studie aus der letzten Zeit hat aufgedeckt, dass über 95 % alles Emailverkehrs SPAM ist. Ja, 95 %! Für Dich und mich ist das nur lästig, aber für die armen Riseup-Server ist das eine üble Bedrohung. Riseup verwendet einige [[Werkzeuge zum Erkennen von->spam]], und gelegentlich wird eine eigentlich legitime Email eines Nutzers fälschlich als SPAM eingestuft. Bevor du uns kontaktierst überprüfe bitte mit den folgenden Schritten, ob Du das Problem selbst lösen kannst!
+
+Zuerst sollten wir das Problem eingrenzen. Wenn Deine Email von Riseup zurückgewiesen wird werden unsere Server einen Grund dafür haben. Schau dir bitte die Bounce-Email und vergleiche Sie mit dem folgenden Beispiel! Im Fall einer Übereinstimmung mit dem Beispiel versuche erst entsprechend der Anleitung, das Problem selbst zu lösen!
+
+h3. Spamassassin
+
+<pre>
+host lists.riseup.net[[204.13.164.55]] said: 550 5.7.1 Blocked by SpamAssassin (in reply to end of DATA command)
+</pre>
+
+Riseup nutzt  [[Spamassassin->https://spamassassin.apache.org/]], um SPAM zu bekämpfen. Spamassassin benutzt bestimmte Regeln, um zu bestimmen, ob eine eingehende Email als SPAM einzustufen ist.
+
+Schaue auf  [[dieser Seite->https://wiki.apache.org/spamassassin/AvoidingFpsForSenders]] nach ob DU oder Dein Internetprovider (ISP) das Problem lösen kannst. Falls nicht kontaktiere Riseup!
+
+h3. Mein Email-Server hat "bad MX records"
+
+<pre>
+Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address [[EXAMPLE@EXAMPLE.NET]] blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
+</pre>
+
+MX-Records definieren, welche Server autorisiert sind, Emails zu senden. Einige ISPs konfigurieren ihre DNS-Records nicht korrekt, und das führt dann zu einer ganzen Reihe von Problemen. Falls diese Problemursache identifiziert wurde kontaktiere bitte Deinen ISP und bitte ihn, die Hinweise auf [[Dieser Seite->http://rfc-ignorant.org/policy-bogusmx.php]] korrekt umzusetzen
