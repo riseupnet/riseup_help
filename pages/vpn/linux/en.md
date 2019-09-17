@@ -3,17 +3,19 @@
 
 ## Requirements
 
-Currently, RiseupVPN is only packaged for Linux using `snap`. If you use Ubuntu, snap is already installed. Otherwise, run:
+To use Riseup's VPN service, you will need to install the program called RiseupVPN. On Linux, it is available either as a `snap`, or as a package in Debian Stable.
+
+RiseupVPN is currently tested on the **Ubuntu LTS** and **Debian Stable**. If you have a different release, it may or may not work.
+
+## Snap Installation
+
+If you use Ubuntu, snap is already installed. Otherwise, run:
 
 ```
 sudo apt install snapd
 ```
 
-RiseupVPN is currently tested on the **Ubuntu LTS** and **Debian Stable**. If you have a different release, it may or may not work.
-
-## Installation
-
-Just search for **RiseupVPN** in the **Software Center** or click on this link:
+Then, simply search for **RiseupVPN** in the **Software Center** or click on this link:
 
 <a class="btn btn-default btn-lg" href="snap://riseup-vpn">
   <i class="fa fa-reply-all"></i>
@@ -26,6 +28,13 @@ If the link above does not work for you, you can also install via the command li
 sudo snap install --classic riseup-vpn
 ```
 If you get an error stating that "python" is missing from /usr/bin/env, you need to install python. This is the case for instance in Lubuntu, at least since version 19.04.
+
+## Package Installation
+
+       echo "deb http://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
+       curl https://deb.leap.se/apt.key | sudo apt-key add -
+       sudo apt-get update
+       sudo apt-get install riseup-vpn leap-archive-keyring
 
 ## Troubleshooting
 
