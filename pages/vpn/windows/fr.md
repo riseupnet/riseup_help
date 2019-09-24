@@ -50,4 +50,4 @@ Si vous trouvez des fuites, faites-nous signe!
 
 ### Tester une version de développement
 
-Si vous souhaitez nous aider à tester une version de développement de RiseupVPN, vous pouvez télécharger [[les versions quotidiennes => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=win_installer]].
+Si vous souhaitez nous aider à tester une version de développement de RiseupVPN, vous pouvez télécharger [[les versions quotidiennes => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
