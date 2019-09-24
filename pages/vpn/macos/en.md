@@ -41,3 +41,7 @@ There are three log files each for a different component of the client:
 * The openvpn process: `/Applications/RiseupVPN.app/Contents/helper/openvpn.log`
 
 When reporting a bug it is very useful to include the log files.
+
+### Test a pre-release version
+
+If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].

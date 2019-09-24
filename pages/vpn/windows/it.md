@@ -50,4 +50,4 @@ Se dovessi trovare delle falle che causano perdite di dati, saremmo molto intere
 
 ### Testare una versione di pre-release
 
-se vuoi aiutarci a testare una versione di sviluppo o pre-release di RiseupVPN, puoi scaricare la [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=win_installer]].
+se vuoi aiutarci a testare una versione di sviluppo o pre-release di RiseupVPN, puoi scaricare la [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].

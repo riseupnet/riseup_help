@@ -50,4 +50,4 @@ Falls du doch irgendwelche Leaks finden solltest, gib uns bitte Bescheid.
 
 ### Unveröffentlichte Version testen
 
-Wenn du uns beim Testen einer in der Entwicklung befindlichen Version helfen willst, kannst du die [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=win_installer]] herunterladen.
+Wenn du uns beim Testen einer in der Entwicklung befindlichen Version helfen willst, kannst du die [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]] herunterladen.
