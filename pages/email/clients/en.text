@@ -35,14 +35,14 @@ Although some mail clients are able to automatically configure themselves, most 
 Suppose your email address was [@joehill@riseup.net@]:
 
 * Incoming mail server:
-** IMAP: @mail.riseup.net@ port 993 (TLS) or port 143 (StartTLS).
-** POP: @mail.riseup.net@ port 995 (TLS) or port 110 (StartTLS).
+** IMAP: @mail.riseup.net@ port 993 (TLS) or port 143 (STARTTLS).
+** POP: @mail.riseup.net@ port 995 (TLS) or port 110 (STARTTLS).
 * Outgoing mail server:
-** SMTP: @mail.riseup.net@, port 465 (TLS) or port 587 (StartTLS).
+** SMTP: @mail.riseup.net@, port 465 (TLS) or port 587 (STARTTLS).
 * Login or user name: @joehill@
-* Use secure connection: @yes@ (TLS or StartTLS)
+* Use secure connection: @yes@ (TLS or STARTTLS)
 
-The [[secure connection -> secure-connections]] may be of type TLS or StartTLS. For security reasons, we no longer support SSL.
+The [[secure connection -> secure-connections]] may be of type TLS or STARTTLS. For security reasons, we no longer support SSL.
 
 *Note:* Don't enable *secure passwords* or *secure authentication*. These are somewhat of a misnomer. These methods of specifying passwords require that the email server keep a cleartext copy of your password. We would consider this a security risk, so we don't enable "secure passwords." Because the connection to riseup.net is encrypted anyway, these are not needed.
 
