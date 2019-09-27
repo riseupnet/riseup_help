@@ -1,6 +1,8 @@
 @title = 'VPN Red'
 @toc = true
 
+p(alert alert-danger). This service is deprecated and we do not recommend using it. Please use [[RiseupVPN->vpn]] instead.
+
 p(alert alert-danger). March 2017. We deployed changes to our VPN Red which may need adjustments in your client to work. [[Please check the changes -> #configuration-in-a-nutshell]].
 
 h2. Words of caution
