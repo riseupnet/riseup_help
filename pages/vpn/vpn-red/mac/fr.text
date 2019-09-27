@@ -1,5 +1,9 @@
 @title = 'Mac'
 
+h2. Si possible, n'utilisez pas cette version!
+
+*NOTE:* Si vous consultez cette page car vous souhaitez utiliser le VPN Riseup sur Mac, vous devriez plutôt suivre [[ce lien -> vpn]] et utiliser le RiseupVPN. La seule raison pour laquelle vous devriez suivre les instructions sur cette page est si vous n'arrivez pas à faire fonctionner Bitmask sur votre Mac!
+
 Le client OpenVPN pour Mac s'appelle "Tunnelblick".
 
 h2. Installation
@@ -8,11 +12,9 @@ h2. Installation
 
 Installez le en double cliquant sur son icône.
 
-Si vous utilisez la dernière version (actuellement Sierra), vous allez devoir installer la version béta de tunnelblick (Jan 2017).
-
 h2. Téléchargez la configuration Riseup
 
-Après l'installation, téléchargez le fichier [[riseup.tblk.zip => riseup.tblk.zip]], qui contient la configuration du vpn riseup. Décompressez l'archive et installez la configuration en double cliquant sur celle-ci.
+Après l'installation de tunnelblick, téléchargez le fichier [[riseup.tblk.zip => riseup.tblk.zip]], qui contient la configuration du VPN Red. Décompressez l'archive et installez la configuration en double cliquant sur celle-ci.
 
 h2. Connexion
 

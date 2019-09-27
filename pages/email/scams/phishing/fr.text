@@ -86,4 +86,14 @@ ticket: R0929NT4
 
 Ceci est un courriel de hameçonnage particulièrement intelligent. Les gens qui l'on envoyé savent que Riseup ne vous demandera jamais votre mot de passe dans un courriel, alors un lien vers une page qui demande votre courriel a été ajouté. Le lien ressemble à un lien qui mène à une page de Riseup, mais quand vous cliquez syr le lien il vous mène ailleurs. La page est faite pour ressembler le plus possible à une page de Riseup dans l'espoir que vous ne remarquerez pas les différences et que vous rentrerez votre mot de passe.
 
-Pour être le plus en sécurité possible, vous ne devriez jamais cliquer sur un lien dans un courriel qui vous demande d'entrer votre mot de passe. Tapez toujours 'user.riseup.net' dans la barre de votre navigateur manuellement.
+Pour être le plus en sécurité possible, vous ne devriez jamais cliquer sur un lien dans un courriel qui vous demande d'entrer votre mot de passe. Tapez toujours 'user.riseup.net' dans la barre de votre navigateur manuellement
+
+h2. Attaque homographique
+
+Ce genre d'attaque se base sur la similarité de certaines lettres entre différents jeux de caractères. Les homographes sont des caractères typographiques qui se ressemblent, par exemple entre des caractères latins ou des caractères cyrilliques. Le système de noms de domaine internationalisés n'empêche pas l'utilisation de différents jeux de caractères dans le même nom de domaine. Il n'est donc pas possible de distinguer facilement les homographes dans un nom de domaine.
+
+La manière la plus simple de se défendre contre ce genre d'attaque est de ne jamais copier une URL et de toujours taper directement l'URL dans la barre d'adresse (un peu comme il est recommandé de ne jamais copier du code directement dans un terminal et d'utiliser un éditeur de texte préalablement).
+
+Une autre manière de se protéger est de déactiver le protocole IDNA (*Internationalized Domain Names in Applications*) dans votre navigateur. "Connu depuis 2005":http://www.internetnews.com/dev-news/article.php/3481651/Firefox+Others+at+Phishing+Risk.htm , ce problème a été "rapporté à Mozilla":https://www.mozilla.org/en-US/security/advisories/mfsa2013-61 en 2013 et maintenant un nom de domaine ne peut contenir qu'un seul jeu de caractère. Les jeux de caractère différents sont dorénavant montrés en Punycode. Les paramètres de noms de domaine internationalisés peuvent être changés dans Firefox en allant dans @about:config@ -> *network.IDN*.
+
+Plus d'information sur ce type d'attaque est disponible sur "Wikipedia":https://en.wikipedia.org/wiki/IDN_homograph_attack.
