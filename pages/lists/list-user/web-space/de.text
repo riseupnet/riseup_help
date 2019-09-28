@@ -1,0 +1,13 @@
+@title = 'Web Space'
+(Gemeinsame Dokumente)
+
+h2. Wie kann ich eine Datei hochladen oder ansehen?
+
+Vollständige Informationen dazu auf [[shared-web-space]].
+
+h2.  Warum gelingt es mir nicht, eine Datei hochzuladen?
+
+Es gibt verschiedene mögliche Gründe, warum das Hochladen scheitert:
+
+* Der Dateiname darf keine Leerzeichenenthalten. Bitte vor dem Hochladen Datei umbenennen, Leerzeichen durch ein zulässiges Zeichen wie wie Bindestrich '-' oder Unterstrich '_' ersetzen!
+* Eventuell fehlen Dir die erforderlichen Rechte zum Hochladen von Dateien? In nicht-öffentlichen Arbeitsgruppen-Listen ist standardmäßig das Hochladen erlaubt.In allen anderen Listen ist das Hochladen nur Nutzern mit der Nutzerrolle „Editor“ erlaubt. Diese Voreinstellungen können vom Listen-Administrator durch Anpassung der Listen-Konfiguration geändert werden.
