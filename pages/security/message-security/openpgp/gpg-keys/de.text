@@ -261,9 +261,7 @@ h3. Signieren eines Schlüssels
 # Rechtsklick auf den zu signierenden Schlüssel und wahle **Signieren...**
 # Wähle die ID und klicke **Weiter**
 # Wähle, ob dieses Zertifikat für andere sichtbar sein soll, oder nur lokal
-# Drucke **Signieren**
-
-You have now signed their key (certified their certificate) and are ready to begin encrypting data or emails that only they can decrypt!
+# Drücke **Signieren**
 
 h1. Mac OS X
 

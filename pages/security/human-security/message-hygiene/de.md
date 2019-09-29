@@ -2,18 +2,18 @@
 @toc = true
 @summary = "Einfache Tipps für Email und sicherere Kommunikation"
 
-# Traue keiner Quele
+# Traue keiner Quelle
 
 Der Hauptgrund, dass Emails die Hauptangriffsmöglichkeit einer Organisation sind, ist dass es keine Möglichkeit gibt, die Identität der "Von"-Adresse zu überprüfen.
 
-Zur Wiederholung: Die "Von"-Adresse kann von allen beliebig manipuliert werden, sodass eine Email so aussieht, als käme sie von einer anderen Person.
+Zur Wiederholung: Die "Von"-Adresse kann von allen beliebig manipuliert werden, so dass eine Email so aussieht, als käme sie von einer anderen Person.
 
-Weil die Herkunft einer Nachricht so schwer zu verifizieren ist, ist der Posteingang eine übliche Quelle für **[Phishing-Angriffe -> phishing]** und **[Schadsoftware->viruses]**.
+Weil die Herkunft einer Nachricht so schwer zu verifizieren ist, ist der Posteingang eine übliche Quelle für **[[Phishing-Angriffe -> phishing]]** und **[[Schadsoftware->viruses]]**.
 
-* **Phishing** ist when someone sends an email claiming to be an entity they are not, and uses this deception to get information. They can be after social security numbers, bank information, passwords, or other sensitive information.
-* **Schadsoftware** ist solche, die einen Trick nutzt, um einen zum Ausführen / Installieren von schädlicher Software verleitet, z.B. durch einen Anhang oder Link.
+- Von **Phishing** spricht man, wenn in einer Email eine falsche Absender-Identität vorgegaukelt und diese Täuschung benutzt wird, um an persönliche Informationen des Empfängers zu gelangen. Das können Kontonummern, Zugangsdaten und Passwörter, Sozialversicherungsnummern und viele andere vertrauliche Informationen sein.
+- **Schadsoftware** ist solche, die einen Trick nutzt, um einen zum Ausführen / Installieren von schädlicher Software verleitet, z.B. durch einen Anhang oder Link.
 
-Im Allgemeinen sollte alles Unerwarte in Emails Misstrauen erregen. Sei gewarnt vor allen Nachrichten, die auffordern, etwas zu tun, wie einen Link zu klicken, einen Anhang zu öffnen oder Informationen zurück zu senden.
+Im Allgemeinen sollte alles Unerwartete in Emails Misstrauen erregen. Sei gewarnt vor allen Nachrichten, die auffordern, etwas zu tun, wie einen Link zu klicken, einen Anhang zu öffnen oder Informationen zurück zu senden.
 
 Wenn in Dein Konto eingebrochen wurde, siehst Du eventuell unverständliche Antworten, zusätzliche gesendete Nachrichten, neue Ordner oder Filter, oder Änderungen der Einstellung. Seltsame Nachrichten oder Kontoverhalten sollten einer Person vom technischen Support gemeldet werden und vorsichtshalber solltest Du Dein Passwort ändern.
 
@@ -46,14 +46,14 @@ Auf diese Weise bist Du vor den meisten Phishing-Angriffen geschützt.
 
 Email-Anhänge stellen verschiedene Risiken dar, inklusive ihrer Verwendung für Phishing. Sie sind nicht davor geschützt, angesehen oder verändert zu werden. Du kannst also nicht feststellen, dass das empfangene Dokument dasselbe ist, das auch abgeschicht wurde. Ein bösartiger Server zwischen Dir und der Quelle könnte es ersetzen mit einem Programm oder einer anderen Datei, z.B. ein bösartiges Skript. Zusätzlich neigen Anhänge dazu, länger in Postfächern herum zu liegen. Das füllt diese nicht nur unnötig, sondern ist auch gefährlich, wenn in das Emailkonto Deiner Freunde oder einer Firma, mit der Du Kontakt hattest, eingebrochen wird und alle unverschlüsselten Dokumente mit Deinen Daten so in die Hände Dritter gelangen.
 
-Eine better Methode als Emailanhänge ist es, die Dateien auf einem Server abzulegen und den Link an Stelle des Dokuments selbst zu verschicken. Idealerweise führt solch ein Link an einen Ort, der selbst auch durch ein Passwort geschützt ist oder eine andere Authentifizierung verlangt. Oder der Link ist nur eine begrenzte Zeit gültig und wird bald nach der Benutzung unbrauchbar. Diese Verweise können einfach generiert werden mit fast allen Dateispeicher-System, entweder auf Büro-Servern (wie ein Windows-Dateiserver), oder im Internet (wie Google Drive, Box, oder Dropbox).
+Eine bessere Methode als Emailanhänge ist es, die Dateien auf einem Server abzulegen und den Link an Stelle des Dokuments selbst zu verschicken. Idealerweise führt solch ein Link an einen Ort, der selbst auch durch ein Passwort geschützt ist oder eine andere Authentifizierung verlangt. Oder der Link ist nur eine begrenzte Zeit gültig und wird bald nach der Benutzung unbrauchbar. Diese Verweise können einfach generiert werden mit fast allen Dateispeicher-System, entweder auf Büro-Servern (wie ein Windows-Dateiserver), oder im Internet (wie Google Drive, Box, oder Dropbox).
 
 Für zusätzliche Sicherheit kannst Du verschlüsselte Datei mit temporären Links erzeugen, indem Du Dateien zu <https://share.riseup.net> hoch lädst.
 
 # Siehe auch
 
-* [Security Self-defense / How to Avoid Phishing Attacks](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
-* [Security Education Companion / Phishing and Malware](https://sec.eff.org/topics/phishing-and-malware)
-* [Security In-a-box / Protect Your Device From Malware and Hackers](https://securityinabox.org/en/guide/malware/)
-* [Security In-a-box / Keep Your Online Communications Private](https://securityinabox.org/en/guide/secure-communication/)
-* [Security Planner / Spot Suspicious Emails](https://securityplanner.org/#/tool/spot-suspicious-emails)
+- [Security Self-defense / How to Avoid Phishing Attacks](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
+- [Security Education Companion / Phishing and Malware](https://sec.eff.org/topics/phishing-and-malware)
+- [Security In-a-box / Protect Your Device From Malware and Hackers](https://securityinabox.org/en/guide/malware/)
+- [Security In-a-box / Keep Your Online Communications Private](https://securityinabox.org/en/guide/secure-communication/)
+- [Security Planner / Spot Suspicious Emails](https://securityplanner.org/#/tool/spot-suspicious-emails)
