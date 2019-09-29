@@ -1,7 +1,7 @@
 @title = 'Politique de confidentialité'
 @this.alias = '/privacy-policy'
 
-Ce document décrit quelles informations nous collectons et pourquoi elles sont utilisées. Cette politique s'applique pour l'ensemble des interactions avec riseup.net, à l'exception de notre nouveau service "noir" qui est couvert par une [[politique de confidentialité différente => https://black.riseup.net/privacy-policy]]. Votre utilisation des services de riseup.net constitue une preuve de votre accord des termes de cette politique de confidentialité. Nous vous recommandons fortement de lire nos [[conditions d'utilisation => ../tos/]].
+Ce document décrit les informations nous collectons et pourquoi elles sont utilisées. Cette politique s'applique pour l'ensemble des interactions avec riseup.net. En utilisant les services de riseup.net, vous acceptez notre politique de confidentialité. Nous vous recommandons fortement de lire nos [[conditions d'utilisation => ../tos/]].
 
 h2. Résumé
 
@@ -11,7 +11,7 @@ h2. L'information que nous collectons et que nous conservons
 
 h3. Les informations d'enregistrement
 
-Quand vous créez un compte, nous conservons la date de création du compte. Les informations utilisées lors de la demande d'une compte sont supprimées après quatre mois et les informations sur les invitations sont supprimées après un mois. À moins que vous ne le supprimiez de votre compte d'utilisateur, nous conservons l'adresse courriel alternative que vous avez spécifié. Vous pouvez choisir de supprimer votre adresse courriel alternative, mais si vous choisissez de le faire vous ne serez pas en mesure de retrouver l'accès de votre compte en cas de perte de votre mot de passe.
+Quand vous créez un compte, nous conservons la date de création du compte (arondie au trimestre le plus près). Les informations utilisées lors de la demande d'une compte sont supprimées après quatre mois et les informations sur les invitations sont supprimées après un mois. Si vous décidez d'utiliser un courriel de récupération, nous conserverons cette information dans un format chiffré que nous ne pouvons pas consulter (comme pour nos mots de passe, nous utilisons une valeur de hachage pour chiffrer cette valeur).
 
 h3. Billets d'aide
 
@@ -25,9 +25,9 @@ h3. Journaux de transit courriel
 
 Pour être en mesure de détecter quand nos serveurs sont attaqués par une "bombe de spam" or quand un spammer utilise nos systèmes, nous conservons des journaux des informations "de" et "à" ("from" et "to") pour chaque messages relayés. Ces journaux sont supprimés quotidiennement.
 
-h3. Le dernier mois de connexion
+h3. Le dernier trimestre de connexion
 
-Nous conservons une trace du dernier mois et année à laquelle vous vous être authentifié avec succès (pour supprimer ou désactiver les comptes dormants). Nous ne conservons pas le jour ou l'heure à laquelle vous vous êtes connecté.
+Nous conservons une trace du dernier trimestre auquel vous vous êtes authentifié avec succès (pour supprimer ou désactiver les comptes dormants). Nous ne conservons pas le jour ou l'heure à laquelle vous vous êtes connecté. Pour vous donner un exemple, l'information que nous conservons ressemble à "Q3 2018".
 
 h2. Les informations que nous choisissons de ne pas conserver
 
@@ -45,13 +45,9 @@ Même quand vous utilisez de l'encryption bout-à-bout OpenPGP pour vos messages
 
 h2. Comment nous conservons l'information et comment nous la partageons
 
-h3. Encryption
+h3. Chiffrement
 
-L'ensemble de vos données sont conservées sous un format encrypté et seul Riseup a les clefs pour le décrypter.
-
-h3. Les messages en clair
-
-Certains messages que vous envoyés ou que vous recevez ne seront pas encryptés bout-à-bout (par exemple, quand une partie ne supporte pas l'encryption des courriels). Quand vous recevez ces messages en clair, ils sont conservés sur un disque encrypté. S'ils sont envoyés par ou à nos systèmes sans encryption, nous ne pouvons pas vous assurer que leur contenu n'a pas été intercepté lors du transit.
+Toutes vos données sont stockées dans un format chiffré, et seul Riseup a les clefs pour les déchiffrer. De plus, depuis mars 2018, le stockage de tous les nouveaux comptes courriels est chiffré avec une clef personnelle. Riseup n'est pas en mesure de lire le contenu des courriels de ces comptes. N'importe quel compte créé avant mars 2017 peut activer la fonction d'espaces de stockage personnels chiffrés.
 
 h3. Nous ne partageons pas vos informations d'utilisateur
 

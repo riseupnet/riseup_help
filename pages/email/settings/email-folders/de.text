@@ -6,25 +6,6 @@ h2. Müll
 
 Alle Mails, die länger als 21 Tage im *Trash* rumgammeln, werden automatisch gelöscht. Die meisten E-Mailprogramme sind so konfiguriert, dass jede Nachricht, die gelöscht wird, automatisch im Müll landet.
 
-h2. Gesendet
-
-Alle Mails, die älter als 120 Tage sind, werden automatisch aus dem *Sent*-Ordner für gesendete Nachrichten gelöscht. Wenn du diese länger aufbewahren willst, solltest du diese jeden Monat in einen anderen verschieben, so:
-
-In squirrelmail:
-
-* wähle den *Sent*-Ordner
-* klicke *Alle anzeigen*
-* klicke *Auswahl umkehren*
-* wähle ein Ziel und klicke *Verschieben*.
-
-In [[thunderbird]]:
-* wähle den *Sent*-Ordner
-* wähle *Edit > Select > All*
-* wähle *Message > Move*, und wähle den Zielordner
-* Wenn du einen Ordner auf deinem eigenen Rechner wählst (unter "Local Folders"), werden die Nachrichten auf deinem Rechner gespeichert und damit nicht deine Quota aufessen. Dann wird es aber auch nicht möglich sein, darauf von anderen Computern zuzugreifen.
-
-Typischerweise musst du keinen neuen *Sent*-Ordner erstellen: Webmail und die meisten E-Mailprogramme erzeugen diesen automatisch neu.
-
 h2. Spam
 
 Wenn du Spamfilter aktiviert hast, landen als [[Spam]] erkannte Nachrichten hier und werden automatisch nach 7 Tagen gelöscht.

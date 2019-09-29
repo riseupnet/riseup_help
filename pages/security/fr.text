@@ -31,29 +31,29 @@ h1. Survol des types de sécurité
 
 <table class="table table-striped">
 <tr>
-<th class="col-md-2">Type de sécurité</th>
-<th>Qu'est-ce?</th>
-<th>Quand est-ce utile?</th>
+  <th class="col-md-2">Type de sécurité</th>
+  <th>Qu'est-ce?</th>
+  <th>Quand est-ce utile?</th>
 </tr>
 <tr>
-<td>[[Sécurité humaine -> human-security]]</td>
-<td>Simple changement que vous pouvez apporter à votre *comportement*.</td>
-<td>Empêche l'erreur humaine d'être le maillon faible dans n'importe quel système de sécurité.</td>
+  <td>[[Sécurité humaine -> human-security]]</td>
+  <td>Simple changement que vous pouvez apporter à votre *comportement*.</td>
+  <td>Empêche l'erreur humaine d'être le maillon faible dans n'importe quel système de sécurité.</td>
 </tr>
 <tr>
-<td>[[Sécurité de l'appareil -> device-security]]</td>
-<td>Démarche visant à rendre *votre ordinateur ou votre téléphone* moins vulnérable aux attaques.</td>
-<td>Utile quand bien même votre dispositif tombe *physiquement* entre les mains d'un malfrat.</td>
+  <td>[[Sécurité de l'appareil -> device-security]]</td>
+  <td>Démarche visant à rendre *votre ordinateur ou votre téléphone* moins vulnérable aux attaques.</td>
+  <td>Utile quand bien même votre dispositif tombe *physiquement* entre les mains d'un malfrat.</td>
 </tr>
 <tr>
-<td>[[Sécurité des messages -> message-security]]</td>
-<td>Voies de chiffrement des *messages individuels* que vous envoyez et recevez.</td>
-<td>Requis si vous désirez assurer la *confidentialité* d'un message particulier pendant son stockage et sa transmission.</td>
+  <td>[[Sécurité des messages -> message-security]]</td>
+  <td>Voies de chiffrement des *messages individuels* que vous envoyez et recevez.</td>
+  <td>Requis si vous désirez assurer la *confidentialité* d'un message particulier pendant son stockage et sa transmission.</td>
 </tr>
 <tr>
-<td>[[Sécurité réseau -> network-security]]</td>
-<td>Blocage des sites qui vous traquent et chiffrement de votre *trafic internet*.</td>
-<td>Protège contre le comportement de la traque, attaque de compte, censure, mappage du réseau social, mise sur écoute et publicité.</td>
+  <td>[[Sécurité réseau -> network-security]]</td>
+  <td>Blocage des sites qui vous traquent et chiffrement de votre *trafic internet*.</td>
+  <td>Protège contre le comportement de la traque, attaque de compte, censure, mappage du réseau social, mise sur écoute et publicité.</td>
 </tr>
 </table>
 
