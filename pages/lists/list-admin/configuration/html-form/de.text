@@ -1,0 +1,42 @@
+@title = 'HTML-Formular'
+@summary = 'So kannst du ein Formular in Deine Webseite einbauen, das anderen ermöglicht, einfach eine Mailingliste auf riseup.net zu abonnieren'
+
+h2. Einfaches HTML-Formular
+
+Hier ein HTML-Snippet für ein einfaches Formular, das nach Eintrag der Abonnenten-Emailadresse per Knopfdruck das Anmelden erledigt:  
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Deine Email-Adresse:</B>
+  <INPUT  NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="subrequest">
+  <INPUT TYPE="submit" NAME="action_subrequest" VALUE="Subscribe">
+</FORM>
+</pre>
+
+ACHTUNG: *listname* muss mit dem Namen der Liste (ohne „@lists.riseup.net“ ersetzt werden. Beispiel: wenn der Listenname  „anarchism101@lists.riseup.net“ ist, ersetze *listname* mit „anarchism101“. Bitte berücksichtigen, der Anmeldevorgang funktioniert nur von SSL (https://) - Seiten aus!
+
+Hier ein Beispiel für ein „unsubscribe“-Formular zum Abmelden von einer Liste:
+
+<pre>
+<FORM ACTION="<%= 'https://lists.riseup.net/www' %>" METHOD="POST">
+  <B>Email:</B>
+  <INPUT NAME="email" SIZE="30">
+  <INPUT TYPE="hidden" NAME="list" VALUE="listname">
+  <INPUT TYPE="hidden" NAME="action" VALUE="sigrequest">
+  <INPUT TYPE="submit" NAME="action_sigrequest" VALUE="Unsubscribe">
+</FORM>
+</pre>
+
+h2. Etwas gefälliger
+
+Wenn Du ein Script für die Formular-Funktion schreiben kannst, ist es möglich, eine Email an listname-subscribe@lists.riseup.net mit "From:" -Mail-Header desjenigen, der sich bei der Liste anmelden möchte. Das hat den Vorteil, dass der User nicht auf die lists.riseup.net Webseite weitergeleitet wird, sondern auf Deiner Seite bleibt.
+
+Diese Methode ist zu bevorzugen, da derzeit das sympa-Webinterface ein wenig schwierig ist: Beim Anmelden über das Web-Interface bekommt der Abonnent ein Passwort zugeschickt, dass er auf die Webseite kopieren muss. Für Email-Anmelde-Anfragen muss der Abonnent nur auf die Anmelde-Rückfrage antworten. 
+
+Die Anmeldung kann auch über ein einfaches mailto:listname-subscribe@lists.riseup.net abgewickelt werden. Nachteile: Funktioniert oft nicht, wenn der User ein Webmail-Interface benutzt, und der Abonnent muss, wenn er mehrere Email-Accounts hat, darauf achten, dass der Anmelde-Antrag vom richtigen Email-Account aus versandt wird.
+
+h2. Sehr gefällig
+
+Die meisten Listen-Befehle können per „Fernsteuerung“ mit SOAP (Simple Object Access Protocol) erledigt werden. Zur Zeit haben wir SOAP nicht aktiviert, aber wahrscheinlich werden wir das bald aktivieren. SOAP ist nichts für Programmierer mit schwachen Nerven, erfordert komplexe Programmierung. Wenn Du Dich mit SOAP für sympa beschäftigen möchtest, lass uns das wissen und lies dich auf  https://www.sympa.org/ in die Materie ein.
