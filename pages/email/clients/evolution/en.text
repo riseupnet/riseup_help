@@ -17,27 +17,37 @@ h2. Setup a New Account in Evolution
 
 # Start Evolution (e.g. Press **Alt+F2** and enter: <code>evolution</code>)
 # If you're running Evolution for the first time, you will be asked if you want to restore your settings from a backup file, if you have one.
-# Enter the name you wish to have appear in the **From** field to your email recipients along with your email address.  You may also choose to make this your default account in Evolution.
-# Enter the following information to receive email for a riseup.net account:
-Server Type: Choose either **IMAP** or **POP**. [[What is the difference between IMAP and POP email servers? => email/clients]] %>
+# On the second screen enter your email along with other info you want to provide. Click to proceed.
+# It will try to find the server settings automatically, if it fails enter the following information:
+Server Type: Choose either **IMAP** or **POP**. [[What is the difference between IMAP and POP email servers? => email/clients]]
 Server: **mail.riseup.net**
-username: **<your riseup username>**
-Use Secure Connection: **TLS** is recommended
+Use Secure Connection: **TLS**
 Authentication Type: **Password**
-# The next screen has 4 sections.  **Connection to Server** and **Folders** can be safely ignored.  Enter how often you want evolution to automatically check for new emails in minutes in the **Checking for New Mail** section, or unchecked to only check for email when you manually instruct Evolution to do so.  The **Options** section allows you to apply spam filtering to your incoming email and to automatically keep local copies of your email to enable disconnected access (applies to IMAP only).
-# Enter the following information to receive email for a riseup.net account:
+# The next screen offers several options regarding the connection. The defaults are quite reasonable, change them as you wish and click 'Continue'.
+# For outgoing mail:
 Server Type: **SMTP**
 Server: **mail.riseup.net**
 check **Server requires Authentication**
-Use Secure Connection: **TLS** is recommended for security reasons (StartTLS and SSL are easily compromised).
+Use Secure Connection: **TLS**
 Authentication Type: **PLAIN**
-username: **foobar**
+username: **your username**
 # Give the account you're creating a name.  This is only used for your reference when managing multiple accounts in Evolution and is not disclosed to recipients of your emails.
 # Click **Apply**
 
 You're finished!  You now can use Evolution to send and receive email through Riseup's servers.
 
 h1. Enhance your email security
+
+To prevent leaks like [[efail -> https://efail.de/]], you should disable rendering of HTML mails:
+# Press Shift+Control+S
+# Choose "Email"
+# Click the HTML tab
+# At the bottom select "Always show plain text"
+
+To disable warnings when the editing mode for mails swiches from HTML to plain
+# Click "Editor" on the left
+# Click the confirmations tab
+# Uncheck the last option "Before the editor changes to plain text" (or similar)
 
 <%= render :partial => 'enhance-security' %>
 
@@ -49,7 +59,7 @@ All that's necessary to work with encrypted emails in Evolution is to tell Evolu
 # Go to **Edit** -> **Preferences**
 # In the **Mail Accounts** section, select the account you wish to link to your OpenPGP key and press the **Edit** button.
 # Click the **Security** tab.
-# Enter your OpenPGP **KEY ID** (See the [[Howto on OpenPGP Keys => /security/gpg-keys]] to find your **KEY ID**).  Select **Always encrypt to myself when sending encrypted messages**; this encrypts the copy saved in your **Sent** folder on the email server with your own key so you are able to decrypt it later. UNCONFIRMED!!! **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
+# Enter your OpenPGP **KEY ID** (See the [[Howto on OpenPGP Keys => /security/gpg-keys]] to find your **KEY ID**). Check **Alweys encrypt** to avoid accidently sending unencrypted  mails. **Always trust keys in my keyring when encrypting** enables you to communicate with people in your keyring whose keys you haven't signed.  You can ignore the **Secure MIME** section.  **Please note:** "Always sign" **is not** the same as "Always encrypt"; signing an email is different from encrypting it and does not make the message unreadable to third parties.
 # Click **OK**
 
 You are now able to encrypt and decrypt emails in Evolution!
@@ -57,8 +67,6 @@ You are now able to encrypt and decrypt emails in Evolution!
 h2. Send Encrypted emails
 
 # Compose a new email
-# Select **Security** -> **PGP Encrypt**
+# Select **Options** -> **PGP Encrypt**
 
-The email you're composing will now be encrypted upon being sent!  You can always verify that your email is going to be encrypted by going into the **Security** menu and seeing if there's a checkmark next to **PGP Encrypt**.
-
-Unfortunately, there currently doesn't appear to be any way to enable encryption by default either globally or per contact, meaning that **every time you want to encrypt an email to someone, you have to go to Security -> PGP Encrypt to enable encryption, otherwise your email will be readable by third parties.**
+The email you're composing will now be encrypted upon being sent!  You can always verify that your email is going to be encrypted by going into the **Options** menu and seeing if there's a checkmark next to **PGP Encrypt**.
