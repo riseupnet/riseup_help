@@ -37,4 +37,4 @@ Esse método é preferível porque a interface web do sympa é um pouco complica
 
 h2. Para caprichar muito
 
-É possível administrar a maioria dos aspectos de uma lista remotamente, usando o protocolo SOAP (em português, Protocolo Simples de Acesso a Objetos). O SOAP não está habillitado em riseup.net, mas será em breve. O SOAP não é para os fracos do coração: é preciso programar muito. Se você quiser se dedicar ao SOAP para Sympa, conte para a gente e leia mais sobre isso em https://sympa.org.
+É possível administrar a maioria dos aspectos de uma lista remotamente, usando o protocolo SOAP (em português, Protocolo Simples de Acesso a Objetos). O SOAP não está habillitado em riseup.net, mas será em breve. O SOAP não é para os fracos do coração: é preciso programar muito. Se você quiser se dedicar ao SOAP para Sympa, conte para a gente e leia mais sobre isso em https://www.sympa.org/.
