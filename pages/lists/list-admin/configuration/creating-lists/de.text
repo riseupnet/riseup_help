@@ -1,0 +1,16 @@
+@title = 'Mailinglisten erstellen'
+@summary = 'Anleitung zum Erstellen von Mailinglisten'
+
+h2. Wie erstelle ich eine Mailingliste?
+
+Zunächst musst Du einen [[Listenaccount erstellen -> https://lists.riseup.net/www/firstpasswd/]], dann auf  https://lists.riseup.net einloggen; dann erst kannst Du eine Mailingliste erstellen. Nachdem Du Dich eingeloggt und als Sprache „Deutsch“ gewählt hast, klicke auf [[Liste erstellen -> https://lists.riseup.net/www/create_list_request]] oben auf der Seite. Bitte bedenke, dass  riseup.net Email Accounts etwas ganz anderes sind als  riseup.net Listen-Accounts. zum Login auf lists.riseup.net gibst Du Deine Email-Adresse bei irgendeinem Email-Provider an, ein riseup.net Email-Account wird zum Erstellen einer Liste nicht benötigt 
+
+h2. Wer kann eine Mailingliste erstellen?
+
+Jeder kann eine Mailingliste erstellen. Einzige Bedingung: Die liste muss zur Unterstützung eines (radikalen) sozialen Wandels dienen. Wenn Deine Liste nicht einem solchen Fortschrittlichen, radikalem oder revolutionären Ziel dient werden wir sie nicht aktivieren. Listen, die primär Hobbies, Allgemeinbildung, Sport oder Spirituellen Projekten dienen werden nicht akzeptiert. Noch einmal: Listen müssen politischen Zwecken dienen.
+
+Mit dem Einrichten einer Liste übernimmst Du die Verpflichtung zur Wartung und Betreuung der Liste. Ist die Liste erst einmal eingerichtet, könntest Du schnell mit der Notwendigkeit zum Eingreifen als Moderator konfrontiert werden, um SPAM zu vermeiden – sowohl kommerziellen als auch aus der Aktivistenszene. Dazu siehe auch die [[Nutzervereinbarung -> https://we.riseup.net/riseuphelp/usage-agreement]] für die Verwendung von Emailaccounts und Mailinglisten.
+
+h2. Warum funktioniert meine Mailingliste noch nicht?
+
+Du kannst bereits Deine Listeneinstellungen editieren, aber das Senden von Emails an die Liste ist erst möglich, nachdem die Liste bestätigt wurde. Unmittelbar nachdem Deine Liste Bestätigt wurde bekommst Du eine Email. Wenn wir es ablehnen, Deine Liste zu hosten, bekommst Du auch eine Nachricht. Die Entscheidung kann durchaus eine Woche oder mehr in Anspruch nehmen.
