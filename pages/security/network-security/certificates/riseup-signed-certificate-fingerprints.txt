@@ -1,12 +1,17 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of October 15, 2018, the following are the fingerprints for Riseup's certificates:
+As of October 5, 2019, the following are the fingerprints for Riseup's certificates:
 
  .  *.riseup.net, riseup.net
         SHA-256 fingerprint:
-                3814e3eaf91e30451790697a98b1b5594cdbdfef4a73ef5a47ed33c556816645
+        C6:BB:7B:04:97:54:05:65:76:81:4D:56:22:CE:50:6C:91:53:D3:3E:27:95:CC:C9:B8:B7:19:A5:E9:31:7D:15
 
+!!! NOTE: This certificate will no longer continue to be a long-lasting
+          certificate, after it expires.  If you are pinning against this
+          fingerprint, you will need to change to using a different mechanism,
+          such as DANE TLSA records
+          
 !!! 
 NOTE: Certificates for help.riseup.net, riseup.net and www.riseup.net are
 auto-renewed Let's Encrypt certificates. They are renewed approximately 3
@@ -14,17 +19,19 @@ months and we do not list their fingerprints here
 !!!
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAlvE0ssACgkQMEPitxOa
-do7kSQ//XFzbmZx80r2AaqGhK+PFTYYsM7BeZf2KdpoqAbh4mWYP5X0MXFxi0ef9
-QA6Pt51tOqrfKTSkKJf0x1y0oJZnOvhDGtZqI2CYAWZpdlXdcIrZKx8NoA1iovfg
-mtJiYTvv1pEp5dZTPK4SSXYiyjoeuqZNUmKu4zICNnwEd0Ue3I1/hsMpktJPHN3F
-tGF/K0X3VD3I6elueGAocw168Eu8e3NBe3reRxx2EzgKx0km1UpwJius+Z9OUjG/
-Q8s9pGDAnbUGrmClWHlHQt5P/Bdam1LJa0eQKsv1pgxY+WLg40TaFgOpbD8Rp0Hs
-EXI8qQIeK682z8Llku3yT+DgW6SCWdp8pz22/BfU+rIbHR+e5JUP0zEcLhgdNQvh
-fja3GpYojNto3TdQJVPwlEU29SbOW5nkmampKyTWhei0Mwdo5UdNdwKClKIkWcMk
-zz3nU5+f5LghhFeCv1hHNVJ7QtuNgJX7VvUyXXyTOoxGLsQ4UfhNA8MhoXz7ONAo
-abS5hjt2Khs/w//JD6tiXJOIfoanrSQVsn9Gx4ToxjLrDnL1F1C3VeqRskNeIR7s
-2MCCFrvQOGYOoObIXtwQYsprJ5IHWE5VDhVtcMuq9/m9Anw9YMyE7W2BJIvZE3/S
-PFRxymQjmG/op5lRKcnZUm3siFAjKy7ZKOzd3WmZ25tQqp9cyvw=
-=Nt6z
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAl2Y7zpfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
+MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
+do5ieRAAwJF304YWhL5MqXBoGY8gdd+YDDUNhVxlZDXE3dv65UeCMX48NKufPJ/H
+ZFv3q5qOkoSmUP5Rc2BK8hiPJat6sj8V0x6LTsCVQ+HIGH8Y+XzpdOP6ZRADiCLz
+vOFk+7hyTyD3l/yc1vZsPg3UnYl2Le2I0KGtF6g7v8w98lO5FoSWgZd21MhZHAzD
+j1tcJrMg9SzPmiQnVNcI0Zv2GBDV7tZiHiVROyrggl2QMTIcZJSBxPmKkljbm8G8
+7oUZyu0YEhst4DdajtluETWDGQYTeSQSVqml8Q2vHMPqbQFOjCJg58Z+oOBx8g6B
+lWOVR+oy5pCBcpIUjq4JO8ac0FNmeTe6TCz6Y57JBvoULAYOSC2/iBQEdLrw9ujo
+UKTiY2V1glJIwzKyR9XoqJwz6pgs6f2UUUTf+tp5caNo2rr4JDnJJYza8dce3hTr
+HHWdF1AWe7OZmca/Z9jEz8O+ixNY73qgaTi7CFucmDRU5XmytV/hq/FZvSbnFrmf
+P9D+b6zxZOmQU9Ai8lJ1YgosPtzmEuOTJLxhA47ItW1fu3lpdVmkmLs2yncMBw6T
+4WSDp1/1wksG0pnaSW/cP2hlmhNCsXxo/5bFSlBA9cF5pWwEXDpk3KmW+BNogZVi
+f3UiCXDKkQKHnLZqIkbzbfSZoF9OTlhxDa+y1qcSem5SC35lgzc=
+=vCGS
 -----END PGP SIGNATURE-----
