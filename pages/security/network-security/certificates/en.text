@@ -58,16 +58,16 @@ You can verify that the fingerprints listed on this page are really from riseup.
 
 bc. wget -qO - https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt | gpg --auto-key-retrieve --verify --output -
 
-It will show the signed message printed above followed by output that says:
+It will show the signed message printed above followed by output that looks similar to the following:
 
 bq. gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E                                      
-gpg: Good signature from "Riseup Treasurer <treasurer@riseup.net>" [unknown]                                    
-gpg:                 aka "Riseup Networks <collective@riseup.net>" [unknown]                                    
+gpg: Good signature from "Riseup Networks <collective@riseup.net>" [unknown]                                    
+gpg:                 aka "Riseup Treasurer <treasurer@riseup.net>" [unknown]                                    
 gpg: WARNING: This key is not certified with a trusted signature!                                               
 gpg:          There is no indication that the signature belongs to the owner.                                   
 Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E                                                                   
 
-You should make sure that it says "Good signature" in the output! If this text has been altered, then this information should not be trusted.
+You should make sure that it says "Good signature" in the output! It may say the Good signature is for "Riseup Treasurer <treasurer@riseup.net>" or "Riseup Networks <collective@riseup.net>". 
 
 Unless you have taken explicit steps to build a trust path to the Riseup Collective key, you will see a warning message similar to:
 
