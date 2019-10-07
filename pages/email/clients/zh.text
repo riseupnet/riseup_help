@@ -10,11 +10,11 @@ h2.  邮件客户端是什么？
 
 table(table table-striped).
 |_.*平台*|_.*推荐的自由软件电子邮件客户端*|_.*其它商业客户端*|
-|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
-|Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[delta-chat]]  | |
+|Mac     | [[thunderbird]], [[sylpheed]], [[delta-chat]]  | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]], [[delta-chat]]  | [[microsoft-outlook]] |
 |Android | [[k9]], [[delta-chat]] |  |
-|iOS     |  |  [[ios-mail]] |
+|iOS     | [[delta-chat]]  |  [[ios-mail]] |
 
 h2. 选择 IMAP或者 POP
 
