@@ -1,7 +1,6 @@
 @title = 'Delta Chat'
 
-<!-- image is in downloads folder -->
-p(pull-right). !(image-right)K9mail.png!
+p(pull-right). !(image-right)delta-chat.png!
 
 "Delta Chat":https://delta.chat ist ein dezentraler Open-Source-Messenger. Im Gegensatz zu anderen
 Messengern braucht ihr keinen extra-Account, ihr könnt euch einfach mit eurer
@@ -9,14 +8,16 @@ E-Mail-Adresse einloggen. Ihr könnt auch nicht nur mit anderen Delta
 Chat-Nutzer\*innen schreiben - alle anderen Leute empfangen eure Nachrichten
 einfach als E-Mails.
 
+p(pull-left). !(image-left)delta-chat-banner.jpeg!
+
 Für die Ende-zu-Ende-Verschlüsselung benutzt Delta Chat openPGP, der
 "Autocrypt-Standard":https://autocrypt.org macht es aber leicht zu bedienen.
 Mit anderen Delta Chat-Nutzer\*innen wird der Chat verschlüsselt, aber auch mit
-Nutzer\*innen von anderen "Autocrypt-Clients":https://autocrypt.org/install wie
-Thunderbird mit Enigmail.
+Nutzer\*innen von anderen
+"Autocrypt-Clients":https://autocrypt.org/install.html wie Thunderbird mit
+Enigmail.
 
-Man kann Delta Chat kostenlos über den "Google Play Store": oder über
-"F-Droid": installieren.
-
-<!-- some screenshots would be nice -->
+Man kann Delta Chat kostenlos über den "Google Play
+Store":https://play.google.com/store/apps/details?id=chat.delta oder über
+"F-Droid":https://f-droid.org/app/com.b44t.messenger installieren.
 
