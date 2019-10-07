@@ -12,7 +12,8 @@ p(pull-left). !(image-left)delta-chat-banner.jpeg!
 
 For End-to-End Encryption, Delta Chat uses openPGP - the "Autocrypt
 Standard":https://autocrypt.org makes it easy to use, though. With other Delta
-Chat users the chat will be encrypted automatically after the first message.
+Chat users the chat will be encrypted automatically after the first message has
+been exchanged.
 
 Encryption does also work with users of other "Autocrypt-capable E-Mail
 clients":https://autocrypt.org/install.html like Thunderbird with Enigmail.

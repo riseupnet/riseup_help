@@ -12,6 +12,8 @@ p(pull-left). !(image-left)delta-chat-banner.jpeg!
 
 Für die Ende-zu-Ende-Verschlüsselung benutzt Delta Chat openPGP, der
 "Autocrypt-Standard":https://autocrypt.org macht es aber leicht zu bedienen.
+Nach dem Austausch der ersten Nachricht sind alle Nachrichten verschlüsselt.
+
 Mit anderen Delta Chat-Nutzer\*innen wird der Chat verschlüsselt, aber auch mit
 Nutzer\*innen von anderen
 "Autocrypt-Clients":https://autocrypt.org/install.html wie Thunderbird mit
