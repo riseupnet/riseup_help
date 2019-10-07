@@ -13,7 +13,7 @@ table(table table-striped).
 |Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
 |Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
 |Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
-|Android | [[k9]], [[delta.chat]] |  |
+|Android | [[k9]], [[delta-chat]] |  |
 |iOS     |  |  [[ios-mail]] |
 
 h2. 选择 IMAP或者 POP
