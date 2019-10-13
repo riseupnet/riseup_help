@@ -74,17 +74,12 @@ This is a secure question assuming you trust the people that have been in your b
 
 Questions like "What is my hair color" or "What's my dog's name" are insecure because most anyone could easily discover the answers to those questions.
 
-h2.  Use Jabber To Verify Signal SMS Over jmp.chat
+
+h2. Use Jabber To Verify Signal SMS Over jmp.chat
 
 jmp.chat is a service that provides free phone numbers to recieve SMS messages with.  These numbers can be used over jabber to recieve the SMS verification code from the Signal Messanger service.  This is a great way of making use of jabber to get you onto Signal while they still work out the implementation of other identifiers in the near future.  
 
 A barrier for many users has been the fact that Signal requires a text message upon first use.  After this text message has been recieved and a registration lock has been enabled in the settings, you will not need control over the jmp.chat number and can let the free trial lapse.  Signal will attempt to use your phone number listed on your sim card upon first use but you can replace this number with the number that is assigned to you from jmp.chat.
 
-
 If you are running Android you can isolate this Signal install into it's own seperatly encrypted work profile.  You can then use Orbot to create a VPN connection and go into the settings and make it always on VPN with connections not going thru the VPN dropped.  
-
-
-
-
-
 
