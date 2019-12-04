@@ -73,7 +73,7 @@ gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 94CB AFDD 3034 5109 5618  35AA 0B7F 8B60 E3ED FAE3
      Subkey fingerprint: B4EA D120 C7F8 9A4A EA47  2707 250B 7AFE D637 9D85
 
-Congratiolations, you confirmed that you are in possession of an uncorrupted copy of the correct certificate file for the keyserver pool. If you liked that procedure, have a look at [[Riseup's certificates page->certificates]].
+Congratulations, you confirmed that you are in possession of an uncorrupted copy of the correct certificate file for the keyserver pool. If you liked that procedure, have a look at [[Riseup's certificates page->certificates]].
 
 Now, you will need to use the following parameters in @~/.gnupg/gpg.conf@, and specify the full path where you saved the .pem file above by defining the _ca-cert-file_ option:
 
