@@ -60,11 +60,7 @@ Falls irgendwas nicht mehr funktioniert, führ diese Befehle aus:
 
 ```
 sudo pkill -e -f riseup-vpn
-sudo /snap/bin/riseup-vpn.bitmask-root firewall stop
-test -f ~/.config/leap/systray.pid && rm -v ~/.config/leap/systray.pid
 ```
-
-Mit diesen Befehlen werden alle RiseupVPN-Prozesse beendet und die PID-Datei geleert.
 
 ### RiseupVPN startet nicht
 
