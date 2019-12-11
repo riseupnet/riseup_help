@@ -4,22 +4,22 @@
 
 _Feburary 16, 2017_
 
-p. Dopo aver esaurito tutte le possibilità legali, Riseup ha deciso di obbedire a due mandati dell'FBI piuttosto che affrontare il reato di vilipendio alla corte (che sarebbe risultato in carcere per i Riseup bird e/o la terminazione di Riseup). Il primo mandato riguardava l'indirizzo di contatto pubblico per una rete internazionale di estorsione a mezzo DDoS. Il secondo riguardava un account che utilizzava ransomware per estorcere denaro.
+Dopo aver esaurito tutte le possibilità legali, Riseup ha deciso di obbedire a due mandati dell'FBI piuttosto che affrontare il reato di vilipendio alla corte (che sarebbe risultato in carcere per i Riseup bird e/o la terminazione di Riseup). Il primo mandato riguardava l'indirizzo di contatto pubblico per una rete internazionale di estorsione a mezzo DDoS. Il secondo riguardava un account che utilizzava ransomware per estorcere denaro.
 
-p. L'estersione è chiaramente una violazione dei termini e dello spirito del contratto sociale [1] che abbiamo con i nostri utenti: ti proteggiamo fin tanto che non hai dei propositi di oppressione, misogini, razzisti o bigotti.
+L'estersione è chiaramente una violazione dei termini e dello spirito del contratto sociale \[1\] che abbiamo con i nostri utenti: ti proteggiamo fin tanto che non hai dei propositi di oppressione, misogini, razzisti o bigotti.
 
-p. C'era un obbligo di silenzio che ci impediva di rivelare l'esistenza di questi mandati fino ad ora. Questo era il motivo per cui noi non potevamo aggiornare il nostro "Canary" [2].
+C'era un obbligo di silenzio che ci impediva di rivelare l'esistenza di questi mandati fino ad ora. Questo era il motivo per cui noi non potevamo aggiornare il nostro "Canary" \[2\].
 
-p. Ci siamo attivati per assicurarci che Riseup non abbia mai più accesso alle email dei suoi utenti in chiaro. A partire da oggi, tutti i nuovi account mail di Riseup saranno cifrati con una chiave personale e accessibili solo da te. Nel futuro prossimo, inizieremo a migrare gli account esistenti a questo nuovo sistema (per dettagli tecnici, vedi [3]).
+Ci siamo attivati per assicurarci che Riseup non abbia mai più accesso alle email dei suoi utenti in chiaro. A partire da oggi, tutti i nuovi account mail di Riseup saranno cifrati con una chiave personale e accessibili solo da te. Nel futuro prossimo, inizieremo a migrare gli account esistenti a questo nuovo sistema (per dettagli tecnici, vedi \[3\]).
 
-p. Per essere del tutto chiari, questo tipo di cifratura non è end-to-end. Con il nuovo sistema di Riseup, ci dai ancora fiducia quando fai login. Per ottenere una cifratura end-to-end devi usare un client che supporta OpenPGP (e non è web).
+Per essere del tutto chiari, questo tipo di cifratura non è end-to-end. Con il nuovo sistema di Riseup, ci dai ancora fiducia quando fai login. Per ottenere una cifratura end-to-end devi usare un client che supporta OpenPGP (e non è web).
 
-p. Stiamo lavorando per mettere in funzione un sistema end-to-end più completo per il prossimo anno, ma finché non è pronto, stiamo lanciando la memorizzazione cifrata con chiave personale.
+Stiamo lavorando per mettere in funzione un sistema end-to-end più completo per il prossimo anno, ma finché non è pronto, stiamo lanciando la memorizzazione cifrata con chiave personale.
 
-p. Solidarietà,
+Solidarietà,<br>
 i Riseup Birds
 
-p. Domande
+Domande
 
 Q: siete stati compromessi dalla polizia?
 
@@ -38,6 +38,6 @@ Q: perch la nuova canary non nomina ordini di silenzio, ordini FISA, lettere dal
 A: la nostra strategia iniziale per la canary stava solo danneggiando gli utenti mettendogli paura innecessariamente quando sono successi problemi minori. Una canary deve segnalare informazioni importanti agli utenti, ma c'è il rischio di segnalare la cosa sbagliata agli utenti o portare a paura e confusione senza una buona ragione. La canary attuale è limitata ad eventi significativi che comprometterebbero la sicurezza degli utenti di Riseup.
 
 
-[1] [[https://riseup.net/tos]]
-[2] [[https://riseup.net/canary]]
-[3] [[https://0xacab.org/riseuplabs/trees]]
+* \[1\]: https://riseup.net/tos
+* \[2\]: https://riseup.net/canary
+* \[3\]: https://0xacab.org/riseuplabs/trees

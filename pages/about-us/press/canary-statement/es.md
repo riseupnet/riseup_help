@@ -1,0 +1,42 @@
+@title = 'Riseup responde con almacenamiento de e-mail cifrado como respuesta a requerimientos legales'
+@nav_title = 'Declaración sobre nuestra Warrant Canary'
+@toc = false
+
+Tras agotar nuestras opciones legales, Riseup decidió recientemente cumplir con dos requerimientos judiciales a cargo del FBI. Esto antes que enfrentar cargos por desacato a la corte (lo que habría significado cárcel para algunxs de nosotrxs y/o el fin de Riseup como organización). El primero de estos requerimientos se refería a una red internacional de extorsión mediante DDoS. El segundo a una cuenta que usaba ransomware para extorsionar dinero de distintas personas.
+
+Las actividad de extorsión viola claramente el espíritu del contrato social \[1\] que tenemos con nuestrxs usuarixs: Tendrás nuestro respaldo mientras tus objetivos no se enmarquen en una gente pro explotación, misoginia, racista, etc.
+
+Estos requerimientos venían acompañados de una prohibición de informar, impidiéndonos contar la existincia de éstos. Como consecuencia no podíamos actualizar nuestra "Warrant Canary" \[2\].
+
+Decidimos tomar acción para asegurarnos que Riseup nunca más pueda tener acceso al contenido de los correos. Desde hoy, todas las cuentas de e-mail creadas en Riseup están cifradas de forma personal en nuestros servidores, con su contenido solo accesible por sus respectivos usuarixs. En el futuro próximo, migraremos todas las cuentas existentes a este sistema (pueden obtener detalles técnicos en \[3\]).
+
+Para ser absolutamente claros, este tipo de encriptación de mensajes no es de extermo a extremo. Con el nuevo sistema aún pones confianza en el proveedor mientras te encuentras conectado. Para comunicarte de forma real mediante cifrado de extremo a extremo en el e-mail debes usar un cliente con soporte OpenPGP (que no sea un webmail) tal cual como lo necesitabas antes.
+
+Seguiremos desarrollando un sistema de cifrado de extremo a extremo más fácil y comprensivo durante este año, pero hasta que se encuentre listo todas las cuentas de correo se encontrarán cifradas de forma personal.
+
+en solidaridad,<br>
+Riseup
+
+
+Preguntas Frecuentes:
+
+¿Están siendo controlados por organismos de seguridad?
+
+R: No. Nunca hemos permitido que se instale algún hardware o software de monitoreo en ninguno de nuestros sistemas. Los organismos de seguridad no se han llevado nuestros servidores, ni les hemos dado acceso a nuestras máquinas. Preferiríamos que Riseup dejase de existir antes que aceptar algo así.
+
+¿Acaso el gobierno no les podría forzar a decir eso?
+
+R: Forzar a que una persona diga algo es un recurso bastante poco usual en el contexto de EE.UU. Usualmente solo en casos de protección al consumidor el gobierno ha logrado utilizar ese recurso (como en las cajetillas de cigarrillos). De cualquier forma, no, no nos han forzado a decir nada.
+
+¿Por qué no actualizaron la Warrant Canary?
+
+R: En el invierno de 2017, nuestra warrant canary no fue actualizada a tiempo. Los gatillantes para su no actualización eran diversos y cualquier intento por actualizarla alterando el contenido de ésta habría sido una violación a la prohibición de informar relativas dos investigaciones, una sobre red de extorsión mediante DDoS y otra sobre extorsión mediante ransomware. El resultado de esto no fue el deseable, emitiendo la alarma de que algo más grave estaba ocurriendo.
+
+¿Por qué la nueva Warrant Canary no menciona prohibiciones de informar, FISA court orders, National Security Letters, etc?
+
+R: Nuestra estrategia inicial relacionada a la Warrant Canary solo producía daño a nuestros usuarios al causar pánico innecesario cuando eventos menores ocurrían. La Warrant Canary debería informar a los usuarios de un riesgo importante, pero también existe el peligro de indicar lo incorrecto y causar pánico de forma innecesaria. La Warrant Canary actual está limitada a eventos que pueden comprometer la seguridad de l@s usuari@s de Riseup.
+
+
+* \[1\]: https://riseup.net/tos
+* \[2\]: https://riseup.net/canary
+* \[3\]: https://0xacab.org/riseuplabs/trees
