@@ -2,21 +2,21 @@
 
 Dieses Dokument beschreibt, welche Aktivitäten erlaubt sind, unter welchen Voraussetzungen wir deinen Account schließen können und es erklärt unsere Haftungsbeschränkungen. Es gilt für alle Interaktionen mit riseup.net. Wenn du Dienste von riseup.net nutzt, erklärst du dich mit diesen Nutzungsbedingungen einverstanden.
 
-h2. Zusammenfassung
+## Zusammenfassung
 
-# Wenn du etwas wirklich böses tust, werden wir deinen Account schließen.
-# Wir sind nicht haftbar für etwaige Schäden, die mit der Nutzung unserer Dienste  zu tun haben.
-# Du stimmst zu, geduldig mit uns zu sein, bei der harten Arbeit, die wir leisten.
+1. Wenn du etwas wirklich böses tust, werden wir deinen Account schließen.
+1. Wir sind nicht haftbar für etwaige Schäden, die mit der Nutzung unserer Dienste  zu tun haben.
+1. Du stimmst zu, geduldig mit uns zu sein, bei der harten Arbeit, die wir leisten.
 
-h2. Datenschutzrichtlinie
+## Datenschutzrichtlinie
 
 Wir bitten dich darum, unsere ([[Datenschutzrichtlinie -> ../privacy-policy/]]) zu beachten, damit du weißt, wie wir deine Daten sammeln und verarbeiten.
 
-h2. Eigentum an und Verantwortung für Inhalte
+## Eigentum an und Verantwortung für Inhalte
 
 Alle Inhalte, unabhängig davon ob sie öffentlich gepostet oder privat übertragen wurden, liegen in der alleinigen Verantwortung der Person, die sie verfasst hat. Wir dürfen die Inhalte, die über unsere Dienste gepostet werden weder überprüfen noch kontrollieren und können für sie keine Verantwortung übernehmen. Jegliche Nutzung von und jegliches Vertrauen auf Inhalte die über unsere Dienste gepostet wurden, oder die du durch unsere Dienste erhalten hast, geschieht auf eigene Gefahr. Du bist verantwortlich für deine Nutzung unserer Dienste und für alle Inhalte, die du zur Verfügung stellst und alle daraus resultierenden Konsequenzen.
 
-h2. Unterlassung bestimmter Aktivitäten
+## Unterlassung bestimmter Aktivitäten
 
 Die darfst die Dienste von riseup.net für keine der folgenden Aktivitäten nutzen:
 
@@ -24,42 +24,42 @@ Die darfst die Dienste von riseup.net für keine der folgenden Aktivitäten nutz
 * Missbrauch unserer Dienste durch Verteilung von Viren oder Schadprogrammen, durch Teilnahme an einer DDoS-Attacke (Verteilte Dienstblockade) oder durch den Versuch, unerlaubten Zugang zu Computersystemen (einschließlich unserem) zu erlangen.
 * Mitwirkung am Missbrauch von Anderen durch die Verteilung von Materialien, deren Herstellung zu Gewalt oder sexuellem Missbrauch von Menschen führte.
 
-h2. Löschen des Accounts
+## Löschen des Accounts
 
 riseup.net kann die Bereitstellung von Diensten zu jeder Zeit aus jedem beliebigen Grund einstellen. Normalerweise jedoch werden Accounts gelöscht aus einem der folgenden Gründe:
 
 * Von dem Account wurde Spam versendet (große Mengen unerwünschter E-Mail).
 * Der Account war an einer oder mehreren der oben aufgelisteten verbotenen Aktivitäten beteiligt.
 
-h2. Haftungsbegrenzung
+## Haftungsbegrenzung
 
 Du stimmst zu, dass riseup.net dir oder anderen Beteiligten gegenüber nicht haftbar gemacht werden kann für direkte, indirekte, beiläufige, konkrete, mittelbare oder vorsätzliche Schäden, einschließlich aber nicht beschränkt auf Schäden durch Verlust von Gewinn, Ansehen, Nutzen, Daten oder durch andere immaterielle Verluste, unabhängig davon ob wir auf die Möglichkeit eines solchen Schadens hingewiesen wurden. Im Fall dass geltendes Recht die Eingrenzung oder den Ausschluss der Haftung für beiläufige oder mittelbare Schäden nicht zulässt, treffen die oben beschriebenen Beschränkungen oder Ausschlüsse möglicherweise auf dich nicht vollständig zu, unsere Haftung wird allerdings soweit wie durch geltendes Recht erlaubt eingeschränkt.
 
-h2. Wahl der Gerichtsbarkeit
+## Wahl der Gerichtsbarkeit
 
 Du stimmst zu, dass diese Nutzungsbedingungen und deine Nutzung von riseups Diensten unter geltendes Recht des Staats Washington fällt und über jegliche Ansprüche oder Streitigkeiten das Kammergericht von King County, Washington angerufen wird. Du erklärst dich damit einverstanden, dass die englischsprachige Version unserer Nutzungsbedingungen und unserer Datenschutzrichtlinie im Klage oder Streitfall maßgeblich ist.
 
-h2. Der Account endet mit deinem Tod
+## Der Account endet mit deinem Tod
 
 Du stimmst zu, dass alle Rechte an deinem Riseup Account, einschließlich aller dort verwahrten Informationen, mit deinem Tod nichtig werden. 
 
-h2. Richtlinie bzgl. Verletzungen des Urheberrechts
+## Richtlinie bzgl. Verletzungen des Urheberrechts
 
 riseup.net unterliegt dem Abmahnungs- und Sperrungsverfahren des Digital Millennium Copyright Act. DMCA Beschwerden sollten adressiert werden an:
 
-pre.. Alan Korn
-1840 Woolsey Street
-Berkeley, CA 94703
-Ph. (510)548-7300
-Fax (510)284-3750
+	Alan Korn
+	1840 Woolsey Street
+	Berkeley, CA 94703
+	Ph. (510)548-7300
+	Fax (510)284-3750
 
-p. Bitte nimm zur Kenntnis, dass es ein Grundsatz von riseup.net ist, bei entsprechenden Umständen nach unseren Möglichkeiten vertretbare Schritte zu unternehmen, um die Accounts von Nutzer_innen zu schließen, die wiederholte Rechtsverletzer_innen sind.
+Bitte nimm zur Kenntnis, dass es ein Grundsatz von riseup.net ist, bei entsprechenden Umständen nach unseren Möglichkeiten vertretbare Schritte zu unternehmen, um die Accounts von Nutzer_innen zu schließen, die wiederholte Rechtsverletzer_innen sind.
 
-h2. Gewährleistungsausschluss
+## Gewährleistungsausschluss
 
 Du verstehst und stimmst zu, dass riseup Onlinedienste ohne Gewähr und ohne jegliche ausdrückliche, implizite oder gesetzliche Garantie zur Verfügung stellt. Wir lehnen insbesondere jegliche unterstellte Garantie ab für Mängelfreiheit, Gebrauchstauglichkeit, Eignung für einen bestimmten Zweck sowie dafür, dass keine Rechte Dritter verletzt werden. Wir geben keine Garantien hinsichtlich der Zuverlässigkeit, Erreichbarkeit oder Qualität unserer Dienste. Du stimmst zu, dass die Nutzung unserer Dienste ausschließlich auf eigenes Risiko erfolgt. 
 
-h2. Veränderungen dieser Richtlinie
+## Veränderungen dieser Richtlinie
 
 Wir behalten uns das Recht vor, diese Richtlinie zu verändern. Falls wir größere Veränderungen vornehmen, werden wir unsere Nutzer_innen auf klare und besonders sichtbare Art und Weise benachrichtigen. Kleinere Veränderungen können auch nur in der Fußzeile unserer Homepage hervorgehoben werden.
 
