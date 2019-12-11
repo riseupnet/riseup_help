@@ -3,66 +3,66 @@
 
 Este documento descreve quais são as informações que colhemos e para que as usamos. Ele se aplica a todas as interações com riseup.net. A sua utilização dos serviços de riseup.net indica que você concorda com esta Política de Privacidade. Por favor, leia também nossos [[Termos de Serviço -> ../tos/]].
 
-h2. Resumo
+## Resumo
 
 Sabemos que você espera privacidade ao se comunicar, transferir e armazenar dados com este sistema de informação. Nós coletamos pouquíssimas informações pessoais, que jamais compartilhamos.
 
-h2. Informações que colhemos e guardamos
+## Informações que colhemos e guardamos
 
-h3. Informações de cadastro
+### Informações de cadastro
 
 Quando você cria uma conta, nós registramos a data do cadastro (arredondada para o trimestre mais próximo). As informações de solicitação de conta são excluídas depois de quatro meses, e o status do convite, depois de um mês. Se você decidir especificar um e-mail de recuperação de conta, nós o guardaremos, mas em um formato ilegível por nós (ele será armazenado em _hash_, de forma similar a uma senha).
 
-h3. Tíquetes de ajuda
+### Tíquetes de ajuda
 
 O conteúdo de qualquer tíquete de ajuda que você cria ou comenta depois de se autenticar fica associado à sua conta. Você pode preencher um tíquete de ajuda anonimamente criando-o sem, antes, fazer login. Nós apagamos, periodicamente, tíquetes de ajuda antigos e já resolvidos.
 
-h3. Identificadores de sessão
+### Identificadores de sessão
 
 Quando você entra no sistema, nós salvamos, no seu computador, um identificador de sessão temporário, usado pelo navegador para confirmar que você se autenticou. Ele é apagado assim que você sai do sistema ou que sua sessão expira. Não usamos cookies de terceiros, nem fazemos rastreamento de nenhum tipo.
 
-h3. Registro do trânsito de e-mails
+### Registro do trânsito de e-mails
 
 Para detectarmos quando nossos servidores sofrem ataques de "bomba de spam" ou quando alguém usa nosso sistema para mandar spam, nós mantemos registros das informações de remetente e destinatário de todas as mensagens enviadas e recebidas. Esses registros são destruídos diariamente.
 
-h3. Mês do último login
+### Mês do último login
 
 Nós registramos o mês e o ano da sua última autenticação bem-sucedida para poder desabilitar e apagar contas inativas. Não registramos a hora nem o dia do último login. Por exemplo, a data pode ser salva como "Q3 2018".
 
-h2. Informações que escolhemos não guardar
+## Informações que escolhemos não guardar
 
-h3. Endereços de IP
+### Endereços de IP
 
 Nenhum endereço de IP é guardado. Isso vale para qualquer pessoa que utilize qualquer um de nossos serviços.
 
-h3. Impressão digital do navegador
+### Impressão digital do navegador
 
 O seu navegador da Web passa certas informações, que podem identificá-lo como único, para todos os servidores da Web que visita, deixando neles a sua "impressão digital". Ele informa aos sites qual é o seu sistema operacional, quais _plugins_ e fontes estão instaladas, qual é a resolução da sua tela e muito mais. Nós não guardamos nenhuma dessas informações.
 
-h3. Metadados das mensagens
+### Metadados das mensagens
 
 Mesmo mensagens de e-mail criptografadas de ponta a ponta no padrão OpenPGP revelam, em claro, o assunto, o remetente e os destinatários no momento em que chegam. Isso acontece devido a limitações intrínsecas do protocolo de e-mail e do OpenPGP.
 
-h2. Como armazenamos e compartilhamos informações coletadas
+## Como armazenamos e compartilhamos informações coletadas
 
-h3. Criptografia
+### Criptografia
 
 Todos os seus dados armazenados são criptografados, e apenas o Riseup tem as chaves para decriptografá-los. Além disso, desde março de 2017, o armazenamento de todas as novas contas é criptografado pessoalmente. O Riseup não tem acesso ao conteúdo de nenhuma dessas contas. Qualquer pessoa cuja conta tenha sido criada antes de março de 2017 pode optar pelo armazenamento criptografado pessoalmente.
 
-h3. Não compartilhamos informações pessoais
+### Não compartilhamos informações pessoais
 
 Sobre cada pessoa que usa nossos serviços, guardamos somente o mínimo de informação, necessário para fazê-los funcionar. Não compartilhamos essa informação, nem a vendemos.
 
-h3. Pesquisa acadêmica
+### Pesquisa acadêmica
 
 Informações agregadas e anônimas podem ser disponibilizadas para cientistas experientes com o único objetivo de desenvolver melhores sistemas de comunicação anônima e segura. É impossível associá-las a uma pessoa em particular. Por exemplo, podemos agregar informações sobre quantas mensagens são enviadas e recebidas por pessoa, em média, e com que frequência.
 
 Não lemos, vasculhamos ou processamos seu correio de entrada ou de saída, exceto para proteger você de vírus e de spam e, quando você nos pede para fazê-lo, para solucionar seus problemas.
 
-h2. Exclusão de conta
+## Exclusão de conta
 
 Você pode pedir a exclusão da sua conta em riseup.net a qualquer momento. Isso destruiria todos os dados que guardamos associados à sua conta. Por um ano, os seus nomes de usuário não poderiam ser usados por outras pessoas.
 
-h2. Mudanças nesta política
+## Mudanças nesta política
 
 Nós nos reservamos o direito de mudar esta política. Grandes mudanças serão notificadas à comunidade de maneira clara e destacada (como em um [[boletim => newsletter]]). Mudanças menores poderão ser incluídas no rodapé do site.
