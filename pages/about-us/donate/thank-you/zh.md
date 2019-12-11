@@ -1,6 +1,6 @@
 @title = 'Thank You!'
 
-!/about-us/donate/img/thanks-red-small.jpg!
+![thank you!](/about-us/donate/img/thanks-red-small.jpg)
 
 万分感激。您的支持是我们的生命线，并激励我们更努力工作。我们感谢您把钱用在对您有价值的地方。
 

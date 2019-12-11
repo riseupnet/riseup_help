@@ -1,7 +1,6 @@
 @title = 'Danke!'
 
-!/about-us/donate/img/thanks-red-small.jpg!
-
+![thank you!](/about-us/donate/img/thanks-red-small.jpg)
 Wir sind unendlich dankbar. Eure Unterstützung hält uns am Leben, ja macht all unsere harte Arbeit erst möglich. Wir lieben euch dafür, dass ihr dafür spendet, was euch wichtig ist.
 
 Ohne euren Beitrag, könnten wir nicht bestehen. Danke, danke, danke! DANKE!
