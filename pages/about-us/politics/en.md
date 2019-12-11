@@ -1,0 +1,27 @@
+@title = 'Political Principles'
+
+<p class="pull-right"><img src="page10-1038-full_large.jpg" alt="principles"></p>
+
+The purpose of our organization is the creation of a free society organized along the following principles:
+
+**Democracy** -- A free society depends on a free media and organizes civic, social, and economic life using the principles of participatory democracy arising from direct action and public accountability. Those affected by a decision have an opportunity to participate in that decision.
+
+**Equality** --All people are welcomed as part of a free society. All people are equal and all labor is valued equally.
+
+**Diversity** --All people in a free society are different, and space for their difference is paramount to their equality.
+
+**Security** --Every human in a free society has secure access to meet their basic needs of food, shelter, health care, information, education, and transportation.
+
+**Creativity** --A free society values culture, art, and leisure as fundamental needs. Every person has the right to their own culture and to practice creative expression.
+
+**Self-Determination** --A free society is decentralized and all localities are autonomous and self-determined so long as they do not infringe upon the other basic principles of a free society.
+
+**Interdependence** --Communities in a free society are dependent on one another through mutual aid and exchange.
+
+**Justice** --All people have the right to be free from coercion, threat, and violence. A justice system should reside in the community it affects, seek resolution rather than revenge, and should work towards abolition of authoritarian prisons and jails.
+
+**Peace** --A free society uses conflict as an opportunity to learn from divergent views, opinions and experiences, with the goal of crafting agreements and taking actions that affirm the humanity and basic rights of all parties.
+
+**Ecology** --Humans live in balance with, and are part of, the natural world. A free society recognizes the right to clean water, clean air and food free of industrial toxins and genetic engineering.
+
+**Economy** --In a free society the means of production should be placed in the hands of the people, empowering communities to organize meaningful employment, and provide a responsible and sustainable standard of living which tries to meet the needs of all people.
