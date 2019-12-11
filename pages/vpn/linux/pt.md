@@ -30,11 +30,10 @@ sudo snap install --classic riseup-vpn
 
 ### Encerramento forçado
 
-Se a RiseupVPN travar ou sua conexão de rede estiver bloqueada, você pode forçar o encerramento do programa e desabilitar o firewall com os seguintes comandos:
+Se a RiseupVPN travar ou sua conexão de rede estiver bloqueada, você pode forçar o encerramento do programa:
 
 ```
 sudo pkill -e -f riseup-vpn
-sudo /snap/bin/riseup-vpn.bitmask-root firewall stop
 ```
 
 ### Não inicializa
