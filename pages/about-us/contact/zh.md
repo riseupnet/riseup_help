@@ -6,11 +6,9 @@
 
 我们的邮寄地址是:
 
-<pre>
-Riseup Networks
-PO Box 4282
-Seattle, WA 98194 USA
-</pre>
+	Riseup Networks
+	PO Box 4282
+	Seattle, WA 98194 USA
 
 Riseup的集体成员和朋友们经常在 irc.indymedia.org的 #riseup聊天室。如果不熟悉 “irc”，您可以访问web界面 https://chat.indymedia.org 来联系我们。
 
