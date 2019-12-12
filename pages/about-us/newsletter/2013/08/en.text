@@ -1,6 +1,6 @@
 @title = 'August'
 
-h2. Riseup and the recent email provider closures
+## Riseup and the recent email provider closures
 
 We have received your emails asking a number of good questions in light of last week's news about [Lavabit and SilentCircle closing down->http://www.theguardian.com/technology/2013/aug/09/lavabit-email-edward-snowden-shuts-down]. We would like to clearly state that Riseup has never given any user information to any third party. We have never permitted installation of any hardware or software monitoring on any system that we control.
 
@@ -8,7 +8,7 @@ We will do everything in our power to protect the data of social movements and a
 
 [[government-faq]]
 
-h2. Space for dissent
+## Space for dissent
 
 It is a mistake to frame the recent US and European massive surveillance revelations in terms of the privacy of individuals. What is at stake is not privacy at all, but the power of the state over its citizenry.
 
