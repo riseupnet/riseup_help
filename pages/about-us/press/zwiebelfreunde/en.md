@@ -1,0 +1,34 @@
+@title = 'Bavarian raids'
+
+_4 Jul, 2018_
+
+On June 20th, in order to gather data on a Riseup user, our fiscal sponsor in the EU was raided by the Bavarian police. This extreme overreach included raids on several homes, a hackerspace, a social center, and a lawyer's office. The police took all the computers, cell phones, disks, and records that they could. Several people were arrested and are now out and safe. However, as a consequence of these raids, the police have filed a number of unrelated charges.
+
+What caused the police-state to raise up its ugly head? In this case, the justification was a website created to organize against a rally of an extreme right political party. It seems in Bavaria, you cannot make a website that tries to get people to come protest neo-fascists without also offending the police. The website had a riseup.net email address listed for a contact, and knowing they cannot get information from Riseup, the police looked at Riseup's donate page and found we accept donations in Europe through a non-profit organization ("Verein") based in Germany called Zwiebelfreunde. They decided this meant that Riseup was run by this organization (it is not), and so aggressively targeted this organization.
+
+What does this mean for you, dear Riseup user?
+
+First, don't panic. All your data stored by Riseup is still secure.
+
+Second, if you donated to Riseup via our European IBAN mechanism then there is a good chance the German police now have a record of your bank account number, name, amount you donated, and the date of the donation.
+
+Third, please join us in supporting our friends and allies at Zwiebelfreunde\[0\]. They are amazing and need your support. In the coming weeks, information will be posted to their website detailing ways that you can help.
+
+In solidarity,<br>
+The Riseup Birds
+
+\[0\]: [[https://www.zwiebelfreunde.de/]]
+
+p. Further coverage:
+
+German:
+
+* [[https://www.spiegel.de/netzwelt/web/hausdurchsuchungen-bei-netzaktivisten-chaos-computer-club-kritisiert-polizeivorgehen-a-1216463.html]]
+* [[https://netzpolitik.org/2018/zwiebelfreunde-durchsuchungen-wenn-zeugen-wie-straftaeter-behandelt-werden/]]
+* [[https://www.heise.de/newsticker/meldung/Massive-CCC-Kritik-an-Polizei-Hausdurchsuchung-bei-Datenschutz-Aktivisten-4098764.html]]
+
+English:
+
+* [[https://blog.torservers.net/20180704/coordinated-raids-of-zwiebelfreunde-at-various-locations-in-germany.html]]
+* [[https://www.ccc.de/en/updates/2018/hausdurchsuchungen-bei-vereinsvorstanden-der-zwiebelfreunde-und-im-openlab-augsburg]]
+* [[https://www.zdnet.com/article/german-police-raid-homes-of-tor-linked-groups-board-members/]]
