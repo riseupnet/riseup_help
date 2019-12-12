@@ -18,10 +18,10 @@ Unfortunately, we don't have the labor to send you a letter of thanks when we re
 
 ##  Online donations
 
-h3. Via NetworkForGood
+### Via NetworkForGood
 
 [Click here to donate](https://www.networkforgood.org/donate/process/expressDonation.aspx?ORGID2=20-4204809)
 
-h3. Via Paypal
+### Via Paypal
 
 Donations to Riseup Labs can be sent to [@donate@riseuplabs.org@].

@@ -18,10 +18,10 @@
 
 ##  Онлайн пожертвования
 
-h3. Через NetworkForGood
+### Через NetworkForGood
 
 [Нажмите здесь для осуществления пожертвования](https://www.networkforgood.org/donate/process/expressDonation.aspx?ORGID2=20-4204809)
 
-h3. Через Paypal
+### Через Paypal
 
 Пожертвования Riseup Labs можно отправять по адресу [@donate@riseuplabs.org@].
