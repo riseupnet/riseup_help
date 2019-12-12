@@ -1,26 +1,26 @@
 @title = "July"
 
-h2. Riseup Stories
+## Riseup Stories
 
 Some of you may remember that back in the day we asked you to send us your Riseup stories. Once again, we would love to hear what work you are doing in the world and how Riseup is helping you.
 
 Why? Your stories inspire us on the days when we are stuck in server cabinets, fighting spammers, and searching for stray code commas that are messing everything up. Also, we think our movements grow stronger when we share stories of struggle, strategy, and success. Every month we hope to include one of these stories in our newsletter. So write us already, what are you waiting for? pigeon@riseup.net
 
-h2. Your government wants to break the internet
+## Your government wants to break the internet
 
-Rickard Falkvinge, founder of the Swedish Pirate Party, recently wrote[1]:
+Rickard Falkvinge, founder of the Swedish Pirate Party, recently wrote\[1\]:
 
 bq. "Governments all over the world, and in the so-called Free West in particular, look like confused sheep. They are applauding the net activists who are helping people communicate unhindered to get news out from repressive regimes, and at the same time arresting people who use the same technologies in their own countries."
 
 The heart of the matter is that governments want the ability to know who you are on the internet. They currently find this difficult, and they want to design the technology of the internet to make identification easy.
 
-This was the essence of the recent eG8 summit[2] in France. Leaders from around the world got together to push the idea that "the rule of law" must extend to the internet.
+This was the essence of the recent eG8 summit\[2\] in France. Leaders from around the world got together to push the idea that "the rule of law" must extend to the internet.
 
-We can see examples of this in the HADOPI law in France[3] (which sets up a government agency to regulate who has access to the internet), the warrantless wiretapping law in Sweden[4], and the Obama administration's desire to require backdoors to encrypted communication in the United States[5].
+We can see examples of this in the HADOPI law in France\[3\] (which sets up a government agency to regulate who has access to the internet), the warrantless wiretapping law in Sweden\[4\], and the Obama administration's desire to require backdoors to encrypted communication in the United States\[5\].
 
 All this is a very bad idea, for one simple reason: the only way to ensure real identity on the internet is to build a police-state.
 
-As Bruce Schneier, one of the foremost experts on computer security, wrote[6]:
+As Bruce Schneier, one of the foremost experts on computer security, wrote\[6\]:
 
 bq. "Bits are bits; they don't come with identity information attached to them... We simply don't have anywhere near the expertise to build an airtight attribution system... Any attempts to circumvent this limitation will fail, and will increasingly need to be backed up by the sort of real-world police-state measures that the entertainment industry is demanding in order to make copy-protection work. That's how China does it: police, informants, and fear... Law enforcement and others need to understand that the old ideas of identification don't work on the Internet."
 
@@ -28,19 +28,14 @@ If the civil libertarians get their way, the internet will still be a playground
 
 If you want to assert your ability to communicate on the internet anonymously then try out the Riseup VPN. We are having people try it out this month in order to work out some of the bugs. You can read more and learn how to use it at https://help.riseup.net/vpn
 
-fn1. https://torrentfreak.com/whos-the-police-and-whos-the-crook-anyway-110612/
+* \[1\] https://torrentfreak.com/whos-the-police-and-whos-the-crook-anyway-110612/
+* \[2\] https://en.wikipedia.org/wiki/E-G8_Forum
+* \[3\] https://help.riseup.net/france
+* \[4\] https://help.riseup.net/sweden
+* \[5\] https://help.riseup.net/calea
+* \[6\] https://www.schneier.com/essay-308.html
 
-fn2. https://en.wikipedia.org/wiki/E-G8_Forum
-
-fn3. https://help.riseup.net/france
-
-fn4. https://help.riseup.net/sweden
-
-fn5. https://help.riseup.net/calea
-
-fn6. https://www.schneier.com/essay-308.html
-
-h2. Riseup Update
+## Riseup Update
 
 Last September we asked you all to give us money (and you did, which was amazing! Yay, you!) for three projects. We wanted to update you on where we're at with them.
 

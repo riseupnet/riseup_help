@@ -1,35 +1,31 @@
 @title = "February"
 
-h2. Tracking Opt-out
+## Tracking Opt-out
 
-In recent weeks, developers for Firefox and Chrome have announced that the next version of their browsers will include an opt-out option of behavioral tracking [1] [2].
+In recent weeks, developers for Firefox and Chrome have announced that the next version of their browsers will include an opt-out option of behavioral tracking \[1\] \[2\].
 
 This seems like a great idea! After all, advertisers have started to collect massive amounts of detailed data on our behavior in order to bombard us with ads precisely targeted to our individual desires.
 
 Unfortunately, one great tragedy of being a radical is that life holds so few surprises. Therefore, you are probably not shocked to hear that Google (the largest online advertiser in the world) created a really crappy system in their Chrome browser for blocking behavior tracking (the very practice they make billions on).
 
-The Chrome method relies on a voluntary system set up by the Network Advertising Initiative, an industry group. According to one detailed report, this system is a total sham [3]. Its only success is in lulling regulators into thinking that self-regulation is working.
+The Chrome method relies on a voluntary system set up by the Network Advertising Initiative, an industry group. According to one detailed report, this system is a total sham \[3\]. Its only success is in lulling regulators into thinking that self-regulation is working.
 
-What about open source Firefox? After all, it is produced by a non-profit foundation (albeit one that gets most of its funding from Google). Although the Electronic Frontier Foundation has lauded Firefox's approach [4], we have to give it a failing grade. The Firefox method is technologically superior to Chrome's approach, but it is even less useful because it doesn't actually block any tracking. It relies on the hope that some day the advertisers will decide to recognize the Firefox-specific indication of an 'opt-out'. This strategy has the same problem as the Chrome method: both rely on a system of voluntary compliance that has proven to be a complete failure.
+What about open source Firefox? After all, it is produced by a non-profit foundation (albeit one that gets most of its funding from Google). Although the Electronic Frontier Foundation has lauded Firefox's approach \[4\], we have to give it a failing grade. The Firefox method is technologically superior to Chrome's approach, but it is even less useful because it doesn't actually block any tracking. It relies on the hope that some day the advertisers will decide to recognize the Firefox-specific indication of an 'opt-out'. This strategy has the same problem as the Chrome method: both rely on a system of voluntary compliance that has proven to be a complete failure.
 
-Ironically, it was Microsoft that developed the first effective technology for preventing unwanted tracking. In Microsoft's design, Internet Explorer would automatically learn to detect and block tracking by analyzing the content of the websites you visited. Even better, this technology was going to be enabled by default! But the story does not end well. According to the Wall Street Journal [5], programmers developed this amazing feature only to have it killed by Microsoft executives bowing to pressure from advertising companies. The feature is still in Internet Explorer, but is so amazingly cumbersome to use that it might as well not exist.
+Ironically, it was Microsoft that developed the first effective technology for preventing unwanted tracking. In Microsoft's design, Internet Explorer would automatically learn to detect and block tracking by analyzing the content of the websites you visited. Even better, this technology was going to be enabled by default! But the story does not end well. According to the Wall Street Journal \[5\], programmers developed this amazing feature only to have it killed by Microsoft executives bowing to pressure from advertising companies. The feature is still in Internet Explorer, but is so amazingly cumbersome to use that it might as well not exist.
 
 It is a good sign the that three major web browsers are thinking about behavior tracking. Unfortunately, their half-hearted attempts to address the problem deserve a failing grade.
 
 As it happens, the Riseup birds are also thinking about ways to block behavior tracking. One method is to use the new Riseup VPN service that we are currently beta-testing. If you want to help test it, and you are a windows, mac, linux, or android programmer and you want to help with making the clients easy to use, send mail to vpn@riseup.net.
 
-fn1. https://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/
-
-fn2. http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html
-
-fn3. "WPF NAI report Nov2 20 2007":WPF-NAI-report-Nov2-2007fs.pdf
-
-fn4. https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track
-
-fn5. "Microsoft Quashed Effort To Boost Online Privacy":WSJ-2010-Microsoft-Quashed-Effort-to-Boost-Online-Privacy.pdf
+* \[1\] https://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/
+* \[2\] http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html
+* \[3\] "WPF NAI report Nov2 20 2007":WPF-NAI-report-Nov2-2007fs.pdf
+* \[4\] https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track
+* \[5\] "Microsoft Quashed Effort To Boost Online Privacy":WSJ-2010-Microsoft-Quashed-Effort-to-Boost-Online-Privacy.pdf
 
 
-h2. On passwords and antifascists
+## On passwords and antifascists
 
 If you are in Germany, you probably heard wild reports about riseup.net getting "hacked" (https://linksunten.indymedia.org/de/node/32436) by a German antifa activist in order to prove a point about lax security practice among antifa activists.
 
@@ -56,7 +52,7 @@ If you want to regain access to your account if you forget your password, you sh
 One problem we face is that many users have old passwords from before we required strong ones. We are currently trying to figure out how to get people to update their password, without being too harsh about it. Perhaps a singing telegram?
 
 
-h2. Skipping to the Surveillance Apocalypse
+## Skipping to the Surveillance Apocalypse
 
 Some good news, for once:
 
@@ -66,6 +62,6 @@ And the typical bad:
 
 Bradley Manning, the soldier accused of leaking documents detailing illegal actions of the US military in Iraq and Afghanistan, has spent eight months languishing in solitary confinement, awaiting a military trial. You can keep up with Manning's case at www.bradleymanning.org.
 
-h2. Dreams and Schemes
+## Dreams and Schemes
 
 Our dreams do not always match our pocket books. Our dreams do not always need our pocket books, but sometimes they do. As usual, here at Riseup headquarters, we are scheming and dreaming about new ways to build secure and vibrant tech for our social movements. Any money you could send our way would be hugely appreciated and used wisely. https://help.riseup.net/about-us/donate/
