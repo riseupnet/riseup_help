@@ -1,6 +1,6 @@
 @title = 'Febrero'
 
-h2. Notas desde el despacho de ayuda: Consejos sobre clientes de correo
+## Notas desde el despacho de ayuda: Consejos sobre clientes de correo
 
 Querido Riseup,
 
@@ -23,14 +23,14 @@ Aquí hay algunas pistas de como configurar filtros de correo a través del sist
 https://help.riseup.net/en/email-filters#how-do-i-edit-my-email-filters
 
 
-h2. ¡Spam! ¡Spam! ¡Spam!
+## ¡Spam! ¡Spam! ¡Spam!
 
 ¿Por qué hay tanto spam? ¡Es tan molesto! Quizás no te des cuenta, pero estamos trabajando enloquecidas para cerrar los agujeros que están dejando entrar el spam. Ha habido muchas mejoras en los últimos meses, y algunas cosas que no funcionaban tan bien...no te vamos a aburrir con los detalles.
 
 Sin embargo, si vamos a decirte que puedes hacer para mejorar la situación. Lo primero de todo, comprueba tu configuración de spam, y considera la posibilidad de aumentar la sensibilidad del filtro y cambiar otras opciones. Esto se explica en https://help.riseup.net/spam. Segundo, si recibes spam en ; tu Bandeja de Entrada, puedes ayudar a nuestros filtros a aprender simplemente moviendo ese mensaje a tu carpeta de spam (solamente si usas IMAP). De igual forma, si algún mensaje fue puesto incorrectamente en tu carpeta de spam, muévelo a tu Bandeja de Entrada y nuestro sistema aprendera que fue un error. No todos los mensajes que no deseas son spam, así que solamente mueve spam de verdad. Antes usabamos una carpeta de "Errores" pero ya no. Si eres una veterana usuaria de Riseup con una carpeta de "Errores", puedes asi mismo borrarla, ya que ya no procesamos mensajes allí.
 
 
-h2. Traductores Voluntarios del Boletín de Riseup
+## Traductores Voluntarios del Boletín de Riseup
 
 Cada mes un grupo de dedicadas voluntarias ayuda a traducir el boletín de Riseup a una variedad de idiomas. Queríamos tomarnos un momento para agradecer a esta gente buena repartida por el globo su ayuda para hacer las noticias e informaciones de Riseup más accesibles a todos los usuarios.
 

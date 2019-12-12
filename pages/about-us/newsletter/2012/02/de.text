@@ -1,7 +1,7 @@
 @title = 'Februar 2012'
 
 
-h2. Notizen vom "Help Desk": technische Tips zu Email-Programmen
+## Notizen vom "Help Desk": technische Tips zu Email-Programmen
 
 Hallo Riseup,
 
@@ -24,7 +24,7 @@ Hier findest Du eine (englische) Anleitung zum Einrichten von Filtern über die 
 https://help.riseup.net/de/email-filters#how-do-i-edit-my-email-filters
 
 
-h2. Spam! Spam! Spam!
+## Spam! Spam! Spam!
 
 Warum kommt da so viel Spam? Ist das mühsam! Vielleicht hast Du es nicht bemerkt, doch wir arbeiten wie wild am Stopfen der Löcher, die den Spam reinlassen. In den vergangenen Monaten gab es eine Menge Verbesserungen, wie auch ein paar Dinge, die nicht so gut geklappt haben... wir wollen Dich aber nicht mit Details langweilen.
 
@@ -32,7 +32,7 @@ Auf jeden Fall wollen wir Dir sagen, wie Du die Situation verbessern kannst. Zu 
 Zweitens: Wenn Du Spam in Deinem Posteingang vorfindest, kannst Du (falls Du IMAP verwendest) unsere Filter verbessern, indem Du diese Nachricht einfach ins Spam-Verzeichnis rüberziehst. Genauso kannst Du eine fälschlicherweise im Spam-Verzeichnis gelandete Nachricht in Deinen Posteingang verschieben - unser System wird sich für´s nächste Mal merken, daß das ein Fehler war. Nicht alle Nachrichten, die Dich nicht interessieren, sind auch wirklich Spam, darum solltest Du nur "echten Spam" (= ungezielte Massenwerbung) in das Spam-Verzeichnis verschieben. Früher gab es zu diesem Zweck das "Mistakes"-Verzeichnis. Falls Du einE alteingesesseneR Riseup-NutzerIn mit einem "Mistakes"-Verzeichnis bist, könntest Du dieses nun löschen, da es keine Funktion mehr hat.
 
 
-h2. freiwillige ÜbersetzerInnen für das Riseup Rundmail
+## freiwillige ÜbersetzerInnen für das Riseup Rundmail
 
 Jeden Monat hilft eine Gruppe engagierter Freiwilliger, das Riseup Rundmail in verschiedene Sprachen zu übersetzen. Wir möchten den Anlass nutzen, um uns bei diesen netten, über den ganzen Erdball verteilten Menschen dafür zu bedanken, daß sie die Infos und Neuigkeiten von Riseup all unseren NutzerInnen besser verfügbar machen.
 

@@ -1,25 +1,25 @@
 @title = 'January'
 
-h2. Who are the people in your neighborhood?
+## Who are the people in your neighborhood?
 
 Whenever we approve new lists and emails for Riseup, we're inspired by the beautiful, varied, and creative projects and causes people are working on. It occurred to us that Riseup users might be interested to know what some other Riseup users are up to. Here are a few, randomly collected from those in the cue today:
 
 Building the Iranian Green Movement, organizing resistance to the G8 in Chicago, creating a new Pirate Party local chapter in Sweden, running a free alternative health collective, setting up prisoner support for a political prisoner in California, creating a new working group for the Spanish 15M movement, increasing security for journalists, and sabotaging fox hunts in England.
 
-h2. How do I delete a message from a list archive?
+## How do I delete a message from a list archive?
 
 As a list administrator, from time to time, you might want to delete a message from the list's archive: maybe because it's spam, maybe it's abusive, or maybe someone said too much about something. It is the list administrators job (not Riseup's) to be aware of what's being stored in the archives and to manage its content. How?
 
-# Login at lists.riseup.net.
-# Click archives.
-# Navigate to the message that you want to delete. Click on it to display it.
-# Click the "tag this mail for deletion" button.
+1. Login at lists.riseup.net.
+1. Click archives.
+1. Navigate to the message that you want to delete. Click on it to display it.
+1. Click the "tag this mail for deletion" button.
 
 That’s it! soon, the email will no longer appear in the archives.
 
 For more shiny tricks for list administrators, go to frequently asked questions at https://help.riseup.net/en/list-admin-faq.
 
-h2. The big picture of SOPA/PIPA
+## The big picture of SOPA/PIPA
 
 If you read the news at all, you have probably heard about SOPA and PIPA, the attempt by the United States congress to aggressively attack non-US sites that are accused of hosting or linking to copyrighted material.
 

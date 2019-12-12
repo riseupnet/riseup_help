@@ -1,6 +1,6 @@
 @title = "March"
 
-h2. New services in development
+## New services in development
 
 We are in the testing phase for our VPN, chat, and etherpad services. These services are still under development, and may be unreliable (ie, they might crash) at times. If you want to help test them, please give them a try.
 
@@ -12,7 +12,7 @@ Etherpad is a software libre web application that allows for real-time group col
 
 Please note that these are experimental services and we may not be able to answer your emails and help tickets asking for assistance getting them to work.
 
-h2. News of the creepy
+## News of the creepy
 
 A start up company, Prism, now offers shopping malls the ability to perform analysis of human traffic by mining video from surveillance cameras. Do you like how advertisers track your every page view across the internet? Great, that same tracking is coming to your shopping mall. "It's like Google Analytics for the real world," says the Prism CEO. Lovely, just what we need.
 
@@ -29,7 +29,7 @@ The attack of the drones: new bills in the US Congress are poised to bring 30,00
 "Ten Fun Facts About Drones"
 http://www.forbes.com/sites/kashmirhill/2012/02/09/10-fun-facts-about-drones/
 
-h2. Notes from the Help Desk
+## Notes from the Help Desk
 
 Why is GNU/Linux better than Windows or Mac OS?
 

@@ -1,6 +1,6 @@
 @title = 'Marzo'
 
-h2. Nuevos servicios en desarrollo
+## Nuevos servicios en desarrollo
 
 
 Estamos en la fase de prueba de nuestra VPN, chat y servicio de etherpad. Estos servicios están aún en desarrollo, y no son totalmente de fiar (por ejemplo, pueden caerse) en ocasiones. Si quieres ayudarnos a probrarlos, por favor, hazlo.
@@ -14,7 +14,7 @@ Etherpad es una aplicación web de software libre que facilita la colaboración 
 Por favor ten encuenta que estos servicios son experimentales y podría resultarnos imposible contestar tus correos o tickets de ayuda pidiendo asistencia para hacerlos funcionar.
 
 
-h2. Noticias horripilantes
+## Noticias horripilantes
 
 
 Una empresa incipiente, Prism, ofrece actualmente a los grandes almacenes (centros comerciales) la capacidad de analizar el tráfico humano a través de los videos de las cámaras de vigilancia. ¿Te gusta como los anunciantes registran tus visitas diarias a páginas a través de internet? Genial, ese mismo registro está llegando a tu gran almacén. “Es como Google Analytics para el mundo real” dice el CEO (N. del colectivo T.: Director Ejecutivo por sus siglas en inglés) de Prism. Maravilloso, justo lo que necesitábamos.
@@ -34,7 +34,7 @@ armado, cuando menos con una pistola taser. ¿Te sientes marginada? No te preocu
 http://www.forbes.com/sites/kashmirhill/2012/02/09/10-fun-facts-about-drones/
 
 
-h2. Notas desde el despacho de ayuda
+## Notas desde el despacho de ayuda
 
 ¿Porque GNU/Linux es mejor que Windows o Mac OS?
 

@@ -1,6 +1,6 @@
 @title = 'September'
 
-h2. Tu was für die Sicherheit!
+## Tu was für die Sicherheit!
 
 Falls Du keine sichere Verbindung verwendest, wenn Du die Dienste von Riseup nutzt, könnte jemand Deine E-Mails mitlesen, ja schlimmer noch: Sie können mit Leichtigkeit Deine Anmeldedaten ausspähen. Mit einer “sicheren Verbindung” besteht dieses Problem nicht, denn Dein Datenverkehr wird dann verschlüsselt und ist somit geschützt.
 
@@ -9,7 +9,7 @@ Riseup wird bald die Möglichkeit abstellen, sich ungesichert zu verbinden. Daru
 https://help.riseup.net/de/sichere_verbindungen
 
 
-h2. Neuigkeiten aus dem Kollektiv
+## Neuigkeiten aus dem Kollektiv
 
 Am Dienstag, den 28. August war Riseup wieder vor dem Bundesgericht, dieses Mal in einem Berufungsverfahren. Vielleicht erinnern sich einige, dass wir im vergangenen Jahr dazu verurteilt worden waren, Informationen über Nutzer_innen herauszugeben, die ein E-Mail betreffs einer queeren direkten Aktion bei einer konservativen Kirche erhalten hatten.
 

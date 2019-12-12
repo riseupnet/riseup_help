@@ -1,7 +1,7 @@
 @title = 'März 2012'
 
 
-h2. Neue Funktionen in Entwicklung
+## Neue Funktionen in Entwicklung
 
 Wir befinden uns in der Testphase für unser VPN, den Chat und den Etherpad-Dienst. Diese Funktionen sind noch in der Entwicklung und können daher manchmal unzuverlässig laufen (d.h. sie stürzen womöglich ab). Wenn Du uns helfen möchtest sie zu testen, bitte probier sie mal aus.
 
@@ -16,7 +16,7 @@ Etherpad ist eine freie Web-Software die es ermöglicht, in Echtzeit als Gruppe 
 Bitte denkt daran, dass diese Funktionen noch experimentell sind und wir möglicherweise noch nicht alle E-Mails und Help-Tickets, die nach Unterstüzung fragen, beantworten können. 
 
 
-h2. Nachrichten aus der Schauer-Ecke
+## Nachrichten aus der Schauer-Ecke
 
 Ein Start-Up-Unternehmen, Prism, bietet jetzt die Möglichkeit für Einkaufszentren, mithilfe des Materials aus ihren Überwachungskameras menschliches Verhalten zu analysieren. Gefällt es Dir, wie Werbefirmen jede Deiner Bewegungen im Internet aufzeichnen? Wunderbar, denn dieselbe Technik kommt jetzt auch in Dein Einkaufszentrum. “Es ist wie Google Analytics, bloß im wahren Leben,” sagt der Firmenchef von Prim. Sehr schön, genau darauf hatten wir gewartet.
 
@@ -37,7 +37,7 @@ Die Attacke der Drohnen: Neue Gesetzesentwürfe im US-Kongress sehen vor, 30.000
 http://www.forbes.com/sites/kashmirhill/2012/02/09/10-fun-facts-about-drones/
 
 
-h2. Ein paar Anmerkungen des Helpdesks
+## Ein paar Anmerkungen des Helpdesks
 
 Warum ist GNU/Linux besser als Windows oder Mac OS?
 
@@ -48,6 +48,6 @@ OS X leidet unter ähnlichen Problemen wie Windows. Während es auf UNIX basiert
 GNU/Linux hingegen besteht vornehmlich (und kann komplett so eingestellt werden) aus Software, deren Quellcode frei verfügbar ist und von allen überprüft werden kann. Es wird seit Jahrzehnten von einer Gemeinde aufgebaut. Seit seinem Bestehen gab es nur sehr wenige Viren und Exploits. Linux ist auch ein benutzer_innen-freundliches Betriebssystem, das die meiste ältere Hardware noch unterstüzt, was dazu führt, dass sichere Software allen frei verfügbar wird.
 
 
-h2. Spenden
+## Spenden
 
 Bitte spedet Riseup etwas Geld, wenn Ihr könnt. Wir unterstützen viele kostspielige Projekte weltweit, das Geld das ihr uns gebt wird also dazu verwendet, viele echt coole Projekte zu verwirklichen. https://help.riseup.net/en/donate

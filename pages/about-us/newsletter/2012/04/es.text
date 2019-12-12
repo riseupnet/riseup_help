@@ -1,6 +1,6 @@
 @title = 'Abril'
 
-h2. Secuestro de nuestro servidor
+## Secuestro de nuestro servidor
 
 El miércoles 18 de abril, un servidor alojado en el local de NYC de Riseup fue confiscado por autoridades federales de los EEUU sin aviso previo. No se preocupen: la máquina no tenía ninguna información de Riseup. La máquina confiscada era utilizada por la Contra Red Europea (European Counter Network, ECN), un colectivo tecnológico italiano con una larga historia en la provisión de correos y listas electrónicas, así como almacenamiento web para nuestras colegas alrededor del mundo que dan su apoyo a movimientos por el cambio social.
 
@@ -13,7 +13,7 @@ Para más información, por favor leer la nota de prensa:
 https://riseup.net/seizure-2012-april
 
 
-h2. Notas del apocalipsis de la vigilancia
+## Notas del apocalipsis de la vigilancia
 
 Nueva Zelanda
 
