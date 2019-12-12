@@ -44,7 +44,7 @@ Le donazioni fatte a Riseup **non** sono deducibili. Se vuoi fare una donazione 
 
 Se sei un programmatore, puoi supportare Riseup [[scrivendo codice => programmers-wanted]].
 
-h2. Contributi suggeriti
+## Contributi suggeriti
 
 * *Individui:* Noi chiediamo che le persone con account di posta o gestori di mailing list facciano donazioni mensili o annuali. Se sei al verde, vivi nel sud globale, o vivi in qualche posto con una moneta svalutata, non ci aspettiamo che tu faccia donazioni. Questo significa che coloro che vivono nel nord globale ed hanno soldi, dovrebbero contribuire di più come atto di solidarietà. Se non sai con quanto contribuire, possiamo consigliarti di farlo con 5-15 USD al mese? Se puoi fare di più, per favore fallo!
 * *Gruppi:* Noi contiamo sulle donazioni delle organizzazioni con account di email o mailing list. E' particolarmente necessario che contribuiscano le organizzazioni con grandi mailing list, in quanto fornire mailing list è per noi particolarmente costoso. Come indicazione approssimativa, chiediamo che le organizzazioni contribuiscano annualmente almeno con l'1% del loro budget annuale--questo significa una donazione annuale di 100 USD per un organizzazione con un budget annuale di 10.000 USD.
