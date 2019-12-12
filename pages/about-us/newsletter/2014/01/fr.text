@@ -1,6 +1,6 @@
 @title = 'Janvier'
 
-h2. Des Nouvelles De Riseup
+## Des Nouvelles De Riseup
 
 On a travaillé à échanger des trucs autour de nous afin de nous débarrasser des vieux serveurs qui faisaient tourner notre infrastructure interne. On a travaillé à actualiser d'autres trucs pour les maintenir à jour et on a maintenant une version ruby 1.9 de notre user.riseup.net, et ça marche bien.
 
@@ -8,7 +8,7 @@ On a travaillé sur notre sécurité physique, en installant des serrures bien p
 
 On était pas mal inquièt.e.s après l'affaire Lavabit -- https://fr.wikipedia.org/wiki/Lavabit , et on s'attendait à être les suivant.e.s. Mais finalement on n'a jamais reçu l'ordre, secret ou pas, de faire quoi que ce soit. Ça peut vouloir dire soit qu'on s'est un peu pris la grosse tête, soit qu'on est déjà récupéré.e.s (mais qu'on ne le sait pas encore), soit qu'illes sont juste lents, soit qu'illes savent qu'on ne se soumettra pas et que toute leur supercherie s'écroulera sous leurs pieds (cf premier élément de la liste).
 
-h2. Ce Que Tu Dois Savoir À Propos Des Virus
+## Ce Que Tu Dois Savoir À Propos Des Virus
 
 Les virus falsifient toujours l'adresse d'expédition des mails. Les virus apparaîtront comme venant de personnes que tu connais, ou de toi-même, ou des personnes qui administrent le système, ou encore d'autres personnes de confiance.
 
@@ -25,10 +25,10 @@ Tu ne recevras JAMAIS de mail avec pièce jointe de la part de riseup.net.
 
 Tu veux en savoir plus ? Par exemple comment installer un filtre antispam et autres choses utiles? [[viruses]]
 
-h2. Le Petit Dernier Des Oiseaux
+## Le Petit Dernier Des Oiseaux
 
 Le grand Sunbird, et sa charmante partenaire, ont eu un nouveau bébé prénommé Après le vent et les étoiles, et nous leur souhaitons que toutes ces choses qui changent et grandissent à l'arrivée d'un bébé se passent pour le mieux pour elleux.
 
-h2. Merci
+## Merci
 
 Merci pour tous les dons, petits et gros, que vous nous avez fait lors de notre collecte de fonds annuelle. Vous êtes notre soleil et notre lune, chacun.e d'entre vous. Si d'autres parmi vous ont encore envie de faire un don, faites-le, faites-le s'il-vous plaît, parce que ça nous permettra de soutenir encore plus de personnes de manière plus efficace. Merci. [[donate]]

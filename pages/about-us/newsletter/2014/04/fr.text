@@ -1,6 +1,6 @@
 @title = 'Avril'
 
-h2. Des nouvelles de Heartbleed
+## Des nouvelles de Heartbleed
 
 Chère utilisatrice de Riseup, cher utilisateur de Riseup,
 Vous avez sûrement entendu parler de l'important bogue d'encryptage du nom de Heartbleed qui a été dévoilé la semaine dernière. Nous avons tout réglé le jour même. Il y a un risque que votre mot de passe ait été volé et que vos communications avec Riseup aient été espionnées ou bidouillés. Vous devez changer vos mots de passe. Si vous voulez en savoir plus, vous pouvez trouver un bon résumé au https://mayfirst.org/may-firstpeople-link-statement-heart-bleed-security-flaw

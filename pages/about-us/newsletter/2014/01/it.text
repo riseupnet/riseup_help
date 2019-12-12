@@ -1,6 +1,6 @@
 @title = 'Gennaio'
 
-h2. Aggiornamento da Riseup
+## Aggiornamento da Riseup
 
 Abbiamo lavorato per fare una serie di cambiamenti e liberarci dei vecchi server in funzione nella nostra infrastruttura interna. Abbiamo lavorato per aggiornare un po' tutto e ora abbiamo una versione ruby 1.9 su user.riseup.net, la quale funziona bene.
 
@@ -8,7 +8,7 @@ Abbiamo lavorato sulla nostra sicurezza a livello fisico, installando lucchetti 
 
 Ed eravamo abbastanza preoccupati e preoccupate dopo la questione Lavabit - https://en.wikipedia.org/wiki/Lavabit - e ci aspettavamo di essere i prossimi. Ma non abbiamo ricevuto nessun ordine, segreto o meno, di fare qualcosa. Questo vuol dire che o pensiamo di essere più importanti di quello che in realtà siamo, o che ci tengono già in pugno (a nostra insaputa), o che sono semplicemente troppo lenti, o che sanno che non cederemmo e che la loro intera costruzione collasserebbe fragorosamente intorno a loro (vedi il primo punto della lista).
 
-h2. Quello che devi sapere sui virus
+## Quello che devi sapere sui virus
 
 I virus usano sempre indirizzi del mittente fasulli. Un virus si potrebbe presentare come una persona che conosci, come te stessa o come altre persone di cui potresti fidarti.
 
@@ -26,10 +26,10 @@ Noi di riseup.net non ti manderemo MAI una mail con file allegati.
 
 Vuoi saperne di più? Tipo come installare un filtro per bloccare lo spam o altre cose utili? [[viruses]].
 
-h2. Il più piccolo degli uccellini!
+## Il più piccolo degli uccellini!
 
 Il poderoso Sunbird, insieme alla sua splendida partner, hanno un nuovo bebè, con un nome ispirato al vento e alle stelle. Gli facciamo i migliori auguri per tutte quelle cose che cambiano e crescono quando i bimbi nascono.
 
-h2. Grazie
+## Grazie
 
 Grazie per tutte le donazioni, grandi e piccole, che abbiamo ricevuto durante la nostra raccolta fondi annuale. Siete il nostro sole e la nostra luna. E se qualcun altro avesse voglia di fare una donazione, per favore, per favore, per favore, fatela perché ci permetterebbe di dare supporto a più utenti e in modo migliore. Grazie. [[donate]]

@@ -1,7 +1,7 @@
 @title = 'Mai'
 
 
-h2. Notre déclaration sur la sécurité
+## Notre déclaration sur la sécurité
 
 Si vous souhaitez avoir des mises à jour sur la relation entre Riseup et le système de surveillance de l'État, allez au :
 https://help.riseup.net/fr/canary
@@ -15,7 +15,7 @@ Au moment du 21 avril 2014, Riseup n'a reçu aucune lettre de sécurité nationa
 En ce qui a trait à la saisie de serveurs, le FBI a saisi un des serveurs de Riseup en avril 2012 lors d'un événement largement diffusé. Cet incident est arrivé à New York. La machine était encryptée et ne contenait pas de données sur les utilisatrices et les utilisateurs. Le serveur a été retourné, mais il n'a pas été remis en service. Mis à part cet incident, au moment du 21 avril 2014, Riseup confirme qu'aucun matériel n'a été saisi ou pris par une tierce partie.
 
 
-h2. Yahoo et les listes
+## Yahoo et les listes
 
 Vous avez peut-être vu des messages rejetés (bounces) de yahoo.com et aol.com. Cela est causé par un changement dans les politiques de ces compagnies. Elles ont publiées une publication DMARC (une technologie anti-spam) qui dit: «si un serveur autre que nos serveurs officiels envoient un message en utilisant une adresse yahoo.com (ou aol.com), assumez que ce message est du spam et rejeter le». La publication DMARC est alors utilisée par d'autres sites (comme hotmail.com, comcast.net, et bien d'autres) pour décider quoi faire quand le message arrive.
 
@@ -30,7 +30,7 @@ La chose la plus simple pour régler le problème est que yahoo/aol changent leu
 * Nous sommes en train de regarder s'il n'y aurait pas moyen de contourner le problème et nous espérons avoir une solution rapidement.
 
 
-h2. L'argent!
+## L'argent!
 
 L'argent vous déprime ? Nous aussi. Si vous pouvez donner un peu à Riseup, même les petits dons nous permettent de faire un grand bout de chemin pour supporter des milliers de groupes et de militant-e-s à travers le monde.
 https://help.riseup.net/fr/about-us/donate

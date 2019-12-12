@@ -1,6 +1,6 @@
 @title = 'Maio'
 
-h2. Nossa Declaração sobre Segurança
+## Nossa Declaração sobre Segurança
 
 Se quiser atualizações sobre a interação de Riseup quanto aos aparatos de vigilância do Estado, vá para:
 https://help.riseup.net/pt/canary
@@ -14,7 +14,7 @@ Até o dia 21 de abril de 2014, Riseup não recebeu Cartas de Segurança Naciona
 Em relação às apreensões de servidores, houve um incidente amplamente relatado, onde o FBI apreendeu um dos servidores de Riseup em abril de 2012. Isto aconteceu em Nova Iorque. A máquina era criptografada e não continha dados de usuárias. O servidor foi devolvido, mas não foi colocado para funcionar de novo. Além do que aconteceu, no dia 21 de abril de 2014, Riseup afirma que não teve nenhum hardware apreendido ou levado por terceiros.
 
 
-h2. Yahoo e listas
+## Yahoo e listas
 
 Você deve ter visto algumas rejeições de yahoo.com e aol.com. Isso se deve às mudanças na política destas empresas. Eles publicaram um registro DMARC (uma tecnologia anti-spam) que efetivamente diz "se algum servidor que não seja o nosso servidor oficila enviar um email com um remetente usando um endereço yahoo.com (ou aol.com), assume-se que o email é spam e ele é rejeitado". O registro DMARC é também usado por outros sites (como hotmail.com, comcast.net e muitos outros) para decidir o que fazer quando um email chega.
 
@@ -31,7 +31,7 @@ Mas enquanto isso não ocrre, isto é o que Riseup está fazendo:
 * Estamos investigando outras maneiras para contornar este problema, esperamos resolvê-lo o quanto antes.
 
 
-h2. Dinheiro!
+## Dinheiro!
 
 O dinheiro o está deixando para baixo? Nós também. Se puder doar um pouco para Riseup, qualquer pequena quantia percorre um longo caminho para apoiar milhares de grupos e ativistas ao redor do mundo.
 https://help.riseup.net/pt/donate

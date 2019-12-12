@@ -1,7 +1,7 @@
 @title = 'Mai'
 
 
-h2. Unser Sicherheits-Statement
+## Unser Sicherheits-Statement
 
 Falls Dich Nachrichten über die Interaktionen Riseups mit dem Überwachungsapparates des Staates interessieren, folge diesem Link: help.riseup.net/canary
 
@@ -13,7 +13,7 @@ Stand 21.April, 2014, hat Riseup weder einen „National Security Letter“ (deu
 
 Was unsere Server betrifft, wurde in einem Fall, der viel mediale Aufmerksamkeit bekam, im April 2012 ein Server vom FBI beschlagnahmt. Dieser Vorfall hat in New York stattgefunden. Die Daten auf dem Server waren verschlüsselt und es waren keine Nutzer_innen-Daten auf dem Server gespeichert. Der Server wurde uns zurückgegeben, wir setzen ihn aber nicht mehr ein. Von diesem Vorfall abgesehen beskräftigt Riseup Stand 21.April 2014, dass keine unserer Hardware in die Hände Dritter gelangt ist.
 
-h2. Yahoo und Listen
+## Yahoo und Listen
 
 Manche Eurer emails an Adressen von yahoo.com und aol.com sind möglicherweise mit einer Nachricht über die Nichtzustellung zurückgekommen. Das lieft daran, dass diese Unternehmen ihre Richtlinien verändert haben. Sie haben einen „DMARC-Bericht“ (eine Anti-Spam-Technologie)  veröffentlicht, der praktisch folgendes aussagt: “Falls irgendein fremder Server, der nicht zu unseren offiziellen gehört, eine Nachricht verschickt, die yahoo.com (oder aol.com) enthält, ist anzunehmen, dass es sich um Spam handelt und die email ist daher als Spam zu behandeln.” Dieser „DMARC-Bericht“ wird dann von anderen email-Anbietern (zB hotmail.com, comcast.net etc.) verwendet  um zu entscheiden was mit eingehenden emails umgegangen wird.
 
@@ -30,7 +30,7 @@ Bis dies geschieht tut Riseup folgendes:
 *Wir suchen ebenso nach anderen wegen dieses Problem zu umgehen, wir hoffen bald eine Möglichkeit zu finden. 
 
 
-h2. Geld!
+## Geld!
 
 Deprimiert Dich der Gedanke ans Geld? Uns auch. Wenn Du ein wenig an Riseup spenden kannst, sei Dir gewiss, dass jeder noch so kleine Betrag hilfreich ist um tausende Gruppen und Aktivist_innen auf der ganzen Welt zu unterstützen. 
 

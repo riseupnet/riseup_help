@@ -1,6 +1,6 @@
 @title = 'Aprile'
 
-h2. Aggiornamento riguardo Heartbleed
+## Aggiornamento riguardo Heartbleed
 
 Utente di Riseup,
 con ogni probabilità avrai già sentito parlare di Heartbleed, un grave bug riguardante la crittografia (un difetto del software) che è diventato pubblico la settimana scorsa. Abbiamo sistemato tutto il giorno stesso in cui il bug è stato reso pubblico, ma c'è il rischio che la tua password sia stata rubata e che le tue comunicazioni con riseup siano state tenute sotto osservazione o manipolate. 

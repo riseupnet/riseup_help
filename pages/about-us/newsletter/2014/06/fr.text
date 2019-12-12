@@ -1,7 +1,7 @@
 @title = 'mois de juin et juillet'
 
 
-h2. Des nouvelles du collectif
+## Des nouvelles du collectif
 
 Quelques membres du collectif sont à Barcelone pour une rencontre post-capitaliste et ecoindustrielle avec des geeks radicaux de partout sur la planète. Bonjour, Catalogne! D'autres membres sont à Seattle, où il fait déraisonnablement soleil. Bonjour, réchauffement climatique! Finalement, une dernière membre du collectif finit sont mémoire à Portland. Bonjour, enfer universitaire!
 
@@ -10,19 +10,19 @@ Peut-être plus pertinent comme nouvelles, nous avons récemment déployé un no
 Nous travaillons également très fort à fortifier notre système et à migrer vers une plateforme bien plus brillante et sécuritaire pour vous. Plus de nouvelles sur ce dossier quand nous en auront!
 
 
-h2. Riseup contre le service de renseignements britannique GCHQ
+## Riseup contre le service de renseignements britannique GCHQ
 
 Le 2 juillet, Riseup a rejoint six autres fournisseurs de services informatiques dans une poursuite contre le service de renseignements britannique GCHQ. La poursuite a été faite au nom de Privacy International et tente d'arriver à un jugement qui indiquerait que la surveillance informatique est illégale. Même si les poursuites ne semble pas passionnantes à première vue, elles le sont! C'est la première fois que des fournisseurs de services informatiques agissent collectivement contre la surveillance, les attaques et le piratage de réseaux informatiques effectué par le GCHQ. Nous espérons que la poursuite attirera l'attention des gens à travers le globe sur les enjeux de surveillance et de communications privées.
 
 
-h2. Adopter OpenPGP
+## Adopter OpenPGP
 
 Une manière dont vous pouvez sécuriser vos communications est d'utiliser OpenPGP pour encrypter vos courriels. Nous avons récemment mis à jour nos pages d'aide sur les meilleures pratiques d'utilisation d'OpenPGP. Si vous n'avez jamais entendu parler d'OpenPGP auparavant, vous pouvez jeter un coup œil au guide et vous mettre à la tâche. Si vous utilisez déjà OpenPGP, vous pouvez suivre le guide pour voir comment vous pouvez améliorer vos pratiques d’utilisation de cet outil important.
 
 Allez donc faire un tour au help.riseup.net/fr/security/message-security/openpgp/best-practices
 
 
-h2. Le spam vous embête?
+## Le spam vous embête?
 
 Le spam, les virus et les tentatives d'hameçonnage dérangent tout le monde. Faites en sorte quelles arrêtent!
 
@@ -31,6 +31,6 @@ Saviez-vous qu'en vous connectant au https://user.riseup.net et en cliquant sur 
 Nous travaillons dur derrière les rideaux sur ce qui peut être fait pour éliminer ces choses qui vous embêtent.
 
 
-h2. L'argent
+## L'argent
 
 Saviez-vous que Riseup accepte les bitcoins? Et les micropaiements? Et les dons Paypal? Et que vous pouvez les paramétrer pour nous donner un peu d'argent à tous les mois? Saviez-vous que Riseup est supporté par des milliers de personnes donnant un peu par-ci par-là. de temps à autre, depuis les quatorze dernières années? Si vous pouvez, nous adorerions votre aide. https://help.riseup.net/fr/about-us/donate
