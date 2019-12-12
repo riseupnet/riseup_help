@@ -10,8 +10,8 @@
 
 Η έκθεση του Ευρωπαϊκού Κοινοβουλίου σε σχέση με τα προγράμματα επιτήρησης της NSA των ΗΠΑ αναφέρει ότι "η ιδιωτικότητα δεν είναι δικαίωμα πολυτελείας, αλλά ο θεμέλιος λίθος για μια ελεύθερη και δημοκρατική κοινωνία" \[3\]. Οι πρόσφατες αποκαλύψεις σχετικά με την έκταση της παραβίασης από τις ΗΠΑ του δικαιώματος όλων μας στην ιδιωτικότητα, δείχνουν ότι οτιδήποτε μπορεί να είναι αντικείμενο παρακολούθησης θα παρακολουθείται \[4\]. Επιπλέον, γνωρίζουμε ότι η εγκληματοποίηση όσων χρησιμοποιούν εργαλεία για τη διαφύλαξη της ιδιωτικότητας έχει αρνητικές συνέπεις για όλους, και ειδικά για αυτές που προασπίζονται τα ανθρώπινα δικαιώματα, δημοσιογράφους και ακτιβιστές. Η παραίτηση από το δικαίωμά μας στην ιδιωτικότητα υπό το φόβο του να μαρκαριστούμε ως τρομοκράτες είναι μη αποδεκτή.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//EL]]
-\[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//EL]]
+* \[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
 

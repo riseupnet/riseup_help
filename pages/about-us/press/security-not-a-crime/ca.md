@@ -8,7 +8,7 @@ Nosaltres rebutgem aquesta criminalització kafkiana dels moviments socials. És
 
 L'informe del Parlament Europeu sobre el programa de vigilància de la NSA d' EE.UU. Declara que “la privacitat no és un dret de luxe, sinó els fonaments d'una societat lliure i democràtica.”\[3\] Revelacions recents sobre l'abast de la violació del dret a la privacitat de totes pels Estats, mostra que tot el que es pot espiar, serà espiat.\[4\] Més encara, sabem que criminalitzar a les persones per utilitzar eines de privacitat té un efecte esgarrifós a tot el món, i entre els defensors dels Drets Humans, periodistes, i activistes en particular. Renunciar al teu dret bàsic de privacitat per la por de ser etiquetada com a terrorista és inacceptable.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//CA]]
-\[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//CA]]
+* \[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]

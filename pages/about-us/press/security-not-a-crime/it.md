@@ -12,8 +12,8 @@ Riseup, come ogni altro fornitore di servizi di posta, è obbligata a proteggere
 
 Il rapporto del parlamento europeo sul programma di sorveglianza della NSA statunitense dichiara che "la privacy non è un diritto di lusso, ma il primo fondamento di una società libera e democratica"\[3\]. Le recenti rivelazioni sulla portata delle violazioni del diritto alla privacy da parte degli stati dimostrano che tutto ciò che può essere intercettato sarà intercettato\[4\]. Inoltre sappiamo che criminalizzare chi usa gli strumenti di difesa della privacy ha l'effetto di una doccia fredda su tutti, e in particolare su difensor* dei diritti umani, giornalist* e attivist*. Rinunciare ai propri diritti fondamentali per paura di essere segnalati come terroristi è inaccettabile.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//IT]]
-\[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//IT]]
+* \[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
 

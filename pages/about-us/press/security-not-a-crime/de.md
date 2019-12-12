@@ -10,8 +10,8 @@ Wie jeder andere eMail-Provider hat Riseup die Pflicht, die Privatsphäre seiner
 
 Der Bericht des Europaparlaments über das US-amerikanische NSA-Überwachungsprogramm stellt fest, dass "das Recht auf Achtung der Privatsphäre kein Luxus ist, sondern einen Grundpfeiler der freien und demokratischen Gesellschaft darstellt" \[3\]. Die jüngsten Enthüllungen über das Ausmaß, in dem Staaten die Rechte aller Menschen auf Privatsphäre missachten, zeigen, dass alles was ausspioniert werden kann auch ausspioniert wird \[4\]. Darüberhinaus wissen wir, dass die Kriminalisierung einzelner weil sie Werkzeuge zum Schutz der Privatsphäre verwendet haben, eine Einschüchterungswirkung auf alle hat, und ganz besonders auf Menschenrechtsverteidiger_innen, Journalist_innen und Aktivist_innen. Das eigene Grundrecht auf Privatsphäre aufgeben zu müssen aus Angst, als Terrorist_in markiert zu werden, ist inakzeptabel.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//DE]]
-\[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//DE]]
+* \[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
 

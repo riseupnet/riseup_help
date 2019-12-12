@@ -12,8 +12,8 @@ Riseup, like any other email provider, has an obligation to protect the privacy 
 
 The European Parliament's report on the US NSA surveillance program states that "privacy is not a luxury right, but the foundation stone of a free and democratic society" \[3\]. Recent revelations about the extent to which States violate everyone's right to privacy show that everything that can be spied upon will be spied upon \[4\]. Furthermore, we know that criminalizing people for using privacy tools also has a chilling effect on everybody, and human-rights defenders, journalists, and activists, in particular. Giving up your basic right to privacy for fear of being flagged as a terrorist is unacceptable.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//EN]]
-\[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//EN]]
+* \[4\]: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
 

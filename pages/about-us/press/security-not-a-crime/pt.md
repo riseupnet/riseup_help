@@ -10,8 +10,8 @@ O Riseup, assim como qualquer outro provedor de email, possui a obrigação de p
 
 O relatório do Parlamento Europeu sobre o programa de vigilância da Agência de Segurança Nacional (NSA) dos Estados Unidos afirma que "a  privacidade não é um direito de luxo, mas a pedra fundamental de uma  sociedade livre e democrática"\[3\]. As revelações recentes sobre a extensão da violação pelos Estados do direito de todos à  privacidade mostra que tudo que puder ser espionado será espionado\[4\].  Além disso, nós sabemos que a criminalização das pessoas por usarem  ferramentas de privacidade também tem um efeito paralisante em todo  mundo e, em especial, nos defensores de direitos humanos, jornalistas e  ativistas. Abrir mão do seu direito básico à privacidade por medo de ser  marcado como um terrorista é inaceitável.
 
-\[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
-\[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
-\[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//PT]]
-\[4\]:: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
+* \[1\]: [[https://directa.cat/actualitat/pandora-empresonada]]
+* \[2\]: [[https://directa.cat/jutge-gomez-bermudez-envia-preso-set-de-onze-persones-detingudes-durant-loperacio-pandora]]
+* \[3\]: [[https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML%2BCOMPARL%2BPE-526.085%2B02%2BDOC%2BPDF%2BV0//PT]]
+* \[4\]:: [[https://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html]]
 
