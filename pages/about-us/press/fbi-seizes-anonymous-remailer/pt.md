@@ -1,6 +1,6 @@
 @title = 'FBI apreende servidor de envio de emails anônimo e muitos outros serviços no espaço de colocation do Riseup'
 
-h2. Ataque ao anonimato
+## Ataque ao anonimato
 
 Na quarta-feira, 18 de Abril, aproximadamente às 16:00 (EST), as autoridades federais dos Estados Unidos removeram um servidor do colocation compartilhado pelo Riseup Networks e May First/People Link em Nova Iorque. O servidor apreendido era operado pela European Counter Network ("ECN"), o servidor independente de internet mais antigo na Europa, o qual, entre muitas outras coisas, fornecia um serviço de remailer (envio de emails anônimo), Mixmaster, que era alvo de investigação pelo FBI devido às ameaças de bombas contra a Universidade de Pittsburgh.
 "A empresa responsável pelo espaço confirmou que o servidor foi removido por meio de um mandato de busca emitido pelo FBI", disse Jamie McClelland, diretor de May First/People Link. "A apreensão do servidor não é apenas um ataque contra nós, mas um ataque contra todos os usuários da Internet que dependem da comunicação anônima".
@@ -17,7 +17,7 @@ O software Mixmaster é especificamente desenvolvido para tornar impossível que
 
 Na ausência de qualquer outra prova, o FBI precisa mostrar que está fazendo progressos no caso; e isto significa apreender um servidor para que eles pudessem orgulhosamente demonstrar que estão tomando alguma ação. Mas o que esse incidente mostra é que eles estão desesperados e dispostos a destruir pessoas inocentes para protegerem suas carreiras.
 
-h2. Sobre as organizações envolvidas
+## Sobre as organizações envolvidas
 
 MayFirst/People Link (mayfirst.org) é uma organização política progressista que redefine o conceito de "Provedor de Internet" de maneira coletiva e colaborativa. Os membros do MayFirst/People Link são ativistas que elegem um Comitê de Coordenação para dirigir a organização. Como uma cooperativa, os membros pagam quotas, compram equipamentos e então compartilham-nos com sites, emails, listas de emails e outros serviços ligados à internet.
 
@@ -25,7 +25,7 @@ Riseup Networks (riseup.net) fornece ferramentas para comunicação online a pes
 
 ECN (European Counter Network - ecn.org) é um antigo fornecedor independente de serviço de internet na Europa que provê contas gratuitas de email, listas de email e sites para organizações, ativistas e movimentos que estão envolvidos com direitos humanos, liberdade de expressão e informação na Itália e na Europa. ECN é anti-fascista e trabalha por uma sociedade justa e igual. Anos atrás, antes de sites como Youtube e Vimeo existirem, ECN criou uma plataforma chamada NGV onde pessoas podiam publicar e compartilhar videos independentes sobre violação dos direitos humanos. Hoje em dia, ECN trabalha principalmente com movimentos anti-fascistas e anti-nazistas em toda a Europa, fornecendo espaço e recursos para centros sociais e políticos.
 
-h2. Questões / Leia Mais
+## Questões / Leia Mais
 
 P: O Mixmaster/emails anônimos permitem que criminosos façam coisas ruins?
 
@@ -39,9 +39,9 @@ Então sim, em teoria criminosos poderiam usar o mixmaster, mas eles já possuem
 
 P: Como Mixmaster/ Remailer Anônimo funciona?
 
-R: Remailers anônimos funcionam através da conexão de outras redes de remailers anônimos e cada um nessa rede remove as informações do cabeçalho do email tornando impossível descobrir quem foi o remetente real. O projeto Tor mantém uma lista dos típicos usuários desse serviços e de outros sistemas anônimos, assim como no site do Mixmaster " http://mixmaster.sourceforge.net/ 
+R: Remailers anônimos funcionam através da conexão de outras redes de remailers anônimos e cada um nessa rede remove as informações do cabeçalho do email tornando impossível descobrir quem foi o remetente real. O projeto Tor mantém uma lista dos típicos usuários desse serviços e de outros sistemas anônimos, assim como no site do [Mixmaster](http://mixmaster.sourceforge.net/)
 
 "1 Colocation é o espaço físico onde estão localizados os servidores. Para mais detalhes ver https://pt.wikipedia.org/wiki/Colocation
 
-Tradução inicial foi feita por "Passa Palavra":wwww.passapalavra.info.
+Tradução inicial foi feita por [Passa Palavra](wwww.passapalavra.info).
 

@@ -4,7 +4,7 @@
 
 _April 20, 2012_
 
-h2. Attack on Anonymous Speech
+## Attack on Anonymous Speech
 
 On Wednesday, April 18, at approximately 16:00 Eastern Time, U.S. Federal authorities removed a server from a colocation facility shared by Riseup Networks and May First/People Link in New York City. The seized server was operated by the European Counter Network (“ECN”), the oldest independent internet service provider in Europe, who, among many other things, provided an anonymous remailer service, Mixmaster, that was the target of an FBI investigation into the bomb threats against the University of Pittsburgh.
 
@@ -22,15 +22,15 @@ The Mixmaster software is specifically designed to make it impossible for anyone
 
 In absence of any other leads, the FBI needs to show that they are making progress in this case, and this has meant seizing a server so they can proudly demonstrate they are taking some action. But what this incident shows is they are grasping at straws and are willing to destroy innocent bystanders for the sake of protecting their careers.
 
-h2. About the organizations involved
+## About the organizations involved
 
-MayFirst/People Link ("mayfirst.org":https://mayfirst.org) is a politically-progressive member-run and controlled organization that redefines the concept of "Internet Service Provider" in a collective and collaborative way. May  First/People Link's members are organizers and activists who elect a   Leadership Committee to direct the organization. Like a coop, members  pay dues, buy equipment and then share that equipment for websites, email, email lists, and other Internet purposes.
+MayFirst/People Link ([mayfirst.org](https://mayfirst.org)) is a politically-progressive member-run and controlled organization that redefines the concept of "Internet Service Provider" in a collective and collaborative way. May  First/People Link's members are organizers and activists who elect a   Leadership Committee to direct the organization. Like a coop, members  pay dues, buy equipment and then share that equipment for websites, email, email lists, and other Internet purposes.
 
-Riseup Networks ("riseup.net":https://riseup.net) provides online communication tools for people and groups working on liberatory social change. Riseup creates democratic alternatives and practices self-determination by controlling our own secure means of communications.
+Riseup Networks ([riseup.net](https://riseup.net)) provides online communication tools for people and groups working on liberatory social change. Riseup creates democratic alternatives and practices self-determination by controlling our own secure means of communications.
 
-European Counter Network ("ecn.org":https://ecn.org) is the oldest independent service  provider in Europe providing free email accounts, mailing lists, and  websites to organizations, activists, and movements that are involved in  human rights, freedom of speech and information in Italy and Europe. ECN is anti-fascist and works towards a just and equal society. Years ago, before  sites like Youtube and Vimeo existed, ECN created  a platform called NGV  where people could upload and share independent video of human rights violations. Nowadays ECN works  primarily with anti-fascist and anti-Nazi movements in all of Europe, providing space and resources to political and social centers.
+European Counter Network ([ecn.org](https://ecn.org)) is the oldest independent service  provider in Europe providing free email accounts, mailing lists, and  websites to organizations, activists, and movements that are involved in  human rights, freedom of speech and information in Italy and Europe. ECN is anti-fascist and works towards a just and equal society. Years ago, before  sites like Youtube and Vimeo existed, ECN created  a platform called NGV  where people could upload and share independent video of human rights violations. Nowadays ECN works  primarily with anti-fascist and anti-Nazi movements in all of Europe, providing space and resources to political and social centers.
 
-h2. Questions / further reading
+## Questions / further reading
 
 Q: Doesn't Mixmaster/anonymous remailers enable criminals to do bad things?
 
@@ -44,4 +44,4 @@ So yes, criminals could in theory use mixmaster, but they already have  better o
 
 Q: How does Mixmaster / Anonymous remailers work?
 
-A: Anonymous remailers work by connecting to other anonymous remailers in a chain, and every one in that chain removes the mail header information  making it impossible to find the real sender. "The Tor project maintains a list":https://www.torproject.org/about/torusers.html.en of typical users of this and other anonymity systems, and the "Mixmaster home page":http://mixmaster.sourceforge.net/
+A: Anonymous remailers work by connecting to other anonymous remailers in a chain, and every one in that chain removes the mail header information  making it impossible to find the real sender. [The Tor project maintains a list](https://www.torproject.org/about/torusers.html.en) of typical users of this and other anonymity systems, and the [Mixmaster home page](http://mixmaster.sourceforge.net/).

@@ -1,6 +1,6 @@
 @title = 'El FBI secuestró servidor que brindaba el servicio de remailer anónimo entre otros desde el espacio de Housing'
 
-h2. Ataque al Anonimato
+## Ataque al Anonimato
 
 Este Miércoles 18 de abril, aproximadamente a las 16:00 horas (EST), autoridades federales de EE.UU. incautaron un servidor desde el Housing compartido entre Riseup Networks y May First/People Link en la ciudad de New York. El servidor incautado era operado por European Counter Network (“ECN”), el más antiguo proveedor independiente de internet en Europa, quienes, entre varias otras cosas, proveían un servicio de remailer anónimo, Mixmaster, el cual era el objetivo de la investigación del FBI sobre las amenazas de bombas contra la Universidad de Pittsburgh.
 
@@ -18,7 +18,7 @@ El software de Mixmaster está específicamente diseñado para hacer imposible p
 
 En ausencia de pistas, el FBI necesita mostrar que ellos están progresando en el caso, y esto significa secuestrar un servidor para demostrar orgullosamente que están haciendo algo. Pero lo que este incidente muestra es que están dispuestos a destruir a personas inocentes con tal de proteger sus carreras.
 
-h2. Sobre las organizaciones involucradas
+## Sobre las organizaciones involucradas
 
 MayFirst/People Link (mayfirst.org) es una agrupación política progresista controlada por sus propios miembros que redefine el concepto de “Proveedor de Servicios de Internet” de forma colectiva y colaborativa. Los miembros de May First/People Link son organizadores y activistas que eligen a un Comité para dirigir la organización. Como una cooperativa, los miembros pagan cuotas, compran equipos y comparten esos equipos para sitios web, emails, listas de correo, y cualquier propósito en Internet.
 

@@ -1,6 +1,6 @@
 @title = 'Server Sequestro Aprile 2012'
 
-h2. Attacco all'anonimato
+## Attacco all'anonimato
 
 Lo scorso mercoledì, 18 aprile, alle 16:00 ora di New York City (le 22:00 ora italiana), le autorità Federali statunitensi hanno rimosso un server dalla colocation condivisa da Riseup Networks e May First/People Link a New York City. Il server sequestrato era gestito dall'italiana ECN.org il più vecchio fornitore di servizi internet indipendente d'Europa che, tra le altre cose, fornisce il servizio di anonymous remailer Mixmaster, obiettivo di un'indagine dell'FBI in merito alle minacce di attentati all'Università di Pittsburgh.
 
@@ -18,7 +18,7 @@ Il software Mixmaster, nello specifico, è progettato per rendere impossibile pe
 
 In assenza di ogni altro progresso, l'FBI deve dimostrare di fare dei passi avanti nel caso e questo ha significato dover sequestrare un server in modo da poter dire che stanno facendo qualcosa. Ma quello che quest'azione dimostra è che brancolano nel buio e sono disposti a colpire persone innocenti pur di proteggere le loro carriere.
 
-h2. Qualche informazione sulle organizzazioni coinvolte
+## Qualche informazione sulle organizzazioni coinvolte
 
 MayFirst/People Link (mayfirst.org) è un'organizzazione politica progressista che ridefinisce il concetto di “Internet Service Provider” in maniera collettiva e collaborativa. I membri di May First/People Link sono attivisti che eleggono un Leadership Committee per dirigere l'organizzazione. Come una cooperavita, i membri pagano un contributo, comprano attrezzature e poi le condividono per la gestione di siti web, email, mailing list e per altri scopi legati a Internet.
 
@@ -26,7 +26,7 @@ Riseup Networks (riseup.net) fornisce strumenti di comunicazione online per pers
 
 ECN (European Counter Network – ecn.org) è il più antico fornitore di servizi internet indipendenti in Europa che fornisce email gratuite, mailing list e siti ad organizzazioni, attivisti e movimenti che si occupano di diritti umani, libertà di parola e di informazione in Italia e in Europa. L'antifascismo è uno dei principi fondanti di ECN che lavora per una società più equa e giusta. Anni fa, molto prima della nascita di piattaforme come YouTube o Vimeo, ECN a lanciato NGVision, la prima piattaforma per la diffusione e la condvisione di video realizzati durante manidestazioni o a testimonianza di violazioni di diritti. Oggi ECN lavora principalmente con gruppi e movimenti antifascisti e antinazisti in tutta Europa, fornendo spazio e risorse a collettivi politici e centri sociali.
 
-h2. Due domande e qualche altra spiegazione
+## Due domande e qualche altra spiegazione
 
 D: Mixmaster permette ai criminali di compiere crimini?
 R: I criminali possono già commettere crimini. Dal momento in cui decidono di infrangere la legge, hanno già molte opzioni a disposizione che garantiscono loro più privacy di quanto non possa fare Mixmaster. Possono rubare cellulari, usarli e poi buttarli via. Possono intrufolarsi in computer in Korea o Brasile e usarli per lanciare azioni abusive. Possono usare spyware, virus e altre tecniche per prendere il controllo letteralmete di milioni di macchine Windows in tutto il mondo.

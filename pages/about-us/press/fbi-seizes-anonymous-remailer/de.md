@@ -4,7 +4,7 @@
 
 _April 20, 2012_
 
-h2. Angriff auf anonyme Rede
+## Angriff auf anonyme Rede
 
 Am Mittwoch, den 18. April, um ungefähr 16:00 EST, entfernten US-Behörden einen Server, der gemeinsam von Riseup Networks und May First/People Link betrieben wurde, aus einem Rechenzentrum in New York City. Der beschlagnahmte Server wurde betrieben durch das European Counter Network (“ECN”), der älteste unabhängige Internetanbieter in Europa, der u.a. Mixmaster betreibt, einen Dienst zum Versenden anonymer E-Mails, welcher das Ziel aktueller FBI-Ermittlungen zu den Bombendrohungen gegen die Universität von Pittsburgh wurde.
 
@@ -22,15 +22,15 @@ Die Mixmaster-Software ist so gestaltet, dass es unmöglich ist, herauszufinden,
 
 Ohne weitere Spuren zu haben, muss das FBI zeigen, dass es in diesem Fall Fortschritt macht und das bedeutet in diesem Fall, dass ein Server beschlagnahmt wird, den sie stolz als erfolgreiche Aktion präsentieren können. Aber was dieser Vorfalll zeigt, ist dass sie gierig nach jedem Strohhalm greifen und bereit sind Unbeteiligte zu gefährden, nur um ihrere eigene Karriere zu schützen.
 
-h2. Über die beteiligten Organisationen
+## Über die beteiligten Organisationen
 
-MayFirst/People Link ("mayfirst.org":https://mayfirst.org) ist eine politisch progressive Nutzer*-betriebene und -kontrollierte Organisation, welche das Konzept von "Internetdiensteanbieter" auf eine kollektive und kollaborative Weise neu definiert. Die Mitglieder von May  First/People Link sind Organisierende und Aktivisti, die ein _Leadership Committee_ wählen, um die Organisation zu steuern. Wie in einer Kooperation zahlen die Mitglieder Gebühren, kaufen Geräte und teilen diese für Webseiten, Email, Listen und andere Internetdienste.
+MayFirst/People Link ([mayfirst.org](https://mayfirst.org)) ist eine politisch progressive Nutzer*-betriebene und -kontrollierte Organisation, welche das Konzept von "Internetdiensteanbieter" auf eine kollektive und kollaborative Weise neu definiert. Die Mitglieder von May  First/People Link sind Organisierende und Aktivisti, die ein _Leadership Committee_ wählen, um die Organisation zu steuern. Wie in einer Kooperation zahlen die Mitglieder Gebühren, kaufen Geräte und teilen diese für Webseiten, Email, Listen und andere Internetdienste.
 
-Riseup Networks ("riseup.net":https://riseup.net) bieten Onlinekommunikationswerkzeuge für Menschen und Gruppen, die an einem befreienden sozialem Wandel arbeiten. Riseup erschafft demokratische Alternativen und praktiziert Selbstbestimmung durch das Kontrollieren eigener Kommunikationsmittel.
+Riseup Networks ([riseup.net](https://riseup.net)) bieten Onlinekommunikationswerkzeuge für Menschen und Gruppen, die an einem befreienden sozialem Wandel arbeiten. Riseup erschafft demokratische Alternativen und praktiziert Selbstbestimmung durch das Kontrollieren eigener Kommunikationsmittel.
 
-European Counter Network ("ecn.org":https://ecn.org) ist der älteste unabhängige Diensteanbieter in Europa, welcher kostenlose Emailkonten, Listen, Webseiten für Organisationen, Aktivisti und Bewegungen, die sich Menschenrechten, Redefreiheit und Informationsfreiheit in Italien und Europa beschäftigen. ECN ist anti-faschistisch und arbeitet hin zu einer gerechten und gleichen Gesellschaft. Seit Jahren, noch vor Seiten wie Youtube und Vimeo, erschuf ECN eine Plattform namens NGV, wo Menschen Videos von Menschenrechtsverletzungen hochladen und anschauen konnten. Heute ist ECN primär mit anti-faschistischen und anti-Nazi-Bewegungen in ganz Europe verbunden und bietet Speicherplatz und Resourcen für politische und soziale Zentren.
+European Counter Network ([ecn.org](https://ecn.org)) ist der älteste unabhängige Diensteanbieter in Europa, welcher kostenlose Emailkonten, Listen, Webseiten für Organisationen, Aktivisti und Bewegungen, die sich Menschenrechten, Redefreiheit und Informationsfreiheit in Italien und Europa beschäftigen. ECN ist anti-faschistisch und arbeitet hin zu einer gerechten und gleichen Gesellschaft. Seit Jahren, noch vor Seiten wie Youtube und Vimeo, erschuf ECN eine Plattform namens NGV, wo Menschen Videos von Menschenrechtsverletzungen hochladen und anschauen konnten. Heute ist ECN primär mit anti-faschistischen und anti-Nazi-Bewegungen in ganz Europe verbunden und bietet Speicherplatz und Resourcen für politische und soziale Zentren.
 
-h2. Fragen / weitere Texte
+## Fragen / weitere Texte
 
 F: Ermöglichen Mixmaster und anonyme Remailer nicht, dass Kriminelle böse Dinge tun?
 
@@ -44,4 +44,4 @@ Also ja, Kriminelle können in der Theorie Mixmaster benutzen, aber sie haben be
 
 F: Wie funktionieren Mixmaster / anonyme remailer?
 
-A: Anonyme Remailer funktionieren durch die Verbindung anonymer Remailer in einer Kette und jedes Glied in der Kette entfernt die Kopfzeilen der Mails, sodass es nicht möglich ist, die wahre Herkunft herauszufinden. "Das Tor-Projekt verwaltet eine Liste":https://www.torproject.org/about/torusers.html.en von Gruppen, die typischerweise dieses und andere Anonymisierungssysteme benutzen, wie "Mixmaster":http://mixmaster.sourceforge.net
+A: Anonyme Remailer funktionieren durch die Verbindung anonymer Remailer in einer Kette und jedes Glied in der Kette entfernt die Kopfzeilen der Mails, sodass es nicht möglich ist, die wahre Herkunft herauszufinden. [Das Tor-Projekt verwaltet eine Liste](https://www.torproject.org/about/torusers.html.en) von Gruppen, die typischerweise dieses und andere Anonymisierungssysteme benutzen, wie [Mixmaster](http://mixmaster.sourceforge.net).
