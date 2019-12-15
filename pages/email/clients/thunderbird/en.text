@@ -73,7 +73,7 @@ Luckily there is a fix: Thunderbird has some hidden options, that a does a compl
 
 To set this, go to the menu *Edit > Preferences > Advanced > General > Config Editor*
 
-* set @use_status_for_biff@ to *false*
+* set @mail.imap.use_status_for_biff@ to *false*
 * set @mail.server.default.autosync_offline_stores@ to *true*
 
 h3. Consider automatically deleting old email
