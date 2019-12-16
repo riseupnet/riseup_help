@@ -44,7 +44,17 @@ Si un type de message particulier est systématiquement détecté comme un spam 
 
 h2. Puis-je paramétrer un répondeur automatique pour les périodes où je ne relève pas mes messages ?
 
-Non, Riseup ne propose pas cette option de répondeur automatique. La raison principale est que si vous activez le répondeur, votre adresse répondra automatiquement aux spams. Les spammeurs sauront donc immédiatement que votre adresse est active, ce qui la classera dans les adresses à spammer en priorité.
+Riseup supporte maintenant ce type de messages!
 
-Les réponses automatiques peuvent aussi être une nuisance. Par exemple si vous êtes abonné à une liste de diffusion, en votre absence les réponses automatiques seront envoyées à tous les membres de la liste à chaque message envoyé à la liste. Riseup a déjà fait face à des problèmes de ce type : il nous est arrivé d'être bloqués par les filtres anti-spam des principaux fournisseurs de messagerie. Le trafic généré par des réponses automatiques en provenance d'adresses riseup ne peut qu'aggraver ce problème.
+Quand vous activez la fonction de répondeur automatique, un courriel sera envoyé à chaque personne qui vous écrit, au maximum une fois tous les deux jours.
 
+Pour activer le répondeur automatique:
+
+# Connectez-vous au https://account.riseup.net
+# Cliquez sur <b>Paramètres courriels</b> (à gauche de l'écran).
+# Cliquez sur l'onglet <b>Vacation</b>.
+# Composez un message de réponse automatique.
+# Assurez-vous que l'option <b>Vacation automatic response</b> est à "On".
+# Cliquez sur le bouton vert <b>Sauvegarder</b>.
+
+!out-of-office.png!

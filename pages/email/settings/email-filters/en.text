@@ -43,6 +43,17 @@ If there is a particular email that always gets sorted into your spam box and yo
 
 h2. Can I set up an automatic out-of-office reply?
 
-No, Riseup does not support out-of-office replies. The most important reason why is because if you have auto-response enabled, you respond to spam email. Spammers thus have your email address as somebody who responds to spam, which makes your email more valuable to spammers, and thus you get spammed more.
+Riseup now supports out-of-office replies!
 
-Also, they can be annoying. For example, if you are on any mailing list they can go out to the whole list. Riseup already has problems where we get blocked as spam by major providers, and having auto-replies coming from riseup accounts could only increase that problem.
+When turned on, automated replies will be sent for all incoming messages. Each recipient will receive automated replies at most once every other day to minimize email traffic.
+
+To enable out-of-office replies:
+
+# Login to https://account.riseup.net with your riseup username and password.
+# Click on <b>Mail Settings</b> (on the left side of the screen).
+# Click on the <b>Vacation</b> tab.
+# Compose an out-of-office message
+# Switch the <b>Vacation automatic response</b> setting to "On".
+# Click on the green <b>Save</b> button.
+
+!out-of-office.png!
