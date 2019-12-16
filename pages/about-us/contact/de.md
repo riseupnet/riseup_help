@@ -35,8 +35,8 @@ Unsere Postadresse ist:
 
 ## Soziale Netzwerke
 
-* Diaspora: "riseup@diasp.org":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5
-* Twitter: "@riseupnet":https://twitter.com/riseupnet
+* Diaspora : [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)
+* Twitter : [riseupnet](https://twitter.com/riseupnet)
 
 ## Riseup-Grafiken
 

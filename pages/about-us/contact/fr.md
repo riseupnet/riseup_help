@@ -35,8 +35,8 @@ Notre adresse postale est la suivante:
 
 ## Médias sociaux
 
-* Diaspora : "riseup@diasp.org":https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5
-* Twitter : "@riseupnet":https://twitter.com/riseupnet
+* Diaspora : [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)
+* Twitter : [riseupnet](https://twitter.com/riseupnet)
 
 ## Infographie de Riseup
 

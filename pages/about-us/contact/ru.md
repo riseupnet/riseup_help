@@ -20,7 +20,7 @@
 
 Коллектив членов и друзей Riseup часто можно встретить в irc.indymedia.org на канале #riseup.  *Заметьте: для того, чтобы войти на канал #riseup, вы должны подключиться по протоколу SSL к порту 6697.* Можно использовать веб-интерфейс https://chat.indymedia.org для того, чтобы связаться с нами в том случае, если вы не знаете, что такое "irc".
 
-Наш аккаунт на "diaspora": https://diasp.org/u/riseup (riseup@diasp.org)
-Также у нас есть "twitter":https://twitter.com/riseupnet.
+Наш аккаунт на diaspora [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)
+Также у нас есть [riseupnet](https://twitter.com/riseupnet).
 
 Ищите графику Riseup в высоком разрешении? Посмотрите [[эти изображения => Images]].
