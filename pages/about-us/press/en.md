@@ -60,7 +60,7 @@ Media accounts of the Riseup server seizure:
 1. [PC World - FBI Seizes Anonymizing Server in Bomb Threat Probe](https://www.pcworld.com/businesscenter/article/254128/fbi_seizes_anonymizing_server_in_bomb_threat_probe.html)
 1. [Information Week - FBI Seizes Anonymizing Email Service Server](https://www.informationweek.com/news/security/government/232900643)
 1. [taz.de](https://taz.de/!91855/) (German)
-# [techdirt - FBI Seized Anonymizer Server](https://www.techdirt.com/articles/20120420/04570818576/fbi-seized-anonymizer-server.shtml)
+1. [techdirt - FBI Seized Anonymizer Server](https://www.techdirt.com/articles/20120420/04570818576/fbi-seized-anonymizer-server.shtml)
 1. [Democracy Now](https://www.democracynow.org/2012/4/20/headlines#4208)
 1. [Wired - FBI Uses ‘Sledgehammer’ to Seize E-Mail Server in Search for Bomb Threat Evidence](https://www.wired.com/threatlevel/2012/04/fbi-seizes-server/)
 1. [redOrbit - FBI Seizes Server Allegedly Linked To University Bomb Threat](https://www.redorbit.com/news/technology/1112518546/fbi-seizes-server-allegedly-linked-to-university-bomb-threat/)
