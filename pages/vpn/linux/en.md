@@ -15,7 +15,7 @@ If you use Ubuntu, snap is already installed. Otherwise, run:
 sudo apt install snapd
 ```
 
-Then, simply search for **RiseupVPN** in the **Software Center** or click on this link:
+Then, search for **RiseupVPN** in the **Software Center** or click on this link:
 
 <a class="btn btn-default btn-lg" href="snap://riseup-vpn">
   <i class="fa fa-reply-all"></i>
@@ -31,10 +31,12 @@ If you get an error stating that "python" is missing from /usr/bin/env, you need
 
 ## Package Installation
 
+Run the following commands in a terminal to install the Debian Stable package.
+
+       sudo apt install leap-archive-keyring
        echo "deb http://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
-       curl https://deb.leap.se/apt.key | sudo apt-key add -
-       sudo apt-get update
-       sudo apt-get install riseup-vpn leap-archive-keyring
+       sudo apt update
+       sudo apt install riseup-vpn
 
 ## Troubleshooting
 
