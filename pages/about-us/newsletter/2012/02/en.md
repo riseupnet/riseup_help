@@ -2,13 +2,13 @@
 
 ## Notes from the Help Desk: Tech advice on email clients
 
-bq.. Dear Riseup,
+> Dear Riseup,
+>
+> Help! I’m really into Riseup and want to support you all in every way I can. My roommates convinced me to go back to Riseup after getting used to Gmail.
+>
+> Do you have advice for people wanting to get off Gmail? It’s a hard transition. Gmail’s filters and conversation threads are really good for self-organization. Can you suggest any ways to do this through Riseup or through e-mail programs?
 
-Help! I’m really into Riseup and want to support you all in every way I can. My roommates convinced me to go back to Riseup after getting used to Gmail.
-
-Do you have advice for people wanting to get off Gmail? It’s a hard transition. Gmail’s filters and conversation threads are really good for self-organization. Can you suggest any ways to do this through Riseup or through e-mail programs?
-
-p. Hello dear Riseup User,
+Hello dear Riseup User,
 
 If you have your own computer, you can use your Riseup email through an email client. There is information on mail clients in our help documentation at help.riseup.net/en/email-clients. We recommend that you use Thunderbird, and you can read how to set up Thunderbird at help.riseup.net/en/thunderbird. In this environment you can set up folders, view by threads, and automatically
 filter, just like Gmail.

@@ -10,7 +10,7 @@ Why? Your stories inspire us on the days when we are stuck in server cabinets, f
 
 Rickard Falkvinge, founder of the Swedish Pirate Party, recently wrote\[1\]:
 
-bq. "Governments all over the world, and in the so-called Free West in particular, look like confused sheep. They are applauding the net activists who are helping people communicate unhindered to get news out from repressive regimes, and at the same time arresting people who use the same technologies in their own countries."
+> "Governments all over the world, and in the so-called Free West in particular, look like confused sheep. They are applauding the net activists who are helping people communicate unhindered to get news out from repressive regimes, and at the same time arresting people who use the same technologies in their own countries."
 
 The heart of the matter is that governments want the ability to know who you are on the internet. They currently find this difficult, and they want to design the technology of the internet to make identification easy.
 
@@ -22,7 +22,7 @@ All this is a very bad idea, for one simple reason: the only way to ensure real 
 
 As Bruce Schneier, one of the foremost experts on computer security, wrote\[6\]:
 
-bq. "Bits are bits; they don't come with identity information attached to them... We simply don't have anywhere near the expertise to build an airtight attribution system... Any attempts to circumvent this limitation will fail, and will increasingly need to be backed up by the sort of real-world police-state measures that the entertainment industry is demanding in order to make copy-protection work. That's how China does it: police, informants, and fear... Law enforcement and others need to understand that the old ideas of identification don't work on the Internet."
+> "Bits are bits; they don't come with identity information attached to them... We simply don't have anywhere near the expertise to build an airtight attribution system... Any attempts to circumvent this limitation will fail, and will increasingly need to be backed up by the sort of real-world police-state measures that the entertainment industry is demanding in order to make copy-protection work. That's how China does it: police, informants, and fear... Law enforcement and others need to understand that the old ideas of identification don't work on the Internet."
 
 If the civil libertarians get their way, the internet will still be a playground for capitalism -- but at least it will not be the technological basis for total social control.
 
