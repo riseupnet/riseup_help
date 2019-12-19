@@ -1,0 +1,7 @@
+@title = '¡Gracias!'
+
+![thank you!](/about-us/donate/img/thanks-red-small.jpg)
+
+Te estamos enormemente agradecidos. Tu ayuda es nuestra alma y hace posible llevar a buen término nuestro duro trabajo. Te adoramos por poner tu dinero en el mismo bando que tus ideales.
+
+Sin tu colaboración, no podríamos existir. ¡Gracias, gracias, gracias! ¡Muchas gracias!

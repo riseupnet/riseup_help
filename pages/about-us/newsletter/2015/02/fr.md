@@ -1,0 +1,44 @@
+@title = 'Février'
+
+## Attaque par déni de service
+
+Depuis quelques semaines, un groupe connu sous le nom de Lizard Mafia mène des attaques par déni de service distribué (DDoS - Distribute Denial of Service) contre riseup.net.
+
+Ce genre d'attaque consiste à utiliser des centaines de milliers d'ordinateurs pour générer un trafic contrefait dans le but de submerger un serveur informatique. Souvent, ces attaques sont menées à bien grâce à des virus installés sur des ordinateurs normaux sans que les personnes qui les utilisent soient au courant.
+
+Chez Riseup, nous sommes habitué-e-s à nous défendre contre des attaques par déni de service normales, mais l'augmentation récente de leur fréquence pèse sur nos systèmes. Nous avons amélioré nos efforts pour pallier à d'éventuels ralentissements des services de Riseup et nous nous excusons si vous avez eu des difficultés à joindre nos services dernièrement.
+
+Beaucoup de personnes, y compris des ami-e-s tendres et d'autres qui nous apprécient, considèrent que les attaques par déni de service distribué sont une forme de désobéissance civile informatique (quand elles sont menées par des volontaires et non par des ordinateurs piratés). Chez Riseup, nous nous sommes cependant toujours opposé-e-s à cette pratique comme moyen d'action politique pour une raison bien simple. Alors que ces attaques sont des armes qui peuvent être brutalement efficaces contre les voix marginales sur le net, elles sont la plupart du temps complètement inutiles contre les puissant-e-s. Nous pensons que tous les mouvements sociaux devraient rejeter les attaques par déni de service comme tactique.
+
+## Essayez Bitmask
+
+Le nouveau VPN de Riseup utilise l'application libre Bitmask. Il y a une nouvelle version de Bitmask pour Android qui est maintenant meilleure que jamais et qui vous permet d'utiliser le VPN de Riseup sur vos appareils Android. Nous avons à présent des serveurs à Montréal, Seattle et Amsterdam.
+
+Pourquoi utiliser un VPN? Une grande partie de l'espionnage effectué par les États et les compagnies privées est fait en surveillant le trafic internet. Un proxy chiffré comme le VPN de Riseup peut grandement aider à se protéger contre la surveillance en cachant votre adresse IP et en vous permettant de contourner la censure. Le VPN chiffre votre trafic internet et le fait apparaître comme venant d'un des serveurs de Riseup. Cela ne permet cependant pas de vous anonymiser si vous ou une application que vous utilisez divulgue une information qui permet de vous identifier.
+
+* Téléchargez Bitmask pour Android depuis le Google Play store \[1\], F-Droid \[2\], ou directement depuis https://dl.bitmask.net.
+* Créez-vous un nouveau compte "Black" riseup.net à partir de l'application ou sur https://black.riseup.net
+
+Pour utiliser le VPN avec Bitmask, vous aurez besoin de créer un nouveau compte "Black". Ces comptes "Black" diffèrent des comptes normaux "Red" utilisés en ce moment pour les courriels sur riseup.net. Votre nom d'utilisateur de compte "Red" sera réservé et impossible à choisir (pour vous permettre de migrer de votre compte Red vers le Black dans le futur).
+
+Pour plus de détails sur le VPN Riseup, veuillez visiter nos pages d'aide https://help.riseup.net/fr/vpn
+
+Si vous souhaitez avoir une plus grande anonymité que ce qu'un VPN peut offrir, nous suggérons l'utilisation de la version Android de Tor, nommée Orbot \[3\].
+
+Un proxy anonymisant comme le VPN de Riseup ou Tor ne fournir pas un chiffrement de bout-en-bout de vos messages ou de vos appels. Pour cela, nous suggérons fortement TextSecure \[4\] et RedPhone \[5\] de nos amis d'Open WhisperSystems.
+
+Si vous souhaitez utiliser l'application Bitmask pour Android dans votre langue, vous pouvez nous aider à la traduire \[6\]!
+
+* \[1\]: https://play.google.com/store/apps/details?id=se.leap.bitmaskclient
+* \[2\]: https://f-droid.org/
+* \[3\]: https://www.torproject.org/docs/android.html.en
+* \[4\]: https://whispersystems.org/#encrypted_texts
+* \[5\]: https://whispersystems.org/#encrypted_voice
+* \[6\]: https://www.transifex.com/projects/p/bitmask-android/
+
+## Nouvelles conditions d'utilisation et nouvelle politique de confidentialité
+
+Les oiseaux chantent! Les cloches sonnent! Le peuple danse à travers le monde en apprenant la nouvelle: Riseup a de nouvelles conditions d'utilisation et une nouvelle politique de confidentialité.
+
+* https://help.riseup.net/fr/privacy-policy
+* https://help.riseup.net/fr/tos

@@ -1,0 +1,20 @@
+@title = 'Aprile'
+
+## Aggiornamento riguardo Heartbleed
+
+Utente di Riseup,
+con ogni probabilità avrai già sentito parlare di Heartbleed, un grave bug riguardante la crittografia (un difetto del software) che è diventato pubblico la settimana scorsa. Abbiamo sistemato tutto il giorno stesso in cui il bug è stato reso pubblico, ma c'è il rischio che la tua password sia stata rubata e che le tue comunicazioni con riseup siano state tenute sotto osservazione o manipolate. 
+Dovrai cambiare la tua password. Se vuoi saperne di più, un buon riassunto è disponibile qui:
+https://mayfirst.org/may-firstpeople-link-statement-heart-bleed-security-flaw
+   (link anche in italiano)
+   
+La NSA (National Security Agency, l'Agenzia per la Sicurezza Nazionale statunitense - NdT) è stata accusata (ed ha anche negato) di essere a conoscenza di questo  problema da due anni. Se questo fosse vero, in base ai nostri calcoli, l'ipotesi peggiore è che potrebbero aver compromesso le nostre comunicazioni per circa 11 mesi. Già, puah... :(
+    
+I dettagli riguardanti i nuovi certificati di sicurezza (ed i nomi dei servizi nascosti di Tor) sono elencati sulla homepage di riseup nella sezione 'system updates'.
+
+Devi accedere a user.riseup.net e modificare la tua password. Fallo immediatamente.
+
+In solidarietà.
+Riseup
+
+NOTA BENE: Ricorda che riseup mai e poi mai ti chiederà di inviargli la tua password o di cliccare su un link dove ti è richiesto di inserire la tua password.

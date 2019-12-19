@@ -1,0 +1,44 @@
+@title = 'Februar 2012'
+
+
+## Notizen vom "Help Desk": technische Tips zu Email-Programmen
+
+Hallo Riseup,
+
+Hilfe! Ich finde Riseup wirklich toll und möchte Euch gerne nach allen Möglichkeiten unterstützen. Meine MitbewohnerInnen konnten mich davon überzeugen, zu Riseup zurückzukehren, nachdem ich mich schon an Gmail gewöhnt habe.
+
+Habt Ihr guten Rat für Menschen, die von Gmail wieder loskommen wollen? Das ist eine große Umstellung: Gmail´s Filter wie auch die automatische Gruppierung von Schriftwechseln sind eine wertvolle Hilfe. Könnt Ihr Wege aufzeigen, das gleiche mit Riseup oder einem Email-Programm zu erreichen?
+
+
+Hallo, liebeR Riseup-NutzerIn,
+
+Falls Du einen eigenen Computer hast, kannst Du über ein Email-Programm (Client) auf Riseup zugreifen. In der Hilfe-Dokumentation unter help.riseup.net/de/email-clients findest Du (bislang nur englische) Informationen dazu. Wir empfehlen, Thunderbird zu benutzen - wie Du Thunderbird einrichtest, kannst Du (auf englisch) unter help.riseup.net/de/thunderbird nachlesen. Mit diesem Programm kannst Du Verzeichnisse anlegen, Schriftwechsel gruppiert anzeigen lassen und automatische Filter einsetzen, genau wie bei Gmail.
+
+Du kannst entscheiden, ob Du per POP oder IMAP auf Riseup zugreifen willst. Wenn Du das Email-Programm anweist, POP zu benutzen, werden all Deine Emails von unseren Servern auf Deinen Computer heruntergeladen. Damit hast Du mehr Kontrolle über Deine Daten. Wenn Du hingegen IMAP verwendest, bleiben die Emails auf unserem Server gespeichert, so daß Du - egal ob Du per Webmail oder Email-Programm zugreifst - identische Daten vorfindest.
+
+Auch mit Riseup Webmail kannst Du Schriftwechsel gruppiert anzeigen lassen, um einen besseren Überblick zu erhalten. Auch kannst Du Filter erstellen, die Deine Emails automatische in die gewünschten Unterverzeichnisse einsortieren.
+
+Filter kannst Du über die Riseup NutzerInnen-Verwaltung einrichten. Sie helfen Dir, Emails nach von Dir definierten Kriterien direkt in bestimmte Unterverzeichnisse einzusortieren. So kann es zum Beispiel hilfreich sein, alle Emails von einer bestimmten Mailingliste in ein dafür vorgesehenes Verzeichnis zu verschieben. Wenn Du diese Filter über die Riseup NutzerInnen-Verwaltung einrichtest, werden die Nachrichten gefiltert, unabhängig davon, wie Du auf die Emails zugreifst. (Wie bereits erwähnt, kannst Du auch innerhalb Deines Email-Programms Filter einrichten - die sich dann aber unter Umständen nur innerhalb des Programms auswirken.)
+
+Hier findest Du eine (englische) Anleitung zum Einrichten von Filtern über die Riseup NutzerInnen-Verwaltung:
+https://help.riseup.net/de/email-filters#how-do-i-edit-my-email-filters
+
+
+## Spam! Spam! Spam!
+
+Warum kommt da so viel Spam? Ist das mühsam! Vielleicht hast Du es nicht bemerkt, doch wir arbeiten wie wild am Stopfen der Löcher, die den Spam reinlassen. In den vergangenen Monaten gab es eine Menge Verbesserungen, wie auch ein paar Dinge, die nicht so gut geklappt haben... wir wollen Dich aber nicht mit Details langweilen.
+
+Auf jeden Fall wollen wir Dir sagen, wie Du die Situation verbessern kannst. Zu allererst: Überprüfe die Einstellungen Deines Spam-Filters und überlege Dir, dessen Empfindlichkeit zu erhöhen - oder andere Optionen anzupassen. Wie das geht, ist hier erklärt: help.riseup.net/spam
+Zweitens: Wenn Du Spam in Deinem Posteingang vorfindest, kannst Du (falls Du IMAP verwendest) unsere Filter verbessern, indem Du diese Nachricht einfach ins Spam-Verzeichnis rüberziehst. Genauso kannst Du eine fälschlicherweise im Spam-Verzeichnis gelandete Nachricht in Deinen Posteingang verschieben - unser System wird sich für´s nächste Mal merken, daß das ein Fehler war. Nicht alle Nachrichten, die Dich nicht interessieren, sind auch wirklich Spam, darum solltest Du nur "echten Spam" (= ungezielte Massenwerbung) in das Spam-Verzeichnis verschieben. Früher gab es zu diesem Zweck das "Mistakes"-Verzeichnis. Falls Du einE alteingesesseneR Riseup-NutzerIn mit einem "Mistakes"-Verzeichnis bist, könntest Du dieses nun löschen, da es keine Funktion mehr hat.
+
+
+## freiwillige ÜbersetzerInnen für das Riseup Rundmail
+
+Jeden Monat hilft eine Gruppe engagierter Freiwilliger, das Riseup Rundmail in verschiedene Sprachen zu übersetzen. Wir möchten den Anlass nutzen, um uns bei diesen netten, über den ganzen Erdball verteilten Menschen dafür zu bedanken, daß sie die Infos und Neuigkeiten von Riseup all unseren NutzerInnen besser verfügbar machen.
+
+Wir sind auch immer auf der Suche nach weiterer Unterstützung zur Übersetzung der Rundmails. Besonderer Bedarf besteht bei folgenden Sprachen:
+
+Arabisch, Katalan, Niederländisch, Dänisch, Französisch, Griechisch, Italienisch, Suaheli/Kisuaheli, Türkisch
+
+Wenn Du helfen möchtest, wende Dich bitte an gadfly@riseup.
+

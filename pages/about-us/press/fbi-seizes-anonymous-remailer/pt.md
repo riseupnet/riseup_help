@@ -1,0 +1,47 @@
+@title = 'FBI apreende servidor de envio de emails anônimo e muitos outros serviços no espaço de colocation do Riseup'
+
+## Ataque ao anonimato
+
+Na quarta-feira, 18 de Abril, aproximadamente às 16:00 (EST), as autoridades federais dos Estados Unidos removeram um servidor do colocation compartilhado pelo Riseup Networks e May First/People Link em Nova Iorque. O servidor apreendido era operado pela European Counter Network ("ECN"), o servidor independente de internet mais antigo na Europa, o qual, entre muitas outras coisas, fornecia um serviço de remailer (envio de emails anônimo), Mixmaster, que era alvo de investigação pelo FBI devido às ameaças de bombas contra a Universidade de Pittsburgh.
+"A empresa responsável pelo espaço confirmou que o servidor foi removido por meio de um mandato de busca emitido pelo FBI", disse Jamie McClelland, diretor de May First/People Link. "A apreensão do servidor não é apenas um ataque contra nós, mas um ataque contra todos os usuários da Internet que dependem da comunicação anônima".
+
+Os atingidos pela apreensão foram acadêmicos, artistas, historiadores, grupos feministas, grupos de direitos gays, centros comunitários, arquivos de softwares e de documentação e grupos de liberdade de expressão. O servidor incluía a lista de email de "cyber rights" (a mais antiga lista de discussão na Itália sobre o assunto), um grupo de solidariedade aos imigrantes mexicanos e outros grupos de solidariedade aos indígenas e trabalhadores da América Latina, Caribe e África. No total, mais de 300 contas de email, de 50 a 80 listas de email e vários outros sites foram tirados do ar por essa ação. Nenhum deles é acusado de estar envolvido nas ameaças anônimas de bombas.
+
+"O FBI está usando de uma abordagem agressiva, fechando o serviço para centenas de usuários por conta das ações de uma única pessoa anônima", disse Devin Theriot-Orr, um porta-voz do Riseup. "Isso é particularmente equivocado, pois não há qualquer informação no servidor sobre a origem dos emails de ameaça".
+
+"Nós nos solidarizamos com a comunidade da Universidade de Pittsburgh que teve de enfrentar esta assustadora ameaça por semanas. Nós nos opomos a tais ameaças. No entanto, retirar esse servidor não vai parar com ameaças de bombas. O único efeito que tem é o de paralisar sites e emails para milhares de pessoas sem ligação com o ocorrido", continua Sr. Theriot-Orr. "Além disso, a rede de remailers anônimos que existe não foi prejudicada pela retirada dessa máquina. Assim, não podemos fazer outra coisa que não imaginar por que uma ação tão drástica foi tomada pelas autoridades quando elas já sabiam que o servidor não continha nenhuma informação útil que poderia auxiliá-las nas investigações".
+
+O FBI alegadamente apreendeu o servidor porque estava hospedando um software de email anônimo chamado Mixmaster. Remailers anônimos são usados para enviar emails anonimamente ou através de pseudônimos. Assim como outros serviços de anonimato, como a rede Tor, esses remailers são usados majoritariamente para proteger a identidade de ativistas de direitos humanos que colocam suas vidas e suas famílias em grande risco para divulgar informação sobre abusos. Remailers são importantes para quem denuncia empresas, ativistas pró-democracia em regimes repressores e para comunicar informação vital que de outra maneira poderia não ser noticiada.
+
+O software Mixmaster é especificamente desenvolvido para tornar impossível que qualquer um rastreie os emails. O sistema não grava registros (logs) das conexões, nem detalhes de quem enviou as mensagens ou que caminho seguiu pela Internet. Isto porque a rede Mixmaster é especificamente projetada para resistir à censura e apoiar a privacidade e o anonimato. Infelizmente, algumas pessoas fazem mau uso da rede. No entanto, comparado com a taxa do uso legítimo, a utilização abusiva é muito baixa. Não há então nenhuma justificativa legítima para o FBI apreender o servidor,  visto que eles não serão capazes de obter nenhuma informação do remetente. Isso é notadamente uma punição extra-judicial e um ataque à liberdade de expressão e ao anonimato na internet e serve como um efeito intimidador aos outros provedores de emails e outros serviços anônimos.
+
+Na ausência de qualquer outra prova, o FBI precisa mostrar que está fazendo progressos no caso; e isto significa apreender um servidor para que eles pudessem orgulhosamente demonstrar que estão tomando alguma ação. Mas o que esse incidente mostra é que eles estão desesperados e dispostos a destruir pessoas inocentes para protegerem suas carreiras.
+
+## Sobre as organizações envolvidas
+
+MayFirst/People Link (mayfirst.org) é uma organização política progressista que redefine o conceito de "Provedor de Internet" de maneira coletiva e colaborativa. Os membros do MayFirst/People Link são ativistas que elegem um Comitê de Coordenação para dirigir a organização. Como uma cooperativa, os membros pagam quotas, compram equipamentos e então compartilham-nos com sites, emails, listas de emails e outros serviços ligados à internet.
+
+Riseup Networks (riseup.net) fornece ferramentas para comunicação online a pessoas e grupos que trabalham para a mudança social libertária. Riseup cria alternativas democráticas e práticas de auto-determinação controlando seus próprios meios de comunicação.
+
+ECN (European Counter Network - ecn.org) é um antigo fornecedor independente de serviço de internet na Europa que provê contas gratuitas de email, listas de email e sites para organizações, ativistas e movimentos que estão envolvidos com direitos humanos, liberdade de expressão e informação na Itália e na Europa. ECN é anti-fascista e trabalha por uma sociedade justa e igual. Anos atrás, antes de sites como Youtube e Vimeo existirem, ECN criou uma plataforma chamada NGV onde pessoas podiam publicar e compartilhar videos independentes sobre violação dos direitos humanos. Hoje em dia, ECN trabalha principalmente com movimentos anti-fascistas e anti-nazistas em toda a Europa, fornecendo espaço e recursos para centros sociais e políticos.
+
+## Questões / Leia Mais
+
+P: O Mixmaster/emails anônimos permitem que criminosos façam coisas ruins?
+
+R: Os criminosos podem fazer coisas ruins. Desde que eles estejam dispostos a quebrar as leis, eles já tem diversas opções disponíveis que possibilitam maior privacidade que o mixmaster. Eles podem roubar telefones celulares, usá-los e jogá-los no lixo; eles podem invadir computadores na Coreia ou no Brasil e usá-los para atividades criminais; eles podem usar spywares, virus e outras técnicas para controlar literalmente milhões de máquinas com Windows em todo o mundo.
+
+Mixmaster visa prover proteção para pessoas comuns que querem seguir a lei. Apenas os criminosos têm acesso à privacidade agora, e nós precisamos corrigir isso.
+
+Alguns militantes do anonimato explicam que isso é apenas uma compensação - aceitar os maus usos para os bons -, mas há mais do que isso. Os criminosos e outras pessoas más têm a motivação para aprender como conseguir um bom anonimato e muitos têm a motivação para pagar bem para ter acesso. Ser capaz de roubar e reutilizar as identidades das vítimas inocentes (roubo de identidade) torna isso ainda mais fácil. As pessoas normais, por outro lado, não têm tempo ou dinheiro para gastar para descobrir como obter privacidade online. Este é o pior dos mundos possíveis.
+
+Então sim, em teoria criminosos poderiam usar o mixmaster, mas eles já possuem opções melhores e parece improvável que retirar o mixmaster do mundo irá impedi-los de fazer coisas ruins. Ao mesmo tempo, mixmaster e outros meios de privacidade podem lutar contra roubo de identidade, crimes físicos como stalking e assim por diante. Veja a FAQ (Perguntas Frequentes) da rede Tor no item "abuso" para mais informações " https://www.torproject.org/docs/faq-abuse.html .
+
+P: Como Mixmaster/ Remailer Anônimo funciona?
+
+R: Remailers anônimos funcionam através da conexão de outras redes de remailers anônimos e cada um nessa rede remove as informações do cabeçalho do email tornando impossível descobrir quem foi o remetente real. O projeto Tor mantém uma lista dos típicos usuários desse serviços e de outros sistemas anônimos, assim como no site do [Mixmaster](http://mixmaster.sourceforge.net/)
+
+"1 Colocation é o espaço físico onde estão localizados os servidores. Para mais detalhes ver https://pt.wikipedia.org/wiki/Colocation
+
+Tradução inicial foi feita por [Passa Palavra](wwww.passapalavra.info).
+

@@ -1,0 +1,25 @@
+@title = 'June'
+
+## Hello to all the New Users
+
+We've been approving a lot of new lists and email accounts lately. Hello, hello, and welcome to Riseup! While most of you thoroughly read up on everything there is to read about Riseup (because you aren't a busy activist with a hundred things on your to-do list), we wanted to point out two places in the Riseup-sphere that may prove to be super-helpful.
+
+1. Riseup Help lives at https://help.riseup.net. It is increasingly (but not entirely) multi-lingual and our kick-ass translators are hard at work to translate all the different pages. Our help pages have general information on the politics of surveillance and internet freedom as well as very specific advice on how to use our services and other services to best help your work. We also have links to some of our newer services we are currently testing out. It's a great place to poke around and get a more in-depth sense of Riseup and what we can do for you.
+
+2. To get to Riseup Nest, go to https://mail.riseup.net and click "change my settings" at the top of the page. This is a useful spot for email users. It's where you go to get invite codes to let others use Riseup, add aliases to your email account, change your settings, and write help tickets if you are having a problem that doesn't seem to be answered in our help pages.
+
+
+## New Certificate
+
+Just a small note to let you know that Riseup's certificate has changed, as it does every year around this time. For more information about our certificates, and how to verify them you can visit: https://help.riseup.net/en/certificates
+
+
+## Riseup provides free email and lists?
+
+All over the internet you can get email and lists for free. Well, for certain definitions of free, where "free" means corporations making complicated maps of your social networks and desires, where "free" means them being willing to turn all your data over to whatever government asks for it. Where "free" means corporations building the most complex and vast map of our lives ever known in history.
+
+But not us! Not you! Hooray for Riseup, which is also "free", sort of. We don't charge for our services because we will never turn an activist away for lack of funds. And we don't ask for people living in the global south to pay for services because, you know, the ravages of imperialism and globalization.
+
+But what we do at Riseup headquarters isn't free. We have bandwidth, server maintenance, upgrades, labor, spam-filtering costs, and the list goes on and on and it's boring and we want you to get back to your kick-ass activism already but if you can, if you're able, we need your mutual aid to support the services we provide for our users all around the world that can’t afford to give.
+
+https://riseup.net/donate

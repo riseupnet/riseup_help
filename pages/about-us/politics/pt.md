@@ -1,0 +1,27 @@
+@title = 'Princípios Políticos'
+
+<p class="pull-right"><img src="page10-1038-full_large.jpg" alt="principles"></p>
+
+O objetivo da nossa organização é criar uma sociedade livre organizada em torno dos seguintes princípios:
+
+**Democracia** --Uma sociedade livre depende de uma mídia livre e organiza a vida cívica, social e econômica usando os princípios da democracia participativa decorrente da ação direta e da responsabilidade. As pessoas afetadas por uma decisão têm uma oportunidade de participar dela.
+
+**Igualdade** --Todas as pessoas são acolhidas como parte de uma sociedade livre. Todas as pessoas são iguais e todo trabalho é igualmente valorizado.
+
+**Diversidade** --Todas as pessoas em uma sociedade livre são diferentes, e espaço para sua diferença é fundamental para sua igualdade.
+
+**Segurança** --Todo ser humano em uma sociedade livre tem acesso seguro às suas necessidades básicas de alimentação, moradia, saúde, informação, educação e transporte.
+
+**Criatividade** --Uma sociedade livre valoriza cultura, arte e lazer como necessidades fundamentais. Toda pessoa tem o direito à sua própria cultura e à prática da expressão criativa.
+
+**Autodeterminação** --Uma sociedade livre é descentralizada e todas as localidades são autônomas e autodeterminadas, desde que não infrinjam os outros princípios básicos de uma sociedade livre.
+
+**Interdependência** --Comunidades em uma sociedade livre são dependentes umas das outras através da ajuda e troca mútua.
+
+**Justiça** --Todas as pessoas têm o direito de ser livres da coerção, ameaça e violência. Uma sistema de justiça deveria residir na comunidade que afeta, procurar resolução em vez de vingança, e deveria trabalhar no sentido de abolir as prisões e cadeias autoritárias.
+
+**Paz** --Uma sociedade livre usa conflito como uma oportunidade de aprender com experiências, opiniões e pontos de vista divergentes, com o objetivo de elaborar acordos e tomar medidas que afirmem a humanidade e os direitos básicos de todas as partes.
+
+**Ecologia** --Seres humanos vivem em equilibrio com, e são parte do, mundo natural. Uma sociedade livre reconhece o direito à água potável, ar puro e comida livre de toxinas industriais e engenharia genética.
+
+**Economia** --Em uma sociedade livre os meios de produção devem ser colocados nas mãos das pessoas, empoderando comunidades para organizar emprego significativo e fornecer um padrão de vida responsável e sustentável, que tenta atender às necessidades de todas as pessoas.

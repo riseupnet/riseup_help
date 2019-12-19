@@ -1,0 +1,25 @@
+@title = 'Junio'
+
+## Hola a toda la gente nueva
+
+Hemos estado aprobando muchas listas y cuentas de correo últimamente. ¡Hola, hola, y bienvenidas a Riseup! Mientras la mayoría de ustedes van sumergiéndose en la lectura de todo lo que hay disponible acerca de Riseup (como activistas ocupados con miles de cosas pendientes de hacer), queremos señalar dos lugares en la Esfera-Riseup que les pueden resultar muy útiles.
+
+1. La ayuda de Riseup está en https://help.riseup.net. Está creciendo ;(aunque no enteramente) como multi-idioma y nuestra gente en traducción está trabajando duro para traducir un gran número de páginas. Nuestras páginas de ayuda tienen información general sobre las políticas de vigilancia y libertad en Internet así como consejos muy específicos de cómo ayudar de la mejor manera a tu trabajo utilizando nuestros servicios y los de otros. También tenemos enlaces a algunos de nuestros más nuevos servicios que tenemos en pruebas. Es un gran lugar para husmear y hacerse una idea más profunda de que es Riseup y lo que podemos hacer por ti.
+
+2. Para acceder al nido de Riseup, entra a https://mail.riseup.net y sigue el ; enlace "Cambiar mi configuración" (Change my settings --en inglés) en el encabezado de la página. Éste es un sitio útil para quienes tengan correo con nosotros. Ahí es a donde te diriges para generar códigos que te permiten invitar a más compas a utilizar Riseup, añadir alias a tu cuenta de correo, ajustar tus preferencias y escribir peticiones de ayuda si estás teniendo un problema que no parece ser resuelto en nuestras páginas de ayuda.
+
+
+## Nuevo Certificado
+
+Una pequeña nota para hacerte saber que el certificado de Riseup ha cambiado, tal y como se hace cada año alrededor de estos meses. Para más información sobre nuestros certificados y de cómo verificarlos, puedes visitar: https://help.riseup.net/en/certificates
+
+## ¿Riseup proporciona gratis correo y listas?
+
+A lo largo y ancho de internet puedes conseguir correo y listas gratis. Vale la pena revisar algunas definiciones de “gratis”; donde “gratis” significa corporaciones haciendo mapas de tus redes sociales y aficiones; donde “gratis” significa que estan dispuestos a entregar todos tus datos a cualquier gobierno cuando éste se los pida. Donde “gratis” significa corporaciones construyendo el más complejo y vasto mapa de nuestras vidas jamás conocido en la historia.
+
+¡Pero no nosotras! ¡Tú no! ¡Hurra por Riseup!, que también es “gratis”, en cierta forma. Nunca te cobraremos por nuestros servicios porque nunca dejaremos de lado a un activista por falta de fondos. Y no pedimos a la gente que vive en el hemisferio sur que pague por los servicios porque, ya sabes, los estragos del imperialismo y la globalización. Pero lo que hacemos en la sede de Riseup no es gratis.
+
+Incurrimos en costos por el ancho de banda, el mantenimiento de servidores, las actualizaciones, algún personal, también filtrado de spam, y la lista sigue y sigue y es aburrido y queremos que vuelvas a tu activismo, pero si puedes, si estás capacitado, necesitamos tu apoyo mutuo para soportar los servicios que proporcionamos a nuestros usuarios alrededor del mundo que no pueden sufragar este coste.
+
+http://riseup.net/donate
+

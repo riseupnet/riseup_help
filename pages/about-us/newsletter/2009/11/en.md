@@ -19,7 +19,7 @@ Have questions about lists or email?
 * https://help.riseup.net/lists
 * https://help.riseup.net/mail
 
-h2. Tips on picking a password
+## Tips on picking a password
 
 Here are some tips. Having a good password is important not only for your own security, but for those you work with. Also, when a spammer cracks one Riseup account, all Riseup users can get blocked by corporate email providers.
 

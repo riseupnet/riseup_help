@@ -1,0 +1,44 @@
+@title = 'Febbraio'
+
+## Attacchi DDoS (Distributed Denial of Service)
+
+Nelle ultime settimane, un gruppo conosciuto con il nome di Lizard Mafia ha lanciato frequenti attacchi DDoS (Distributed Denial of Service) contro riseup.net.
+
+Un attacco DDoS è quando centinaia di migliaia di computer inviano tutti insieme traffico fasullo in modo tale da sovraccaricare il server. Spesso questi attacchi sono effettuati da virus installati su normali computer senza che gli utenti ne siano a conoscenza.
+
+A Riseup siamo abituati a difenderci contro i normali attacchi, ma la crescita della loro frequenza ha messo sotto stress i nostri sistemi. Abbiamo aumentato il nostro impegno per mitigare i futuri rallentamenti dei servizi di Riseup e ci scusiamo se recentemente hai avuto difficoltà a raggiungere i nostri server.
+
+Molta gente, inclusi i nostri cari amici ed appassionati, considerano DDoS una forma di disobbedienza civile elettronica (quando condotta da molti volontari e non il modo con cui usualmente viene fatta attraverso computer infettati). A Riseup, comunque, abbiamo sempre avversato l'uso del DDoS come tattica politica per una semplice ragione: DDoS è un'arma che può essere brutalmente efficace contro le voci online marginali, ma è quasi sempre inefficace contro il potere. Noi crediamo che tutti i movimenti sociali dovrebbero rifiutare DDoS come tattica.
+
+## Metti alla prova Bitmask
+
+Il nuovo servizio VPN di Riseup usa il software libero Bitmask. C'è una nuova versione di Bitmask per Android che è la migliore di sempre e ti permette di usare facilmente la VPN di Riseup dal tuo device Android. Adesso abbiamo punti di accesso VPN a Seattle, Montreal e Amsterdam.
+
+Perché usare una VPN? Buona parte della sorveglianza dello Stato e delle multinazionali viene fatta monitorando il traffico di rete delle persone. Un proxy crittografato come la VPN di Riseup può fare molto per proteggere il tuo traffico internet dalla sorveglianza, anonimizzando il tuo indirizzo IP, e permettendoti di aggirare la censura. La VPN crittografa il tuo traffico internet e lo fa apparire proveniente da un server Riseup, ma questo non aiuta a proteggere l'anonimato se tu o un'applicazione che stai usando, divulga informazioni personali che possono identificarti.
+
+* Scarica Bitmask per Android da Google Play store \[1\], F-Droid \[2\], o da https://dl.bitmask.net.
+* Crea una nuova utenza "Nera" su riseup.net dall'app o da https://black.riseup.net
+
+Per usare la VPN con Bitmask, dovrai creare una nuova utenza "Nera". Queste nuove utenze "Nere" sono diverse dalle normali utenze "Rosse" attualmente usate per la posta di riseup.net. Il tuo nome utente dell'account "Rosso" sarà riservato e non disponibile (per permettere in futuro alle persone di migrare un'utenza da Rossa a Nera).
+
+Per maggiori dettagli riguardo la VPN di Riseup, dai un'occhiata alle nostre pagine di aiuto https://help.riseup.net/it/vpn
+
+Se vuoi un maggiore anonimato di quello che ti può dare una VPN, ti suggeriamo di provare la versione Android di Tor, chiamata Orbot \[3\].
+
+Un proxy anonimizzatore come la VPN di Riseup o Tor non fornisce la criptazione completa dei tuoi messaggi o delle tue telefonate. Per questo, noi suggeriamo fortemente TextSecure \[4\] e RedPhone \[5\] dei nostri amici di Open WhisperSystems.
+
+Se vuoi che Bitmask per Android sia disponibile nella tua lingua, dai una mano a tradurlo \[6\]!
+
+* \[1\]: https://play.google.com/store/apps/details?id=se.leap.bitmaskclient
+* \[2\]: https://f-droid.org/
+* \[3\]: https://www.torproject.org/docs/android.html.en
+* \[4\]: https://whispersystems.org/#encrypted_texts
+* \[5\]: https://whispersystems.org/#encrypted_voice
+* \[6\]: https://www.transifex.com/projects/p/bitmask-android/
+
+## Nuove condizioni di servizio e politica della privacy
+
+Gli uccelli stanno cantando! Le campane stanno suonando! Persone di tutta la terra stanno danzando alla notizia che Riseup ha delle nuove condizioni di servizio e una nuova politica della privacy.
+
+* https://help.riseup.net/it/privacy-policy
+* https://help.riseup.net/it/tos

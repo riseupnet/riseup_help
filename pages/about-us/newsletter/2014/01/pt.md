@@ -1,0 +1,36 @@
+@title = 'Janeiro'
+
+## Notícias de Riseup
+
+Temos trabalhado em várias frentes para ajeitar as coisas por aqui, para nos livrarmos de antigos servidores que estavam executando nossa infraestrutura interna. Temos trabalhado também em atualizações para mantê-los em dia e agora nosso user.riseup.net tem a versão ruby 1.9, e isso tem funcionado bem.
+
+Temos trabalhado na nossa segurança física, colocando fechaduras melhores em nossos armários e outras coisas desse tipo.
+
+E ficamos bem preocupados depois de todo aquele problema do Lavabit -- https://en.wikipedia.org/wiki/Lavabit , e estamos esperando para sermos os próximos. Mas não tivemos nenhuma ordem secreta, ou não-secreta, de fazer qualquer coisa. Isso pode tanto significar que pensamos muito de nós mesmos, ou que já estamos possuídos (e não sabemos disso), que eles só são devagar, ou que eles sabem que nós não vamos obedecer e todo seu artifício vai desmoronar ao seu redor (ver primeiro item da lista).
+
+## O que você precisa saber sobre vírus
+
+Vírus sempre falsificam o endereço de retorno. Assim, eles parecem vir de pessoas que você conhece, de você mesmo, de administradores de sistemas ou outras pessoas em que você confia.
+
+Há muitos vírus comuns que fingem vir da "equipe" de riseup.net (ou da equipe de qualquer domínio de email). Esses vírus enviam mensagens ameaçando fechar sua conta a menos que você tome medidas imediatas e abrir o anexo (e assim, infectar o seu computador). Não seja enganado!
+
+Vírus sempre falsificam o endereço de retorno. Sim, nós acabamos de falar isso, mas vale a pena repetir.
+
+Se você receber um aviso de que a mensagem que você mandou tem um vírus, você pode quase sempre ignorar isso. Novamente, como vírus falsificam o endereço de retorno, isso só significa que outra pessoa está infectada e manda emails que parecem vir de você.
+
+Então, como o vírus pegou o seu endereço? Ele infectou um computador que mandou um email pra você ou para quem você mandou um email, ou pegou seu endereço em uma página em algum lugar da internet.
+
+Não abra anexos de ninguém, mesmo de pessoas que você conhece, a não ser que você sabe especificamente que eles iriam te enviar um anexo.
+
+Nós aqui de riseup.net NUNCA lhe enviaremos um email com anexo.
+
+Quer saber mais? Por exemplo, como instalar um filtro de spam e outras coisas úteis? [[viruses]]
+
+## O mais novo passarinho!
+
+O poderoso pássaro-de-sol e sua amada companheira tiveram um novo rebento nomeado sob o vento e as estrelas, e lhes desejamos tudo de bom em todos os aspectos que mudam e crescem quando os bebês chegam.
+
+## Gratidão
+
+Agradecemos todas as pequenas e grandes doações que recebemos na nossa campanha anual de arrecadação de fundos. Vocês são nosso sol e nossa lua. E se mais alguém quiser doar, por favor, faça-o porque isso significa que conseguiremos melhor apoiar mais usuários. Gratidão. [[donate]]
+

@@ -1,0 +1,42 @@
+@title = 'Août'
+
+## Un nouveau VPN en version bêta!
+
+Nous sommes excité-e-s d'annoncer que nous mettons en place notre nouvelle génération de services anti-surveillance par la mise en ligne de notre nouveau VPN (Virtual Private Network - réseau virtuel privé)! Nous remplaçons notre vieux VPN par celui-ci, même si nous allons garder l'ancien service en ligne pour l'instant.
+
+Pourquoi remplaçons-nous le VPN? Parce qu'il n'est pas suffisamment sécuritaire et qu'il n'est pas facile d'utilisation, ce qui donne des maux de têtes massifs à tout le monde. L'encryption nécessite d'être facile à utiliser, pas facile à foutre en l'air. Ce nouveau VPN est facile à utiliser et a un niveau de sécurité renforcé. Ce service fait également parti de la technologie que nous allons adopter dans le futur pour être à même d’offrir des services super sécuritaires et des courriels super facile à encrypter.
+
+Vous voulez l'essayer? Voici quelques trucs que vous devez savoir:
+
+1. En ce moment, l'interface ne fonctionne qu'en anglais, même si d'autres langages arrivent bientôt.
+2. Le VPN n'est disponible que pour Linux et Android à l'heure actuelle.
+3. Vous pouvez trouver de l'aide pour démarrer au: https://help.riseup.net/vpn
+4. Votre compte n'est pas lié à votre compte Riseup actuel. Vous devrez alors en créer un nouveau avec un nom d'utilisateur différent. Ne vous en faites pas, ce sera facile de fusionner ces deux comptes plus tard.
+
+
+## Une nouvelle messagerie web? Une nouvelle messagerie web!
+
+Vous avez peut-être remarqué que nous avons mis à jour l'interface de messagerie web (https://mail.riseup.net). Très excitant!
+
+Si vous utilisiez notre ancienne messagerie web, la première fois que vous vous connecterez nous tenterons d'importer votre carnet d'adresse et vos paramètres. Même si le processus n'est pas parfait, nous espérons que cela aidera à rendre votre transition plus aisée. Soyez bien sûr de vérifier votre carnet d'adresse pour des erreurs, des doublons et des entrées manquantes. Nous savons qu'il y a surtout des problèmes avec les entrées comportant des caractères non latins ou avec des accents. Si vous trouvez des erreurs, la meilleure chose à faire est d'importer le tout manuellement: https://help.riseup.net/en/email/webmail/address-book#manually-importing-your-contacts-from-impsqurrelmail-to-roundcube
+
+Nous ajoutons toujours des fonctionnalités, nous réglons des bugs et nous espérons avec une version mobile très bientôt. Si jamais vous avez des problèmes, faites-le nous savoir. Vous pouvez en savoir plus sur la messagerie web de Riseup et sur pourquoi nous avons fait le saut au:
+
+* https://help.riseup.net/fr/email/webmail  
+* https://help.riseup.net/fr/email/webmail/where-is-imp
+
+
+## Pannes et plus de pourriels
+
+Non seulement nous avons un nouveau VPN et une nouvelle messagerie web, mais nous sommes également en train de travailler sur des changements majeurs dans notre infrastructure de base pour utiliser une encryption nouvelle et plus sécuritaire, mais aussi pour supporter plus de personnes. C'est très bien, mais vous avez peut-être remarqué une augmentation des fois où Riseup est en panne, ou alors avez vu plus de pourriels dans votre boîte de réception. Soyez patient-e-s pendant que nous effectuons les changements qui nous mènent vers une infrastructure plus sécuritaire et moins pleine de pourriels.
+
+
+## Problèmes de DMARC résolus
+
+Dans la lettre de mai nous vous racontions qu'une technologie anti-pourriels, DMARC, interférait avec la capacité de certains domaines d'écrire sur les listes courriel de Riseup. Depuis une solution a été trouvé et nous l'avons intégré à nos listes. Maintenant, Yahoo, AOL et d'autres domaines avec un politique DMARC stricte ne devraient plus avoir de problèmes à utiliser nos listes.
+
+
+## L'argent
+
+Wow, Riseup a vraiment été occupé ces derniers temps (voir ci-dessus). Pourquoi sommes-nous à même d'effectuer tous ces merveilleux changements et de rendre Riseup plus sécuritaire? Parce que beaucoup d’entre vous avez donné de l'argent à Riseup. Si vous pouvez donner c'est merveilleux! Si vous pouvez faire un versement récurrent, c'est encore mieux. Et si vous êtes une des milliers de personnes qui nous a supporté depuis les quatorze dernières années de par vos dons, petits et grands, merci, merci beaucoup. Et si vous ne pouvez pas donner mais travaillez pour rendre ce monde meilleur, merci énormément.
+https://help.riseup.net/fr/donate

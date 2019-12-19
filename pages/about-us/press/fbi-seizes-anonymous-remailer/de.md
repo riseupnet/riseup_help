@@ -1,0 +1,47 @@
+@title = 'FBI seizes server providing anonymous remailer and many other services from colocation facility.'
+@nav_title = 'Server seizure'
+@toc = false
+
+_April 20, 2012_
+
+## Angriff auf anonyme Rede
+
+Am Mittwoch, den 18. April, um ungefähr 16:00 EST, entfernten US-Behörden einen Server, der gemeinsam von Riseup Networks und May First/People Link betrieben wurde, aus einem Rechenzentrum in New York City. Der beschlagnahmte Server wurde betrieben durch das European Counter Network (“ECN”), der älteste unabhängige Internetanbieter in Europa, der u.a. Mixmaster betreibt, einen Dienst zum Versenden anonymer E-Mails, welcher das Ziel aktueller FBI-Ermittlungen zu den Bombendrohungen gegen die Universität von Pittsburgh wurde.
+
+"Die Firma, welche das Rechenzentrum betreibt, bestätigte, dass der Server entfernt wurde in Verbindung mit einem Durchsuchungsbeschluss ausgestellt durch das FBI", sagte der Direktor von May First/People Link, Jamie McClelland. "Die Serverbeschlagnahmung ist nicht nur ein Angriff gegen uns, sondern ein Angriff gegen Nutzer_innen des Internets, die von anonymer Kommunikation abhängig sind."
+
+Dadurch wurden insbesondere Akademiker_innen, Künstler_innen, Historiker_innen, feministische Gruppen, Gruppen der Schwulenbewegung, kommunistische Zentren, Dokumentations- und Software-Archive und Gruppen, die für freie Rede eintreten. Der Server enthielt auch die Mailingliste "cyber rights" (die älteste Diskussionsliste in Italien zu diesem Thema), eine mexikanische Migrationssolidaritätsgruppe und andere Gruppen, mit dem Ziel, indigene Gruppen und Arbeiter_innen in Lateinamerika, der Karibik und Afrika zu unterstützen. Insgesamt wurden über 300 E-Mailkonten, zwischen 50 und 80 Mailinglisten und verschiedene andere Seiten durch diese Aktion vom Netz genommen. Niemand wurde verdächtigt, bei den Bombendrohungen beteiligt gewesen zu sein. Die beschlagnahmte Maschine enthielt keine Riseup-Konten, Listen oder Nutzer_innendaten. Statt dessen gehörten die Daten zu ECN.
+
+"Das FBI benutzt den Vorschlaghammer-Ansatz, mit dem Abschalten hunderter Nutzer_innen wegen Aktionen einer anonymen Person," sagte Devin Theriot-Orr, ein Sprecher für Riseup. "Dies ist besonders fehlgeleitet, weil es unwahrscheinlich ist, dass irgendeine Information auf dem Server gefunden wird, hinsichtlich der Quelle der Drohmails."
+
+"Wir sympathisieren mit der Gemeinschaft der Universität von Pittsburg, welche mit der beängstigenden wochenlangen Störung umgehen mussten. Wir stellen uns solch einschüchternden Aktionen entgegen. Jedenfalls wird die Beschlagnahmung der Server keine Bombendrohungen verhindern. Der einzige Effekt davon ist, auch E-Mail und Webseiten tausender unbeteiligter Menschen zu stören.", ergänzte Theriot-Orr. "Weiterhin wird das Netzwerk anonymer Remailer in keiner Weise dadurch geschädigt. Daher können wir nicht helfen, sondern wundern uns, warum solch drastische Maßnahmen ergriffen wurden, obwohl Behörden wussten, dass der Server keine sinnvollen Informationen enthielt, die für die Ermittlungen hilfreich sein konnten."
+
+Das FBI hat angeblich den Server beschlagnahmt, weil er den anonymen Remailer Mixmaster hostete. Anonyme Remailer werden benutzt, um Emails anonym oder pseudonym zu versenden. Wie andere Anonymisierungsdienste wie das Tor-Netzwerk, werden diese Remailer von vielen benutzt, um die Identität von Menschenrechtsaktivist_innen zu schützen, die sich selbst oder ihre Familien in große Gefahr bringen durch das Berichten über Verstöße. Remailers sind auch wichtig für Whistleblower in Unternehmen, Demokratieaktivist_innen in repressiven Regimen und alle, die vitale Informationen kommunizieren wollen, die sonst verdeckt blieben.
+
+Die Mixmaster-Software ist so gestaltet, dass es unmöglich ist, herauszufinden, woher Emails gesendet wurden. Das System speichert keine Logdateien von Verbindungen, Details über Sender_innen, oder wie Emails geroutet wurden. Das funktioniert, weil das System zensurresistent konstruiert ist, um Privatsphäre und Anonymität zu stärken. Unglücklicherweise missbrauchen manche Leute dieses Netzwerk. Jedoch ist dies im Vergleich zu legitimen Zielen sehr gering. Es gibt daher keine legitimen Ziele für das FBI, diese Server zu beschlagnahmen, denn sie werden nicht in der Lage sein, Informationen über Sender* zu erlangen. Das ist außer-gerichtliche Bestrafung und ein Angriff auf die freie Rede und Anonymität im Internet und fungiert als Einschüchterung für andere Anbieter von anonymen Remailern oder Anonymisierungsdiensten.
+
+Ohne weitere Spuren zu haben, muss das FBI zeigen, dass es in diesem Fall Fortschritt macht und das bedeutet in diesem Fall, dass ein Server beschlagnahmt wird, den sie stolz als erfolgreiche Aktion präsentieren können. Aber was dieser Vorfalll zeigt, ist dass sie gierig nach jedem Strohhalm greifen und bereit sind Unbeteiligte zu gefährden, nur um ihrere eigene Karriere zu schützen.
+
+## Über die beteiligten Organisationen
+
+MayFirst/People Link ([mayfirst.org](https://mayfirst.org)) ist eine politisch progressive Nutzer*-betriebene und -kontrollierte Organisation, welche das Konzept von "Internetdiensteanbieter" auf eine kollektive und kollaborative Weise neu definiert. Die Mitglieder von May  First/People Link sind Organisierende und Aktivisti, die ein _Leadership Committee_ wählen, um die Organisation zu steuern. Wie in einer Kooperation zahlen die Mitglieder Gebühren, kaufen Geräte und teilen diese für Webseiten, Email, Listen und andere Internetdienste.
+
+Riseup Networks ([riseup.net](https://riseup.net)) bieten Onlinekommunikationswerkzeuge für Menschen und Gruppen, die an einem befreienden sozialem Wandel arbeiten. Riseup erschafft demokratische Alternativen und praktiziert Selbstbestimmung durch das Kontrollieren eigener Kommunikationsmittel.
+
+European Counter Network ([ecn.org](https://ecn.org)) ist der älteste unabhängige Diensteanbieter in Europa, welcher kostenlose Emailkonten, Listen, Webseiten für Organisationen, Aktivisti und Bewegungen, die sich Menschenrechten, Redefreiheit und Informationsfreiheit in Italien und Europa beschäftigen. ECN ist anti-faschistisch und arbeitet hin zu einer gerechten und gleichen Gesellschaft. Seit Jahren, noch vor Seiten wie Youtube und Vimeo, erschuf ECN eine Plattform namens NGV, wo Menschen Videos von Menschenrechtsverletzungen hochladen und anschauen konnten. Heute ist ECN primär mit anti-faschistischen und anti-Nazi-Bewegungen in ganz Europe verbunden und bietet Speicherplatz und Resourcen für politische und soziale Zentren.
+
+## Fragen / weitere Texte
+
+F: Ermöglichen Mixmaster und anonyme Remailer nicht, dass Kriminelle böse Dinge tun?
+
+A: Kriminelle können bereits böse Dinge tun. Da sie bereit sind, Gesetze zu brechen, haben sie bereits eine Menge Optionen, die bessere Privatssphäre bieten als Mixmaster. Sie können Mobiltelefone stehlen, benutzen und in den nächsten Müll werfen; sie können in Computer einbrechen - in Korea oder Brasilien und nutzen diese, um gewalttätige Aktivitäten zu starten. Sie können Spyware, Viren und andere Techniken benutzen, um buchstäblich Kontrolle über Millionen von Windows-Rechnern auf der ganzen Welt zu erlangen.
+
+Mixmaster zielt darauf ab, Schutz für gewöhnliche Menschen zu bieten, die dem Gesetz folgen wollen. Im Moment haben nur Kriminelle  Privatsphäre und das müssen wir ändern.
+
+Einige Befürworter_innen von Anonymität erklären, dass dies nur ein Kompromiss ist — die schlechte Nutzung zum Wohle der Guten zu akzeptieren — aber es gibt mehr als das. Kriminelle und andere schlechte Menschen haben die Motivation zu lernen, wie gute Anonymität zu erreichen ist und viele haben die Motivation, gut dafür zu zahlen. In der Lage zu sein, Identitäten unschuldiger Opfer zu stehlen (Identitätsdiebstahl), macht dies umso einfacher. Normale Menschen auf der anderen Seite, haben nicht die Zeit und das Geld, um sich um Onlineprivatsphäre zu kümmern. Das ist die schlimmste aller möglichen Welten.
+
+Also ja, Kriminelle können in der Theorie Mixmaster benutzen, aber sie haben bereits bessere Optionen, und es erscheint unwahrscheinlich, dass sie aufhören werden, schlechte Dinge zu tun, wenn Mixmaster von der Welt getilgt werden. Gleichzeitig können Mixmaster und andere Maßnahmen zur Stärkung der Privatsphäre Identitätsdiebstähl bekämpfen und andere physikalische Verbrechen wie Stalking usw. verhindern. Mehr dazu in der [Tor FAQ über Missbrauch->https://www.torproject.org/docs/faq-abuse.html] (english).
+
+F: Wie funktionieren Mixmaster / anonyme remailer?
+
+A: Anonyme Remailer funktionieren durch die Verbindung anonymer Remailer in einer Kette und jedes Glied in der Kette entfernt die Kopfzeilen der Mails, sodass es nicht möglich ist, die wahre Herkunft herauszufinden. [Das Tor-Projekt verwaltet eine Liste](https://www.torproject.org/about/torusers.html.en) von Gruppen, die typischerweise dieses und andere Anonymisierungssysteme benutzen, wie [Mixmaster](http://mixmaster.sourceforge.net).

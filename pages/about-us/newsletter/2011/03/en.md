@@ -1,0 +1,27 @@
+@title = "March"
+
+## Announcing our new help pages!
+
+All of us need help sometimes, and while we can't do much about finding your missing glasses or overthrowing autocrats, we are pretty good at answering tech questions. And you can help us by looking through our new help pages, and pointing out typos or confusing bits.
+
+Unfortunately, our help pages are only in available in english, but we hope to have translations soon. Thanks for your patience.
+
+https://help.riseup.net
+
+## Tech Tip -- Attachments
+
+When using a riseup mailing list, some people want to send big attachments to the entire list, and want to know why they cannot send larger attachments. In short: it takes up too much bandwidth. Luckily, we have a solution!
+
+Instead of sending around large attachments, groups can use a shared web space, which makes it possible for someone in the group to upload a document that everybody can then download. Thus, the big document isn't emailed all around, but just lives on our server. Pretty slick, huh?
+
+(Check out https://help.riseup.net/lists/admin/faq/#what_is_the_maximum_size_for_list_email and https://help.riseup.net/lists/admin/shared-web-space/ for more information about this.)
+
+## Colo Project looking for more users
+
+Our Seattle Community Colocation Project (SCCP) http://seaccp.org/ provides server space for non-profits, social justice organizations, free software projects, and linux hobbyists on a sliding scale and donation basis.
+
+Colocation is a secure and stable way for a bunch of small organizations to band together and get commercial-quality (climate-controlled, fast, backup generators in case of a power outage) server space. If you have a box you'd like to put in SCCP, let us know, colo@riseup.net
+
+## Speaking Tours
+
+We do not have any speaking gigs lined up for 2011, but that is not because we have run out of things to talk about. In fact, we are total loud mouths when it comes to the agony and ecstasy of modern technology, surveillance, and resistance. So, if you have connections to universities or organizations that sponsor speakers, and want to arrange a radical tech talk, email collectivising@riseup.net

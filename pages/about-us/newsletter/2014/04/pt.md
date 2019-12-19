@@ -1,0 +1,17 @@
+@title = 'Abril'
+
+## Sobre o Heartbleed 
+
+Pessoas que usam Riseup,
+A esta altura, você já deve ter ouvido sobre o maior bug de criptografia que foi descoberto publicamente na semana passada, conhecido como Heartbleed. Nós arrumamos tudo no dia em que o bug tornou-se público. Há algum risco de que sua senha tenha sido roubada e sua comunicação com riseup tenha sido monitorada ou interferida. Você precisará alterar a sua senha. Se quiser saber mais sobre o caso, aqui tem uma boa explicação: https://mayfirst.org/may-firstpeople-link-statement-heart-bleed-security-flaw
+
+Há relatos (e outros que refutam) que a NSA sabia deste problema há dois anos. Se sabiam, pelos nossos cálculos, no pior cenário, eles podem ter comprometido nossa comunicação por cerca de 11 meses. Sim, ugh :(
+
+Detalhes sobre o novo certificado de segurança (e nomes dos serviços escondidos Tor) estão listados na página inicial de riseup na seção "atualizações de sistema" ("system updates").
+
+Para trocar a senha, você precisa fazer o login em user.riseup.net. Faça isso agora mesmo!
+
+Em solidariedade,
+Riseup
+
+NOTA: Lembre-se que riseup nunca vai pedir para que nos mande a sua senha, ou para clicar em um link no qual você tenha que colocar a sua senha.

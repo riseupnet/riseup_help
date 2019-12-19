@@ -1,0 +1,42 @@
+@title = 'Riseup moves to encrypted email in response to legal requests.'
+@nav_title = 'Canary Statement'
+@toc = false
+
+_Feburary 16, 2017_
+
+After exhausting our legal options, Riseup recently chose to comply with two sealed warrants from the FBI, rather than facing contempt of court (which would have resulted in jail time for Riseup birds and/or termination of the Riseup organization). The first concerned the public contact address for an international DDoS extortion ring. The second concerned an account using ransomware to extort money from people.
+
+Extortion activities clearly violate both the letter and the spirit of the social contract \[1\] we have with our users: We have your back so long as you are not pursuing exploitative, misogynist, racist, or bigoted agendas.
+
+There was a "gag order" that prevented us from disclosing even the existence of these warrants until now. This was also the reason why we could not update our "Canary" \[2\].
+
+We have taken action to ensure that Riseup never again has access to a user's stored email in plaintext. Starting today, all new Riseup email accounts will feature personally encrypted storage on our servers, only accessible by you. In the near future, we will begin to migrate all existing accounts to use this new system (for technical details, see \[3\]). 
+
+To be absolutely clear, this type of encryption is not end-to-end message encryption. With Riseup's new system, you still put faith in the server while you are logged in. For full end-to-end email encryption, as before, you must use a client that supports OpenPGP (and is not web-based).
+
+We are working to roll out a more comprehensive end-to-end system in the coming year, but until that is ready, we are deploying personally encrypted storage in the mean time.
+
+in solidarity,<br>
+The Riseup Birds
+
+Questions
+
+Q: Are you compromised by law enforcement?
+
+A: No. We have never permitted installation of any hardware or software monitoring on any system that we control; law enforcement has not taken our servers; does not, and has never had access to them. We would rather stop being Riseup before we did that.
+
+Q: Couldn't the government just make you say that?
+
+A: Forced speech is actually quite rare in the US legal context. It's usually only in cases of consumer protection where the government has been successful in compelling speech (e.g. forced cigarette warnings). Nevertheless, no they aren't forcing us to say anything.
+
+Q: Why didn't you update your canary?
+
+A: In the Winter of 2016, the canary was not updated on time. The canary was so broad that any attempt to issue a new one would be a violation of a gag order related to an investigation into a DDoS extortion ring and ransomware operation. This is not desirable, because if any one of a number of minor things happen, it signals to users that a major thing has happened.
+
+Q: Why does the new Canary not mention gag orders, FISA court orders, National Security Letters, etc?
+
+A: Our initial Canary strategy was only harming users by freaking them out unnecessarily when minor events happened. A Canary is supposed to signal important risk information to users, but there is also danger in signaling the wrong thing to users or leading to general fear and confusion for no good reason. The current Canary is limited to significant events that could compromise the security of Riseup users.
+
+* \[1\]: https://riseup.net/tos
+* \[2\]: https://riseup.net/canary
+* \[3\]: https://0xacab.org/riseuplabs/trees

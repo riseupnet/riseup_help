@@ -1,0 +1,27 @@
+@title = 'Principios políticos'
+
+<p class="pull-right"><img src="page10-1038-full_large.jpg" alt="principles"></p>
+
+El objetivo de nuestra organización es la creación de una sociedad libre organizada bajo los siguientes principios:
+
+**Democracia** -- Una sociedad libre depende de medios libres y organiza civil, social y económicamente su vida utilizando los principios de participación democrática que surgen de la acción directa y la responsabilidad pública. Aquellos que estén afectados por una decisión tienen la oportunidad de participar en esa decisión.
+
+**Igualdad** --Todo el mundo es bien recibido en el marco de una sociedad libre. Todas las personas son iguales y todo el trabajo se valora por igual.
+
+**Diversidad** --Todas las personas de una sociedad libre son diferentes y que sus diferencias tengan cabida es de suma importancia para la igualdad.
+
+**Seguridad** --Cada ser humano en una sociedad libre tiene acceso asegurado a la satisfacción de sus necesidades básicas de alimentación, vivienda, atención sanitaria, información, educación y transporte.
+
+**Creatividad** --Una sociedad libre valora la cultura, el arte, y el ocio como necesidades fundamentales. Todas las personas tienen derecho a acceder a su propia cultura y a practicar la expresión creativa.
+
+**Autodeterminación** --Una sociedad libre está descentralizada y todos los lugares tienen derecho a la autodeterminación y a su autonomía mientras no se vulneren otros principios básicos de una sociedad libre.
+
+**Interdependencia** --Las comunidades en una sociedad libre están pendientes unas de otras a través de la ayuda mutua y el intercambio.
+
+**Justicia** --Todas las personas tienen derecho a estar libres de coacción, amenaza y violencia. La aplicación de la Justicia debe residir en la comunidad a la que afecta y buscar una solución en lugar de venganza. El sistema judicial debe estar orientado a la abolición de las prisiones y las cárceles autoritarias.
+
+**Paz** --Una sociedad libre usa las discusiones como una oportunidad de aprender de las puntos de vista, las opiniones y las experiencias divergentes, con el objetivo de llegar a acuerdos y tomar acciones que reafirmen la humanidad y los derechos fundamentales de todas las partes.
+
+**Ecología** --Los humanos viven en armonía con el medio natural y son parte del mismo. Una sociedad libre reconoce el derecho al agua potable, al aire limpio y sin toxinas industriales y a los alimentos sanos y sin técnicas de ingeniería genética.
+
+**Economía** --En una sociedad libre de los medios de producción deben estar en manos de la gente, habilitar a las comunidades para organizar el trabajo útil, y proporcionar un nivel de vida responsable y sostenible que trate de satisfacer las necesidades de todas las personas.

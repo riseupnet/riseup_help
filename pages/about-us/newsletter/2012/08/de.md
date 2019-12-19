@@ -1,0 +1,28 @@
+@title = 'August 2012'
+
+
+## Erfahre die Liebe, die in freier und quelloffener (open source) Software steckt!
+
+Warum ist es sinnvoll, GNU/Linux zu benutzen, statt Windows oder Mac OS? Dafür gibt es eine ganze Reihe von Gründen, einer der wichtigsten ist die riesige Anzahl an Viren, Trojanern, Hintertüren, sicherheitsrelevanten Fehlern, gezielten Angriffen durch die Regierung und anderen ausbeutbaren Schwachstellen, die es im Laufe der Jahre sehr schwierig gemacht haben, diesen zu trauen – vor allen Dingen, weil nicht die Möglichkeit besteht, unter die Haube zu schauen und zu überprüfen, ob alles was passiert auch in Ordnung ist. Die Software ist geschützt und der Quellcode nicht einsehbar, das heißt, Du vertraust Deine privaten Daten einer Firma an, deren einzige Ausrichtung die Gewinnmaximierung ist und nicht die Sicherheit Deiner persönlichen Daten, und deren Methoden Du nicht überprüfen kannst.
+OS X hat ähnliche Probleme wie Windows. Obwohl es auf Unix basiert (von welchem Linux abgeleitet wurde), sind weite Teile des Betriebssystems nicht quelloffen und somit für eine Überprüfung durch Dritte nicht zugänglich. Seine zunehmende Beliebtheit führt zu einer wachsenden Anzahl von Viren und Angriffen (auch wenn es noch immer wesentlich weniger sind als bei Windows), und die autoritäre Firmenkultur spiegelt sich in der Struktur des Betriebssystems wider. Auch beinhaltet OS X eine Funktion, die es ermöglicht, aus der Ferne die Kamera zu aktivieren, was unabhängig vom Betriebssystem auch zu anderen Zwecken misbraucht wird.
+GNU/Linux hingegen besteht hauptsächlich (mit etwas Handarbeit auch ausschließlich) aus Software, deren Quellcode frei einsehbar ist und grundsätzlich von jeder und jedem überprüft werden kann, es wird seit Jahren in einer Gemeinschaft entwickelt. In seiner Geschichte gibt es eine handvoll Viren und Angriffsszenarien auf Nutzer_innen-Ebene. Linux ist zu einem wirklich nutzer_innen-freundlichen Betriebssystem geworden, welches ein weites Feld älterer Geräte (Hardware) unterstützt und so dieses hohe Sicherheitsniveau auch durchschnittlichen Menschen zugänglich macht.
+
+
+
+## Ein technischer Tipp
+
+Jede_r Aktivist_in kommt mal an den Punkt, sich von einem E-Mail-Verteiler austragen zu wollen – vielleicht willst Du ja mal das Haus verlassen, statt E-Mails zu lesen, von Gruppen, mit denen Du längst nichts mehr zu tun hast. Hier also eine Kurzanleitung, wie das bei den Riseup-Verteilern funktioniert.
+Die einfachste Option ist, eine E-Mail an [listenname]-unsubscribe@lists.riseup.net zu senden. Dabei ist „[listenname]“ der Name des Verteilers, von welchem Du Dich austragen willst.
+Falls das nicht klappt, liegt das vermutlich daran, dass Du die „unsubscribe“-E-Mail von einer anderen Adresse aus sendest, als jener, mit der Du Dich eingeschrieben hattest.
+Das kann passieren, wenn Du mehrere E-Mail-Adressen (oder Aliasnamen) für das selbe E-Mail-Konto nutzt. Stelle also sicher, dass Du die „unsubscribe“-E-Mail von der richtigen Adresse abschickst. Falls das nicht möglich sein sollte, folge diesen Schritten:
+1. Melde Dich bei lists.riseup.net mit der E-Mail-Adresse an, mit der Du Dich bei der zu deaktivierenden Liste angemeldet hattest. Falls Du das Passwort nicht mehr weißt, folge dem Link auf der Seite, um Dir ein neues zusenden zu lassen.
+1. Wenn Du angemeldet bist, klicke auf „Ihre Listen“ („Your subscriptions / lists“), oben links auf der Seite.
+1. Klicke auf den Namen der Liste, von welcher Du Dich austragen möchtest.
+1. Klicke auf „Abbestellen“ („Unsubscribe“). Und vergiss nicht, Dich von der Webseite wieder abzumelden („Logout“).
+Erledigt, genieße die Sonne!
+
+
+## Was wir unter Anderem so tun
+
+Es ist Sommer auf unserer Hälfte des Planeten, und überall spielt das Wetter verrückt – wusstest Du, dass Riseup mehr als achthundert Graswurzel-Umweltschutzgruppen unterstützt? Ja, Krieger_innen der Erde! Falls Du für die weitere Unterstützung dieser Gruppen und aller anderen etwas Geld spenden möchtest, tue es bitte!
+https://help.riseup.net/donate
