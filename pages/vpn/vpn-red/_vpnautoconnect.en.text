@@ -13,15 +13,15 @@ $ sudo apt-get install vpnautoconnect
 
 Once installed, the VPNAutoconnect icon should appear in your task bar. It looks like this:
 
-!/vpn/vpn-howto/vpnautoconnect%2072_small.png!
+!/vpn/vpn-red/vpnautoconnect%2072_small.png!
 
 Right click on that icon and select *preferences*. Make sure that *Follow Parent and reconnect* is checked, if you want the VPN to start automatically. Next, click on the little top tab with an arrow on it:
 
-!/vpn/vpn-howto/autoconnect-tabs.png!
+!/vpn/vpn-red/autoconnect-tabs.png!
 
 You will get a form to add a VPN profile that should autoconnect:
 
-!/vpn/vpn-howto/vpnautoconnect-select.png!
+!/vpn/vpn-red/vpnautoconnect-select.png!
 
 * for *Parent Connection*, most people will choose 'eth0'
 * for *VPN connection* choose the VPN profile you just added in Network Manager.

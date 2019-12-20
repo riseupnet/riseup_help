@@ -123,4 +123,4 @@ To run OpenVPN as administrator:
 
 Right click on the *OpenVPN GUI* application and either choose "Run as Administrator" or if that doesn't exist, choose *properties*. From there, check *compatibility mode* and *run as administrator*. The *OpenVPN GUI* can be found under Start button → All Programs → OpenVPN → OpenVPN GUI.
 
-!/vpn/vpn-howto/win7-run-as-admin.jpg!
+!/vpn/vpn-red/win7-run-as-admin.jpg!
