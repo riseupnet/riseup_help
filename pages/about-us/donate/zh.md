@@ -2,23 +2,11 @@
 @nav_title = 'Donate'
 @this.alias = '/donate'
 
-## 通过邮件捐款
-
-使用支票或汇票，抬头填写“Riseup Networks”，并发送到:
-
-	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
-
-遗憾的是，当收到您的捐款后，我们没有工会组织给您发送感谢信。我们非常感激您：您的支持是我们的生命线，激励我们更加努力工作。通过把钱用在对您有价值的地方来感谢您 
-
-**例外：**按照法律规定，我们每年需要上报捐款金额超过5,000美元的人员身份。
-
-## 在线捐款
-
-<%= render :partial => 'inc/online_forms' %>
-
 ## 支持激进分子的替代品！
+
+### Donate:
+
+<a class="btn btn-default" href="#通过邮件捐款">通过邮件捐款</a> <a class="btn btn-default" href="#在线捐款">在线捐款</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
@@ -40,6 +28,23 @@ Riseup致力于以创建满足个人和组织工作的社会变化的通信需�
 在您可承受范围内，建议您尽可能多的捐款。达到我们基本开支后剩余的钱，我们会用于给更多的客户提供服务。如果您正在做大的捐赠（谢谢！），请考虑通过邮件发送支票或汇票——在线支付将会被扣除3%。
 
 **Riseup集团**的所有财务决策都来自于集体成员达成的共识。
+
+
+## 通过邮件捐款
+
+使用支票或汇票，抬头填写“Riseup Networks”，并发送到:
+
+	Riseup Networks
+	PO Box 4282
+	Seattle, WA 98194 USA
+
+遗憾的是，当收到您的捐款后，我们没有工会组织给您发送感谢信。我们非常感激您：您的支持是我们的生命线，激励我们更加努力工作。通过把钱用在对您有价值的地方来感谢您 
+
+**例外：**按照法律规定，我们每年需要上报捐款金额超过5,000美元的人员身份。
+
+## 在线捐款
+
+<%= render :partial => 'inc/online_forms' %>
 
 ## 常见问题解答
 
