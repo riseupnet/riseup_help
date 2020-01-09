@@ -8,11 +8,13 @@ RiseupVPN est testé pour windows 7 et windows 10.
 
 ## Installation
 
-Currently RiseupVPN for Windows is not available while we investigate problems related to the download.
+<a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/windows/RiseupVPN-win-latest.exe"><i class="fa fa-download"></i> Télécharger RiseupVPN pour windows</a>
+
+Une fois que vous avez sauvegardé le fichier, cliquez deux fois sur <code>RiseupVPN-win-latest.exe</code> pour installer RiseupVPN.
 
 ## Problèmes
 
-### Rapport de bug et demandes de fonctionnalités
+### Rapport de bug et demandes de fonctionnalités 
 
 RiseupVPN utilise un programme libre nommé <b>bitmask-vpn</b>.
 
