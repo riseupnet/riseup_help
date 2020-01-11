@@ -7,7 +7,7 @@ Let's face it: the technology and infrastructure that are available to social mo
 
 We simply do not have the technology or the infrastructure we are going to need. Riseup is working to help build the infrastructure. Ultimately, however, Riseup is only as good as the technology we run. To be able to address the future communication needs of social movements, we are going to need much better tech and we are going to need it real soon.
 
-If you are a programmer, we need your help. Now is the time to use your skills for good. Write to waxwing@riseup.net.
+If you are a programmer, we need your help. Now is the time to use your skills for good. Write to collective@riseup.net.
 
 ## LEAP
 
