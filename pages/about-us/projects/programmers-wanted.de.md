@@ -7,7 +7,7 @@ Lasst uns ehrlich sein: die Technologie und Infrastruktur für soziale Bewegunge
 
 Wir haben ganz einfach noch nicht die nötige Technologie und Infrastruktur dafür. Riseup hilft dabei, diese Infrastruktur aufzubauen. Letzendlich ist Riseup allerdings nur so gut wie die betriebene Technologie. Um zukünftigen Anforderungen an unsere Kommunikation zu begegnen, werden wir viel bessere Technologie brauchen und zwar sehr bald.
 
-Falls du programmieren kannst, brauchen wir deine Hilfe. Jetzt ist die richtige Zeit, unsere Fähigkeiten für etwas Gutes zu nutzen. Schreibt an waxwing@riseup.net.
+Falls du programmieren kannst, brauchen wir deine Hilfe. Jetzt ist die richtige Zeit, unsere Fähigkeiten für etwas Gutes zu nutzen. Schreibt an collective@riseup.net.
 
 ## LEAP
 
