@@ -7,7 +7,7 @@ Vamos encarar os fatos: a tecnologia e a infraestrutura disponíveis para os mov
 
 Nós simplesmente não temos a tecnologia nem a infraestrutura que serão necessárias. O Riseup trabalha para ajudar a construir a infraestrutura; porém, no final das contas, os serviços que o coletivo oferece dependem da tecnologia que utilizamos. Para conseguirmos atender às necessidades futuras dos movimentos sociais, vamos precisar de uma tecnologia muito melhor, e logo.
 
-Se você é uma programadora ou um programador: precisamos da sua ajuda. Agora é hora de fazer bom uso das suas habilidades. Escreva para waxwing@riseup.net.
+Se você é uma programadora ou um programador: precisamos da sua ajuda. Agora é hora de fazer bom uso das suas habilidades. Escreva para collective@riseup.net.
 
 ## Projeto LEAP
 
