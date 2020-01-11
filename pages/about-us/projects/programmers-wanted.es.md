@@ -7,7 +7,7 @@ Enfrentémoslo: la tecnología e infraestructura disponibles para los movimiento
 
 Simplemente no tenemos la tecnología ni la infraestructura que vamos a necesitar. Riseup está trabajando para ayudar a construir esta última. Sin embargo, Riseup es sólo tan bueno como la tecnología de la que dispone. Para poder abordar las futuras necesidades de comunicación de los movimientos sociales, vamos a necesitar mucha mejor tecnología y la vamos a necesitar pronto.
 
-Si eres un programador, necesitamos tu ayuda. Ahora es el momento de usar tus habilidades para el bien. Escribe a waxwing@riseup.net.
+Si eres un programador, necesitamos tu ayuda. Ahora es el momento de usar tus habilidades para el bien. Escribe a collective@riseup.net.
 
 ## LEAP
 
