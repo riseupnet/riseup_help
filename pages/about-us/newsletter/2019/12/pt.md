@@ -26,7 +26,7 @@ Saiba que, quando você doa para o Riseup, você também está apoiando uma gran
 
 Nas próximas semanas tocaremos o sino e cantaremos em alto e bom som sobre formas de apoiar o Riseup. Para aqueles de vocês que já doaram ou o fazem mensalmente - OBRIGADO! 
 
-Por favor, ajude a espalhar esse pedido aos seus amigos e aliados que também utilizam os nossos serviços - https://riseup.net/pt/about-us/donate.
+Por favor, ajude a espalhar esse pedido aos seus amigos e aliados que também utilizam os nossos serviços - https://riseup.net/pt/about-us/donate
 
 Se você quiser ajudar, tiver dúvidas sobre como fazer doações dedutíveis nos impostos ou tiver R$50.000 guardados no cofre, por favor entre em contato conosco - fundraising [@] riseup.net.
 

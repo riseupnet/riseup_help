@@ -26,7 +26,7 @@ Wanneer u aan Riseup geeft, weet dan dat u ook een groot deel van onze gebruiker
 
 De komende weken zullen we luidkeels aan de bel rinkelen en tsjilpen over hoe we Riseup kunnen ondersteunen. Voor degenen onder u die al hebben gedoneerd of dat maandelijks doen - dankjewel! 
 
-Help ons alstublieft het woord te verspreiden naar uw vrienden en bondgenoten die ook gebruik maken van onze diensten, https://riseup.net/donate.
+Help ons alstublieft het woord te verspreiden naar uw vrienden en bondgenoten die ook gebruik maken van onze diensten, https://riseup.net/donate
 
 Als u wilt helpen, vragen heeft over het maken van fiscaal aftrekbare giften of als u 50.000 euro aan donaties wilt doen of als u een gat in uw portemonnee wilt verbranden, neem dan contact met ons op, fundraising [@] riseup.net.
 

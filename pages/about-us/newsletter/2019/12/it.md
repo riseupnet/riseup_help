@@ -26,7 +26,7 @@ Quando fate una donazione a Riseup, sappiate che state sostenendo anche una gran
 
 Nelle prossime settimane suoneremo il campanello e cinguetteremo ad alta voce su come sostenere Riseup. Per quelli di voi che hanno già donato o lo fanno mensilmente - GRAZIE! 
 
-Per piacere, contribuite a diffondere questo messaggio ai vostri amici ed agli alleati che utilizzano i nostri servizi, https://riseup.net/it/about-us/donate.
+Per piacere, contribuite a diffondere questo messaggio ai vostri amici ed agli alleati che utilizzano i nostri servizi, https://riseup.net/it/about-us/donate
 
 Se vuoi aiutare, hai domande su come fare donazioni deducibili dalle tasse o se ti capita di avere 50.000 euro che vuoi spendere in fretta, scrivi a fundraising[@]riseup.net.
 

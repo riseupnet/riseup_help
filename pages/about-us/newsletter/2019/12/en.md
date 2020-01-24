@@ -27,7 +27,7 @@ When you give to Riseup, please know that you are also supporting a large portio
 
 Over the next few weeks we will be ringing the bell and chirping loudly about how to support Riseup. For those of you that have already donated or do so monthly – THANK YOU! 
 
-Please help spread the word to your friends and allies who also use our services.  - https://riseup.net/donate. 
+Please help spread the word to your friends and allies who also use our services.  - https://riseup.net/donate
 
 If you would like to help, have questions about how to make tax deductible donations or happen to have $50K burning a hole in your wallet, please contact us fundraising [@] riseup.net.
 

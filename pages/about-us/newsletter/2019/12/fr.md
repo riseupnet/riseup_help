@@ -26,7 +26,7 @@ Lorsque vous donnez à Riseup, sachez que vous soutenez également une grande pa
 
 Au cours des prochaines semaines, nous allons sonner la cloche et chanter haut et fort les manières de soutenir Riseup. Pour celles et ceux d'entre vous qui ont déjà fait un don ou qui le font tous les mois - MERCI !
 
-Aidez-nous à passer le mot à vos ami-e-s et allié-e-s qui utilisent également nos services, https://riseup.net/fr/about-us/donate.
+Aidez-nous à passer le mot à vos ami-e-s et allié-e-s qui utilisent également nos services, https://riseup.net/fr/about-us/donate
 
 Si vous souhaitez nous aider, si vous avez des questions sur la façon de faire des dons déductibles d'impôt ou si vous avez 50 000 euros qui brûlent un trou dans votre portefeuille, veuillez nous contacter pour une collecte de fundraising [@] riseup.net.
 

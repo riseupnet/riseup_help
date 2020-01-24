@@ -26,7 +26,7 @@ Wenn Ihr an Riseup spenden, wisst bitte, dass Ihr auch einen großen Teil unsere
 
 In den nächsten Wochen werden wir die Glocke läuten und laut zwitschern, wie Riseup unterstützen werden kann. Für diejenigen unter Euch, die bereits gespendet haben oder dies monatlich tun - DANKE! 
 
-Bitte helft mit, Eure Freunde und Verbündeten zu informieren, die auch unsere Dienste nutzen, https://riseup.net/de/about-us/donate.
+Bitte helft mit, Eure Freunde und Verbündeten zu informieren, die auch unsere Dienste nutzen, https://riseup.net/de/about-us/donate
 
 Wenn Ihr helfen möchtet, Fragen zur steuerlich absetzbaren Spende habt oder zufällig 50.000 Euro Eure Brieftasche sprengen, kontaktiert uns bitte unter fundraising [@] riseup.net.
 
