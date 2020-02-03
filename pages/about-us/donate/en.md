@@ -15,7 +15,7 @@ Riseup works tirelessly to create grassroots technology alternatives that addres
 
 For more information about Riseup, you can [[meet our members => about-us]] and check out our [[project areas => projects]]. Riseup is a [[registered nonprofit => img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] under section `501(c)(4)` of the US Internal Revenue Code.
 
-Donations to riseup.net are **not** tax-deductible. If you would like to make a tax-deductible donation (US), you can [[contribute to our sister organization, Riseup Labs => donate-labs]].
+Donations to riseup.net are **not** tax-deductible. If you would like to make a tax-deductible donation (US), you can [[contribute to our sister organization, Riseup Labs => https://riseuplabs.org/donate]].
 
 If you are a programmer, you can support Riseup by [[writing code => programmers-wanted]].
 

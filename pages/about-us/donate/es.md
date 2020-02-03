@@ -14,7 +14,7 @@ Riseup trabaja sin descanso para crear tecnologías de base que se ocupen de las
 
 Para más información sobre Riseup, puedes [[conocer a nuestra gente => about-us]] y echar un ojo a nuestros [[proyectos => projects]]. Riseup es una [[organización sin ánimo de lucro => https://help.riseup.net/about-us/donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] registrada en la sección `501(c)(4)` del Código de Rentas de los EE.UU.
 
-Las donaciones a favor de riseup.net **no** pueden deducirse. Si quieres hacer una donación que pueda deducirse (en los EE.UU.), [[colaborar con nuestra organización hermana, Riseup Labs => donate-labs]].
+Las donaciones a favor de riseup.net **no** pueden deducirse. Si quieres hacer una donación que pueda deducirse (en los EE.UU.), [[colaborar con nuestra organización hermana, Riseup Labs => https://riseuplabs.org/donate]].
 
 Si eres programador, puedes apoyar a Riseup [[escribiendo código => programmers-wanted]].
 

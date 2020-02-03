@@ -14,7 +14,7 @@ Riseup致力于以创建满足个人和组织工作的社会变化的通信需�
 
 关于 Riseup的更多信息，您可以访问[[meet our members => about-us]]并点击 [[project areas => projects]]。Riseup是一个 [[registered nonprofit => donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] 依据 `501(c)(4)` 国家税收法的公司。
 
-向 riseup.net的捐款**并非** 免税。如果您希望无税捐款，您可以访问 [[contribute to our sister organization, Riseup Labs => donate-labs]].
+向 riseup.net的捐款**并非** 免税。如果您希望无税捐款，您可以访问 [[contribute to our sister organization, Riseup Labs => https://riseuplabs.org/donate]].
 
 如果您是一名程序员，您可以通过 [[writing code => programmers-wanted]]来支持Riseup.
 

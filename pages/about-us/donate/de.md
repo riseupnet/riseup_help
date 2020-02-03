@@ -14,7 +14,7 @@ Riseup arbeitet pausenlos an der Erstellung alternativer Graswurzel-Technologien
 
 Für weitergehende Informationen über Riseup, kannst Du [[uns kennenlernen -> about-us]] oder unsere [[Projekt-Übersicht -> projects]] ansehen. Riseup ist eine [[eingetragene unkommerzielle Organisation -> https://riseup.net/irs-tax-letter.pdf]] nach Abschnitt `501(c)(4)` des „US Internal Revenue Code“.
 
-Spenden an riseup.net können **nicht** von der Steuer abgesetzt werden. Für von der US-Steuer absetzbare Spenden kannst Du [[unsere Schwesterorganisation Riseup Labs unterstützen -> donate-labs]].
+Spenden an riseup.net können **nicht** von der Steuer abgesetzt werden. Für von der US-Steuer absetzbare Spenden kannst Du [[unsere Schwesterorganisation Riseup Labs unterstützen -> https://riseuplabs.org/donate]].
 
 Falls Du Programmierer_in bist, kannst Du Riseup [[durch das Schreiben von Code unterstützen -> programmers-wanted]].
 

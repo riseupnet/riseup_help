@@ -14,7 +14,7 @@ Riseup lavora instancabilmente nel creare tecnologie alternative di base che ind
 
 Per ulteriori informazioni su Riseup, puoi [[incontrare i nostri membri => about-us]] e dare un'occhiata ai nostri [[progetti => projects]]. Riseup è una [[organizzazione no-profit => donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] sottoposta alla sezione `501(c)(4)` dell'US Internal Revenue Code.
 
-Le donazioni fatte a Riseup **non** sono deducibili. Se vuoi fare una donazione deducibile dalle tasse (negli Stati Uniti), puoi [[contribuire alla nostra organizzazione sorella, Riseup Labs => donate-labs]]
+Le donazioni fatte a Riseup **non** sono deducibili. Se vuoi fare una donazione deducibile dalle tasse (negli Stati Uniti), puoi [[contribuire alla nostra organizzazione sorella, Riseup Labs => https://riseuplabs.org/donate]]
 
 Se sei un programmatore, puoi supportare Riseup [[scrivendo codice => programmers-wanted]].
 
