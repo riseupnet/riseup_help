@@ -10,11 +10,11 @@ Para obtener ayuda sobre la configuración de algún cliente en concreto, pulsa 
 
 table(table table-striped).
 |_.*Plataforma*|_.*Clientes de software libre recomendados*|_.*Otros clientes comerciales*|
-|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]] | |
-|Mac     | [[thunderbird]], [[sylpheed]] | [[apple-mail]] |
-|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]] | [[microsoft-outlook]] |
-|Android | [[k9]] |  |
-|iOS     |  |  [[ios-mail]] |
+|Linux   | [[thunderbird]], [[evolution]], [[claws]], Kmail, Balsa, [[mutt]], alpine, [[sylpheed]], [[delta-chat]]  | |
+|Mac     | [[thunderbird]], [[sylpheed]], [[delta-chat]]  | [[apple-mail]] |
+|Windows | [[thunderbird]], [[evolution]], [[sylpheed]], [[claws]], [[delta-chat]]  | [[microsoft-outlook]] |
+|Android | [[k9]], [[delta-chat]] |  |
+|iOS     | [[delta-chat]]  |  [[ios-mail]] |
 
 h2. Elige IMAP o POP
 

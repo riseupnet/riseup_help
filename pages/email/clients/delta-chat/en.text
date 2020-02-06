@@ -1,0 +1,12 @@
+@title = 'Delta Chat'
+
+p(pull-right). !(image-right)delta-chat.png!
+
+"Delta Chat":https://delta.chat is a decentralized Open Source Instant Messenger. In contrast to other messengers you don't need an extra account, you can just login with your E-Mail address. You can write with everyone, not only with other Delta Chat users - others will receive your Delta Chat messages as E-Mails.
+
+For End-to-End Encryption, Delta Chat uses openPGP - the "Autocrypt Standard":https://autocrypt.org makes it easy to use, though. With other Delta Chat users the chat will be encrypted automatically after the first message has been exchanged. Encryption does also work with users of other "Autocrypt-capable E-Mail clients":https://autocrypt.org/install.html like Thunderbird with Enigmail.
+
+Delta Chat is available for Android, Linux, Windows, MacOS, and iOS. You can find out on the "official website":https://get.delta.chat how to install it on your device.
+
+p. !{height:213px}2019-12-17-delta-chat-google-play-release-chat-list-light.png! !{height:213px}2019-12-17-delta-chat-google-play-release-group-light.png! !{height:213px}desktop-screenshot.png! !{height:213px}2020-01-09-delta-chat-iOS-weekend-group-chat.png!
+

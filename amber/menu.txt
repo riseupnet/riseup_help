@@ -17,6 +17,7 @@ email
     sylpheed
     claws
     mutt
+    delta-chat
   servers
   webmail
     address-book
