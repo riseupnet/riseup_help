@@ -3,7 +3,6 @@ Hash: SHA512
 
 
 
-
 Riseup now supports v3 hidden/onion services. These are faster, and more secure,
 and have a longer .onion address. We are supporting both versions of hidden
 services until we can safely remove the old versions. If you are using tor
@@ -53,22 +52,22 @@ we.riseup.net:       7lvd7fa5yfbdqaii.onion (port 443)
 xmpp.riseup.net:     4cjw6cwpeaeppfqz.onion (ports 5222, 5269)
                      jukrlvyhgguiedqswc5lehrag2fjunfktouuhi4wozxhb6heyzvshuyd.onion (ports 5222, 5269)
                      
-0xacab.org           vivmyccb3jdb7yij.onion (port 80)
-
+0xacab.org           wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
 -----BEGIN PGP SIGNATURE-----
 
-iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAlxbKiUWHGNvbGxlY3Rp
-dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2jmWiD/9zAqasGkdwPg1daVEaIve9JcQB
-ryZCP2EtA9dFrYDDLmB5gSkzYVHwZJ4dveZjF17qjmjp60rC7HHYhIOcXmttBuhs
-OhgUkJFr+DydvJa6DCVh+atXZ2Pp3GQlUCn0lJW7dej9Yq5leQ2sDG7DNfxXvYnV
-bQ97R3VETvWJPCYLai0ZnpUUoVH5wpXULZGrfzumX715Xo6jUga1C/cVFXsmSx4G
-Mt492LxQYXn0t767f2E9t9t0FJx8d13gczo27smsyiUMUBtRnStjIGw7lVP9cOnF
-UdTfuJIvC8ZFByDk6lQFGGWUojs/d4UpqquYYOmb0sW3EcgkGPx4KhSfu5Ose+ne
-uB349UHeDRNgjwRsSVwAS/C+BZZ1WrDDTasyPZLaACOnTEIq4BEd26edtBtasl7E
-E69kx/HBwcLiyIWa8acijLXihhDkfHBu1z2GXtTN5atEPVdIb6pQcViKUtVHSLQr
-PNLFu128S6mx0LMEmEk+n/1v7dN13V3qenWDkWTz7QZZx/F93DZK9h4XDZe5uJpT
-LK325lzt3wvzBlmMEY5YCf20N+EuFv14S6uO+yQW6yPAho0SKVFDM1UXZYHQJWA8
-4LNfJLA7IU4OeoB987DB5Gd4DXKcc/Gh8yYCaxOtj/DUWSaMhtmAT+AHcAPuB7DM
-OJNMs4Ap9/c80+9DJA==
-=EqGH
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAl5G9ypfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
+MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
+do7DSw//eWxedpEybGMI2AJ91YJ34E35alFx5t/47Zu6yaIwS6ljMpw9q3pR4TcR
+6RWMxmuc9qN9fpsbpbirI06URBtT3KxE9Fr7P4X9rlW59Dm2DNUbhiiFa49SL4bg
+GbDpKwHcttY4ILMliSKVNP7h9SDxA44NJA8Y89Lx/Zkf30DD5E9IiBN5B6OkJ00L
+7cY/IIkaSsz7yyObVwezVWuzXku92B7IRbKAIPEo+pk2ANdzfoY/bGf7ucl5qIxp
+6o/P5BahFIPsUL0weo4gjrtnzO5e6N4UCMAhw3X8cr/Y79rz32SO0SU9ufCWs/ZP
+FfiHZ0H0VzP1HkdzdXT0dfLtHOjEbUxg1RbUkypDwU+8L0WJe1JTZm2xrYR2Z9d7
+Bpj7++4VTzPoAdj+/tPQViPmu2hO5+6PgEbZIuKQtzdg4g5Sb5U696gMVyhko1U2
+pLeA3jpz8RVcMYLjsAZ5If4PMrVmMNRolr/Do2h8mGl5XbsJ8Faxyyz7sVYczEps
+Nrx0uhbEeEQa28n4NhGtVQexGoNxG6YHoHR86hUSOod+9XyvWct0IDM+rbpJlITB
+2y8LKe+GxOQ1PTj5wWrqI3jaFZ/qfKX71j+3VvZA3/VQIksfOluS7sIffJtp+j5P
+gEBMB2llMFX9DJD9cehXR7HpLQLSseabjtfVlYCb73426OcBbOQ=
+=b6Tz
 -----END PGP SIGNATURE-----
