@@ -24,23 +24,27 @@ table(table table-striped).
 |         |_. POP |_. IMAP |
 | Stockage | *Votre ordinateur*. Typiquement, en utilisant POP, vous téléchargez tous vos courriels sur votre ordinateur et les supprimez des serveurs de riseup.net. | *Serveur Riseup*. IMAP laisse tous les messages sur le serveur. Une autre façon de voir cela est que le client courriel IMAP fournit une vue des données existantes stockées sur le serveur. |
 | Mobilité | *Basse*. POP marche bien uniquement quand vous vérifiez vos courriels principalement depuis le même ordinateur. | *Haute*. IMAP vous permet d'utiliser différents clients et de les garder synchronisés. |
-| Vitesse   | *Plus rapide*, puisque tout est simplement téléchargé une fois sur votre ordinateur. | *Plus lent*, puisque le client courriel doit faire des requêtes au serveur de façon répété. |
+| Vitesse   | *Plus rapide*, puisque tout est simplement téléchargé une fois sur votre ordinateur. | *Plus lent*, puisque le client courriel doit faire des requêtes au serveur de façon répétée. |
 | Quota   | *Illimité*. Vous n'aurez jamais à vous inquiéter du quota si votre client est configuré pour supprimer les messages sur le serveur après téléchargement. | *Limité*. Vous aurez [[un quota limité -> quota]]. |
 | Sécurité | *Haute*. Les messages ne sont pas stockés en permanence sur le serveur (typiquement). | *Plus basse*. Vous devez vous fier à Riseup pour le stockage. |
 
 h2. Configuration de base d'un client
 
-Bien que certains clients courriel sont capables de se configurer automatiquement, La plupart nécessitent quelques informations de base pour pouvoir se connecter à votre compte courriel Riseup.
+Bien que certains clients courriel sont capables de se configurer automatiquement, la plupart nécessitent quelques informations de base pour pouvoir se connecter à votre compte courriel Riseup.
 
 Supposons que votre adresse courriel est [@joehill@riseup.net@]:
 
 * Serveur courriel entrant :
-** IMAP : @mail.riseup.net@ port 993 (TLS) ou port 143 (StartTLS).
-** POP : @mail.riseup.net@ port 995 (TLS) ou port 110 (StartTLS).
+** IMAP : @mail.riseup.net@ port 993 (TLS) ou port 143 (STARTTLS).
+** POP : @mail.riseup.net@ port 995 (TLS) ou port 110 (STARTTLS).
 * Serveur courriel sortant :
-** SMTP : @mail.riseup.net@, port 465 (TLS) ou port 587 (StartTLS).
+** SMTP : @mail.riseup.net@, port 465 (TLS) ou port 587 (STARTTLS).
 * Login ou identifiant : @joehill@
-* Utiliser connexion sécurisée : @oui@ (TLS ou StartTLS)
+* Utiliser connexion sécurisée : @oui@ (TLS ou STARTTLS)
+
+La [[connexion sécurisée -> secure-connections]] peut-être de type TLS ou StartTLS. Pour des raisons de sécurité, nous ne supportons plus SSL.
+
+*Note :* N'activez pas *mots de passe sécurisés* ou *authentification sécurisée*. Elles sont quelque peu mal nommées. Ces méthodes pour spécifier des mots de passe nécessitent que le serveur courriel garde une copie en clair de votre mot de passe. Nous considérons que c'est un risque de sécurité, donc nous ne permettons pas les "mots de passe sécurisés". Comme la connexion à riseup.net est chiffrée de toute façon, ce n'est pas nécessaire.
 
 h2. Améliorer la sécurité de vos courriels
 
