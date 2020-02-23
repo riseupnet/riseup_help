@@ -1,7 +1,7 @@
 @title = 'Imagens'
 @summary = "Gráficos vetoriais usados em camisetas e broches do Riseup."
 
-Quer fazer camisetas, broches, bordados ou adesivos do Riseup? Muito bem. Aqui estão alguns arquivos de gráficos para ajudar. Pedimos só que você "doe":https://riseup.net/uma parte dos seus ganhos. Clique em cada imagem para obter o arquivo SVG.
+Quer fazer camisetas, broches, bordados ou adesivos do Riseup? Muito bem. Aqui estão alguns arquivos de gráficos para ajudar. Pedimos só que você [doe](https://riseup.net/pt/donate) uma parte dos seus ganhos. Clique em cada imagem para obter o arquivo SVG.
 
 ## Logotipo
 
@@ -23,11 +23,11 @@ Estas imagens têm bordas mais largas para impressão em máquinas de fazer broc
 
 [![mcclure-crows_large.jpg](mcclure-crows_large.jpg)](mcclure-crows.svg)
 
-As gralhas deste desenho são usadas com permissão de "Nikki McClure":http://www.nikkimcclure.com, que detém os direitos autorais.
+As gralhas deste desenho são usadas com permissão de [Nikki McClure](http://www.nikkimcclure.com), que detém os direitos autorais.
 
 ## Apt-get install anarquismo
 
-Esta piada é bem nerd, mas quem entende geralmente acha o máximo (a imagem é uma modificação do logotipo do "Debian GNU/Linux":https://debian.org, o sistema operacional ético escolhido por nove entre dez anarco-nerds).
+Esta piada é bem nerd, mas quem entende geralmente acha o máximo (a imagem é uma modificação do logotipo do [Debian GNU/Linux](https://debian.org), o sistema operacional ético escolhido por nove entre dez anarco-nerds).
 
 [![apt-get-install-anarchism_large.jpg](apt-get-install-anarchism_large.jpg)](apt-get-install-anarchism.svg)
 
