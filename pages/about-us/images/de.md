@@ -1,7 +1,7 @@
 @title = 'Bilder'
 @summary = "Riseup-Grafiken für T-Shirts und Buttons."
 
-Du willst Riseup-T-Shirts, Buttons, Patches oder Sticker herstellen? Cool. Hier sind einige Grafikdateien dafür. Wir möchten nur, dass "wir einen Teil abbekommen":https://riseup.net/donate. Um die SVG-Quelldateien zu bekommen, klicke auf die Vorschau.
+Du willst Riseup-T-Shirts, Buttons, Patches oder Sticker herstellen? Cool. Hier sind einige Grafikdateien dafür. Wir möchten nur, dass [wir einen Teil abbekommen](https://riseup.net/de/donate). Um die SVG-Quelldateien zu bekommen, klicke auf die Vorschau.
 
 ## Logo
 
@@ -23,11 +23,11 @@ Diese Bilder haben einen besonders breiten Rand, damit sie gut aussehen, wenn si
 
 [![mcclure-crows_large.jpg](mcclure-crows_large.jpg)](mcclure-crows.svg)
 
-Das copyright für die Krähen liegt bei "Nikki McClure":http://www.nikkimcclure.com, genutzt mit Erlaubnis.
+Das copyright für die Krähen liegt bei [Nikki McClure](http://www.nikkimcclure.com), genutzt mit Erlaubnis.
 
 ## apt-get install anarchism
 
-Das ist ziemlich abgefahren. Entweder du verstehst den Witz und hälst das für das Beste überhaupt, oder es ist wirklich verwirrend: das Bild ist eine Abwandlung des "Debian GNU/Linux Logos":https://debian.org, dem ethischen Betriebssystem, welches 9 von 10 Anarcho-Geeks weltweit bevorzugt.
+Das ist ziemlich abgefahren. Entweder du verstehst den Witz und hälst das für das Beste überhaupt, oder es ist wirklich verwirrend: das Bild ist eine Abwandlung des [Debian GNU/Linux Logos](https://debian.org), dem ethischen Betriebssystem, welches 9 von 10 Anarcho-Geeks weltweit bevorzugt.
 
 [![apt-get-install-anarchism_large.jpg](apt-get-install-anarchism_large.jpg)](apt-get-install-anarchism.svg)
 
