@@ -14,7 +14,7 @@ L'identifiant long de notre clé gpg est `0x3043E2B7139A768E`. L'empreinte compl
 
 Vous n'avez pas de raison particulière d'avoir confiance dans cette clé. Vous pouvez voir qui lui fait confiance :
 
-	gpg --list-sigs 3043E2B7139A768E
+	gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 
 ## Courrier
 
@@ -27,8 +27,8 @@ Notre adresse postale est la suivante:
 ## IRC
 
 	serveur : irc.indymedia.org
-	port : 6697
-	channel : #riseup
+	port pour connexion SSL : 6697
+	canal : #riseup
 	interface web : https://chat.indymedia.org
 
 (consultez [[chat/chat-security]] pour plus d'informations sur comment utiliser IRC de manière sécuritaire)

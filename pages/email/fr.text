@@ -3,24 +3,30 @@
 
 p(pull-right). !(image-right)airmail.jpg!
 
-Bienvenue sur la page d'aide pour les courriels riseup.net. Ici, vous trouverez de l'information sur les *comptes courriel* riseup.net
+Bienvenue sur la page d'aide pour les courriels Riseup.
 
-Si vous ne trouvez pas ce que vous cherchez, "remplissez un billet de dépannage":https://support.riseup.net/fr/topics/new. Une fois que l'on a répondu à vos questions, faites nous savoir en quoi ces pages d'aide pourraient être améliorées.
+Si vous ne trouvez pas ce que vous cherchez, [[remplissez un billet de dépannage => https://support.riseup.net/fr/topics/new]]. Une fois que l'on a répondu à vos questions, faites nous savoir en quoi ces pages d'aide pourraient être améliorées.
 
 h2. Premiers pas
 
-Visitez "account.riseup.net":https://account.riseup.net. À partir de là, vous pouvez changer votre mot de passe, ajouter des pseudonymes d'adresse courriel, créer des filtres pour vos courriels, changer votre quota ou alors demander de l'aide.
+Si vous avez oublié votre mot de passe, le seul moyen pour obtenir à nouveau l'accès à votre compte est un code de récupération. Il n'y a pas d'autre moyen, Riseup ne peut pas vous aider si vous avez perdu votre code de récupération. Vous devez absolument sauvegarder ce code dans un endroit sûr.
 
-Nous détruisons automatiquement l'information que vous nous avez donnée lors de votre demande de compte courriel. Vous devriez penser à supprimer toute information permettant de vous identifier à partir de la configuration de votre compte, par exemple votre nom, date de naissance, question secrète et adresse courriel alternative. Cependant, si vous oubliez votre mot de passe et que cette information n'est pas remplie (ou vous avez oublié l'adresse alternative, ou alors elle n'est plus accessible), vous perdez accès à votre compte.
+Le futur de votre courriel est entre vos mains et entre vos mains uniquement.
+
+Si vous ne l'avez pas déjà, veuillez mettre votre code de récupération dans un endroit sûr maintenant. Si vous ne l'avez pas écrit lorsque vous avez créé votre compte, visitez [[vos paramètres de compte->https://account.riseup.net/passwords?view=recovery]] pour en créer un nouveau et écrivez le.
+
+Il ne peut y avoir qu'un seul code de récupération à la fois. Quand vous en créez un nouveau, il remplace l'ancien code.
+
+Visitez https://account.riseup.net pour changer votre mot de passe, remplacer votre code de récupération, ajouter des alias d'adresse courriel, créer des filtres pour vos courriels, changer votre quota, détruire vos données, configurer des mots de passe spécifiques à des services et demander de l'aide.
 
 h2. Choses importantes à savoir
 
 h3. Protégez votre mot de passe
 
-Internet grouille de personnes qui veulent vous voler votre compte courriel. Vous receverez probablement un jour un courriel frauduleux d'une personne tentant de se faire passer pour riseup.net. Ces courriels vous dirons que vous devez faire une quelconque action pour conserver votre compte.
+Internet grouille de personnes qui veulent vous voler votre compte courriel. Vous recevrez probablement un jour un courriel frauduleux d'une personne tentant de se faire passer pour Riseup. Ces courriels vous dirons que vous devez faire une quelconque action pour conserver votre compte.
 
 * Ne donnez jamais votre mot de passe à personne, spécialement à quelqu'un-e se faisant passer pour riseup.net.
-* Ne faites jamais confiance à l'adresse d'entête du courriel ("De"), car elle peut être contrefaire aisément.
+* Ne faites jamais confiance à l'adresse d'entête du courriel ("De"), car elle peut être contrefaite aisément.
 * Les liens web dans un courriel sont souvent frauduleux. Pour rester en sécurité, vous devriez retaper les liens plutôt que cliquer dessus. Vous devriez également faire attention aux erreurs de frappe, comme riseupp.net plutôt que riseup.net.
 
 Apprenez en plus sur [[les mots de passe => mail-passwords]].
@@ -29,39 +35,75 @@ h3. Suppression automatique des courriels dans certains dossiers
 
 Les courriels dans certains [[dossiers spéciaux => email-folders]] sont supprimés automatiquement après un certain nombre de jours:
 
-* *Corbeille*: supprimées après 21 jours.
+* *Corbeille*: supprimés après 21 jours.
 * *Spam*: supprimés après 7 jours.
 
 h3. Quota
 
-Pour différentes raisons, nous ne pouvons fournir que 1 Gb d'espace de stockage pour les courriels. Si vous avez besoin de plus d'espace, nous vous conseillons de télécharger vos courriels à l'aide d'un client de messagerie. Nous vous encourageons à utiliser l'espace de stockage chiffré de votre compte si ce n'est pas déjà le cas (n'oubliez pas de sauvegarder le code de récupération!). [[En savoir plus sur les quotas => quota]].
+Pour différentes raisons, nous ne pouvons fournir que 1 GB d'espace de stockage pour les courriels. Si vous avez besoin de plus d'espace, nous vous conseillons de télécharger vos courriels à l'aide d'un client de messagerie. Nous vous encourageons à utiliser l'espace de stockage chiffré de votre compte si ce n'est pas déjà le cas (n'oubliez pas de sauvegarder le code de récupération!). [[En savoir plus sur les quotas => quota]].
 
-h3. Utiliser un client de messagerie
+h3. Comment accéder à votre messagerie
 
-Malgré le fait que l'interface web de messagerie de riseup.net n'offre pas beaucoup d'options, il est toujours possible d'utiliser un client de messagerie POP ou IMAP. Un client de messagerie est un programme conçu spécifiquement pour gérer vos courriels. Allez faire un tour sur nos [[tutoriels de clients de messagerie => email/clients]].
+Vous pouvez accéder à votre messagerie en visitant https://mail.riseup.net.
 
-Riseup recommande [[thunderbird]], un client libre et gratuit. Thunderbird se configure automatiquement de la bonne manière quand vous lui fournissez votre adresse courriel riseup.net et votre mot de passe.
+Comme alternative, nous vous recommandons de télécharger et installer une application [[client courriel => email/clients]] dédiée. Consultez nos [[tutoriels pour les clients courriels les plus populaires => email/clients]].
 
-h2. Ce qu'il y a de spécial avec les courriels riseup.net
+Riseup recommande [[thunderbird]], un client courriel libre et gratuit. Thunderbird se configure automatiquement de la bonne manière quand vous lui fournissez votre adresse courriel Riseup et votre mot de passe.
 
-Vos comptes courriel riseup.net sont des choses merveilleuses. Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, riseup.net a plusieures caractéristiques qui sortent de l'ordinaire:
+h2. Ce qu'il y a de spécial avec les courriels Riseup
 
-[*Nous encryptons le traffic à chaque fois que cela est possible.*]
-Quand vous envoyez un courriel de riseup.net à un autre fournisseur de courriels sécuritaires, le message est encrypté tout au long de son trajet. (voir [[StartTLS]] pour plus d'infos)
+Votre compte courriel Riseup est une chose merveilleuse! Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, les courriels Riseup ont plusieurs caractéristiques qui sortent de l'ordinaire:
 
-[*Nous ne divulgons pas votre emplacement géographique aux récipiendaires des messages.*]
-Quand vous envoyez un courriel avec riseup.net, votre adresse internet (adresse IP) n'est pas inclue dans le message. Avec les fournisseurs commerciaux, toute personne qui reçoit votre courriel est en mesure de trouver votre position approximative grâce à l'adresse internet dans le message.
+[*Chiffrement complet des disques*]
+Nos serveurs physiques sont protégés d'une façon qui empêche à d'autres personnes que Riseup d'y accéder. Ils ne sont pas hébergés "dans les nuages". Comme mesure supplémentaire, tous nos serveurs utilisent un chiffrement complet des disques qui ne peut être déverrouillé que par Riseup. De plus, toutes les communications entre nos serveurs sont toujours chiffrées. Ces mesures protègent contre un accès physique non autorisé, un vol et une tentative d'examiner les données sur le support de stockage.
 
-[*Nous ne gardons pas de traces de votre adresse internet.*]
-Nous sommes dévoué-e-s à garder aussi peu de données sur vous que possible. Contrairement aux fournisseurs commerciaux, nous ne gardons pas la trace des individus utilisant les services de riseup.net, incluant les courriels.
+[*Stockage de courriels personnellement chiffré*]
+Vos courriels sont chiffrés individuellement sur nos serveurs et peuvent être déverrouillés et lus uniquement en utilisant votre mot de passe. Cela veut dire que Riseup n'a pas la possibilité de lire vos courriels stockés. Le chiffrement des courriels reçus est automatique et les courriels sont déchiffrés uniquement lorsque vous vous identifiez pour vous permettre de les lire. Cela a lieu sur le serveur, qui devient temporairement autorisé lorsque vous êtes authentifié. À cause de cette fonctionnalité, votre mot de passe est *critique* pour vos données. Si vous perdez votre mot de passe et le code de récupération, vous ne pourrez plus accéder à votre compte et personne d'autre n'aura la capacité de déchiffrer vos courriels. Pour des détails techniques, voir le [[projet TREES => https://0xacab.org/riseuplabs/trees]].
+
+[*Votre identifiant est toujours caché*]
+Lorsque vous envoyez un courriel avec Riseup, votre identifiant est gardé secret. Dans la plupart des cas ce n'est pas un gros problème, car l'adresse "De" dans le courriel peut vous identifier. Cependant, si vous utilisez une adresse alias temporaire, cette protection empêche à quelqu’un-e d'identifier depuis quel compte le courriel a été envoyé. Afin d’empêcher cette fonctionnalité d'être utilisée par des spammeurs, Riseup garde temporairement la possibilité de déchiffrer l'en-tête identifiant dans votre courriel sortant.
+
+[*Tous les services ont un service onion Tor*]
+Nous fournissons des [[services onion Tor -> https://www.torproject.org/docs/tor-onion-service.html.en]] (services cachés) dans le cas où vous avez besoin d'améliorer votre anonymat ou de contourner d'éventuels blocages pour accéder à nos services.
+
+[*Nous chiffrons le trafic à chaque fois que cela est possible*]
+Quand vous envoyez un courriel de Riseup à un autre fournisseur de courriels sécuritaires, le message est chiffré tout au long de son trajet (voir [[StartTLS]] pour plus d'infos). Ce chiffrement a lieu automatiquement pour l'échange de données entre les serveurs et vous protège contre des personnes écoutant sur le réseau. Si vous écrivez un courriel à une autre personne utilisant Riseup, votre courriel ne quittera pas nos systèmes et restera chiffré en utilisant les méthodes au-dessus.
+
+[*Livraison à d'autres fournisseurs via Tor*]
+Si vous envoyez un courriel à [[un autre fournisseur de courriel militant=>https://github.com/ehloonion/onionmx/blob/master/sources/map.yml]], il sera livré via des services onion Tor. Ce type de relai de vos courriels protège contre la corrélation de trafic et l'analyse des métadonnées qui est possible avec la livraison normale de courriel. La métadonnée de qui communique avec qui peut être extrêmement sensible. D'après les mots de l'ancien directeur de la CIA Michael Hayden, "nous tuons en nous basant sur des métadonnées". Nous travaillons à augmenter la participation à ce réseau d'échange de courriel basé sur Tor et la liste au-dessus ne fera qu'augmenter avec le temps.
+
+[*Nous ne divulguons pas votre emplacement géographique aux récipiendaires des messages*]
+Quand vous envoyez un courriel avec Riseup, votre adresse internet (adresse IP) n'est pas inclue dans le message. Avec les fournisseurs commerciaux, toute personne qui reçoit votre courriel est en mesure de trouver votre position physique approximative grâce à l'adresse internet inclue dans le message.
+
+[*Nous ne gardons pas de traces de votre adresse internet*]
+Nous sommes dévoué-e-s à garder aussi peu de données sur vous que possible. Contrairement aux fournisseurs commerciaux, nous ne gardons pas les adresses internet des individus utilisant les services de Riseup, incluant les courriels.
+
+h2. Autres fonctionnalités sympas de votre compte Riseup
+
+* Nous n'avons pas besoin que vous vous identifiez avec un numéro de téléphone ou une information personnelle. À la place, nous nous fions à des codes d'invitation.
+* Vous pouvez utiliser des mots de passe séparés pour chaque service (p. ex. VPN, chat, courriel).
+* Nous n'avons pas de publicité pour garder votre esprit libre et vos données hors des mains du capitalisme de surveillance.
+* [[Le système de gestion de compte=>https://account.riseup.net]] n'utilise aucun javascript et a un ensemble de politiques de sécurité de contenu fort.
+* Nos mots de passe sont stockés avec des algorithmes de mémorisation forts (argon2).
+* Vous pouvez purger vos données en un clic sur un bouton dans votre [[système de gestion de compte=>https://account.riseup.net]].
+* Nous fournissons POP qui vous permet de télécharger vos courriels et de les supprimer de nos serveurs.
+
+h2. Ce que vous n'obtiendrez pas de Riseup
+
+* À moins d'utiliser l'extension de navigateur Mailvelope ou votre propre solution OpenPGP, note système courriel n'est *pas* chiffré de bout en bout ou chiffré par le client. Nous travaillons à une solution compréhensible à ce problème et nous espérons qu'elle sera disponible bientôt.
+* Si une personne obtient l'accès à votre mot de passe, elle sera capable de lire tous vos courriels. Ne donnez jamais votre mot de passe à quelqu'un-e. Si Riseup vous demande votre mot de passe, c'est une ruse.
+* N’ouvrez jamais une pièce jointe que vous recevez d'une personne, à moins que vous ne sachiez qu'elle allait vous l'envoyer. Les pièces jointes peuvent compromettre votre ordinateur et votre compte!
+* Riseup n'a pas de sauvegardes de vos anciens messages. Il est de votre responsabilité de vous assurer que vos données sont en sûreté!
+* Rien en ligne n'est 100% sûr. Si vous avez quelque chose de vraiment sensible à dire, faites le hors-ligne.
+* Il n'y a pas de moyen de fournir une solution technique magique qui résoudra tous les problèmes de tout le monde dans tous les différents contextes et luttes possibles. N'oubliez jamais que c'est une erreur d'essayer de résoudre des problèmes sociaux avec des solutions techniques.
 
 h2. Solidarité mutuelle
 
-Des courriels gratuits, cela n'existe pas. Les services comme gmail, hotmail et yahoo font leur profit en vous espionnant: illes construisent des profils sur vous, notant vos comportements et vos désirs, pour mieux vous bombarder de publicité personnalisée.
+Des courriels gratuits, cela n'existe pas. Les services comme Gmail, Hotmail et Yahoo font leur profit en vous espionnant: illes construisent des profils sur vous, notant vos comportements et vos désirs, pour mieux vous bombarder de publicité personnalisée.
 
-Riseup.net est différent. Ce service est le résultat d'un mélange d'amour et de travail par des militant-e-s comme vous, dévoué-e-s à bâtir des infrastructures alternatives sécuritaires.
+Riseup est différent. Ce service est le résultat d'un mélange d'amour et de travail par des militant-e-s comme vous, dévoué-e-s à bâtir des infrastructures alternatives sécuritaires.
 
-Le service de courriel riseup.net nécéssite beaucoup de temps et d'argent pour fonctionner et est entièrement financé par les petits dons de ses utilisatrices et de ses utilisateurs. Nous vous encourageons à faire votre part et à [[contribuer dès maintenant => donate]].
+Le service de courriel Riseup nécessite beaucoup de temps et d'argent pour fonctionner et est entièrement financé par les petits dons de ses utilisatrices et de ses utilisateurs. Nous vous encourageons à faire votre part et à [[contribuer dès maintenant => donate]].
 
 h2. Questions fréquentes (FAQ)
 
@@ -69,14 +111,15 @@ h2. Questions fréquentes (FAQ)
 * [[Comment supprimer mon compte? => mail-accounts]]
 * [[Comment augmenter mon quota? => quota]]
 * [[Pourquoi mon quota n'est pas mis à jour? => quota]]
-* [[Comment encrypter mes courriels? => message-security]]
+* [[Comment chiffrer mes courriels? => message-security]]
 * [[Que puis-je faire à propos du spam? => spam]]
 * [[Pourquoi je ne peux pas me connecter à l'interface web? => webmail]]
 * [[Pourquoi je n'arrive pas à envoyer de courriel à partir de mon client de messagerie? => smtp]]
 * [[Y a t-il un carnet d'adresses? => address-book]]
 * [[Pourquoi ne puis-je voir mes dossiers? => email-folders]]
 * [[Comment puis-je télécharger mes courriels? => downloading-email]]
-* [[Pourquoi mon courriel est fiché comme du spam? => spam]]
+* [[Pourquoi le courriel reçu est fiché comme du spam? => spam]]
 * [[Que pouvez-vous me dire à propos des virus? => viruses]]
 * [[Qu'est-ce que le contrat social de Riseup? => email/usage-agreement]]
-* [[Pourquoi je ne peux pas configuer un message de réponse automatique? => email-filters]]
+* [[Pourquoi je ne peux pas configurer un message de réponse automatique? => email-filters]]
+* [[Pourquoi mon courriel est fiché comme du spam? => email/scams/spam]]
