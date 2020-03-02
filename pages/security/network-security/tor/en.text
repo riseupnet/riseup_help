@@ -23,7 +23,7 @@ See the Using Tor section below for how to use Tor.
 
 h3. Mac OS X
 
-After you've downloaded the Tor Browser Bundle, simply click on it to begin the installation. Mac OS X will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch the connectoin wizard. Once connected to Tor, it will launch Tor Browser.
+After you've downloaded the Tor Browser Bundle, simply click on it to begin the installation. Mac OS X will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch the connection wizard. Once connected to Tor, it will launch Tor Browser.
 
 !screenshot-osx-torbrowser-icon.png!
 
