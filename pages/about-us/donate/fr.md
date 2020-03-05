@@ -1,12 +1,13 @@
 @title = 'Faire un don à Riseup'
-@nav_title = 'Don'
-@this.alias = '/don'
+@nav_title = 'Donner'
+@this.alias = '/donner'
+@toc = false
 
 ## Soutenez les alternatives radicales !
 
 ### Dons:
 
-<a class="btn btn-default" href="#don-par-courrier-postal">Postal</a> <a class="btn btn-default" href="#dons-en-ligne">En ligne</a> <a class="btn btn-default" href="#dons-de-crypto-monnaie">Crypto-monnaie</a> <a class="btn btn-default" href="#virement-bancaire-eur-seulement">Virement bancaire (EUR seulement)</a>
+<a class="btn btn-default" href="#don-par-courrier-postal">Postal</a> <a class="btn btn-default" href="#dons-par-carte-de-crédit">Carte de crédit</a> <a class="btn btn-default" href="#dons-de-crypto-monnaie">Crypto-monnaie</a> <a class="btn btn-default" href="#virement-bancaire-eur-seulement">Virement bancaire (EUR seulement)</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
@@ -32,17 +33,21 @@ Toute les décisions financières prises par le **collectif Riseup** sont faites
 
 ## Don par courrier postal
 
-Faites un chèque ou envoyez de l'argent à l'ordre de "Riseup Networks" à cette adresse :
+Faites des chèques ou des mandats à l'ordre de "Riseup Networks" et envoyez les à cette adresse :
 
 	Riseup Networks
 	PO Box 4282
 	Seattle, WA 98194 USA
 
+Nous acceptons également avec plaisir les liasses de billets.
+
+**NOTE : N'envoyez PAS de chèques d'en dehors des États-Unis ! Nous ne pouvons pas les déposer ! Si vous êtes en Europe, vous pouvez à la place nous faire un virement bancaire (voir ci-dessous) ou [[contactez nous => contact]] pour une adresse postale européenne.**
+
 Malheurement, nous n'avons pas les ressources pour vous envoyer des lettres de remerciement quand nous reçevons vos dons. Nous souhaitons vous dire que nous sommes infiniment reconnaissantes et reconnaissants : ces dons nous permettent de continuer notre important travail. Merci de mettre votre argent là où se trouvent vos valeurs ! 
 
 **Attention** Nous sommes obligé-e-s par la loi de faire un bilan annuel de l'identité des personnes qui nous donnent plus de 5 000 US$.
 
-## Dons en ligne
+## Dons par carte de crédit
 
 <%= render :partial => 'inc/online_forms' %>
 
