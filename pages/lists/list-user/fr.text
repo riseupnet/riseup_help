@@ -1,0 +1,5 @@
+@title = 'Abonné·e·s à une liste'
+
+Questions et réponses pour les personnes abonnées à une liste hébergée à https://lists.riseup.net
+
+<%= child_summaries :include_toc => true %>
