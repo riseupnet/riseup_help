@@ -104,3 +104,6 @@ If you get this error, run these commands:
 sudo pkill -e -f riseup-vpn
 test -f ~/.config/leap/systray.pid && rm -v ~/.config/leap/systray.pid
 ```
+
+## Source code
+RiseupVPN's clients are based on the open source software Bitmask. The code for the Linux client can be found [[here => https://0xacab.org/leap/bitmask-vpn]].

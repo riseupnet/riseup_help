@@ -85,4 +85,5 @@ RiseupVPN is developed by LEAP. LEAP provides the latest version of RiseupVPN Be
 
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-testing.apk.sig"><i class="fa fa-download"></i>Download signature file</a>
 
-
+## Source code
+RiseupVPN's clients are based on the open source software Bitmask. The code for the Android client can be found [[here => https://0xacab.org/leap/bitmask_android]].
