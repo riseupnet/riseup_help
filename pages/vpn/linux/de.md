@@ -90,3 +90,6 @@ Wenn du diese Fehlermeldung erhältst, führ einfach folgende Befehle aus:
 sudo pkill -e -f riseup-vpn
 test -f ~/.config/leap/systray.pid && rm -v ~/.config/leap/systray.pid
 ```
+
+## Source Code
+Die Clients von RiseupVPN basieren auf der Open-Source-Software Bitmask. Den Code des Linux-Clients könnt ihr [[hier => https://0xacab.org/leap/bitmask-vpn]] finden.
