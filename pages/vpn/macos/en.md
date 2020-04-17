@@ -47,4 +47,4 @@ When reporting a bug it is very useful to include the log files.
 If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
 
 ## Source code
-RiseupVPN's clients are based on the open source software Bitmask. The code for the MacOS client can be found [[here => https://0xacab.org/leap/bitmask-vpn]].
+RiseupVPN's clients are based on the open source software Bitmask. The code for the macOS client can be found [[here => https://0xacab.org/leap/bitmask-vpn]].
