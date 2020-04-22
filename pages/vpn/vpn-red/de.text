@@ -1,8 +1,6 @@
 @nav_title = 'VPN Rot'
 @toc = true
 
-p(alert alert-danger). März 2017. Wir haben VPN Red verändert, sodass die Einstellungen Deines VPN-Programms aktualisiert werden müssen (siehe unten).
-
 h2. Sicherheitshinweis
 
 *Beachte:* Benutzt du Mac, Linux, oder Android? Wenn ja, wechsle bitte zu [[RiseupVPN->vpn]]. VPN Red ist nicht so sicher und wird bald auslaufen!
@@ -27,8 +25,8 @@ Obwohl jedes Programm anders ist, gibt es fünf Werte die in Deinem OpenVPN-Prog
 * *VPN Nutzer*in*: Dein riseup.net-Name (wenn Dein Konto joe_hill@riseup.net ist, gib "joe_hill" ein)
 * *Passwort*: entweder Dein riseup.net-Passwort oder ein [[vpn-secret]].
 * *CA-Zertifikat*: RiseupCA.pem ([[herunter laden und verifzieren -> security/network-security/riseup-ca]])
-* *Chiffre*: AES-256-CBC <span class="badge badge-danger">NEU</span>
-* *Prüfsummenfunktion*: SHA256 <span class="badge badge-danger">NEU</span>
+* *Chiffre*: AES-256-CBC
+* *Prüfsummenfunktion*: SHA256
 
 Optionale Optionen:
 

@@ -3,8 +3,6 @@
 
 p(alert alert-danger). This service is deprecated and we do not recommend using it. Please use [[RiseupVPN->vpn]] instead.
 
-p(alert alert-danger). March 2017. We deployed changes to our VPN Red which may need adjustments in your client to work. [[Please check the changes -> #configuration-in-a-nutshell]].
-
 h2. Words of caution
 
 *NOTE!* Are you using a Mac, Linux, or Android? If so, then please use [[RiseupVPN->vpn]]. VPN Red is not as secure, and we are deprecating it!
@@ -30,8 +28,8 @@ Although each client is different, there are five values that must be configured
 * *VPN username*: your riseup.net login (ie if your account is joe_hill@riseup.net, just enter "joe_hill")
 * *Password*: either your riseup.net password or a [[vpn-secret]].
 * *CA Certificate*: RiseupCA.pem (download and verify [[here -> security/network-security/riseup-ca]])
-* *Cipher*: AES-256-CBC <span class="badge badge-danger">NEW</span>
-* *Digest*: SHA256 <span class="badge badge-danger">NEW</span>
+* *Cipher*: AES-256-CBC
+* *Digest*: SHA256
 
 Optional configuration options:
 
