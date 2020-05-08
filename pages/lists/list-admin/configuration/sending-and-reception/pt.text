@@ -11,7 +11,6 @@ Primeiro, algumas definições:
 Um dono ou administrador de lista pode configurar isso no campo _Quem pode mandar mensagens_, em _Administrar_ -> _Configurar Lista_ -> _Envio/recebimento_. As opções abaixo determinam quem pode enviar mensagens para uma lista:
 
 * Anyone_moderated: Qualquer um pode publicar; todas as mensagens são moderadas, mesmo aquelas cujos autores são membros da lista.
-* Anyone_unmoderated: Qualquer um pode publicar; nenhuma mensagem é moderada. Cuidado! Sua lista pode receber uma grande quantidade de spam e tofu (spam ativista).
 * Members_moderated: Todos os posts de membros são moderados; outras mensagens são rejeitadas. Se um assinante da lista publicar uma mensagem a partir de um endereço de e-mail não cadastrado, ela será rejeitada.
 * Members_or_moderated: Os membros da lista podem publicar; outras mensagens passam pela moderação. Esta é a configuração mais comum. Ela permite que todos os membros enviem mensagens livremente e que outras pessoas também possam publicar, desde que um editor aprove seus posts.
 * Members_or_moderated_quiet: Funciona do mesmo jeito que _members_or_moderated_, só que os autores não são avisados da ação dos moderadores. Normalmente, quando uma mensagem é moderada, uma notificação é enviada para a pessoa que a enviou. Com esta opção, porém, isso não acontece.

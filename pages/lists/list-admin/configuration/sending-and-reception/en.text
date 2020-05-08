@@ -11,7 +11,6 @@ First, some definitions:
 A list owner/administrator can set this in the 'Who can send messages' field under 'Admin' -> 'Edit List Config' -> 'Sending/reception'. These are the options for who can send messages to the list:
 
 * anyone_moderated:: Anyone may post, all messages are moderated, even messages from list members.
-* anyone_unmoderated:: Anyone may post, nothing is moderated. Use with caution! This can cause your list to get a lot of spam or tofu (activist spam).
 * members_moderated:: All member posts are moderated, other messages are automatically rejected. If someone is subscribe to the list but posts a message from a different address than the one they are subscribed with, then their message will be rejected.
 * members_or_moderated:: List members may post, other email is held for moderation. This is the most common list configuration. It allows all the list members to post freely and allows for other people to post as long as an editor approves the post.
 * members_or_moderated_quiet::  Same as members-or-moderated except no moderation notice is sent to message authors. Typically, when a message is held for moderation, the person who sent the email gets a little notice to this effect. With this option, however, the do

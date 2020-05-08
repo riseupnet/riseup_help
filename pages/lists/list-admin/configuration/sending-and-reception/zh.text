@@ -11,7 +11,6 @@ h2.  哪些人可以发送消息
 列表所有者/管理员可以在  ‘Admin’ -> ‘Edit List Config’ -> ‘Sending/reception’ 下的  ‘Who can send messages’字段中设置这些。以下是关于哪些人可以发送信息到列表的选项：
 
 * anyone_moderated:: 任何人都可以发送，但所有信息都需要审核，包括成员发送的。
-* anyone_unmoderated:: 任何人都可以发送，没有审核。谨慎使用！这会导致您的列表收到许多垃圾信息或者烂豆腐（激进主义垃圾信息）。
 * members_moderated:: 所有成员需要审核的发送，其它信息自动拒绝。如果某人订阅这个列表，但没有使用订阅地址，而是用其它地址发送信息，这样的信息将被拒绝。
 * members_or_moderated:: 列表成员可以发送，其它邮件需要审核。这是最常用的列表配置。它允许列表成员自由发送，经过编辑同意，其他人也可以发送。
 * members_or_moderated_quiet::  和 members-or-moderated相同，除了审核通知还发送给信息作者以外。通常情况下，当一个消息被审核，电子邮件的发送者会得到通知。使用此选项，将不会收到此通知。
