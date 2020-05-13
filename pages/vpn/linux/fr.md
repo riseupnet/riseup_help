@@ -35,7 +35,7 @@ Si jamais un message d'erreur apparaît indiquant que "python" n'est pas install
 Exécutez les commandes suivantes dans un terminal pour installer RiseupVPN avec le paquet pour Debian Stable.
 
        sudo apt install leap-archive-keyring
-       echo "deb http://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
+       echo "deb https://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
        sudo apt update
        sudo apt install riseup-vpn
 
