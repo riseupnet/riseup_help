@@ -2,11 +2,11 @@
 
 h2. O que é um cliente de e-mail? 
 
-Atualmente, a maioria das pessoas está familiarizada com [[webmail => webmail]], em que você acessa seu e-mail usando um navegador, como Firefox ou Chrome.
+Hoje em dia, a maioria das pessoas está acostumada a usar [[webmail => webmail]], uma interface que permite que você acesse seu e-mail por um navegador como Firefox ou Chrome.
 
-Um <b>cliente de e-mail</b>, por outro lado, é um programa especializado feito especificamente para ler e escrever e-mails. Há vários clientes de e-mail gratuitos e livres disponíveis para a maioria das plataformas.
+Um <b>cliente de e-mail</b>, por outro lado, é um programa especializado na leitura e escrita de e-mails. Há vários clientes de e-mail gratuitos e livres disponíveis para a maioria das plataformas.
 
-Se precisar de ajuda para configurar um cliente em particular, clique em um destes links:
+Se você precisar de ajuda para configurar um cliente específico, clique no link correspondente abaixo:
 
 table(table table-striped).
 |_.*Plataforma*|_.*Clientes de e-mail livres e recomendados*|_.*Clientes proprietários*|
@@ -22,10 +22,10 @@ Clientes de e-mail podem acessar a sua caixa de entrada usando POP ou IMAP.
 
 table(table table-striped).
 |         |_. POP    |_. IMAP   |
-| Armazenamento | *Seu computador*. Normalmente, quando você usa POP, todo o seu e-mail é baixado para seu computador e removido dos servidores riseup.net. | *Servidor Riseup*. IMAP deixa todas as suas mensagens no servidor. Em outras palavras, um cliente IMAP permite que você veja os dados armazenados no servidor. |
+| Armazenamento | *Seu computador*. Normalmente, quando você usa POP, todo o seu e-mail é baixado para o seu computador e removido dos servidores riseup.net. | *Servidor Riseup*. IMAP deixa todas as suas mensagens no servidor. Em outras palavras, um cliente IMAP permite que você veja os dados armazenados no servidor. |
 | Mobilidade | *Baixa*. POP só funciona bem quando você costuma acessar sua conta de e-mail de um mesmo computador. | *Alta*. IMAP permite que você use muitos clientes e os mantenha sincronizados.|
 | Velocidade | *Mais rápido*, já que tudo é baixado para seu computador uma só vez. | *Mais lento*, já que o cliente de e-mail tem que se comunicar com o servidor várias vezes. |
-| Cota | *Ilimitada*. Você nunca precisará se preocupar com sua cota se seu cliente for configurado para apagar as mensagens do servidor depois de baixá-las. | *Limitada*. Você terá [[cota limitada  =>  quota]]. |
+| Cota | *Ilimitada*. Você nunca precisará se preocupar com sua cota se o seu cliente for configurado para apagar as mensagens do servidor depois de baixá-las. | *Limitada*. Você terá [[cota limitada  =>  quota]]. |
 | Segurança | *Alta*. As mensagens não são armazenadas no servidor (normalmente). | *Menor*. O armazenamento dos seus dados é confiado ao Riseup. |
 
 h2. Configuração básica do cliente
@@ -42,6 +42,12 @@ Suponha que seu endereço de e-mail seja [@joehill@riseup.net@]:
 * Login ou nome de usuário: @joehill@.
 * Usar conexão segura: @sim@ (TLS ou StartTLS).
 
+A [[conexão segura -> secure-connections]] pode ser do tipo TLS ou do StartTLS. Por segurança, não trabalhamos mais com SSL.
+
+*Observação:* Não habilite a opção de *senhas seguras* ou *autenticação segura*. Não é exatamente o que parece ser. Esse método exige que o servidor de e-mail mantenha uma cópia em texto puro da sua senha. É algo que consideramos um risco, então não recomendamos as chamadas "senhas seguras". Além disso, como a conexão a riseup.net é criptografada, portanto elas não são necessárias.
+
+*Observação sobre o Tor:* A porta SMTP 465 geralmente está bloqueada por nós de saída, o que é mais raro para a porta 587. Se você não conseguir enviar um e-mail, tente usar a porta 587 ou configure o seu cliente para usar o [[serviço oculto de e-mail do Riseup => tor#riseups-tor-hidden-services]] em lugar do domínio normal, @mail.riseup.net@. É melhor do que direcionar tráfego por uma saída do Tor, que é resistente a ataques man-in-the-middle, mas vai gerar erros de certificado do lado do cliente.
+
 h2. Reforce a segurança do seu e-mail
 
 <%= render :partial => 'enhance-security' %>
@@ -50,15 +56,17 @@ h2.  Use Thunderbird
 
 !thunderbird/img/reclaimyourinbox.png!:http://getthunderbird.com
 
-O Thunderbird é o cliente de e-mail recomendado para sua conta riseup.net. Infelizmente, o projeto foi praticamente abandonado pela "Mozilla":https://mozilla.org, mas ainda é o melhor cliente de e-mail livre e multiplataforma.
+O Thunderbird é o cliente de e-mail recomendado para sua conta do Riseup. Infelizmente, o projeto foi praticamente abandonado pela "Mozilla":https://mozilla.org, mas ainda é o melhor cliente de e-mail livre e multiplataforma.
 
-O Thunderbird se configura automaticamente para usar sua conta de e-mail riseup.net. Consulte o [[tutorial do Thunderbird => thunderbird]] para mais detalhes.
+Ele se configura automaticamente para usar sua conta de e-mail do Riseup. Consulte o [[tutorial do Thunderbird => thunderbird]] para mais detalhes.
 
-h2.  Por que usar um cliente de e-mail? 
+h2.  Por que usar um cliente de e-mail?
 
-* Com um cliente de e-mail, não é preciso estar sempre on-line. Você pode se conectar à internet, baixar todos os seus e-mails, se desconectar e ler as mensagens quando quiser. É uma grande conveniência para alguém cuja conexão seja pouco confiável, lenta ou cujo acesso seja limitado. Você pode também escrever e-mails a qualquer momento, salvá-los e enviá-los mais tarde, quando entrar na internet.
-* Clientes de e-mail em geral são mais rápidos que o webmail.
-* A maioria dos clientes permite que você gerencie múltiplas contas em um lugar só. Isto pode ser muito útil se você tiver várias contas de e-mail, cada uma com uma função diferente.
+São muitas as vantagens de usar um cliente de e-mail em vez de webmail:
+
+* Com um cliente, não é preciso estar sempre on-line. Você pode se conectar à internet, baixar todos os seus e-mails, se desconectar e ler as mensagens quando quiser. É uma grande conveniência para alguém cuja conexão seja pouco confiável, lenta ou cujo acesso seja limitado. Você pode também escrever e-mails a qualquer momento, salvá-los e enviá-los mais tarde, quando entrar na internet.
+* Clientes de e-mail em geral são mais rápidos que webmail.
+* A maioria dos clientes permite que você gerencie múltiplas contas em um lugar só. Isso pode ser muito útil se você tiver várias contas de e-mail, cada uma com uma função diferente.
 
 Existem também algumas desvantagens:
 
@@ -67,4 +75,4 @@ Existem também algumas desvantagens:
 
 h2.  Posso usar o webmail e o cliente de e-mail? 
 
-Sim, você pode alternar entre eles facilmente. É comum as pessoas usarem um cliente de e-mail em casa ou no trabalho e o webmail quando viajam. Se você usa ambos, aprenda as diferenças entre IMAP e POP.
+Sim, você pode alternar entre eles facilmente. É comum as pessoas usarem um cliente de e-mail em casa ou no trabalho e webmail quando viajam. Se você usa ambos, aprenda as diferenças entre IMAP e POP.

@@ -1,0 +1,53 @@
+@title = 'Riseup e o recente fechamento de provedores de e-mail'
+@nav_title = 'Fechamento de provedores de e-mail'
+@toc = false
+
+_13 de agosto de 2013_
+
+Recebemos os seus e-mails com perguntas pertinentes acerca das notícias da última semana sobre o fechamento do Lavabit e do SilentCircle (1). Queremos deixar claro que o Riseup jamais cedeu qualquer informação de uso a terceiros. Jamais permitimos a instalação de qualquer hardware ou software de monitoramento nos sistemas que controlamos.
+
+Faremos tudo o que estiver ao nosso alcance para proteger os dados dos movimentos sociais e ativistas que dependem de nós, exceto, se fosse o caso, enfrentar um período de encarceramento prolongado. Preferimos encerrar nossos serviços a nos submeter à vigilância repressiva de qualquer governo. Fazemos tudo o que podemos, com a maior agilidade possível, para nos precaver contra uma possível parada total dos nossos serviços, caso precisemos tomar essa decisão. Temos cooperado com outros grupos para desenvolver e implementar uma nova e revolucionária infraestrutura que nos permita prover correio eletrônico de uma forma mil vezes mais segura, sem que tenhamos acesso a qualquer dado de uso. Temos trabalhado nisso há mais de um ano, mas falta muito até a conclusão do projeto.
+
+(1) [en] "The Guardian 08-09-13 Lavabit privacy row: second email service closes to prevent spying":http://www.theguardian.com/technology/2013/aug/09/lavabit-email-edward-snowden-shuts-down
+
+h2. FAQ
+
+Não entre em pânico. Aqui estão algumas perguntas e respostas.
+
+P: O Riseup colabora com a NSA?
+
+R: Preferiríamos deixar de ser o Riseup a fazer isso. Não colaboramos com nenhuma agência governamental. Jamais entregamos informações que nos tenham sido requeridas e há anos seguimos uma política de não guardar registros. Lutamos e vencemos todas as vezes que alguém tentou nos obrigar a ceder informações. Jamais entregamos qualquer dado de uso a terceiros, quartos, quintos ou o que for.
+
+P: Mas, se os seus servidores estão nos Estados Unidos, não é verdade que vocês precisam instalar backdoors, monitoramento, etc.?
+
+R: Não temos controle sobre nossos provedores de rede, mas temos controle físico sobre nossos servidores, que não estão hospedados "na nuvem". Assim, temos uma garantia física da segurança das nossas máquinas. Não consentiríamos com a instalação de sistemas de hardware ou de software externos em nossa rede, e liquidaríamos a organização antes de fazer isso. Porém, quando os cabos de fibra ótica deixam o nosso espaço, é possível que sejam monitorados. Isso não é novidade, estamos cientes dessa possibilidade desde o início. Quando você envia uma mensagem para alguém cujo endereço de e-mail é hospedado em outro domínio, perdemos o controle sobre ela quando deixa os nossos servidores. Ainda assim, os Estados Unidos têm leis _melhores_ no que diz respeito a provedores de internet do que muitos outros países, inclusive da Europa, onde existem leis de retenção de dados que obrigam os provedores a guardarem registros. Nos Estados Unidos não existe nenhuma exigência do tipo, e não manter registros tem sido nossa política há anos.
+
+P: Em que o Riseup difere do Lavabit e do Silent Circle?
+
+R: Esses são serviços comerciais cuja missão principal é prover um serviço de e-mail privado e pago. O Riseup se distingue por ser uma organização sem fins lucrativos cujo objetivo é dar apoio e segurança a ativistas. Essas empresas eram negócios com fins lucrativos, já o Riseup está no ramo das mudanças sociais!
+
+P: E se alguém (como a polícia) apreender os servidores do Riseup?
+
+R: Isso já aconteceu! Geralmente ocorre uma apreensão quando a polícia quer registros, dizemos que não temos nenhum, então vem a polícia e apreende a máquina porque não acredita em nós e quer verificar. No entanto, todos os nossos servidores têm criptografia de disco inteiro, o que significa que ninguém pode ver ou mexer nos dados dos discos sem as chaves. Não obstante, não guardamos registros de IP e armazenamos o mínimo de informações possível sobre a nossa base usuária. Mas isso não é responsabilidade apenas do Riseup, cada pessoa é responsável por limitar a quantidade de dados que o Riseup armazena para ela!
+
+P: Como limitar a quantidade de dados que o Riseup armazena para mim?
+
+R: Há diversas maneiras:
+
+- Informações da conta: Quando você requisitou a sua conta, teve que fornecer algumas informações. Depois da aprovação, não precisamos mais desses dados e você pode apagá-los. Entre em user.riseup.net para ver as informações fornecidas e avaliar quais podem ser identificantes. Por exemplo, se Obama possuísse um e-mail secreto com o Riseup e tivesse feito a requisição usando o endereço president@whitehouse.gov como e-mail alternativo, seria uma boa ideia apagar este último se quisesse exercer sua liberdade de expressão anonimamente, como garante a Constituição.
+
+- Mas atenção: Se você apagar o seu endereço de e-mail alternativo e depois esquecer a sua senha, *não será possível* recuperar a sua conta. Você perderá o acesso a ela e às suas mensagens em caráter permanente. O aviso está dado!
+
+- E-mail: Se ainda não usa, considere usar um cliente de e-mail que permita baixar as mensagens por meio do protocolo POP, deletando-as automaticamente do servidor. Não há como impedir o e-mail de chegar ao Riseup, mas, se você baixá-lo e apagá-lo do servidor, não o teremos mais em nosso poder. Contudo, existe uma desvantagem: usar webmail ou IMAP permite que você leia suas mensagens em mais de um computador. Se você precisa desse recurso, uma possibilidade é transferir sua correspondência mais antiga para um único computador, no qual ela permanecerá acessível off-line, e continuar a ler suas mensagens mais recentes por vários dispositivos. Veja aqui como baixar seus e-mails: https://help.riseup.net/downloading-email
+
+- Listas: Uma das melhores funcionalidades das listas de e-mail é o arquivo de mensagens, mas, se você teme que uma pessoa indesejada acesse esse arquivo, é melhor dispensar esse recurso ou mover as mensagens periodicamente para um local mais seguro. Entretanto, não se esqueça que qualquer assinante da lista recebe cópias de cada mensagem, então, mesmo que o arquivo seja apagado, nada impede que as mensagens sejam vazadas por assinantes! Mais informações em: https://help.riseup.net/en/archives#downloading-archives
+
+- Para refletir: Onde estão armazenados os e-mails, documentos e manifestos importantes do seu grupo? Eles têm um bom lugar para permanecer quando você não puder mais guardá-los e alguém quiser escrever a história da sua revolução? Não é bom que fiquem armazenados apenas no Riseup. Baixe-os e guarde-os em segurança! Somos pássaros, então gostamos de ovos, mas não quando as pessoas põem todos os seus em nossa cesta.
+
+P: Os serviços do Riseup vão durar para sempre?
+
+R: Embora tenhamos o compromisso de fazer tudo em nosso poder para proteger os dados de movimentos sociais e ativistas, exceto enfrentar um possível encarceramento prolongado, preferimos encerrar nossas atividades a nos submeter à vigilância repressiva de qualquer governo. Ficaríamos tristes de ver o Riseup acabar, mas, se tivermos que escolher, preferimos ver o fim do coletivo a trair sua confiança e comprometer a comunidade ativista. Com isso em mente, você deveria se preparar para alguma eventualidade e baixar sua correspondência para o seu próprio computador!
+
+P: E quanto a pornografia infantil, drogas, corrupção, etc.? Vocês recusariam os dados de gente envolvida nessas coisas se a polícia pedisse?
+
+R: Essas são violações aos Termos de Serviço do Riseup, e, ao contrário de provedores mais "libertários", não existimos para dar privacidade em qualquer circunstância. Fecharíamos as contas das pessoas envolvidas nesses crimes e poderíamos até decidir cooperar com as autoridades em vez de tocar fogo em todos os servidores e destruir a organização, junto com as suas mensagens.
