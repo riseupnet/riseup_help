@@ -20,7 +20,7 @@ All Content, whether publicly posted or privately transmitted, is the sole respo
 
 You may not engage in the following activities through the services provided by riseup.net:
 
-* Harassing and abusing others by engaging in threats, stalking, or sending spam.
+* Harassing or abusing others by engaging in threats, stalking or sending spam. This includes usernames, aliases or using any of our resources for this purpose.
 * Misuse of services by distributing viruses or malware, engaging in a denial of service attack, or attempting to gain unauthorized access to any computer system, including this one.
 * Contributing to the abuse of others by distributing material where the production process created violence or sexual assault against persons.
 
