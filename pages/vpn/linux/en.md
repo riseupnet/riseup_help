@@ -34,7 +34,7 @@ If you get an error stating that "python" is missing from /usr/bin/env, you need
 Run the following commands in a terminal to install the Debian Stable package.
 
        sudo apt install leap-archive-keyring
-       echo "deb http://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
+       echo "deb https://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
        sudo apt update
        sudo apt install riseup-vpn
 
