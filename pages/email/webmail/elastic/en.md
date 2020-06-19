@@ -26,4 +26,4 @@ You can visit your settings (in the left sidebar) and then Preferences -> User I
 
 I have feedback, where do I send it?
 
-At this moment we are looking for feedback regarding accessibility and possible bug reports. For the first one please write to accesibility@riseup.net, and if you find any bug please report it in our support system at https://support.riseup.net. Please be sure to mention which device you were using for your feedback.
+At this moment we are looking for feedback regarding accessibility and possible bug reports. For the first one please write to accessibility@riseup.net, and if you find any bug please report it in our support system at https://support.riseup.net. Please be sure to mention which device you were using for your feedback.
