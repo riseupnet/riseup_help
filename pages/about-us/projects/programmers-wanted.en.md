@@ -11,7 +11,7 @@ If you are a programmer, we need your help. Now is the time to use your skills f
 
 ## LEAP
 
-In the near future, LEAP will be switching over to use the LEAP platform. Please see [[https://leap.se => https://leap.se/get-involved]] for how you can contribute to this effort.
+In the near future, Riseup will be switching over to use the LEAP platform. Please see [[https://leap.se => https://leap.se/get-involved]] for how you can contribute to this effort.
 
 ## Javascript
 
@@ -34,3 +34,4 @@ In the near future, LEAP will be switching over to use the LEAP platform. Please
 ## Python
 
 * Contribute to the [[Bitmask client => https://bitmask.net]]. See [[how to get involved => https://leap.se/get-involved]].
+* [[Some patches => https://0xacab.org/riseup/sympa]] for the [[sympa mailing list manager => https://www.sympa.org]] that Riseup employs utilize Python.
