@@ -15,7 +15,7 @@ In order to configure a [[XMPP client => chat/clients]], you need this informati
 * *account*: [@username@riseup.net@]
 * *password*: your [[riseup-password]]
 
-It is very important than you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
+It is very important that you configure your client to *always require encryption*. Some clients have a setting "encryption if available". Even though the riseup.net servers require encryption, if your client is configured to use "encryption if available" an attacker can easily acquire your password.
 
 Some XMPP clients will ask for your username and domain separately. In this case, you would specify:
 
