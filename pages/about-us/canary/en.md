@@ -34,7 +34,11 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 	```
 	gpg: Signature made Mon 27 Jul 2020 03:57:58 PM PDT
 	gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E
-	gpg: Good signature from "Riseup Networks <collective@riseup.net>"
+	gpg:                issuer "collective@riseup.net"
+	gpg: Good signature from "Riseup Treasurer <treasurer@riseup.net>" [unknown]
+	gpg:                 aka "Riseup Networks <collective@riseup.net>" [unknown]
+	gpg: WARNING: This key is not certified with a trusted signature!
+	gpg:          There is no indication that the signature belongs to the owner.
 	Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 	```
 
