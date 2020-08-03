@@ -8,7 +8,7 @@ h2. Get Tor Installed
 
 The first step is to download Tor Browser. The Tor Project offers quite a few packages for download, start with picking the [[“Tor Browser package”->https://torproject.org/download/]] for your operating system.
 
-At the time of this being written, the Tor Browser only supports Windows, Mac OS X, Linux, and Android. For iOS users, [["Onion Browser"->https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8]] is a free and open source alternative to Tor Browser encouraged for use by the Tor Project.
+At the time of this being written, the Tor Browser only supports Windows, macOS, Linux, and Android. For iOS users, [["Onion Browser"->https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8]] is a free and open source alternative to Tor Browser encouraged for use by the Tor Project.
 
 Once you have downloaded the Tor Browser, proceed to follow the instructions below, depending on your operating system.
 
@@ -21,9 +21,9 @@ After you've downloaded the Tor Browser installer, double click on the installer
 
 See the Using Tor section below for how to use Tor.
 
-h3. Mac OS X
+h3. macOS
 
-After you've downloaded the Tor Browser Bundle, simply click on it to begin the installation. Mac OS X will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch the connection wizard. Once connected to Tor, it will launch Tor Browser.
+After you've downloaded the Tor Browser Bundle, simply click on it to begin the installation. macOS will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch the connection wizard. Once connected to Tor, it will launch Tor Browser.
 
 !screenshot-osx-torbrowser-icon.png!
 
@@ -33,18 +33,21 @@ h3. Linux
 
 Download the architecture-appropriate file, save it somewhere such as "~/Downloads". To extract the files you may use graphical tools like archive manager, Ark or Xarchiver. Alternatively you can extract on the command line:
 
-* For 32-bit Linux: <code>tar -xvzf ~/Downloads/tor-browser-linux32-X.X.X_LANG.xz</code>
-* For 64-bit Linux: <code>tar -xvzf ~/Downloads/tor-browser-linux64-X.X.X_LANG.xz</code>
+* For 32-bit Linux: <code>tar -xvf ~/Downloads/tor-browser-linux32-X.X.X_LANG.tar.xz</code>
+* For 64-bit Linux: <code>tar -xvf ~/Downloads/tor-browser-linux64-X.X.X_LANG.tar.xz</code>
 
-X.X.X being the version of the browser archive and LANG being the language you are using. For example, if you are installing Tor Browser version 9.0.5 for the english language on a 64-bit machine, you would use "tor-browser-linux64-9.0.5_en-US.xz" as the file name.
+X.X.X being the version of the browser archive and LANG being the language you are using. For example, if you are installing Tor Browser version 9.0.5 for the english language on a 64-bit machine, you would use "tor-browser-linux64-9.0.5_en-US.tar.xz" as the file name.
 
-Once extracted, navigate inside the new folder created by the extraction, then to "tor-browser-linux64-9.0.5_en-US/tor-browser_en-US/" There you will find a file named Tor Browser (this sometimes end in .desktop). Double click the file and you will be at the connection wizard.
+Once extracted, navigate inside the new folder created by the extraction ("tor-browser_en-US") and use the command chmod to turn the file `start-tor-browser.desktop` into an executable:
+
+bc. cd tor-browser_en-US
+chmod +x start-tor-browser.desktop
+
+You can now execute the file with the command @./start-tor-browser.desktop@, or by double clicking the file in a file manager, to launch the connection wizard.
 
 !tb-desktop-file.png!
 
 Linux users may prefer [["torbrowser-launcher"->https://github.com/micahflee/torbrowser-launcher/]]. This tool ensures your Tor Browser is legitimate and up to date in an easy manner.
-
-If you are not able to execute or if you do not see a "Tor Browser" file, cd into the directory where the "Tor Browser" file should be and execute <code>chmod +x start-tor-browser.desktop && ./start-tor-browser.desktop</code>
 
 *Don't extract Tor Browser as root.*
 
@@ -54,9 +57,11 @@ Tor Browser is avaliable for download from the [["Google Play store"->https://pl
 
 h2. Using Tor
 
-Once extraction or installation is complete, you can type "Tor Browser" from your Windows start menu then click on the Start Tor Browser (2) application (it may be called Start Tor Browser.exe on some systems) or click on the newly created desktop icon. If you are using Linux or Mac OS X, you will need to navigate to the extracted Tor Browser directory and double click on "Start Tor Browser" (this sometimes can end in ".desktop" on Linux).
+Once extraction or installation is complete, you can type "Tor Browser" from your Windows start menu then click on the Start Tor Browser (2) application (it may be called "Start Tor Browser.exe" on some systems) or click on the newly created desktop icon. On macOS, just start Tor Browser from the Applications menu.
 
 !tb-start-conwiz.png!
+
+If you are using Linux, you will need to navigate to the extracted Tor Browser directory and double click "start-tor-browser" (this sometimes can end in ".desktop"). From a terminal, you can also navigate to the Tor Browser directory and run @./start-tor-browser.desktop --register-app@ in order to add Tor Browser to your Applications menu.
 
 Once Tor is ready, Tor Browser will open a menu with buttons "Connect" and "Configure". Unless you live in an oppressive state that censors internet or if you would like to use a proxy to connect to the Tor network, this can be ignored. Once "Connect" is clicked, Tor will establish a connection and will automatically open a Firefox like web browser. Only web pages visited through Tor Browser will be sent via Tor. Other web browsers such as Google Chrome and Firefox are not affected by Tor. Before browsing, it is a good idea to [[ensure you are connected to the Tor network->https://check.torproject.org/]]. To reduce the risk of confusion, don't run the normal Firefox web browser while using the Tor Browser, as its better to close existing Firefox windows before starting.
 
