@@ -2,11 +2,11 @@
 @summary = 'The Onion Router'
 @nav_title = 'Tor'
 
-Welcome to the exciting world of Tor! This page will get you up and running, in the fewest steps possible. For now, all you need to know is that [[Tor->https://torproject.org]] is a great tool for anonymity and privacy online.
+Welcome to the exciting world of Tor! This page will get you up and running, in the fewest steps possible. For now, all you need to know is that [[Tor->https://www.torproject.org]] is a great tool for anonymity and privacy online.
 
 h2. Get Tor Installed
 
-The first step is to download Tor Browser. The Tor Project offers quite a few packages for download, start with picking the [[“Tor Browser package”->https://torproject.org/download/]] for your operating system.
+The first step is to download Tor Browser. The Tor Project offers quite a few packages for download, start with picking the [[“Tor Browser package”->https://www.torproject.org/download]] for your operating system.
 
 At the time of this being written, the Tor Browser only supports Windows, macOS, Linux, and Android. For iOS users, [["Onion Browser"->https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8]] is a free and open source alternative to Tor Browser encouraged for use by the Tor Project.
 
@@ -85,12 +85,12 @@ First, be aware: Tor can be very slow, sometimes you wont notice that it is slow
 
 Second, while Tor itself may be quite secure, other software on your computer may not be. You need to change some of your habits, and reconfigure your software! Tor by itself is NOT all you need to maintain your anonymity. Further information is available at the Tor Project website, in their [[documentation section -> https://torproject.org/docs/documentation.html.en]]. Please read this information carefully before doing anything potentially unsafe on the Tor system.
 
-Third, you don't need SSL/TLS in an onion address (ie. https) since it's a complete encrypted tunnel with perfect forward secrecy. Because it doesn't hurt having extra protections, you can still connect using the SSL/TLS protected channels, just be aware that the certificate will not validate (because the hostname will be *.onion) and you would need to [[perform the validation manually -> https://riseup.net/en/security/network-security/certificates]].
+Third, you don't need SSL/TLS in an onion address (ie. https) since it's a complete encrypted tunnel with perfect forward secrecy. Because it doesn't hurt having extra protections, you can still connect using the SSL/TLS protected channels, just be aware that the certificate will not validate (because the hostname will be *.onion) and you would need to [[perform the validation manually -> security/network-security/certificates]].
 
-Some text in this document is transposed from the [[Tor Project's website -> https://www.torproject.org/download/download.html.en]] via Creative Commons Attribution 3.0.
+Some text in this document is transposed from the [[Tor Project's website -> https://www.torproject.org]] via Creative Commons Attribution 3.0.
 
 h2. Additional Resources
 
 * The [[Surveillance Self Defense project -> https://ssd.eff.org/]] over at the Electronic Frontier Foundation is a plethora of helpful and interesting information. Especially relevant is their [[Tor page -> https://ssd.eff.org/en/module/how-use-tor-windows]].
 
-* The [[Tor Project's website -> https://www.torproject.org/index.html.en]] will be able to answer almost all of your questions concerning the Tor project, and how to use the software effectively.
+* The [[Tor Project's website -> https://www.torproject.org]] will be able to answer almost all of your questions concerning the Tor project, and how to use the software effectively.
