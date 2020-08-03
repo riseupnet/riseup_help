@@ -61,6 +61,6 @@ These free and open source applications are great alternatives to commonly used 
 
 # See also
 
-* [Security Planner / Update Your Windows Computer](https://securityplanner.org/#/tool/update-your-windows-computer)
-* [Security Planner / Keep Your Mac Updated](https://securityplanner.org/#/tool/keep-your-mac-updated)
+* [Security Planner / Update Your Windows Computer](https://securityplanner.org/#/tool/update-your-windows-pc)
+* [Security Planner / Keep Your Mac Updated](https://securityplanner.org/#/tool/update-your-mac)
 * [Security Planner / Use Safe Apps](https://securityplanner.org/#/tool/use-safe-apps)
