@@ -40,13 +40,15 @@ The way to look at permissions after installation depends on the context. In Chr
 
 Unfortunately most software installation systems on laptops and desktop computers will not ask for permission to access resources, so you should be extra careful about installation of software not from a mobile, browser or OS app store.
 
-# Do not use pirated software
+# Be careful when using pirated software
 
-Install pirated software is a great way to infect your computer with a virus or other malware.
+In order to run for free, pirated software usually have a modified version of the original source code from the original (paid) software. They also frequently come with extra files - the crack files - to bypass the original software's license verification. While this is sometimes harmless, most times we have no simple way of knowing if the modified code and the extra files contain some sort of malware that can infect and damage our computer.
 
 Additionally, if you install pirated software on your work computer, it is very likely that your company will have to pay thousands of dollars in fines for your single device. When this happens, you might be fired for violating the security and privacy policies of your employer.
 
 If there is an application you must have, and you don't want to obtain it through secure channels, consider using one of the free and open source software alternatives.
+
+If you have no other option and need to use pirated software, **be specially careful** and try to scan the software files in an Antivirus or Malware Scanner you trust.
 
 # Use free software
 
@@ -59,6 +61,6 @@ These free and open source applications are great alternatives to commonly used 
 
 # See also
 
-* [Security Planner / Update Your Windows Computer](https://securityplanner.org/#/tool/update-your-windows-computer)
-* [Security Planner / Keep Your Mac Updated](https://securityplanner.org/#/tool/keep-your-mac-updated)
+* [Security Planner / Update Your Windows Computer](https://securityplanner.org/#/tool/update-your-windows-pc)
+* [Security Planner / Keep Your Mac Updated](https://securityplanner.org/#/tool/update-your-mac)
 * [Security Planner / Use Safe Apps](https://securityplanner.org/#/tool/use-safe-apps)
