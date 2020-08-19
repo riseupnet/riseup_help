@@ -8,7 +8,7 @@ h2. A normal internet connection
 
 !vpn-01_large.png!
 
-In a normal internet connection, all your traffic is routed from your computer through your ISP (Internet Service Provider) and out onto the internet and finally to its destinate. At every step of the way, your data is being recorded and is vulnerable to [[man-in-the-middle attacks -> vpn/security-issues]] (the danger of this is much less if you are using a [[secure protocol->secure-connections]] like https).
+In a normal internet connection, all your traffic is routed from your computer through your ISP (Internet Service Provider) and out onto the internet and finally to its destination. At every step of the way, your data is being recorded and is vulnerable to [[man-in-the-middle attacks -> vpn/security-issues]] (the danger of this is much less if you are using a [[secure protocol->secure-connections]] like https).
 
 h2. An internet connection with personal VPN
 
@@ -16,10 +16,10 @@ h2. An internet connection with personal VPN
 
 With a personal VPN, your traffic is encrypted on your computer, passes through your ISP and on to the VPN Server. Because the data is encrypted, your ISP has no knowledge of what is in your data that they relay on to the VPN Server. Once your data reaches the VPN Server, it is decrypted and forwarded on to its final destination.
 
-With the personal VPN, if your data is not using a [[secure connections -> secure-connections]] then it is still vulnerable from the point it leaves the VPN Server. However, by routing your data through the VPN server, you have acheived two important advantages:
+With the personal VPN, if your data is not using a [[secure connections -> secure-connections]] then it is still vulnerable from the point it leaves the VPN Server. However, by routing your data through the VPN server, you have achieved two important advantages:
 
 * Your data is protected from blocking, tracking, or man-in-the-middle attacks conducted by your ISP or network operators in your local country.
-* Your data now appears to use the IP address of the VPN server, and not your real IP address. Most websites gather and retain extensive data base on this IP address, which has now been anonymized.
+* Your data now appears to use the IP address of the VPN server, and not your real IP address. Most websites gather and retain extensive database on this IP address, which has now been anonymized.
 
 h2. Personal VPN anonymizes your connection
 
