@@ -73,10 +73,10 @@ fr:
   faircoin: "FairCoin"
   faircoin_description: "FairCoin est gérée par une organisation à but non lucratif et utilise moins d'électricité que les autres crypto-monnaies."
 
-  bcash: "BCash"
+  bcash: "Bitcoin Cash"
   bcash_description: |
-    BCash est une fourche complète de Bitcoin et est parfois appelée Bitcoin Cash.
-    BCash n'est pas Bitcoin. Si vous envoyez des Bitcoins à une address BCash, l'argent sera à jamais perdu.
+    Bitcoin Cash est une fourche complète de Bitcoin.
+    Bitcoin Cash n'est pas Bitcoin. Si vous envoyez des Bitcoins à une address Bitcoin Cash, l'argent sera à jamais perdu.
 
   paypal: "Paypal"
   paypal_note: "Fonctionne dans plusieurs pays différents."
