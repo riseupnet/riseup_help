@@ -182,69 +182,86 @@ h2. Install Gpg4win
 "Gpg4win":https://www.gpg4win.org" is the recommended OpenPGP implementation for windows. It is Free Software, licensed under the GPL, with the source code available for modification or scrutiny.
 
 # Download "Gpg4win":https://www.gpg4win.org/download.html"
-# Double click the executable and begin the installation.
-# Select the language you'll be using.
-# You'll be greeted by the welcome screen. Press **Next** to continue.
+# Herunterladen von "Gpg4win":https://www.gpg4win.org/download.html"
+# Doppelklicke die ausführbare Datei um die Installtion zu starten
+# Wähle die gewünschte Sprache
+# Drücke **Weiter**
 !img/gpg4win1-install-welcome.gif!
-# Next, you'll be asked to agree to the [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (the GPL license), which can be read in its entirety at [GNU.org->https://www.gnu.org/licenses/gpl.html]. If you accept, press **Next**.
-# Choose the components you want to install. The default options are recommended. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
+# Der nächsten Schritt fordert auf, die [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (die GPL-Lizenz) zu akzeptieren, welche vollständig hier zu lesen ist: [GNU.org->https://www.gnu.org/licenses/gpl.html]. Drücke **Weiter**.
+# Wähle die gewünschten Komponenten zur Installation. Die Standardeinstellung ist empfohlen. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] ist ein praktisches Betriebssystem übergreifendedes Emailprogramm für Linux, Windows, Mac OS X, und andere. GpgOL installiert das Plugin, um OpenPGP mit dem Outlook-Emailprogramm zu verwenden.
 !img/gpg4win2-components.gif!
-# Select the install folder (the default is recommended).
-# Choose what shortcuts to create.
-# Choose a name for any shortcut folders and then begin the installation. Choose to view the README file, or not, and then click finish.
+# Wähle den Installations-Ordner (der Standard ist empfohlen).
+# Wähle gewünschte Verknüpfungen
+# Gib Namen für alle Verknüpfungs-Ordner ein und beginne die Installation. Begutachte die README, oder nicht, und klicke um zu beenden.
 
-Gpg4win is now installed and ready to use!
+Gpg4win ist nun auf Deinem System installiert und bereit zur Benutzung!
 
-h2. Create and Export an OpenPGP Public/Private Key pair
+h2. Erstelle und Exportiere ein OpenPGP-Schlüsselpaar (öffentlich/privat)
 
-Kleopatra seems to be the more recent and more polished of the two Gpg4win key manager GUI frontends on Windows, so this guide recommends using that.
-# Launch Kleopatra by the shortcut you installed (default: **Start** -> **All Programs** -> **Gpg4win** -> **Kleopatra**)
-# Click **File** -> **New Certificate...** or **Ctrl+N**.
-# Press the **Create a personal OpenPGP key pair** button.
-# Enter your name, email address, and a comment if you wish. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
+## Drücke den Knopf *Schließen* und *Abgleichen*, um deine Schlüssel zu synchronisieren.
+
+# Starte Seahorse. Es sollte bei Debian/Ubuntu bereits installiert sein.
+# Wähle *GnuPG-Schlüssel*
+# Erstelle einen neuen Schlüssel durch Klick auf das *+*
+# Wähle *PGP-Schlüssel*
+# Gib deine E-Mailadresse und den gewünschten Namen ein. Das muss nicht dein realer Name sein.
+# Wähle *Erweiterte Schlüsseleinstellungen*
+# Verschlüsselungs-Typ sollte RSA sein.
+# Schlüssellänge sollte 3072 sein.
+# Das Ablaufdatum sollte innerhalb von zwei Jahren liegen. *Du kannst das Ablaufdatum jederzeit ändern, solange du Zugriff auf den Schlüssel hast, auch nachdem der Schlüssel abgelaufen ist.* [[Warum sollte ich ein Ablaufdatum setzen -> gpg-best-practices#use-an-expiration-date-less-than-two-years]]
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails, für immer.**
+# Dein Computer wird nun einen neuen Schlüssel erstellen,
+
+h2. Erstelle und Exportiere ein OpenPGP-Schlüsselpaar (öffentlich/privat)
+
+Kleopatra scheint der aktuellste and anwendungsfreundlichste der zwei Gpg4win-Schlüsselverwaltungsprogramme für Windows zu sein, daher empfiehlt diese Anleitung Kleopatra.
+# Starte Kleopatra mit dem installierten Symbol (standard: **Start** -> **Alle Programme** -> **Gpg4win** -> **Kleopatra**)
+# Klicke **Datei** -> **Neues Zertifikat...** oder **Strg+N**.
+# Klicke **Erstelle OpenPGP-Schlüsselpaar**
+# Gib Name, Email-Adresse und wenn gewollt Kommentar ein (nicht empfohlen). Name und Email-Adresse sind beliebig wählbar, nicht notwendigerweise Dein realer Name und Email-Adresse. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
 !img/kleopatra1-name-email-advanced.gif!
-# In the **Advanced Settings...** dialog box, choose your key type and key strength. **RSA**, using key strength of **4,096 bits**, for **Signing** and **Encryption** are recommended. When finished with the key settings, press **OK** to close the dialog box, then click **Next**.
-# Review the information for the key, then press the **Create Key** button.
-# Enter a **strong** password that you can remember. The password strength meter will give you a relative indication of how strong the password is. Getting 100% **is strongly recommended**. **If you forget this password, it cannot be recovered and any encrypted data you have using it, including emails, will be permanently inaccessible.**
+# Unter **Erweiterte Einstellungen...** wähle Schlüsseltyp und -stärke, empfohlen: **RSA**,**3,072 bits**, zum **Signieren** und **Verschlüsseln**. Klicken **Ok** und **Weiter**
+# überprüfe die Informationen und bestätige, um das Schlüsselpaar zu erstellen
+# Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. Der Stärke-Balken gibt eine Schätzung, wie stark das Passwort ist, 100% zu erreichen ist empfohlen. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails, für immer.**
 
-Your key pair is now finished! From here, you can do one of the following:
-* Make a backup copy of your certificate (key)
-* Send the Certificate by email
-* Upload the certificate to a Directory Service (key server)
-* finish the wizard
+Dein Computer wird nun einen neuen Schlüssel erstellen, was eine Weile dauern kann. Danach hast du ein OpenGPG-Schlüsselpaar, das direkt benutzt werden kann -- Super!
 
-It is recommended to upload the certificate to a directory service. This will upload your public key to a key server where it can be used by others to encrypt data and emails that only you can decrypt.
+An diesem Punkt kannst Du
+* den öffentlichen Schlüssel an einen Schlüsselserver schicken, von wo andere ihn anfordern können, um verschlüsselte Daten an dich zu schicken. Bevor du weiter machst, [[wähle einen sicheren Schlüsselserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]. Sobald du bereit bist:
+* eine Kopie auf einem verschlüsselten Datenträger erstellen
+* den offentlichen Schlussel per Email verschicken
+* den Assistenten beenden
 
-h3. Find or Import someone else's OpenPGP Public Key
+Unter **Schlüsseleinstellungen verwalten** kannst Du den öffentlichen Schlüssel exportieren, das Passwort ändern, löschen und/oder den Schlüssel widerrufen.
 
-If you want to be able to communicate with someone securely or encrypt data that only they can read, you need to import their public key into your keyring first.
+h3. Finde oder importiere einen OpenPGP-Schlüssel
 
-h4. Import from a key file
+Um anderen verschlüsselt zu schreiben, muss deren offentlicher Schlüssel dem lokalen Schlüsselbund hinzugefügt werden.
 
-If someone exports their key to a file and sends it to you, you can import it into your keyring via Kleopatra by:
-# Pressing the **Import Certificates** button, then
-# Locating where you saved the key file, selecting it, and pressing the **Open** button.
+h4. Importieren von einer Datei
 
-The key that was stored in the key file has now been imported into your keyring!
+Wenn Du eine Schlüsseldatei erhalten hast, kann diese mit Kleopatra importiert werden:
+# Klicke den **Importiere Zertifikate**-Knopf
+# Finde und wähle die Datei, drücke den **Öffnen**-Knopf
 
-h4. Find on the key servers
+Der Schlüssel aus der Datei sollte nun in den lokalen Schlüsselbund kopiert worden sein.
 
-# Navigate to **File** -> **Lookup Certificates on Server...** in Kleopatra
-# Type some key words (a name or alias) to search the key servers. The best way to find someone is to search for their email address, as it's uniquely tied to them.
-# Select and review the keys that are returned to determine whether the key(s) returned belong to the person you're looking for. You can review additional information about the key by pressing the **Details...** button.
-# Once you've determined and selected the key(s) you want to import into your local keyring, press **Import**.
+h4. Von Schlüsselserver herunterladen
 
-Their public key has now been imported into your keyring! Once you have verified the fingerprint (see above about why this is important), you may sign the key.
+# In Kleopatra gehe zu **Datei** -> **Lookup Certificates on Server...**
+# Tippe einige Schlagworte (Name / Alias / Email-Adresse), um auf dem Schlüsselserver zu suchen
+# Wähle von den gefundenen den passenden Schlüssel aus, drücke ggf. auf  **Details...**
+# Klicke **Importieren**.
 
-h3. Sign their key (Certify their Certificate)
+Die gewählten Schlüssel sollten nun dem lokalen Schlüsselbund hinzugefügt worden sein. Nachdem Du den Fingerabdruck überprüft hast (siehe oben, warum das wichtig ist), kannst Du den Schlüssel verwenden und ggf. signieren.
 
-To do this,
-# Click the **Imported Certificates** or **Other Certificates** tab.
-# Right click the key you want to sign and click **Certify Certificate...**
-# Select the user ID you want to certify and press **Next**
-# Choose whether you want this certification to be visible to others or only to yourself and then press the **Certify** button.
+h3. Signieren eines Schlüssels
 
-You have now signed their key (certified their certificate) and are ready to begin encrypting data or emails that only they can decrypt!
+# Klicke auf den Reiter **Importierte Zertifikate** oder **Andere Zertifikate**.
+# Rechtsklick auf den zu signierenden Schlüssel und wahle **Signieren...**
+# Wähle die ID und klicke **Weiter**
+# Wähle, ob dieses Zertifikat für andere sichtbar sein soll, oder nur lokal
+# Drücke **Signieren**
 
 h1. Mac OS X
 
