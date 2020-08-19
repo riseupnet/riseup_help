@@ -1,8 +1,11 @@
 @title = 'Como usar a Riseup VPN'
+@toc = true
 
-p(alert alert-warning). Lançamos uma nova Riseup VPN, mais acessível e segura! Esta documentação refere-se à VPN antiga. Consulte a [[documentação da RiseupVPN -> vpn]] para mais informações. Considere que, no futuro, este serviço se tornará obsoleto, e que as seguintes instruções não se aplicam às suas credenciais "Black":https://black.riseup.net.
+p(alert alert-danger). Esse serviço foi descontinuado e nós não recomendamos seu uso. Por favor, use a [[RiseupVPN->vpn]] no lugar.
 
 h2. Um aviso
+
+*OBSERVAÇÃO!* Você está usando Mac, Linux ou Android? Se sim, por favor use a [[RiseupVPN->vpn]]. A VPN Red não é tão segura, e nós a estamos descontinuando!
 
 *Observação!* Quando você se conecta à internet por meio da Riseup VPN, você contorna os firewalls da sua rede local. Seu computador terá seu próprio endereço IP na internet aberta. Isso é ótimo, porque seu computador poderá se comunicar livremente com outros sem ser bloqueado. Porém, contornar o firewall local significa também que seu computador ficará mais vulnerável a ataques. Portanto, habilite um [[firewall para o seu computador -> /security/device-security#personal-firewall]].
 
@@ -20,18 +23,18 @@ h3. Configuração descomplicada
 
 Embora cada cliente seja distinto, existem cinco valores que precisam ser configurados no seu cliente de OpenVPN:
 
-* *Servidor de VPN*: seattle.vpn.riseup.net ou nyc.vpn.riseup.net.
-* *Método de autenticação*: senha.
-* *Nome de usuário da VPN*: seu nome de usuário em riseup.net (p.ex. se sua conta for joe_hill@riseup.net, digite "joe_hill").
-* *Senha*: sua senha em riseup.net ou um [[vpn-secret]].
-* *Certificado da AC*: RiseupCA.pem (baixe e verifique [[aqui -> security/network-security/riseup-ca]]).
+* *Servidor de VPN*: @vpn.riseup.net@
+* *Método de autenticação*: senha
+* *Nome de usuário da VPN*: seu nome de usuário em riseup.net (p.ex. se sua conta for joe_hill@riseup.net, digite "joe_hill")
+* *Senha*: sua senha em riseup.net ou um [[Segredo de VPN -> vpn-secret]]
+* *Certificado da AC*: RiseupCA.pem (baixe e verifique [[aqui -> security/network-security/riseup-ca]])
+* *Cifra*: AES-256-CBC
+* *Digest*: SHA256
 
 Configurações opcionais:
 
 * *Porta*: 1194, 443 ou 80. A porta 1194 é o padrão da OpenVPN, mas, às vezes, pode ser bloqueada pela rede em que você estiver. Normalmente, não é necessário alterar essa configuração. Se alterar, use as portas 443 e 80, que provavelmente estarão livres, já que servem para tráfego normal.
 * *Protocolo*: ou UDP, ou TCP. UDP é mais rápido, mas TCP pode ser necessário para contornar algumas restrições de rede. UDP é o padrão, então você só vai precisar mexer no protocolo se alguma coisa bloquear seu acesso à VPN.
-* *Compressão*: não testamos isso, mas deve funcionar.
-* *MTU*: pode precisar ser reduzido, não temos certeza...
 
 h3. Tutoriais detalhados
 

@@ -3,9 +3,11 @@
 
 h2. Anonimato da VPN
 
-Quão anônima é a Riseup VPN? A resposta depende principalmente de quais informações pessoais você associou ao seu nome de usuário Riseup. Se você se preocupa com seu anonimato, sugerimos que crie uma conta de VPN separada, para ser usada somente com a VPN.
+Uma conexão insegura ainda é insegura: Apesar da RiseupVPN anonimizar sua localização e te proteger da vigilância de seu Provedor de Acesso à Internet, assim que sua data é encaminhada com segurança pela riseup.net ela vai para Internet como iria normalmente. Sendo assim, você ainda deve usar conexões seguras (TLS) quando possível (por exemplo, HTTPS em vez de HTTP, IMAPS em vez de IMAP etc.).
 
-Nós mantemos pouquíssimos registros e não rastreamos requisições de DNS, nem o tráfego da VPN, mas mantemos sim um registro de quais usuários usaram a VPN, em que dias.
+Além disso, quão anônima é a RiseupVPN? Cada vez que você executa a RiseupVPN, um novo certificado é criado para autenticar ao serviço. Nós não exigimos um registro com usuário/senha para a RiseupVPN, e nós não temos nenhuma informação que conecte esses certificados de curta duração um ao outro ou a um indivíduo. Adicionalmente, nossos registros não contêm nenhum endereço IP de nenhum usuário, nenhuma informação de fingerprint do navegador (informações do navegador, plugins instalados, fontes instaladas, resolução da tela etc.), de requisições DNS, de fluxos de tráfego, nenhuma informação de metadado, nem nenhuma informação de identificação pessoal de qualquer tipo. Os registros que temos são apenas o mínimo necessário para garantir o funcionamento do serviço. Nós não vendemos nem compartilhamos esses registros. Os registros existentes são armazenados criptografados, e são completamente excluídos em não mais que 5 dias.
+
+Se você não está usando a RiseupVPN, e ainda está usando a descontinuada Riseup Red VPN (se você está, por favor, mude para a [[RiseupVPN->vpn]]!), então a resposta depende principalmente de quais informações você tem associadas ao seu login Riseup. Se você está preocupado com seu anonimato, nós sugerimos que você crie uma conta VPN separada que você use apenas para o serviço da VPN. Para esse serviço, a única informação adicional registrada, em comparação com a RiseupVPN, é o nome de usuário registrado. Esses registros também são armazenados criptografados e também são excluídos em no máximo 5 dias.
 
 h2. Ataques _man-in-the-middle_
 
@@ -17,6 +19,6 @@ h3. VPNs ajudam a evitar ataques MiTM?
 
 Sim e não. Usar uma VPN diminui a área na qual um ataque MiTM pode ocorrer, mas não totalmente. Especificamente, ela protege o tráfego entre seu dispositivo e a VPN, evitando que seu provedor (ou a maioria dos governos) perpetre um ataque MiTM contra você.
 
-Entretanto, uma vez que seu tráfego tenha passado pela VPN a caminho de seu destino final, ele se torna vulnerável a um ataque MiTM. Com uma VPN, seu tráfego é semianonimizado, dificultando o ataque a você individualmente, mas o ataque indiscriminado a todos os internautas que visitam um site em particular ainda é possível.
+Entretanto, uma vez que seu tráfego tenha passado pela VPN a caminho de seu destino final, ele se torna vulnerável a um ataque MiTM. Com uma VPN, seu tráfego é semi-anonimizado, dificultando o ataque a você individualmente, mas um ataque indiscriminado a todos os internautas que visitam um site em particular ainda é possível.
 
 Por exemplo: em janeiro de 2011, o governo tunisiano, com medo de um levante popular que, mais cedo ou mais tarde, derrubaria o regime, levou a cabo um ataque MiTM contra usuários do Facebook que se conectavam de dentro da Tunísia, roubando nomes de usuário e senhas. Nesse caso, uma VPN teria protegido essas pessoas, contanto que a VPN estivesse localizada fora da Tunísia.

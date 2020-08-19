@@ -56,3 +56,7 @@ ouvir sobre isso.
 
 Se você quiser nos ajudar a testar uma versão pré-lançamento em
 desenvolvimento da RiseupVPN, pode baixar as [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
+
+## Código-fonte
+
+Os clientes da RiseupVPN são baseados no software de código aberto Bitmask. O código para o cliente de Windows pode ser encontrado [[aqui => https://0xacab.org/leap/bitmask-vpn]].
