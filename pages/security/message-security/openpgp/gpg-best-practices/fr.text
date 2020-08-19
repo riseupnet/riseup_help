@@ -1,5 +1,7 @@
 @title = "Bonnes pratiques pour l'utilisation d'OpenPGP"
 
+p(alert alert-danger). This guide is deprecated, you only need to use the defaults because GnuPG is doing sane things. Just keep your software up-to-date. That is it, you are done!<br><br>If you had previously tweaked your configurations, you should consider starting over with a base configuration, so you do not have outdated recommendations that are less secure than the defaults.
+
 h2. Comment utiliser ce guide
 
 Nous avons rassemblé ici beaucoup d'informations sur la configuration de GnuPG. Vous trouverez des explications détaillées pour chaque suggestion de configuration. Beaucoup de ces changements nécessitent que vous effectuiez des modifications sur le fichier de configuration GnuPG de votre machine, qui se trouve à l'emplacement @~/.gnupg/gpg.conf@. Pour vous simplifier la vie, nous avons regroupé à un seul endroit [[vers le bas de cette page ->/best-practices#putting-it-all-together]] tous les changements suggérés pour le fichier @gpg.conf@. Nous vous encourageons fortement à ne pas copier aveuglément ce fichier, mais à lire ce document et à comprendre ce que font les réglages.

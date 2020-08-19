@@ -1,5 +1,7 @@
 @title = 'GPG buenas prácticas'
 
+p(alert alert-danger). This guide is deprecated, you only need to use the defaults because GnuPG is doing sane things. Just keep your software up-to-date. That is it, you are done!<br><br>If you had previously tweaked your configurations, you should consider starting over with a base configuration, so you do not have outdated recommendations that are less secure than the defaults.
+
 h2. Asegúrate de estar recibiendo regularmente actualizaciones de las llaves.
 
 Si no refrescas regularmente tus llaves públicas implica que no recibas a tiempo la información sobre las llaves que han expirado o las revocaciones, lo cual es muy importante ¡y de lo que hay que estar al pendiente!.

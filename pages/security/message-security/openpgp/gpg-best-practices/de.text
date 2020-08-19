@@ -1,5 +1,7 @@
 @title = 'OpenPGP: optimales Vorgehen'
 
+p(alert alert-danger). This guide is deprecated, you only need to use the defaults because GnuPG is doing sane things. Just keep your software up-to-date. That is it, you are done!<br><br>If you had previously tweaked your configurations, you should consider starting over with a base configuration, so you do not have outdated recommendations that are less secure than the defaults.
+
 h2. Über diese Anleitung
 
 Wir haben hier eine Menge Informationen zur Konfiguration von OpenPGP zusammengetragen. Zu jeder Konfigurationsempfehlung gibt es ausführliche Erläuterungen. Für viele dieser Empfehlungen sind Änderungen an der Konfigurationsdatei von gnupg auf Deinem Rechner erforderlich, die sich in @~/.gnupg/gpg.conf@ befindet. Der Einfachheit halber haben wir alle empfohlenen Änderungen an der Datei gpg.conf an einem Ort [[nahe dem Ende dieser Seite zusammengetragen ->/best-practices#zusammenfassung-aller-empfehlungen]]. Wir empfehlen Dir nachdrücklich, die Datei nicht nur blind zu kopieren, sondern zuerst dieses Dokument durchzulesen, um zu verstehen, was die Einstellungen bewirken.
