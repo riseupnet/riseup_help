@@ -3,7 +3,7 @@
 
 h2. Anonimato da VPN
 
-Uma conexão insegura ainda é insegura: Apesar da RiseupVPN anonimizar sua localização e te proteger da vigilância de seu Provedor de Acesso à Internet, assim que sua data é encaminhada com segurança pela riseup.net ela vai para Internet como iria normalmente. Sendo assim, você ainda deve usar conexões seguras (TLS) quando possível (por exemplo, HTTPS em vez de HTTP, IMAPS em vez de IMAP etc.).
+Uma conexão insegura ainda é insegura: Apesar da RiseupVPN anonimizar sua localização e te proteger da vigilância de seu Provedor de Acesso à Internet, assim que seus dados são encaminhados com segurança pela riseup.net, eles seguirão para Internet como seguiriam normalmente. Sendo assim, você ainda deve usar conexões seguras (TLS) quando possível (por exemplo, HTTPS em vez de HTTP, IMAPS em vez de IMAP etc.).
 
 Além disso, quão anônima é a RiseupVPN? Cada vez que você executa a RiseupVPN, um novo certificado é criado para autenticar ao serviço. Nós não exigimos um registro com usuário/senha para a RiseupVPN, e nós não temos nenhuma informação que conecte esses certificados de curta duração um ao outro ou a um indivíduo. Adicionalmente, nossos registros não contêm nenhum endereço IP de nenhum usuário, nenhuma informação de fingerprint do navegador (informações do navegador, plugins instalados, fontes instaladas, resolução da tela etc.), de requisições DNS, de fluxos de tráfego, nenhuma informação de metadado, nem nenhuma informação de identificação pessoal de qualquer tipo. Os registros que temos são apenas o mínimo necessário para garantir o funcionamento do serviço. Nós não vendemos nem compartilhamos esses registros. Os registros existentes são armazenados criptografados, e são completamente excluídos em não mais que 5 dias.
 

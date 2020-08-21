@@ -41,7 +41,7 @@ Você deve [[baixar a chave GPG do Riseup e verificar o identificador da chave =
 	Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
 	```
 
-Confirme se a saída diz "Good signature" e se o ID da chave é o mesmo que você verificou [[aqui, mais cedo. => network-security/certificates#complete-verification]] Se o texto estiver diferente, as informações não são confiáveis.
+Confirme se a saída diz "Good signature" e se o ID da chave é o mesmo que você verificou [[aqui, mais cedo. => network-security/certificates#complete-verification]]. Se o texto estiver diferente, as informações não são confiáveis.
 
 A não ser que você tenha tomado medidas explícitas para construir um caminho seguro à chave da Riseup Collective, você deve ver uma mensagem de aviso similar a:
 

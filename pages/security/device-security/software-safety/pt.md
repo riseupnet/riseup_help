@@ -17,18 +17,18 @@ Como ativar atualizações automáticas:
 Observações:
 
 * Você pode precisar reiniciar seu dispositivo para que diversas atualizações sejam aplicadas, então permitir que seu dispositivo reinicie automaticamente após uma atualização é necessário para que a atualização possa prover proteção.
-* Se você tem requisitos específicas para softwares ou softwares customizados para sua organização, atualizações automáticas podem causar interrupções em seu trabalho, já que algumas atualizações do sistema operacionakl podem ser incompatíveis com os softwares existentes.
+* Se você tem requisitos específicos para softwares ou softwares customizados para sua organização, atualizações automáticas podem causar interrupções em seu trabalho, já que algumas atualizações do sistema operacional podem ser incompatíveis com os softwares existentes.
 * Manter seu software atualizado não ajuda com ataques de Phishing ou Malware, que funcionam enganando o usuário a realizar certo comportamento inseguro.
 
-# Use a loja de aplicações
+# Use a loja oficial de aplicativos
 
-Quando possível, é melhor instalar software pela loja de aplicações oficial do seu sistema operacional, por várias razões:
+Quando possível, é melhor instalar software pela loja oficial de aplicativos do seu sistema operacional, por várias razões:
 
-* **Autenticidade**: Aplicações na loja de aplicações oficial são assinadas pelo desenvolvedor e verificada pela loja de aplicações.
-* **Atualizações**: A loja de aplicações vai te ajudar a manter suas aplicações atualizadas.
-* **Prevenção de Ataques de Side Loading**: Instalar uma aplicação por fora da loja oficial de aplicações é chamado de "side loading". Side loading é atualmente desabilitado por padrão no Android, impossível no iOS, e é is habilitado por padrão no macOS e Windows. Quando o side loading está habilitado, seu computador fica mais vulnerável a diferentes formas de ataque de malware. Por essa razão, ambos macOS e Windows estão tentando migrar para um modelo em que side loading esteja desabilitado por padrão.
+* **Autenticidade**: Os apps na loja oficial de aplicativos são assinados pelo desenvolvedor e verificadps pela loja de aplicativos.
+* **Atualizações**: A loja de apicativos vai te ajudar a manter seus apps atualizados.
+* **Prevenção de Ataques de Side Loading**: Instalar um app por fora da loja oficial de aplicativos é chamado de "side loading". Side loading é atualmente desabilitado por padrão no Android, impossível no iOS, e é habilitado por padrão no macOS e Windows. Quando o side loading está habilitado, seu computador fica mais vulnerável a diferentes formas de ataque de malware. Por essa razão, ambos macOS e Windows estão tentando migrar para um modelo em que side loading esteja desabilitado por padrão.
 
-Nota: Você precisa de cuidado com a loja de aplicações oficial do Android, Google Play, já que é comum a existência de aplicações falsas que imitam e tentam impersonar determinada aplicação real.
+Nota: Você precisa de cuidado com a loja oficial de aplicativos do Android, Google Play, já que é comum a existência de aplicativos falsos que imitam e tentam se passar por um determinado aplicativo verdadeiro.
 
 # Quando em dúvida, não instale
 
