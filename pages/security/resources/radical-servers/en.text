@@ -153,7 +153,7 @@ Currently the following services are provided:
  * File hosting (4GB NextCloud, Lufi)
  * Social networking (Diaspora)
  * Forum (Discourse)
- * Messaging (XMPP, Matrix)
+ * Messaging (XMPP)
  * Pad (Etherpad)
  * Pastebin (PrivateBin)
  * Search engine (Searx)
