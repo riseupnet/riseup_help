@@ -84,5 +84,5 @@ h3. My mail server has "bad MX records"
 Connected to 204.13.164.19 but sender was rejected. Remote host said: 554 5.7.1 Service unavailable; Sender address [[EXAMPLE@EXAMPLE.NET]] blocked using bogusmx.rfc-ignorant.org; Domain has demonstrably bogus MX records
 </pre>
 
-MX records define servers that are authorized to send mail. Some ISPs do not configure their DNS records correctly, and this leads to lots of problems. If you are receiving this error, please contact your ISP and tell them to look at [[this page->http://rfc-ignorant.org/policy-bogusmx.php]].
+MX records define servers that are authorized to send mail. Some ISPs do not configure their DNS records correctly, and this leads to lots of problems. If you are receiving this error, please contact your ISP and tell them to look at [[this page->http://rfc-clueless.org/pages/listing_policy-bogusmx]].
 
