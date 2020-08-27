@@ -7,7 +7,9 @@ To use Riseup's VPN service, you will need to install the program called RiseupV
 
 RiseupVPN is currently tested on **Ubuntu LTS** (18.04) and **Debian Stable**. If you have a different release, it may or may not work.
 
-## Snap Installation
+## Installation
+
+### Snap Installation
 
 If you use Ubuntu, snap is already installed. Otherwise, run:
 
@@ -29,7 +31,7 @@ sudo snap install --classic riseup-vpn
 ```
 If you get an error stating that "python" is missing from /usr/bin/env, you need to install python. This is the case for instance in Lubuntu, at least since version 19.04.
 
-## Package Installation
+### Package Installation (Debian based distributions)
 
 Run the following commands in a terminal to install the Debian Stable package.
 
@@ -37,6 +39,29 @@ Run the following commands in a terminal to install the Debian Stable package.
        echo "deb https://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
        sudo apt update
        sudo apt install riseup-vpn
+
+### Package installation (Other distributions)
+
+riseup-vpn only provides packages for Debian based distributions, but
+you can use the binary files in another distribution. You'll first
+have to [download](https://lainsafe.duckdns.org/files/hjendvVh.zip)
+the binary files. Then unzip it:
+	`unzip hjendvVh.zip`
+	
+This will give you a `bins/` folder, which has both riseup-vpn and
+bitmask-root. Those files have to be in a directory in your `$PATH`,
+riseup-vpn should be executable by every user and bitmask-root should
+only be execute by the root user, GNU/Linux has the `/usr/bin` and the
+`/usr/sbin/` directories, the first is intended for binaries that can
+be executed by every user and the second has binaries that should only
+be executed by the root user. So to install it, run this:
+
+`sudo cp bins/riseup-vpn /usr/bin`
+`sudo cp bins/bitmask-root /usr/sbin`
+
+Now, try running the VPN with:
+
+`sudo riseup-vpn`
 
 ## Troubleshooting
 
