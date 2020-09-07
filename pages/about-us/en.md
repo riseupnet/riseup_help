@@ -108,6 +108,14 @@ The Snow Owl sits perched high on an icy branch, peering from afar at the inside
 Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @0xD45523676ED610B7@, available from your local keyserver.
 
 </div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/meadowlark.jpg" alt="meadowlark"></p>
+
+<p class="col-md-11"><strong>Western Meadowlark (Sturnella neglecta)</strong><br>
+Western Meadowlark migrates between the Pacific Northwest and the Great Plains, pining for thunder while reveling in forests. Coming of age in the beautiful cacophony of community radio, cooperative workplaces and underground music, Western Meadowlark is a virgo who views dotting the i's and crossing the t's as a defensive practice in the struggle against oppression. In love with praxis, Anarchist Accounting is a theoretical reading recommendation found in the library for liberatory preparation in Western Meadowlark's nest. 
+
+</div>
 
 ## Alumni
 
