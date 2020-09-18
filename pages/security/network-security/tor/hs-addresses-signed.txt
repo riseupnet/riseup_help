@@ -1,69 +1,61 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Riseup now supports v3 hidden/onion services. These are faster, and more secure,
-and have a longer .onion address. We are supporting both versions of hidden
-services until we can safely remove the old versions. Please do not use the
-shorter, v2 onion addresses for anything you setup now, and if you use the v2
-addresses, please transition to the longer v3 addresses as soon as you can.
+Riseup only supports v3 hidden/onion services. These are faster, and more
+secure, and have a longer .onion address.
+
+The v2 onion services that we used to list here are still operational, but we
+will not be publishing them here, as we do not want people to use them.
+
+The v2 onion services will no longer be operational after April, 2021.
+
+If you use the v2 addresses, please transition to the longer v3 addresses as
+soon as you can.
 
 riseup.net:          v3: vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion (port 80)
-                     v2: nzh3fv6jc6jskki3.onion (port 80 - DEPRECATED)
                      
 help.riseup.net:     v3: vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion (port 80)
-                     v2: nzh3fv6jc6jskki3.onion (port 80 - DEPRECATED)
                      
 imap.riseup.net:     v3 5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (port 993)
-                     v2: zsolxunfmbfuq7wf.onion (port 993 - DEPRECATED)
                                           
 lists.riseup.net:    v3: 7sbw6jufrirhyltzkslhcmkik4z7yrsmbpnptyritvz5nhbk35hncsqd.onion (port 80)
-                     v2: xpgylzydxykgdqyg.onion (port 80 - DEPRECATED)
                      
 mail.riseup.net:     v3: 5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 80, 465, 587)
-                     v2: zsolxunfmbfuq7wf.onion (ports 80, 465, 587 - DEPRECATED)
 
 sm.riseup.net:       v3: mzozzdejacxpb7boq4m7smisoa3bi4knpydntjbvyjrgzonmrhkbsjqd.onion (port 80)
                      
 mx1.riseup.net:      v3: aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.onion (port 25)
-                     v2: wy6zk3pmcwiyhiao.onion (port 25 - DEPRECATED)
                      
 pad.riseup.net:      v3: kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion (port 80)
-                     v2: 5jp7xtmox6jyoqd5.onion (port 80 - DEPRECATED)
                      
 pop.riseup.net:      v3: 5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 995)
-                     v2: zsolxunfmbfuq7wf.onion (port 995 - DEPRECATED)
                      
 share.riseup.net:    v3: zs7xwvcspvnnrqhvyxyxpjkihc4lva3yustfr75j6giy24mdfg3rcwqd.onion (port 80)
-                     v2: 6zc6sejeho3fwrd4.onion (port 80 - DEPRECATED)
 
 smtp.riseup.net:     v3: 5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 465, 587)
-                     v2: zsolxunfmbfuq7wf.onion (ports 465, 587 - DEPRECATED)
                      
 account.riseup.net:  v3: 3xeiol2bnhrsqhcsaifwtnlqkylrerdspzua7bcjrh26qlrrrctfobid.onion (port 80)
-                     v2: j6uhdvbhz74oefxf.onion (port 80 - DEPRECATED)
                      
 we.riseup.net:       v3: zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.onion (port 443)
-                     v2: 7lvd7fa5yfbdqaii.onion (port 443 - DEPRECATED)
                      
 xmpp.riseup.net:     v3: jukrlvyhgguiedqswc5lehrag2fjunfktouuhi4wozxhb6heyzvshuyd.onion (ports 5222, 5269)
-                     v2: 4cjw6cwpeaeppfqz.onion (ports 5222, 5269 - DEPRECATED)
                      
 0xacab.org           v3: wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
 -----BEGIN PGP SIGNATURE-----
 
-iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAl8i8CRfFIAAAAAALgAo
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAl9k0nxfFIAAAAAALgAo
 aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
 MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
-do4RuQ//YLDKtK+9FWbEeatQWAj7J1VxVBt9ttxYYyKOy0x6N+4suUtslJiC8ufx
-XuSmHaBkg4AW6OEvbq6bnwy1Hme2Uacn20HBWRCwplf3tCxCaZZxu6C2U41oqTuR
-th0odv0qr0jSrffTmFEcfbBJ1vEg77v6bQVH2LLtWPJENofe3wDgIqckvqd21l+d
-vqfrUa/RxGh6be0RZpcfhuJJxMfw+5MCYpvtXKWk4LQK5ULs38m8gPXytN4nFClA
-Vu5XHmkKwWNSX0X3BS7oQqoIpszjLbY96yeHc7uu8sT3dXX+0Yz58CJ4O/d8Pxpn
-CJKgJatRXjEbJ15FxMvzjFBYlIr9EqyzGXvKGoZ3iRZ2tXuOXSe3zoHUiOYGM8pw
-k9hppVop/N+j7HVJ6nhVtZQ9aDIzXTd2oA+g32OUhiMki2pDFPOc759IYT75+xOp
-7CKcqB+tVetU8Pf2x6P+Pf+s32LE4r25wPFVhYKAQaWU/qYuGMhONVDB5+Bti/fc
-VMCwC4W4g/lTUmsIkYBmOgBXVOiGmokA1rgaYURnN0LVzAfdBf1awhvYQSJyz/cM
-z2vBUTirutkG9GCQse9a001XGxzbfcO3SdqTFyLJIIe/wrsvQS84fv3oLb+jRFA7
-0Uam72rmsewfC2IMAXkePUDqzTyw0m+v7qtVrHad20xfcG9p0vk=
-=nXeR
+do5x+hAAlvNNpnyEuQRpefxxybh0EeqGVcGpFyxa2BuXqHk3X5cJI+E6F6yZ9Hjm
+zifIFdVUPIOwXhlkm+J+e3N82blNFweb+ZCP8Xj/nD3C4y30NBx3EDjphgRd5osa
+ia+1uDzCwxPadpvC543gZph5IEqmGypTBJ/LijGKxbQxmH14pCxJHcT3e9ehynbY
+btH3ebKLt+u7ZZLzkXCGDhlSPAjQbkCOi2sUINmNxdYGHMFB14v386nT5dEwcazQ
+ZH1Rk+YmOP1Ght3SfcJoRNbKziGXBLWKJJjXy15np6Ib9KgdUXiYPR1F4Jw8wpYY
+cFBF3UNgt5fMR5wUsonJNzbEnQuCHovsw/vGW3Td//1kbvXy72PClr6JTEX69/9K
+iry9Y/oW511DbmsGe0eXqPjhX9MIrJyY6pd0Q7e/oejYGA+LF1lCZN1c9DxhjTas
+BDVbkQxM6xB5ugdyuT1FLV5bZ8+ec9KZxI1rdRTgdE50F8Aet1rfic1+gTFl8jYZ
+FhNGXM6+LcsR8NK9VmRd9Tyfpxl8ojzRkxLmnmb3IqLa8F45QOjonrIVa1bme7jv
+Qt1C8ymJ6Uj09wohSg8xS4lsL3SAqwo3k5ET9aOCUF+aCgLgY8P5v+FKyg3GyfJu
+LUIZ4VkrinrVO0nVm1qW3V0v4VJCLuYR3qBsKXW4c4mXJT3Of4Y=
+=m3JR
 -----END PGP SIGNATURE-----
