@@ -20,7 +20,7 @@ Todo Conteúdo, seja postado em público ou transmitido em particular, é de int
 
 Você não deve usar os serviços oferecidos por riseup.net para se ocupar das seguintes atividades:
 
-* Assédio e abuso de outras pessoas, por meio de ameaças, perseguição ou envio de _spam_.
+* Assédio ou abuso de outras pessoas, por meio de ameaças, perseguição ou envio de _spam_. Isso inclui nomes de usuário, apelidos, ou uso de qualquer um de nossos recursos para esse propósito.
 * Mau uso de um serviço, através de distribuição de vírus e programas maliciosos, de ataques de negação de serviço ou de tentativas de obter acesso, sem autorização, a qualquer sistema computacional, inclusive este.
 * Contribuição para o abuso de outrem pela distribuição de material cujo processo de produção teve como consequências a violência ou o abuso sexual de pessoas.
 

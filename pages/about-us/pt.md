@@ -1,11 +1,10 @@
 @title = 'Quem Somos'
-@nav_title = 'Quem Somos'
 
 ## Por que Riseup é necessário
 
 <p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
-Tu podes confiar em provedores de email corporativos para confidencialidade de tuas comunicações de email sensíveis? Não apenas eles tipicamente examinam e gravam o conteúdo de tuas mensagens para uma ampla variedade de propósitos, mas também cedem às demandas do governo que restringem a liberdade digital e falham em ter políticas estritas acerca da privacidade dos usuários. Sem mencionar que seus interesses comerciais obviamente colocam provedores de email comerciais em estranhamento com o que estamos fazendo. O governo estadounidense pratica o monitoramento total das redes¹ e o mapeamento por associação, que a ele conferem a habilidade de construir um mapa detalhado de como nossos movimentos sociais são organizados, ainda pior, isso dá-lhes precisas informações sobre que ligações devem ser rompidas a fim de romper com movimentos sociais amplos.
+Você pode confiar em provedores de email corporativos para confidencialidade de suas comunicações de email sensíveis? Não apenas eles tipicamente examinam e gravam o conteúdo de suas mensagens para uma ampla variedade de propósitos, mas também cedem às demandas do governo que restringem a liberdade digital e falham em ter políticas estritas acerca da privacidade dos usuários. Sem mencionar que seus interesses comerciais obviamente colocam provedores de email comerciais em estranhamento com o que estamos fazendo. O governo estadounidense pratica o monitoramento total das redes¹ e o mapeamento por associação, que a ele conferem a habilidade de construir um mapa detalhado de como nossos movimentos sociais são organizados, ainda pior, isso dá-lhes precisas informações sobre que ligações devem ser rompidas a fim de romper com movimentos sociais amplos.
 
 Acreditamos que é vital que infraestruturas essenciais de comunicação sejam controladas por organizações de movimentos e não por corporações ou governos.
 
@@ -27,31 +26,38 @@ O Coletivo Riseup é um corpo autônomo sediado em Seattle e com membros no mund
 
 * Encorajamos organizações e indivíduos a usar a tecnologia na luta por libertação. Trabalhamos para apoiar uns aos outros para superar a opressão sistêmica embutida no uso e desenvolvimento da tecnologia.
 
-
 ## Conheça o Coletivo
 
 <div class="row">
 
-<p class="col-md-1"><img src="img/macaw.jpg" alt="macaw"></p>
+<p class="col-md-1"><img src="img/black-collared-jay.jpg" alt="black-collared-jay"></p>
 
-<p class="col-md-11"><strong>Arara (Ara macao)</strong><br/>
-Arara é um jovem geek da América do Sul. Seus interesses vão da matemática aplicada, teoria da computação, programação, software livre e hacking em geral à colaboração, comunidades virtuais e reais autogestionadas, política, economia, movimentos sociais, teoria anarquista e como raios vamos tirar o mundo dessa merda que está agora.
-
-</div>
-<div class="row">
-
-<p class="col-md-1"><img src="img/booby.jpg" alt="booby"></p>
-
-<p class="col-md-11"><strong>Blue-footed Booby Patola-de-pés-azuis (Sula nebouxii)</strong><br/>
-Patola-de-pés-azuis adora alimentos fermentados e filmes anarquistas de ação da Alemanha. Nos últimos anos ele está aprendendo estatística aplicada nas ruas de Seattle, e agora está fazendo cálculos importantes sobre quando o servidor da lista Riseup vai explodir.
+<p class="col-md-11"><strong>Black-collared Jay Gaio-de-colarinho-negro (Cyanolyca armillata)</strong><br>
+O gaio-de-colarinho-negro passou a maior parte de sua vida documentando a nova geração de militância de base na América do Sul Pacífica. Ele gosta de aprender coisas novas, inclusive relacionadas a computadores, e é por isso que ele consegue ajudar o trabalho de tecnologia da riseup. O gaio é conhecido por ser uma ave amistosa com coelhos, cética em relação a tendências de design móvel, e por não gostar de escrever nomes com letras maiúsculas. Ele evita tecnologias com nomes de joias.
 
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/catbird.png" alt="catbird"></p>
+<p class="col-md-1"><img src="img/waxwing.jpg" alt="waxwing"></p>
 
-<p class="col-md-11"><strong>Catbird Pássaro-gato (Dumetella carolinensis, passarinho dos espinheiros)</strong><br/>
-Pássaro-gato empoleira-se atrás da folhagem, cantando o dia afora. Gosta de poetizar para servidores GNU/Linux, sobretudo em Perl ou Ruby (linguagens de programação). Pássaro-gato aprecia desafiar estereótipos de gênero e não tem medo de convidar alguma energia feminina para o meio tecnológico.
+<p class="col-md-11"><strong>Cedar Waxwing (Bombycilla cedrorum)</strong><br/>
+Waxwing é um programador de computador, estudante de movimentos sociais, ativista antivigilância e educador. Embora profundamente crítico da tecnologia, Waxwing passou boa parte de sua vida em uma tentativa quixotesca de usar a tecnologia para a libertação. Quando não está bicando afastado no teclado, Waxwing come frutas, vai em longas caminhadas urbanas, e brinca com seus filhotes adoráveis.
+
+</div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/colibri.png" alt="colibri"></p>
+
+<p class="col-md-11"><strong>Colibrí Jacobina Beija-flor-azul-de-rabo-branco (Florisuga mellivora)</strong><br>
+Originalmente das vizinhanças mais perigosas de Santiago de Chile, a Beija-flor-azul-de-rabo-branco deixou sua terra natal para viver a vida sem um endereço. Uma faixa azul clara cruza suas penas bem cuidadas, e apesar de dedicar sua vida a ler e escrever em absoluta tranquilidade, ela não hesita em usar suas habilidades e seu espírito radical para combater pessoas ricas, homens, carnistas, fascistas, a monogamia e a polícia. Você pode encontrá-la na Riseup formando alianças com outras organizações e argumentando eloquentemente que uma infraestrutura autônoma é a única coisa que pode nos salvar dessa internet neoliberal e hiper-vigilante que habitamos.
+
+</div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/blue-tit.jpg" alt="blue-tit"></p>
+
+<p class="col-md-11"><strong>Eurasian Blue Tit Chapim-azul (Cyanistes caeruleus)</strong><br>
+O Chapim-azul é facilmente reconhecível por sua plumagem azul, mas várias autoridades disputam sua classificação científica. Enquanto estudava, viajou pela Europa para contra-cimeiras, fóruns sociais e afins. Após a universidade, estava procurando por um alojamento comunitário na web. Então, começou a trabalhar na we.riseup.net. Há alguns anos, parou de migrar e agora se aninha em uma comuna de cidade pequena.
 
 </div>
 <div class="row">
@@ -80,14 +86,6 @@ Pomba vinha bicando nos bastidores do coletivo Riseup desde o início, e entrou 
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/waxwing.jpg" alt="waxwing"></p>
-
-<p class="col-md-11"><strong>Cedar Waxwing (Bombycilla cedrorum)</strong><br/>
-Waxwing é um programador de computador, estudante de movimentos sociais, ativista antivigilância e educador. Embora profundamente crítico da tecnologia, Waxwing passou boa parte de sua vida em uma tentativa quixotesca de usar a tecnologia para a libertação. Quando não está bicando afastado no teclado, Waxwing come frutas, vai em longas caminhadas urbanas, e brinca com seus filhotes adoráveis.
-
-</div>
-<div class="row">
-
 <p class="col-md-1"><img src="img/rook.png" alt="rook"></p>
 
 <p class="col-md-11"><strong>Gralha (Corvus frugilegus)</strong><br/>
@@ -104,6 +102,49 @@ A Coruja-da-Neve se empoleira no alto de um galho congelado e, de longe, investi
 </div>
 <div class="row">
 
+<p class="col-md-1"><img src="img/sunbird.jpg" alt="sunbird"></p>
+
+<p class="col-md-11"><strong>Sunbird (Nectarinia asiatica</strong>
+Sunbird escolheu o Noroeste do Pacífico como lar desde 1998, mas deu um tempo dos EUA por 2 anos, vivendo em Lahore, Paquistão, onde estudou Urdu e se voluntariou para a Comissão de Direitos Humanos do Paquistão. Hoje em dia, ele é um trabalhador jurídico focado em proteger os direitos de imigrantes e refugiados. Sunbird também tem um forte interesse em leis para internet, já que se relaciona à liberdade de expressão e privacidade. Ele entrou para o coletivo Riseup porque é essencial para ativistas terem ferramentas de comunicação em que possamos confiar. Você pode encontrar Sunbird no IRC, respondendo seus pedidos de ajuda, lutando para aprender Debian e sonhando com um futuro livre de AOL. A chave ID GPG de Sunbird é @0xD45523676ED610B7@, disponível de seu keyserver local.
+
+</div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/meadowlark.jpg" alt="meadowlark"></p>
+
+<p class="col-md-11"><strong>Meadowlark Ocidental (Sturnella neglecta)</strong><br>
+Meadowlark Ocidental migra entre o Noroeste Pacífico e as Grandes Planícies, ansiando por trovões enquanto se deleita nas florestas. Amadurecendo na bela cacofonia dos rádios comunitários, ambientes de trabalho coperativos e música underground, Meadowlark Ocidental é um virginiano que enxerga pontuar os <strong>i</strong>s e traçar os <strong>t</strong>s como uma prática de defesa na luta contra a opressão. Apaixonado por praxis, Anarchist Accounting é uma recomendação de leitura teórica que pode ser encontrada na biblioteca para preparação libertadora no ninho do Meadowlark Ocidental.
+
+</div>
+
+## Alumni
+
+<div class="row">
+
+<p class="col-md-1"><img src="img/macaw.jpg" alt="macaw"></p>
+
+<p class="col-md-11"><strong>Arara (Ara macao)</strong><br/>
+Arara é um jovem geek da América do Sul. Seus interesses vão da matemática aplicada, teoria da computação, programação, software livre e hacking em geral à colaboração, comunidades virtuais e reais autogestionadas, política, economia, movimentos sociais, teoria anarquista e como raios vamos tirar o mundo dessa merda que está agora.
+
+</div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/booby.jpg" alt="booby"></p>
+
+<p class="col-md-11"><strong>Blue-footed Booby Patola-de-pés-azuis (Sula nebouxii)</strong><br/>
+Patola-de-pés-azuis adora alimentos fermentados e filmes anarquistas de ação da Alemanha. Nos últimos anos ele está aprendendo estatística aplicada nas ruas de Seattle, e agora está fazendo cálculos importantes sobre quando o servidor da lista Riseup vai explodir.
+
+</div>
+<div class="row">
+
+<p class="col-md-1"><img src="img/catbird.png" alt="catbird"></p>
+
+<p class="col-md-11"><strong>Catbird Pássaro-gato (Dumetella carolinensis, passarinho dos espinheiros)</strong><br/>
+Pássaro-gato empoleira-se atrás da folhagem, cantando o dia afora. Gosta de poetizar para servidores GNU/Linux, sobretudo em Perl ou Ruby (linguagens de programação). Pássaro-gato aprecia desafiar estereótipos de gênero e não tem medo de convidar alguma energia feminina para o meio tecnológico.
+
+</div>
+<div class="row">
+
 <p class="col-md-1"><img src="img/starling.png" alt="starling"></p>
 
 <p class="col-md-11"><strong>Estorninho (Sturnus Vulgaris)</strong><br>
@@ -112,13 +153,6 @@ Estorninho é um pássaro migratório com estrelas em suas asas e um canto mal-h
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/sunbird.jpg" alt="sunbird"></p>
-
-<p class="col-md-11"><strong>Sunbird (Nectarinia asiatica</strong>
-Sunbird escolheu o Noroeste do Pacífico como lar desde 1998, mas deu um tempo dos EUA por 2 anos, vivendo em Lahore, Paquistão, onde estudou Urdu e se voluntariou para a Comissão de Direitos Humanos do Paquistão. Hoje em dia, ele é um trabalhador jurídico focado em proteger os direitos de imigrantes e refugiados. Sunbird também tem um forte interesse em leis para internet, já que se relaciona à liberdade de expressão e privacidade. Ele entrou para o coletivo Riseup porque é essencial para ativistas terem ferramentas de comunicação em que possamos confiar. Você pode encontrar Sunbird no IRC, respondendo seus pedidos de ajuda, lutando para aprender Debian e sonhando com um futuro livre de AOL. A chave ID GPG de Sunbird é @0xD45523676ED610B7@, disponível de seu keyserver local.
-
-</div>
-<div class="row">
 <p class="col-md-1"><img src="img/puffin.jpg" alt="puffin"></p>
 
 <p class="col-md-11"><strong>Tufted Puffin Papagaio-do-mar-de-topete (Fratercula cirrhata)</strong><br/>

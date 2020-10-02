@@ -63,6 +63,7 @@ Sugerimos estas extensões para o Thunderbird:
 
 * [[Enigmail => /security/message-security/encrypted-email/enigmail]]: Em pouco tempo, é possível começar a [[criptografar, decriptografar -> message-security]] e verificar a assinatura dos seus e-mails. Este último recurso é útil para você se certificar de que as mensagens recebidas são de fato remetidas por quem se supõe.
 * "Display Quota":https://addons.mozilla.org/thunderbird/addon/881: Mostra o status atual da sua cota IMAP na barra de status do Thunderbird, além de avisar quando o limite (configurável) for atingido.
+* "TorBirdy":https://addons.mozilla.org/thunderbird/addon/torbirdy/: Essa extensão configura o Thunderbird para se conectar pela rede de anonimato Tor.
 
 h3. Use opções ocultas para acelerar o Thunderbird
 
@@ -72,7 +73,7 @@ Felizmente, existe conserto: algumas configurações ocultas do Thunderbird pode
 
 No menu *Editar*, selecione *Preferências*. Na guia *Avançado*, clique no botão *Editor de config...*
 
-* Altere o valor da variável @use_status_for_biff@ para *false*.
+* Altere o valor da variável @mail.imap.use_status_for_biff@ para *false*.
 * Altere o valor da variável @mail.server.default.autosync_offline_stores@ para *true*.
 
 h3. Considere apagar e-mails antigos automaticamente

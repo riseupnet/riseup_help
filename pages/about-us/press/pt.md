@@ -3,6 +3,7 @@
 
 ## Declarações
 
+* [[4 de julho de 2018, Batida policial bávara na Zwiebelfreunde -> zwiebelfreunde]]
 * [[16 de fevereiro de 2017, Garantia do Canário -> canary-statement]]
 * [[6 de janeiro de 2015: Declaração do Riseup sobre prisões recentes na Espanha -> security-not-a-crime]]
 * [[2 de julho de 2014: Riseup junta-se a seis outras organizações em processo judicial contra o GCHQ, um serviço de inteligência britânico -> 14.07.02-gchq-pressrelease.pdf]]
