@@ -6,7 +6,7 @@ The best way to get in touch with us is to fill out a help ticket. Please visit 
 
 ## Email
 
-To contact us regarding general questions about our collective, send mail to collective@riseup.net. Any help questions directed to this email will be ignored.
+To contact us regarding general questions about our collective, send mail to collective@riseup.net. Any requests for invites, or help questions directed to this email will be ignored.
 
 Our gpg long keyid is `0x3043E2B7139A768E`. The full fingerprint is:
 
