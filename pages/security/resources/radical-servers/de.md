@@ -2,23 +2,23 @@
 
 Anti-kapitalistische, anti-hierarchische, autonome, feministischem oder radikale Serverprojekte, revolutionäre Kollektive, die Dienste frei oder auf Basis gegenseitiger Hilfe für radikale und Graswurzel-Bewegungen anbieten.
 
-Euer Kollektiv fehlt? Informationen veraltet? [[Aktualisieren->https://github.com/riseupnet/riseup_help]].
+Euer Kollektiv fehlt? Informationen veraltet? [Aktualisieren](https://github.com/riseupnet/riseup_help).
 
-h1. Weltweit
+## Weltweit
 
-h2. hackerspaces.org
+### hackerspaces.org
 
-[[Hackerspaces->https://wiki.hackerspaces.org]] are community-operated physical places, where people can meet and work on their projects. This website is for Anyone and Everyone who wants to share their hackerspace stories and questions with the global hackerspaces community.
+[Hackerspaces](https://wiki.hackerspaces.org) are community-operated physical places, where people can meet and work on their projects. This website is for Anyone and Everyone who wants to share their hackerspace stories and questions with the global hackerspaces community.
 
-h2. indymedia.org
+### indymedia.org
 
-[[indymedia.org->http://indymedia.org]] ist ein dezentralistisches globales Netzwerk von Medienaktivist*innen.
+[indymedia.org](http://indymedia.org) ist ein dezentralistisches globales Netzwerk von Medienaktivist*innen.
 
 * News-Feeds
 
-h2. tachanka.org
+### tachanka.org
 
-[[Tachanka->https://tachanka.org]] basiert auf der Idee, technische Dienste für emanzipatorische Projekte und Gruppen für sozialen Wandel bereitzustellen. Hinter dieser Ideen stehen diese Gruppen und es gibt mehrere überlappende Kollektive, die dabei helfen, Projkete aufrecht zu erhalten, aber Tachanka hat mehrere gemeinsame Prinzipien, auf der das Unterstützungsnetzwerk mit gemeinsamen Zielen basiert. Die Kollektive sind international und haben das Ziel, die globale Solidarität zu stärken. Die wichtigsten Prinzipien von Tachanka sind dabei die [[Positionen von People's Global Action -> https://de.wikipedia.org/wiki/Peoples_Global_Action#Positionen]] und der [[Debian-Gesellschaftsvertrag -> https://www.debian.org/social_contract.de.html]].
+[Tachanka](https://tachanka.org) basiert auf der Idee, technische Dienste für emanzipatorische Projekte und Gruppen für sozialen Wandel bereitzustellen. Hinter dieser Ideen stehen diese Gruppen und es gibt mehrere überlappende Kollektive, die dabei helfen, Projkete aufrecht zu erhalten, aber Tachanka hat mehrere gemeinsame Prinzipien, auf der das Unterstützungsnetzwerk mit gemeinsamen Zielen basiert. Die Kollektive sind international und haben das Ziel, die globale Solidarität zu stärken. Die wichtigsten Prinzipien von Tachanka sind dabei die [Positionen von People's Global Action ]( https://de.wikipedia.org/wiki/Peoples_Global_Action#Positionen) und der [Debian-Gesellschaftsvertrag ]( https://www.debian.org/social_contract.de.html).
 
 * virtuelle Server
 * DNS-Caching
@@ -26,20 +26,20 @@ h2. tachanka.org
 * Drupal-Farmen
 * Englisch / Französisch / Portugiesisch
 
-h2. Take Back The Tech!
+### Take Back The Tech!
 
-[[Take Back The Tech!->https://www.takebackthetech.net]] ist eine weltweise Kampagne, das Thema Gewalt gegen Frauen und Informations und Kommunikationstechnologie (ICT). Es geht darum, die Bewusstheit zu stärken über die Arten der Gewalt gegenüber Frauen auf ICT-Plattformen wie das Internet und Mobiltelefonen und alle Menschen aufzurufen, ICT für Aktivismus, um Gewalt gegen Frauen zu beenden. Die Kampagne wurde initiert durch [[Association for Progressive Communications->https://en.wikipedia.org/wiki/Association_for_Progressive_Communications]] ([[apc.org->https://www.apc.org]]), Women's Networking Support Programme, 2006. Seitdem wurde sie von Individuen, Kollektiven und NGOs in mindestens 24 Ländern aufegriffen und verstärkt. Mehr auf [[Wikipedia->https://en.wikipedia.org/wiki/Take_Back_The_Tech!]] (englisch)
+[Take Back The Tech!](https://www.takebackthetech.net) ist eine weltweise Kampagne, das Thema Gewalt gegen Frauen und Informations und Kommunikationstechnologie (ICT). Es geht darum, die Bewusstheit zu stärken über die Arten der Gewalt gegenüber Frauen auf ICT-Plattformen wie das Internet und Mobiltelefonen und alle Menschen aufzurufen, ICT für Aktivismus, um Gewalt gegen Frauen zu beenden. Die Kampagne wurde initiert durch [Association for Progressive Communications](https://en.wikipedia.org/wiki/Association_for_Progressive_Communications) ([apc.org](https://www.apc.org)), Women's Networking Support Programme, 2006. Seitdem wurde sie von Individuen, Kollektiven und NGOs in mindestens 24 Ländern aufegriffen und verstärkt. Mehr auf [Wikipedia](https://en.wikipedia.org/wiki/Take_Back_The_Tech!) (englisch)
 
-h2. Telecentre
+### Telecentre
 
-[[Telecentre->https://en.wikipedia.org/wiki/Telecentre]] ist ein weit verbreitetes Konzept, um freien Zugang zum Internet und andere Dienste an öffentlichen Orten mit Computern und anderen digitalen Technologien anzubieten, die das Erlangen von Informationen, Kreieren, Lernen, Kommunizieren beim gleichzeitigen Entwickeln digitaler Fähigkeiten. [[Handbuch zum Berieb eines Telecenters->https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks]] (englisch)
+[Telecentre](https://en.wikipedia.org/wiki/Telecentre) ist ein weit verbreitetes Konzept, um freien Zugang zum Internet und andere Dienste an öffentlichen Orten mit Computern und anderen digitalen Technologien anzubieten, die das Erlangen von Informationen, Kreieren, Lernen, Kommunizieren beim gleichzeitigen Entwickeln digitaler Fähigkeiten. [Handbuch zum Berieb eines Telecenters](https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks) (englisch)
 
 
-h1. Südamerika
+## Südamerika
 
-h2. Codigosur
+### Codigosur
 
-[[Codigosur->https://codigosur.org]] ist ein Kollektiv von Aktivisterix verschiedener sozialer Bewegungen in Lateinamerika für Kollaboration und die Entwicklung von Kommunikationswerkzeugen, Kultur und freier Technologie
+[Codigosur](https://codigosur.org) ist ein Kollektiv von Aktivisterix verschiedener sozialer Bewegungen in Lateinamerika für Kollaboration und die Entwicklung von Kommunikationswerkzeugen, Kultur und freier Technologie
 
 * Hosting
 * E-Mail
@@ -50,30 +50,30 @@ h2. Codigosur
 * Etherpad
 * DNS und mehr
 
-h2. Colnodo
+### Colnodo
 
-[[Colnodo->https://colnodo.apc.org/es/servicios]] ist eine nicht-kommerzielle Organisation in Kolumbien mit dem Ziel, Kommunikation und den Austausch von Information und Erfahrung zwischen kolumbianischen Organisationen durch günstige elektronische Netzwerke voran zu bringen. [[Artikel auf cyberstewards.org->https://cyberstewards.org/category/colnodo/]]
+[Colnodo](https://colnodo.apc.org/es/servicios) ist eine nicht-kommerzielle Organisation in Kolumbien mit dem Ziel, Kommunikation und den Austausch von Information und Erfahrung zwischen kolumbianischen Organisationen durch günstige elektronische Netzwerke voran zu bringen. [Artikel auf cyberstewards.org](https://cyberstewards.org/category/colnodo/)
 
-h2. Gleducar
+### Gleducar
 
-[[Gleducar->http://www.gleducar.org.ar]] ist eine NGO mit dem Fokus auf freie Bildung und Technologie in Argentinien seit 2002. Es besteht aus einer unabhängigen Gemeinschaft von Lehrenden, Studierenden, Bildungsaktiven, verbunden durch gemeinsame Interesse und kollektives Arbeiten, Zugang, freies Wissen, Popular Education, gemeinschaftliche Bildung, kollaboratives Lernen und freie Technologien. Sie bewerbung von die Nutzung von freier Software an Schulen als pädagogisches und technisches System mit dem Ziel, Paradigmen der Produktion, Konstruktion und Auswahl von Bildungsinhalten zu verändern [[Wikipedia->https://en.wikipedia.org/wiki/Gleducar]]
+[Gleducar](http://www.gleducar.org.ar) ist eine NGO mit dem Fokus auf freie Bildung und Technologie in Argentinien seit 2002. Es besteht aus einer unabhängigen Gemeinschaft von Lehrenden, Studierenden, Bildungsaktiven, verbunden durch gemeinsame Interesse und kollektives Arbeiten, Zugang, freies Wissen, Popular Education, gemeinschaftliche Bildung, kollaboratives Lernen und freie Technologien. Sie bewerbung von die Nutzung von freier Software an Schulen als pädagogisches und technisches System mit dem Ziel, Paradigmen der Produktion, Konstruktion und Auswahl von Bildungsinhalten zu verändern [Wikipedia](https://en.wikipedia.org/wiki/Gleducar)
 
 * freie und offen zugängliche digitale Bildung
 
-h2. GuardaChuva.org
+### GuardaChuva.org
 
-O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
+O grupo de Estudos [GuardaChuva.org](http://GuardaChuva.org) é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
 
-h2. Saravá
+### Saravá
 
-O [[Saravá->https://www.sarava.org]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
+O [Saravá](https://www.sarava.org) é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
 
 
-h1. Europa
+## Europa
 
 2. actiu.info
 
-* [[Actiu.info->https://www.actiu.info]] ist ein Techniknetzwerk damit soziale Bewegungen sicheren und vertraulichen Zugang zum Internet bekommen, unabhängig von Markt und etablierten Firmen. Wir entwickeln und betreuen Actiu.info als Rechenzentrum und bewerben technologische Selbstverwaltung und Freiheit.
+* [Actiu.info](https://www.actiu.info) ist ein Techniknetzwerk damit soziale Bewegungen sicheren und vertraulichen Zugang zum Internet bekommen, unabhängig von Markt und etablierten Firmen. Wir entwickeln und betreuen Actiu.info als Rechenzentrum und bewerben technologische Selbstverwaltung und Freiheit.
 Unser Fokus liegt auf dem Konzept "technlogischer Freiheit" als technische und formelle Bedingungen, die Individuen und Kollektive betreffen, also die Fähigkeit von Nutzer*innen ein vernünftiges Maß an Verständnis und Kontrolle über eine Freiheit, Werkzeuge, Daten, Privatssphäre und Kommunikation mit anderen zu haben.
 
 Actiu.info bietet:
@@ -85,9 +85,9 @@ Actiu.info bietet:
 * Physische Server-Geolokation, VMs, virtuelle Server-Container
 * Englisch, spanisch, manchmal französisch
 
-h2. aktivix.org
+### aktivix.org
 
-Einige zufällige Beschreibungen für [[aktivix.org->https://aktivix.org]] des aktivix-Beschreibungsgenerators:
+Einige zufällige Beschreibungen für [aktivix.org](https://aktivix.org) des aktivix-Beschreibungsgenerators:
 
 * Aktivix ist eine spendenbeasierte Herde schwitzender Techies, die Computernutzer*innen befähigen wollen, Kapitalismus auf eine erfüllende und nicht-hierarchische Weise zu stürzen.
 * Aktivix ist eine spendenbasierte Kooperative plüschiger Hacktivists, die andere Kollektive ermächtigen wollen Autoritäten auf nachhaltige Weise anzufechten.
@@ -101,9 +101,9 @@ Aktivix bietet:
 * Blogs
 * dropbox-Alternative (beta)
 
-h2. autistici.org
+### autistici.org
 
-[[autistici.org->https://www.autistici.org]] und [[inventati.org->https://inventati.org]] bietet Dienste nicht für kommerzielle, rassistische, nazi, faschistische, Parteien, Organisationen mit eigener Struktur (mit ausreichend Geld), oder sessis. Wir haben eine radikale Organisation wie anarchist black cross oder das italienische Sozialforum.
+[autistici.org](https://www.autistici.org) und [inventati.org](https://inventati.org) bietet Dienste nicht für kommerzielle, rassistische, nazi, faschistische, Parteien, Organisationen mit eigener Struktur (mit ausreichend Geld), oder sessis. Wir haben eine radikale Organisation wie anarchist black cross oder das italienische Sozialforum.
 
 * E-Mailkonten
 * E-Maillisten
@@ -115,15 +115,15 @@ h2. autistici.org
 * Usenet news server
 * Italienisch
 
-h2. boum.org
+### boum.org
 
-[[boum.org->https://boum.org]] ist ein autonomes revolutionäres Technik-Kollektiv.
+[boum.org](https://boum.org) ist ein autonomes revolutionäres Technik-Kollektiv.
 * E-Mailkonten
 * Französisch
 
-h2. CryptiX
+### CryptiX
 
-[[CryptiX->https://www.cryptix.de]] ist ein Web-Kollektiv mit Fokus auf Unterstützung von sozialen und kulturellen Projekten, sicherer Kommunikation und nicht-kommerziellen Räumen. Diskriminierender Inhalt ist anti-ethisch für uns.
+[CryptiX](https://www.cryptix.de) ist ein Web-Kollektiv mit Fokus auf Unterstützung von sozialen und kulturellen Projekten, sicherer Kommunikation und nicht-kommerziellen Räumen. Diskriminierender Inhalt ist anti-ethisch für uns.
 
 * Domains
 * E-Mail
@@ -131,17 +131,17 @@ h2. CryptiX
 * Speicherplatz
 * XMPP
 
-h2. cybrigade / espiv.net
+### cybrigade / espiv.net
 
-[[cybrigade->https://espiv.net]] ist ein autonomes Kollektiv mit Nachrichten über autonome Kollektive, soziale Kämpfe und ihre Widerspiegelung im Cyberspace. cybrigade verwaltet [[espiv.net->https://espiv.net]]'s Dienste:
+[cybrigade](https://espiv.net) ist ein autonomes Kollektiv mit Nachrichten über autonome Kollektive, soziale Kämpfe und ihre Widerspiegelung im Cyberspace. cybrigade verwaltet [espiv.net](https://espiv.net)'s Dienste:
 * E-Mailkonten
 * Mailinglisten
 * Blogs
 * Griechisch, Englisch
 
-h2. Disroot
+### Disroot
 
-[[Disroot->https://disroot.org]] ist ein Projekt und nicht-profitable Organisation in Amsterdam. Es wird von Freiwilligen verwaltet und hängt von Unterstützung der Gemeinschaft ab. Disroot ist eine Sammlung von offenen, dezentralisierten, verbündeten Werkzeugen für Kommunikation, Dateiaustausch, Organisierung, dir Freiheit und Datenschutz respektieren.
+[Disroot](https://disroot.org) ist ein Projekt und nicht-profitable Organisation in Amsterdam. Es wird von Freiwilligen verwaltet und hängt von Unterstützung der Gemeinschaft ab. Disroot ist eine Sammlung von offenen, dezentralisierten, verbündeten Werkzeugen für Kommunikation, Dateiaustausch, Organisierung, dir Freiheit und Datenschutz respektieren.
 
 * E-Mail (2GB quota; RainLoop webmail, IMAP)
 * Dateispeicher (4GB NextCloud, Lufi)
@@ -155,11 +155,11 @@ h2. Disroot
 * Projektverwaltung (Taiga)
 * Tabellenkalkulation (EtherCalc)
 
-h2. Framasoft
+### Framasoft
 
-[[Framasoft->https://wiki.framasoft.org/presentation_en]] ist eine französische nicht-profitable Organisation und Netzwerk nicht-formellen Lernens mit Ursprung im Bildungssektor, das sich freier und offener Software verpflichtet hat.
+[Framasoft](https://wiki.framasoft.org/presentation_en) ist eine französische nicht-profitable Organisation und Netzwerk nicht-formellen Lernens mit Ursprung im Bildungssektor, das sich freier und offener Software verpflichtet hat.
 
-Framasoft bietet Alternativen für bekannte aber proprietäre zentralistisierte Dienste mit Nutzerüberwachung. Framasoft nimmt an einem langfristigen riesigen Projekt namens [[Dégooglisons Internet->https://degooglisons-internet.org/?l=en]] (ungooglisiertes Internet).
+Framasoft bietet Alternativen für bekannte aber proprietäre zentralistisierte Dienste mit Nutzerüberwachung. Framasoft nimmt an einem langfristigen riesigen Projekt namens [Dégooglisons Internet](https://degooglisons-internet.org/?l=en) (ungooglisiertes Internet).
 Keine Werbung, keine Verfolgung, 100% freie Software.
 
 * Etherpad ≻ Framapad
@@ -184,31 +184,31 @@ Keine Werbung, keine Verfolgung, 100% freie Software.
 
 Geplant sind außerdem Alternativen zu Change/Avaaz, Google Calendar, Google groups, Blogger, Wix, etc.
 
-[[Liste aller Dienste->https://degooglisons-internet.org/liste?l=en]] (Seite ist französisch aber viele Dienste sind mehrsprachig)
+[Liste aller Dienste](https://degooglisons-internet.org/liste?l=en) (Seite ist französisch aber viele Dienste sind mehrsprachig)
 
-h2. Freifunk
+### Freifunk
 
-[[Freifunk->https://freifunk.net]] ist ein freies, öffentlich zugängliches, nicht kommerzielles, unzensiertes, dezentral organisiertes Funknetzwerk für freie Kommunikation in digitalen Datennetzen im Besitz der Gemeinschaft in Deutschland.
+[Freifunk](https://freifunk.net) ist ein freies, öffentlich zugängliches, nicht kommerzielles, unzensiertes, dezentral organisiertes Funknetzwerk für freie Kommunikation in digitalen Datennetzen im Besitz der Gemeinschaft in Deutschland.
 
-* [[Meshing->https://wiki.freifunk.net/Meshing]]
-* [[Deutschland->https://wiki.freifunk.net/Freifunk_Weltweit]] / [[weltweit->https://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region]]
+* [Meshing](https://wiki.freifunk.net/Meshing)
+* [Deutschland](https://wiki.freifunk.net/Freifunk_Weltweit) / [weltweit](https://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region)
 
-h2. GreenNet
+### GreenNet
 
-[[GreeNet->https://www.greennet.org.uk]] ist ein nicht-kommerzielles 1985 gegründetes Kollektiv, das Internetdienste, Webseitengestaltung, Hosting für Unterstützer*innen von Frieden, Umwelt und Menschenrechten anbietet.
+[GreeNet](https://www.greennet.org.uk) ist ein nicht-kommerzielles 1985 gegründetes Kollektiv, das Internetdienste, Webseitengestaltung, Hosting für Unterstützer*innen von Frieden, Umwelt und Menschenrechten anbietet.
 
 * Hosting
 * E-Mail
 * Breitband
 * Web-Entwicklung
 
-h2. Guifi
+### Guifi
 
-[[Guifi.net->https://guifi.net/en]] ist ein freier, offener und neutraler, zumeist kabellos kommunizierendes Netzwerk um Kataolonien und Valencia in Spanien. Knoten werden von Individuen, Unternehmen und Verwaltungen betrieben, die sich freiwillig verbinden und damit das gemeinschaftlichen Telekommunikationsnetzwerk erweitern. [[Wikipedia->https://en.wikipedia.org/wiki/Guifi.net]]
+[Guifi.net](https://guifi.net/en) ist ein freier, offener und neutraler, zumeist kabellos kommunizierendes Netzwerk um Kataolonien und Valencia in Spanien. Knoten werden von Individuen, Unternehmen und Verwaltungen betrieben, die sich freiwillig verbinden und damit das gemeinschaftlichen Telekommunikationsnetzwerk erweitern. [Wikipedia](https://en.wikipedia.org/wiki/Guifi.net)
 
-h2. immerda.ch
+### immerda.ch
 
-[[immerda.ch->https://immerda.ch]] ist ein autonomes Kollektiv, das E-Mail, Listen, Webspace für Freund*innen anbietet. Sie unterstützen progressive und emanzipatorische Gruppen und Individuen mit dem Ziel, die Welt zu verändern. Die Dienste werden angeboten für Befreundete von immerda, geknüpft an Einladungen.
+[immerda.ch](https://immerda.ch) ist ein autonomes Kollektiv, das E-Mail, Listen, Webspace für Freund*innen anbietet. Sie unterstützen progressive und emanzipatorische Gruppen und Individuen mit dem Ziel, die Welt zu verändern. Die Dienste werden angeboten für Befreundete von immerda, geknüpft an Einladungen.
 
 * E-Mailkonten / Webmail
 * Mmailinglisten (mailman, schleuder)
@@ -218,9 +218,9 @@ h2. immerda.ch
 * git repositories
 * Deutsch, Englisch, Französisch, Spanisch
 
-h2. Isole Nella Rete Project
+### Isole Nella Rete Project
 
-[[ecn.org->http://ecn.org]] ist ein Ort, der Sichtbarkeit, Verbindung und Möglichkeit für Freude für alle, die durch die enormen gesellschaftlichen Veränderungen vereinzelt und unsichtbar gemacht wurden. Für alle nicht dem Mainstream Angepassten mit dem Wunsch, eine reale Bewegung für gesellschaftlichen Wandel mit der Fähigkeit den gegenwärtigen Status Quo zu ändern.
+[ecn.org](http://ecn.org) ist ein Ort, der Sichtbarkeit, Verbindung und Möglichkeit für Freude für alle, die durch die enormen gesellschaftlichen Veränderungen vereinzelt und unsichtbar gemacht wurden. Für alle nicht dem Mainstream Angepassten mit dem Wunsch, eine reale Bewegung für gesellschaftlichen Wandel mit der Fähigkeit den gegenwärtigen Status Quo zu ändern.
 
 * Webseiten
 * Mailinglisten
@@ -228,38 +228,38 @@ h2. Isole Nella Rete Project
 * Bewegungs-Suchmaschine
 * Italienisch
 
-h2. nadir.org
+### nadir.org
 
-[[nadir.org->https://www.nadir.org]] repräsentiert Politik von undogmatischen Linken im Internet, darunter elektronische Dienste wie E-Mail und Webhosting.
+[nadir.org](https://www.nadir.org) repräsentiert Politik von undogmatischen Linken im Internet, darunter elektronische Dienste wie E-Mail und Webhosting.
 
 * Webseiten
 * E-Mail
 * Deutsch
 
-h2. nodo50.net
+### nodo50.net
 
-[[www.nodo50.net->http://www.nodo50.net]] bietet virtuellen Speicher für soziale Bewegungen und politische Aktion im Internet. Madrid.
+[www.nodo50.net](http://www.nodo50.net) bietet virtuellen Speicher für soziale Bewegungen und politische Aktion im Internet. Madrid.
 
 * Webseiten
 * Spanisch
 
-h2. no-log.org (geschlossen für Neubewerbungen)
+### no-log.org (geschlossen für Neubewerbungen)
 
-[[no-log.org->http://no-log.org]] bietet Internetzugang und E-Mailkonten für alle, die danach gefragt haben. Seit 2002 französische Gesetze für die Speicherung von Kommunikation erlassen wurden, hat No-log eine minimale (nicht legale) Log-Regel und versucht Nutzer*innen über Überwachung und Datenschutz zu informieren.
+[no-log.org](http://no-log.org) bietet Internetzugang und E-Mailkonten für alle, die danach gefragt haben. Seit 2002 französische Gesetze für die Speicherung von Kommunikation erlassen wurden, hat No-log eine minimale (nicht legale) Log-Regel und versucht Nutzer*innen über Überwachung und Datenschutz zu informieren.
 
 * Französisch, Englisch
 * Einwahl-Konten (56K-Modems, lokale Verbindungen)
 * E-Mailkonten (pops, imaps, smtp/tls, webmail)
 
-h2. pangea.org
+### pangea.org
 
-[[Pangea->https://pangea.org]] ist eine private, unabhängige und nicht-kommerzielle Organisation in Barcelona, gegründet 1993, die Internet und Kommunikationstechnologien (ICT) bewirbt, zum Nutzen von Organisationen, Bewegungen und Menschen, die sich für soziale Gerechtigkeit, Frauenrechte, nachhaltige Entwicklung und kulturelle Diversität lokal und international einsetzen.
+[Pangea](https://pangea.org) ist eine private, unabhängige und nicht-kommerzielle Organisation in Barcelona, gegründet 1993, die Internet und Kommunikationstechnologien (ICT) bewirbt, zum Nutzen von Organisationen, Bewegungen und Menschen, die sich für soziale Gerechtigkeit, Frauenrechte, nachhaltige Entwicklung und kulturelle Diversität lokal und international einsetzen.
 * Hosting
 * E-Mail
 
-h2. shelter.is
+### shelter.is
 
-[[shelter.is->https://www.shelter.is]] Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
+[shelter.is](https://www.shelter.is) Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
 
 * VPS
 * Wordpress (standardmäßig mit SSL)
@@ -267,18 +267,18 @@ h2. shelter.is
 * VPN
 * Hilfe auf Englisch
 
-h2. sindominio.net
+### sindominio.net
 
-[[www.sindominio.net->http://www.sindominio.net]]
+[www.sindominio.net](http://www.sindominio.net)
 verortet sich im Multiversum von Organisierung, Kooperation, Kommunikation, sowie Konflikten und Kämpfen im Web.
 
 * E-Mailkonten
 * Maillinglisten
 * Spanisch
 
-h2. so36.net
+### so36.net
 
-[[so36.net->https://so36.net]] bietet digi-politische Infrastruktur und
+[so36.net](https://so36.net) bietet digi-politische Infrastruktur und
 
 * Webspace
 * E-Mail
@@ -286,9 +286,9 @@ h2. so36.net
 * Silc
 * Kollaboration
 
-h2. squat.net
+### squat.net
 
-[[squat.net->http://squat.net]] bietet technische Dienste für die Besetzungsbewegung.
+[squat.net](http://squat.net) bietet technische Dienste für die Besetzungsbewegung.
 
 * E-Mailkonten
 * Webseiten
@@ -296,8 +296,8 @@ h2. squat.net
 * Bietet Hilfe in: Englisch, Italienisch, Deutsch, Niederländisch, Spanisch, Polnisch, Norwegisch
 * für die Besetzungsbewegung
 
-h2. systemausfall.org
-[[systemausfall.org->https://systemausfall.org]] unterstützt Aktivist*innen und Kollektive mit technischer Infrastuktur in ihrer politischen Arbeit.
+### systemausfall.org
+[systemausfall.org](https://systemausfall.org) unterstützt Aktivist*innen und Kollektive mit technischer Infrastuktur in ihrer politischen Arbeit.
 
 * E-Mailkonten
 * Mailinglisten
@@ -309,9 +309,9 @@ h2. systemausfall.org
 * und mehr
 * Support auf Deutsch
 
-h2. systemli.org
+### systemli.org
 
-[[systemli.org->https://www.systemli.org/index.html]] ist ein unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
+[systemli.org](https://www.systemli.org/index.html) ist ein unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
 
 * E-Mailkonten
 * XMPP
@@ -321,9 +321,9 @@ h2. systemli.org
 * Verschlüsselte Pastes und Abstimmungen
 * Support auf Deutsch und Englisch
 
-h2. Syster Server
+### Syster Server
 
-[[Syster Server->https://systerserver.net]] bietet Dienste für feminstische, queere und antripatriarchale Gruppen und Kollektive. Syster Server wird von Frauen mit ausschließlich freier Software betrieben. Es ist ein Ort, um Systemadministrationskenntnisse zu erlernen, etwas anzubieten und andere dazu zu inspirieren, das gleiche zu tun.
+[Syster Server](https://systerserver.net) bietet Dienste für feminstische, queere und antripatriarchale Gruppen und Kollektive. Syster Server wird von Frauen mit ausschließlich freier Software betrieben. Es ist ein Ort, um Systemadministrationskenntnisse zu erlernen, etwas anzubieten und andere dazu zu inspirieren, das gleiche zu tun.
 
 * Webseiten
 * Git
@@ -331,20 +331,20 @@ h2. Syster Server
 * frag einfach :)
 
 
-h1. Nordamerika
+## Nordamerika
 
-h2. espora.org
+### espora.org
 
-[[Espora.org->https://espora.org]] es un área colectiva orientada a promover modos autónomos de generar, distribuir y mantener infraestructuras para desarrollar proyectos técnicos y sociales. Planteamos un servidor autónomo porque decidimos relacionarnos de igual a igual, decidimos evitar usar la tecnología como simples clientes-consumidores; decidimos tomar el control de nuestras vidas y hacernos responsables de lo que hacemos y decimos también en la Red en lugar de conformarnos con lo que nos dan ya hecho; decidimos construir autonomía para informarnos, comunicarnos y apoyarnos mutuamente a través de la Red.
+[Espora.org](https://espora.org) es un área colectiva orientada a promover modos autónomos de generar, distribuir y mantener infraestructuras para desarrollar proyectos técnicos y sociales. Planteamos un servidor autónomo porque decidimos relacionarnos de igual a igual, decidimos evitar usar la tecnología como simples clientes-consumidores; decidimos tomar el control de nuestras vidas y hacernos responsables de lo que hacemos y decimos también en la Red en lugar de conformarnos con lo que nos dan ya hecho; decidimos construir autonomía para informarnos, comunicarnos y apoyarnos mutuamente a través de la Red.
 
 * Spanisch
 * Webseiten
 * E-Mailkonten
 * Mexico City
 
-h2. hackbloc.org
+### hackbloc.org
 
-Die Mission von [[hackbloc.org->https://hackbloc.org]] ist, Information zu untersuchen, erstellen und auseinanderzunehmen, sowie Taktiken der Ermächtigung von Menschen um Technologie zur Befreiung zu nutzen. Wir unterstützen und stärken unsere lokalen Gemeinschaften durch Bildung und Aktion. Wir wollen voneinander lernen und fokussieren unsere Fähigkeiten auf kreative Ziele, um positiven Hacktivismus zu erforschen und das freie Internet und eine freie Gesellschaft zu verteidigen!
+Die Mission von [hackbloc.org](https://hackbloc.org) ist, Information zu untersuchen, erstellen und auseinanderzunehmen, sowie Taktiken der Ermächtigung von Menschen um Technologie zur Befreiung zu nutzen. Wir unterstützen und stärken unsere lokalen Gemeinschaften durch Bildung und Aktion. Wir wollen voneinander lernen und fokussieren unsere Fähigkeiten auf kreative Ziele, um positiven Hacktivismus zu erforschen und das freie Internet und eine freie Gesellschaft zu verteidigen!
 
 * Magazine
 * Sicherheitstrainings
@@ -352,7 +352,7 @@ Die Mission von [[hackbloc.org->https://hackbloc.org]] ist, Information zu unter
 * Mailinglisten
 * E-Mail
 
-h2. riseup.net
+### riseup.net
 
 https://riseup.net ist ein Projekt für demokratische Alternativen und praktische Selbstbestimmung durch Kontrolle unserer eigenen sicheren Kommunikationsmittel. Es ist ein kleines anarchistisches Technikkollektiv in Seattle.
 
@@ -362,9 +362,9 @@ https://riseup.net ist ein Projekt für demokratische Alternativen und praktisch
 * Chat
 * Etherpad
 
-h2. resist.ca
+### resist.ca
 
-[[resist.ca->http://resist.ca]] ist ein anarchistisches Technikkollektiv in Vancouver B.C.
+[resist.ca](http://resist.ca) ist ein anarchistisches Technikkollektiv in Vancouver B.C.
 
 * E-Mailkonten
 * Mailinglisten
@@ -373,44 +373,44 @@ h2. resist.ca
 * Aktivistisches Verzeichnis
 * News-Feeds
 
-h2. tao.ca
+### tao.ca
 
-[[tao.ca->http://tao.ca]] ist ein anarchistisches Technikkollektiv in Toronto, Canada.
+[tao.ca](http://tao.ca) ist ein anarchistisches Technikkollektiv in Toronto, Canada.
 
 * E-Mailkonten
 * Mailinglisten
 * Webseiten
 
 
-h1. In memoriam
+## In memoriam
 
 These projects are no longer active.
 
-h2. entodaspartes.org
+### entodaspartes.org
 
-[[entodaspartes->http://entodaspartes.org]] ist eine temporäre autonome Zone und gleichzeitig ein Werkzeug zum Erstellen, Verbreiten und Aufrechterhalten sozialer Strukturen basierend auf Freiheit und gegenseitiger Hilfe.
+[entodaspartes](http://entodaspartes.org) ist eine temporäre autonome Zone und gleichzeitig ein Werkzeug zum Erstellen, Verbreiten und Aufrechterhalten sozialer Strukturen basierend auf Freiheit und gegenseitiger Hilfe.
 
-h2. flag.blackened.net
+### flag.blackened.net
 
-[[flag.blackened.net->http://flag.blackened.net]] bietet Webhosting für Anarchist*innen seit 1997. flag bietet auch E-Mail und Listen für die anarchistische Gemeinschaft. Flag hosted über 50 anarchistische Seiten.
+[flag.blackened.net](http://flag.blackened.net) bietet Webhosting für Anarchist*innen seit 1997. flag bietet auch E-Mail und Listen für die anarchistische Gemeinschaft. Flag hosted über 50 anarchistische Seiten.
 
 * Webseiten
 * E-Mail
 * Listen
 
-h2. mutualaid.org
+### mutualaid.org
 
-[[mutualaid.org->http://mutualaid.org]] ist ein anarchistisches Technikkollektiv in New York, Moskau und Los Angeles.
+[mutualaid.org](http://mutualaid.org) ist ein anarchistisches Technikkollektiv in New York, Moskau und Los Angeles.
 
 * E-Mailkonten
 * Mailinglisten
 * Webseiten
 * Englisch, Russisch
 
-h2. Taharar!
+### Taharar!
 
-[[Taharar!->http://www.taharar.org]] (befreie dich selbst! auf Arabisch) ist ein autonomes Projekt zur Ermächtigung von Individuen, Kollektiven und Gruppen für soziale Gerechtigkeit in West-Asien und Nord-Afrika durch alternative Kommunikation und technische Dienste, Information, Resourcen und Unterstützung. Taharar!'s Vision ist es, digitale Zensur in West-Asien und Nord-Afrika zu bekämpfen mit  einem zugänglichen Pool von Resourcen in lokalen Sprachen (Arabisch, Farsi, Hebräisch, Kurdisch, etc.), die es Menschen ermöglichen, demokratische Alternativen zu schaffen - durch die Kontrolle eigener sicherer Kommunikationsmittel und indem freie und quelloffene Software und Technologie zur Verfügung gestellt wird.
+[Taharar!](http://www.taharar.org) (befreie dich selbst! auf Arabisch) ist ein autonomes Projekt zur Ermächtigung von Individuen, Kollektiven und Gruppen für soziale Gerechtigkeit in West-Asien und Nord-Afrika durch alternative Kommunikation und technische Dienste, Information, Resourcen und Unterstützung. Taharar!'s Vision ist es, digitale Zensur in West-Asien und Nord-Afrika zu bekämpfen mit  einem zugänglichen Pool von Resourcen in lokalen Sprachen (Arabisch, Farsi, Hebräisch, Kurdisch, etc.), die es Menschen ermöglichen, demokratische Alternativen zu schaffen - durch die Kontrolle eigener sicherer Kommunikationsmittel und indem freie und quelloffene Software und Technologie zur Verfügung gestellt wird.
 
-h2. Artikel-140.nl
+### Artikel-140.nl
 
-[[artikel-140.nl->https://artikel-140.nl]] ist ein junges autonomes Tech-Kollektiv für Privatssphäre und Sicherheit.
+[artikel-140.nl](https://artikel-140.nl) ist ein junges autonomes Tech-Kollektiv für Privatssphäre und Sicherheit.
