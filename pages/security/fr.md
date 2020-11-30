@@ -1,16 +1,16 @@
 @title = 'Sécurité'
 
-h1. Commencez ici
+## Commencez ici
 
 Peu de temps devant vous? Trop occupé-e pour résister à l'oppression généralisée ou pour tenter de bâtir un monde meilleur? Super! Nous croyons que votre aventure vers une meilleure sécurité informatique devrait commencer ici. Avec ces étapes faciles à réaliser, tout le monde peut réduire la vulnérabilité de leurs systèmes informatiques.
 
-# [[Adoptez une meilleure hygiène informatique vis à vis vos courriels => message-hygiene]]: La vaste majorité des attaques informatiques proviennent de votre boîte courriel. Apprenez à naviguer vos courriels et vos applications de messagerie avec prudence.
-# [[Utilisez un gestionnaire de mots de passe => passwords]]: En utilisant un gestionnaire de mots de passe, il est possible d'éliminer toute une catégorie d'attaques informatiques.
-# [[Chiffrez vos appareils => device-encryption]]: Le chiffrement de vos appareils est une fonctionnalité qui fait partie de votre système d'exploitation et qui est simple à mettre en place.
-# [[Adoptez de meilleures pratiques de naviguation sur le web => better-web-browsing]]: En changeant les paramètres par défaut de votre navigateur web et en installant certaines extensions, vous pouvez grandement améliorer votre sécurité sur le web.
-# [[Gardez vos programmes à jour => software-safety]]: Maintenir vos programmes à jour est une manière simple et efficace de rester en sécurité.
+1. [[Adoptez une meilleure hygiène informatique vis à vis vos courriels => message-hygiene]]: La vaste majorité des attaques informatiques proviennent de votre boîte courriel. Apprenez à naviguer vos courriels et vos applications de messagerie avec prudence.
+1. [[Utilisez un gestionnaire de mots de passe => passwords]]: En utilisant un gestionnaire de mots de passe, il est possible d'éliminer toute une catégorie d'attaques informatiques.
+1. [[Chiffrez vos appareils => device-encryption]]: Le chiffrement de vos appareils est une fonctionnalité qui fait partie de votre système d'exploitation et qui est simple à mettre en place.
+1. [[Adoptez de meilleures pratiques de naviguation sur le web => better-web-browsing]]: En changeant les paramètres par défaut de votre navigateur web et en installant certaines extensions, vous pouvez grandement améliorer votre sécurité sur le web.
+1. [[Gardez vos programmes à jour => software-safety]]: Maintenir vos programmes à jour est une manière simple et efficace de rester en sécurité.
 
-h1. Pourquoi la sécurité est importante
+## Pourquoi la sécurité est importante
 
 L'augmentation de l'importance de l'information et de la communication a apporté avec elle un autre phénomène : l'élévation d'une *société de surveillance*. Vous pouvez entendre par surveillance une tentative des lobbys pour [_maintenir leur dominance en insérant un contrôle de la communication_].
 
@@ -27,7 +27,7 @@ Même indirectement, la surveillance effrénée a un effet effrayant sur les mou
 
 Le principal du conflit contre la surveillance prend place à travers le système légal et nous applaudissons ceux qui travaillent dans cette arène. En contraste, Riseup se concentre sur la technologie. Dès lors que les lois sont injustes, nous croyons qu'une nouvelle réalité technique est nécessaire de manière à altérer les possibilités légales et politiques.
 
-h1. Survol des types de sécurité
+## Survol des types de sécurité
 
 <table class="table table-striped">
 <tr>

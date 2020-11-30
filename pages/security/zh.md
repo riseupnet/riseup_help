@@ -1,23 +1,23 @@
 @title = '通讯安全'
 @nav_title = '安全'
 
-h1. Start here
+## Start here
 
 Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+1. [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
+1. [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
+1. [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
+1. [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
+1. [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
 
-h1. 为什么安全性很重要
+## 为什么安全性很重要
 
-信息和通信的重要性日益增加也带来了另一种现象：*社会监视*的崛起。您可以把监控作为向[_maintain their dominance by asserting control over communication_]的一个强大进攻。
+信息和通信的重要性日益增加也带来了另一种现象：**社会监视**的崛起。您可以把监控作为向[_maintain their dominance by asserting control over communication_]的一个强大进攻。
 
-*国家* 通过推行基础设施来轻易地对整个社会控制重新规划，已对新的通信技术作出回应。不像早期的通信时代，目前的技术性质要求我们的信息要么在一定程度上挫败政府，要么是完全不安全，在一定程度上使广泛和详细的监视整个人口成为可能。
+**国家** 通过推行基础设施来轻易地对整个社会控制重新规划，已对新的通信技术作出回应。不像早期的通信时代，目前的技术性质要求我们的信息要么在一定程度上挫败政府，要么是完全不安全，在一定程度上使广泛和详细的监视整个人口成为可能。
 
-*公司* 已经发现，如果他们希望在一个信息丰富的世界保持竞争性，收集和分析海量个人数据是有必要的。尤其是，几乎所有的广告正在向基于监视跟踪我们的个人能习惯的方向转变。
+**公司** 已经发现，如果他们希望在一个信息丰富的世界保持竞争性，收集和分析海量个人数据是有必要的。尤其是，几乎所有的广告正在向基于监视跟踪我们的个人能习惯的方向转变。
 
 在这种情况下，安全通信已变得非常重要。
 
@@ -29,7 +29,7 @@ h1. 为什么安全性很重要
 
 许多反对监控的斗志通过法律制度产生，我们赞扬在这个领域工作的人。相比之下，Riseup的重点是技术。如果法律是不公正的，我们相信，为了改变法律和政治的可能性，一种新的技术实现是必要的。
 
-h1. 安全性概述
+## 安全性概述
 
 <table class="table table-striped">
 <tr>
@@ -39,22 +39,22 @@ h1. 安全性概述
 </tr>
 <tr>
   <td>[[human-security]]</td>
-  <td>Simple changes you can make to your *behavior*.</td>
-  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+  <td>Simple changes you can make to your <strong>behavior</strong>.</td>
+  <td>Helps prevent human error from being the <strong>weak link</strong> in any security system.</td>
 </tr>
 <tr>
   <td>[[device-security]]</td>
-  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
-  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+  <td>Steps to make your <strong>computer or phone</strong> less vulnerable to attack.</td>
+  <td>Useful to keep your device resistant to known attacks and whenever your device might <strong>physically</strong> fall into the hands of an attacker.</td>
 </tr>
 <tr>
   <td>[[message-security]]</td>
-  <td>Ways to encrypt *individual messages* you send and receive.</td>
-  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+  <td>Ways to encrypt <strong>individual messages</strong> you send and receive.</td>
+  <td>Required if you want to ensure the <strong>confidentiality</strong> of a particular message while stored and transmitted.</td>
 </tr>
 <tr>
   <td>[[network-security]]</td>
-  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
+  <td>Blocking sites that track you and encrypting your <strong>internet traffic</strong>.</td>
   <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
 </tr>
 </table>

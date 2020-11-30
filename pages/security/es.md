@@ -1,22 +1,22 @@
 @nav_title = 'Seguridad'
 
-h1. Start here
+## Start here
 
 Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+1. [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
+1. [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
+1. [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
+1. [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
+1. [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
 
-h1. ¿Por qué la privacidad importa?
+## ¿Por qué la privacidad importa?
 
-La creciente importancia de la información y la comunicación han traído consigo otro problema: el ascenso de una *sociedad vigilada*. Tú podrías pensar que la vigilancia proviene solo de los poderosos para [_mantener su dominio, afirmando su control sobre las comunicaciones_].
+La creciente importancia de la información y la comunicación han traído consigo otro problema: el ascenso de una **sociedad vigilada**. Tú podrías pensar que la vigilancia proviene solo de los poderosos para _mantener su dominio, afirmando su control sobre las comunicaciones_.
 
-Los *estados naciones* han respondido con nuevas tecnologías, buscando una infraestructura que puede ser fácilmente repropuesta a favor de un total control social. A diferencia de antiguas formas de comunicación, la naturaleza de la tecnología actual requiere que nuestra información también sea segura en dirección a frustrar gobiernos; o bien, ser totalmente insegura en una dirección, haciendo posible la difusión de un detallado monitoreo de la población entera.
+Los **estados naciones** han respondido con nuevas tecnologías, buscando una infraestructura que puede ser fácilmente repropuesta a favor de un total control social. A diferencia de antiguas formas de comunicación, la naturaleza de la tecnología actual requiere que nuestra información también sea segura en dirección a frustrar gobiernos; o bien, ser totalmente insegura en una dirección, haciendo posible la difusión de un detallado monitoreo de la población entera.
 
-Por otra parte, las *corporaciones* han descubierto que la recopilación y análisis masivo de grandes cantidades de información es necesaria si quieren permanecer competitivos en un mundo rico en información. En particular, cerca de todos los negocios publicitarios se están volcando a un sistema basado en la vigilancia y rastreo de nuestra conducta.
+Por otra parte, las **corporaciones** han descubierto que la recopilación y análisis masivo de grandes cantidades de información es necesaria si quieren permanecer competitivos en un mundo rico en información. En particular, cerca de todos los negocios publicitarios se están volcando a un sistema basado en la vigilancia y rastreo de nuestra conducta.
 
 En este contexto, las comunicaciones seguras se convierten en algo vitalmente importante.
 
@@ -28,7 +28,7 @@ Cuando la gente empieza a aprender sobre el incremento de la vigilancia, comienz
 
 Gran parte de la pelea contra la vigilancia toma lugar a través del sistema legal, y aplaudimos a aquellos que trabajan en esa área. Pero en contraste, el foco de Riseup es la tecnología. Cuando todas las leyes son injustas, creemos que una nueva realidad tecnológica es necesaria, en orden de alterar las posibilidades legales y políticas.
 
-h1. Descripción de seguridad.
+## Descripción de seguridad.
 
 <table class="table table-striped">
 <tr>
@@ -38,22 +38,22 @@ h1. Descripción de seguridad.
 </tr>
 <tr>
   <td>[[seguridad para humanos => human-security]]</td>
-  <td>Simples cambios que puedes hacer a tu *conducta*.</td>
-  <td>Ayuda a prevenir cualquier error humano al ser el *enlace débil* en cualquier sistema de seguridad.</td>
+  <td>Simples cambios que puedes hacer a tu <strong>conducta</strong>.</td>
+  <td>Ayuda a prevenir cualquier error humano al ser el <strong>enlace débil</strong> en cualquier sistema de seguridad.</td>
 </tr>
 <tr>
   <td>[[seguridad para dispositivos => device-security]]</td>
-  <td>Pasos para hacer tu *computador o teléfono* menos vulnerable a ser atacado.</td>
-  <td>Útil cuando tu dispositivo podría caer *físicamente* en manos de un atacante.</td>
+  <td>Pasos para hacer tu <strong>computador o teléfono</strong> menos vulnerable a ser atacado.</td>
+  <td>Útil cuando tu dispositivo podría caer <strong>físicamente</strong> en manos de un atacante.</td>
 </tr>
 <tr>
   <td>[[mensajería segura => message-security]]</td>
-  <td>Maneras de encriptar *mensajes individuales* cuando envías o recibes.</td>
-  <td>Asegurar la *confidencialidad* de un mensaje en particular cuando este es transmitido y almacenado.</td>
+  <td>Maneras de encriptar <strong>mensajes individuales</strong> cuando envías o recibes.</td>
+  <td>Asegurar la <strong>confidencialidad</strong> de un mensaje en particular cuando este es transmitido y almacenado.</td>
 </tr>
 <tr>
   <td>[[seguridad en la red => network-security]]</td>
-  <td>Bloqueando sitios que te rastrean y encriptando tu *tráfico en internet.</td>
+  <td>Bloqueando sitios que te rastrean y encriptando tu <strong>tráfico en internet</strong>.</td>
   <td>Protección contra el rastreo conductual, hijacking de cuentas, censura, mapeo en redes sociales, escuchas ilegales y avisos publicitarios.</td>
 </tr>
 </table>
@@ -61,8 +61,8 @@ h1. Descripción de seguridad.
 
 Riseup provee principalmente servicios, más que direcciones [[seguridad en la red => network-security]]:
 
-* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un *problema social* que afecta a todos, en todo momento.
+* Porque la vigilancia en la red es tan invasiva, que se ha vuelto un **problema social** que afecta a todos, en todo momento.
 * En contraste, la seguridad en los dispositivos, es importante para la gente que está siendo objetivo de las autoridades represivas.
-* Mejorar tu seguridad en la red es bastante *fácil*, en comparación a la seguridad en mensajería o dispositivos.
+* Mejorar tu seguridad en la red es bastante **fácil**, en comparación a la seguridad en mensajería o dispositivos.
 
 Habiendo dicho esto, es importante que las personas que son objetivo de la represión empleen la seguridad en dispositivos y mensajería. Aunque les podría tomar un poco de tiempo, estas páginas les ayudarán en el viaje.

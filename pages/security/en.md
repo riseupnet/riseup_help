@@ -1,25 +1,25 @@
 @title = 'Digital Security'
 @nav_title = 'Security'
 
-h1. Start here
+## Start here
 
 Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager you can protect yourself from a large number of possible threats.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on, built into your operating system, and protects data stored on your device.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do and makes your system much less vulnerable.
+1. [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
+1. [[Use a password manager => passwords]]: By using a password manager you can protect yourself from a large number of possible threats.
+1. [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on, built into your operating system, and protects data stored on your device.
+1. [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
+1. [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do and makes your system much less vulnerable.
 
-h1. Why security matters
+## Why security matters
 
-The increasing importance of information and communication has brought with it another phenomenon: the rise of a *surveillance society*. You can think of surveillance as an attempt by the powerful to [_maintain their dominance by asserting control over communication_].
+The increasing importance of information and communication has brought with it another phenomenon: the rise of a **surveillance society**. You can think of surveillance as an attempt by the powerful to _maintain their dominance by asserting control over communication_.
 
-*Nation states* have responded to new communications technology by pursuing an infrastructure that facilitates mass surveillance and can easily be re-purposed for total social control. Many governments also contract with unethical private corporations to track activists and break into their devices.
+**Nation states** have responded to new communications technology by pursuing an infrastructure that facilitates mass surveillance and can easily be re-purposed for total social control. Many governments also contract with unethical private corporations to track activists and break into their devices.
 
-*Corporations* have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
+**Corporations** have discovered that the gathering and analysis of massive amounts of personal data is necessary if they want to remain competitive in an information-rich world. In particular, nearly all advertising is shifting toward surveillance-based tracking of our personal behavior.
 
-*Criminals* have discovered that it is very lucrative to attack personal devices and cloud accounts to ransom data or blackmail the user.
+**Criminals** have discovered that it is very lucrative to attack personal devices and cloud accounts to ransom data or blackmail the user.
 
 In this context, digital security has become vitally important.
 
@@ -29,7 +29,7 @@ In this context, digital security has become vitally important.
 
 When people start to learn about the rise in surveillance they start to feel overwhelmed. Some decide that it is impossible to be secure, so they resign themselves to live under perpetual surveillance or to forsake all forms of digital communication. At Riseup, we believe there is a third way: our goal is to make a high degree of security easy and accessible for everyone.
 
-h1. Security overview
+## Security overview
 
 <table class="table table-striped">
 <tr>
@@ -39,30 +39,30 @@ h1. Security overview
 </tr>
 <tr>
   <td>[[human-security]]</td>
-  <td>Simple changes you can make to your *behavior*.</td>
-  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+  <td>Simple changes you can make to your <strong>behavior</strong>.</td>
+  <td>Helps prevent human error from being the <strong>weak link</strong> in any security system.</td>
 </tr>
 <tr>
   <td>[[device-security]]</td>
-  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
-  <td>Useful to keep your device resistant to known attacks and whenever your device might *physically* fall into the hands of an attacker.</td>
+  <td>Steps to make your <strong>computer or phone</strong> less vulnerable to attack.</td>
+  <td>Useful to keep your device resistant to known attacks and whenever your device might <strong>physically</strong> fall into the hands of an attacker.</td>
 </tr>
 <tr>
   <td>[[message-security]]</td>
-  <td>Ways to encrypt *individual messages* you send and receive.</td>
-  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+  <td>Ways to encrypt <strong>individual messages</strong> you send and receive.</td>
+  <td>Required if you want to ensure the <strong>confidentiality</strong> of a particular message while stored and transmitted.</td>
 </tr>
 <tr>
   <td>[[network-security]]</td>
-  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
+  <td>Blocking sites that track you and encrypting your <strong>internet traffic</strong>.</td>
   <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
 </tr>
 </table>
 
 Also, check out [[security resources => resources]] page for more links to security guides and activist providers.
 
-h1. Security Contact
+## Security Contact
 
-If you need to contact Riseup about a security related issue with your Riseup account, or with Riseup itself, please send us an [[encrypted email => https://riseup.net/en/about-us/contact#email]].
+If you need to contact Riseup about a security related issue with your Riseup account, or with Riseup itself, please send us an [encrypted email](https://riseup.net/en/about-us/contact#email).
 
 
