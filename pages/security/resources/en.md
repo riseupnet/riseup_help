@@ -1,50 +1,50 @@
 @title = "Security Resources"
 @nav_title = "Resources"
 
-h2. Alternative service providers
+## Alternative service providers
 
-Check out our list of [[radical server projects -> radical-servers]].
+Check out our list of [radical server projects](radical-servers).
 
-h2. Guides on digital security
+## Guides on digital security
 
-h4. Security guides for beginners
+#### Security guides for beginners
 
-* *[[Security Planner => https://securityplanner.org]]* from [[Citizen Lab => https://citizenlab.ca]] (Creative Commons: Attribution)
-* *[[Surveillance Self-defense => https://ssd.eff.org]]* from [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Attribution)
-* *[[Security In-a-box => https://securityinabox.org]]* from [[Tactical Technology Collective => https://tacticaltech.org/]] (Creative Commons: Attribution-ShareAlike)
-* *[[Digital First Aid => https://www.digitaldefenders.org/digitalfirstaid/]]* from [[Digital Defenders Partnership => https://www.digitaldefenders.org]] 
+* [Security Planner](https://securityplanner.org) from [Citizen Lab](https://citizenlab.ca) (Creative Commons: Attribution)
+* [Surveillance Self-defense](https://ssd.eff.org) from [Electronic Frontier Foundation](https://eff.org) (Creative Commons: Attribution)
+* [Security In-a-box](https://securityinabox.org) from [Tactical Technology Collective](https://tacticaltech.org/) (Creative Commons: Attribution-ShareAlike)
+* [Digital First Aid](https://www.digitaldefenders.org/digitalfirstaid/) from [Digital Defenders Partnership](https://www.digitaldefenders.org) 
 
-h4. Security guides for organizations
+#### Security guides for organizations
 
-* *[[Digital security checklists for US Non-profits => https://ecl.gy/sec-check]]* from [[Information Ecology => https://iecology.org]], by Jonah Silas Sheridan, Lisa Jervis (Creative Commons: Attribute-ShareAlike)
-* *[[SAFETAG => https://safetag.org/]]* from [[Internews => https://www.internews.org]]
+* [Digital security checklists for US Non-profits](https://ecl.gy/sec-check) from [Information Ecology](https://iecology.org), by Jonah Silas Sheridan, Lisa Jervis (Creative Commons: Attribute-ShareAlike)
+* [SAFETAG](https://safetag.org/) from [Internews](https://www.internews.org)
 
-h4. Security training material
+#### Security training material
 
-* *[[LevelUp => https://www.level-up.cc/]]* from an international network of security trainers (Creative Commons)
-* *[[Security Education Companion => https://sec.eff.org]]* from [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Attribution)
+* [LevelUp](https://www.level-up.cc/) from an international network of security trainers (Creative Commons)
+* [Security Education Companion](https://sec.eff.org) from [Electronic Frontier Foundation](https://eff.org) (Creative Commons: Attribution)
 
-h4. Software recommendations
+#### Software recommendations
 
-* [[PRISM Break => https://prism-break.org]] list of alternative software and services.
-* [[Secure Self Defense => https://ssd.eff.org/en/module/choosing-your-tools]] helps you learn how to pick tools.
+* [PRISM Break](https://prism-break.org) list of alternative software and services.
+* [Secure Self Defense](https://ssd.eff.org/en/module/choosing-your-tools) helps you learn how to pick tools.
 
-h4. Advanced security guides
+#### Advanced security guides
 
-* [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
-* [[Digital self defense guide -> https://guide.boum.org/]] (currently French language only, you can help translate).
-* [[Cryptoparty Handbook => https://www.cryptoparty.in/learn/handbook]].
-* FOSS Manual on [[Basic Internet Security -> http://write.flossmanuals.net/basic-internet-security/]].
+* [Getting started with Tails: The Amnesic Incognito Live System](https://tails.boum.org/doc/first_steps/index.en.html) (EN/DE/FR/PT).
+* [Digital self defense guide](https://guide.boum.org/) (currently French language only, you can help translate).
+* [Cryptoparty Handbook](https://www.cryptoparty.in/learn/handbook).
+* FOSS Manual on [Basic Internet Security](http://write.flossmanuals.net/basic-internet-security/).
 
-h4. Out of date
+#### Out of date
 
 These old guides are of historical significance and may sometimes even be useful.
 
-* [[Riseup Zine: Digital Security for Activists!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
-* [[security.resist.ca -> http://security.resist.ca]] Helping activists stay safe in our oppressive world.
-* [[APC Security Docs -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]] - a series of briefings on information security and online safety for civil society organizations from 2002
-* [[Guide to Email Security -> https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html]] Using Encryption and Digital Signatures from 2005
-* [[Computer Security for the Average Activist -> https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf]] A downloadable PDF.
-* [[An introduction to activism on the internet -> https://www.backspace.com/action/]].
-* FOSS Manual on [[Bypassing Internet Censorship -> http://booki.flossmanuals.net/bypassing-censorship/]] is a comprehensive 240 page guide to circumvention technologies from 2012.
-* [[Internet censorship wiki -> https://en.cship.org/wiki]] contains lots of information on circumventing internet censorship (currently only in English).
+* [Riseup Zine: Digital Security for Activists!](https://web.archive.org/web/20160306044630/https://zine.riseup.net/)
+* [security.resist.ca](http://security.resist.ca) Helping activists stay safe in our oppressive world.
+* [APC Security Docs](https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/) - a series of briefings on information security and online safety for civil society organizations from 2002
+* [Guide to Email Security](https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html) Using Encryption and Digital Signatures from 2005
+* [Computer Security for the Average Activist](https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf) A downloadable PDF.
+* [An introduction to activism on the internet](https://www.backspace.com/action/).
+* FOSS Manual on [Bypassing Internet Censorship](http://booki.flossmanuals.net/bypassing-censorship/) is a comprehensive 240 page guide to circumvention technologies from 2012.
+* [Internet censorship wiki](https://en.cship.org/wiki) contains lots of information on circumventing internet censorship (currently only in English).

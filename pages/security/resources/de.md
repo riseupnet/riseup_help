@@ -1,39 +1,39 @@
 @title = "Sicherheitstexte"
 @nav_title = "Textmaterial"
 
-h2. Alternative Diensteanbieter
+## Alternative Diensteanbieter
 
-Siehe unsere Liste [[radikaler Server Projekte -> radical-servers]] an.
+Siehe unsere Liste [radikaler Server Projekte](radical-servers) an.
 
-h2. Anleitungen zum Thema Sicherheit
+## Anleitungen zum Thema Sicherheit
 
-h4. empfohlene Software
+#### empfohlene Software
 
-* [[PRISM Break => https://prism-break.org]] Liste freier Software und Dienste
-* [[sichere Nachrichtenkommunikation von EFF => https://www.eff.org/secure-messaging-scorecard]].
+* [PRISM Break](https://prism-break.org) Liste freier Software und Dienste
+* [sichere Nachrichtenkommunikation von EFF](https://www.eff.org/secure-messaging-scorecard).
 
-h4. Anleitungen zum Einstieg
+#### Anleitungen zum Einstieg
 
-* [[Sicherheit in einer Nussschale -> https://https://securityinabox.org/]] enthält viele praktische Anleitungen von [[Front Line -> https://www.frontlinedefenders.org/]] und [[Tactical Technology Collective -> https://tacticaltech.org/]]
-* [[EFF-Anleitung für Überwachungs-Selbstverteidigung -> https://ssd.eff.org/]] (Englisch und zehn weitere Sprachen).
+* [Sicherheit in einer Nussschale -> https://https://securityinabox.org/]] enthält viele praktische Anleitungen von [Front Line ]( https://www.frontlinedefenders.org/) und [[Tactical Technology Collective](https://tacticaltech.org/)
+* [EFF-Anleitung für Überwachungs-Selbstverteidigung](https://ssd.eff.org/) (Englisch und zehn weitere Sprachen).
 
-h4. Fortgeschrittene Anleitungen
+#### Fortgeschrittene Anleitungen
 
-* [[Einstieg in Tails -> https://tails.boum.org/doc/first_steps/index.en.html]] (EN/DE/FR/PT).
-* [[Anleitung für digitale Selbstverteidigung -> https://guide.boum.org/]] (Französisch, bitte hilf' beim Übersetzen).
-* [[Handbuch für Cryptoparties => https://www.cryptoparty.in/learn/handbook]].
-* FOSS Anleitung über [[Grundlagen der Internetsicherheit -> https://www.flossmanuals.net/basic-internet-security/]]
+* [Einstieg in Tails](https://tails.boum.org/doc/first_steps/index.en.html) (EN/DE/FR/PT).
+* [Anleitung für digitale Selbstverteidigung](https://guide.boum.org/) (Französisch, bitte hilf' beim Übersetzen).
+* [Handbuch für Cryptoparties](https://www.cryptoparty.in/learn/handbook).
+* FOSS Anleitung über [Grundlagen der Internetsicherheit](https://www.flossmanuals.net/basic-internet-security/)
 
-h4. veraltet
+#### veraltet
 
 Diese alten Anleitungen haben historische Bedeutung und konnen unter Umständen noch von Nutzen sein.
 
-* [[Riseup Zine: Digitale Sicherheit für Aktivisti!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
-* [[security.resist.ca -> http://security.resist.ca]] hilft Aktivisti, in einer oppressiven Welt sicher zu bleiben.
-* [[APC Sicherheitsdokumente -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]] ist eine Serie von Anleitungen über Informationssicherheit und Online-Sicherheit für Bürgerrechtsorganisationen von 2002
-* [[Anleitung für E-Mail-Sicherheit -> https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html]] zum Nutzen von Verschlüsselung und digitale Signaturen von 2005
-* [[Computer-Sicherheit für durchschnittliche Aktivisti -> https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf]] (PDF).
-* [[Eine Anleitung über Aktivismus im Internet -> https://www.backspace.com/action/]]
-* FOSS Anleitung zum [[Umgehen von Internetzensur -> http://booki.flossmanuals.net/bypassing-censorship/]] ist eine umfassende 240-seitige Anleitung über Umgehungstechnologie von 2012.
-* [[Internetüberwachungs-Wiki -> https://en.cship.org/wiki]] enthält viele Informationen über das Umgehen von Internetzensur (Englisch).
+* [Riseup Zine: Digitale Sicherheit für Aktivisti!](https://web.archive.org/web/20160306044630/https://zine.riseup.net/)
+* [security.resist.ca](http://security.resist.ca) hilft Aktivisti, in einer oppressiven Welt sicher zu bleiben.
+* [APC Sicherheitsdokumente](https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/) ist eine Serie von Anleitungen über Informationssicherheit und Online-Sicherheit für Bürgerrechtsorganisationen von 2002
+* [Anleitung für E-Mail-Sicherheit](https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html) zum Nutzen von Verschlüsselung und digitale Signaturen von 2005
+* [Computer-Sicherheit für durchschnittliche Aktivisti](https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf) (PDF).
+* [Eine Anleitung über Aktivismus im Internet](https://www.backspace.com/action/)
+* FOSS Anleitung zum [Umgehen von Internetzensur](http://booki.flossmanuals.net/bypassing-censorship/) ist eine umfassende 240-seitige Anleitung über Umgehungstechnologie von 2012.
+* [Internetüberwachungs-Wiki](https://en.cship.org/wiki) enthält viele Informationen über das Umgehen von Internetzensur (Englisch).
 

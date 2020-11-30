@@ -1,50 +1,50 @@
 @title = "Recursos de segurança"
 @nav_title = "Recursos"
 
-h2. Provedores alternativos
+## Provedores alternativos
 
-Confira nossa lista de [[servidores radicais -> radical-servers]].
+Confira nossa lista de [servidores radicais](radical-servers).
 
-h2. Manuais de segurança digital
+## Manuais de segurança digital
 
-h4. Guias para iniciantes
+#### Guias para iniciantes
 
-* *[[Security Planner => https://securityplanner.org]]*, do [[Citizen Lab => https://citizenlab.ca]] (Creative Commons: Atribuição).
-* *[[Autodefesa contra Vigilância => https://ssd.eff.org/pt-br]]*, da [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Atribuição).
-* *[[Security in-a-Box - Ferramentas de Segurança Digital => https://securityinabox.org]]*, do [[Tactical Technology Collective => https://securityinabox.org/pt/]] (Creative Commons: Atribuição-CompartilhaIgual).
-* *[[Digital First Aid => https://www.digitaldefenders.org/digitalfirstaid/]]*, da [[Digital Defenders Partnership => https://www.digitaldefenders.org]].
+* [Security Planner](https://securityplanner.org), do [Citizen Lab](https://citizenlab.ca) (Creative Commons: Atribuição).
+* [Autodefesa contra Vigilância](https://ssd.eff.org/pt-br), da [Electronic Frontier Foundation](https://eff.org) (Creative Commons: Atribuição).
+* [Security in-a-Box - Ferramentas de Segurança Digital](https://securityinabox.org), do [Tactical Technology Collective](https://securityinabox.org/pt/) (Creative Commons: Atribuição-CompartilhaIgual).
+* [Digital First Aid](https://www.digitaldefenders.org/digitalfirstaid/), da [Digital Defenders Partnership](https://www.digitaldefenders.org).
 
-h4. Guias para organizações
+#### Guias para organizações
 
-* *[[Listas de itens importantes => https://ecl.gy/sec-check]]* em segurança digital para ONGs dos Estados Unidos, da [[Information Ecology => https://iecology.org]], por Jonah Silas Sheridan e Lisa Jervis (Creative Commons: Atribuição-CompartilhaIgual).
-* *[[SAFETAG => https://safetag.org/]]*, da [[Internews => https://www.internews.org]].
+* [Listas de itens importantes](https://ecl.gy/sec-check) em segurança digital para ONGs dos Estados Unidos, da [Information Ecology](https://iecology.org), por Jonah Silas Sheridan e Lisa Jervis (Creative Commons: Atribuição-CompartilhaIgual).
+* [SAFETAG](https://safetag.org/), da [Internews](https://www.internews.org).
 
-h4. Material de treinamento em segurança
+#### Material de treinamento em segurança
 
-* *[[LevelUp => https://www.level-up.cc/]]*, projeto de apoio a profissionais de treinamento em segurança (Creative Commons).
-* *[[Security Education Companion => https://sec.eff.org]]*, da [[Electronic Frontier Foundation => https://eff.org]] (Creative Commons: Atribuição).
+* [LevelUp](https://www.level-up.cc/), projeto de apoio a profissionais de treinamento em segurança (Creative Commons).
+* [Security Education Companion](https://sec.eff.org), da [Electronic Frontier Foundation](https://eff.org) (Creative Commons: Atribuição).
 
-h4. Recomendações de software
+#### Recomendações de software
 
-* Serviços e programas alternativos do [[PRISM Break => https://prism-break.org/pt/]].
-* [[Surveillance Self-Defense  => https://ssd.eff.org/en/module/choosing-your-tools]] te ajuda a aprender a como escolher suas ferramentas.
+* Serviços e programas alternativos do [PRISM Break](https://prism-break.org/pt/).
+* [Surveillance Self-Defense ](https://ssd.eff.org/en/module/choosing-your-tools) te ajuda a aprender a como escolher suas ferramentas.
 
-h4. Guias avançados
+#### Guias avançados
 
-* *[[Primeiros passos no Tails -> https://tails.boum.org/doc/first_steps/index.pt.html]]*.
-* *[[Guide d’autodéfense numérique -> https://guide.boum.org/]]*.
-* *[[Cryptoparty Handbook => https://www.cryptoparty.in/learn/handbook]]*.
-* *[[Basic Internet Security -> http://write.flossmanuals.net/basic-internet-security/]]*, um manual FOSS.
+* [Primeiros passos no Tails](https://tails.boum.org/doc/first_steps/index.pt.html).
+* [Guide d’autodéfense numérique](https://guide.boum.org/).
+* [Cryptoparty Handbook](https://www.cryptoparty.in/learn/handbook).
+* [Basic Internet Security](http://write.flossmanuals.net/basic-internet-security/), um manual FOSS.
 
-h4. Conteúdo desatualizado
+#### Conteúdo desatualizado
 
 Guias de importância histórica que ainda podem ser úteis.
 
-* [[*Riseup Zine*: Digital Security for Activists!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
-* [[*security.resist.ca*: helping activists stay safe in our oppressive world -> http://security.resist.ca]].
-* [[*APC Security Docs*: a series of briefings on information security and online safety for civil society organisations -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]], de 2002.
-* [[*Guide to Email Security*: Using Encryption and Digital Signatures -> https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html]], de 2005.
-* [[*Computer Security for the Average Activist* -> https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf]] (arquivo PDF).
-* [[*An Introduction to Activism on the Internet* -> https://www.backspace.com/action/]].
-* [[*Bypassing Internet Censorship* -> http://booki.flossmanuals.net/bypassing-censorship/]], um abrangente manual FOSS de 240 páginas sobre tecnologia anticensura, de 2012.
-* A [[*Internet Censorship Wiki* -> https://en.cship.org/wiki]] contém muitas informações sobre como contornar censura na internet.
+* [*Riseup Zine*: Digital Security for Activists!](https://web.archive.org/web/20160306044630/https://zine.riseup.net/)
+* [*security.resist.ca*: helping activists stay safe in our oppressive world](http://security.resist.ca).
+* [*APC Security Docs*: a series of briefings on information security and online safety for civil society organisations](https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/), de 2002.
+* [*Guide to Email Security*: Using Encryption and Digital Signatures](https://web.archive.org/web/20050619081430/http://www.activist.ca:80/guide/encrypt.html), de 2005.
+* [*Computer Security for the Average Activist*](https://web.archive.org/web/20110708111440/http://lists.madimc.org:80/~infoshop/PDF/compsecurity.pdf) (arquivo PDF).
+* [*An Introduction to Activism on the Internet*](https://www.backspace.com/action/).
+* [*Bypassing Internet Censorship*](http://booki.flossmanuals.net/bypassing-censorship/), um abrangente manual FOSS de 240 páginas sobre tecnologia anticensura, de 2012.
+* A [*Internet Censorship Wiki*](https://en.cship.org/wiki) contém muitas informações sobre como contornar censura na internet.

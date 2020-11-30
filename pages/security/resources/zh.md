@@ -1,26 +1,26 @@
 @title = "相关资源"
 @nav_title = "资源"
 
-h2. 其它服务供应商
+## 其它服务供应商
 
-查看我们的列表： [[激进的服务和项目 => radical-servers]]。
+查看我们的列表： [激进的服务和项目](radical-servers)。
 
-h2. 安全指南
+## 安全指南
 
 推荐：
 
-* EFF的[[《审查自卫指南》 => https://ssd.eff.org/]] （目前只有英文）
-* [[《数字自卫指南》 => https://guide.boum.org/]] （目前只有法语，您可以帮助翻译）
-* [[Security in-a-box => https://security.ngoinabox.org/]] 网站包含了许多实用指南，从 [[前线卫士 => https://www.frontlinedefenders.org/]]到 [[策略技术合集 => https://www.tacticaltech.org/]]
-* FOSS的手册 [[《绕过互联网审查》 => http://booki.flossmanuals.net/bypassing-censorship/]] 是一本全面的240页的指南，教你规避当前的审查技术
-* FOSS的手册 [[《基本的互联网安全》 => http://write.flossmanuals.net/basic-internet-security/]]
-* [[互联网审查维基 => https://en.cship.org/wiki]] 含有大量规避互联网审查的信息（目前只有英文）
-* [[Riseup爱好者杂志：活动家的数字安全！=>https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
+* EFF的[《审查自卫指南》](https://ssd.eff.org/) （目前只有英文）
+* [《数字自卫指南》](https://guide.boum.org/) （目前只有法语，您可以帮助翻译）
+* [Security in-a-box](https://security.ngoinabox.org/) 网站包含了许多实用指南，从 [前线卫士 => https://www.frontlinedefenders.org/]]到 [[策略技术合集](https://www.tacticaltech.org/)
+* FOSS的手册 [《绕过互联网审查》](http://booki.flossmanuals.net/bypassing-censorship/) 是一本全面的240页的指南，教你规避当前的审查技术
+* FOSS的手册 [《基本的互联网安全》](http://write.flossmanuals.net/basic-internet-security/)
+* [互联网审查维基](https://en.cship.org/wiki) 含有大量规避互联网审查的信息（目前只有英文）
+* [Riseup爱好者杂志：活动家的数字安全！](https://web.archive.org/web/20160306044630/https://zine.riseup.net/)
 
 已过时，但可能有用：
 
-* [[security.resist.ca => http://security.resist.ca]] 帮助活动家在压迫的世界里保持安全
-* [[APC安全文档 => http://secdocs.net/manual/lp-sec/]] 一系列关于信息安全和网络安全民间社会组织的简报
-* [[电子邮件安全指南 => http://www.activist.ca/guide/encrypt.html]] 使用加密和数字签名
-* [[一般活动家的计算机安全 => http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf]] 可下载的 PDF文件
-* [[互联网激进主义介绍 => https://www.backspace.com/action/]]
+* [security.resist.ca](http://security.resist.ca) 帮助活动家在压迫的世界里保持安全
+* [APC安全文档](http://secdocs.net/manual/lp-sec/) 一系列关于信息安全和网络安全民间社会组织的简报
+* [电子邮件安全指南](http://www.activist.ca/guide/encrypt.html) 使用加密和数字签名
+* [一般活动家的计算机安全](http://lists.madimc.org/~infoshop/PDF/compsecurity.pdf) 可下载的 PDF文件
+* [互联网激进主义介绍](https://www.backspace.com/action/)
