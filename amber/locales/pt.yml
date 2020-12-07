@@ -56,7 +56,7 @@ pt:
   bitcoin_description: "Bitcoin é uma criptomoeda eletrônica descentralizada e peer-to-peer. Bitcoin é também uma forma gratuíta de mandar dinheiro para o exterior. Se você gostaria de usar bitcoins para enviar dinheiro para o Riseup, nós vamos gerar um novo endereço exclusivo para a sua doação. Apenas clique no botão abaixo para usar um novo endereço."
   grab_address: "Consiga um endereço"
   generate: "Gerar"
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Funciona em muitos países."
   paypal_description: "Paypal aceita cartões de crédito e doações recorrentes (para doações recorrentes é necessária uma conta no PayPal)."
