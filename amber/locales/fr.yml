@@ -77,7 +77,7 @@ fr:
   bcash_description: |
     BCash est une fourche complète de Bitcoin et est parfois appelée Bitcoin Cash.
     BCash n'est pas Bitcoin. Si vous envoyez des Bitcoins à une address BCash, l'argent sera à jamais perdu.
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Fonctionne dans plusieurs pays différents."
   paypal_description: "Paypal accepte les cartes de crédit et supporte les dons récurrent. Pour des dons récurrents, il est nécessaire d'avoir un compte PayPal."

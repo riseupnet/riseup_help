@@ -77,7 +77,7 @@ en:
   bcash_description: |
     BCash a hard fork of Bitcoin and is sometimes called Bitcoin Cash.
     BCash is not Bitcoin. If you send Bitcoin to a BCash address, the money will be lost forever.
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Works from many countries."
   paypal_description: "Paypal accepts credit cards and supports recurring donations (for recurring donations, a PayPal account is required)."

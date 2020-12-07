@@ -54,7 +54,7 @@ it:
   bitcoin_description: "Bitcoin è una crypto-valuta elettronica decentralizzata peer-to-peer. Bitcoin è anche un modo per spedire soldi oltreoceano gratuitamente. Se vuoi usare bitcoin per inviare soldi a riseup, genereremo un nuovo indirizzo bitcoin univoco dedicato a te ed alle tue donazioni. E sufficiente che tu faccia click sul tasto qui sotto per avere un nuovo indirizzo bitcoin da utilizzare."
   grab_address: "Prendi un indirizzo"
   generate: "Genera"
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Utilizzabile da molte nazioni."
   paypal_description: "Paypal accetta le carte di credito e supporta le donazioni ricorrenti (per le donazioni ricorrenti è necessario possedere un account PayPal)."
