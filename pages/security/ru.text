@@ -1,15 +1,16 @@
 @title = 'Безопасность коммуникации'
 @nav_title = 'Безопасность'
 
-h1. Start here
+h1. Начало
 
-Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+Постоянный цейтнот? Слишком занят борьбой с угнетением или строишь лучшую версию мира? Супер! Вот несколько простых шагов, с помощью которых любой человек сможет сделать свой цифровой мир менее уязвимым
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+# [[Цифровая гигиена предже всего => message-hygiene]]: Подавляющее большинство атак приходится на почтовый ящик. Узнайте и научитесь осторожному обращению с электронными письмами и почтовыми программами.
+# [[Используйте менеджер паролей => passwords]]: Используя менеджер паролей, вы устраните широкий класс возможных атак.
+# [[Включите шифрование устройства => device-encryption]]: Шифрование устройства легко включается и встроено в операционную систему.
+# [[Прокачайте браузер => better-web-browsing]]: Вы можете серьезно улучшить безопасность и удобство работы в интернете, всего лишь изменив настройки по умолчанию вашего браузера и установив несколько расширений для него.
+# [[Держите ваше программное обеспечение в актуальном состоянии => software-safety]]: Своевременная установка обновлений программ простая процедура весьма повышающая безопасность
+.
 
 h1. Почему безопасность имеет значение
 
