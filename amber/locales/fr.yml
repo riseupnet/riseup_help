@@ -77,7 +77,7 @@ fr:
   bcash_description: |
     Bitcoin Cash est une fourche complète de Bitcoin.
     Bitcoin Cash n'est pas Bitcoin. Si vous envoyez des Bitcoins à une address Bitcoin Cash, l'argent sera à jamais perdu.
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Fonctionne dans plusieurs pays différents."
   paypal_description: "Paypal accepte les cartes de crédit et supporte les dons récurrent. Pour des dons récurrents, il est nécessaire d'avoir un compte PayPal."

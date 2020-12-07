@@ -74,7 +74,7 @@ de:
 
   bcash: "Bitcoin Cash"
   bcash_description: "Bitcoin Cash ist eine Abspaltung (hard fork) von Bitcoin. Bitcoin Cash und Bitcoin sind zwei verschiedene Währungen! Bitcoins, die an eine Bitcoin Cash-Adresse übertragen werden, sind unwiederbringlich verloren."
-
+  liberapay: "Liberapay"
   paypal: "Paypal"
   paypal_note: "Funktioniert in vielen Ländern der Welt"
   paypal_description: "Paypal akzeptiert Kreditkarten und unterstützt Daueraufträge (für Daueraufträge ist ein Paypal-Konto nötig)."
