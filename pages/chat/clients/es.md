@@ -1,0 +1,47 @@
+@title = "Clientes XMPP"
+@summary = "Configurando clientes de XMPP para usar con el servicio de chat de Riseup."
+
+<p class=“alert alert-info”>Por favor ayúdanos actualizando esta página probando diferentes clientes.</p>
+
+## Características que buscar
+
+- **OTR?** Si tiene, este cliente ha sido diseñado con soporte para OTR (Off-the-Record Messaging) que proporciona chat con cifrado punto-a-punto y posee secreto-perfecto-adelante.
+- **[OMEMO](https://conversations.im/omemo/)?** | If yes, this client has support for end-to-end encryption that supports multiple clients and offline chats.
+- **Jingle?** Si tiene, este cliente puede ser usado para voz o video chat.
+- **Proxy?** Si tiene, este cliente puede conectarse a través de un proxy y el cliente funcionara con la configuración del proxy.
+- **SSL/TLS?** Si tiene, este cliente soporta conexiones seguras con el proveedor del chat.
+- **Tor?** Si tiene, este cliente puede usar correctamente Tor para eludir la censura y acceder a servicios anónimamente. Si no tiene, entonces el cliente *no debería usarse con Tor*.
+- **[[MUC]]?** If yes, this client can be used for Multi-User Chat (chatrooms XEP-0045)
+
+## Clientes recomendados
+
+| Cliente                                          | SO soportado                              | OTR? | OMEMO? | Jingle?      | Proxy? | SSL/TLS? | Tor? | MUC? | Comentarios                                                                                      |
+|--------------------------------------------------|-------------------------------------------|------|--------|--------------|--------|----------|------|------|--------------------------------------------------------------------------------------------------  |
+| [Gajim](https://gajim.org)                       | GNU/Linux, Windows, FreeBSD               | No   | *Si*   | *Si*         | *Si*   | *Si*     | *Si* | *Si* | Código abierto. Buen cliente de XMPP escrito en python.                                          |
+| [Gajim 0.16.x](https://gajim.org)                | GNU/Linux, Windows, FreeBSD               | *Si* | No     | *Si*         | *Si*   | *Si*     | *Si* | *Si* | Código abierto. Buen cliente de XMPP escrito en python.                                          |
+| [Psi](https://psi-im.org)                        | GNU/Linux, Windows, macOS                 | *Si* | *Si*   | *Si* (Linux) | *Si*   | *Si*     | *Si* | *Si* | Código abierto. Aplicación nativa estable.                                                       |
+| [Psi+](https://psi-plus.com)                     | GNU/Linux, Windows, macOS, Haiku, FreeBSD | *Si* | *Si*   | *Si* (Linux) | *Si*   | *Si*     | *Si* | *Si* | Código abierto. Aplicación nativa estable.                                                       |
+| [CoyIM](https://coy.im)                          | GNU/Linux, Windows, macOS                 | *Si* | No     | No           | *Si*   | *Si*     | *Si* | No   | Open source. Secure-by-default chat client for GNOME. Has built-in support for Tor, OTR and TLS. |
+| [ChatSecure](https://chatsecure.org)             | Android, F-Droid, iOS                     | *Si* | *Si*   | No           | *Si*   | *Si*     | *Si* | ?    | Código abierto. Soporte nativo de Tor.                                                           |
+| [Conversations](https://conversations.im)        | Android                                   | No   | *Si*   | No           | *Si*   | *Si*     | *Si* | *Si* | Open source. A very good chat client for Android. Supports encrypted group chats!                |
+| [Conversations Legacy](https://conversations.im) | Android                                   | *Si* | No     | No           | *Si*   | *Si*     | *Si* | *Si* | Open source. A very good chat client for Android. Supports encrypted group chats!                |
+
+## Otros clientes
+
+| Cliente                                             | SO soportado              | OTR?          | OMEMO?        | Jingle?      | Proxy? | SSL/TLS? | Tor?    | MUC? | Comentarios                                                                                                                |
+|-----------------------------------------------------|---------------------------|---------------|---------------|--------------|--------|----------|---------|------|----------------------------------------------------------------------------------------------------------------------------|
+| [[Adium]]                                               | macOS                     | *Si*          | *Si* (Plugin) | No           | *Si*   | *Si*     | Parcial | ?    | Código abierto. Buena integración de Pidgin para Mac, pero rara vez actualiza libpurple. Fuga de información de DNS y URL. |
+| [Jitsi](https://jitsi.org)                          | GNU/Linux, Windows, macOS | *Si*          | No            | *Si*         | ?      | ?        | ?       | ?    | Código abierto. Escrito en Java.                                                                                           |
+| [Miranda](https://miranda-im.org)                   | Windows                   | *Si*          | No            | No           | ?      | ?        | ?       | ?    | Código abierto. Cliente estable con muchos plugins.                                                                        |
+| [Miranda NG](https://miranda-ng.org)                | Windows                   | *Si*          | No            | No           | ?      | ?        | ?       | ?    | Código abierto. Cliente estable con muchos plugins.                                                                        |
+| [[Pidgin]]                                              | GNU/Linux, Windows, macOS | *Si* (Plugin) | *Si* (Plugin) | *Si* (Linux) | *Si*   | *Si*     | *Si*    | ?    | Código abierto. Estable con muchas características. Utilice la versión más actual.                                         |
+| [Spark](https://igniterealtime.org/projects/spark/) | GNU/Linux, Windows, macOS | *Si*          | No            | *Si*         | ?      | ?        | ?       | ?    | Codigo abierto. Alguien lo ha probado? Escrito en Java.                                                                    |
+
+## Clientes que evitar
+
+| Cliente                                   | Supported OS | OTR? | OMEMO? | Jingle? | Proxy?       | SSL/TLS?     | Tor? | MUC? | Comentarioss                                                                  |
+|-------------------------------------------|--------------|------|--------|---------|--------------|--------------|------|------|-------------------------------------------------------------------------------|
+| [Beem](https://beem-project.com)          | Android      | No   | No     | No      | ?            | ?            | ?    | ?    | Código abierto. App estable nativa para android. No soporta salas.            |
+| [Empathy](https://live.gnome.org/Empathy) | GNU/Linux    | No   | No     | *Si*    | *Si* (GNOME) | *Si* (GNOME) | ?    | ?    | Código abierto. Estable y fácil de usar.                                      |
+| [iChat](https://www.apple.com)            | macOS        | No   | No     | No      | ?            | ?            | ?    | ?    | Aplicación integrada de chat de Apple tiene soporte para XMPP, pero limitado. |
+| [Pandion](https://pandion.im)             | Windows      | No   | No     | No      | ?            | ?            | ?    | ?    | Código abierto. Buen cliente estable de XMPP en windows.                      |
