@@ -1,0 +1,30 @@
+@title = 'Télécharger mes courriels'
+
+h2. Comment puis-je télécharger mes courriels ?
+
+La messagerie web et le protocole IMAP [[email/clients]] laissent vos messages sur le serveur tant que vous ne les supprimez pas explicitement. Pour libérer de l'espace tout en conservant vos messages, vous devez les copier du serveur vers un dossier local. Ne vous inquiétez pas si votre quota n'est pas mis à jour tout de suite : quand vous supprimez des messages, l'information du quota d'utilisation n'est mise à jour que lorsque vous recevez un nouveau message.
+
+Le procédé dépend de l'interface de votre client de messagerie. Si vous utilisez [[Thunderbird]] lisez ce qui suit, sinon référez-vous à la documentation de votre client de messagerie pour plus de détails.
+
+h3. Si vous utilisez Thunderbird suivez ces étapes
+
+* Dans le panneau de gauche, il y a un dossier *Dossiers locaux*. Tout ce qui est stocké dans cette section est conservé sur votre ordinateur et pas sur le serveur de riseup.net.
+
+* Pour créer un nouveau dossier local, choisissez le menu *Fichier* > *Nouveau* > *Dossier...*.  Choisissez de créer votre dossier comme un sous-dossier de *Dossiers locaux*.
+
+* Retournez sur votre boite de réception riseup.net. A partir d'ici, sélectionner certains ou tous les messages de votre boite de réception. Vous pouvez utiliser la fonction de recherche et les sélectionner tous, ou choisir une sélection manuellement. 
+
+* Choisissez le menu *Messages* > *Déplacer le message vers* > *Dossiers locaux* > *Nom du dossier*, où *Nom du dossier* est le nom du nouveau dossier que vous venez de créer. Ou vous pouvez également glisser-déposer les messages sélectionnés dans le nouveau dossier.
+
+* Pour copier des dossiers entiers, vous pouvez les glisser-déposer dans *Dossier locaux*.
+
+h3. Une autre méthode est d'utiliser squirrelmail pour télécharger une archive de vos messages
+
+* Connectez-vous à https://mail.riseup.net, en choisissant la page *squirrelmail*
+* Configurez le format de l'archive en choisissant *Options* > *Archive Settings*.
+* Retournez dans le dossier contenant les messages que vous souhaitez télécharger.
+* Cochez les cases des messages que vous souhaitez archiver.
+* Téléchargez une archive en cliquant sur le bouton *Archive* en bas à droite de la liste des messages.
+* Cela va créer une archive de tous les messages visibles actuellement. Si vous voulez archiver tous vos messages, vous devez cliquer sur *Show All* d'abord.
+* Notez que vous ne pouvez pas archiver trop de messages en une seule fois: le script serveur sera à court de mémoire et échouera.
+* Archiver des messages avec squirremail ne les supprime pas: vous devez toujours supprimer les messages pour les enlever du serveur.
