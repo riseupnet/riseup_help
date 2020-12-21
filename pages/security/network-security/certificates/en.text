@@ -39,7 +39,7 @@ Before you continue, please make sure you have [[selected a good keyserver -> /g
 
 On the terminal (press *Alt+F2* and enter @gnome-terminal@), import Riseup's public OpenPGP key from a keyserver:
 
-<code>gpg --keyserver keys.riseup.net --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
+<code>gpg --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
 <code>gpg --fingerprint 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
 
 The first line will import the key into your keyring, but there is no guarentee that you actually imported the right key. The <code>--fingerprint</code> command allows you to see the fingerprint of the key and actually confirm you imported the correct key. You should see output that contains this line:
