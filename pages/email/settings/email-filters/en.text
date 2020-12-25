@@ -4,8 +4,8 @@ h2. How do I edit my email filters?
 
 # You will first want to make sure that whatever folders you want to filter to already exist. You can create a new folder in your mail client or in webmail.
 # Login to https://account.riseup.net with your riseup username and password.
-# Click on *Email* (on the left side of the screen).
-# Click on the *Mail Filters* tab
+# Click on *Mail Settings* (on the left side of the screen).
+# Click on the *Filters* tab
 # From this screen, you can change the order of your email filters, edit or remove existing filters, or add new filters. To edit an existing filter, click on it, and you will be brought to a screen where you can add new conditions, remove conditions, or edit existing ones.
 
 h2. How do I set up a filter for a nested folder?
@@ -19,9 +19,9 @@ h2. How do I block an email address?
 If you are receiving harassing email or spam and want to ensure that a particular email address is automatically deleted, you can follow these steps:
 
 # Login to https://account.riseup.net with your riseup username and password.
-# Click on *Email* (on the left side of the screen).
-# Click on the *Mail Filters* tab
-# Click on *Add filter*
+# Click on *Mail Settings* (on the left side of the screen).
+# Click on the *Filters* tab
+# Click on *Add New Filter*
 # Name the filter whatever you'd like, e.g. "Move to trash"
 # Under the *messages matching* section, select *From* and *Contains* and then type the email address, e.g. "george_bush@whitehouse.gov"
 # In the *Will be placed in folder* field type "Trash" (*case sensitive*- do not use "trash" or "TRASH" or it will not work).
@@ -36,10 +36,9 @@ h2. How do I automatically allow email to pass through my spam filter?
 If there is a particular email that always gets sorted into your spam box and you want to ensure that it does not happen in the future, follow these steps:
 
 # Login to https://account.riseup.net with your riseup username and password.
-# Click on the <b>Email</b> (on the left side of the screen).
-# Click on <b>Spam Settings</b> tab.
-# If you have not already done so, click the button that says <b>Enable Custom Spam Settings</b>.
-# Now scroll down all the way to <b>Allow List</b>. Add the email address that you want to allow through your spam filter and click <b>Save Changes</b>.
+# Click on the *Mail Settings* (on the left side of the screen).
+# Click on *Spam Settings* tab.
+# Now scroll down all the way to *Allow List*. Add the email address that you want to allow through your spam filter and click *Save Changes*.
 
 h2. Can I set up an automatic out-of-office reply?
 
@@ -50,10 +49,10 @@ When turned on, automated replies will be sent for all incoming messages. Each r
 To enable out-of-office replies:
 
 # Login to https://account.riseup.net with your riseup username and password.
-# Click on <b>Mail Settings</b> (on the left side of the screen).
-# Click on the <b>Vacation</b> tab.
+# Click on *Mail Settings* (on the left side of the screen).
+# Click on the *Vacation* tab.
 # Compose an out-of-office message
-# Switch the <b>Vacation automatic response</b> setting to "On".
-# Click on the green <b>Save</b> button.
+# Switch the *Vacation automatic response* setting to "On".
+# Click on the green *Save* button.
 
 !out-of-office.png!
