@@ -121,3 +121,4 @@ about-us
   politics
   press
   projects
+  propaganda
