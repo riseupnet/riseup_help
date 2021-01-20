@@ -2,8 +2,9 @@
 
 <div class="embed-responsive embed-responsive-16by9">
   <video controls="" poster="https://static.riseup.net/bird_pt.jpeg" class="embed-responsive-item">
-      <source src="https://static.riseup.net/Riseup-PT-720p.mp4 " type="video/mp4">
-      <track label="Português" kind="subtitles" srclang="pt" src="https://static.riseup.net/riseup.pt-br.vtt">
+      <source src="https://static.riseup.net/Riseup-PT-720p.mp4" type="video/mp4">
+      <source src="https://static.riseup.net/Riseup-PT-720p.webm" type="video/webm">
+      <track label="Português" kind="subtitles" srclang="pt" src="https://static.riseup.net/riseup.pt-br.vtt" default>
       Your browser does not support the video tag.
   </video>
 </div>
