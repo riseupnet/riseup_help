@@ -56,8 +56,8 @@ en:
   bitcoin: "Bitcoin"
   bitcoin_note: "Digital currency"
   bitcoin_description: "Bitcoin is a decentralized peer-to-peer electronic cryptocurrency."
-  non_segwit_description: "These are old style addresses, backward compatible with all wallets."
-  segwit_description: "These are new style Bech32 addresses, only compatible with some wallets."
+  non_segwit_description: "You can use the address you generated to send us bitcoin."
+  segwit_description: "You can use the address you generated to send us bitcoin."
 
   grab_address: "Grab a new address"
   generate: "Generate"

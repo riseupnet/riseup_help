@@ -23,13 +23,6 @@
     %table.table.donation
       %tr
         %td
-          %b= t :grab_address
-        %td
-          %form(action="/new-address/btc" method="post")
-            %input(type="submit" value="#{t :generate}")
-        %td= t :non_segwit_description
-      %tr
-        %td
           %b
             = t :grab_address
             (SegWit)
