@@ -4,6 +4,7 @@
   <video controls="" poster="https://static.riseup.net/bird_fr.jpeg" class="embed-responsive-item">
       <source src="https://static.riseup.net/Riseup-FR-720p.mp4 " type="video/mp4">
       <source src="https://static.riseup.net/Riseup-FR-720p.webm" type="video/webm">
+      <track label="Français" kind="subtitles" srclang="fr" src="riseup.fr.vtt" default>
       Your browser does not support the video tag.
   </video>
 </div>
