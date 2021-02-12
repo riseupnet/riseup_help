@@ -47,8 +47,6 @@ If your onion service does use TLS, make sure that it does not send a certificat
 
 h3. Onion services and Rails 4
 
-NOTE: the "secure cookie" bug in the Tor browser has been fixed for newer versions. This means that cookies with the secure flag will be correctly sent back to .onion addresses. You should still follow this tutorial to turn off HTTPS for .onion addresses, but you can now globally turn on the cookie secure flag for both the .onion and https versions of your website.
-
 In order to get a .onion site to play nice with rails, and have the site also work over HTTPS when not using the .onion, you need change a few defaults.
 
 The first thing that must be changed is to not use the [@config.force_ssl = true@] option. This option is the default for rails apps in production. This setting forces secure cookies and forces HSTS. Change [@my_rails_app/config/environments/production.rb@] to be:
