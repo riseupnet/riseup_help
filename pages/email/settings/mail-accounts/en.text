@@ -2,9 +2,9 @@
 
 h2. How do I create an email account?
 
-"Red Accounts" are needed for email, chat, VPN and the help desk.
+An account is needed for email, chat, VPN and the help desk.
 
-In order to create a Red Account you will need an invite:
+In order to create an account you will need an invite:
 
 # Obtain an *Invite Code* from a friend who trusts you. Invites Codes can be created by logging into https://account.riseup.net
 # Use the *Invite Code* by visiting https://account.riseup.net to create your account.
@@ -14,6 +14,7 @@ Some remarks:
 * You only need one Invite.
 * Newly created accounts are not able to create Invite Codes.
 * Due to the numerous requests by spammers and scammers to get Riseup accounts, we are forced to use Invite Codes for all new accounts. We know that this sucks. Because we do not require a phone number or billing information, we need some alternate way to prevent abuse.
+* Invite codes are connected to the person who invited you, for a period of time. The person who invited you is responsible for inviting you.
 
 h2. How do I change my username?
 
