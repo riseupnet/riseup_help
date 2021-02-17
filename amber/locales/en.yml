@@ -73,6 +73,9 @@ en:
   faircoin: "FairCoin"
   faircoin_description: "FairCoin is run by a non-profit network of radical activists, propagates the non-speculative values of the solidarity economy, and uses less electricity than other cryptocurrencies."
 
+  ethereum: "Ethereum"
+  ethereum_description: "Ethereum is a decentralized, smart contract system. Ether is the native cryptocurrency of the platform. Ethereum intends to cut its energy costs significantly."
+
   bcash: "Bitcoin Cash"
   bcash_description: |
     Bitcoin Cash a hard fork of Bitcoin.

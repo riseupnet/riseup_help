@@ -53,17 +53,15 @@
       46qB9tcR1feVZ7xq42tx8V8sLbYdnFdGf6EndL1fCPRuUXroufYGzzCFtZwrjkthAc8C65xBpmWCYAR1KKBXykF76GADvYE
 
 .panel.panel-default
-  %h2.hidey= t :faircoin
+  %h2.hidey= t :ethereum
   .panel-heading
-    %strong#faircoin
-      <img src="img/faircoin.png">
-      FairCoin (FAIR)
+    %strong#ethereum
+      <img src="img/eth.png">
+      Ethereum (ETH)
   .panel-body
-    %p= t :faircoin_description
+    %p= t :ethereum_description
     .donation
-      %form(action="/new-address/fair" method="post")
-        %b= t :grab_address
-        %input(type="submit" value="#{t :generate}")
+      0x3555180D8233AEd20bCA9f1958dDb9edBB287f7a
 
 .panel.panel-default
   %h2.hidey= t :bcash
