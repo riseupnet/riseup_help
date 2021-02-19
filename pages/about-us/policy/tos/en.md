@@ -23,7 +23,7 @@ You may not engage in the following activities through the services provided by 
 * Harassing or abusing others by engaging in threats, stalking or sending spam. This includes usernames, aliases or using any of our resources for this purpose.
 * Misuse of services by distributing viruses or malware, engaging in a denial of service attack, or attempting to gain unauthorized access to any computer system, including this one.
 * Contributing to the abuse of others by distributing material where the production process created violence or sexual assault against persons.
-* Giving invites to people you do not know, or trust. Your account will be terminated if someone you invited causes problems.
+* Do not trade, sell, publicly give away, or publicly offer invites to people you don't know.
 
 ## Account Termination
 
