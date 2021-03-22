@@ -64,7 +64,8 @@ en:
 
   zcash: "Zcash"
   zcash_note: "Anonymous digital currency"
-  zcash_description: "Zcash is a cryptocurrency similar to Bitcoin, but with the added benefit of anonymity."
+  zcash_description: "Zcash is a cryptocurrency featuring optional user anonymity, optional
+transaction amount anonymity, and low transaction fees. We accept donations via a public, unshielded t-address. You may donate to this address from either a public t- or shielded z-address, but please note that your identity and transaction amount will only be hidden from your egress if you send your donation from a z-address."
 
   monero: "Monero"
   monero_note: "Private and censorship-resistant currency"
