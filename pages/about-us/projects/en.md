@@ -24,7 +24,7 @@ In order to help other technology collectives get established, we provide free s
 
 Riseup provides very affordable, secure, and reliable server co-location on a sliding scale basis, based on need. We host about 30 servers, including servers from social justice movement organizations in the US, UK, Germany, France, Italy, Mexico, Brazil, and Canada.
 
-## Supporting TOR
+## Supporting Tor
 
 Tor is a system designed to enable online anonymity through a network of servers that can hide information about users that may identify them. When you use tor, it is much harder to trace internet traffic to a particular user. It is well known that Tor provides a vitally important service to many, be they activists under surveillance, whistle blowers, journalists, dissidents facing state repression, those wishing to evade censorship, abuse victims, or just regular people who just don't want their privacy breached by unscrupulous corporate entities betraying the trust of the commons through advertising profiling.
 

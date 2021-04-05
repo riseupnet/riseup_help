@@ -24,7 +24,7 @@ Dans le but d'aider d'autres collectifs à s'établir, nous fournissons des serv
 
 Riseup fourni des espaces pour la colocation pour vos serveurs très abordable, sécurisé et fiable selon vos besoins. Nous accueillons environs 30 serveurs, en incluant des serveurs pour les organisations du mouvement pour la justice sociale aux États-Unis, au Royaume-Uni, en Allemagne, en France, en Italie, au Mexique, au Brésil et au Canada.
 
-## Aider TOR
+## Aider Tor
 
 Tor est un système conçu pour permettre l'anonymat en ligne par le biais d’un réseau de serveurs qui cache les informations sur les personnes utilisant le réseau qui pourraient potentiellement les identifier. Quand vous utilisez Tor, il est extrêmement plus difficile de retracer le trafic internet jusqu’à une personne en particulier. Il est bien connu que Tor fournit un service vital à beaucoup, qui peuvent être soit des activistes qui sont surveillés de très près, à des lanceurs et lanceuses d’alertes, des journalistes, des opposants et opposantes à un régime répressif, ceux et celles qui souhaitent échapper à la censure, des victimes de violences, ou tout simplement des personnes ordinaires qui ne veulent pas que leurs vie privée soit violée par des sociétés peu scrupuleuses qui trahissent leurs confiance en affichant des publicités ciblés.
 

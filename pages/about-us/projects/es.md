@@ -24,7 +24,7 @@ Con el objetivo de ayudar a otros colectivos tecnológicos a establecerse, prove
 
 Riseup provee co-locación asequible, segura, y confiable de acuerdo a ingresos y basado en necesidad. Hospedamos alrededor de 30 servidores, incluyendo servidores de organizaciones de movimientos de justicia social en EE.UU, el Reino Unido, Alemania, Francia, Italia, México, Brasil, y Canadá.
 
-## Apoyando TOR
+## Apoyando Tor
 
 Tor es un sistema diseñado para permitir anonimato en línea a través de una red de servidores que ocultan información acerca de los usuarios que pueda ayudar a identificarlos. Cuando se usa Tor es mucho más difícil rastrear el tráfico de internet a un usuario en particular. Es bien sabido que Tor provee un servicio de vital importancia para muchos, ya sean activistas bajo vigilancia, denunciantes, periodistas, disidentes que enfrentan la represión del estado, aquellos que buscan eludir la censura, víctimas de abuso, o simplemente gente común y corriente que no quiere que su privacidad sea comprometida por corporaciones inescrupulosas que traicionan la confianza común vía perfilamiento publicitario.
 
