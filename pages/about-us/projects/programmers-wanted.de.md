@@ -19,7 +19,7 @@ In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://lea
 
 ## Ruby
 
-* Soziale Netzwerke: Nimm an der Entwicklung von [crabgrass](https://github.com/RiseupLabs/crabgrass-core) teil.
+* Soziale Netzwerke: Nimm an der Entwicklung von [crabgrass](https://0xacab.org/liberate/crabgrass) teil.
 * Mailinglisten: Hilf uns, eine neue Oberfläche für [Sympa Mailinglisten](https://www.sympa.org) zu entwickeln.
 * Nutzer*innenverwaltung: Hilf bei einem Rewrite von nest, unserer Kontenverwaltung.
 

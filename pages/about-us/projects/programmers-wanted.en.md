@@ -19,7 +19,7 @@ In the near future, Riseup will be switching over to use the LEAP platform. Plea
 
 ## Ruby
 
-* Social Wikis: Contribute to [[crabgrass => https://0xacab.org/riseuplabs/crabgrass]] development.
+* Social Wikis: Contribute to [[crabgrass => https://0xacab.org/liberate/crabgrass]] development.
 * Mailing Lists: Help write a new web front end for [[sympa mailing list engine => https://www.sympa.org]].
 * User Management: Help us rewrite nest, the software that manages all user accounts.
 
