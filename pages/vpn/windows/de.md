@@ -4,7 +4,7 @@
 
 ## Voraussetzungen
 
-RiseupVPN wurde für Windows 7 und 10 getestet.
+RiseupVPN wurde für Windows 10 getestet.
 
 ## Installation
 

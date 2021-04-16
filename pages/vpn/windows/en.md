@@ -4,7 +4,12 @@
 
 ## Requirements
 
-RiseupVPN is tested on windows 7 and windows 10.
+RiseupVPN is tested on Windows 10.
+
+If you had a previous version installed, please try uninstall it first: click
+on <code>uninstall.exe</code> in the folder where the app was installed
+(<code>c:\Program Files (x86)\RiseupVPN\uninstall.exe</code>). Only recent
+versions include the uninstaller.
 
 ## Installation
 
@@ -37,20 +42,15 @@ Please include the following information in your bug report:
 There are three log files each for a different component of the client:
 
 * The systray log: `C:\Users\<your user>\AppData\Local\leap\systray.log`
-* The priviledged helper: `C:\Program Files\RiseupVPN\helper.log`
-* The openvpn process: `C:\Program Files\RiseupVPN\openvp.log`
+* The openvpn process: `C:\Program Files (x86)\RiseupVPN\openvp.log`
 
 When reporting a bug it is very useful to include the log files.
 
 ### DNS leaks
 
-We believe there is no DNS or IP leaks in RiseupVPN on windows, but it is not battle tested. Unlike Mac or linux, there is no firewall on windows.
+We believe there is no DNS or IP leaks in RiseupVPN on windows, but it is not battle tested. Unlike Mac or linux, there is no killswitch on windows.
 
 If you find any kind of leaks we are very interested in hearing about it.
-
-### Test a pre-release version
-
-If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
 
 ## Source code
 RiseupVPN's clients are based on the open source software Bitmask. The code for the Windows client can be found [[here => https://0xacab.org/leap/bitmask-vpn]].

@@ -4,13 +4,13 @@
 
 ## Requirements
 
-RiseupVPN is tested on Sierra and High Sierra.
+RiseupVPN is tested on High Sierra and latest versions.
 
 ## Installation
 
-<a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/osx/RiseupVPN-OSX-latest.pkg"><i class="fa fa-download"></i> Download RiseupVPN for macOS</a>
+<a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/osx/RiseupVPN-OSX-latest.dmg"><i class="fa fa-download"></i> Download RiseupVPN for macOS</a>
 
-Once you have saved the file, double click <code>RiseupVPN.pkg</code> to install RiseupVPN.
+Once you have saved the file, double click <code>RiseupVPN-OSX-latest.dmg</code> to install RiseupVPN.
 
 ## Troubleshooting
 
@@ -37,14 +37,10 @@ Please include the following information in your bug report:
 There are three log files each for a different component of the client:
 
 * The systray log: `/Users/<your user>/Library/Preferences/leap/systray.log`
-* The priviledged helper: `/Applications/RiseupVPN.app/Contents/helper/helper.log`
-* The openvpn process: `/Applications/RiseupVPN.app/Contents/helper/openvpn.log`
+* The priviledged helper: `/Applications/RiseupVPN/RiseupVPN.app/Contents/helper/helper.log`
+* The openvpn process: `/Applications/RiseupVPN/RiseupVPN.app/Contents/helper/openvpn.log`
 
 When reporting a bug it is very useful to include the log files.
-
-### Test a pre-release version
-
-If you want to help us test a development, pre-release version of RiseupVPN, you can download the [[nightly builds => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
 
 ## Source code
 RiseupVPN's clients are based on the open source software Bitmask. The code for the macOS client can be found [[here => https://0xacab.org/leap/bitmask-vpn]].
