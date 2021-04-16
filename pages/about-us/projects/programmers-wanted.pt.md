@@ -19,8 +19,8 @@ Em breve, o Projeto LEAP vai passar a usar a Plataforma LEAP. Por favor, visite 
 
 ## Ruby
 
-* Wiki social: Contribua para o desenvolvimento do [Crabgrass](https://github.com/RiseupLabs/crabgrass-core.)
-* Listas de e-mail: Ajude a programar uma nova interface web para o [mecanismo de listas Sympa](https://www.sympa.org.)
+* Wiki social: Contribua para o desenvolvimento do [Crabgrass](https://0xacab.org/liberate/crabgrass).
+* Listas de e-mail: Ajude a programar uma nova interface web para o [mecanismo de listas Sympa](https://www.sympa.org).
 * Gerenciamento de contas: Ajude-nos a reescrever o Nest, o software que gerencia todas as contas.
 
 ## PHP

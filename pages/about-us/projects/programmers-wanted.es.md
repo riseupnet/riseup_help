@@ -20,7 +20,7 @@ En un futuro cercano, LEAP se cambiará para usar la plataforma LEAP. Por favor 
 
 ## Ruby
 
-* Redes Sociales: Contribuye al desarrollo de [crabgrass](https://github.com/RiseupLabs/crabgrass-core).
+* Redes Sociales: Contribuye al desarrollo de [crabgrass](https://0xacab.org/liberate/crabgrass).
 * Listas de Correo: Ayuda a escribir un nuevo front end para el motor de listas de correo [sympa](https://www.sympa.org).
 * Administración de Usuarios: Ayúdanos a re-escribir nest, el software que administra todas las cuentas de usuario.
 
