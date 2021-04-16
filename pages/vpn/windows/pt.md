@@ -4,7 +4,7 @@
 
 ## Dependências
 
-A RiseupVPN foi testada no windows 7 e windows 10.
+A RiseupVPN foi testada no windows 10.
 
 ## Instalação
 

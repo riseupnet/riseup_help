@@ -4,7 +4,7 @@
 
 ## Requirements
 
-RiseupVPN è stato testato su windows 7 e windows 10.
+RiseupVPN è stato testato su windows 10.
 
 ## Installazione
 
@@ -37,7 +37,6 @@ Nella tua segnalazione, per favore includi le seguenti informazioni:
 Ci sono tre file di log, uno per ogni componente del client:
 
 * Il log della barra delle applicazioni `C:\Users\<your user>\AppData\Local\leap\systray.log`
-* Il log del priviledged helper: `C:\Program Files\RiseupVPN\helper.log`
 * Il log del processo openvpn: `C:\Program Files\RiseupVPN\openvp.log`
 
 Quando segnali un bug, è molto utile se includi i file di log.
