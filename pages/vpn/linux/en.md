@@ -27,6 +27,7 @@ If the link above does not work for you, you can also install via the command li
 ```
 sudo snap install --classic riseup-vpn
 ```
+
 If you get an error stating that "python" is missing from /usr/bin/env, you need to install python. This is the case for instance in Lubuntu, at least since version 19.04.
 
 ## Package Installation
@@ -85,6 +86,46 @@ If the launcher icon does not work, you can run RiseupVPN from the command line 
 ```
 
 Any problem starting will be displayed on the terminal.
+
+### Have the tray icon visible on GNOME
+
+In recent GNOME versions, tray icons are not shown by default, or are shown in a tiny tray in the bottom right of
+the screen. In order to have RiseupVPN's icon visible in the top-right corner of the screen, you can install the `AppIndicator`
+GNOME extension and enable it:
+
+For Debian-based distributions (only tested on Debian Buster):
+* Install package `gnome-shell-extension-appindicator`, from the package manager or using this command line in a terminal: `sudo apt install gnome-shell-extension-appindicator`
+* Close your session and reopen it, or restart the computer
+* Open the `Tweaks` application, and in the left pane, select Extensions
+* Enable "Kstatusnotifieritem/appindicator support"
+* Enjoy :)
+
+### RiseupVPN on Linux Mint
+
+On Linux Mint, Snap is sometimes disabled by default, so you have to enable it first, by running the following command:
+
+```
+sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.disabled
+```
+
+Then install Snap:
+
+```
+sudo apt install snapd
+```
+
+Install RiseupVPN from Snap:
+
+```
+sudo snap install --classic riseup-vpn
+```
+
+Create RiseupVPN entry in Linux Mint menu:
+
+```
+cp /var/lib/snapd/desktop/applications/riseup-vpn_riseup-vpn.desktop /usr/share/applications/
+```
+
 
 ### Test a pre-release version
 
