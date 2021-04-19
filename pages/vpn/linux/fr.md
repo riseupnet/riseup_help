@@ -87,6 +87,46 @@ Si l'icône dans la barre de lancement ne fonctionne pas, vous pouvez exécuter 
 
 Tous les problèmes de démarrage s'afficheront sur le terminal.
 
+### Activer l'icone de RiseupVPN à côté de l'horloge
+
+Dans les versions récentes de GNOME, les icones de la zone de notifications ne sont plus affichées par défaut, 
+ou le sont parfois dans un petit menu en bas à gauche de l'écran. Pour avoir l'icone de RiseupVPN visible à
+côté de l'horloge, vous pouvez installer l'extension GNOME `AppIndicator` et l'activer:
+
+Pour les distributions basées sur Debian (testé uniquement avec Debian Buster):
+* Installer le paquet `gnome-shell-extension-appindicator`, avec le gestionnaire de paquets ou avec cette ligne de commande dans un terminal: `sudo apt install gnome-shell-extension-appindicator`
+* Fermez votre session et rouvrez-là, ou redémarrez votre ordinateur
+* Ouvrez l'application `Ajustements`, puis dans le panneau de droite allez dans Extensions
+* Activez "Kstatusnotifieritem/appindicator support"
+* Profitez :)
+
+### RiseupVPN sur Linux Mint
+
+Dans Linux Mint, snap est parfois désactivé par défaut, il faudra alors commencer par l'activer avec la commande suivante:
+
+```
+sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.disabled
+```
+
+Puis installer Snap:
+
+```
+sudo apt install snapd
+```
+
+Installer RiseupVPN depuis Snap:
+
+```
+sudo snap install --classic riseup-vpn
+```
+
+Ajouter l'entrée RiseupVPN dans le menu de Linux Mint :
+
+```
+cp /var/lib/snapd/desktop/applications/riseup-vpn_riseup-vpn.desktop /usr/share/applications/
+```
+
+
 ### Tester une version de développement
 
 Si vous souhaitez nous aider à tester une version de développement de RiseupVPN, vous pouvez en installer une en exécutant cette commande:
