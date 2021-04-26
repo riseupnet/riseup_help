@@ -2,7 +2,7 @@
 
 h2. Choosing a web browser
 
-All four major web browsers, Firefox, Chrome, Internet Explorer, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
+All four major web browsers, Firefox, Chrome, Microsoft Edge/IE, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
 
 All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by installing certain extensions (see below).
 
@@ -23,13 +23,6 @@ Most browsers keep cookies around much longer than necessary. It is best to conf
 
 * Firefox: Preferences > Privacy > Keep until > I close Firefox.
 * Chrome: Settings > Show advanced settings... > Content settings > Keep local data only until you quit your browser.
-
-h3. Disable Flash
-
-Flash is a plug-in from Adobe that has been the cause an endless stream of security problems. We highly recommend that you remove or disable Flash.
-
-* Firefox: Add-ons > Plugins > Flash > Never Activate.
-* Chrome: Settings > Show advanced settings... > Content settings > Do not run plugins by default.
 
 h3. Disable Java
 

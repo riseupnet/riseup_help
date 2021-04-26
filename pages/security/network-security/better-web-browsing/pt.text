@@ -2,7 +2,7 @@
 
 h2. Escolhendo um navegador
 
-Todos os quatro maiores navegadores da web -- Firefox, Chrome, Internet Explorer e Safari -- têm apresentado graves falhas de segurança nos últimos tempos, então você deve se certificar de que está usando a versão mais recente, qualquer que seja a sua escolha.
+Todos os quatro maiores navegadores da web -- Firefox, Chrome, Edge/IE e Safari -- têm apresentado graves falhas de segurança nos últimos tempos, então você deve se certificar de que está usando a versão mais recente, qualquer que seja a sua escolha.
 
 Todos esses quatro principais navegadores receberam notas ruins na nossa avaliação (confira em [[browser-score-card]]). Eles podem, porém, funcionar bem melhor se algumas extensões forem instaladas (ver abaixo).
 
@@ -23,13 +23,6 @@ A maioria dos navegadores guarda cookies por muito mais tempo do que o necessár
 
 * Firefox: Preferências > Privacidade e segurança > Cookies e dados de sites > Manter até Firefox ser fechado. 
 * Chrome: Configurações > Avançado > Privacidade e segurança > Configurações de conteúdo > Cookies > Manter os dados locais só até você sair do navegador.
-
-h3. Desative o Flash
-
-Flash é um plug-in da Adobe que tem sido fonte de uma enxurrada de problemas de segurança. Recomendamos veementemente que você o remova ou desabilite.
-
-* Firefox: Extensões > Plugins > Flash > Nunca ativar.
-* Chrome: Configurações > Avançado > Configurações de conteúdo > Perguntar primeiro.
 
 h3. Desative o Java
 

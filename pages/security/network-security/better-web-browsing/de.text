@@ -2,7 +2,7 @@
 
 h2. Einen Browser auswählen
 
-Zurzeit gibt es vier bedeutende Browser: Firefox, Chrome, Internet Explorer und Safari. Alle vier haben in letzter Zeit große Sicherheitsfehler erlebt, also solltest du sicherstellen, dass du die neueste Version benutzt, egal welchen du aussuchst. Wir raten stark davon ab, den Internet Explorer (IE) vor Version 9 zu benutzen.
+Zurzeit gibt es vier bedeutende Browser: Firefox, Chrome, Edge/IE und Safari. Alle vier haben in letzter Zeit große Sicherheitsfehler erlebt, also solltest du sicherstellen, dass du die neueste Version benutzt, egal welchen du aussuchst. Wir raten stark davon ab, den Internet Explorer (IE) vor Version 9 zu benutzen.
 
 Alle vier bedeutenden Browser erhalten eine mangelhafte Stufe in unserer [[browser-score-card]]. Allerdings können diese Browser durch Installieren von Erweiterungen stark verbessert werden (siehe unten).
 
@@ -23,13 +23,6 @@ Die meisten Browser behalten Cookies länger als nötig. Es ist am besten, du ko
 
 * *Firefox:* Einstellungen > Datenschutz > behalten bis > Ich Firefox schließe.
 * *Chrome:* Settings > Zeige erweiterte Einstellungen > Inhaltseinstellungen > Behalte lokale Daten nur bis ich den Browser schließe.
-
-h3. Deaktiviere Flash
-
-Flash ist ein Plugin von Adobe, welches endlos Sicherheitsprobleme verursacht hat. Wir empfehlen deshalb dringend, Flash zu deaktivieren.
-
-* *Firefox:* Add-ons > Plugins > Flash > Nie aktivieren.
-* *Chrome:* Einstellungen > Zeige erweiterte Einstellungen... > Inhaltseinstellungen > Do not run plugins by default.
 
 h3. Deaktiviere Java
 

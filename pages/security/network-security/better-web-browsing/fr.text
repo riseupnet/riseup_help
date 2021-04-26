@@ -2,7 +2,7 @@
 
 h2. Choisir son navigateur
 
-Ces derniers temps, dans les quatre navigateurs principaux (Firefox, Chrome, Internet Explorer, et Safari), de grâves brêches de sécurité ont été découvertes, il est donc fortement recommandé d'utiliser toujours la dernière version, peut-importe lequel vous utilisez.
+Ces derniers temps, dans les quatre navigateurs principaux (Firefox, Chrome, Edge/IE, et Safari), de grâves brêches de sécurité ont été découvertes, il est donc fortement recommandé d'utiliser toujours la dernière version, peut-importe lequel vous utilisez.
 Ces quatre navigateurs principaux ont tous reçu un grade d'échec dans notre [[browser-score-card]]. Cependant, ces navigateurs peuvent être considérablement améliorés en leur installant certaines extension (voir plus bas).
 D'autre part, le projet Tor propose une version modifiée de Firefox, prévue pour être plus sécurisée et "anonyme". Ce projet s'appelle [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
 
@@ -21,12 +21,6 @@ h3. Effacer les cookies lors de la fermeture
 La plupart des navigateurs gardent les cookies beaucoup plus longtemps que nécessaire. Il est préférable de configurer votre navigateur afin qu'il les supprime lors de sa fermeture.
 * Firefox: Préférences > Vie privée > Règles de conservation > Ne jamais conserver l'historique
 * Chrome: Paramètres > Afficher les paramètres avancés... > Paramètres de contenu > Ne conserver mes données locales que jusqu'à ce que je quitte ma session de navigation
-
-h3. Desactivez Flash
-
-Flash est un plug-in Adobe qui est la cause d'une suite de problèmes de sécurité sans fin. Nous vous recommandons fortement de supprimer ou désactiver Flash.
-* Firefox: Modules > Plugins > Shockwave Flash > Ne jamais activer
-* Chrome: Paramètres > Afficher les paramètres avancés... > Paramètres de contenu > Me laisser choisir quand executer le contenu du plug-in.
 
 h3. Desactivez Java
 
