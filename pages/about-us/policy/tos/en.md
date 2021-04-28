@@ -58,7 +58,7 @@ Please note that it is riseup.net's policy to take reasonable steps, within our 
 
 ## No Warranty
 
-You understand and agree that riseup provides online services "as is" and without any warranty, express, implied, or statutory. We specifically disclaim any implied warrannties of title, merchantability, fitness for a particularly purpose and non-infringement. We make no warranty as to the reliability, accessibility, or quality of our services. You agree that the use of our services is at your sole and exclusive risk. 
+You understand and agree that riseup provides online services "as is" and without any warranty, express, implied, or statutory. We specifically disclaim any implied warranties of title, merchantability, fitness for a particularly purpose and non-infringement. We make no warranty as to the reliability, accessibility, or quality of our services. You agree that the use of our services is at your sole and exclusive risk.
 
 ## Changes to this policy
 
