@@ -1,5 +1,5 @@
 @title = "Chat Riseup"
-@nav_title = "Chat"
+@nav_title = "Riseup config"
 
 ## Qu'est-ce que XMPP ?
 

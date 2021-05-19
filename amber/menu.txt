@@ -51,6 +51,7 @@ lists
       moderation
     faq
 chat
+  riseup-config
   clients
     adium
     pidgin
