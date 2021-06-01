@@ -44,24 +44,6 @@ RiseupVPN Android is a custom branded version of Bitmask for Android.
 
 If you want to help us test a development, pre-release version of RiseupVPN, you can do so. However, please be aware that these versions can be buggy, or even behind the released version, so only do this if you are in contact with us about a specific issue and we ask you to try the beta version to see if it fixes your problem!
 
-### Beta from F-Droid
-
-We provide our beta version in F-Droid through <a href="https://apt.izzysoft.de/fdroid/index/info">IzzySoft's F-Droid Repository</a>. In order to add that repository to your FDroid app: 
-
-
-**Step 1:** Open your F-Droid app
-
-**Step 2:** Navigate to: Settings > Repositories > click on **+**
-
-**Step 3:** Add the following url and fingerprint: <pre>https://apt.izzysoft.de/fdroid/repo</pre>  <pre>3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A</pre>
-
-* if the reposities don't get updated automatically navigate to **Updates** and pull down the main screen
-* you can now search for RiseupVPN Beta
-
-
-The F-Droid beta version has a different package name than the stable versions. It allows testers to have both versions installed on the same phone.
-
-
 ### Beta from Google Play Beta Channel
 
 In order to install the app from Google Play you need to:
