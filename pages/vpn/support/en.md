@@ -31,4 +31,4 @@ Please make sure to include the following information:
 
 You can join the RiseupVPN and bitmask [[tester mailing list => https://lists.riseup.net/www/info/bitmask]]. There you can ask questions and be part of a community conversation around the development versions of our beloved VPN client.
 
-There is also an irc channel for more instant conversations: [[#leap @ irc.freenode.net => https://webchat.freenode.net/?channels=leap]]
+There is also an irc channel for more instant conversations: [[#leap @ irc.libera.chat => https://web.libera.chat/?channel=#leap]]
