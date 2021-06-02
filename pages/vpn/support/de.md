@@ -31,4 +31,4 @@ Achte darauf, dass deine Nachricht diese Informationen enthält:
 
 Du kannst der RiseupVPN und bitmask [[tester mailing-Liste => https://lists.riseup.net/www/info/bitmask]] beitreten. Dort kannst du fragen stellen.
 
-Es gibt auch einen irc-channel für zeitnahere Konversationen: [[#leap @ irc.freenode.net => https://webchat.freenode.net/?channels=leap]]
+Es gibt auch einen irc-channel für zeitnahere Konversationen: [[#leap @ irc.libera.chat => https://web.libera.chat/?channel=#leap]]
