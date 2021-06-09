@@ -8,9 +8,9 @@ RiseupVPN est testé sur Sierre et High Sierra.
 
 ## Installation
 
-<a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/osx/RiseupVPN-OSX-latest.pkg"><i class="fa fa-download"></i> Téléchager RiseupVPN pour macOS</a>
+<a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/osx/RiseupVPN-OSX-latest.dmg"><i class="fa fa-download"></i> Téléchager RiseupVPN pour macOS</a>
 
-Une fois que vous avez sauvegardé le fichier, cliquez deux fois sur <code>RiseupVPN.pkg</code> pour installer RiseupVPN.
+Une fois que vous avez sauvegardé le fichier, cliquez deux fois sur <code>RiseupVPN-OSX-latest.dmg</code> pour installer RiseupVPN.
 
 ## Problèmes
 
