@@ -18,5 +18,12 @@
 
 ### 使用 paypal，怎样修改或取消新的捐赠？
 
-下面介绍如何通过 paypal.com取消：
+下面介绍如何通过 paypal.com 取消新的捐赠：
 
+要[[取消订阅=>https://www.paypal.com/us/selfhelp/article/how-do-i-cancel-a-subscription-faq577]]，请遵循以下步骤。
+
+1. 登录到你的PayPal账户。
+1. 点击*Settings*齿轮图标。
+1. 选择*Payment settings*设置下的*Preapproved Paymets*。
+1. 选择您要取消协议的商家，并点击*Cancel*。
+1. 点击*Cancel Profile*以确认您的请求。

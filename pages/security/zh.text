@@ -1,67 +1,66 @@
 @title = '通讯安全'
 @nav_title = '安全'
 
-h1. Start here
+h1. 从这里开始
 
-Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+时间不够？忙于抵制压迫或建设一个更好的世界？很好! 我们建议你从这些简单的步骤开始你的安全之旅，每个人都可以采取这些步骤，使他们的数字生活少受伤害。
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+# [[拥抱信息卫生=> message-hygiene]]。绝大多数的攻击都来自于你的收件箱。学习如何在使用电子邮件和消息应用程序时保持适当的谨慎。
+# [[使用密码管理器 => passwords]]。通过使用一个密码管理器，你可以保护自己免受大量可能的威胁。
+# [[启用设备加密功能 => device-encryption]]。设备加密很容易开启，内置于你的操作系统中，并保护存储在你设备上的数据。
+# [[配置一个更好的浏览器 => better-web-browsing]]。通过改变你的默认网络浏览器设置和安装一些扩展，你可以极大地提高你的网络浏览体验的安全性（和舒适性）。
+# [[安全地使用软件 => software-safety]]。保持你的软件更新是一件很简单的事情，可以使你的系统更少受到伤害。
 
 h1. 为什么安全性很重要
 
-信息和通信的重要性日益增加也带来了另一种现象：*社会监视*的崛起。您可以把监控作为向[_maintain their dominance by asserting control over communication_]的一个强大进攻。
+信息和通信的重要性日益增加也带来了另一种现象：*社会监视*的崛起。您可以把监控作为向[_通过对通信的控制来维持其主导地位_]的一个强大进攻。
 
 *国家* 通过推行基础设施来轻易地对整个社会控制重新规划，已对新的通信技术作出回应。不像早期的通信时代，目前的技术性质要求我们的信息要么在一定程度上挫败政府，要么是完全不安全，在一定程度上使广泛和详细的监视整个人口成为可能。
 
-*公司* 已经发现，如果他们希望在一个信息丰富的世界保持竞争性，收集和分析海量个人数据是有必要的。尤其是，几乎所有的广告正在向基于监视跟踪我们的个人能习惯的方向转变。
+*企业* 已经发现，如果他们希望在一个信息丰富的世界保持竞争性，收集和分析海量个人数据是有必要的。尤其是，几乎所有的广告正在向基于监视跟踪我们的个人能习惯的方向转变。
+
+*犯罪分子* 已经发现，攻击个人设备和云账户以赎回数据或勒索用户是非常有利可图的。
 
 在这种情况下，安全通信已变得非常重要。
 
 * 政府监督在很长时间导致镇压社会运动。
 * 即使是间接的，猖獗的监控对社会运动也有寒蝉效应。
-* 公司监控同政府监控一样严重。不仅可以将保存在互联网上的海量用户数据很容易地重新利用给国家镇压，而且公司现在已经超越消费者，位于获得前所未有的力量的边缘。
+* 企业监控同政府监控一样严重。不仅可以将保存在互联网上的海量用户数据很容易地重新利用给国家镇压，而且企业现在已经超越消费者，位于获得前所未有的力量的边缘。
 
-当人们开始了解监视的不断增长，他们开始感到不知所措。有些决定可能不是安全的，所以他们甘心在永久监视下生活或放弃所有形式的数字通信。在Riseup，我们认为还有第三种方法：我们的目标是对每个人都高度的安全易用。
+当人们开始了解到监控的增加，他们开始感到不知所措。有些人决定不可能做到安全，所以他们认命地生活在永久的监控之下，或者放弃所有形式的数字通信。在Riseup，我们相信有第三种方法：我们的目标是让每个人都能轻松获得高度的安全。
 
-许多反对监控的斗志通过法律制度产生，我们赞扬在这个领域工作的人。相比之下，Riseup的重点是技术。如果法律是不公正的，我们相信，为了改变法律和政治的可能性，一种新的技术实现是必要的。
-
-h1. 安全性概述
+h1. 安全导论
 
 <table class="table table-striped">
 <tr>
-  <th class="col-md-2">Type of security</th>
-  <th>What is it?</th>
-  <th>When is it useful?</th>
+  <th class="col-md-2">安全的类型</th>
+  <th>它是什么？</th>
+  <th>什么时候有用？</th>
 </tr>
 <tr>
-  <td>[[human-security]]</td>
-  <td>Simple changes you can make to your *behavior*.</td>
-  <td>Helps prevent human error from being the *weak link* in any security system.</td>
+  <td>[[行为安全 => human-security]]</td>
+  <td>安全的使用习惯你可以对你的*行为*进行简单的改变</td>
+  <td>有助于防止人为错误成为任何安全系统的*薄弱环节*。</td>
 </tr>
 <tr>
-  <td>[[device-security]]</td>
-  <td>Steps to make your *computer or phone* less vulnerable to attack.</td>
-  <td>Useful whenever your device might *physically* fall into the hands of an attacker.</td>
+  <td>[[设备安全 => device-security]]</td>
+  <td>使你的*电脑或手机*不容易受到攻击的步骤</td>
+  <td>只要你的*物理*设备可能落入攻击者手中，就会帮助攻击者。</td>
 </tr>
 <tr>
-  <td>[[message-security]]</td>
-  <td>Ways to encrypt *individual messages* you send and receive.</td>
-  <td>Required if you want to ensure the *confidentiality* of a particular message while stored and transmitted.</td>
+  <td>[[消息安全 => message-security]]</td>
+  <td>对你发送和接收的*消息*进行加密的方法</td>
+  <td>如果你想确保特定信息在存储和传输过程中的*保密性*，就必须这样做。</td>
 </tr>
 <tr>
-  <td>[[network-security]]</td>
-  <td>Blocking sites that track you and encrypting your *internet traffic*.</td>
-  <td>Helps protect against behavioral tracking, account hijacking, censorship, social network mapping, eavesdropping, and advertising.</td>
+  <td>[[网络安全 => network-security]]</td>
+  <td>阻止跟踪你的网站，并对你的*互联网流量*进行加密</td>
+  <td>有助于防止行为跟踪、账户劫持、审查、社交网络映射、窃听和广告。</td>
 </tr>
 </table>
 
-Riseup通常提供服务来处理 [[网络安全 => network-security]]：
+另外，请查看[[安全资源=> resources]]页面，以获得更多的安全指南和社运积极人士提供者的链接。
 
-*由于网络监控非常普遍，它是个影响每个人的所有时间的*社会问题*。相比之下，被当局镇压作为单独目标的人，设备和信息安全性非常重要。
-*与设备或消息的安全性相比，提高您的网络安全性是相当*容易地*。
+h1. 安全地与我们联系
 
-话虽如此，人们面对镇压雇用设备和信息安全性的前景是重要的，虽然这可能需要一些时间来学习。这些帮助页面，将有助于这个过程。
+如果你需要就你的Riseup账户或Riseup本身的安全相关问题联系Riseup，请给我们发送一个[[加密电子邮件 => https://riseup.net/en/about-us/contact#email]]。

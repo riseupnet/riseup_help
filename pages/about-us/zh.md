@@ -8,7 +8,7 @@
 
 我们相信，由社会组织运营基本通讯设施是非常必要的，他们决不能被控制在公司和政府手里。
 
-我们尽全力去保障我们的邮件是私密的、安全的。我们绝不记录你的IP地址（多数服务商都会记录每一台与他们通讯的设备，而我们只记录那些无法被用来确认身份的数据。）你所有的数据，包括你的邮件，都被加密储存在riseup.net，我们尽力维护服务器的安全，阻止一切可能的黑客攻击。我们不对任何人分享我们的用户数据，我们会积极主动地抵制任何获取用户信息的企图，包括法院传票。除了自动运行的病毒和垃圾邮件程序，我们不阅读，检索或是处理任何你的数据——除非你遇到了某些问题，需要我们这么做。
+我们尽全力去保障我们的邮件是私密的、安全的。我们绝不记录你的IP地址（多数服务商都会记录每一台与他们通讯的设备，而我们只记录那些无法被用来确认身份的数据。）你所有的数据，包括你的邮件，都由riseup.net以加密的形式存储。我们尽力维护服务器的安全，阻止一切可能的黑客攻击。我们不对任何人分享我们的用户数据，我们会积极主动地抵制任何获取用户信息的企图，包括法院传票。除了自动运行的病毒和垃圾邮件程序，我们不阅读，检索或是处理任何你的数据——除非你遇到了某些问题，需要我们这么做。
 
 ##  Riseup的目的
 
@@ -30,26 +30,18 @@ Riseup是独立自主的团体，总部位于西雅图，成员来自世界各�
 
 <div class="row">
 
-<p class="col-md-1"><img src="img/macaw.jpg" alt="macaw"></p>
-
-<p class="col-md-11"><strong>Arara (Ara macao)</strong><br>
-Arara是一位来自南美洲的极客。他的兴趣超级广泛。他喜欢应用数学，计算理论，编程，自由软件和安全维护。这位先生其它的兴趣还有网络协作，虚拟及现实中的社区自治，政治经济社运，Arara还是一位无政府社会的理论家。
-
-</div>
-<div class="row">
-
 <p class="col-md-1"><img src="img/booby.jpg" alt="booby"></p>
 
-<p class="col-md-11"><strong>Blue-footed Booby (Sula nebouxii)</strong><br>
-蓝脚Booby来自德国的美食和描绘没有政府管理的社会状态的动作片。最近他在西雅图街头游荡之中领悟了应用数学的奥妙。现在他的兴趣之一就是去计算Riseup网络服务器何时会突破负载极限崩溃。
+<p class="col-md-11"><strong>蓝脚鲣鸟 (Sula nebouxii)</strong><br>
+蓝脚鲣鸟来自德国的美食和描绘没有政府管理的社会状态的动作片。最近他在西雅图街头游荡之中领悟了应用数学的奥妙。现在他的兴趣之一就是去计算Riseup网络服务器何时会突破负载极限崩溃。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/catbird.png" alt="catbird"></p>
 
-<p class="col-md-11"><strong>Catbird (Dumetella carolinensis, small bird of the thornbushes)</strong><br>
-Catbird 栖息于树叶从中，一天到晚不停地叫唤，他最喜欢对着GNU/Linux服务器唱，用Perl或Ruby。Catbird喜欢挑战性别的特征，老想邀请女性加入到光棍男的IT程序员世界。
+<p class="col-md-11"><strong>猫头鹰 (Dumetella carolinensis, small bird of the thornbushes)</strong><br>
+猫头鹰栖息于树叶从中，一天到晚不停地叫唤，他最喜欢对着GNU/Linux服务器唱，用Perl或Ruby。Catbird喜欢挑战性别的特征，老想邀请女性加入到光棍男的IT程序员世界。
 
 </div>
 <div class="row">
@@ -72,55 +64,55 @@ Gadfly Petrel很高尚，她希望自己的工作能够让信息通讯完全服�
 
 <p class="col-md-1"><img src="img/roadrunner.jpg" alt="roadrunner"></p>
 
-<p class="col-md-11"><strong>Greater Roadrunner (Geococcyx californianus)</strong><br>
-Roadrunner is a long-legged, ground foraging bird in the cuckoo family. Originally indigenous to the North American Southwest, this specimen is currently enjoying being out of the desert and soaking up the moisture of Cascadia. He spends his days as an anarchist hacker, Debian developer, and dad. Around Riseup headquarters, it is commonly known that Roadrunner is a beast with hardware.
+<p class="col-md-11"><strong>路鸟 (Geococcyx californianus)</strong><br>
+路鸟是布谷鸟家族中一种长腿的地面觅食鸟。这只标本原产于北美西南部，目前正享受着离开沙漠和浸泡在卡斯卡迪亚的潮湿环境中。他每天都在做无政府主义黑客、Debian开发者，同时也是一个父亲。在Riseup总部，大家都知道路鸟非常擅长硬件。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/pigeon.png" alt="pigeon"></p>
 
-<p class="col-md-11"><strong>Feral Rock Pigeon (Columba livia)</strong><br>
-Pigeon has been pecking along the sidelines of the Riseup collective since the beginning, and finally joined Riseup a couple of years ago. She is not a geek, but finds them strangely fascinating. When not working on the newsletter or approving lists and emails, she is a social worker, a young adult scifi writer, and an egalitarian community enthusiast. She believes the future is unwritten, and everyday we write the book.
+<p class="col-md-11"><strong>野生岩鸽子 (Columba livia)</strong><br>
+鸽子从一开始就一直在Riseup集体的边上啄食，几年前终于加入了Riseup。她不是一个极客，但却发现他们意外地令人着迷。当不在通讯工作或批准名单和电子邮件时，她是一个社会工作者，一个年轻的成人科幻作家，和一个平等主义社区的爱好者。她相信未来是无法书写的，而我们每天都在写这本书。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/rook.png" alt="rook"></p>
 
-<p class="col-md-11"><strong>Rook (Corvus frugilegus)</strong><br>
-Rook stands in the corner, and works on a strong defense.  Although Rook's home is typically [[eurasia => https://en.wikipedia.org/wiki/Rook_(bird)#Distribution_and_habitat]], Rook has mostly lived in the Pacific Northwest, although there were several periods of time spent home working.  Rook helps make tools that other birds use to hack at the intersections of kyriarchy, from "cissexism":https://en.wikipedia.org/wiki/Cissexism and heterosexism to racism, in the world at large and within the social justice movement itself. Rooks [[voice => https://en.wikipedia.org/wiki/Rook_(bird)#Voice]] often seems harsh to many, and so tends not to speak up much. Rook likes to eat fresh veggies, so grows many.
+<p class="col-md-11"><strong>鲁克 (Corvus frugilegus)</strong><br>
+鲁克站在角落里，致力于强大的防御。 虽然鲁克的家通常是[[欧亚大陆=>https://en.wikipedia.org/wiki/Rook_(鸟类)#Distribution_and_habitat]]，但鲁克大部分时间都住在太平洋西北地区，尽管有好几个时期是在家里工作。 鲁克帮助制造其他鸟类用来砍伐基业的交叉点的工具，从 "cissexism":https://en.wikipedia.org/wiki/Cissexism 和异性恋主义到种族主义，在整个世界和社会正义运动本身中。鲁克[[voice => https://en.wikipedia.org/wiki/Rook_(bird)#Voice]]常常在很多人看来很苛刻，所以往往不怎么说话。鲁克喜欢吃新鲜蔬菜，所以种了很多。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/owl.jpg" alt="owl"></p>
 
-<p class="col-md-11"><strong>Snow Owl (Bubo scandiacus)</strong><br>
-The Snow Owl sits perched high on an icy branch, peering from afar at the insides of Riseup machines to find little bugs to snack on. He helped start Riseup when living in Seattle because he was dismayed by all the activists who showed up to shut down the WTO with their hotmail and yahoo accounts. He works hard keeping Riseup servers running, the network fast, and the spam from polluting your inbox. His other activities include reading and writing books, and winning strange and puzzling awards. He helped build the technical infrastructure for Indymedia, and currently contributes by maintaining some small pieces. Snow Owl is also one of the nicest people on the planet.
+<p class="col-md-11"><strong>雪鸮 (Bubo scandiacus)</strong><br>
+雪鸮坐在冰冷的树枝上，从远处窥视着Riseup机器的内部，寻找可以吃的小虫子。他在西雅图居住时帮助创办了Riseup，因为他对那些用hotmail和yahoo账户来关闭WTO的活动家感到很失望。他努力工作，使Riseup的服务器运行，网络快速，并防止垃圾邮件污染你的收件箱。他的其他活动包括阅读和写书，以及赢得奇怪的奖项。他帮助建立了Indymedia的技术基础设施，目前通过维护一些小的部分来做出贡献。雪鸮也是这个星球上最好的人之一。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/starling.png" alt="starling"></p>
 
-<p class="col-md-11"><strong>Starling (Sturnus Vulgaris)</strong><br>
-Starling is a migratory bird with stars on his wings and a feisty cry. He works on developing Riseup software and keeping people accountable and on task. Starling is interested in building movement infrastructure, tactics, and strategies for the long-haul. Starling is equally comfortable plucking eyeballs from skulls as defecating from on high.
+<p class="col-md-11"><strong>椋鸟 (Sturnus Vulgaris)</strong><br>
+椋鸟是一只翅膀上有星星的候鸟，叫声很好听。他的工作是开发Riseup软件，让人们担起自己的责任完成任务。椋鸟对建立运动的基础设施、战术和长期战略感兴趣。椋鸟同样喜欢从头骨上摘取眼球和从高处排泄。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/sunbird.jpg" alt="sunbird"></p>
 
-<p class="col-md-11"><strong>Sunbird (Nectarinia asiatica)</strong><br>
-Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @0xD45523676ED610B7@, available from your local keyserver.
+<p class="col-md-11"><strong>太阳鸟 (Nectarinia asiatica)</strong><br>
+自1998年以来，太阳鸟一直把太平洋西北地区作为自己的家，但在美国休整了两年，在巴基斯坦拉合尔生活，在那里他学习乌尔都语，并为巴基斯坦人权委员会做志愿者。对于他的日常工作，他是一名法律工作者，专注于保护移民和难民的权利。太阳鸟对互联网法律也有浓厚的兴趣，因为它涉及到隐私和言论自由。他加入Riseup集体，因为对于活动家来说，拥有可以信任的通讯工具是非常重要的。你可以在IRC上找到Sunbird，回答你的帮助单，努力学习Debian，梦想一个没有AOL的未来。Sunbird 的 gpg 密钥 ID 是 @0xD45523676ED610B7@，可从你的本地密钥服务器获得。
 
 </div>
 <div class="row">
 
 <p class="col-md-1"><img src="img/puffin.jpg" alt="puffin"></p>
 
-<p class="col-md-11"><strong>Tufted Puffin (Fratercula cirrhata)</strong><br>
-Tufted Puffin is medium sized sea bird and a member of the Riseup collective. She nests in Seattle, which is pretty far south for a tufted puffin. Tufted Puffin spends much of her time in front of a computer, using flashy interfaces like pine, but she likes to go outside too. She gets around by biking or swimming with wings which have adapted to offer her a flying technique while underwater. Tufted Puffin appreciates learning tech skills from Riseup and other radical tech projects and, more importantly, helping to build alternative infrastructures.
+<p class="col-md-11"><strong>簇状海雀 (Fratercula cirrhata)</strong><br>
+簇状海雀是中等大小的海鸟，是Riseup集体的成员。她在西雅图筑巢，对于一只簇状海雀来说，这是很遥远的南方。簇绒海雀大部分时间都在电脑前，使用像松树一样的华丽界面，但她也喜欢到外面去。她通过骑自行车或游泳的方式到处走动，翅膀已经适应了为她提供水下飞行的技术。簇状海雀很欣赏从Riseup和其他激进的科技项目中学习科技技能，更重要的是，帮助建立替代性基础设施。
 
 </div>
