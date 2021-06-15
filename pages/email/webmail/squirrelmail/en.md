@@ -1,6 +1,6 @@
 @title = "Squirrelmail Deprecation Notice"
 
-We are discontinuing the support for Squirrelmail in June 2021, because we need to focus our resources on services that are actively used. You will need to migrate to our Roundcube interface or an IMAP client before June 2021.
+We are discontinuing the support for Squirrelmail in June 25th 2021, because we need to focus our resources on services that are actively used. You will need to migrate to our Roundcube interface or an IMAP client before June 2021.
 
 ## What webmail interface are you talking about?
 
