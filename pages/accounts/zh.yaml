@@ -11,11 +11,11 @@ red_help: "[[创建 Riseup Red 帮助单 => https://support.riseup.net/en/topics
 other_title: "其他服务"
 other_info: "以下服务使用独立账户，而不是 Riseup Red 或 Riseup Black 账户。"
 
-lists_title: "邮箱列表"
-lists_info: "我们为激进组织提供邮箱列表。"
-lists_login: "[[登录邮箱列表 => https://lists.riseup.net/www/]]"
-lists_help: "[[获取邮箱列表的帮助 => lists]]"
-lists_request: "[[申请邮箱列表 => creating-lists]]"
+lists_title: "邮件列表"
+lists_info: "我们为激进组织提供邮件列表。"
+lists_login: "[[登录邮件列表 => https://lists.riseup.net/www/]]"
+lists_help: "[[获取邮件列表的帮助 => lists]]"
+lists_request: "[[申请邮件列表 => creating-lists]]"
 lists_subscribe: "[[订阅 => subscribing]]"
 lists_unsubscribe: "[[取消订阅 => subscribing]]"
 

@@ -1,4 +1,4 @@
-@title = 'Thank You!'
+@title = '谢谢！'
 
 ![thank you!](/about-us/donate/img/thanks-red-small.jpg)
 
