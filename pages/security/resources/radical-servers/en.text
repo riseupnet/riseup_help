@@ -60,21 +60,6 @@ h2. Colnodo
 
 [[Colnodo->https://colnodo.apc.org/es/servicios]] is a Colombian non-profit organization that aims to facilitate communication and the exchange of information, experience, and expertise between Colombian organizations through low-cost electronic networks. [[Article on cyberstewards.org->https://cyberstewards.org/category/colnodo/]]
 
-h2. Gleducar
-
-[[Gleducar->http://www.gleducar.org.ar]] is a free educational project emerged in Argentina in 2002. It is also an important NGO (Civil Association) from Argentina in the field of education and technology. It is an independent community composed of teachers, students and education activists linked by a common interest in collective work, cooperative knowledge building and free distribution of knowledge. The project works around different themes, such as Open Education, Open Access, Free Knowledge, Popular Education, peer education, collaborative learning and Free Technologies. They promote the use of Free Software in schools as a pedagogical and technical system, with the objective of changing the paradigm of production, construction and dissemination of educational content. [[Wikipedia->https://en.wikipedia.org/wiki/Gleducar]]
-
-* free and open digital education
-
-h2. GuardaChuva.org
-
-O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
-
-h2. Saravá
-
-O [[Saravá->https://www.sarava.org]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
-
-
 h1. Europe
 
 h2. actiu.info
@@ -305,6 +290,7 @@ h2. snopyta.org
 * Searx
 * Etherpad
 * Mastodon
+* Jitsi Meet
 * Mumble
 * TinyTinyRSS
 * Polls
@@ -355,6 +341,7 @@ h2. systemli.org
 * Etherpad
 * Mumble
 * Encrypted pastes and polls
+* Jitsi Meet 
 * Support in German and English
 
 h2. Syster Server
@@ -486,4 +473,19 @@ The mission at [[hackbloc.org->https://hackbloc.org]] is to research, create and
 * XMPP
 * Zines
 * Security trainings
+
+h2. Gleducar
+
+[[Gleducar->http://www.gleducar.org.ar]] is a free educational project emerged in Argentina in 2002. It is also an important NGO (Civil Association) from Argentina in the field of education and technology. It is an independent community composed of teachers, students and education activists linked by a common interest in collective work, cooperative knowledge building and free distribution of knowledge. The project works around different themes, such as Open Education, Open Access, Free Knowledge, Popular Education, peer education, collaborative learning and Free Technologies. They promote the use of Free Software in schools as a pedagogical and technical system, with the objective of changing the paradigm of production, construction and dissemination of educational content. [[Wikipedia->https://en.wikipedia.org/wiki/Gleducar]]
+
+* free and open digital education
+
+h2. GuardaChuva.org
+
+O grupo de Estudos [[GuardaChuva.org->http://GuardaChuva.org]] é espaço interdisciplinar nascido em meados de 2005 com o objetivo promover pesquisas sobre a sociedade da informação, o ciberespaço e sobre tecnologias. Com esse objetivo o grupo de estudos tem inserção no meio técnico-científico-informacional utilizando seus conhecimentos para hospedar páginas, wikis, catalogação de bibliotecas e projetos independentes e autônomo de diferentes grupos ciber-ativistas.
+
+h2. Saravá
+
+O [[Saravá->https://www.sarava.org]] é um coletivo multidisciplinar que tem como objetivo otimizar o uso de tecnologias por grupos sociais, focando sempre no aspecto humano da relação homem-máquina. Nossos estudos incluem o compartilhamento de uma mesma estrutura física entre pequenos grupos que possuem finalidades diversas, unindo e economizando recursos tecnológicos.
+
 
