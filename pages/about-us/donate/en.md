@@ -57,13 +57,14 @@ Unfortunately, we don't have the labor to send you a letter of thanks when we re
 
 ## Donate by IBAN transfer
 
-We can accept wire transfers *only in Euros (EUR), no other currencies.* Please send to:
+We can accept IBAN transfers *only in Euros (EUR), no other currencies* using the following information. If there is another currency that you need to use, please contact us. If you need to make a *tax-deductable* donation in Europe, please also contact us for how to do that. 
 
-	Recipient Name: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Bank: GLS Bank
-	Country: Germany
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ## Frequently Asked Questions
 

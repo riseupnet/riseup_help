@@ -53,13 +53,14 @@ Leider haben wir nicht die Kapazitäten, nach Erhalt Eurer Spende Dankesbriefe z
 
 ## Banküberweisungen (nur EUR)
 
-Leider können wir nur Zahlungen *nur in Euros (EUR) annehmen*. "Warum?":#warum-akzeptiert-ihr-keine-%C3%9Cberweisungen-in-anderen-w%C3%A4hrungen
+Wir akzeptieren IBAN-Überweisungen *nur in Euro (EUR), keine anderen Währungen* mit den folgenden Informationen. Wenn Sie eine andere Währung verwenden müssen, kontaktieren Sie uns bitte. Wenn Sie in Europa *steuerlich absetzbar* spenden möchten, kontaktieren Sie uns bitte ebenfalls. 
 
-	Empfängername: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Bank: GLS Bank
-	Land: Deutschland
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ## Häufig gestellte Fragen
 

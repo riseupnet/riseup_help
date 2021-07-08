@@ -52,13 +52,14 @@ Purtroppo, non abbiamo la manodopera per inviarti una lettera di ringraziamento 
 
 ##  Wire/Bank trasferimenti (EUR solo)
 
-Possiamo accettare bonifici bancari *solo in euro (EUR), non le altre valute* Si prega di inviare a.:
+Accettiamo bonifici IBAN *solo in Euro (EUR), nessun'altra valuta* utilizzando le seguenti informazioni. Se c'è un'altra valuta che devi usare, ti preghiamo di contattarci. Se hai bisogno di fare una donazione *deducibile dalle tasse* in Europa, contattaci anche per sapere come farlo. 
 
-	Recipient Name: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Banca: GLS Bank
-	Nazione: Germania
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ##  Domande Frequenti
 

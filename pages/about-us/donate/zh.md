@@ -56,11 +56,12 @@ Riseup致力于以创建满足个人和组织工作的社会变化的通信需�
 
 我们可以接受电汇，*只接受欧元（EUR），不接受其他货币。*请发送至：
 
-	Recipient Name: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Bank: GLS Bank
-	Country: Germany
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ## 常见问题解答
 

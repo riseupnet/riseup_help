@@ -56,13 +56,14 @@ Infelizmente, não temos força de trabalho suficiente para te enviar uma carta 
 
 ## Doe por transferência com IBAN
 
-Aceitamos transferências bancárias *apenas em euros (EUR), nenhuma outra moeda*. Por favor, transfira para:
+Podemos aceitar transferências IBAN *apenas em euros (EUR), sem outras moedas* usando as seguintes informações. Se houver outra moeda que você precise usar, entre em contato conosco. Se você precisar fazer uma doação *dedutível* na Europa, entre em contato conosco para saber como fazer isso. 
 
-	Nome do recebedor:* Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Banco: GLS Bank
-	País: Alemanha
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ## Perguntas frequentes
 

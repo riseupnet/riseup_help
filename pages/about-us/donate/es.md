@@ -52,13 +52,14 @@ Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimien
 
 ## Wire/Bank transfers (EUR suelement)
 
-Podemos aceptar transferencias electrónicas *Sólo en Euros (EUR), no hay otras monedas* Por favor envíe al.:
+Podemos aceptar transferencias IBAN *solo en Euros (EUR), no en otras monedas* utilizando la siguiente información. Si hay otra moneda que necesita usar, comuníquese con nosotros. Si necesita hacer una donación *deducible de impuestos* en Europa, comuníquese con nosotros para saber cómo hacerlo. 
 
-	Recipient Name: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-	BIC: GENODEM1GLS
-	Banco: GLS Bank
-	Pais: Alemania
+    Account holder: Riseup Networks
+    BIC: TRWIBEB1XXX
+    IBAN: BE46 9672 1075 8936
+    Address: Avenue Louise 54, Room S52
+             Brussels 1050
+             Belgium
 
 ## Preguntas más frecuentes
 
