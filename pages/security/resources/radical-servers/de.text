@@ -304,12 +304,14 @@ h2. systemausfall.org
 [[systemausfall.org->https://systemausfall.org]] unterstützt Aktivist*innen und Kollektive mit technischer Infrastuktur in ihrer politischen Arbeit.
 
 * E-Mailkonten
-* Mailinglisten
+* Mailinglisten (verschlüsselt und unverschlüsselt)
 * XMPP
-* Webseiten
-* Blogs
+* Matrix
+* Hosting (Wordpress, Drupal)
+* Webspace zum Hosting eigener Anwendungen
 * Wikis
 * Cloudspeicher
+* Git
 * und mehr
 * Support auf Deutsch
 
