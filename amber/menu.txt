@@ -50,13 +50,6 @@ lists
       bounces
       moderation
     faq
-chat
-  riseup-config
-  clients
-    adium
-    pidgin
-  chat-security
-    otr
 vpn
   vpn-black
     linux

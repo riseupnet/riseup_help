@@ -1,8 +1,8 @@
 red_title: "Riseup Red"
 red_info: "我们为传统服务提供 <b>Riseup Red</b> 账户，
-  服务包括 [[email]] (IMAP)、 [[chat]] (XMPP)、 和 [[vpn]]。"
+  服务包括 [[email]] (IMAP)、 [[vpn]]。"
 red_webmail: "[[登录在线邮箱 => https://mail.riseup.net]]"
-red_support: "获取 [[email]]、 [[chat]] 和 [[vpn]] 的帮助。"
+red_support: "获取 [[email]]、 [[vpn]] 的帮助。"
 red_settings: "[[更改设置 => https://account.riseup.net]]"
 red_request: "[[申请账户 => https://account.riseup.net/user/new]]"
 red_reset_password: "[[重置密码 => https://account.riseup.net/reset_password]]"
