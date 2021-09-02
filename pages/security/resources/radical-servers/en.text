@@ -322,12 +322,14 @@ h2. systemausfall.org
 [[systemausfall.org->https://systemausfall.org]] provides technical infrastructure for activists and collectives for their political work.
 
 * Email accounts
-* Mailing lists
+* Mailing lists (encrypted and unencrypted)
 * XMPP
-* Hosting
-* Blogs
+* Matrix
+* Hosting (Wordpress, Drupal)
+* Webspace for self hosting
 * Wikis
-* File hosting
+* File sharing/ Cloud
+* Git
 * and more
 * Support in: German
 
