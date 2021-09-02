@@ -3,12 +3,9 @@
 
 h2. VPN Anonymity
 
-
 An insecure connection is still insecure: Although Riseup VPN will anonymize your location and protect you from surveillance from your ISP, once your data is securely routed through riseup.net it will go out on the internet as it normally would. Therefore, you should still use secure connections (TLS) when available (ie https over http, imaps over imap, etc).
 
 Besides that, how anonymous is RiseupVPN? Each time you run RiseupVPN, a new certificate is created to authenticate to the service. We do not require a username/password registration for RiseupVPN, and we do not have any information that ties those short-lived certificates to each other, or to an individual. Additionally, our logs do not contain any IP addresses of any user, any browser fingerprint information (browser information, plugins installed, fonts installed, screen resolution, etc.), DNS requests, traffic flows, any metadata information, any personally identifying information of any kind, and more. The logs we do have are the bare minimum needed to make the service work. We don't sell or share any of these logs. The logs that do exist are stored encrypted, and persist for no more than 5 days before being rotated out of existence.
-
-If you are not using RiseupVPN, and are still using the deprecated Riseup Red VPN (if you are, then please switch to [[RiseupVPN->vpn]]!), then the answer primarily depends on what user information you have associated with your Riseup login. If you are concerned about your anonymity, we suggest you create a separate VPN account that you only use for the VPN. For this service, the only additional information logged that is different from RiseupVPN is the username that is registered. These logs are also stored encrypted and do not persist more than 5 days before being rotated out of existence. 
 
 h2. Man-in-the-middle attacks
 
