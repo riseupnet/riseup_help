@@ -59,7 +59,6 @@ chat
     otr
 vpn
   vpn-black
-  vpn-red
     linux
     mac
     windows
