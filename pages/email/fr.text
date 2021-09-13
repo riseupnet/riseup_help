@@ -13,7 +13,7 @@ Si vous avez oublié votre mot de passe, le seul moyen pour obtenir à nouveau l
 
 Le futur de votre courriel est entre vos mains et entre vos mains uniquement.
 
-Si vous ne l'avez pas déjà, veuillez mettre votre code de récupération dans un endroit sûr maintenant. Si vous ne l'avez pas écrit lorsque vous avez créé votre compte, visitez [[vos paramètres de compte->https://account.riseup.net/passwords?view=recovery]] pour en créer un nouveau et écrivez le.
+Si vous ne l'avez pas déjà fait, veuillez mettre votre code de récupération dans un endroit sûr maintenant. Si vous ne l'avez pas écrit lorsque vous avez créé votre compte, visitez [[vos paramètres de compte->https://account.riseup.net/passwords?view=recovery]] pour en créer un nouveau et écrivez-le.
 
 Il ne peut y avoir qu'un seul code de récupération à la fois. Quand vous en créez un nouveau, il remplace l'ancien code.
 
@@ -40,7 +40,7 @@ Les courriels dans certains [[dossiers spéciaux => email-folders]] sont supprim
 
 h3. Quota
 
-Pour différentes raisons, nous ne pouvons fournir que 1 GB d'espace de stockage pour les courriels. Si vous avez besoin de plus d'espace, nous vous conseillons de télécharger vos courriels à l'aide d'un client de messagerie. Nous vous encourageons à utiliser l'espace de stockage chiffré de votre compte si ce n'est pas déjà le cas (n'oubliez pas de sauvegarder le code de récupération!). [[En savoir plus sur les quotas => quota]].
+Pour différentes raisons, nous ne pouvons fournir que 1 GB d'espace de stockage pour les courriels. Si vous avez besoin de plus d'espace, nous vous conseillons de télécharger vos courriels à l'aide d'un client de messagerie. Nous vous encourageons à utiliser l'espace de stockage chiffré de votre compte si ce n'est pas déjà le cas (n'oubliez pas de sauvegarder le code de récupération !). [[En savoir plus sur les quotas => quota]].
 
 h3. Comment accéder à votre messagerie
 
@@ -52,7 +52,7 @@ Riseup recommande [[thunderbird]], un client courriel libre et gratuit. Thunderb
 
 h2. Ce qu'il y a de spécial avec les courriels Riseup
 
-Votre compte courriel Riseup est une chose merveilleuse! Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, les courriels Riseup ont plusieurs caractéristiques qui sortent de l'ordinaire:
+Votre compte courriel Riseup est une chose merveilleuse ! Même si nous n'offrons pas autant d'espace de stockage que les entreprises privées financées par l'espionnage de vos données, les courriels Riseup ont plusieurs caractéristiques qui sortent de l'ordinaire :
 
 [*Chiffrement complet des disques*]
 Nos serveurs physiques sont protégés d'une façon qui empêche à d'autres personnes que Riseup d'y accéder. Ils ne sont pas hébergés "dans les nuages". Comme mesure supplémentaire, tous nos serveurs utilisent un chiffrement complet des disques qui ne peut être déverrouillé que par Riseup. De plus, toutes les communications entre nos serveurs sont toujours chiffrées. Ces mesures protègent contre un accès physique non autorisé, un vol et une tentative d'examiner les données sur le support de stockage.
@@ -90,16 +90,16 @@ h2. Autres fonctionnalités sympas de votre compte Riseup
 
 h2. Ce que vous n'obtiendrez pas de Riseup
 
-* À moins d'utiliser l'extension de navigateur Mailvelope ou votre propre solution OpenPGP, note système courriel n'est *pas* chiffré de bout en bout ou chiffré par le client. Nous travaillons à une solution compréhensible à ce problème et nous espérons qu'elle sera disponible bientôt.
-* Si une personne obtient l'accès à votre mot de passe, elle sera capable de lire tous vos courriels. Ne donnez jamais votre mot de passe à quelqu'un-e. Si Riseup vous demande votre mot de passe, c'est une ruse.
-* N’ouvrez jamais une pièce jointe que vous recevez d'une personne, à moins que vous ne sachiez qu'elle allait vous l'envoyer. Les pièces jointes peuvent compromettre votre ordinateur et votre compte!
-* Riseup n'a pas de sauvegardes de vos anciens messages. Il est de votre responsabilité de vous assurer que vos données sont en sûreté!
-* Rien en ligne n'est 100% sûr. Si vous avez quelque chose de vraiment sensible à dire, faites le hors-ligne.
+* À moins d'utiliser l'extension de navigateur Mailvelope ou votre propre solution OpenPGP, notre système courriel n'est *pas* chiffré de bout en bout ou chiffré par le client. Nous travaillons à une solution compréhensible à ce problème et nous espérons qu'elle sera disponible bientôt.
+* Si une personne obtient l'accès à votre mot de passe, elle sera capable de lire tous vos courriels. Ne donnez jamais votre mot de passe à quelqu'un-e. Si Riseup vous demande votre mot de passe, c'est une ruse. Ne le donnez pas.
+* N’ouvrez jamais une pièce jointe que vous recevez d'une personne, à moins que vous ne sachiez qu'elle allait vous l'envoyer. Les pièces jointes peuvent compromettre votre ordinateur et votre compte !
+* Riseup n'a pas de sauvegardes de vos anciens messages. Il est de votre responsabilité de vous assurer que vos données sont en sûreté !
+* Rien en ligne n'est 100 % sûr. Si vous avez quelque chose de vraiment sensible à dire, faites-le hors-ligne.
 * Il n'y a pas de moyen de fournir une solution technique magique qui résoudra tous les problèmes de tout le monde dans tous les différents contextes et luttes possibles. N'oubliez jamais que c'est une erreur d'essayer de résoudre des problèmes sociaux avec des solutions techniques.
 
 h2. Solidarité mutuelle
 
-Des courriels gratuits, cela n'existe pas. Les services comme Gmail, Hotmail et Yahoo font leur profit en vous espionnant: illes construisent des profils sur vous, notant vos comportements et vos désirs, pour mieux vous bombarder de publicité personnalisée.
+Des courriels gratuits, cela n'existe pas. Les services comme Gmail, Hotmail et Yahoo font leur profit en vous espionnant : illes construisent des profils sur vous, notant vos comportements et vos désirs, pour mieux vous bombarder de publicité personnalisée.
 
 Riseup est différent. Ce service est le résultat d'un mélange d'amour et de travail par des militant-e-s comme vous, dévoué-e-s à bâtir des infrastructures alternatives sécuritaires.
 
