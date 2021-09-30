@@ -9,13 +9,6 @@ Para usar o webmail de Riseup, visite https://mail.riseup.net.
 
 A principal razão para usar um webmail é não possuir um dispositivo próprio no qual se pode instalar um cliente de e-mail. Às vezes, as pessoas usam webmail porque não querem deixar registro de sua conta de e-mail no dispositivo. Essa não é uma boa solução, porque navegadores da web podem deixar arquivos temporários, e arquivos de sessão podem ser recuperados com as ferramentas certas.
 
-h2. Opções de webmail
-
-Atualmente, Riseup oferece duas opções de webmail:
-
-# *Roundcube*: Roundcube tem uma interface fluida e adaptável, mas requer Javascript e pode não funcionar para algumas pessoas.
-# *SquirrelMail*: Squirrelmail é mais simples e não requer Javascript.
-
 h2. Habilite os cookies
 
 Por segurança, nós exigimos cookies. Sem eles, é impossível garantir que sua sessão será segura.

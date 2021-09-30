@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+
 Riseup only supports v3 hidden/onion services. These are faster, and more
 secure, and have a longer .onion address.
 
@@ -26,8 +27,6 @@ pop.riseup.net:     5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.oni
 
 smtp.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 25, 465, 587)
 
-sm.riseup.net:      mzozzdejacxpb7boq4m7smisoa3bi4knpydntjbvyjrgzonmrhkbsjqd.onion (port 80)
-
 mx1.riseup.net:     aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.onion (port 25)
 
 pad.riseup.net:     kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion (port 80)
@@ -41,17 +40,19 @@ we.riseup.net:      zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.oni
 0xacab.org          wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAmFVu+UACgkQMEPitxOa
-do7mtw//f9vmFG2AR5HQyH+LxodyGomut50CKbi+3q6YsyO7MfMi9Mdc378VqRFX
-RDTCR3zjZfApTxgf4yWpghIcQPeJYGoe5uDWLv2rmWtE1fgdfu1ckYjHXQ/pIkzv
-UcLTzbA3Ekbv6GXMrBCdrMTied23Fy3svrtcDt+45BIbyXjm/Ew5IawVKctVAJmi
-HqtZLcQUmCzo8hUmuRYE+rKqZ1dAKxsao6JYr6gUVbb0DsqE09QvDcwDaSitDuk8
-ivn2E0f8STU9RZRLR55ecGio8IgzSMQJX+ZuE6GScFLaodYVudUYYEKZgkMBbBYo
-yJBdTOJ5vtECxJCQED3zMBkYKeqSC95FlkHYOeqV0FhW3pJrVtCCCy7y58m0ngOU
-IBChzfoqHtXOTnsBX+27tCvFupgDO/zrvbTwxsHjxDB1LVDm3/IGMh0ezgKIgriR
-7/z0tQneYrofBdQ1kp1/nfovf3zCM9kwTuADr8bNzshd8GdNFMhc+2unIxNyMBI2
-TisINEO1QTRBpfIxe/bBm508Al+52f+EHU97LAnrtGqUat8PGDX922HkKrnNQNJP
-q3d/ojzJr7oJ7GNEFguHRiYlO7g5KUvoYJW4IyMPxbJyHTyBzHIUjZ5Ce+cEoPf+
-uh77dX6kd6qoIWh2HNIMvStAOqVUz3f/p1b/F55maNM05/b3hJE=
-=OQxB
+iQKTBAEBCgB9FiEETgeRJo98Z+q+iPGwMEPitxOado4FAmFVy3JfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDRF
+MDc5MTI2OEY3QzY3RUFCRTg4RjFCMDMwNDNFMkI3MTM5QTc2OEUACgkQMEPitxOa
+do4LfBAAxmeZUmvAlcR+ldYpLUHoxEt7HZSzw2Tfwe+mjD7S4v8utj1BP5BtDOPk
+9ywnNCyaJO/VFUoyhXJ2aFImPYDkDrCRtAjmpWgdLwUCgcHNX+tGHlyHKAUZoU/z
+LO05QkyT+Z4BD4kY6Wg8gL6UIeTBloqiBCOLJEJGYgWCXrr2vTRaqS2uFxJpJnuc
+C5Benm8tz7MtPmgP8yaqui6W1X1isvb1zqQUfBM1qEEeKqGPQgiq5iALkBzdnit1
+PUI7FbdDKt3TZvuzUaerhWa9Gk72Fw9j0cLgtR27ZZtaLKDnPeDIkNi6GEv6DMUY
+Cr3VLiarttHLlBXw3HLUWrmaKQ/GzcLSoUs6QpUCYtRhglKp6Oj1JPdF3Gq5qZlH
+mI9A9pJ63QaxuT2AJQlxGn0NfdLrXBL0zDDU4x1H/ph3nWV/tXkRbwUm3gTEdFSM
+UqQOg+xgdrPqCH0H3/WKgnEyxEkUnfA84F0ELXNNskm4E58SEBH4uhri8f93eAN+
+BGduUCMRm8u5YsGOPwgoeMN/Rsudo440VCJiP+EsgeB/zDaMIqWktK8DGRwfXFpV
+Ay0ul4GM4T0ZhZRfS+VYzYhLYhkiA2Rj/o3RUXSVxRGJmJn1IQ6i3E93SdQoj1ae
+ylr1WRTtc4aa4I99OOyi/rdJ3Sqrkh7wDDWDZOboZNYdI/a9ayk=
+=d1nw
 -----END PGP SIGNATURE-----

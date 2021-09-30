@@ -8,13 +8,6 @@ Pour utiliser la messagerie web Riseup, visitez le https://mail.riseup.net
 
 La raison première d'utiliser la messagerie web est si vous n'avez pas votre propre ordinateur sur lequel vous pourriez installer un client de messagerie courriel. Parfois, les gens utilisent la messagerie web parce qu'elles et ils ne veulent pas laisser de traces du compte courriel utilisé sur un ordinateur. La messagerie web n'est pas une bonne solution dans ce cas, car les navigateurs web laissent toutes sortes de traces dans des fichiers temporaires qui peuvent être récupérés avec les bons outils.
 
-h2. Les options de messagerie web
-
-En ce moment, Riseup offre deux clients web différents:
-
-# *Roundcube*: Roundcube a une interface fluide et moderne, mais requiert l'utilisation de javascript et peut ne pas fonctionner pour certaines personnes
-# *SquirrelMail*: SquirrelMail est un client plus simple et ne requiert pas de javascript.
-
 h2. Les cookies doivent être permis
 
 Pour des raisons de sécurité, nous requérons des cookies. Sans cookies, il nous est impossible de sécuriser vos sessions.

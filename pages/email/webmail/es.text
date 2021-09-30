@@ -9,13 +9,6 @@ Webmail te permite manejar tu correo de riseup.net desde cualquier computadora a
 
 La primera de las razones para usar webmail, es que no tengas un dispositivo propio en el que poder instalar un cliente de correo. Algunas personas usan webmail porque no quieren dejar rastro alguno de qué cuenta de correo han usado el equipo en cuestión. Webmail no es una buena solución para esto, porque el navegador web deja toda clase de archivos temporales y los ficheros de sesión  pueden ser obtenidos con las herramientas adecuadas.
 
-h2. Opciones de Webmail
-
-Actualmente, Riseup ofrece dos opciones para usar webmail:
-
-# *SquirrelMail*: squirrelmail es más sencillo y no necesita javascript.
-# *IMP*: si no te gusta squirrelmail, puedes probar IMP.
-
 En un futuro, planeamos migrar a "RoundCube":https://roundcube.net para webmail.
 
 h2. Las cookies deben estar activadas
