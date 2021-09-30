@@ -15,38 +15,43 @@ soon as you can.
 riseup.net:         vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion (port 80)
 
 help.riseup.net:    vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion (port 80)
-                     
-imap.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (port 993)
-                                          
+
 lists.riseup.net:   7sbw6jufrirhyltzkslhcmkik4z7yrsmbpnptyritvz5nhbk35hncsqd.onion (port 80)
-                     
-mail.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 80, 465, 587)
+
+mail.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 25, 80, 110, 143, 465, 587, 993, 995)
+
+imap.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 143, 993)
+
+pop.riseup.net:     5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 110, 995)
+
+smtp.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 25, 465, 587)
 
 sm.riseup.net:      mzozzdejacxpb7boq4m7smisoa3bi4knpydntjbvyjrgzonmrhkbsjqd.onion (port 80)
-                     
+
 mx1.riseup.net:     aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.onion (port 25)
-                     
+
 pad.riseup.net:     kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion (port 80)
-                     
-pop.riseup.net:     5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 995)
-                     
+
 share.riseup.net:   aco6injncogk3siaubyh5sterx7w5pocqdrm7mna7u4wuukscgnqpeid.onion (port 80)
 
-smtp.riseup.net:    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion (ports 465, 587)
-                     
 account.riseup.net: 3xeiol2bnhrsqhcsaifwtnlqkylrerdspzua7bcjrh26qlrrrctfobid.onion (port 80)
-                     
+
 we.riseup.net:      zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.onion (port 443)
-                     
-xmpp.riseup.net:    jukrlvyhgguiedqswc5lehrag2fjunfktouuhi4wozxhb6heyzvshuyd.onion (ports 5222, 5269)
-                    
+
 0xacab.org          wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
 -----BEGIN PGP SIGNATURE-----
 
-iNUEARYKAH0WIQSKaorDIe5ctk4CGbUtLGXdsnRG5QUCYKJrLV8UgAAAAAAuAChp
-c3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0OEE2
-QThBQzMyMUVFNUNCNjRFMDIxOUI1MkQyQzY1RERCMjc0NDZFNQAKCRAtLGXdsnRG
-5bCZAQDiP6ylOe9L6hFLMEG5xI50IoyW374iRLzLi+ziRiX4KAD/ZX69wFudOSsp
-qmjngGtmXl9JXYR2EN6pHALW0lMlbgM=
-=8qFy
+iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAmFVu+UACgkQMEPitxOa
+do7mtw//f9vmFG2AR5HQyH+LxodyGomut50CKbi+3q6YsyO7MfMi9Mdc378VqRFX
+RDTCR3zjZfApTxgf4yWpghIcQPeJYGoe5uDWLv2rmWtE1fgdfu1ckYjHXQ/pIkzv
+UcLTzbA3Ekbv6GXMrBCdrMTied23Fy3svrtcDt+45BIbyXjm/Ew5IawVKctVAJmi
+HqtZLcQUmCzo8hUmuRYE+rKqZ1dAKxsao6JYr6gUVbb0DsqE09QvDcwDaSitDuk8
+ivn2E0f8STU9RZRLR55ecGio8IgzSMQJX+ZuE6GScFLaodYVudUYYEKZgkMBbBYo
+yJBdTOJ5vtECxJCQED3zMBkYKeqSC95FlkHYOeqV0FhW3pJrVtCCCy7y58m0ngOU
+IBChzfoqHtXOTnsBX+27tCvFupgDO/zrvbTwxsHjxDB1LVDm3/IGMh0ezgKIgriR
+7/z0tQneYrofBdQ1kp1/nfovf3zCM9kwTuADr8bNzshd8GdNFMhc+2unIxNyMBI2
+TisINEO1QTRBpfIxe/bBm508Al+52f+EHU97LAnrtGqUat8PGDX922HkKrnNQNJP
+q3d/ojzJr7oJ7GNEFguHRiYlO7g5KUvoYJW4IyMPxbJyHTyBzHIUjZ5Ce+cEoPf+
+uh77dX6kd6qoIWh2HNIMvStAOqVUz3f/p1b/F55maNM05/b3hJE=
+=OQxB
 -----END PGP SIGNATURE-----
