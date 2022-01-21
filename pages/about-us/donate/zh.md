@@ -35,10 +35,10 @@ Riseup致力于以创建满足个人和组织工作的社会变化的通信需�
 使用支票或汇票，抬头填写“Riseup Networks”，并发送到:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
-**注意：不要从美国以外的地方寄来支票！我们不能把它们存入银行。我们不能把它们存入银行! 如果你在欧洲，你可以给我们发送银行转账（见下文），或者[[联系我们 => contact]]获取欧洲的邮寄地址。**
+**注意：不要从美国以外的地方寄来支票！我们不能把它们存入银行。**
 
 遗憾的是，当收到您的捐款后，我们没有工会组织给您发送感谢信。我们非常感激您：您的支持是我们的生命线，激励我们更加努力工作。通过把钱用在对您有价值的地方来感谢您 
 
@@ -51,17 +51,6 @@ Riseup致力于以创建满足个人和组织工作的社会变化的通信需�
 ## 捐献加密货币
 
 <%= render :partial => 'inc/cryptocurrency_forms' %>
-
-## 通过IBAN转账捐款
-
-我们可以接受电汇，*只接受欧元（EUR），不接受其他货币。*请发送至：
-
-    Account holder: Riseup Networks
-    BIC: TRWIBEB1XXX
-    IBAN: BE46 9672 1075 8936
-    Address: Avenue Louise 54, Room S52
-             Brussels 1050
-             Belgium
 
 ## 常见问题解答
 
