@@ -35,8 +35,8 @@ Todas las decisiones financieras del *Colectivo Riseup* se toman de forma asambl
 Envíanos tu cheque o transferencia a nombre de "Riseup Networks" a esta dirección:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimiento cuando recibimos tu donación. Tienes que saber que te estamos increíblemente agradecidos: tu ayuda es nuestra alma y hace posible todo este duro trabajo. ¡Te adoramos por poner tu dinero en el mismo bando de tus ideales! 
 
@@ -49,17 +49,6 @@ Desafortunadamente, no tenemos capacidad para enviarte una carta de agradecimien
 ## Donaciones criptomoneda
 
 <%= render :partial => 'inc/cryptocurrency_forms' %>
-
-## Wire/Bank transfers (EUR suelement)
-
-Podemos aceptar transferencias IBAN *solo en Euros (EUR), no en otras monedas* utilizando la siguiente información. Si hay otra moneda que necesita usar, comuníquese con nosotros. Si necesita hacer una donación *deducible de impuestos* en Europa, comuníquese con nosotros para saber cómo hacerlo. 
-
-    Account holder: Riseup Networks
-    BIC: TRWIBEB1XXX
-    IBAN: BE46 9672 1075 8936
-    Address: Avenue Louise 54, Room S52
-             Brussels 1050
-             Belgium
 
 ## Preguntas más frecuentes
 
