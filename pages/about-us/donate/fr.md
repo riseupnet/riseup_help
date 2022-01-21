@@ -36,12 +36,12 @@ Toute les décisions financières prises par le **collectif Riseup** sont faites
 Faites des chèques ou des mandats à l'ordre de "Riseup Networks" et envoyez les à cette adresse :
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 Nous acceptons également avec plaisir les liasses de billets.
 
-**NOTE : N'envoyez PAS de chèques d'en dehors des États-Unis ! Nous ne pouvons pas les déposer ! Si vous êtes en Europe, vous pouvez à la place nous faire un virement bancaire (voir ci-dessous) ou [[contactez nous => contact]] pour une adresse postale européenne.**
+**NOTE : N'envoyez PAS de chèques d'en dehors des États-Unis ! Nous ne pouvons pas les déposer !**
 
 Malheurement, nous n'avons pas les ressources pour vous envoyer des lettres de remerciement quand nous reçevons vos dons. Nous souhaitons vous dire que nous sommes infiniment reconnaissantes et reconnaissants : ces dons nous permettent de continuer notre important travail. Merci de mettre votre argent là où se trouvent vos valeurs ! 
 
@@ -54,18 +54,6 @@ Malheurement, nous n'avons pas les ressources pour vous envoyer des lettres de r
 ## Dons de crypto-monnaie
 
 <%= render :partial => 'inc/cryptocurrency_forms' %>
-
-## Virement bancaire (EUR seulement)
-
-Nous acceptons les transferts bancaires *seulement en Euros (EUR), aucune autre devise*. Veuillez transférer à:
-
-	Nom du destinataire: Riseup Networks
-	IBAN: DE41 4306 0967 1126 8256 06
-    BIC: TRWIBEB1XXX
-    IBAN: BE46 9672 1075 8936
-    Address: Avenue Louise 54, Room S52
-             Bruxelles 1050
-             Belgique
 
 ## Questions fréquentes (FAQ)
 
