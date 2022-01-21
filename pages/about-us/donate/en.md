@@ -36,12 +36,12 @@ All financial decisions by the **Riseup Collective** are made using the consensu
 Make cheques or money orders payable to "Riseup Networks" and send them here:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 We also happily accept wads of crumped up currency.
 
-**NOTE: Do NOT send cheques from outside of the US! We cannot deposit them! If you are in Europe, you can either send us a bank transfer (see below), or [[contact us => contact]] for a European mailing address.**
+**NOTE: Do NOT send cheques from outside of the US! We cannot deposit them!
 
 Unfortunately, we don't have the labor to send you a letter of thanks when we receive your donation. Please know that we are so incredibly grateful: your support is our lifeblood and makes all our hard work possible. We love you for putting your money where your values are! 
 
@@ -54,17 +54,6 @@ Unfortunately, we don't have the labor to send you a letter of thanks when we re
 ## Donate cryptocurrency
 
 <%= render :partial => 'inc/cryptocurrency_forms' %>
-
-## Donate by IBAN transfer
-
-We can accept IBAN transfers *only in Euros (EUR), no other currencies* using the following information. If there is another currency that you need to use, please contact us. If you need to make a *tax-deductable* donation in Europe, please also contact us for how to do that. 
-
-    Account holder: Riseup Networks
-    BIC: TRWIBEB1XXX
-    IBAN: BE46 9672 1075 8936
-    Address: Avenue Louise 54, Room S52
-             Brussels 1050
-             Belgium
 
 ## Frequently Asked Questions
 
