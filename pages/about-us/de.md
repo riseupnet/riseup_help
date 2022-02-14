@@ -4,17 +4,17 @@
 
 <p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
-Können wir uns auf kommerzielle E-Mailanbieter für vertrauliche E-Mailkommunikation verlassen? Nicht nur dass sie regelmäßig unsere E-Mails nach bestimmten Inhalten scannen, sie folgen außerdem den Forderungen von Regierungen, die digitale Freiheit einzuschränken ohne klare Prinzipien zur Gewährleistung der Privatssphäre ihrer Nutzer*innen. Nicht zu reden von offensichtlichen kommerziellen Interessen der Unternehmen, die unseren Ansprüchen zuwiderlaufen. Die US-Regierung praktiziert umfassende Überwachung (“full pipe monitoring”) und soziale Netzwerkanalyse auf allen Kommunikationskanälen, wodurch sie in die Lage versetzt weden, eine detaillierte Karte sozialer Bewegungen und ihrer Organisationsweise zu erstellen. Darüber hinaus gibt es ihnen Informationen, welche Verbindungen zerstört werden müssen, um soziale Bewegungen zu stören.
+Können wir uns auf kommerzielle E-Mailanbieter für vertrauliche E-Mailkommunikation verlassen? Nicht nur dass sie regelmäßig unsere E-Mails nach bestimmten Inhalten scannen, sie folgen außerdem den Forderungen von Regierungen, die digitale Freiheit einzuschränken ohne klare Prinzipien zur Gewährleistung der Privatsphäre ihrer Nutzer*innen. Nicht zu reden von offensichtlichen kommerziellen Interessen der Unternehmen, die unseren Ansprüchen zuwiderlaufen. Die US-Regierung praktiziert umfassende Überwachung (“full pipe monitoring”) und soziale Netzwerkanalyse auf allen Kommunikationskanälen, wodurch sie in die Lage versetzt weden, eine detaillierte Karte sozialer Bewegungen und ihrer Organisationsweise zu erstellen. Darüber hinaus gibt es ihnen Informationen, welche Verbindungen zerstört werden müssen, um soziale Bewegungen zu stören.
 
-Wir glauben, es ist lebenswichtig, dass essentielle Kommunikationsinfrastruktur durch Organisationen der Bewegungen und nicht Unternehmen oder Regierungen kontrolliert werden sollte.
+Wir glauben, es ist lebenswichtig, dass essentielle Kommunikationsinfrastruktur durch Bewegungsorganisationen und nicht Unternehmen oder Regierungen kontrolliert werden.
 
-Wir setzen uns ein, E-Mail so sicher und privat wie möglich zu machen. Wir speichern keine IP-Adressen. (Die meisten Dienste speichern detaillierte Verbindungsdaten in ihren Logdateien. Wir speichern nur Informationen, mit denen sich unsere Nutzer*innen nicht identifzieren lassen.). Alle unsere Daten, E-Mail eingenommen, werden verschlüsselt gespeichert. Wir arbeiten hart daran, unsere Server sicher und gut geschützt gegenüber böswilligen Angriffen zu halten. Wir teilen keine Nutzer*innendaten mit irgendjemandem. Wir kämpfen aktiv gegen alle Versuche, uns mittels subpoena oder anderweitig zur Herausgabe von Nutzer*inneninformationen oder Logdateien zu zwingen. Wir werden ein- oder ausgehende E-Mails nicht lesen, durchsuchen, oder verarbeiten außer um euch mittels automatischer Skripte vor Viren und Spam zu schützen, oder wenn wir durch euch zur Fehlersuche dazu aufgefordert werden.
+Wir setzen uns dafür ein, E-Mail so sicher und privat wie möglich zu machen. Wir speichern keine IP-Adressen. (Die meisten Dienste speichern detaillierte Verbindungsdaten in ihren Logdateien. Wir speichern nur Informationen, mit denen sich unsere Nutzer*innen nicht identifzieren lassen.). Alle unsere Daten, E-Mail eingenommen, werden verschlüsselt gespeichert. Wir arbeiten hart daran, unsere Server sicher und gut geschützt gegenüber böswilligen Angriffen zu halten. Wir teilen keine Nutzer*innendaten mit irgendjemandem. Wir kämpfen aktiv gegen alle Versuche, uns mittels subpoena oder anderweitig zur Herausgabe von Nutzer*inneninformationen oder Logdateien zu zwingen. Wir werden ein- oder ausgehende E-Mails nicht lesen, durchsuchen oder verarbeiten, außer um euch mittels automatischer Skripte vor Viren und Spam zu schützen oder wenn ihr uns  zur Fehlersuche dazu auffordert.
 
 ##  Riseups Ziele
 
 <p class="pull-right"><img class="image-right" src="img/riseup-yellow.gif" alt="riseup"></p>
 
-Das Riseup-Kollektiv ist eine autonome Körperschaft in Seattle mit Mitgliedern auf der ganzen Welt. Unser Ziele sind, beim Aufbau einer freien Gesellschaft zu helfen, eine Welt ohne Gier und mit Meinungsfreiheit, eine Welt ohne Unterdrückung oder Hierarchie, in der Macht gleichmäßig verteilt ist. Um dazu beizutragen, übernehmen wir Verantwortung für Kommunikations- und Computerresourcen für Alliierte in Kämpfen gegen Kapitalismus und andere Unterdrückungsformen.
+Das Riseup-Kollektiv ist eine autonome Körperschaft in Seattle mit Mitgliedern auf der ganzen Welt. Unser Ziele sind, beim Aufbau einer freien Gesellschaft zu helfen, eine Welt ohne Gier und mit Meinungsfreiheit, eine Welt ohne Unterdrückung oder Hierarchie, in der Macht gleichmäßig verteilt ist. Um dazu beizutragen, übernehmen wir Verantwortung für Kommunikations- und Computerresourcen für Verbündete im Kampf gegen Kapitalismus und andere Arten der Unterdrückung.
 
 * Wir schätzen und engagieren uns in Kämpfen für menschliche Befreiung, die ethische Behandlung von Tieren und ökologischer Nachhaltigkeit. Wir beteiligen uns im Kampf für Freiheit und Selbstbestimmung aller von Unterdrückung betroffenen Gruppen. Wir kämpfen gegen jede Form von Vorurteilen, Autoritarismus und Avantgardismus.
 
@@ -26,9 +26,7 @@ Das Riseup-Kollektiv ist eine autonome Körperschaft in Seattle mit Mitgliedern 
 
 * Wir bestärken Organisationen und Individuen, Technologie bei Befreiungskämpfen zu verwenden. Wir arbeiten an der gegenseitigen Unterstützung beim Überwinden der systematischen Unterdrückung, in deren Rahmen Technologie entwickelt und verwendet wird.
 
-##  Triff' das Kollektiv
-
-_Dieser Abschnitt wurde noch nicht übersetzt. "Hilf mit":https://github.com/riseupnet/riseup_help!_
+##  Triff das Kollektiv
 
 <div class="row">
 
@@ -58,11 +56,11 @@ Die Katzendrossel hockt hinter dem Laubwerk und singt den ganzen Tag hindurch. D
 
 <p class="col-md-1"><img src="img/waxwing.jpg" alt="waxwing"></p>
 
-<p class="col-md-11"><strong>Cedar Waxwing (Bombycilla cedrorum)</strong><br>
+<p class="col-md-11"><strong>Zedernseidenschwanz (Bombycilla cedrorum)</strong><br>
 
 Der Seidenschwanz ist ein Programmierer, Student sozialer Bewegungen, Anti-Überwachungs-Aktivist und Ausbilder/Erzieher. Obwohl zutiefst kritisch gegenüber Technologie, 
 hat der Seidenschwanz viel Zeit seines Lebens mit dem erratischen Versuch verbracht, Technologie zum Zweck der Befreiung einzusetzen. Wenn er nicht auf seinem Keyboard 
-herumhackt, macht er lange Streifzüge durch die Stadt, und spielt mit seinen anbetungswürdigen Nachkommen. 
+herumhackt, macht er lange Streifzüge durch die Stadt und spielt mit seinen anbetungswürdigen Nachkommen. 
 </div>
 <div class="row">
 
