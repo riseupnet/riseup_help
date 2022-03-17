@@ -6,7 +6,7 @@
 
 ### Doe:
 
-<a class="btn btn-default" href="#doações-por-correio">Correio</a> <a class="btn btn-default" href="#doe-com-cartão-de-crédito">Cartão de crédito</a> <a class="btn btn-default" href="#doe-com-criptomoeda">Criptomoeda</a> <a class="btn btn-default" href="#doe-por-transferência-com-iban">Transferência com IBAN</a>
+<a class="btn btn-default" href="#doações-por-correio">Correio</a> <a class="btn btn-default" href="#doe-com-cartão-de-crédito">Cartão de crédito</a> <a class="btn btn-default" href="#doe-com-criptomoeda">Criptomoeda</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 

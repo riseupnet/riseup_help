@@ -7,7 +7,7 @@
 
 ### Donate by:
 
-<a class="btn btn-default" href="#donate-by-mail">Mail</a> <a class="btn btn-default" href="#donate-by-credit-card">Credit Card</a> <a class="btn btn-default" href="#donate-cryptocurrency">Cryptocurrency</a> <a class="btn btn-default" href="#donate-by-iban-transfer">IBAN transfer</a>
+<a class="btn btn-default" href="#donate-by-mail">Mail</a> <a class="btn btn-default" href="#donate-by-credit-card">Credit Card</a> <a class="btn btn-default" href="#donate-cryptocurrency">Cryptocurrency</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
