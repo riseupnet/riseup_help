@@ -17,7 +17,6 @@ There is no particular reason you should trust this key. You can see who trusts 
 
 	gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 
-
 ## Mail
 
 Our mailing address is:
@@ -26,16 +25,12 @@ Our mailing address is:
 	PO Box 4282
 	Seattle, WA 98194 USA
 
-
 ## IRC
 
 	server : irc.indymedia.org
 	port for SSL connection : 6697
 	channel : #riseup
 	web interface : https://chat.indymedia.org
-
-
-(see [[chat/chat-security]] for information on keeping IRC secure)
 
 ## Social Networks
 

@@ -31,8 +31,6 @@ Nosso endereço para correspondência é:
 	channel : #riseup
 	web interface : https://chat.indymedia.org
 
-(Consulte [[chat/chat-security]] para informações sobre segurança no IRC.)
-
 ## Redes sociais
 
 * Diaspora : [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)

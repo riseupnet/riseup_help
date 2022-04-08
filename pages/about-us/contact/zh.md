@@ -16,7 +16,6 @@
 
 	gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
 
-
 ## 邮寄
 
 我们的邮寄地址是:
@@ -25,16 +24,12 @@
 	PO Box 4282
 	Seattle, WA 98194 USA
 
-
 ## IRC
 
 	server : irc.indymedia.org
 	port for SSL connection : 6697
 	channel : #riseup
 	web interface : https://chat.indymedia.org
-
-
-(参见[[chat/chat-security]]，了解有关保持IRC安全的信息)
 
 ## 社交媒体
 
