@@ -31,8 +31,6 @@ Unsere Postadresse ist:
 	Channel: #riseup
 	Webchat: https://chat.indymedia.org
 
-(siehe [[chat/chat-security]] um IRC abzusichern)
-
 ## Soziale Netzwerke
 
 * Diaspora : [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)

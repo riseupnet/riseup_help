@@ -31,8 +31,6 @@ Notre adresse postale est la suivante:
 	canal : #riseup
 	interface web : https://chat.indymedia.org
 
-(consultez [[chat/chat-security]] pour plus d'informations sur comment utiliser IRC de manière sécuritaire)
-
 ## Médias sociaux
 
 * Diaspora : [riseup@diasp.org](https://diasp.org/people/e6901810cb670133bdbb782bcb452bd5)
