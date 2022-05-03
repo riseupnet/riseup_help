@@ -335,17 +335,19 @@ h2. systemausfall.org
 
 [[systemausfall.org->https://systemausfall.org]] provides technical infrastructure for activists and collectives for their political work.
 
-* Email accounts
-* Mailing lists (encrypted and unencrypted)
+* Email accounts and webmail clients
+* Cloud space (Seafile + OnlyOffice)
+* Git (Gitea)
+* Mailinglists, plain (Sympa)
+* Mailinglisten, encrypted (Schleuder + Schleuder-Web)
+* Matrix (Synpase + Element)
+* Projects (Redmine)
+* Upload (Lufi)
+* Webspace to host custom websites (SSH, PHP, database)
+* Wikis (MoinMoin)
+* Wordpress
 * XMPP
-* Matrix
-* Hosting (Wordpress, Drupal)
-* Webspace for self hosting
-* Wikis
-* File sharing/ Cloud
-* Git
-* and more
-* Support in: German
+* Support pages are German only, limited support in English
 
 h2. systemli.org
 
