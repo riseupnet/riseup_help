@@ -32,26 +32,28 @@ mx1.riseup.net:     aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.oni
 
 pad.riseup.net:     kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion (port 80)
 
-share.riseup.net:   aco6injncogk3siaubyh5sterx7w5pocqdrm7mna7u4wuukscgnqpeid.onion (port 80)
+share.riseup.net:   2pyimbpxocupne6nbekma4dygkobl36sblei6ttknbm4kfh3r7jlpzyd.onion (port 80)
 
 account.riseup.net: 3xeiol2bnhrsqhcsaifwtnlqkylrerdspzua7bcjrh26qlrrrctfobid.onion (port 80)
 
 we.riseup.net:      zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.onion (port 443)
 
 0xacab.org          wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAmFVu+UACgkQMEPitxOa
-do7mtw//f9vmFG2AR5HQyH+LxodyGomut50CKbi+3q6YsyO7MfMi9Mdc378VqRFX
-RDTCR3zjZfApTxgf4yWpghIcQPeJYGoe5uDWLv2rmWtE1fgdfu1ckYjHXQ/pIkzv
-UcLTzbA3Ekbv6GXMrBCdrMTied23Fy3svrtcDt+45BIbyXjm/Ew5IawVKctVAJmi
-HqtZLcQUmCzo8hUmuRYE+rKqZ1dAKxsao6JYr6gUVbb0DsqE09QvDcwDaSitDuk8
-ivn2E0f8STU9RZRLR55ecGio8IgzSMQJX+ZuE6GScFLaodYVudUYYEKZgkMBbBYo
-yJBdTOJ5vtECxJCQED3zMBkYKeqSC95FlkHYOeqV0FhW3pJrVtCCCy7y58m0ngOU
-IBChzfoqHtXOTnsBX+27tCvFupgDO/zrvbTwxsHjxDB1LVDm3/IGMh0ezgKIgriR
-7/z0tQneYrofBdQ1kp1/nfovf3zCM9kwTuADr8bNzshd8GdNFMhc+2unIxNyMBI2
-TisINEO1QTRBpfIxe/bBm508Al+52f+EHU97LAnrtGqUat8PGDX922HkKrnNQNJP
-q3d/ojzJr7oJ7GNEFguHRiYlO7g5KUvoYJW4IyMPxbJyHTyBzHIUjZ5Ce+cEoPf+
-uh77dX6kd6qoIWh2HNIMvStAOqVUz3f/p1b/F55maNM05/b3hJE=
-=OQxB
+iQJKBAEBCgA0FiEETgeRJo98Z+q+iPGwMEPitxOado4FAmMPgngWHGNvbGxlY3Rp
+dmVAcmlzZXVwLm5ldAAKCRAwQ+K3E5p2jmKiD/4jJ5WGvtjBOFbqR6u1/EpwshYd
+SUqbmRe2RUAjpLccqHEw3RwfLCsDXFoEY7vERmIzwVPivdem9vog6tplr9GsF5gI
+Hem79v5O1zwGiq0uvTJYcVAF6+MiL38slOrAk5hEL5VDBjBFqWnMX03kpUAurxl+
+OZMj4Ze5CfsS/Zt7cQH9C3xGY5pdcodV9i9qrn2WlcdrvAoD8Dxb8AEJHo7iEQiF
+SYCyTAIJkgLWsrJ3iiDtblaBhykQz+WqCFXUFoh6jJoDSfKSIFtloDlo1aq2gGzC
+LGjW69FuuS02Rq41bwQhURDcq7hsy2n5BvyRjC9HODn6uIc4ZReMkkRN1mg7rM9Q
+czCQplxjBhIwlNcKgGlyifF3M+L+JRn3lov8ghk4PpJR8ErhoBebBMpMFWiZuy1j
+SBDP0xV02Ab6xyDiEKxSWJMzAsLoOZokOWyhRAH1TEYJx8esbKNnxnoFmcMeJ+ii
+BfdC2q3LqhM7EenahYnkF3cMj9f5sUhB8pAt2A/O6wDhomhdgbtMPoz7CukjDr09
+oXn4lDRGE+nA4KH6fFghi9WwjYTCJ7t0amBoEgzru3mcUu0Zmubk+NBXHM83qBws
+RvzSMgKTFjbbxFQAVLGRPzXJMet0hA7PwK1bavt6miABFpN3Q5kft7P7xhHYvSJQ
+E45BTR/+lobIUleWTw==
+=IW4k
 -----END PGP SIGNATURE-----
