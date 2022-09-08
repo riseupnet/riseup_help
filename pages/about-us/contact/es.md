@@ -7,8 +7,8 @@ Para cuestiones generales de a cerca de nuestro colectivo, envíanos un correo e
 Nuestra dirección postal es:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 Puedes encontrar a la gente del colectivo Riseup y sus amistades en irc.indymedia.org en la sala #riseup.  También puedes usar la interfaz web de https://chat.indymedia.org para contactar con nosotros si las siglas "IRC" no te resultan familiares.
 

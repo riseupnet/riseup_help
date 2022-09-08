@@ -21,8 +21,8 @@ Vous n'avez pas de raison particulière d'avoir confiance dans cette clé. Vous 
 Notre adresse postale est la suivante:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 ## IRC
 

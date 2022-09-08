@@ -22,8 +22,8 @@ There is no particular reason you should trust this key. You can see who trusts 
 Our mailing address is:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 ## IRC
 

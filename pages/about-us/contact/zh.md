@@ -21,8 +21,8 @@
 我们的邮寄地址是:
 
 	Riseup Networks
-	PO Box 4282
-	Seattle, WA 98194 USA
+	PO Box 3027
+	Lacey, WA 98509 USA
 
 ## IRC
 
