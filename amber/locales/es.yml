@@ -2,7 +2,7 @@ es:
   tags: "Etiquetas"
   tag: "Etiqueta"
   related: "Relacionados"
-  missing_translation: "Esta página aún no ha sido traducida del Inglés."
+  missing_translation: "Esta página aún no ha sido traducida del inglés."
   support_riseup: "¡Apoya a Riseup!"
 
   # Months
@@ -21,14 +21,14 @@ es:
 
   # Donation page
   donation_processor: "Gestor"
-  supports_recurring_donations: "Donaciones periódicas?"
-  supports_optional_registration: "Registro obligatorio?"
-  supports_credit_card: "Tarjeta de crédito?"
+  supports_recurring_donations: "¿Donaciones periódicas?"
+  supports_optional_registration: "¿Registro obligatorio?"
+  supports_credit_card: "¿Tarjeta de crédito?"
   notes: "Notas"
   yes_value: "Sí"
   no_value: "No"
 
-  subscribe: "Subscribe"
+  subscribe: "Suscribirse"
   donate: "Donar"
   monthly: "Mensual"
   quarterly: "Trimestral"
@@ -37,11 +37,11 @@ es:
 
   bitcoin: "Bitcoin"
   bitcoin_note: "Cripto-moneda electrónica descentralizada de igual a igual."
-  bitcoin_description: "Bitcoin es una cripto-monedaelectrónica descentralizada de igual a igual. Bitcoin es también una manera gratuita de enviar dinero al extranjero. Si quieres usar Bitcoin para enviar dinero a Riseup generaremos una dirección única y original para que la uses en esta donación. Simplemente pulsa en el botón de abajo para obtener esa dirección bitcoin."
+  bitcoin_description: "Bitcoin es una cripto-moneda electrónica descentralizada de igual a igual. Bitcoin es también una manera gratuita de enviar dinero al extranjero. Si quieres usar Bitcoin para enviar dinero a Riseup generaremos una dirección única y original para que la uses en esta donación. Simplemente pulsa en el botón de abajo para obtener esa dirección bitcoin."
   grab_address: "Obten una dirección"
   generate: "Generar"
   liberapay: "Liberapay"
   paypal: "Paypal"
-  paypal_note: "Funciona desde muchos paises."
+  paypal_note: "Funciona desde muchos países."
   paypal_description: "Paypal acepta tarjetas de crédito y es compatible con donaciones periódicas (para donaciones periódicas, es necesario una cuenta PayPal)."
   
