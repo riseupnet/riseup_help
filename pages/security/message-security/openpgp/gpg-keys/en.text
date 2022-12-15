@@ -165,7 +165,7 @@ h3. Publish your OpenPGP public key to a Key server
 At this point, you can publish your public key to a key server where people can request it remotely to be able to send encrypted data and emails to you.
 # Press **Alt+F2** and run: @gnome-terminal@
 # type @gpg --send-keys <<fingerprint>>@
-where <<fingerprint>> is the fingerprint of the key you wish to publish on the key servers. Hopefully, you have already [[configured a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring].
+where <<fingerprint>> is the fingerprint of the key you wish to publish on the key servers. Hopefully, you have already [[configured a good keyserver -> /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]].
 
 h1. Windows
 
