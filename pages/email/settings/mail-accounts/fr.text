@@ -2,11 +2,11 @@
 
 h2. Comment faire pour créer un compte courriel ?
 
-Les "comptes Red" sont nécessaires pour les courriels, le chat, le VPN et le service d'assistance.
+Un compte est nécessaire pour les courriels, le chat, le VPN et le service d'assistance.
 
-Pour créer un compte Red vous avez besoin d'une invitation :
+Pour créer un compte vous avez besoin d'une invitation :
 
-# Obtenez un *code d'invitation* par un·e ami·e. Les codes d'invitation peuvent être créés en se connectant sur https://account.riseup.net
+# Obtenez un *code d'invitation* par un·e ami·e qui vous fait confiance. Les codes d'invitation peuvent être créés en se connectant sur https://account.riseup.net
 # Utilisez le *code d'invitation* en visitant https://account.riseup.net pour créer votre compte.
 
 Quelques remarques :
@@ -14,6 +14,7 @@ Quelques remarques :
 * Vous n'avez besoin que d'une invitation.
 * Les comptes nouvellement créés ne peuvent pas créer de code d'invitation.
 * À cause d'un grand nombre de demandes de spammeurs et d'arnaqueurs pour obtenir des comptes Riseup, nous avons été forcés d'utiliser les codes d'invitation pour tous les nouveaux comptes. Nous savons que c'est nul. Comme nous ne demandons pas de numéro de téléphone ou des informations de facturation, nous avons besoin d'un autre moyen pour éviter des abus.
+* Les codes d'invitation sont liés à la personne qui vous a invité, pour une période donnée. La personne qui vous a invité est responsable de vous avoir invité.
 
 h2. Comment changer mon nom d'utilisateur ?
 
