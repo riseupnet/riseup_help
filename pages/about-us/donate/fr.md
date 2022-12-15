@@ -7,7 +7,7 @@
 
 ### Dons:
 
-<a class="btn btn-default" href="#don-par-courrier-postal">Postal</a> <a class="btn btn-default" href="#dons-par-carte-de-crédit">Carte de crédit</a> <a class="btn btn-default" href="#dons-de-crypto-monnaie">Crypto-monnaie</a> <a class="btn btn-default" href="#virement-bancaire-eur-seulement">Virement bancaire (EUR seulement)</a>
+<a class="btn btn-default" href="#don-par-courrier-postal">Postal</a> <a class="btn btn-default" href="#dons-par-carte-de-crédit">Carte de crédit</a> <a class="btn btn-default" href="#dons-de-crypto-monnaie">Crypto-monnaie</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
