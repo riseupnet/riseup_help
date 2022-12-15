@@ -304,17 +304,19 @@ h2. systemausfall.org
 
 [[systemausfall.org->https://systemausfall.org]] unterstützt Aktivist*innen und Kollektive mit technischer Infrastuktur in ihrer politischen Arbeit.
 
-* E-Mailkonten
-* Mailinglisten (verschlüsselt und unverschlüsselt)
+* E-Mailkonten und Webmail
+* Cloudspeicher (Seafile + OnlyOffice)
+* Git (Gitea)
+* Mailinglisten, unverschlüsselt (Sympa)
+* Mailinglisten, verschlüsselt (Schleuder + Schleuder-Web)
+* Matrix (Synpase + Element)
+* Projektverwaltung (Redmine)
+* Upload (Lufi)
+* Webspace zum Hosting eigener Anwendungen (SSH-Zugang, PHP, Datenbank)
+* Wikis (MoinMoin)
+* Wordpress
 * XMPP
-* Matrix
-* Hosting (Wordpress, Drupal)
-* Webspace zum Hosting eigener Anwendungen
-* Wikis
-* Cloudspeicher
-* Git
-* und mehr
-* Support auf Deutsch
+* Supportseiten auf deutsch, eingeschränkter Support auf englisch
 
 h2. systemli.org
 
