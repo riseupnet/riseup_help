@@ -1,7 +1,3 @@
-### Por que não aceitam transferências em outras moedas?
-
-Temos que pagar uma alta taxa sobre o câmbio das doações. Além disso, mandar dinheiro diretamente para nossa cooperativa de crédito, nos Estados Unidos, é uma operação difícil - geralmente não funciona, e quando funciona, cada transferência custa US$ 13, o que não é muito barato.
-
 ### Como doar se não tenho dólares ou euros?
 
 Quem não mora nos Estados Unidos pode apoiar algum coletivo tecnológico local. Porém, se quiser nos enviar uma doação, você tem as seguintes opções:
