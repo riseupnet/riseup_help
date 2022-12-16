@@ -1,7 +1,3 @@
-### Pourquoi acceptez-vous seulement les virements bancaires en EUR?
-
-L'envoi direct vers notre compagnie de crédit aux Etats-Unis est souvent compliqué et ne fonctionne souvent pas. Lorsqu'un transfert fonctionne, un frais de 13$ par transaction nous est facturé, ce qui peut être coûteux.
-
 ### Comment donner en d'autres devises que $US ou EUR?
 
 Si vous habitez en dehors des États-Unis, vous pouvez tout d'abord considérer supporter le collectif informatique local de votre région. Si vous voulez nous envoyer un don, voici quelques options:
