@@ -6,7 +6,7 @@
 
 ### Donare:
 
-<a class="btn btn-default" href="#donazioni-tramite-posta">Posta</a> <a class="btn btn-default" href="#donazioni-online">Online</a> <a class="btn btn-default" href="#donare-criptovaluta">Criptovaluta</a> <a class="btn btn-default" href="#wirebank-trasferimenti-eur-solo">Wire/Bank trasferimenti (EUR solo)</a>
+<a class="btn btn-default" href="#donazioni-tramite-posta">Posta</a> <a class="btn btn-default" href="#donazioni-online">Online</a> <a class="btn btn-default" href="#donare-criptovaluta">Criptovaluta</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
