@@ -17,14 +17,3 @@ h3. 使用Thunderbird请按照以下步骤
 * 选择菜单条目 *Messages* > *Move* > *Local Folders* > *Folder Name*， 这里的 *Folder Name*是您刚刚创建的新文件夹。 is the name of the new folder you just created. 或者，您可以用鼠标拖动选中的消息到新文件夹。
 
 如果您使用的不是 Thunderbird，查看您邮件客户端的细节文档。
-
-h3. 或者，您也可以使用 squirrelmail下载您的邮件归档
-
-* 登录 https://mail.riseup.net，使用 *squirrelmail* 登录表单。
-* 通过选择 *Options* > *Archive Settings*来配置归档格式。
-* 反悔您希望下载的信息的文件夹。
-* 检查您希望归档的消息盒子。
-* 点击消息列表右下角的 *Archive*按钮，下载归档。
-* 将会创建一个当前可见消息的归档。如果您想归档所有的消息，您可以先点击*Show All*。
-* 注意，您一次不能归档太多消息，服务器将会消耗太多资金并宕机。
-* squirrelmail的归档消息并不会删除它们，为了从服务器上移除他们，你必须删除它们。

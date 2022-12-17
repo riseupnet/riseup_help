@@ -23,11 +23,11 @@ h2. Wie ändere ich meinen Benutzernamen?
 
 Du solltest die folgenden wichtigen Dinge beachten, bevor du deinen Benutzernamen änderst:
 
-* Dein Roundcube- bzw. Squirrelmail-Adressbuch wird verloren gehen. Wenn du dein Adressbuch dieser webbasierten E-Mail Programme behalten möchtest, solltest du folgende Dinge tun:
+* Dein Roundcube Adressbuch wird verloren gehen. Wenn du dein Adressbuch dieser webbasierten E-Mail Programme behalten möchtest, solltest du folgende Dinge tun:
 
-# Exportiere dein Adressbuch von Roundcube oder Squirrelmail in eine Datei
+# Exportiere dein Adressbuch von Roundcube in eine Datei
 # Ändere deinen Benutzernamen
-# Importiere die Datei, die dein Adressbuch enthält, in Roundcube oder Squirrelmail.
+# Importiere die Datei, die dein Adressbuch enthält, in Roundcube.
 
 * Nachdem du deinen Benutzernamen geändert hast, solltest du möglicherweise deinen alten Benutzernamen als Alias für deinen Account eintragen. Somit verlierst du keine E-Mails. Falls du deinen Benutzernamen geändert hast, um Spam zu verhindern, überspringe diesen Schritt.
 * Sobald dein Benutzername geändert wurde, verwende diesen neuen Benutzernamen für die Anmeldung auf mail.riseup.net.

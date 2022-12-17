@@ -18,13 +18,3 @@ h3. If you are using Thunderbird follow these steps
 
 * To copy whole folders, you can drag them to *Local Folders*.
 
-h3. Alternately, you can also use squirrelmail to download an archive of your mail
-
-* Login at https://mail.riseup.net, using the *squirrelmail* login form.
-* Configure the format of the archive be choosing *Options* > *Archive Settings*.
-* Go back to the folder where the messages are that you wish to download.
-* Check the boxes for the messages that you wish to archive.
-* Download an archive by clicking the *Archive* button at the bottom right of the message list.
-* This will create an archive of all the currently visible messages. If you want to archive all of your messages, you may want to first click *Show All*.
-* Note that you cannot archive too many messages at once: the server script will run out of memory and fail.
-* Archiving messages with squirrelmail does not delete them: you must still delete the messages in order to remove them from the server.

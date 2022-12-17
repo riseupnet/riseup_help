@@ -24,6 +24,4 @@ If you are using IMAP and you cannot see your server-based folders, then you may
 
 In [[thunderbird]] you do this by right-clicking on the *Inbox*, and selecting *Subscribe*.
 
-In Squirrelmail, click *Folders* at the top, and look at the *Unsubscribe/Subscribe* field. If there any folders that you are not subscribed to, they will show up in the right column, and you can select them and hit *Subscribe* to subscribe to them.
-
 Otherwise, consult your mail client's documentation for how to do this.

@@ -24,11 +24,11 @@ h2. Como posso trocar meu login?
 
 Existem alguns itens importantes que você deve considerar antes de trocar seu login:
 
-* Seus catálogos de endereços no Roundcube e no Squirrelmail serão perdidos. Para mantê-los, faça o seguinte:
+* Seus catálogos de endereços no Roundcube serão perdidos. Para mantê-los, faça o seguinte:
 
-# Exporte o catálogo de endereços para um arquivo pelo Roundcube ou Squirrelmail.
+# Exporte o catálogo de endereços para um arquivo pelo Roundcube.
 # Troque seu login.
-# Importe o arquivo do catálogo de endereços pelo Roundcube ou Squirrelmail.
+# Importe o arquivo do catálogo de endereços pelo Roundcube.
 
 * Após a troca de login, vale a pena adicionar o antigo como um alias (e-mail de redirecionamento) à sua conta. Dessa forma, você não deixará de receber nenhuma mensagem. Pule este passo se você está trocando seu login para evitar spam.
 * Uma vez que seu login for trocado, passe a usá-lo para entrar em mail.riseup.net.
