@@ -25,11 +25,11 @@ h2. Comment changer mon nom d'utilisateur ?
 
 Il a des choses importantes à savoir avant de changer votre nom d'utilisateur:
 
-* Vos carnets d'adresse sur roundcube et squirrelmail seront perdus. Si vous souhaitez conserver vos carnets d'adresse pour ces interfaces en ligne, vous devez faire ceci :
+* Vos carnets d'adresse sur roundcube seront perdus. Si vous souhaitez conserver vos carnets d'adresse pour ces interfaces en ligne, vous devez faire ceci :
 
-# exportez le carnet d'adresse vers un fichier à partir de roundcube ou squirrelmail.
+# exportez le carnet d'adresse vers un fichier à partir de roundcube.
 # changez votre nom d'utilisateur
-# importez votre fichier de contacts dans roundcube ou squirrelmail.
+# importez votre fichier de contacts dans roundcube.
 
 * Après avoir modifié votre nom d'utilisateur, vous devriez probablement ajouter votre ancien nom comme alias de votre compte. De cette manière, vous ne manquerez pas de courriels. Si vous changez votre nom d'utilisateur pour éviter le spam, sautez cette étape.
 * Une fois votre nom d'utilisateur modifié, utilisez le pour vous connecter à mail.riseup.net.

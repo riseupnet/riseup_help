@@ -25,11 +25,11 @@ h2. How do I change my username?
 
 There are some important things to consider before you change your username:
 
-* Your roundcube and squirrelmail addressbooks will be lost. If you want to keep your addressbooks for these web based email interfaces, then you must do this:
+* Your roundcube addressbooks will be lost. If you want to keep your addressbooks for these web based email interfaces, then you must do this:
 
-# export the addressebook to a file from within roundcube or squirrelmail.
+# export the addressebook to a file from within roundcube
 # change your username
-# import the file of addresses back into roundcube or squirrelmail.
+# import the file of addresses back into roundcube
 
 * After you have changed your username, you should probably add the old username as an alias for your account. This way, you won't miss any email. If you are changing your username to avoid spam, however, then skip this step.
 * Once your username is changed, use that new username to login at mail.riseup.net.

@@ -18,13 +18,3 @@ h3. Si vous utilisez Thunderbird suivez ces étapes
 
 * Pour copier des dossiers entiers, vous pouvez les glisser-déposer dans *Dossier locaux*.
 
-h3. Une autre méthode est d'utiliser squirrelmail pour télécharger une archive de vos messages
-
-* Connectez-vous à https://mail.riseup.net, en choisissant la page *squirrelmail*
-* Configurez le format de l'archive en choisissant *Options* > *Archive Settings*.
-* Retournez dans le dossier contenant les messages que vous souhaitez télécharger.
-* Cochez les cases des messages que vous souhaitez archiver.
-* Téléchargez une archive en cliquant sur le bouton *Archive* en bas à droite de la liste des messages.
-* Cela va créer une archive de tous les messages visibles actuellement. Si vous voulez archiver tous vos messages, vous devez cliquer sur *Show All* d'abord.
-* Notez que vous ne pouvez pas archiver trop de messages en une seule fois: le script serveur sera à court de mémoire et échouera.
-* Archiver des messages avec squirremail ne les supprime pas: vous devez toujours supprimer les messages pour les enlever du serveur.
