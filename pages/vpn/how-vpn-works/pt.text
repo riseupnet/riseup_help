@@ -29,4 +29,3 @@ Como seu tráfego aparenta ter origem no servidor da VPN, a pessoa com quem voc�
 
 No caso ilustrado acima, um site da Califórnia pensa que um laptop no Brasil, um laptop na Europa e um telefone celular sobrevoando o Canadá estão em Nova York, porque é lá que está o servidor da nossa VPN.
 
-<%= render :partial => 'vpn-limitations' %>

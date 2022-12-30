@@ -29,4 +29,3 @@ Weil dein Verkehr von der IP-Adresse deines VPN-Servers zu kommen scheint, weiß
 
 Im oben illustrierten Fall denkt die Webseite in Kalifornien, dass der Laptop in Brasilien, der Laptop in Europa und das riesige Mobiltelephon, das über Kanada fliegt, alle aus New York kommen, weil dort der VPN-Server steht.
 
-<%= render :partial => 'vpn-limitations' %>

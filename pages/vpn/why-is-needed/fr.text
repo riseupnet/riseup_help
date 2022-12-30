@@ -35,6 +35,3 @@ Il y a plusieurs raisons pour lesquelles le VPN Riseup peut aider :
 
 # *Sécuriser vos connexions Wi-Fi*: Chaque fois que vous utilisez un réseau Wi-Fi public, toute personne connectée au même réseau peut espionner votre trafic. Le VPN Riseup va empêcher cela.
 
-[[how-vpn-works]]
-
-<%= render :partial => 'vpn-limitations' %>
