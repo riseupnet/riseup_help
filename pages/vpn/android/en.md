@@ -1,6 +1,5 @@
 @title = "RiseupVPN for Android"
 @toc = true
-@this.alias = '/vpn/android'
 
 ## Installation
 

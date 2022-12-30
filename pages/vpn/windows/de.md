@@ -1,6 +1,5 @@
 @title = "RiseupVPN für Windows"
 @toc = true
-@this.alias = '/vpn/windows'
 
 ## Voraussetzungen
 

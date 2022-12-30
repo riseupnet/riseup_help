@@ -1,6 +1,5 @@
 @title = 'RiseupVPN Fehlersuche und Support'
 @toc = false
-@this.alias = '/vpn/support'
 
 ### Fehlersuche
 

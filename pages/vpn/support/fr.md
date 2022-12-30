@@ -1,6 +1,5 @@
 @title = 'Problèmes et support technique pour RiseupVPN'
 @toc = false
-@this.alias = '/vpn/support'
 
 ### Problèmes
 

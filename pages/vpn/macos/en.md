@@ -1,6 +1,5 @@
 @title = "RiseupVPN for macOS"
 @toc = true
-@this.alias = '/vpn/macos'
 
 ## Requirements
 
