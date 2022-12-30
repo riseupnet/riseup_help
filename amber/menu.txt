@@ -51,12 +51,6 @@ lists
       moderation
     faq
 vpn
-  vpn-black
-    linux
-    mac
-    windows
-    ios
-    troubleshooting
   why-is-needed
   how-vpn-works
   security-issues
@@ -77,7 +71,6 @@ security
       gpg-keys
       enigmail
       key-transition
-    otr
   network-security
     secure-connections
     better-web-browsing
