@@ -20,3 +20,5 @@ Oui et non. Utiliser un VPN vous rendra protégé à plusieurs endroits où une 
 Cependant, dès que le trafic passe de la passerelle VPN à sa destination, il devient vulnérable à une attaque MiTM. Avec un VPN, votre trafic est à moitié anonymisé, donc il devient beaucoup, beaucoup plus difficiles de cibler une attaque vers une personne en particulier, mais une attaque non ciblée contre tout les utilisateurs d'un site web est toujours possible.
 
 Par exemple, en Janvier 2011 le gouvernement tunisien, craignant la population qui se révoltait et pouvait faire chuter le régime, a été capable de réaliser une attaque MiTM sur les utilisateurs Facebook qui se connectés depuis la Tunisie, en prenant leur login et leur mot de passe. Dans ce cas là, un VPN aurait permis d'être protégé tant que votre passerelle VPN était située en dehors de la Tunisie.
+
+<%= render '../limitations' %>

@@ -8,12 +8,8 @@ A Riseup VPN tem limitações comuns a todas as VPNs pessoais:
 
 * *[[device-security]]*: Uma VPN ajuda a proteger as suas informações enquanto transitam pela internet, mas não enquanto estão armazenadas no seu computador ou em um servidor remoto.
 
-* *[[Conexões inseguras são sempre inseguras->network-security]]*: Embora a Riseup VPN torne anônima a sua localização e proteja você da vigilância do seu provedor, depois que seus dados forem roteados em segurança por riseup.net, eles seguirão pela internet normalmente. Portanto, ainda se deve usar [[conexões seguras -> secure-connections]] (TLS), quando disponíveis (isto é, prefira HTTPS a HTTP, IMAPS a IMAP, etc.).
-
 * *VPNs não são remédio para tudo*: Embora deem conta de muita coisa, as VPNs não resolvem tudo. Por exemplo, não aumentam a sua segurança se o seu computador já estiver infectado por vírus ou programas espiões. Se você passar informações pessoais a um site, a VPN poderá fazer muito pouco para manter seu anonimato diante dele e das páginas parceiras. Saiba como [[manter o anonimato com VPNs -> security-issues]].
 
 * *A internet pode ficar mais lenta*: A Riseup VPN roteia todo o seu tráfego por uma conexão criptografada a riseup.net antes que ele siga para a internet normal. Esse passo extra pode deixar a transferência de dados mais lenta. Para reduzir a lentidão, escolha, se possível, um servidor de VPN localizado próximo a onde você vive.
 
 * *VPNs podem ser difíceis de configurar*: Ainda que tenhamos tomado providências para facilitar ao máximo o processo, qualquer VPN complica um pouco a configuração da sua rede.
-
-[[Saiba mais->vpn/security-issues]].

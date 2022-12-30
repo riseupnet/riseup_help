@@ -20,3 +20,5 @@ Ja und nein. Die Benutzung eines VPN schlägt viele mögliche Angriffsorte für 
 Allerdings wird dein Verkehr angreifbar für MiTM-Angriffe, sobald er vom VPN-Gateway zu seinem eigentlichen Ziel geleitet wird. Mit einem VPN ist dein Verkehr semi-anonymisiert, also ist es sehr viel schwerer, Angriffe gegen einzelne Personen zu richten, aber ein ungerichtetet Angriff gegen alle Nutzer*innen einer speziellen Webseite ist immer noch möglich.
 
 Zum Beispiel war die tunesische Regierung im Januar 2011 in Angst vor Aufständen, die vielleicht die Regierung angreifen könnten und es gelang ihr, einen MiTM-Angriff auf Facebook-Nutzer*innen durchzuführen, die sich von Tunesien aus verbunden hatten, sodass sie ihre Logins und Passwörter abfangen konnte. In diesem Fall hätte ein VPN insofern geschützt, wenn der VPN-Gateway außerhalb von Tunesien gestanden hätte.
+
+<%= render '../limitations' %>

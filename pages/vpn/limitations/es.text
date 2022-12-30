@@ -3,7 +3,4 @@ h2. Limitaciones en el uso de RiserupVPN
 El VPN de Riseup comparte algunas limitaciones comunes a todos los VPNs personales:
 
 * *Una conexión no segura será todavía insegura*: Aunque Riseup VPN conseguirá anonimizar tu ubicación y te protegerá de la vigilancia de tu ISP, una vez que tus datos son enviados de forma segura a través de riseup.net estos saldrán a Internet como lo harían normalmente. Esto significa que debes seguir utilizando TLS cuando esté disponible (es decir: https, imaps, etc).
-* *Riseup VPN no es la panacea*: Aunque VPNs logra mucho, no puede arreglarlo todo. Por ejemplo, no puede aumentar tu seguridad si el equipo ya está comprometido con virus o spyware. Si proporcionas información personal a un sitio web, es poco lo que una VPN puede hacer para mantener tu anonimato en ese sitio web o sus socios. Para obtener más información, consulta [[Anonimato VPN -> security-issues]].
 * *Tu conexión podría ir más lenta*: Riseup VPN redirige todo tu tráfico a través de una conexión cifrada a riseup.net antes de su viaje hacia la Internet normal. Este paso adicional puede ralentizar las cosas. Para minimizar este contratiempo, puedes elegir un servidor VPN cercano a donde vivas.
-
-[[Lea más->security-issues]]

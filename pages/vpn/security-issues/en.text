@@ -20,3 +20,5 @@ Yes and no. Using a VPN will shut down many of the places where a MiTM attack mi
 However, once your traffic passes from the VPN gateway to its eventual destination, it becomes vulnerable to a MiTM attack. With a VPN, your traffic is then semi-anonymized, so it is much much more difficult to target any attack toward any particular person, but an indiscriminate attack against all users of a particular website is still very possible.
 
 For example, in January 2011 the Tunisian government, in fear of the popular uprising that would eventually topple the regime, was able to perform a MiTM attack on Facebook users connecting from withing Tunisia, capturing their login and passwords. In this case, a VPN would have protected as long as the VPN gateway was located outside the country of Tunisia.
+
+<%= render '../limitations' %>
