@@ -32,7 +32,7 @@ You should follow [[these instructions to download riseup's gpg key and verify t
 1. You should get output that is similar to the following (note the date will change, based on when the canary statement was signed):
 
 	```
-	gpg: Signature made Tue 01 Nov 2022 05:19:19 PM PDT
+	gpg: Signature made Tue 31 Jan 2023 09:58:25 PM PST
 	gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E
 	gpg:                issuer "collective@riseup.net"
 	gpg: Good signature from "Riseup Treasurer <treasurer@riseup.net>" [unknown]
