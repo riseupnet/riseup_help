@@ -31,12 +31,18 @@ If you get an error stating that "python" is missing from /usr/bin/env, you need
 
 ## Package Installation
 
-Run the following commands in a terminal to install the Debian Stable package.
+The VPN is packaged in Debian bookworm and later, install it by running the following command in a terminal, or look for the `riseup-vpn` package in your favorite package manager:
+
+       sudo apt install riseup-vpn
+
+For older releases, run the following:
 
        sudo apt install leap-archive-keyring
        echo "deb https://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
        sudo apt update
        sudo apt install riseup-vpn
+
+Warning: that repository is out of date and unsupported, it will soon be removed, see [issue 693](https://0xacab.org/leap/bitmask-vpn/-/issues/693) for followup.
 
 ## Troubleshooting
 
