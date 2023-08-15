@@ -16,7 +16,6 @@ pl:
   # services:
   link_lists: "Listy mailingowe"
   link_email: "Email"
-  link_chat: "Czat"
   link_groups: "Grupy"
 
   # Donation page
