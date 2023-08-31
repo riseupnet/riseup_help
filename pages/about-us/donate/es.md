@@ -6,7 +6,7 @@
 
 ### Donaciones:
 
-<a class="btn btn-default" href="#donaciones-por-v%C3%ADa-postal">Postal</a> <a class="btn btn-default" href="#donaciones-online">Online</a> <a class="btn btn-default" href="#donaciones-criptomoneda">Criptomoneda</a> <a class="btn btn-default" href="#wirebank-transfers-eur-suelement">Wire/Bank transfers (EUR suelement)</a>
+<a class="btn btn-default" href="#donaciones-por-v%C3%ADa-postal">Postal</a> <a class="btn btn-default" href="#donaciones-online">Online</a> <a class="btn btn-default" href="#donaciones-criptomoneda">Criptomoneda</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 

@@ -6,7 +6,7 @@
 
 ### Spenden
 
-<a class="btn btn-default" href="#spenden-per-post">Post</a> <a class="btn btn-default" href="#spenden-sie-online">Online</a> <a class="btn btn-default" href="#spende-kryptow%C3%A4hrung">Kryptowährung</a> <a class="btn btn-default" href="#bank%C3%BCberweisungen-nur-eur">Banküberweisungen (nur EUR)</a>
+<a class="btn btn-default" href="#spenden-per-post">Post</a> <a class="btn btn-default" href="#spenden-sie-online">Online</a> <a class="btn btn-default" href="#spende-kryptow%C3%A4hrung">Kryptowährung</a>
 
 <p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
