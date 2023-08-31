@@ -16,7 +16,6 @@ hi:
   # services:
   link_lists: "मेलिंग सूची"
   link_email: "ईमेल"
-  link_chat: "गपशप"
   link_groups: "समूह"
 
   # Donation page

@@ -17,7 +17,6 @@ el:
   # services:
   link_lists: "Λίστες ταχυδρομείου"
   link_email: "Email"
-  link_chat: "Chat"
   link_groups: "Ομάδες"
 
   # Months
