@@ -1,8 +1,11 @@
 #footer-inner
   .container
     .row
-      .col-sm-12
+    .row
+      .col-sm-6
         %div.footer-text
+          %h4.text-center
+            = t(:footer_about_header)
           .text-center
             = t(:footer_tagline)
           .text-center
@@ -17,3 +20,9 @@
                 = link t(:link_privacy) => "privacy-policy"
           .text-center
             %a(href="https://github.com/riseupnet/riseup_help")= t :contribute_to_help
+      .col-sm-6
+        %div.footer-text
+          %h4.text-center
+            = t(:footer_onion_services_header)
+          .text-center
+            = t(:footer_onion_services_text)
