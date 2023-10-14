@@ -3,37 +3,37 @@
 
 ## Declaraciones
 
-* [[4 Jul, 2018, Bavarian police raid Zwiebelfreunde -> zwiebelfreunde]]
-* [[16 Feb, 2017, Canary statement -> canary-statement]]
-* [[6 Jan, 2015, Riseup's statement regarding recent arrests in Spain -> security-not-a-crime]]
-* [[2 July, 2014, Riseup joins six other organizations in lawsuit against British intelligence agency GCHQ -> 14.07.02-gchq-pressrelease.pdf]]
-* [[26 April, 2014, Riseup stands in solidarity with Saravá => sarava]]
-* [[August 2013, Riseup and the recent email provider closures => recent-email-provider-closures]]
-* [[April 2012, Server Seizure => fbi-seizes-anonymous-remailer]]
+* [[4 Jul, 2018, Redada de la policia Bavara Zwiebelfreunde -> zwiebelfreunde]]
+* [[16 Feb, 2017, Declaración Canary -> canary-statement]]
+* [[6 Jan, 2015, Declaración de Riseup sobre las recientes detenciones en España -> security-not-a-crime]]
+* [[2 July, 2014, Riseup se une a otras seis organizaciones en una demanda contra la agencia de inteligencia británica GCHQ -> 14.07.02-gchq-pressrelease.pdf]]
+* [[26 April, 2014, Riseup se solidariza con Saravá => sarava]]
+* [[August 2013, Riseup y los recientes cierres de proveedores de correo electrónico => recent-email-provider-closures]]
+* [[April 2012, Incautación del servidor => fbi-seizes-anonymous-remailer]]
 
 ## Articulos sobre Riseup
 
 ### 2020
 
-* [[Interview with Riseup tech collective->https://pramen.io/en/2020/06/interview-with-riseup-tech-collective/]]
+* [[Entrevista con el colectivo técnico Riseup->https://pramen.io/en/2020/06/interview-with-riseup-tech-collective/]]
 
 ### 2019
 
-* [[DHS and ICE Seek to Issue Subpoena in Asheville, NC->https://itsgoingdown.org/dhs-and-ice-seek-to-issue-subpoena-in-asheville-nc/]]
+* [[DHS e ICE buscan emitir citación en Asheville, NC->https://itsgoingdown.org/dhs-and-ice-seek-to-issue-subpoena-in-asheville-nc/]]
 
 ### 2017
 
-* [[How to Run a Rogue Government Twitter Account With an Anonymous Email Address and a Burner Phone->https://theintercept.com/2017/02/20/how-to-run-a-rogue-government-twitter-account-with-an-anonymous-email-address-and-a-burner-phone/]]
-* [[The Syrian Underground Railroad->https://crimethinc.com/2017/02/13/the-syrian-underground-railroad-migrant-solidarity-organizing-in-the-modern-landscape]]
-* [[7 Best Encrypted Email Services That You Can Use->https://www.hackread.com/7-best-encrypted-email-services-can-use/]]
-* [[Women Facing Violence in Ecuador Vow to Be 'Silent No More'->https://globalvoices.org/2017/02/01/women-facing-violence-in-ecuador-vow-to-be-silent-no-more/]]
-* [[Angry about the #MuslimBan? Here are 5 things to do->https://www.redpepper.org.uk/angry-about-the-muslimban-here-are-5-things-to-do/]]
+* [[Cómo ejecutar una cuenta de Twitter de un gobierno deshonesto con una dirección de correo electrónico anónima y un teléfono desechable->https://theintercept.com/2017/02/20/how-to-run-a-rogue-government-twitter-account-with-an-anonymous-email-address-and-a-burner-phone/]]
+* [[El ferrocarril subterráneo Sirio->https://crimethinc.com/2017/02/13/the-syrian-underground-railroad-migrant-solidarity-organizing-in-the-modern-landscape]]
+* [[Los 7 mejores servicios de correo electrónico cifrado que puedes utilizar->https://www.hackread.com/7-best-encrypted-email-services-can-use/]]
+* [[Mujeres que enfrentan violencia en Ecuador prometen "No guardar más silencio"->https://globalvoices.org/2017/02/01/women-facing-violence-in-ecuador-vow-to-be-silent-no-more/]]
+* [[Enojada por la #MuslimBan? Aquí hay 5 cosas que hacer->https://www.redpepper.org.uk/angry-about-the-muslimban-here-are-5-things-to-do/]]
 * [[Riseup belebt den Kanarienvogel wieder->https://www.golem.de/news/gag-order-riseup-belebt-den-kanarienvogel-wieder-1702-126245.html]]
-* [[Riseup moves to encrypted email in response to legal requests->https://linksunten.indymedia.org/de/node/204180]]
-* [[Riseup confirms it received two FBI warrants and gagging order->https://www.theinquirer.net/inquirer/news/3004895/riseup-confirms-it-received-two-fbi-warrant-and-gagging-order]]
+* [[Riseup pasa al correo electrónico cifrado en respuesta a solicitudes legales->https://linksunten.indymedia.org/de/node/204180]]
+* [[Riseup confirma que recibió dos órdenes de arresto del FBI y una orden de silencio->https://www.theinquirer.net/inquirer/news/3004895/riseup-confirms-it-received-two-fbi-warrant-and-gagging-order]]
 * [[Forcé de coopérer avec le FBI, Riseup chiffre désormais les emails qu'il stocke->https://www.nextinpact.com/news/103335-riseup-chiffre-desormais-stockage-emails-apres-avoir-du-cooperer-avec-fbi.htm]]
-* [[Riseup confirms receipt of FBI warrant and gagging order->https://www.computing.co.uk/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order]]
-* [[How to protest against Trump in his expanded surveillance state->https://www.newscientist.com/article/mg23331092-700-whats-the-worst-that-could-happen]]
+* [[Riseup confirma la recepción de la orden de silencio y la orden del FBI->https://www.computing.co.uk/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order]]
+* [[Cómo protestar contra Trump en su estado de vigilancia ampliada->https://www.newscientist.com/article/mg23331092-700-whats-the-worst-that-could-happen]]
 
 ### 2016
 
@@ -59,7 +59,7 @@
 
 * [New York Times - How to Muddy Your Tracks on the Internet](https://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html)
 
-> "If you do not want the content of your e-mail messages examined or analyzed at all, you may want to consider lesser-known free services like HushMail, RiseUp and Zoho, which promote no-snooping policies."
+> "Si no deseaS que se examine o analice en absoluto el contenido de Tus mensajes de correo electrónico, puedes considerar servicios gratuitos menos conocidos como HushMail, RiseUp y Zoho, que promueven políticas de no espionaje."
 
 Cuentas de medios de la incautación del servidor Riseup:
 
