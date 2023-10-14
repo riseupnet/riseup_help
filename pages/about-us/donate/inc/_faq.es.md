@@ -1,7 +1,3 @@
-### Why do you only accept bank transfers in EUR?
-
-Sending directly to our US credit union often is difficult and does not work, and when it does work, we get charged a $13 fee for each transfer, so it is not economical.
-
 ### How do I donate in currencies other than USD or EUR?
 
 First of all, if you live outside the US, please consider supporting a local tech collective in your area. If you want to send us a donation, here are a few options:

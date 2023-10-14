@@ -16,7 +16,6 @@ lt:
   # services:
   link_lists: "Elektroninio pašto adresų sąrašai"
   link_email: "Elektroninis paštas"
-  link_chat: "Pokalbiai"
   link_groups: "Grupės"
 
   # Donation page

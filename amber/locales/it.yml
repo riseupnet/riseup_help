@@ -16,7 +16,6 @@ it:
   # services:
   link_lists: "Mailing Lists"
   link_email: "Email"
-  link_chat: "Chat"
   link_groups: "Gruppi"
 
   # Months
