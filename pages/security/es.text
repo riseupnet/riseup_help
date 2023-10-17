@@ -1,14 +1,14 @@
 @nav_title = 'Seguridad'
 
-h1. Start here
+h1. Inicia aqui
 
-Pressed for time? Too busy resisting oppression or building a better world? Great! We suggest you start your security journey with these easy steps that everyone can take to make their digital life a lot less vulnerable.
+¿Presionada por el tiempo? ¿Demasiado ocupada resistiendo la opresión o construyendo un mundo mejor? ¡Excelente! Te sugerimos que comiences tu viaje de seguridad con estos sencillos pasos que todas pueden seguir para que su vida digital sea mucho menos vulnerable.
 
-# [[Embrace message hygiene => message-hygiene]]: The vast majority of attacks arrive in your inbox. Learn how to practice appropriate caution when using email and messaging applications.
-# [[Use a password manager => passwords]]: By using a password manager, you can eliminate a huge class of possible attacks.
-# [[Enable device encryption => device-encryption]]: Device encryption is easy to turn on and built into your operating system.
-# [[Become a better browser => better-web-browsing]]: By changing your default web browser settings and installing a few extensions, you can dramatically improve the security (and pleasantness) of your web browsing experience.
-# [[Run software safely => software-safety]]: Keeping your software up to date is a simple thing to do, but also very important for your security.
+# [[Embrace message hygiene => message-hygiene]]: La gran mayoría de los ataques llegan a su bandeja de entrada. Aprenda a tener la debida precaución al usar aplicaciones de correo electrónico y mensajería.
+# [[Usa un gestor de contraseña => passwords]]: Mediante el uso de un administrador de contraseñas, puedes eliminar una gran variedad de posibles ataques.
+# [[Habilita cifrado de dispositivo => device-encryption]]: El cifrado del dispositivo es fácil de activar y está integrado en tu sistema operativo.
+# [[Mejorra tu navegador web => better-web-browsing]]: Al cambiar la configuración predeterminada de tu navegador web e instalar algunas extensiones, puedes mejorar drásticamente la seguridad (y el placer) de tu experiencia de navegación web.
+# [[Ejecuta software de manera segura => software-safety]]: Mantener tu software actualizado es algo simple, pero también muy importante para tu seguridad.
 
 h1. ¿Por qué la privacidad importa?
 
