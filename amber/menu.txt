@@ -21,7 +21,6 @@ email
   servers
   webmail
     elastic
-    address-book
     where-is-imp
     2factorauth
   scams
