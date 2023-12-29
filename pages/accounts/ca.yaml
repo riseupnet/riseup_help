@@ -1,0 +1,31 @@
+red_title: "Serveis personals"
+red_info: "Oferim comptes per a serveis tradicionals, com ara [[correu electrònic => email]] (IMAP) i [[vpn]]."
+red_webmail: "[[Inicieu sessió al correu web => https://mail.riseup.net]]"
+red_support: "Obtingueu ajuda per al [[correu electrònic => email]] i la [[vpn]]."
+red_settings: "[[Canvieu la vostra configuració => https://account.riseup.net]]"
+red_request: "[[Sol·liciteu un compte => https://account.riseup.net/user/new]]"
+red_reset_password: "[[Restabliu la contrasenya => https://account.riseup.net/reset_password]]"
+red_help: "[[Creeu un tiquet d'ajuda => https://support.riseup.net/en/topics/new]]"
+
+other_title: "Col·laboració"
+other_info: "Els serveis següents són per a la col·laboració grupal"
+we_info: "wikis privades i col·laboració en grup."
+pad_info: "editor de text col·laboratiu en temps real."
+share_info: "càrrega de fitxers (pastebin i imagebin)."
+
+lists_title: "Llistes de correu"
+lists_info: "Oferim llistes de correu per a organitzacions d'activistes."
+lists_login: "[[Inicieu sessió a les llistes => https://lists.riseup.net/www/]]"
+lists_help: "[[Obtingueu ajuda sobre les llistes => lists]]"
+lists_request: "[[Demaneu una llista => creating-lists]]"
+lists_subscribe: "[[Subscripció => subscribing]]"
+lists_unsubscribe: "[[Cancel·la la subscripció => subscribing]]"
+
+resources_title: Recursos
+security_info: "Recursos i tutorials per a una comunicació més segura."
+help_link: "[[Taulell d'ajuda de Riseup => https://support.riseup.net/en/topics/new]]"
+help_info: "Per posar-vos en contacte amb nosaltres amb una pregunta,
+  utilitzeu el formulari del taulell d'ajuda per crear un tiquet d'ajuda.
+  Però primer, cerqueu i llegiu la documentació en línia que es troba
+  en aquest lloc web."
+servers_info: "Un directori de desenes de projectes radicals de servidors arreu del món."
