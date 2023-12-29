@@ -1,0 +1,31 @@
+@title = 'Llistes de Riseup'
+@nav_title = 'Llistes'
+
+p(pull-right). !(image-right)pile-of-mail.jpg!
+
+h2. Us donem la benvinguda
+
+Us donem la benvinguda a l'*ajuda de les llistes de correu* de to riseup.net! Aquí trobareu informació sobre les llistes de correu allotjades a https://lists.riseup.net.
+
+Per obtenir ajuda amb els comptes de correu electrònic de riseup.net, consulteu les pàgines d'ajuda de [[correu electrònic => email]]. Si la vostra pregunta no es respon aquí, "creeu un tiquet d'ajuda":https://support.riseup.net/en/topics/new.
+
+h2. Preguntes principals dels administradors de les llistes
+
+* [[Com puc crear una llista? => creating-lists]]
+* [[Com puc canviar el propietari de la llista? => list-definition#changing-owners]]
+* [[Com gestiono els rebots de correu? => bounces]]
+* [[Com puc canviar el nom de la llista? => list-admin/faq#how-do-I-change-the-list-name]]
+* [[Què significa "FYI: automatic_del"? => list-admin/faq#what-does-fyi-automatic_del-mean]]
+* [[Totes les preguntes més freqüents d'administració => list-admin/faq]]
+
+h2. Preguntes principals dels subscriptors de les llistes
+
+* [[Com puc canviar la meva adreça de subscripció? => list-user/accounts#how-do-i-change-my-subscription-address]]
+* [[Per què el meu correu electrònic a una llista de riseup està bloquejat com a correu brossa? => list-user/sending-mail#why-is-my-email-to-a-riseup-list-being-blocked-as-spam]]
+* [[Totes les preguntes més freqüents dels subscriptors => list-user]]
+
+h2. Quant a lists.riseup.net
+
+https://lists.riseup.net només és possible gràcies a les vostres donacions. Així que si vols mantenir-nos funcionant, si us plau, [[feu una donació => donate]]!
+
+https://lists.riseup.net utilitza només programari "lliure":https://www.gnu.org/philosophy/free-sw.html, inclòs el "gestor de llistes de correu sympa":https://www.sympa.org, el "servidor web apache":https://httpd.apache.org, el sistema operatiu "debian GNU/Linux":https://www.debian.org i el llenguatge de programació "Perl":https://www.perl.org.
