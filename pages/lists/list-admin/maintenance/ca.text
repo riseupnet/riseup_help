@@ -1,0 +1,6 @@
+@title = 'Manteniment de la llista'
+@this.summary = 'Gestió d'arxius, rebots i moderació.'
+
+p(pull-right). !(image-right)bus-maint.jpg!
+
+<%= child_summaries :include_toc => true %>
