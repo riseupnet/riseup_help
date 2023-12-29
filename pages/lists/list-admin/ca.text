@@ -1,0 +1,5 @@
+@title = 'Administrador de la llista'
+
+Pàgines d'ajuda per a propietaris i administradors de llistes.
+
+<%= child_summaries %>
