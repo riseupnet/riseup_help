@@ -1,4 +1,28 @@
 ca:
+  tags: "Etiquetes"
+  tag: "Etiqueta"
+  related: "Relacionat"
+  missing_translation: "Aquesta pàgina encara no s'ha traduït de l'anglès."
+  support_riseup: "Doneu suport a Riseup!"
+  motto: "Surtiu d'Internet, ens veiem als carrers."
+  footer_about_header: "Sobre aquest lloc"
+  footer_onion_services_header: "Serveis de Tor Onion de Riseup"
+  footer_onion_services_text: "Si voleu accedir a la nostra llista d'adreces dels serveis onion, consulteu la nostra <a href=\"security/network-security/tor#riseups-tor-onion-services\">pàgina de Tor</a> i si necessiteu ajuda per configurar el vostre client de correu electrònic per utilitzar els nostres serveis ocults, consulteu la nostra <a href=\"email/settings/tor\">pàgina de configuració del servei Onion</a>."
+  footer_tagline: "Aquest lloc està gestionat per Riseup, el vostre col·lectiu de tecnologia autònom i amigable des de 1999"
+  contribute_to_help: "Si us plau, editeu aquest lloc"
+  system_updates: "Actualitzacions del sistema"
+  # quick links:
+  link_privacy: "Política de privadesa"
+  link_about_us: "Quant a nosaltres"
+  link_status: "Estat del sistema"
+  link_support: "Feu una donació!"
+  # services:
+  link_lists: "Llistes"
+  link_email: "Correu electrònic"
+  link_pad: "Pad"
+  link_share: "Compartiu"
+  link_groups: "Grups"
+
   # Months
   january: "Gener"
   february: "Febrer"
@@ -12,3 +36,56 @@ ca:
   october: "Octubre"
   november: "Novembre"
   december: "Desembre"
+
+  # Donation page
+  donation_processor: "Processador de donacions"
+  supports_recurring_donations: "Donacions recurrents?"
+  supports_optional_registration: "Inscripció opcional?"
+  supports_credit_card: "Targeta de crèdit?"
+  notes: "Notes"
+  yes_value: "Sí"
+  no_value: "No"
+
+  subscribe: "Subscriviu-vos"
+  donate: "Dona"
+  monthly: "Mensual"
+  quarterly: "Quarterly"
+  recurring_donation: "Donació recurrent"
+  one_time_donation: "Donació única"
+  micropayments: "Micropagaments"
+  micropayments_note: "Per a quantitats inferiors a 12 USD per pagament, utilitzeu els micropagaments! Ens estalviarà molts diners."
+
+  bitcoin: "Bitcoin"
+  bitcoin_note: "Moneda digital"
+  bitcoin_description: "Bitcoin és una criptomoneda electrònica descentralitzada d'extrem-a-extrem."
+  non_segwit_description: "Podeu utilitzar l'adreça que heu generat per enviar-nos bitcoins."
+  segwit_description: "Podeu utilitzar l'adreça que heu generat per enviar-nos bitcoins."
+
+  grab_address: "Agafa una adreça nova"
+  generate: "Genera"
+
+  zcash: "Zcash"
+  zcash_note: "Moneda digital anònima"
+  zcash_description: "Zcash és una criptomoneda amb l'anonimat opcional de l'usuari, l'anonimat opcional de l'import de la transacció i amb tarifes de transacció baixes. Acceptem donacions a través d'una t-adreça pública i sense protecció. Podeu fer una donació a aquesta adreça des d'una t-adreça pública o des d'una z-adreça protegida, però tingueu en compte que la vostra identitat i l'import de la transacció només s'amagaran de la vostra sortida si envieu la vostra donació des d'una z-adreça."
+
+  monero: "Monero"
+  monero_note: "Private and censorship-resistant currency"
+  monero_description: "Monero és una criptomoneda similar a Bitcoin, centrada en transaccions privades i resistents a la censura."
+
+  faircoin: "FairCoin"
+  faircoin_description: "FairCoin està dirigit per una xarxa sense ànim de lucre d'activistes radicals, propaga els valors no especulatius de l'economia solidària i utilitza menys electricitat que altres criptomonedes."
+
+  ethereum: "Ethereum"
+  ethereum_description: "Ethereum és un sistema de contracte intel·ligent i descentralitzat. Ether és la criptomoneda nativa de la plataforma. Ethereum té la intenció de reduir significativament els seus costos energètics."
+
+  bcash: "Bitcoin Cash"
+  bcash_description: |
+    Bitcoin Cash una variació forta de Bitcoin.
+    Bitcoin Cash no és Bitcoin. Si envieu Bitcoin a una adreça de Bitcoin Cash, els diners es perdran per sempre.
+  liberapay: "Liberapay"
+  paypal: "Paypal"
+  paypal_note: "Funciona des de molts països"
+  paypal_description: "Paypal accepta targetes de crèdit i admet donacions recurrents (per a donacions recurrents, cal un compte de PayPal)."
+  wepay: "WePay"
+  wepay_note: "Una alternativa a PayPal."
+  wepay_description: "WePay és una bona alternativa a PayPal. Podeu utilitzar WePay sense crear un compte i és compatible amb targetes de crèdit."
