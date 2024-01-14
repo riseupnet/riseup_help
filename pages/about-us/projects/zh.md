@@ -43,7 +43,6 @@ VPN是指虚拟专用网络。通常情况下，VPN是用来连接人们从家�
 **隐私和安全补丁** ：我们开发并分发流行的系统日志、邮件传输、网络邮件和虚拟主机工具的定制版本，使系统管理员能够准确选择他们想要保留的信息。这保护了用户的隐私，并防止了因政府过于急切地试图传唤日志文件而造成的停机、头痛和法律费用。见 https://labs.riseup.net/code/projects/privacy
 **[Crabgrass](https://0xacab.org/riseuplabs/crabgrass)** ：Crabgrass是一个为社交网络、小组协作和网络组织而设计的软件自由网络应用。我们的目标是创造专门为满足自下而上的草根组织的需要而定制的通信工具。
 **[backupninja]（https://0xacab.org/riseuplabs/backupninja）**。Backupninja是一套流行的工具，它提供了一种集中的方式来配置和安排许多不同的备份工具。
-**[monkeysphere](https://web.monkeysphere.info)**：Monkeysphere使你能够使用OpenPGP信任网络来验证ssh连接。基于SSH密钥的认证是屡试不爽的，但它缺乏一个真正的公钥基础设施来进行密钥认证、撤销和过期。Monkeysphere是一个框架，它使用OpenPGP信任网络实现这些[PKI](https://en.wikipedia.org/wiki/Public_key_infrastructure)功能。
 **[puppet](https://labs.riseup.net/code/projects/puppetmodules)**：用于维护我们几乎所有的系统和服务。我们编写了大量的puppet食谱模块，这些模块是以通用方式编写的，因此可以与他人共享。我们也是一个[小组](https://labs.riseup.net/code/projects/sharedpuppetmodules)的成员，致力于共享puppet模块。
 **debian grimoire**：Riseup所做的一切都被写成一步一步的方法，并公开发布在我们的网站上，以帮助其他组织处理复杂的自由软件技术，特别是在基层和直接行动运动中。 见 https://we.riseup.net/debian
 **Debian GNU/Linux**：几个 riseup 集体成员是 Debian（唯一由非营利组织创建的主要发行版）的活跃开发者。许多人都熟悉Ubuntu，它是基于Debian的。见 https://www.debian.org/
