@@ -434,6 +434,20 @@ https://riseup.net is a project to create democratic alternatives and practice s
 * Chat
 * Etherpad
 
+h2. https://anarchyplanet.org/
+
+[[anarchyplanet.org->https://anarchyplanet.org/]] is a constellation of infrastructure projects hosted on servers run by an anarchist collective. They provide low/no-cost hosting and free access to several services.
+
+* Chat
+* Etherpad
+* Jitsi
+* Web/video hosting
+* Custom
+
+h1. In memoriam
+
+These projects are no longer active or maintenance only mode.
+
 h2. resist.ca
 
 [[resist.ca->https://resist.ca]] is an anarchist tech collective in Vancouver B.C.
@@ -452,20 +466,6 @@ h2. tao.ca
 * Email accounts
 * Mailing lists
 * Website hosting
-
-h2. https://anarchyplanet.org/
-
-[[anarchyplanet.org->https://anarchyplanet.org/]] is a constellation of infrastructure projects hosted on servers run by an anarchist collective. They provide low/no-cost hosting and free access to several services.
-
-* Chat
-* Etherpad
-* Jitsi
-* Web/video hosting
-* Custom
-
-h1. In memoriam
-
-These projects are no longer active.
 
 h2. entodaspartes.org
 
