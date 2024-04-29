@@ -35,14 +35,7 @@ The VPN is packaged in Debian bookworm and later, install it by running the foll
 
        sudo apt install riseup-vpn
 
-For older releases, run the following:
-
-       sudo apt install leap-archive-keyring
-       echo "deb https://deb.leap.se/client release buster" | sudo tee -a /etc/apt/sources.list.d/leap.list
-       sudo apt update
-       sudo apt install riseup-vpn
-
-Warning: that repository is out of date and unsupported, it will soon be removed, see [issue 693](https://0xacab.org/leap/bitmask-vpn/-/issues/693) for followup.
+Older releases are not currently supported (but you can use the snap method above).
 
 ## Troubleshooting
 
