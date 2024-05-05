@@ -136,7 +136,7 @@ You should take very careful care to not accidentally expose things on your serv
 There are a few ways you can solve this problem:
 
 * *different machine*: consider running the onion service on a different machine (real or virtual) than the actual service. This has the advantage that you can isolate the service from the onion service (a compromise of one doesn't compromise the other) and helps with isolating potential information leaks
-* *isolation*: similarly to the above, you can also isolate Tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]]. [[Tails -> https://tails.boum.org/contribute/design/Tor_enforcement/Network_filter/]] uses a  [[tor]]-or-fail packet filter.
+* *isolation*: similarly to the above, you can also isolate Tor and the service so it will run on a [[different network namespace than the service->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]]. [[Tails -> https://tails.net/contribute/design/Tor_enforcement/Network_filter/]] uses a  [[tor]]-or-fail packet filter.
 * *public ip*: configure the onion service to connect to the public IP address of the service instead of localhost/127.0.0.1, this should make Tor not pick 127.0.0.1 as the source address and avoid most misconfigurations. For example like this:
 
 bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
