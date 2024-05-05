@@ -119,7 +119,7 @@ Es gibt einige wenige Wege, dieses Problem zu lösen:
 
 * *andere Maschine*: überlege, den .onion-Dienst auf einem anderen Rechner (real oder virtuell) laufen zu lassen, als die betreffenden Dienste. Das hat den Vorteil, dass beide Dienste isoliert sind (wenn einer kompromittiert wird, bleibt der andere unbehelligt) und es hilft, die Preisgabe von Informationen zu vermeiden.
 
-* *Isolation*: ähnlich zum eben Genannten kannst du Tor und andere Dienste isolieren, indem sie in [[verschiedenen Netzwerk-Namensbereichen->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]] laufen.  Der Paketfilter von [[Tails -> https://tails.boum.org/contribute/design/Tor_enforcement/Network_filter/]] stellt nur Verbindungen über [[Tor]] her und bricht ansonsten Verbindungen ab.
+* *Isolation*: ähnlich zum eben Genannten kannst du Tor und andere Dienste isolieren, indem sie in [[verschiedenen Netzwerk-Namensbereichen->https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]] laufen.  Der Paketfilter von [[Tails -> https://tails.net/contribute/design/Tor_enforcement/Network_filter/]] stellt nur Verbindungen über [[Tor]] her und bricht ansonsten Verbindungen ab.
 
 * *öffentliche IP-Adresse*: lass den .onion-Dienst zur öffentlichen IP-Adresse des Dienste verbinden, anstatt nach localhost/127.0.0.1, sodass tor nicht 127.0.0.1 als Quelle auffängt und verhindert die meisten Fehlkonfigurationen, wie z.B. diese:
 
