@@ -4,7 +4,7 @@ h2. What is Claws?
 
 p(pull-right). !(image-right)it_bites.png!
 
-Claws Mail was the default mail client bundled with "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Since Tails 1.8 it has been replaced with [[thunderbird]] ("Migrating from Claws Mail to Icedove":https://web.archive.org/web/20151217135432/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.en.html). It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":https://www.claws-mail.org/downloads.php?section=downloads.
+It is Free Software and is available for a variety of Unix-type platforms, and Windows. You can download Claws Mail "from the Claws Mail website":https://www.claws-mail.org/downloads.php?section=downloads.
 
 Claws Mail aims to be feature rich, fast, and stable.  It has IMAP and POP support, multiple account support, colored labels, spell checking, filtering, and support for [[OpenPGP encryption->openpgp]].
 
@@ -13,8 +13,6 @@ h2. Setup Claws Mail
 h3.  The First Time - Setup Wizard
 
 The first time you run Claws Mail, the setup wizard will walk you through setting up an account. If the wizard does not open, see section "Manual Account Creation" below.
-
-*If using Tails* you will almost certainly want to "configure a persistent volume":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html and enable "GnuPG", and "Claws Mail".
 
 # Enter your name/alias and e-mail address on the first page
 # Click "Forward" to advance to the next screen
@@ -27,7 +25,6 @@ The first time you run Claws Mail, the setup wizard will walk you through settin
 # Select *Use authentication* (you can leave the SMTP username and password fields blank)
 # Select *Use SSL to connect to receiving server" and also select "Use SSL via STARTTLS*
 # Click *Forward* to advance to the next screen
-# *If using POP3 on Tails*: For "Mailbox name" enter */home/amnesia/.claws-mail/Mail* (this step is very important for Tails users because the default Mail folder location is not-persisted between reboots) and click "Forward" to advance to the next screen
 # Click *Save* to complete the process
 
 h3. Manual Account Creation
@@ -59,10 +56,6 @@ When checking your mail for the first time, and also sending your first message,
 !img/ssl.png!
 
 On first use claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates. *Every time* you get this SSL pop-up, [[verify the fingerprints with the ones published by Riseup -> /security/network-security/certificates#complete-verification]]]]!
-
-h3. Tails warning
-
-* If you are using the Claws Mail under Tails it is important to verify that your local mail folders are setup in a persistent location before permanently removing any mail from the server or you may lose mail!
 
 h3. You're Done!
 

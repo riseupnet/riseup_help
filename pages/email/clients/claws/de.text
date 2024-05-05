@@ -4,7 +4,7 @@ h2. Was ist Claws?
 
 p(pull-right). !(image-right)it_bites.png!
 
-Claws Mail war das vorinstallierte E-Mailprogramm von "Tails - The Amnesiac Incognito Live System":https://tails.boum.org. Seit Tails 1.8 wird es durch [[Thunderbird]] ersetzt ("Anleitung zum Migrieren deiner Mails":https://web.archive.org/web/20161005203605/https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove/index.de.html). Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":https://www.claws-mail.org/downloads.php?section=downloads herunterladen.
+Es ist Freie Software und für viele Unix-artige Plattformen und Windows verfügbar. Du kannst es auf der "Webseite von Claws Mail":https://www.claws-mail.org/downloads.php?section=downloads herunterladen.
 
 Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt IMAP und POP, farbige Etiketten, Rechtschreibprüfung, Filter und Unterstützung für [[OpenPGP-Verschlüsselung->openpgp]]
 
@@ -16,8 +16,6 @@ h3. Erster Start - Setup-Assistent
 
 Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Kontoerstellung unterstützen. Wenn er sich nicht öffnet, siehe [[Manuelle Kontoerstellung -> #manuelle-kontoerstellung]] weiter unten.
 
-*Bei der Benutzung von Tails* wirst du ziemlich sicher den "Persistenten-Bereich":https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html mit "GnuPG" und "Claws Mail" nutzen wollen.
-
 # Auf der ersten Seite Name/Alias und E-Mailadresse eintragen, klick auf *Vor*
 # [[Wähle den Servertyp POP3 oder IMAP->email/clients#choose-imap-or-pop]] (IMAP lässt Nachrichten auf dem Server, POP3 lädt sie herunter und löscht sie vom Server - das bedeutet IMAP ist eine gute Wahl, wenn du Mails mit mehreren Geräten abrufst und POP3 ist die etwas bessere Wahl für Privatssphäre, es ist schneller und schont deine [[Quota]])
 # Wähle *mail.riseup.net* als "Serveradresse" (für IMAP und POP3)
@@ -28,7 +26,6 @@ Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Ko
 # Aktiviere *Benutze Authentifizierung* (die Felder für SMTP-Benutzername und Kennwort können frei bleiben)
 # Aktiviere *SSL für Verbindung zum SMTP-Server benutzen* und *SSL über STARTTLS benutzen*, klick auf *Vor*
 !img/setup_de_senden.png!
-# *Für POP3 und Tails*: Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Persistant-Bereich gespeichert werden bevor du Mails vom Server entfernst, sonst gehen diese beim Neustart verloren! Wähle */home/amnesia/.claws-mail/Mail* als *Mailboxname*
 # *Vor*, *Speichern* und fertig!
 
 h3. Manuelle Kontoerstellung
@@ -52,10 +49,6 @@ Beim ersten Abrufen der Mails und beim Senden der ersten Mail siehst du ein Fens
 !img/ssl.png!
 
 Claws Mail speichert dieses Zertifikat und wird dich erst bei einer Änderungen wieder informieren. Doch Vorsicht: das könnte auf einen man-in-the-middle-Angriff hindeuten. Vergewissere dich *jedes Mal wenn dieser Dialog erscheint*, ob riseup.net dasselbe Zertifikat verwendet, indem du die angezeigte Prüfsumme [[mit der von Riseup vergleichst -> /security/network-security/certificates]]!
-
-h3. Tails-Warnung
-
-Wenn du Claws Mail mit Tails benutzt, ist es wichtig, dass lokale Ordner im Persistant-Bereich gespeichert werden bevor du Mails vom Server entfernst, sonst gehen diese beim Neustart verloren!
 
 h3. Fertig!
 
