@@ -5,9 +5,11 @@
 
 Se você quiser instalar a RiseupVPN para Android, você tem diversas opções.
 
+
 ### Instale pelo F-Droid
 
 Você pode instalar via F-Droid apenas abrindo o F-Droid e pesquisando por "riseupvpn", que deve aparecer na lista de aplicativos disponíveis. Se não aparecer, navegue até a página principal e puxe a tela para baixo para atualizar seus repositórios.
+
 
 ### Instale pelo Google Play
 
@@ -19,9 +21,11 @@ A RiseupVPN é desenvolvida pelo LEAP. O LEAP disponibiliza a versão mais recen
 
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-latest.apk"><i class="fa fa-download"></i> Faça o download do apk da RiseupVPN para Android</a>
 
-**Para garantir a integridade do aplicativo baixado, por favor, faça a verificação do apk com seu arquivo de assinatura. Mais informações podem ser encontradas <a href="https://dl.bitmask.net/en/signature-verification">na página de ajuda do LEAP</a>.**
+
+**Para garantir a integridade do aplicativo baixado, por favor, faça a verificação do apk com seu arquivo de assinatura. Mais informações podem ser encontradas <a href="https://bitmask.net/en/install/signature-verification">na página de ajuda do LEAP</a>.**
 
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-latest.apk.sig"><i class="fa fa-download"></i> Faça o download do arquivo de assinatura</a>
+
 
 ## Resolução de problemas
 
@@ -73,7 +77,7 @@ A RiseupVPN é desenvolvida pelo LEAP. O LEAP disponibiliza a versão mais recen
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-testing.apk"><i class="fa fa-download"></i> Faça o download do apk da RiseupVPN para Android</a>
 
 
-**Para garantir a integridade do aplicativo baixado, por favor, faça a verificação do apk com seu arquivo de assinatura. Mais informações podem ser encontradas <a href="https://dl.bitmask.net/en/signature-verification">na página de ajuda do LEAP</a>.**
+**Para garantir a integridade do aplicativo baixado, por favor, faça a verificação do apk com seu arquivo de assinatura. Mais informações podem ser encontradas <a href="https://bitmask.net/en/install/signature-verification">na página de ajuda do LEAP</a>.**
 
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-testing.apk.sig"><i class="fa fa-download"></i> Faça o download do arquivo de assinatura</a>
 
