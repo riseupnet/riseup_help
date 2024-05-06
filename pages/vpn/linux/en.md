@@ -69,7 +69,7 @@ When reporting a bug it is very useful to include the log file.
 
 ### Force quit
 
-If anything stops working, run these commands and then try again:
+If anything stops working, run this command and then try again:
 
 ```
 sudo pkill -e -f riseup-vpn
