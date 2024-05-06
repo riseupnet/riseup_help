@@ -62,7 +62,7 @@ RiseupVPN is developed by LEAP. LEAP provides the latest version of RiseupVPN Be
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-testing.apk"><i class="fa fa-download"></i> Download RiseupVPN apk for android</a>
 
 
-**In order to ensure the integrity of the downloaded app please verify the apk with its signature file. Further information can be found <a href="https://dl.bitmask.net/en/signature-verification">on the LEAP help page</a>.**
+**In order to ensure the integrity of the downloaded app please verify the apk with its signature file. Further information can be found <a href="https://bitmask.net/en/install/signature-verification">on the LEAP help page</a>.**
 
 <a class="btn btn-default btn-lg" href="https://downloads.leap.se/RiseupVPN/android/RiseupVPN-Android-testing.apk.sig"><i class="fa fa-download"></i>Download signature file</a>
 
