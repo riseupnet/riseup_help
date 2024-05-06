@@ -33,7 +33,7 @@ Nella tua segnalazione, per favore includi le seguenti informazioni:
 
 ### Prendere i log
 
-Ci sono tre file di log, uno per ogni componente del client:
+Ci sono due file di log, uno per ogni componente del client:
 
 * Il log della barra delle applicazioni `C:\Users\<your user>\AppData\Local\leap\systray.log`
 * Il log del processo openvpn: `C:\Program Files\RiseupVPN\openvp.log`

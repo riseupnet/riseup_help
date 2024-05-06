@@ -38,7 +38,7 @@ Please include the following information in your bug report:
 
 ### Get the logs
 
-There are three log files each for a different component of the client:
+There are two log files each for a different component of the client:
 
 * The systray log: `C:\Users\<your user>\AppData\Local\leap\systray.log`
 * The openvpn process: `C:\Program Files (x86)\RiseupVPN\openvp.log`
