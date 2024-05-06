@@ -1,10 +1,14 @@
 @title = "RiseupVPN pour windows"
 @toc = true
-@this.alias = '/vpn/windows'
 
 ## Exigences
 
-RiseupVPN est testé pour windows 10.
+RiseupVPN est testé sur Windows 10.
+
+Si vous avez une précédente version installée, veuillez d'abord essayer de la désinstaller : cliquez
+sur <code>uninstall.exe</code> dans le dossier où l'app est installée
+(<code>c:\Program Files (x86)\RiseupVPN\uninstall.exe</code>). Seules les versions
+récentes incluent le désinstallateur.
 
 ## Installation
 
@@ -12,19 +16,19 @@ RiseupVPN est testé pour windows 10.
 
 Une fois que vous avez sauvegardé le fichier, cliquez deux fois sur <code>RiseupVPN-win-latest.exe</code> pour installer RiseupVPN.
 
-## Problèmes
+## Résolution des problèmes
 
-### Rapport de bug et demandes de fonctionnalités 
+### Rapport de bug et demandes de fonctionnalités
 
-RiseupVPN utilise un programme libre nommé <b>bitmask-vpn</b>.
+RiseupVPN est basé sur un logiciel libre nommé <b>bitmask-vpn</b>.
 
-**Étape 1:** [[Parcourez => https://0xacab.org/leap/bitmask-vpn/issues]] pour voir si le bug a déjà été identifié.
+**Étape 1 :** [[Parcourez => https://0xacab.org/leap/bitmask-vpn/issues]] pour voir si le bug a déjà été identifié.
 
-**Étape 2:** [[Créez un compte => https://0xacab.org/users/sign_in]] sur [[0xacab.org => https://0xacab.org]] et connectez-vous.
+**Étape 2 :** [[Créez un compte => https://0xacab.org/users/sign_in]] sur [[0xacab.org => https://0xacab.org]] et connectez-vous.
 
-**Étape 3:** Créez un nouveau [[rapport de bug ou une nouvelle demande de fonctionnalité => https://0xacab.org/leap/bitmask-vpn/issues/new]].
+**Étape 3 :** Créez un nouveau [[rapport de bug ou une nouvelle demande de fonctionnalité => https://0xacab.org/leap/bitmask-vpn/issues/new]].
 
-Veuillez inclure les détails suivants dans votre rapport de bug:
+Veuillez inclure les détails suivants dans votre rapport de bug :
 
 * Les étapes pour reproduire le bug
 * Ce que que le programme était supposé faire et ce qui est réellement arrivé
@@ -32,22 +36,20 @@ Veuillez inclure les détails suivants dans votre rapport de bug:
 * Votre version de windows
 * Les journaux du programme
 
-### Récupérez les journaux
+### Récupérer les journaux
 
-Il existe trois fichiers de journal pour les différentes composantes du client:
+Il existe deux fichiers de journal pour les différentes composantes du client :
 
-* Le journal de l'icône de démarrage: `C:\Users\<your user>\AppData\Local\leap\systray.log`
-* Le *priviledged helper*: `C:\Program Files\RiseupVPN\helper.log`
-* Le processus openvpn: `C:\Program Files\RiseupVPN\openvp.log`
+* Le journal de l'icône de démarrage : `C:\Users\<vous>\AppData\Local\leap\systray.log`
+* Le processus openvpn : `C:\Program Files (x86)\RiseupVPN\openvp.log`
 
-Quand vous rapportez un bug, c'est très utile d'inclure le fichier de journal.
+Quand vous rapportez un bug, c'est très utile d'inclure les fichiers de journal.
 
 ### Fuites DNS
 
-Nous croyons qu'il n'y a pas de fuites de DNS ou d'adresse IP sur RiseupVPN pour windows, mais nous n'avons pas effectués de tests très poussés. Contrairement à Mac ou Linux, il n'y a pas de pare-feu sur windows.
+Nous croyons qu'il n'y a pas de fuites de DNS ou d'adresse IP dans RiseupVPN pour windows, mais nous n'avons pas effectué de tests très poussés. Contrairement à Mac ou Linux, il n'y a pas de killswitch sur windows.
 
-Si vous trouvez des fuites, faites-nous signe!
+Si vous trouvez des fuites, faites-nous signe !
 
-### Tester une version de développement
-
-Si vous souhaitez nous aider à tester une version de développement de RiseupVPN, vous pouvez télécharger [[les versions quotidiennes => https://0xacab.org/leap/bitmask-vpn/-/jobs/artifacts/master/download?job=vendorize]].
+## Code source
+Les clients RiseupVPN sont basés sur le logiciel libre Bitmask. Le code du client Windows se trouve [[ici => https://0xacab.org/leap/bitmask-vpn]].
