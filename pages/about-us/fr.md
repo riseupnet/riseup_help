@@ -63,7 +63,7 @@ La mésange bleue est facilement reconnaissable à son plumage bleu, mais divers
 <p class="col-md-1"><img src="img/roadrunner.jpg" alt="roadrunner"></p>
 
 <p class="col-md-11"><strong>Grand Géocoucou (Geococcyx californianus)</strong><br>
-Le grand géocoucou is a long-legged, ground foraging bird in the cuckoo family. Originally indigenous to the North American Southwest, this specimen is currently enjoying being out of the desert and soaking up the moisture of Cascadia. He spends his days as an anarchist hacker, Debian developer, and dad. Around Riseup headquarters, it is commonly known that Roadrunner is a beast with hardware.
+Le grand géocoucou est un oiseau de la famille des coucous, à longues pattes et qui cherche sa nourriture au sol. Originaire du sud-ouest de l'Amérique du Nord, ce spécimen apprécie actuellement d'être hors du désert et de s'imprégner de l'humidité de la Cascadia. Il passe ses journées en tant que hacker anarchiste, développeur de Debian, et papa. Au siège de Riseup, il est de notoriété publique que le géocoucou est un monstre concernant le matériel informatique.
 
 </div>
 <div class="row">
@@ -71,7 +71,7 @@ Le grand géocoucou is a long-legged, ground foraging bird in the cuckoo family.
 <p class="col-md-1"><img src="img/pigeon.png" alt="pigeon"></p>
 
 <p class="col-md-11"><strong>Pigeon biset (Columba livia)</strong><br>
-Pigeon has been pecking along the sidelines of the Riseup collective since the beginning, and finally joined Riseup a couple of years ago. She is not a geek, but finds them strangely fascinating. When not working on the newsletter or approving lists and emails, she is a social worker, a young adult scifi writer, and an egalitarian community enthusiast. She believes the future is unwritten, and everyday we write the book.
+La pigeonne s'est tenu à l'écart du collectif Riseup depuis le début, et a finalement rejoint Riseup il y a quelques années. Elle n'est pas une geek, mais trouve cela étrangement fascinant. Lorsqu'elle ne travaille pas sur la lettre d'information ou n'approuve pas des listes et emails, elle est travailleuse sociale, une écrivaine de science-fiction pour jeunes adultes, et un passionné de communauté égalitaire. Elle pense que l'avenir n'est pas écrit, et que c'est chaque jour que nous écrivons le livre.
 
 </div>
 <div class="row">
@@ -79,7 +79,7 @@ Pigeon has been pecking along the sidelines of the Riseup collective since the b
 <p class="col-md-1"><img src="img/rook.png" alt="rook"></p>
 
 <p class="col-md-11"><strong>Corbeau freux (Corvus frugilegus)</strong><br>
-Rook stands in the corner, and works on a strong defense.  Although Rook's home is typically [[eurasia => https://en.wikipedia.org/wiki/Rook_(bird)#Distribution_and_habitat]], Rook has mostly lived in the Pacific Northwest, although there were several periods of time spent home working.  Rook helps make tools that other birds use to hack at the intersections of kyriarchy, from "cissexism":https://en.wikipedia.org/wiki/Cissexism and heterosexism to racism, in the world at large and within the social justice movement itself. Rooks [[voice => https://en.wikipedia.org/wiki/Rook_(bird)#Voice]] often seems harsh to many, and so tends not to speak up much. Rook likes to eat fresh veggies, so grows many.
+Le corbeau se tient dans un coin, et travaille sur une solide défense. Bien que la maison du corbeau freux soit [[l'Eurasie => https://fr.wikipedia.org/wiki/Corbeau_freux#R%C3%A9partition]], le corbeau freux a principalement vécu dans le nord-ouest du Pacifique, même s'il y a eu plusieurs périodes de travail à domicile. Le corbeau aide à fabriquer des outils que d'autres oiseaux utilisent pour pirater les intersections de la kyriarchie, du [["cissexisme" => https://fr.wikipedia.org/wiki/Cissexisme]] et l'hétérosexisme au racisme, dans le monde en général et au sein du mouvement pour la justice sociale lui-même. La [[voix => https://fr.wikipedia.org/wiki/Corbeau_freux#Le_croassement]] du corbeau semble souvent dure pour beaucoup, il s'exprime donc peu. Le corbeau freux aime manger des légumes frais, il en cultive donc beaucoup.
 
 </div>
 <div class="row">
@@ -87,7 +87,7 @@ Rook stands in the corner, and works on a strong defense.  Although Rook's home 
 <p class="col-md-1"><img src="img/owl.jpg" alt="owl"></p>
 
 <p class="col-md-11"><strong>Harfang des neiges (Bubo scandiacus)</strong><br>
-The Snow Owl sits perched high on an icy branch, peering from afar at the insides of Riseup machines to find little bugs to snack on. He helped start Riseup when living in Seattle because he was dismayed by all the activists who showed up to shut down the WTO with their hotmail and yahoo accounts. He works hard keeping Riseup servers running, the network fast, and the spam from polluting your inbox. His other activities include reading and writing books, and winning strange and puzzling awards. He helped build the technical infrastructure for Indymedia, and currently contributes by maintaining some small pieces. Snow Owl is also one of the nicest people on the planet.
+Le harfang des neiges est perché sur une branche glacée, regardant de loin l'intérieur des machines Riseup pour trouver de petits bogues à grignoter. Il a participé à la création de Riseup lorsqu'il vivait à Seattle parce qu'il a été consterné par tous les activistes qui se sont présentés pour interrompre la conférence de l'OMC avec leur compte hotmail et yahoo. Il travaille dur pour garder les serveurs de Riseup en marche, le réseau rapide, et empêcher les pourriels de polluer votre boîte de réception. Ses autres activités comprennent la lecture et l'écriture de livres, et le gain de prix étranges et déroutants. Il a participé à la mise en place de l'infrastructure technique d'Indymedia, et contribue actuellement en maintenant quelques petites parties. Le harfang des neiges est aussi l'une des personnes les plus sympathiques de la planète.
 
 </div>
 <div class="row">
@@ -95,7 +95,7 @@ The Snow Owl sits perched high on an icy branch, peering from afar at the inside
 <p class="col-md-1"><img src="img/sunbird.jpg" alt="sunbird"></p>
 
 <p class="col-md-11"><strong>Souimanga asiatique (Nectarinia asiatica)</strong><br>
-Sunbird has called the Pacific Northwest home since 1998, but took a hiatus from the United States for two years, living abroad in Lahore, Pakistan where he studied Urdu and volunteered for the Human Rights Commission of Pakistan. For his day job, he is a legal worker focused on protecting the rights of immigrants and refugees. Sunbird also has a strong interest in internet law as it relates to privacy and freedom of expression. He joined the Riseup collective because it is essential for activists to have communication tools that we can trust. You may find Sunbird on IRC, answering your help tickets, struggling to learn Debian and dreaming about a future free of AOL. Sunbird's gpg key ID is @0xD45523676ED610B7@, available from your local keyserver.
+Le souimanga a élu domicile dans le nord-ouest du Pacifique depuis 1998, mais s'est absenté des États-Unis pendant deux ans, vivant à l'étranger à Lahore, au Pakistan, où il a étudié l'ourdou et a travaillé bénévolement pour la Commission des droits humains au Pakistan. Pour son travail de jour, il est un jurist qui se consacre à la protection des droits des immigrés et réfugiés. Le souimanga s'intéresse également de près au droit de l'internet dans la mesure où il est lié à la vie privée et à la liberté d'expression. Il a rejoint le colllectif Riseup parce qu'il est essentiel pour les militants de disposer d'outils de communication dignes de confiance. Vous pouvez trouver le souimanga sur IRC, répondant à vos tickets d'assistance, s'efforçant d'apprendre Debian et rêvant d'un avenir sans AOL. L'id de la clé gpg du souimanga est @0xD45523676ED610B7@, disponible sur votre serveur de clés local.
 
 </div>
 
