@@ -47,7 +47,7 @@ Le jaseur d'Amérique est un hacker révolutionnaire et critique du capitalisme 
 <p class="col-md-1"><img src="img/colibri.png" alt="colibri"></p>
 
 <p class="col-md-11"><strong>Colibri Jacobin (Florisuga mellivora)</strong><br>
-Originaire des quartiers les plus dangereux de Santiago de Chile, le colibri jacobin a quitté a quitté sa ville natale pour vivre une vie sans adresse. Une bande bleu clair traverse ses plumes bien entretenues et si elle se consacre à la lecture et à l'écriture dans une tranquillité absolue, elle n'hésite pas à utiliser ses capacités et son esprit radical pour lutter contre les riches, les hommes, les mangeurs de viande, les fascistes, la monogamie, et la police. Vous la trouverez sur Riseup en train de former des alliances avec d'autres organisations et défendre avec éloquence l'idée qu'une infrastructure autonome est la seule chose qui nous sauvera de cet internet néolibéral et hyper-surveillé dans lequel nous habitons.
+Originaire des quartiers les plus dangereux de Santiago de Chile, le colibri jacobin a quitté sa ville natale pour vivre une vie sans adresse. Une bande bleu clair traverse ses plumes bien entretenues et si elle se consacre à la lecture et à l'écriture dans une tranquillité absolue, elle n'hésite pas à utiliser ses capacités et son esprit radical pour lutter contre les riches, les hommes, les mangeurs de viande, les fascistes, la monogamie, et la police. Vous la trouverez sur Riseup en train de former des alliances avec d'autres organisations et défendre avec éloquence l'idée qu'une infrastructure autonome est la seule chose qui nous sauvera de cet internet néolibéral et hyper-surveillé dans lequel nous habitons.
 
 </div>
 <div class="row">
