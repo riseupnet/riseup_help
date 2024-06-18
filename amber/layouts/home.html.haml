@@ -28,7 +28,7 @@
                 .col-sm-8
                   .locale-links
                     - available_languages.each do |name, code, url|
-                      %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
+                      %a.label{:href => url, :lang => code, :class => (I18n.locale == code ? 'label-primary' : '')}= name
                   <br>
                   = render 'common/home_donate'
                   = yield :content
