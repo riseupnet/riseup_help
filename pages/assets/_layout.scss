@@ -3,6 +3,7 @@
 // LAYOUT STRUCTURE
 //
 // %body
+//   .skip-link
 //   #riseup-bar.nav-home
 //     #riseup-nav
 //   #masthead
@@ -51,6 +52,17 @@ body {
 //    flex: 1 1;
 //  }
 //}
+
+//
+// SKIP LINK
+//
+.skip-link {
+  position:absolute;
+  left: -1312px;
+  &:focus {
+    position: initial;
+  }
+}
 
 //
 // MASTHEAD
