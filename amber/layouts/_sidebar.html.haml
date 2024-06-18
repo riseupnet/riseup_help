@@ -15,7 +15,7 @@
 .sidebar-addendum
   .locale-links
     - available_languages.each do |name, code, url|
-      %a.label{:href => url, :class => (I18n.locale == code ? 'label-primary' : '')}= name
+      %a.label{:href => url, :lang => code, :class => (I18n.locale == code ? 'label-primary' : '')}= name
 
 .sidebar-addendum
   = link(t(:support_riseup) => 'donate', :class => 'btn btn-block btn-default')
