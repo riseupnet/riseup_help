@@ -8,7 +8,7 @@
 
 <a class="btn btn-default" href="#doações-por-correio">Correio</a> <a class="btn btn-default" href="#doe-com-cartão-de-crédito">Cartão de crédito</a> <a class="btn btn-default" href="#doe-com-criptomoeda">Criptomoeda</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 O Riseup trabalha sem descanso para criar alternativas tecnológicas de base que vão ao encontro das necessidades de comunicação de pessoas e organizações que trabalham por mudanças sociais. Quando você recebe um serviço de uma empresa que não cobra por isso, são grandes as chances do financiamento vir da ampla vigilância das suas atividades. O Riseup, por outro lado, se sustenta por doações de pessoas que, como você, acreditam em apoiar alternativas democráticas.
 

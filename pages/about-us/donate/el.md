@@ -8,7 +8,7 @@
 
 <a class="btn btn-default" href="#%CE%B4%CF%89%CF%81%CE%B5%CE%AD%CF%82-%CE%BC%CE%AD%CF%83%CF%89-%CF%84%CE%B1%CF%87%CF%85%CE%B4%CF%81%CE%BF%CE%BC%CE%B5%CE%AF%CE%BF%CF%85">Δωρεές μέσω Ταχυδρομείου</a> <a class="btn btn-default" href="#online-donations">Online donations</a> <a class="btn btn-default" href="#cryptocurrency-donations">Cryptocurrency</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 Η Riseup εργάζεται ακούραστα για να δημιουργήσει εναλλακτικές τεχνολογίες βάση που διευθετούν τις ανάγκες για επικοινωνία των ανθρώπων και των οργανώσεων που παλεύουν για την κοινωνική αλλαγή. Όταν παίρνεται μια υπηρεσία από μια εταιρεία που δεν σας χρεώνει, υπάρχουν σοβαρές πιθανότητες το κέρδος της να προέρχεται από εκτεταμένη παρακολούηθηση των χρηστών. Η Riseup από την άλλη, βασίζεται σε δωρεές από χρήστες σαν εσάς οι οποίοι πιστεύουν στη στήριξη των δημοκρατικών εναλλακτικών.
 

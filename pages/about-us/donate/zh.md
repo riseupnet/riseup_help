@@ -8,7 +8,7 @@
 
 <a class="btn btn-default" href="#通过邮件捐款">通过邮件捐款</a> <a class="btn btn-default" href="#在线捐款">在线捐款</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 Riseup致力于以创建满足个人和组织工作的社会变化的通信需求基层技术的替代品。 当您从一家公司取得免费服务时，这些钱可能来自于对您的严密监控。 Riseup，在这一方面，依赖于像您这样支持民主的用户的捐款。
 

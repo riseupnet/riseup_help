@@ -2,7 +2,7 @@
 
 ## Riseup की जरूरत क्यों है
 
-<p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
 क्या आप अपने संवेदनशील ईमेल संचार की गोपनीयता के लिए किसी कॉर्पोरेट ईमेल प्रदाता पर भरोसा कर सकते हैं? वे न केवल आम तौर पर स्कैन और उद्देश्यों की एक विस्तृत विविधता के लिए अपने संदेश की सामग्री को रिकॉर्ड करते हैं, साथ ही डिजिटल स्वतंत्रता को सीमित और उनके उपयोगकर्ता की गोपनीयता के बारे में सख्त नीतियों है विफल करने के लिए है कि सरकारों की मांगों को मानते हैं. उनकी स्पष्ट रूप से व्यावसायिक हितों के साथ अंतर पर वाणिज्यिक ईमेल सुविधाओ का हमसे उल्लेख नही करते। The U.S. government practices “full pipe monitoring” and association mapping, which gives them the ability to build a detailed map of how our social movements are organized, worse this gives them precise information about what linkages should be disrupted in order to disrupt large social movements.
 
@@ -12,7 +12,7 @@ We strive to keep our mail as secure and private as we can. We do not log your I
 
 ##  Riseup's Purpose
 
-<p class="pull-right"><img class="image-right" src="img/riseup-yellow.gif" alt="riseup"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/riseup-yellow.gif" alt="riseup"></p>
 
 The Riseup Collective is an autonomous body based in Seattle with collective members world wide. Our purpose is to aid in the creation of a free society, a world with freedom from want and freedom of expression, a world without oppression or hierarchy, where power is shared equally. We do this by providing communication and computer resources to allies engaged in struggles against capitalism and other forms of oppression.
 

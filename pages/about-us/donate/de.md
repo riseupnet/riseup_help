@@ -8,7 +8,7 @@
 
 <a class="btn btn-default" href="#spenden-per-post">Post</a> <a class="btn btn-default" href="#spenden-sie-online">Online</a> <a class="btn btn-default" href="#spende-kryptow%C3%A4hrung">Kryptowährung</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 Riseup arbeitet pausenlos an der Erstellung alternativer Graswurzel-Technologien, um die Kommunikation von Menschen und Organisationen, die einen sozialen Wandel herbeiführen wollen, zu erleichtern. Die herkömmlichen Gratisangebote großer Firmen finanzieren sich üblicherweise durch die intensive Auswertung Deines Kommunikationsverhaltens. Riseup hingegen  arbeitet auf Spendenbasis von Nutzer_innen wie Dir, denen es wichtig ist, demokratische Alternativen zu unterstützen.
 

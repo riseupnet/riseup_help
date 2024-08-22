@@ -2,7 +2,7 @@
 
 ## 为什么需要Riseup
 
-<p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
 当你需要用电子邮件来发送敏感的信息时，你觉得那些公司提供的服务靠谱么？他们不仅出于各种目的扫描记录你的信息，还会遵循政府的意思，来阻止自由在互联网上的传播——他们根本没有遵守自己写的“隐私条款”。更不用提他们把用户的行为喜好都报告给广告邮件发送者。美国政府的“全方位监控”和关系网络构建——他们有能力了解我们所有的社会关系和社交行为，更可怕的是这给了他们无数精确的情报，用以阻止所有可能的大规模社会运动。
 
@@ -12,7 +12,7 @@
 
 ##  Riseup的目的
 
-<p class="pull-right"><img class="image-right" src="img/riseup-yellow.gif" alt="riseup"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/riseup-yellow.gif" alt="riseup"></p>
 
 Riseup是独立自主的团体，总部位于西雅图，成员来自世界各地。我们的目标，是为真正自由民主的社会的诞生贡献一份力量——不再有恐怖的镇压和森严的等级，让人们平等地分享权力。我们通过提供通讯平台和计算机资源，来帮助那些反抗者对抗垄断资本集团和其他来源的控制与镇压。
 

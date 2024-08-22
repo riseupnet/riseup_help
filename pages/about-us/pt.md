@@ -2,7 +2,7 @@
 
 ## Por que Riseup é necessário
 
-<p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
 Você pode confiar em provedores de email corporativos para confidencialidade de suas comunicações de email sensíveis? Não apenas eles tipicamente examinam e gravam o conteúdo de suas mensagens para uma ampla variedade de propósitos, mas também cedem às demandas do governo que restringem a liberdade digital e falham em ter políticas estritas acerca da privacidade dos usuários. Sem mencionar que seus interesses comerciais obviamente colocam provedores de email comerciais em estranhamento com o que estamos fazendo. O governo estadounidense pratica o monitoramento total das redes¹ e o mapeamento por associação, que a ele conferem a habilidade de construir um mapa detalhado de como nossos movimentos sociais são organizados, ainda pior, isso dá-lhes precisas informações sobre que ligações devem ser rompidas a fim de romper com movimentos sociais amplos.
 
@@ -12,7 +12,7 @@ Nós lutamos para manter nosso email o mais seguro e privado possível. Nós nã
 
 ##  Propósitos do Riseup
 
-<p class="pull-right"><img class="image-right" src="img/riseup-yellow.gif" alt="riseup"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/riseup-yellow.gif" alt="riseup"></p>
 
 O Coletivo Riseup é um corpo autônomo sediado em Seattle e com membros no mundo todo. Nosso propósito é apoiar na criação de uma sociedade livre, um mundo com liberdade de querer e liberdade de expressar-se, um mundo sem opressão ou hierarquia, onde o poder é compartilhado igualmente. Nós fazemos isso fornecendo comunicação e recursos computacionais para aliados comprometidos em lutas contra o capitalismo e outras formas de opressão.
 

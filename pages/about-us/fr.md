@@ -2,7 +2,7 @@
 
 ## Pourquoi Riseup est nécessaire
 
-<p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
 Pouvez-vous compter sur un fournisseur commercial de courrier électronique pour la confidentialité de vos communications sensibles ? Non seulement ils parcourent et enregistrent typiquement le contenu de vos messages pour une large variété d'objectifs, mais ils concèdent aussi aux demandes des gouvernements qui limitent la liberté numérique, et échouent de fait à avoir des politiques strictes quant à la vie privée de leurs utilisateurs. Sans même les mentionner, leurs intérêts évidemment commerciaux sont en opposition avec ce que nous faisons. Les gouvernements américains pratiquent le "full pipe monitoring", soit la surveillance généralisée d'une banque d'IPs, et la cartographie des associations, ce qui leur donne la capacité de construire une carte détaillée de l'organisation de nos mouvements sociaux. Encore pire, ceci leur donne des informations précises sur les liens qui devraient être perturbés pour fragiliser la mise en place de grands mouvements sociaux.
 

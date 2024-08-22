@@ -2,7 +2,7 @@
 
 ## Warum Riseup gebraucht wird
 
-<p class="pull-right"><img class="image-right" src="img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/page22-1003-full_medium.jpg" alt="page22-1003-full_medium.jpg"></p>
 
 Können wir uns auf kommerzielle E-Mailanbieter für vertrauliche E-Mailkommunikation verlassen? Nicht nur dass sie regelmäßig unsere E-Mails nach bestimmten Inhalten scannen, sie folgen außerdem den Forderungen von Regierungen, die digitale Freiheit einzuschränken ohne klare Prinzipien zur Gewährleistung der Privatsphäre ihrer Nutzer*innen. Nicht zu reden von offensichtlichen kommerziellen Interessen der Unternehmen, die unseren Ansprüchen zuwiderlaufen. Die US-Regierung praktiziert umfassende Überwachung (“full pipe monitoring”) und soziale Netzwerkanalyse auf allen Kommunikationskanälen, wodurch sie in die Lage versetzt weden, eine detaillierte Karte sozialer Bewegungen und ihrer Organisationsweise zu erstellen. Darüber hinaus gibt es ihnen Informationen, welche Verbindungen zerstört werden müssen, um soziale Bewegungen zu stören.
 
@@ -12,7 +12,7 @@ Wir setzen uns dafür ein, E-Mail so sicher und privat wie möglich zu machen. W
 
 ##  Riseups Ziele
 
-<p class="pull-right"><img class="image-right" src="img/riseup-yellow.gif" alt="riseup"></p>
+<p class="pull-right"><img class="image-right" src="/about-us/img/riseup-yellow.gif" alt="riseup"></p>
 
 Das Riseup-Kollektiv ist eine autonome Körperschaft in Seattle mit Mitgliedern auf der ganzen Welt. Unser Ziele sind, beim Aufbau einer freien Gesellschaft zu helfen, eine Welt ohne Gier und mit Meinungsfreiheit, eine Welt ohne Unterdrückung oder Hierarchie, in der Macht gleichmäßig verteilt ist. Um dazu beizutragen, übernehmen wir Verantwortung für Kommunikations- und Computerresourcen für Verbündete im Kampf gegen Kapitalismus und andere Arten der Unterdrückung.
 

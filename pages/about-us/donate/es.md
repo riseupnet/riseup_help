@@ -8,7 +8,7 @@
 
 <a class="btn btn-default" href="#donaciones-por-v%C3%ADa-postal">Postal</a> <a class="btn btn-default" href="#donaciones-online">Online</a> <a class="btn btn-default" href="#donaciones-criptomoneda">Criptomoneda</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 Riseup trabaja sin descanso para crear tecnologías de base que se ocupen de las necesidades de comunicación de la gente y las organizaciones que trabajan por el cambio social. Cuando recibes un servicio de una empresa que no te cobra, lo más probable es que saquen dinero por vigilarte de forma intensiva. Riseup, en cambio, depende de las donaciones de sus usuarias y usuarios, que como tú, creen en el mantenimiento de alternativas democráticas.
 

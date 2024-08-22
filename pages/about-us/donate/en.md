@@ -9,7 +9,7 @@
 
 <a class="btn btn-default" href="#donate-by-mail">Mail</a> <a class="btn btn-default" href="#donate-by-credit-card">Credit Card</a> <a class="btn btn-default" href="#donate-cryptocurrency">Cryptocurrency</a>
 
-<p class="pull-right"><img class="image-right" src="img/red-leap-medium.jpg" alt="red-leap-medium"></p>
+<p class="pull-right"><img class="image-right" src="/donate/img/red-leap-medium.jpg" alt="red-leap-medium"></p>
 
 Riseup works tirelessly to create grassroots technology alternatives that address the communication needs of people and organizations working for social change. When you get a service from a corporation that doesn't charge you, chances are that the money comes from extensive surveillance. Riseup, on the other hand, relies on donations by users like you who believe in supporting democratic alternatives.
 
