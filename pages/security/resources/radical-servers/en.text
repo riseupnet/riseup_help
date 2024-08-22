@@ -444,6 +444,14 @@ h2. https://anarchyplanet.org/
 * Web/video hosting
 * Custom
 
+h2. https://unredacted.org
+
+[[Unredacted->https://unredacted.org]] is a 501(c)(3) non-profit organization that provides free and open services that help people evade censorship and protect their right to privacy.
+
+* Matrix server
+* XMPP server
+* FreeSocks, censorship resistant Outline VPN servers
+
 h1. In memoriam
 
 These projects are no longer active or maintenance only mode.
