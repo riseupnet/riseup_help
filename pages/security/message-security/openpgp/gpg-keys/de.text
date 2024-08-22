@@ -186,10 +186,10 @@ h2. Install Gpg4win
 # Doppelklicke die ausführbare Datei um die Installtion zu starten
 # Wähle die gewünschte Sprache
 # Drücke **Weiter**
-!img/gpg4win1-install-welcome.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win1-install-welcome.gif!
 # Der nächsten Schritt fordert auf, die [GNU General Public License->https://en.wikipedia.org/wiki/General_Public_License] (die GPL-Lizenz) zu akzeptieren, welche vollständig hier zu lesen ist: [GNU.org->https://www.gnu.org/licenses/gpl.html]. Drücke **Weiter**.
 # Wähle die gewünschten Komponenten zur Installation. Die Standardeinstellung ist empfohlen. [Claws-Mail->https://en.wikipedia.org/wiki/Claws_Mail] ist ein praktisches Betriebssystem übergreifendedes Emailprogramm für Linux, Windows, Mac OS X, und andere. GpgOL installiert das Plugin, um OpenPGP mit dem Outlook-Emailprogramm zu verwenden.
-!img/gpg4win2-components.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win2-components.gif!
 # Wähle den Installations-Ordner (der Standard ist empfohlen).
 # Wähle gewünschte Verknüpfungen
 # Gib Namen für alle Verknüpfungs-Ordner ein und beginne die Installation. Begutachte die README, oder nicht, und klicke um zu beenden.
@@ -219,7 +219,7 @@ Kleopatra scheint der aktuellste and anwendungsfreundlichste der zwei Gpg4win-Sc
 # Klicke **Datei** -> **Neues Zertifikat...** oder **Strg+N**.
 # Klicke **Erstelle OpenPGP-Schlüsselpaar**
 # Gib Name, Email-Adresse und wenn gewollt Kommentar ein (nicht empfohlen). Name und Email-Adresse sind beliebig wählbar, nicht notwendigerweise Dein realer Name und Email-Adresse. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
-!img/kleopatra1-name-email-advanced.gif!
+!/security/message-security/openpgp/gpg-keys/img/kleopatra1-name-email-advanced.gif!
 # Unter **Erweiterte Einstellungen...** wähle Schlüsseltyp und -stärke, empfohlen: **RSA**,**3,072 bits**, zum **Signieren** und **Verschlüsseln**. Klicken **Ok** und **Weiter**
 # überprüfe die Informationen und bestätige, um das Schlüsselpaar zu erstellen
 # Gib ein **starkes** Passwort ein, an das du dich erinnern kannst. Der Stärke-Balken gibt eine Schätzung, wie stark das Passwort ist, 100% zu erreichen ist empfohlen. **Wenn du das Passwort vergisst, kann es nicht wiederhergestellt werden und du verlierst den Zugriff auf alle damit verschlüsselten Daten, auch E-Mails, für immer.**

@@ -10,7 +10,7 @@ Claws Mail versucht, funktionsreich, schnell und stabil zu sein. Es unterstützt
 
 h2. Claws Mail einstellen
 
-!img/setup_de_start.png!
+!/email/clients/claws/img/setup_de_start.png!
 
 h3. Erster Start - Setup-Assistent
 
@@ -21,11 +21,11 @@ Beim ersten Start von Claws Mail wird dich der Einstellungs-Assistent bei der Ko
 # Wähle *mail.riseup.net* als "Serveradresse" (für IMAP und POP3)
 # Gib dein Login (ohne @riseup.net) und Passwort ein
 # Aktiviere *SSL für Verbindung zum empfangenden Server verwendenn* und *SSL über STARTTLS benutzen*, klick auf *Vor*
-!img/setup_de_empfangen.png!
+!/email/clients/claws/img/setup_de_empfangen.png!
 # Wähle *mail.riseup.net* als "SMTP-Serveradresse"
 # Aktiviere *Benutze Authentifizierung* (die Felder für SMTP-Benutzername und Kennwort können frei bleiben)
 # Aktiviere *SSL für Verbindung zum SMTP-Server benutzen* und *SSL über STARTTLS benutzen*, klick auf *Vor*
-!img/setup_de_senden.png!
+!/email/clients/claws/img/setup_de_senden.png!
 # *Vor*, *Speichern* und fertig!
 
 h3. Manuelle Kontoerstellung
@@ -33,20 +33,20 @@ h3. Manuelle Kontoerstellung
 Gehe im Menu auf *Konfiguration > Neues Konto erstellen...*.
 
 # *Allgemein* - gib Kontoname, Name und E-Mail-Adresse ein, [[wähle den Servertyp POP3 oder IMAP->email/clients#choose-imap-or-pop]], verwende *mail.riseup.net* als *Server zum Empfangen* und *SMTP-Server*. Für deinen riseup.net-Namen (ohne @riseup.net), sowie dein Passwort hinzu.
-!img/einstellungen_allgemein.png!
+!/email/clients/claws/img/einstellungen_allgemein.png!
 # *Senden* - wähle *SMTP-Authentifizierung*
-!img/einstellungen_senden.png!
+!/email/clients/claws/img/einstellungen_senden.png!
 # *SSL* - Wähle *STARTTLS* für POP3 und SMTP.
-!img/einstellungen_ssl.png!
+!/email/clients/claws/img/einstellungen_ssl.png!
 # *Erweitert* - Ändere den SMTP-Port auf 587 (POP3 bleibt bei 110)
-!img/einstellungen_erweitert.png!
+!/email/clients/claws/img/einstellungen_erweitert.png!
 # Klicke "OK", um die Kontoerstellung abzuschließen
 
 h3. SSL-Zertifikate
 
 Beim ersten Abrufen der Mails und beim Senden der ersten Mail siehst du ein Fenster zur Bestätigung der SSL-Verbindung. Klicke auf *Zertifikat anschauen* (die auf dem Bild angezeigt Prüfsumme könnte veraltet sein):
 
-!img/ssl.png!
+!/email/clients/claws/img/ssl.png!
 
 Claws Mail speichert dieses Zertifikat und wird dich erst bei einer Änderungen wieder informieren. Doch Vorsicht: das könnte auf einen man-in-the-middle-Angriff hindeuten. Vergewissere dich *jedes Mal wenn dieser Dialog erscheint*, ob riseup.net dasselbe Zertifikat verwendet, indem du die angezeigte Prüfsumme [[mit der von Riseup vergleichst -> /security/network-security/certificates]]!
 

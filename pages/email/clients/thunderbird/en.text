@@ -16,17 +16,17 @@ The first time you run Thunderbird, the account wizard will walk you through set
 
 1. Choose the menu item *Edit > Account Settings...*
 
-!img/edit-account-settings.png!
+!/email/clients/thunderbird/img/edit-account-settings.png!
 
 2. Click the *Add Account...* button.
 
-!img/account-actions.png!
+!/email/clients/thunderbird/img/account-actions.png!
 
 h3. Step 1
 
 You will see a prompt. Enter in your name, email address and password.
 
-!img/mail-account-setup1.png!
+!/email/clients/thunderbird/img/mail-account-setup1.png!
 
 Click *Continue*.
 
@@ -34,14 +34,14 @@ h3. Step 2
 
 Thunderbird will pull the settings from riseup's servers.
 
-!img/mail-account-setup2.png!
+!/email/clients/thunderbird/img/mail-account-setup2.png!
 
 Now you need to decide if you want to use [[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
 * *IMAP*: It will by default pick IMAP, so if you want IMAP you can simply click *Continue*.
 * *POP*: To switch to POP, click *edit*. Then click the dropdown menu that says IMAP and change it to POP. Now click Re-Test Configuration. It should show you using POP. If so, click *Continue*.
 
-!img/imap-pop.png!
+!/email/clients/thunderbird/img/imap-pop.png!
 
 h3. Step 3
 

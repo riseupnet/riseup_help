@@ -46,7 +46,7 @@ These are absolutely essential browser extensions that everyone should be using 
 <table class="table">
 <tr>
   <td>
-    !img/ublock-64.png!
+    !/security/network-security/better-web-browsing/img/ublock-64.png!
   </td>
   <td>
     [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
@@ -54,7 +54,7 @@ These are absolutely essential browser extensions that everyone should be using 
 </tr>
 <tr>
   <td>
-    !img/https-64.png!
+    !/security/network-security/better-web-browsing/img/https-64.png!
   </td>
   <td>
     [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it. This helps to protect against surveillance of the content of your web browsing, although it does not hide which websites you are visiting (unless you also run [[Tor]] or a [[VPN]]).
@@ -62,7 +62,7 @@ These are absolutely essential browser extensions that everyone should be using 
 </tr>
 <tr>
   <td>
-    !img/badger-64.png!
+    !/security/network-security/better-web-browsing/img/badger-64.png!
   </td>
   <td>
     [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have.

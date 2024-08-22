@@ -46,7 +46,7 @@ Estos son complementos absolutamente necesarios que todos los usuarios deberían
 <table class="table">
 <tr>
   <td>
-    !img/ublock-64.png!
+    !/security/network-security/better-web-browsing/img/ublock-64.png!
   </td>
   <td>
     [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) bloquea redes publicitarias y de rastreo. Es similar a Adblock Plus y Disconnect pero funciona mucho más rápido y es mejor.
@@ -54,7 +54,7 @@ Estos son complementos absolutamente necesarios que todos los usuarios deberían
 </tr>
 <tr>
   <td>
-    !img/https-64.png!
+    !/security/network-security/better-web-browsing/img/https-64.png!
   </td>
   <td>
     [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] automaticamente asegura conecciones TSL cúando el sitio web lo permite. Esto ayuda a protegerse de vigilancia del contenido la navegación web, pero no oculta qué sitios web visitas (a menos que utilizes [[Tor]] o una [[VPN]]).
@@ -62,7 +62,7 @@ Estos son complementos absolutamente necesarios que todos los usuarios deberían
 </tr>
 <tr>
   <td>
-    !img/badger-64.png!
+    !/security/network-security/better-web-browsing/img/badger-64.png!
   </td>
   <td>
     [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] detecta intentos de rastreo de navegación y bloquea el contenido a estos rastreadores. No está diseñado para bloquear anuncios, así que no es un reemplazo de uBlock, pero incluye características de seguridad que uBlock (en modo predeterminado) no tiene.

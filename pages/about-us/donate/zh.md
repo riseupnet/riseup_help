@@ -12,7 +12,7 @@
 
 Riseup致力于以创建满足个人和组织工作的社会变化的通信需求基层技术的替代品。 当您从一家公司取得免费服务时，这些钱可能来自于对您的严密监控。 Riseup，在这一方面，依赖于像您这样支持民主的用户的捐款。
 
-关于 Riseup的更多信息，您可以访问[[meet our members => about-us]]并点击 [[project areas => projects]]。Riseup是一个 [[registered nonprofit => donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] 依据 `501(c)(4)` 国家税收法的公司。
+关于 Riseup的更多信息，您可以访问[[meet our members => about-us]]并点击 [[project areas => projects]]。Riseup是一个 [[registered nonprofit => /donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] 依据 `501(c)(4)` 国家税收法的公司。
 
 向 riseup.net的捐款**并非** 免税。如果您希望无税捐款，您可以访问 [[contribute to our sister organization, Riseup Labs => https://riseuplabs.org/donate]].
 

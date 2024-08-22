@@ -26,7 +26,7 @@ Per creare un nuovo alias:
 
 Se l'alias che hai scelto è disponibile, esso apparirà nella tua lista con i tag "Send" e "Receive".
 
-!aliases.jpg!
+!/email/settings/aliases/aliases.jpg!
 
 h3. Come faccio ad eliminare un alias?
 
@@ -81,4 +81,4 @@ Puoi impostare l'inoltro dei messaggi seguendo questi passi:
 # Inserisci l'indirizzo al quale vuoi vengano inoltrati tutti i tuoi messaggi riseup nel campo "Forwarding address"
 # Clicca sul tasto verde "Save"
 
-!forwarding.jpg!
+!/email/settings/aliases/forwarding.jpg!

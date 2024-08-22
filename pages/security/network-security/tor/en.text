@@ -17,7 +17,7 @@ h3. Windows Instructions
 
 After you've downloaded the Tor Browser installer, double click on the installer to start the installation process. Choose your language and select where you want to save the bundle to then click "OK". At least 181 MB free space must be available in the location you select. If you want to leave the bundle on the computer, saving it to the Desktop is a good choice. If you want to move it to a different computer or limit the traces you leave behind, save it to a USB disk. Once finished, make sure that you check the box labeled "Add Start Menu & Desktop shortcuts" (1) for an easy way to start the browser.
 
-!tb-install-finished.png!
+!/security/network-security/tor/tb-install-finished.png!
 
 See the Using Tor section below for how to use Tor.
 
@@ -25,7 +25,7 @@ h3. macOS
 
 After you've downloaded the Tor Browser Bundle, simply click on it to begin the installation. macOS will automatically unarchive it and you will have a TorBrowser application in your chosen language (for example, TorBrowser_en-US.app). Click the TorBrowser application to launch the connection wizard. Once connected to Tor, it will launch Tor Browser.
 
-!screenshot-osx-torbrowser-icon.png!
+!/security/network-security/tor/screenshot-osx-torbrowser-icon.png!
 
 See the Using Tor section below about how to use Tor.
 
@@ -45,7 +45,7 @@ chmod +x start-tor-browser.desktop
 
 You can now execute the file with the command @./start-tor-browser.desktop@, or by double clicking the file in a file manager, to launch the connection wizard.
 
-!tb-desktop-file.png!
+!/security/network-security/tor/tb-desktop-file.png!
 
 Linux users may prefer [["torbrowser-launcher"->https://github.com/micahflee/torbrowser-launcher/]]. This tool ensures your Tor Browser is legitimate and up to date in an easy manner.
 
@@ -59,13 +59,13 @@ h2. Using Tor
 
 Once extraction or installation is complete, you can type "Tor Browser" from your Windows start menu then click on the Start Tor Browser (2) application (it may be called "Start Tor Browser.exe" on some systems) or click on the newly created desktop icon. On macOS, just start Tor Browser from the Applications menu.
 
-!tb-start-conwiz.png!
+!/security/network-security/tor/tb-start-conwiz.png!
 
 If you are using Linux, you will need to navigate to the extracted Tor Browser directory and double click "start-tor-browser" (this sometimes can end in ".desktop"). From a terminal, you can also navigate to the Tor Browser directory and run @./start-tor-browser.desktop --register-app@ in order to add Tor Browser to your Applications menu.
 
 Once Tor is ready, Tor Browser will open a menu with buttons "Connect" and "Configure". Unless you live in an oppressive state that censors internet or if you would like to use a proxy to connect to the Tor network, this can be ignored. Once "Connect" is clicked, Tor will establish a connection and will automatically open a Firefox like web browser. Only web pages visited through Tor Browser will be sent via Tor. Other web browsers such as Google Chrome and Firefox are not affected by Tor. Before browsing, it is a good idea to [[ensure you are connected to the Tor network->https://check.torproject.org/]]. To reduce the risk of confusion, don't run the normal Firefox web browser while using the Tor Browser, as its better to close existing Firefox windows before starting.
 
-!tb-good-con.png!
+!/security/network-security/tor/tb-good-con.png!
 
 Once you are finished browsing, you can close out of the browser like you normally would. For privacy reasons, the list of web pages you visited and any cookies will be deleted.
 

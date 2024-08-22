@@ -3,7 +3,7 @@
 @this.alias = '/canary'
 @toc = false
 
-![](canarypronounce.png)
+![](/canary/canarypronounce.png)
 
 #### _*substantivo*_
 

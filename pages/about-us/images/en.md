@@ -5,23 +5,23 @@ Want to make some Riseup t-shirts, buttons, patches, or stickers? Cool. Here are
 
 ## Logo
 
-[![riseup.net-inline_medium.jpg](riseup.net-inline_medium.jpg)](riseup.net-inline.svg)
+[![riseup.net-inline_medium.jpg](/about-us/images/riseup.net-inline_medium.jpg)](/about-us/images/riseup.net-inline.svg)
 
-[![riseup-rainbow_medium.jpg](riseup-rainbow_medium.jpg)](riseup-rainbow.svg)
+[![riseup-rainbow_medium.jpg](/about-us/images/riseup-rainbow_medium.jpg)](/about-us/images/riseup-rainbow.svg)
 
 ## Buttons
 
 These images have an extra wide border to make them look good when printed for a button maker.
 
-[![button-star_large.jpg](button-star_large.jpg)](button-star.svg)
+[![button-star_large.jpg](/about-us/images/button-star_large.jpg)](/about-us/images/button-star.svg)
 
-[![button-crow_large.jpg](button-crow_large.jpg)](button-crow.svg)
+[![button-crow_large.jpg](/about-us/images/button-crow_large.jpg)](/about-us/images/button-crow.svg)
 
-[![CC BY-NC-SA](/assets/images/creative-commons-80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+[![CC BY-NC-SA](/about-us/images//assets/images/creative-commons-80x15.png)](/about-us/images/https://creativecommons.org/licenses/by-nc-sa/3.0/)
 
 ## Crows in flight
 
-[![mcclure-crows_large.jpg](mcclure-crows_large.jpg)](mcclure-crows.svg)
+[![mcclure-crows_large.jpg](/about-us/images/mcclure-crows_large.jpg)](/about-us/images/mcclure-crows.svg)
 
 Copyright for the crows in this image is held by [Nikki McClure](http://www.nikkimcclure.com); used with permission.
 
@@ -29,6 +29,6 @@ Copyright for the crows in this image is held by [Nikki McClure](http://www.nikk
 
 This one is really geeky. Either you get the joke and think it is the coolest thing ever, or it is really confusing (the image is a modification of the logo for the [Debian GNU/Linux operating system](https://debian.org), the ethical OS preferred by nine out of ten anarcho-geeks worldwide).
 
-[![apt-get-install-anarchism_large.jpg](apt-get-install-anarchism_large.jpg)](apt-get-install-anarchism.svg)
+[![apt-get-install-anarchism_large.jpg](/about-us/images/apt-get-install-anarchism_large.jpg)](/about-us/images/apt-get-install-anarchism.svg)
 
 [![CC BY-NC-SA](/assets/images/creative-commons-80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/)

@@ -15,7 +15,7 @@ Geary unterstützt momentan nur IMAP-Konto. Beim ersten Start öffnet sich Dialo
 # Aktiviere *Use IMAP credentials*, lasse *No authentication required* ausgeschaltet.
 # Drücke *Add*
 
-!img/setup.png!
+!/email/clients/geary/img/setup.png!
 
 Geary fragt dich nach dem Passwort für deinen GNOME-Schlüsselbund, um dein Riseup-Passwort zu speichern. Du kannst dies folgenlos abbrechen.
 

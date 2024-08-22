@@ -30,7 +30,7 @@ Das Riseup-Kollektiv ist eine autonome Körperschaft in Seattle mit Mitgliedern 
 
 <div class="row">
 
-<p class="col-md-1"><img src="img/macaw.jpg" alt="macaw"></p>
+<p class="col-md-1"><img src="/about-us/img/macaw.jpg" alt="macaw"></p>
 
 <p class="col-md-11"><strong>Hellroter Ara (Ara macao)</strong><br>
 Der hellrote Ara ist ein junger Geek aus Südamerika. Seine Interessen reichen von angewandter Mathematik, Theorie des Computings, Programmieren, freie Software und generell Hacken bis zu Zusammenarbeit, virtuellen und realen selbstorganisierten Gemeinschaften, Politik, Wirtschaft, sozialen Bewegungen, anarchistischer Theorie und wie zur Hölle wir die Welt aus der Scheiße holen, in der sie gerade ist.
@@ -38,7 +38,7 @@ Der hellrote Ara ist ein junger Geek aus Südamerika. Seine Interessen reichen v
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/booby.jpg" alt="booby"></p>
+<p class="col-md-1"><img src="/about-us/img/booby.jpg" alt="booby"></p>
 
 <p class="col-md-11"><strong>Blaufußtölpel (Sula nebouxii)</strong><br>
 Der Blaufußtölpel liebt fermentierte Nahrung und anarchistische Aktionfilme aus Deutschland. In den letzten Jahren lernte er angewandte Statistik auf den ärmeren Straßen von Seattle und jetzt stellt er wichtige Berechnungen an, wann genau der Riseup Listenserver explodieren wird.
@@ -46,7 +46,7 @@ Der Blaufußtölpel liebt fermentierte Nahrung und anarchistische Aktionfilme au
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/catbird.png" alt="catbird"></p>
+<p class="col-md-1"><img src="/about-us/img/catbird.png" alt="catbird"></p>
 
 <p class="col-md-11"><strong>Katzendrossel (Dumetella carolinensis, kleiner Vogel der Dornbüsche)</strong><br>
 Die Katzendrossel hockt hinter dem Laubwerk und singt den ganzen Tag hindurch. Die Katzendrossel singt gern zu GNU/Linux Servern, meist in Perl oder Ruby. Die Katzendrossel genießt es, Gender Stereotype herauszufordern und hat keine Angst, weibliche Energie ins Tech-Kollektiv einzuladen.
@@ -54,7 +54,7 @@ Die Katzendrossel hockt hinter dem Laubwerk und singt den ganzen Tag hindurch. D
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/waxwing.jpg" alt="waxwing"></p>
+<p class="col-md-1"><img src="/about-us/img/waxwing.jpg" alt="waxwing"></p>
 
 <p class="col-md-11"><strong>Zedernseidenschwanz (Bombycilla cedrorum)</strong><br>
 
@@ -64,7 +64,7 @@ herumhackt, macht er lange Streifzüge durch die Stadt und spielt mit seinen anb
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/petrel.jpg" alt="petrel"></p>
+<p class="col-md-1"><img src="/about-us/img/petrel.jpg" alt="petrel"></p>
 
 <p class="col-md-11"><strong>Gadfly Petrel (Pterodroma)</strong><br>
 
@@ -76,7 +76,7 @@ Weitere Interessen beinhalten gemeinschaftliches Wohnen, städtische Gartenproje
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/roadrunner.jpg" alt="roadrunner"></p>
+<p class="col-md-1"><img src="/about-us/img/roadrunner.jpg" alt="roadrunner"></p>
 
 <p class="col-md-11"><strong>Greater Roadrunner (Geococcyx californianus)</strong><br>
 
@@ -86,7 +86,7 @@ Im Hauptquartier von Riseup ist allgemein bekannt, dass der Roadrunner ein absol
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/pigeon.png" alt="pigeon"></p>
+<p class="col-md-1"><img src="/about-us/img/pigeon.png" alt="pigeon"></p>
 
 <p class="col-md-11"><strong>Feral Rock Pigeon (Columba livia)</strong><br>
 
@@ -98,7 +98,7 @@ Sie glaubt, dass die Zukunft nocht nicht geschrieben ist, sondern dass wir jeden
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/rook.png" alt="rook"></p>
+<p class="col-md-1"><img src="/about-us/img/rook.png" alt="rook"></p>
 
 <p class="col-md-11"><strong>Rook (Corvus frugilegus)</strong><br>
 
@@ -109,7 +109,7 @@ Die Stimme des Raben erscheint vielen als harsch, und so neigt er dazu, nicht vi
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/owl.jpg" alt="owl"></p>
+<p class="col-md-1"><img src="/about-us/img/owl.jpg" alt="owl"></p>
 
 <p class="col-md-11"><strong>Snow Owl (Bubo scandiacus)</strong><br>
 
@@ -118,7 +118,7 @@ Er half, die technische Infrastruktur für Indymedia bereitzustellen, und trägt
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/starling.png" alt="starling"></p>
+<p class="col-md-1"><img src="/about-us/img/starling.png" alt="starling"></p>
 
 <p class="col-md-11"><strong>Starling (Sturnus Vulgaris)</strong><br>
 Der Star ist ein Wandervogel mit Sternchen auf den Flügeln und einem lebhaften Schrei. Er entwickelt die Riseup-Software und sorgt dafür, dass Leute Verantwortung übernehmen und zielstrebig an ihren Aufgaben weiterarbeiten. Der Star interessiert sich für den Bau der Infrastruktur der Bewegung, ihre Taktik, und für langfristige Strategien. 
@@ -126,7 +126,7 @@ Dem Star gefällt es gleichermaßen, Augäpfel aus Schädeln herauszupicken, wie
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/sunbird.jpg" alt="sunbird"></p>
+<p class="col-md-1"><img src="/about-us/img/sunbird.jpg" alt="sunbird"></p>
 
 <p class="col-md-11"><strong>Sunbird (Nectarinia asiatica)</strong><br>
 
@@ -137,7 +137,7 @@ Die gpg-Schlüssel-ID des Honigsaugers ist @0xD45523676ED610B7@, sie ist verfüg
 </div>
 <div class="row">
 
-<p class="col-md-1"><img src="img/puffin.jpg" alt="puffin"></p>
+<p class="col-md-1"><img src="/about-us/img/puffin.jpg" alt="puffin"></p>
 
 <p class="col-md-11"><strong>Tufted Puffin (Fratercula cirrhata)</strong><br>
 

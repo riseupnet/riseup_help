@@ -16,7 +16,7 @@ h3. Instruções para Windows
 
 Depois de baixar o instalador do Tor Browser, dê um duplo clique no executável para iniciar o processo de instalação. Escolha sua língua, selecione o local onde você quer salvar o pacote e aperte "OK". Você precisa de pelo menos 181 MB de espaço livre disponível no lugar escolhido. Se você quiser deixar o programa no computador, salvá-lo na Área de Trabalho é uma boa opção, mas se você quiser movê-lo para um computador diferente, ou deixar menos vestígios para trás, salve-o em um pen drive. Ao finalizar, se certifique de marcar a caixa de seleção nomeada "Add Start Menu & Desktop shortcuts" (1) para uma maneira simples de iniciar o navegador.
 
-!tb-install-finished.png!
+!/security/network-security/tor/tb-install-finished.png!
 
 Veja a seção 'Usando o Tor', abaixo.
 
@@ -24,7 +24,7 @@ h3. macOS
 
 Depois de baixar o pacote Tor Browser, clique no ícone para começar a instalação. Ele será extraído automaticamente e você terá um aplicativo TorBrowser na língua que escolheu ao fazer download (por exemplo, TorBrowser_pt-BR.app). Clique no aplicativo TorBrowser para iniciar o wizard de conexão. Assim que se conectar ao Tor, o Tor Browser será aberto.
 
-!screenshot-osx-torbrowser-icon.png!
+!/security/network-security/tor/screenshot-osx-torbrowser-icon.png!
 
 Veja a seção 'Usando o Tor', abaixo.
 
@@ -44,7 +44,7 @@ chmod +x start-tor-browser.desktop
 
 Agora você pode executar o arquivo com o comando @./start-tor-browser.desktop@, ou dando um clique duplo no ícone do arquivo, para iniciar o wizard de conexão.
 
-!tb-desktop-file.png!
+!/security/network-security/tor/tb-desktop-file.png!
 
 Usuários Linux talvez se interessem também pelo [[torbrowser-launcher => https://github.com/micahflee/torbrowser-launcher]]. Essa ferramenta garante a legitimidade e atualização do Tor Browser de maneira simples.
 
@@ -58,13 +58,13 @@ h2. Usando o Tor
 
 Uma vez concluída a extração, você pode digitar "Tor Browser" do seu menu iniciar do Windows e então clicar na aplicação Iniciar Tor Browser (2) (pode ser chamada "Iniciar Tor Browser.exe" em alguns sistemas) ou clicar no novo ícone criado na Área de Trabalho. No macOS, apenas inicie o Tor Browser no menu de Aplicações.
 
-!tb-start-conwiz.png!
+!/security/network-security/tor/tb-start-conwiz.png!
 
 Se você estiver usando Linux, vai precisar navegar até o diretório extraído do Tor Browser e dar um clique duplo no arquivo "start-tor-browser" (que às vezes pode exibir a extensão ".desktop"). Em um terminal, você também pode navegar até o diretório do Tor Browser e executar @./start-tor-browser.desktop --register-app@ para adicionar o Tor Browser ao seu menu de Aplicações.
 
 Quando o Tor estiver pronto, o Tor Browser abrirá um menu com os botões "Conectar" e "Configurar". A não ser que você viva em um Estado opressivo que censura a Internet, ou que você queira usar um proxy para se conectar à rede Tor, isso pode ser ignorado. Assim que você clicar em "Conectar", o Tor vai estabelecer uma conexão e vai automaticamente abrir um navegador web baseado no Firefox. Somente as páginas acessadas pelo Tor Browser serão transmitidas via Tor. Outros navegadores, como o Google Chrome e o Firefox, não são afetados pelo Tor. Antes de começar a navegar, é uma boa ideia [[se certificar de que está conectado à rede Tor network->https://check.torproject.org/]]. Para não arriscar se confundir, evite usar o Firefox normal enquanto estiver usando o Tor Browser; é melhor fechar as janelas existentes do Firefox antes de iniciar.
 
-!tb-good-con.png!
+!/security/network-security/tor/tb-good-con.png!
 
 Quando tiver terminado de navegar, feche todas as janelas abertas do navegador, como faria normalmente. Por uma questão de privacidade, a lista de páginas da internet que você tiver visitado e todos os cookies serão apagados.
 

@@ -1,6 +1,6 @@
 @title = 'Politiques'
 
-![policy](page15-1005-full_medium.jpg)
+![policy](/about-us/policy/page15-1005-full_medium.jpg)
 
 Vous pouvez trouver ici des informations sur les politiques de Riseup. Ces politiques s'appliquent pour tous les services fournis par Riseup.
 

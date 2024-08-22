@@ -6,13 +6,13 @@ Beim [[Riseup VPN -> vpn]] allerdings benutzen wir die gleiche Technologie, um a
 
 h2. Eine normale Internetverbindung
 
-!vpn-01_large.png!
+!/vpn/how-vpn-works/vpn-01_large.png!
 
 Bei einer normalen Internetverbindung wird dein Verkehr von deinem Computer durch deinen Internetdiensteanbieter (Internet Service Provider, ISP) in das Internet und schließlich zum Zielort geschickt. Bei jedem Schritt werden deine Daten unterwegs aufgezeichnet und sind anfällig für [[man-in-the-middle-Angrife -> vpn/security-issues]] (die Gefahr ist viel kleiner, wenn du ein [[sicheres Protokoll -> secure-connections]] wie @https@ benutzt).
 
 h2. Eine Internetverbindung mit persönlichem VPN
 
-!vpn-02_large.png!
+!/vpn/how-vpn-works/vpn-02_large.png!
 
 Mit einem persönlichen VPN wird dein Verkehr auf deinem Rechner verschlüsselt und passiert deinen ISP auf dem Weg zum VPN-Server. Weil die Daten verschlüsselt sind, hat dein ISP kein Wissen, was in deinen Daten ist, die sie zum VPN-Server weiterleiten. Sobald die Daten den VPN-Server erreichen, werden sie entschlüsselt und zu ihrem Ziel weitergeleitet.
 
@@ -23,7 +23,7 @@ Mit einem persönlichen VPN sind deine Daten, wenn sie nicht mit einer [[sichere
 
 h2. Persönliche VPN anonymisieren deine Verbindung
 
-!vpn-03_large.png!
+!/vpn/how-vpn-works/vpn-03_large.png!
 
 Weil dein Verkehr von der IP-Adresse deines VPN-Servers zu kommen scheint, weiß der Empfänger deiner Netzwerkkommunikation nicht, wo du wirklich wohnst (es sei denn, du sagst es ihm).
 

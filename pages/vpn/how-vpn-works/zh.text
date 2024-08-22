@@ -6,13 +6,13 @@
 
 h2. 普通的网络连接
 
-!vpn-01_large.png!
+!/vpn/how-vpn-works/vpn-01_large.png!
 
 在普通的网络连接中，你所有的网络流量都从你的电脑发往为你服务的ISP (Internet Service Provider，网络服务提供商)，然后转发进入因特网，最后才到达目的地。这一路上，你的流量每往前走一步，都会被记录在案，而且时时刻刻都有遭受[[中间人攻击 -> vpn/security-issues]] 的风险。（如果你使用[[安全的网络协议->secure-connections]]，比如Https，你受到攻击的风险就会小得多）
 
 h2. 使用了个人VPN的网络连接
 
-!vpn-02_large.png!
+!/vpn/how-vpn-works/vpn-02_large.png!
 
 使用个人VPN，你的网络流量首先在你的电脑上被加密，经过ISP然后发往VPN服务器。由于信息已经加密，因此你的ISP无法知晓你真正的通讯内容和访问目的地，只知道他们前往VPN服务器。当你的网络流量到达VPN服务器后，他们会被解密然后发往你真正的目的地。
 
@@ -23,7 +23,7 @@ h2. 使用了个人VPN的网络连接
 
 h2. 使用个人VPN隐匿你的地理位置
 
-!vpn-03_large.png!
+!/vpn/how-vpn-works/vpn-03_large.png!
 
 因为你的网络流量看起来像是始发自VPN服务器，你的网络流量的接收者无法知道你真正的地理位置（除非你告诉他们）。
 

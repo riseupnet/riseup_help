@@ -6,7 +6,7 @@
 * [[4 de julho de 2018, Batida policial bávara na Zwiebelfreunde -> zwiebelfreunde]]
 * [[16 de fevereiro de 2017, Garantia do Canário -> canary-statement]]
 * [[6 de janeiro de 2015: Declaração do Riseup sobre prisões recentes na Espanha -> security-not-a-crime]]
-* [[2 de julho de 2014: Riseup junta-se a seis outras organizações em processo judicial contra o GCHQ, um serviço de inteligência britânico -> 14.07.02-gchq-pressrelease.pdf]]
+* [[2 de julho de 2014: Riseup junta-se a seis outras organizações em processo judicial contra o GCHQ, um serviço de inteligência britânico -> /about-us/press/14.07.02-gchq-pressrelease.pdf]]
 * [[26 de abril de 2014: Riseup solidariza-se com o Grupo Saravá => sarava]]
 * [[Agosto de 2013: Riseup e o fechamento recente de alguns provedores de e-mail => recent-email-provider-closures]]
 * [[Abril de 2012: Apreensão de servidor => fbi-seizes-anonymous-remailer]]

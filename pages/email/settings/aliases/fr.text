@@ -26,7 +26,7 @@ Pour créer un alias:
 
 Si l'alias choisi est disponible, ce dernier apparaîtra dans votre liste avec les étiquettes "Envoyer" et "Recevoir".
 
-!aliases.jpg!
+!/email/settings/aliases/aliases.jpg!
 
 h3. Comment supprimer un alias?
 
@@ -81,4 +81,4 @@ Vous pouvez configurer le réacheminement des courriels en suivant ces étapes:
 # Entrez l'adresse à laquelle vous souhaitez faire suivre vos courriels dans le champ "Transférer", au bas de la page.
 # Cliquez sur le bouton vert "Sauvegarder"
 
-!forwarding.jpg!
+!/email/settings/aliases/forwarding.jpg!

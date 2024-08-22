@@ -20,12 +20,12 @@ h2. Ein schlimmer E-Mail Verkehr
 * Rot: Unsicher, E-Mail kann von Abhörern gelesen werden (oder E-Mail Kopfzeilen wenn der Rest mit OpenPGP verschlüsselt ist).
 * Grün: Sicher, der Verkehr ist verschlüsselt.
 
-!smtp-01_large.png!
+!/security/network-security/starttls/smtp-01_large.png!
 
 h2. Ein besserer E-Mail Verkehr
 
-!smtp-02_large.png!
+!/security/network-security/starttls/smtp-02_large.png!
 
 h2. Ein E-Mail Verkehr mit StartTLS
 
-!smtp-03_large.png!
+!/security/network-security/starttls/smtp-03_large.png!

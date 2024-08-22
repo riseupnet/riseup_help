@@ -16,17 +16,17 @@ Na primeira vez que você usar o Thunderbird, um assistente de configuração de
 
 1. Vá para *Editar > Configurações da conta...*
 
-!img/edit-account-settings.png!
+!/email/clients/thunderbird/img/edit-account-settings.png!
 
 2. Clique em *Nova conta de e-mail...*
 
-!img/account-actions.png!
+!/email/clients/thunderbird/img/account-actions.png!
 
 h3. Primeiro passo
 
 Você verá uma caixa de diálogo. Insira seu nome, endereço de e-mail e senha.
 
-!img/mail-account-setup1.png!
+!/email/clients/thunderbird/img/mail-account-setup1.png!
 
 Clique em *Continuar*.
 
@@ -34,14 +34,14 @@ h3. Segundo passo
 
 O Thunderbird obterá as configurações dos servidores do Riseup.
 
-!img/mail-account-setup2.png!
+!/email/clients/thunderbird/img/mail-account-setup2.png!
 
 Você precisará decidir se prefere usar [[IMAP ou POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
 * *IMAP*: É a opção padrão. Se você quiser usar IMAP, apenas clique em *Continuar*.
 * *POP*: Para usar POP, clique em *Editar*. No menu suspenso rotulado IMAP, selecione POP. Então, clique em *Retestar configuração*. Deve aparecer que o protocolo em uso é IMAP. Se sim, clique em *Continuar*.
 
-!img/imap-pop.png!
+!/email/clients/thunderbird/img/imap-pop.png!
 
 h3. Terceiro passo
 
