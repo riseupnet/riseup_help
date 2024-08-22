@@ -16,17 +16,17 @@ h3.  Запускаем мастер настройки
 
 1. Выберите пункт меню *Edit > Account Settings...*
 
-!img/edit-account-settings.png!
+!/email/clients/thunderbird/img/edit-account-settings.png!
 
 2. Нажмите кнопку *Add Account...*.
 
-!img/account-actions.png!
+!/email/clients/thunderbird/img/account-actions.png!
 
 h3. Шаг 1
 
 Далее вы увидите диалог настройки. Введите своё имя, почтовый адрес и пароль.
 
-!img/mail-account-setup1.png!
+!/email/clients/thunderbird/img/mail-account-setup1.png!
 
 Нажмите *Continue*.
 
@@ -34,14 +34,14 @@ h3. Шаг 2
 
 Thunderbird получит настройки с сервера riseup.
 
-!img/mail-account-setup2.png!
+!/email/clients/thunderbird/img/mail-account-setup2.png!
 
 Далее, вам необходимо выбрать, какой протокол будет  использовать Thunderbird, [[IMAP или POP => mail/clients#what-is-the-difference-between-imap-and-pop]].
 
 * *IMAP*: По умолчанию будет выставлен IMAP, так что, если вы хотите использовать его, просто нажмите *Continue*.
 * *POP*: Чтобы выбрать POP, нажмите *edit*. После этого, найдите выпадающее меню с выбранным IMAP и измените выбор на POP. Теперь нажмите *Re-Text Configuration*. Теперь он должен показать, что вы используете POP. Если это так, то нажимайте *continiue*.
 
-!img/imap-pop.png!
+!/email/clients/thunderbird/img/imap-pop.png!
 
 h3. Шаг 3
 	

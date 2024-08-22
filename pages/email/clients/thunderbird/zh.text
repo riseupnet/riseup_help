@@ -16,17 +16,17 @@ h3.  启动账户向导
 
 1. 选择菜单项 *Edit > Account Settings...*
 
-!img/edit-account-settings.png!
+!/email/clients/thunderbird/img/edit-account-settings.png!
 
 2. 点击 *Add Account...* 按钮。
 
-!img/account-actions.png!
+!/email/clients/thunderbird/img/account-actions.png!
 
 h3. 第一步
 
 你会看到一个提示。输入您的名字，电子邮件地址和密码。
 
-!img/mail-account-setup1.png!
+!/email/clients/thunderbird/img/mail-account-setup1.png!
 
 点击 *Continue*。
 
@@ -34,14 +34,14 @@ h3. 第二步
 
 thunderbird将从 riseup's服务器取得配置。
 
-!img/mail-account-setup2.png!
+!/email/clients/thunderbird/img/mail-account-setup2.png!
 
 现在你需要决定你想使用[[IMAP or POP => mail/clients#what-is-the-difference-between-imap-and-pop]]。
 
 * *IMAP*: 默认是 IMAP，如果你想使用 IMAP，请直接点击 *Continue*。
 * *POP*:切换到 POP，点击 *edit*。然后点击写着“IMAP”的下拉菜单并切换到 POP。现在点击“重新检测”，将会显示您正在使用POP。如果是这样，点击 *Continue*。
 
-!img/imap-pop.png!
+!/email/clients/thunderbird/img/imap-pop.png!
 
 h3. 第三步
 

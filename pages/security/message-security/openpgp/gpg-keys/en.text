@@ -189,12 +189,12 @@ h2. Install Gpg4win
 # Select the language you'll be using.
 # You'll be greeted by the welcome screen. Press **Next** to continue.
 
-!img/gpg4win1-install-welcome.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win1-install-welcome.gif!
 
 # Next, you'll be asked to agree to the [[GNU General Public License -> https://en.wikipedia.org/wiki/General_Public_License]] (the GPL license), which can be read in its entirety at [[GNU.org -> https://www.gnu.org/licenses/gpl.html]]. If you accept, press **Next**.
 # Choose the components you want to install. The default options are recommended. [[Claws-Mail -> https://en.wikipedia.org/wiki/Claws_Mail]] is a powerful cross-platform email client available for Linux, Windows, Mac OS X, and others. GpgOL installs the plugin necessary to use OpenPGP keys with the Outlook mail client.
 
-!img/gpg4win2-components.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win2-components.gif!
 
 # Select the install folder (the default is recommended).
 # Choose what shortcuts to create.
@@ -210,7 +210,7 @@ Kleopatra seems to be the more recent and more polished of the two Gpg4win key m
 # Press the **Create a personal OpenPGP key pair** button.
 # Enter your name, email address, and a comment if you wish. Your name and email address can be anything you want, not necessarily your real name or email address. If you want to use your OpenPGP key for encrypting email, put the email address you want to use with encryption in the "Email address" box. When finished, click the **Advanced Settings...** button.
 
-!img/kleopatra1-name-email-advanced.gif!
+!/security/message-security/openpgp/gpg-keys/img/kleopatra1-name-email-advanced.gif!
 
 # In the **Advanced Settings...** dialog box, choose your key type and key strength. **RSA**, using key strength of **4,096 bits**, for **Signing** and **Encryption** are recommended. When finished with the key settings, press **OK** to close the dialog box, then click **Next**.
 # Review the information for the key, then press the **Create Key** button.

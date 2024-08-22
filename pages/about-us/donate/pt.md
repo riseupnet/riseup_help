@@ -12,7 +12,7 @@
 
 O Riseup trabalha sem descanso para criar alternativas tecnológicas de base que vão ao encontro das necessidades de comunicação de pessoas e organizações que trabalham por mudanças sociais. Quando você recebe um serviço de uma empresa que não cobra por isso, são grandes as chances do financiamento vir da ampla vigilância das suas atividades. O Riseup, por outro lado, se sustenta por doações de pessoas que, como você, acreditam em apoiar alternativas democráticas.
 
-Para mais informações sobre o Riseup, você pode [[conhecer nossa equipe => about-us]] e dar uma olhada nos nossos [[projetos => projects]]. O Riseup é uma [[entidade sem fins lucrativos registrada => img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] na seção `501(c)(4)` do Código Tributário dos Estados Unidos (_US Internal Revenue Code_).
+Para mais informações sobre o Riseup, você pode [[conhecer nossa equipe => about-us]] e dar uma olhada nos nossos [[projetos => projects]]. O Riseup é uma [[entidade sem fins lucrativos registrada => /donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] na seção `501(c)(4)` do Código Tributário dos Estados Unidos (_US Internal Revenue Code_).
 
 As doações para riseup.net são dedutíveis de impostos. Se você deseja fazer uma doação dedutível de impostos (Estados Unidos), [[contribua para nossa organização irmã, Riseup Labs => https://riseuplabs.org/donate]].
 

@@ -16,19 +16,19 @@ Wenn Du Thunderbird zum ersten Mal startest, führt Dich der Kontoeinrichtungs-A
 
 1. Wähle in der Menüleiste *Bearbeiten > Konten-Einstellungen*
 
-!img/kontoeinstellungen.png!
+!/email/clients/thunderbird/img/kontoeinstellungen.png!
 
 
 2. Unter *Konten-Aktionen* wähle *E-Mail-Konto hinzufügen*
 
-!img/konto-erstellen.png!
+!/email/clients/thunderbird/img/konto-erstellen.png!
 
 
 h3. Schritt 1
 
 Es erscheint die Aufforderung, Deinen Namen, E-Mail-Adresse und das Passwort einzugeben.
 
-!img/konto-einrichten-1.png!
+!/email/clients/thunderbird/img/konto-einrichten-1.png!
 
 Klicke auf *Weiter*.
 
@@ -36,13 +36,13 @@ h3. Schritt 2
 
 Thunderbird holt sich nun die Konfiguration von Riseup's Servern.
 
-!img/konto-einrichten-2.png!
+!/email/clients/thunderbird/img/konto-einrichten-2.png!
 
 Nun musst Du Dich entscheiden, ob Du [[IMAP oder POP -> email/clients#what-is-the-difference-between-imap-and-pop]] nutzen willst. IMAP ist die Voreinstellung, um POP zu nutzen, schalte einfach in der Mitte des Fensters von IMAP auf POP um. Wenn Du Dich entschieden hast, kannst Du nun einfach *Konto erstellen* klicken.
 
 Weitere Anpassungen (für Fortgeschrittene!) sowie einen erneuten Verbindungstest kannst Du über das Feld *Manuell bearbeiten* durchführen:
 
-!img/erweitert.png!
+!/email/clients/thunderbird/img/erweitert.png!
 
 h3. Schritt 3
 

@@ -6,7 +6,7 @@
 * [[4 Jul, 2018, Redada de la policia Bavara Zwiebelfreunde -> zwiebelfreunde]]
 * [[16 Feb, 2017, Declaración Canary -> canary-statement]]
 * [[6 Jan, 2015, Declaración de Riseup sobre las recientes detenciones en España -> security-not-a-crime]]
-* [[2 July, 2014, Riseup se une a otras seis organizaciones en una demanda contra la agencia de inteligencia británica GCHQ -> 14.07.02-gchq-pressrelease.pdf]]
+* [[2 July, 2014, Riseup se une a otras seis organizaciones en una demanda contra la agencia de inteligencia británica GCHQ -> /about-us/press/14.07.02-gchq-pressrelease.pdf]]
 * [[26 April, 2014, Riseup se solidariza con Saravá => sarava]]
 * [[August 2013, Riseup y los recientes cierres de proveedores de correo electrónico => recent-email-provider-closures]]
 * [[April 2012, Incautación del servidor => fbi-seizes-anonymous-remailer]]

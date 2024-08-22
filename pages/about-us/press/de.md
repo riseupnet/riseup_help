@@ -5,7 +5,7 @@
 
 * [[16 Feb, 2017, Canary statement -> canary-statement]]
 * [[6 Jan, 2015, Riseup's statement regarding recent arrests in Spain -> security-not-a-crime ]]
-* [[2 July, 2014, Riseup joins six other organizations in lawsuit against British intelligence agency GCHQ -> 14.07.02-gchq-pressrelease.pdf]]
+* [[2 July, 2014, Riseup joins six other organizations in lawsuit against British intelligence agency GCHQ -> /about-us/press/14.07.02-gchq-pressrelease.pdf]]
 * [[26 April, 2014, Riseup stands in solidarity with Saravá => sarava]]
 * [[August 2013, Riseup and the recent email provider closures => recent-email-provider-closures]]
 * [[April 2012, Server Seizure => fbi-seizes-anonymous-remailer]]

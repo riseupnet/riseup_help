@@ -35,7 +35,7 @@ h3.新用户
 
 首次启动客户端，会弹出请求您的账户信息对话框：
 
-!img/welcomeimap.gif!
+!/email/clients/apple-mail/img/welcomeimap.gif!
 
 # 输入您的名字
 # 输入您的完整电子邮件地址，例如：joe_hill@riseup.net
@@ -47,13 +47,13 @@ h3.新用户
 
 出现一个错误信息，点击 继续：
 
-!img/loginerror.gif!
+!/email/clients/apple-mail/img/loginerror.gif!
 
 h3. 已存在的用户
 
 <i>假设您已经运行了客户端，这部分是添加一个账户配置。已经配置过账户的用户“First Time User”：#first-time-user section should skip this.</i>
 
-!img/accountinfoimap.gif!
+!/email/clients/apple-mail/img/accountinfoimap.gif!
 
 # 选择菜单条目 *Mail* > *Preferences...*
 # 选择 *Accounts* 标签
@@ -66,7 +66,7 @@ h3. 已存在的用户
 
 h2.  管理账户设置
 
-!img/preferences.gif!
+!/email/clients/apple-mail/img/preferences.gif!
 
 在这一部分，我们假设您已经打开了参数设置窗口。这样做：
 
@@ -76,7 +76,7 @@ h3.  接收邮件加密设置
 
 # 点击 *Accounts* 并选择您的 riseup电子邮件账户
 #选择 *Advanced* 标签
-!img/imapadvancedsettings.png!
+!/email/clients/apple-mail/img/imapadvancedsettings.png!
 
 # 点击“Automatically synchronize changed mailboxes”
 # 点击“Use SSL”
@@ -86,11 +86,11 @@ h3.  接收邮件加密设置
 h3.  发送邮件加密设置
 
 # 点击“Account Information”
-!img/serversettingsclickimap.gif!
+!/email/clients/apple-mail/img/serversettingsclickimap.gif!
 # 确保您设置的 SMTP服务器是：mail.riseup.net
  <i><u>致已存在的用户：</u> 您需要从SMTP下拉菜单中选择“Add Server”</i>
 # 如果是，选择“Server Settings”
-!img/smtp.gif!
+!/email/clients/apple-mail/img/smtp.gif!
 # 对于*Server Port*，填写 587
 # 选择 *Use Secure Socket Layer (SSL)*
 # 设置*Password*项为*Authentication*
@@ -103,7 +103,7 @@ h3.  发送邮件加密设置
 
 h3.  设置完成！
 
-!img/accountinfoimap.gif!
+!/email/clients/apple-mail/img/accountinfoimap.gif!
 
 现在，在您的密码框中仅仅输入<b>正确的</b>密码。当您向riseup服务器发送和接收邮件时，您的密码将会被加密。
 

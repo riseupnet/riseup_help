@@ -26,7 +26,7 @@ To create a new alias:
 
 If the alias you chose is available, the alias will appears in your list with "Send" and "Receive" tags.
 
-!aliases.jpg!
+!/email/settings/aliases/aliases.jpg!
 
 h3. How do I delete an alias?
 
@@ -81,4 +81,4 @@ You can setup email forwarding by following these steps:
 # Enter the address which you would like your riseup mail forwarded to in the field marked "Forwarding address"
 # Click on the green "Save" button
 
-!forwarding.jpg!
+!/email/settings/aliases/forwarding.jpg!

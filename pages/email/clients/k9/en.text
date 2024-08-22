@@ -1,6 +1,6 @@
 @title = 'K-9 Mail'
 
-p(pull-right). !(image-right)K9mail.png!
+p(pull-right). !(image-right)/email/clients/k9/K9mail.png!
 
 K-9 Mail is an free software mail application for Android. The app is a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes.
 
@@ -13,7 +13,7 @@ K9-Mail is about as easy to set up as they come.
 # Click 'Next'
 # Enter your riseup email address and password
 # Select either POP or IMAP (if you don't know the difference, and plan to use this email account on multiple devices select IMAP)
-!en.png!
+!/email/clients/k9/en.png!
 # Your username, password, and server should be prefilled in. You need to change your username to *youruser@riseup.net*. If it is missing, add the server @mail.riseup.net@ or @smtp.*.onion@ (see below).
 # Select 'SSL/TLS (always)'
 # All other standard settings should be fine for most users

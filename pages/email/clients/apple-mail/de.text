@@ -30,7 +30,7 @@ h2. First Time User
 
 The first time you start mail, a dialog will appear requesting your account information:
 
-!img/welcomeimap.gif!
+!/email/clients/apple-mail/img/welcomeimap.gif!
 
 # Enter your name.
 # Enter your full email address, i.e. joe_hill@riseup.net.
@@ -42,13 +42,13 @@ The first time you start mail, a dialog will appear requesting your account info
 
 An error message will appear, but just click continue:
 
-!img/loginerror.gif!
+!/email/clients/apple-mail/img/loginerror.gif!
 
 h2.  Existing User
 
 <i>This section is for adding an account profile if you have already been running Apple Mail. Users who just configured an account in the "First Time User":#first-time-user section should skip this.</i>
 
-!img/accountinfoimap.gif!
+!/email/clients/apple-mail/img/accountinfoimap.gif!
 
 # Select menu item *Mail* > *Preferences...*
 # Select the *Accounts* tab.
@@ -61,7 +61,7 @@ h2.  Existing User
 
 h1.  Managing Account Settings
 
-!img/preferences.gif!
+!/email/clients/apple-mail/img/preferences.gif!
 
 In this section, we assume you have the preferences window open. To do so:
 
@@ -71,7 +71,7 @@ h2.  Setup Encryption For Receiving Mail
 
 # Click on *Accounts* and select your riseup email account
 # Now select the *Advanced* tab.
-!img/imapadvancedsettings.png!
+!/email/clients/apple-mail/img/imapadvancedsettings.png!
 
 # Click "Automatically synchronize changed mailboxes"
 # Click "Use SSL"
@@ -81,11 +81,11 @@ h2.  Setup Encryption For Receiving Mail
 h2.  Setup Encryption For Sending Mail
 
 # Click On "Account Information"
-!img/serversettingsclickimap.gif!
+!/email/clients/apple-mail/img/serversettingsclickimap.gif!
 # Make sure that your SMTP server is set to mail.riseup.net
  <i><u>Note for existing mail users:</u> You will need to select "Add Server" from the SMTP pull-down menu.</i>
 # If it is, select "Server Settings"
-!img/smtp.gif!
+!/email/clients/apple-mail/img/smtp.gif!
 # For *Server Port*, put 587.
 # Select *Use Secure Socket Layer (SSL)*.
 # Set *Authentication* to *Password*
@@ -98,7 +98,7 @@ For more information on configuring the outgoing server, see [[smtp]].
 
 h2.  Complete the Setup!
 
-!img/accountinfoimap.gif!
+!/email/clients/apple-mail/img/accountinfoimap.gif!
 
 Now, simply enter you <b>correct</b> password in the password box.  Your password will be encrypted when sent to the riseup server to send and receive email.
 

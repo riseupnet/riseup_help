@@ -20,12 +20,12 @@ h2. A horrible email journey
 * Red: Insecure, email can be read by a listener (or email headers if the body is encrypted with OpenPGP)
 * Green: Secure, the transport is encrypted.
 
-!smtp-01_large.png!
+!/security/network-security/starttls/smtp-01_large.png!
 
 h2. A better email journey
 
-!smtp-02_large.png!
+!/security/network-security/starttls/smtp-02_large.png!
 
 h2. An email journey with StartTLS
 
-!smtp-03_large.png!
+!/security/network-security/starttls/smtp-03_large.png!

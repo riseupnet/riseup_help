@@ -39,6 +39,6 @@ The rule system is pretty powerful and can create a wide array of possible optio
 # Enter the email address(es) at the top, separated by spaces if matching multiple email addresses, and **is exactly** if matching exact addresses or enter matching terms and choose the appropriate matching method.  The available matching methods are: **is exactly**, **Contains**, **Starts with**, and **Ends with**
 # Choose the **Action** to be applied upon matching the rule.  For this example, choose **Use the following OpenPGP keys:** and press the **Select Key(s)...** button.  In the box that pops up from that button, select the OpenPGP key for the person to whom you're sending email.  If you don't have their public key, press the **Download missing keys** button, which will search the key servers for the email(s) you entered in the matching box.
 # Change **Encryption** in the **Defaults for ...** section to **Always** and leave Signing and PGP/MIME as **Yes, if selected in Message Composition**.
-# Press the **OK** button when you've completed the configuration of the rule. !enigmail-create-rule.gif!
+# Press the **OK** button when you've completed the configuration of the rule. !/security/message-security/openpgp/enigmail/enigmail-create-rule.gif!
 
 You are now ready to send OpenPGP (GPG) emails to any recipient via Thunderbird and to automatically enable encryption for the chosen recipient in the rule you just created.

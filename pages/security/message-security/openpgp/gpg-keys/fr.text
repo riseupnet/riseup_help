@@ -189,12 +189,12 @@ h2. Installer Gpg4win
 # Sélectionner la langue de votre choix.
 # Vous verrez apparaître l'écran d'acceuil. Appuyez sur **Suivant** pour continuer.
 
-!img/gpg4win1-install-welcome.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win1-install-welcome.gif!
 
 # On vous demandera ensuite d'accepter les termes de la License [[GNU General Public License -> https://en.wikipedia.org/wiki/General_Public_License]] (the GPL license), qui peut être lue au complet sur [GNU.org ->https://www.gnu.org/licenses/gpl.html]. Si vous acceptez, appuyez sur **Suivant**.
 # Choisissez les composantes à installer. Les options par défaut sont recommandées. [[Claws-Mail -> https://en.wikipedia.org/wiki/Claws_Mail]] est un puissant client de messagerie disponible sur Linux, Windows, Mac OS X, et plusieurs autres systèmes d'exploitation. GpgOL installe le plugiciel nécessaire pour utiliser des clés OpenPGP avec le client Outlook.
 
-!img/gpg4win2-components.gif!
+!/security/message-security/openpgp/gpg-keys/img/gpg4win2-components.gif!
 
 # Sélectionner le dossier d'installation (le chemin par défaut est recommandé).
 # Choisissez les raccourcis à créer
@@ -210,7 +210,7 @@ Kleopatra semble être le plus récent et le plus peaufiné des deux interfaces 
 # Appuyez sur le bouton **Créer une paire de clés OpenPGP personnelles**.
 # Saisissez votre nom, votre adresse courriel, ainsi qu'un commentaire, si vous le désirez. Votre nom et votre adresse peuvent être ce que vous voulez, et pas nécessairement votre vrai nom ou votre vraie adresse. Si vous désirez utiliser votre clé OpenPGP pour encrypter des courriels, mettez l'adresse courriel que vous utiliserez avec votre clé. Lorsque vous avez terminé, appuyez sur le bouton **Paramètres avancés...**.
 
-!img/kleopatra1-name-email-advanced.gif!
+!/security/message-security/openpgp/gpg-keys/img/kleopatra1-name-email-advanced.gif!
 
 # Dans l'interface **Paramètres avancés...**, choisissez le type de clé, ainsi que la robustesse de la clé. **RSA**, avec une robustesse de **4,096 bits**, pour **Signatures** et **Encryption** sont les paramètres recommandés. Lorsque vous avez terminé, appuyez sur **OK** pour fermer les paramètres avancés, puis appuyez sur **Suivant**.
 # Passez en revue les informations pour la clé, puis appuyez sur le bouton **Créer la clé**

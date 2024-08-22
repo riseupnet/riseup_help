@@ -20,9 +20,9 @@ As it happens, the Riseup birds are also thinking about ways to block behavior t
 
 * \[1\] https://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/
 * \[2\] http://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html
-* \[3\] "WPF NAI report Nov2 20 2007":WPF-NAI-report-Nov2-2007fs.pdf
+* \[3\] [WPF NAI report Nov2 20 2007](/about-us/newsletter/2011/WPF-NAI-report-Nov2-2007fs.pdf)
 * \[4\] https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track
-* \[5\] "Microsoft Quashed Effort To Boost Online Privacy":WSJ-2010-Microsoft-Quashed-Effort-to-Boost-Online-Privacy.pdf
+* \[5\] [Microsoft Quashed Effort To Boost Online Privacy](/about-us/newsletter/2011/WSJ-2010-Microsoft-Quashed-Effort-to-Boost-Online-Privacy.pdf)
 
 
 ## On passwords and antifascists

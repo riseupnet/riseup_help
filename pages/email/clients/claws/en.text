@@ -33,19 +33,19 @@ While running Claws Mail select *Configuration > Create New Account* from the me
 
 # *Basic Settings* - enter a name for your account, enter your name, mail address, select POP3 or IMAP, enter *mail.riseup.net* for both the "Server for receiving" and "SMTP server (send)" fields, and your riseup.net userid (without @riseup.net) and password
 
-!img/setup_basic.png!
+!/email/clients/claws/img/setup_basic.png!
 
 # *Send Settings* - select *SMTP Authentication*
 
-!img/setup_send.png!
+!/email/clients/claws/img/setup_send.png!
 
 # *SSL Settings* - Select *STARTTLS* for both POP3 and SMTP.
 
-!img/setup_ssl.png!
+!/email/clients/claws/img/setup_ssl.png!
 
 # *Advanced settings* - Change the SMTP port to 587 (POP3 can stay as 110)
 
-!img/setup_advanced.png!
+!/email/clients/claws/img/setup_advanced.png!
 
 # Click "OK" to finish adding your new account
 
@@ -53,7 +53,7 @@ h3.  First Time, SSL Certificates
 
 When checking your mail for the first time, and also sending your first message, you will see an SSL confirmation dialog. Click *View certificate* (the fingerprint shown on the image may be outdated):
 
-!img/ssl.png!
+!/email/clients/claws/img/ssl.png!
 
 On first use claws Mail will store these certificates and let you know if they ever change which may indicate an attempted man-in-the-attack, or just that riseup.net updated their certificates. *Every time* you get this SSL pop-up, [[verify the fingerprints with the ones published by Riseup -> /security/network-security/certificates#complete-verification]]]]!
 

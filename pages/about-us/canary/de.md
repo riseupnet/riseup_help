@@ -4,7 +4,7 @@
 @toc = false
 
 
-![](canarypronounce.png)
+![](/canary/canarypronounce.png)
 
 #### _*Nomen*_
 

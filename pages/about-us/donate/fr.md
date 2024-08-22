@@ -13,7 +13,7 @@
 
 Riseup travaille sans relâche pour créer des technologies alternatives populaires qui répondent aux besoins de communication des personnes et des organisations travaillant pour le changement social. Quand vous utilisez le service d'une entreprise privée qui ne demande pas d'argent pour ses services, les chances que leur financement provienne de la revente de vos données sont fortes. Riseup, au contraire, est financé par les dons de personnes comme vous qui croient au fait de soutenir des alternatives démocratiques.
 
-Pour plus d'informations à propos de Riseup, vous pouvez [[rencontrer nos membres -> about-us]] ou visiter notre [[zone de projets -> projects]]. Riseup est une [[organisation à but non lucratif -> img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] soumise à la section `501(c)(4)` du code des revenus intérieurs de États-Unis (US Internal Revenue Code).
+Pour plus d'informations à propos de Riseup, vous pouvez [[rencontrer nos membres -> about-us]] ou visiter notre [[zone de projets -> projects]]. Riseup est une [[organisation à but non lucratif -> /donate/img/Riseup-Networks-Federal-Tax-Exemption-Notice.pdf]] soumise à la section `501(c)(4)` du code des revenus intérieurs de États-Unis (US Internal Revenue Code).
 
 Les dons faits à riseup.net **ne sont pas** déductibles d'impôt. Si vous souhaitez faire un don déductible d'impôt (États-Unis seulement), vous pouvez [[faire un don à notre organisation soeur, Riseup Labs -> https://riseuplabs.org/donate]].
 

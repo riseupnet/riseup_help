@@ -1,6 +1,6 @@
 @title = 'Prinzipien'
 
-![policy](page15-1005-full_medium.jpg)
+![policy](/about-us/policy/page15-1005-full_medium.jpg)
 
 Informationen über die Prinzipien von Riseup findest du hier. Sie gelten für alle von Riseup angebotenen Dienste.
 

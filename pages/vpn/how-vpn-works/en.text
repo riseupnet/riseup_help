@@ -6,13 +6,13 @@ However, with the [[Riseup VPN -> vpn]], we use the same technology to allow eve
 
 h2. A normal internet connection
 
-!vpn-01_large.png!
+!/vpn/how-vpn-works/vpn-01_large.png!
 
 In a normal internet connection, all your traffic is routed from your computer through your ISP (Internet Service Provider) and out onto the internet and finally to its destination. At every step of the way, your data is being recorded and is vulnerable to [[man-in-the-middle attacks -> vpn/security-issues]] (the danger of this is much less if you are using a [[secure protocol->secure-connections]] like https).
 
 h2. An internet connection with personal VPN
 
-!vpn-02_large.png!
+!/vpn/how-vpn-works/vpn-02_large.png!
 
 With a personal VPN, your traffic is encrypted on your computer, passes through your ISP and on to the VPN Server. Because the data is encrypted, your ISP has no knowledge of what is in your data that they relay on to the VPN Server. Once your data reaches the VPN Server, it is decrypted and forwarded on to its final destination.
 
@@ -23,7 +23,7 @@ With the personal VPN, if your data is not using a [[secure connections -> secur
 
 h2. Personal VPN anonymizes your connection
 
-!vpn-03_large.png!
+!/vpn/how-vpn-works/vpn-03_large.png!
 
 Because your traffic appears to originate from the VPN Server, the recipient of your network communication does not know where you actually reside (unless, of course, you tell them).
 

@@ -5,13 +5,13 @@ Cependant, avec le VPN Riseup, nous utilisons la même technologie pour permettr
 
 h2. Une connection internet normale
 
-!vpn-01_large.png!
+!/vpn/how-vpn-works/vpn-01_large.png!
 
 Avec une connection internet normale, tout votre trafic part de votre ordinateur, passe par votre FAI (Fournisseur d'Accès Internet), ressort sur internet et va finalement à sa destination. A chaque étape du chemin, vos données sont enregistrées et sont vulnérables à une attaque de type "Man-in-the-middle" (le danger de ce type d'attaque est moindre si vous utilisez un protocole sécurisé comme https).
 
 h2. Une connection internet avec un VPN privé
 
-!vpn-02_large.png!
+!/vpn/how-vpn-works/vpn-02_large.png!
 
 Avec un VPN privé, votre trafic est chiffré sur votre ordinateur, passe par votre FAI et va au serveur VPN. Parce que les données sont chiffrées, votre FAI n'a pas connaissance des données qu'il relaie vers le serveur VPN. Une fois que vos données ont atteint le serveur VPN, elles sont déchiffrées et vont à leur destination finale.
 
@@ -23,7 +23,7 @@ Avec le VPN privé, si vos données n'utilisent pas de [[connections sécurisée
 
 h2. Les VPNs privés anonymisent votre connection
 
-!vpn-03_large.png!
+!/vpn/how-vpn-works/vpn-03_large.png!
 
 Parce que votre trafic apparaît comme venant du serveur VPN, le destinataire de votre communication internet ne sait pas où vous résidez actuellement (sauf, bien sûr, si vous leur dites).
 Dans le cas illustré ci-dessus, le site web en Californie pense que les ordinateurs portables au Brésil et en Europe ainsi que le téléphone portable au Canada viennent tous de New-York, parce que c'est là où est le serveur VPN.

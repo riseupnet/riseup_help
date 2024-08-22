@@ -39,6 +39,6 @@ Le système de règles est relativement puissant et permet de créer une vaste �
 # Entrez les adresses courriels dans le haut de la page, séparées par des espaces si vous rentrez plusieurs adresses et cliquez sur **Est exactement**.
 # Choisissez **l'Action** à appliquer pour la règle. Pour cet exemple, choisissez **Utilisez les clefs OpenPGP suivantes:** et cliquez sur le bouton **Sélectionner les clefs...**. Dans la fenêtre qui s'ouvre, sélectionnez la clef OpenPGP de la personne à qui vous souhaitez envoyer le courriel. Si vous n'avez pas sa clef publique, cliquez sur le bouton **Télécharger les clefs manquantes**, ce qui lancera une recherche sur un serveur de clefs pour les courriels entrés plus tôt.
 # Changez **Chiffrement** dans la section **Par défaut pour...** à **Toujours** et laissez la signature et le PGP/MIME à **Oui, si sélectionné lors de la composition du message**
-# Appuyez sur le bouton **OK** quand vous avez complété la configuration de la règle. !enigmail-create-rule.gif!
+# Appuyez sur le bouton **OK** quand vous avez complété la configuration de la règle. !/security/message-security/openpgp/enigmail/enigmail-create-rule.gif!
 
 Vous êtes maintenant prêt-e à envoyer des courriels OpenPGP (GPG) à n'importe quel destinataire et à laisser Thunderbird activer l'encryption automatiquement pour les destinataires choisis dans les règles que vous venez de créer.
