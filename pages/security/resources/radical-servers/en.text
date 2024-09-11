@@ -273,15 +273,16 @@ h2. NoLog.cz
 
 [[NoLog.cz->https://nolog.cz]] is an activist IT collective who’s goal is to support all free-thinking individuals, organisations and groups striving for social change.
 
-* Email accounts
-* Website hosting
-* Filesharing / Cloud
+* Filesharing
 * Matrix
 * Etherpad
+* Cryptpad
 * PeerTube instance
-* Videoconference (BigBlueButton instance)
+* Videoconference (OpenTalk)
 * PrivateBin
-* Pretty much anything else upon request.
+* Vaultwarden
+* Can provide web&email hosting, discourse forums and other tools for local collectives
+
 
 h2. pangea.org
 
