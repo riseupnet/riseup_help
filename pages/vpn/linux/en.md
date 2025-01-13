@@ -2,40 +2,36 @@
 
 ## Requirements
 
-To use Riseup's VPN service, you will need to install the program called RiseupVPN. On Linux, it is available either as a `snap`, or as a package in Debian Stable.
+To use Riseup's VPN service, you will need to install the program called RiseupVPN. 
 
-RiseupVPN is currently tested on **Ubuntu LTS** (18.04) and **Debian Stable**. If you have a different release, it may or may not work.
+## Snap
 
-## Snap Installation
+Unfortunately the Snap package is currently out of support. Please don't install `riseup-vpn` from the Snap store, as it is an out of date version. We would like to get it working again, [but we need some help from the community](https://0xacab.org/leap/bitmask-vpn/-/issues/848#note_1205365).
 
-If you use Ubuntu, snap is already installed. Otherwise, run:
+## Debian
 
-```
-sudo apt install snapd gnome-software-plugin-snap
-```
+There is a `riseup-vpn` package in the official Debian repositories beginning with [Debian Bookworm](https://packages.debian.org/bookworm/riseup-vpn). For a newer version, please install from `backports` or `unstable`. Install it by running the following command in a terminal, or look for the `riseup-vpn` package in your favorite package manager:
 
-Then, search for **RiseupVPN** in the **Software Center** or click on this link:
+    sudo apt install riseup-vpn
 
-<a class="btn btn-default btn-lg" href="snap://riseup-vpn">
-  <i class="fa fa-reply-all"></i>
-  Open RiseupVPN in Software Center
-</a>
+## Ubuntu
 
-If the link above does not work for you, you can also install via the command line:
+The two latest Ubuntu LTS versions are supported. Please install from the [LEAP ppa](https://launchpad.net/~leapcodes/+archive/ubuntu/riseup-vpn) using:
 
-```
-sudo snap install --classic riseup-vpn
+``` 
+sudo add-apt-repository ppa:leapcodes/riseup-vpn
+sudo apt update
+sudo apt install riseup-vpn
 ```
 
-If you get an error stating that "python" is missing from /usr/bin/env, you need to install python. This is the case for instance in Lubuntu, at least since version 19.04.
+## Arch Linux / Manjaro
 
-## Package Installation
+The are AUR (Arch User Repo) [packages](https://aur.archlinux.org/packages?O=0&SeB=nd&K=riseup-vpn) for Arch Linux and Manjaro. The version with the `-git` suffix builds the latest developer version. To install, run:
 
-The VPN is packaged in Debian bookworm and later, install it by running the following command in a terminal, or look for the `riseup-vpn` package in your favorite package manager:
-
-       sudo apt install riseup-vpn
-
-Older releases are not currently supported (but you can use the snap method above).
+```
+yay riseup-vpn
+yay riseup-vpn-git
+```
 
 ## Troubleshooting
 
@@ -56,6 +52,14 @@ Please include the following information in your bug report:
 * A screenshot if it is something visual
 * Your linux distribution and its version
 * The log of the program
+
+### Debug logs
+
+Please run `riseup-vpn` with a proper `LOG_LEVEL` environment variable.
+
+```
+LOG_LEVEL=TRACE riseup-vpn
+```
 
 ### Get the logs
 
