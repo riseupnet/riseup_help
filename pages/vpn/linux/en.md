@@ -26,7 +26,7 @@ sudo apt install riseup-vpn
 
 ## Arch Linux / Manjaro
 
-The are AUR (Arch User Repo) [packages](https://aur.archlinux.org/packages?O=0&SeB=nd&K=riseup-vpn) for Arch Linux and Manjaro. The version with the `-git` suffix builds the latest developer version. To install, run:
+There are AUR (Arch User Repo) [packages](https://aur.archlinux.org/packages?O=0&SeB=nd&K=riseup-vpn) for Arch Linux and Manjaro. The version with the `-git` suffix builds the latest developer version. To install, run:
 
 ```
 yay riseup-vpn
