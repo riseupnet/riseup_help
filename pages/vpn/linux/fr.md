@@ -2,40 +2,36 @@
 
 ## Exigences
 
-Pour utiliser le VPN de Riseup, il vous faut installer un programme qui s'appelle RiseupVPN. Sous Linux, ce programme est disponible sous forme de `snap`, ou alors comme un paquet pour Debian Stable.
+Pour utiliser le VPN de Riseup, il vous faut installer un programme qui s'appelle RiseupVPN.
 
-RiseupVPN a été testé avec **Ubuntu LTS** (18.04) et **Debian Stable**. Si vous avez une version différente, il se pourrait que le VPN ne fonctionne pas.
+## Snap
 
-## Installation avec snap
+Malheureusement, le paquet Snap n'est actuellement plus supporté. Veuillez ne pas installer `riseup-vpn` depuis le Snap store, car il s'agit d'une version plus à jour. Nous aimerions le faire fonctionner à nouveau, [mais nous avons besoin de l'aide de la communauté](https://0xacab.org/leap/bitmask-vpn/-/issues/848#note_1205365).
 
-Si vous utilisez Ubuntu, snap est déjà installé. Sinon, vous pouvez exécuter :
+## Debian
 
-```
-sudo apt install snapd gnome-software-plugin-snap
-```
+Il y a un paquet `riseup-vpn` dans les dépôts Debian officiels depuis [Debian Bookworm](https://packages.debian.org/bookworm/riseup-vpn). Pour une version plus récente, veuillez l'installer depuis `backports` ou `unstable`. Installez-le en exécutant la commande suivante dans un terminal, ou cherchez le paquet `riseup-vpn` dans votre gestionnaire de paquets préféré :
 
-Puis, cherchez **RiseupVPN** dans la **Logithèque** ou cliquez sur ce lien :
+    sudo apt install riseup-vpn
 
-<a class="btn btn-default btn-lg" href="snap://riseup-vpn">
-  <i class="fa fa-reply-all"></i>
-  Ouvrir RiseupVPN dans la Logithèque
-</a>
+## Ubuntu
 
-Si le lien ci-dessus ne fonctionne pas pour vous, il est également possible de faire l'installation en ligne de commande :
+Les deux dernières versions d'Ubuntu LTS sont prises en charge. Veuillez installer depuis le [ppa LEAP](https://launchpad.net/~leapcodes/+archive/ubuntu/riseup-vpn) en utilisant :
 
-```
-sudo snap install --classic riseup-vpn
+``` 
+sudo add-apt-repository ppa:leapcodes/riseup-vpn
+sudo apt update
+sudo apt install riseup-vpn
 ```
 
-Si jamais un message d'erreur apparaît indiquant que "python" est manquant dans /usr/bin/env, il est nécessaire d'installer python. C'est par exemple le cas dans Lubuntu depuis la version 19.04.
+## Arch Linux / Manjaro
 
-## Installation du paquet
+Il y a des [paquets](https://aur.archlinux.org/packages?O=0&SeB=nd&K=riseup-vpn) AUR (Arch User Repo) pour Arch Linux et Manjaro. La version avec le suffixe `-git` contient la dernière version de développement. Pour installer, exécutez :
 
-Le VPN est empaqueté dans Debian bookworm et les versions suivantes, installez-le en exécutant la commande suivante dans un terminal, ou cherchez le paquet `riseup-vpn` dans votre gestionnaire de paquets préféré :
-
-       sudo apt install riseup-vpn
-
-Les vieilles versions ne sont actuellement pas supportées (mais vous pouvez utiliser la méthode snap au-dessus).
+```
+yay riseup-vpn
+yay riseup-vpn-git
+```
 
 ## Résolution des problèmes
 
@@ -56,6 +52,14 @@ Veuillez inclure les détails suivants dans votre rapport de bug :
 * Une capture d'écran si c'est pertinent
 * Votre distribution Linux et sa version
 * Le journal du programme
+
+### Journaux de debug
+
+Veuillez exécuter `riseup-vpn` avec une variable d'environnement `LOG_LEVEL` appropriée.
+
+```
+LOG_LEVEL=TRACE riseup-vpn
+```
 
 ### Récupérer le journal
 
