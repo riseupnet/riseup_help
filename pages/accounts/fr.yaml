@@ -5,7 +5,7 @@ red_support: "Obtenez de l'aide pour le service [[email]] et [[vpn]]."
 red_settings: "[[Modifiez vos préférences => https://account.riseup.net]]"
 red_request: "[[Demandez un compte => https://account.riseup.net/user/new]]"
 red_reset_password: "[[Réinitialisez votre mot de passe => https://account.riseup.net/reset_password]]"
-red_help: "[[Créez une demande d'aide => https://support.riseup.net/fr/topics/new]]"
+red_help: "[[Créez une demande d'aide => https://support.riseup.net]]"
 
 other_title: "Collaboration"
 other_info: "Les services suivants sont pour la collaboration des groupes"
@@ -23,7 +23,7 @@ lists_unsubscribe: "[[Désabonnez-vous => subscribing]]"
 
 resources_title: "Ressources"
 security_info: "Ressources et tutoriels sur les façons de communiquer plus sécuritairement"
-help_link: "[[Panneau d'aide Riseup => https://support.riseup.net/fr/topics/new]]"
+help_link: "[[Panneau d'aide Riseup => https://support.riseup.net]]"
 help_info: "Pour nous poser une question, utilisez le formulaire qui se trouve
     dans le panneau d'aide pour créer une demande d'aide. Mais avant tout,
     prenez le temps de lire et de chercher dans la documentation présente sur ce site."
