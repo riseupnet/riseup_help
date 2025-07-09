@@ -11,7 +11,7 @@ Falls du programmieren kannst, brauchen wir deine Hilfe. Jetzt ist die richtige 
 
 ## LEAP
 
-In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://leap.se => https://leap.se/get-involved]] für Möglichkeiten, dabei zu helfen.
+In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://leap.se => https://leap.se/#get-involved]] für Möglichkeiten, dabei zu helfen.
 
 ## Javascript
 
@@ -33,4 +33,4 @@ In naher Zukunft wird LEAP zur LEAP-Plattform überwechseln. Siehe [[https://lea
 
 ## Python
 
-* Unterstütze die [[Bitmask-Anwendung => https://bitmask.net]]. [[Wie kann ich helfen? => https://leap.se/get-involved]]
+* Unterstütze die [[Bitmask-Anwendung => https://bitmask.net]]. [[Wie kann ich helfen? => https://leap.se/#get-involved]]

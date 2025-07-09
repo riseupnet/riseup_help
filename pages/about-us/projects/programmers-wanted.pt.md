@@ -33,4 +33,4 @@ Em breve, o Projeto LEAP vai passar a usar a Plataforma LEAP. Por favor, visite 
 
 ## Python
 
-* Contribua para o [[cliente Bitmask => https://bitmask.net]]. Veja [[como participar => https://leap.se/get-involved]].
+* Contribua para o [[cliente Bitmask => https://bitmask.net]]. Veja [[como participar => https://leap.se/#get-involved]].
