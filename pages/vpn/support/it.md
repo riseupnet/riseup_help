@@ -28,6 +28,6 @@ Assicurati di includere le seguenti informazioni:
 
 ### Contatti
 
-Ti puoi unire a RiseupVPN e bitmask [[tester mailing list => https://lists.riseup.net/www/info/bitmask]]. Lì potrai fare domande ed prendere parte alle discussioni della community riguardanti le versioni di sviluppo del nostro beneamato client VPN.
+Ti puoi unire a RiseupVPN e bitmask [[tester mailing list => https://lists.riseup.net/www/info/leap-discuss]]. Lì potrai fare domande ed prendere parte alle discussioni della community riguardanti le versioni di sviluppo del nostro beneamato client VPN.
 
 Per conversazioni più immediate, esiste anche un canale irc: [[#leap @ irc.libera.chat => https://web.libera.chat/?channel=#leap]]

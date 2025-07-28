@@ -28,6 +28,6 @@
 
 ### 联系渠道
 
-你可以加入 RiseupVPN 和 bitmask [[测试成员邮件列表 => https://lists.riseup.net/www/info/bitmask]]。 在那里你可以提出问题并加入我们心爱的VPN客户端开发版本的社区对话。
+你可以加入 RiseupVPN 和 bitmask [[测试成员邮件列表 => https://lists.riseup.net/www/info/leap-discuss]]。 在那里你可以提出问题并加入我们心爱的VPN客户端开发版本的社区对话。
 
 我们还有一个irc频道，用于即时对话：[[#leap @ irc.libera.chat => https://web.libera.chat/?channel=#leap]]
