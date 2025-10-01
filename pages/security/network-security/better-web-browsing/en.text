@@ -78,23 +78,22 @@ These extensions attempt to overcome basic privacy flaws in how web browsers wor
 
 Some of these privacy flaws include:
 
-* *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
+* *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled or truncated. Most browsers truncate Referrers now, but they can be fully disabled through advanced preferences. In Firefox, they can be disabled by navigating to about:config, searching for network.http.sendRefererHeader, and setting it to 0. Fully disabling Referrers can break some websites.
 * *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in this browser fingerprint these days, and it is better to use a generic value, such as the one used by the Tor Browser.
 * *HTML5 Canvas:* Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
 * *JavaScript:* JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
 
 For Firefox:
 
-* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
-* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
-* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/]] will allow you to modify the HTTP User-Agent.
-* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
+* [[Cookie AutoDelete => https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
+* [[No Script => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It is a gold-standard privacy extension, featured in the Tor and Mullvad browsers.
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/]] will allow you to modify and randomly cycle the HTTP User-Agent. Be aware that a site can still run Javascript to determine your true browser configuration.
+* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to spoof or disable HTML5 canvas support for particular websites.
 
 For Chrome:
 
-* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
-* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] will block most HTML5 Canvas fingerprinting (not open source).
+* [[Random User-Agent Switcher => https://chromewebstore.google.com/detail/random-user-agent-switche/einpaelgookohagofgnnkcfjbkkgepnp]] will allow you to modify and randomly cycle the HTTP User-Agent. Be aware that a site can still run Javascript to determine your true browser configuration.
+* [[Fingerprint Spoofer => https://chromewebstore.google.com/detail/fingerprint-spoofer/facgnnelgcipeopfbjcajpaibhhdjgcp]] will spoof most HTML5 Canvas fingerprinting (not open source).
 
 h3. Harmful or not recommended
 
