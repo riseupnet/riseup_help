@@ -4,9 +4,11 @@ h2. Choosing a web browser
 
 All four major web browsers, Firefox, Chrome, Microsoft Edge/IE, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
 
-All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by installing certain extensions (see below).
+All four major browsers receive a failing grade in our [[browser-score-card]]. These browsers can, admittedly, be made much better by installing certain extensions (see below). It is also worth mentioning that while extensions can harden browsers, they also make the browser more identifiable. A privacy-focused browser is the better privacy choice. 
 
-Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
+The major privacy browsers are Librewolf and Mullvad. In terms of available features, Brave is close, but lacks a few privacy features (as can be seen on [[Privacy Tests => https://privacytests.org/]]), and engages in data collection by default (as seen on [[Avoid The Hack => https://browsers.avoidthehack.com/]]). Lastly, Brave is Chromium based, which limits the extensions available. Both Librewolf and Mullvad are built on Gecko, the engine behind Firefox. Librewolf is built on and very similar to Firefox in form and function, but significantly more private by default, and with additional features to further improve privacy. Mullvad is a more locked down environment, similar to the Tor browser but without the routing over the Tor Network. The more private of the two, therefore, is Mullvad, but it is slightly less convenient for everyday use. 
+
+Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]]. Tor is the least convenient for everyday use, as going through the Tor Network makes connections much slower. It is undoubtably, however, the most private browser. 
 
 h2. Adjust your settings
 
