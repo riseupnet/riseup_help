@@ -51,23 +51,16 @@ These are absolutely essential browser extensions that everyone should be using 
     !/security/network-security/better-web-browsing/img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster. It is considered the gold-standard ad-blocker. Unfortunately, it is not available on Chrome any longer. Chrome users are now limited to uBlock Origin Lite, which is still powerful, but has fewer features.
   </td>
 </tr>
+
 <tr>
   <td>
-    !/security/network-security/better-web-browsing/img/https-64.png!
+    !https://addons.mozilla.org/user-media/addon_icons/2693/2693257-64.png?modified=3d803863!
   </td>
   <td>
-    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it. This helps to protect against surveillance of the content of your web browsing, although it does not hide which websites you are visiting (unless you also run [[Tor]] or a [[VPN]]).
-  </td>
-</tr>
-<tr>
-  <td>
-    !/security/network-security/better-web-browsing/img/badger-64.png!
-  </td>
-  <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have.
+    [*[[Port Authority -> https://github.com/ACK-J/Port_Authority]]*] ([[Firefox => https://addons.mozilla.org/en-US/firefox/addon/port-authority/]]) blocks port scans of your computer/network. These scans can potentially deanonymize you, revealing details to the website  about what is on your local network. Tor and Mullvad, which come preinstalled with the NoScript extension, have this functionality already, but for other users this is a noteworthy improvement. Port scans are never necessary and not incredibly common, so it as an easy extension to setup and forget about. Note the [[developer warning => https://github.com/ACK-J/Port_Authority?tab=readme-ov-file#warning]], however - there is a browser setting you'll need to change.
   </td>
 </tr>
 </table>
