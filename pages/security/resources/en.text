@@ -7,6 +7,11 @@ Check out our list of [[radical server projects -> radical-servers]].
 
 h2. Guides on digital security
 
+h4. Privacy improvement recommendations
+
+* *[[Avoid the Hack => https://avoidthehack.com/#recs]]*
+* *[[Privacy Guides => https://www.privacyguides.org/en/tools/]]*
+
 h4. Security guides for beginners
 
 * *[[Security Planner => https://securityplanner.org]]* from [[Citizen Lab => https://citizenlab.ca]] (Creative Commons: Attribution)
@@ -34,12 +39,12 @@ h4. Advanced security guides
 * [[Getting started with Tails: The Amnesic Incognito Live System -> https://tails.net/doc/index.en.html]] (EN/DE/FR/PT).
 * [[Digital self defense guide -> https://guide.boum.org/]] (currently French language only, you can help translate).
 * [[Cryptoparty Handbook => https://www.cryptoparty.in/learn/handbook]].
-* FOSS Manual on [[Basic Internet Security -> http://write.flossmanuals.net/basic-internet-security/]].
 
 h4. Out of date
 
 These old guides are of historical significance and may sometimes even be useful.
 
+* FOSS Manual on [[Basic Internet Security -> https://archive.flossmanuals.net/basic-internet-security/]].
 * [[Riseup Zine: Digital Security for Activists!->https://web.archive.org/web/20160306044630/https://zine.riseup.net/]]
 * [[security.resist.ca -> http://security.resist.ca]] Helping activists stay safe in our oppressive world.
 * [[APC Security Docs -> https://web.archive.org/web/20030811073650/http://secdocs.net:80/manual/lp-sec/]] - a series of briefings on information security and online safety for civil society organizations from 2002
