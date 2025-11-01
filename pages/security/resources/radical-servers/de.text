@@ -261,6 +261,18 @@ h2. pangea.org
 * Hosting
 * E-Mail
 
+h2. pub.solar
+
+[[pub.solar->https://pub.solar]] is eine globale Community, ein eingetragener Verein mit Sitz in Köln dient sich als juristische Vertretung. Ihre Ziel ist es, mehr Menschen zu ermöglichen, Freie Software zu benutzen, sicher digital zu kommunizieren und datensparsamer zu leben.
+
+* File hosting (Nextcloud)
+* Matrix
+* Mastodon
+* Git (forgejo)
+* Searx
+* Mailinglisten
+* OBS Portal (begrenzt auf die Region Köln/Bonn.)
+
 h2. shelter.is
 
 [[shelter.is->https://www.shelter.is]] Autonomes Technikkollektiv für sichere und Datenschutz-freundliche Infrastruktur für Solidarität statt Profit. Speicherung in befreundetem Rechenzentrum und Netzwerk, zu dem nur wenige Vertraute physischen Zugang haben.
