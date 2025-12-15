@@ -28,6 +28,6 @@ Achte darauf, dass deine Nachricht diese Informationen enthält:
 
 ### Kontakt-Channels
 
-Du kannst der RiseupVPN und bitmask [[tester mailing-Liste => https://lists.riseup.net/www/info/bitmask]] beitreten. Dort kannst du fragen stellen.
+Du kannst der RiseupVPN und bitmask [[tester mailing-Liste => https://lists.riseup.net/www/info/leap-discuss]] beitreten. Dort kannst du fragen stellen.
 
 Es gibt auch einen irc-channel für zeitnahere Konversationen: [[#leap @ irc.libera.chat => https://web.libera.chat/?channel=#leap]]
