@@ -102,41 +102,6 @@ Pour les distributions basées sur Debian (testé uniquement avec Debian Buster)
 * Activez "Kstatusnotifieritem/appindicator support"
 * Profitez :)
 
-### RiseupVPN sur Linux Mint
-
-Dans Linux Mint, Snap est parfois désactivé par défaut, il faudra alors commencer par l'activer avec la commande suivante :
-
-```
-sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.disabled
-```
-
-Puis installer Snap :
-
-```
-sudo apt install snapd
-```
-
-Installer RiseupVPN depuis Snap :
-
-```
-sudo snap install --classic riseup-vpn
-```
-
-Ajouter l'entrée RiseupVPN dans le menu de Linux Mint :
-
-```
-cp /var/lib/snapd/desktop/applications/riseup-vpn_riseup-vpn.desktop /usr/share/applications/
-```
-
-
-### Tester une version de développement
-
-Si vous souhaitez nous aider à tester une version de développement de RiseupVPN, vous pouvez l'installer en exécutant cette commande :
-
-```
-sudo snap install --classic --beta riseup-vpn
-```
-
 ### Supprimer le fichier PID
 
 Parfois, RiseupVPN ne démarre pas car le programme croit qu'il y a déjà une version en cours d'exécution.
