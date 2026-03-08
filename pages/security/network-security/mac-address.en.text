@@ -96,6 +96,35 @@ h2. Arch Linux and most up-to-date Linux distributions using systemd
 
 see https://wiki.archlinux.org/index.php/MAC_address_spoofing
 
-h2. Other operating systems
+h1. Other operating systems
 
 This tactic can easily be adapted to different linux/BSD setups and possibly OS X and Windows--if you create a new implementation, add it here!
+
+h2. Mac OS / iOS
+
+MAC address randomization is often enabled by default on modern Apple devices. Mac computers running macOS Sequoia 15.0 or later have access to randomization settings for Wi-Fi, while earlier devices are limited to randomization for Peer-to-Peer connections. To check the Wi-Fi MAC randomization setting, do the following.
+
+# Open System Settings and select Wi-Fi.
+
+# Find your Wi-Fi network in the Known Network list and click the three dots on the far right. Select Network Settings from the drop-down.
+
+# Set Private Wi-Fi Addresses to Rotating if it isn't already. This will randomize your MAC address when first connecting to the network.
+
+h2. iOS
+
+As mentioned, MAC address randomization, or as Apple calls it, "Private Wi-Fi Addresses", is often on by default on modern iPhones, but not always. To check the Wi-Fi MAC randomization setting, do the following.
+
+# Open Settings and select Wi-Fi.
+
+# Find your Wi-Fi network in the Known Network list and click the i icon on the far right.
+
+# Set Private Wi-Fi Addresses to Rotating if it isn't already. This will randomize your MAC address when first connecting to the network.
+
+h2. Windows
+
+Windows has MAC address rotation as well, but the setting is off by default.
+
+# Open Settings and select Network & Internet, then Wi-Fi.
+
+# Enable Random hardware addresses at the bottom.
+

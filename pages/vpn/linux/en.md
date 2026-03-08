@@ -102,41 +102,6 @@ For Debian-based distributions (only tested on Debian Buster):
 * Enable "Kstatusnotifieritem/appindicator support"
 * Enjoy :)
 
-### RiseupVPN on Linux Mint
-
-On Linux Mint, Snap is sometimes disabled by default, so you have to enable it first, by running the following command:
-
-```
-sudo mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.disabled
-```
-
-Then install Snap:
-
-```
-sudo apt install snapd
-```
-
-Install RiseupVPN from Snap:
-
-```
-sudo snap install --classic riseup-vpn
-```
-
-Create RiseupVPN entry in Linux Mint menu:
-
-```
-cp /var/lib/snapd/desktop/applications/riseup-vpn_riseup-vpn.desktop /usr/share/applications/
-```
-
-
-### Test a pre-release version
-
-If you want to help us test a development, pre-release version of RiseupVPN, you can install it using this command:
-
-```
-sudo snap install --classic --beta riseup-vpn
-```
-
 ### Remove PID file
 
 Sometimes RiseupVPN will fail to start if it thinks another version is already running.

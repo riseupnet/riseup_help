@@ -61,7 +61,7 @@ We will not read, search, or process any of your incoming or outgoing mail other
 
 ## Account deletion
 
-You may choose to delete your riseup.net account at any time. Doing so will destroy all the data we retain that is associated with your account. The usernames associated with deleted accounts remain unavailable for others to use for one year.
+You may choose to delete your riseup.net account at any time. Doing so will destroy all the data we retain that is associated with your account. The usernames associated with deleted accounts remain unavailable to use.
 
 ## Changes to this policy
 
