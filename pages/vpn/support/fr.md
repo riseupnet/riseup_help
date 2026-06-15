@@ -26,7 +26,7 @@ Veuillez vous assurer d'inclure les informations suivantes:
 * [[Windows => vpn/windows#troubleshooting]]
 * [[Linux => vpn/linux#troubleshooting]]
 
-### Cannaux de discution
+### Canaux de discussion
 
 Vous pouvez rejoindre la [[liste courriel de développement => https://lists.riseup.net/www/info/bitmask]] de RiseupVPN et bitmask. Vous pouvez y poser des questions et rejoindre les discutions de la communauté sur le développement de notre cher client VPN.
 
