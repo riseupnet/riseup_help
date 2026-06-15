@@ -1,17 +1,17 @@
 @title = 'Politique de confidentialité'
 @this.alias = '/privacy-policy'
 
-Ce document décrit les informations nous collectons et pourquoi elles sont utilisées. Cette politique s'applique pour l'ensemble des interactions avec riseup.net. En utilisant les services de riseup.net, vous acceptez notre politique de confidentialité. Nous vous recommandons fortement de lire nos [[conditions d'utilisation => ../tos/]].
+Ce document décrit les informations que nous collectons et pourquoi elles sont utilisées. Cette politique s'applique pour l'ensemble des interactions avec riseup.net. En utilisant les services de riseup.net, vous acceptez notre politique de confidentialité. Nous vous recommandons fortement de lire nos [[conditions d'utilisation => ../tos/]].
 
 ## Résumé
 
 Vous avez des attentes raisonnables sur la sécurité des communications et des données qui transitent ou qui sont stockées par ce système d'information. Nous ne collectons que très peu d'informations personnelles et nous ne partageons jamais celles qui sont collectées. 
 
-## L'information que nous collectons et que nous conservons
+## Les informations que nous collectons et que nous conservons
 
 ### Les informations d'enregistrement
 
-Quand vous créez un compte, nous conservons la date de création du compte (arondie au trimestre le plus près). Les informations utilisées lors de la demande d'une compte sont supprimées après quatre mois et les informations sur les invitations sont supprimées après un mois. Si vous décidez d'utiliser un courriel de récupération, nous conserverons cette information dans un format chiffré que nous ne pouvons pas consulter (comme pour nos mots de passe, nous utilisons une valeur de hachage pour chiffrer cette valeur).
+Quand vous créez un compte, nous conservons la date de création du compte (arrondie au trimestre le plus près). Les informations utilisées lors de la demande d'une compte sont supprimées après quatre mois et les informations sur les invitations sont supprimées après un mois. Si vous décidez d'utiliser un courriel de récupération, nous conserverons cette information dans un format chiffré que nous ne pouvons pas consulter (comme pour les mots de passe, nous utilisons une valeur de hachage pour chiffrer cette valeur).
 
 ### Billets d'aide
 
@@ -23,7 +23,7 @@ Quand vous êtes connecté avec votre compte, nous conservons un identifiant de 
 
 ### Journaux de transit courriel
 
-Pour être en mesure de détecter quand nos serveurs sont attaqués par une "bombe de spam" or quand un spammer utilise nos systèmes, nous conservons des journaux des informations "de" et "à" ("from" et "to") pour chaque messages relayés. Ces journaux sont supprimés quotidiennement.
+Pour être en mesure de détecter quand nos serveurs sont attaqués par une "bombe de spam" or quand un spammer utilise nos systèmes, nous conservons des journaux des informations "de" et "à" ("from" et "to") pour chaque message relayé. Ces journaux sont supprimés quotidiennement.
 
 ### Le dernier trimestre de connexion
 
@@ -37,17 +37,17 @@ Les adresses IP d'aucun utilisateur et d'aucune service ne sont conservées.
 
 ### Empreintes des navigateurs web
 
-Votre navigateur web donne à tous les serveur web que vous visitez de l'information unique qui permet de vous identifier en leur laissant savoir votre système d'exploitation, vos informations de navigateur, les plugins que vous avez installés, les polices de caractères que vous avez installé, la résolution de votre écran et bien d'autres choses encore. Nous ne conservons pas cette information.
+Votre navigateur web donne à tous les serveur web que vous visitez de l'information unique qui permet de vous identifier en leur laissant savoir votre système d'exploitation, vos informations de navigateur, les extensions que vous avez installées, les polices de caractères que vous avez installé, la résolution de votre écran et bien d'autres choses encore. Nous ne conservons pas cette information.
 
 ### Les métadonnées des messages
 
-Même quand vous utilisez de l'encryption bout-à-bout OpenPGP pour vos messages courriels, l'"objet" du courriel et les informations de relais comme "de" et "à" ("from" et "to") sont vus par nos serveurs en clair quand le message arrive. Cela est dû à des limites inhérentes au protocole courriel et à OpenPGP
+Même quand vous utilisez du chiffrement bout-à-bout OpenPGP pour vos messages courriels, l'"objet" du courriel et les informations de relais comme "de" et "à" ("from" et "to") sont vus par nos serveurs en clair quand le message arrive. Cela est dû à des limites inhérentes au protocole courriel et à OpenPGP
 
 ## Comment nous conservons l'information et comment nous la partageons
 
 ### Chiffrement
 
-Toutes vos données sont stockées dans un format chiffré, et seul Riseup a les clefs pour les déchiffrer. De plus, depuis mars 2018, le stockage de tous les nouveaux comptes courriels est chiffré avec une clef personnelle. Riseup n'est pas en mesure de lire le contenu des courriels de ces comptes. N'importe quel compte créé avant mars 2017 peut activer la fonction d'espaces de stockage personnels chiffrés.
+Toutes vos données sont stockées dans un format chiffré, et seul Riseup a les clefs pour les déchiffrer. De plus, depuis mars 2017, le stockage de tous les nouveaux comptes courriels est chiffré avec une clef personnelle. Riseup n'est pas en mesure de lire le contenu des courriels de ces comptes. N'importe quel compte créé avant mars 2017 peut activer la fonction d'espace de stockage personnel chiffré.
 
 ### Nous ne partageons pas vos informations d'utilisateur
 
@@ -61,8 +61,8 @@ Nous ne lirons pas, ne ferons pas de recherche et n'utiliserons pas l'informatio
 
 ## Supprimer un compte
 
-Vous pouvez choisir de supprimer votre compte riseup.net à tout moment. Supprimer un compte en détruira toutes les données que nous conservons sur votre compte. Les noms d'utilisateurs associés à votre compte resterons inutilisables pour de nouveaux comptes pour un an.
+Vous pouvez choisir de supprimer votre compte riseup.net à tout moment. Supprimer un compte en détruira toutes les données que nous conservons sur votre compte. Les noms d'utilisateurs associés à votre compte resterons inutilisables pour de nouveaux comptes.
 
 ## Modifications à cette politique
 
-Nous nous réservons le droit de changer cette politique. Si nous faisons des changements majeurs, nous avertirons les personnes qui utilisent les services de Riseup de manière claire et nette. Les changements mineurs peuvent n'être affichés que dans le pied de page de notre site web.
+Nous nous réservons le droit de changer cette politique. Si nous faisons des changements majeurs, nous avertirons les personnes qui utilisent les services de Riseup de manière claire et nette (comme notre [[newsletter]]). Les changements mineurs peuvent n'être affichés que dans le pied de page de notre site web.
