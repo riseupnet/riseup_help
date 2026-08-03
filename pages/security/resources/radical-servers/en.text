@@ -44,8 +44,6 @@ h2. Telecentre
 
 [[Telecentre->https://en.wikipedia.org/wiki/Telecentre]] is a widely adopted concept to provide free access to the internet and other services at puplic spaces with computers and other digital technologies that enable them to gather information, create, learn, and communicate with others while they develop essential digital skills. [[Guidebook for Managing Telecentre Networks->https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks]]
 
-
-
 h1. South America
 
 h2. Codigosur
@@ -444,6 +442,20 @@ h2. https://anarchyplanet.org/
 * Jitsi
 * Web/video hosting
 * Custom
+
+h2. Omada
+[[Omada->https://omada.cafe]] is both a community and collective founded in 2021, dedicated to hosting free and open-source services, building a private and secure alternative to insecure platforms.
+
+* Mastodon Social Network
+* Matrix Chatrooms
+* Mumble Voice call
+* Invidious 
+* Git 
+* DNS
+* PeerTube
+* Search
+* Wiki
+* Hosting (on request)
 
 h1. In memoriam
 
