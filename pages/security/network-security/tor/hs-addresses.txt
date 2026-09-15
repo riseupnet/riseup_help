@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Riseup's Tor Onion Service list.
 
 riseup.net:         vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion (port 80)
@@ -29,19 +26,3 @@ we.riseup.net:      zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.oni
 
 0xacab.org          wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion (port 80)
 
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCgAdFiEETgeRJo98Z+q+iPGwMEPitxOado4FAmqpY/IACgkQMEPitxOa
-do4+Ng//XKhBYrQOVIdnyXXr7fCiQVdx17SrJaK1zZNfU9bdz/UsRdEBz++GlDhF
-rMtw5n9NInMRdXKYaYUjhmX29XA/yuCHY60OpuQikY5s+6ABIEUMW/E0Ou9d32cP
-9Q/08zmDihSZcHrAP3qDdaOjGGhzt8uco8ZqYeAUddrHH69y2FZkTf3v7DkQPUtl
-SWcEcO/xc4e42J+R9FH4rxiClrSYbxi8/Qx0LBTvNXia9SysTTptJ8G3ySRR/PqZ
-cf/l7K+sV6NFhtYO3JVdZy0UR171S3vBW/IEbP0nvLFlOJVBkVIh0m2fDMkPSPT4
-uMEPW8qAgPpyNNCCm7Bzxp5tL5CiEs9mPAMSSNvqbo9zMqzRvJvepo8h2sBL4cVE
-GyHFevvgUkvwthHB3OigyxhB5tw0MulcMo4R0TL4U0G2CKMFPdvfdYkw8/sww0s2
-k3Hd7n76DxdmZdtPsTNfTrfehtG1HL4e9+UgVumF1Pc21jminekNmTQdOwZ4Jpa1
-Bg9cnLXTDe97PXzptaw/KpJvh9vTWz2NV4hVlt8Q6nLOFQ7jvQfk7d93E6GZpBCk
-bKlvq8KfSTJwnB7cXxcz8XKBWYA0cfpDZoiSrKv3Plm5Y7znef7UPW47G07o7Hod
-WhJvQXLeAGJJ9X1di/EA9HMhEdNYArKQdU3vUwrkxR4kivTcAHw=
-=47V7
------END PGP SIGNATURE-----
