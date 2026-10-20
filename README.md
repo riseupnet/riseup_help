@@ -40,31 +40,40 @@ Advanced method - using git and amber
 
 Installing amber
 
-In order to preview your edits to the content in `pages` you will need a
-program called `amber`.
+Option A: Using Docker (Recommended for macOS, Linux, and Windows)
 
-To install on Debian or Ubuntu (Wheezy or later):
+The easiest way to run amber without configuring specific Ruby versions or native toolchains:
+
+    docker compose up
+
+Then open http://localhost:8000 in your browser. Any page edits in `pages/` will automatically re-render when refreshed.
+
+Option B: Native installation on Debian or Ubuntu:
 
     sudo apt-get install ruby ruby-dev build-essential zlib1g-dev
     sudo gem install amber
 
-To install on Mac, see below. Check https://github.com/leapcode/amber for more
-information.
+Option C: Native installation on Mac
+
+See the "Installing on Mac" section below. Check https://github.com/leapcode/amber for more information.
 
 Previewing pages
 
-After you have made changes, run this command in the riseup_help directory to
-completely re-render the entire site (takes a long time):
-
-    amber rebuild
-
-When you are making changes, it is easiest to see a preview of these changes
-by running the amber server:
+When running natively:
 
     amber server
 
-Then browse to http://localhost:8000. Any page you view this way gets re-
-rendered when it is loaded.
+Or with Docker:
+
+    docker compose up
+
+Then browse to http://localhost:8000. Any page you view this way gets re-rendered when it is loaded.
+
+To completely re-render the entire site to `public/`:
+
+    amber rebuild
+    # or with Docker:
+    docker compose run --rm amber bundle exec amber rebuild
 
 Putting it all together:
 
@@ -252,9 +261,21 @@ include it (e.g. the link `[[Seguridad => security]]` will link to
 https://help.riseup.net/es/security). The link `[[Security => security]]` could
 have also been written simply `[[security]]`.
 
-To identify translated pages that need to be updated, run `./what_needs_an_update.sh [language-code]`.
+To identify translated pages that need to be updated, run:
 
-Or you can use [this python program](https://gitlab.com/baldurmen/riseup-up-to-date) to do the job.
+    ./what_needs_an_update.sh [language-code]
+
+Options:
+* `./what_needs_an_update.sh --all` : Show translation coverage summary across all languages.
+* `./what_needs_an_update.sh --diff [language-code]` : Show git diff of English changes since last translation.
+* `./what_needs_an_update.sh --untranslated-only [language-code]` : List untranslated pages.
+* `./what_needs_an_update.sh --outdated-only [language-code]` : List only outdated pages.
+
+You can also validate site syntax and YAML configuration files anytime by running:
+
+    make check
+    # or:
+    python3 scripts/check_site.py
 
 Installing on Mac
 --------------------------------------------

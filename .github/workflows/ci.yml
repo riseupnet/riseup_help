@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  validate:
+    name: Site Integrity & Linting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Run site integrity checks
+        run: python3 scripts/check_site.py
+
+      - name: Test translation audit script
+        run: |
+          chmod +x what_needs_an_update.sh
+          ./what_needs_an_update.sh --help
+          ./what_needs_an_update.sh es --outdated-only
