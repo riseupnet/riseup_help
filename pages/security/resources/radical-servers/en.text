@@ -291,6 +291,18 @@ h2. pangea.org
 * Hosting
 * Email
 
+h2. pub.solar
+
+[[pub.solar->https://pub.solar]] is a global community, with a registered association seated in Cologne, Germany as a legal entity. Their goal is to enable more people to use free software, have secure digital communications, and to take control over their private data.
+
+* File hosting (Nextcloud)
+* Matrix
+* Mastodon
+* Git (forgejo)
+* Searx
+* Mailing lists
+* Open Bike Sensor (OBS) Portal (limited to the Cologne/Bonn region)
+
 h2. sindominio.net
 
 [[www.sindominio.net->https://www.sindominio.net]] intends to immerse itself in that multiverse which exists and organises itself within the web, in order to contribute to this space which embraces cooperation and communication as well as conflicts and struggles.
