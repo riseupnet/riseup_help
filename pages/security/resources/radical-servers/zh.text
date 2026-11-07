@@ -1,0 +1,522 @@
+@title = '激进服务器'
+
+
+这里列出了一些反资本主义、反等级制、自治、女性主义或激进的服务器项目。
+其中一些是革命性的集体，为激进和草根行动者提供免费或互助服务。
+另一些更侧重隐私或去中心化。
+它们都不以赚钱为目的。
+Riseup 并不为这些项目背书，只是保留一份列表，供大家自行选择！
+请仔细阅读各项目的服务条款，因为其中一些可能受执法或监控法律约束。
+
+想更新你们集体的信息，或者想被列在这里？[[编辑我们的仓库 => https://github.com/riseupnet/riseup_help]]。
+
+h1. 全球
+
+h2. hackerspaces.org
+
+[[Hackerspaces => https://wiki.hackerspaces.org]]是社区运营的实体空间，人们可以在这里见面、做项目。这个网站面向任何想与全球黑客空间社区分享故事和问题的人。
+
+h2. hackthissite.org
+
+[[HackThisSite.org => https://www.hackthissite.org]]是一个免费、安全且合法的训练场，黑客可以通过挑战、CTF 等方式测试和拓展自己的道德黑客技能。我们从 2003 年活跃至今，不只是一个黑客战争游戏网站。我们是一个活生生的社区，致力于学习和分享道德黑客知识、技术爱好和编程经验，许多项目正在开发中。欢迎加入我们的 IRC、Discord 和论坛，用户可以在那里讨论黑客技术、网络安全等。来接触黑客地下世界，参与这个项目吧！
+
+h2. indymedia.org
+
+[[indymedia.org => https://www.indymedia.org]]是一个去中心化的全球媒体行动者网络。
+
+* 新闻源
+
+h2. tachanka.org
+
+[[Tachanka => https://tachanka.org]]的理念是为解放性项目和政治变革团体提供技术服务。它也是提出这个理念的一群人。有许多相互重叠的集体帮助维护项目，但 Tachanka 遵循许多共同原则，形成一个支持性网络，以实现共同目标。这些集体是国际性的，力求加强全球团结。Tachanka 项目的首要指导原则是[[人民全球行动的特征 => https://en.wikipedia.org/wiki/Peoples%27_Global_Action#Hallmarks]]和[[Debian 社会契约 => https://www.debian.org/social_contract]]。
+
+* 邮件列表
+* 虚拟服务器
+* DNS 缓存
+* Drupal 农场
+* 英语 / 法语 / 葡萄牙语
+
+h2. Take Back The Tech!
+
+[[Take Back The Tech! => https://www.takebackthetech.net]]是一项全球运动，把针对女性的暴力与信息通信技术（ICT）联系起来。它旨在提高人们对互联网和手机等 ICT 平台上针对女性的暴力的认识，并呼吁人们利用 ICT 参与行动，终结针对女性的暴力。该运动由[[进步通信协会 => https://en.wikipedia.org/wiki/Association_for_Progressive_Communications]]（[[apc.org => https://www.apc.org]]）的妇女网络支持计划于 2006 年发起。此后，至少 24 个国家的个人、集体和非政府组织参与并组织了这项运动。更多信息见[[维基百科 => https://en.wikipedia.org/wiki/Take_Back_The_Tech!]]。
+
+h2. 电信中心
+
+[[电信中心（Telecentre）=> https://en.wikipedia.org/wiki/Telecentre]]是一种被广泛采用的概念：在配有电脑和其他数字技术的公共场所，提供免费互联网接入和其他服务，让人们能够获取信息、创造、学习、与他人交流，同时培养基本的数字技能。[[电信中心网络管理指南 => https://en.wikibooks.org/wiki/A_Guidebook_for_Managing_Telecentre_Networks]]
+
+
+
+h1. 南美洲
+
+h2. Codigosur
+
+[[Codigosur => https://codigosur.org]]是拉丁美洲不同社会运动的行动者组成的集体，致力于合作开发通信工具、文化和自由技术。
+
+* 托管
+* 电子邮件
+* 邮件列表
+* Mumble
+* 流媒体
+* TLS
+* Etherpad
+* DNS 等
+
+h2. Colnodo
+
+[[Colnodo => https://colnodo.apc.org/es/servicios]]是哥伦比亚的非营利组织，旨在通过低成本电子网络，促进哥伦比亚组织之间的通信以及信息、经验和专长的交流。[[cyberstewards.org 上的文章 => https://cyberstewards.org/category/colnodo/]]
+
+h1. 欧洲
+
+h2. actiu.info
+
+* [[Actiu.info => https://www.actiu.info]]是一个技术网络，让社会运动能够以安全保密的方式，获得接入公共互联网的资源，而不依赖市场和建制。我们开发和维护 Actiu.info，把它作为计算资源中心，推动技术自管理和自由。
+我们关注“技术自由”这一概念，即关乎个人和集体的技术与形式条件，意味着用户能够对自己行动的自由、工具、数据、隐私和与他人的通信，拥有合理而全面的控制权。
+
+Actiu.info 提供：
+* 邮箱账户
+* 邮件列表（Mailman）
+* 网站托管；博客、Wiki、论坛
+* 用于集会/会议/写作的私人频道（Gobby）
+* 远程桌面、共享文件夹
+* 物理服务器托管、虚拟机托管、虚拟服务器（容器）托管
+* 英语、西班牙语，有时有法语
+
+h2. aktivix.org
+
+下面是 aktivix 描述生成器对 [[aktivix.org => https://aktivix.org]]的一些随机描述：
+
+* Aktivix 是一群靠捐款运作、浑身是汗的技术宅，想让电脑用户以毛茸茸的非等级制方式扰乱资本主义。
+* Aktivix 是一个靠捐款运作的合作社，成员是毛茸茸的黑客行动者，想让集体以完全可持续的方式挑战权威。
+* Aktivix 是一个基于共识的网络，成员是疲惫的行动者，想帮助社区团体以开放、非等级制的方式沟通。
+
+Aktivix 提供：
+
+* 邮箱账户
+* 邮件列表
+* 博客
+* Dropbox 替代品（测试版）
+* 英语、西班牙语、德语
+
+h2. autistici.org
+
+[[autistici.org => https://www.autistici.org]]和[[inventati.org => https://inventati.org]]提供服务，但不服务于商业机构、种族主义者、纳粹、法西斯、政党、拥有自己庞大结构的组织，也不服务于性别歧视者。我们有无政府主义黑十字、意大利社会论坛等激进组织。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+* XMPP 即时通讯
+* 匿名重发邮件
+* 网页匿名代理
+* 密钥服务器
+* Usenet 新闻服务器
+* 意大利语
+
+h2. boum.org
+
+[[boum.org => https://boum.org]]是一个自治的革命技术集体。
+
+* 邮箱账户
+* 法语
+
+h2. CryptiX
+
+[[CryptiX => https://www.cryptix.de]]是一个网络集体，专注于支持社会和文化项目、安全的加密通信以及非商业空间。歧视性内容与我们格格不入。
+
+* 域名托管
+* 电子邮件
+* 邮件列表
+* 网页空间
+* XMPP
+
+h2. cybrigade / espiv.net
+
+[[cybrigade => https://espiv.net]]是一个自治集体，关注社会斗争及其在网络空间中的表达。cybrigade 管理 [[espiv.net => https://espiv.net]]的服务。
+
+* 邮箱账户
+* 邮件列表
+* 博客
+* 希腊语 / 英语
+
+h2. Disroot
+
+[[Disroot => https://disroot.org]]是一个位于阿姆斯特丹的项目和非营利基金会。它由志愿者维护，依靠社区支持。Disroot 是一套用于沟通、分享和组织的工具，开放、去中心化、联邦化，并尊重自由和隐私。
+
+目前提供以下服务：
+
+ * 电子邮件（2GB 配额；RainLoop 网页邮箱、IMAP）
+ * 文件托管（4GB NextCloud、Lufi）
+ * 社交网络（Diaspora）
+ * 论坛（Discourse）
+ * 即时通讯（XMPP）
+ * 协作文档（Etherpad）
+ * 粘贴板（PrivateBin）
+ * 搜索引擎（Searx）
+ * 投票（Framadate）
+ * 项目管理（Taiga）
+ * 电子表格（EtherCalc）
+
+h2. Framasoft
+
+[[Framasoft => https://wiki.framasoft.org/presentation_en]]是法国的非营利组织和非正规教育网络，起源于教育界，最初致力于自由及开源软件。
+
+Framasoft 想为那些流行但专有、中心化并跟踪用户数据的服务提供替代品。Framasoft 现在参与一个名为[[“去谷歌化互联网” => https://degooglisons-internet.org/?l=en]]（Dégooglisons Internet）的长期大型项目。
+没有广告，没有跟踪器，100% 自由软件。
+
+目前提供以下服务：
+
+* Etherpad ≻ Framapad
+* Ethercalc ≻ Framacalc
+* 类似 Doodle ≻ Framadate
+* 类似 Trello ≻ Framaboard
+* 思维导图 ≻ Framindmap
+* 简单绘图 ≻ Framavectoriel
+* 搜索 ≻ Framabee（searx）
+* 社交网络 ≻ Framasphère（Diaspora*）
+* 聊天（类似 Slack）≻ Framateam
+* 决策 ≻ Framavox（Loomio）
+* 类似 Pocket ≻ Framabag（Wallabag）
+* 类似 Google Reader ≻ Framanews
+* 类似 Google Maps ≻ Framacarte（umap+OSM）
+* 类似 WeTransfer ≻ Framadrop
+* 类似 Pastebin ≻ Framabin
+* 类似 img.ur ≻ Framapic
+* 类似 bit.ly ≻ Framalink
+* 类似 Google Drive 或 Dropbox ≻ Framadrive
+* 类似 GitHub ≻ Framagit（Gitlab）
+
+还计划提供 Change/Avaaz、Google Calendar、Google Groups、Blogger、Wix 等的替代品。
+
+参见[[这个页面查看所有服务 => https://degooglisons-internet.org/liste?l=en]]并访问它们（主页是法语，但大多数服务有多种语言版本）。
+
+h2. Freifunk
+
+[[Freifunk => https://wiki.freifunk.net/Kategorie:English]]是德国一个自由、公共、可自由访问、非商业、无审查、去中心化组织的网状网络，用于社区拥有的数字网络中的自由通信。[[加入 => https://freifunk.net/en/how-to-join/find-your-nearest-community/]]
+
+* [[网状网络 => https://en.wikipedia.org/wiki/Wireless_mesh_network]]
+* [[德国 => https://wiki.freifunk.net/Freifunk_Weltweit]] / [[全球 => https://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region]]
+
+h2. GreenNet
+
+[[GreenNet => https://www.greennet.org.uk]]是一家成立于 1985 年的非营利集体，为和平、环境和人权支持者提供互联网服务、网页设计和托管。
+
+* 托管
+* 电子邮件
+* 宽带
+* 网站开发
+
+h2. Guifi
+
+[[Guifi.net => https://guifi.net/en]]是一个自由、开放、中立的、以无线为主的电信社区网络，覆盖西班牙加泰罗尼亚和瓦伦西亚地区。网络节点由个人、公司和管理机构贡献，他们自由接入开放的电信网络，并在基础设施和内容原本无法覆盖的地方扩展网络。[[维基百科 => https://en.wikipedia.org/wiki/Guifi.net]]
+
+h2. immerda.ch
+
+[[immerda.ch => https://www.immerda.ch]]是一个自治集体，为朋友们提供邮件、邮件列表和网页空间。他们支持进步和解放性的团体与个人改变世界。服务只提供给 immerda 的朋友及其朋友，因此这是一个仅限邀请的项目。
+
+目前提供以下服务：
+
+* 邮箱账户 / 网页邮箱
+* 邮件列表（mailman、schleuder）
+* 博客
+* 安全环境中的网站托管（静态、PHP、Ruby）
+* Wiki 和讨论论坛
+* Git 仓库
+
+支持德语、英语、法语和少量西班牙语
+
+h2. indivia.net
+
+[[indivia.net => https://www.indivia.net]]是一个自管理的虚拟空间，托管参与知识分享的项目。
+
+* 邮箱账户 / 网页邮箱
+* 邮件列表（mailman、schleuder）
+* 网站托管
+* 音频流
+* IRC 聊天
+* 临时邮箱别名
+
+支持意大利语、少量英语、法语和西班牙语
+
+h2. Isole Nella Rete 项目
+
+[[ecn.org => http://www.ecn.org]]为那些被社会剧变打散、边缘化的人提供一个获得可见度、关系和欢聚机会的地方——那些不认同“唯一思想”、尚未屈服于边缘化的人——那些仍然希望建立一场能够改变当前“事物状态”的真正的运动的人。
+
+* 为意大利社会中心和政治集体提供邮箱账户
+* 邮件列表
+* 网站
+* 运动搜索引擎
+* 意大利语
+
+h2. nadir.org
+
+[[nadir.org => https://www.nadir.org]]代表互联网上不教条左翼的政治，提供邮件和网站托管等电子服务。
+
+* 邮箱账户
+* 网站托管
+* 德语
+
+h2. nodo50.net
+
+[[www.nodo50.net => https://info.nodo50.org]]为社会运动以及互联网上的政治行动提供虚拟空间。位于马德里。
+
+* 网站托管
+* 西班牙语
+
+h2. no-log.org（已停止接受新用户）
+
+[[no-log.org => https://no-log.org]]为任何提出申请的人提供互联网接入和邮箱账户。自 2002 年法国通过首批通信监控法律以来，No-log 一直实行最低限度（但仍合法）的日志政策，并努力让用户了解监控和隐私问题。
+
+* 邮箱账户（POP、IMAP、SMTP/TLS、网页邮箱）
+* 拨号账户（56K 调制解调器、本地连接）
+* 法语，支持英语
+
+h2. NoLog.cz
+
+[[NoLog.cz => https://nolog.cz]]是一个行动者 IT 集体，目标是支持所有追求社会变革的自由思想者、组织和团体。
+
+* 文件分享
+* Matrix
+* Etherpad
+* CryptPad
+* PeerTube 实例
+* 视频会议（OpenTalk）
+* PrivateBin
+* Vaultwarden
+* 可为本地集体提供网站和邮件托管、Discourse 论坛及其他工具
+
+
+h2. pangea.org
+
+[[Pangea => https://pangea.org]]是巴塞罗那的一家私人、独立、非营利组织，成立于 1993 年，旨在促进互联网及信息通信技术（ICT）的发展，服务于在社会正义、妇女权利、可持续发展和文化多样性方面工作的组织、运动和个人，兼顾地方和国际层面。
+
+* 托管
+* 电子邮件
+
+h2. sindominio.net
+
+[[www.sindominio.net => https://www.sindominio.net]]希望沉浸到网络中存在并自我组织起来的多元宇宙中，为这个既包含合作与交流、也包含冲突与斗争的空间做出贡献。
+
+* 邮箱账户
+* 邮件列表
+* 西班牙语
+
+h2. snopyta.org
+
+[[snopyta.org => https://snopyta.org]]提供各种服务：
+
+* 邮箱账户
+* XMPP
+* PrivateBin
+* Gitea
+* Searx
+* Etherpad
+* Mastodon
+* Jitsi Meet
+* Mumble
+* TinyTinyRSS
+* 投票
+* Invidious
+* Nitter
+* Bibliogram
+
+h2. so36.net
+
+[[so36.net => https://so36.net]]提供数字政治基础设施，以及：
+
+* 邮箱账户
+* 网页空间
+* DNS
+* SILC
+* 协作
+
+h2. squat.net
+
+[[squat.net => https://planet.squat.net]]为占屋运动提供技术服务。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+* 支持语言：英语、意大利语、德语、荷兰语、西班牙语、波兰语、挪威语
+
+h2. systemausfall.org
+
+[[systemausfall.org => https://systemausfall.org]]为行动者和集体的政治工作提供技术基础设施。
+
+* 邮箱账户和网页邮箱客户端
+* 云空间（Seafile + OnlyOffice）
+* Git（Gitea）
+* 邮件列表，明文（Sympa）
+* 邮件列表，加密（Schleuder + Schleuder-Web）
+* Matrix（Synapse + Element）
+* 项目（Redmine）
+* 上传（Lufi）
+* 用于托管自定义网站的网页空间（SSH、PHP、数据库）
+* Wiki（MoinMoin）
+* WordPress
+* XMPP
+* 支持页面只有德语，提供有限的英语支持
+
+h2. systemli.org
+
+[[systemli.org => https://www.systemli.org/en/index.html]]是一家非商业服务商，提供对隐私友好的通信，不受监控。
+
+* 邮箱账户
+* XMPP
+* 托管（博客、Wiki、论坛）
+* Etherpad
+* Mumble
+* 加密粘贴板和投票
+* Jitsi Meet
+* 德语和英语支持
+
+h2. Syster Server
+
+[[Syster Server => https://systerserver.net]]为女性主义、酷儿和反父权制的团体与集体提供服务。Syster Server 由女性运营，只使用自由软件。它是一个学习系统管理技能、托管服务和激励他人效仿的地方。
+
+* 托管
+* Git
+* TLS
+* 尽管问 :)
+
+h2. shelter.is
+
+[[shelter.is => https://www.shelter.is]]是一个自治技术集体，提供安全且对隐私友好的基础设施，以团结而非利润为动机。托管在一个友好的数据中心和网络中，只有少数受信任的人能物理接触。
+
+* VPS
+* WordPress 托管（默认带 SSL）
+* 邮箱账户
+* VPN
+* 英语支持
+
+h2. esiliati.org
+
+[[esiliati.org => https://www.esiliati.org]]为被异化的全球社交网络村庄流放的人，提供自管理的非商业、隐私友好工具。
+
+* 邮箱账户
+* 邮件列表
+* Wiki
+* 流媒体
+* IRC 聊天
+* XMPP 聊天
+* 协作文档
+* 加密文件分享、粘贴板和音频片段
+* Mumble
+* 短链接
+
+支持意大利语和西班牙语，少量英语和法语
+
+h1. 北美洲
+
+h2. espora.org
+
+[[Espora.org => https://espora.org]]是一个集体空间，旨在推广自主生成、分发和维护基础设施的方式，以发展技术和社会项目。我们提出建立自治服务器，因为我们决定平等相待；我们决定不再只做技术的客户—消费者；我们决定掌控自己的生活，对自己在网上所做所说负责，而不是满足于别人给我们的现成东西；我们决定建立自主性，通过网络相互获取信息、沟通和互助。
+
+* 邮箱账户
+* 托管
+* 墨西哥城
+* 西班牙语
+
+h2. koumbit.org
+
+[[Koumbit => https://www.koumbit.org]]是一家非营利组织，2004 年成立于蒙特利尔，自豪地支持本地和国际的社区团体、组织和行动者。我们的技术选择适应这些团体的需求，并且完全使用自由及开源软件构建。
+
+Koumbit 的[[团结托管计划 => https://www.koumbit.org/en/content/solidarity-hosting-program]]为在魁北克及海外促进社会正义的组织提供免费基础托管服务（网站或邮件列表）。每年 Koumbit 都会向有需要的团体提供几个托管方案。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+
+h2. riseup.net
+
+https://riseup.net 是一个通过掌控自己的安全通信手段来创造民主替代方案、实践自决的项目。它是一个小型无政府主义技术集体，中心在西雅图。
+
+* 邮箱账户
+* 邮件列表
+* VPN
+* 聊天
+* Etherpad
+
+h2. https://anarchyplanet.org/
+
+[[anarchyplanet.org => https://anarchyplanet.org/]]是一组由无政府主义集体运营的服务器上的基础设施项目。他们提供低成本/免费托管，以及多种服务的免费访问。
+
+* 聊天
+* Etherpad
+* Jitsi
+* 网站/视频托管
+* 定制
+
+h1. 纪念
+
+这些项目已不再活跃，或只处于维护模式。
+
+h2. resist.ca
+
+[[resist.ca => https://resist.ca]]是不列颠哥伦比亚省温哥华的一个无政府主义技术集体。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+* 温哥华地区行动者日历
+* 行动者名录
+* 新闻源
+
+h2. tao.ca
+
+[[tao.ca => http://tao.ca]]是加拿大大多伦多的一个无政府主义技术集体。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+
+h2. entodaspartes.org
+
+[[entodaspartes => http://entodaspartes.org]]是一个临时自治区域，同时也是创造、传播、分发和维护基于自由与互助的社会结构的工具。
+
+h2. flag.blackened.net
+
+[[flag.blackened.net => http://flag.blackened.net]]自 1997 年以来一直为无政府主义左翼提供免费网站托管。flag 还为无政府主义社区提供电子邮件和邮件列表。Flag 托管了 50 多个无政府主义网站。
+
+* 邮箱账户
+* 邮件列表
+* 托管
+
+h2. mutualaid.org
+
+[[mutualaid.org => http://mutualaid.org]]是一个无政府主义技术集体，中心在纽约、莫斯科和洛杉矶。
+
+* 邮箱账户
+* 邮件列表
+* 网站托管
+* 英语和俄语
+
+h2. Taharar!
+
+[[Taharar! => http://www.taharar.org]]（阿拉伯语“解放你自己！”）是一个自治项目，旨在为西亚和北非从事社会正义议题的个人、集体和团体赋权，为他们提供替代性的通信和技术服务、信息、资源和支持。Taharar! 的愿景是：通过提供本地语言（包括阿拉伯语、波斯语、希伯来语、库尔德语等）的无障碍资源池，让人们能够通过使用和推广自由开源软件与技术，掌控自己的安全通信手段，创造民主替代方案，从而对抗西亚和北非盛行的数字审查。
+
+h2. Artikel-140.nl
+
+[[artikel-140.nl => https://artikel-140.nl]]是一个年轻的自洽技术集体，坚持隐私和安全的立场。
+
+h2. hackbloc.org
+
+[[hackbloc.org => https://hackbloc.org]]的使命是研究、创造和传播信息、工具与战术，让人们能够以解放性的方式使用技术。我们通过教育和行动支持和加强本地社区。我们努力互相学习，把技能投向创造性的目标，探索和研究积极的黑客行动主义，捍卫自由的互联网和自由的社会！
+
+* 邮箱账户
+* 邮件列表
+* XMPP
+* 爱好者杂志
+* 安全培训
+
+h2. Gleducar
+
+[[Gleducar => http://www.gleducar.org.ar]]是一个 2002 年在阿根廷出现的自由教育项目。它也是阿根廷教育和技术领域重要的非政府组织（民间协会）。它是一个独立社区，由教师、学生和教育行动者组成，因对集体工作、合作式知识建构和知识自由分发的共同兴趣而联系在一起。项目围绕开放教育、开放获取、自由知识、大众教育、同伴教育、协作学习和自由技术等主题展开。他们推动在学校使用自由软件作为教学和技术系统，目标是改变教育内容的生产、构建和传播范式。[[维基百科 => https://en.wikipedia.org/wiki/Gleducar]]
+
+* 自由开放的数字化教育
+
+h2. GuardaChuva.org
+
+[[GuardaChuva.org => http://GuardaChuva.org]]研究小组是一个跨学科空间，诞生于 2005 年中期，目标是推动关于信息社会、网络空间和技术的研究。为此，研究小组进入技术—科学—信息环境，利用自身知识托管网页、Wiki、图书馆编目，以及不同网络行动者团体的独立自治项目。
+
+h2. Saravá
+
+[[Saravá => https://www.sarava.org]]是一个多学科集体，目标是优化社会团体对技术的使用，始终关注人机关系中人的一面。我们的研究包括让目标各异的小团体共享同一套物理设施，从而整合并节省技术资源。

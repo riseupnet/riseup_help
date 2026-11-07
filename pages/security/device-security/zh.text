@@ -1,0 +1,3 @@
+@title = "设备安全"
+
+<%= child_summaries heading: 1, include_toc: true %>

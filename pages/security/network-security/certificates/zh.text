@@ -1,0 +1,87 @@
+@title = '证书'
+
+h2. 什么是证书？
+
+在互联网上，需要用到[[公钥证书 => https://en.wikipedia.org/wiki/Public_key_certificate]]来验证人或电脑的身份。这种证书也叫“SSL 证书”或“身份证书”。这里我们统称为“证书”。
+
+特别是，建立安全连接需要证书。没有证书，你可以确保没有别人在监听，但你完全可能正在和错误的电脑通信！所有 riseup.net 服务器和所有 riseup.net 服务都允许或要求使用安全连接。
+
+为了确认你确实在和 Riseup 建立安全连接，可以按下面的步骤验证我们的证书。使用 Riseup 的服务并不要求你必须做这个验证。但是，如果不验证，你就无法确定自己真的连到了我们的服务器，也无法确定连接是安全的。
+
+h2. 验证 Riseup 的证书
+
+要验证这些指纹，你需要查看浏览器认为的证书指纹，并与下面列出的指纹比较。如果两者不同，就有问题。提醒一下：完整验证很困难，需要理解 OpenPGP。
+
+Riseup 证书的指纹是：
+
+<pre>
+<%= render :file => 'riseup-signed-certificate-fingerprints.txt', :type => :raw %>
+</pre>
+
+h3. 什么时候应该验证这些指纹？
+
+当指纹发生变化，或者你使用的是自己无法控制的电脑（例如网吧或图书馆的电脑）时，就应该验证。
+
+h3. 基本验证
+
+# 在浏览器里找到它看到的证书指纹。大多数浏览器可以点击地址栏里的锁图标，这会显示所用证书的详细信息，包括指纹。
+# 把浏览器显示的指纹与上面列出的指纹比较。
+
+如果你想做完整验证，就需要遵循一个更复杂的技术流程，其中涉及 OpenPGP 知识。
+
+h3. 完整验证
+
+警告：这个过程相当技术化，需要熟悉 OpenPGP 和命令行。它假定你已经安装了 <code>gpg</code> 程序。
+
+h4. 导入 Riseup 的 OpenPGP 密钥
+
+继续之前，请确保你已经[[选择了一个好的密钥服务器 => /gpg-best-practices#selecting-a-keyserver-and-configuring-your-machine-to-refresh-your-keyring]]。
+
+在终端里（按 *Alt+F2*，输入 @gnome-terminal@），从密钥服务器导入 Riseup 的 OpenPGP 公钥：
+
+<code>gpg --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
+<code>gpg --fingerprint 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
+
+第一行会把密钥导入你的密钥环，但不能保证你导入的是正确的密钥。<code>--fingerprint</code> 命令让你看到密钥指纹，从而确认导入的密钥是否正确。你应该会看到包含下面这一行的输出：
+
+<pre>
+Key fingerprint = 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E
+</pre>
+
+你并没有特别的理由去信任这把密钥。你可以看看谁信任过它：
+
+<code>gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E</code>
+
+h4. 验证 Riseup 的证书
+
+你可以在终端里输入下面的命令，验证本页列出的指纹确实来自 riseup.net：
+
+bc. wget -qO - https://riseup.net/certificates/riseup-signed-certificate-fingerprints.txt | gpg --auto-key-retrieve --verify --output -
+
+它会显示上面那条签名消息，然后显示类似下面的输出：
+
+bq. gpg:                using RSA key 4E0791268F7C67EABE88F1B03043E2B7139A768E                                      
+gpg: Good signature from "Riseup Networks <collective@riseup.net>" [unknown]                                    
+gpg:                 aka "Riseup Treasurer <treasurer@riseup.net>" [unknown]                                    
+gpg: WARNING: This key is not certified with a trusted signature!                                               
+gpg:          There is no indication that the signature belongs to the owner.                                   
+Primary key fingerprint: 4E07 9126 8F7C 67EA BE88  F1B0 3043 E2B7 139A 768E                                                                   
+
+你要确认输出里写着“Good signature”！它可能显示良好签名来自“Riseup Treasurer <treasurer@riseup.net>”或“Riseup Networks <collective@riseup.net>”。
+
+除非你已经采取了明确步骤，为 Riseup 集体的密钥建立信任路径，否则你会看到类似下面的警告：
+
+bq. gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+
+不过，你仍然应该看到“Good signature”。
+
+h4. 比较指纹
+
+现在你已经验证了上面的消息包含我们证书的指纹，可以把该值与浏览器提供的值进行比较。在大多数浏览器里，要找到浏览器看到的证书指纹，可以点击地址栏里的锁图标，这会显示所用证书的详细信息，包括指纹。
+
+如果两个值一致，而且你信任 Riseup 的 OpenPGP 公钥，就可以确信自己真的在和 riseup.net 服务器通信。
+
+h2. 我想了解更多！
+
+太好了，这是一个重要话题。我们鼓励你阅读[[这篇文章 => http://lair.fifthhorseman.net/~dkg/tls-centralization/]]，它用非技术的方式清楚说明了证书颁发机构带来的问题，并提出了一些有趣的建议：只需对现有架构和协议做一点调整，就能让情况变得更好。

@@ -1,0 +1,96 @@
+@title = 'Tor'
+@summary = '洋葱路由'
+@nav_title = 'Tor'
+
+欢迎来到激动人心的 Tor 世界！本页会用尽量少的步骤带你上手。现在你只需要知道：[[Tor => https://www.torproject.org]] 是一个用于在线匿名和隐私保护的好工具。
+
+h2. 安装 Tor
+
+第一步是下载 Tor Browser。Tor 项目提供了不少下载包，先根据你的操作系统选择[[“Tor Browser 安装包” => https://www.torproject.org/download]]。
+
+在撰写本文时，Tor Browser 只支持 Windows、macOS、Linux 和 Android。iOS 用户可以使用 [["Onion Browser" => https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8]]，它是 Tor Browser 的免费开源替代品，Tor 项目也鼓励使用。
+
+下载 Tor Browser 后，根据你的操作系统按下面的说明操作。
+
+
+h3. Windows 说明
+
+下载 Tor Browser 安装程序后，双击它开始安装。选择语言，选择要保存套件的位置，然后点击“确定”。你选择的位置至少要有 181 MB 可用空间。如果你想把套件留在电脑上，保存到桌面是个不错的选择。如果你想把它移到另一台电脑，或者减少留下的痕迹，就保存到 U 盘。完成后，一定要勾选“添加开始菜单和桌面快捷方式”（1），方便以后启动浏览器。
+
+!/security/network-security/tor/tb-install-finished.png!
+
+如何使用 Tor，见下面的“使用 Tor”部分。
+
+h3. macOS
+
+下载 Tor Browser 套件后，直接点击它开始安装。macOS 会自动解压，你会得到一个所选语言的 TorBrowser 应用（例如 TorBrowser_en-US.app）。点击 TorBrowser 应用，启动连接向导。连接到 Tor 后，它会启动 Tor Browser。
+
+!/security/network-security/tor/screenshot-osx-torbrowser-icon.png!
+
+如何使用 Tor，见下面的“使用 Tor”部分。
+
+h3. Linux
+
+下载与你的架构匹配的文件，保存到某个位置，例如“~/Downloads”。你可以用归档管理器、Ark 或 Xarchiver 等图形工具解压，也可以在命令行解压：
+
+* 32 位 Linux：<code>tar -xvf ~/Downloads/tor-browser-linux32-X.X.X_LANG.tar.xz</code>
+* 64 位 Linux：<code>tar -xvf ~/Downloads/tor-browser-linux64-X.X.X_LANG.tar.xz</code>
+
+其中 X.X.X 是浏览器归档的版本号，LANG 是你使用的语言。例如，如果你在 64 位机器上安装 9.0.5 版英文 Tor Browser，文件名就是“tor-browser-linux64-9.0.5_en-US.tar.xz”。
+
+解压后，进入解压创建的新文件夹（“tor-browser_en-US”），用 chmod 命令把 `start-tor-browser.desktop` 变成可执行文件：
+
+bc. cd tor-browser_en-US
+chmod +x start-tor-browser.desktop
+
+现在你可以用 @./start-tor-browser.desktop@ 命令执行它，或者在文件管理器里双击它，启动连接向导。
+
+!/security/network-security/tor/tb-desktop-file.png!
+
+Linux 用户可能更愿意用 [["torbrowser-launcher" => https://github.com/micahflee/torbrowser-launcher/]]。这个工具可以方便地确保你的 Tor Browser 是正版且最新的。
+
+*不要以 root 身份解压 Tor Browser。*
+
+h3. Android
+
+Tor Browser 可以从 [["Google Play 商店" => https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en_US]]下载，也可以下载 APK 文件。你可以从 Play 商店安装，也可以下载或手动安装 APK（如果你不想用 Play 商店）。
+
+h2. 使用 Tor
+
+解压或安装完成后，你可以在 Windows 开始菜单里输入“Tor Browser”，然后点击“启动 Tor Browser”（2）应用（有些系统上叫“Start Tor Browser.exe”），或者点击新创建的桌面图标。在 macOS 上，直接从“应用程序”菜单启动 Tor Browser。
+
+!/security/network-security/tor/tb-start-conwiz.png!
+
+如果你使用 Linux，需要进入解压后的 Tor Browser 目录，双击“start-tor-browser”（有时后缀是“.desktop”）。你也可以在终端里进入 Tor Browser 目录，运行 @./start-tor-browser.desktop --register-app@，把 Tor Browser 添加到应用程序菜单。
+
+Tor 准备好后，Tor Browser 会打开一个菜单，上面有“连接”和“配置”按钮。除非你生活在一个审查互联网的压迫性国家，或者你想通过代理连接 Tor 网络，否则可以忽略这些。点击“连接”后，Tor 会建立连接，并自动打开一个类似 Firefox 的浏览器。只有通过 Tor Browser 访问的网页才会经过 Tor。Google Chrome、Firefox 等其他浏览器不受 Tor 影响。浏览之前，最好[[确认你已经连上 Tor 网络 => https://check.torproject.org/]]。为了避免混淆，使用 Tor Browser 时不要同时运行普通的 Firefox 浏览器；最好在启动前关掉已有的 Firefox 窗口。
+
+!/security/network-security/tor/tb-good-con.png!
+
+浏览结束后，像平常一样关闭浏览器即可。出于隐私原因，你访问过的网页列表和所有 Cookie 都会被删除。
+
+h2. Riseup 的 Tor 洋葱服务
+
+Tor 不仅能让用户隐藏位置，也能让服务器隐藏位置。你可以通过我们的[[Tor 洋葱服务 => https://www.torproject.org/docs/onion-services.html.en]]地址访问 Riseup 的服务。每当你看到以 .onion 结尾的 URL，那就是一个 Tor 洋葱服务。如果你正在运行 Tor，只要把该洋葱地址填到平时填普通地址的地方（例如在启用了 Tor 的浏览器地址栏里），它就会通过 Tor 网络连接到我们的服务器。
+
+下面是 Riseup 的 Tor 洋葱服务列表。如果你在验证时遇到困难，可以下载并验证[[这个文件 => /security/network-security/tor/hs-addresses-signed.txt]]：
+
+<pre>
+<%= render :file => 'hs-addresses-signed.txt', :type => :raw %>
+</pre>
+
+h2. 警告与说明
+
+首先要注意：Tor 可能非常慢。有时你不会觉得它慢，但有时你会以为它完全坏了。体验会随着 Tor 改变连接路由而变化。这是因为你的连接至少要经过三台电脑。如果其中两台飞快，第三台却慢如蜗牛，你的数据就只能按蜗牛的速度传输。
+
+其次，Tor 本身可能相当安全，但你电脑上的其他软件未必。你需要改变一些习惯，并重新配置软件！光有 Tor 并不足以维持匿名。更多信息见 Tor 项目网站的[[文档部分 => https://torproject.org/docs/documentation.html.en]]。在 Tor 系统上做任何可能有风险的事情之前，请仔细阅读这些信息。
+
+第三，洋葱地址不需要 SSL/TLS（也就是 https），因为它本身就是一条完整的加密隧道，并具有完美前向保密。多一层保护也无妨，所以你仍然可以通过 SSL/TLS 保护的通道连接；但要注意，证书不会通过验证（因为主机名是 *.onion），你需要[[手动完成验证 => security/network-security/certificates]]。
+
+本文档中的部分文字来自 [[Tor 项目网站 => https://www.torproject.org]]，采用知识共享署名 3.0 许可。
+
+h2. 其他资源
+
+* 电子前哨基金会的[[监视自卫项目 => https://ssd.eff.org/]]提供了大量有用而有趣的信息。尤其相关的是他们的[[Tor 页面 => https://ssd.eff.org/en/module/how-use-tor-windows]]。
+
+* [[Tor 项目网站 => https://www.torproject.org]]几乎能回答你关于 Tor 项目以及如何有效使用该软件的所有问题。

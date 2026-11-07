@@ -1,0 +1,121 @@
+@title = '更好地浏览网页'
+
+h2. 选择网页浏览器
+
+四大主流浏览器——Firefox、Chrome、Microsoft Edge/IE 和 Safari——近年来都出现过严重的安全漏洞。因此，无论你选择哪一个，都要确保使用最新版本。
+
+在我们的[[浏览器评分卡 => browser-score-card]]里，这四大浏览器全都不及格。不过，安装某些扩展（见下文）可以大幅改善它们。
+
+另一种选择是 Tor 项目提供的 Firefox 修改版，它针对更高的安全性和匿名性做了调整，叫做 [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]]。
+
+h2. 调整设置
+
+h3. 禁用第三方 Cookie
+
+第三方 Cookie 是广告网络用来跟踪你跨网站浏览行为的标识符。它们令人厌恶，而且没有任何正当用途。
+
+* Firefox：首选项 > 隐私 > 接受第三方 Cookie > 从不。
+* Chrome：设置 > 显示高级设置... > 内容设置 > 阻止第三方 Cookie 和网站数据。
+
+h3. 退出时清除 Cookie
+
+大多数浏览器保留 Cookie 的时间远超必要。最好把浏览器配置为退出时删除 Cookie。
+
+* Firefox：首选项 > 隐私 > 保留直到 > 我关闭 Firefox。
+* Chrome：设置 > 显示高级设置... > 内容设置 > 仅在退出浏览器之前保留本地数据。
+
+h3. 禁用 Java
+
+Java 也有很多安全问题，而你很可能从来没用过它。赶快删除或禁用它。
+
+* Firefox：附加组件 > 插件 > Java > 永不激活。
+* Chrome：设置 > 显示高级设置... > 内容设置 > 默认不运行插件。
+
+h3. 更改默认搜索引擎
+
+调整设置时，顺便把默认搜索引擎换成 [[duckduckgo.com => https://duckduckgo.com]]。在尊重隐私的搜索引擎中，Riseup 推荐 DuckDuckGo。设置说明见[[桌面浏览器 => https://duck.co/help/desktop/adding-duckduckgo-to-your-browser]]或[[移动浏览器 => https://duck.co/help/mobile]]。
+
+h2. 浏览器扩展
+
+除非另有说明，下面列表中的扩展同时适用于 Firefox 和 Chrome。
+
+h3. 必备扩展
+
+这些是每个人都应该始终使用的浏览器扩展。它们稳定、开源，而且很少导致网站出错。
+
+<table class="table">
+<tr>
+  <td>
+    !/security/network-security/better-web-browsing/img/ublock-64.png!
+  </td>
+  <td>
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*]（[[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]]、[[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]）可以拦截大多数广告和跟踪网络。它类似 Adblock Plus 或 Disconnect，但效果更好，速度也快得多。
+  </td>
+</tr>
+<tr>
+  <td>
+    !/security/network-security/better-web-browsing/img/https-64.png!
+  </td>
+  <td>
+    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] 会在网站支持时自动切换到安全的 TLS 连接。这有助于防止别人监控你浏览的网页内容，但它不会隐藏你访问了哪些网站（除非你还同时使用 [[Tor => tor]] 或 [[VPN => vpn]]）。
+  </td>
+</tr>
+<tr>
+  <td>
+    !/security/network-security/better-web-browsing/img/badger-64.png!
+  </td>
+  <td>
+    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] 会动态检测跟踪你浏览行为的尝试，并阻止这些跟踪器的内容。Privacy Badger 的设计目的不是拦截广告，所以它不能替代 uBlock；但它包含一些 uBlock（默认模式下）没有的安全功能。
+  </td>
+</tr>
+</table>
+
+使用说明：
+
+* 泄漏 IP 地址：所有浏览器在使用音频或视频会议时都会泄漏你的真实 IP 地址。如果你在使用 VPN 或 Tor 的同时进行音频/视频聊天，应该打开 uBlock 设置，启用防止 WebRTC 泄漏真实 IP 地址的选项。
+* uBlock 高级模式：如果你把 uBlock 运行在[[高级模式 => https://github.com/gorhill/uBlock/wiki/Advanced-user-features]]下，就不要再同时运行 Privacy Badger。
+
+h3. 进阶扩展
+
+这些扩展面向高级用户，因为它们用起来比较复杂，或者会导致很多网站故障。
+
+这些扩展试图弥补网页浏览器工作方式中的基本隐私缺陷。然而，许多网站的正常功能恰恰依赖这些隐私缺陷，所以修复这些问题的尝试，往往会让网站无法正常工作。
+
+这些隐私缺陷包括：
+
+* *HTTP Referrer*：当你点击链接时，浏览器会把来源网站的位置发送给新网站。由于某个页面的 URL 可能包含敏感或可识别个人身份的信息，应该禁用 HTTP Referrer。你只能通过扩展来做到这一点。
+* *HTTP User-Agent*：你的浏览器会向访问的每个网站发送一个特殊的“User-Agent”字符串。这个字符串包含大量不常见的信息，与其他数据结合后，可以用来唯一识别你的流量。如今这个浏览器指纹已经没有多少意义，最好使用通用值，例如 Tor Browser 使用的值。
+* *HTML5 Canvas*：许多网站开始使用 HTML5 Canvas 来唯一标识你的浏览器并跟踪你的行为。目前还没有办法彻底禁用它，不过一些新扩展做了粗糙的尝试。
+* *JavaScript*：如今大多数网站都离不开 JavaScript，但有时你可能希望禁用它。启用 JavaScript 时，网站更容易对你的浏览器做指纹识别并跟踪你的行为。此外，大多数浏览器安全漏洞都是由 JavaScript 引起的。
+
+适用于 Firefox：
+
+* [[Self Destructing Cookies（Firefox）=> https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] 会在某个网站的所有标签页都关闭后清除该网站的 Cookie（不需要重启浏览器）。
+* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] 让你有选择地阻止 JavaScript、插件或其他资源，并控制第三方资源。它还有用户代理伪装、阻止 Referer 等大量隐私功能，实际上可以替代 NoScript 和 RequestPolicy。
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/]] 可以让你修改 HTTP User-Agent。
+* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] 可以让你对特定网站禁用 HTML5 Canvas 支持。
+
+适用于 Chrome：
+
+* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] 让你有选择地阻止 JavaScript、插件或其他资源，并控制第三方资源。它还有用户代理伪装、阻止 Referer 等大量隐私功能，实际上可以替代 NoScript 和 RequestPolicy。
+* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] 可以让你修改 HTTP User-Agent。
+* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] 可以阻止大多数 HTML5 Canvas 指纹识别（非开源）。
+
+h3. 有害或不推荐
+
+尽管下面这些扩展很流行，我们还是建议你避开它们。
+
+* [[Adblock Plus => https://adblockplus.org/]] 曾经是拦截广告和跟踪的最佳扩展。但现在它搞了一套贿赂机制：广告商可以付费绕过它的过滤规则。而且，uBlock 的技术本来也更好。
+* [[Disconnect => https://disconnect.me/disconnect]] 的工作方式类似 uBlock，而且是开源的。如果你已经在用 uBlock，就不需要 Disconnect；不过它有一些 uBlock 没有的可视化功能。
+* [[Ghostery => https://www.ghostery.com]] 的工作方式类似 uBlock，但默认设置很糟糕，允许大多数跟踪，而且源代码是专有的。
+* Flash Block（Firefox）是一个让你“点击后才播放”Flash 的扩展。更好的做法是卸载 Flash。而且，这个功能现在已内置于浏览器。
+* 过去需要 [[Better Privacy => https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/]] 来删除 LSO 或“Flash Cookie”，但自从有了 [[ClearSiteData API => https://en.wikipedia.org/wiki/Local_shared_object#Browser_control]]，就不再需要它了。
+* TrackMeNot 会生成虚假的搜索流量。这个想法很有意思，但直接用 DuckDuckGo 要好得多。
+
+h2. 验证 Riseup 的证书指纹
+
+在互联网上，需要证书来验证人或电脑的身份。这种证书也叫 SSL 证书或身份证书。这里我们统称为“证书”。
+
+特别是，建立安全连接需要证书。没有证书，你可以确保没有别人在监听，但你完全可能正在和错误的电脑通信！所有 riseup.net 服务器和所有 riseup.net 服务都允许或要求使用安全连接。
+
+要确认你正在与 Riseup 安全通信，请参见[[如何验证 Riseup 的证书 => /security/certificates]]。

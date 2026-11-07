@@ -1,0 +1,31 @@
+@title = 'StartTLS'
+
+h2. 关于 StartTLS
+
+StartTLS 用于在邮件服务商之间中转邮件时，加密它们之间的网络连接。
+
+StartTLS 的优点：
+
+* *易于使用*，你不需要操心它。
+* 它可以保护元数据，减少被大规模监控网收集的风险。
+
+缺点：
+
+* 用户无法证明某条特定消息是通过安全方式传输的。
+
+Riseup 会与一些其他行动者邮件服务商一起实践 StartTLS 验证。
+
+h2. 一段糟糕的邮件旅程
+
+* 红色：不安全，监听者可以读取邮件（如果正文用 OpenPGP 加密，至少邮件头仍可被读取）
+* 绿色：安全，传输已加密。
+
+!/security/network-security/starttls/smtp-01_large.png!
+
+h2. 一段更好的邮件旅程
+
+!/security/network-security/starttls/smtp-02_large.png!
+
+h2. 一段使用 StartTLS 的邮件旅程
+
+!/security/network-security/starttls/smtp-03_large.png!

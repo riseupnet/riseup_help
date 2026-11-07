@@ -1,0 +1,87 @@
+@title = "Riseup 证书颁发机构"
+
+h2. 什么是证书颁发机构？
+
+在互联网上，需要[[证书 => https://en.wikipedia.org/wiki/Public_key_certificate]]来验证人或电脑的身份，并建立到服务的安全连接，防止别人监听你的连接。所有 riseup.net 服务都要求安全连接，因此使用证书来验证服务器的身份。
+
+一份证书要被认定为有效，必须经过一家私人公司的认可，这家公司充当[[证书颁发机构 => https://en.wikipedia.org/wiki/Certificate_Authority]]。这种中心化权威模式会带来令人不安的社会和政治后果，尤其是当我们把安全托付给它时。我们希望有一天，替代性的、非等级化的模式能取代这套有缺陷的系统。
+
+在那之前，Riseup 从一家被你的浏览器、邮件客户端或聊天客户端认可的商业证书颁发机构购买了证书。这些证书可以无缝使用，你不需要做任何额外操作。
+
+不过，riseup.net 的一些服务，例如 [[Riseup VPN => vpn]]，使用的是由我们自己的证书颁发机构签发的证书。本页面向需要下载并安装 Riseup 证书颁发机构的人。
+
+h2. 下载 Riseup CA 证书
+
+每个 CA（证书颁发机构）都有一个公开分发的文件。这个文件叫“CA 证书”，你本地程序用它来确认所连接服务器的身份。
+
+下载 Riseup CA 证书：
+
+* 点击 "RiseupCA.pem":RiseupCA.pem
+
+所有可用的 OpenVPN 客户端都需要这个文件。
+
+h2. 验证 Riseup CA 证书（可选）
+
+使用 Riseup CA 证书并不要求你必须做这个验证。但是，如果不验证，你就无法确定自己下载的是正确的证书，也无法确定连接是安全的。
+
+提醒一下：这个验证过程很困难，需要理解 OpenPGP，而且最终依赖于你信任某个已经为 riseup.net 公钥作过认证的熟人。
+
+简要步骤如下：
+
+# 下载 "RiseupCA.pem":RiseupCA.pem 文件（见上文）。
+# 导入 Riseup 的 PGP 公钥。
+# 验证本页的说明确实由 Riseup 的 PGP 密钥签名。
+# 计算 RiseupCA.pem 的指纹。
+# 把你计算出的指纹与本页列出并签名的指纹进行比较。
+
+h3. 导入 Riseup 的 PGP 公钥
+
+在命令行里：
+
+<code>
+$ gpg --keyserver keys.riseup.net --recv-key 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
+</code>
+
+你并没有特别的理由去信任这把密钥。你可以看看谁为它作过认证：
+
+<code>
+$ gpg --list-sigs 0x4E0791268F7C67EABE88F1B03043E2B7139A768E
+</code>
+
+h3. 验证本页说明
+
+现在你已经导入了 Riseup 的公钥，可以验证证书是否正确：
+
+# "下载这个经过加密签名的文件，里面包含 RiseupCA.pem 的 SHA256 校验值":riseupCA-signed-sha256.txt
+# 然后在终端里运行：@gpg --verify riseupCA-signed-sha256.txt@
+# 你应该会看到类似输出：
+<code>gpg: Good signature from "Riseup Networks <collective@riseup.net>"</code>
+
+你要确认输出里写着“Good signature”！如果这段文字被改过，这些信息就不应被信任。
+
+除非你已经采取了明确步骤，为 Riseup 集体的密钥建立信任路径，否则你会看到类似下面的警告：
+
+<pre>
+  gpg: WARNING: This key is not certified with a trusted signature!
+  gpg:          There is no indication that the signature belongs to the owner.
+</pre>
+
+不过，你仍然应该看到“Good signature”。
+
+h3. 计算 RiseupCA.pem 的指纹
+
+打开终端，使用 @certtool@ 或 @openssl@ 获取正确的指纹：
+
+<code>$ certtool -i < RiseupCA.pem |egrep -A 1 'SHA256 fingerprint'</code>
+<code>$ openssl x509 -sha256 -in RiseupCA.pem -noout -fingerprint</code>
+
+h3. 比较指纹
+
+现在你已经计算出了 RiseupCA.pem 的指纹或 sha256sum，可以把该值与 Riseup 签名并发布在本页上的值进行比较。
+
+如果两个值一致，而且你信任 Riseup 的 PGP 公钥，那么在使用 RiseupCA.pem 的应用程序时，你就可以确信自己真的在和 riseup.net 服务器通信。
+
+*请注意*
+上面说的指纹是证书内容的哈希值，不是 RiseupCA.pem 文件本身的哈希值。要直接从文件计算，需要先去掉头尾标记，再做 base64 解码，然后才能成功计算哈希。例如：
+
+<code>head -n -1 RiseupCA.pem | tail -n +2 | base64 -d | sha256sum</code>

@@ -1,0 +1,165 @@
+@title = '托管洋葱服务的最佳实践'
+@nav_title = '托管洋葱服务'
+
+h2. 如何使用本指南
+
+这里汇集了我们运行洋葱服务的经验，以及像你这样的人提供的有用建议。如果你有好的建议，或者能把它翻译成其他语言，[[欢迎贡献 => https://github.com/riseupnet/riseup_help]]！
+
+“洋葱服务”（Onion Services）以前叫“Tor 隐藏服务”（Tor Hidden Services），但后来改了名，因为“隐藏服务”并不能准确描述它所能做到的事情。本指南使用新名称。
+
+h2. 安装和配置洋葱服务
+
+关于如何配置洋葱服务，请[[阅读 Tor 项目的指南 => https://www.torproject.org/docs/tor-hidden-service]]。
+
+h3. 确保 Tor 软件是最新的
+
+仅仅安装 Tor、配置好洋葱服务，然后就不管它，是不够的。你必须保持更新，才能修复严重的安全漏洞。所有软件都有缺陷，Tor 也不例外。请确保软件始终更新。
+
+h3. 很多东西都可以做成洋葱服务
+
+你可以通过洋葱服务做很多事情，不只是提供一个网站！你还可以提供 IMAP、SMTP，或者[[在 MTA 之间投递邮件 => https://www.void.gr/kargig/blog/2014/05/10/smtp-over-hidden-services-with-postfix/]]，以及其他许多可能性。让洋葱服务遍地开花吧！但要小心：如果服务因为某种原因发起 DNS 请求（例如解析 SMTP 服务器的地址以便发信），就会泄漏信息。一种解决办法是：让运行服务的机器所有流量都强制经过 Tor，例如用 iptables 做全流量转发。
+
+h3. 不要同时运行中继
+
+不要在同一台实例上同时运行中继和洋葱服务。把中继和洋葱服务放在同一个 IP 和/或同一台机器上，会帮助攻击者做流量关联和指纹识别。不过 Tor 足够聪明，*不会*把自己选为电路节点，所以这不算灾难，但最好还是避免。
+
+h3. 监控洋葱服务的可用性
+
+虽然稳定性已经大幅提高，洋葱服务仍可能因为多种原因失效。设置一些监控，定期连接你的洋葱服务，确认它们仍在正常工作。
+
+h3. 一个洋葱服务使用多个端口
+
+你不需要为每个要提供的服务都创建一个单独的洋葱服务，只要多加几行 HiddenServicePort，例如：
+
+bc. HiddenServiceDir /usr/local/etc/tor/other_hidden_service/
+HiddenServicePort 6667 127.0.0.1:6667
+HiddenServicePort 22 127.0.0.1:22
+
+如果你想用同一个 Tor 客户端运行多个洋葱服务，只需在配置文件里再加一行 HiddenServiceDir。
+
+h3. 不需要 SSL/TLS
+
+洋葱地址其实不需要 SSL/TLS（也就是 https），因为它本身是一条完整的加密隧道，并具有 PFS（完美前向保密）。*但是*，在洋葱服务上多加几层保护也没有坏处！
+
+多层保护固然好，但要注意：通常重定向到 SSL/TLS 意味着证书无法通过验证（因为主机名是 *.onion，而不是你为公共服务准备的证书）。如果你能拿到 .onion 证书，那就可以用！
+
+如果你的洋葱服务确实使用 TLS，请确保它不会发送某个外部网站的证书。
+
+h3. 洋葱服务与 Rails 4
+
+要让 .onion 网站和 Rails 正常配合，并且在不用 .onion 时也能通过 HTTPS 工作，你需要改几个默认设置。
+
+首先要改的是不要使用 [@config.force_ssl = true@] 选项。这个选项是 Rails 应用生产环境的默认值，会强制使用安全 Cookie 和 HSTS。把 [@my_rails_app/config/environments/production.rb@] 改成：
+
+bc. config.force_ssl = false
+
+设置 [@force_ssl = false@] 之后，我们希望在使用普通 HTTPS 时恢复强制安全 Cookie 和 HSTS 的能力。为此，要确保 Web 服务器为 HTTPS 虚拟主机设置 HSTS 头，并加入 secureheaders gem 来强制安全 Cookie。[@secureheaders@] gem 只会为 HTTPS 连接设置 [@Secure@] Cookie 标志，这一点和 Rails 的 [@force_ssl@] 不同。这样，普通 HTTPS 网站就有安全 Cookie，而 .onion 网站使用非安全 Cookie，这正是我们想要的。
+
+在 [@my_rails_app/Gemfile@] 中为你的应用安装 secureheaders gem：
+
+bc. gem 'secure_headers', '~> 3.5'
+
+（把 3.5 换成当时可用的 secureheaders 版本）
+
+在 [@config/initializers/secureheaders.rb@] 中添加 secureheaders 配置：
+
+<pre><code>
+    SecureHeaders::Configuration.default do |config|
+      config.cookies = {
+        secure: true,
+        httponly: true,
+        samesite: {
+          strict: true
+        }
+      }
+    end
+</pre></code>
+
+p. 注意：在这种设置下配置 Apache 或 nginx 时，不要在*端口 80 的洋葱虚拟主机*上把 X_FORWARDED_PROTO 环境变量设为 https。你*应该*在 :443 的非洋葱虚拟主机上设置它。
+
+h2. 洋葱服务可能会被发现
+
+如果你不够小心，让服务器泄漏了关于你、你的电脑或你所在位置的可识别信息，那么洋葱服务就不再隐藏了！
+
+h3. 泄漏真实服务器
+
+一个常见的失误是服务器签名。例如，很容易判断一个 Web 服务器是 thttpd 还是 Apache，或者通过 banner 得知正在运行的服务和操作系统的版本。
+
+洋葱地址泄漏的另一种方式，是浏览器里的 Referer 头：当客户端浏览隐藏服务网站，然后点击一个明网/隐藏服务链接时，就可能泄漏。Tor Browser 已经[[处理了 => https://trac.torproject.org/projects/tor/ticket/9623]]许多这类细小泄漏，所以一定要鼓励用户[[使用最新的 Tor Browser => https://www.torproject.org/download/download-easy]]，而不是用他们自己的浏览器配合 Tor。
+
+如果运行洋葱服务的服务器同时也暴露在明网上，要确保：无论你连接明网服务还是洋葱服务，都不能在 Host 头里指定另一个服务并得到响应。你应该确保洋葱服务只监听内部 IP，外部服务只监听外部 IP。确保这里不出错的最简单方法，是把服务运行在一台没有外部 IP 的机器上。
+
+确保服务器时间正确，并由 NTP 自动校正，以免时间偏差帮助别人识别你的服务器。
+
+确保你没有无意中暴露信息。例如，使用 PHP 时，如果泄漏了 phpinfo() 或 $_SERVER，或者暴露了错误消息，就可能泄露服务器的真实名称/地址！
+
+研究如何防范服务器端请求伪造（SSRF）。这种攻击让服务器发起外部连接（DNS 查询等），从而暴露机器的真实位置。严格的出站防火墙是缓解这个问题的一种方法。
+
+洋葱服务在线时间越长，位置被发现的风险就越高。最突出的攻击方式是：建立洋葱服务可用性的画像，并匹配人为诱导的流量模式。
+
+目前协议中[[存在一些方式 => https://blog.torproject.org/blog/hidden-services-need-some-love]]，让恶意中继即使在你没有告诉任何人的情况下，也能得知你的洋葱地址。如果你想跟进 Tor 项目如何修复这些问题，请[[关注相关讨论 => https://trac.torproject.org/projects/tor/ticket/8106]]。
+
+h3. OnionScan
+
+使用 [OnionScan => https://onionscan.org] 工具扫描 HTTP 洋葱服务，查找泄漏。它会查找 IP 地址、图片中的 EXIF 元数据，以及启用 mod_status 之类可能泄漏服务器真实 IP 的配置。
+
+h3. 洋葱服务不一定需要隐藏！
+
+你可以为一个公开提供的服务提供洋葱服务，而服务器本身并不打算隐藏。洋葱服务有助于保护用户免受被动网络监控：它们让窥探者不知道用户从哪里连接、连接到哪里。
+
+h3. 让你的洋葱服务容易找到
+
+如果你提供洋葱服务，就要让用户知道它们的存在、洋葱主机名和端口，并以能证明其合法性的方式公布（例如，像 [[Riseup 这样 => tor#riseups-tor-hidden-services]]对洋葱地址列表做数字签名，或者把它们放进 DNS TXT 记录）。
+
+h3. 请求你常用的在线服务提供洋葱服务！
+
+倡导更多洋葱服务：向你使用的服务提供商提出要求，让他们提供洋葱服务。这些服务容易搭建和维护，没有理由不提供！
+
+h3. 迁移洋葱服务
+
+你可以在不同系统之间迁移洋葱服务：把 @/var/lib/tor/<hidden_service>@ 目录复制到新系统，确保新系统上的 @torrc@ 配置和旧系统相同。启动新的之前，一定要先禁用并停止旧的。洋葱服务目录里包含洋葱服务的主机名和私钥。
+
+h2. 保护你的服务
+
+h3. 保护私钥
+
+洋葱服务的私钥必须保密！这把密钥不应该公开，不应该分享，并且应该设置合适的权限，使系统上除 Tor 进程之外的任何人都无法读取它。
+
+h3. 备份私钥
+
+如果你计划长期提供服务，最好把 private_key 文件备份到安全的地方。
+
+h3. 小心 localhost 绕过！
+
+你要非常小心，不要意外暴露服务器上仅限于本机访问的内容。例如，如果你在 Apache 里提供 /server-status（来自 mod_status，Debian 的 Apache 默认启用）来监控 Web 服务器健康状态，它通常只允许 127.0.0.1 访问；或者你可能有只允许 localhost 的 .htaccess 规则，等等。
+
+有几种方法可以解决这个问题：
+
+* *换一台机器*：考虑把洋葱服务运行在另一台机器（物理机或虚拟机）上，而不是实际服务所在的机器。好处是你可以把服务和洋葱服务隔离（一个被攻破不会影响另一个），也有助于隔离潜在的信息泄漏。
+* *隔离*：和上面类似，你也可以把 Tor 和服务隔离，让它们运行在[[不同的网络命名空间 => https://people.debian.org/~lunar/blog/posts/ksp_keyserver/]]里。[[Tails => https://tails.net/contribute/design/Tor_enforcement/Network_filter/]] 使用“要么走 Tor，要么失败”的包过滤规则。
+* *公网 IP*：把洋葱服务配置为连接服务的公网 IP，而不是 localhost/127.0.0.1。这样 Tor 就不会把 127.0.0.1 当作源地址，能避免大多数错误配置。例如：
+
+bc. HiddenServiceDir /var/lib/tor/hidden/ftp/
+HiddenServicePort 80 192.168.1.1:81
+
+注意：这会让你的服务器和虚拟主机可能被外部实体访问。越来越多的攻击者试图找出配置不当的 Cloudflare 背后站点的真实位置，因为这些站点仍然在公网 IP 上暴露真实的 httpd。人们经常用 masscan 和 zmap 扫描整个 IPv4 地址空间，尝试连接公开暴露的 httpd，并向它请求“高价值”的洋葱地址，看它是否会发送 Host 头，从而让站点提供被探测的虚拟主机内容。
+
+绑定到与“真实”端口不同的端口，是 Apache 上潜在的泄漏源。如果存在目录，例如 @foo.onion/css/@，那么对 @foo.onion/css@ 的请求会让 Apache 发出 301 重定向；但在发出重定向时，它会包含自己认为服务正在监听的端口。它不会把请求重定向到 @foo.onion/css/@，而是重定向到 @foo.onion:81/css/@，这既破坏了网站，又暴露了 httpd 真正运行的端口。
+
+* *Unix 套接字*：考虑使用 Unix 套接字支持，而不是 TCP 套接字（需要 Tor 0.26 或更高版本）。如果这样做，洋葱服务将和服务本身运行在同一台服务器上。使用套接字方式时，你应该可以在 systemd unit 里设置 privatenetwork=yes，从而获得很好的隔离，例如：
+
+bc. HiddenServicePort 80 unix:/etc/lighttpd/unix.sock
+
+但服务本身需要支持 Unix 套接字，否则你得设置一些 socat 重定向，在 TCP 和 Unix 套接字之间转换（nginx、twisted、lighttpd 都支持）。
+
+* *仔细审计*：仔细审计，并定期重新审计系统，找出那些允许 localhost/127.0.0.1、但禁止其他所有地址的配置，然后调整它们来规避问题（例如让 /server-status 监听另一个 IP；让 Web 服务器为 /server-status 监听另一个端口；给它加上密码保护，等等）。
+
+h3. 让洋葱服务要求身份验证
+
+如果你设置了 HiddenServiceAuthorizeClient（见 man 手册），那么只有获得授权的客户端才能使用它。这意味着，除非你攻破 Tor（或者拿到授权密钥），否则连攻击这个服务都做不到。
+
+h3. 保护洋葱服务免受高级攻击
+
+如果你运行的是高安全性洋葱服务，并且正受到老练对手的攻击，应该安装 [[Vanguards 插件 => https://github.com/mikeperry-tor/vanguards]]，它可以防御多种高级攻击。请阅读 [[Tor 项目的博客文章 => https://blog.torproject.org/announcing-vanguards-add-onion-services]]，了解如何安装和使用这个工具。
+
+此外，你还可以在 torrc 中启用 Sandbox 1，开启内置沙箱。

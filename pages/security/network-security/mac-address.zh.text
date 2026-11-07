@@ -1,0 +1,129 @@
+@title = "修改你的 MAC 地址"
+
+本指南会教你如何做到：每次连接计算机网络时，都生成一个新的 MAC 地址。
+
+h1. 什么是 MAC 地址？
+
+[[MAC（媒体访问控制）地址 => https://en.wikipedia.org/wiki/Mac_address]]是存在于所有网络硬件中的唯一地址。它标识你用来连接计算机网络的特定网卡（因此，如果你不经常更换网卡，它也标识你的电脑）。它和 IP 地址一样能唯一标识你，但与你使用的硬件联系得更直接。
+
+h1. 为什么要随机化 MAC 地址？
+
+由于 MAC 地址是唯一标识符，它可以被用来在互联网上跟踪你。这在开放接入点尤其重要，例如大型咖啡连锁店或快餐店提供的免费网络。**如果你连接免费公共网络，强烈建议使用下文所述的生成 MAC 地址的方法，因为这很简单，而且别人很可能正在利用你的 MAC 地址建立完整的个人画像**。
+
+h1. 这会带来哪些限制？
+
+有些路由器通过 MAC 地址识别你，给你分配特定 IP，或者允许你使用其服务。任何与特定网络适配器绑定的服务，都可能在你使用这种方法后停止工作。不过，如果你不知道这意味着什么，那很可能不是什么问题。更常见的情况是：你每次连接公共网络时，都需要在自动弹出的门户页面上点击确认，才能获得互联网服务。典型例子是企业提供的免费无线接入点——你每次连接免费企业 Wi-Fi 时，可能都得重新“同意”一遍“服务条款”。
+
+h1. 在 Linux 上用 Network Manager 自动随机生成 MAC 地址
+
+h2. Linux（通用）
+
+要查看当前的 MAC 地址，可以查看 `/sys/class/dev`，例如运行 `ls /sys/class/dev`，或者打开 Network Manager。`lo` 通常表示 localhost，局域网连接通常以 `e` 开头。`ip link` 可以提供更多细节。
+
+h2. 使用 NetworkManager 的 Ubuntu 10.04
+
+Ubuntu 10.04（截至 2010 年 9 月 1 日，以及不久的将来，所有使用 Network Manager 的发行版）自带的 Network Manager 版本不支持网络连接的“pre-up”脚本——这意味着它无法在连接网络之前运行脚本。这个功能本来可以很容易地让人在每次连接时用脚本修改 MAC 地址。由于这个限制，本指南专门做到：每次 Network Manager 服务启动时生成一个随机 MAC 地址，然后每次你断开网络时再生成一个新的。
+
+# 打开终端并运行：
+<code>
+sudo apt-get install macchanger
+</code>
+# 建议此时记下你当前的 MAC 地址，以便之后验证脚本确实修改了它。对于有线（以太网）连接，输入：
+<code>
+macchanger eth0
+</code>
+对于无线适配器，输入：
+<code>
+macchanger wlan0
+</code>
+输出大致如下：
+<code>
+Current MAC: 00:0c:1d:47:a4:0c (Mettler & Fuchs Ag)
+</code>
+在这个例子里，**00:0c:1d:47:a4:0c** 就是 MAC 地址，格式始终是 **XX:XX:XX:XX:XX:XX**。括号里的文字会有所不同。
+# 创建文件 **/etc/init/macchanger.conf**。可以输入：
+<code>
+sudo nano /etc/init/macchanger.conf
+</code>
+# 把下面几行粘贴进去，保存文件（在 nano 里按 Ctrl+X 保存并关闭）：
+
+<pre>
+# macchanger - set MAC addresses
+#
+# Set the MAC addresses for the network interfaces.
+
+description     "change mac addresses"
+
+start on starting network-manager
+
+pre-start script
+        /usr/bin/macchanger -A wlan0
+        /usr/bin/macchanger -A eth0
+        /usr/bin/macchanger -A wmaster0
+        /usr/bin/macchanger -A pan0
+        #/usr/bin/logger wlan0 `/usr/bin/macchanger -s wlan0`
+        #/usr/bin/logger eth0 `/usr/bin/macchanger -s eth0`
+end script
+</pre>
+这个脚本会在 Network Manager 服务通过 Ubuntu Upstart 守护进程启动后运行，然后使用 **-A** 参数生成一个随机的、带有厂商标识的 MAC 地址。**macchanger** 程序可以生成各种类型的地址——这种方法在主动网络监控看来可能有点奇怪，但被动网络监控和后台跟踪很可能不会注意到。对大多数人来说，这种方法应该最有效。
+# 创建文件 **/etc/network/if-post-down.d/random-mac**，把下面几行粘贴进去：
+
+<pre>
+#!/bin/sh
+
+MACCHANGER=/usr/bin/macchanger
+
+[ "$IFACE" != "lo" ] || exit 0
+
+# Bring down interface (for wireless cards that are up to scan for networks), change MAC address to a random vendor address, bring up the interface
+/sbin/ifconfig "$IFACE" down
+macchanger -A "$IFACE"
+</pre>
+
+这个脚本会在网络断开时再次修改 MAC 地址。如果网络从未被正确关闭，而且你从不重启，那么同一个地址有可能被使用不止一次。
+# 让 **random-mac** 脚本可执行：
+<code>
+sudo chmod +x /etc/network/if-post-down.d/random-mac
+</code>
+# 重启 Network Manager 使之生效：
+<code>
+sudo service network-manager restart
+</code>
+
+现在，你的电脑会自动为你拥有的每一个物理网络适配器（有线和 Wi-Fi）创建新的随机 MAC 地址（无需你干预，也不会有通知），从而降低你在公共网络上的可跟踪性！
+
+h2. Arch Linux 及使用 systemd 的最新 Linux 发行版
+
+参见 https://wiki.archlinux.org/index.php/MAC_address_spoofing
+
+h1. 其他操作系统
+
+这个方法很容易移植到不同的 Linux/BSD 设置，也可能适用于 OS X 和 Windows——如果你写了新的实现，请添加到这里！
+
+h2. Mac OS / iOS
+
+现代 Apple 设备通常默认启用 MAC 地址随机化。运行 macOS Sequoia 15.0 或更新版本的 Mac 电脑可以访问 Wi-Fi 随机化设置，而较早的设备只能对点对点连接做随机化。要检查 Wi-Fi MAC 随机化设置，请按以下步骤操作。
+
+# 打开“系统设置”，选择“Wi-Fi”。
+
+# 在“已知网络”列表中找到你的 Wi-Fi 网络，点击最右侧的三个点，从下拉菜单中选择“网络设置”。
+
+# 如果“私人 Wi-Fi 地址”还没有设置为“轮换”，就把它设为“轮换”。这会在首次连接网络时随机化你的 MAC 地址。
+
+h2. iOS
+
+如前所述，MAC 地址随机化（Apple 称之为“私人 Wi-Fi 地址”）在现代 iPhone 上通常默认开启，但并非总是如此。要检查 Wi-Fi MAC 随机化设置，请按以下步骤操作。
+
+# 打开“设置”，选择“Wi-Fi”。
+
+# 在“已知网络”列表中找到你的 Wi-Fi 网络，点击最右侧的 i 图标。
+
+# 如果“私人 Wi-Fi 地址”还没有设置为“轮换”，就把它设为“轮换”。这会在首次连接网络时随机化你的 MAC 地址。
+
+h2. Windows
+
+Windows 也有 MAC 地址轮换功能，但该设置默认关闭。
+
+# 打开“设置”，选择“网络和 Internet”，然后选择“Wi-Fi”。
+
+# 在底部启用“随机硬件地址”。

@@ -1,0 +1,63 @@
+@title = '浏览器隐私评分卡'
+
+h3. 评分卡
+
+<%= render 'table' %>
+
+h3. 项目说明
+
+*Cookie 控制*
+
+有些网站确实需要 Cookie，而你可能愿意允许你信任的网站使用 Cookie，所以不该直接屏蔽所有 Cookie，而应该按网站分别允许。这里评估浏览器的标准是：它能否让用户屏蔽不受信任的网站（这应该是默认设置），同时允许受信任的网站（应该是一份容易修改的列表）。
+
+*第三方 Cookie*
+
+每当你登录网站时，都需要 Cookie（技术上可以不用 Cookie 建立登录会话，但那样很不安全）。然而，几乎所有网站也会传输来自第三方的 Cookie，用来跟踪你跨多个网站的点击和行为。第三方 Cookie 没有任何正当用途——它们唯一的用途就是让你处于监控之下。所有浏览器都应该默认屏蔽第三方 Cookie。
+
+*退出跟踪*
+
+有三种退出行为跟踪的方法：
+
+* Do Not Track HTTP 请求头：“Do Not Track”请求头告诉网站你不想被跟踪。这个想法很好，但还没有任何广告商支持，也许永远不会支持。目前，Firefox 4 和 Internet Explorer 9 可以选择支持 Do Not Track 请求头。
+* 跟踪保护列表：支持“跟踪保护列表”的浏览器允许你订阅一份会被屏蔽的公司列表。这是个好方法，因为它今天就能用，能有效屏蔽几乎所有跟踪。Internet Explorer 9 内置了对跟踪保护列表的支持；Firefox 和 Chrome 可以通过 [[Adblock Plus 扩展 => https://adblockplus.org/en/]]添加。
+* 退出 Cookie：退出 Cookie 是广告行业推动的一套机制。这种方法有很多缺陷，研究人员已经表明，广告商只是勉强遵守。广告商允许你设置特殊的 Cookie，告诉它们你不想被跟踪。但这些 Cookie 很容易被删除。所以一些浏览器扩展可以让你在设置后保留这些 Cookie（例如 Chrome），或者自动设置它们（例如 Firefox 的 Beef TACO）。
+
+h3. 评分卡说明
+
+Firefox
+
+* 退出跟踪：[[2011 年初宣布 => https://firstpersoncookie.wordpress.com/2011/01/23/more-choice-and-control-over-online-tracking/]]，Firefox 将支持一种可选能力，让用户告诉网站自己想要“退出”跟踪。这个退出功能默认关闭，而且很少有网站支持。从技术上说，Firefox 的做法是“正确的”，[[EFF 也赞扬了 Firefox 的举措 => https://www.eff.org/deeplinks/2011/01/mozilla-leads-the-way-on-do-not-track]]。不过，我们仍然给 Firefox 不及格，因为这种屏蔽目前实际上没什么用；只有当法律要求跟踪器遵守它时才会有效，而这似乎极不可能——尤其是在全球互联网上执行国家隐私法非常困难。
+
+Internet Explorer
+
+* 退出跟踪：最初，微软的工程师做出了当时最好的反跟踪技术：浏览器会自动检测你的行为是否被跨网站跟踪，并阻止这种跟踪。而且这项功能默认开启！广告业高管得知后，[[微软内部爆发了一场斗争 => /assets/45575/WSJ%202010.%20Microsoft%20Quashed%20Effort%20to%20Boost%20Online%20Privacy.pdf]]。最终工程师输了，广告商赢了：Internet Explorer 仍然带有这个功能，但只有在[[InPrivate => https://windows.microsoft.com/en-US/windows-vista/InPrivate-frequently-asked-questions]]浏览模式下才能使用。这让它变得没用，因为必须为每个浏览器窗口手动启用，而且在普通浏览模式下不起作用（这一点很重要，因为只有在普通浏览模式下，你才能使用书签、历史记录和表单自动填充等许多方便功能）。
+
+Internet Explorer 9
+
+Internet Explorer 第 9 版比之前所有版本都好得多。
+
+* 退出跟踪：IE9 是第一个支持 *Do Not Track* 请求头和 *跟踪保护列表* 的浏览器。
+
+Chrome
+
+* 退出跟踪：[[2011 年初宣布 => https://googlepublicpolicy.blogspot.com/2011/01/keep-your-opt-outs.html]]，Chrome 将允许用户设置一种特殊的“退出”Cookie，[[网络广告倡议组织（NAI）=> https://www.networkadvertising.org/managing/opt_out.asp]]的成员会识别它。这种方法几乎没用。[[一份报告发现 => /assets/45578/WPF%20NAI%20report%20Nov2%202007fs.pdf ]] NAI 的 Cookie 并不能稳定生效，忽略了新的画像和跟踪方式，没有覆盖大多数行业组织，也缺乏透明度。报告的结论是：“NAI 唯一的成功，就是让监管者误以为自我监管能够公平有效地照顾行为广告目标消费者的利益。”
+* Cookie 跟踪：Chromium 让用户控制 Cookie 的方式相当先进。你可以屏蔽所有 Cookie，同时在看到某个网站时，通过 URL 弹出的右键菜单，有选择地为某些域名启用 Cookie。你也可以在那个对话框里直接看到当前网站设置了哪些 Cookie。此外，当你把配置设为“先询问”时，确认对话框会一个一个出现，而不是像 Firefox 那样一次性全部弹出。
+* Flash Cookie：Chrome 做对了——当你清除 Cookie 时，它也会清理 Flash Cookie。
+
+Safari
+
+* 第三方 Cookie：Safari 胜出，它是[[唯一默认禁用第三方 Cookie 的浏览器 => https://www.grc.com/cookies/stats.htm]]。
+* 其他：Safari 是唯一不受历史记录收集影响的浏览器，值得加分。
+* 退出跟踪：目前我认为没有任何计划。
+
+h3. 如何拿到“A+”
+
+浏览器要怎么做，才能在评分卡上拿到“A+”？
+
+* 第三方 Cookie：第三方 Cookie 没有任何正当用途，应该始终屏蔽。
+* 退出跟踪：理想情况是……
+** 默认启用：至少，用户第一次使用浏览器时应该看到一个选择。
+** Do Not Track 请求头：浏览器应该像 Firefox 那样发送“do-not-track”请求头，以防哪天真的有人遵守它。
+** 检测跟踪：浏览器可以、也应该检测到跟踪行为并关掉它。你不应该依赖跟踪器自愿遵守你的设置。这正是 IE 原本要做的事，直到高管把它扼杀。
+** 黑名单：允许用户订阅会被屏蔽的跟踪器列表。
+** 在普通浏览中生效：如果退出跟踪只在特殊的“安全浏览”模式下启用，那就毫无用处。

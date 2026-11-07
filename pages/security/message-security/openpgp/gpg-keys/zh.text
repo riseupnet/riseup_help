@@ -1,0 +1,344 @@
+@title = 'OpenPGP 最佳实践'
+@this.alias = 'best-practices'
+
+p(alert alert-danger). 本指南已废弃。你只需要使用默认设置，因为 GnuPG 的默认行为已经足够合理。保持软件更新即可。就这样，完成了！<br><br>如果你以前调整过配置，建议从基础配置重新开始，以免继续使用那些比默认设置更不安全的过时建议。
+
+h2. 如何使用本指南
+
+我们在这里收集了大量关于配置 GnuPG 的信息。每条配置建议都有详细解释。其中许多更改需要你修改机器上的 GnuPG 配置文件 @~/.gnupg/gpg.conf@。为了方便，所有建议的 @gpg.conf@ 更改都汇总在[[本页底部附近 => /best-practices#putting-it-all-together]]。我们强烈建议你不要盲目复制文件，而要阅读文档，理解每项设置的作用。
+
+还要注意，本指南是为旧版 GnuPG（1.4）编写的，其中一些建议可能与新版 GnuPG（2.1 及以上）的默认设置重复。我们正在[[审查 => https://github.com/riseupnet/riseup_help/issues/451]]，以确保指南是最新的。你也可以[[提交修改 => https://github.com/riseupnet/riseup_help/edit/master/pages/security/message-security/openpgp/gpg-best-practices/en.text]]来帮忙。
+
+h2. 使用自由软件，并保持更新
+
+信息安全太重要了，不能交给专有软件。你应该使用自由的 OpenPGP 实现，并保持更新。标准的自由 OpenPGP 实现是 [[GnuPG => https://gnupg.org/]]，它可用于所有主流现代操作系统。不过，仅仅安装 GnuPG 然后不管它是不够的。你*必须*保持更新，才能修复严重的安全漏洞。所有软件都有缺陷，GnuPG 也不例外。如果你运行的是：
+
+- GNU/Linux（Debian、Ubuntu、Mint、Fedora 等）：你的操作系统会自动安装 GnuPG 并替你保持更新。
+- Windows：你可以安装 [[Gpg4win => https://gpg4win.org/]]，并[[订阅 gpg4win-announce => https://lists.wald.intevation.org/mailman/listinfo/gpg4win-announce]]，以便知道何时更新。
+- macOS：你可以安装 [[GPGTools 的 GPG Suite => https://gpgtools.org/]]。这个套件会在有更新时通知你，你也可以关注他们的[[推特 => https://twitter.com/GPGTools]]。
+- 在其他操作系统上从源码构建：你应该[[订阅 gnupg-announce => https://lists.gnupg.org/mailman/listinfo/gnupg-announce]]，以便知道何时更新。
+
+h2. 选择密钥服务器，并配置机器刷新密钥环
+
+如果你不定期刷新公钥，就无法及时获知过期和撤销信息，而这两者都非常重要！接收密钥更新有两个环节。许多用户会把密钥更新发送到密钥服务器。要接收这些更新，你首先必须确保使用的密钥服务器工作正常；然后，你必须配置机器定期接收密钥更新。
+
+h3. 使用 sks 密钥服务器池，而不是某一台特定服务器，并使用安全连接
+
+大多数 OpenPGP 客户端默认配置一台特定的密钥服务器。这不理想，因为如果服务器故障，或者更糟，看起来在工作但实际不正常，你可能收不到关键的密钥更新。这不仅是一个单点故障，也是 OpenPGP 用户之间关系信息泄漏的主要来源，因此会成为攻击目标。
+
+因此，我们推荐使用 [[sks 密钥服务器池 => https://sks-keyservers.net/overview-of-pools.php]]。这个池里的机器会定期做健康检查，确保正常工作。如果某台服务器运行不佳，它会自动从池中移除。
+
+你还应确保通过加密通道与密钥服务器池通信，使用的协议叫 hkps。要使用 hkps，首先需要安装 gnupg-curl：
+
+bc. sudo apt-get install gnupg-curl
+
+然后，要使用这个密钥服务器池，你需要[[下载 sks-keyservers.net 的 CA 证书 => https://sks-keyservers.net/sks-keyservers.netCA.pem]]，并保存到机器上的某个位置。请记住保存路径！接下来，你应该[[验证证书的指纹 => https://sks-keyservers.net/verify_tls.php]]。
+
+现在，你需要在 @~/.gnupg/gpg.conf@ 中使用以下参数，并指定上面保存 .pem 文件的完整路径：
+
+bc. keyserver hkps://hkps.pool.sks-keyservers.net
+keyserver-options ca-cert-file=/path/to/CA/sks-keyservers.netCA.pem
+
+p. 现在，你与密钥服务器的交互会通过 hkps 加密，任何窥探你流量的人都无法看到你的社会关系图。例如，如果你在只支持 hkp 的密钥服务器上运行 @gpg --refresh-keys@，窥探者会看到你密钥环里的每一把密钥，以及你请求更新的动作。这是相当有意思的信息。
+
+_注意：_ hkps://keys.indymedia.org、hkps://keys.mayfirst.org 和 hkps://keys.riseup.net 都提供这种服务（不过还是建议使用池）。
+
+bq. 注意，从 GnuPG 2.1.18（至少）开始，这已是默认行为。
+
+h3. 确保所有密钥都通过你选择的密钥服务器刷新
+
+创建密钥时，个人可以指定用某台特定密钥服务器来获取自己的密钥。建议你在 @~/.gnupg/gpg.conf@ 中使用下面这个选项，忽略这种指定：
+
+bc. keyserver-options no-honor-keyserver-url
+
+这很有用，因为：（1）它可以防止别人指定不安全的方法来获取自己的密钥；（2）如果指定的服务器使用 hkps，刷新会因为 CA 证书不匹配而失败，密钥就永远无法刷新。还要注意，攻击者可以指定自己控制的密钥服务器，来监控你何时、从哪里刷新他的密钥。
+
+h3. 缓慢、一次一把地刷新密钥
+
+现在你已经配置好密钥服务器，需要确保定期刷新密钥。在 Debian 和 Ubuntu 上，最好的方法是使用 parcimonie：
+
+bc. sudo apt-get install parcimonie
+
+[[Parcimonie => https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/]] 是一个守护进程，会通过 [[Tor => https://www.torproject.org/]] 从密钥服务器缓慢刷新你的密钥环。它会随机休眠，并为每把密钥使用新的 Tor 电路。这样做的目的是让攻击者难以把密钥更新和你的密钥环关联起来。
+
+你*不要*使用 @gpg --refresh-keys@，也不要使用邮件客户端里的“刷新密钥”菜单项，因为这会向任何监听者和密钥服务器运营者暴露你感兴趣的全部密钥。
+
+h3. 不要盲目信任来自密钥服务器的密钥
+
+任何人都可以把密钥上传到密钥服务器，你没有理由相信下载的密钥真的属于密钥上列出的人。因此，你应该和密钥所有者本人核对完整的密钥指纹。核对应该在现实生活中或通过电话进行。
+
+在你验证了所需的密钥指纹后，可以从密钥服务器池下载密钥：
+
+bc. gpg --recv-key '<fingerprint>'
+
+下一步是确认你确实从密钥服务器拿到了正确的密钥。密钥服务器可能给你一把与你请求不同的密钥。如果你的 GPG 版本低于 2.1，下载后必须手动确认指纹（2.1 及更高版本会拒绝接受来自密钥服务器的错误密钥）。
+
+有两种方法确认密钥指纹：
+
+方法一：检查指纹现在是否在你的密钥环里：
+
+bc. gpg --fingerprint '<fingerprint>'
+
+方法二：尝试用该指纹（在本地）给密钥签名：
+
+bc. gpg --lsign-key '<fingerprint>'
+
+如果你确信从密钥所有者那里拿到了正确的指纹，首选方法是本地签名。如果你想公开表明你与密钥所有者的关系，可以用可公开导出的 [@--sign-key@] 代替。
+
+注意上面的单引号（'），它应该包住完整指纹，而且这个命令必须这样写才能工作。双引号（"）也可以。
+
+h3. 不要依赖 Key ID
+
+短的 OpenPGP Key ID，例如 0x2861A790，只有 32 位。它们已经被[[证明 => https://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html]]很容易被另一把 Key ID 相同的密钥伪造。长的 OpenPGP Key ID（例如 0xA1E6148633874A3D）有 64 位。它们[[很容易发生碰撞 => http://thread.gmane.org/gmane.ietf.openpgp/7413]]，这[[也是一个潜在的严重问题 => https://www.debian-administration.org/users/dkg/weblog/105]]。
+
+如果你想用密码学上足够强的密钥标识符，就应该使用完整指纹。你*永远*不应依赖短 Key ID，甚至长 Key ID。
+
+你至少应该设置 @keyid-format 0xlong@ 和 @with-fingerprint@ 这两个 GPG 选项（放进 @~/.gnupg/gpg.conf@），以便日常使用时把 Key ID 显示长度增加到 64 位，并始终显示指纹。
+
+注意 Enigmail 曾有一个[[缺陷 => https://sourceforge.net/p/enigmail/bugs/239/]]，在 1.7.0 版中已修复：如果你添加 'with-fingerprint' 选项，在列出密钥时显示完整指纹，那么 Enigmail 密钥管理窗口里显示的指纹会是子密钥的指纹，而不是主密钥的指纹。你随时可以找到主密钥的指纹（例如，在密钥签名聚会上要把指纹交给别人核对时），运行下面的命令可以显示所有私钥的指纹：
+
+bc. gpg --with-fingerprint --list-secret-key
+
+h3. 导入前检查密钥指纹
+
+如果你收到或下载了一个 <keyfile> 密钥文件，可以在导入密钥环之前显示它的指纹。这样你就能验证指纹，而不必冒险污染密钥环、加入一把已被攻破的密钥：
+
+pre. gpg --with-fingerprint <keyfile>
+
+h2. 密钥配置
+
+现在你知道如何从维护良好的密钥服务器定期接收密钥更新了，接下来要确保 OpenPGP 密钥配置得当。其中许多更改可能需要你生成一把新密钥。
+
+h3. 使用强主密钥
+
+有些人还在用 1024 位 DSA 密钥。你真的应该迁移到更强的位数和哈希算法。2011 年，美国政府机构 NIST 已经[[弃用 => https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]] DSA-1024；从 2013 年起，它甚至被[[禁止 => https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]。2015 年，NIST 还[[禁止 => https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar1.pdf]]了 1024 位 RSA，以及使用 SHA-1 签名。
+
+建议生成一把 3072 位 RSA 密钥，使用 sha512 哈希算法，写一份由新旧两把密钥共同签名的[[迁移声明 => key-transition]]，然后通知大家。也可以看看这份[[好文档 => https://ekaia.org/blog/2009/05/10/creating-new-gpgkey]]，它*详细*说明了创建这种密钥的步骤，确保你选对哈希算法（如果你使用低于 1.4.10 的 GnuPG 版本，可能会有点复杂）。
+
+迁移可能很痛苦，但值得，也是练习工具的好机会！
+
+h3. 使用不超过两年的过期时间
+
+人们总觉得自己不希望密钥过期，但实际上你*应该*希望它过期。为什么？因为*即使密钥已经过期，你也随时可以延长过期时间！* 这个“过期”更像一个安全阀或“死人开关”，会在某个时间点自动触发。只要你还能访问私钥材料，就可以解除触发。它的作用是：万一你失去了对密钥的访问权（而且没有撤销证书），还能有一个机制让密钥失效。
+
+设置过期时间意味着你将来需要在某个时候延长它。这是一件需要记住去做的小事（见下一节关于设置提醒的内容）。
+
+你可能觉得这很烦，不想处理；但定期做这件事其实很好，可以让你保持 OpenPGP 技能不生疏。它也向用户表明密钥仍然有效、密钥持有人仍在使用它，还给了你一个机会去检查工具和最佳实践的现状。而且，很多人不会给没有过期时间的密钥签名！
+
+如果你已经生成了没有过期时间的密钥，可以按下面的方法设置过期时间：
+
+bc. gpg --edit-key '<fingerprint>'
+
+现在选择要设置过期时间的子密钥（例如第一把），或者选择 none 来给主密钥设置过期时间，然后输入 'expire' 命令：
+
+bc. gpg> key 1
+gpg> expire
+
+p. 然后设置一个合理的日期，保存密钥并退出（例如 2 年）：
+
+bc. Key is valid for? (0) 2y
+gpg> save
+
+p. 然后你可以把密钥发送到密钥服务器，发布这个更改：
+
+bc. gpg --send-key '<fingerprint>'
+
+h3. 设置日历提醒，提醒你过期日期
+
+你不会记得的，所以最好找点东西提醒你。把提醒设在过期日期前一个月或更早，这样你就有时间从容处理。处理密钥时，你不想被催着赶。
+
+记住：你随时可以延长过期时间（即使已经过期！），所以不需要重新生成密钥，只需要把过期时间延后。定期这样做可以锻炼你的 OpenPGP 肌肉，否则你会忘掉这些操作。
+
+h3. 生成撤销证书
+
+如果你忘记了密码短语，或者私钥被攻破、丢失，你唯一的希望就是等密钥过期（这不是好办法），或者激活撤销证书，把它发布到密钥服务器。这样会通知别人这把密钥已被撤销。
+
+被撤销的密钥仍然可以用来验证旧签名，或者解密数据（如果你还能访问私钥），但不能用来加密发给你的新消息。
+
+bc. gpg --output revoke.asc --gen-revoke '<fingerprint>'
+
+这会创建一个叫 revoke.asc 的文件。你可以把证书打印出来，存到安全的地方（交给你妈妈保管，或者放进异地备份）。如果有人拿到它，就能撤销你的密钥，这会非常麻烦；但如果对方同时也拿到了你的私钥，这恰恰是你想要的结果。
+
+bq. 注意，新版 GnuPG（例如 2.1 及以上）默认会这样做。
+
+h3. 主密钥只用于认证（可能也用于签名），加密使用单独的子密钥
+
+GnuPG 1.4.18（可能更早）及以上版本默认就是这样。如果你用较旧的 OpenPGP 实现创建了密钥，可能需要像下面说的签名子密钥那样，创建新的子密钥。
+
+h3. 使用单独的子密钥进行签名
+
+默认情况下，GnuPG 用同一把子密钥来签名（例如给邮件签名）和认证（例如给另一把密钥签名）。把这两个用途分开很有用，因为其中一个比另一个重要得多。
+
+在这种方案里，你的主密钥只用于认证，而认证很少发生。
+
+创建新子密钥可以在 @--edit-key@ 对话框里用 @addkey@ 命令完成。在对话框中，你可以选择密钥的“能力”……
+
+h3. 把主密钥完全离线保存
+
+这做起来有点麻烦，但有助于保护非常重要的主密钥。如果主密钥被盗，攻击者可以创建新身份、撤销现有身份，并完全冒充你。因此，把密钥“离线”保存是防范这类攻击的好方法。
+
+在执行之前，一定要先创建一把单独的签名密钥，否则没有离线主密钥，你就无法给邮件签名。
+
+提取主密钥有点棘手，但下面的步骤应该能帮你开始：
+
+bc. # extract the primary key
+gpg -a --export-secret-key john.doe@example.com > secret_key
+# extract the subkeys, which we will reimport later
+gpg -a --export-secret-subkeys john.doe@example.com > secret_subkeys.gpg
+# *delete* the secret keys from the keyring, so only subkeys are left
+$ gpg --delete-secret-keys john.doe@example.com
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+# reimport the subkeys
+$ gpg --import secret_subkeys.gpg
+# verify everything is in order
+$ gpg --list-secret-keys
+# remove the subkeys from disk
+$ rm secret_subkeys.gpg
+
+然后，把 @secret_key@ 文件离线保存，最好放在你随身携带的 U 盘里，或者放在有保护措施的保险箱里。也有人用智能卡存储密钥，并和物理钥匙串放在一起。那个设备的安全程度，就是你密钥的安全程度。
+
+再次提醒，确保你有撤销证书。
+
+你可以运行 @--list-secret-keys@，确认私钥材料确实不见了；它应该用 @sec#@ 而不是 @sec@ 来表示缺失的材料。
+
+注意：在某些特殊情况下，@--delete-secret-keys@ 可能无法完全删除私钥材料，@--list-secret-keys@ 仍会显示 @sec@ 而不是 @sec#@。这时，你可以把 @.gnupg@ 目录移走，而不是运行 @--delete-secret-keys@。当然，之后你需要重新导入信任数据库和公钥，大致如下：
+
+bc. instead of gpg --delete-secret-keys john.doe@example.com, do this:
+$ mv .gnupg .gnupg.bak
+# reimport the subkeys
+$ gpg --import secret_subkeys.gpg
+# verify everything is in order
+$ gpg --list-secret-keys
+# remove the subkeys from disk
+$ rm secret_subkeys.gpg
+# reimport public keyring
+$ gpg --homedir .gnupg.bak --export | gpg --import
+# reimport trust db
+$ gpg --homedir .gnupg.bak --export-ownertrust | gpg --import-ownertrust
+# remove backup GPG directory, which will clear *all* secret keys
+$ rm -rf .gnupg.bak
+
+最后注意，在上述操作中，私钥材料是以明文形式存放在磁盘上的。你可能想用 @nwipe@ 之类工具安全删除这些文件，而不是简单用 @rm@ 删除私钥材料。但也要考虑：SSD 等现代磁盘运行着复杂的固件，可能并不真正遵守这类命令，仍会在磁盘上留下私钥材料的痕迹。在这种情况下，最好的防御是使用全盘加密。
+
+注意，这些步骤可能因版本而异。参见[[这个讨论 => https://security.stackexchange.com/questions/31594/what-is-a-good-general-purpose-gnupg-key-setup]]、[[这篇文章 => https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/]]，或者这份面向 GnuPG 2.x 及以上版本的[[指南 => https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html]]。
+
+h3. OpenPGP 密钥检查
+
+有一个方便的工具可以替你执行下面的密钥检查。你可以[[从源码获取 => http://floss.scru.org/hopenpgp-tools/]]，或者如果你使用 Debian 或 Ubuntu，可以直接安装：
+
+bc. sudo apt-get install hopenpgp-tools
+
+注意：@hopenpgp-tools@ 目前不能用于 GnuPG 2.1 及以上版本。这是因为 GnuPG 2.1 及以上版本把公钥和私钥都存放在 @~/.gnupg/pubring.kbx@，而 @hkt@ 期望在 @~/.gnupg/pubring.gpg@ 找到公钥；如果你使用 GnuPG 2.1 及以上版本，它会报错。
+
+要用这个工具运行这些测试，可以这样做：
+
+bc. hkt export-pubkeys '<fingerprint>' | hokey lint
+
+输出会用红色文字显示密钥的问题。如果全是绿色，说明你的密钥通过了下面每一项测试。如果是红色，说明密钥未通过下面某一项测试；你应该修复它，或者在确保 @gpg.conf@ 按建议配置好后生成新密钥。
+
+h4. 确保密钥是 OpenPGPv4
+
+根据 [[RFC4880 => https://tools.ietf.org/html/rfc4880]]：“V3 密钥已废弃。它们有三个弱点。第一，构造一把与任何其他密钥具有相同 Key ID 的 V3 密钥相对容易，因为 Key ID 只是公钥模数的低 64 位。第二，V3 密钥的指纹只哈希密钥材料，不哈希长度，因此指纹碰撞的机会增加。第三，MD5 哈希算法存在弱点，使开发者更倾向于其他算法。关于 Key ID 和指纹的详细讨论见下文。”
+
+要判断密钥是不是 V3，可以这样做：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets |grep version
+
+h4. 主密钥应该是 RSA，理想情况下 3072 位
+
+要检查是否使用 RSA，可以这样做：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 '^:public key packet:$' | grep algo
+
+如果报告的算法是 1，你就在使用 RSA。
+
+如果报告的是 17，那就是 DSA，你需要确认下一项检查报告的位数大于 1024，否则你用的不是 DSA-2。
+
+如果报告的是 19，你用的是 ECDSA；如果是 18，你用的是 ECC。对于这些类型的密钥，下面的位数判断标准并不适用，因为密钥长度会显著缩短。
+
+要检查主密钥的位数，可以这样做：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A2 'public key' | grep 'pkey\[0\]:'
+
+h4. 自签名不应只使用 MD5
+
+可以这样检查：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo'
+
+如果你看到任何 'digest algo 1' 的结果，说明有些自签名使用了 MD5，因为摘要算法 1 就是 MD5。参见 [[OpenPGP RFC 4880 第 9.4 节 => https://tools.ietf.org/html/rfc4880#section-9.4]]里哈希算法与数字的对应表。
+
+要修复，首先在 @~/.gnupg/gpg.conf@ 中设置：
+
+bc. cert-digest-algo SHA512
+
+其次，在密钥上生成新的自签名（例如[[修改密钥的过期日期 => /best-practices#use-an-expiration-date-less-than-two-years]]）。
+
+h4. 自签名不应使用 SHA1
+
+可以这样检查：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep -A 2 signature | grep 'digest algo 2,'
+
+如果你看到任何 'digest algo 2' 的结果，说明有些自签名使用了 SHA1，因为摘要算法 2 就是 SHA1。参见 [[OpenPGP RFC 4880 第 9.4 节 => https://tools.ietf.org/html/rfc4880#section-9.4]]里哈希算法与数字的对应表。
+
+要修复，在 @~/.gnupg/gpg.conf@ 中设置下面的内容后，在密钥上生成新的自签名（例如[[修改过期日期 => /best-practices#use-an-expiration-date-less-than-two-years]]）：
+
+bc. cert-digest-algo SHA512
+
+h4. 声明的摘要算法偏好中，必须至少有一个 SHA-2 家族成员，且优先级高于 MD5 和 SHA1
+
+可以这样检查：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'pref-hash-algos'
+
+然后检查结果。偏好顺序按数字从左到右排列。如果你在看到 '11'、'10'、'9' 或 '8' 之前先看到 '3'、'2' 或 '1'，说明你把偏好设置成优先使用较弱的摘要算法。
+
+要修复，首先在 @~/.gnupg/gpg.conf@ 中设置：
+
+bc. default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+然后像这样设置密钥偏好：
+
+bc. $ gpg --edit-key '<fingerprint>'
+gpg> setpref
+...
+gpg> save
+
+h4. 主密钥应该有合理的过期日期（不超过未来 2 年）
+
+可以这样检查过期日期：
+
+bc. gpg --export-options export-minimal --export '<fingerprint>' | gpg --list-packets | grep 'key expires after'
+
+然后人工检查结果来确认——不过列出的日期是相对于密钥创建时间的，可能不太好理解。
+
+另一种检查过期时间的方法：
+
+bc. gpg --list-keys '<fingerprint>'
+
+它应该显示主密钥和每个关联子密钥的创建日期与过期日期。如果输出里没有看到“expires”，说明你没有正确设置过期日期。
+
+要修复，可以这样做：
+
+bc. $ gpg --edit-key '<fingerprint>'
+gpg> expire
+...
+gpg> save
+
+h2. 把所有设置放在一起
+
+本指南讨论的所有推荐设置，已经合并到 Jacob Appelbaum 的 [[duraconf => https://github.com/ioerror/duraconf]]“加固配置文件合集”里的一个配置文件中。你可以[[右键点击这个链接，把 gpg.conf 保存到 => https://github.com/ioerror/duraconf/raw/master/configs/gnupg/gpg.conf]]你的 @~/.gnupg/gpg.conf@（Linux 和 MacOS）。Windows 用户应把 gpg.conf 保存到 @AppData\GnuPG\@。
+
+你需要取消注释和/或根据本地偏好调整以下设置：@default-key@、@keyserver-options ca-cert-file@ 和 @keyserver-options http-proxy@。
+
+h2. 其他建议
+
+h3. 你有私钥材料的加密备份吗？
+
+再检查一遍。
+
+h3. 不要在用户 ID 中包含“Comment”
+
+如果你觉得自己需要在 OpenPGP 用户 ID 里加一个“Comment”字段，[[请先长时间认真考虑是否真的需要 => https://www.debian-administration.org/users/dkg/weblog/97]]。你很可能不需要也不想要它；有了注释字段，别人更难知道他们到底在认证什么。

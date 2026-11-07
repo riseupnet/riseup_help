@@ -1,0 +1,26 @@
+%table.table.table-striped.table-condensed
+  %tr
+    %th(class="col-md-2") 浏览器
+    %th Cookie 控制
+    %th 第三方 Cookie
+    %th 退出跟踪
+  %tr
+    %td Firefox
+    %td <b>C</b><br> 有一些黑名单控制
+    %td <b>D</b><br> 默认启用
+    %td <b>C-</b><br> 只支持“Do Not Track”请求头，默认关闭。
+  %tr
+    %td Edge
+    %td <b>?</b>
+    %td <b>F</b><br>默认启用，有时即使关闭了也会发送。
+    %td <b>B</b><br>同时支持“Do Not Track”请求头和“跟踪保护列表”。（默认启用了哪些？）
+  %tr
+    %td Chrome
+    %td <b>A</b><br>良好的 Cookie 黑名单控制。
+    %td <b>F</b><br>默认启用，有时即使关闭了也会发送。
+    %td <b>D-</b><br>反跟踪支持很糟，只能通过一个叫 <a href="https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe">Keep My Opt-Outs</a> 的可选扩展实现。
+  %tr
+    %td Safari
+    %td <b>?</b>
+    %td <b>B+</b><br>默认禁用，但有时即使关闭了也会发送。
+    %td <b>F</b><br>没有反跟踪功能。
