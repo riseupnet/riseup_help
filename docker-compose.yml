@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  amber:
+    build: .
+    container_name: riseup_help_amber
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - LANG=C.UTF-8
+    command: bundle exec amber server

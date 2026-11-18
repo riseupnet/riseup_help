@@ -1,0 +1,4 @@
+.git
+public/
+*.log
+.DS_Store
