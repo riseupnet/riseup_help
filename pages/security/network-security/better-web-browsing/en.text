@@ -4,9 +4,11 @@ h2. Choosing a web browser
 
 All four major web browsers, Firefox, Chrome, Microsoft Edge/IE, and Safari, have experienced severe security flaws in the recent past, so you should make sure you are using the most up-to-date version, whichever one you choose.
 
-All four major browsers receive a failing grade in our [[browser-score-card]]. However, these browsers can be made much better by installing certain extensions (see below).
+All four major browsers receive a failing grade in our [[browser-score-card]]. These browsers can, admittedly, be made much better by installing certain extensions (see below). It is also worth mentioning that while extensions can harden browsers, they also make the browser more identifiable. A privacy-focused browser is the better privacy choice. 
 
-Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]].
+The major privacy browsers are Librewolf and Mullvad. In terms of available features, Brave is close, but lacks a few privacy features (as can be seen on [[Privacy Tests => https://privacytests.org/]]), and engages in data collection by default (as seen on [[Avoid The Hack => https://browsers.avoidthehack.com/]]). Lastly, Brave is Chromium based, which limits the extensions available. Both Librewolf and Mullvad are built on Gecko, the engine behind Firefox. Librewolf is built on and very similar to Firefox in form and function, but significantly more private by default, and with additional features to further improve privacy. Mullvad is a more locked down environment, similar to the Tor browser but without the routing over the Tor Network. The more private of the two, therefore, is Mullvad, but it is slightly less convenient for everyday use. 
+
+Alternately, the Tor project provides a modified version of Firefox adapted to be more secure and anonymous called [[Tor Browser => https://www.torproject.org/download/download-easy.html.en]]. Tor is the least convenient for everyday use, as going through the Tor Network makes connections much slower. It is undoubtably, however, the most private browser. 
 
 h2. Adjust your settings
 
@@ -49,23 +51,16 @@ These are absolutely essential browser extensions that everyone should be using 
     !/security/network-security/better-web-browsing/img/ublock-64.png!
   </td>
   <td>
-    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+    [*[[uBlock Origin -> https://github.com/gorhill/uBlock]]*] ([[Chrome => https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh]], [[Firefox => https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/]]) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster. It is considered the gold-standard ad-blocker. Unfortunately, it is not available on Chrome any longer. Chrome users are now limited to uBlock Origin Lite, which is still powerful, but has fewer features.
   </td>
 </tr>
+
 <tr>
   <td>
-    !/security/network-security/better-web-browsing/img/https-64.png!
+    !https://addons.mozilla.org/user-media/addon_icons/2693/2693257-64.png?modified=3d803863!
   </td>
   <td>
-    [*[[HTTPS Everywhere => https://www.eff.org/https-everywhere]]*] will automatically switch to secure TLS connections whenever the website supports it. This helps to protect against surveillance of the content of your web browsing, although it does not hide which websites you are visiting (unless you also run [[Tor]] or a [[VPN]]).
-  </td>
-</tr>
-<tr>
-  <td>
-    !/security/network-security/better-web-browsing/img/badger-64.png!
-  </td>
-  <td>
-    [*[[Privacy Badger => https://www.eff.org/privacybadger]]*] dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock (in default mode) does not have.
+    [*[[Port Authority -> https://github.com/ACK-J/Port_Authority]]*] ([[Firefox => https://addons.mozilla.org/en-US/firefox/addon/port-authority/]]) blocks port scans of your computer/network. These scans can potentially deanonymize you, revealing details to the website  about what is on your local network. Tor and Mullvad, which come preinstalled with the NoScript extension, have this functionality already, but for other users this is a noteworthy improvement. Port scans are never necessary and not incredibly common, so it as an easy extension to setup and forget about. Note the [[developer warning => https://github.com/ACK-J/Port_Authority?tab=readme-ov-file#warning]], however - there is a browser setting you'll need to change.
   </td>
 </tr>
 </table>
@@ -83,23 +78,22 @@ These extensions attempt to overcome basic privacy flaws in how web browsers wor
 
 Some of these privacy flaws include:
 
-* *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
+* *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled or truncated. Most browsers truncate Referrers now, but they can be fully disabled through advanced preferences. In Firefox, they can be disabled by navigating to about:config, searching for network.http.sendRefererHeader, and setting it to 0. Fully disabling Referrers can break some websites.
 * *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in this browser fingerprint these days, and it is better to use a generic value, such as the one used by the Tor Browser.
 * *HTML5 Canvas:* Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
 * *JavaScript:* JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
 
 For Firefox:
 
-* [[Self Destructing Cookies (Firefox) => https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
-* [[µMatrix => https://addons.mozilla.org/en-US/firefox/addon/umatrix/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
-* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/]] will allow you to modify the HTTP User-Agent.
-* [[Canvas Fingerprint Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to disable HTML5 canvas support for particular websites.
+* [[Cookie AutoDelete => https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/]] will clean out the cookies for a website when all the tabs for that site have been closed (rather than requiring that you restart the browser).
+* [[No Script => https://addons.mozilla.org/en-US/firefox/addon/noscript/]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It is a gold-standard privacy extension, featured in the Tor and Mullvad browsers.
+* [[User-Agent Switcher => https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/]] will allow you to modify and randomly cycle the HTTP User-Agent. Be aware that a site can still run Javascript to determine your true browser configuration.
+* [[Canvas Blocker => https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/]] will allow you to spoof or disable HTML5 canvas support for particular websites.
 
 For Chrome:
 
-* [[µMatrix => https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf]] allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
-* [[User-Agent Switcher => https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake]] will allow you to modify the HTTP User-Agent.
-* [[CanvasFingerPrintBlock => https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc]] will block most HTML5 Canvas fingerprinting (not open source).
+* [[Random User-Agent Switcher => https://chromewebstore.google.com/detail/random-user-agent-switche/einpaelgookohagofgnnkcfjbkkgepnp]] will allow you to modify and randomly cycle the HTTP User-Agent. Be aware that a site can still run Javascript to determine your true browser configuration.
+* [[Fingerprint Spoofer => https://chromewebstore.google.com/detail/fingerprint-spoofer/facgnnelgcipeopfbjcajpaibhhdjgcp]] will spoof most HTML5 Canvas fingerprinting (not open source).
 
 h3. Harmful or not recommended
 
